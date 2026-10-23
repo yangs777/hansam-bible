@@ -1,0 +1,654 @@
+{
+  "run_id": "20261023T154258Z-a305a9f8",
+  "provider": "Claude Code native cloud",
+  "model_identity": {
+    "requested_or_configured_model": "claude-opus-5-5",
+    "served_model_reported_by_session_api": "claude-opus-5-5",
+    "identity_basis": "Claude Code remote get_session for this session: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5 at drafting time",
+    "session": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "sampling parameters"
+    ],
+    "note": "A model self-report is not source evidence."
+  },
+  "executed_at_utc": "2026-10-23T15:48:18.202052+00:00",
+  "state": "unadopted_model_draft",
+  "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+  "input": {
+    "source_packet": "automation/cloud-packets/20261023T154258Z-a305a9f8.json",
+    "source_packet_sha256": "fb89ed9a0e1fbb88055ba36986e71ab66c0c45303502a5e64084ac0562ddfbe2",
+    "verse_count": 25,
+    "first_id": "Gen.2.1",
+    "last_id": "Gen.3.1",
+    "skipped_in_range": {
+      "Gen.2.18": "deferred_unsupported_readings in automation/source-queue-report.json; not drafted"
+    }
+  },
+  "self_check": {
+    "exact_id_coverage": true,
+    "duplicate_ids": false,
+    "ko_en_es_nonempty": true,
+    "hebrew_provenance_and_rights_attached": true,
+    "no_human_certification_claim": true,
+    "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; ten wording or inter-language issues were corrected before saving (Gen.2.3, 2.8, 2.10, 2.11, 2.12, 2.13, 2.14, 2.19, 2.23, 2.25)",
+    "independent_review": "not performed; GPT and Gemini review remain required",
+    "open_items": [
+      "Gen.2.6 lexical choice for ed is uncertain",
+      "Gen.2.21-22 side versus rib requires editorial decision",
+      "Gen.2.4 and 2.16 leave sentences open across verse boundaries by design",
+      "Gen.2.19 context with deferred Gen.2.18 unchecked"
+    ]
+  },
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "verses": [
+    {
+      "id": "Gen.2.1",
+      "translations": {
+        "ko": "이렇게 하늘과 땅과 그 모든 무리가 완성되었다.",
+        "en": "Thus the heavens and the earth were completed, and all their array.",
+        "es": "Así quedaron concluidos los cielos y la tierra, con todo su conjunto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיְכֻלּוּ는 Pual 와우연속 미완료 3mp로 수동 완료('완성되었다')이다. צְבָאָם은 3mp 접미사로 하늘과 땅 양쪽의 구성물 전체를 가리키므로 '그 모든 무리'로 옮겨 1장 창조 목록 전체를 요약하는 기능을 살렸다.",
+      "counterargument_ko": "צָבָא를 '군대/만상'으로 옮기는 전통(천체나 천사적 존재로 좁히는 해석)이 있고, 2:1을 1장의 마지막 절로 보는 장 구분 문제도 있다. '무리'가 한국어로 사람 집단처럼 들릴 수 있다.",
+      "current_opinion_ko": "요약절이므로 특정 존재로 좁히지 않는 '그 모든 무리/array/conjunto'가 원문의 포괄성에 가장 가깝다.",
+      "reconsider_if_ko": "편집 지침이 צָבָא를 '만상'처럼 고정된 용어로 통일하기로 결정할 경우.",
+      "source_reference": "Gen.2.1",
+      "source_hebrew": "וַיְכֻלּ֛וּ הַשָּׁמַ֥יִם וְהָאָ֖רֶץ וְכָל־צְבָאָֽם׃",
+      "source_hebrew_sha256": "d4d0a02b7c92c96be1f5ebd05257949658fab66f7fb40f1c59dab7b81cd803e1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.2",
+      "translations": {
+        "ko": "하나님께서는 일곱째 날에 자신이 하시던 일을 마치셨다. 그리고 일곱째 날에 자신이 하시던 모든 일을 그치고 쉬셨다.",
+        "en": "On the seventh day God completed his work that he had been doing, and on the seventh day he ceased from all his work that he had been doing.",
+        "es": "En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "표시된 MT-WLC는 두 번 모두 בַּיּוֹם הַשְּׁבִיעִי(일곱째 날)이다. וַיְכַל을 '마치셨다'로, וַיִּשְׁבֹּת을 '그치다/쉬다'의 기본 의미인 '그치고 쉬셨다'로 옮겨 피로 회복의 뉘앙스를 피했다. 두 절의 평행 구조를 그대로 유지했다.",
+      "counterargument_ko": "일반적으로 보고되는 이문으로 칠십인역·사마리아오경·페쉬타가 첫 번째 위치에 '여섯째 날'을 읽는다고 알려져 있으나, 이번 실행에서 그 사본·역본을 직접 대조하지 않았으므로 증거로 쓰지 않는다. 또 וַיְכַל을 '마쳤다고 선언하셨다/마친 상태였다'(대과거)로 읽어 일곱째 날에 일을 했다는 인상을 피하자는 해석도 있다.",
+      "current_opinion_ko": "번역은 표시된 MT를 따르고, '여섯째 날' 독법은 보고된 이문으로만 각주 후보에 둔다. 대과거 해석은 통사적으로 강제되지 않아 본문에 넣지 않았다.",
+      "reconsider_if_ko": "편집부가 실제 증거 대조 후 다른 본문 기반을 채택하거나, 해설에서 대과거 독법을 표준으로 정할 경우.",
+      "source_reference": "Gen.2.2",
+      "source_hebrew": "וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכָּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃",
+      "source_hebrew_sha256": "6b50c784732340c186cb2bdb81830231fadba4fff41eff8edd28e9cfa247e61e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.3",
+      "translations": {
+        "ko": "하나님께서 일곱째 날을 복되게 하시고 그날을 거룩하게 하셨다. 그날에 하나님께서 창조하여 이루시던 자신의 모든 일을 그치고 쉬셨기 때문이다.",
+        "en": "God blessed the seventh day and made it holy, because on it he ceased from all his work that God had created in making.",
+        "es": "Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado al hacerla."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כִּי 이유절을 그대로 살렸다. 마지막 אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשׂוֹת은 '창조함으로써 이룬/창조하여 만든'처럼 בָּרָא와 עָשָׂה를 결합한 어색한 구문이므로 의미를 평탄화하지 않고 '창조하여 이루시던'으로 두 동사를 모두 반영했다.",
+      "counterargument_ko": "לַעֲשׂוֹת을 목적('계속 만들도록 창조하신')으로 읽어 피조물의 지속적 활동을 함축한다는 해석, 혹은 단순 중언법('창조하고 만드신')으로 매끄럽게 옮겨야 한다는 반론이 있다. 영어 'created in making'은 부자연스럽다.",
+      "current_opinion_ko": "어색함 자체가 원문의 특징이므로 의미를 하나로 고정하지 않는 직역적 결합을 유지한다. 영어 표현은 가독성 검토 대상이다.",
+      "reconsider_if_ko": "GPT/Gemini 검토에서 가독성 중심 대안('all the work of creating that he had done')이 의미 손실 없이 합의될 경우.",
+      "source_reference": "Gen.2.3",
+      "source_hebrew": "וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכָּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃",
+      "source_hebrew_sha256": "4adbebc19114ebf5a376605c8b446b08dd2847021242dfc91dc651ccc0a42c1e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.4",
+      "translations": {
+        "ko": "이것이 하늘과 땅이 창조될 때의 내력이다. YHWH 하나님께서 땅과 하늘을 만드시던 날에,",
+        "en": "These are the generations of the heavens and the earth when they were created. On the day YHWH God made earth and heavens,",
+        "es": "Estos son los orígenes de los cielos y la tierra cuando fueron creados. El día en que YHWH Dios hizo la tierra y los cielos,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אֵלֶּה תוֹלְדוֹת은 창세기 전체의 구분 표제이다. 아트나흐가 בְּהִבָּרְאָם에 있어 절이 두 부분으로 나뉘며, 후반부 בְּיוֹם 절은 2:5-7로 이어지는 시간절이므로 쉼표로 열어 두고 문장을 닫지 않았다(절 경계를 넘어 연결됨을 표시). 순서가 바뀐 '땅과 하늘'도 그대로 보존했다.",
+      "counterargument_ko": "4a를 1장의 결어로, 4b를 새 단락의 시작으로 나누는 견해와, 4절 전체를 하나의 교차대구 단위로 보는 견해가 대립한다. 또 תוֹלְדוֹת을 '계보/족보'로 옮겨 다른 표제와 용어를 통일해야 한다는 주장이 있다. 미완 문장은 독자에게 불완전해 보일 수 있다.",
+      "current_opinion_ko": "원문 통사를 존중하여 후반부를 다음 절과 연결된 미완 시간절로 둔다. '내력'은 계보 이상의 이야기 전개를 포괄하는 잠정 용어이다.",
+      "reconsider_if_ko": "편집부가 תוֹלְדוֹת의 전권 통일 역어를 정하거나, 웹 표시에서 절 단위 완결 문장을 요구할 경우.",
+      "source_reference": "Gen.2.4",
+      "source_hebrew": "אֵ֣לֶּה תוֹלְד֧וֹת הַשָּׁמַ֛יִם וְהָאָ֖רֶץ בְּהִבָּֽרְאָ֑ם בְּי֗וֹם עֲשׂ֛וֹת יְהוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְשָׁמָֽיִם׃",
+      "source_hebrew_sha256": "58516185e101dc76aa976a1a30f7584c0f459c00a9d849a7de18abe6da779645",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.5",
+      "translations": {
+        "ko": "들의 덤불은 아직 땅에 하나도 없었고 들의 풀도 아직 하나도 돋아나지 않았다. YHWH 하나님께서 땅에 비를 내리지 않으셨고 땅을 일굴 사람도 없었기 때문이다.",
+        "en": "no shrub of the field was yet on the earth, and no plant of the field had yet sprung up, for YHWH God had not sent rain on the earth, and there was no human to work the ground.",
+        "es": "aún no había en la tierra ningún arbusto del campo, ni había brotado aún ninguna hierba del campo, porque YHWH Dios no había hecho llover sobre la tierra, ni había ser humano que labrara el suelo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "4b의 시간절에 이어지는 상황 묘사이다. וְכֹל ... טֶרֶם은 '모든 ~가 아직 아니'로 전체 부정이다. אָדָם과 אֲדָמָה의 어원적 말놀이를 영어 human/ground로는 완전히 살릴 수 없음을 인정한다. 영어·스페인어는 4절에서 이어지는 소문자 시작으로 연결을 표시했다.",
+      "counterargument_ko": "שִׂיחַ הַשָּׂדֶה와 עֵשֶׂב הַשָּׂדֶה를 경작 식물(곡물)과 야생 관목으로 구분하여 '경작지가 아직 없었다'는 의미로 읽어야 한다는 해석이 있다. 한국어는 독립 문장으로 시작해 4절과의 통사 연결이 약해진다.",
+      "current_opinion_ko": "식물 범주를 특정하지 않고 '들의 덤불/풀'로 직역하는 것이 현재 가장 덜 해석적이다.",
+      "reconsider_if_ko": "전문가 검토에서 식물 용어의 농경적 범주 구분이 번역에 반영되어야 한다고 결론 날 경우.",
+      "source_reference": "Gen.2.5",
+      "source_hebrew": "וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃",
+      "source_hebrew_sha256": "8ffb13e652691705d96b32f9d79f2bab341f5d099f66bae568b57a95a9643136",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.6",
+      "translations": {
+        "ko": "그러나 물줄기가 땅에서 솟아올라 지면 전체를 적시곤 하였다.",
+        "en": "But a stream would rise from the earth and water the whole surface of the ground.",
+        "es": "Pero un caudal subía de la tierra y regaba toda la superficie del suelo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אֵד는 드문 어휘로 의미가 불확실하다. 아카드어 edû(범람/지하수)와 연결하는 견해를 따라 '물줄기'로 옮겼다. 미완료 יַעֲלֶה와 와우완료 וְהִשְׁקָה는 반복·습관 동작이므로 '-곤 하였다/would'로 표현했다.",
+      "counterargument_ko": "전통 역본처럼 '안개/수증기(mist)'로 옮기는 것이 오래된 해석이고, 5절의 '비가 없었다'와 연결해 '샘'으로 보는 견해도 있다. 이는 어휘 해석 문제이지 사본 이문이 아니다. 또 וְ를 '그러나'가 아닌 '그리고/대신'으로 볼 수 있다.",
+      "current_opinion_ko": "'물줄기'를 잠정 채택하되 해설에 '안개/샘' 대안을 병기해야 한다. 확정적 어휘 결정으로 제시하지 않는다.",
+      "reconsider_if_ko": "편집부의 어휘 연구가 '안개' 또는 '샘' 쪽으로 기울 경우.",
+      "source_reference": "Gen.2.6",
+      "source_hebrew": "וְאֵ֖ד יַֽעֲלֶ֣ה מִן־הָאָ֑רֶץ וְהִשְׁקָ֖ה אֶֽת־כָּל־פְּנֵֽי־הָֽאֲדָמָֽה׃",
+      "source_hebrew_sha256": "74a4f30c5d9ac80b3cb452fa85f775da9dcdc95c01e5aefd11df1c0ba540caf5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.7",
+      "translations": {
+        "ko": "YHWH 하나님께서 땅의 흙으로 사람을 빚으시고 그의 코에 생명의 숨을 불어넣으셨다. 그러자 사람이 살아 있는 존재가 되었다.",
+        "en": "YHWH God formed the human from the dust of the ground and breathed into his nostrils the breath of life, and the human became a living being.",
+        "es": "YHWH Dios formó al ser humano con polvo del suelo y sopló en su nariz aliento de vida, y el ser humano llegó a ser un ser viviente."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יָצַר는 토기장이의 '빚다' 동작이다. עָפָר מִן־הָאֲדָמָה는 '땅에서 취한 흙'이며, הָאָדָם/הָאֲדָמָה 말놀이가 있다. נֶפֶשׁ חַיָּה는 1:20,24에서 동물에도 쓰였으므로 '영혼'이 아닌 '살아 있는 존재'로 옮겨 일관성을 지켰다.",
+      "counterargument_ko": "נֶפֶשׁ를 '영혼/생령'으로 옮기는 신학적 전통이 강하며, 사람에게만 숨을 직접 불어넣은 장면의 특별성을 약화시킨다는 반론이 있다. הָאָדָם을 고유명 '아담'으로 옮길지도 쟁점이다.",
+      "current_opinion_ko": "관사 있는 הָאָדָם은 아직 고유명이 아니므로 '사람'으로, נֶפֶשׁ חַיָּה는 1장과 같은 용어로 둔다. 특별성은 '숨을 불어넣다'라는 동작 자체가 전달한다.",
+      "reconsider_if_ko": "편집부가 נֶפֶשׁ 역어를 전권 차원에서 다르게 통일할 경우.",
+      "source_reference": "Gen.2.7",
+      "source_hebrew": "וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃",
+      "source_hebrew_sha256": "dfa59f51fd0a71cc43a1229975259c6b597fa9d70dc931199cf3c3e96f10ece8",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.8",
+      "translations": {
+        "ko": "YHWH 하나님께서 동쪽, 에덴에 동산을 심으시고, 빚으신 사람을 그곳에 두셨다.",
+        "en": "YHWH God planted a garden in Eden, in the east, and there he put the human he had formed.",
+        "es": "YHWH Dios plantó un huerto en Edén, al oriente, y allí puso al ser humano que había formado."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מִקֶּדֶם은 공간적 '동쪽에'로 읽었다(3:24, 11:2 용례). גַּן은 울타리 있는 정원/동산이다. נָטַע는 '심다'이므로 한국어도 '심으시고'로 직역했다(1차 초안의 '일구시고'는 자체 검토에서 수정).",
+      "counterargument_ko": "מִקֶּדֶם을 시간적 '태초부터/옛적에'로 읽는 고대 역본 전통(불가타 a principio 등으로 알려짐)이 있다. 또 '일구다'는 נָטַע의 '심다'보다 넓어 정확성이 떨어진다.",
+      "current_opinion_ko": "공간적 해석이 문맥(강의 지리 묘사)에 더 맞다. 한국어 동사는 자체 검토 후 '심으시고'로 수정했다.",
+      "reconsider_if_ko": "검토자가 직역성을 위해 '동산을 심으시고'를 요구할 경우 즉시 수정할 수 있다.",
+      "source_reference": "Gen.2.8",
+      "source_hebrew": "וַיִּטַּ֞ע יְהוָ֧ה אֱלֹהִ֛ים גַּן־בְעֵ֖דֶן מִקֶּ֑דֶם וַיָּ֣שֶׂם שָׁ֔ם אֶת־הָֽאָדָ֖ם אֲשֶׁ֥ר יָצָֽר׃",
+      "source_hebrew_sha256": "f1554d25f2824a1e1cd7e533c866397a6f16e720de5e2b2a515725c1065ba0a1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.9",
+      "translations": {
+        "ko": "YHWH 하나님께서 땅에서 보기에 탐스럽고 먹기에 좋은 온갖 나무를 자라게 하셨다. 동산 한가운데에는 생명의 나무와, 좋음과 나쁨을 아는 지식의 나무도 있었다.",
+        "en": "Out of the ground YHWH God made every tree grow that was desirable to look at and good for food, with the tree of life in the middle of the garden, and the tree of the knowledge of good and bad.",
+        "es": "YHWH Dios hizo brotar del suelo todo árbol apetecible a la vista y bueno para comer, y también el árbol de la vida en medio del huerto, y el árbol del conocimiento del bien y del mal."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "טוֹב וָרָע를 도덕적 '선악'으로만 좁히지 않고 '좋음과 나쁨'으로 옮겨 포괄적(양극 표현) 해석의 여지를 남겼다. בְּתוֹךְ הַגָּן이 생명나무에만 걸리는지 두 나무 모두에 걸리는지는 원문 어순대로 생명나무 뒤에 두었다.",
+      "counterargument_ko": "한국 교회 전통 용어 '선악을 알게 하는 나무'가 독자에게 익숙하며, '좋음과 나쁨'은 도덕적 무게를 약화시킨다는 반론이 있다. 영어는 good and evil이 표준이다. 3:3에서 '동산 한가운데 있는 나무'가 지식의 나무를 가리키므로 두 나무 모두 중앙에 있다고 볼 수도 있다.",
+      "current_opinion_ko": "원문 어순과 양극 표현의 폭을 유지하는 현재안을 지지하되, 스페인어는 관용어 'bien y mal'을 썼고 한국어·영어와 정렬 여부를 검토해야 한다.",
+      "reconsider_if_ko": "편집부가 3장 전체에서 טוֹב וָרָע 역어를 '선악'으로 통일하기로 결정할 경우.",
+      "source_reference": "Gen.2.9",
+      "source_hebrew": "וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כָּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃",
+      "source_hebrew_sha256": "901a5f6e1924743d33cb6ed65bf351103135755446d47ecc3477077f4b1a2825",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.10",
+      "translations": {
+        "ko": "강 하나가 에덴에서 흘러나와 동산을 적시고, 거기서부터 갈라져 네 줄기가 된다.",
+        "en": "A river flows out of Eden to water the garden, and from there it divides and becomes four branches.",
+        "es": "Un río sale de Edén para regar el huerto, y desde allí se divide y se convierte en cuatro brazos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "분사 יֹצֵא와 미완료 יִפָּרֵד는 묘사적 현재로 읽을 수 있어 영어·스페인어는 현재 시제를 써서 화자 시점의 지리 설명을 반영했다. רָאשִׁים('머리들')은 강의 '줄기/지류'로 옮겼다.",
+      "counterargument_ko": "묘사적 현재는 서사 과거 흐름 속에서 어색하게 들릴 수 있다. רָאשִׁים을 '수원(headwaters)'으로 읽으면 강물이 거슬러 올라가는 지리 모델이 된다.",
+      "current_opinion_ko": "자체 검토에서 한국어도 묘사적 현재로 맞추어 세 언어 시제를 정렬했다.",
+      "reconsider_if_ko": "편집 지침이 지리 묘사부의 시제를 언어 간 통일하도록 요구할 경우.",
+      "source_reference": "Gen.2.10",
+      "source_hebrew": "וְנָהָרּ֙ יֹצֵ֣א מֵעֵ֔דֶן לְהַשְׁק֖וֹת אֶת־הַגָּ֑ן וּמִשָּׁם֙ יִפָּרֵ֔ד וְהָיָ֖ה לְאַרְבָּעָ֥ה רָאשִֽׁים׃",
+      "source_hebrew_sha256": "f5eb37844509272f89370d6b7d94395ff3b6da2fa209869a3b5646e2366efa85",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.11",
+      "translations": {
+        "ko": "첫째 강의 이름은 비손이다. 그것은 금이 있는 하윌라 온 땅을 휘감아 흐른다.",
+        "en": "The name of the first is Pishon; it is the one that encircles the whole land of Havilah, where there is gold.",
+        "es": "El nombre del primero es Pisón; es el que rodea toda la tierra de Havilá, donde hay oro."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הַסֹּבֵב는 '두르다/돌아 흐르다'이며 땅을 감싸는 경로를 뜻한다. 고유명은 한국어 관례 표기(비손, 하윌라)를 따랐다. הָאֶחָד는 기수 '하나'지만 서수 '첫째'의 의미로 쓰였다.",
+      "counterargument_ko": "'휘감아 흐른다' 대신 '둘러 흐른다/가로지른다' 중 무엇이 더 정확한지 논쟁이 있고, 비손과 하윌라의 위치는 알 수 없다. 'winds through'와 'rodea'가 의미상 다소 다르다.",
+      "current_opinion_ko": "지명 비정은 번역에 넣지 않는다. 자체 검토 후 영어를 'encircles'로 맞추어 스페인어 'rodea'와 정렬했다.",
+      "reconsider_if_ko": "검토에서 영어 동사 통일이 요구되면 'encircles'로 수정한다.",
+      "source_reference": "Gen.2.11",
+      "source_hebrew": "שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃",
+      "source_hebrew_sha256": "f846c665955ada5fdc596724f4fbef91aa50b2ddd35504b9659bbed937ae51cd",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.12",
+      "translations": {
+        "ko": "그 땅의 금은 좋다. 그곳에는 브돌라흐와 소함 보석도 있다.",
+        "en": "The gold of that land is good; bdellium and shoham stone are there.",
+        "es": "El oro de esa tierra es bueno; allí hay bedelio y piedra de shoham."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בְּדֹלַח과 אֶבֶן הַשֹּׁהַם은 정확한 물질 비정이 불확실하므로 한국어·영어는 음역 위주로 두었다.",
+      "counterargument_ko": "בְּדֹלַח은 방향성 수지(bdellium)로, שֹׁהַם은 마노/줄마노/홍옥수 등으로 다양하게 비정된다. 음역은 독자에게 의미를 전달하지 못한다는 단점이 있다.",
+      "current_opinion_ko": "불확실성이 큰 물질명은 음역+해설이 정직하다. 자체 검토 후 스페인어도 'piedra de shoham'으로 맞추었다.",
+      "reconsider_if_ko": "편집부의 보석·광물 용어표가 마련될 경우.",
+      "source_reference": "Gen.2.12",
+      "source_hebrew": "וּֽזֲהַ֛ב הָאָ֥רֶץ הַהִ֖וא ט֑וֹב שָׁ֥ם הַבְּדֹ֖לַח וְאֶ֥בֶן הַשֹּֽׁהַם׃",
+      "source_hebrew_sha256": "2f9697226203b2ec8450ef184c9cf099f4fe469f34d4cdf7a01c65c8caa93910",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.13",
+      "translations": {
+        "ko": "둘째 강의 이름은 기혼이다. 그것은 구스 온 땅을 휘감아 흐른다.",
+        "en": "The name of the second river is Gihon; it is the one that encircles the whole land of Cush.",
+        "es": "El nombre del segundo río es Guijón; es el que rodea toda la tierra de Cus."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "11절과 같은 구문이므로 같은 동사 표현을 유지했다. כּוּשׁ는 지명 비정 없이 음역했다.",
+      "counterargument_ko": "כּוּשׁ를 '에티오피아/누비아'로 옮기는 전통 역본이 있으나, 메소포타미아의 카시트(Kassite) 지역으로 보는 견해도 있어 비정이 불확실하다.",
+      "current_opinion_ko": "음역 유지가 타당하다. 영어 동사는 11절과 함께 'encircles'로 정렬했다.",
+      "reconsider_if_ko": "11절과 함께 영어 동사를 통일할 때 동시 수정한다.",
+      "source_reference": "Gen.2.13",
+      "source_hebrew": "וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃",
+      "source_hebrew_sha256": "6f238bd5ca280b262c7cb7cf50e301afb3f0d857a2bab8398e424f545d9c1212",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.14",
+      "translations": {
+        "ko": "셋째 강의 이름은 힛데겔(티그리스)이다. 그것은 앗수르 동쪽으로 흐른다. 넷째 강은 브랏(유프라테스)이다.",
+        "en": "The name of the third river is Hiddekel (the Tigris); it is the one that flows east of Assyria. And the fourth river is the Perath (the Euphrates).",
+        "es": "El nombre del tercer río es Hidekel (el Tigris); es el que corre al oriente de Asiria. Y el cuarto río es el Perat (el Éufrates)."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חִדֶּקֶל과 פְּרָת은 티그리스·유프라테스로 일반적으로 비정되므로 영어·스페인어는 음역 뒤 괄호 설명을 붙였다(괄호는 원문에 없는 보충 표시). קִדְמַת אַשּׁוּר는 '앗수르 동쪽'으로 읽었다.",
+      "counterargument_ko": "티그리스는 실제로 앗수르(도시)의 동쪽이 아니라 그 곁을 흐르므로 קִדְמַת을 '앞쪽/맞은편'으로 읽자는 견해가 있다.",
+      "current_opinion_ko": "괄호 보충은 원문 외 정보임을 표시해야 한다. 자체 검토 후 한국어도 '힛데겔(티그리스)', '브랏(유프라테스)'로 통일했다.",
+      "reconsider_if_ko": "편집 규칙이 본문 내 괄호 보충을 금지할 경우 각주로 이동한다.",
+      "source_reference": "Gen.2.14",
+      "source_hebrew": "וְשֵׁ֨ם הַנָּהָ֤ר הַשְּׁלִישִׁי֙ חִדֶּ֔קֶל ה֥וּא הַֽהֹלֵ֖ךְ קִדְמַ֣ת אַשּׁ֑וּר וְהַנָּהָ֥ר הָֽרְבִיעִ֖י ה֥וּא פְרָֽת׃",
+      "source_hebrew_sha256": "fc401698099fb6964177ec81a01f9df09df431464e4030df7a0b6a26e6d44ba5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.15",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람을 데려다 에덴 동산에 두시고, 그곳을 일구고 지키게 하셨다.",
+        "en": "YHWH God took the human and settled him in the garden of Eden to work it and to keep it.",
+        "es": "YHWH Dios tomó al ser humano y lo estableció en el huerto de Edén para que lo labrara y lo cuidara."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיַּנִּחֵהוּ(הנח Hiphil)는 '안식하게 두다/정착시키다'로, 8절의 וַיָּשֶׂם과 다른 동사이므로 영어는 'settled'로 구분했다. לְעָבְדָהּ וּלְשָׁמְרָהּ는 '일구고 지키다'로 옮겼다.",
+      "counterargument_ko": "두 부정사의 접미사가 여성형(-ָהּ)인데 גַּן은 보통 남성이므로, 지시 대상을 אֲדָמָה(땅)로 보거나 동사를 제의적 '섬기고 지키다'로 읽는 해석이 있다. 이는 문법·해석 문제이며 사본 이문으로 주장하지 않는다.",
+      "current_opinion_ko": "'그곳'으로 지시 대상을 열어 둔 한국어가 원문의 모호성을 가장 잘 보존한다. 영어·스페인어 'it/lo'는 정원을 지시하는 것으로 읽힐 수 있어 해설 보완이 필요하다.",
+      "reconsider_if_ko": "편집부가 여성 접미사의 지시 대상을 명시적으로 결정할 경우.",
+      "source_reference": "Gen.2.15",
+      "source_hebrew": "וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃",
+      "source_hebrew_sha256": "86ff084db3c6524120723e06befe37cd4afd24f5f778558aeca04d104f80936b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.16",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람에게 명령하여 말씀하셨다. “동산의 모든 나무에서 너는 마음껏 먹어도 된다.",
+        "en": "YHWH God commanded the human, saying, “From every tree of the garden you may freely eat;",
+        "es": "YHWH Dios le ordenó al ser humano: «De todo árbol del huerto podrás comer libremente;"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אָכֹל תֹּאכֵל의 부정사 절대형 강조를 '마음껏/freely'로 반영했다. 명령은 17절까지 이어지므로 영어·스페인어는 세미콜론으로 인용을 열어 둔 채 다음 절과 연결했다.",
+      "counterargument_ko": "부정사 절대형을 허락의 강조가 아니라 단순 확언('반드시 먹을 수 있다')으로 보는 견해가 있다. 한국어는 마침표로 끊어 17절과의 연결이 영·스보다 약하다.",
+      "current_opinion_ko": "허락의 너그러움을 강조하는 해석이 17절의 단일 금지와 대비되어 문맥적으로 가장 자연스럽다.",
+      "reconsider_if_ko": "웹 표시 시 절 단위 인용부호 처리 규칙이 정해지면 그에 맞춘다.",
+      "source_reference": "Gen.2.16",
+      "source_hebrew": "וַיְצַו֙ יְהוָ֣ה אֱלֹהִ֔ים עַל־הָֽאָדָ֖ם לֵאמֹ֑ר מִכֹּ֥ל עֵֽץ־הַגָּ֖ן אָכֹ֥ל תֹּאכֵֽל׃",
+      "source_hebrew_sha256": "de31c9e2e7a3fdab60c69ea588c4446a19158798a8681510b76739cf7fa07f46",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.17",
+      "translations": {
+        "ko": "그러나 좋음과 나쁨을 아는 지식의 나무에서는 먹지 마라. 그것을 먹는 날에는 너는 반드시 죽을 것이다.”",
+        "en": "but from the tree of the knowledge of good and bad you shall not eat, for on the day you eat from it you will surely die.”",
+        "es": "pero del árbol del conocimiento del bien y del mal no comerás, porque el día que comas de él, ciertamente morirás»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לֹא + 미완료는 영구적 금지이다. מוֹת תָּמוּת의 부정사 절대형을 '반드시'로 옮겼다. בְּיוֹם은 '~하는 때에'라는 관용적 의미도 있으나 문자적 '날'을 유지했다.",
+      "counterargument_ko": "3장에서 사람이 즉시 죽지 않으므로 בְּיוֹם을 '~할 때'로, מוֹת תָּמוּת를 '죽게 될 운명이 된다'로 해석해야 한다는 견해가 있다. 이는 해석 문제이지 본문 문제가 아니다.",
+      "current_opinion_ko": "번역에서 긴장을 해소하지 않고 원문의 직설적 경고를 보존하는 것이 맞다.",
+      "reconsider_if_ko": "편집부가 בְּיוֹם + 부정사 구문을 전권에서 '~할 때'로 통일하기로 할 경우.",
+      "source_reference": "Gen.2.17",
+      "source_hebrew": "וּמֵעֵ֗ץ הַדַּ֨עַת֙ ט֣וֹב וָרָ֔ע לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ כִּ֗י בְּי֛וֹם אֲכָלְךָ֥ מִמֶּ֖נּוּ מ֥וֹת תָּמֽוּת׃",
+      "source_hebrew_sha256": "66e07b70419770fdea5ef9dfa2312992a223e707ca5918e7a7778a6c2e2276fb",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.19",
+      "translations": {
+        "ko": "YHWH 하나님께서 땅에서 들의 모든 짐승과 하늘의 모든 새를 빚으시고, 사람이 그것들을 무엇이라 부르는지 보시려고 사람에게로 데려오셨다. 사람이 살아 있는 존재 하나하나를 부르는 그것이 곧 그 이름이 되었다.",
+        "en": "And YHWH God formed out of the ground every animal of the field and every bird of the sky, and brought them to the human to see what he would call each one; and whatever the human called each living creature, that became its name.",
+        "es": "YHWH Dios formó del suelo todos los animales del campo y todas las aves del cielo, y los llevó ante el ser humano para ver cómo los llamaría; y como el ser humano llamara a cada ser viviente, ese fue su nombre."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיִּצֶר의 와우연속을 단순 연속으로 옮겼다. נֶפֶשׁ חַיָּה הוּא שְׁמוֹ는 통사가 어색하여 '살아 있는 존재'를 לוֹ의 동격으로 해석했다. 2:18은 지원되지 않는 표기 문제로 큐에서 유보되어 이번 묶음에 없으므로 앞 문맥 연결은 확인하지 못했다.",
+      "counterargument_ko": "와우연속을 대과거('이미 빚어 두셨던')로 읽어 1장의 창조 순서와 조화시키려는 견해가 있으나 문법적 근거가 약하다는 비판도 있다. נֶפֶשׁ חַיָּה를 후대 주석적 삽입으로 보는 학자도 있으나 이번 실행에서 그런 사본 증거를 확인하지 않았다.",
+      "current_opinion_ko": "조화 해석을 번역에 반영하지 않는다. 18절이 유보되었으므로 영어 접속어는 'And'로 중립화했다.",
+      "reconsider_if_ko": "Gen.2.18이 처리되어 18-19절 연결을 함께 검토할 수 있게 될 경우.",
+      "source_reference": "Gen.2.19",
+      "source_hebrew": "וַיִּצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים מִן־הָֽאֲדָמָ֗ה כָּל־חַיַּ֤ת הַשָּׂדֶה֙ וְאֵת֙ כָּל־ע֣וֹף הַשָּׁמַ֔יִם וַיָּבֵא֙ אֶל־הָ֣אָדָ֔ם לִרְא֖וֹת מַה־יִּקְרָא־ל֑וֹ וְכֹל֩ אֲשֶׁ֨ר יִקְרָא־ל֧וֹ הָֽאָדָ֛ם נֶ֥פֶשׁ חַיָּ֖ה ה֥וּא שְׁמֽוֹ׃",
+      "source_hebrew_sha256": "57a2e6625e4b8324447bd8f15a7f29808917a3b0fc2c130af8a87b1c86c74477",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.20",
+      "translations": {
+        "ko": "사람이 모든 가축과 하늘의 새와 들의 모든 짐승에게 이름을 붙였다. 그러나 사람에게는 그와 마주하여 걸맞은 돕는 이가 찾아지지 않았다.",
+        "en": "The human gave names to all the livestock, to the birds of the sky, and to every animal of the field; but for the human no helper corresponding to him was found.",
+        "es": "El ser humano puso nombre a todo el ganado, a las aves del cielo y a todos los animales del campo; pero para el ser humano no se halló una ayuda que le correspondiera."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עֵזֶר는 하위자의 '조수'가 아니라 하나님께도 쓰이는 '돕는 이'이다. כְּנֶגְדּוֹ는 '그 앞에 마주하는/상응하는'이다. לֹא־מָצָא는 주어가 명시되지 않아 비인칭 수동('찾아지지 않았다')으로 옮겼다.",
+      "counterargument_ko": "וּלְאָדָם에 관사가 없어 고유명 '아담'으로 읽는 역본 전통이 있다. 마소라 모음은 לְאָדָם(관사 없음)이지만 자음 본문만으로는 לָאָדָם(관사)로도 읽힐 수 있다. 또 מָצָא의 주어를 사람(그가 찾지 못했다)으로 보는 해석도 있다.",
+      "current_opinion_ko": "모음 표시의 관사 부재만으로 고유명으로 전환하기에는 이르며 앞 문맥과 일관되게 '사람'을 유지한다.",
+      "reconsider_if_ko": "편집부가 2-3장에서 '아담' 고유명 전환 시점을 별도 결정할 경우.",
+      "source_reference": "Gen.2.20",
+      "source_hebrew": "וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכָל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃",
+      "source_hebrew_sha256": "af54c8f7fb9fe8c3750f8cf7eec3805752f0c1ac637fd92b2752ba10e80207a5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.21",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람에게 깊은 잠이 쏟아지게 하시니 그가 잠들었다. 그러자 그분께서 그의 옆구리에서 하나를 취하시고, 그 자리를 살로 메우셨다.",
+        "en": "YHWH God caused a deep sleep to fall upon the human, and he slept; then he took one of his sides and closed up the flesh in its place.",
+        "es": "YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió; luego tomó uno de sus costados y cerró la carne en su lugar."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "צֵלָע는 성막·성전 건축 용어로 '옆/측면'을 뜻하는 경우가 많아 '갈빗대'로 좁히지 않고 '옆구리/side'로 옮겼다. 23절의 '내 뼈 중의 뼈'와 연결되는 해석 가능성은 해설에 남긴다. תַּרְדֵּמָה는 초자연적 깊은 잠이다.",
+      "counterargument_ko": "전통 번역 '갈빗대(rib)'가 오랜 수용사를 가지며 23절의 '뼈' 언급과 더 잘 맞는다는 반론이 강하다. 한국어 '하나를 취하시고'는 무엇을 취했는지 덜 분명하다.",
+      "current_opinion_ko": "'옆구리'는 어휘의 일반적 용례에 근거한 선택이지만 논쟁적이므로, 편집부가 '갈빗대' 대안을 각주로 병기해야 한다. 이 선택은 확정 의견이 아니라 검토 요청이다.",
+      "reconsider_if_ko": "GPT/Gemini 및 전문가 검토가 '갈빗대'를 본문 역어로 권고할 경우.",
+      "source_reference": "Gen.2.21",
+      "source_hebrew": "וַיַּפֵּל֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ תַּרְדֵּמָ֛ה עַל־הָאָדָ֖ם וַיִּישָׁ֑ן וַיִּקַּ֗ח אַחַת֙ מִצַּלְעֹתָ֔יו וַיִּסְגֹּ֥ר בָּשָׂ֖ר תַּחְתֶּֽנָּה׃",
+      "source_hebrew_sha256": "1eb8f821c2110dc87feb3590a3cc73ac97c0cd11d9f6d200a569164ba497267d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.22",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람에게서 취하신 그 옆구리로 여자를 지으시고, 그 여자를 사람에게로 데려오셨다.",
+        "en": "YHWH God built the side that he had taken from the human into a woman and brought her to the human.",
+        "es": "YHWH Dios construyó una mujer con el costado que había tomado del ser humano, y la llevó ante el ser humano."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיִּבֶן은 '짓다/건축하다'로, 21절 צֵלָע의 건축적 함의와 연결된다. 한국어 '지으시고'와 영어 'built', 스페인어 'construyó'로 건축 동사를 유지했다. 21절과 일관되게 '옆구리/side'를 썼다.",
+      "counterargument_ko": "'지으시다'는 한국어에서 '창조하다'와 비슷하게 들려 건축적 뉘앙스가 약할 수 있다. 21절 역어가 바뀌면 이 절도 연동된다.",
+      "current_opinion_ko": "21절과 동시에 검토되어야 하는 연동 항목이다.",
+      "reconsider_if_ko": "21절 צֵלָע 역어가 변경될 경우 동시 수정한다.",
+      "source_reference": "Gen.2.22",
+      "source_hebrew": "וַיִּבֶן֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ אֶֽת־הַצֵּלָ֛ע אֲשֶׁר־לָקַ֥ח מִן־הָֽאָדָ֖ם לְאִשָּׁ֑ה וַיְבִאֶ֖הָ אֶל־הָֽאָדָֽם׃",
+      "source_hebrew_sha256": "28ea032031fc8aa5505b4f1988092b4b2033ca5bcd3480e3537cc1e9d6b285cf",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.23",
+      "translations": {
+        "ko": "사람이 말하였다. “이번에야말로 내 뼈 중의 뼈요, 내 살 중의 살이다. 남자에게서 취하였으니 이를 여자라 부르리라.”",
+        "en": "The human said, “This one, at last, is bone of my bones and flesh of my flesh; this one shall be called Woman, for from Man this one was taken.”",
+        "es": "El ser humano dijo: «¡Esta vez sí, esta es hueso de mis huesos y carne de mi carne! Esta será llamada Mujer, porque del Hombre fue tomada»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "זֹאת가 세 번 반복되는 운문적 감탄을 영어는 'this one'으로 살렸다. אִשָּׁה/אִישׁ 말놀이는 영어 Woman/Man, 스페인어 Mujer/Hombre로는 부분적으로만, 한국어 '여자/남자'로는 '자' 공유로 근사하게 반영된다. 한국어는 이유절을 앞으로 옮겨 자연스러운 어순을 택했다.",
+      "counterargument_ko": "말놀이를 살리기 위해 한국어 '지아비/지어미' 같은 대응이나 스페인어 'varona'(고어) 사용을 제안하는 전통이 있다. 실제 어원은 다르다는 점을 해설해야 한다. 한국어 어순 변경은 원문 구조에서 벗어난다.",
+      "current_opinion_ko": "자연스러움과 말놀이 근사를 모두 고려할 때 현재안이 균형적이다. 한국어 운문 재배열은 검토 항목이다.",
+      "reconsider_if_ko": "편집부가 운문 구절의 행 배열 규칙을 정할 경우.",
+      "source_reference": "Gen.2.23",
+      "source_hebrew": "וַיֹּאמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקֳחָה־זֹּֽאת׃",
+      "source_hebrew_sha256": "11979a47bb545499d5bf5159181778015b0dd4519b7c386cf27047cddd9f588d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.24",
+      "translations": {
+        "ko": "그러므로 남자는 자기 아버지와 어머니를 떠나 자기 아내와 굳게 결합하고, 그들은 한 몸이 된다.",
+        "en": "That is why a man leaves his father and his mother and clings to his wife, and they become one flesh.",
+        "es": "Por eso el hombre deja a su padre y a su madre, se une a su mujer, y llegan a ser una sola carne."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עַל־כֵּן은 서술자의 원인론적 논평이다. 미완료 יַעֲזָב와 와우완료는 일반적 현재(관습)로 옮겼다. דָּבַק은 '들러붙다/굳게 결합하다'이다. אִשְׁתּוֹ는 문맥상 '아내'이다.",
+      "counterargument_ko": "이 절을 23절 사람의 말에 이어진 인용으로 보는 견해도 있다. 또 미완료를 명령적 의미('떠나야 한다')로 읽을 수 있으나 형식상 근거가 약하다. '한 몸'은 성적 결합만이 아닌 친족 관계를 뜻한다는 해석이 있다.",
+      "current_opinion_ko": "서술자 논평으로 보고 인용 부호 밖에 둔다.",
+      "reconsider_if_ko": "편집부가 이 절을 23절 발화의 연속으로 본 인용 체계를 정할 경우.",
+      "source_reference": "Gen.2.24",
+      "source_hebrew": "עַל־כֵּן֙ יַֽעֲזָב־אִ֔ישׁ אֶת־אָבִ֖יו וְאֶת־אִמּ֑וֹ וְדָבַ֣ק בְּאִשְׁתּ֔וֹ וְהָי֖וּ לְבָשָׂ֥ר אֶחָֽד׃",
+      "source_hebrew_sha256": "a05de71ebb85db71226cafda6e6bb96883dc5a86426ff4f216b123649e58d4c1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.25",
+      "translations": {
+        "ko": "사람과 그의 아내, 두 사람 모두 벌거벗었으나 부끄러워하지 않았다.",
+        "en": "The two of them, the human and his wife, were naked, yet they were not ashamed.",
+        "es": "Los dos, el ser humano y su mujer, estaban desnudos, y no se avergonzaban."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עֲרוּמִּים(벌거벗은)은 3:1의 עָרוּם(교활한)과 말놀이를 이루어 장면 전환을 연결한다. 히트파엘 יִתְבֹּשָׁשׁוּ는 지속적 상태 '부끄러워하지 않았다'로 옮겼다.",
+      "counterargument_ko": "히트파엘을 상호적('서로')으로 단정할 근거가 약하며 단순 재귀일 수 있다. 번역으로는 3:1과의 말놀이를 살리기 어렵다.",
+      "current_opinion_ko": "1차 초안의 '서로'는 상호적 해석의 과잉 첨가로 판단해 자체 검토에서 삭제했다.",
+      "reconsider_if_ko": "검토자가 '서로'를 과잉 해석으로 판단할 경우 삭제한다.",
+      "source_reference": "Gen.2.25",
+      "source_hebrew": "וַיִּֽהְי֤וּ שְׁנֵיהֶם֙ עֲרוּמִּ֔ים הָֽאָדָ֖ם וְאִשְׁתּ֑וֹ וְלֹ֖א יִתְבֹּשָֽׁשׁוּ׃",
+      "source_hebrew_sha256": "2f7ffb364396529f4fc7e9e74a6809dedba9d996692ed799b1706295fdefcfed",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.3.1",
+      "translations": {
+        "ko": "뱀은 YHWH 하나님께서 만드신 들의 모든 짐승 가운데 가장 교활하였다. 뱀이 여자에게 말하였다. “정말로 하나님께서 ‘너희는 동산의 어떤 나무에서도 먹지 마라’ 하고 말씀하셨느냐?”",
+        "en": "Now the serpent was more cunning than any animal of the field that YHWH God had made. He said to the woman, “Did God really say, ‘You shall not eat from any tree of the garden’?”",
+        "es": "La serpiente era más astuta que todos los animales del campo que YHWH Dios había hecho. Le dijo a la mujer: «¿Así que Dios dijo: “No coman de ningún árbol del huerto”?»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וְהַנָּחָשׁ הָיָה의 주어 선행 구문은 새 장면의 배경 정보이다. עָרוּם은 2:25 עֲרוּמִּים과 말놀이이며 '교활한/영리한' 양가성을 가진다. אַף כִּי는 의문 표지가 없지만 문맥상 놀람·의심을 유도하는 질문으로 옮겼다. 뱀이 YHWH 대신 '하나님'만 쓰는 점을 보존했다.",
+      "counterargument_ko": "אַף כִּי를 의문문이 아닌 미완의 진술('하나님께서 ... 말씀하셨는데도')로 읽어 대화가 중간에서 시작된다는 해석이 있다. מִכֹּל עֵץ ... לֹא는 '모든 나무에서 먹지 마라'(전체 부정)와 '모든 나무에서 먹을 수는 없다'(부분 부정)로 모호하다. עָרוּם을 중립적 '영리한'으로 옮기자는 견해도 있다.",
+      "current_opinion_ko": "의문문 해석이 여자의 2절 응답과 가장 잘 맞는다. 부정 범위의 모호성은 해설에 남긴다.",
+      "reconsider_if_ko": "3:2-5를 처리하면서 대화 구조 전체를 재검토하여 진술 독법이 더 일관적이라고 판단될 경우.",
+      "source_reference": "Gen.3.1",
+      "source_hebrew": "וְהַנָּחָשׁ֙ הָיָ֣ה עָר֔וּם מִכֹּל֙ חַיַּ֣ת הַשָּׂדֶ֔ה אֲשֶׁ֥ר עָשָׂ֖ה יְהוָ֣ה אֱלֹהִ֑ים וַיֹּ֨אמֶר֙ אֶל־הָ֣אִשָּׁ֔ה אַ֚ף כִּֽי־אָמַ֣ר אֱלֹהִ֔ים לֹ֣א תֹֽאכְל֔וּ מִכֹּ֖ל עֵ֥ץ הַגָּֽן׃",
+      "source_hebrew_sha256": "fc7ed667061c78367ea0c2e057962beffd2f7540627b9d8c707f6d6c82ab8258",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    }
+  ]
+}

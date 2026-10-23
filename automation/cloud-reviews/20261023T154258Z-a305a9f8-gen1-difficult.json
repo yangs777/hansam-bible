@@ -1,0 +1,285 @@
+{
+  "review_id": "20261023T154258Z-a305a9f8-gen1-difficult",
+  "provider": "Claude Code native cloud",
+  "model_identity": {
+    "requested_or_configured_model": "claude-opus-5-5",
+    "served_model_reported_by_session_api": "claude-opus-5-5",
+    "identity_basis": "Claude Code remote get_session for this session: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5 at drafting time",
+    "session": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "sampling parameters"
+    ],
+    "note": "A model self-report is not source evidence."
+  },
+  "executed_at_utc": "2026-10-23T15:48:18.202052+00:00",
+  "state": "unadopted_model_review",
+  "scope": "Genesis 1:1,2,3,6,26,27,28 against the currently selected data",
+  "inputs": {
+    "data/editorial.json_sha256": "1a9cf1b1c16ed0f9097562cd752cf9fd41eaac69017ae1f53fe7d0fbbb26e279",
+    "data/hebrew.json_sha256": "57305161d3317106f62816d199310b29d5139d3a6eaabae3629e9e4c8f688c1b",
+    "selection_version_seen": [
+      "0.3.0"
+    ]
+  },
+  "separation_note": "This is a fresh Claude Code cloud review. It is separate from data/model-reviews/v0.3.0/claude.round1.json (an earlier Antigravity-hosted Claude record labelled claude-opus-4-6-thinking), which was not merged or relabelled here. No GPT, Gemini or human review results are claimed.",
+  "manuscript_note": "Variants mentioned are reported in standard scholarship and were not collated in this run; they are not used as evidence to change the selected text.",
+  "selected_texts_modified": false,
+  "reviews": [
+    {
+      "source": "Gen.1.1",
+      "selected_record_snapshot": {
+        "source": "Gen.1.1",
+        "id": "HYB.GEN.001.001",
+        "number": 1,
+        "ko": "태초에 하나님께서 하늘과 땅을 창조하셨다.",
+        "en": "In the beginning, God created the heavens and the earth.",
+        "es": "Al comienzo, Dios creó los cielos y la tierra.",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "707c96583d95fb1957b4916673ab36ec2d6cfdc168b97a7f7e2125f4d0f23647",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "태초에 하나님께서 하늘과 땅을 창조하셨다.",
+        "en": "In the beginning God created the heavens and the earth.",
+        "es": "En el principio Dios creó los cielos y la tierra."
+      },
+      "verdict": "agree_with_minor_suggestion",
+      "final_opinion_ko": "선택본의 독립절 독법을 지지한다. בָּרָא는 Qal 완료 3ms 유한동사이고 마소라 악센트도 1:1을 한 문장으로 끊는다. 한국어·영어는 그대로 두어도 된다. 스페인어 'Al comienzo'는 틀리지 않지만 영어 'In the beginning'과 같은 정관사 구조인 'En el principio'가 언어 간 정렬과 표제적 무게에서 조금 낫다.",
+      "objections_ko": [
+        "בְּרֵאשִׁית에 관사가 없어 연계형 '하나님이 ... 창조하기 시작하셨을 때'로 읽는 종속절 해석은 문법적으로 배제되지 않으므로 해설 병기가 필요하다.",
+        "스페인어 'Al comienzo'와 영어 'In the beginning'의 미세한 어감 차이는 실질적 오역이 아니므로 우선순위는 낮다."
+      ],
+      "reconsider_if_ko": "편집부가 1:1-3 종속절 구조를 본문 번역으로 채택할 근거를 별도로 확보할 경우."
+    },
+    {
+      "source": "Gen.1.2",
+      "selected_record_snapshot": {
+        "source": "Gen.1.2",
+        "id": "HYB.GEN.001.002",
+        "number": 2,
+        "ko": "땅은 형체 없이 비어 있었고, 어둠이 깊음의 표면 위에 있었으며, 하나님의 바람이 물의 표면 위를 맴돌고 있었다.",
+        "en": "The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.",
+        "es": "La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+      "source_hebrew_sha256": "b98a95e859e0e89df38725b20422e520b2d40e65c4dcce402c920a2c596b53f3",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "땅은 형체 없이 비어 있었고, 어둠이 깊음의 표면 위에 있었으며, 하나님의 영이 물의 표면 위를 맴돌고 있었다.",
+        "en": "Now the earth was formless and empty, darkness was over the surface of the deep, and the spirit of God was hovering over the surface of the waters.",
+        "es": "La tierra estaba sin forma y vacía, la oscuridad cubría la superficie del abismo, y el espíritu de Dios se cernía sobre la superficie de las aguas."
+      },
+      "verdict": "alternative_proposed_on_one_phrase",
+      "final_opinion_ko": "תֹהוּ וָבֹהוּ와 תְהוֹם 처리는 선택본에 동의한다. 쟁점은 רוּחַ אֱלֹהִים이다. 선택본의 '하나님의 바람'은 방어 가능한 독법이지만, (1) 오경에서 רוּחַ אֱלֹהִים이 다른 곳(창 41:38, 출 31:3)에서는 '하나님의 영'으로 쓰이고, (2) 분사 מְרַחֶפֶת가 신 32:11에서 독수리가 새끼 위를 맴도는 생명체의 동작으로 쓰이므로, 이 세션의 Claude는 '하나님의 영'을 본문에, '바람'을 대안으로 두는 쪽이 조금 더 근거가 강하다고 본다. 영어 소문자 'spirit'은 신학적 대문자 결정을 편집부에 남겨 두기 위한 선택이다. 또 분사의 진행 상태를 'was hovering'으로 살리고 절 첫머리 와우 상황절을 'Now'로 표시하는 것을 제안한다.",
+      "objections_ko": [
+        "אֱלֹהִים을 최상급 관용어('거센/큰 바람')로 읽는 견해가 있으며, 이 경우 '하나님의 영'은 후대 삼위일체 신학을 소급 투사한다는 비판을 받는다.",
+        "1:2의 혼돈 묘사(어둠, 깊음, 물)와 같은 계열의 자연 현상으로 '바람'을 읽는 것이 문맥상 자연스럽다는 반론도 강하다.",
+        "따라서 이 제안은 확정 의견이 아니라 선택본과 대안의 우선순위를 바꾸자는 검토 요청이다."
+      ],
+      "reconsider_if_ko": "GPT/Gemini 검토와 전문가 검토가 '바람' 독법을 본문에 두는 쪽으로 수렴할 경우 선택본을 유지한다."
+    },
+    {
+      "source": "Gen.1.3",
+      "selected_record_snapshot": {
+        "source": "Gen.1.3",
+        "id": "HYB.GEN.001.003",
+        "number": 3,
+        "ko": "하나님께서 말씀하셨다. “빛이 있으라.” 그러자 빛이 있었다.",
+        "en": "God said, “Let there be light.” And there was light.",
+        "es": "Dios dijo: «Que haya luz». Y hubo luz.",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+      "source_hebrew_sha256": "15da9f05ea03b1fbc8f4414eca91856d9951bd98efb5de14cc731fd2bab4a044",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "하나님께서 말씀하셨다. “빛이 있으라.” 그러자 빛이 있었다.",
+        "en": "God said, “Let there be light,” and there was light.",
+        "es": "Dios dijo: «Que haya luz». Y hubo luz."
+      },
+      "verdict": "agree",
+      "final_opinion_ko": "선택본에 동의한다. 지시형 יְהִי와 와우연속 וַיְהִי의 대응을 세 언어 모두 간결하게 보존했다. 영어 쉼표/마침표 처리는 문체 선택일 뿐이다.",
+      "objections_ko": [
+        "1:1을 종속절로 읽는 독법을 택하면 1:3이 주절이 되므로, 1:1 결정과 연동하여 문장 경계를 함께 검토해야 한다."
+      ],
+      "reconsider_if_ko": "1:1 독법이 바뀔 경우."
+    },
+    {
+      "source": "Gen.1.6",
+      "selected_record_snapshot": {
+        "source": "Gen.1.6",
+        "id": "HYB.GEN.001.006",
+        "number": 6,
+        "ko": "하나님께서 말씀하셨다. “물 한가운데 궁창이 있어, 물과 물을 나누게 하라.”",
+        "en": "God said, “Let there be a vault amid the waters, and let it separate water from water.”",
+        "es": "Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּת֣וֹךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
+      "source_hebrew_sha256": "e12a9eb31bc91566101e8c722decc5ebf09db364313211f10b4d2014a077c642",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "하나님께서 말씀하셨다. “물 한가운데 궁창이 있어, 물과 물 사이를 나누고 있으라.”",
+        "en": "God said, “Let there be a vault in the midst of the waters, and let it be separating water from water.”",
+        "es": "Dios dijo: «Que haya una bóveda en medio de las aguas, y que esté separando unas aguas de otras»."
+      },
+      "verdict": "agree_with_minor_suggestion",
+      "final_opinion_ko": "선택본의 의미 처리는 정확하다. 다만 두 가지를 지적한다. (1) 한국어 '궁창'은 독자 대부분에게 뜻이 불투명한 전통어인 반면 영어 'vault'·스페인어 'bóveda'는 단단한 둥근 덮개라는 구체적 이미지를 준다. 세 언어의 투명도가 다르므로 '궁창'을 유지하더라도 용어 해설(둥근 덮개처럼 펼쳐진 것, רָקַע '두드려 펴다'에서 파생)을 반드시 붙여야 한다. (2) וִיהִי מַבְדִּיל은 지시형 + 분사의 우언 구문으로 지속적 분리 상태를 나타내므로 '나누고 있으라/be separating'이 조금 더 직역적이나, 선택본의 간결형도 허용 범위이다.",
+      "objections_ko": [
+        "'창공/하늘'로 옮기면 쉽지만 고대 우주상의 단단한 구조물 함의를 지워 원문 세계관을 현대화한다.",
+        "우언 구문을 강조한 직역은 한국어에서 다소 어색하므로 가독성과의 균형을 편집부가 정해야 한다."
+      ],
+      "reconsider_if_ko": "편집부의 용어집이 רָקִיעַ 역어를 다르게 정할 경우."
+    },
+    {
+      "source": "Gen.1.26",
+      "selected_record_snapshot": {
+        "source": "Gen.1.26",
+        "id": "HYB.GEN.001.026",
+        "number": 26,
+        "ko": "하나님께서 말씀하셨다. “우리의 형상대로, 우리를 닮게 사람을 만들자. 그들이 바다의 물고기와 하늘의 날짐승과 가축과 온 땅과 땅 위를 기어 다니는 모든 것을 다스리게 하자.”",
+        "en": "God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”",
+        "es": "Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכָל־הָאָ֔רֶץ וּבְכָל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "51e1585e76b5861b65d4ca1a7d2b19e2955f9226b8806ad36f449a1d5227ccc9",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "하나님께서 말씀하셨다. “우리가 우리의 형상대로, 우리의 모양을 따라 사람을 만들자. 그리하여 그들이 바다의 물고기와 하늘의 새와 가축과 온 땅과 땅 위를 기어 다니는 모든 것을 다스리게 하자.”",
+        "en": "God said, “Let us make humankind in our image, after our likeness, so that they may rule over the fish of the sea, the birds of the sky, the livestock, all the earth, and every creeping thing that creeps on the earth.”",
+        "es": "Dios dijo: «Hagamos a la humanidad a nuestra imagen, según nuestra semejanza, para que gobierne sobre los peces del mar, las aves del cielo, el ganado, toda la tierra y todo reptil que se arrastra sobre la tierra»."
+      },
+      "verdict": "agree_with_minor_suggestion",
+      "final_opinion_ko": "선택본은 표시된 MT의 목록(וּבְכָל־הָאָרֶץ 포함)을 빠짐없이 옮겼고 1인칭 복수도 보존했다. 동의한다. 제안점: (1) וְיִרְדּוּ는 권유형 뒤의 와우+지시형이므로 목적·결과('그리하여/so that')로 읽을 수 있다. (2) בְּ(형상)과 כְּ(모양)의 전치사 차이를 한국어 '형상대로/모양을 따라'로 조금 더 구분할 수 있다. 선택본의 '우리를 닮게'는 자연스럽지만 דְּמוּת가 명사라는 점이 흐려진다.",
+      "objections_ko": [
+        "일반적으로 보고되는 이문으로 페쉬타가 '온 땅' 자리에 '땅의 모든 들짐승'을 읽는다고 알려져 있으나, 이번 검토에서 사본·역본을 직접 대조하지 않았으므로 선택본 수정 근거로 쓰지 않는다. 목록 중 '온 땅'이 생물 목록에서 튀는 것은 사실이므로 해설 후보이다.",
+        "'우리'의 해석(천상 회의, 장엄 복수, 숙고의 복수, 삼위일체적 해석)은 번역으로 결정하지 말고 해설로 다뤄야 한다. 선택본과 이 제안 모두 그 점을 지킨다.",
+        "목적절 해석은 와우+지시형의 단순 병렬 해석보다 강한 해석이므로 선택본의 병렬 처리도 정당하다."
+      ],
+      "reconsider_if_ko": "편집부가 실제 증거 대조를 통해 다른 본문 기반을 검토하기로 할 경우."
+    },
+    {
+      "source": "Gen.1.27",
+      "selected_record_snapshot": {
+        "source": "Gen.1.27",
+        "id": "HYB.GEN.001.027",
+        "number": 27,
+        "ko": "하나님께서 사람을 그분의 형상대로 창조하셨다. 하나님의 형상대로 그를 창조하셨다. 남성과 여성으로 그들을 창조하셨다.",
+        "en": "God created humankind in his image; in the image of God he created him; male and female he created them.",
+        "es": "Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "וַיִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃",
+      "source_hebrew_sha256": "0ab8abadfc52e78227164c9144edaad1d987d2048682d9e1d38adfe711a09425",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "하나님께서 사람을 자신의 형상대로 창조하셨다. 하나님의 형상대로 그를 창조하셨고, 남성과 여성으로 그들을 창조하셨다.",
+        "en": "God created the human being in his image; in the image of God he created him; male and female he created them.",
+        "es": "Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó."
+      },
+      "verdict": "revision_suggested_en",
+      "final_opinion_ko": "단수 אֹתוֹ에서 복수 אֹתָם으로 넘어가는 원문 전환을 보존한 선택본의 방향에 동의한다. 다만 영어 선택본은 선행어를 집합명사 'humankind'로 두고 대명사를 'him'으로 받아 영어 문법상 지시가 어색하다. 스페인어는 'al ser humano ... lo'로 자연스럽게 일치하므로, 영어도 'the human being ... him'으로 맞추면 단수→복수 전환을 보존하면서 문법 불일치를 없앨 수 있다. 한국어는 동의하며 세 행의 운문 구조(삼중 בָּרָא)를 살리는 행 배열을 웹 표시에서 고려하기를 권한다.",
+      "objections_ko": [
+        "1:26의 'humankind'와 용어를 통일해야 한다는 반론이 있다. 이 경우 1:26도 'the human being'으로 바꾸거나, 1:27에서 'it'을 쓰는 방식이 있으나 'it'은 인격성을 지워 부적절하다.",
+        "'him'은 남성 개인(아담)으로 오독될 위험이 있으므로 해설에서 집합적 의미임을 밝혀야 한다."
+      ],
+      "reconsider_if_ko": "편집부가 1:26-28의 אָדָם 영어 역어를 하나로 통일하는 규칙을 정할 경우 그 규칙을 따른다."
+    },
+    {
+      "source": "Gen.1.28",
+      "selected_record_snapshot": {
+        "source": "Gen.1.28",
+        "id": "HYB.GEN.001.028",
+        "number": 28,
+        "ko": "하나님께서 그들에게 복을 주시고 말씀하셨다. “열매를 맺고 번성하여 땅을 채우고 정복하여라. 바다의 물고기와 하늘의 날짐승과 땅 위를 움직이는 모든 생물을 다스려라.”",
+        "en": "God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”",
+        "es": "Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "MT-WLC display; no full independent manuscript collation completed",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.3.0"
+      },
+      "source_hebrew": "וַיְבָ֣רֶךְ אֹתָם֮ אֱלֹהִים֒ וַיֹּ֨אמֶר לָהֶ֜ם אֱלֹהִ֗ים פְּר֥וּ וּרְב֛וּ וּמִלְא֥וּ אֶת־הָאָ֖רֶץ וְכִבְשֻׁ֑הָ וּרְד֞וּ בִּדְגַ֤ת הַיָּם֙ וּבְע֣וֹף הַשָּׁמַ֔יִם וּבְכָל־חַיָּ֖ה הָֽרֹמֶ֥שֶׂת עַל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "00d85747bdfeedb02cd6b310aedd7d27d8537f23d44a4f4af7653842b88deeee",
+      "source_notes": [],
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "declared_textual_basis": "MT-WLC display; no full independent manuscript collation completed",
+      "claude_code_proposal": {
+        "ko": "하나님께서 그들에게 복을 주시고, 하나님께서 그들에게 말씀하셨다. “열매를 맺고 번성하여 땅을 채우고 그것을 정복하여라. 바다의 물고기와 하늘의 새와 땅 위를 기어 다니는 모든 생물을 다스려라.”",
+        "en": "God blessed them, and God said to them, “Be fruitful and multiply, fill the earth and subdue it, and rule over the fish of the sea, the birds of the sky, and every living thing that creeps on the earth.”",
+        "es": "Dios los bendijo, y Dios les dijo: «Sean fecundos y multiplíquense, llenen la tierra y sométanla; gobiernen sobre los peces del mar, las aves del cielo y todo ser vivo que se arrastra sobre la tierra»."
+      },
+      "verdict": "agree_with_minor_suggestion",
+      "final_opinion_ko": "선택본은 다섯 명령형과 다스림의 대상 셋을 빠짐없이 옮겼다. 동의한다. 제안점: (1) הָרֹמֶשֶׂת는 1:26 הָרֶמֶשׂ הָרֹמֵשׂ와 같은 어근 רמשׂ이므로 '움직이는/moves'보다 '기어 다니는/creeps'로 맞추면 1:26과의 연결이 보인다. 다만 이 어근이 땅의 동물 전반의 움직임을 가리킨다는 해석도 있어 선택본도 허용 범위이다. (2) 원문은 אֱלֹהִים을 두 번 쓰는데 한국어 선택본은 두 번째를 생략했다. 의미 손실은 없으나 직역성을 원하면 복원할 수 있다.",
+      "objections_ko": [
+        "כָּבַשׁ('정복하다')와 רָדָה('다스리다')는 강한 동사이므로 '돌보다' 같은 완화된 역어로 바꾸자는 현대적 요구가 있으나, 그것은 번역이 아니라 해석이므로 이 제안도 선택본도 원래 강도를 유지한다.",
+        "'creeps'로 통일하면 땅 위의 모든 생물을 파충류·작은 동물로 좁게 읽히게 할 위험이 있다."
+      ],
+      "reconsider_if_ko": "편집부가 רמשׂ 어근의 역어를 1장 전체에서 하나로 통일할 경우."
+    }
+  ]
+}
