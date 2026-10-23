@@ -1,0 +1,18 @@
+{
+  "provider": "Claude Code native cloud sessions",
+  "enabled": true,
+  "credit_type": "Included cloud-session credits; not Anthropic Platform API balance",
+  "credit_verified_date_kst": "2026-10-24",
+  "expires_at": "2026-11-05T16:59:00+09:00",
+  "stop_new_translation_at": "2026-11-05T16:00:00+09:00",
+  "new_cash_budget_usd": 0,
+  "api_keys_required": false,
+  "initial_verse_limit_per_run": 100,
+  "pilot_verse_limit": 25,
+  "max_task_minutes": 45,
+  "cadence_hours": 6,
+  "allowed_repository": "yangs777/hansam-bible",
+  "output_state": "unadopted_model_draft",
+  "publication_requires": ["GPT review", "Gemini review", "current best editorial selection", "versioned archive", "publication checks"],
+  "budget_control_limitations": "Native cloud credit applies automatically. There is no implemented API budget meter for this credit type. Date and batch limits bound useful work; account credit snapshots are monitored separately. After credit expiry/exhaustion the provider may use included plan quota. No purchases or billing changes are authorized."
+}

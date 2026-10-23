@@ -1,7 +1,5 @@
-name: Expiring-credit Bible drafts
+name: Optional direct-API Bible drafts (not native Claude cloud credits)
 on:
-  schedule:
-    - cron: '17 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
