@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hansam-yang-bible.bloomybud16.chatgpt.site/data/schema.json",
+  "title": "Hansam Bible verse record",
+  "type": "object",
+  "required": [
+    "id",
+    "reference",
+    "version",
+    "project_author",
+    "translation_status",
+    "human_specialist_review",
+    "decision",
+    "basis",
+    "hebrew_layer",
+    "translations",
+    "canonical_urls",
+    "citations",
+    "rights"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^HYB\\."
+    },
+    "project_author": {
+      "const": "Hansam Yang"
+    },
+    "version": {
+      "type": "string"
+    },
+    "translation_status": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "human_specialist_review": {
+      "type": "string"
+    },
+    "translations": {
+      "type": "object",
+      "required": [
+        "ko",
+        "en",
+        "es"
+      ],
+      "properties": {
+        "ko": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "es": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "hebrew_layer": {
+      "type": "object",
+      "required": [
+        "hebrew",
+        "tokens",
+        "source_url",
+        "source_file_sha256",
+        "source_commit",
+        "display_transformation"
+      ]
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "editorial",
+        "hebrew_text",
+        "morphology"
+      ]
+    },
+    "citations": {
+      "type": "object",
+      "required": [
+        "ko",
+        "en",
+        "es"
+      ]
+    }
+  }
+}
