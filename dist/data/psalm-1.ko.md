@@ -70,7 +70,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Psalm 1:1–6 (ko), research pilot v0.1.0. https://hansam-yang-bible.bloomybud16.chatgpt.site/ko/psalm-1/
+Hansam Yang. Hansam Bible: Psalm 1:1–6 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

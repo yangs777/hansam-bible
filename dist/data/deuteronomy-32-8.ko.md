@@ -40,7 +40,7 @@ Emanuel Tov의 2023년 비교는 MT·사마리아오경의 ‘이스라엘 자�
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Deuteronomy 32:8 (ko), research pilot v0.1.0. https://hansam-yang-bible.bloomybud16.chatgpt.site/ko/deuteronomy-32-8/
+Hansam Yang. Hansam Bible: Deuteronomy 32:8 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

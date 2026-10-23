@@ -2,7 +2,7 @@
 
 **Hansam Yang** · founder, responsible editor and publisher · Research pilot **v0.1.0**
 
-[Read the pilot](https://hansam-yang-bible.bloomybud16.chatgpt.site) · [Open data](https://hansam-yang-bible.bloomybud16.chatgpt.site/data/) · [한국어 실행 전략](STRATEGY.ko.md)
+[Read the pilot](https://yangs777.github.io/hansam-bible) · [Open data](https://yangs777.github.io/hansam-bible/data/) · [한국어 실행 전략](STRATEGY.ko.md)
 
 This project traces biblical words and evidence across languages. The pilot contains **Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8**: 10 unique verses with newly written AI-assisted Korean, English and Spanish drafts. It is **not** a completed critical edition, a recovered autograph, or a human-certified translation. External Hebrew, textual-critical and native-language review is pending.
 

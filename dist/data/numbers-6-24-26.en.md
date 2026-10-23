@@ -46,7 +46,7 @@ Comparison with inscriptions such as Ketef Hinnom awaits a separate evidence rev
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Numbers 6:24–26 (en), research pilot v0.1.0. https://hansam-yang-bible.bloomybud16.chatgpt.site/en/numbers-6-24-26/
+Hansam Yang. Hansam Bible: Numbers 6:24–26 (en), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

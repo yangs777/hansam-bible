@@ -40,7 +40,7 @@ Counter-check: the Israel tradition must also be evaluated; an older artifact al
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Deuteronomy 32:8 (en), research pilot v0.1.0. https://hansam-yang-bible.bloomybud16.chatgpt.site/en/deuteronomy-32-8/
+Hansam Yang. Hansam Bible: Deuteronomy 32:8 (en), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

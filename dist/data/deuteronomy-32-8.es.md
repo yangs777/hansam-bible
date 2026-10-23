@@ -40,7 +40,7 @@ Contraste crítico: también debe evaluarse la tradición de Israel; la antigüe
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Deuteronomy 32:8 (es), research pilot v0.1.0. https://hansam-yang-bible.bloomybud16.chatgpt.site/es/deuteronomy-32-8/
+Hansam Yang. Hansam Bible: Deuteronomy 32:8 (es), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

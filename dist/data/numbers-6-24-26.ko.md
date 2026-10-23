@@ -46,7 +46,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Numbers 6:24–26 (ko), research pilot v0.1.0. https://hansam-yang-bible.bloomybud16.chatgpt.site/ko/numbers-6-24-26/
+Hansam Yang. Hansam Bible: Numbers 6:24–26 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
