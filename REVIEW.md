@@ -15,3 +15,15 @@
 | Add source cache and error handling | Accepted. Local ignored cache plus pinned hashes, fail-closed preparation and offline deterministic build. |
 
 The review's 'Critical' labels are its assessments, not legal findings. Its claim that all issues could be fixed to achieve complete scholarly/legal integrity was not adopted. Source rights and specialist checks remain separately scoped.
+
+## Terminal review of public data
+
+2026-10-23 · Official Antigravity CLI 1.4.6, structured headless output. The desktop conversation was unavailable in the CLI store; the review brief was transferred to a CLI conversation. No desktop UI control was used for this review.
+
+Antigravity ran a fixed read-only Python fetch of the public Deuteronomy English Markdown, catalog JSON and verse JSONL on raw.githubusercontent.com. It reported HTTP 200 for all three; the three returned SHA-256 hashes match the corresponding committed files.
+
+It recovered the ten requested facts: Hansam Yang attribution, v0.1.0, ten unique verses, Korean/English/Spanish, pending human review, the MT-WLC display reading, the phrase-only “sons of God” comparison, the Open decision, separately scoped upstream/editorial rights, and the public English citation. It reported no new metadata contradictions in those inputs.
+
+One incidental formatting error in its optional citation example is corrected here: an anchor attaches without a space, as `https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/#v8`. The unanchored canonical citation was correct. The raw AI response is retained locally.
+
+This verifies retrieval and preservation of the requested metadata when URLs are supplied. It does not demonstrate natural search discovery, training inclusion, future citations, or scholarly accuracy of the translations and manuscript judgments.
