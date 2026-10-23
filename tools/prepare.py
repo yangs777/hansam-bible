@@ -5,7 +5,7 @@ CACHE=ROOT/'private/upstream_cache'; CACHE.mkdir(parents=True,exist_ok=True)
 CFG=json.loads((ROOT/'config.json').read_text(encoding='utf-8'))
 COMMIT=CFG['source_commit']
 NS={'o':'http://www.bibletechnologies.net/2003/OSIS/namespace'}
-SELECT={'Ps':{'Ps.1.'+str(i) for i in range(1,7)},'Num':{'Num.6.'+str(i) for i in range(24,27)},'Deut':{'Deut.32.8'}}
+SELECT={'Gen':{'Gen.1.'+str(i) for i in range(1,32)},'Ps':{'Ps.1.'+str(i) for i in range(1,7)},'Num':{'Num.6.'+str(i) for i in range(24,27)},'Deut':{'Deut.32.8'}}
 previous=json.loads((ROOT/'data/hebrew.json').read_text(encoding='utf-8')) if (ROOT/'data/hebrew.json').exists() else {}
 out={}
 for book,ids in SELECT.items():
@@ -33,12 +33,12 @@ for book,ids in SELECT.items():
                 pieces.append(text)
             elif tag=='seg' and el.get('type') not in ('x-pe','x-samekh','x-reversednun'):
                 pieces.append(''.join(el.itertext()))
-            elif tag=='note' and not list(el) and el.get('n')=='c':
-                notes.append({'type':'upstream_accent_comparison','text':el.text or ''})
+            elif tag=='note' and not list(el) and el.get('n') in ('c','p'):
+                notes.append({'type':{'c':'upstream_accent_comparison','p':'upstream_punctuation_comparison'}[el.get('n')],'text':el.text or ''})
             elif tag!='seg':
                 raise ValueError(f'{vid}: unsupported {tag} markup; review Qere/Ketiv and notes before extending the pilot')
         text=' '.join(pieces).replace(' ־ ','־').replace(' ׃','׃')
-        out[vid]={'hebrew':text,'tokens':words,'source_notes':notes,'source_url':url,'source_file_sha256':hashlib.sha256(raw).hexdigest(),'source_commit':COMMIT,'source_reference':vid,'source_attribution':'Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb','rights':{'text':'Westminster Leningrad Codex — public domain','lemma_and_morphology':'Open Scriptures Hebrew Bible — CC BY 4.0','license_url':'https://creativecommons.org/licenses/by/4.0/'},'display_transformation':'Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening.'}
+        out[vid]={'hebrew':text,'tokens':words,'source_notes':notes,'source_url':url,'source_file_sha256':hashlib.sha256(raw).hexdigest(),'source_commit':COMMIT,'source_reference':vid,'source_attribution':'Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb','rights':{'text':'Westminster Leningrad Codex — public domain','lemma_and_morphology':'Open Scriptures Hebrew Bible — CC BY 4.0','license_url':'https://creativecommons.org/licenses/by/4.0/'},'display_transformation':'Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening.'}
 (ROOT/'data').mkdir(exist_ok=True)
-(ROOT/'data'/'hebrew.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(ROOT/'data'/'hebrew.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({k:v['hebrew'] for k,v in out.items()},ensure_ascii=False,indent=2))

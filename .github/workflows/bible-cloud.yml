@@ -1,0 +1,46 @@
+name: Expiring-credit Bible drafts
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bible-cloud-credit-ledger
+  cancel-in-progress: false
+jobs:
+  drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check verified credit policy before any paid call
+        id: policy
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.BIBLE_ANTHROPIC_API_KEY }}
+        run: |
+          python tools/cloud_worker.py
+          python - <<'PY'
+          import json, os
+          from tools.cloud_worker import guard, UTC
+          import datetime
+          p=json.load(open('automation/credit-policy.json'))
+          ready=guard(p,datetime.datetime.now(UTC),bool(os.environ.get('ANTHROPIC_API_KEY'))) is None
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('ready='+str(ready).lower()+'\n')
+          PY
+      - name: Open durable draft ledger branch
+        if: steps.policy.outputs.ready == 'true'
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin bible-cloud-state; then
+            git fetch origin bible-cloud-state
+            git worktree add cloud-state FETCH_HEAD
+          else
+            git worktree add --detach cloud-state HEAD
+          fi
+      - name: Generate capped drafts; reserve before request; no automatic retry
+        if: steps.policy.outputs.ready == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.BIBLE_ANTHROPIC_API_KEY }}
+        run: python tools/cloud_worker.py --state cloud-state --execute --git-ledger

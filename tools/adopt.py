@@ -17,7 +17,11 @@ def adopt(decision_file, version):
     if decisions['version'] != version: raise ValueError('Decision version mismatch')
     selected = {d['id']: d for d in decisions['verses']}
     if len(selected)!=len(decisions['verses']): raise ValueError('Duplicate verse decisions')
-    verses = [v for p in editorial['passages'] for v in p['verses']]
+    previous_verses = [v for p in editorial['passages'] for v in p['verses']]
+    additions=decisions.get('new_passages',[])
+    proposed_passages=additions+editorial['passages']
+    verses = [v for p in proposed_passages for v in p['verses']]
+    if len({v['id'] for v in verses})!=len(verses): raise ValueError('Duplicate existing/new verse IDs')
     if len(selected) != len(verses) or set(selected) != {v['id'] for v in verses}:
         raise ValueError('Supply exactly one selection for every current verse')
     for d in selected.values():
@@ -27,7 +31,9 @@ def adopt(decision_file, version):
         if not d.get('reason_ko') or not d.get('basis'): raise ValueError('Decision needs reason and basis')
     current = read(R/'dist/data/hansam-bible.json')
     if current['metadata']['version'] != old_version: raise ValueError('Build the current version before archiving it')
-    by_id = {v['id']: v for v in verses}
+    by_id = {v['id']: v for v in previous_verses}
+    if {r['id'] for r in current['records']} != set(by_id) or len(current['records']) != len(by_id):
+        raise ValueError('Published dataset must contain every previous verse exactly once')
     for record in current['records']:
         if record['translations'] != {k:by_id[record['id']][k] for k in ('ko','en','es')}:
             raise ValueError('Published dataset differs from current source; archive would be unreliable')
@@ -35,7 +41,16 @@ def adopt(decision_file, version):
     if archive.exists():
         if read(archive)['records'] != current['records']: raise ValueError('Archived edition is immutable')
     else:
-        save(archive, {'version':old_version,'title':config['title'],'state':'superseded',**current})
+        published=R/f'dist/data/releases/v{old_version}.json'
+        if published.exists():
+            snapshot=read(published)
+            if snapshot['version']!=old_version or snapshot['records']!=current['records']:
+                raise ValueError('Published version snapshot differs from current dataset')
+            archive.parent.mkdir(parents=True,exist_ok=True)
+            archive.write_bytes(published.read_bytes())
+        else:
+            save(archive, {'version':old_version,'title':config['title'],'state':'superseded',**current})
+    editorial['passages']=proposed_passages
     for p in editorial['passages']:
         for v in p['verses']:
             d = selected[v['id']]
@@ -45,7 +60,7 @@ def adopt(decision_file, version):
             p['basis'] = selected[p['verses'][0]['id']]['basis']
     config['version'] = version
     save(R/'data/editorial.json',editorial); save(R/'config.json',config)
-    save(R/'data/decisions.json', decisions)
+    save(R/'data/decisions.json', {k:v for k,v in decisions.items() if k!='new_passages'})
     citation=R/'CITATION.cff'
     if citation.exists():
         citation.write_text(re.sub(r'^version: .+$','version: '+version,citation.read_text(encoding='utf-8'),flags=re.M),encoding='utf-8')

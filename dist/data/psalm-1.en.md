@@ -1,6 +1,6 @@
 # Psalm 1
 
-Hansam Yang · Original Bible · v0.2.0
+Hansam Yang · Original Bible · v0.3.0
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -42,6 +42,10 @@ Previous v0.1.0
 
 Happy is the person who has not walked by the counsel of the wicked, stood in the way of sinners, or sat in the seat of scoffers.
 
+Previous v0.2.0
+
+Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.
+
 ## 2 · HYB.PS.001.002
 
 Hebrew display (MT/WLC): כִּ֤י אִ֥ם בְּתוֹרַ֥ת יְהוָ֗ה חֶ֫פְצ֥וֹ וּֽבְתוֹרָת֥וֹ יֶהְגֶּ֗ה יוֹמָ֥ם וָלָֽיְלָה׃
@@ -72,6 +76,10 @@ Previous v0.1.0
 
 Instead, his delight is in YHWH’s instruction, and he recites that instruction by day and by night.
 
+Previous v0.2.0
+
+Rather, his delight is in YHWH’s instruction, and he recites it day and night.
+
 ## 3 · HYB.PS.001.003
 
 Hebrew display (MT/WLC): וְֽהָיָ֗ה כְּעֵץ֮ שָׁת֪וּל עַֽל־פַּלְגֵ֫י מָ֥יִם אֲשֶׁ֤ר פִּרְי֨וֹ ׀ יִתֵּ֬ן בְּעִתּ֗וֹ וְעָלֵ֥הוּ לֹֽא־יִבּ֑וֹל וְכֹ֖ל אֲשֶׁר־יַעֲשֶׂ֣ה יַצְלִֽיחַ׃
@@ -99,6 +107,10 @@ Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채�
 Counterargument (Korean): 옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.
 
 Previous v0.1.0
+
+He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
+
+Previous v0.2.0
 
 He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
 
@@ -132,6 +144,10 @@ Previous v0.1.0
 
 Not so the wicked: they are like chaff that the wind drives away.
 
+Previous v0.2.0
+
+Not so the wicked! Rather, they are like chaff that the wind drives away.
+
 ## 5 · HYB.PS.001.005
 
 Hebrew display (MT/WLC): עַל־כֵּ֤ן ׀ לֹא־יָקֻ֣מוּ רְ֭שָׁעִים בַּמִּשְׁפָּ֑ט וְ֝חַטָּאִ֗ים בַּעֲדַ֥ת צַדִּיקִֽים׃
@@ -159,6 +175,10 @@ Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채�
 Counterargument (Korean): 법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.
 
 Previous v0.1.0
+
+Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
+
+Previous v0.2.0
 
 Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
 
@@ -192,6 +212,10 @@ Previous v0.1.0
 
 For YHWH knows the way of the righteous, but the way of the wicked perishes.
 
+Previous v0.2.0
+
+For YHWH knows the way of the righteous, but the way of the wicked perishes.
+
 ## Notes
 
 Torah can denote instruction or law. This draft uses ‘instruction’ without fixing the precise scope of the writings intended.
@@ -202,7 +226,7 @@ In verse 6 the subject that perishes is ‘the way of the wicked’. Verse 3 is 
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

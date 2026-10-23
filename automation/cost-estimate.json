@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-23",
+  "scenario_verses": 31000,
+  "languages": [
+    "ko",
+    "en",
+    "es"
+  ],
+  "observed_chapter_verses": 31,
+  "claude_hard_verse_reviews": 7,
+  "distinct_cli_runs": [
+    {
+      "model": "gemini-3.8-flash-medium",
+      "conversation_id": "8e741efb-06f1-46ea-b4a6-e7aad40c444c",
+      "input": 35531,
+      "output": 12696,
+      "thinking": 1518
+    },
+    {
+      "model": "gemini-3.8-flash-medium",
+      "conversation_id": "b7cbc30d-d3b8-47c6-be6a-20ab36514ae2",
+      "input": 19157,
+      "output": 7213,
+      "thinking": 729
+    },
+    {
+      "model": "gemini-3.8-flash-medium",
+      "conversation_id": "de0130a6-8e4f-4272-818d-ce683b15b8e3",
+      "input": 21212,
+      "output": 13047,
+      "thinking": 8583
+    },
+    {
+      "model": "claude-opus-4-6-thinking",
+      "conversation_id": "fc7f4738-53cd-42c6-9e42-701d2d41656d",
+      "input": 26488,
+      "output": 20246,
+      "thinking": 0
+    }
+  ],
+  "observed_cli_cash_charged_by_project": 0,
+  "cli_to_api_cash_equivalence": "not valid; counterfactual only",
+  "gemini_pricing_proxy": "GPT-6.1 Sol standard $2/M input, $10/M output; no Gemini API price asserted",
+  "claude_counterfactual_rates": "Opus 4.6 $5/M input, $25/M output",
+  "thinking_ambiguity": "Lower bound uses reported output only; upper adds thinking because CLI counter inclusion is not independently verified",
+  "chapter_external_model_counterfactual_usd": [
+    1.12,
+    1.2283
+  ],
+  "full_bible_external_calls_counterfactual_usd": [
+    1120,
+    1228
+  ],
+  "gpt_editorial_assumed_per_31_verse_usd": [
+    0.19,
+    0.42
+  ],
+  "full_three_language_review_budget_usd": [
+    2000,
+    5000
+  ],
+  "single_pass_draft_scenario_usd": [
+    200,
+    600
+  ],
+  "excludes": [
+    "human specialist review",
+    "direct full manuscript collation",
+    "image/data licensing",
+    "new language additions",
+    "Greek New Testament pipeline development",
+    "tax and currency conversion"
+  ],
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://platform.claude.com/docs/en/about-claude/pricing"
+  ],
+  "warning": "Scenario extrapolation, not an invoice or fixed quote. Subscription quota is account-shared and cannot be converted from these token counters."
+}

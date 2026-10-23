@@ -43,5 +43,17 @@ class RevisionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'immutable'):adopt.adopt(self.path,self.next_version)
         self.assertEqual(digest,hashlib.sha256(path.read_bytes()).digest())
         self.assertEqual(self.version,adopt.read(self.root/'config.json')['version'])
+    def test_new_passage_preserves_entire_previous_collection(self):
+        import copy
+        self.next_decisions()
+        passage=copy.deepcopy(adopt.read(self.root/'data/editorial.json')['passages'][0])
+        passage['id']='TEST.NEW';passage['slug']='test-new';passage['verses']=passage['verses'][:1]
+        passage['verses'][0]['id']='TEST.NEW.001'
+        decision=copy.deepcopy(self.decisions['verses'][0]);decision['id']='TEST.NEW.001'
+        self.decisions['new_passages']=[passage];self.decisions['verses'].append(decision);adopt.save(self.path,self.decisions)
+        old=adopt.read(self.root/'dist/data/hansam-bible.json')['records']
+        with contextlib.redirect_stdout(io.StringIO()):adopt.adopt(self.path,self.next_version)
+        self.assertEqual(old,adopt.read(self.root/f'data/releases/v{self.version}.json')['records'])
+        self.assertEqual('TEST.NEW.001',adopt.read(self.root/'data/editorial.json')['passages'][0]['verses'][0]['id'])
 
 if __name__=='__main__':unittest.main()

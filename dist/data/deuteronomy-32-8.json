@@ -1,7 +1,7 @@
 {
   "id": "HYB.DEUT.032.008",
   "reference": "Deuteronomy 32:8",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "project_author": "Hansam Yang",
   "author_role": "Project founder, responsible editor and publisher; ancient authorship not claimed",
   "status": "research-pilot",
@@ -68,7 +68,7 @@
       "id": "HYB.DEUT.032.008",
       "reference": "Deut.32.8",
       "passage": "Deuteronomy 32:8",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -163,7 +163,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
@@ -176,9 +176,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/#v8"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Deuteronomy 32:8 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/#v8",
-        "en": "Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/#v8",
-        "es": "Hansam Yang. Original Bible: Deuteronomy 32:8 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/#v8"
+        "ko": "Hansam Yang. Original Bible: Deuteronomy 32:8 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/#v8",
+        "en": "Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/#v8",
+        "es": "Hansam Yang. Original Bible: Deuteronomy 32:8 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/#v8"
       },
       "rights": {
         "editorial": {
@@ -201,7 +201,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.DEUT.032.008",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
@@ -240,6 +240,23 @@
         "model_proposals": [
           {
             "model": "claude-opus-4-6-thinking",
+            "execution": {
+              "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+              "client": "agy 1.4.6; NOT Claude Code",
+              "requested_model_id": "claude-opus-4-6-thinking",
+              "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+              "usage": {
+                "input_tokens": 15593,
+                "output_tokens": 7199,
+                "thinking_tokens": 0,
+                "cache_read_tokens": 0,
+                "total_tokens": 22792
+              },
+              "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.DEUT.032.008",
             "translations": {
               "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
@@ -254,6 +271,24 @@
           },
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.DEUT.032.008",
             "translations": {
               "ko": "[편집 재구성: MT 본문에 보고된 4Q37 이문 적용] 지존하신 분께서 민족들에게 유산을 나누어 주실 때, 아담의 자손들을 흩으실 때, 하나님의 아들들의 수효대로 뭇 백성의 경계들을 세우셨도다.",
@@ -268,6 +303,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.DEUT.032.008",
             "translations": {
               "ko": "지극히 높으신 이께서 민족들에게 기업을 나누실 때, 사람들을 나누실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 세우셨다.",
@@ -410,6 +451,17 @@
             "basis": "MT-WLC display, with a separately labelled reported 4Q37 variant",
             "decision": "Open — full independent collation and direct image review pending",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            },
+            "basis": "MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction",
+            "decision": "Current best: divine-sons reading; full translation is an editorial reconstruction, revisable",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },

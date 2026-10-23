@@ -6,7 +6,8 @@ C=json.loads((R/'config.json').read_text(encoding='utf-8'))
 H=json.loads((R/'data/hebrew.json').read_text(encoding='utf-8'))
 E=json.loads((R/'data/editorial.json').read_text(encoding='utf-8'))['passages']
 records=[json.loads(s) for s in (D/'data/hansam-bible.jsonl').read_text(encoding='utf-8').splitlines()]
-assert len(records)==10 and len({r['id'] for r in records})==10
+expected_count=sum(len(p['verses']) for p in E)
+assert len(records)==expected_count and len({r['id'] for r in records})==expected_count
 assert json.loads((D/'data/hansam-bible.json').read_text(encoding='utf-8'))['records']==records
 for r in records:
     assert r['project_author']=='Hansam Yang' and r['translation_status']=='draft'
@@ -22,8 +23,13 @@ for r in records:
     assert r['title']=='원문성경 · Original Bible'
     assert {p['model'] for p in trace['model_proposals']} >= {'gpt-6.1-sol','gemini-3.8-flash-medium'}
     assert set(trace['model_final_opinions']) >= {'gpt-6.1-sol','gemini-3.8-flash-medium'}
+    if r['id'].startswith('HYB.GEN.'):
+        assert trace['model_final_opinions']['gemini-3.8-flash-medium']['stage']=='gemini.round3'
+        if int(r['id'][-3:]) in (1,2,3,6,26,27,28):
+            assert 'claude-opus-4-6-thinking' in {p['model'] for p in trace['model_proposals']}
     assert r['model_provenance']['gemini-3.8-flash-medium']['requested_model_id']=='gemini-3.8-flash-medium'
-    assert trace['previous_editions'][0]['version']=='0.1.0'
+    if not r['id'].startswith('HYB.GEN.'):
+        assert {x['version'] for x in trace['previous_editions']} >= {'0.1.0','0.2.0'}
     for lang in ('ko','en','es'):
         assert r['translations'][lang] and 'Hansam Yang' in r['citations'][lang]
         assert r['version'] in r['citations'][lang] and r['canonical_urls'][lang].startswith(C['origin'])
@@ -37,8 +43,9 @@ assert 'sons of God' in records[-1]['translations']['en']
 assert 'editorial reconstruction' in records[-1]['basis'].lower()
 assert 'sons of Israel' in records[-1]['decision_trace']['selection']['mt_display_translation']['en']
 assert json.loads((D/f'data/releases/v{C["version"]}.json').read_text(encoding='utf-8'))['records']==records
-assert E[2]['variant']['not_a_complete_verse'] is True
-assert E[2]['variant']['en']=='sons of God' and len(E[2]['readings'])==3
+deut=next(p for p in E if p['slug']=='deuteronomy-32-8')
+assert deut['variant']['not_a_complete_verse'] is True
+assert deut['variant']['en']=='sons of God' and len(deut['readings'])==3
 # Compare imported tokens to pinned XML when the local preparation cache is available.
 checked_tokens=0
 for f in (R/'private/upstream_cache').glob('*.xml'):
@@ -92,6 +99,6 @@ for lang in ('ko','en','es'):
         assert 'ORIGINAL BIBLE' in s and 'gemini-3.8-flash-medium' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
-assert len(pages)==17
+assert len(pages)==8+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3
 ET.parse(D/'sitemap.xml')
-print(json.dumps({'result':'PASS','html_pages':len(pages),'localized_passage_pages':9,'verse_records':10,'draft_translations':30,'upstream_tokens_compared':checked_tokens,'checks':['per-record provenance and rights','draft and review states','shared-data export equality','source Hebrew codepoint preservation when cache exists','local links and anchors','JSON-LD parsing','canonical/hreflang','SHA-256 manifest','XML sitemap']},ensure_ascii=False,indent=2))
+print(json.dumps({'result':'PASS','html_pages':len(pages),'localized_passage_pages':len(E)*3,'verse_records':expected_count,'draft_translations':expected_count*3,'upstream_tokens_compared':checked_tokens,'checks':['per-record provenance and rights','draft and review states','shared-data export equality','source Hebrew codepoint preservation when cache exists','local links and anchors','JSON-LD parsing','canonical/hreflang','SHA-256 manifest','XML sitemap']},ensure_ascii=False,indent=2))

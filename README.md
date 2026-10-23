@@ -1,12 +1,12 @@
 # 원문성경 / Original Bible
 
-**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.2.0**
+**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.3.0**
 
 [본문 읽기](https://yangs777.github.io/hansam-bible/) · [공개 데이터](https://yangs777.github.io/hansam-bible/data/) · [운영 전략](STRATEGY.ko.md)
 
 각 언어에서 현재 근거에 따른 최선의 번역을 읽고, 더 좋은 증거가 나오면 갱신하는 공개 성경 연구 프로젝트입니다. 이전 이름은 Hansam Bible이며 기존 주소와 구절 식별자는 유지합니다. Hansam Yang은 현대 프로젝트의 최초 기획자·제작자이며 고대 성경의 저자라는 뜻이 아닙니다.
 
-The pilot contains Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: ten unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
+The pilot contains Genesis 1:1–31, Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: forty-one unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
 
 ## Compare the selected text with actual model proposals
 
@@ -14,7 +14,7 @@ Each verse shows the current best selection and an expandable comparison: actual
 
 - GPT: gpt-6.1-sol, from the local Codex model configuration. An immutable backend snapshot is not exposed. This editorial agent had seen the previous pilot; it is not a blinded replicate.
 - Gemini: gemini-3.8-flash-medium, explicitly selected through official Antigravity CLI 1.4.6. Round 1 withheld other translations; round 2 was a disclosed cross-review.
-- Difficult Deuteronomy 32:8 also has an actual Claude Opus 4.6 Thinking proposal and final opinion through Antigravity CLI. Claude Code 2.1.308 is installed separately and awaiting account authentication; its connection is not represented as complete.
+- Seven difficult Genesis verses and Deuteronomy 32:8 also have an actual Claude Opus 4.6 Thinking proposal and final opinion through Antigravity CLI. Claude Code 2.1.308 is installed separately and awaiting account authentication; its connection is not represented as complete.
 - Model agreement is an opinion record. Source evidence, grammar, context and counterarguments remain separately identified.
 
 Deuteronomy 32:8 currently selects the divine-sons reading. The full translation is a **modern editorial reconstruction: MT remainder plus the reported 4Q37 phrase**. The complete Hebrew alongside it is MT, ending with sons of Israel; its separate translation remains in the comparison. No complete preserved 4Q37 verse or new photograph reading is claimed.
@@ -39,14 +39,20 @@ Hebrew display: Westminster Leningrad Codex, public domain. Lemmas/morphology: *
 
 New editorial material and drafts: **CC BY 4.0, to the extent rights are held**. Code: MIT. See [editorial license](LICENSE-EDITORIAL.md), [code license](LICENSE-CODE.txt) and [CITATION.cff](CITATION.cff). No exclusive authorship is claimed over public-domain scripture or cited scholarship.
 
-Suggested citation: Hansam Yang. Original Bible, [passage], [language], research edition v0.2.0. [canonical URL]. Preserve AI/draft status, upstream credits, licenses and applicable change notices.
+Suggested citation: Hansam Yang. Original Bible, [passage], [language], research edition v0.3.0. [canonical URL]. Preserve AI/draft status, upstream credits, licenses and applicable change notices.
 
 ## Data and corrections
 
 - data/editorial.json: current texts and passage notes.
 - data/decisions.json: selections, reasons, bases, counterarguments and reconsideration conditions.
-- data/model-reviews/v0.2.0/: actual proposals, prompts, final opinions and execution metadata.
+- data/model-reviews/v0.3.0/: actual proposals, prompts, final opinions and execution metadata.
 - data/releases/: immutable superseded editions.
 - dist/data/: JSON, JSONL, Markdown, TSV, checksums, ZIP and versioned datasets.
 
 Report corrections with passage ID, version, source and proposed change. Static HTML, canonical/language links, sitemap and factual structured data support retrieval. Access does not guarantee indexing, AI citation or training inclusion. See [REVIEW.md](REVIEW.md) and [CHANGELOG.md](CHANGELOG.md).
+
+## Search and spare-quota operation
+
+[Genesis 1](https://yangs777.github.io/hansam-bible/ko/genesis-1/) includes 31 verse anchors and three substantive translation-question guides in each language. See [search plan](SEO-PLAN.ko.md), [cost and automation](COST-AND-AUTOMATION.ko.md), and [scenario calculator](automation/cost-estimate.json).
+
+A local heartbeat checks spare account quota. A separate GitHub Actions worker is prepared for verified expiring Anthropic API credits; its paid policy is disabled until balance, expiry and paid-balance isolation are verified. No new cash purchases are enabled. Its results are unadopted drafts, not automatically certified or published translations.

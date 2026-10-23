@@ -1,7 +1,7 @@
 {
   "id": "HYB.NUM.006.024-026",
   "reference": "Numbers 6:24–26",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "project_author": "Hansam Yang",
   "author_role": "Project founder, responsible editor and publisher; ancient authorship not claimed",
   "status": "research-pilot",
@@ -63,7 +63,7 @@
       "id": "HYB.NUM.006.024",
       "reference": "Num.6.24",
       "passage": "Numbers 6:24–26",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -104,7 +104,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
@@ -117,9 +117,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
-        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
-        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
       },
       "rights": {
         "editorial": {
@@ -142,7 +142,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.NUM.006.024",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
@@ -173,6 +173,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.NUM.006.024",
             "translations": {
               "ko": "야훼께서 그대에게 복을 내리시고 그대를 지키시기를.",
@@ -187,6 +205,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.NUM.006.024",
             "translations": {
               "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
@@ -263,27 +287,21 @@
             "basis": "MT-WLC display; no inscription substituted for the biblical text",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+              "en": "May YHWH bless you and guard you.",
+              "es": "Que YHWH te bendiga y te guarde."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -315,7 +333,7 @@
       "id": "HYB.NUM.006.025",
       "reference": "Num.6.25",
       "passage": "Numbers 6:24–26",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -368,7 +386,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
@@ -381,9 +399,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
-        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
-        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
       },
       "rights": {
         "editorial": {
@@ -406,7 +424,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.NUM.006.025",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
@@ -437,6 +455,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.NUM.006.025",
             "translations": {
               "ko": "야훼께서 그분의 얼굴을 그대에게 비추시며 그대에게 은혜를 베푸시기를.",
@@ -451,6 +487,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.NUM.006.025",
             "translations": {
               "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
@@ -527,27 +569,21 @@
             "basis": "MT-WLC display; no inscription substituted for the biblical text",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+              "en": "May YHWH make his face shine toward you and be gracious to you.",
+              "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -579,7 +615,7 @@
       "id": "HYB.NUM.006.026",
       "reference": "Num.6.26",
       "passage": "Numbers 6:24–26",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -644,7 +680,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
@@ -657,9 +693,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
-        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
-        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
       },
       "rights": {
         "editorial": {
@@ -682,7 +718,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.NUM.006.026",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
@@ -713,6 +749,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.NUM.006.026",
             "translations": {
               "ko": "야훼께서 그분의 얼굴을 그대를 향해 드시며 그대에게 평안을 두시기를.",
@@ -727,6 +781,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.NUM.006.026",
             "translations": {
               "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
@@ -803,27 +863,21 @@
             "basis": "MT-WLC display; no inscription substituted for the biblical text",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+              "en": "May YHWH lift his face toward you and give you peace.",
+              "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 — 2026-10-24
+
+- Added all 31 Genesis 1 verses in Korean, English and Spanish, with actual GPT/Gemini proposals and final opinions and Claude review for seven difficult verses.
+- Retained dissent on wind/spirit, rejected unsupported model claims, and archived v0.2.0 before adoption.
+- Added three translation-question guides in each language, chapter anchors and descriptive titles; prepared verified IndexNow submission.
+- Added measured token scenarios, spare-quota local policy, and a durable capped cloud draft worker. Paid execution remains disabled pending actual credit verification and a scoped secret.
+- Prepared 5,347 Torah source verses in 1,142 jobs; deferred 471 unsupported variant/markup verses.
+- Tested three-verse GPT and Gemini web drafts; exact backend version and web token counters were not exposed.
+
 ## 0.2.0 — 2026-10-23
 
 - Renamed the project 원문성경 / Original Bible; Hansam Yang remains the founder and original creator. Reading URLs and verse IDs remain stable.

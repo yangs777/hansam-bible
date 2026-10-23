@@ -5,15 +5,21 @@ def read(p): return json.loads(p.read_text(encoding='utf-8'))
 def esc(x): return html.escape(str(x),quote=True)
 
 def load(version):
-    folder=R/'data/model-reviews'/('v'+version)
+    def folders(ver,seen=()):
+        if ver in seen:raise ValueError('Review inheritance cycle')
+        folder=R/'data/model-reviews'/('v'+ver)
+        manifest=read(folder/'manifest.json') if (folder/'manifest.json').exists() else {}
+        return [f for parent in manifest.get('inherits',[]) for f in folders(parent,seen+(ver,))]+[folder]
     proposals={}; opinions={}; registry={}; opinion_history={}
-    for p in sorted(folder.glob('*.round1.json')):
+    review_folders=folders(version)
+    for p in [p for folder in review_folders for p in sorted(folder.glob('*.round1.json'))]:
         item=read(p); model=item['model']; registry[model]=item['execution']
-        for v in item['verses']: proposals.setdefault(v['id'],[]).append({'model':model,**v})
+        for v in item['verses']:
+            proposals.setdefault(v['id'],[]).append({'model':model,'execution':item['execution'],**v})
         for v in item.get('opinions',[]):
             entry={'stage':p.stem,**v}; opinions.setdefault(v['id'],{})[model]=entry
             opinion_history.setdefault(v['id'],[]).append({'model':model,**entry})
-    for p in sorted(list(folder.glob('*.round2.json'))+list(folder.glob('*.round3.json'))):
+    for p in [p for folder in review_folders for p in sorted(list(folder.glob('*.round2.json'))+list(folder.glob('*.round3.json')))]:
         item=read(p)
         for v in item['opinions']:
             entry={'stage':p.stem,**v}; opinions.setdefault(v['id'],{})[item['model']]=entry

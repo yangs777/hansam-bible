@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "provider": "Anthropic direct Messages API",
+  "model": "claude-sonnet-4-6",
+  "balance_verified_at": null,
+  "credit_expires_at": null,
+  "verified_remaining_usd": null,
+  "project_cap_usd": null,
+  "new_cash_budget_usd": 0,
+  "credit_isolated_from_paid_balance": false,
+  "input_usd_per_million": 3,
+  "output_usd_per_million": 15,
+  "max_output_tokens": 6500,
+  "max_jobs_per_run": 100,
+  "run_budget_seconds": 2800,
+  "expiry_buffer_hours": 6,
+  "verification_max_age_hours": 24,
+  "note": "User remembers about $150 expiring credits. Amount/date are unverified. Enable only after verifying eligible direct API credits, isolation from purchased credit/auto-reload, and registering a scoped GitHub secret. Never purchase credit automatically."
+}

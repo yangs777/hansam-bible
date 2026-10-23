@@ -1,6 +1,6 @@
 # Números 6:24–26
 
-Hansam Yang · Original Bible · v0.2.0
+Hansam Yang · Original Bible · v0.3.0
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -42,6 +42,10 @@ Previous v0.1.0
 
 Que YHWH te bendiga y te proteja.
 
+Previous v0.2.0
+
+Que YHWH te bendiga y te guarde.
+
 ## 25 · HYB.NUM.006.025
 
 Hebrew display (MT/WLC): יָאֵ֨ר יְהוָ֧ה ׀ פָּנָ֛יו אֵלֶ֖יךָ וִֽיחֻנֶּֽךָּ׃
@@ -69,6 +73,10 @@ Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채�
 Counterargument (Korean): 호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.
 
 Previous v0.1.0
+
+Que YHWH haga brillar su rostro hacia ti y te conceda su favor.
+
+Previous v0.2.0
 
 Que YHWH haga brillar su rostro hacia ti y te conceda su favor.
 
@@ -102,6 +110,10 @@ Previous v0.1.0
 
 Que YHWH alce su rostro hacia ti y te dé paz.
 
+Previous v0.2.0
+
+Que YHWH alce su rostro hacia ti y te dé paz.
+
 ## Notes
 
 Estas líneas se traducen como deseos de bendición. El ‘tú’ hebreo es singular y se mantiene así.
@@ -112,7 +124,7 @@ La comparación con inscripciones como Ketef Hinnom queda pendiente de una revis
 
 ## Citation
 
-Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/
+Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

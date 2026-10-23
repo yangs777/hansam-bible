@@ -1,7 +1,7 @@
 {
   "id": "HYB.PS.001",
   "reference": "Psalm 1:1–6",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "project_author": "Hansam Yang",
   "author_role": "Project founder, responsible editor and publisher; ancient authorship not claimed",
   "status": "research-pilot",
@@ -63,7 +63,7 @@
       "id": "HYB.PS.001.001",
       "reference": "Ps.1.1",
       "passage": "Psalm 1:1–6",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -181,7 +181,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
@@ -194,9 +194,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v1"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v1",
-        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v1",
-        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v1"
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v1",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v1",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v1"
       },
       "rights": {
         "editorial": {
@@ -219,7 +219,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.PS.001.001",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
@@ -250,6 +250,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.PS.001.001",
             "translations": {
               "ko": "행복하여라, 악인들의 모의를 따라 걷지 아니하고 죄인들의 길에 서지 아니하며 오만한 자들의 자리에 앉지 아니하는 그 사람.",
@@ -264,6 +282,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.PS.001.001",
             "translations": {
               "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
@@ -340,27 +364,21 @@
             "basis": "MT-WLC display; no independent full critical collation completed",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
+              "en": "Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.",
+              "es": "Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -392,7 +410,7 @@
       "id": "HYB.PS.001.002",
       "reference": "Ps.1.2",
       "passage": "Psalm 1:1–6",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -469,7 +487,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
@@ -482,9 +500,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v2"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v2",
-        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v2",
-        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v2"
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v2",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v2",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v2"
       },
       "rights": {
         "editorial": {
@@ -507,7 +525,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.PS.001.002",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
@@ -538,6 +556,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.PS.001.002",
             "translations": {
               "ko": "오직 야훼의 가르침에 그의 즐거움이 있고, 그분의 가르침을 밤낮으로 읊조리는도다.",
@@ -552,6 +588,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.PS.001.002",
             "translations": {
               "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
@@ -628,27 +670,21 @@
             "basis": "MT-WLC display; no independent full critical collation completed",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
+              "en": "Rather, his delight is in YHWH’s instruction, and he recites it day and night.",
+              "es": "Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -680,7 +716,7 @@
       "id": "HYB.PS.001.003",
       "reference": "Ps.1.3",
       "passage": "Psalm 1:1–6",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -805,7 +841,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
@@ -818,9 +854,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v3"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v3",
-        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v3",
-        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v3"
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v3",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v3",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v3"
       },
       "rights": {
         "editorial": {
@@ -843,7 +879,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.PS.001.003",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
@@ -874,6 +910,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.PS.001.003",
             "translations": {
               "ko": "그는 흐르는 물길 곁에 옮겨 심겨 제철에 열매를 맺고 그 잎사귀가 시들지 아니하는 나무와 같으니, 그가 하는 모든 일마다 번영하리로다.",
@@ -888,6 +942,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.PS.001.003",
             "translations": {
               "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
@@ -964,27 +1024,21 @@
             "basis": "MT-WLC display; no independent full critical collation completed",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
+              "en": "He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.",
+              "es": "Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -1016,7 +1070,7 @@
       "id": "HYB.PS.001.004",
       "reference": "Ps.1.4",
       "passage": "Psalm 1:1–6",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -1093,7 +1147,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
@@ -1106,9 +1160,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v4"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v4",
-        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v4",
-        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v4"
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v4",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v4",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v4"
       },
       "rights": {
         "editorial": {
@@ -1131,7 +1185,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.PS.001.004",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
@@ -1162,6 +1216,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.PS.001.004",
             "translations": {
               "ko": "악인들은 그렇지 아니하니, 오직 바람이 흩날리는 겨와 같도다.",
@@ -1176,6 +1248,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.PS.001.004",
             "translations": {
               "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
@@ -1252,27 +1330,21 @@
             "basis": "MT-WLC display; no independent full critical collation completed",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
+              "en": "Not so the wicked! Rather, they are like chaff that the wind drives away.",
+              "es": "¡No así los malvados! Son como el tamo que el viento se lleva."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -1304,7 +1376,7 @@
       "id": "HYB.PS.001.005",
       "reference": "Ps.1.5",
       "passage": "Psalm 1:1–6",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -1381,7 +1453,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
@@ -1394,9 +1466,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v5"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v5",
-        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v5",
-        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v5"
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v5",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v5",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v5"
       },
       "rights": {
         "editorial": {
@@ -1419,7 +1491,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.PS.001.005",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
@@ -1450,6 +1522,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.PS.001.005",
             "translations": {
               "ko": "그러므로 악인들은 심판 때에 서지 못하며, 죄인들은 의인들의 모임에 들지 못하리로다.",
@@ -1464,6 +1554,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.PS.001.005",
             "translations": {
               "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
@@ -1540,27 +1636,21 @@
             "basis": "MT-WLC display; no independent full critical collation completed",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
+              "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+              "es": "Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
@@ -1592,7 +1682,7 @@
       "id": "HYB.PS.001.006",
       "reference": "Ps.1.6",
       "passage": "Psalm 1:1–6",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -1663,7 +1753,7 @@
           "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
         "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
@@ -1676,9 +1766,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v6"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v6",
-        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v6",
-        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v6"
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v6",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v6",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v6"
       },
       "rights": {
         "editorial": {
@@ -1701,7 +1791,7 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.PS.001.006",
-          "version": "0.2.0",
+          "version": "0.3.0",
           "selection_status": "current_best_provisional",
           "translations": {
             "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
@@ -1732,6 +1822,24 @@
         "model_proposals": [
           {
             "model": "gemini-3.8-flash-medium",
+            "execution": {
+              "provider": "Google Antigravity CLI",
+              "cli_version": "1.4.6",
+              "requested_model_id": "gemini-3.8-flash-medium",
+              "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+              "date": "2026-10-23",
+              "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+              "status": "SUCCESS",
+              "usage": {
+                "input_tokens": 17051,
+                "output_tokens": 4825,
+                "thinking_tokens": 1039,
+                "cache_read_tokens": 0,
+                "total_tokens": 21876
+              },
+              "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+              "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+            },
             "id": "HYB.PS.001.006",
             "translations": {
               "ko": "참으로 야훼께서는 의인들의 길을 돌보아 아시나, 악인들의 길은 망망하리로다.",
@@ -1746,6 +1854,12 @@
           },
           {
             "model": "gpt-6.1-sol",
+            "execution": {
+              "provider": "OpenAI Codex",
+              "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+              "date": "2026-10-23",
+              "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+            },
             "id": "HYB.PS.001.006",
             "translations": {
               "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
@@ -1822,27 +1936,21 @@
             "basis": "MT-WLC display; no independent full critical collation completed",
             "decision": "MT display retained provisionally",
             "archive_path": "/data/releases/v0.1.0.json"
+          },
+          {
+            "version": "0.2.0",
+            "translations": {
+              "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
+              "en": "For YHWH knows the way of the righteous, but the way of the wicked perishes.",
+              "es": "Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.2.0.json"
           }
         ]
       },
       "model_provenance": {
-        "claude-opus-4-6-thinking": {
-          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
-          "client": "agy 1.4.6; NOT Claude Code",
-          "requested_model_id": "claude-opus-4-6-thinking",
-          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
-          "date": "2026-10-23",
-          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
-          "usage": {
-            "input_tokens": 15593,
-            "output_tokens": 7199,
-            "thinking_tokens": 0,
-            "cache_read_tokens": 0,
-            "total_tokens": 22792
-          },
-          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
-          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
-        },
         "gemini-3.8-flash-medium": {
           "provider": "Google Antigravity CLI",
           "cli_version": "1.4.6",
