@@ -16,11 +16,27 @@ for r in records:
     assert r['rights']['morphology']['credit']=='Open Scriptures Hebrew Bible'
     assert 'CC BY 4.0' in r['hebrew_layer']['rights']['lemma_and_morphology']
     assert r['hebrew_layer']['source_attribution'].startswith('Original work of the Open Scriptures')
+    trace=r['decision_trace']; selection=trace['selection']
+    assert r['selection_status']==selection['selection_status']=='current_best_provisional'
+    assert selection['translations']==r['translations'] and selection['version']==C['version']
+    assert r['title']=='원문성경 · Original Bible'
+    assert {p['model'] for p in trace['model_proposals']} >= {'gpt-6.1-sol','gemini-3.8-flash-medium'}
+    assert set(trace['model_final_opinions']) >= {'gpt-6.1-sol','gemini-3.8-flash-medium'}
+    assert r['model_provenance']['gemini-3.8-flash-medium']['requested_model_id']=='gemini-3.8-flash-medium'
+    assert trace['previous_editions'][0]['version']=='0.1.0'
     for lang in ('ko','en','es'):
         assert r['translations'][lang] and 'Hansam Yang' in r['citations'][lang]
         assert r['version'] in r['citations'][lang] and r['canonical_urls'][lang].startswith(C['origin'])
 for p in E:
     for v in p['verses']: assert v['review_status']=='human_specialist_pending'
+archived=json.loads((R/'data/releases/v0.1.0.json').read_text(encoding='utf-8'))
+assert (D/'data/releases/v0.1.0.json').read_bytes()==(R/'data/releases/v0.1.0.json').read_bytes()
+assert len(archived['records'])==10 and all(v['version']=='0.1.0' for v in archived['records'])
+assert 'sons of Israel' in archived['records'][-1]['translations']['en']
+assert 'sons of God' in records[-1]['translations']['en']
+assert 'editorial reconstruction' in records[-1]['basis'].lower()
+assert 'sons of Israel' in records[-1]['decision_trace']['selection']['mt_display_translation']['en']
+assert json.loads((D/f'data/releases/v{C["version"]}.json').read_text(encoding='utf-8'))['records']==records
 assert E[2]['variant']['not_a_complete_verse'] is True
 assert E[2]['variant']['en']=='sons of God' and len(E[2]['readings'])==3
 # Compare imported tokens to pinned XML when the local preparation cache is available.
@@ -72,6 +88,8 @@ for lang in ('ko','en','es'):
     for p in E:
         f=D/lang/p['slug']/'index.html';assert f.resolve() in pages
         s=f.read_text(encoding='utf-8');assert s.count('class="verse"')==len(p['verses'])
+        assert s.count('class="model-review"')==len(p['verses'])
+        assert 'ORIGINAL BIBLE' in s and 'gemini-3.8-flash-medium' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
 assert len(pages)==17

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://yangs777.github.io/hansam-bible/data/schema.json",
-  "title": "Hansam Bible verse record",
+  "title": "Original Bible verse record",
   "type": "object",
   "required": [
     "id",
@@ -16,7 +16,10 @@
     "translations",
     "canonical_urls",
     "citations",
-    "rights"
+    "rights",
+    "selection_status",
+    "decision_trace",
+    "model_provenance"
   ],
   "properties": {
     "id": {

@@ -27,3 +27,16 @@ It recovered the ten requested facts: Hansam Yang attribution, v0.1.0, ten uniqu
 One incidental formatting error in its optional citation example is corrected here: an anchor attaches without a space, as `https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/#v8`. The unanchored canonical citation was correct. The raw AI response is retained locally.
 
 This verifies retrieval and preservation of the requested metadata when URLs are supplied. It does not demonstrate natural search discovery, training inclusion, future citations, or scholarly accuracy of the translations and manuscript judgments.
+
+
+## v0.2.0 — current selections and model opinions
+
+The project is now 원문성경 / Original Bible, founded by Hansam Yang. Ten verses have actual three-language GPT and Gemini proposals, current selected texts and final opinions. GPT's label comes from the local Codex configuration; Gemini 3.8 Flash Medium was explicitly selected in Antigravity CLI. Gemini's first round withheld other translations; subsequent rounds were disclosed cross-reviews. GPT had already seen the pilot and is not described as blinded.
+
+Gemini revised several initial expressions after review: its Psalm 1:6 Korean typo, over-specified relationship language for ידע, the loss of the stand parallel in Psalm 1:5, unnatural Spanish in Numbers 6:25, and the shifted beneficiary in Numbers 6:26. Its proposal and later opinion are both retained. These actual errors illustrate why AI outputs must remain checkable.
+
+Claude Opus 4.6 Thinking was additionally queried through Antigravity CLI for Deuteronomy 32:8. Its own three-language proposal and qualified support are retained. Its wording is currently selected, including collective humankind wording and more natural allotment/boundary expressions. Claude Code 2.1.308 is a separate installed client awaiting account authentication; the Antigravity response is not labelled a Claude Code response.
+
+The divine-sons reading is now selected provisionally. Its full translation is a modern editorial reconstruction from the MT remainder plus a reported 4Q37 phrase. The complete MT Hebrew and its separate translation remain visible. Reported Greek/4Q37 convergence and the verse 9 allotment context support the choice; the Israel/seventy tradition and lack of direct collation remain counterarguments. The source article is Emanuel Tov, The Sons of Israel or God? — Deuteronomy 32:8 (2023; page updated 2026-10-09), https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8. The project's choice is an inference from the specified evidence, not a new direct manuscript reading.
+
+Edition replacement preserves the old dataset, rejects current-version overwrite and refuses archive tampering. Those behaviors are exercised on isolated copies. The public JSONL and Markdown retain the selection, model proposals/opinions and earlier wording. AI concurrence is not added to the manuscript witness count.

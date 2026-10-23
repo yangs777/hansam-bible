@@ -1,11 +1,11 @@
 {
   "id": "HYB.NUM.006.024-026",
   "reference": "Numbers 6:24–26",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "project_author": "Hansam Yang",
   "author_role": "Project founder, responsible editor and publisher; ancient authorship not claimed",
   "status": "research-pilot",
-  "decision": "MT display retained provisionally",
+  "decision": "Current best selected — revisable with stronger evidence",
   "basis": "MT-WLC display; no inscription substituted for the biblical text",
   "notes": [
     {
@@ -63,13 +63,13 @@
       "id": "HYB.NUM.006.024",
       "reference": "Num.6.24",
       "passage": "Numbers 6:24–26",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
       "translation_status": "draft",
       "human_specialist_review": "pending",
-      "decision": "MT display retained provisionally",
+      "decision": "Current best selected — revisable with stronger evidence",
       "basis": "MT-WLC display; no inscription substituted for the biblical text",
       "hebrew_layer": {
         "hebrew": "יְבָרֶכְךָ֥ יְהוָ֖ה וְיִשְׁמְרֶֽךָ׃",
@@ -109,7 +109,7 @@
       "translations": {
         "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
         "en": "May YHWH bless you and guard you.",
-        "es": "Que YHWH te bendiga y te proteja."
+        "es": "Que YHWH te bendiga y te guarde."
       },
       "canonical_urls": {
         "ko": "https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
@@ -117,9 +117,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
       },
       "citations": {
-        "ko": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/ #v24",
-        "en": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (en), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/ #v24",
-        "es": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (es), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/ #v24"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
       },
       "rights": {
         "editorial": {
@@ -137,19 +137,191 @@
           "credit": "Open Scriptures Hebrew Bible",
           "url": "https://github.com/openscriptures/morphhb"
         }
-      }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.NUM.006.024",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+            "en": "May YHWH bless you and guard you.",
+            "es": "Que YHWH te bendiga y te guarde."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+          "reason": {
+            "ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+            "en": "The blessing mood and the distinct actions of blessing and guarding are retained.",
+            "es": "Se conservan el modo de bendición y las acciones distintas de bendecir y guardar."
+          },
+          "counterargument_ko": "축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.NUM.006.024",
+            "translations": {
+              "ko": "야훼께서 그대에게 복을 내리시고 그대를 지키시기를.",
+              "en": "May the LORD bless you and protect you;",
+              "es": "Que Yahveh te bendiga y te guarde;"
+            },
+            "basis": "MT",
+            "reason_ko": "히브리어 단축형/미완료(יְבָרֶכְךָ, וְיִשְׁמְרֶךָ)가 지닌 제사장적 축복의 기원 및 기구적 권유(jussive/blessing mood)를 충실히 반영함.",
+            "counterargument_ko": "선포적 확신을 강조하여 직설법 미래형('복을 주실 것이요 지키실 것이다')으로 번역하는 편이 축복의 효력을 더 강하게 전달한다는 견해가 있음.",
+            "current_opinion_ko": "아론의 축복문 양식은 신적 은총을 비는 정중하고 거룩한 기원문 형식이므로 기원법(-기를) 형태를 취하는 것이 가장 정확함.",
+            "reconsider_if_ko": "제2인칭 대명 접미사가 붙은 피엘/칼 미완료 형태가 제의 문맥에서 배타적으로 직설법 예언으로만 통용되었다는 문법적 합의가 도출될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.NUM.006.024",
+            "translations": {
+              "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+              "en": "May YHWH bless you and guard you.",
+              "es": "Que YHWH te bendiga y te guarde."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+            "counterargument_ko": "축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "agree",
+            "final_opinion_ko": "신명 YHWH의 일관된 유지, 제사장 축복문의 기원법(-기를/May/Que), 2인칭 단수 대명사의 명확한 처리가 균형 있게 구현됨.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다. 반대 검토: 축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "agree",
+            "final_opinion_ko": "신명 YHWH의 일관된 유지, 제사장 축복문의 기원법(-기를/May/Que), 2인칭 단수 대명사의 명확한 처리가 균형 있게 구현됨.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다. 반대 검토: 축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+              "en": "May YHWH bless you and guard you.",
+              "es": "Que YHWH te bendiga y te proteja."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
     },
     {
       "id": "HYB.NUM.006.025",
       "reference": "Num.6.25",
       "passage": "Numbers 6:24–26",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
       "translation_status": "draft",
       "human_specialist_review": "pending",
-      "decision": "MT display retained provisionally",
+      "decision": "Current best selected — revisable with stronger evidence",
       "basis": "MT-WLC display; no inscription substituted for the biblical text",
       "hebrew_layer": {
         "hebrew": "יָאֵ֨ר יְהוָ֧ה ׀ פָּנָ֛יו אֵלֶ֖יךָ וִֽיחֻנֶּֽךָּ׃",
@@ -199,7 +371,7 @@
         "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
-        "ko": "YHWH께서 그의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+        "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
         "en": "May YHWH make his face shine toward you and be gracious to you.",
         "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
       },
@@ -209,9 +381,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
       },
       "citations": {
-        "ko": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/ #v25",
-        "en": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (en), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/ #v25",
-        "es": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (es), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/ #v25"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
       },
       "rights": {
         "editorial": {
@@ -229,19 +401,191 @@
           "credit": "Open Scriptures Hebrew Bible",
           "url": "https://github.com/openscriptures/morphhb"
         }
-      }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.NUM.006.025",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+            "en": "May YHWH make his face shine toward you and be gracious to you.",
+            "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+          "reason": {
+            "ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+            "en": "The face-and-light image and the act of granting favor are retained in natural target-language wording.",
+            "es": "Se conservan la imagen del rostro y la luz y el acto de conceder favor con una expresión natural."
+          },
+          "counterargument_ko": "호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.NUM.006.025",
+            "translations": {
+              "ko": "야훼께서 그분의 얼굴을 그대에게 비추시며 그대에게 은혜를 베푸시기를.",
+              "en": "May the LORD make His face shine upon you and be gracious to you;",
+              "es": "Que Yahveh haga resplandecer Su rostro sobre ti y tenga de ti gracia;"
+            },
+            "basis": "MT",
+            "reason_ko": "히필 단축형 יָאֵר(얼굴을 비추다)와 칼 단축형 וִיחֻנֶּךָּ(호의와 은혜를 베풀다)의 연속적 기원형 어미를 보존함.",
+            "counterargument_ko": "'얼굴을 비추다'라는 고대 셈어 관용 표현을 현대적 의미인 '호의 어린 눈길로 바라보시다'로 완전히 평이하게 풀어 쓸 수도 있음.",
+            "current_opinion_ko": "고대 성막 및 왕실 제의 배경에서 임금이나 신의 얼굴빛이 백성에게 비치는 생생한 구약적 메타포를 직역으로 보존하는 것이 연구 번역에 부합함.",
+            "reconsider_if_ko": "'얼굴을 비추다'라는 히브리어 관용구가 축복이 아닌 다른 비의도적 셈어 관용적 제약(예: 단순 가시성 확보)만을 의미했다는 언어학적 논증이 확인될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.NUM.006.025",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+              "en": "May YHWH make his face shine toward you and be gracious to you.",
+              "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+            "counterargument_ko": "호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델의 직역 투 스페인어('tenga de ti gracia')의 어색함을 철회함. 제안안의 'te conceda su favor'는 스페인어 관용적 표현으로 자연스러우며, 히브리어 동사 חנן의 은혜 베풂을 정확히 살림.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다. 반대 검토: 호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델의 직역 투 스페인어('tenga de ti gracia')의 어색함을 철회함. 제안안의 'te conceda su favor'는 스페인어 관용적 표현으로 자연스러우며, 히브리어 동사 חנן의 은혜 베풂을 정확히 살림.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다. 반대 검토: 호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 그의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+              "en": "May YHWH make his face shine toward you and be gracious to you.",
+              "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
     },
     {
       "id": "HYB.NUM.006.026",
       "reference": "Num.6.26",
       "passage": "Numbers 6:24–26",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
       "translation_status": "draft",
       "human_specialist_review": "pending",
-      "decision": "MT display retained provisionally",
+      "decision": "Current best selected — revisable with stronger evidence",
       "basis": "MT-WLC display; no inscription substituted for the biblical text",
       "hebrew_layer": {
         "hebrew": "יִשָּׂ֨א יְהוָ֤ה ׀ פָּנָיו֙ אֵלֶ֔יךָ וְיָשֵׂ֥ם לְךָ֖ שָׁלֽוֹם׃",
@@ -303,7 +647,7 @@
         "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
-        "ko": "YHWH께서 그의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+        "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
         "en": "May YHWH lift his face toward you and give you peace.",
         "es": "Que YHWH alce su rostro hacia ti y te dé paz."
       },
@@ -313,9 +657,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
       },
       "citations": {
-        "ko": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/ #v26",
-        "en": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (en), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/ #v26",
-        "es": "Hansam Yang. Hansam Bible: Numbers 6:24–26 (es), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/ #v26"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
       },
       "rights": {
         "editorial": {
@@ -333,7 +677,179 @@
           "credit": "Open Scriptures Hebrew Bible",
           "url": "https://github.com/openscriptures/morphhb"
         }
-      }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.NUM.006.026",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+            "en": "May YHWH lift his face toward you and give you peace.",
+            "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+          "reason": {
+            "ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+            "en": "The lifted-face image and the recipient of peace are retained; peace also carries a wider sense of well-being.",
+            "es": "Se conservan la imagen del rostro alzado y el destinatario de la paz; esta abarca también el bienestar."
+          },
+          "counterargument_ko": "평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.NUM.006.026",
+            "translations": {
+              "ko": "야훼께서 그분의 얼굴을 그대를 향해 드시며 그대에게 평안을 두시기를.",
+              "en": "May the LORD lift up His countenance toward you and grant you peace.",
+              "es": "Que Yahveh alce Su rostro hacia ti y ponga en ti paz."
+            },
+            "basis": "MT",
+            "reason_ko": "יִשָּׂא(얼굴을 들다)와 וְיָשֵׂם... שָׁלוֹם(샬롬을 설정하여 부여하다)의 기원형 법(jussive)과 대상 집중적 전치사(אֵלֶיךָ)를 반영함.",
+            "counterargument_ko": "'얼굴을 들다'는 표현이 현대어에서 고압적 태도로 오해될 수 있어 '자애로운 얼굴로 바라보시다'로의 의역 제안이 강함.",
+            "current_opinion_ko": "눈길을 돌려 마주 대면하는 신의 인격적 영접을 나타내는 구약 고유의 축복 제의적 표현을 훼손 없이 직역하는 것이 옳음.",
+            "reconsider_if_ko": "'얼굴을 들다'라는 표현이 당대 서북셈어 비문에서 전적으로 비인격적인 다른 제의적 행위만을 지시한다는 외적 실증이 나올 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.NUM.006.026",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+              "en": "May YHWH lift his face toward you and give you peace.",
+              "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+            "counterargument_ko": "평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델이 스페인어에서 לְךָ(너에게/너를 위하여)를 'en ti(너의 안에)'로 전치사 영역을 변경했던 왜곡을 철회함. 제안안의 '네게... 주시기를 / give you / te dé'가 수혜 대상과의 관계를 정확히 나타냄.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다. 반대 검토: 평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델이 스페인어에서 לְךָ(너에게/너를 위하여)를 'en ti(너의 안에)'로 전치사 영역을 변경했던 왜곡을 철회함. 제안안의 '네게... 주시기를 / give you / te dé'가 수혜 대상과의 관계를 정확히 나타냄.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다. 반대 검토: 평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 그의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+              "en": "May YHWH lift his face toward you and give you peace.",
+              "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
     }
   ]
 }

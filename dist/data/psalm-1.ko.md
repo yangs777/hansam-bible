@@ -1,6 +1,6 @@
 # 시편 1편
 
-Hansam Yang · Hansam Bible · v0.1.0
+Hansam Yang · Original Bible · v0.2.0
 
 AI 보조 번역 초안 · 원어·모국어 전문가 검수 전
 
@@ -10,23 +10,67 @@ AI 보조 번역 초안 · 원어·모국어 전문가 검수 전
 
 Basis: MT-WLC display; no independent full critical collation completed
 
-Decision: MT display retained provisionally
+Decision: Current best selected — revisable with stronger evidence
 
 ## 1 · HYB.PS.001.001
 
 Hebrew display (MT/WLC): אַ֥שְֽׁרֵי־הָאִ֗ישׁ אֲשֶׁ֤ר ׀ לֹ֥א הָלַךְ֮ בַּעֲצַ֪ת רְשָׁ֫עִ֥ים וּבְדֶ֣רֶךְ חַ֭טָּאִים לֹ֥א עָמָ֑ד וּבְמוֹשַׁ֥ב לֵ֝צִ֗ים לֹ֣א יָשָֽׁב׃
 
-복되다, 그 사람은. 악인들의 조언을 따라 걷지 않았고, 죄인들의 길에 서지 않았으며, 비웃는 자들의 자리에 앉지 않았던 사람.
+복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml · Ps.1.1
+
+### 현재 최선의 채택 번역
+
+אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다.
+
+#### gemini-3.8-flash-medium
+
+행복하여라, 악인들의 모의를 따라 걷지 아니하고 죄인들의 길에 서지 아니하며 오만한 자들의 자리에 앉지 아니하는 그 사람.
+
+Final opinion (Korean original): אַשְׁרֵי의 감탄과 걷다·서다·앉다의 점층적 동사 병행 구조가 안정적으로 번역되었음. 1라운드 본 모델의 번역보다 제안안의 종결형 구문이 한국어 어순 및 가독성 면에서 우수하여 전적으로 지지함.
+
+#### gpt-6.1-sol
+
+복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
+
+Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다. 반대 검토: qatal의 완료적 관점을 드러내는 과거·완료형도 가능하다. 문법 형태 하나로 현대어 시제를 기계적으로 고정하지 않는다.
+
+Counterargument (Korean): qatal의 완료적 관점을 드러내는 과거·완료형도 가능하다. 문법 형태 하나로 현대어 시제를 기계적으로 고정하지 않는다.
+
+Previous v0.1.0
+
+복되다, 그 사람은. 악인들의 조언을 따라 걷지 않았고, 죄인들의 길에 서지 않았으며, 비웃는 자들의 자리에 앉지 않았던 사람.
 
 ## 2 · HYB.PS.001.002
 
 Hebrew display (MT/WLC): כִּ֤י אִ֥ם בְּתוֹרַ֥ת יְהוָ֗ה חֶ֫פְצ֥וֹ וּֽבְתוֹרָת֥וֹ יֶהְגֶּ֗ה יוֹמָ֥ם וָלָֽיְלָה׃
 
-오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 낮과 밤으로 되뇐다.
+오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml · Ps.1.2
+
+### 현재 최선의 채택 번역
+
+תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다.
+
+#### gemini-3.8-flash-medium
+
+오직 야훼의 가르침에 그의 즐거움이 있고, 그분의 가르침을 밤낮으로 읊조리는도다.
+
+Final opinion (Korean original): 1라운드에서 본 모델이 הגה를 배타적 음성 발성으로만 규정했던 점을 철회함. הגה는 조용한 낭독뿐 아니라 내적 묵상과 심사숙고를 포괄함. 제안안의 '읊조린다/recites/recita'는 발성 쪽에 다소 기울어 있으나 번역문으로서 허용 가능하며, 성찰적 묵상의 다의성은 주석으로 보완하는 것이 타당함.
+
+#### gpt-6.1-sol
+
+오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
+
+Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다. 반대 검토: הגה에는 성찰의 의미도 있고 תורה가 율법 전승을 가리킬 수도 있다. 발성이 반드시 동반된다고 단정하지 않는다.
+
+Counterargument (Korean): הגה에는 성찰의 의미도 있고 תורה가 율법 전승을 가리킬 수도 있다. 발성이 반드시 동반된다고 단정하지 않는다.
+
+Previous v0.1.0
+
+오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 낮과 밤으로 되뇐다.
 
 ## 3 · HYB.PS.001.003
 
@@ -36,6 +80,28 @@ Hebrew display (MT/WLC): וְֽהָיָ֗ה כְּעֵץ֮ שָׁת֪וּל עַ
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml · Ps.1.3
 
+### 현재 최선의 채택 번역
+
+שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다.
+
+#### gemini-3.8-flash-medium
+
+그는 흐르는 물길 곁에 옮겨 심겨 제철에 열매를 맺고 그 잎사귀가 시들지 아니하는 나무와 같으니, 그가 하는 모든 일마다 번영하리로다.
+
+Final opinion (Korean original): 수동분사 שָׁתוּל의 식재 이미지와 인공 수로(פַּלְגֵי מָיִם)의 배경이 과장 없이 절제되어 표현됨. 마지막 절의 번영 묘사도 원문의 동사적 한계를 넘지 않아 책임 있는 번역임.
+
+#### gpt-6.1-sol
+
+그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
+
+Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다. 반대 검토: 옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.
+
+Counterargument (Korean): 옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.
+
+Previous v0.1.0
+
+그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
+
 ## 4 · HYB.PS.001.004
 
 Hebrew display (MT/WLC): לֹא־כֵ֥ן הָרְשָׁעִ֑ים כִּ֥י אִם־כַּ֝מֹּ֗ץ אֲֽשֶׁר־תִּדְּפֶ֥נּוּ רֽוּחַ׃
@@ -43,6 +109,28 @@ Hebrew display (MT/WLC): לֹא־כֵ֥ן הָרְשָׁעִ֑ים כִּ֥י א
 악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml · Ps.1.4
+
+### 현재 최선의 채택 번역
+
+לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다.
+
+#### gemini-3.8-flash-medium
+
+악인들은 그렇지 아니하니, 오직 바람이 흩날리는 겨와 같도다.
+
+Final opinion (Korean original): לֹא־כֵן의 단호한 단절과 바람에 날리는 겨의 덧없음이 간결하게 잘 살아남. 스페인어에서 paja 대신 tamo를 택한 점도 고대 농경 이미지에 매우 적합함.
+
+#### gpt-6.1-sol
+
+악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
+
+Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다. 반대 검토: 다른 고대 번역의 확장 표현을 본문에 넣으려면 별도의 전승 대조가 필요하다.
+
+Counterargument (Korean): 다른 고대 번역의 확장 표현을 본문에 넣으려면 별도의 전승 대조가 필요하다.
+
+Previous v0.1.0
+
+악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
 
 ## 5 · HYB.PS.001.005
 
@@ -52,6 +140,28 @@ Hebrew display (MT/WLC): עַל־כֵּ֤ן ׀ לֹא־יָקֻ֣מוּ רְ֭ש
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml · Ps.1.5
 
+### 현재 최선의 채택 번역
+
+קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다.
+
+#### gemini-3.8-flash-medium
+
+그러므로 악인들은 심판 때에 서지 못하며, 죄인들은 의인들의 모임에 들지 못하리로다.
+
+Final opinion (Korean original): 1라운드에서 본 모델이 후반절을 '들지 못하다'로 번역하여 קום(서다)의 병행 구조를 훼손했던 오류를 철회함. 제안안이 두 절 모두 '서지 못한다/stand/mantenerse en pie'로 법정적·공동체적 기립 이미지를 충실히 복원한 점에 동의함.
+
+#### gpt-6.1-sol
+
+그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
+
+Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다. 반대 검토: 법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.
+
+Counterargument (Korean): 법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.
+
+Previous v0.1.0
+
+그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
+
 ## 6 · HYB.PS.001.006
 
 Hebrew display (MT/WLC): כִּֽי־יוֹדֵ֣עַ יְ֭הוָה דֶּ֣רֶךְ צַדִּיקִ֑ים וְדֶ֖רֶךְ רְשָׁעִ֣ים תֹּאבֵֽד׃
@@ -60,17 +170,39 @@ YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 �
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml · Ps.1.6
 
+### 현재 최선의 채택 번역
+
+ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다.
+
+#### gemini-3.8-flash-medium
+
+참으로 야훼께서는 의인들의 길을 돌보아 아시나, 악인들의 길은 망망하리로다.
+
+Final opinion (Korean original): 1라운드 본 모델의 한국어 오기('망망하리로다')와 ידע에 대한 과도한 신학적 규정('돌보아 아시나/intimately acknowledges')을 완전히 철회함. 제안안처럼 '아시기 때문이다/멸망한다'로 직역하는 것이 주어(길)의 문법적 역할을 보존하고 원어의 본래 층위를 지키는 최선의 선택임.
+
+#### gpt-6.1-sol
+
+YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
+
+Final opinion (Korean original): Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다. 반대 검토: 문맥상 돌봄·관계적 앎의 함의를 설명할 수 있지만 언약·친밀함을 번역문에 반드시 보충해야 하는 것은 아니다.
+
+Counterargument (Korean): 문맥상 돌봄·관계적 앎의 함의를 설명할 수 있지만 언약·친밀함을 번역문에 반드시 보충해야 하는 것은 아니다.
+
+Previous v0.1.0
+
+YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
+
 ## Notes
 
 תורה는 가르침·지시·율법의 의미 영역을 가집니다. 이 초안은 ‘가르침’을 선택하며 특정 문서 범위를 단정하지 않습니다.
 
-הגה는 묵상과 입으로 되뇌는 행위를 연결할 수 있습니다. ‘되뇐다’는 문맥상 번역 선택이며 유일한 사전 뜻이라는 주장이 아닙니다.
+הגה는 묵상과 입으로 되뇌는 행위를 연결할 수 있습니다. ‘읊조린다’는 문맥상 번역 선택이며 유일한 사전 뜻이라는 주장이 아닙니다.
 
 6절의 멸망하는 주어는 ‘악인들의 길’입니다. 3절의 형통을 모든 상황의 물질적 성공 보장으로 확대하지 않습니다. 이 주석은 해석층입니다.
 
 ## Citation
 
-Hansam Yang. Hansam Bible: Psalm 1:1–6 (ko), research pilot v0.1.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

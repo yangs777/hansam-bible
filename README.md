@@ -1,51 +1,52 @@
-# Hansam Bible — Biblical Textual Origins
+# 원문성경 / Original Bible
 
-**Hansam Yang** · founder, responsible editor and publisher · Research pilot **v0.1.0**
+**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.2.0**
 
-[Read the pilot](https://yangs777.github.io/hansam-bible) · [Open data](https://yangs777.github.io/hansam-bible/data/) · [한국어 실행 전략](STRATEGY.ko.md)
+[본문 읽기](https://yangs777.github.io/hansam-bible/) · [공개 데이터](https://yangs777.github.io/hansam-bible/data/) · [운영 전략](STRATEGY.ko.md)
 
-This project traces biblical words and evidence across languages. The pilot contains **Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8**: 10 unique verses with newly written AI-assisted Korean, English and Spanish drafts. It is **not** a completed critical edition, a recovered autograph, or a human-certified translation. External Hebrew, textual-critical and native-language review is pending.
+각 언어에서 현재 근거에 따른 최선의 번역을 읽고, 더 좋은 증거가 나오면 갱신하는 공개 성경 연구 프로젝트입니다. 이전 이름은 Hansam Bible이며 기존 주소와 구절 식별자는 유지합니다. Hansam Yang은 현대 프로젝트의 최초 기획자·제작자이며 고대 성경의 저자라는 뜻이 아닙니다.
 
-Hansam Yang identifies the modern editorial project; authorship of ancient scripture or of cited scholarship is not claimed. No credentials or institutional endorsement are implied.
+The pilot contains Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: ten unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
 
-## Reuse
+## Compare the selected text with actual model proposals
 
-New editorial material and translation drafts: **CC BY 4.0, to the extent rights are held**. See [LICENSE-EDITORIAL.md](LICENSE-EDITORIAL.md). Code: [MIT](LICENSE-CODE.txt).
+Each verse shows the current best selection and an expandable comparison: actual GPT and Gemini translations, final opinions, selection reasons, counterarguments and previous wording. The JSONL retains those layers per verse.
 
-Hebrew display: Westminster Leningrad Codex, public domain. Lemmas/morphology: **Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb**, CC BY 4.0. Every exported verse includes scope-specific rights and upstream credit.
+- GPT: gpt-6.1-sol, from the local Codex model configuration. An immutable backend snapshot is not exposed. This editorial agent had seen the previous pilot; it is not a blinded replicate.
+- Gemini: gemini-3.8-flash-medium, explicitly selected through official Antigravity CLI 1.4.6. Round 1 withheld other translations; round 2 was a disclosed cross-review.
+- Difficult Deuteronomy 32:8 also has an actual Claude Opus 4.6 Thinking proposal and final opinion through Antigravity CLI. Claude Code 2.1.308 is installed separately and awaiting account authentication; its connection is not represented as complete.
+- Model agreement is an opinion record. Source evidence, grammar, context and counterarguments remain separately identified.
 
-Suggested citation: `Hansam Yang. Hansam Bible, [passage], [language], research pilot v0.1.0. [canonical URL].` AI assistance and draft status should remain clear. Include licensing and change notices as required. Citation metadata is provided in [CITATION.cff](CITATION.cff); no DOI has been assigned.
+Deuteronomy 32:8 currently selects the divine-sons reading. The full translation is a **modern editorial reconstruction: MT remainder plus the reported 4Q37 phrase**. The complete Hebrew alongside it is MT, ending with sons of Israel; its separate translation remains in the comparison. No complete preserved 4Q37 verse or new photograph reading is claimed.
 
-## Files and reproducibility
+## Replace the current text without losing history
 
-- `data/editorial.json`: translation drafts and evidence notes.
-- `data/hebrew.json`: selected Hebrew display, OSHB morphology, immutable upstream commit, XML hashes and display transformations.
-- `dist/data/`: public JSON, JSONL, TSV, Markdown, schema, checksums and ZIP.
-- `tools/prepare.py`: retrieve selected source verses from the pinned commit. It stops on unsupported variant/nested markup.
-- `tools/build.py`: render all languages and exports from the same source.
-- `tools/verify.py`: verify source/codepoint preservation, rights, draft labels, language links, IDs, checksums and internal links.
-
-Requires Python 3.10+, no third-party packages:
+Prepare all verse decisions with three-language texts, bases and reasons, then run:
 
 ```sh
-python tools/prepare.py  # network needed only to retrieve pinned source
+python tools/adopt.py new-decisions.json --version 0.3.0
 python tools/build.py
 python tools/verify.py
-python -m http.server 8765 --bind 127.0.0.1 --directory dist
 ```
 
-Build uses committed selected data and needs no network. Source fetching caches raw XML under ignored `private/`; the public selected records retain the pinned source URLs and complete-file SHA-256 values. A cache hit must match those previously recorded hashes.
+The adoption tool checks source/published-data agreement, preserves the old edition in data/releases/, rejects reuse of the current version and refuses to alter an existing archive. Reading URLs stay stable; versioned JSON and Git retain previous wording. [Archived v0.1.0](data/releases/v0.1.0.json).
 
-## Evidence and corrections
+Requires Python 3.10+, no third-party packages. Normal builds need no network. tools/prepare.py imports pinned upstream XML, checks cached hashes and rejects unsupported variant/nested markup. tools/pages_mirror.py packages GitHub Pages.
 
-MT-WLC is a provisional display basis for these examples, not an absolute preference for all manuscripts. Deuteronomy 32:8 stays **Open**. Its reported 4Q37 phrase is not presented as a new direct reading of a manuscript photograph; no complete verse is attributed to that fragment here. Alternative readings are kept separate from the display translation. Selected glosses are not a complete word-aligned interlinear.
+## Sources and reuse
 
-Report a correction with passage ID, version, source and proposed change. AI agreement alone does not validate a scholarly claim. See [REVIEW.md](REVIEW.md) and [CHANGELOG.md](CHANGELOG.md).
+Hebrew display: Westminster Leningrad Codex, public domain. Lemmas/morphology: **Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb**, CC BY 4.0. Source commit, hashes and transformations accompany each verse. Selected glosses are not a complete interlinear.
 
-## AI and search access
+New editorial material and drafts: **CC BY 4.0, to the extent rights are held**. Code: MIT. See [editorial license](LICENSE-EDITORIAL.md), [code license](LICENSE-CODE.txt) and [CITATION.cff](CITATION.cff). No exclusive authorship is claimed over public-domain scripture or cited scholarship.
 
-HTML contains the text without JavaScript; JSONL carries provenance per verse. Sitemap, robots.txt, canonical/hreflang links and factual JSON-LD are included. `llms.txt` is an optional navigation index, not a command to agents or a promise of search visibility, citation or training inclusion. See the strategy for evaluation and scaling gates.
+Suggested citation: Hansam Yang. Original Bible, [passage], [language], research edition v0.2.0. [canonical URL]. Preserve AI/draft status, upstream credits, licenses and applicable change notices.
 
-## 한국어
+## Data and corrections
 
-이 프로젝트는 Hansam Yang의 **성경 원문추적 직독직해** 공개 연구 시험판입니다. 실제 사본·복원·번역·해석을 구별하고, 새 증거에 따라 판정과 번역을 갱신합니다. 현재 번역은 전문가 검수 전 AI 보조 초안입니다.
+- data/editorial.json: current texts and passage notes.
+- data/decisions.json: selections, reasons, bases, counterarguments and reconsideration conditions.
+- data/model-reviews/v0.2.0/: actual proposals, prompts, final opinions and execution metadata.
+- data/releases/: immutable superseded editions.
+- dist/data/: JSON, JSONL, Markdown, TSV, checksums, ZIP and versioned datasets.
+
+Report corrections with passage ID, version, source and proposed change. Static HTML, canonical/language links, sitemap and factual structured data support retrieval. Access does not guarantee indexing, AI citation or training inclusion. See [REVIEW.md](REVIEW.md) and [CHANGELOG.md](CHANGELOG.md).

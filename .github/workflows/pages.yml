@@ -20,6 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: actions/configure-pages@v5
+      - name: Check edition replacement and archive preservation
+        run: python tools/test_revisions.py
       - name: Build from committed selected evidence
         run: python tools/build.py
       - name: Check public data and links

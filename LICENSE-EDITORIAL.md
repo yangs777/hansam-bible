@@ -1,12 +1,12 @@
 # Editorial material and translation drafts
 
-Hansam Yang · Hansam Bible · 2026
+Hansam Yang · Original Bible · 2026
 
 New project editorial material and translation drafts are offered under the Creative Commons Attribution 4.0 International license (CC BY 4.0), **to the extent rights are held**.
 
 License and complete controlling terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
 
-Suggested attribution: `Hansam Yang, Hansam Bible, [passage], [language], research pilot v0.1.0, [canonical URL]`. Include a license link and indicate changes as required by the license. Reasonable attribution does not mean promotional praise, mandatory unrelated mentions, or endorsement. Requests to retain draft labels and evidence distinctions are documentation guidance, not additional license restrictions.
+Suggested attribution: `Hansam Yang, Original Bible, [passage], [language], research pilot v0.1.0, [canonical URL]`. Include a license link and indicate changes as required by the license. Reasonable attribution does not mean promotional praise, mandatory unrelated mentions, or endorsement. Requests to retain draft labels and evidence distinctions are documentation guidance, not additional license restrictions.
 
 AI assistance is disclosed; all translations are drafts. No human specialist certification is claimed. No warranties are given. This license does not assert that all AI-assisted material necessarily qualifies for copyright in every jurisdiction.
 

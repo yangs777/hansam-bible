@@ -1,0 +1,3083 @@
+{
+  "version": "0.2.0",
+  "title": "원문성경 · Original Bible",
+  "state": "current",
+  "metadata": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://yangs777.github.io/hansam-bible/#project",
+    "name": "원문성경 · Original Bible",
+    "description": "Ten Hebrew Bible verses with evidence-aware editorial drafts in Korean, English and Spanish. Research pilot, not a certified critical edition.",
+    "creator": {
+      "@type": "Person",
+      "@id": "https://yangs777.github.io/hansam-bible/about/#hansam-yang",
+      "name": "Hansam Yang"
+    },
+    "version": "0.2.0",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "url": "https://yangs777.github.io/hansam-bible/data/",
+    "datePublished": "2026-10-23",
+    "inLanguage": [
+      "he",
+      "ko",
+      "en",
+      "es"
+    ],
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://yangs777.github.io/hansam-bible/data/hansam-bible.json"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/x-ndjson",
+        "contentUrl": "https://yangs777.github.io/hansam-bible/data/hansam-bible.jsonl"
+      }
+    ],
+    "isAccessibleForFree": true,
+    "creativeWorkStatus": "Research pilot; human specialist review pending"
+  },
+  "records": [
+    {
+      "id": "HYB.PS.001.001",
+      "reference": "Ps.1.1",
+      "passage": "Psalm 1:1–6",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no independent full critical collation completed",
+      "hebrew_layer": {
+        "hebrew": "אַ֥שְֽׁרֵי־הָאִ֗ישׁ אֲשֶׁ֤ר ׀ לֹ֥א הָלַךְ֮ בַּעֲצַ֪ת רְשָׁ֫עִ֥ים וּבְדֶ֣רֶךְ חַ֭טָּאִים לֹ֥א עָמָ֑ד וּבְמוֹשַׁ֥ב לֵ֝צִ֗ים לֹ֣א יָשָֽׁב׃",
+        "tokens": [
+          {
+            "hebrew": "אַ֥שְֽׁרֵי",
+            "lemma": "835",
+            "morph": "HNcmpa",
+            "upstream_id": "19xeN"
+          },
+          {
+            "hebrew": "הָאִ֗ישׁ",
+            "lemma": "d/376",
+            "morph": "HTd/Ncmsa",
+            "upstream_id": "19Nvk"
+          },
+          {
+            "hebrew": "אֲשֶׁ֤ר",
+            "lemma": "834 a",
+            "morph": "HTr",
+            "upstream_id": "19TyA"
+          },
+          {
+            "hebrew": "לֹ֥א",
+            "lemma": "3808",
+            "morph": "HTn",
+            "upstream_id": "19vuQ"
+          },
+          {
+            "hebrew": "הָלַךְ֮",
+            "lemma": "1980",
+            "morph": "HVqp3ms",
+            "upstream_id": "19TSc"
+          },
+          {
+            "hebrew": "בַּעֲצַ֪ת",
+            "lemma": "b/6098",
+            "morph": "HR/Ncfsc",
+            "upstream_id": "19k5P"
+          },
+          {
+            "hebrew": "רְשָׁ֫עִ֥ים",
+            "lemma": "7563",
+            "morph": "HAampa",
+            "upstream_id": "19nPh"
+          },
+          {
+            "hebrew": "וּבְדֶ֣רֶךְ",
+            "lemma": "c/b/1870",
+            "morph": "HC/R/Ncbsc",
+            "upstream_id": "19LN3"
+          },
+          {
+            "hebrew": "חַ֭טָּאִים",
+            "lemma": "2400",
+            "morph": "HAampa",
+            "upstream_id": "19Qzf"
+          },
+          {
+            "hebrew": "לֹ֥א",
+            "lemma": "3808",
+            "morph": "HTn",
+            "upstream_id": "19aPd"
+          },
+          {
+            "hebrew": "עָמָ֑ד",
+            "lemma": "5975",
+            "morph": "HVqp3ms",
+            "upstream_id": "19eYX"
+          },
+          {
+            "hebrew": "וּבְמוֹשַׁ֥ב",
+            "lemma": "c/b/4186",
+            "morph": "HC/R/Ncmsc",
+            "upstream_id": "19C5U"
+          },
+          {
+            "hebrew": "לֵ֝צִ֗ים",
+            "lemma": "3887",
+            "morph": "HAampa",
+            "upstream_id": "19qNN"
+          },
+          {
+            "hebrew": "לֹ֣א",
+            "lemma": "3808",
+            "morph": "HTn",
+            "upstream_id": "19EVS"
+          },
+          {
+            "hebrew": "יָשָֽׁב",
+            "lemma": "3427",
+            "morph": "HVqp3ms",
+            "upstream_id": "19PB6"
+          }
+        ],
+        "source_notes": [
+          {
+            "type": "upstream_accent_comparison",
+            "text": "We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. "
+          }
+        ],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "source_file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Ps.1.1",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
+        "en": "Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.",
+        "es": "Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/psalm-1/#v1",
+        "en": "https://yangs777.github.io/hansam-bible/en/psalm-1/#v1",
+        "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v1"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v1",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v1",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v1"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.PS.001.001",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
+            "en": "Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.",
+            "es": "Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다.",
+          "reason": {
+            "ko": "אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다.",
+            "en": "The three parallel actions are retained; present tense expresses the general portrait in this wisdom poem.",
+            "es": "Se conservan las tres acciones paralelas; el presente expresa el retrato general de este poema sapiencial."
+          },
+          "counterargument_ko": "qatal의 완료적 관점을 드러내는 과거·완료형도 가능하다. 문법 형태 하나로 현대어 시제를 기계적으로 고정하지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.PS.001.001",
+            "translations": {
+              "ko": "행복하여라, 악인들의 모의를 따라 걷지 아니하고 죄인들의 길에 서지 아니하며 오만한 자들의 자리에 앉지 아니하는 그 사람.",
+              "en": "How fortunate is the person who does not walk in the counsel of the wicked, nor stand in the path of sinners, nor sit in the seat of scoffers.",
+              "es": "Cuán dichoso es el hombre que no anda en el consejo de los impíos, ni se detiene en el camino de los pecadores, ni se sienta en la reunión de los burladores."
+            },
+            "basis": "MT (마소라 본문 코덱스 레닌그라드 기준)",
+            "reason_ko": "אַשְׁרֵי(복수 연계형 명사 감탄사)의 직설적 행복 선언과 세 층위의 동사(걸음-섬-앉음) 및 병행 명사구(악인-죄인-오만자)의 점층적 정착 구조를 보존함.",
+            "counterargument_ko": "'복 있는 사람은... 아니하고'와 같은 전통적 서술형 문장 구조가 한국어 통사 구조상 더 자연스럽고 익숙할 수 있음.",
+            "current_opinion_ko": "감탄적 명사구 אַשְׁרֵי הָאִישׁ의 원초적 활력을 살리기 위해 감탄형 두운 구조를 유지하는 것이 최선의 선택임.",
+            "reconsider_if_ko": "본 구문이 독립 감탄사가 아닌 서술형 술어로 기능한다는 명백한 고대 셈어 통사적 반증이 제시될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.PS.001.001",
+            "translations": {
+              "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
+              "en": "Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.",
+              "es": "Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다.",
+            "counterargument_ko": "qatal의 완료적 관점을 드러내는 과거·완료형도 가능하다. 문법 형태 하나로 현대어 시제를 기계적으로 고정하지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.001",
+            "verdict": "agree",
+            "final_opinion_ko": "אַשְׁרֵי의 감탄과 걷다·서다·앉다의 점층적 동사 병행 구조가 안정적으로 번역되었음. 1라운드 본 모델의 번역보다 제안안의 종결형 구문이 한국어 어순 및 가독성 면에서 우수하여 전적으로 지지함.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.001",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다. 반대 검토: qatal의 완료적 관점을 드러내는 과거·완료형도 가능하다. 문법 형태 하나로 현대어 시제를 기계적으로 고정하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.001",
+            "verdict": "agree",
+            "final_opinion_ko": "אַשְׁרֵי의 감탄과 걷다·서다·앉다의 점층적 동사 병행 구조가 안정적으로 번역되었음. 1라운드 본 모델의 번역보다 제안안의 종결형 구문이 한국어 어순 및 가독성 면에서 우수하여 전적으로 지지함.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.001",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. אַשְׁרֵי의 행복 선언과 걷다·서다·앉다의 병행을 보존한다. qatal 연쇄는 이 지혜시의 일반적 인물 묘사로 읽어 현재형으로 옮긴다. 반대 검토: qatal의 완료적 관점을 드러내는 과거·완료형도 가능하다. 문법 형태 하나로 현대어 시제를 기계적으로 고정하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않았고, 죄인들의 길에 서지 않았으며, 비웃는 자들의 자리에 앉지 않았던 사람.",
+              "en": "Happy is the person who has not walked by the counsel of the wicked, stood in the way of sinners, or sat in the seat of scoffers.",
+              "es": "Dichosa la persona que no ha caminado según el consejo de los malvados, ni ha estado de pie en el camino de los pecadores, ni se ha sentado en el asiento de los burladores."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.PS.001.002",
+      "reference": "Ps.1.2",
+      "passage": "Psalm 1:1–6",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no independent full critical collation completed",
+      "hebrew_layer": {
+        "hebrew": "כִּ֤י אִ֥ם בְּתוֹרַ֥ת יְהוָ֗ה חֶ֫פְצ֥וֹ וּֽבְתוֹרָת֥וֹ יֶהְגֶּ֗ה יוֹמָ֥ם וָלָֽיְלָה׃",
+        "tokens": [
+          {
+            "hebrew": "כִּ֤י",
+            "lemma": "3588 a",
+            "morph": "HC",
+            "upstream_id": "1937c"
+          },
+          {
+            "hebrew": "אִ֥ם",
+            "lemma": "518 a",
+            "morph": "HC",
+            "upstream_id": "19x9c"
+          },
+          {
+            "hebrew": "בְּתוֹרַ֥ת",
+            "lemma": "b/8451",
+            "morph": "HR/Ncfsc",
+            "upstream_id": "19yNB"
+          },
+          {
+            "hebrew": "יְהוָ֗ה",
+            "lemma": "3068",
+            "morph": "HNp",
+            "upstream_id": "1929t"
+          },
+          {
+            "hebrew": "חֶ֫פְצ֥וֹ",
+            "lemma": "2656",
+            "morph": "HNcmsc/Sp3ms",
+            "upstream_id": "19KZG"
+          },
+          {
+            "hebrew": "וּֽבְתוֹרָת֥וֹ",
+            "lemma": "c/b/8451",
+            "morph": "HC/R/Ncfsc/Sp3ms",
+            "upstream_id": "19TZE"
+          },
+          {
+            "hebrew": "יֶהְגֶּ֗ה",
+            "lemma": "1897",
+            "morph": "HVqi3ms",
+            "upstream_id": "19thY"
+          },
+          {
+            "hebrew": "יוֹמָ֥ם",
+            "lemma": "3119",
+            "morph": "HD",
+            "upstream_id": "19JM7"
+          },
+          {
+            "hebrew": "וָלָֽיְלָה",
+            "lemma": "c/3915",
+            "morph": "HC/Ncmsa",
+            "upstream_id": "19fpo"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "source_file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Ps.1.2",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
+        "en": "Rather, his delight is in YHWH’s instruction, and he recites it day and night.",
+        "es": "Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/psalm-1/#v2",
+        "en": "https://yangs777.github.io/hansam-bible/en/psalm-1/#v2",
+        "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v2"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v2",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v2",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v2"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.PS.001.002",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
+            "en": "Rather, his delight is in YHWH’s instruction, and he recites it day and night.",
+            "es": "Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다.",
+          "reason": {
+            "ko": "תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다.",
+            "en": "Instruction and recitation are current choices; reflection and law remain possible senses in the notes.",
+            "es": "Instrucción y recitación son las opciones actuales; la reflexión y la ley siguen como sentidos posibles en las notas."
+          },
+          "counterargument_ko": "הגה에는 성찰의 의미도 있고 תורה가 율법 전승을 가리킬 수도 있다. 발성이 반드시 동반된다고 단정하지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.PS.001.002",
+            "translations": {
+              "ko": "오직 야훼의 가르침에 그의 즐거움이 있고, 그분의 가르침을 밤낮으로 읊조리는도다.",
+              "en": "Rather, his delight is in the instruction of the LORD, and on His instruction he mutters day and night.",
+              "es": "Sino que en la instrucción de Yahveh está su complacencia, y en Su instrucción susurra día y noche."
+            },
+            "basis": "MT",
+            "reason_ko": "תּוֹרָה는 단순 '법전(Law)'에 국한되지 않는 포괄적 '가르침/훈계(instruction)'의 다의성을 지니며, יֶהְגֶּה는 침묵 명상이 아닌 입술로 낭독하고 되뇌는 발성 행위(hagah)를 지칭함.",
+            "counterargument_ko": "역사적 유대/기독교 전통에서 토라는 모세오경 규례로서의 '율법'으로 굳어져 있어 독자에게 '율법'이라는 용어가 더 직접적으로 다가올 수 있음.",
+            "current_opinion_ko": "'율법'이라는 법률적 좁은 의미보다 시편 기자의 삶 전체를 지도하는 '가르침'과 소리 내어 읊조리는 'hagah'의 역동성을 함께 살리는 번역이 최선임.",
+            "reconsider_if_ko": "초기 제2성전기 히브리어 문맥에서 תּוֹרָה가 법조문만을 가리키는 기술적 전문어(technical term)로 고정되어 쓰였다는 결정적 문헌 증거가 확보될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.PS.001.002",
+            "translations": {
+              "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
+              "en": "Rather, his delight is in YHWH’s instruction, and he recites it day and night.",
+              "es": "Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다.",
+            "counterargument_ko": "הגה에는 성찰의 의미도 있고 תורה가 율법 전승을 가리킬 수도 있다. 발성이 반드시 동반된다고 단정하지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.002",
+            "verdict": "agree_with_reservations",
+            "final_opinion_ko": "1라운드에서 본 모델이 הגה를 배타적 음성 발성으로만 규정했던 점을 철회함. הגה는 조용한 낭독뿐 아니라 내적 묵상과 심사숙고를 포괄함. 제안안의 '읊조린다/recites/recita'는 발성 쪽에 다소 기울어 있으나 번역문으로서 허용 가능하며, 성찰적 묵상의 다의성은 주석으로 보완하는 것이 타당함.",
+            "language_issues": {
+              "ko": "'읊조린다'는 소리 내는 행위에 다소 치우치므로 묵상의 의미를 각주에서 명시할 필요가 있음",
+              "en": "'recites' leans toward audible speaking rather than reflective meditation",
+              "es": "'recita' enfatiza la vocalización por encima de la meditación silenciosa"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.002",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다. 반대 검토: הגה에는 성찰의 의미도 있고 תורה가 율법 전승을 가리킬 수도 있다. 발성이 반드시 동반된다고 단정하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.002",
+            "verdict": "agree_with_reservations",
+            "final_opinion_ko": "1라운드에서 본 모델이 הגה를 배타적 음성 발성으로만 규정했던 점을 철회함. הגה는 조용한 낭독뿐 아니라 내적 묵상과 심사숙고를 포괄함. 제안안의 '읊조린다/recites/recita'는 발성 쪽에 다소 기울어 있으나 번역문으로서 허용 가능하며, 성찰적 묵상의 다의성은 주석으로 보완하는 것이 타당함.",
+            "language_issues": {
+              "ko": "'읊조린다'는 소리 내는 행위에 다소 치우치므로 묵상의 의미를 각주에서 명시할 필요가 있음",
+              "en": "'recites' leans toward audible speaking rather than reflective meditation",
+              "es": "'recita' enfatiza la vocalización por encima de la meditación silenciosa"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.002",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. תורה를 가르침, הגה를 읊조림으로 선택한다. 원어의 의미 범위를 주석에 남기며 신명을 YHWH로 통일한다. 반대 검토: הגה에는 성찰의 의미도 있고 תורה가 율법 전승을 가리킬 수도 있다. 발성이 반드시 동반된다고 단정하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 낮과 밤으로 되뇐다.",
+              "en": "Instead, his delight is in YHWH’s instruction, and he recites that instruction by day and by night.",
+              "es": "Más bien, su deleite está en la instrucción de YHWH, y la recita de día y de noche."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.PS.001.003",
+      "reference": "Ps.1.3",
+      "passage": "Psalm 1:1–6",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no independent full critical collation completed",
+      "hebrew_layer": {
+        "hebrew": "וְֽהָיָ֗ה כְּעֵץ֮ שָׁת֪וּל עַֽל־פַּלְגֵ֫י מָ֥יִם אֲשֶׁ֤ר פִּרְי֨וֹ ׀ יִתֵּ֬ן בְּעִתּ֗וֹ וְעָלֵ֥הוּ לֹֽא־יִבּ֑וֹל וְכֹ֖ל אֲשֶׁר־יַעֲשֶׂ֣ה יַצְלִֽיחַ׃",
+        "tokens": [
+          {
+            "hebrew": "וְֽהָיָ֗ה",
+            "lemma": "c/1961",
+            "morph": "HC/Vqq3ms",
+            "upstream_id": "19W26"
+          },
+          {
+            "hebrew": "כְּעֵץ֮",
+            "lemma": "k/6086",
+            "morph": "HR/Ncmsa",
+            "upstream_id": "19yw4"
+          },
+          {
+            "hebrew": "שָׁת֪וּל",
+            "lemma": "8362",
+            "morph": "HVqsmsa",
+            "upstream_id": "19jbg"
+          },
+          {
+            "hebrew": "עַֽל",
+            "lemma": "5921 a",
+            "morph": "HR",
+            "upstream_id": "19USR"
+          },
+          {
+            "hebrew": "פַּלְגֵ֫י",
+            "lemma": "6388",
+            "morph": "HNcmpc",
+            "upstream_id": "19v6U"
+          },
+          {
+            "hebrew": "מָ֥יִם",
+            "lemma": "4325",
+            "morph": "HNcmpa",
+            "upstream_id": "195SS"
+          },
+          {
+            "hebrew": "אֲשֶׁ֤ר",
+            "lemma": "834 a",
+            "morph": "HTr",
+            "upstream_id": "19GzE"
+          },
+          {
+            "hebrew": "פִּרְי֨וֹ",
+            "lemma": "6529",
+            "morph": "HNcmsc/Sp3ms",
+            "upstream_id": "19qCU"
+          },
+          {
+            "hebrew": "יִתֵּ֬ן",
+            "lemma": "5414",
+            "morph": "HVqi3ms",
+            "upstream_id": "19g2y"
+          },
+          {
+            "hebrew": "בְּעִתּ֗וֹ",
+            "lemma": "b/6256",
+            "morph": "HR/Ncbsc/Sp3ms",
+            "upstream_id": "19jQb"
+          },
+          {
+            "hebrew": "וְעָלֵ֥הוּ",
+            "lemma": "c/5929",
+            "morph": "HC/Ncmsc/Sp3ms",
+            "upstream_id": "19794"
+          },
+          {
+            "hebrew": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn",
+            "upstream_id": "19CsU"
+          },
+          {
+            "hebrew": "יִבּ֑וֹל",
+            "lemma": "5034 b",
+            "morph": "HVqi3ms",
+            "upstream_id": "19XR4"
+          },
+          {
+            "hebrew": "וְכֹ֖ל",
+            "lemma": "c/3605",
+            "morph": "HC/Ncmsa",
+            "upstream_id": "19KvS"
+          },
+          {
+            "hebrew": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr",
+            "upstream_id": "19dBc"
+          },
+          {
+            "hebrew": "יַעֲשֶׂ֣ה",
+            "lemma": "6213 a",
+            "morph": "HVqi3ms",
+            "upstream_id": "19nAB"
+          },
+          {
+            "hebrew": "יַצְלִֽיחַ",
+            "lemma": "6743 b",
+            "morph": "HVhi3ms",
+            "upstream_id": "19kfX"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "source_file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Ps.1.3",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
+        "en": "He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.",
+        "es": "Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/psalm-1/#v3",
+        "en": "https://yangs777.github.io/hansam-bible/en/psalm-1/#v3",
+        "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v3"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v3",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v3",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v3"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.PS.001.003",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
+            "en": "He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.",
+            "es": "Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다.",
+          "reason": {
+            "ko": "שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다.",
+            "en": "The planted tree, water channels and seasonal fruit are preserved without adding a universal promise of wealth.",
+            "es": "Se conservan el árbol plantado, los canales y el fruto a su tiempo sin añadir una promesa universal de riqueza."
+          },
+          "counterargument_ko": "옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.PS.001.003",
+            "translations": {
+              "ko": "그는 흐르는 물길 곁에 옮겨 심겨 제철에 열매를 맺고 그 잎사귀가 시들지 아니하는 나무와 같으니, 그가 하는 모든 일마다 번영하리로다.",
+              "en": "He will be like a tree transplanted beside streams of water, which yields its fruit in its season and whose leaf does not wither; and in everything he does, he prospers.",
+              "es": "Será como un árbol trasplantado junto a corrientes de aguas, que da su fruto en su sazón y cuya hoja no se marchita; y en todo cuanto hace, prospera."
+            },
+            "basis": "MT",
+            "reason_ko": "שָׁתוּל은 자연 발생적 식물이 아닌 의도적으로 '옮겨 심긴(transplanted)' 수동분사이며, יַצְלִיחַ는 사역-자동사적 뉘앙스를 지녀 번영의 성취를 나타냄.",
+            "counterargument_ko": "'심은 나무'라는 단순 수동형이 가독성에 유리하며, 마지막 절의 주어를 사람이 아닌 '그가 행하는 모든 일'로 볼 수도 있음.",
+            "current_opinion_ko": "인공적 수로(פַּלְגֵי מָיִם)에 의도적으로 이식된 생명력의 이미지를 드러내기 위해 이식의 뉘앙스를 반영하는 것이 최선임.",
+            "reconsider_if_ko": "고대 근동 원예 용례에서 שָׁתוּל이 단순 식재(planting)와 완전히 동일어로서 이식(transplanting)의 특수 의미가 결여되었음이 입증될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.PS.001.003",
+            "translations": {
+              "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
+              "en": "He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.",
+              "es": "Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다.",
+            "counterargument_ko": "옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.003",
+            "verdict": "agree",
+            "final_opinion_ko": "수동분사 שָׁתוּל의 식재 이미지와 인공 수로(פַּלְגֵי מָיִם)의 배경이 과장 없이 절제되어 표현됨. 마지막 절의 번영 묘사도 원문의 동사적 한계를 넘지 않아 책임 있는 번역임.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.003",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다. 반대 검토: 옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.003",
+            "verdict": "agree",
+            "final_opinion_ko": "수동분사 שָׁתוּל의 식재 이미지와 인공 수로(פַּלְגֵי מָיִם)의 배경이 과장 없이 절제되어 표현됨. 마지막 절의 번영 묘사도 원문의 동사적 한계를 넘지 않아 책임 있는 번역임.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.003",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. שָׁתוּל의 수동 이미지와 계절·열매·잎의 관계를 보존한다. 본문에 없는 물질적 성공 보장은 덧붙이지 않는다. 반대 검토: 옮겨 심김과 인공 수로를 더 분명히 드러낼 수도 있다. 마지막 절의 주어와 동사 태에 관한 해석도 주석으로 검토한다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
+              "en": "He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.",
+              "es": "Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.PS.001.004",
+      "reference": "Ps.1.4",
+      "passage": "Psalm 1:1–6",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no independent full critical collation completed",
+      "hebrew_layer": {
+        "hebrew": "לֹא־כֵ֥ן הָרְשָׁעִ֑ים כִּ֥י אִם־כַּ֝מֹּ֗ץ אֲֽשֶׁר־תִּדְּפֶ֥נּוּ רֽוּחַ׃",
+        "tokens": [
+          {
+            "hebrew": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn",
+            "upstream_id": "19Wkf"
+          },
+          {
+            "hebrew": "כֵ֥ן",
+            "lemma": "3651 c",
+            "morph": "HD",
+            "upstream_id": "19wrL"
+          },
+          {
+            "hebrew": "הָרְשָׁעִ֑ים",
+            "lemma": "d/7563",
+            "morph": "HTd/Aampa",
+            "upstream_id": "193TL"
+          },
+          {
+            "hebrew": "כִּ֥י",
+            "lemma": "3588 b",
+            "morph": "HC",
+            "upstream_id": "19LeN"
+          },
+          {
+            "hebrew": "אִם",
+            "lemma": "518 b",
+            "morph": "HC",
+            "upstream_id": "19sMn"
+          },
+          {
+            "hebrew": "כַּ֝מֹּ֗ץ",
+            "lemma": "k/4671",
+            "morph": "HRd/Ncmsa",
+            "upstream_id": "19Y3z"
+          },
+          {
+            "hebrew": "אֲֽשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr",
+            "upstream_id": "19NQN"
+          },
+          {
+            "hebrew": "תִּדְּפֶ֥נּוּ",
+            "lemma": "5086",
+            "morph": "HVqi3fs/Sp3ms",
+            "upstream_id": "19uLf"
+          },
+          {
+            "hebrew": "רֽוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsa",
+            "upstream_id": "19kA7"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "source_file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Ps.1.4",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
+        "en": "Not so the wicked! Rather, they are like chaff that the wind drives away.",
+        "es": "¡No así los malvados! Son como el tamo que el viento se lleva."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/psalm-1/#v4",
+        "en": "https://yangs777.github.io/hansam-bible/en/psalm-1/#v4",
+        "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v4"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v4",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v4",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v4"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.PS.001.004",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
+            "en": "Not so the wicked! Rather, they are like chaff that the wind drives away.",
+            "es": "¡No así los malvados! Son como el tamo que el viento se lleva."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다.",
+          "reason": {
+            "ko": "לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다.",
+            "en": "The sharp contrast and chaff image are retained; Spanish tamo is preferred over straw.",
+            "es": "Se conservan el contraste y la imagen del tamo, más preciso que paja para esta selección."
+          },
+          "counterargument_ko": "다른 고대 번역의 확장 표현을 본문에 넣으려면 별도의 전승 대조가 필요하다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "editorial_synthesis",
+            "en": "editorial_synthesis",
+            "es": "editorial_synthesis"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.PS.001.004",
+            "translations": {
+              "ko": "악인들은 그렇지 아니하니, 오직 바람이 흩날리는 겨와 같도다.",
+              "en": "Not so the wicked! Rather, they are like the chaff which the wind drives away.",
+              "es": "¡No así los impíos! Sino que son como el tamo que arrebata el viento."
+            },
+            "basis": "MT",
+            "reason_ko": "לֹא־כֵן의 강한 단절적 부정과 כִּי אִם의 대비 구조를 살려 악인의 공허함과 급격한 흩어짐을 표현함.",
+            "counterargument_ko": "칠십인역(LXX) 일부 전통 및 번역 관례처럼 '바람이 지면에서 몰아내는' 등 부가 수식 어구를 보충하여 문맥을 구체화할 여지가 있음.",
+            "current_opinion_ko": "히브리어 직역 특유의 간결하고 응축된 대조(겨와 바람)의 타격감을 유지하는 것이 원문의 시적 긴장감을 가장 잘 드러냄.",
+            "reconsider_if_ko": "MT의 간결한 텍스트가 후대 생략형 전승이고 본래 다른 수식어가 초기 자음 본문에 존재했음을 보여주는 사본적 확증이 나올 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.PS.001.004",
+            "translations": {
+              "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
+              "en": "Not so the wicked! Rather, they are like chaff that the wind drives away.",
+              "es": "¡No así los malvados! Son como el tamo que el viento se lleva."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다.",
+            "counterargument_ko": "다른 고대 번역의 확장 표현을 본문에 넣으려면 별도의 전승 대조가 필요하다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.004",
+            "verdict": "agree",
+            "final_opinion_ko": "לֹא־כֵן의 단호한 단절과 바람에 날리는 겨의 덧없음이 간결하게 잘 살아남. 스페인어에서 paja 대신 tamo를 택한 점도 고대 농경 이미지에 매우 적합함.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.004",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다. 반대 검토: 다른 고대 번역의 확장 표현을 본문에 넣으려면 별도의 전승 대조가 필요하다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.004",
+            "verdict": "agree",
+            "final_opinion_ko": "לֹא־כֵן의 단호한 단절과 바람에 날리는 겨의 덧없음이 간결하게 잘 살아남. 스페인어에서 paja 대신 tamo를 택한 점도 고대 농경 이미지에 매우 적합함.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.004",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. לֹא־כֵן의 부정·대조와 מֹץ의 겨 이미지를 살린다. 스페인어는 짚보다 겨에 가까운 tamo를 선택한다. 반대 검토: 다른 고대 번역의 확장 표현을 본문에 넣으려면 별도의 전승 대조가 필요하다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
+              "en": "Not so the wicked: they are like chaff that the wind drives away.",
+              "es": "No así los malvados: son como la paja que el viento se lleva."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.PS.001.005",
+      "reference": "Ps.1.5",
+      "passage": "Psalm 1:1–6",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no independent full critical collation completed",
+      "hebrew_layer": {
+        "hebrew": "עַל־כֵּ֤ן ׀ לֹא־יָקֻ֣מוּ רְ֭שָׁעִים בַּמִּשְׁפָּ֑ט וְ֝חַטָּאִ֗ים בַּעֲדַ֥ת צַדִּיקִֽים׃",
+        "tokens": [
+          {
+            "hebrew": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR",
+            "upstream_id": "193TS"
+          },
+          {
+            "hebrew": "כֵּ֤ן",
+            "lemma": "3651 c",
+            "morph": "HTm",
+            "upstream_id": "19NFp"
+          },
+          {
+            "hebrew": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn",
+            "upstream_id": "197am"
+          },
+          {
+            "hebrew": "יָקֻ֣מוּ",
+            "lemma": "6965 b",
+            "morph": "HVqi3mp",
+            "upstream_id": "19hh7"
+          },
+          {
+            "hebrew": "רְ֭שָׁעִים",
+            "lemma": "7563",
+            "morph": "HAampa",
+            "upstream_id": "19BsK"
+          },
+          {
+            "hebrew": "בַּמִּשְׁפָּ֑ט",
+            "lemma": "b/4941",
+            "morph": "HRd/Ncmsa",
+            "upstream_id": "19fsu"
+          },
+          {
+            "hebrew": "וְ֝חַטָּאִ֗ים",
+            "lemma": "c/2400",
+            "morph": "HC/Aampa",
+            "upstream_id": "198M6"
+          },
+          {
+            "hebrew": "בַּעֲדַ֥ת",
+            "lemma": "b/5712",
+            "morph": "HR/Ncfsc",
+            "upstream_id": "19wM5"
+          },
+          {
+            "hebrew": "צַדִּיקִֽים",
+            "lemma": "6662",
+            "morph": "HAampa",
+            "upstream_id": "19qty"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "source_file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Ps.1.5",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
+        "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+        "es": "Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/psalm-1/#v5",
+        "en": "https://yangs777.github.io/hansam-bible/en/psalm-1/#v5",
+        "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v5"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v5",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v5",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v5"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.PS.001.005",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
+            "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+            "es": "Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다.",
+          "reason": {
+            "ko": "קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다.",
+            "en": "Standing is retained in both parallel clauses; the judgment is not restricted to one historical setting.",
+            "es": "Se conserva estar en pie en ambas cláusulas; el juicio no se limita a una sola situación histórica."
+          },
+          "counterargument_ko": "법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.PS.001.005",
+            "translations": {
+              "ko": "그러므로 악인들은 심판 때에 서지 못하며, 죄인들은 의인들의 모임에 들지 못하리로다.",
+              "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+              "es": "Por tanto, no se sostendrán los impíos en el juicio, ni los pecadores en la congregación de los justos."
+            },
+            "basis": "MT",
+            "reason_ko": "לא־יָקֻמוּ는 물리적 일어섬뿐 아니라 법정적 판결 앞에서 '무죄로 인정받아 당당히 서다/견디다'는 법정적 은유를 담고 있음.",
+            "counterargument_ko": "이 구절의 '심판'을 종말론적 최후 심판으로 한정할 것인지, 지상의 통상적 공동체 법정 판결로 볼 것인지에 따라 어휘 선택이 달라질 수 있음.",
+            "current_opinion_ko": "법정적·공동체적 맥락을 모두 수용할 수 있도록 '서다/버티다'의 원형적 의미를 직역하는 것이 가장 정직함.",
+            "reconsider_if_ko": "'ק-ו-ם' 동사가 구약 시가서에서 지위의 획득이나 부활만을 지칭하는 배타적 용어로 고정되어 사용되었다는 문법적 증거가 밝혀질 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.PS.001.005",
+            "translations": {
+              "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
+              "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+              "es": "Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다.",
+            "counterargument_ko": "법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.005",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드에서 본 모델이 후반절을 '들지 못하다'로 번역하여 קום(서다)의 병행 구조를 훼손했던 오류를 철회함. 제안안이 두 절 모두 '서지 못한다/stand/mantenerse en pie'로 법정적·공동체적 기립 이미지를 충실히 복원한 점에 동의함.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.005",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다. 반대 검토: 법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.005",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드에서 본 모델이 후반절을 '들지 못하다'로 번역하여 קום(서다)의 병행 구조를 훼손했던 오류를 철회함. 제안안이 두 절 모두 '서지 못한다/stand/mantenerse en pie'로 법정적·공동체적 기립 이미지를 충실히 복원한 점에 동의함.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.005",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. קום의 서다와 생략된 병행 술어를 유지한다. 심판의 시대·장소를 원문보다 좁히지 않는다. 반대 검토: 법정에서 견디다·인정받다로 풀 수도 있지만, 회중에 입장하지 못한다는 뜻만으로 제한하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
+              "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+              "es": "Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.PS.001.006",
+      "reference": "Ps.1.6",
+      "passage": "Psalm 1:1–6",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no independent full critical collation completed",
+      "hebrew_layer": {
+        "hebrew": "כִּֽי־יוֹדֵ֣עַ יְ֭הוָה דֶּ֣רֶךְ צַדִּיקִ֑ים וְדֶ֖רֶךְ רְשָׁעִ֣ים תֹּאבֵֽד׃",
+        "tokens": [
+          {
+            "hebrew": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC",
+            "upstream_id": "195gQ"
+          },
+          {
+            "hebrew": "יוֹדֵ֣עַ",
+            "lemma": "3045",
+            "morph": "HVqrmsa",
+            "upstream_id": "19Xw6"
+          },
+          {
+            "hebrew": "יְ֭הוָה",
+            "lemma": "3068",
+            "morph": "HNp",
+            "upstream_id": "19eHJ"
+          },
+          {
+            "hebrew": "דֶּ֣רֶךְ",
+            "lemma": "1870",
+            "morph": "HNcbsc",
+            "upstream_id": "19H6L"
+          },
+          {
+            "hebrew": "צַדִּיקִ֑ים",
+            "lemma": "6662",
+            "morph": "HAampa",
+            "upstream_id": "19bmv"
+          },
+          {
+            "hebrew": "וְדֶ֖רֶךְ",
+            "lemma": "c/1870",
+            "morph": "HC/Ncbsc",
+            "upstream_id": "19FV9"
+          },
+          {
+            "hebrew": "רְשָׁעִ֣ים",
+            "lemma": "7563",
+            "morph": "HAampa",
+            "upstream_id": "19Xm1"
+          },
+          {
+            "hebrew": "תֹּאבֵֽד",
+            "lemma": "6",
+            "morph": "HVqi3fs",
+            "upstream_id": "19UE6"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "source_file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Ps.1.6",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
+        "en": "For YHWH knows the way of the righteous, but the way of the wicked perishes.",
+        "es": "Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/psalm-1/#v6",
+        "en": "https://yangs777.github.io/hansam-bible/en/psalm-1/#v6",
+        "es": "https://yangs777.github.io/hansam-bible/es/psalm-1/#v6"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/psalm-1/#v6",
+        "en": "Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/psalm-1/#v6",
+        "es": "Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/psalm-1/#v6"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.PS.001.006",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
+            "en": "For YHWH knows the way of the righteous, but the way of the wicked perishes.",
+            "es": "Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다.",
+          "reason": {
+            "ko": "ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다.",
+            "en": "Know is retained without requiring a theological expansion; the way of the wicked is the subject that perishes.",
+            "es": "Se conserva conocer sin imponer una ampliación teológica; lo que perece es el camino de los malvados."
+          },
+          "counterargument_ko": "문맥상 돌봄·관계적 앎의 함의를 설명할 수 있지만 언약·친밀함을 번역문에 반드시 보충해야 하는 것은 아니다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.PS.001.006",
+            "translations": {
+              "ko": "참으로 야훼께서는 의인들의 길을 돌보아 아시나, 악인들의 길은 망망하리로다.",
+              "en": "For the LORD intimately acknowledges the way of the righteous, but the way of the wicked will perish.",
+              "es": "Porque Yahveh reconoce con intimidad el camino de los justos, mas el camino de los impíos perecerá."
+            },
+            "basis": "MT",
+            "reason_ko": "יוֹדֵעַ는 단순 지적 인지나 수동적 감시(watch)가 아닌 언약적 돌봄과 인격적 동행이 수반된 깊은 앎(know/care for)을 의미하며, תֹּאבֵד는 소멸과 멸망의 능동적 귀결을 뜻함.",
+            "counterargument_ko": "'지키신다', '보살피신다'로 의역하면 한국어 독자에게 '알다'보다 더 따뜻한 보호의 개념이 쉽게 전달될 수 있음.",
+            "current_opinion_ko": "'지키다(שמר)'와 '알다(ידע)'는 신학적·어휘적으로 명확히 구별되어야 하므로, 언약적 관계적 앎의 본뜻을 살려 번역하는 것이 적절함.",
+            "reconsider_if_ko": "성경 히브리어에서 'ידע'가 시적 평행법 안에서 '관찰하다/지켜보다'의 단일 시각 동사로만 완전히 치환된다는 비교언어학적 근거가 성립될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.PS.001.006",
+            "translations": {
+              "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
+              "en": "For YHWH knows the way of the righteous, but the way of the wicked perishes.",
+              "es": "Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다.",
+            "counterargument_ko": "문맥상 돌봄·관계적 앎의 함의를 설명할 수 있지만 언약·친밀함을 번역문에 반드시 보충해야 하는 것은 아니다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.006",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델의 한국어 오기('망망하리로다')와 ידע에 대한 과도한 신학적 규정('돌보아 아시나/intimately acknowledges')을 완전히 철회함. 제안안처럼 '아시기 때문이다/멸망한다'로 직역하는 것이 주어(길)의 문법적 역할을 보존하고 원어의 본래 층위를 지키는 최선의 선택임.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.006",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다. 반대 검토: 문맥상 돌봄·관계적 앎의 함의를 설명할 수 있지만 언약·친밀함을 번역문에 반드시 보충해야 하는 것은 아니다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.PS.001.006",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델의 한국어 오기('망망하리로다')와 ידע에 대한 과도한 신학적 규정('돌보아 아시나/intimately acknowledges')을 완전히 철회함. 제안안처럼 '아시기 때문이다/멸망한다'로 직역하는 것이 주어(길)의 문법적 역할을 보존하고 원어의 본래 층위를 지키는 최선의 선택임.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.PS.001.006",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. ידע는 우선 알다로 옮기고, 멸망하는 문법적 주어가 악인들의 길임을 보존한다. 반대 검토: 문맥상 돌봄·관계적 앎의 함의를 설명할 수 있지만 언약·친밀함을 번역문에 반드시 보충해야 하는 것은 아니다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
+              "en": "For YHWH knows the way of the righteous, but the way of the wicked perishes.",
+              "es": "Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece."
+            },
+            "basis": "MT-WLC display; no independent full critical collation completed",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.NUM.006.024",
+      "reference": "Num.6.24",
+      "passage": "Numbers 6:24–26",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no inscription substituted for the biblical text",
+      "hebrew_layer": {
+        "hebrew": "יְבָרֶכְךָ֥ יְהוָ֖ה וְיִשְׁמְרֶֽךָ׃",
+        "tokens": [
+          {
+            "hebrew": "יְבָרֶכְךָ֥",
+            "lemma": "1288",
+            "morph": "HVpj3ms/Sp2ms",
+            "upstream_id": "04Wfj"
+          },
+          {
+            "hebrew": "יְהוָ֖ה",
+            "lemma": "3068",
+            "morph": "HNp",
+            "upstream_id": "04MRr"
+          },
+          {
+            "hebrew": "וְיִשְׁמְרֶֽךָ",
+            "lemma": "c/8104",
+            "morph": "HC/Vqj3ms/Sp2ms",
+            "upstream_id": "04d46"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Num.6.24",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+        "en": "May YHWH bless you and guard you.",
+        "es": "Que YHWH te bendiga y te guarde."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
+        "en": "https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
+        "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.NUM.006.024",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+            "en": "May YHWH bless you and guard you.",
+            "es": "Que YHWH te bendiga y te guarde."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+          "reason": {
+            "ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+            "en": "The blessing mood and the distinct actions of blessing and guarding are retained.",
+            "es": "Se conservan el modo de bendición y las acciones distintas de bendecir y guardar."
+          },
+          "counterargument_ko": "축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.NUM.006.024",
+            "translations": {
+              "ko": "야훼께서 그대에게 복을 내리시고 그대를 지키시기를.",
+              "en": "May the LORD bless you and protect you;",
+              "es": "Que Yahveh te bendiga y te guarde;"
+            },
+            "basis": "MT",
+            "reason_ko": "히브리어 단축형/미완료(יְבָרֶכְךָ, וְיִשְׁמְרֶךָ)가 지닌 제사장적 축복의 기원 및 기구적 권유(jussive/blessing mood)를 충실히 반영함.",
+            "counterargument_ko": "선포적 확신을 강조하여 직설법 미래형('복을 주실 것이요 지키실 것이다')으로 번역하는 편이 축복의 효력을 더 강하게 전달한다는 견해가 있음.",
+            "current_opinion_ko": "아론의 축복문 양식은 신적 은총을 비는 정중하고 거룩한 기원문 형식이므로 기원법(-기를) 형태를 취하는 것이 가장 정확함.",
+            "reconsider_if_ko": "제2인칭 대명 접미사가 붙은 피엘/칼 미완료 형태가 제의 문맥에서 배타적으로 직설법 예언으로만 통용되었다는 문법적 합의가 도출될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.NUM.006.024",
+            "translations": {
+              "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+              "en": "May YHWH bless you and guard you.",
+              "es": "Que YHWH te bendiga y te guarde."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+            "counterargument_ko": "축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "agree",
+            "final_opinion_ko": "신명 YHWH의 일관된 유지, 제사장 축복문의 기원법(-기를/May/Que), 2인칭 단수 대명사의 명확한 처리가 균형 있게 구현됨.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다. 반대 검토: 축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "agree",
+            "final_opinion_ko": "신명 YHWH의 일관된 유지, 제사장 축복문의 기원법(-기를/May/Que), 2인칭 단수 대명사의 명확한 처리가 균형 있게 구현됨.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.024",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다. 반대 검토: 축복의 선포적 기능을 설명할 수 있으나 단순 미래 예언으로만 바꾸지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+              "en": "May YHWH bless you and guard you.",
+              "es": "Que YHWH te bendiga y te proteja."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.NUM.006.025",
+      "reference": "Num.6.25",
+      "passage": "Numbers 6:24–26",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no inscription substituted for the biblical text",
+      "hebrew_layer": {
+        "hebrew": "יָאֵ֨ר יְהוָ֧ה ׀ פָּנָ֛יו אֵלֶ֖יךָ וִֽיחֻנֶּֽךָּ׃",
+        "tokens": [
+          {
+            "hebrew": "יָאֵ֨ר",
+            "lemma": "215",
+            "morph": "HVhj3ms",
+            "upstream_id": "04vGY"
+          },
+          {
+            "hebrew": "יְהוָ֧ה",
+            "lemma": "3068",
+            "morph": "HNp",
+            "upstream_id": "04MDm"
+          },
+          {
+            "hebrew": "פָּנָ֛יו",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp3ms",
+            "upstream_id": "04dCq"
+          },
+          {
+            "hebrew": "אֵלֶ֖יךָ",
+            "lemma": "413",
+            "morph": "HR/Sp2ms",
+            "upstream_id": "04cAA"
+          },
+          {
+            "hebrew": "וִֽיחֻנֶּֽךָּ",
+            "lemma": "c/2603 a",
+            "morph": "HC/Vqj3ms/Sp2ms",
+            "upstream_id": "04UYM"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Num.6.25",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+        "en": "May YHWH make his face shine toward you and be gracious to you.",
+        "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
+        "en": "https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
+        "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.NUM.006.025",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+            "en": "May YHWH make his face shine toward you and be gracious to you.",
+            "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+          "reason": {
+            "ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+            "en": "The face-and-light image and the act of granting favor are retained in natural target-language wording.",
+            "es": "Se conservan la imagen del rostro y la luz y el acto de conceder favor con una expresión natural."
+          },
+          "counterargument_ko": "호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.NUM.006.025",
+            "translations": {
+              "ko": "야훼께서 그분의 얼굴을 그대에게 비추시며 그대에게 은혜를 베푸시기를.",
+              "en": "May the LORD make His face shine upon you and be gracious to you;",
+              "es": "Que Yahveh haga resplandecer Su rostro sobre ti y tenga de ti gracia;"
+            },
+            "basis": "MT",
+            "reason_ko": "히필 단축형 יָאֵר(얼굴을 비추다)와 칼 단축형 וִיחֻנֶּךָּ(호의와 은혜를 베풀다)의 연속적 기원형 어미를 보존함.",
+            "counterargument_ko": "'얼굴을 비추다'라는 고대 셈어 관용 표현을 현대적 의미인 '호의 어린 눈길로 바라보시다'로 완전히 평이하게 풀어 쓸 수도 있음.",
+            "current_opinion_ko": "고대 성막 및 왕실 제의 배경에서 임금이나 신의 얼굴빛이 백성에게 비치는 생생한 구약적 메타포를 직역으로 보존하는 것이 연구 번역에 부합함.",
+            "reconsider_if_ko": "'얼굴을 비추다'라는 히브리어 관용구가 축복이 아닌 다른 비의도적 셈어 관용적 제약(예: 단순 가시성 확보)만을 의미했다는 언어학적 논증이 확인될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.NUM.006.025",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+              "en": "May YHWH make his face shine toward you and be gracious to you.",
+              "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+            "counterargument_ko": "호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델의 직역 투 스페인어('tenga de ti gracia')의 어색함을 철회함. 제안안의 'te conceda su favor'는 스페인어 관용적 표현으로 자연스러우며, 히브리어 동사 חנן의 은혜 베풂을 정확히 살림.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다. 반대 검토: 호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델의 직역 투 스페인어('tenga de ti gracia')의 어색함을 철회함. 제안안의 'te conceda su favor'는 스페인어 관용적 표현으로 자연스러우며, 히브리어 동사 חנן의 은혜 베풂을 정확히 살림.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.025",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다. 반대 검토: 호의 어린 시선으로 풀어 옮길 수도 있으나 본문의 얼굴·빛 이미지를 지우는 의역은 본문 밖에 둔다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 그의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+              "en": "May YHWH make his face shine toward you and be gracious to you.",
+              "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.NUM.006.026",
+      "reference": "Num.6.26",
+      "passage": "Numbers 6:24–26",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best selected — revisable with stronger evidence",
+      "basis": "MT-WLC display; no inscription substituted for the biblical text",
+      "hebrew_layer": {
+        "hebrew": "יִשָּׂ֨א יְהוָ֤ה ׀ פָּנָיו֙ אֵלֶ֔יךָ וְיָשֵׂ֥ם לְךָ֖ שָׁלֽוֹם׃",
+        "tokens": [
+          {
+            "hebrew": "יִשָּׂ֨א",
+            "lemma": "5375",
+            "morph": "HVqj3ms",
+            "upstream_id": "04NZQ"
+          },
+          {
+            "hebrew": "יְהוָ֤ה",
+            "lemma": "3068",
+            "morph": "HNp",
+            "upstream_id": "04afe"
+          },
+          {
+            "hebrew": "פָּנָיו֙",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp3ms",
+            "upstream_id": "04jFT"
+          },
+          {
+            "hebrew": "אֵלֶ֔יךָ",
+            "lemma": "413",
+            "morph": "HR/Sp2ms",
+            "upstream_id": "04VEv"
+          },
+          {
+            "hebrew": "וְיָשֵׂ֥ם",
+            "lemma": "c/7760 a",
+            "morph": "HC/Vqj3ms",
+            "upstream_id": "04dWK"
+          },
+          {
+            "hebrew": "לְךָ֖",
+            "lemma": "l",
+            "morph": "HR/Sp2ms",
+            "upstream_id": "04MeB"
+          },
+          {
+            "hebrew": "שָׁלֽוֹם",
+            "lemma": "7965",
+            "morph": "HNcmsa",
+            "upstream_id": "04kAx"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Num.6.26",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+        "en": "May YHWH lift his face toward you and give you peace.",
+        "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
+        "en": "https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
+        "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.NUM.006.026",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+            "en": "May YHWH lift his face toward you and give you peace.",
+            "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+          },
+          "basis": "MT-WLC display",
+          "reason_ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+          "reason": {
+            "ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+            "en": "The lifted-face image and the recipient of peace are retained; peace also carries a wider sense of well-being.",
+            "es": "Se conservan la imagen del rostro alzado y el destinatario de la paz; esta abarca también el bienestar."
+          },
+          "counterargument_ko": "평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "gpt-6.1-sol",
+            "en": "gpt-6.1-sol",
+            "es": "gpt-6.1-sol"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium"
+          ],
+          "date": "2026-10-23"
+        },
+        "model_proposals": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.NUM.006.026",
+            "translations": {
+              "ko": "야훼께서 그분의 얼굴을 그대를 향해 드시며 그대에게 평안을 두시기를.",
+              "en": "May the LORD lift up His countenance toward you and grant you peace.",
+              "es": "Que Yahveh alce Su rostro hacia ti y ponga en ti paz."
+            },
+            "basis": "MT",
+            "reason_ko": "יִשָּׂא(얼굴을 들다)와 וְיָשֵׂם... שָׁלוֹם(샬롬을 설정하여 부여하다)의 기원형 법(jussive)과 대상 집중적 전치사(אֵלֶיךָ)를 반영함.",
+            "counterargument_ko": "'얼굴을 들다'는 표현이 현대어에서 고압적 태도로 오해될 수 있어 '자애로운 얼굴로 바라보시다'로의 의역 제안이 강함.",
+            "current_opinion_ko": "눈길을 돌려 마주 대면하는 신의 인격적 영접을 나타내는 구약 고유의 축복 제의적 표현을 훼손 없이 직역하는 것이 옳음.",
+            "reconsider_if_ko": "'얼굴을 들다'라는 표현이 당대 서북셈어 비문에서 전적으로 비인격적인 다른 제의적 행위만을 지시한다는 외적 실증이 나올 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.NUM.006.026",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+              "en": "May YHWH lift his face toward you and give you peace.",
+              "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+            },
+            "basis": "MT-WLC display",
+            "reason_ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+            "counterargument_ko": "평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델이 스페인어에서 לְךָ(너에게/너를 위하여)를 'en ti(너의 안에)'로 전치사 영역을 변경했던 왜곡을 철회함. 제안안의 '네게... 주시기를 / give you / te dé'가 수혜 대상과의 관계를 정확히 나타냄.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다. 반대 검토: 평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "agree",
+            "final_opinion_ko": "1라운드 본 모델이 스페인어에서 לְךָ(너에게/너를 위하여)를 'en ti(너의 안에)'로 전치사 영역을 변경했던 왜곡을 철회함. 제안안의 '네게... 주시기를 / give you / te dé'가 수혜 대상과의 관계를 정확히 나타냄.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.NUM.006.026",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다. 반대 검토: 평안을 두다라는 더 형태적인 번역도 가능하다. שָׁלוֹם의 온전함·안녕 범위는 평화의 한 뜻으로 소진되지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "YHWH께서 그의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+              "en": "May YHWH lift his face toward you and give you peace.",
+              "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "MT display retained provisionally",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible"
+    },
+    {
+      "id": "HYB.DEUT.032.008",
+      "reference": "Deut.32.8",
+      "passage": "Deuteronomy 32:8",
+      "version": "0.2.0",
+      "project_author": "Hansam Yang",
+      "author_role": "Project founder, responsible editor and publisher",
+      "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
+      "translation_status": "draft",
+      "human_specialist_review": "pending",
+      "decision": "Current best: divine-sons reading; full translation is an editorial reconstruction, revisable",
+      "basis": "MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction",
+      "hebrew_layer": {
+        "hebrew": "בְּהַנְחֵ֤ל עֶלְיוֹן֙ גּוֹיִ֔ם בְּהַפְרִיד֖וֹ בְּנֵ֣י אָדָ֑ם יַצֵּב֙ גְּבֻלֹ֣ת עַמִּ֔ים לְמִסְפַּ֖ר בְּנֵ֥י יִשְׂרָאֵֽל׃",
+        "tokens": [
+          {
+            "hebrew": "בְּהַנְחֵ֤ל",
+            "lemma": "b/5157",
+            "morph": "HR/Vhc",
+            "upstream_id": "05R5E"
+          },
+          {
+            "hebrew": "עֶלְיוֹן֙",
+            "lemma": "5945 b",
+            "morph": "HAamsa",
+            "upstream_id": "05pdU"
+          },
+          {
+            "hebrew": "גּוֹיִ֔ם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa",
+            "upstream_id": "05Tjf"
+          },
+          {
+            "hebrew": "בְּהַפְרִיד֖וֹ",
+            "lemma": "b/6504",
+            "morph": "HR/Vhc/Sp3ms",
+            "upstream_id": "05PME"
+          },
+          {
+            "hebrew": "בְּנֵ֣י",
+            "lemma": "1121 a",
+            "morph": "HNcmpc",
+            "upstream_id": "05tma"
+          },
+          {
+            "hebrew": "אָדָ֑ם",
+            "lemma": "120",
+            "morph": "HNcmsa",
+            "upstream_id": "05c8B"
+          },
+          {
+            "hebrew": "יַצֵּב֙",
+            "lemma": "5324",
+            "morph": "HVhi3ms",
+            "upstream_id": "05kX5"
+          },
+          {
+            "hebrew": "גְּבֻלֹ֣ת",
+            "lemma": "1367",
+            "morph": "HNcfpc",
+            "upstream_id": "05fG2"
+          },
+          {
+            "hebrew": "עַמִּ֔ים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa",
+            "upstream_id": "05PdY"
+          },
+          {
+            "hebrew": "לְמִסְפַּ֖ר",
+            "lemma": "l/4557",
+            "morph": "HR/Ncmsc",
+            "upstream_id": "05MNG"
+          },
+          {
+            "hebrew": "בְּנֵ֥י",
+            "lemma": "1121 a",
+            "morph": "HNcmpc",
+            "upstream_id": "05K67"
+          },
+          {
+            "hebrew": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp",
+            "upstream_id": "05hVg"
+          }
+        ],
+        "source_notes": [],
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_reference": "Deut.32.8",
+        "source_attribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
+        "rights": {
+          "text": "Westminster Leningrad Codex — public domain",
+          "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent-comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
+      },
+      "translations": {
+        "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+        "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+        "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+      },
+      "canonical_urls": {
+        "ko": "https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/#v8",
+        "en": "https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/#v8",
+        "es": "https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/#v8"
+      },
+      "citations": {
+        "ko": "Hansam Yang. Original Bible: Deuteronomy 32:8 (ko), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/#v8",
+        "en": "Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/#v8",
+        "es": "Hansam Yang. Original Bible: Deuteronomy 32:8 (es), research pilot v0.2.0. https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/#v8"
+      },
+      "rights": {
+        "editorial": {
+          "license": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hansam Yang",
+          "scope": "New editorial material and translation drafts, to the extent rights are held; no exclusive right claimed over public-domain scripture"
+        },
+        "hebrew_text": {
+          "status": "public-domain",
+          "source": "Westminster Leningrad Codex"
+        },
+        "morphology": {
+          "license": "CC-BY-4.0",
+          "credit": "Open Scriptures Hebrew Bible",
+          "url": "https://github.com/openscriptures/morphhb"
+        }
+      },
+      "selection_status": "current_best_provisional",
+      "decision_trace": {
+        "selection": {
+          "id": "HYB.DEUT.032.008",
+          "version": "0.2.0",
+          "selection_status": "current_best_provisional",
+          "translations": {
+            "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+            "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+            "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+          },
+          "basis": "MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction",
+          "reason_ko": "현재 채택은 신적 존재들 계열이다. 보고된 4Q37과 그리스어 전승의 대응 및 32:9의 몫 배분 문맥을 함께 고려한다. 절 전체는 MT 나머지 문장과 보고된 이문구를 결합한 현대 편집 재구성이다. Claude의 표현을 채택해 한국어 인류·수여 표현과 세 언어의 배분·경계 표현을 정돈했다. 모델들의 동의 자체는 사본 증거로 계산하지 않는다.",
+          "reason": {
+            "ko": "현재 채택은 신적 존재들 계열이다. 보고된 4Q37과 그리스어 전승의 대응 및 32:9의 몫 배분 문맥을 함께 고려한다. 절 전체는 MT 나머지 문장과 보고된 이문구를 결합한 현대 편집 재구성이다. Claude의 표현을 채택해 한국어 인류·수여 표현과 세 언어의 배분·경계 표현을 정돈했다. 모델들의 동의 자체는 사본 증거로 계산하지 않는다.",
+            "en": "Divine sons is provisionally preferred from the reported 4Q37/Greek evidence and the allotment context of verse 9. The full verse is a modern editorial reconstruction using the MT remainder, not a complete preserved 4Q37 verse.",
+            "es": "Se prefiere provisionalmente hijos de Dios por los testimonios publicados de 4Q37 y del griego y el reparto del versículo 9. El versículo completo es una reconstrucción editorial moderna con el resto del TM, no un versículo íntegro conservado en 4Q37."
+          },
+          "counterargument_ko": "MT의 이스라엘 자손들은 70인 전승과 연결될 수 있다. 직접 사본 대조를 완료하지 않았으므로 선택을 자필원본의 확정으로 부르지 않는다. בני אל을 직접 증거 없이 채택하지 않는다. 인류라는 집합적 표현은 사람의 아들들/하나님의 아들들의 어휘적 대구를 약화하므로 그 손실을 각 언어 주석에 남긴다.",
+          "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다.",
+          "selected_by": "gpt-6.1-sol editorial agent for the Hansam Yang project; no personal human approval claimed",
+          "selected_from": {
+            "ko": "claude-opus-4-6-thinking",
+            "en": "claude-opus-4-6-thinking",
+            "es": "claude-opus-4-6-thinking"
+          },
+          "considered_models": [
+            "gpt-6.1-sol",
+            "gemini-3.8-flash-medium",
+            "claude-opus-4-6-thinking"
+          ],
+          "date": "2026-10-23",
+          "mt_display_translation": {
+            "ko": "지극히 높으신 이께서 민족들에게 기업을 나누실 때, 사람의 자손들을 나누실 때, 백성들의 경계를 이스라엘 자손들의 수에 따라 세우셨다.",
+            "en": "When the Most High assigned inheritances to nations, when he divided humankind, he set the boundaries of peoples according to the number of the sons of Israel.",
+            "es": "Cuando el Altísimo asignó herencias a las naciones, cuando dividió a la humanidad, fijó las fronteras de los pueblos según el número de los hijos de Israel."
+          },
+          "additional_review_status": "Claude Opus 4.6 Thinking의 실제 검토 완료 — Antigravity CLI 경유. Claude Code 2.1.308 자체는 계정 로그인 대기이며 두 접속 경로를 혼동하지 않는다.",
+          "textual_uncertainty": "Current divine-sons reading selected provisionally; exact earliest consonants are not established and direct image collation remains pending."
+        },
+        "model_proposals": [
+          {
+            "model": "claude-opus-4-6-thinking",
+            "id": "HYB.DEUT.032.008",
+            "translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            },
+            "basis": "MT text retained for the full verse frame. In the final phrase, MT בני ישראל is replaced by the divine-sons reading on the strength of reported 4Q37 בני אלוהים (per Tov 2023/2026-10-09 update) and the convergent Greek witnesses (υἱῶν θεοῦ / ἀγγέλων θεοῦ). The conjecture בני אל is not adopted because it lacks direct attestation in the supplied evidence. The result is an editorial reconstruction combining the MT remainder with a reported variant, not a single complete preserved manuscript reading.",
+            "reason_ko": "보고된 4Q37(בני אלוהים)과 그리스어 주요 전승(υἱῶν θεοῦ 또는 ἀγγέλων θεοῦ)이 신적 존재 계열로 수렴하며, MT의 בני ישראל과 대립한다. 32:9에서 야훼의 '몫'(חלק)이 야곱이라는 문맥은 다른 신적 존재들에게 다른 민족이 배분되었음을 전제하므로, 신적 아들들 독법이 문맥적으로 더 정합적이다. 또한 유대 전승에서 신학적 민감성 때문에 신적 존재를 이스라엘로 대체했을 개연성이 그 반대보다 높다(난독 우선 원칙). 이는 잠정 판단이며 직접 사본 대조는 완료되지 않았다.",
+            "counterargument_ko": "(1) MT는 가장 길고 연속적인 전승 역사를 가진 수용 본문이다. 이를 대체하려면 강한 근거가 필요하다. (2) 창세기 10장의 70민족과 야곱의 70명 자손(창 46:27)의 대응은 MT '이스라엘 자손들의 수'에 내적 논리를 부여한다. (3) 4Q37 단편의 실제 보존 상태와 판독 확실성을 직접 확인하지 않고 보고된 독법만으로 MT를 대체하는 것은 방법론적 위험이 있다. (4) 그리스어 전승 내부에서 ἀγγέλων θεοῦ와 υἱῶν θεοῦ의 차이가 있어 단일 Vorlage 재구성이 단순하지 않다.",
+            "current_opinion_ko": "신적 아들들 계열 채택은 현재 제공된 증거 범위 안에서 가장 합리적인 잠정 선택이다. 4Q37·그리스어·문맥 논증의 수렴이 MT 단독보다 설명력이 크다. 다만 이를 원본 확정으로 부를 수 없으며, 편집 재구성임을 반드시 명시해야 한다.",
+            "reconsider_if_ko": "4Q37 단편의 직접 이미지 대조 결과가 보고된 독법과 다를 때, MT 독법의 고대성을 뒷받침하는 새 전승 증거가 나타날 때, 또는 그리스어 전승 내부의 ἀγγέλων/υἱῶν 분기가 Vorlage 재구성에 영향을 미치는 새 분석이 나올 때 재검토한다."
+          },
+          {
+            "model": "gemini-3.8-flash-medium",
+            "id": "HYB.DEUT.032.008",
+            "translations": {
+              "ko": "[편집 재구성: MT 본문에 보고된 4Q37 이문 적용] 지존하신 분께서 민족들에게 유산을 나누어 주실 때, 아담의 자손들을 흩으실 때, 하나님의 아들들의 수효대로 뭇 백성의 경계들을 세우셨도다.",
+              "en": "[Editorial Reconstruction: MT supplemented with reported 4Q37 variant] When the Most High gave the nations their inheritance, when He divided the sons of man, He set the boundaries of the peoples according to the number of the sons of God.",
+              "es": "[Reconstrucción editorial: TM complementado con la variante reportada de 4Q37] Cuando el Altísimo dio a las naciones su heredad, cuando separó a los hijos del hombre, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            },
+            "basis": "편집 재구성(Editorial Reconstruction: MT 본문을 바탕으로 하되 결미 어구를 Tov가 보고한 사해사본 4Q37 'בני אלוהים' 및 칠십인역 증언 계열로 채택; 보존된 4Q37 완전 사본이 아님)",
+            "reason_ko": "보고된 4Q37의 'בני אלוהים'(하나님의 아들들/신적 존재들)과 70인역 증언(υἱῶν θεοῦ / ἀγγέλων θεοῦ)은 9절의 야훼 자신의 몫(이스라엘)과의 시적 대조 및 다신론적/천상회의적 고대 배경에서 더 원초적인 난독(lectio difficilior)으로 평가됨. MT의 'בני ישראל'은 후대학파의 신학적 정정(교정) 가능성이 제기됨.",
+            "counterargument_ko": "MT 전승의 בני ישראל은 현존하는 히브리어 대다수 전승과 유대 마소라 전통에서 완전하고 일관되게 보존된 본문이며, 4Q37은 파편적 보고에 의존하고 있어 사본 실물 사진 검증 없이 학술 보고만으로 권위 있는 주 텍스트를 교체하는 것은 문헌 비평상 과도한 추론일 수 있음. 또한 야곱 가족 70인(출 1:5, 창 10장 민족 수)과의 내적 조화를 지지하는 강력한 내증이 존재함.",
+            "current_opinion_ko": "현재 학술 보고에 근거할 때 4Q37과 70인역 계열의 '신적 존재들/하나님의 아들들' 독법이 고대 시문맥 대조(8-9절)에 더 정합하므로, 본 구절 전체를 'MT 기반에 보고된 이문을 결합한 비평적 편집 재구성'임을 명시하여 채택함. 결코 4Q37 단일 사본에 온전히 보존된 구절로 단정하지 않음.",
+            "reconsider_if_ko": "4Q37 파편의 고해상도 실물 사진 판독 결과 해당 자음이 'בני אלוהים'이 아니었음이 판명되거나, 제2성전기 이전 사본에서 'בני ישראל'이 원형이었음을 입증하는 초기 독립 히브리어 증언이 새로이 발굴될 경우."
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "id": "HYB.DEUT.032.008",
+            "translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누실 때, 사람들을 나누실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 세우셨다.",
+              "en": "When the Most High assigned inheritances to the nations, when he divided humankind, he set the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo asignó herencias a las naciones, cuando dividió a la humanidad, fijó las fronteras de los pueblos según el número de los hijos de Dios."
+            },
+            "basis": "MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction",
+            "reason_ko": "현재 채택은 신적 존재들 계열이다. 보고된 4Q37과 그리스어 전승의 대응 및 32:9의 몫 배분 문맥을 함께 고려한다. 절 전체는 MT 나머지 문장과 보고된 이문구를 결합한 현대 편집 재구성이다.",
+            "counterargument_ko": "MT의 이스라엘 자손들은 70인 전승과 연결될 수 있다. 직접 사본 대조를 완료하지 않았으므로 선택을 자필원본의 확정으로 부르지 않는다. בני אל을 직접 증거 없이 채택하지 않는다.",
+            "current_opinion_ko": "현재 최선의 채택안으로 권고한다. 현재 채택은 신적 존재들 계열이다. 보고된 4Q37과 그리스어 전승의 대응 및 32:9의 몫 배분 문맥을 함께 고려한다. 절 전체는 MT 나머지 문장과 보고된 이문구를 결합한 현대 편집 재구성이다.",
+            "reconsider_if_ko": "새 사본 판독·전승 대조·문법 및 언어 검토가 이 선택보다 강한 설명을 제공하면 갱신한다."
+          }
+        ],
+        "model_final_opinions": {
+          "claude-opus-4-6-thinking": {
+            "stage": "claude.round1",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "agree_with_reservations",
+            "final_opinion_ko": "제안된 선택(신적 아들들 계열)에 동의하되 유보를 둔다. 보고된 4Q37·그리스어 증거와 32:9 문맥의 수렴은 MT의 '이스라엘 자손들'보다 '하나님의 아들들'이 이른 독법일 개연성을 높인다. 그러나 세 가지 유보가 있다: (1) 4Q37 직접 대조가 미완이므로 보고된 독법의 확실성을 독립 검증하지 못했다, (2) 그리스어 내부에서 ἀγγέλων과 υἱῶν의 분기는 역본 Vorlage가 단일하지 않았을 가능성을 남긴다, (3) MT 전승은 독자적 가치가 있으며 '이스라엘 자손들'이 원래적일 논리적 가능성이 완전히 배제되지 않는다. 번역 문구는 전체적으로 양호하나, 한국어에서 소폭 조정을 제안한다.",
+            "language_issues": {
+              "ko": "현행 '사람들을 나누실 때'는 בני אדם의 집합적 의미를 충분히 드러내지 못한다. '인류를 갈라놓으실 때'가 영어 'humankind', 스페인어 'humanidad'와 등가를 이루며 הפריד의 분리 뉘앙스도 살린다. '세우셨다'(יַצֵּב)는 의미상 맞으나, 경계 설정 맥락에서 '정하셨다'가 한국어로 더 자연스럽다. '기업을 나누실 때'는 '기업을 나누어 주실 때'로 하면 הנחיל(기업으로 주다)의 수여 뉘앙스가 보강된다.",
+              "en": "현행 번역은 정확하고 자연스럽다. 'assigned'도 수용 가능하나, 'apportioned'가 הנחיל의 분배·할당 뉘앙스를 좀 더 정밀하게 전달한다. 'set'보다 'fixed'가 יַצֵּב(Hiphil: 확고히 세우다)의 확정성을 더 잘 반영한다.",
+              "es": "현행 번역은 정확하다. 'asignó'보다 'repartió'가 분배 행위를 더 명확히 한다. 'fronteras'보다 'límites'가 גבולות의 일반적 경계 의미에 좀 더 가깝다."
+            },
+            "proposed_correction": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            }
+          },
+          "gemini-3.8-flash-medium": {
+            "stage": "gemini.round3",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "agree_with_reservations",
+            "final_opinion_ko": "제시된 3개 언어 번역을 현시점의 '잠정적 최선안(revisable best choice)'으로 지지함. 다만 두 가지 본질적 유보 사항을 유지함: (1) 문헌비평적 유보: 실물 사본 사진의 직접 대조 없이 토브의 학술 보고에 의존한 '편집 재구성(MT 잔여부 + 보고된 4Q37 어구)'이며, MT의 '이스라엘 자손들'이 지닌 단단한 사본 전승사 및 70인 민족 모티프(창 10장, 출 1:5)의 강력한 반론을 결코 간과할 수 없음. (2) 문체적 유보: בְּנֵי אָדָם을 '인류'로 집합화하면서 후반부 בְּנֵי אֱלֹהִים(하나님의 아들들)과의 시적 대구(사람의 아들들 vs 신의 아들들)가 다소 약화된 점은 주석에서 명시해야 함.",
+            "language_issues": {
+              "ko": "'기업을 나누어 주실 때'(הַנְחֵל의 사역 뉘앙스)와 '경계를 정하셨다'(יַצֵּב)는 탁월함. '인류를 갈라놓으실 때'는 현대어로서 자연스러우나, '사람의 아들들'이라는 직역에 비해 후반부 '하나님의 아들들'과의 어휘적 평행 대조가 다소 희석됨.",
+              "en": "'apportioned inheritances' captures the Hiphil causation of נחל effectively, and 'fixed the boundaries' is precise for יצב. 'humankind' is fluent and clear, though like the Korean it slightly softens the overt poetic echo with 'sons of God'.",
+              "es": "'repartió herencias', 'separó a la humanidad' y 'fijó los límites' son expresiones naturales y exactas; 'límites' traduce con gran fidelidad el término hebreo גְּבֻלֹת."
+            },
+            "evaluated_translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            }
+          },
+          "gpt-6.1-sol": {
+            "stage": "gpt.round3",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "selected_current_best_with_reservations",
+            "final_opinion_ko": "Claude의 세 언어 표현을 현재 채택한다. 인류를 갈라놓다·기업을 나누어 주다·경계를 정하다는 문맥에 맞고 전승 근거를 새로 주장하지 않는다. 하나님의 아들들 독법의 잠정 우선과 편집 재구성 표시는 유지한다. 직접 사본 대조가 없다는 유보와 MT 반론은 여전히 유효하다.",
+            "evaluated_translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            }
+          }
+        },
+        "model_opinion_history": [
+          {
+            "model": "claude-opus-4-6-thinking",
+            "stage": "claude.round1",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "agree_with_reservations",
+            "final_opinion_ko": "제안된 선택(신적 아들들 계열)에 동의하되 유보를 둔다. 보고된 4Q37·그리스어 증거와 32:9 문맥의 수렴은 MT의 '이스라엘 자손들'보다 '하나님의 아들들'이 이른 독법일 개연성을 높인다. 그러나 세 가지 유보가 있다: (1) 4Q37 직접 대조가 미완이므로 보고된 독법의 확실성을 독립 검증하지 못했다, (2) 그리스어 내부에서 ἀγγέλων과 υἱῶν의 분기는 역본 Vorlage가 단일하지 않았을 가능성을 남긴다, (3) MT 전승은 독자적 가치가 있으며 '이스라엘 자손들'이 원래적일 논리적 가능성이 완전히 배제되지 않는다. 번역 문구는 전체적으로 양호하나, 한국어에서 소폭 조정을 제안한다.",
+            "language_issues": {
+              "ko": "현행 '사람들을 나누실 때'는 בני אדם의 집합적 의미를 충분히 드러내지 못한다. '인류를 갈라놓으실 때'가 영어 'humankind', 스페인어 'humanidad'와 등가를 이루며 הפריד의 분리 뉘앙스도 살린다. '세우셨다'(יַצֵּב)는 의미상 맞으나, 경계 설정 맥락에서 '정하셨다'가 한국어로 더 자연스럽다. '기업을 나누실 때'는 '기업을 나누어 주실 때'로 하면 הנחיל(기업으로 주다)의 수여 뉘앙스가 보강된다.",
+              "en": "현행 번역은 정확하고 자연스럽다. 'assigned'도 수용 가능하나, 'apportioned'가 הנחיל의 분배·할당 뉘앙스를 좀 더 정밀하게 전달한다. 'set'보다 'fixed'가 יַצֵּב(Hiphil: 확고히 세우다)의 확정성을 더 잘 반영한다.",
+              "es": "현행 번역은 정확하다. 'asignó'보다 'repartió'가 분배 행위를 더 명확히 한다. 'fronteras'보다 'límites'가 גבולות의 일반적 경계 의미에 좀 더 가깝다."
+            },
+            "proposed_correction": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            }
+          },
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round2",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "agree",
+            "final_opinion_ko": "전체 절을 단일 사본으로 과장하지 않고 '편집 재구성(MT 잔여부 + 보고된 4Q37 신의 아들들 구절)'으로 투명하게 규정하며 MT 전거 및 별도 번역을 병기하는 것은 매우 책임 있는 학술적 방식임. 직접 사본 사진 대조가 없는 상태에서 학술 보고에 입각한 최선의 잠정 선택임. 가장 강력한 반론은 MT의 'בני ישראל'이 대다수 히브리어 전승과 유대 마소라 전통에서 완전하게 보존되어 전승되고 있으며 창세기 10장 및 출애굽기 1:5의 70인 모티프와 긴밀히 연계된다는 점임.",
+            "language_issues": {
+              "ko": "none",
+              "en": "none",
+              "es": "none"
+            },
+            "proposed_correction": null
+          },
+          {
+            "model": "gemini-3.8-flash-medium",
+            "stage": "gemini.round3",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "agree_with_reservations",
+            "final_opinion_ko": "제시된 3개 언어 번역을 현시점의 '잠정적 최선안(revisable best choice)'으로 지지함. 다만 두 가지 본질적 유보 사항을 유지함: (1) 문헌비평적 유보: 실물 사본 사진의 직접 대조 없이 토브의 학술 보고에 의존한 '편집 재구성(MT 잔여부 + 보고된 4Q37 어구)'이며, MT의 '이스라엘 자손들'이 지닌 단단한 사본 전승사 및 70인 민족 모티프(창 10장, 출 1:5)의 강력한 반론을 결코 간과할 수 없음. (2) 문체적 유보: בְּנֵי אָדָם을 '인류'로 집합화하면서 후반부 בְּנֵי אֱלֹהִים(하나님의 아들들)과의 시적 대구(사람의 아들들 vs 신의 아들들)가 다소 약화된 점은 주석에서 명시해야 함.",
+            "language_issues": {
+              "ko": "'기업을 나누어 주실 때'(הַנְחֵל의 사역 뉘앙스)와 '경계를 정하셨다'(יַצֵּב)는 탁월함. '인류를 갈라놓으실 때'는 현대어로서 자연스러우나, '사람의 아들들'이라는 직역에 비해 후반부 '하나님의 아들들'과의 어휘적 평행 대조가 다소 희석됨.",
+              "en": "'apportioned inheritances' captures the Hiphil causation of נחל effectively, and 'fixed the boundaries' is precise for יצב. 'humankind' is fluent and clear, though like the Korean it slightly softens the overt poetic echo with 'sons of God'.",
+              "es": "'repartió herencias', 'separó a la humanidad' y 'fijó los límites' son expresiones naturales y exactas; 'límites' traduce con gran fidelidad el término hebreo גְּבֻלֹת."
+            },
+            "evaluated_translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            }
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round2",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "selected_current_best",
+            "final_opinion_ko": "Gemini 2차 의견을 검토한 뒤 현재 채택을 유지한다. 현재 채택은 신적 존재들 계열이다. 보고된 4Q37과 그리스어 전승의 대응 및 32:9의 몫 배분 문맥을 함께 고려한다. 절 전체는 MT 나머지 문장과 보고된 이문구를 결합한 현대 편집 재구성이다. 반대 검토: MT의 이스라엘 자손들은 70인 전승과 연결될 수 있다. 직접 사본 대조를 완료하지 않았으므로 선택을 자필원본의 확정으로 부르지 않는다. בני אל을 직접 증거 없이 채택하지 않는다.",
+            "language_issues": {
+              "ko": "none identified by this review",
+              "en": "none identified by this review",
+              "es": "none identified by this review"
+            }
+          },
+          {
+            "model": "gpt-6.1-sol",
+            "stage": "gpt.round3",
+            "id": "HYB.DEUT.032.008",
+            "verdict": "selected_current_best_with_reservations",
+            "final_opinion_ko": "Claude의 세 언어 표현을 현재 채택한다. 인류를 갈라놓다·기업을 나누어 주다·경계를 정하다는 문맥에 맞고 전승 근거를 새로 주장하지 않는다. 하나님의 아들들 독법의 잠정 우선과 편집 재구성 표시는 유지한다. 직접 사본 대조가 없다는 유보와 MT 반론은 여전히 유효하다.",
+            "evaluated_translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+              "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+              "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+            }
+          }
+        ],
+        "previous_editions": [
+          {
+            "version": "0.1.0",
+            "translations": {
+              "ko": "지극히 높으신 이께서 민족들에게 기업을 나누실 때, 사람의 자손들을 나누실 때, 백성들의 경계를 이스라엘 자손들의 수에 따라 세우셨다.",
+              "en": "When the Most High assigned inheritances to nations, when he divided humankind, he set the boundaries of peoples according to the number of the sons of Israel.",
+              "es": "Cuando el Altísimo asignó herencias a las naciones, cuando dividió a la humanidad, fijó las fronteras de los pueblos según el número de los hijos de Israel."
+            },
+            "basis": "MT-WLC display, with a separately labelled reported 4Q37 variant",
+            "decision": "Open — full independent collation and direct image review pending",
+            "archive_path": "/data/releases/v0.1.0.json"
+          }
+        ]
+      },
+      "model_provenance": {
+        "claude-opus-4-6-thinking": {
+          "provider": "Antigravity CLI (fallback while Claude Code authentication is pending)",
+          "client": "agy 1.4.6; NOT Claude Code",
+          "requested_model_id": "claude-opus-4-6-thinking",
+          "identity_basis": "Explicit --model argument and agy model listing; backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "1330a548-294b-496f-9567-9fcaa6a64f85",
+          "usage": {
+            "input_tokens": 15593,
+            "output_tokens": 7199,
+            "thinking_tokens": 0,
+            "cache_read_tokens": 0,
+            "total_tokens": 22792
+          },
+          "independence": "Cross-review with proposed selection visible. Own translations and final opinion returned in one invocation.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gemini-3.8-flash-medium": {
+          "provider": "Google Antigravity CLI",
+          "cli_version": "1.4.6",
+          "requested_model_id": "gemini-3.8-flash-medium",
+          "identity_basis": "Explicit --model argument; listed by agy models. Backend immutable snapshot not exposed.",
+          "date": "2026-10-23",
+          "conversation_id": "a887dfd2-e71f-4d14-bd46-7cc41a5c90c3",
+          "status": "SUCCESS",
+          "usage": {
+            "input_tokens": 17051,
+            "output_tokens": 4825,
+            "thinking_tokens": 1039,
+            "cache_read_tokens": 0,
+            "total_tokens": 21876
+          },
+          "independence": "Fresh CLI conversation; other models and previous translation drafts withheld; shared source packet supplied.",
+          "usage_scope": "CLI-reported conversation snapshot; do not sum snapshots sharing a conversation ID"
+        },
+        "gpt-6.1-sol": {
+          "provider": "OpenAI Codex",
+          "identity_basis": "Local Codex config.toml model setting; runtime immutable backend snapshot is not exposed.",
+          "date": "2026-10-23",
+          "independence": "Main editorial agent; previous pilot translations already visible. Not a blinded independent replicate."
+        }
+      },
+      "title": "원문성경 · Original Bible",
+      "reported_variant": {
+        "hebrew": "בני אלוהים",
+        "witness": "4Q37 / 4QDeutʲ — reported reading",
+        "status": "Reported in published scholarship; direct image verification pending",
+        "source": "https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8",
+        "ko": "하나님의 아들들",
+        "en": "sons of God",
+        "es": "hijos de Dios",
+        "unit": "phrase-only",
+        "not_a_complete_verse": true,
+        "evidence_type": "published_report_not_direct_image_reading",
+        "earliest_exact_consonants": "not_established"
+      },
+      "readings": [
+        {
+          "id": "MT",
+          "type": "edited_display",
+          "phrase": "בני ישראל",
+          "selected_for_display": true,
+          "earliest_priority": "not_adjudicated",
+          "selected_for_translation": false
+        },
+        {
+          "id": "4Q37-report",
+          "type": "published_report",
+          "phrase": "בני אלוהים",
+          "selected_for_display": false,
+          "earliest_priority": "provisionally_preferred_not_established",
+          "source": "https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8",
+          "selected_for_translation": true
+        },
+        {
+          "id": "Greek-report",
+          "type": "ancient_version_report",
+          "phrases": [
+            "υἱῶν θεοῦ",
+            "ἀγγέλων θεοῦ"
+          ],
+          "selected_for_display": false,
+          "source": "https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8",
+          "selected_for_translation": false
+        }
+      ]
+    }
+  ]
+}
