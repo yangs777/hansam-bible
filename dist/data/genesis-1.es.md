@@ -1,6 +1,6 @@
 # Génesis 1
 
-Hansam Yang · Original Bible · v0.3.0
+Hansam Yang · Original Bible · v0.4.0
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -44,6 +44,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견�
 
 Counterargument (Korean): 1:1을 시간 종속절로 읽어 1:2–3과 연결하는 구문 분석도 유력하다.
 
+Previous v0.3.0
+
+Al comienzo, Dios creó los cielos y la tierra.
+
 ## 2 · HYB.GEN.001.002
 
 Hebrew display (MT/WLC): וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃
@@ -75,6 +79,10 @@ La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abis
 Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견을 검토한 편집 판단. 배경 상태를 유지한다. רוח אלהים은 현재 하나님의 바람으로 선택하되, 영·숨결 및 강한 바람이라는 대안을 주석에 남긴다. 소유·기원 관계 하나를 확정하지 않는다. 반대 검토: 하나님의 영 또는 강한 바람도 제안된다. 영을 성령으로 특정하거나 상태를 황폐화 사건으로 바꾸는 것은 별도 해석이다.
 
 Counterargument (Korean): 하나님의 영 또는 강한 바람도 제안된다. 영을 성령으로 특정하거나 상태를 황폐화 사건으로 바꾸는 것은 별도 해석이다.
+
+Previous v0.3.0
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
 
 ## 3 · HYB.GEN.001.003
 
@@ -108,6 +116,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견�
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
 ## 4 · HYB.GEN.001.004
 
 Hebrew display (MT/WLC): וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָא֖וֹר כִּי־ט֑וֹב וַיַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָא֖וֹר וּבֵ֥ין הַחֹֽשֶׁךְ׃
@@ -134,6 +146,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
 ## 5 · HYB.GEN.001.005
 
 Hebrew display (MT/WLC): וַיִּקְרָ֨א אֱלֹהִ֤ים ׀ לָאוֹר֙ י֔וֹם וְלַחֹ֖שֶׁךְ קָ֣רָא לָ֑יְלָה וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם אֶחָֽד׃
@@ -159,6 +175,10 @@ Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y l
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. יום אחד의 기수 하나를 하루로 보존한다. 반복되는 저녁·아침과 뒤의 서수도 구별한다. 반대 검토: 첫째 날이라는 기능적 번역도 가능하며, 이 문법만으로 현대 시간 단위를 확정할 수 없다.
 
 Counterargument (Korean): 첫째 날이라는 기능적 번역도 가능하며, 이 문법만으로 현대 시간 단위를 확정할 수 없다.
+
+Previous v0.3.0
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
 
 ## 6 · HYB.GEN.001.006
 
@@ -192,6 +212,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견�
 
 Counterargument (Korean): 펼쳐진 공간·하늘의 둥근 천장 등도 가능하다. 특정한 재질이나 현대 대기권을 본문에 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
 ## 7 · HYB.GEN.001.007
 
 Hebrew display (MT/WLC): וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִיעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֨יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃
@@ -217,6 +241,10 @@ Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que e
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
 
 ## 8 · HYB.GEN.001.008
 
@@ -244,6 +272,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
 ## 9 · HYB.GEN.001.009
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים יִקָּו֨וּ הַמַּ֜יִם מִתַּ֤חַת הַשָּׁמַ֨יִם֙ אֶל־מָק֣וֹם אֶחָ֔ד וְתֵרָאֶ֖ה הַיַּבָּשָׁ֑ה וַֽיְהִי־כֵֽן׃
@@ -269,6 +301,10 @@ Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca 
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
 
 ## 10 · HYB.GEN.001.010
 
@@ -296,6 +332,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
 ## 11 · HYB.GEN.001.011
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים תַּֽדְשֵׁ֤א הָאָ֨רֶץ֙ דֶּ֔שֶׁא עֵ֚שֶׂב מַזְרִ֣יעַ זֶ֔רַע עֵ֣ץ פְּרִ֞י עֹ֤שֶׂה פְּרִי֙ לְמִינ֔וֹ אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃
@@ -321,6 +361,10 @@ Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semill
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
 
 ## 12 · HYB.GEN.001.012
 
@@ -348,6 +392,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
 ## 13 · HYB.GEN.001.013
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שְׁלִישִֽׁי׃
@@ -373,6 +421,10 @@ Llegó la tarde y llegó la mañana: un tercer día.
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Llegó la tarde y llegó la mañana: un tercer día.
 
 ## 14 · HYB.GEN.001.014
 
@@ -400,6 +452,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 맥락에 따라 절기들·계절들로 구체화할 수 있으나 어휘 범위와 해석 선택을 구별해야 한다.
 
+Previous v0.3.0
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
 ## 15 · HYB.GEN.001.015
 
 Hebrew display (MT/WLC): וְהָי֤וּ לִמְאוֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהָאִ֖יר עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃
@@ -425,6 +481,10 @@ Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fu
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
 
 ## 16 · HYB.GEN.001.016
 
@@ -452,6 +512,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 자연스러운 설명 번역에서는 해·달을 보충할 수 있다.
 
+Previous v0.3.0
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
 ## 17 · HYB.GEN.001.017
 
 Hebrew display (MT/WLC): וַיִּתֵּ֥ן אֹתָ֛ם אֱלֹהִ֖ים בִּרְקִ֣יעַ הַשָּׁמָ֑יִם לְהָאִ֖יר עַל־הָאָֽרֶץ׃
@@ -477,6 +541,10 @@ Dios las puso en la bóveda del cielo para alumbrar la tierra,
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
 
 ## 18 · HYB.GEN.001.018
 
@@ -504,6 +572,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
 ## 19 · HYB.GEN.001.019
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם רְבִיעִֽי׃
@@ -529,6 +601,10 @@ Llegó la tarde y llegó la mañana: un cuarto día.
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Llegó la tarde y llegó la mañana: un cuarto día.
 
 ## 20 · HYB.GEN.001.020
 
@@ -556,6 +632,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 날짐승의 범위를 새들로 좁히는 관용적 번역도 가능하다.
 
+Previous v0.3.0
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
 ## 21 · HYB.GEN.001.021
 
 Hebrew display (MT/WLC): וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כָּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה ׀ הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִֽינֵהֶ֗ם וְאֵ֨ת כָּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃
@@ -581,6 +661,10 @@ Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de l
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. תנינים는 특정 현대 동물종으로 고정하지 않고 큰 바다 생물들로 현재 선택한다. 반대 검토: 큰 바다 괴물들·큰 물짐승들이 원어의 고대 시적 함의를 더 선명히 드러낼 수 있다.
 
 Counterargument (Korean): 큰 바다 괴물들·큰 물짐승들이 원어의 고대 시적 함의를 더 선명히 드러낼 수 있다.
+
+Previous v0.3.0
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
 
 ## 22 · HYB.GEN.001.022
 
@@ -608,6 +692,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
 ## 23 · HYB.GEN.001.023
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם חֲמִישִֽׁי׃
@@ -633,6 +721,10 @@ Llegó la tarde y llegó la mañana: un quinto día.
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Llegó la tarde y llegó la mañana: un quinto día.
 
 ## 24 · HYB.GEN.001.024
 
@@ -660,6 +752,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
 ## 25 · HYB.GEN.001.025
 
 Hebrew display (MT/WLC): וַיַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָאָ֜רֶץ לְמִינָ֗הּ וְאֶת־הַבְּהֵמָה֙ לְמִינָ֔הּ וְאֵ֛ת כָּל־רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃
@@ -685,6 +781,10 @@ Dios hizo los animales silvestres de la tierra según sus clases, el ganado seg�
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
 
 ## 26 · HYB.GEN.001.026
 
@@ -718,6 +818,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견�
 
 Counterargument (Korean): 신적 회의·자기 숙고 등 여러 해석이 있으나, 복수의 지시 대상을 번역만으로 확정하지 않는다.
 
+Previous v0.3.0
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
 ## 27 · HYB.GEN.001.027
 
 Hebrew display (MT/WLC): וַיִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃
@@ -749,6 +853,10 @@ Dios creó a la humanidad a su imagen; a imagen de Dios lo creó; macho y hembra
 Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견을 검토한 편집 판단. 집합적 사람과 단수 그를·복수 그들을의 전환을 보존한다. זכר ונקבה는 남성과 여성으로 옮긴다. 스페인어는 al ser humano…lo로 문법적 성 호응을 바로잡는다. varón y mujer는 인간 문맥에서의 현대어 선택이며 히브리어의 생물학적 남녀 구분을 주석에 남긴다. 반대 검토: 집합 명사와 단수 대명사의 결합은 목표언어에서 어색할 수 있어 인류/그들을로 평탄화할 수도 있다. 해부학적 성별 용어와 현대 정체성 개념을 자동 등치하지 않는다. 존칭 사용은 선언된 한국어 문체이다. 남성과 여성이라는 어휘 선택과 사람의 집합적 단수·복수 교차를 구분한다. Claude의 varón y hembra가 유일한 표준이라는 주장은 근거로 삼지 않는다.
 
 Counterargument (Korean): 집합 명사와 단수 대명사의 결합은 목표언어에서 어색할 수 있어 인류/그들을로 평탄화할 수도 있다. 해부학적 성별 용어와 현대 정체성 개념을 자동 등치하지 않는다.
+
+Previous v0.3.0
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
 
 ## 28 · HYB.GEN.001.028
 
@@ -782,6 +890,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토 및 Claude 의견�
 
 Counterargument (Korean): 돌보다로 완화하면 원어의 강도가 사라질 수 있다. 문자적 표현 자체가 모든 현대 행위를 정당화하는 것도 아니다.
 
+Previous v0.3.0
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
 ## 29 · HYB.GEN.001.029
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים הִנֵּה֩ נָתַ֨תִּי לָכֶ֜ם אֶת־כָּל־עֵ֣שֶׂב ׀ זֹרֵ֣עַ זֶ֗רַע אֲשֶׁר֙ עַל־פְּנֵ֣י כָל־הָאָ֔רֶץ וְאֶת־כָּל־הָעֵ֛ץ אֲשֶׁר־בּ֥וֹ פְרִי־עֵ֖ץ זֹרֵ֣עַ זָ֑רַע לָכֶ֥ם יִֽהְיֶ֖ה לְאָכְלָֽה׃
@@ -807,6 +919,10 @@ Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie d
 Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집 판단. 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다. 반대 검토: 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
+
+Previous v0.3.0
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
 
 ## 30 · HYB.GEN.001.030
 
@@ -834,6 +950,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 보충한 동사를 별도 표시하는 더 형태적인 번역도 가능하다.
 
+Previous v0.3.0
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
 ## 31 · HYB.GEN.001.031
 
 Hebrew display (MT/WLC): וַיַּ֤רְא אֱלֹהִים֙ אֶת־כָּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃
@@ -860,6 +980,10 @@ Final opinion (Korean original): 실제 Gemini 교차 검토을 검토한 편집
 
 Counterargument (Korean): 어순·접속사와 반복 표현을 더 문자적으로 보존할 수도 있으나 문맥에 없는 대상을 추가하지 않는다.
 
+Previous v0.3.0
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
 ## Notes
 
 El versículo 1 se adopta como apertura independiente. Sigue siendo importante la alternativa de una cláusula temporal ligada a 2–3; ni la falta de artículo ni los acentos medievales resuelven la sintaxis más antigua.
@@ -876,7 +1000,7 @@ Nueva traducción del TM-WLC mostrado. No se ha completado la colación directa 
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 1:1–31 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/genesis-1/
+Hansam Yang. Original Bible: Genesis 1:1–31 (es), research pilot v0.4.0. https://yangs777.github.io/hansam-bible/es/genesis-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

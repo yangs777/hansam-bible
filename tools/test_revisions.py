@@ -33,9 +33,11 @@ class RevisionTests(unittest.TestCase):
         with contextlib.redirect_stdout(io.StringIO()):adopt.adopt(self.path,self.next_version)
         archive=adopt.read(self.root/f'data/releases/v{self.version}.json')
         self.assertEqual(previous,archive['records'])
-        selected=adopt.read(self.root/'data/editorial.json')['passages'][0]['verses'][0]
+        target_id=self.decisions['verses'][0]['id']
+        selected=next(v for p in adopt.read(self.root/'data/editorial.json')['passages'] for v in p['verses'] if v['id']==target_id)
         self.assertEqual('검증용 새 채택문',selected['ko'])
-        self.assertNotEqual(selected['ko'],archive['records'][0]['translations']['ko'])
+        old=next(v for v in archive['records'] if v['id']==target_id)
+        self.assertNotEqual(selected['ko'],old['translations']['ko'])
     def test_existing_archive_cannot_be_changed(self):
         self.next_decisions(); path=self.root/f'data/releases/v{self.version}.json'
         old=adopt.read(self.root/'dist/data/hansam-bible.json'); old['records'][0]['translations']['ko']='tampered'

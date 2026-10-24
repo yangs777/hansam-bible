@@ -21,13 +21,18 @@ for r in records:
     assert r['selection_status']==selection['selection_status']=='current_best_provisional'
     assert selection['translations']==r['translations'] and selection['version']==C['version']
     assert r['title']=='원문성경 · Original Bible'
-    assert {p['model'] for p in trace['model_proposals']} >= {'gpt-6.1-sol','gemini-3.8-flash-medium'}
-    assert set(trace['model_final_opinions']) >= {'gpt-6.1-sol','gemini-3.8-flash-medium'}
-    if r['id'].startswith('HYB.GEN.'):
+    models={p['model'] for p in trace['model_proposals']}
+    gemini={m for m in models if m.startswith('gemini-')}
+    assert 'gpt-6.1-sol' in models and gemini
+    assert {'gpt-6.1-sol'}|gemini <= set(trace['model_final_opinions'])
+    for model in gemini:
+        assert r['model_provenance'][model]['requested_model_id']==model
+    if r['id'].startswith('HYB.GEN.001.'):
         assert trace['model_final_opinions']['gemini-3.8-flash-medium']['stage']=='gemini.round3'
         if int(r['id'][-3:]) in (1,2,3,6,26,27,28):
             assert 'claude-opus-4-6-thinking' in {p['model'] for p in trace['model_proposals']}
-    assert r['model_provenance']['gemini-3.8-flash-medium']['requested_model_id']=='gemini-3.8-flash-medium'
+    if r['id'].startswith('HYB.GEN.002.') and int(r['id'][-3:]) in (2,3,4):
+        assert 'claude-opus-5-5' in models
     if not r['id'].startswith('HYB.GEN.'):
         assert {x['version'] for x in trace['previous_editions']} >= {'0.1.0','0.2.0'}
     for lang in ('ko','en','es'):
@@ -96,7 +101,7 @@ for lang in ('ko','en','es'):
         f=D/lang/p['slug']/'index.html';assert f.resolve() in pages
         s=f.read_text(encoding='utf-8');assert s.count('class="verse"')==len(p['verses'])
         assert s.count('class="model-review"')==len(p['verses'])
-        assert 'ORIGINAL BIBLE' in s and 'gemini-3.8-flash-medium' in s and 'gpt-6.1-sol' in s
+        assert 'ORIGINAL BIBLE' in s and 'gemini-' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
 assert len(pages)==8+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3

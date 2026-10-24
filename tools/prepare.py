@@ -5,7 +5,10 @@ CACHE=ROOT/'private/upstream_cache'; CACHE.mkdir(parents=True,exist_ok=True)
 CFG=json.loads((ROOT/'config.json').read_text(encoding='utf-8'))
 COMMIT=CFG['source_commit']
 NS={'o':'http://www.bibletechnologies.net/2003/OSIS/namespace'}
-SELECT={'Gen':{'Gen.1.'+str(i) for i in range(1,32)},'Ps':{'Ps.1.'+str(i) for i in range(1,7)},'Num':{'Num.6.'+str(i) for i in range(24,27)},'Deut':{'Deut.32.8'}}
+SELECT={}
+for passage in json.loads((ROOT/'data/editorial.json').read_text(encoding='utf-8'))['passages']:
+    for verse in passage['verses']:
+        ref=verse['source']; SELECT.setdefault(ref.split('.')[0],set()).add(ref)
 previous=json.loads((ROOT/'data/hebrew.json').read_text(encoding='utf-8')) if (ROOT/'data/hebrew.json').exists() else {}
 out={}
 for book,ids in SELECT.items():

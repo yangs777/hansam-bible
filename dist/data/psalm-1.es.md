@@ -1,6 +1,6 @@
 # Salmo 1
 
-Hansam Yang · Original Bible · v0.3.0
+Hansam Yang · Original Bible · v0.4.0
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -46,6 +46,10 @@ Previous v0.2.0
 
 Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
 
+Previous v0.3.0
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
 ## 2 · HYB.PS.001.002
 
 Hebrew display (MT/WLC): כִּ֤י אִ֥ם בְּתוֹרַ֥ת יְהוָ֗ה חֶ֫פְצ֥וֹ וּֽבְתוֹרָת֥וֹ יֶהְגֶּ֗ה יוֹמָ֥ם וָלָֽיְלָה׃
@@ -77,6 +81,10 @@ Previous v0.1.0
 Más bien, su deleite está en la instrucción de YHWH, y la recita de día y de noche.
 
 Previous v0.2.0
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.3.0
 
 Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
 
@@ -114,6 +122,10 @@ Previous v0.2.0
 
 Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
 
+Previous v0.3.0
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
 ## 4 · HYB.PS.001.004
 
 Hebrew display (MT/WLC): לֹא־כֵ֥ן הָרְשָׁעִ֑ים כִּ֥י אִם־כַּ֝מֹּ֗ץ אֲֽשֶׁר־תִּדְּפֶ֥נּוּ רֽוּחַ׃
@@ -145,6 +157,10 @@ Previous v0.1.0
 No así los malvados: son como la paja que el viento se lleva.
 
 Previous v0.2.0
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.3.0
 
 ¡No así los malvados! Son como el tamo que el viento se lleva.
 
@@ -182,6 +198,10 @@ Previous v0.2.0
 
 Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
 
+Previous v0.3.0
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
 ## 6 · HYB.PS.001.006
 
 Hebrew display (MT/WLC): כִּֽי־יוֹדֵ֣עַ יְ֭הוָה דֶּ֣רֶךְ צַדִּיקִ֑ים וְדֶ֖רֶךְ רְשָׁעִ֣ים תֹּאבֵֽד׃
@@ -216,6 +236,10 @@ Previous v0.2.0
 
 Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
 
+Previous v0.3.0
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
 ## Notes
 
 Torá puede designar instrucción o ley. Aquí se usa ‘instrucción’ sin fijar el alcance exacto de los escritos aludidos.
@@ -226,7 +250,7 @@ En el versículo 6, lo que perece es ‘el camino de los malvados’. El versíc
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.3.0. https://yangs777.github.io/hansam-bible/es/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.4.0. https://yangs777.github.io/hansam-bible/es/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
