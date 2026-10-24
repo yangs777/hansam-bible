@@ -1,7 +1,7 @@
 {
   "run_id": "20261024T031738Z-50317bf8",
   "created_at": "2026-10-24T03:17:38.837718+00:00",
-  "status": "claimed_pending_generation",
+  "status": "draft_complete_unadopted",
   "verse_ids": [
     "Gen.6.21",
     "Gen.6.22",
@@ -106,5 +106,9 @@
   ],
   "source_packet": "automation/cloud-packets/20261024T031738Z-50317bf8.json",
   "provider": "Claude Code native cloud",
-  "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock"
+  "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock",
+  "output": "automation/cloud-drafts/20261024T031738Z-50317bf8.json",
+  "drafted_verse_count": 100,
+  "requested_model": "claude-sonnet-5-5",
+  "independent_review": "not performed"
 }

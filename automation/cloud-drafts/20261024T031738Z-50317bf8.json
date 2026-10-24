@@ -1,0 +1,2457 @@
+{
+  "run_id": "20261024T031738Z-50317bf8",
+  "provider": "Claude Code native cloud",
+  "model_identity": {
+    "requested_or_configured_model": "claude-sonnet-5-5",
+    "served_model_reported_by_session_api": "not exposed to this session",
+    "identity_basis": "The session system context states the serving model as Sonnet 5.5 (claude-sonnet-5-5); no API call was made to verify the served snapshot. A model self-report is not source evidence.",
+    "session": "https://claude.ai/code/session_014SQVuXLZjTfwvMKSruVZ7a",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "sampling parameters"
+    ]
+  },
+  "executed_at_utc": "2026-10-24T03:20:26.289170+00:00",
+  "state": "unadopted_model_draft",
+  "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+  "input": {
+    "source_packet": "automation/cloud-packets/20261024T031738Z-50317bf8.json",
+    "source_packet_sha256": "30a1decacdbc9295d98692d2c4fb364f5009e0f4124b7623a3c4eda60c8d069c",
+    "verse_count": 100,
+    "first_id": "Gen.6.21",
+    "last_id": "Gen.10.26",
+    "skipped_in_range": {
+      "Gen.7.23": "not in source packet (excluded upstream or selected/claimed elsewhere); not drafted",
+      "Gen.8.17": "not in source packet (excluded upstream or selected/claimed elsewhere); not drafted",
+      "Gen.9.21": "not in source packet (excluded upstream or selected/claimed elsewhere); not drafted"
+    }
+  },
+  "self_check": {
+    "exact_id_coverage": true,
+    "duplicate_ids": false,
+    "ko_en_es_nonempty": true,
+    "hebrew_provenance_and_rights_attached": true,
+    "no_human_certification_claim": true,
+    "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; not an independent review",
+    "default_text_note": "Verses without a verse-specific objection use a shared default for counterargument/opinion/reconsider fields; this means no notable issue was identified by the drafting model, not that none exists.",
+    "genealogy_note": "Gen.10 name forms follow common Korean/English/Spanish conventions; names and numbers follow the MT display, no manuscript collation.",
+    "independent_review": "not performed; GPT and Gemini review remain required",
+    "open_items": [
+      "Gen.10.11 subject of 'went out' (Nimrod vs Asshur)",
+      "Gen.10.14 order of Casluhim/Philistines/Caphtorim",
+      "Gen.9.27 subject of 'dwell'",
+      "Gen.8.7 raven return reading; Gen.7.20 height reading"
+    ]
+  },
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "verses": [
+    {
+      "id": "Gen.6.21",
+      "translations": {
+        "ko": "너는 먹을 수 있는 모든 먹거리를 가져다 네게로 거두어 두어라. 그것이 너와 그들의 먹거리가 될 것이다.",
+        "en": "And you, take for yourself some of every food that is eaten, and gather it to yourself; it shall be food for you and for them.",
+        "es": "Y tú, toma para ti de todo alimento que se come y recógelo junto a ti; será alimento para ti y para ellos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.6.21",
+      "source_hebrew": "וְאַתָּ֣ה קַח־לְךָ֗ מִכָּל־מַֽאֲכָל֙ אֲשֶׁ֣ר יֵֽאָכֵ֔ל וְאָסַפְתָּ֖ אֵלֶ֑יךָ וְהָיָ֥ה לְךָ֛ וְלָהֶ֖ם לְאָכְלָֽה׃",
+      "source_hebrew_sha256": "5123ecb43629438f78cf908f3df22d0d74e81e9fa42ffba85d013054f4661698",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.6.22",
+      "translations": {
+        "ko": "노아는 하나님께서 자기에게 명하신 모든 것을 그대로 행하였다. 그렇게 하였다.",
+        "en": "Noah did according to all that God had commanded him; so he did.",
+        "es": "Noé hizo conforme a todo lo que Dios le había mandado; así lo hizo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.6.22",
+      "source_hebrew": "וַיַּ֖עַשׂ נֹ֑חַ כְּ֠כֹל אֲשֶׁ֨ר צִוָּ֥ה אֹת֛וֹ אֱלֹהִ֖ים כֵּ֥ן עָשָֽׂה׃",
+      "source_hebrew_sha256": "8475f6979dfac82bf37a769fa06c278c585f7c78066a75c864808b483db7d961",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.1",
+      "translations": {
+        "ko": "여호와께서 노아에게 말씀하셨다. \"너와 네 온 집은 방주로 들어가라. 이 세대에 네가 내 앞에서 의로운 사람임을 내가 보았기 때문이다.",
+        "en": "The LORD said to Noah, \"Go into the ark, you and all your household, for I have seen that you are righteous before me in this generation.",
+        "es": "El SEÑOR dijo a Noé: «Entra en el arca, tú y toda tu casa, porque he visto que eres justo delante de mí en esta generación."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.1",
+      "source_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ לְנֹ֔חַ בֹּֽא־אַתָּ֥ה וְכָל־בֵּיתְךָ֖ אֶל־הַתֵּבָ֑ה כִּֽי־אֹתְךָ֥ רָאִ֛יתִי צַדִּ֥יק לְפָנַ֖י בַּדּ֥וֹר הַזֶּֽה׃",
+      "source_hebrew_sha256": "5bcc96ee19319f6f7a73c394b92401eaec1e9719d04ab5894e2a8c135eed5561",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.2",
+      "translations": {
+        "ko": "정결한 짐승은 모두 암수 일곱씩 취하고, 정결하지 않은 짐승은 암수 둘씩 취하여라.",
+        "en": "From every clean animal take seven pairs, a male and its mate; and from the animals that are not clean, two, a male and its mate;",
+        "es": "De todo animal limpio toma siete parejas, el macho y su hembra; y de los animales que no son limpios, dos, el macho y su hembra;"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "שִׁבְעָה שִׁבְעָה를 '일곱씩'(분배)으로 보고 איש ואשתו를 '암수 한 쌍'으로 옮겼다.",
+      "counterargument_ko": "'일곱 쌍'이 아니라 '일곱 마리씩'일 수도 있다. 이는 구문 해석이며 이문이 아니다.",
+      "current_opinion_ko": "'암수 일곱 쌍'으로 잠정 정리한다.",
+      "reconsider_if_ko": "6:19-20 및 7:3 '수컷과 암컷'과의 조화를 편집 방침으로 달리 정할 경우.",
+      "source_reference": "Gen.7.2",
+      "source_hebrew": "מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה תִּֽקַּח־לְךָ֛ שִׁבְעָ֥ה שִׁבְעָ֖ה אִ֣ישׁ וְאִשְׁתּ֑וֹ וּמִן־הַבְּהֵמָ֡ה אֲ֠שֶׁר לֹ֣א טְהֹרָ֥ה הִ֛וא שְׁנַ֖יִם אִ֥ישׁ וְאִשְׁתּֽוֹ׃",
+      "source_hebrew_sha256": "e82b1f851ce01598289af2c00f0c91870605a7c953c307302cd650998305f55f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.3",
+      "translations": {
+        "ko": "또 공중의 새도 수컷과 암컷 일곱씩 취하여, 온 땅 위에 씨가 살아 있게 하여라.",
+        "en": "also of the birds of the sky, seven pairs, male and female, to keep their kind alive on the face of all the earth.",
+        "es": "también de las aves del cielo, siete parejas, macho y hembra, para conservar viva su descendencia sobre la faz de toda la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.3",
+      "source_hebrew": "גַּ֣ם מֵע֧וֹף הַשָּׁמַ֛יִם שִׁבְעָ֥ה שִׁבְעָ֖ה זָכָ֣ר וּנְקֵבָ֑ה לְחַיּ֥וֹת זֶ֖רַע עַל־פְּנֵ֥י כָל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "77701aecf7409fac670a85b6d0cdafa8312e03af02adcaeba8c2b668e84fcf5e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.4",
+      "translations": {
+        "ko": "이제 이레가 지나면 내가 사십 일 낮과 사십 밤 동안 땅에 비를 내려, 내가 만든 모든 생물을 땅 위에서 쓸어버리겠다.\"",
+        "en": "For in seven days I will send rain on the earth for forty days and forty nights, and I will blot out from the face of the ground every living thing that I have made.\"",
+        "es": "Porque dentro de siete días haré llover sobre la tierra cuarenta días y cuarenta noches, y borraré de la faz de la tierra a todo ser viviente que he hecho.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.4",
+      "source_hebrew": "כִּי֩ לְיָמִ֨ים ע֜וֹד שִׁבְעָ֗ה אָֽנֹכִי֙ מַמְטִ֣יר עַל־הָאָ֔רֶץ אַרְבָּעִ֣ים י֔וֹם וְאַרְבָּעִ֖ים לָ֑יְלָה וּמָחִ֗יתִי אֶֽת־כָּל־הַיְקוּם֙ אֲשֶׁ֣ר עָשִׂ֔יתִי מֵעַ֖ל פְּנֵ֥י הָֽאֲדָמָֽה׃",
+      "source_hebrew_sha256": "13f3b38c99109f56757cccd7c7553b7e402a7ac5c9801bb48b5ec35f9d98c3d6",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.5",
+      "translations": {
+        "ko": "노아는 여호와께서 자기에게 명하신 모든 것을 그대로 행하였다.",
+        "en": "And Noah did all that the LORD had commanded him.",
+        "es": "Y Noé hizo todo lo que el SEÑOR le había mandado."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.5",
+      "source_hebrew": "וַיַּ֖עַשׂ נֹ֑חַ כְּכֹ֥ל אֲשֶׁר־צִוָּ֖הוּ יְהוָֽה׃",
+      "source_hebrew_sha256": "73fad20d5f0f684a5c9a5f702c8ae21845b96df00458dbd9aea3287ab91a3852",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.6",
+      "translations": {
+        "ko": "홍수가 땅 위에 있을 때 노아는 육백 세였다.",
+        "en": "Noah was six hundred years old when the flood of waters came upon the earth.",
+        "es": "Noé tenía seiscientos años cuando el diluvio de aguas vino sobre la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.6",
+      "source_hebrew": "וְנֹ֕חַ בֶּן־שֵׁ֥שׁ מֵא֖וֹת שָׁנָ֑ה וְהַמַּבּ֣וּל הָיָ֔ה מַ֖יִם עַל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "5a654e20b6f8e4617bb7b347af4c9de5aad96578252ebd8a98590c6dc569d8c2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.7",
+      "translations": {
+        "ko": "노아는 홍수의 물을 피하여 아들들과 아내와 며느리들과 함께 방주로 들어갔다.",
+        "en": "Noah went into the ark, with his sons and his wife and his sons' wives, because of the waters of the flood.",
+        "es": "Noé entró en el arca, y con él sus hijos, su mujer y las mujeres de sus hijos, por causa de las aguas del diluvio."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.7",
+      "source_hebrew": "וַיָּ֣בֹא נֹ֗חַ וּ֠בָנָיו וְאִשְׁתּ֧וֹ וּנְשֵֽׁי־בָנָ֛יו אִתּ֖וֹ אֶל־הַתֵּבָ֑ה מִפְּנֵ֖י מֵ֥י הַמַּבּֽוּל׃",
+      "source_hebrew_sha256": "75525b9d88883df37fa6ca58db0ca5d3d856390cd61022376f9dea217b31f00d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.8",
+      "translations": {
+        "ko": "정결한 짐승과 정결하지 않은 짐승과 새와 땅 위를 기는 모든 것 가운데서,",
+        "en": "Of clean animals, and of animals that are not clean, and of birds, and of everything that creeps on the ground,",
+        "es": "De los animales limpios y de los que no son limpios, de las aves y de todo lo que se arrastra sobre la tierra,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.8",
+      "source_hebrew": "מִן־הַבְּהֵמָה֙ הַטְּהוֹרָ֔ה וּמִן־הַ֨בְּהֵמָ֔ה אֲשֶׁ֥ר אֵינֶ֖נָּה טְהֹרָ֑ה וּמִ֨ן־הָע֔וֹף וְכֹ֥ל אֲשֶׁר־רֹמֵ֖שׂ עַל־הָֽאֲדָמָֽה׃",
+      "source_hebrew_sha256": "7696955b1312b5687b05feec5709a7352821626e502b81a2f8cf59df27e8101b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.9",
+      "translations": {
+        "ko": "둘씩 둘씩 암수가 노아에게 와서 방주로 들어갔는데, 하나님께서 노아에게 명하신 대로였다.",
+        "en": "two by two they came to Noah into the ark, male and female, as God had commanded Noah.",
+        "es": "de dos en dos vinieron a Noé al arca, macho y hembra, como Dios había mandado a Noé."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.9",
+      "source_hebrew": "שְׁנַ֨יִם שְׁנַ֜יִם בָּ֧אוּ אֶל־נֹ֛חַ אֶל־הַתֵּבָ֖ה זָכָ֣ר וּנְקֵבָ֑ה כַּֽאֲשֶׁ֛ר צִוָּ֥ה אֱלֹהִ֖ים אֶת־נֹֽחַ׃",
+      "source_hebrew_sha256": "9a5b293d5a5ff352b71b24fc39f17b6e11f11766912fa92afdb2ae36c2ebf8d7",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.10",
+      "translations": {
+        "ko": "이레가 지나서 홍수의 물이 땅 위에 이르렀다.",
+        "en": "And after the seven days the waters of the flood came upon the earth.",
+        "es": "Y sucedió que, pasados los siete días, las aguas del diluvio vinieron sobre la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.10",
+      "source_hebrew": "וַֽיְהִ֖י לְשִׁבְעַ֣ת הַיָּמִ֑ים וּמֵ֣י הַמַּבּ֔וּל הָי֖וּ עַל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "b1954a000d3db8e1a1d982f024dbeaea4429bcf908c026edcf9f0032f36bfb4f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.11",
+      "translations": {
+        "ko": "노아의 나이 육백 세 되던 해 둘째 달 열이렛날, 바로 그날에 큰 깊음의 모든 샘이 터지고 하늘의 창들이 열렸다.",
+        "en": "In the six hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on that day all the fountains of the great deep burst forth, and the windows of the heavens were opened.",
+        "es": "En el año seiscientos de la vida de Noé, en el mes segundo, el día diecisiete del mes, ese mismo día se rompieron todas las fuentes del gran abismo y se abrieron las compuertas del cielo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "תְּהוֹם רַבָּה를 '큰 깊음'으로 직역하고 אֲרֻבֹּת를 '창들'로 옮겼다.",
+      "counterargument_ko": "אֲרֻבֹּת를 '수문/격자 구멍' 등으로 달리 옮길 수 있다.",
+      "current_opinion_ko": "'창들'로 잠정 정리한다.",
+      "reconsider_if_ko": "우주론적 이미지 표기를 통일하는 편집 방침이 정해질 경우.",
+      "source_reference": "Gen.7.11",
+      "source_hebrew": "בִּשְׁנַ֨ת שֵׁשׁ־מֵא֤וֹת שָׁנָה֙ לְחַיֵּי־נֹ֔חַ בַּחֹ֨דֶשׁ֙ הַשֵּׁנִ֔י בְּשִׁבְעָֽה־עָשָׂ֥ר י֖וֹם לַחֹ֑דֶשׁ בַּיּ֣וֹם הַזֶּ֗ה נִבְקְעוּ֙ כָּֽל־מַעְיְנֹת֙ תְּה֣וֹם רַבָּ֔ה וַאֲרֻבֹּ֥ת הַשָּׁמַ֖יִם נִפְתָּֽחוּ׃",
+      "source_hebrew_sha256": "a0315a9c0973f724f7bcecb10a2066c65d68ccae72d6c932c9a3ab8dec9f75d2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.12",
+      "translations": {
+        "ko": "비가 사십 일 낮과 사십 밤 동안 땅 위에 내렸다.",
+        "en": "And the rain fell on the earth forty days and forty nights.",
+        "es": "Y la lluvia cayó sobre la tierra cuarenta días y cuarenta noches."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.12",
+      "source_hebrew": "וַֽיְהִ֥י הַגֶּ֖שֶׁם עַל־הָאָ֑רֶץ אַרְבָּעִ֣ים י֔וֹם וְאַרְבָּעִ֖ים לָֽיְלָה׃",
+      "source_hebrew_sha256": "67b0e3db3faa3f380e2e01222e0536fca7d72ffb14427fbea13f6d0ffac2f505",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.13",
+      "translations": {
+        "ko": "바로 그날에 노아와 노아의 아들 셈과 함과 야벳, 노아의 아내와 아들들의 세 아내가 그들과 함께 방주로 들어갔다.",
+        "en": "On that very day Noah and his sons Shem and Ham and Japheth, and Noah's wife and the three wives of his sons with them, entered the ark,",
+        "es": "Ese mismo día entraron en el arca Noé, y con él sus hijos Sem, Cam y Jafet, la mujer de Noé y las tres mujeres de sus hijos,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.13",
+      "source_hebrew": "בְּעֶ֨צֶם הַיּ֤וֹם הַזֶּה֙ בָּ֣א נֹ֔חַ וְשֵׁם־וְחָ֥ם וָיֶ֖פֶת בְּנֵי־נֹ֑חַ וְאֵ֣שֶׁת נֹ֗חַ וּשְׁלֹ֧שֶׁת נְשֵֽׁי־בָנָ֛יו אִתָּ֖ם אֶל־הַתֵּבָֽה׃",
+      "source_hebrew_sha256": "e15ee0eeb74462b25587a5966871bac64f2e4af1629ba45fc155c1cf5e2b3141",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.14",
+      "translations": {
+        "ko": "그들과 함께 종류대로 모든 들짐승과 종류대로 모든 가축과 종류대로 땅 위를 기는 모든 것과 종류대로 모든 새, 곧 날개 달린 모든 새가 들어갔다.",
+        "en": "they and every wild animal according to its kind, and all the livestock according to their kinds, and every creeping thing that creeps on the earth according to its kind, and every bird according to its kind, every winged bird of every sort.",
+        "es": "ellos, y todo animal salvaje según su especie, todo ganado según su especie, todo reptil que se arrastra sobre la tierra según su especie y toda ave según su especie, todo pájaro de toda ala."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.14",
+      "source_hebrew": "הֵ֜מָּה וְכָל־הַֽחַיָּ֣ה לְמִינָ֗הּ וְכָל־הַבְּהֵמָה֙ לְמִינָ֔הּ וְכָל־הָרֶ֛מֶשׂ הָרֹמֵ֥שׂ עַל־הָאָ֖רֶץ לְמִינֵ֑הוּ וְכָל־הָע֣וֹף לְמִינֵ֔הוּ כֹּ֖ל צִפּ֥וֹר כָּל־כָּנָֽף׃",
+      "source_hebrew_sha256": "168df7894db9e5bdcf1a20402220ce33eb55fa5fd28656febbc0785ba7474b2a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.15",
+      "translations": {
+        "ko": "생명의 기운이 있는 모든 육체 가운데서 둘씩 둘씩 노아에게 와서 방주로 들어갔다.",
+        "en": "They went into the ark to Noah, two by two, of all flesh in which there was the breath of life.",
+        "es": "Vinieron a Noé, al arca, de dos en dos, de toda carne en que había aliento de vida."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.15",
+      "source_hebrew": "וַיָּבֹ֥אוּ אֶל־נֹ֖חַ אֶל־הַתֵּבָ֑ה שְׁנַ֤יִם שְׁנַ֨יִם֙ מִכָּל־הַבָּשָׂ֔ר אֲשֶׁר־בּ֖וֹ ר֥וּחַ חַיִּֽים׃",
+      "source_hebrew_sha256": "0c48778c812cb93b06fd5fdbc9bee47229b4fe6a9db77e1c90fac09053e9b18b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.16",
+      "translations": {
+        "ko": "들어간 것들은 모든 육체의 암수였으며, 하나님께서 노아에게 명하신 대로 들어갔다. 그리고 여호와께서 그의 뒤에서 문을 닫으셨다.",
+        "en": "Those that entered, male and female of all flesh, went in as God had commanded him; and the LORD shut him in.",
+        "es": "Los que entraron, macho y hembra de toda carne, entraron como Dios le había mandado; y el SEÑOR cerró la puerta tras él."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.16",
+      "source_hebrew": "וְהַבָּאִ֗ים זָכָ֨ר וּנְקֵבָ֤ה מִכָּל־בָּשָׂר֙ בָּ֔אוּ כַּֽאֲשֶׁ֛ר צִוָּ֥ה אֹת֖וֹ אֱלֹהִ֑ים וַיִּסְגֹּ֥ר יְהוָ֖ה בַּֽעֲדֽוֹ׃",
+      "source_hebrew_sha256": "852b698d5b4cf6017dce80a32eb8766efdc5515c90222147d96df483800e748a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.17",
+      "translations": {
+        "ko": "홍수가 사십 일 동안 땅 위에 있었다. 물이 불어나 방주를 들어 올리니 방주가 땅 위로 떠올랐다.",
+        "en": "The flood continued forty days on the earth. The waters increased and bore up the ark, and it rose high above the earth.",
+        "es": "El diluvio duró cuarenta días sobre la tierra; las aguas crecieron y levantaron el arca, y esta se elevó sobre la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.17",
+      "source_hebrew": "וַֽיְהִ֧י הַמַּבּ֛וּל אַרְבָּעִ֥ים י֖וֹם עַל־הָאָ֑רֶץ וַיִּרְבּ֣וּ הַמַּ֗יִם וַיִּשְׂאוּ֙ אֶת־הַתֵּבָ֔ה וַתָּ֖רָם מֵעַ֥ל הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "56999dbe8ecd57330a8ea68080b437c953280dddd1f96ae888f8409f418f7087",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.18",
+      "translations": {
+        "ko": "물이 거세게 불어나 땅 위에 크게 많아지자 방주는 물 위로 떠다녔다.",
+        "en": "The waters prevailed and increased greatly on the earth, and the ark floated on the face of the waters.",
+        "es": "Las aguas se hicieron fuertes y crecieron mucho sobre la tierra, y el arca flotaba sobre la superficie de las aguas."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.18",
+      "source_hebrew": "וַיִּגְבְּר֥וּ הַמַּ֛יִם וַיִּרְבּ֥וּ מְאֹ֖ד עַל־הָאָ֑רֶץ וַתֵּ֥לֶךְ הַתֵּבָ֖ה עַל־פְּנֵ֥י הַמָּֽיִם׃",
+      "source_hebrew_sha256": "33efc3146002e94d540ef5dac7fd3ad80a3ff31f5f1d37275157f6d00f58f383",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.19",
+      "translations": {
+        "ko": "물이 땅 위에 몹시 거세어져 온 하늘 아래의 모든 높은 산이 덮였다.",
+        "en": "The waters prevailed so mightily on the earth that all the high mountains under the whole heaven were covered.",
+        "es": "Las aguas se hicieron muy, muy fuertes sobre la tierra, y fueron cubiertos todos los montes altos que hay debajo de todo el cielo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.19",
+      "source_hebrew": "וְהַמַּ֗יִם גָּֽבְר֛וּ מְאֹ֥ד מְאֹ֖ד עַל־הָאָ֑רֶץ וַיְכֻסּ֗וּ כָּל־הֶֽהָרִים֙ הַגְּבֹהִ֔ים אֲשֶׁר־תַּ֖חַת כָּל־הַשָּׁמָֽיִם׃",
+      "source_hebrew_sha256": "5cfce3ef6de1b29936fc50314ef9be5708e2f4cf3d3b835bce34ed796bcad1ee",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.20",
+      "translations": {
+        "ko": "물은 열다섯 규빗 위로 불어나 산들을 덮었다.",
+        "en": "The waters prevailed fifteen cubits higher, and the mountains were covered.",
+        "es": "Quince codos por encima subieron las aguas, y cubrieron los montes."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חמש עשרה אמה를 열다섯 규빗으로 옮겼고 מלמעלה를 '위로'로 보았다.",
+      "counterargument_ko": "'산 위로 15규빗'인지 '15규빗까지 불어남'인지 구문이 열려 있다.",
+      "current_opinion_ko": "'열다섯 규빗 위로 불어나'로 잠정 정리한다.",
+      "reconsider_if_ko": "수치 해석(산 위/물 깊이)에 대한 편집 결정이 있을 경우.",
+      "source_reference": "Gen.7.20",
+      "source_hebrew": "חֲמֵ֨שׁ עֶשְׂרֵ֤ה אַמָּה֙ מִלְמַ֔עְלָה גָּבְר֖וּ הַמָּ֑יִם וַיְכֻסּ֖וּ הֶהָרִֽים׃",
+      "source_hebrew_sha256": "6b999bab1aa45e792f26560628458d4a1db7102d2847fd6341d83a16946eef50",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.21",
+      "translations": {
+        "ko": "땅 위에서 움직이는 모든 육체, 곧 새와 가축과 들짐승과 땅에 떼 지어 다니는 모든 것과 모든 사람이 죽었다.",
+        "en": "And all flesh died that moved on the earth, birds, livestock, wild animals, every swarming thing that swarms on the earth, and all humankind.",
+        "es": "Murió toda carne que se movía sobre la tierra: aves, ganados, animales salvajes, todo ser que pulula sobre la tierra, y todo ser humano."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הָאָדָם를 '사람'으로 옮겼고 כל בשר 이하를 열거 구조로 보존했다.",
+      "counterargument_ko": "'모든 사람'을 성별 포괄로 볼지 단순 '인류'로 볼지는 번역 선택이다.",
+      "current_opinion_ko": "'모든 사람'으로 잠정 정리한다.",
+      "reconsider_if_ko": "성포괄 어휘 방침이 달라질 경우.",
+      "source_reference": "Gen.7.21",
+      "source_hebrew": "וַיִּגְוַ֞ע כָּל־בָּשָׂ֣ר ׀ הָרֹמֵ֣שׂ עַל־הָאָ֗רֶץ בָּע֤וֹף וּבַבְּהֵמָה֙ וּבַ֣חַיָּ֔ה וּבְכָל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣ץ עַל־הָאָ֑רֶץ וְכֹ֖ל הָאָדָֽם׃",
+      "source_hebrew_sha256": "ef2846a135b5e2d591421cc867010f2a5ae3bbbb102d4e05caa89014265f1fba",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.22",
+      "translations": {
+        "ko": "마른 땅에 있던 것 가운데 코로 생명의 숨, 곧 영을 가진 모든 것이 죽었다.",
+        "en": "Everything on dry land in whose nostrils was the breath of the spirit of life died.",
+        "es": "Todo lo que tenía aliento de espíritu de vida en sus narices, todo lo que había en la tierra seca, murió."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "נִשְׁמַת־רוּחַ חַיִּים을 '생명의 숨, 곧 영'으로 풀어 연계 구문을 살렸다.",
+      "counterargument_ko": "רוח을 '바람/숨/영' 어느 쪽으로 읽을지 열려 있다.",
+      "current_opinion_ko": "'생명의 영의 숨'의 뜻으로 잠정 정리한다.",
+      "reconsider_if_ko": "רוח 번역어 통일 방침이 정해질 경우.",
+      "source_reference": "Gen.7.22",
+      "source_hebrew": "כֹּ֡ל אֲשֶׁר֩ נִשְׁמַת־ר֨וּחַ חַיִּ֜ים בְּאַפָּ֗יו מִכֹּ֛ל אֲשֶׁ֥ר בֶּחָֽרָבָ֖ה מֵֽתוּ׃",
+      "source_hebrew_sha256": "9353972130247759e528e22f97975b17c7cea3dc95e942ac0d3d062d9a7158dc",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.24",
+      "translations": {
+        "ko": "물이 땅 위에서 백오십 일 동안 거세게 불어 있었다.",
+        "en": "And the waters prevailed on the earth a hundred and fifty days.",
+        "es": "Y las aguas prevalecieron sobre la tierra ciento cincuenta días."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.24",
+      "source_hebrew": "וַיִּגְבְּר֥וּ הַמַּ֖יִם עַל־הָאָ֑רֶץ חֲמִשִּׁ֥ים וּמְאַ֖ת יֽוֹם׃",
+      "source_hebrew_sha256": "48832ddc349ae7089deab1b11df4835324a3b713f962f0f4a2d6145b9b540171",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.1",
+      "translations": {
+        "ko": "하나님께서 노아와 그와 함께 방주에 있던 모든 들짐승과 모든 가축을 기억하셨다. 하나님께서 땅 위에 바람을 일으키시니 물이 줄어들기 시작하였다.",
+        "en": "But God remembered Noah and all the wild animals and all the livestock that were with him in the ark. And God made a wind blow over the earth, and the waters subsided.",
+        "es": "Pero Dios se acordó de Noé y de todos los animales salvajes y de todo el ganado que estaban con él en el arca. Dios hizo pasar un viento sobre la tierra, y las aguas se calmaron."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיַּעֲבֵר רוּחַ을 '바람을 일으키시니'로, וישכו를 '줄어들기 시작'으로 옮겼다.",
+      "counterargument_ko": "רוּחַ를 '하나님의 영'으로 읽을 가능성이 있다. 이는 어휘 판단이며 이문이 아니다.",
+      "current_opinion_ko": "'바람'으로 잠정 정리한다.",
+      "reconsider_if_ko": "창 1:2와의 연결을 편집 방침으로 강조할 경우.",
+      "source_reference": "Gen.8.1",
+      "source_hebrew": "וַיִּזְכֹּ֤ר אֱלֹהִים֙ אֶת־נֹ֔חַ וְאֵ֤ת כָּל־הַֽחַיָּה֙ וְאֶת־כָּל־הַבְּהֵמָ֔ה אֲשֶׁ֥ר אִתּ֖וֹ בַּתֵּבָ֑ה וַיַּעֲבֵ֨ר אֱלֹהִ֥ים ר֨וּחַ֙ עַל־הָאָ֔רֶץ וַיָּשֹׁ֖כּוּ הַמָּֽיִם׃",
+      "source_hebrew_sha256": "13ff42814d157335f5aecdb28fb9429a77d15367a1533242ca46afce58cc6f63",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.2",
+      "translations": {
+        "ko": "깊음의 샘들과 하늘의 창들이 막히고 하늘에서 내리던 비가 그쳤다.",
+        "en": "The fountains of the deep and the windows of the heavens were closed, the rain from the heavens was restrained,",
+        "es": "Se cerraron las fuentes del abismo y las compuertas del cielo, y la lluvia del cielo fue detenida;"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.2",
+      "source_hebrew": "וַיִּסָּֽכְרוּ֙ מַעְיְנֹ֣ת תְּה֔וֹם וַֽאֲרֻבֹּ֖ת הַשָּׁמָ֑יִם וַיִּכָּלֵ֥א הַגֶּ֖שֶׁם מִן־הַשָּׁמָֽיִם׃",
+      "source_hebrew_sha256": "815b1fc44fc452d5249fc431ad2f4fbb63a01a0c6e06d0d3a256ab7df79ada80",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.3",
+      "translations": {
+        "ko": "물이 땅에서 점점 물러가, 백오십 일이 끝날 무렵에는 물이 줄었다.",
+        "en": "and the waters receded from the earth continually. At the end of a hundred and fifty days the waters had abated,",
+        "es": "y las aguas se fueron retirando de sobre la tierra de continuo; al cabo de ciento cincuenta días las aguas habían disminuido."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.3",
+      "source_hebrew": "וַיָּשֻׁ֧בוּ הַמַּ֛יִם מֵעַ֥ל הָאָ֖רֶץ הָל֣וֹךְ וָשׁ֑וֹב וַיַּחְסְר֣וּ הַמַּ֔יִם מִקְצֵ֕ה חֲמִשִּׁ֥ים וּמְאַ֖ת יֽוֹם׃",
+      "source_hebrew_sha256": "e7ec5fcb714a08550126868a61f279961dac9d0461e7043d22eaaed44a9f90d9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.4",
+      "translations": {
+        "ko": "일곱째 달 열이렛날에 방주가 아라랏 산들 위에 머물렀다.",
+        "en": "and in the seventh month, on the seventeenth day of the month, the ark came to rest on the mountains of Ararat.",
+        "es": "En el mes séptimo, el día diecisiete del mes, el arca se detuvo sobre los montes de Ararat."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.4",
+      "source_hebrew": "וַתָּ֤נַח הַתֵּבָה֙ בַּחֹ֣דֶשׁ הַשְּׁבִיעִ֔י בְּשִׁבְעָה־עָשָׂ֥ר י֖וֹם לַחֹ֑דֶשׁ עַ֖ל הָרֵ֥י אֲרָרָֽט׃",
+      "source_hebrew_sha256": "d99729bfe11501a633bbd28c5a6cda4197db141943d5f56f95296171a57fd650",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.5",
+      "translations": {
+        "ko": "물은 열째 달까지 점점 줄어들었고, 열째 달 초하루에 산봉우리들이 보였다.",
+        "en": "The waters continued to abate until the tenth month; in the tenth month, on the first day of the month, the tops of the mountains were seen.",
+        "es": "Las aguas fueron disminuyendo hasta el mes décimo; en el décimo mes, el día primero del mes, se vieron las cimas de los montes."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.5",
+      "source_hebrew": "וְהַמַּ֗יִם הָיוּ֙ הָל֣וֹךְ וְחָס֔וֹר עַ֖ד הַחֹ֣דֶשׁ הָֽעֲשִׂירִ֑י בָּֽעֲשִׂירִי֙ בְּאֶחָ֣ד לַחֹ֔דֶשׁ נִרְא֖וּ רָאשֵׁ֥י הֶֽהָרִֽים׃",
+      "source_hebrew_sha256": "26c68c31e1a426c484c6318e454169cec3deac94c5b4ce00b2b3e89109b19002",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.6",
+      "translations": {
+        "ko": "사십 일이 지난 뒤 노아는 자기가 만든 방주의 창을 열고",
+        "en": "At the end of forty days Noah opened the window of the ark that he had made",
+        "es": "Al cabo de cuarenta días, Noé abrió la ventana del arca que había hecho"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.6",
+      "source_hebrew": "וַֽיְהִ֕י מִקֵּ֖ץ אַרְבָּעִ֣ים י֑וֹם וַיִּפְתַּ֣ח נֹ֔חַ אֶת־חַלּ֥וֹן הַתֵּבָ֖ה אֲשֶׁ֥ר עָשָֽׂה׃",
+      "source_hebrew_sha256": "effcc164b49c5943298b18ddec075068a75d00b2a5ebe418903f2f89030fc2b4",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.7",
+      "translations": {
+        "ko": "까마귀를 내보냈다. 까마귀는 물이 땅에서 마를 때까지 나갔다 돌아왔다 하였다.",
+        "en": "and sent forth a raven. It went to and fro until the waters were dried up from the earth.",
+        "es": "y envió un cuervo, el cual salió y volvió hasta que se secaron las aguas sobre la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עד־יבשת המים의 עד를 '~할 때까지'로 보았고 יצוא ושוב을 '나갔다 돌아왔다 하였다'로 반복 동작으로 옮겼다.",
+      "counterargument_ko": "까마귀가 돌아오지 않았다고 읽는 전통(예: 일부 역본)이 있으나 MT 표기는 '나가서 돌아오며'이다. 역본 대조는 하지 않았다.",
+      "current_opinion_ko": "MT 표기대로 '나갔다 돌아왔다'로 정리한다.",
+      "reconsider_if_ko": "역본/사본 대조가 별도로 수행될 경우.",
+      "source_reference": "Gen.8.7",
+      "source_hebrew": "וַיְשַׁלַּ֖ח אֶת־הָֽעֹרֵ֑ב וַיֵּצֵ֤א יָצוֹא֙ וָשׁ֔וֹב עַד־יְבֹ֥שֶׁת הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "af1daf3a8d2519ca1d9c0a3071b4d437f2fc4448729f8e300caaafd2043d8342",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.8",
+      "translations": {
+        "ko": "그는 또 비둘기를 자기에게서 내보내어, 물이 땅 표면에서 줄었는지 보려 하였다.",
+        "en": "Then he sent forth a dove from him, to see if the waters had subsided from the face of the ground.",
+        "es": "Luego envió de su lado una paloma, para ver si las aguas se habían retirado de la superficie de la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.8",
+      "source_hebrew": "וַיְשַׁלַּ֥ח אֶת־הַיּוֹנָ֖ה מֵאִתּ֑וֹ לִרְאוֹת֙ הֲקַ֣לּוּ הַמַּ֔יִם מֵעַ֖ל פְּנֵ֥י הָֽאֲדָמָֽה׃",
+      "source_hebrew_sha256": "b6656f031a72bed2144ef97e43f1729fab2cdac6e01cc256bec9eaa13c0327b7",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.9",
+      "translations": {
+        "ko": "그러나 온 땅 위에 물이 있었으므로 비둘기는 발바닥을 둘 쉴 곳을 찾지 못하고 방주로 그에게 돌아왔다. 그가 손을 내밀어 비둘기를 붙잡아 방주 안 자기에게로 들였다.",
+        "en": "But the dove found no place to set her foot, and she returned to him to the ark, for the waters were still on the face of the whole earth. So he put out his hand and took her and brought her into the ark with him.",
+        "es": "Pero la paloma no halló dónde posar la planta de su pie y volvió a él, al arca, porque había aguas sobre la faz de toda la tierra; y él extendió su mano, la tomó y la hizo entrar consigo en el arca."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.9",
+      "source_hebrew": "וְלֹֽא־מָצְאָה֩ הַיּוֹנָ֨ה מָנ֜וֹחַ לְכַף־רַגְלָ֗הּ וַתָּ֤שָׁב אֵלָיו֙ אֶל־הַתֵּבָ֔ה כִּי־מַ֖יִם עַל־פְּנֵ֣י כָל־הָאָ֑רֶץ וַיִּשְׁלַ֤ח יָדוֹ֙ וַיִּקָּחֶ֔הָ וַיָּבֵ֥א אֹתָ֛הּ אֵלָ֖יו אֶל־הַתֵּבָֽה׃",
+      "source_hebrew_sha256": "757df7ed07d6e90dd2c66aa1e652eefea6833f7a28c3355d3f44f7fa1a3371b7",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.10",
+      "translations": {
+        "ko": "그는 다시 이레를 기다린 뒤 비둘기를 방주에서 또 내보냈다.",
+        "en": "He waited another seven days, and again he sent forth the dove out of the ark.",
+        "es": "Esperó aún otros siete días y volvió a enviar la paloma fuera del arca."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.10",
+      "source_hebrew": "וַיָּ֣חֶל ע֔וֹד שִׁבְעַ֥ת יָמִ֖ים אֲחֵרִ֑ים וַיֹּ֛סֶף שַׁלַּ֥ח אֶת־הַיּוֹנָ֖ה מִן־הַתֵּבָֽה׃",
+      "source_hebrew_sha256": "c3d1a31f07cd37180968e64ce545da04902a4efecdd3a802605dedbc587ca1f2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.11",
+      "translations": {
+        "ko": "저녁 때에 비둘기가 그에게 돌아왔는데, 보니 올리브 새 잎사귀를 부리에 물고 있었다. 노아는 물이 땅에서 줄었음을 알았다.",
+        "en": "And the dove came back to him in the evening, and behold, in her mouth was a freshly plucked olive leaf. So Noah knew that the waters had subsided from the earth.",
+        "es": "La paloma volvió a él al atardecer, y he aquí que traía en su pico una hoja fresca de olivo; así supo Noé que las aguas se habían retirado de sobre la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.11",
+      "source_hebrew": "וַתָּבֹ֨א אֵלָ֤יו הַיּוֹנָה֙ לְעֵ֣ת עֶ֔רֶב וְהִנֵּ֥ה עֲלֵה־זַ֖יִת טָרָ֣ף בְּפִ֑יהָ וַיֵּ֣דַע נֹ֔חַ כִּי־קַ֥לּוּ הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "917b9390b0891b798d9a8ccc737f018bad4739b15653add31ebdfdecdc30a137",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.12",
+      "translations": {
+        "ko": "그는 다시 이레를 기다린 뒤 비둘기를 내보냈다. 비둘기는 다시는 그에게 돌아오지 않았다.",
+        "en": "Then he waited another seven days and sent forth the dove, and she did not return to him anymore.",
+        "es": "Esperó aún otros siete días y envió la paloma, y ya no volvió a él."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.12",
+      "source_hebrew": "וַיִּיָּ֣חֶל ע֔וֹד שִׁבְעַ֥ת יָמִ֖ים אֲחֵרִ֑ים וַיְשַׁלַּח֙ אֶת־הַיּוֹנָ֔ה וְלֹֽא־יָסְפָ֥ה שׁוּב־אֵלָ֖יו עֽוֹד׃",
+      "source_hebrew_sha256": "ac9cc6bc92c7723db880f5820039692d02a8d5455a9e6a09625b0d28ee6b2096",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.13",
+      "translations": {
+        "ko": "육백일 년 첫째 달 초하루에 물이 땅에서 말랐다. 노아가 방주의 덮개를 벗기고 보니 땅 표면이 말라 있었다.",
+        "en": "In the six hundred and first year, in the first month, on the first day of the month, the waters were dried from off the earth. And Noah removed the covering of the ark and looked, and behold, the face of the ground was dry.",
+        "es": "En el año seiscientos uno, en el mes primero, el día primero del mes, las aguas se secaron sobre la tierra; Noé quitó la cubierta del arca, miró, y he aquí que la superficie del suelo estaba seca."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.13",
+      "source_hebrew": "וַֽ֠יְהִי בְּאַחַ֨ת וְשֵׁשׁ־מֵא֜וֹת שָׁנָ֗ה בָּֽרִאשׁוֹן֙ בְּאֶחָ֣ד לַחֹ֔דֶשׁ חָֽרְב֥וּ הַמַּ֖יִם מֵעַ֣ל הָאָ֑רֶץ וַיָּ֤סַר נֹ֨חַ֙ אֶת־מִכְסֵ֣ה הַתֵּבָ֔ה וַיַּ֕רְא וְהִנֵּ֥ה חָֽרְב֖וּ פְּנֵ֥י הָֽאֲדָמָֽה׃",
+      "source_hebrew_sha256": "61c925b054a4b031606ab7bcf1218a54bedef9418db4c1eaa9bdfbfa2be46db7",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.14",
+      "translations": {
+        "ko": "둘째 달 스무이렛날에 땅이 말랐다.",
+        "en": "In the second month, on the twenty-seventh day of the month, the earth had dried out.",
+        "es": "En el mes segundo, el día veintisiete del mes, la tierra estaba seca."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.14",
+      "source_hebrew": "וּבַחֹ֨דֶשׁ֙ הַשֵּׁנִ֔י בְּשִׁבְעָ֧ה וְעֶשְׂרִ֛ים י֖וֹם לַחֹ֑דֶשׁ יָבְשָׁ֖ה הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "cd4421d48101368ca1e708c19c0e27805212eb6cb752bb87806e63b32c921c74",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.15",
+      "translations": {
+        "ko": "하나님께서 노아에게 말씀하셨다.",
+        "en": "Then God said to Noah,",
+        "es": "Entonces Dios habló a Noé diciendo:"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.15",
+      "source_hebrew": "וַיְדַבֵּ֥ר אֱלֹהִ֖ים אֶל־נֹ֥חַ לֵאמֹֽר׃",
+      "source_hebrew_sha256": "68b76452d9a7b16e8360878749cbaaf6dd012a7a782c6e4ac95e73325129b373",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.16",
+      "translations": {
+        "ko": "\"너는 아내와 아들들과 며느리들과 함께 방주에서 나오너라.",
+        "en": "\"Go out from the ark, you and your wife, and your sons and your sons' wives with you.",
+        "es": "«Sal del arca, tú y tu mujer, tus hijos y las mujeres de tus hijos contigo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.16",
+      "source_hebrew": "צֵ֖א מִן־הַתֵּבָ֑ה אַתָּ֕ה וְאִשְׁתְּךָ֛ וּבָנֶ֥יךָ וּנְשֵֽׁי־בָנֶ֖יךָ אִתָּֽךְ׃",
+      "source_hebrew_sha256": "372b1b1885621e9098af0ce80d9d63ed3bb93ce41a74b68600f67eefbe4b42fa",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.18",
+      "translations": {
+        "ko": "노아는 아들들과 아내와 며느리들과 함께 나왔다.",
+        "en": "So Noah went out, and his sons and his wife and his sons' wives with him.",
+        "es": "Salió, pues, Noé, y con él sus hijos, su mujer y las mujeres de sus hijos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.18",
+      "source_hebrew": "וַיֵּ֖צֵא־נֹ֑חַ וּבָנָ֛יו וְאִשְׁתּ֥וֹ וּנְשֵֽׁי־בָנָ֖יו אִתּֽוֹ׃",
+      "source_hebrew_sha256": "40726cfee2c63bf579045621ee9c2cc165e540a058562d595d6192cc90ee55b2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.19",
+      "translations": {
+        "ko": "모든 들짐승과 땅 위를 기는 모든 것과 모든 새, 곧 땅 위에서 움직이는 모든 것이 종류대로 방주에서 나왔다.",
+        "en": "Every beast, every creeping thing, and every bird, everything that moves on the earth, went out of the ark by families.",
+        "es": "Todo animal, todo reptil, toda ave y todo lo que se mueve sobre la tierra, según sus familias, salió del arca."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.19",
+      "source_hebrew": "כָּל־הַֽחַיָּ֗ה כָּל־הָרֶ֨מֶשׂ֙ וְכָל־הָע֔וֹף כֹּ֖ל רוֹמֵ֣שׂ עַל־הָאָ֑רֶץ לְמִשְׁפְּחֹ֣תֵיהֶ֔ם יָצְא֖וּ מִן־הַתֵּבָֽה׃",
+      "source_hebrew_sha256": "ee3bb7a6fd2aa71e206be5df7b1062a16df8be79d2f122bf46748b38ac7ef15b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.20",
+      "translations": {
+        "ko": "노아는 여호와께 제단을 쌓고, 모든 정결한 짐승과 모든 정결한 새 가운데서 얼마를 취하여 제단 위에 번제를 드렸다.",
+        "en": "Then Noah built an altar to the LORD and took some of every clean animal and some of every clean bird and offered burnt offerings on the altar.",
+        "es": "Entonces Noé edificó un altar al SEÑOR, y tomó de todo animal limpio y de toda ave limpia, y ofreció holocaustos en el altar."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.20",
+      "source_hebrew": "וַיִּ֥בֶן נֹ֛חַ מִזְבֵּ֖חַ לַֽיהוָ֑ה וַיִּקַּ֞ח מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה וּמִכֹּל֙ הָע֣וֹף הַטָּהֹ֔ר וַיַּ֥עַל עֹלֹ֖ת בַּמִּזְבֵּֽחַ׃",
+      "source_hebrew_sha256": "1a8ea13f69c393eee918fb67457c68711c5a1259f4f2ee0ddd614489ca9d9ce1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.21",
+      "translations": {
+        "ko": "여호와께서 향기로운 냄새를 맡으시고 마음속으로 말씀하셨다. \"사람 때문에 내가 다시는 땅을 저주하지 않겠다. 사람의 마음이 생각하는 것이 어릴 때부터 악하기 때문이다. 내가 행한 것처럼 다시는 모든 살아 있는 것을 치지 않겠다.",
+        "en": "And when the LORD smelled the pleasing aroma, the LORD said in his heart, \"I will never again curse the ground because of humankind, for the inclination of the human heart is evil from his youth. Neither will I ever again strike down every living creature as I have done.",
+        "es": "El SEÑOR percibió el aroma agradable y dijo en su corazón: «No volveré a maldecir la tierra por causa del ser humano, porque la inclinación del corazón del hombre es mala desde su juventud; ni volveré a destruir a todo ser viviente como lo he hecho."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יֵצֶר לֵב הָאָדָם를 '마음이 생각하는 것'으로 풀었다. מנעריו는 '어릴 때부터'로 옮겼다.",
+      "counterargument_ko": "יצר를 '성향/경향'으로 단순 옮김할 수도 있고, 'כי'를 '비록 ~하지만'으로 읽을 수도 있다.",
+      "current_opinion_ko": "כי를 이유절로 읽는 현 번역이 잠정안이다.",
+      "reconsider_if_ko": "כי의 양보절 해석을 편집적으로 택할 경우.",
+      "source_reference": "Gen.8.21",
+      "source_hebrew": "וַיָּ֣רַח יְהוָה֮ אֶת־רֵ֣יחַ הַנִּיחֹחַ֒ וַיֹּ֨אמֶר יְהוָ֜ה אֶל־לִבּ֗וֹ לֹֽא־אֹ֠סִף לְקַלֵּ֨ל ע֤וֹד אֶת־הָֽאֲדָמָה֙ בַּעֲב֣וּר הָֽאָדָ֔ם כִּ֠י יֵ֣צֶר לֵ֧ב הָאָדָ֛ם רַ֖ע מִנְּעֻרָ֑יו וְלֹֽא־אֹסִ֥ף ע֛וֹד לְהַכּ֥וֹת אֶת־כָּל־חַ֖י כַּֽאֲשֶׁ֥ר עָשִֽׂיתִי׃",
+      "source_hebrew_sha256": "7da84f140ee3fc4871818b489e55ed817a4cf3f14007f0498002f092af8aff43",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.8.22",
+      "translations": {
+        "ko": "땅이 있는 모든 날 동안 씨 뿌리는 때와 거두는 때, 추위와 더위, 여름과 겨울, 낮과 밤이 그치지 않을 것이다.\"",
+        "en": "While the earth remains, seedtime and harvest, cold and heat, summer and winter, day and night, shall not cease.\"",
+        "es": "Mientras la tierra permanezca, la siembra y la cosecha, el frío y el calor, el verano y el invierno, el día y la noche no cesarán.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.8.22",
+      "source_hebrew": "עֹ֖ד כָּל־יְמֵ֣י הָאָ֑רֶץ זֶ֡רַע וְ֠קָצִיר וְקֹ֨ר וָחֹ֜ם וְקַ֧יִץ וָחֹ֛רֶף וְי֥וֹם וָלַ֖יְלָה לֹ֥א יִשְׁבֹּֽתוּ׃",
+      "source_hebrew_sha256": "bd5aee37fd00c23d1cc4b170f8aef59d1ae2b48bfe53ee3e6553ddf0a57f508f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.1",
+      "translations": {
+        "ko": "하나님께서 노아와 그의 아들들에게 복을 주시며 말씀하셨다. \"생육하고 번성하여 땅에 충만하여라.",
+        "en": "And God blessed Noah and his sons and said to them, \"Be fruitful and multiply and fill the earth.",
+        "es": "Dios bendijo a Noé y a sus hijos, y les dijo: «Sean fecundos, multiplíquense y llenen la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.1",
+      "source_hebrew": "וַיְבָ֣רֶךְ אֱלֹהִ֔ים אֶת־נֹ֖חַ וְאֶת־בָּנָ֑יו וַיֹּ֧אמֶר לָהֶ֛ם פְּר֥וּ וּרְב֖וּ וּמִלְא֥וּ אֶת־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "4a88bcca1ab8aa597be6d2c1987d084ca5042c9d40075e7157502e2b54924a89",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.2",
+      "translations": {
+        "ko": "땅의 모든 짐승과 공중의 모든 새와 땅에서 기는 모든 것과 바다의 모든 물고기가 너희를 두려워하고 무서워할 것이며, 너희 손에 맡겨졌다.",
+        "en": "The fear of you and the dread of you shall be upon every beast of the earth and upon every bird of the heavens, upon everything that creeps on the ground and all the fish of the sea. Into your hand they are delivered.",
+        "es": "El temor y el pavor de ustedes estarán sobre todo animal de la tierra, sobre toda ave del cielo, sobre todo lo que se arrastra por el suelo y sobre todos los peces del mar; en su mano son entregados."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.2",
+      "source_hebrew": "וּמוֹרַאֲכֶ֤ם וְחִתְּכֶם֙ יִֽהְיֶ֔ה עַ֚ל כָּל־חַיַּ֣ת הָאָ֔רֶץ וְעַ֖ל כָּל־ע֣וֹף הַשָּׁמָ֑יִם בְּכֹל֩ אֲשֶׁ֨ר תִּרְמֹ֧שׂ הָֽאֲדָמָ֛ה וּֽבְכָל־דְּגֵ֥י הַיָּ֖ם בְּיֶדְכֶ֥ם נִתָּֽנוּ׃",
+      "source_hebrew_sha256": "fdf8fb3f07cf1be05f9d50bd65a5b7cb75d10a36d07181a1ae13f12e494ba41b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.3",
+      "translations": {
+        "ko": "살아 움직이는 모든 것이 너희의 먹거리가 될 것이다. 푸른 채소와 같이 내가 모든 것을 너희에게 준다.",
+        "en": "Every moving thing that lives shall be food for you. And as I gave you the green plants, I give you everything.",
+        "es": "Todo lo que se mueve y vive les servirá de alimento; como les di la hierba verde, les doy todo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כְּיֶרֶק עֵשֶׂב를 '푸른 채소와 같이'로 옮겼다.",
+      "counterargument_ko": "'푸른 풀(식물)'로 옮길 수도 있다.",
+      "current_opinion_ko": "'푸른 채소'로 잠정 정리한다.",
+      "reconsider_if_ko": "식물 용어 통일 방침이 정해질 경우.",
+      "source_reference": "Gen.9.3",
+      "source_hebrew": "כָּל־רֶ֨מֶשׂ֙ אֲשֶׁ֣ר הוּא־חַ֔י לָכֶ֥ם יִהְיֶ֖ה לְאָכְלָ֑ה כְּיֶ֣רֶק עֵ֔שֶׂב נָתַ֥תִּי לָכֶ֖ם אֶת־כֹּֽל׃",
+      "source_hebrew_sha256": "4885221be04f1485f1546d0a529656d30087c6fe40b952e22e16be4fb2b84337",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.4",
+      "translations": {
+        "ko": "다만 고기를 그 생명, 곧 피째 먹지는 마라.",
+        "en": "But you shall not eat flesh with its life, that is, its blood.",
+        "es": "Pero no comerán carne con su vida, es decir, con su sangre."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בְּנַפְשׁוֹ דָמוֹ를 '그 생명, 곧 피째'로 동격 풀이했다.",
+      "counterargument_ko": "동격이 아니라 '생명이 있는 채로 곧 피와 함께'로 읽을 수도 있다.",
+      "current_opinion_ko": "동격 이해로 잠정 정리한다.",
+      "reconsider_if_ko": "נפש 번역어 통일 방침이 달라질 경우.",
+      "source_reference": "Gen.9.4",
+      "source_hebrew": "אַךְ־בָּשָׂ֕ר בְּנַפְשׁ֥וֹ דָמ֖וֹ לֹ֥א תֹאכֵֽלוּ׃",
+      "source_hebrew_sha256": "ce1a0b50f99fa21602ea7051350f5414e7e5185c96bb8fad9800fda891912c3a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.5",
+      "translations": {
+        "ko": "너희 생명의 피에 대해서는 내가 반드시 찾을 것이다. 모든 짐승의 손에서도 찾고, 사람의 손에서도, 곧 각 사람의 형제의 손에서도 사람의 생명을 찾을 것이다.",
+        "en": "And for your lifeblood I will require a reckoning: from every beast I will require it and from man. From his fellow man I will require a reckoning for the life of man.",
+        "es": "Ciertamente pediré cuenta de la sangre de sus vidas: la pediré a todo animal, y al ser humano; a cada uno, por su hermano, pediré cuenta de la vida del ser humano."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אֶדְרֹשׁ를 '찾을 것이다(요구할 것이다)'로 옮겼다. 첫 구절 ואך의 연결을 '너희 생명의 피에 대해서는'으로 풀었다.",
+      "counterargument_ko": "'피를 보복한다'는 의미가 강할 수 있어 '찾다'는 약한 번역일 수 있다.",
+      "current_opinion_ko": "'찾을 것이다'로 잠정 정리한다.",
+      "reconsider_if_ko": "법적 용어('결산을 요구') 사용 방침이 정해질 경우.",
+      "source_reference": "Gen.9.5",
+      "source_hebrew": "וְאַ֨ךְ אֶת־דִּמְכֶ֤ם לְנַפְשֹֽׁתֵיכֶם֙ אֶדְרֹ֔שׁ מִיַּ֥ד כָּל־חַיָּ֖ה אֶדְרְשֶׁ֑נּוּ וּמִיַּ֣ד הָֽאָדָ֗ם מִיַּד֙ אִ֣ישׁ אָחִ֔יו אֶדְרֹ֖שׁ אֶת־נֶ֥פֶשׁ הָֽאָדָֽם׃",
+      "source_hebrew_sha256": "75457d482e24a6bc75b323c2bb8a3102474554bcda19f3784ab707274efb0b7f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.6",
+      "translations": {
+        "ko": "사람의 피를 흘리는 자는 사람에 의해 자기 피가 흘려질 것이다. 하나님이 자기 형상대로 사람을 만드셨기 때문이다.",
+        "en": "Whoever sheds the blood of man, by man shall his blood be shed, for God made man in his own image.",
+        "es": "El que derrame sangre del hombre, por el hombre su sangre será derramada, porque a imagen de Dios hizo él al hombre."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בָּאָדָם을 '사람에 의해'(수단)로 읽었다.",
+      "counterargument_ko": "'사람 대신/사람을 위해'로 읽을 수도 있다.",
+      "current_opinion_ko": "'사람에 의해'로 잠정 정리한다.",
+      "reconsider_if_ko": "בְּ의 대가 용법을 편집적으로 택할 경우.",
+      "source_reference": "Gen.9.6",
+      "source_hebrew": "שֹׁפֵךְ֙ דַּ֣ם הָֽאָדָ֔ם בָּֽאָדָ֖ם דָּמ֣וֹ יִשָּׁפֵ֑ךְ כִּ֚י בְּצֶ֣לֶם אֱלֹהִ֔ים עָשָׂ֖ה אֶת־הָאָדָֽם׃",
+      "source_hebrew_sha256": "50d75f3c4541cd68561fd4bbfa2cfa150ffcf11e4213395566bc9d24c6575bc7",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.7",
+      "translations": {
+        "ko": "너희는 생육하고 번성하여 땅에 가득히 퍼지고 그 안에서 번성하여라.\"",
+        "en": "And you, be fruitful and multiply, increase greatly on the earth and multiply in it.\"",
+        "es": "Y ustedes, sean fecundos y multiplíquense; abunden en la tierra y multiplíquense en ella.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.7",
+      "source_hebrew": "וְאַתֶּ֖ם פְּר֣וּ וּרְב֑וּ שִׁרְצ֥וּ בָאָ֖רֶץ וּרְבוּ־בָֽהּ׃",
+      "source_hebrew_sha256": "7826584df0a3185e52b2c0f17926cb528032ba6411372efae9dbd681c57269cc",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.8",
+      "translations": {
+        "ko": "하나님께서 노아와 그와 함께한 그의 아들들에게 말씀하셨다.",
+        "en": "Then God said to Noah and to his sons with him,",
+        "es": "Dios habló a Noé y a sus hijos con él, diciendo:"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.8",
+      "source_hebrew": "וַיֹּ֤אמֶר אֱלֹהִים֙ אֶל־נֹ֔חַ וְאֶל־בָּנָ֥יו אִתּ֖וֹ לֵאמֹֽר׃",
+      "source_hebrew_sha256": "269eefcbdbb4fc6962bc5755d194d473311e456fba37cc34c1c18995bcd0bf2d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.9",
+      "translations": {
+        "ko": "\"보아라, 내가 너희와 너희 뒤의 후손과 내 언약을 세운다.",
+        "en": "\"Behold, I establish my covenant with you and your offspring after you,",
+        "es": "«He aquí que yo establezco mi pacto con ustedes y con su descendencia después de ustedes,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.9",
+      "source_hebrew": "וַאֲנִ֕י הִנְנִ֥י מֵקִ֛ים אֶת־בְּרִיתִ֖י אִתְּכֶ֑ם וְאֶֽת־זַרְעֲכֶ֖ם אַֽחֲרֵיכֶֽם׃",
+      "source_hebrew_sha256": "d0f1b140bb407c886ba01646178130c3fd57520e600f73714c6d5914f632d29b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.10",
+      "translations": {
+        "ko": "또 너희와 함께한 모든 살아 있는 생물, 곧 새와 가축과 너희와 함께한 땅의 모든 짐승, 방주에서 나온 모든 것, 곧 땅의 모든 짐승과도 세운다.",
+        "en": "and with every living creature that is with you, the birds, the livestock, and every beast of the earth with you, as many as came out of the ark; it is for every beast of the earth.",
+        "es": "y con todo ser viviente que está con ustedes: aves, ganados y todo animal de la tierra que está con ustedes, de todos los que salieron del arca, para todo animal de la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "마지막 לְכֹל חַיַּת הָאָרֶץ 구절은 앞 열거를 요약하는 구문으로 보아 그대로 이어 번역했다.",
+      "counterargument_ko": "이 구절이 중복 또는 후대 삽입일 가능성도 논의될 수 있으나 MT 표기를 보존했다. 이문 대조는 하지 않았다.",
+      "current_opinion_ko": "MT 표기를 보존하여 '땅의 모든 짐승에 이르기까지'로 정리한다.",
+      "reconsider_if_ko": "역본 대조에서 구문 경쟁안이 확인될 경우.",
+      "source_reference": "Gen.9.10",
+      "source_hebrew": "וְאֵ֨ת כָּל־נֶ֤פֶשׁ הַֽחַיָּה֙ אֲשֶׁ֣ר אִתְּכֶ֔ם בָּע֧וֹף בַּבְּהֵמָ֛ה וּֽבְכָל־חַיַּ֥ת הָאָ֖רֶץ אִתְּכֶ֑ם מִכֹּל֙ יֹצְאֵ֣י הַתֵּבָ֔ה לְכֹ֖ל חַיַּ֥ת הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "a10c4d0383ef2917f97ca56896f8c458c572c86c4eee0391ad9f6079e3f823cb",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.11",
+      "translations": {
+        "ko": "내가 너희와 내 언약을 세우니, 모든 육체가 다시는 홍수의 물에 끊어지지 않을 것이며, 땅을 멸하는 홍수가 다시는 없을 것이다.\"",
+        "en": "I establish my covenant with you, that never again shall all flesh be cut off by the waters of the flood, and never again shall there be a flood to destroy the earth.\"",
+        "es": "Establezco mi pacto con ustedes: nunca más será exterminada toda carne por las aguas del diluvio, ni habrá más diluvio para destruir la tierra.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.11",
+      "source_hebrew": "וַהֲקִמֹתִ֤י אֶת־בְּרִיתִי֙ אִתְּכֶ֔ם וְלֹֽא־יִכָּרֵ֧ת כָּל־בָּשָׂ֛ר ע֖וֹד מִמֵּ֣י הַמַּבּ֑וּל וְלֹֽא־יִהְיֶ֥ה ע֛וֹד מַבּ֖וּל לְשַׁחֵ֥ת הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "dfa57a1fb3187f679fc0acfa72d6390d099615394e7f354859864ea0876a4f6f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.12",
+      "translations": {
+        "ko": "하나님께서 말씀하셨다. \"이것이 내가 나와 너희 사이, 그리고 너희와 함께한 모든 살아 있는 생물 사이에 대대로 영원히 주는 언약의 표징이다.",
+        "en": "And God said, \"This is the sign of the covenant that I make between me and you and every living creature that is with you, for all future generations:",
+        "es": "Dijo Dios: «Esta es la señal del pacto que yo establezco entre yo y ustedes, y todo ser viviente que está con ustedes, por generaciones perpetuas:"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.12",
+      "source_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים זֹ֤את אֽוֹת־הַבְּרִית֙ אֲשֶׁר־אֲנִ֣י נֹתֵ֗ן בֵּינִי֙ וּבֵ֣ינֵיכֶ֔ם וּבֵ֛ין כָּל־נֶ֥פֶשׁ חַיָּ֖ה אֲשֶׁ֣ר אִתְּכֶ֑ם לְדֹרֹ֖ת עוֹלָֽם׃",
+      "source_hebrew_sha256": "1fe0b484b103e55c9b3017663553e5660da8f506a6cb97c4336b9cc8b577d992",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.13",
+      "translations": {
+        "ko": "내가 구름 속에 내 무지개를 두었으니, 이것이 나와 땅 사이의 언약의 표징이 될 것이다.",
+        "en": "I have set my bow in the cloud, and it shall be a sign of the covenant between me and the earth.",
+        "es": "He puesto mi arco en la nube, y será señal del pacto entre yo y la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.13",
+      "source_hebrew": "אֶת־קַשְׁתִּ֕י נָתַ֖תִּי בֶּֽעָנָ֑ן וְהָֽיְתָה֙ לְא֣וֹת בְּרִ֔ית בֵּינִ֖י וּבֵ֥ין הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "660541ad5b031fd2d17f7f397b5a2856e4162aaf777c9a7970ed174f31d06150",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.14",
+      "translations": {
+        "ko": "내가 땅 위에 구름을 일으킬 때 구름 속에 무지개가 나타날 것이다.",
+        "en": "When I bring clouds over the earth and the bow is seen in the clouds,",
+        "es": "Cuando yo haga venir nubes sobre la tierra, y el arco aparezca en las nubes,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.14",
+      "source_hebrew": "וְהָיָ֕ה בְּעַֽנְנִ֥י עָנָ֖ן עַל־הָאָ֑רֶץ וְנִרְאֲתָ֥ה הַקֶּ֖שֶׁת בֶּעָנָֽן׃",
+      "source_hebrew_sha256": "34aa178d16afad894afe51906ead905408ea35679c7af51d0e25f9424e7d49e9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.15",
+      "translations": {
+        "ko": "내가 나와 너희, 그리고 모든 육체를 가진 모든 살아 있는 생물 사이의 내 언약을 기억할 것이니, 물이 다시는 모든 육체를 멸하는 홍수가 되지 않을 것이다.",
+        "en": "I will remember my covenant that is between me and you and every living creature of all flesh. And the waters shall never again become a flood to destroy all flesh.",
+        "es": "me acordaré de mi pacto, que existe entre yo y ustedes y todo ser viviente de toda carne; y las aguas no volverán a ser diluvio para destruir toda carne."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.15",
+      "source_hebrew": "וְזָכַרְתִּ֣י אֶת־בְּרִיתִ֗י אֲשֶׁ֤ר בֵּינִי֙ וּבֵ֣ינֵיכֶ֔ם וּבֵ֛ין כָּל־נֶ֥פֶשׁ חַיָּ֖ה בְּכָל־בָּשָׂ֑ר וְלֹֽא־יִֽהְיֶ֨ה ע֤וֹד הַמַּ֨יִם֙ לְמַבּ֔וּל לְשַׁחֵ֖ת כָּל־בָּשָֽׂר׃",
+      "source_hebrew_sha256": "d7f82d9248921d63a5037938d357284b1a0251d12c4ac9474197a9ab0ff229ab",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.16",
+      "translations": {
+        "ko": "무지개가 구름 속에 있을 때 내가 그것을 보고, 하나님과 땅 위의 모든 육체를 가진 모든 살아 있는 생물 사이의 영원한 언약을 기억할 것이다.\"",
+        "en": "When the bow is in the clouds, I will see it and remember the everlasting covenant between God and every living creature of all flesh that is on the earth.\"",
+        "es": "Cuando el arco esté en las nubes, lo veré y me acordaré del pacto perpetuo entre Dios y todo ser viviente de toda carne que hay sobre la tierra.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.16",
+      "source_hebrew": "וְהָיְתָ֥ה הַקֶּ֖שֶׁת בֶּֽעָנָ֑ן וּרְאִיתִ֗יהָ לִזְכֹּר֙ בְּרִ֣ית עוֹלָ֔ם בֵּ֣ין אֱלֹהִ֔ים וּבֵין֙ כָּל־נֶ֣פֶשׁ חַיָּ֔ה בְּכָל־בָּשָׂ֖ר אֲשֶׁ֥ר עַל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "6ed02defabb435c66eb296996fa067ea2f6428a4254001d2863ba557f2acca09",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.17",
+      "translations": {
+        "ko": "하나님께서 노아에게 말씀하셨다. \"이것이 내가 나와 땅 위의 모든 육체 사이에 세운 언약의 표징이다.\"",
+        "en": "God said to Noah, \"This is the sign of the covenant that I have established between me and all flesh that is on the earth.\"",
+        "es": "Dijo Dios a Noé: «Esta es la señal del pacto que he establecido entre yo y toda carne que hay sobre la tierra.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.17",
+      "source_hebrew": "וַיֹּ֥אמֶר אֱלֹהִ֖ים אֶל־נֹ֑חַ זֹ֤את אֽוֹת־הַבְּרִית֙ אֲשֶׁ֣ר הֲקִמֹ֔תִי בֵּינִ֕י וּבֵ֥ין כָּל־בָּשָׂ֖ר אֲשֶׁ֥ר עַל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "5bb7369508d027286dfb53d83a294149c93a1738b260eddd7145e9082a2ee16a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.18",
+      "translations": {
+        "ko": "방주에서 나온 노아의 아들들은 셈과 함과 야벳이었다. 함은 가나안의 아버지이다.",
+        "en": "The sons of Noah who went forth from the ark were Shem, Ham, and Japheth. (Ham was the father of Canaan.)",
+        "es": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet; y Cam es el padre de Canaán."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חָם הוּא אֲבִי כְנָעַן을 설명적 삽입 문장으로 보았다.",
+      "counterargument_ko": "괄호식 삽입으로 처리할지 본문 문장으로 연결할지는 편집 선택이다.",
+      "current_opinion_ko": "본문 문장으로 연결한다.",
+      "reconsider_if_ko": "괄호 표기 방침이 정해질 경우.",
+      "source_reference": "Gen.9.18",
+      "source_hebrew": "וַיִּֽהְי֣וּ בְנֵי־נֹ֗חַ הַיֹּֽצְאִים֙ מִן־הַתֵּבָ֔ה שֵׁ֖ם וְחָ֣ם וָיָ֑פֶת וְחָ֕ם ה֖וּא אֲבִ֥י כְנָֽעַן׃",
+      "source_hebrew_sha256": "4ce42463016beee6b4fded7fd7a7d517869d4a75e32a67674ac9e1b3ec8f788a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.19",
+      "translations": {
+        "ko": "이 셋이 노아의 아들들이며, 이들에게서 온 땅 사람들이 퍼져 나갔다.",
+        "en": "These three were the sons of Noah, and from these the people of the whole earth were dispersed.",
+        "es": "Estos tres fueron los hijos de Noé, y de ellos se dispersó toda la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.19",
+      "source_hebrew": "שְׁלֹשָׁ֥ה אֵ֖לֶּה בְּנֵי־נֹ֑חַ וּמֵאֵ֖לֶּה נָֽפְצָ֥ה כָל־הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "d80b2509c0c914799c1628c98b8356dbf6bf193d4c8ebb60c8f92cf0846f727f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.20",
+      "translations": {
+        "ko": "노아는 땅을 갈던 사람으로서 포도원을 심기 시작하였다.",
+        "en": "Noah, a man of the soil, began to plant a vineyard.",
+        "es": "Noé, hombre de la tierra, comenzó a plantar una viña."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אִישׁ הָאֲדָמָה를 '땅을 갈던 사람'으로 풀었고 וַיָּחֶל을 '시작하였다'로 보았다.",
+      "counterargument_ko": "'땅의 사람'으로 직역하거나 '포도원을 심기 시작한 첫 사람'의 의미를 부각할 수도 있다.",
+      "current_opinion_ko": "'땅을 갈던 사람'으로 잠정 정리한다.",
+      "reconsider_if_ko": "직역 방침이 강화될 경우.",
+      "source_reference": "Gen.9.20",
+      "source_hebrew": "וַיָּ֥חֶל נֹ֖חַ אִ֣ישׁ הָֽאֲדָמָ֑ה וַיִּטַּ֖ע כָּֽרֶם׃",
+      "source_hebrew_sha256": "69d3920452128958367af80d7220b8e8478708eacdc734476a7287b2a9a01a68",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.22",
+      "translations": {
+        "ko": "가나안의 아버지 함이 자기 아버지의 벌거벗은 것을 보고 밖에 있는 두 형제에게 알렸다.",
+        "en": "And Ham, the father of Canaan, saw the nakedness of his father and told his two brothers outside.",
+        "es": "Cam, padre de Canaán, vio la desnudez de su padre y se lo contó fuera a sus dos hermanos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.22",
+      "source_hebrew": "וַיַּ֗רְא חָ֚ם אֲבִ֣י כְנַ֔עַן אֵ֖ת עֶרְוַ֣ת אָבִ֑יו וַיַּגֵּ֥ד לִשְׁנֵֽי־אֶחָ֖יו בַּחֽוּץ׃",
+      "source_hebrew_sha256": "11402de63d6ca9713451bba2768abec1f5b8ad44c2b7446be0236bd75af0ec44",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.23",
+      "translations": {
+        "ko": "셈과 야벳이 겉옷을 가져다 둘이 어깨에 걸치고 뒷걸음쳐 들어가 자기들의 아버지의 벌거벗은 것을 덮었다. 그들의 얼굴은 뒤로 돌려져 있어서 아버지의 벌거벗은 것을 보지 않았다.",
+        "en": "Then Shem and Japheth took a garment, laid it on both their shoulders, and walked backward and covered the nakedness of their father. Their faces were turned backward, and they did not see their father's nakedness.",
+        "es": "Entonces Sem y Jafet tomaron un manto, lo pusieron sobre sus hombros, y caminando hacia atrás cubrieron la desnudez de su padre; sus rostros estaban vueltos hacia atrás, y no vieron la desnudez de su padre."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.23",
+      "source_hebrew": "וַיִּקַּח֩ שֵׁ֨ם וָיֶ֜פֶת אֶת־הַשִּׂמְלָ֗ה וַיָּשִׂ֨ימוּ֙ עַל־שְׁכֶ֣ם שְׁנֵיהֶ֔ם וַיֵּֽלְכוּ֙ אֲחֹ֣רַנִּ֔ית וַיְכַסּ֕וּ אֵ֖ת עֶרְוַ֣ת אֲבִיהֶ֑ם וּפְנֵיהֶם֙ אֲחֹ֣רַנִּ֔ית וְעֶרְוַ֥ת אֲבִיהֶ֖ם לֹ֥א רָאֽוּ׃",
+      "source_hebrew_sha256": "438ca967a25b3b34e5c17f35c42753a9c955875045e9f0e0c23d6a0520b7e3c6",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.24",
+      "translations": {
+        "ko": "노아가 술에서 깨어 자기 작은아들이 자기에게 한 일을 알고",
+        "en": "When Noah awoke from his wine and knew what his youngest son had done to him,",
+        "es": "Cuando Noé despertó de su vino, supo lo que le había hecho su hijo menor,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בְּנוֹ הַקָּטָן을 '작은아들'로 옮겼다.",
+      "counterargument_ko": "'막내/젊은 아들'로 옮길 수도 있고 문맥상 함의 신원 문제가 남는다.",
+      "current_opinion_ko": "'작은아들'로 잠정 정리한다.",
+      "reconsider_if_ko": "신원 해석에 대한 편집 결정이 필요할 경우.",
+      "source_reference": "Gen.9.24",
+      "source_hebrew": "וַיִּ֥יקֶץ נֹ֖חַ מִיֵּינ֑וֹ וַיֵּ֕דַע אֵ֛ת אֲשֶׁר־עָ֥שָׂה־ל֖וֹ בְּנ֥וֹ הַקָּטָֽן׃",
+      "source_hebrew_sha256": "58260a8ea1e7ca15b9536bdab34c575e37bfccf4ad18d5be32d8bf2e39df8e7d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.25",
+      "translations": {
+        "ko": "말하였다. \"가나안은 저주를 받아 형제들에게 종들의 종이 될 것이다.\"",
+        "en": "he said, \"Cursed be Canaan; a servant of servants shall he be to his brothers.\"",
+        "es": "y dijo: «Maldito sea Canaán; siervo de siervos será para sus hermanos.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אָרוּר כְּנָעַן을 저주 선언으로 직역했다.",
+      "counterargument_ko": "함이 아니라 가나안이 저주 대상인 점의 의미는 해석 문제이며 번역에서 풀지 않았다.",
+      "current_opinion_ko": "직역을 유지한다.",
+      "reconsider_if_ko": "주석적 설명이 편집 방침에 들어갈 경우.",
+      "source_reference": "Gen.9.25",
+      "source_hebrew": "וַיֹּ֖אמֶר אָר֣וּר כְּנָ֑עַן עֶ֥בֶד עֲבָדִ֖ים יִֽהְיֶ֥ה לְאֶחָֽיו׃",
+      "source_hebrew_sha256": "5159b883d041654129d2da93475c2a4730fb1aa6d8af60830856168df877ee55",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.26",
+      "translations": {
+        "ko": "또 말하였다. \"셈의 하나님 여호와를 찬송하여라. 가나안은 그들의 종이 될 것이다.",
+        "en": "He also said, \"Blessed be the LORD, the God of Shem; and let Canaan be his servant.",
+        "es": "Dijo también: «Bendito sea el SEÑOR, Dios de Sem; y sea Canaán siervo de ellos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.26",
+      "source_hebrew": "וַיֹּ֕אמֶר בָּר֥וּךְ יְהֹוָ֖ה אֱלֹ֣הֵי שֵׁ֑ם וִיהִ֥י כְנַ֖עַן עֶ֥בֶד לָֽמוֹ׃",
+      "source_hebrew_sha256": "ef3cf92fa7415ff6a02ff7992305201136092b1a1c05eef6d091a7cafb5663d5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.27",
+      "translations": {
+        "ko": "하나님이 야벳을 넓게 하시고 그가 셈의 장막에 거하게 하시기를. 가나안은 그들의 종이 될 것이다.\"",
+        "en": "May God enlarge Japheth, and let him dwell in the tents of Shem, and let Canaan be his servant.\"",
+        "es": "Engrandezca Dios a Jafet, y habite en las tiendas de Sem; y sea Canaán siervo de ellos.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יַפְתְּ 은 √פתה/פתח 말놀이로 보아 '넓게 하시기를'로 옮겼다. 주어 '하나님' 또는 '야벳'이 거하는 자인지 모호하다.",
+      "counterargument_ko": "וְיִשְׁכֹּן의 주어를 '하나님'으로 읽을 수도 있다.",
+      "current_opinion_ko": "거하는 자를 야벳으로 잠정 정리한다.",
+      "reconsider_if_ko": "주어에 대한 편집 결정이 있을 경우.",
+      "source_reference": "Gen.9.27",
+      "source_hebrew": "יַ֤פְתְּ אֱלֹהִים֙ לְיֶ֔פֶת וְיִשְׁכֹּ֖ן בְּאָֽהֳלֵי־שֵׁ֑ם וִיהִ֥י כְנַ֖עַן עֶ֥בֶד לָֽמוֹ׃",
+      "source_hebrew_sha256": "3d85b3ab489e000cd95780c5f9ecfef0faca2c0965f5cbb5cf78d1eb6e5dadef",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.28",
+      "translations": {
+        "ko": "홍수 뒤에 노아는 삼백오십 년을 살았다.",
+        "en": "After the flood Noah lived 350 years.",
+        "es": "Noé vivió después del diluvio trescientos cincuenta años."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.28",
+      "source_hebrew": "וַֽיְחִי־נֹ֖חַ אַחַ֣ר הַמַּבּ֑וּל שְׁלֹ֤שׁ מֵאוֹת֙ שָׁנָ֔ה וַֽחֲמִשִּׁ֖ים שָׁנָֽה׃",
+      "source_hebrew_sha256": "d3b6ed1415eacd437ff158d5950a278d8142f03269c72830390f9af21f5e5975",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.9.29",
+      "translations": {
+        "ko": "노아의 평생의 날은 구백오십 년이었고, 그는 죽었다.",
+        "en": "All the days of Noah were 950 years, and he died.",
+        "es": "Todos los días de Noé fueron novecientos cincuenta años, y murió."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.9.29",
+      "source_hebrew": "וַיִּֽהְיוּ֙ כָּל־יְמֵי־נֹ֔חַ תְּשַׁ֤ע מֵאוֹת֙ שָׁנָ֔ה וַחֲמִשִּׁ֖ים שָׁנָ֑ה וַיָּמֹֽת׃",
+      "source_hebrew_sha256": "f4ecf86ea11d9329eda05fe6ec9015f46c8c8c1bea7ca4561e1722b50d449a6e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.1",
+      "translations": {
+        "ko": "이것은 노아의 아들들, 셈과 함과 야벳의 계보이다. 홍수 뒤에 그들에게서 아들들이 태어났다.",
+        "en": "These are the generations of the sons of Noah, Shem, Ham, and Japheth. Sons were born to them after the flood.",
+        "es": "Estas son las generaciones de los hijos de Noé: Sem, Cam y Jafet; y después del diluvio les nacieron hijos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.1",
+      "source_hebrew": "וְאֵ֨לֶּה֙ תּוֹלְדֹ֣ת בְּנֵי־נֹ֔חַ שֵׁ֖ם חָ֣ם וָיָ֑פֶת וַיִּוָּלְד֥וּ לָהֶ֛ם בָּנִ֖ים אַחַ֥ר הַמַּבּֽוּל׃",
+      "source_hebrew_sha256": "a23c89c8950a9e6d35c4d67e844d13601520bfa72f9d5cb6b6f2df9b284ed0eb",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.2",
+      "translations": {
+        "ko": "야벳의 아들들은 고멜과 마곡과 마대와 야완과 두발과 메섹과 디라스이다.",
+        "en": "The sons of Japheth: Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
+        "es": "Los hijos de Jafet: Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.2",
+      "source_hebrew": "בְּנֵ֣י יֶ֔פֶת גֹּ֣מֶר וּמָג֔וֹג וּמָדַ֖י וְיָוָ֣ן וְתֻבָ֑ל וּמֶ֖שֶׁךְ וְתִירָֽס׃",
+      "source_hebrew_sha256": "a08ff6752e1adad22ab74798aaa98d4cf4a4e9222658d2f61fc6a29f22e33906",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.3",
+      "translations": {
+        "ko": "고멜의 아들들은 아스그나스와 리밧과 도갈마이다.",
+        "en": "The sons of Gomer: Ashkenaz, Riphath, and Togarmah.",
+        "es": "Los hijos de Gomer: Askenaz, Rifat y Togarma."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.3",
+      "source_hebrew": "וּבְנֵ֖י גֹּ֑מֶר אַשְׁכֲּנַ֥ז וְרִיפַ֖ת וְתֹגַרְמָֽה׃",
+      "source_hebrew_sha256": "005f46217710435f244c670d60e21648e42da4c706b264cf88f4ab922962b39e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.4",
+      "translations": {
+        "ko": "야완의 아들들은 엘리사와 달시스와 깃딤과 도다님이다.",
+        "en": "The sons of Javan: Elishah, Tarshish, Kittim, and Dodanim.",
+        "es": "Los hijos de Javán: Elisá, Tarsis, Quitim y Dodanim."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.4",
+      "source_hebrew": "וּבְנֵ֥י יָוָ֖ן אֱלִישָׁ֣ה וְתַרְשִׁ֑ישׁ כִּתִּ֖ים וְדֹדָנִֽים׃",
+      "source_hebrew_sha256": "d592f368ca41228b7b3a866f328f7f5f29d41203a5bc88f3e186fa77f582a2c3",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.5",
+      "translations": {
+        "ko": "이들에게서 바다 나라들의 백성이 각각 자기 땅에서, 각각 자기 언어대로, 자기 족속대로, 자기 민족대로 나뉘어 갔다.",
+        "en": "From these the coastland peoples spread in their lands, each with his own language, by their clans, in their nations.",
+        "es": "De estos se repartieron las islas de las naciones en sus tierras, cada cual según su lengua, según sus familias, en sus naciones."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.5",
+      "source_hebrew": "מֵ֠אֵלֶּה נִפְרְד֞וּ אִיֵּ֤י הַגּוֹיִם֙ בְּאַרְצֹתָ֔ם אִ֖ישׁ לִלְשֹׁנ֑וֹ לְמִשְׁפְּחֹתָ֖ם בְּגוֹיֵהֶֽם׃",
+      "source_hebrew_sha256": "31710c21f3899535c0c6da58317cbf0c0f6cfa56623cd77dd152140db81b760e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.6",
+      "translations": {
+        "ko": "함의 아들들은 구스와 미스라임과 붓과 가나안이다.",
+        "en": "The sons of Ham: Cush, Egypt, Put, and Canaan.",
+        "es": "Los hijos de Cam: Cus, Mizraim, Fut y Canaán."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.6",
+      "source_hebrew": "וּבְנֵ֖י חָ֑ם כּ֥וּשׁ וּמִצְרַ֖יִם וּפ֥וּט וּכְנָֽעַן׃",
+      "source_hebrew_sha256": "b5473bc6d442d9cebb1e0f2d2d2fc11d16492a3692b9134d5fc7022496b4a56b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.7",
+      "translations": {
+        "ko": "구스의 아들들은 스바와 하윌라와 삽다와 라아마와 삽드가이다. 라아마의 아들들은 스바와 드단이다.",
+        "en": "The sons of Cush: Seba, Havilah, Sabtah, Raamah, and Sabteca. The sons of Raamah: Sheba and Dedan.",
+        "es": "Los hijos de Cus: Seba, Havila, Sabta, Raama y Sabteca. Los hijos de Raama: Seba y Dedán."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.7",
+      "source_hebrew": "וּבְנֵ֣י כ֔וּשׁ סְבָא֙ וַֽחֲוִילָ֔ה וְסַבְתָּ֥ה וְרַעְמָ֖ה וְסַבְתְּכָ֑א וּבְנֵ֥י רַעְמָ֖ה שְׁבָ֥א וּדְדָֽן׃",
+      "source_hebrew_sha256": "20a02bc6db0456082d6bf6300973262edf486c60073f552b14cbd37ad5d37c84",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.8",
+      "translations": {
+        "ko": "구스는 니므롯을 낳았는데, 그는 땅에서 처음으로 용사가 된 사람이다.",
+        "en": "Cush fathered Nimrod; he was the first on earth to be a mighty man.",
+        "es": "Cus engendró a Nimrod; este comenzó a ser poderoso en la tierra."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.8",
+      "source_hebrew": "וְכ֖וּשׁ יָלַ֣ד אֶת־נִמְרֹ֑ד ה֣וּא הֵחֵ֔ל לִֽהְי֥וֹת גִּבֹּ֖ר בָּאָֽרֶץ׃",
+      "source_hebrew_sha256": "2a258cd9f3b4cd5646dab4e9d1518060238ea89702343688de585d5d68a7671c",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.9",
+      "translations": {
+        "ko": "그는 여호와 앞에서 힘센 사냥꾼이었다. 그래서 \"여호와 앞에서 힘센 사냥꾼 니므롯 같다\"는 말이 생겼다.",
+        "en": "He was a mighty hunter before the LORD. Therefore it is said, \"Like Nimrod a mighty hunter before the LORD.\"",
+        "es": "Fue un poderoso cazador delante del SEÑOR; por eso se dice: «Como Nimrod, poderoso cazador delante del SEÑOR.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "גִּבֹּר־צַיִד을 '힘센 사냥꾼'으로 옮겼다.",
+      "counterargument_ko": "'용사-사냥꾼'으로 군사적 함의를 더할 수도 있다. לפני יהוה는 최상급 관용구로 읽을 수도 있다.",
+      "current_opinion_ko": "'여호와 앞에서'를 그대로 두고 잠정 정리한다.",
+      "reconsider_if_ko": "최상급 관용구 해석을 채택할 경우.",
+      "source_reference": "Gen.10.9",
+      "source_hebrew": "הֽוּא־הָיָ֥ה גִבֹּֽר־צַ֖יִד לִפְנֵ֣י יְהוָ֑ה עַל־כֵּן֙ יֵֽאָמַ֔ר כְּנִמְרֹ֛ד גִּבּ֥וֹר צַ֖יִד לִפְנֵ֥י יְהוָֽה׃",
+      "source_hebrew_sha256": "921ffe7a2294a39fcd255f3bfd0718e6abd00a85783cea3f6f69c7bc72574f27",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.10",
+      "translations": {
+        "ko": "그의 나라의 시작은 시날 땅의 바벨과 에렉과 악갓과 갈레였다.",
+        "en": "The beginning of his kingdom was Babel, Erech, Accad, and Calneh, in the land of Shinar.",
+        "es": "El comienzo de su reino fue Babel, Erec, Acad y Calné, en la tierra de Sinar."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.10",
+      "source_hebrew": "וַתְּהִ֨י רֵאשִׁ֤ית מַמְלַכְתּוֹ֙ בָּבֶ֔ל וְאֶ֖רֶךְ וְאַכַּ֣ד וְכַלְנֵ֑ה בְּאֶ֖רֶץ שִׁנְעָֽר׃",
+      "source_hebrew_sha256": "d28df35dc81cfa5374bd597310769352cb9fc876e8d75ecd781688fe08a8c5be",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.11",
+      "translations": {
+        "ko": "그 땅에서 그가 앗수르로 나아가 니느웨와 르호보딜과 갈라를 세웠다.",
+        "en": "From that land he went into Assyria and built Nineveh, Rehoboth-Ir, Calah,",
+        "es": "De aquella tierra salió hacia Asiria y edificó Nínive, Rehobot-Ir, Cala"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יָצָא אַשּׁוּר를 '그(니므롯)가 앗수르로 나아가'로 읽어 세 언어를 통일했다.",
+      "counterargument_ko": "'앗수르가 그 땅에서 나아가'(주어 앗수르)로 읽을 수도 있다. 이는 구문 판단이며 이문이 아니다.",
+      "current_opinion_ko": "주어를 니므롯으로 잠정 정리한다.",
+      "reconsider_if_ko": "주어 해석에 대한 편집 결정이 있을 경우.",
+      "source_reference": "Gen.10.11",
+      "source_hebrew": "מִן־הָאָ֥רֶץ הַהִ֖וא יָצָ֣א אַשּׁ֑וּר וַיִּ֨בֶן֙ אֶת־נִ֣ינְוֵ֔ה וְאֶת־רְחֹבֹ֥ת עִ֖יר וְאֶת־כָּֽלַח׃",
+      "source_hebrew_sha256": "0772bbabbd4dabd7f1d1f9b32929f4f1122471e844c92f3027a95e836d2e925b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.12",
+      "translations": {
+        "ko": "또 니느웨와 갈라 사이의 레센을 세웠으니, 그것은 큰 성이다.",
+        "en": "and Resen between Nineveh and Calah; that is the great city.",
+        "es": "y Resen entre Nínive y Cala; esa es la gran ciudad."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.12",
+      "source_hebrew": "וְֽאֶת־רֶ֔סֶן בֵּ֥ין נִֽינְוֵ֖ה וּבֵ֣ין כָּ֑לַח הִ֖וא הָעִ֥יר הַגְּדֹלָֽה׃",
+      "source_hebrew_sha256": "279bbd3e76c123cf9a058d4bd05ebbd306a49907f704c81dd3240946b5f35842",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.13",
+      "translations": {
+        "ko": "미스라임은 루딤과 아나밈과 르하빔과 납두힘을 낳고",
+        "en": "Egypt fathered Ludim, Anamim, Lehabim, Naphtuhim,",
+        "es": "Mizraim engendró a los ludim, los anamim, los lehabim, los naftuhim,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.13",
+      "source_hebrew": "וּמִצְרַ֡יִם יָלַ֞ד אֶת־לוּדִ֧ים וְאֶת־עֲנָמִ֛ים וְאֶת־לְהָבִ֖ים וְאֶת־נַפְתֻּחִֽים׃",
+      "source_hebrew_sha256": "3d042a575a3b82ebf4b90f12f3c7b3a0b9bf5421d2e438894178fd5b1010d42d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.14",
+      "translations": {
+        "ko": "바드루심과 가슬루힘과 갑돌림을 낳았다. 블레셋 사람이 가슬루힘에게서 나왔다.",
+        "en": "Pathrusim, Casluhim (from whom the Philistines came), and Caphtorim.",
+        "es": "los patrusim, los casluhim, de los cuales salieron los filisteos, y los caftorim."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אשר יצאו משם פלשתים을 '블레셋 사람이 가슬루힘에게서 나왔다'로 보았다.",
+      "counterargument_ko": "갑돌림에서 나왔다는 읽기도 가능하며, 본문 순서에 문제가 있다는 논의가 있다. 사본 대조는 하지 않았다.",
+      "current_opinion_ko": "MT 표기 순서를 따른다.",
+      "reconsider_if_ko": "사본/역본 대조에서 순서 차이가 확인될 경우.",
+      "source_reference": "Gen.10.14",
+      "source_hebrew": "וְֽאֶת־פַּתְרֻסִ֞ים וְאֶת־כַּסְלֻחִ֗ים אֲשֶׁ֨ר יָצְא֥וּ מִשָּׁ֛ם פְּלִשְׁתִּ֖ים וְאֶת־כַּפְתֹּרִֽים׃",
+      "source_hebrew_sha256": "433e283b7aa7e011ac51a77adc06e0ceafccf06b0bd0b2b0d49185a5c8e22339",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.15",
+      "translations": {
+        "ko": "가나안은 맏아들 시돈과 헷을 낳고",
+        "en": "Canaan fathered Sidon his firstborn and Heth,",
+        "es": "Canaán engendró a Sidón, su primogénito, y a Het,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.15",
+      "source_hebrew": "וּכְנַ֗עַן יָלַ֛ד אֶת־צִידֹ֥ן בְּכֹר֖וֹ וְאֶת־חֵֽת׃",
+      "source_hebrew_sha256": "1646fc6368fefcb446f43669684af495c386ba833472a98b30b5cd7cce53ac9b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.16",
+      "translations": {
+        "ko": "여부스 사람과 아모리 사람과 기르가스 사람과",
+        "en": "and the Jebusites, the Amorites, the Girgashites,",
+        "es": "al jebuseo, al amorreo, al gergeseo,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.16",
+      "source_hebrew": "וְאֶת־הַיְבוּסִי֙ וְאֶת־הָ֣אֱמֹרִ֔י וְאֵ֖ת הַגִּרְגָּשִֽׁי׃",
+      "source_hebrew_sha256": "f41c06ee4a1595de0829444ac78765c9f439dafe2aa2c6f373a39b139c92a05f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.17",
+      "translations": {
+        "ko": "히위 사람과 알귀 사람과 신 사람과",
+        "en": "the Hivites, the Arkites, the Sinites,",
+        "es": "al heveo, al araceo, al sineo,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.17",
+      "source_hebrew": "וְאֶת־הַֽחִוִּ֥י וְאֶת־הַֽעַרְקִ֖י וְאֶת־הַסִּינִֽי׃",
+      "source_hebrew_sha256": "a1a739299edc623a2635c97b0d1f6047328dd34b1db7f91d07d91b7c8ac13ed7",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.18",
+      "translations": {
+        "ko": "아르왓 사람과 스말 사람과 하맛 사람을 낳았다. 그 뒤에 가나안 사람의 족속들이 흩어졌다.",
+        "en": "the Arvadites, the Zemarites, and the Hamathites. Afterward the clans of the Canaanites dispersed.",
+        "es": "al arvadeo, al zemareo y al hamateo. Después se dispersaron las familias de los cananeos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.18",
+      "source_hebrew": "וְאֶת־הָֽאַרְוָדִ֥י וְאֶת־הַצְּמָרִ֖י וְאֶת־הַֽחֲמָתִ֑י וְאַחַ֣ר נָפֹ֔צוּ מִשְׁפְּח֖וֹת הַֽכְּנַעֲנִֽי׃",
+      "source_hebrew_sha256": "1f828f0b70096ff9c6b02ee217559f7f862e2692267635e056c709ab3f42a809",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.19",
+      "translations": {
+        "ko": "가나안 사람의 경계는 시돈에서 그랄 쪽으로 가사까지, 소돔과 고모라와 아드마와 스보임 쪽으로 라사까지였다.",
+        "en": "And the territory of the Canaanites extended from Sidon in the direction of Gerar as far as Gaza, and in the direction of Sodom, Gomorrah, Admah, and Zeboiim, as far as Lasha.",
+        "es": "El territorio de los cananeos iba desde Sidón, en dirección a Gerar, hasta Gaza; y en dirección a Sodoma, Gomorra, Adma y Zeboim, hasta Lasa."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.19",
+      "source_hebrew": "וַֽיְהִ֞י גְּב֤וּל הַֽכְּנַעֲנִי֙ מִצִּידֹ֔ן בֹּאֲכָ֥ה גְרָ֖רָה עַד־עַזָּ֑ה בֹּאֲכָ֞ה סְדֹ֧מָה וַעֲמֹרָ֛ה וְאַדְמָ֥ה וּצְבֹיִ֖ם עַד־לָֽשַׁע׃",
+      "source_hebrew_sha256": "506146ea474f980be98b959f454d5050e7e066f218e69c08c029b786e8a23f40",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.20",
+      "translations": {
+        "ko": "이들은 함의 아들들이며, 족속대로, 언어대로, 땅대로, 민족대로이다.",
+        "en": "These are the sons of Ham, by their clans, their languages, their lands, and their nations.",
+        "es": "Estos son los hijos de Cam, según sus familias, sus lenguas, sus tierras y sus naciones."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.20",
+      "source_hebrew": "אֵ֣לֶּה בְנֵי־חָ֔ם לְמִשְׁפְּחֹתָ֖ם לִלְשֹֽׁנֹתָ֑ם בְּאַרְצֹתָ֖ם בְּגוֹיֵהֶֽם׃",
+      "source_hebrew_sha256": "5d6e7c43242670f6f97c728621a9183e5c85a96a65dfaf77417f336ee5b5b542",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.21",
+      "translations": {
+        "ko": "셈에게도 아들이 태어났는데, 그는 에벨의 모든 자손의 조상이며 야벳의 형이다.",
+        "en": "To Shem also, the father of all the sons of Eber and the elder brother of Japheth, children were born.",
+        "es": "También le nacieron hijos a Sem, padre de todos los hijos de Heber y hermano mayor de Jafet."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הַגָּדוֹל을 '야벳의 형'(수식어)으로 읽었다.",
+      "counterargument_ko": "'형 야벳' 즉 야벳이 형이라는 읽기도 가능하다.",
+      "current_opinion_ko": "셈이 야벳의 형인 것으로 잠정 정리한다.",
+      "reconsider_if_ko": "수식 대상 판단이 달라질 경우.",
+      "source_reference": "Gen.10.21",
+      "source_hebrew": "וּלְשֵׁ֥ם יֻלַּ֖ד גַּם־ה֑וּא אֲבִי֙ כָּל־בְּנֵי־עֵ֔בֶר אֲחִ֖י יֶ֥פֶת הַגָּדֽוֹל׃",
+      "source_hebrew_sha256": "77b15615ecaaf681027c32ca1f788499ba2d66a2d85565a8744cc99111be1195",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.22",
+      "translations": {
+        "ko": "셈의 아들들은 엘람과 앗수르와 아르박삿과 룻과 아람이다.",
+        "en": "The sons of Shem: Elam, Asshur, Arpachshad, Lud, and Aram.",
+        "es": "Los hijos de Sem: Elam, Asur, Arfaxad, Lud y Aram."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.22",
+      "source_hebrew": "בְּנֵ֥י שֵׁ֖ם עֵילָ֣ם וְאַשּׁ֑וּר וְאַרְפַּכְשַׁ֖ד וְל֥וּד וַֽאֲרָֽם׃",
+      "source_hebrew_sha256": "0544f9588fc22b7a4f2da5f89f115c08c8d1619310f058f500e09417063722a5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.23",
+      "translations": {
+        "ko": "아람의 아들들은 우스와 훌과 게델과 마스이다.",
+        "en": "The sons of Aram: Uz, Hul, Gether, and Mash.",
+        "es": "Los hijos de Aram: Uz, Hul, Geter y Mas."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.23",
+      "source_hebrew": "וּבְנֵ֖י אֲרָ֑ם ע֥וּץ וְח֖וּל וְגֶ֥תֶר וָמַֽשׁ׃",
+      "source_hebrew_sha256": "4848d55bdc89397e700c307ca90eea1042a675ea050437c8f061f5aae31dcb3f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.24",
+      "translations": {
+        "ko": "아르박삿은 셀라를 낳고 셀라는 에벨을 낳았다.",
+        "en": "Arpachshad fathered Shelah, and Shelah fathered Eber.",
+        "es": "Arfaxad engendró a Sela, y Sela engendró a Heber."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.24",
+      "source_hebrew": "וְאַרְפַּכְשַׁ֖ד יָלַ֣ד אֶת־שָׁ֑לַח וְשֶׁ֖לַח יָלַ֥ד אֶת־עֵֽבֶר׃",
+      "source_hebrew_sha256": "d94c88661f5ec2e2e612695df7dc5c0989382d48a798ca93f612aecf7326a9b8",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.25",
+      "translations": {
+        "ko": "에벨에게 두 아들이 태어났는데, 한 아들의 이름은 벨렉이니 그의 때에 땅이 나뉘었기 때문이고, 그의 형제의 이름은 욕단이다.",
+        "en": "To Eber were born two sons: the name of the one was Peleg, for in his days the earth was divided, and his brother's name was Joktan.",
+        "es": "A Heber le nacieron dos hijos: el nombre del uno fue Peleg, porque en sus días fue repartida la tierra; y el nombre de su hermano, Joctán."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "נִפְלְגָה הָאָרֶץ를 '땅이 나뉘었다'로 옮기고 שם פלג의 말놀이는 번역에서 풀지 않았다.",
+      "counterargument_ko": "'땅의 주민이 나뉘었다'로 이해할 수도 있다.",
+      "current_opinion_ko": "'땅이 나뉘었다'로 잠정 정리한다.",
+      "reconsider_if_ko": "각주 처리 방침이 정해질 경우.",
+      "source_reference": "Gen.10.25",
+      "source_hebrew": "וּלְעֵ֥בֶר יֻלַּ֖ד שְׁנֵ֣י בָנִ֑ים שֵׁ֣ם הָֽאֶחָ֞ד פֶּ֗לֶג כִּ֤י בְיָמָיו֙ נִפְלְגָ֣ה הָאָ֔רֶץ וְשֵׁ֥ם אָחִ֖יו יָקְטָֽן׃",
+      "source_hebrew_sha256": "96e4f4b271e38681b32e09f852ca194d7c00c4404bb59446aa2c66d46919526c",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.10.26",
+      "translations": {
+        "ko": "욕단은 알모닷과 셀렙과 하살마웻과 예라를 낳고",
+        "en": "Joktan fathered Almodad, Sheleph, Hazarmaveth, Jerah,",
+        "es": "Joctán engendró a Almodad, Selef, Hazarmavet, Jera,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.10.26",
+      "source_hebrew": "וְיָקְטָ֣ן יָלַ֔ד אֶת־אַלְמוֹדָ֖ד וְאֶת־שָׁ֑לֶף וְאֶת־חֲצַרְמָ֖וֶת וְאֶת־יָֽרַח׃",
+      "source_hebrew_sha256": "122e6ffa7fd82d94e30bacb9b245a9056e0d5bc32e2c7da959fa28eec5b423e4",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    }
+  ]
+}
