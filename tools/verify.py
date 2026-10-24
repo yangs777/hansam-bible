@@ -31,7 +31,7 @@ for r in records:
         assert trace['model_final_opinions']['gemini-3.8-flash-medium']['stage']=='gemini.round3'
         if int(r['id'][-3:]) in (1,2,3,6,26,27,28):
             assert 'claude-opus-4-6-thinking' in {p['model'] for p in trace['model_proposals']}
-    if r['id'].startswith('HYB.GEN.002.') and int(r['id'][-3:]) in (2,3,4):
+    if r['id'].startswith('HYB.GEN.002.') and int(r['id'][-3:]) in (2,3,4,6,7,8):
         assert 'claude-opus-5-5' in models
     if not r['id'].startswith('HYB.GEN.'):
         assert {x['version'] for x in trace['previous_editions']} >= {'0.1.0','0.2.0'}

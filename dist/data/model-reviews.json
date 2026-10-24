@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "models": {
     "claude-opus-4-6-thinking": {
       "provider": "Google Antigravity CLI",
@@ -21,75 +21,48 @@
       "raw_response_sha256": "2bd40e6edd8accf3da097f95e8faf8e933d4c1141af7d7ce806b6d74734261a6"
     },
     "gemini-3.8-flash-medium": {
-      "provider": "Google Antigravity CLI",
-      "cli_version": "1.4.6",
+      "provider": "Antigravity official agy CLI",
       "requested_model_id": "gemini-3.8-flash-medium",
-      "identity_basis": "Explicit --model; listed by official CLI. Immutable backend snapshot unavailable.",
-      "date": "2026-10-23",
-      "conversation_id": "8e741efb-06f1-46ea-b4a6-e7aad40c444c",
-      "status": "SUCCESS",
+      "identity_basis": "CLI init event model; immutable snapshot not exposed",
+      "date": "2026-10-24",
+      "conversation_id": "fc89eebd-18cd-4f2c-9372-89be4de8365e",
       "usage": {
-        "input_tokens": 35531,
-        "output_tokens": 12696,
-        "thinking_tokens": 1518,
+        "input_tokens": 15468,
+        "output_tokens": 5562,
+        "thinking_tokens": 1920,
         "cache_read_tokens": 0,
-        "total_tokens": 48227
+        "total_tokens": 21030
       },
-      "usage_scope": "Whole distinct conversation; do not add repeated snapshots",
-      "independence": "Fresh conversation; other models and translations withheld for ko/en. Spanish replaced by actual modern-language redraft in the cross-review conversation.",
-      "raw_response_sha256": "1a5326150ce657a1b939e36359ac6c07a8f531e2e50c112db38fce51d3e63157",
-      "language_runs": {
-        "ko": "round1 independent",
-        "en": "round1 independent",
-        "es": {
-          "provider": "Google Antigravity CLI",
-          "cli_version": "1.4.6",
-          "requested_model_id": "gemini-3.8-flash-medium",
-          "identity_basis": "Explicit --model; listed by official CLI. Immutable backend snapshot unavailable.",
-          "date": "2026-10-23",
-          "conversation_id": "b7cbc30d-d3b8-47c6-be6a-20ab36514ae2",
-          "status": "SUCCESS",
-          "usage": {
-            "input_tokens": 19157,
-            "output_tokens": 7213,
-            "thinking_tokens": 729,
-            "cache_read_tokens": 0,
-            "total_tokens": 26370
-          },
-          "usage_scope": "Whole distinct conversation; do not add repeated snapshots",
-          "independence": "Cross-review; fresh modern Spanish redraft, not independent of GPT candidate",
-          "raw_response_sha256": "2d44ef489862d7d54c0a0a5e35b779806a400c8605da87dd8ad68094e7a44480"
-        }
-      }
+      "independence": "Source-only draft, other model proposals withheld."
     },
     "gpt-6.1-sol": {
       "provider": "OpenAI Codex",
       "identity_basis": "Configured Codex model label; immutable backend snapshot not exposed",
       "date": "2026-10-24",
-      "independence": "Read Hebrew packet before viewing Gemini or Claude proposals for these five verses."
+      "independence": "Hebrew-only drafting before viewing Gemini and existing Claude cloud proposals for these five verses."
     },
     "claude-opus-5-5": {
-      "provider": "Claude Code official CLI, included authenticated account",
-      "identity_basis": "CLI modelUsage canonicalModel claude-opus-5-5; immutable backend snapshot not exposed",
+      "provider": "Claude Code official CLI, authenticated included account",
+      "identity_basis": "CLI modelUsage canonicalModel claude-opus-5-5; immutable snapshot not exposed",
       "date": "2026-10-24",
-      "mode": "read-only prompt with tools disabled",
+      "mode": "read-only prompt; tools disabled",
       "model_usage": {
         "claude-opus-5-5": {
           "inputTokens": 2,
-          "outputTokens": 9069,
-          "cacheReadInputTokens": 3262,
-          "cacheCreationInputTokens": 6352,
+          "outputTokens": 5075,
+          "cacheReadInputTokens": 649,
+          "cacheCreationInputTokens": 5962,
           "webSearchRequests": 0,
-          "costUSD": 0.23285640000000002,
+          "costUSD": 0.1493338,
           "contextWindow": 1000000,
           "maxOutputTokens": 128000,
-          "thinkingTokens": 1218,
+          "thinkingTokens": 1124,
           "canonicalModel": "claude-opus-5-5",
           "provider": "firstParty",
           "costBasis": "list"
         }
       },
-      "cost_caveat": "CLI costUSD is list-price accounting, not proof of a new cash charge or native cloud-credit debit."
+      "cost_caveat": "List-price accounting is not proof of a new cash charge or native cloud-credit debit."
     },
     "gemini-3.8-flash-high": {
       "provider": "Antigravity official agy CLI",
@@ -122,8 +95,8 @@
         "current_opinion_ko": "현재 채택 제안: 유한동사 ברא를 둔 독립 도입문으로 현재 채택한다. בראשית의 무관사만으로 연계형을 확정하지 않는다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -335,6 +308,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "태초에 하나님께서 하늘과 땅을 창조하셨다.",
+            "en": "In the beginning, God created the heavens and the earth.",
+            "es": "Al comienzo, Dios creó los cielos y la tierra."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -352,8 +336,8 @@
         "current_opinion_ko": "현재 채택 제안: היתה는 배경 상태로 옮기며, רוח אלהים은 이 문맥에서 하나님에게서 온 바람으로 현재 선택한다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -565,6 +549,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "땅은 형체 없이 비어 있었고, 어둠이 깊음의 표면 위에 있었으며, 하나님의 바람이 물의 표면 위를 맴돌고 있었다.",
+            "en": "The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.",
+            "es": "La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -582,8 +577,8 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -795,6 +790,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “빛이 있으라.” 그러자 빛이 있었다.",
+            "en": "God said, “Let there be light.” And there was light.",
+            "es": "Dios dijo: «Que haya luz». Y hubo luz."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -812,7 +818,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -969,6 +975,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 빛을 보시니 좋았다. 하나님께서는 빛과 어둠을 나누셨다.",
+            "en": "God saw that the light was good, and God separated the light from the darkness.",
+            "es": "Dios vio que la luz era buena y separó la luz de la oscuridad."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -986,7 +1003,7 @@
         "current_opinion_ko": "현재 채택 제안: יום אחד의 기수 하나를 하루로 보존한다. 반복되는 저녁·아침과 뒤의 서수도 구별한다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -1143,6 +1160,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 빛을 낮이라 부르시고, 어둠을 밤이라 부르셨다. 저녁이 되고 아침이 되었다. 하루였다.",
+            "en": "God called the light Day, and the darkness he called Night. Evening came and morning came: one day.",
+            "es": "Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -1160,8 +1188,8 @@
         "current_opinion_ko": "현재 채택 제안: רקיע는 위아래 물을 나누는 궁창으로 옮긴다. 명명되는 하늘과의 관계를 8절까지 추적한다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -1373,6 +1401,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “물 한가운데 궁창이 있어, 물과 물을 나누게 하라.”",
+            "en": "God said, “Let there be a vault amid the waters, and let it separate water from water.”",
+            "es": "Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras»."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -1390,7 +1429,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -1547,6 +1586,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 궁창을 만드시고, 궁창 아래의 물과 궁창 위의 물을 나누셨다. 그대로 되었다.",
+            "en": "God made the vault and separated the waters below it from the waters above it. And it was so.",
+            "es": "Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -1564,7 +1614,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -1721,6 +1771,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 궁창을 하늘이라 부르셨다. 저녁이 되고 아침이 되었다. 둘째 날이었다.",
+            "en": "God called the vault Sky. Evening came and morning came: a second day.",
+            "es": "Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -1738,7 +1799,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -1895,6 +1956,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “하늘 아래의 물은 한곳으로 모이고, 마른 곳은 드러나라.” 그대로 되었다.",
+            "en": "God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.",
+            "es": "Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -1912,7 +1984,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -2069,6 +2141,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 마른 곳을 땅이라 부르시고, 물이 모인 곳을 바다들이라 부르셨다. 하나님께서 보시니 좋았다.",
+            "en": "God called the dry ground Land, and the gathering of the waters he called Seas. God saw that it was good.",
+            "es": "Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -2086,7 +2169,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -2243,6 +2326,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “땅은 푸른 싹을, 씨 맺는 풀과 제 종류대로 열매를 맺되 그 안에 씨가 있는 과일나무를 땅 위에 돋아나게 하여라.” 그대로 되었다.",
+            "en": "God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.",
+            "es": "Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -2260,7 +2354,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -2417,6 +2511,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "땅은 푸른 싹을, 제 종류대로 씨 맺는 풀과 제 종류대로 열매를 맺되 그 안에 씨가 있는 나무를 내었다. 하나님께서 보시니 좋았다.",
+            "en": "The earth brought forth vegetation: plants bearing seed according to their kinds, and trees bearing fruit with seed inside, according to their kinds. God saw that it was good.",
+            "es": "La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -2434,7 +2539,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -2591,6 +2696,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "저녁이 되고 아침이 되었다. 셋째 날이었다.",
+            "en": "Evening came and morning came: a third day.",
+            "es": "Llegó la tarde y llegó la mañana: un tercer día."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -2608,7 +2724,7 @@
         "current_opinion_ko": "현재 채택 제안: מועדים는 정해진 때로 옮긴다. 절기·집회 때의 의미가 포함될 수 있어 계절로만 한정하지 않는다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -2765,6 +2881,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “하늘의 궁창에 빛을 내는 것들이 있어 낮과 밤을 나누게 하라. 그것들이 표징과 정해진 때와 날들과 해들을 나타내게 하라.",
+            "en": "God said, “Let there be lights in the vault of the sky to separate day from night, and let them mark signs, appointed times, days and years.",
+            "es": "Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -2782,7 +2909,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -2939,6 +3066,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "그것들이 하늘의 궁창에서 빛을 내어 땅을 비추게 하라.” 그대로 되었다.",
+            "en": "Let them be lights in the vault of the sky to shine upon the earth.” And it was so.",
+            "es": "Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -2956,7 +3094,7 @@
         "current_opinion_ko": "현재 채택 제안: 큰 빛·작은 빛이라는 본문의 명칭을 유지하고 해·달이라는 해설을 번역문에 삽입하지 않는다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -3113,6 +3251,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 큰 빛 둘을 만드셨다. 큰 빛은 낮을 다스리게, 작은 빛은 밤을 다스리게 하시고, 별들도 만드셨다.",
+            "en": "God made the two great lights: the greater light to rule the day and the lesser light to rule the night, and the stars as well.",
+            "es": "Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -3130,7 +3279,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -3287,6 +3436,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 그것들을 하늘의 궁창에 두시어 땅을 비추게 하셨다.",
+            "en": "God placed them in the vault of the sky to shine upon the earth,",
+            "es": "Dios las puso en la bóveda del cielo para alumbrar la tierra,"
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -3304,7 +3464,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -3461,6 +3621,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "낮과 밤을 다스리며, 빛과 어둠을 나누게 하셨다. 하나님께서 보시니 좋았다.",
+            "en": "to rule over day and night and to separate light from darkness. God saw that it was good.",
+            "es": "para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -3478,7 +3649,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -3635,6 +3806,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "저녁이 되고 아침이 되었다. 넷째 날이었다.",
+            "en": "Evening came and morning came: a fourth day.",
+            "es": "Llegó la tarde y llegó la mañana: un cuarto día."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -3652,7 +3834,7 @@
         "current_opinion_ko": "현재 채택 제안: נפש חיה는 살아 있는 생물로, עוף는 날짐승으로 옮겨 현대 생물 분류를 단정하지 않는다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -3809,6 +3991,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “물에는 살아 있는 생물들이 떼 지어 생겨나라. 날짐승들은 땅 위, 하늘의 궁창 앞을 날아다녀라.”",
+            "en": "God said, “Let the waters swarm with living creatures, and let winged creatures fly above the earth across the face of the vault of the sky.”",
+            "es": "Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo»."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -3826,7 +4019,7 @@
         "current_opinion_ko": "현재 채택 제안: תנינים는 특정 현대 동물종으로 고정하지 않고 큰 바다 생물들로 현재 선택한다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -3983,6 +4176,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 큰 바다 생물들과, 물에서 제 종류대로 떼 지어 나온 움직이는 모든 살아 있는 생물과, 제 종류대로 날개 달린 모든 날짐승을 창조하셨다. 하나님께서 보시니 좋았다.",
+            "en": "God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.",
+            "es": "Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -4000,7 +4204,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -4157,6 +4361,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 그들에게 복을 주시며 말씀하셨다. “열매를 맺고 번성하여 바다의 물을 채워라. 날짐승도 땅에서 번성하여라.”",
+            "en": "God blessed them, saying, “Be fruitful and multiply; fill the waters in the seas, and let winged creatures multiply on the earth.”",
+            "es": "Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra»."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -4174,7 +4389,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -4331,6 +4546,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "저녁이 되고 아침이 되었다. 다섯째 날이었다.",
+            "en": "Evening came and morning came: a fifth day.",
+            "es": "Llegó la tarde y llegó la mañana: un quinto día."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -4348,7 +4574,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -4505,6 +4731,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “땅은 제 종류대로 살아 있는 생물을, 가축과 기어 다니는 것과 땅의 들짐승을 제 종류대로 내어라.” 그대로 되었다.",
+            "en": "God said, “Let the earth bring forth living creatures according to their kinds: livestock, creeping things and wild animals of the earth according to their kinds.” And it was so.",
+            "es": "Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -4522,7 +4759,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -4679,6 +4916,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 땅의 들짐승을 제 종류대로, 가축을 제 종류대로, 땅 위에서 기어 다니는 모든 것을 제 종류대로 만드셨다. 하나님께서 보시니 좋았다.",
+            "en": "God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.",
+            "es": "Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -4696,8 +4944,8 @@
         "current_opinion_ko": "현재 채택 제안: נעשה와 우리의 복수형을 그대로 남기며 אדם은 사람 전체를 가리키는 집합 명사로 읽는다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -4909,6 +5157,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “우리의 형상대로, 우리를 닮게 사람을 만들자. 그들이 바다의 물고기와 하늘의 날짐승과 가축과 온 땅과 땅 위를 기어 다니는 모든 것을 다스리게 하자.”",
+            "en": "God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”",
+            "es": "Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella»."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -4926,8 +5185,8 @@
         "current_opinion_ko": "현재 채택 제안: 집합적 사람과 단수 그를·복수 그들을의 전환을 보존한다. זכר ונקבה는 남성과 여성으로 옮긴다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -5143,6 +5402,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 사람을 그분의 형상대로 창조하셨다. 하나님의 형상대로 그를 창조하셨다. 남성과 여성으로 그들을 창조하셨다.",
+            "en": "God created humankind in his image; in the image of God he created him; male and female he created them.",
+            "es": "Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -5160,8 +5430,8 @@
         "current_opinion_ko": "현재 채택 제안: כבש와 רדה의 정복하다·다스리다를 구별해 유지한다. 현대적 책임 윤리는 해설층에 둔다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
-        "additional_review_status": "Claude Code 로그인 미완료. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
+        "version": "0.4.1",
+        "additional_review_status": "v0.3.0 채택 당시 Claude Code 인증 전의 기록이다. 추가 Claude 검토는 공식 Antigravity CLI의 claude-opus-4-6-thinking으로 실행했으며 Anthropic API 크레딧을 사용한 것으로 기록하지 않는다."
       },
       "model_proposals": [
         {
@@ -5373,6 +5643,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 그들에게 복을 주시고 말씀하셨다. “열매를 맺고 번성하여 땅을 채우고 정복하여라. 바다의 물고기와 하늘의 날짐승과 땅 위를 움직이는 모든 생물을 다스려라.”",
+            "en": "God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”",
+            "es": "Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra»."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -5390,7 +5671,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -5547,6 +5828,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 말씀하셨다. “보아라, 내가 온 땅 위의 씨 맺는 모든 풀과, 씨 맺는 나무 열매가 있는 모든 나무를 너희에게 주었다. 이것들이 너희의 먹을거리가 될 것이다.",
+            "en": "God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.",
+            "es": "Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -5564,7 +5856,7 @@
         "current_opinion_ko": "현재 채택 제안: 29절의 주다를 이어받는 생략 구문을 복원해 읽고, 동물의 먹을거리와 인간의 먹을거리를 구분한다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -5725,6 +6017,17 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "땅의 모든 들짐승과 하늘의 모든 날짐승과 땅 위를 기어 다니는 모든 것, 곧 그 안에 생명이 있는 것들에게는 모든 푸른 풀을 먹을거리로 주었다.” 그대로 되었다.",
+            "en": "And to every wild animal of the earth, every winged creature of the sky and everything that creeps on the earth, in which there is life, I have given every green plant for food.” And it was so.",
+            "es": "Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -5742,7 +6045,7 @@
         "current_opinion_ko": "현재 채택 제안: 히브리어의 행위자·동사·대상과 반복 구문을 유지하며 세 언어의 읽기 흐름을 맞춘다.",
         "reconsider_if_ko": "새 사본 대조·원어 문법 및 각 언어 검토가 더 나은 설명을 제공하면 갱신한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "GPT·Gemini 실제 응답 비교; 인간 전문 검수 전."
       },
       "model_proposals": [
@@ -5899,13 +6202,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서 만드신 모든 것을 보시니, 보아라, 매우 좋았다. 저녁이 되고 아침이 되었다. 여섯째 날이었다.",
+            "en": "God saw everything he had made, and look: it was very good. Evening came and morning came: the sixth day.",
+            "es": "Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.PS.001.001": {
       "selection": {
         "id": "HYB.PS.001.001",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
@@ -6072,13 +6386,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.",
+            "en": "Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.",
+            "es": "Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.PS.001.002": {
       "selection": {
         "id": "HYB.PS.001.002",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
@@ -6245,13 +6570,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.",
+            "en": "Rather, his delight is in YHWH’s instruction, and he recites it day and night.",
+            "es": "Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.PS.001.003": {
       "selection": {
         "id": "HYB.PS.001.003",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
@@ -6418,13 +6754,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.",
+            "en": "He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.",
+            "es": "Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.PS.001.004": {
       "selection": {
         "id": "HYB.PS.001.004",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
@@ -6591,13 +6938,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.",
+            "en": "Not so the wicked! Rather, they are like chaff that the wind drives away.",
+            "es": "¡No así los malvados! Son como el tamo que el viento se lleva."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.PS.001.005": {
       "selection": {
         "id": "HYB.PS.001.005",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
@@ -6764,13 +7122,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.",
+            "en": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+            "es": "Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.PS.001.006": {
       "selection": {
         "id": "HYB.PS.001.006",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
@@ -6937,13 +7306,24 @@
           "basis": "MT-WLC display; no independent full critical collation completed",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.",
+            "en": "For YHWH knows the way of the righteous, but the way of the wicked perishes.",
+            "es": "Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.NUM.006.024": {
       "selection": {
         "id": "HYB.NUM.006.024",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
@@ -7110,13 +7490,24 @@
           "basis": "MT-WLC display; no inscription substituted for the biblical text",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+            "en": "May YHWH bless you and guard you.",
+            "es": "Que YHWH te bendiga y te guarde."
+          },
+          "basis": "MT-WLC display; no inscription substituted for the biblical text",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.NUM.006.025": {
       "selection": {
         "id": "HYB.NUM.006.025",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
@@ -7283,13 +7674,24 @@
           "basis": "MT-WLC display; no inscription substituted for the biblical text",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+            "en": "May YHWH make his face shine toward you and be gracious to you.",
+            "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+          },
+          "basis": "MT-WLC display; no inscription substituted for the biblical text",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.NUM.006.026": {
       "selection": {
         "id": "HYB.NUM.006.026",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
@@ -7456,13 +7858,24 @@
           "basis": "MT-WLC display; no inscription substituted for the biblical text",
           "decision": "Current best selected — revisable with stronger evidence",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+            "en": "May YHWH lift his face toward you and give you peace.",
+            "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+          },
+          "basis": "MT-WLC display; no inscription substituted for the biblical text",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
     "HYB.DEUT.032.008": {
       "selection": {
         "id": "HYB.DEUT.032.008",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "selection_status": "current_best_provisional",
         "translations": {
           "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
@@ -7734,6 +8147,17 @@
           "basis": "MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction",
           "decision": "Current best: divine-sons reading; full translation is an editorial reconstruction, revisable",
           "archive_path": "/data/releases/v0.3.0.json"
+        },
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+            "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+            "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+          },
+          "basis": "MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction",
+          "decision": "Current best: divine-sons reading; full translation is an editorial reconstruction, revisable",
+          "archive_path": "/data/releases/v0.4.0.json"
         }
       ]
     },
@@ -7752,7 +8176,7 @@
         "reconsider_if_ko": "확인된 사본 자료나 더 나은 구문 분석·모국어 검토가 제시되면 새 판본에서 수정한다.",
         "final_opinion_ko": "현재 선택을 지지하되 이문·문법·언어 검토에서 더 강한 근거가 확인되면 수정한다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0"
+        "version": "0.4.1"
       },
       "model_proposals": [
         {
@@ -7841,7 +8265,19 @@
           "final_opinion_ko": "현재 선택을 지지하되 이문·문법·언어 검토에서 더 강한 근거가 확인되면 수정한다."
         }
       ],
-      "previous_editions": []
+      "previous_editions": [
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하늘과 땅과 그 모든 무리가 완성되었다.",
+            "en": "Thus the heavens and the earth and all their host were completed.",
+            "es": "Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
+        }
+      ]
     },
     "HYB.GEN.002.002": {
       "selection": {
@@ -7858,7 +8294,7 @@
         "reconsider_if_ko": "확인된 사본 자료나 더 나은 구문 분석·모국어 검토가 제시되면 새 판본에서 수정한다.",
         "final_opinion_ko": "일곱째 날은 대조한 WLC 표시문에 있기 때문에 채택한다. 다른 역본이 신학적 동기로 수정했다거나 어려운 읽기이므로 반드시 원문이라는 Gemini/Claude 추론은 미검증이므로 채택 근거로 쓰지 않는다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "실제 Claude Code 공식 CLI, modelUsage claude-opus-5-5. 도구 사용 없이 제공된 원문을 검토했으며 실제 응답·최종 의견을 보존했다. 고정 백엔드 스냅샷은 노출되지 않았다."
       },
       "model_proposals": [
@@ -8013,7 +8449,19 @@
           "final_opinion_ko": "일곱째 날은 대조한 WLC 표시문에 있기 때문에 채택한다. 다른 역본이 신학적 동기로 수정했다거나 어려운 읽기이므로 반드시 원문이라는 Gemini/Claude 추론은 미검증이므로 채택 근거로 쓰지 않는다."
         }
       ],
-      "previous_editions": []
+      "previous_editions": [
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서는 일곱째 날에 하시던 일을 마치셨고, 일곱째 날에는 하시던 모든 일에서 손을 떼셨다.",
+            "en": "On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.",
+            "es": "En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
+        }
+      ]
     },
     "HYB.GEN.002.003": {
       "selection": {
@@ -8030,7 +8478,7 @@
         "reconsider_if_ko": "확인된 사본 자료나 더 나은 구문 분석·모국어 검토가 제시되면 새 판본에서 수정한다.",
         "final_opinion_ko": "초기 GPT의 창조 작업이라는 압축을 수정하여 두 동사를 번역문에 표시한다. Gemini의 ברא가 곧 무에서 유의 창조라는 단정은 이 단어만으로 입증되지 않아 채택하지 않는다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "실제 Claude Code 공식 CLI, modelUsage claude-opus-5-5. 도구 사용 없이 제공된 원문을 검토했으며 실제 응답·최종 의견을 보존했다. 고정 백엔드 스냅샷은 노출되지 않았다."
       },
       "model_proposals": [
@@ -8188,7 +8636,19 @@
           "final_opinion_ko": "초기 GPT의 창조 작업이라는 압축을 수정하여 두 동사를 번역문에 표시한다. Gemini의 ברא가 곧 무에서 유의 창조라는 단정은 이 단어만으로 입증되지 않아 채택하지 않는다."
         }
       ],
-      "previous_editions": []
+      "previous_editions": [
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "하나님께서는 일곱째 날에 복을 주시고 그날을 거룩하게 하셨다. 그날에 하나님께서 창조하여 이루신 모든 일에서 손을 떼셨기 때문이다.",
+            "en": "God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.",
+            "es": "Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
+        }
+      ]
     },
     "HYB.GEN.002.004": {
       "selection": {
@@ -8205,7 +8665,7 @@
         "reconsider_if_ko": "확인된 사본 자료나 더 나은 구문 분석·모국어 검토가 제시되면 새 판본에서 수정한다.",
         "final_opinion_ko": "내력/when/야훼 표기를 현재 선택한다. 표제와 맺음말 해석 중 하나를 확정하지 않고, 하루와 시간 관용구의 관계를 주석으로 설명한다. 야훼는 편집 표기이며 발음 복원 인증이 아니다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "additional_review_status": "실제 Claude Code 공식 CLI, modelUsage claude-opus-5-5. 도구 사용 없이 제공된 원문을 검토했으며 실제 응답·최종 의견을 보존했다. 고정 백엔드 스냅샷은 노출되지 않았다."
       },
       "model_proposals": [
@@ -8370,7 +8830,19 @@
           "final_opinion_ko": "내력/when/야훼 표기를 현재 선택한다. 표제와 맺음말 해석 중 하나를 확정하지 않고, 하루와 시간 관용구의 관계를 주석으로 설명한다. 야훼는 편집 표기이며 발음 복원 인증이 아니다."
         }
       ],
-      "previous_editions": []
+      "previous_editions": [
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "이것은 하늘과 땅이 창조될 때의 내력이다. 야훼 하나님께서 땅과 하늘을 만드시던 때에,",
+            "en": "This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,",
+            "es": "Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,"
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
+        }
+      ]
     },
     "HYB.GEN.002.005": {
       "selection": {
@@ -8387,7 +8859,7 @@
         "reconsider_if_ko": "확인된 사본 자료나 더 나은 구문 분석·모국어 검토가 제시되면 새 판본에서 수정한다.",
         "final_opinion_ko": "사람과 들의 풀을 현재 선택한다. 관사 유무만으로 보통명사/고유명사를 기계적으로 확정하거나 들의 풀이 농작물로만 제한된다는 Gemini 주장을 채택하지 않는다.",
         "selection_status": "current_best_provisional",
-        "version": "0.4.0"
+        "version": "0.4.1"
       },
       "model_proposals": [
         {
@@ -8474,6 +8946,698 @@
           "stage": "gpt-genesis2.round2",
           "id": "HYB.GEN.002.005",
           "final_opinion_ko": "사람과 들의 풀을 현재 선택한다. 관사 유무만으로 보통명사/고유명사를 기계적으로 확정하거나 들의 풀이 농작물로만 제한된다는 Gemini 주장을 채택하지 않는다."
+        }
+      ],
+      "previous_editions": [
+        {
+          "version": "0.4.0",
+          "translations": {
+            "ko": "들의 어떤 관목도 아직 땅에 없었고, 들의 어떤 풀도 아직 싹트지 않았다. 야훼 하나님께서 땅에 비를 내리지 않으셨고, 땅을 일굴 사람도 없었기 때문이다.",
+            "en": "No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.",
+            "es": "Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo."
+          },
+          "basis": "MT-WLC display; no independent full critical collation completed",
+          "decision": "Current best selected — revisable with stronger evidence",
+          "archive_path": "/data/releases/v0.4.0.json"
+        }
+      ]
+    },
+    "HYB.GEN.002.006": {
+      "selection": {
+        "id": "HYB.GEN.002.006",
+        "translations": {
+          "ko": "그러나 물줄기가 땅에서 솟아올라 땅의 온 표면을 적시곤 했다.",
+          "en": "But a flow of water would rise from the earth and water the whole surface of the ground.",
+          "es": "Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo."
+        },
+        "basis": "Pinned MT-WLC display; no independent manuscript collation",
+        "reason_ko": "땅에서 올라와 지면을 적시는 문맥에 따라 물줄기를 현재 선택한다. 확인한 BiblIndex 칠십인역 디지털 표시문은 πηγή이며, 이는 물 흐름 해석에 참고가 되는 번역 전승이지 히브리어 어의나 가장 이른 본문을 확정하는 증거는 아니다.",
+        "counterargument_ko": "אד의 안개/수증기 해석과 일회적·시작상 분석이 가능하다. 비교언어 어원·지하수 지질 체계는 검증하지 않아 번역에 넣지 않는다.",
+        "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+        "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다.",
+        "final_opinion_ko": "초기 GPT의 물안개를 물줄기로 수정한다. Gemini의 LXX ὀμίχλη 주장은 확인한 디지털 본문의 πηγή와 달라 채택하지 않는다. 아카드어·수메르어 어원 주장은 이 검토에서 검증하지 않았으며, 모델 다수결로 어의를 확정하지 않는다. Gemini 최종 응답이 새로 제시한 심마쿠스 독법 귀속도 이 작업에서 확인하지 않아 채택 근거로 사용하지 않는다.",
+        "version": "0.4.1",
+        "selection_status": "current_best_provisional",
+        "additional_review_status": "공식 Claude Code CLI가 도구 없이 제공된 원문을 검토했다. CLI modelUsage canonicalModel: claude-opus-5-5. 고정 백엔드 스냅샷은 노출되지 않았다."
+      },
+      "model_proposals": [
+        {
+          "model": "claude-opus-5-5",
+          "execution": {
+            "provider": "Claude Code official CLI, authenticated included account",
+            "identity_basis": "CLI modelUsage canonicalModel claude-opus-5-5; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "mode": "read-only prompt; tools disabled",
+            "model_usage": {
+              "claude-opus-5-5": {
+                "inputTokens": 2,
+                "outputTokens": 5075,
+                "cacheReadInputTokens": 649,
+                "cacheCreationInputTokens": 5962,
+                "webSearchRequests": 0,
+                "costUSD": 0.1493338,
+                "contextWindow": 1000000,
+                "maxOutputTokens": 128000,
+                "thinkingTokens": 1124,
+                "canonicalModel": "claude-opus-5-5",
+                "provider": "firstParty",
+                "costBasis": "list"
+              }
+            },
+            "cost_caveat": "List-price accounting is not proof of a new cash charge or native cloud-credit debit."
+          },
+          "id": "HYB.GEN.002.006",
+          "translations": {
+            "ko": "그러나 물기[안개 또는 물줄기]가 땅에서 올라와 지면 전체를 적시곤 하였다.",
+            "en": "But a flow [or: mist] would rise from the earth and water the whole face of the ground.",
+            "es": "Pero un flujo [o: vapor] subía de la tierra y regaba toda la faz del suelo."
+          },
+          "basis": "וְאֵד (HC/Ncmsa) + יַעֲלֶה (Qal yiqtol 3ms) + וְהִשְׁקָה (Hiphil weqatal 3ms) + אֶת־כָּל־פְּנֵי הָאֲדָמָה. Clause opens with waw + noun, not wayyiqtol, so it is background description after the negative conditions of 2:5.",
+          "reason_ko": "אֵד는 히브리 성경에서 매우 드물게 나오는 단어이며(다른 용례로 욥 36:27이 자주 거론됨) 의미가 확정되지 않았다. '안개/수증기'라는 전통적 해석과, 땅에서 솟는 '물줄기·지하수·범람'으로 보는 해석이 모두 있다. '땅에서 올라와 지면 전체를 적신다'는 문맥은 물줄기 쪽에 조금 더 맞아 보이지만 결정적이지 않으므로 중립적인 '물기'를 본문에 두고 두 대안을 괄호로 표시했다. 동사 형태는 yiqtol + weqatal 연쇄로, 과거 배경에서 반복적·습관적 동작('~하곤 했다')으로 읽는 것이 자연스럽다고 판단했다.",
+          "counterargument_ko": "yiqtol을 시작상(inceptive, '올라오기 시작했다') 또는 일회적 사건으로 보아 2:5의 결핍(비 없음, 경작자 없음)에 대한 첫 해결 단계로 읽을 수도 있다. 이 경우 '올라와 적셨다'로 단순 과거 번역이 가능하다. 또 אֵד의 어원을 다른 고대 근동 언어의 '물/범람' 관련 단어와 연결하는 제안이 있으나, 여기서는 구체적 근거를 검증하지 않았으므로 의존하지 않았다.",
+          "current_opinion_ko": "반복·습관적 배경 묘사가 가장 무난하다. אֵד는 '안개'와 '물줄기' 사이에서 열어 두며, 지질학적·기상학적 실체를 특정하지 않는다.",
+          "reconsider_if_ko": "검증된 어휘 연구나 비교 언어 자료가 한쪽 의미를 강하게 지지하거나, 2:5–6의 담화 구조 분석이 일회적·시작상 해석을 더 설득력 있게 보여 줄 경우.",
+          "final_opinion_ko": "'물기[안개 또는 물줄기]가 ~ 적시곤 하였다'를 잠정안으로 제시한다. 단어 의미와 동사상 모두 불확실성을 각주로 명시해야 한다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "execution": {
+            "provider": "Antigravity official agy CLI",
+            "requested_model_id": "gemini-3.8-flash-medium",
+            "identity_basis": "CLI init event model; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "conversation_id": "fc89eebd-18cd-4f2c-9372-89be4de8365e",
+            "usage": {
+              "input_tokens": 15468,
+              "output_tokens": 5562,
+              "thinking_tokens": 1920,
+              "cache_read_tokens": 0,
+              "total_tokens": 21030
+            },
+            "independence": "Source-only draft, other model proposals withheld."
+          },
+          "id": "HYB.GEN.002.006",
+          "translations": {
+            "ko": "그러나 지하수류(또는 안개/용천수)가 땅에서 솟아올라 흙의 온 표면을 적시곤 했다.",
+            "en": "And a subterranean flow (or mist/stream) would rise from the earth and water the entire surface of the ground.",
+            "es": "Pero una corriente subterránea (o niebla/manantial) subía de la tierra y regaba toda la faz del suelo."
+          },
+          "basis": "명사 אֵד(ed, c/108) + 미완료형(yiqtol) יַעֲלֶה(ya'aleh, 5927) + 접속사+완료형(weqatal) וְהִשְׁקָה(wehisqah, 8248).",
+          "reason_ko": "히브리어 אֵד(ed)는 전통적으로 '안개/물안개'(LXX ὀμίχλη, 탈굼)로 이해되었으나, 아카드어 edu(하천의 범람, 지하수 유출) 및 수메르어 id(강, 수로)와의 비교언어학적 연관성이 유력하여 '지하수류/용천수'의 의미를 지닙니다. 시제·상(aspect) 측면에서 yiqtol(יַעֲלֶה)과 후속 weqatal(וְהִשְׁקָה) 구조는 비완결적 지속 또는 반복적 과거('규칙적으로 솟아올라 적시곤 했다')를 나타냅니다.",
+          "counterargument_ko": "욥기 36:27에서 אֵד가 비구름/증기와 연관되어 쓰이는 용례를 근거로, 고대 근동 비교언어학적 지하수류 차용설 대신 강우 순환 이전의 '대기 중 안개/수증기'로 번역해야 한다는 주장이 존재합니다.",
+          "current_opinion_ko": "창세기 2장 5절의 '비가 내리지 않았고 경작할 사람도 없었다'는 결핍 진술 직후 땅을 적시는 주 수원이 지하로부터 솟아난다는 점(아카드어 edu 연관)에서 '지하수류/용천수' 또는 최소한 이를 포괄하는 지속적 공급류로 이해하는 것이 문맥상 가장 타당합니다.",
+          "reconsider_if_ko": "고대 서북셈어 비문(우가릿어, 페니키아어 등)에서 אד 계열 어근이 지하 수류와 무관하게 순수하게 대기성 응결 수증기만을 지칭한다는 명확한 동시대 용례가 확증될 경우 재고할 수 있습니다."
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "execution": {
+            "provider": "OpenAI Codex",
+            "identity_basis": "Configured Codex model label; immutable backend snapshot not exposed",
+            "date": "2026-10-24",
+            "independence": "Hebrew-only drafting before viewing Gemini and existing Claude cloud proposals for these five verses."
+          },
+          "id": "HYB.GEN.002.006",
+          "translations": {
+            "ko": "그런데 물안개가 땅에서 올라와 땅의 온 표면을 적시곤 했다.",
+            "en": "But a mist would rise from the earth and water the whole surface of the ground.",
+            "es": "Pero una neblina subía de la tierra y regaba toda la superficie del suelo."
+          },
+          "basis": "Pinned MT-WLC display; no independent manuscript collation",
+          "reason_ko": "עלה와 이어지는 השקָה를 반복적 배경으로 읽고 אד를 물안개로 현재 선택한다.",
+          "counterargument_ko": "אד를 지하에서 솟는 물이나 흐름으로 이해하는 대안이 있다. 이 낱말만으로 지질·기상 체계를 확정하지 않는다.",
+          "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+          "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다."
+        }
+      ],
+      "model_final_opinions": {
+        "claude-opus-5-5": {
+          "stage": "claude-code-genesis2-cont.round1",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "'물기[안개 또는 물줄기]가 ~ 적시곤 하였다'를 잠정안으로 제시한다. 단어 의미와 동사상 모두 불확실성을 각주로 명시해야 한다."
+        },
+        "gemini-3.8-flash-medium": {
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "주인님, 본문의 현재 선택 번역(물줄기/flow of water/corriente de agua)에 동의합니다. 이전에 제가 칠십인역(LXX) 독법으로 ὀμίχλη(안개)를 언급했던 오류를 명확히 인정하고 정정합니다. 편집자가 확인한 BiblIndex 디지털 표시문은 πηγὴ(샘/물줄기)이며, ὀμίχλη는 심마쿠스(Symmachus) 등 다른 역본 계열의 독법과 혼동된 주장임을 바로잡습니다. 다만 이 확인이 LXX 전체 사본 전승이나 원작자 자필본을 재구성하거나 히브리어 'אֵד'(에드)의 최종적 어의를 확정하는 것은 아니며, 검증되지 않은 아카드어·수메르어 어원론이나 고정된 지하수 지질 구조 가설을 번역 본문에 투사하지 않고 각주 영역으로 남겨둔 편집 방침이 타당합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "본문 수정 불필요. 이전의 잘못된 LXX ὀμίχλη 인용 주장을 철회하고 πηγὴ 확인 사실을 기록에 반영함."
+        },
+        "gpt-6.1-sol": {
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "초기 GPT의 물안개를 물줄기로 수정한다. Gemini의 LXX ὀμίχλη 주장은 확인한 디지털 본문의 πηγή와 달라 채택하지 않는다. 아카드어·수메르어 어원 주장은 이 검토에서 검증하지 않았으며, 모델 다수결로 어의를 확정하지 않는다. Gemini 최종 응답이 새로 제시한 심마쿠스 독법 귀속도 이 작업에서 확인하지 않아 채택 근거로 사용하지 않는다."
+        }
+      },
+      "model_opinion_history": [
+        {
+          "model": "claude-opus-5-5",
+          "stage": "claude-code-genesis2-cont.round1",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "'물기[안개 또는 물줄기]가 ~ 적시곤 하였다'를 잠정안으로 제시한다. 단어 의미와 동사상 모두 불확실성을 각주로 명시해야 한다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round1",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "창세기 2장 5절의 '비가 내리지 않았고 경작할 사람도 없었다'는 결핍 진술 직후 땅을 적시는 주 수원이 지하로부터 솟아난다는 점(아카드어 edu 연관)에서 '지하수류/용천수' 또는 최소한 이를 포괄하는 지속적 공급류로 이해하는 것이 문맥상 가장 타당합니다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "주인님, 본문의 현재 선택 번역(물줄기/flow of water/corriente de agua)에 동의합니다. 이전에 제가 칠십인역(LXX) 독법으로 ὀμίχλη(안개)를 언급했던 오류를 명확히 인정하고 정정합니다. 편집자가 확인한 BiblIndex 디지털 표시문은 πηγὴ(샘/물줄기)이며, ὀμίχλη는 심마쿠스(Symmachus) 등 다른 역본 계열의 독법과 혼동된 주장임을 바로잡습니다. 다만 이 확인이 LXX 전체 사본 전승이나 원작자 자필본을 재구성하거나 히브리어 'אֵד'(에드)의 최종적 어의를 확정하는 것은 아니며, 검증되지 않은 아카드어·수메르어 어원론이나 고정된 지하수 지질 구조 가설을 번역 본문에 투사하지 않고 각주 영역으로 남겨둔 편집 방침이 타당합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "본문 수정 불필요. 이전의 잘못된 LXX ὀμίχλη 인용 주장을 철회하고 πηγὴ 확인 사실을 기록에 반영함."
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.006",
+          "final_opinion_ko": "초기 GPT의 물안개를 물줄기로 수정한다. Gemini의 LXX ὀμίχλη 주장은 확인한 디지털 본문의 πηγή와 달라 채택하지 않는다. 아카드어·수메르어 어원 주장은 이 검토에서 검증하지 않았으며, 모델 다수결로 어의를 확정하지 않는다. Gemini 최종 응답이 새로 제시한 심마쿠스 독법 귀속도 이 작업에서 확인하지 않아 채택 근거로 사용하지 않는다."
+        }
+      ],
+      "previous_editions": []
+    },
+    "HYB.GEN.002.007": {
+      "selection": {
+        "id": "HYB.GEN.002.007",
+        "translations": {
+          "ko": "야훼 하나님께서는 땅의 흙먼지로 그 사람을 빚으시고, 그의 콧구멍에 생명의 숨을 불어넣으셨다. 그러자 그 사람이 살아 있는 존재가 되었다.",
+          "en": "Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.",
+          "es": "Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente."
+        },
+        "basis": "Pinned MT-WLC display; no independent manuscript collation",
+        "reason_ko": "먼지의 출처와 콧구멍·생명의 숨·살아 있는 존재가 됨을 보존한다. נפש חיה를 살아 있는 존재로 옮긴다.",
+        "counterargument_ko": "영혼이라는 전통적 번역은 별도 실체를 주입할 수 있다. 이 절만으로 영혼의 존재 여부나 인간론을 확정하지도 않는다. אדם/אדמה 말놀이는 세 언어에 완전 재현되지 않는다.",
+        "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+        "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다.",
+        "final_opinion_ko": "살아 있는 존재가 되었다라는 구문을 보존한다. 인간이 영혼을 받았다는 해석도 영혼이 없다는 해석도 번역문에 확정하지 않는다. 관사 유무만으로 고유명사 여부를 기계적으로 결정하지 않는다.",
+        "version": "0.4.1",
+        "selection_status": "current_best_provisional",
+        "additional_review_status": "공식 Claude Code CLI가 도구 없이 제공된 원문을 검토했다. CLI modelUsage canonicalModel: claude-opus-5-5. 고정 백엔드 스냅샷은 노출되지 않았다."
+      },
+      "model_proposals": [
+        {
+          "model": "claude-opus-5-5",
+          "execution": {
+            "provider": "Claude Code official CLI, authenticated included account",
+            "identity_basis": "CLI modelUsage canonicalModel claude-opus-5-5; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "mode": "read-only prompt; tools disabled",
+            "model_usage": {
+              "claude-opus-5-5": {
+                "inputTokens": 2,
+                "outputTokens": 5075,
+                "cacheReadInputTokens": 649,
+                "cacheCreationInputTokens": 5962,
+                "webSearchRequests": 0,
+                "costUSD": 0.1493338,
+                "contextWindow": 1000000,
+                "maxOutputTokens": 128000,
+                "thinkingTokens": 1124,
+                "canonicalModel": "claude-opus-5-5",
+                "provider": "firstParty",
+                "costBasis": "list"
+              }
+            },
+            "cost_caveat": "List-price accounting is not proof of a new cash charge or native cloud-credit debit."
+          },
+          "id": "HYB.GEN.002.007",
+          "translations": {
+            "ko": "야훼 하나님이 땅[아다마]의 흙으로 사람[아담]을 빚으시고, 그의 콧구멍에 생명의 숨을 불어넣으시니, 사람이 살아 있는 존재가 되었다.",
+            "en": "Then the LORD God formed the human, dust from the ground, and breathed into his nostrils the breath of life, and the human became a living being.",
+            "es": "Entonces el SEÑOR Dios formó al ser humano, polvo del suelo, y sopló en su nariz aliento de vida, y el ser humano llegó a ser un ser viviente."
+          },
+          "basis": "וַיִּיצֶר (Qal wayyiqtol, '빚다/형성하다') + אֶת־הָאָדָם + עָפָר (무관사 명사, 재료의 대격으로 해석) + מִן־הָאֲדָמָה; וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים; וַיְהִי הָאָדָם לְנֶפֶשׁ חַיָּה (הָיָה + לְ = '~이 되다').",
+          "reason_ko": "wayyiqtol 연쇄로 서사 전진이 시작된다. יָצַר는 토기장이가 모양을 빚는 이미지와 겹치므로 '빚다'를 택했다. הָאָדָם / הָאֲדָמָה의 소리 유사성은 번역으로 살리기 어려워 한국어에서 괄호로 음역을 병기했다. נֶפֶשׁ חַיָּה는 창세기 1장에서 동물에게도 쓰인 표현이므로 '영혼'이 아니라 '살아 있는 존재/생명체'로 옮겼다. 이 번역은 인간이 몸과 별도의 영혼을 '받았다'는 이원론도, 영혼이 없다는 일원론도 본문에서 확정하지 않으려는 의도이다. 사람은 '네페쉬를 가진' 것이 아니라 '네페쉬가 되었다'는 문법만 보고한다.",
+          "counterargument_ko": "נִשְׁמַת חַיִּים를 하나님이 직접 불어넣은 점에서 인간의 특별한 지위를 강조하는 해석이 있고, 이를 근거로 '생령(living soul)' 같은 전통 번역을 유지해야 한다는 주장도 있다. 또 עָפָר를 '흙덩이/먼지' 중 어느 쪽으로 할지, 대격 구문을 '흙으로'와 '흙인 채로' 중 어떻게 풀지도 해석의 여지가 있다. 영어 'his'는 히브리어 3인칭 남성 접미사의 문법을 반영할 뿐 성별 신학을 주장하지 않는다.",
+          "current_opinion_ko": "'살아 있는 존재'가 원문 표현의 범위(동물과 공유되는 어구)를 가장 덜 왜곡한다. 인간의 특수성은 '하나님이 직접 숨을 불어넣으심'이라는 행위 서술에서 드러나게 두고, 인간학적 결론은 해설 영역으로 분리한다.",
+          "reconsider_if_ko": "편집 원칙상 전통 용어('생령')와의 연속성을 우선하기로 결정하거나, 독자층 검토에서 '존재'가 지나치게 추상적으로 읽힌다는 피드백이 있을 경우.",
+          "final_opinion_ko": "'생명의 숨'과 '살아 있는 존재'를 잠정안으로 둔다. 영육 이원론/일원론 논쟁은 번역에서 결정하지 않고 각주에서 '해석'으로 구분해 다룬다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "execution": {
+            "provider": "Antigravity official agy CLI",
+            "requested_model_id": "gemini-3.8-flash-medium",
+            "identity_basis": "CLI init event model; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "conversation_id": "fc89eebd-18cd-4f2c-9372-89be4de8365e",
+            "usage": {
+              "input_tokens": 15468,
+              "output_tokens": 5562,
+              "thinking_tokens": 1920,
+              "cache_read_tokens": 0,
+              "total_tokens": 21030
+            },
+            "independence": "Source-only draft, other model proposals withheld."
+          },
+          "id": "HYB.GEN.002.007",
+          "translations": {
+            "ko": "야훼 하느님께서 땅의 흙으로 사람을 빚으시고 그의 콧구멍에 생명의 숨을 불어넣으시니, 사람이 살아 숨 쉬는 생명체(네페쉬 하야)가 되었다.",
+            "en": "Then Yahweh God formed the human of dust from the ground and breathed into his nostrils the breath of life, and the human became a living creature.",
+            "es": "Entonces Yahveh Dios formó al ser humano del polvo del suelo e insufló en sus narices aliento de vida, y el ser humano llegó a ser una criatura viviente."
+          },
+          "basis": "연속 와우 미완료(wayyiqtol) וַיִּיצֶר(wayyiser) + 전치사구 עָפָר מִן־הָאֲדָמָה + נִשְׁמַת חַיִּים + 전치사 l-를 동반한 וַיְהִי... לְנֶפֶשׁ חַיָּה(wayhi... l-nefesh hayyah).",
+          "reason_ko": "נֶפֶשׁ חַיָּה(nefesh hayyah)는 후대 헬레니즘 철학이나 데카르트식 실체 이원론(육체와 분리된 영혼/soul)을 가리키지 않습니다. 창세기 1장 20, 24절 및 2장 19절에서 동물들에게 동일하게 적용된 표현으로, 독립된 영적 실체가 아니라 '호흡하며 생명 활동을 영위하는 전체 유기체/살아있는 생명체'를 의미합니다. 물질(흙)과 호흡(니쉬마트 하임)의 결합을 통해 생명적 총체(nefesh)가 성립함을 직역해야 합니다.",
+          "counterargument_ko": "교의학적 인간론 및 70인역(ψυχὴν ζῶσαν), 불가타(animam viventem) 전통을 따라 '생령(영적 불멸의 영혼)'으로 번역해야 인간이 동물과 구별되는 고유한 영적 존재임을 드러낼 수 있다는 교리적 반론이 있습니다.",
+          "current_opinion_ko": "원문 문맥과 어휘론적 용례에 충실할 때, 히브리어 본문 자체는 이 구절에서 비물질적 영혼의 주입을 논하는 것이 아니므로 '살아있는 생명체/생물'로 옮기는 것이 성경 텍스트의 투명성을 지키는 번역입니다.",
+          "reconsider_if_ko": "고대 히브리어 초기 텍스트에서 נפש가 신체와 완전 분리 가능한 비물질적 실체로 명백히 정의된 언어학적 통시 증거가 제시될 경우 재검토될 수 있습니다."
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "execution": {
+            "provider": "OpenAI Codex",
+            "identity_basis": "Configured Codex model label; immutable backend snapshot not exposed",
+            "date": "2026-10-24",
+            "independence": "Hebrew-only drafting before viewing Gemini and existing Claude cloud proposals for these five verses."
+          },
+          "id": "HYB.GEN.002.007",
+          "translations": {
+            "ko": "야훼 하나님께서는 땅의 흙먼지로 그 사람을 빚으시고, 그의 콧구멍에 생명의 숨을 불어넣으셨다. 그러자 그 사람이 살아 있는 존재가 되었다.",
+            "en": "Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.",
+            "es": "Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente."
+          },
+          "basis": "Pinned MT-WLC display; no independent manuscript collation",
+          "reason_ko": "먼지의 출처와 콧구멍·생명의 숨·살아 있는 존재가 됨을 보존한다. נפש חיה를 살아 있는 존재로 옮긴다.",
+          "counterargument_ko": "영혼이라는 전통적 번역은 별도 실체를 주입할 수 있다. 이 절만으로 영혼의 존재 여부나 인간론을 확정하지도 않는다. אדם/אדמה 말놀이는 세 언어에 완전 재현되지 않는다.",
+          "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+          "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다."
+        }
+      ],
+      "model_final_opinions": {
+        "claude-opus-5-5": {
+          "stage": "claude-code-genesis2-cont.round1",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "'생명의 숨'과 '살아 있는 존재'를 잠정안으로 둔다. 영육 이원론/일원론 논쟁은 번역에서 결정하지 않고 각주에서 '해석'으로 구분해 다룬다."
+        },
+        "gemini-3.8-flash-medium": {
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "주인님, '땅의 흙먼지', '콧구멍에 생명의 숨', '살아 있는 존재(נֶפֶשׁ חַיָּה)'의 직역적 표현을 살린 3개 언어 선택 번역에 온전히 동의합니다. 실체 이원론이나 영혼 불멸설, 혹은 역으로 유물론적 일원론 중 어느 한쪽 교리를 단정하여 강제하지 않고 히브리어 구문 그대로 '살아 있는 존재가 되었다'로 절제한 처리가 정확합니다. '아담(הָאָדָם)'과 '아다마(הָאֲדָמָה)'의 언어유희는 각주에서 다루고, 본문에서는 기계적 고유명사 전환을 지양한 접근을 지지합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        "gpt-6.1-sol": {
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "살아 있는 존재가 되었다라는 구문을 보존한다. 인간이 영혼을 받았다는 해석도 영혼이 없다는 해석도 번역문에 확정하지 않는다. 관사 유무만으로 고유명사 여부를 기계적으로 결정하지 않는다."
+        }
+      },
+      "model_opinion_history": [
+        {
+          "model": "claude-opus-5-5",
+          "stage": "claude-code-genesis2-cont.round1",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "'생명의 숨'과 '살아 있는 존재'를 잠정안으로 둔다. 영육 이원론/일원론 논쟁은 번역에서 결정하지 않고 각주에서 '해석'으로 구분해 다룬다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round1",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "원문 문맥과 어휘론적 용례에 충실할 때, 히브리어 본문 자체는 이 구절에서 비물질적 영혼의 주입을 논하는 것이 아니므로 '살아있는 생명체/생물'로 옮기는 것이 성경 텍스트의 투명성을 지키는 번역입니다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "주인님, '땅의 흙먼지', '콧구멍에 생명의 숨', '살아 있는 존재(נֶפֶשׁ חַיָּה)'의 직역적 표현을 살린 3개 언어 선택 번역에 온전히 동의합니다. 실체 이원론이나 영혼 불멸설, 혹은 역으로 유물론적 일원론 중 어느 한쪽 교리를 단정하여 강제하지 않고 히브리어 구문 그대로 '살아 있는 존재가 되었다'로 절제한 처리가 정확합니다. '아담(הָאָדָם)'과 '아다마(הָאֲדָמָה)'의 언어유희는 각주에서 다루고, 본문에서는 기계적 고유명사 전환을 지양한 접근을 지지합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.007",
+          "final_opinion_ko": "살아 있는 존재가 되었다라는 구문을 보존한다. 인간이 영혼을 받았다는 해석도 영혼이 없다는 해석도 번역문에 확정하지 않는다. 관사 유무만으로 고유명사 여부를 기계적으로 결정하지 않는다."
+        }
+      ],
+      "previous_editions": []
+    },
+    "HYB.GEN.002.008": {
+      "selection": {
+        "id": "HYB.GEN.002.008",
+        "translations": {
+          "ko": "야훼 하나님께서는 동쪽 에덴에 동산을 심으시고, 자신이 빚으신 그 사람을 거기에 두셨다.",
+          "en": "Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.",
+          "es": "Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado."
+        },
+        "basis": "Pinned MT-WLC display; no independent manuscript collation",
+        "reason_ko": "נטע의 동산 식재와 מקדם의 공간 방향을 현재 선택한다. 에덴 안의 동산과 에덴 자체를 같은 이름으로 합치지 않는다.",
+        "counterargument_ko": "מקדם은 문맥에 따라 오래전부터라는 시간 해석도 가능하다. 동쪽의 기준 위치는 이 절에서 확정되지 않으며 현대 지도에 좌표를 부여하지 않는다.",
+        "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+        "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다.",
+        "final_opinion_ko": "נטע를 드러내도록 가꾸시고를 심으시고로 수정하고 공간적 동쪽을 선택한다. 가나안이라는 기준점이나 고대 역본 전체의 독법은 검증 없이 확정하지 않는다.",
+        "version": "0.4.1",
+        "selection_status": "current_best_provisional",
+        "additional_review_status": "공식 Claude Code CLI가 도구 없이 제공된 원문을 검토했다. CLI modelUsage canonicalModel: claude-opus-5-5. 고정 백엔드 스냅샷은 노출되지 않았다."
+      },
+      "model_proposals": [
+        {
+          "model": "claude-opus-5-5",
+          "execution": {
+            "provider": "Claude Code official CLI, authenticated included account",
+            "identity_basis": "CLI modelUsage canonicalModel claude-opus-5-5; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "mode": "read-only prompt; tools disabled",
+            "model_usage": {
+              "claude-opus-5-5": {
+                "inputTokens": 2,
+                "outputTokens": 5075,
+                "cacheReadInputTokens": 649,
+                "cacheCreationInputTokens": 5962,
+                "webSearchRequests": 0,
+                "costUSD": 0.1493338,
+                "contextWindow": 1000000,
+                "maxOutputTokens": 128000,
+                "thinkingTokens": 1124,
+                "canonicalModel": "claude-opus-5-5",
+                "provider": "firstParty",
+                "costBasis": "list"
+              }
+            },
+            "cost_caveat": "List-price accounting is not proof of a new cash charge or native cloud-credit debit."
+          },
+          "id": "HYB.GEN.002.008",
+          "translations": {
+            "ko": "야훼 하나님이 동쪽[또는: 태초에] 에덴에 동산을 일구시고, 빚으신 사람을 그곳에 두셨다.",
+            "en": "And the LORD God planted a garden in Eden, in the east [or: long ago], and there he put the human whom he had formed.",
+            "es": "Y el SEÑOR Dios plantó un huerto en Edén, al oriente [o: desde antiguo], y puso allí al ser humano que había formado."
+          },
+          "basis": "וַיִּטַּע (Qal wayyiqtol, '심다') + גַּן־בְּעֵדֶן + מִקֶּדֶם (מִן + קֶדֶם) + וַיָּשֶׂם שָׁם + אֶת־הָאָדָם אֲשֶׁר יָצָר (Qal qatal, 앞선 동작을 가리키는 과거완료적 기능).",
+          "reason_ko": "קֶדֶם은 '앞/동쪽'과 '이전/옛적'을 모두 뜻할 수 있다. 여기서는 장소 표현(בְּעֵדֶן, שָׁם)과 나란히 있어 공간적 '동쪽'이 더 자연스럽다고 보았다. מִן은 방향 표현에서 '~에서'가 아니라 기준점에서 본 위치('동쪽에')를 나타낼 수 있다. 다만 무엇을 기준으로 한 동쪽인지는 본문이 밝히지 않는다. עֵדֶן은 고유명사로 표기되어 있으나 '기쁨/풍요'와의 연상 가능성이 논의된다. 지리적 위치는 확정하지 않는다.",
+          "counterargument_ko": "מִקֶּדֶם을 시간적으로 '태초부터/미리' 읽어, 사람을 빚기 전에 동산이 이미 준비되었다는 뜻으로 보는 전통 해석도 있다. 이 해석은 서사 순서(빚음 → 심음 → 둠)와 다소 긴장되지만 불가능하지 않다. 또 '동산을 일구다'보다 '심다'가 동사 의미에 더 직접적이라는 반론도 있다.",
+          "current_opinion_ko": "공간적 '동쪽'을 본문에, 시간적 '옛적에/미리'를 대안 각주로 두는 것이 문맥상 가장 균형 있다. 에덴의 실제 위치나 지리는 주장하지 않는다.",
+          "reconsider_if_ko": "창세기 내 다른 קֶדֶם 용례(예: 3:24, 11:2 주변 문맥)의 체계적 비교에서 시간적 용법이 이 구문 유형에 더 우세하다고 확인될 경우.",
+          "final_opinion_ko": "'동쪽 에덴에 동산을'을 잠정안으로 제시하고 시간적 대안을 병기한다. 한국어 '일구시고'는 '심으시고'로 바꿔도 무방하며 편집 단계에서 결정할 문제다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "execution": {
+            "provider": "Antigravity official agy CLI",
+            "requested_model_id": "gemini-3.8-flash-medium",
+            "identity_basis": "CLI init event model; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "conversation_id": "fc89eebd-18cd-4f2c-9372-89be4de8365e",
+            "usage": {
+              "input_tokens": 15468,
+              "output_tokens": 5562,
+              "thinking_tokens": 1920,
+              "cache_read_tokens": 0,
+              "total_tokens": 21030
+            },
+            "independence": "Source-only draft, other model proposals withheld."
+          },
+          "id": "HYB.GEN.002.008",
+          "translations": {
+            "ko": "야훼 하느님께서 동방의 에덴에 동산을 일구시고, 빚으신 그 사람을 거기에 두셨다.",
+            "en": "And Yahweh God planted a garden in Eden, in the east (or from ancient times), and there he placed the human whom he had formed.",
+            "es": "Y Yahveh Dios plantó un jardín en Edén, al oriente (o desde la antigüedad), y puso allí al ser humano que había formado."
+          },
+          "basis": "연속 와우 미완료 וַיִּטַּע(wayyitta) + 명사구 גַּן־בְעֵדֶן + מִקֶּדֶם(miqqedem, 전치사 min + qedem).",
+          "reason_ko": "מִקֶּדֶם(miqqedem)은 공간적 의미('동쪽으로/동방에')와 시간적 의미('태초부터/옛적에')를 모두 내포하는 다의적 어휘입니다. 70인역은 κατὰ ἀνατολάς(동방으로), 불가타는 a principio(태초에)로 엇갈립니다. 지리적 서사 흐름상 화자/관찰자의 지리적 기준점(가나안)에서 동쪽을 가리키는 공간적 번역이 우선시되나, 신화적 태고성을 함축하는 시간적 대안도 배제할 수 없습니다.",
+          "counterargument_ko": "고대 셈족 세계관에서 קדם(qedem)은 앞/동쪽과 시간적 시원을 분리하지 않으므로, 창조의 태초적 시간성을 강조하여 '태초에/옛적에 에덴에 동산을 두셨다'로 번역해야 한다는 견해가 있습니다.",
+          "current_opinion_ko": "2장 10-14절에서 구체적인 하천 지리(티그리스, 유프라테스 등)가 연결되어 지리적 좌표를 제시하는 맥락이므로 공간적 '동방에(동쪽에)'를 1차적 번역으로 유지하되 다의성을 각주로 병기하는 것이 타당합니다.",
+          "reconsider_if_ko": "창세기 2장의 동산 조성 서사가 지리적 서술이 아닌 완전한 순수 원형적 시간(primordial time) 표기 문법 관용구로만 기능한다는 확정적 텍스트 증거가 발견될 경우 시간적 번역을 우선으로 전환할 수 있습니다."
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "execution": {
+            "provider": "OpenAI Codex",
+            "identity_basis": "Configured Codex model label; immutable backend snapshot not exposed",
+            "date": "2026-10-24",
+            "independence": "Hebrew-only drafting before viewing Gemini and existing Claude cloud proposals for these five verses."
+          },
+          "id": "HYB.GEN.002.008",
+          "translations": {
+            "ko": "야훼 하나님께서는 동쪽 에덴에 동산을 가꾸시고, 자신이 빚으신 그 사람을 거기에 두셨다.",
+            "en": "Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.",
+            "es": "Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado."
+          },
+          "basis": "Pinned MT-WLC display; no independent manuscript collation",
+          "reason_ko": "נטע의 동산 식재와 מקדם의 공간 방향을 현재 선택한다. 에덴 안의 동산과 에덴 자체를 같은 이름으로 합치지 않는다.",
+          "counterargument_ko": "מקדם은 문맥에 따라 오래전부터라는 시간 해석도 가능하다. 동쪽의 기준 위치는 이 절에서 확정되지 않으며 현대 지도에 좌표를 부여하지 않는다.",
+          "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+          "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다."
+        }
+      ],
+      "model_final_opinions": {
+        "claude-opus-5-5": {
+          "stage": "claude-code-genesis2-cont.round1",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "'동쪽 에덴에 동산을'을 잠정안으로 제시하고 시간적 대안을 병기한다. 한국어 '일구시고'는 '심으시고'로 바꿔도 무방하며 편집 단계에서 결정할 문제다."
+        },
+        "gemini-3.8-flash-medium": {
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "주인님, '동쪽 에덴에 동산을 심으시고'로 정돈된 번역에 동의합니다. 동사 נָטַע(심다)의 본래 의미를 충실히 드러내었으며, מִקֶּדֶם을 공간적 '동쪽'으로 수용하면서도 특정 지리적 기준점(가나안 등)을 자의적으로 전제하거나 현대 지도 좌표를 부여하지 않는 원칙을 준수했습니다. 에덴과 그 안의 동산을 동일시하지 않고 구별한 점도 본문의 서술 구조와 일치합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        "gpt-6.1-sol": {
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "נטע를 드러내도록 가꾸시고를 심으시고로 수정하고 공간적 동쪽을 선택한다. 가나안이라는 기준점이나 고대 역본 전체의 독법은 검증 없이 확정하지 않는다."
+        }
+      },
+      "model_opinion_history": [
+        {
+          "model": "claude-opus-5-5",
+          "stage": "claude-code-genesis2-cont.round1",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "'동쪽 에덴에 동산을'을 잠정안으로 제시하고 시간적 대안을 병기한다. 한국어 '일구시고'는 '심으시고'로 바꿔도 무방하며 편집 단계에서 결정할 문제다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round1",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "2장 10-14절에서 구체적인 하천 지리(티그리스, 유프라테스 등)가 연결되어 지리적 좌표를 제시하는 맥락이므로 공간적 '동방에(동쪽에)'를 1차적 번역으로 유지하되 다의성을 각주로 병기하는 것이 타당합니다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "주인님, '동쪽 에덴에 동산을 심으시고'로 정돈된 번역에 동의합니다. 동사 נָטַע(심다)의 본래 의미를 충실히 드러내었으며, מִקֶּדֶם을 공간적 '동쪽'으로 수용하면서도 특정 지리적 기준점(가나안 등)을 자의적으로 전제하거나 현대 지도 좌표를 부여하지 않는 원칙을 준수했습니다. 에덴과 그 안의 동산을 동일시하지 않고 구별한 점도 본문의 서술 구조와 일치합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.008",
+          "final_opinion_ko": "נטע를 드러내도록 가꾸시고를 심으시고로 수정하고 공간적 동쪽을 선택한다. 가나안이라는 기준점이나 고대 역본 전체의 독법은 검증 없이 확정하지 않는다."
+        }
+      ],
+      "previous_editions": []
+    },
+    "HYB.GEN.002.009": {
+      "selection": {
+        "id": "HYB.GEN.002.009",
+        "translations": {
+          "ko": "야훼 하나님께서는 보기에 아름답고 먹기에 좋은 모든 나무를 땅에서 자라게 하셨으며, 동산 한가운데의 생명나무와 선과 악을 아는 나무도 자라게 하셨다.",
+          "en": "Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.",
+          "es": "Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal."
+        },
+        "basis": "Pinned MT-WLC display; no independent manuscript collation",
+        "reason_ko": "보기에 좋음과 먹기에 좋음, 두 나무의 이름을 보존한다. 가운데라는 위치는 생명나무에 직접 붙여 옮긴다.",
+        "counterargument_ko": "지식의 선악을 도덕적 판단만으로 한정하거나 모든 지식이라는 총칭으로 풀면 해석이 강해진다. 두 나무 모두 가운데라는 위치가 적용되는지도 구문만으로 과도하게 확정하지 않는다.",
+        "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+        "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다.",
+        "final_opinion_ko": "두 나무를 보존하고 가운데 수식어는 생명나무 바로 뒤에 둔다. 두 나무가 같은 중심에 있거나 다른 나무가 외곽이라는 어느 지리도 확정하지 않는다. 선악의 포괄적·도덕적 해석은 주석에서 열린다.",
+        "version": "0.4.1",
+        "selection_status": "current_best_provisional"
+      },
+      "model_proposals": [
+        {
+          "model": "gemini-3.8-flash-medium",
+          "execution": {
+            "provider": "Antigravity official agy CLI",
+            "requested_model_id": "gemini-3.8-flash-medium",
+            "identity_basis": "CLI init event model; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "conversation_id": "fc89eebd-18cd-4f2c-9372-89be4de8365e",
+            "usage": {
+              "input_tokens": 15468,
+              "output_tokens": 5562,
+              "thinking_tokens": 1920,
+              "cache_read_tokens": 0,
+              "total_tokens": 21030
+            },
+            "independence": "Source-only draft, other model proposals withheld."
+          },
+          "id": "HYB.GEN.002.009",
+          "translations": {
+            "ko": "야훼 하느님께서 보기에 아름답고 먹기에 좋은 온갖 나무를 땅에서 돋아나게 하셨고, 동산 한가운데에는 생명나무와 선악을 알게 하는 나무도 있게 하셨다.",
+            "en": "And out of the ground Yahweh God caused to grow every tree pleasing to the sight and good for food, with the tree of life in the midst of the garden, and the tree of the knowledge of good and evil.",
+            "es": "Y Yahveh Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, y el árbol de la vida en medio del jardín, y el árbol del conocimiento del bien y del mal."
+          },
+          "basis": "사역 동사 וַיַּצְמַח(wayyasmah, Hiphil) + 목적어 כָּל־עֵץ... + 독립 명사구 וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן וְעֵץ הַדַּעַת טוֹב וָרָע.",
+          "reason_ko": "통사적 구조에서 전치사구 בְּתוֹךְ הַגָּן('동산 한가운데/중앙에')의 위치가 문제입니다. 이 수식어가 바로 앞의 '생명나무'만을 수식하는지, 아니면 뒤이어 접속사로 연결되는 '선악을 알게 하는 나무'까지 공통으로 묶어 두 나무 모두가 동산 중앙에 위치하는지를 본문 배열상 엄밀히 확정하기 어렵습니다. 창 3:3에서 여자가 '동산 한가운데 있는 나무'라고 단수로 지칭하는 복합성이 발생합니다.",
+          "counterargument_ko": "통사상 בְּתוֹךְ הַגָּן이 두 명사구(생명나무와 선악나무) 사이에 삽입되어 있으므로 오직 생명나무만이 기하학적 중심에 있고, 선악을 알게 하는 나무는 일반 나무 중 하나로 외곽에 위치한다는 분리 해석이 제기됩니다.",
+          "current_opinion_ko": "히브리어 열거 구문에서 장소 부사구가 앞선 항목 뒤에 붙고 다음 항목이 연결될 때 둘 다 중심 영역을 공유하는 것으로 보는 것이 서사적 긴장(3:3의 금지된 나무 언급)과 조화를 이룹니다. 중립적인 병렬 배치가 최선입니다.",
+          "reconsider_if_ko": "고대 히브리어 등위접속 구조에서 명사구 사이의 전치사구가 후속 명사를 통사적으로 엄격히 배제하는 규칙이 통계언어학적으로 확증될 경우 위치 분리 번역으로 개정해야 합니다."
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "execution": {
+            "provider": "OpenAI Codex",
+            "identity_basis": "Configured Codex model label; immutable backend snapshot not exposed",
+            "date": "2026-10-24",
+            "independence": "Hebrew-only drafting before viewing Gemini and existing Claude cloud proposals for these five verses."
+          },
+          "id": "HYB.GEN.002.009",
+          "translations": {
+            "ko": "야훼 하나님께서는 보기에 아름답고 먹기에 좋은 모든 나무를 땅에서 자라게 하셨다. 동산 한가운데에는 생명나무가 있었고, 선과 악을 아는 나무도 있었다.",
+            "en": "Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.",
+            "es": "Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal."
+          },
+          "basis": "Pinned MT-WLC display; no independent manuscript collation",
+          "reason_ko": "보기에 좋음과 먹기에 좋음, 두 나무의 이름을 보존한다. 가운데라는 위치는 생명나무에 직접 붙여 옮긴다.",
+          "counterargument_ko": "지식의 선악을 도덕적 판단만으로 한정하거나 모든 지식이라는 총칭으로 풀면 해석이 강해진다. 두 나무 모두 가운데라는 위치가 적용되는지도 구문만으로 과도하게 확정하지 않는다.",
+          "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+          "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다."
+        }
+      ],
+      "model_final_opinions": {
+        "gemini-3.8-flash-medium": {
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.009",
+          "final_opinion_ko": "주인님, 모든 나무의 생장과 함께 두 특별한 나무의 명칭을 명확히 보존한 선택 번역에 동의합니다. '동산 한가운데(בְּתוֹךְ הַגָּן)'라는 수식 위치를 생명나무에 직접 연결하고, 두 나무가 기하학적으로 같은 중심점에 나란히 위치하는지 여부를 본문 구문 이상으로 과도하게 규정하지 않은 분별이 탁월합니다. '선과 악을 아는 것'에 대한 도덕적·지적·포괄적 해석의 가능성 역시 본문에 억지 반영하지 않고 주석의 몫으로 남겨둔 점을 전폭 지지합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        "gpt-6.1-sol": {
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.009",
+          "final_opinion_ko": "두 나무를 보존하고 가운데 수식어는 생명나무 바로 뒤에 둔다. 두 나무가 같은 중심에 있거나 다른 나무가 외곽이라는 어느 지리도 확정하지 않는다. 선악의 포괄적·도덕적 해석은 주석에서 열린다."
+        }
+      },
+      "model_opinion_history": [
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round1",
+          "id": "HYB.GEN.002.009",
+          "final_opinion_ko": "히브리어 열거 구문에서 장소 부사구가 앞선 항목 뒤에 붙고 다음 항목이 연결될 때 둘 다 중심 영역을 공유하는 것으로 보는 것이 서사적 긴장(3:3의 금지된 나무 언급)과 조화를 이룹니다. 중립적인 병렬 배치가 최선입니다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.009",
+          "final_opinion_ko": "주인님, 모든 나무의 생장과 함께 두 특별한 나무의 명칭을 명확히 보존한 선택 번역에 동의합니다. '동산 한가운데(בְּתוֹךְ הַגָּן)'라는 수식 위치를 생명나무에 직접 연결하고, 두 나무가 기하학적으로 같은 중심점에 나란히 위치하는지 여부를 본문 구문 이상으로 과도하게 규정하지 않은 분별이 탁월합니다. '선과 악을 아는 것'에 대한 도덕적·지적·포괄적 해석의 가능성 역시 본문에 억지 반영하지 않고 주석의 몫으로 남겨둔 점을 전폭 지지합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.009",
+          "final_opinion_ko": "두 나무를 보존하고 가운데 수식어는 생명나무 바로 뒤에 둔다. 두 나무가 같은 중심에 있거나 다른 나무가 외곽이라는 어느 지리도 확정하지 않는다. 선악의 포괄적·도덕적 해석은 주석에서 열린다."
+        }
+      ],
+      "previous_editions": []
+    },
+    "HYB.GEN.002.010": {
+      "selection": {
+        "id": "HYB.GEN.002.010",
+        "translations": {
+          "ko": "에덴에서 강 하나가 흘러나와 동산에 물을 대고 있었다. 거기에서 갈라져 네 줄기가 되었다.",
+          "en": "A river flowed out of Eden to water the garden; from there it divided into four branches.",
+          "es": "Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos."
+        },
+        "basis": "Pinned MT-WLC display; no independent manuscript collation",
+        "reason_ko": "강의 출발·목적·분기·넷이라는 수를 보존한다. ראשים의 머리를 문맥상 물줄기로 현재 옮긴다.",
+        "counterargument_ko": "네 머리를 원류나 지류로 구체화하면 현대 수계 개념을 덧붙일 수 있다. 이 문장만으로 실제 강들의 합류·분류 지도를 확정하지 않는다.",
+        "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+        "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다.",
+        "final_opinion_ko": "네 줄기/four branches/cuatro brazos를 현재 선택한다. ראשים의 문자적인 머리들과 묘사적 현재의 대안을 보존하며 현대 강 지도를 역산하지 않는다.",
+        "version": "0.4.1",
+        "selection_status": "current_best_provisional"
+      },
+      "model_proposals": [
+        {
+          "model": "gemini-3.8-flash-medium",
+          "execution": {
+            "provider": "Antigravity official agy CLI",
+            "requested_model_id": "gemini-3.8-flash-medium",
+            "identity_basis": "CLI init event model; immutable snapshot not exposed",
+            "date": "2026-10-24",
+            "conversation_id": "fc89eebd-18cd-4f2c-9372-89be4de8365e",
+            "usage": {
+              "input_tokens": 15468,
+              "output_tokens": 5562,
+              "thinking_tokens": 1920,
+              "cache_read_tokens": 0,
+              "total_tokens": 21030
+            },
+            "independence": "Source-only draft, other model proposals withheld."
+          },
+          "id": "HYB.GEN.002.010",
+          "translations": {
+            "ko": "강 하나가 에덴에서 흘러나와 동산을 적시고, 거기서부터 갈라져 네 갈래 원류(또는 지류/본류)가 되었다.",
+            "en": "A river flowed out of Eden to water the garden, and from there it divided and became four headwaters (or river-heads/branches).",
+            "es": "Y un río salía de Edén para regar el jardín, y desde allí se dividía y se convertía en cuatro brazos principales (o cabeceras)."
+          },
+          "basis": "분사 יֹצֵא(yose, 지속적 상태) + 미완료 יִפָּרֵד(yippared, 분기) + 완료 וְהָיָה(wehayah) + 전치사구 לְאַרְבָּעָה רָאשִׁים(l-arba'ah rashim).",
+          "reason_ko": "רָאשִׁים(rashim, 문자적으로 '머리들')의 수문학적 해석 문제입니다. 일반적으로 강은 하류로 가면서 합류하지만, 본문은 단일 강이 에덴에서 나와 4개의 '라쉼'으로 갈라집니다. 이는 강의 발원지들인 '상류/원류(headwaters)'를 뜻하는지, 삼각주처럼 뻗어 나가는 '주요 분류/지류(branches/distributaries)'를 뜻하는지에 대해 학술적 견해가 나뉩니다. 분사 יֹצֵא는 에덴에서 끊임없이 흘러나오는 수원의 지속성을 묘사합니다.",
+          "counterargument_ko": "고대 지리학적 관점에서 רֹאשׁ(rosh)는 시작점/원천(source)을 뜻하므로, 하류로 흐르며 갈라지는 '지류'가 아니라 에덴 자체가 네 개의 거대한 강들이 기원하는 최상류 '원천/발원지들'로 번역해야 한다는 주장이 팽팽합니다.",
+          "current_opinion_ko": "문맥상 강이 에덴을 적신 뒤(하류 방향) '거기서부터 나뉜다(יִפָּרֵד)'고 기술되므로, 물리적 지표상으로는 '주요 분기 하천/갈래들'을 의미하면서도 개념적으로는 세계 4대 강의 '머리/발원축'을 나타내는 다층적 표현입니다. 따라서 원류와 주요 갈래를 아우르는 번역이 적합합니다.",
+          "reconsider_if_ko": "고대 근동 지형학 및 셈어 하천 지명 연구에서 רֹאשׁ 계열 어휘가 분기된 하류 수로를 지칭하는 사례가 전무하고 오직 산악 발원지 샘에만 배타적으로 쓰였음이 입증되면 '원천/발원지'로 고정해야 합니다."
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "execution": {
+            "provider": "OpenAI Codex",
+            "identity_basis": "Configured Codex model label; immutable backend snapshot not exposed",
+            "date": "2026-10-24",
+            "independence": "Hebrew-only drafting before viewing Gemini and existing Claude cloud proposals for these five verses."
+          },
+          "id": "HYB.GEN.002.010",
+          "translations": {
+            "ko": "에덴에서 강 하나가 흘러나와 동산에 물을 대고 있었다. 거기에서 갈라져 네 물줄기가 되었다.",
+            "en": "A river flowed out of Eden to water the garden; from there it divided and became four streams.",
+            "es": "Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro corrientes."
+          },
+          "basis": "Pinned MT-WLC display; no independent manuscript collation",
+          "reason_ko": "강의 출발·목적·분기·넷이라는 수를 보존한다. ראשים의 머리를 문맥상 물줄기로 현재 옮긴다.",
+          "counterargument_ko": "네 머리를 원류나 지류로 구체화하면 현대 수계 개념을 덧붙일 수 있다. 이 문장만으로 실제 강들의 합류·분류 지도를 확정하지 않는다.",
+          "current_opinion_ko": "현재 제안으로 이 번역을 두고 독립 비교와 원문 구문에 비추어 수정한다.",
+          "reconsider_if_ko": "확인된 어휘·문법·사본 근거와 모국어 검토가 더 나은 선택을 제시하면 새 판본에서 수정한다."
+        }
+      ],
+      "model_final_opinions": {
+        "gemini-3.8-flash-medium": {
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.010",
+          "final_opinion_ko": "주인님, 하나의 강이 흘러나와 네 줄기(רָאשִׁים)로 나뉘는 서술을 원문 골격대로 보존한 번역에 동의합니다. '머리들'을 문맥상 물줄기/branches/brazos로 처리하면서도, 이를 고대 근동 수계나 현대 유역 지도의 엄밀한 지류·본류 합류 체계로 무리하게 역산하여 단정하지 않은 점이 본문 비평적 기준에 부합합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        "gpt-6.1-sol": {
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.010",
+          "final_opinion_ko": "네 줄기/four branches/cuatro brazos를 현재 선택한다. ראשים의 문자적인 머리들과 묘사적 현재의 대안을 보존하며 현대 강 지도를 역산하지 않는다."
+        }
+      },
+      "model_opinion_history": [
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round1",
+          "id": "HYB.GEN.002.010",
+          "final_opinion_ko": "문맥상 강이 에덴을 적신 뒤(하류 방향) '거기서부터 나뉜다(יִפָּרֵד)'고 기술되므로, 물리적 지표상으로는 '주요 분기 하천/갈래들'을 의미하면서도 개념적으로는 세계 4대 강의 '머리/발원축'을 나타내는 다층적 표현입니다. 따라서 원류와 주요 갈래를 아우르는 번역이 적합합니다."
+        },
+        {
+          "model": "gemini-3.8-flash-medium",
+          "stage": "gemini-genesis2-cont.round2",
+          "id": "HYB.GEN.002.010",
+          "final_opinion_ko": "주인님, 하나의 강이 흘러나와 네 줄기(רָאשִׁים)로 나뉘는 서술을 원문 골격대로 보존한 번역에 동의합니다. '머리들'을 문맥상 물줄기/branches/brazos로 처리하면서도, 이를 고대 근동 수계나 현대 유역 지도의 엄밀한 지류·본류 합류 체계로 무리하게 역산하여 단정하지 않은 점이 본문 비평적 기준에 부합합니다.",
+          "agrees_with_selection": true,
+          "required_corrections_ko": "없음"
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "stage": "gpt-genesis2-cont.round2",
+          "id": "HYB.GEN.002.010",
+          "final_opinion_ko": "네 줄기/four branches/cuatro brazos를 현재 선택한다. ראשים의 문자적인 머리들과 묘사적 현재의 대안을 보존하며 현대 강 지도를 역산하지 않는다."
         }
       ],
       "previous_editions": []

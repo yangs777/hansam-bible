@@ -58,4 +58,29 @@ class RevisionTests(unittest.TestCase):
         self.assertEqual(old,adopt.read(self.root/f'data/releases/v{self.version}.json')['records'])
         self.assertEqual('TEST.NEW.001',adopt.read(self.root/'data/editorial.json')['passages'][0]['verses'][0]['id'])
 
+    def test_extend_passage_preserves_url_and_previous_collection(self):
+        import copy
+        self.next_decisions()
+        passage=adopt.read(self.root/'data/editorial.json')['passages'][0]
+        verse=copy.deepcopy(passage['verses'][-1]);verse['id']='TEST.APPEND.001'
+        decision=copy.deepcopy(self.decisions['verses'][0]);decision['id']=verse['id']
+        self.decisions['verses'].append(decision)
+        self.decisions['passage_updates']=[{'id':passage['id'],'verses':[verse]}]
+        adopt.save(self.path,self.decisions)
+        old=adopt.read(self.root/'dist/data/hansam-bible.json')['records']
+        with contextlib.redirect_stdout(io.StringIO()):adopt.adopt(self.path,self.next_version)
+        current=adopt.read(self.root/'data/editorial.json')['passages'][0]
+        self.assertEqual(passage['slug'],current['slug'])
+        self.assertEqual([v['id'] for v in passage['verses']]+[verse['id']],[v['id'] for v in current['verses']])
+        self.assertEqual(old,adopt.read(self.root/f'data/releases/v{self.version}.json')['records'])
+
+    def test_extension_cannot_replace_existing_ids_or_urls(self):
+        self.next_decisions()
+        passage=adopt.read(self.root/'data/editorial.json')['passages'][0]
+        for update,error in [({'id':passage['id'],'slug':'changed'},'stable'),
+                             ({'id':passage['id'],'verses':[passage['verses'][0]]},'Duplicate')]:
+            self.decisions['passage_updates']=[update];adopt.save(self.path,self.decisions)
+            with self.assertRaisesRegex(ValueError,error):adopt.adopt(self.path,self.next_version)
+        self.assertEqual(self.version,adopt.read(self.root/'config.json')['version'])
+
 if __name__=='__main__':unittest.main()

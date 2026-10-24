@@ -1,5 +1,5 @@
 """Adopt a new current edition while preserving the superseded verse dataset."""
-import argparse, json, pathlib, re
+import argparse, copy, json, pathlib, re
 
 R = pathlib.Path(__file__).resolve().parents[1]
 def read(path): return json.loads(path.read_text(encoding='utf-8'))
@@ -19,7 +19,17 @@ def adopt(decision_file, version):
     if len(selected)!=len(decisions['verses']): raise ValueError('Duplicate verse decisions')
     previous_verses = [v for p in editorial['passages'] for v in p['verses']]
     additions=decisions.get('new_passages',[])
-    proposed_passages=additions+editorial['passages']
+    proposed_passages=additions+copy.deepcopy(editorial['passages'])
+    updated=set()
+    for update in decisions.get('passage_updates',[]):
+        if set(update)-{'id','verses','reference','title','subtitle','intro','notes','glosses'}:
+            raise ValueError('Unsupported passage update field; IDs and URLs must remain stable')
+        matches=[p for p in proposed_passages if p['id']==update['id']]
+        if len(matches)!=1 or update['id'] in updated:
+            raise ValueError('Passage update must target one existing passage exactly once')
+        updated.add(update['id']); passage=matches[0]
+        passage['verses'].extend(update.get('verses',[]))
+        passage.update({k:v for k,v in update.items() if k not in ('id','verses')})
     verses = [v for p in proposed_passages for v in p['verses']]
     if len({v['id'] for v in verses})!=len(verses): raise ValueError('Duplicate existing/new verse IDs')
     if len(selected) != len(verses) or set(selected) != {v['id'] for v in verses}:
@@ -60,7 +70,7 @@ def adopt(decision_file, version):
             p['basis'] = selected[p['verses'][0]['id']]['basis']
     config['version'] = version
     save(R/'data/editorial.json',editorial); save(R/'config.json',config)
-    save(R/'data/decisions.json', {k:v for k,v in decisions.items() if k!='new_passages'})
+    save(R/'data/decisions.json', {k:v for k,v in decisions.items() if k not in ('new_passages','passage_updates')})
     citation=R/'CITATION.cff'
     if citation.exists():
         citation.write_text(re.sub(r'^version: .+$','version: '+version,citation.read_text(encoding='utf-8'),flags=re.M),encoding='utf-8')

@@ -6,8 +6,24 @@
   "start_within_minutes_of_primary_reset": 100,
   "start_within_minutes_of_weekly_reset": 180,
   "max_batches_per_wakeup": 1,
-  "preference": ["existing free or included CLI quota", "authenticated web quota in small batches", "verified expiring API credit"],
-  "publish_requires": ["exact source and rights", "GPT and Gemini proposals/opinions", "current best selection", "versioned history", "build and provenance checks"],
-  "stop_on": ["quota unavailable", "CAPTCHA or service verification", "explicit usage-limit message", "paid upgrade or new terms", "missing manuscript source"],
+  "preference": [
+    "existing free or included CLI quota",
+    "authenticated web quota in small batches",
+    "verified expiring Claude native cloud-session credit (direct API disabled)"
+  ],
+  "publish_requires": [
+    "exact source and rights",
+    "GPT and Gemini proposals/opinions",
+    "current best selection",
+    "versioned history",
+    "build and provenance checks"
+  ],
+  "stop_on": [
+    "quota unavailable",
+    "CAPTCHA or service verification",
+    "explicit usage-limit message",
+    "paid upgrade or new terms",
+    "missing manuscript source"
+  ],
   "note": "Account quotas are shared. Inspect live limits each wakeup and after a batch; never infer remaining work from a fixed number of tokens. Browser input/output also consumes Codex usage. No artificial activity solely to consume quota."
 }
