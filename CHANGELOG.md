@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.5 — 2026-10-26
+
+- Added Genesis 3:1–5 in Korean, English and Spanish: 71 selected verses / 213 translations overall.
+- Recorded actual GPT/Gemini proposals and final opinions, and Claude Code CLI review (modelUsage claude-opus-5-5) for 3:1, 3:4 and 3:5. Reused five cloud drafts from two completed runs.
+- Preserved speakers and plural addressees; retained alternatives for question/negation scope, the reported touch prohibition, death emphasis and God/divine beings. Source morphology remains distinguishable from contextual translation.
+- Preserved the prior 66 selections, Hebrew layers and v0.4.4 dataset; adoption automatically added the new edition to the public update history.
+
 ## Website update — 2026-10-25
 
 - Added a public update timeline with Korean timestamps, edition history, current coverage, review steps, RSS and JSON feeds, and a read-only public deployment-status check.

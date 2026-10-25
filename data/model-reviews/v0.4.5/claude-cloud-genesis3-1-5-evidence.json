@@ -1,0 +1,411 @@
+{
+  "state": "Five pre-existing unadopted cloud drafts reused from two completed runs; not new independent calls",
+  "runs": [
+    {
+      "manifest": {
+        "branch": "refs/remotes/github/claude/bible-cloud-pilot-g8bkcx",
+        "path": "automation/cloud-runs/20261023T154258Z-a305a9f8.json",
+        "run_id": "20261023T154258Z-a305a9f8",
+        "created_at": "2026-10-23T15:42:58.707794+00:00",
+        "status": "drafted_unadopted_pushed_for_review",
+        "verse_ids": [
+          "Gen.2.1",
+          "Gen.2.2",
+          "Gen.2.3",
+          "Gen.2.4",
+          "Gen.2.5",
+          "Gen.2.6",
+          "Gen.2.7",
+          "Gen.2.8",
+          "Gen.2.9",
+          "Gen.2.10",
+          "Gen.2.11",
+          "Gen.2.12",
+          "Gen.2.13",
+          "Gen.2.14",
+          "Gen.2.15",
+          "Gen.2.16",
+          "Gen.2.17",
+          "Gen.2.19",
+          "Gen.2.20",
+          "Gen.2.21",
+          "Gen.2.22",
+          "Gen.2.23",
+          "Gen.2.24",
+          "Gen.2.25",
+          "Gen.3.1"
+        ],
+        "source_packet": "automation/cloud-packets/20261023T154258Z-a305a9f8.json",
+        "provider": "Claude Code native cloud",
+        "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock",
+        "output": "automation/cloud-drafts/20261023T154258Z-a305a9f8.json",
+        "review_output": "automation/cloud-reviews/20261023T154258Z-a305a9f8-gen1-difficult.json",
+        "model_identity": {
+          "requested_or_configured_model": "claude-opus-5-5",
+          "served_model_reported_by_session_api": "claude-opus-5-5",
+          "identity_basis": "Claude Code remote get_session for this session: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5 at drafting time",
+          "session": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
+          "unavailable": [
+            "dated model snapshot identifier",
+            "per-request token counts",
+            "cost or credit consumption counters",
+            "sampling parameters"
+          ],
+          "note": "A model self-report is not source evidence."
+        },
+        "completed_at": "2026-10-23T15:48:18.202052+00:00",
+        "paid_api_calls": 0
+      },
+      "commit": "00833739afebcd2370ee25c47c2518c02e02a64e",
+      "output_metadata": {
+        "run_id": "20261023T154258Z-a305a9f8",
+        "provider": "Claude Code native cloud",
+        "model_identity": {
+          "requested_or_configured_model": "claude-opus-5-5",
+          "served_model_reported_by_session_api": "claude-opus-5-5",
+          "identity_basis": "Claude Code remote get_session for this session: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5 at drafting time",
+          "session": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
+          "unavailable": [
+            "dated model snapshot identifier",
+            "per-request token counts",
+            "cost or credit consumption counters",
+            "sampling parameters"
+          ],
+          "note": "A model self-report is not source evidence."
+        },
+        "executed_at_utc": "2026-10-23T15:48:18.202052+00:00",
+        "state": "unadopted_model_draft",
+        "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+        "input": {
+          "source_packet": "automation/cloud-packets/20261023T154258Z-a305a9f8.json",
+          "source_packet_sha256": "fb89ed9a0e1fbb88055ba36986e71ab66c0c45303502a5e64084ac0562ddfbe2",
+          "verse_count": 25,
+          "first_id": "Gen.2.1",
+          "last_id": "Gen.3.1",
+          "skipped_in_range": {
+            "Gen.2.18": "deferred_unsupported_readings in automation/source-queue-report.json; not drafted"
+          }
+        },
+        "self_check": {
+          "exact_id_coverage": true,
+          "duplicate_ids": false,
+          "ko_en_es_nonempty": true,
+          "hebrew_provenance_and_rights_attached": true,
+          "no_human_certification_claim": true,
+          "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; ten wording or inter-language issues were corrected before saving (Gen.2.3, 2.8, 2.10, 2.11, 2.12, 2.13, 2.14, 2.19, 2.23, 2.25)",
+          "independent_review": "not performed; GPT and Gemini review remain required",
+          "open_items": [
+            "Gen.2.6 lexical choice for ed is uncertain",
+            "Gen.2.21-22 side versus rib requires editorial decision",
+            "Gen.2.4 and 2.16 leave sentences open across verse boundaries by design",
+            "Gen.2.19 context with deferred Gen.2.18 unchecked"
+          ]
+        },
+        "publication_requires": [
+          "GPT review",
+          "Gemini review",
+          "current best editorial selection",
+          "versioned archive",
+          "publication checks"
+        ]
+      },
+      "verses": [
+        {
+          "id": "Gen.3.1",
+          "translations": {
+            "ko": "뱀은 YHWH 하나님께서 만드신 들의 모든 짐승 가운데 가장 교활하였다. 뱀이 여자에게 말하였다. “정말로 하나님께서 ‘너희는 동산의 어떤 나무에서도 먹지 마라’ 하고 말씀하셨느냐?”",
+            "en": "Now the serpent was more cunning than any animal of the field that YHWH God had made. He said to the woman, “Did God really say, ‘You shall not eat from any tree of the garden’?”",
+            "es": "La serpiente era más astuta que todos los animales del campo que YHWH Dios había hecho. Le dijo a la mujer: «¿Así que Dios dijo: “No coman de ningún árbol del huerto”?»."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "וְהַנָּחָשׁ הָיָה의 주어 선행 구문은 새 장면의 배경 정보이다. עָרוּם은 2:25 עֲרוּמִּים과 말놀이이며 '교활한/영리한' 양가성을 가진다. אַף כִּי는 의문 표지가 없지만 문맥상 놀람·의심을 유도하는 질문으로 옮겼다. 뱀이 YHWH 대신 '하나님'만 쓰는 점을 보존했다.",
+          "counterargument_ko": "אַף כִּי를 의문문이 아닌 미완의 진술('하나님께서 ... 말씀하셨는데도')로 읽어 대화가 중간에서 시작된다는 해석이 있다. מִכֹּל עֵץ ... לֹא는 '모든 나무에서 먹지 마라'(전체 부정)와 '모든 나무에서 먹을 수는 없다'(부분 부정)로 모호하다. עָרוּם을 중립적 '영리한'으로 옮기자는 견해도 있다.",
+          "current_opinion_ko": "의문문 해석이 여자의 2절 응답과 가장 잘 맞는다. 부정 범위의 모호성은 해설에 남긴다.",
+          "reconsider_if_ko": "3:2-5를 처리하면서 대화 구조 전체를 재검토하여 진술 독법이 더 일관적이라고 판단될 경우.",
+          "source_reference": "Gen.3.1",
+          "source_hebrew": "וְהַנָּחָשׁ֙ הָיָ֣ה עָר֔וּם מִכֹּל֙ חַיַּ֣ת הַשָּׂדֶ֔ה אֲשֶׁ֥ר עָשָׂ֖ה יְהוָ֣ה אֱלֹהִ֑ים וַיֹּ֨אמֶר֙ אֶל־הָ֣אִשָּׁ֔ה אַ֚ף כִּֽי־אָמַ֣ר אֱלֹהִ֔ים לֹ֣א תֹֽאכְל֔וּ מִכֹּ֖ל עֵ֥ץ הַגָּֽן׃",
+          "source_hebrew_sha256": "fc7ed667061c78367ea0c2e057962beffd2f7540627b9d8c707f6d6c82ab8258",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "branch": "refs/remotes/github/claude/friendly-heisenberg-o4rtc0",
+        "path": "automation/cloud-runs/20261023T211759Z-ff69750f.json",
+        "run_id": "20261023T211759Z-ff69750f",
+        "created_at": "2026-10-23T21:17:59.736226+00:00",
+        "status": "draft_complete_unadopted",
+        "verse_ids": [
+          "Gen.3.2",
+          "Gen.3.3",
+          "Gen.3.4",
+          "Gen.3.5",
+          "Gen.3.6",
+          "Gen.3.7",
+          "Gen.3.8",
+          "Gen.3.9",
+          "Gen.3.10",
+          "Gen.3.11",
+          "Gen.3.12",
+          "Gen.3.13",
+          "Gen.3.14",
+          "Gen.3.15",
+          "Gen.3.16",
+          "Gen.3.17",
+          "Gen.3.18",
+          "Gen.3.19",
+          "Gen.3.20",
+          "Gen.3.21",
+          "Gen.3.22",
+          "Gen.3.23",
+          "Gen.3.24",
+          "Gen.4.1",
+          "Gen.4.2",
+          "Gen.4.3",
+          "Gen.4.4",
+          "Gen.4.5",
+          "Gen.4.6",
+          "Gen.4.7",
+          "Gen.4.8",
+          "Gen.4.9",
+          "Gen.4.10",
+          "Gen.4.11",
+          "Gen.4.12",
+          "Gen.4.13",
+          "Gen.4.14",
+          "Gen.4.15",
+          "Gen.4.16",
+          "Gen.4.17",
+          "Gen.4.18",
+          "Gen.4.19",
+          "Gen.4.20",
+          "Gen.4.21",
+          "Gen.4.22",
+          "Gen.4.23",
+          "Gen.4.24",
+          "Gen.4.25",
+          "Gen.4.26",
+          "Gen.5.1",
+          "Gen.5.2",
+          "Gen.5.3",
+          "Gen.5.4",
+          "Gen.5.5",
+          "Gen.5.6",
+          "Gen.5.7",
+          "Gen.5.8",
+          "Gen.5.9",
+          "Gen.5.10",
+          "Gen.5.11",
+          "Gen.5.12",
+          "Gen.5.13",
+          "Gen.5.14",
+          "Gen.5.15",
+          "Gen.5.16",
+          "Gen.5.17",
+          "Gen.5.18",
+          "Gen.5.19",
+          "Gen.5.20",
+          "Gen.5.21",
+          "Gen.5.22",
+          "Gen.5.23",
+          "Gen.5.24",
+          "Gen.5.25",
+          "Gen.5.26",
+          "Gen.5.27",
+          "Gen.5.28",
+          "Gen.5.29",
+          "Gen.5.30",
+          "Gen.5.31",
+          "Gen.5.32",
+          "Gen.6.1",
+          "Gen.6.2",
+          "Gen.6.3",
+          "Gen.6.4",
+          "Gen.6.5",
+          "Gen.6.6",
+          "Gen.6.7",
+          "Gen.6.8",
+          "Gen.6.9",
+          "Gen.6.10",
+          "Gen.6.11",
+          "Gen.6.12",
+          "Gen.6.13",
+          "Gen.6.14",
+          "Gen.6.15",
+          "Gen.6.17",
+          "Gen.6.18",
+          "Gen.6.19",
+          "Gen.6.20"
+        ],
+        "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+        "provider": "Claude Code native cloud",
+        "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock",
+        "output": "automation/cloud-drafts/20261023T211759Z-ff69750f.json",
+        "drafted_verse_count": 100,
+        "requested_model": "claude-sonnet-5-5",
+        "independent_review": "not performed"
+      },
+      "commit": "b1f1bc1990730fa7a4365696550a17ed56bf3aa4",
+      "output_metadata": {
+        "run_id": "20261023T211759Z-ff69750f",
+        "provider": "Claude Code native cloud",
+        "model_identity": {
+          "requested_or_configured_model": "claude-sonnet-5-5",
+          "served_model_reported_by_session_api": "not exposed to this session",
+          "identity_basis": "The session system context states the serving model as Sonnet 5.5 (claude-sonnet-5-5); no API call was made to verify the served snapshot. A model self-report is not source evidence.",
+          "session": "https://claude.ai/code/session_01JEwLUdjeMvRfJUufNXpgEA",
+          "unavailable": [
+            "dated model snapshot identifier",
+            "per-request token counts",
+            "cost or credit consumption counters",
+            "sampling parameters"
+          ]
+        },
+        "executed_at_utc": "2026-10-23T21:22:37.249140+00:00",
+        "state": "unadopted_model_draft",
+        "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+        "input": {
+          "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+          "source_packet_sha256": "3796e94a5dd0d8550f257c51275ca269831f73ee5c053000904d143c9b1eda8a",
+          "verse_count": 100,
+          "first_id": "Gen.3.2",
+          "last_id": "Gen.6.20",
+          "skipped_in_range": {
+            "Gen.6.16": "not in source packet (excluded upstream; see automation/source-queue-report.json if listed); not drafted"
+          }
+        },
+        "self_check": {
+          "exact_id_coverage": true,
+          "duplicate_ids": false,
+          "ko_en_es_nonempty": true,
+          "hebrew_provenance_and_rights_attached": true,
+          "no_human_certification_claim": true,
+          "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; corrections made to Gen.3.2, 3.10, 3.11, 3.24, 4.2, 4.13, 4.15, 6.13 and genealogy particles",
+          "default_text_note": "Verses without a verse-specific objection use a shared default for counterargument/opinion/reconsider fields; this means no notable issue was identified by the drafting model, not that none exists.",
+          "genealogy_note": "Gen.5 formulaic verses were produced from a shared template with per-verse numbers and names; numbers follow the MT display, and manuscript number differences were not collated.",
+          "independent_review": "not performed; GPT and Gemini review remain required",
+          "open_items": [
+            "Gen.3.15, 3.16, 4.7, 6.3, 6.4 lexical/syntactic choices uncertain",
+            "Gen.3.19 and 3.22 cross-language register consistency",
+            "Gen.4.8 content of Cain's speech absent in MT display; reported variants not collated",
+            "Gen.5.1 adam as person vs humankind",
+            "Gen.6.16 absent from packet"
+          ]
+        },
+        "publication_requires": [
+          "GPT review",
+          "Gemini review",
+          "current best editorial selection",
+          "versioned archive",
+          "publication checks"
+        ]
+      },
+      "verses": [
+        {
+          "id": "Gen.3.2",
+          "translations": {
+            "ko": "여자가 뱀에게 말하였다. \"동산 나무의 열매는 우리가 먹어도 됩니다.",
+            "en": "The woman said to the serpent, \"We may eat the fruit of the trees of the garden;",
+            "es": "La mujer dijo a la serpiente: «Del fruto de los árboles del huerto podemos comer;"
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "인용이 3절까지 이어지므로 2절 끝에 인용을 닫지 않았다. מִפְּרִי의 מִן은 부분을 뜻하는 용법으로 보았다.",
+          "counterargument_ko": "단수 עֵץ를 집합명사로 보아 \"나무들의 열매\"로 풀었다. 이는 구문 판단이며 이문이 아니다.",
+          "current_opinion_ko": "\"나무들의 열매\"로 잠정 정리하되 3절과 한 인용으로 묶어 읽어야 한다.",
+          "reconsider_if_ko": "3절 연결을 끊는 편집 방침을 택할 경우.",
+          "source_reference": "Gen.3.2",
+          "source_hebrew": "וַתֹּ֥אמֶר הָֽאִשָּׁ֖ה אֶל־הַנָּחָ֑שׁ מִפְּרִ֥י עֵֽץ־הַגָּ֖ן נֹאכֵֽל׃",
+          "source_hebrew_sha256": "d8fccca1b84879b55eb68f68f243d2e789bfac8a225f24cb911d4205b398da40",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.3",
+          "translations": {
+            "ko": "그러나 동산 한가운데 있는 그 나무의 열매에 대해서는 하나님께서 '너희는 그것을 먹지 말고 만지지도 말라. 죽을까 염려된다' 하셨습니다.\"",
+            "en": "but of the fruit of the tree that is in the middle of the garden God said, 'You shall not eat of it, and you shall not touch it, lest you die.'\"",
+            "es": "pero del fruto del árbol que está en medio del huerto dijo Dios: “No comerán de él ni lo tocarán, no sea que mueran”»."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "פֶּן을 \"~하지 않도록/~할까 염려하여\"로 옮겨 경고의 목적절로 살렸다. \"만지다\"는 תִגְּעוּ의 직역이다.",
+          "counterargument_ko": "\"만지지도 말라\"는 2:16-17에 없는 말이어서 여자의 가감이라는 해석과 단순 강조라는 해석이 갈린다. 이는 해석 문제이며 본문 이문이 아니다.",
+          "current_opinion_ko": "원문대로 옮기고 가감 여부는 번역에 반영하지 않는다.",
+          "reconsider_if_ko": "편집부가 \"가감\" 해석 주석을 본문에 반영하기로 할 경우.",
+          "source_reference": "Gen.3.3",
+          "source_hebrew": "וּמִפְּרִ֣י הָעֵץ֮ אֲשֶׁ֣ר בְּתוֹךְ־הַגָּן֒ אָמַ֣ר אֱלֹהִ֗ים לֹ֤א תֹֽאכְלוּ֙ מִמֶּ֔נּוּ וְלֹ֥א תִגְּע֖וּ בּ֑וֹ פֶּן־תְּמֻתֽוּן׃",
+          "source_hebrew_sha256": "fce0259c0df82ef608b59013ed28573dc4717f35ccefb7f744f83eb48810492d",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.4",
+          "translations": {
+            "ko": "뱀이 여자에게 말하였다. \"결코 죽지 않을 것이다.",
+            "en": "The serpent said to the woman, \"You will surely not die;",
+            "es": "La serpiente dijo a la mujer: «De ningún modo morirán;"
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "לֹא מוֹת תְּמֻתוּן은 부정사 절대형을 부정한 강한 부정으로 \"결코 ~않는다\"로 옮겼다.",
+          "counterargument_ko": "\"죽음이 필연은 아니다\"로 약화하거나 질문형으로 읽을 여지가 있으나 평서 부정이 자연스럽다.",
+          "current_opinion_ko": "강한 부정 평서로 둔다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.3.4",
+          "source_hebrew": "וַיֹּ֥אמֶר הַנָּחָ֖שׁ אֶל־הָֽאִשָּׁ֑ה לֹֽא־מ֖וֹת תְּמֻתֽוּן׃",
+          "source_hebrew_sha256": "84a3d56d09917777c325751599317b47942ce982eafd0ac3c4401d0349be9d9c",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.5",
+          "translations": {
+            "ko": "하나님은 아신다. 너희가 그것을 먹는 날에 너희 눈이 열리고 너희가 하나님처럼 되어 선과 악을 알게 될 것을.",
+            "en": "for God knows that in the day you eat of it your eyes will be opened, and you will be like God, knowing good and evil.\"",
+            "es": "pues Dios sabe que el día que coman de él se les abrirán los ojos y serán como Dios, conocedores del bien y del mal»."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "כאלהים의 복수 여부는 문맥상 \"하나님처럼\"과 \"신들처럼\" 모두 가능하나 앞 구절의 단수 동사 흐름을 따라 \"하나님처럼\"을 택했다.",
+          "counterargument_ko": "\"신들처럼\"으로 읽는 견해가 있고 \"선악을 아는\"이 도덕 인식인지 전지(全知)를 뜻하는지도 갈린다.",
+          "current_opinion_ko": "\"하나님처럼\"을 택하되 대안을 주석에 병기한다.",
+          "reconsider_if_ko": "\"신들\"을 편집부가 택할 경우.",
+          "source_reference": "Gen.3.5",
+          "source_hebrew": "כִּ֚י יֹדֵ֣עַ אֱלֹהִ֔ים כִּ֗י בְּיוֹם֙ אֲכָלְכֶ֣ם מִמֶּ֔נּוּ וְנִפְקְח֖וּ עֵֽינֵיכֶ֑ם וִהְיִיתֶם֙ כֵּֽאלֹהִ֔ים יֹדְעֵ֖י ט֥וֹב וָרָֽע׃",
+          "source_hebrew_sha256": "07db05c490912a9f98da33fcd4b49283b51d8e300bf2aae9d0aad28b6444e385",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        }
+      ]
+    }
+  ]
+}
