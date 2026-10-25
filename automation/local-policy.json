@@ -6,6 +6,24 @@
   "start_within_minutes_of_primary_reset": 100,
   "start_within_minutes_of_weekly_reset": 180,
   "max_batches_per_wakeup": 1,
+  "reset_planner": {
+    "enabled": true,
+    "notice_check_hours": 6,
+    "automatic_reset_lead_minutes": 100,
+    "banked_expiry_work_hours": 48,
+    "banked_expiry_attention_hours": 24,
+    "estimated_batch_usage_points": {"primary": 20, "weekly": 5},
+    "usage_safety_margin_points": {"primary": 3, "weekly": 2},
+    "usage_unit": "percentage_points_of_window",
+    "automatic_redemption": false,
+    "predictions_authorize_translation": false,
+    "official_notice_sources": [
+      "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+      "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+      "https://developers.openai.com/codex/changelog/"
+    ]
+  },
   "preference": [
     "existing free or included CLI quota",
     "authenticated web quota in small batches",

@@ -1,0 +1,15 @@
+{
+  "checked_date_kst": "2026-10-25",
+  "finding": "No guaranteed weekly or other promotional-reset schedule is established. Keep publication date, event date, exact effective time, grant type and account eligibility separate.",
+  "sources": [
+    {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "observation": "June 11, 2026 announces reset banking and a launch grant; it is not a weekly reset promise."},
+    {"url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex", "observation": "Documents Sep 3 and Sep 4 banked grants and Sep 7 automatic reset, with offer-specific eligibility."},
+    {"url": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex", "observation": "Current guidance calls free grants discretionary without guaranteed availability or schedule. Usage is authoritative for next reset times; a changed time alone does not identify a global reset."}
+  ],
+  "events": [
+    {"id": "2026-06-11-reset-banking-launch", "kind": "banked_grant", "publication_date": "2026-06-11", "event_date": "2026-06-11", "effective_at": null, "pool": "codex", "verified": true, "applies_to_account": null, "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "note": "Feature launch with free reset for eligible users; not evidence that this account received it on that date."},
+    {"id": "2026-09-03-astra-banked", "kind": "banked_grant", "publication_date": null, "event_date": "2026-09-03", "effective_at": null, "pool": "codex", "verified": true, "applies_to_account": null, "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex", "note": "Date-only historical grant; publication timestamp and exact delivery time not established here."},
+    {"id": "2026-09-04-astra-banked", "kind": "banked_grant", "publication_date": null, "event_date": "2026-09-04", "effective_at": null, "pool": "codex", "verified": true, "applies_to_account": null, "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex", "note": "Date-only historical grant; publication timestamp and exact delivery time not established here."},
+    {"id": "2026-09-07-astra-automatic", "kind": "automatic_reset", "publication_date": null, "event_date": "2026-09-07", "effective_at": null, "covers": ["primary", "weekly"], "pool": "codex", "verified": true, "applies_to_account": null, "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex", "note": "Historical automatic application, not a saved banked reset. No future recurrence inferred."}
+  ]
+}

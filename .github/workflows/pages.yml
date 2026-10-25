@@ -25,6 +25,7 @@ jobs:
           python tools/test_revisions.py
           python tools/test_cloud_worker.py
           python tools/test_claude_cloud_batch.py
+          python tools/test_reset_planner.py
       - name: Build from committed selected evidence
         run: python tools/build.py
       - name: Check public data and links
