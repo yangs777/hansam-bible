@@ -20,7 +20,7 @@ const pasteKey = id => `${id}/${state.book}/${state.chapter}`;
 function option(select,value,label){const o=node('option',label);o.value=value;select.append(o);}
 async function getJSON(path){
   // Share an in-flight request; drop failures so an explicit retry can fetch again.
-  if(!cache.has(path))cache.set(path,fetch(new URL(path,libraryRoot)).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).catch(e=>{cache.delete(path);throw e;}));
+  if(!cache.has(path))cache.set(path,fetch(new URL(path,libraryRoot),{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).catch(e=>{cache.delete(path);throw e;}));
   return cache.get(path);
 }
 function error(message){$('reader-error').hidden=!message;$('reader-error').replaceChildren();if(message){$('reader-error').append(node('span',message+' '));const retry=node('button','다시 불러오기');retry.onclick=()=>catalog?render():location.reload();$('reader-error').append(retry);}}

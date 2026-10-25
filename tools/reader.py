@@ -47,4 +47,7 @@ def build(page, write, config, passages, hebrew):
   </div><p id="reader-loading" role="status">성경 목록을 불러오는 중입니다…</p>
   <noscript><p>대조 화면에는 JavaScript가 필요합니다. <a href="/ko/#passages">원문성경 본문</a>과 <a href="/library/catalog.json">공개 배포본 데이터</a>는 직접 열 수 있습니다.</p></noscript>
 </section><script type="module" src="/assets/reader.js"></script>'''
+    for asset in ('reader.js', 'reader.css'):
+        fingerprint = hashlib.sha256((R / 'tools' / asset).read_bytes()).hexdigest()[:12]
+        body = body.replace('/assets/' + asset + '"', '/assets/' + asset + '?v=' + fingerprint + '"')
     page('/read/', '성경 읽기·대조 — 개역한글, ASV, RV1909, 원문성경', body, 'ko', description='66권 성경 읽기, 절별 번역 대조, 원문성경 비교와 본문·절 번호·TSV 복사. 한국어·영어·스페인어 공개 배포본.')
