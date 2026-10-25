@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.3 — 2026-10-25
+
+- Added Genesis 2:16–20 in Korean, English and Spanish: 61 selected verses / 183 translations.
+- Recorded actual GPT/Gemini proposals and final opinions, and Claude Code CLI review (modelUsage claude-opus-5-5) for 2:17–19. Reused four existing cloud drafts; none was invented for 2:18.
+- Preserved the exact dotted-he form and a narrowly registered upstream form note for 2:18; BHS/Leningrad manuscript assertions remain unverified. Other unsupported markup still fails closed.
+- Retained all 56 prior selections and the complete v0.4.2 public dataset unchanged; reading URLs remain stable.
+
 ## 0.3.0 — 2026-10-24
 
 - Added all 31 Genesis 1 verses in Korean, English and Spanish, with actual GPT/Gemini proposals and final opinions and Claude review for seven difficult verses.

@@ -1,12 +1,12 @@
-# Génesis 2:1–15
+# Génesis 2:1–20
 
-Hansam Yang · Original Bible · v0.4.2
+Hansam Yang · Original Bible · v0.4.3
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Esta edición publica los versículos 1–15 con el WLC fijado, selecciones en tres idiomas, comparación GPT/Gemini y opiniones reales de Claude Code sobre pasajes difíciles. Se añadirán más versículos tras su revisión en esta misma dirección.
+Esta edición publica Génesis 2:1–20 con WLC fijado, selecciones en tres idiomas, opiniones GPT/Gemini y revisión Claude Code de pasajes difíciles. La nota de forma del v. 18 se conserva aparte; seguirán más versículos en esta dirección estable.
 
 Basis: MT-WLC display; no independent full critical collation completed
 
@@ -43,6 +43,10 @@ Previous v0.4.0
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
 Previous v0.4.1
+
+Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
+
+Previous v0.4.2
 
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
@@ -86,6 +90,10 @@ Previous v0.4.1
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
+Previous v0.4.2
+
+En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
+
 ## 3 · HYB.GEN.002.003
 
 Hebrew display (MT/WLC): וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכָּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃
@@ -123,6 +131,10 @@ Previous v0.4.0
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
 Previous v0.4.1
+
+Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
+
+Previous v0.4.2
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
@@ -166,6 +178,10 @@ Previous v0.4.1
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
 
+Previous v0.4.2
+
+Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
+
 ## 5 · HYB.GEN.002.005
 
 Hebrew display (MT/WLC): וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃
@@ -197,6 +213,10 @@ Previous v0.4.0
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
 Previous v0.4.1
+
+Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
+
+Previous v0.4.2
 
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
@@ -236,6 +256,10 @@ Previous v0.4.1
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
 
+Previous v0.4.2
+
+Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
+
 ## 7 · HYB.GEN.002.007
 
 Hebrew display (MT/WLC): וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃
@@ -269,6 +293,10 @@ Final opinion (Korean original): 살아 있는 존재가 되었다라는 구문�
 Counterargument (Korean): 영혼이라는 전통적 번역은 별도 실체를 주입할 수 있다. 이 절만으로 영혼의 존재 여부나 인간론을 확정하지도 않는다. אדם/אדמה 말놀이는 세 언어에 완전 재현되지 않는다.
 
 Previous v0.4.1
+
+Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
+
+Previous v0.4.2
 
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
@@ -308,6 +336,10 @@ Previous v0.4.1
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
 
+Previous v0.4.2
+
+Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
+
 ## 9 · HYB.GEN.002.009
 
 Hebrew display (MT/WLC): וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כָּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃
@@ -335,6 +367,10 @@ Final opinion (Korean original): 두 나무를 보존하고 가운데 수식어�
 Counterargument (Korean): 지식의 선악을 도덕적 판단만으로 한정하거나 모든 지식이라는 총칭으로 풀면 해석이 강해진다. 두 나무 모두 가운데라는 위치가 적용되는지도 구문만으로 과도하게 확정하지 않는다.
 
 Previous v0.4.1
+
+Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
+
+Previous v0.4.2
 
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
@@ -368,6 +404,10 @@ Previous v0.4.1
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
 
+Previous v0.4.2
+
+Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
+
 ## 11 · HYB.GEN.002.011
 
 Hebrew display (MT/WLC): שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃
@@ -393,6 +433,10 @@ El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 Final opinion (Korean original): 비손·하윌라를 현재 고유명 표기로 유지하고 두루 흐른다를 선택한다. 특정 현대 위치나 영역의 완전한 포위는 확정하지 않는다. Gemini가 재인용한 히브리어에 아랍 문자 혼입이 있어 표시 원문에는 사용하지 않으며 고정 WLC만 사용한다.
 
 Counterargument (Korean): סבב를 두르다·굽이돌다로 이해할 수 있다. 강이 실제 국경을 완전히 한 바퀴 돈다는 현대 지도나 하윌라 좌표를 확정하지 않는다.
+
+Previous v0.4.2
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
 ## 12 · HYB.GEN.002.012
 
@@ -426,6 +470,10 @@ Final opinion (Korean original): 브돌라흐와 쇼함 돌을 현재 선택한�
 
 Counterargument (Korean): בדלח를 수지·진주 등으로, שׁהם을 줄마노·다른 보석으로 식별하는 대안이 있다. 음역은 의미 이해를 어렵게 하므로 각주가 필요하며 현대 광물학적 확정이 아니다.
 
+Previous v0.4.2
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
 ## 13 · HYB.GEN.002.013
 
 Hebrew display (MT/WLC): וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃
@@ -451,6 +499,10 @@ El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 Final opinion (Korean original): 구스를 유지하고 에티오피아나 카시트 지역으로 치환하지 않는다. Gemini의 카시트 지역을 지시하는 용례가 있다는 단정은 이번 자료로 확인되지 않아 채택 근거로 사용하지 않는다. Gemini 최종 의견의 원음대로라는 표현도 인증하지 않는다. 음역은 편집상의 현재 표기이며 고대 발음의 완전 복원을 뜻하지 않는다.
 
 Counterargument (Korean): 구스를 현대 에티오피아 국경이나 특정 다른 지역과 동일시할 수 없다. 지명의 다른 문헌 용례가 이 구절의 정확한 위치를 자동으로 확정하지 않는다.
+
+Previous v0.4.2
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
 ## 14 · HYB.GEN.002.014
 
@@ -484,6 +536,10 @@ Final opinion (Korean original): 힛데겔·프라트·아슈르 표기와 동�
 
 Counterargument (Korean): 티그리스·유프라테스라는 관용 지명 번역도 가능하며, קדמת의 앞쪽이라는 대안과 아슈르의 도시·지역 지시 문제가 남는다. 음역이 역사적 수계 전체의 복원을 의미하지 않는다.
 
+Previous v0.4.2
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
 ## 15 · HYB.GEN.002.015
 
 Hebrew display (MT/WLC): וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃
@@ -516,6 +572,158 @@ Final opinion (Korean original): 그곳을 일구고 지키게를 선택한다. 
 
 Counterargument (Korean): 두 부정사의 여성 접미사 지시 대상에 땅이라는 대안이 있다. 제공 OSHB는 גן을 Ncbsc(공성 단수 연계형)로 분류하므로 통상적 남성 용례만으로 불일치나 본문 손상을 단정하지 않는다. 섬기다·보호하다라는 의미와 제의적 해석은 주석에서 구별한다.
 
+Previous v0.4.2
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
+## 16 · HYB.GEN.002.016
+
+Hebrew display (MT/WLC): וַיְצַו֙ יְהוָ֣ה אֱלֹהִ֔ים עַל־הָֽאָדָ֖ם לֵאמֹ֑ר מִכֹּ֥ל עֵֽץ־הַגָּ֖ן אָכֹ֥ל תֹּאכֵֽל׃
+
+Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.16
+
+### Traducción seleccionada: mejor opción actual
+
+명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다.
+
+#### gemini-3.8-flash-medium
+
+Y YHVH Dios mandó al hombre diciendo: 'De todo árbol del huerto ciertamente podrás comer.'
+
+Final opinion (Korean original): 히브리어 원문(וַיְצַו... עַל־הָאָדָם לֵאמֹר / אָכֹל תֹּאכֵל)의 명령 및 부정사 절대형을 통한 허용적·강조적 뉘앙스('마음껏 먹어도 된다', 'freely eat', 'puedes comer libremente')를 왜곡 없이 적절하게 반영했습니다. 2:16-17로 이어지는 인용 부호 처리도 자연스럽고 충실합니다.
+
+#### gpt-6.1-sol
+
+Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
+
+Final opinion (Korean original): 명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다. 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
+
+Counterargument (Korean): 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
+
+## 17 · HYB.GEN.002.017
+
+Hebrew display (MT/WLC): וּמֵעֵ֗ץ הַדַּ֨עַת֙ ט֣וֹב וָרָ֔ע לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ כִּ֗י בְּי֛וֹם אֲכָלְךָ֥ מִמֶּ֖נּוּ מ֥וֹת תָּמֽוּת׃
+
+pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.17
+
+### Traducción seleccionada: mejor opción actual
+
+먹는 날과 반드시 죽는다는 확실성을 본문에 둔다. ממנו는 문맥상 그것에서로 읽으며 제공 형태소 태그는 그대로 보존한다.
+
+#### claude-opus-5-5
+
+Pero del árbol del conocimiento del bien y del mal no comerás, porque el día que comas de él, ciertamente morirás.
+
+Final opinion (Korean original): 채택 전 초안: '그것을 먹는 날에는 반드시 죽을 것이다'. 형태소 1cp 표지는 문맥상 3ms로 재해석했다는 사실과 근거를 기록으로 남긴다.
+
+#### gemini-3.8-flash-medium
+
+Mas del árbol del conocimiento del bien y del mal no comerás de él; porque el día que de él comieres, ciertamente morirás.
+
+Final opinion (Korean original): 원문 상류 형태소 주석의 Sp1cp(1인칭 공통 복수) 태깅은 원본 데이터 그대로 보존하면서도, 번역은 문맥적 실질(מִמֶּנּוּ = '그것으로부터')에 맞추어 한국어 '그것에서', 영어 'from it', 스페인어 'de él'로 정확히 처리했습니다. 부정사 절대형(מוֹת תָּמוּת)의 강조 표현('반드시 죽을 것이다') 역시 정밀하게 번역되었습니다.
+
+#### gpt-6.1-sol
+
+pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
+
+Final opinion (Korean original): 먹는 날과 반드시 죽는다는 확실성을 본문에 둔다. ממנו는 문맥상 그것에서로 읽으며 제공 형태소 태그는 그대로 보존한다. 날/때의 범위와 죽음의 방식은 구문만으로 확정되지 않는다. 즉사·영적 죽음이나 역사적 발생을 번역에서 단정하지 않는다.
+
+Counterargument (Korean): 날/때의 범위와 죽음의 방식은 구문만으로 확정되지 않는다. 즉사·영적 죽음이나 역사적 발생을 번역에서 단정하지 않는다.
+
+## 18 · HYB.GEN.002.018
+
+Hebrew display (MT/WLC): וַיֹּ֨אמֶר֙ יְהוָ֣ה אֱלֹהִ֔ים לֹא־ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֶֽעֱשֶׂהּ־לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃
+
+Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.18
+
+### Traducción seleccionada: mejor opción actual
+
+상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다.
+
+#### claude-opus-5-5
+
+Y dijo YHWH Dios: «No es bueno que el ser humano esté solo; le haré una ayuda que le corresponda.»
+
+Final opinion (Korean original): 채택 전 초안: '그와 마주하여 걸맞은 돕는 이'. 성별, 배우자, 서열 같은 의미는 번역에 넣지 않는다. 형태 특이는 표시 정보로만 남긴다.
+
+#### gemini-3.8-flash-medium
+
+Y dijo YHVH Dios: 'No es bueno que el hombre esté solo; le haré una ayuda adecuada a él.'
+
+Final opinion (Korean original): '에제르 케네그도(עֵזֶר כְּנֶגְדּוֹ)'를 '그에게 상응하는 돕는 이(a helper corresponding to him / una ayuda que le corresponda)'로 번역하여 종속적 열등성이나 완전한 평등/우월 교리에 대한 과도한 주장을 배제하고 본래 어휘 의미를 균형 있게 담아냈습니다. אֶֽעֱשֶׂהּ의 표기 및 BHS 주석은 디스플레이 외부에 변형 없이 유지되며, 자필본 인증이 아닌 현 단계 최선의 잠정 번역으로 합당합니다.
+
+#### gpt-6.1-sol
+
+Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
+
+Final opinion (Korean original): 상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다. 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
+
+Counterargument (Korean): 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
+
+## 19 · HYB.GEN.002.019
+
+Hebrew display (MT/WLC): וַיִּצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים מִן־הָֽאֲדָמָ֗ה כָּל־חַיַּ֤ת הַשָּׂדֶה֙ וְאֵת֙ כָּל־ע֣וֹף הַשָּׁמַ֔יִם וַיָּבֵא֙ אֶל־הָ֣אָדָ֔ם לִרְא֖וֹת מַה־יִּקְרָא־ל֑וֹ וְכֹל֩ אֲשֶׁ֨ר יִקְרָא־ל֧וֹ הָֽאָדָ֛ם נֶ֥פֶשׁ חַיָּ֖ה ה֥וּא שְׁמֽוֹ׃
+
+Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.19
+
+### Traducción seleccionada: mejor opción actual
+
+빚으시고·데려오심·명명의 서술 흐름을 일반 과거로 현재 선택한다. 집합·분배적 대명사를 각 언어에서 자연스럽게 풀어 쓴다.
+
+#### claude-opus-5-5
+
+YHWH Dios formó de la tierra todo animal del campo y toda ave del cielo, y los llevó ante el ser humano para ver cómo los llamaría; y el nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
+
+Final opinion (Korean original): 채택 전 초안: 연속 과거 '빚으시고'를 본문으로, 대과거는 각주로 둔다. 생략 목적어, 분배적 לוֹ, נֶפֶשׁ חַיָּה의 구문 처리를 각주로 투명하게 밝힌다.
+
+#### gemini-3.8-flash-medium
+
+YHVH Dios formó, pues, de la tierra toda bestia del campo y toda ave de los cielos, y las trajo al hombre para ver cómo las llamaría; y todo lo que el hombre llamó a los seres vivientes, ese fue su nombre.
+
+Final opinion (Korean original): 토양에서 생물을 빚으시고 아담에게로 이끌어 명명하게 하신 서사적 흐름과 히브리어 현수절 구문(וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמוֹ)을 3개 국어 모두에서 문맥에 맞게 정확하고 유려하게 옮겼습니다. 인위적인 원문 왜곡이나 탈락이 없습니다.
+
+#### gpt-6.1-sol
+
+Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. Ese fue el nombre de cada ser viviente, tal como lo llamó el ser humano.
+
+Final opinion (Korean original): 빚으시고·데려오심·명명의 서술 흐름을 일반 과거로 현재 선택한다. 집합·분배적 대명사를 각 언어에서 자연스럽게 풀어 쓴다. 이미 빚으셨던이라는 선행과거와 절 후반의 다른 구문 분석도 가능하다. 일반 과거를 선택해도 전체 창조 연대기를 확정한 것은 아니다.
+
+Counterargument (Korean): 이미 빚으셨던이라는 선행과거와 절 후반의 다른 구문 분석도 가능하다. 일반 과거를 선택해도 전체 창조 연대기를 확정한 것은 아니다.
+
+## 20 · HYB.GEN.002.020
+
+Hebrew display (MT/WLC): וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכָל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃
+
+El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.20
+
+### Traducción seleccionada: mejor opción actual
+
+이름 부여 뒤 돕는 이가 발견되지 않은 결과를 비인칭적 수동으로 현재 옮긴다. 18절과 같은 상응 표현을 쓴다.
+
+#### gemini-3.8-flash-medium
+
+Y puso el hombre nombre a todo ganado, y a las aves de los cielos, y a todo animal del campo; mas para el hombre/Adán no se halló ayuda adecuada a él.
+
+Final opinion (Korean original): 하반절 'וּלְאָדָם לֹא־מָצָא עֵזֶר כְּנֶגְדּוֹ'를 '그 사람에게 상응하는 돕는 이는 발견되지 않았다'로 번역한 것은 히브리어 칼(Qal) 3인칭 능동의 비인칭적 용법을 기능적 수동(functional impersonal passive)으로 처리한 자연스러운 번역이며, 칼 형태론 자체를 수동태로 규정한 것이 아님을 명확히 합니다. 실질적 의미와 언어적 정확성이 모두 확보되었습니다.
+
+#### gpt-6.1-sol
+
+El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero no encontró una ayuda que le correspondiera.
+
+Final opinion (Korean original): 이름 부여 뒤 돕는 이가 발견되지 않은 결과를 비인칭적 수동으로 현재 옮긴다. 18절과 같은 상응 표현을 쓴다. מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
+
+Counterargument (Korean): מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
+
 ## Notes
 
 El v. 2 conserva las dos menciones del séptimo día del WLC. No se cotejaron aquí los testimonios que, según informes, leen sexto día. La especulación del modelo sobre cambios teológicos no fundamenta la selección.
@@ -540,9 +748,15 @@ Trabajar/cuidar en el v. 15 es una elección contextual. Los sufijos de objeto s
 
 La primera respuesta de Gemini introdujo un carácter árabe en su cita hebrea del v. 11 y uno coreano en el v. 14. Se conservan las respuestas y correcciones, pero esas citas no son la fuente mostrada. El hebreo mostrado procede de los datos cotejados con el XML WLC fijado.
 
+Los vv. 16–17 contrastan permiso y prohibición. Día/cuando y la certeza de la muerte no fijan por sí solos su momento o categoría teológica. Se conservan las etiquetas 1cp de ממנו; la traducción contextual elige de él.
+
+El v. 18 conserva exactamente אֶֽעֱשֶׂהּ y su punto final. Se preserva fuera del texto una nota de forma registrada; su afirmación sobre BHS/Leningrado no se cotejó con manuscritos. Se consultó BDB sin deducir toda una doctrina de jerarquía o igualdad.
+
+El v. 19 elige formó y conserva había formado como alternativa; cada expresa una lectura distributiva. En el v. 20 se halló expresa el resultado, aunque מצא es activo. Ser humano/Adán y las opciones de sujeto siguen siendo revisables.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–15 (es), research pilot v0.4.2. https://yangs777.github.io/hansam-bible/es/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–20 (es), research pilot v0.4.3. https://yangs777.github.io/hansam-bible/es/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

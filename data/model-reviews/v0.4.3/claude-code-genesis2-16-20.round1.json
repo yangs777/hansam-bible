@@ -1,0 +1,89 @@
+{
+  "model": "claude-opus-5-5",
+  "execution": {
+    "provider": "Claude Code official CLI, authenticated included Max account",
+    "identity_basis": "CLI modelUsage canonicalModel claude-opus-5-5; immutable backend snapshot not exposed",
+    "date": "2026-10-25",
+    "mode": "Read-only prompt, tools disabled; API key/auth-token/base-url environment overrides removed for this child process",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 7881,
+        "cacheReadInputTokens": 649,
+        "cacheCreationInputTokens": 7705,
+        "webSearchRequests": 0,
+        "costUSD": 0.21939780000000003,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 3230,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "cost_caveat": "List-price costUSD is not proof of new cash billing or native cloud-credit debit."
+  },
+  "verses": [
+    {
+      "id": "HYB.GEN.002.017",
+      "translations": {
+        "ko": "그러나 선과 악을 아는 지식의 나무에서는 먹지 마라. 네가 그것을 먹는 날에는 반드시 죽을 것이다.",
+        "en": "But from the tree of the knowledge of good and evil you shall not eat, for in the day you eat from it you shall surely die.",
+        "es": "Pero del árbol del conocimiento del bien y del mal no comerás, porque el día que comas de él, ciertamente morirás."
+      },
+      "basis": "וּמֵעֵץ: וְ+מִן+עֵץ, contrastive after 2:16. הַדַּעַת טוֹב וָרָע: articular noun דַּעַת with טוֹב/רָע as its objects ('knowing good and bad'). לֹא תֹאכַל: לֹא + yiqtol 2ms, a standing prohibition. מִמֶּנּוּ ×2 (upstream_id 019Yh, 01PuA): the supplied morph is HR/Sp1cp ('from us'), but מִמֶּנּוּ is also the 3ms form, and the only masculine-singular antecedent is עֵץ. Read 3ms 'from it'. Treat the 1cp tag as a probable contextual misparse, and record it as a disagreement with the supplied analysis; it is not a correction of the source. כִּי בְּיוֹם + infinitive construct with suffix אֲכָלְךָ: a temporal clause. מוֹת תָּמוּת: infinitive absolute + yiqtol 2ms of מות, which adds emphasis or certainty.",
+      "reason_ko": "'בְּיוֹם'은 문자적 '날'을 살려 '먹는 날에는'으로 옮기고, 관용적 '~할 때'는 대안으로 둔다. 부정사 절대형과 정동사를 겹친 구문은 확실성을 강조하므로 '반드시 죽을 것이다'로 옮겼다. '선악을 알게 하는'처럼 사역 의미를 더하지 않으려고 '선과 악을 아는 지식의'로 했다.",
+      "counterargument_ko": "בְּיוֹם + 부정사 연계형은 관용적으로 '~할 때(when)'를 뜻할 수 있어, '날'을 고정하면 24시간 시점처럼 읽힐 위험이 있다. מוֹת תָּמוּת는 확실성 외에 판결·선고 양식('죽임을 당하리라')이나 죽음이 시작되는 시점('죽게 되리라')으로도 읽힐 수 있다. 문법만으로는 이 중 하나를 확정할 수 없다. 형태소 자료의 1cp 표지를 따르면 '우리에게서'가 되지만, 문맥상 지시 대상이 없다.",
+      "current_opinion_ko": "본문에는 '날에는'과 '반드시 죽을 것이다'를 두고, 각주에 '먹을 때에는'과 '죽게 되리라/죽임을 당하리라'를 대안으로 기록한다. 영적 죽음이나 즉사 여부 같은 신학적 해석은 번역에 넣지 않는다. מִמֶּנּוּ는 3ms '그것에서'로 옮긴다.",
+      "reconsider_if_ko": "יוֹם + 부정사 연계형 구문의 용례를 출처를 밝혀 비교한 결과, 이 문맥에서 관용적 '때' 의미가 압도적이라는 근거가 나오면 '먹을 때에는'을 본문으로 올린다.",
+      "final_opinion_ko": "채택 전 초안: '그것을 먹는 날에는 반드시 죽을 것이다'. 형태소 1cp 표지는 문맥상 3ms로 재해석했다는 사실과 근거를 기록으로 남긴다."
+    },
+    {
+      "id": "HYB.GEN.002.018",
+      "translations": {
+        "ko": "YHWH 하나님이 말씀하셨다. \"사람이 혼자 있는 것이 좋지 않다. 내가 그에게 그와 마주하여 걸맞은 돕는 이를 만들겠다.\"",
+        "en": "Then YHWH God said, \"It is not good for the human to be alone; I will make for him a helper corresponding to him.\"",
+        "es": "Y dijo YHWH Dios: «No es bueno que el ser humano esté solo; le haré una ayuda que le corresponda.»"
+      },
+      "basis": "לֹא־טוֹב הֱיוֹת הָאָדָם לְבַדּוֹ: the infinitive construct הֱיוֹת is the clause subject ('the human's being alone is not good'). הָאָדָם carries the article, so it is not a proper name here. אֶעֱשֶׂהּ: the display shows a dot in the final ה, which looks like mappiq. The supplied morph HVqi1cs has no suffix, and עֵזֶר follows as the explicit object, so the form is translated as plain 'I will make'. The dot is treated as a display or form anomaly. The upstream note says BHS kept the Leningrad form; that note is preserved but not independently verified. עֵזֶר כְּנֶגְדּוֹ: עֵזֶר is 'help/helper' (Ncmsa). כְּנֶגְדּוֹ is כְּ + נֶגֶד + 3ms, 'as/like in front of him', i.e. corresponding to, matching, or facing him.",
+      "reason_ko": "'돕는 배필'은 '배필(배우자)'이라는 의미를 미리 더하므로 쓰지 않았다. 대신 '마주하여 걸맞은 돕는 이'로 상응과 대면이라는 두 뉘앙스를 함께 살렸다. עֵזֶר 자체는 상하 서열을 표시하지 않으므로 '조수'나 '보조자'처럼 종속을 암시하는 말을 피했다.",
+      "counterargument_ko": "נֶגֶד는 '맞은편'이라는 공간적 의미라서 '대응하는 짝' 외에 '맞서는 자'로도 읽을 수 있다는 견해가 가능하다. 다만 이 절만으로 대립 의미를 끌어내는 것은 과잉 해석이다. 반대로 עֵזֶר를 동등하거나 더 우월한 지위로 읽는 것도 이 절의 문법이 보증하지 않는다. 끝의 הּ 점을 3fs 목적 접미사('그녀를 만들겠다')로 읽을 수도 있으나, 뒤에 명시 목적어 עֵזֶר(남성형)가 있고 제공된 형태소 분석과도 맞지 않는다.",
+      "current_opinion_ko": "'걸맞은/상응하는'과 '마주하는'을 함께 쓰고 서열은 추론하지 않는다. אֶעֱשֶׂהּ의 점은 사본 표시상의 특이로만 기록하며, 번역과 의미에는 반영하지 않는다.",
+      "reconsider_if_ko": "Leningrad 사본 이미지나 신뢰할 수 있는 마소라 주석에서 이 점의 성격이 확인되면 각주를 갱신한다. 그 확인 전에는 업스트림 주장을 검증된 사실로 승격하지 않는다.",
+      "final_opinion_ko": "채택 전 초안: '그와 마주하여 걸맞은 돕는 이'. 성별, 배우자, 서열 같은 의미는 번역에 넣지 않는다. 형태 특이는 표시 정보로만 남긴다."
+    },
+    {
+      "id": "HYB.GEN.002.019",
+      "translations": {
+        "ko": "YHWH 하나님이 흙(땅)으로 들의 모든 짐승과 하늘의 모든 새를 빚으시고, 그것들을 사람에게로 데려가셔서 그가 그것들을 무엇이라 부르는지 보려 하셨다. 사람이 각 생물을 무엇이라 부르든 그것이 그 이름이 되었다.",
+        "en": "And YHWH God formed from the ground every animal of the field and every bird of the sky, and brought them to the human to see what he would call each one; and whatever the human called each living creature, that was its name.",
+        "es": "YHWH Dios formó de la tierra todo animal del campo y toda ave del cielo, y los llevó ante el ser humano para ver cómo los llamaría; y el nombre que el ser humano diera a cada ser viviente, ese fue su nombre."
+      },
+      "basis": "וַיִּצֶר: wayyiqtol 3ms of יצר, ordinarily narrative-sequential. מִן־הָאֲדָמָה echoes הָאָדָם; the wordplay cannot be reproduced and goes in a note. וַיָּבֵא: Hiphil wayyiqtol with no expressed object; 'them' is supplied from context. לִרְאוֹת מַה־יִּקְרָא־לוֹ: לוֹ (3ms) refers distributively to each creature ('call it'), not to the human. וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמוֹ: the syntax is uneven. נֶפֶשׁ חַיָּה is read as apposition to the referent of לוֹ, and הוּא שְׁמוֹ as the resumptive predicate. הָאָדָם (articular, twice) = 'the human', not the name 'Adam'.",
+      "reason_ko": "wayyiqtol의 기본 기능을 따라 '빚으시고'(단순 과거, 연속)로 옮겼다. 앞 장과의 순서를 조화시키려는 이유로 문법을 바꾸지 않는다. 생략된 목적어 '그것들을'과 분배적 '각'은 번역상 보충이며 원문에는 명시되지 않는다.",
+      "counterargument_ko": "일부 번역은 '이미 빚으셨던'(had formed)이라는 대과거로 읽는다. wayyiqtol이 문맥에 따라 앞선 사건을 되짚는 기능을 가질 수 있다는 문법적 주장이 있고, 그렇게 읽으면 2:18의 의도와 동물 형성 사이의 순서 긴장이 완화된다. 반론은 다음과 같다. 이 절에는 대과거를 표시하는 형태 신호가 없고, 대과거 독법은 외부 본문과의 조화를 동기로 삼는 경향이 있다. נֶפֶשׁ חַיָּה의 구문 위치가 어색해 삽입구나 후대 설명구로 보는 견해도 있을 수 있으나, 이 자료만으로는 판단할 수 없다.",
+      "current_opinion_ko": "본문에는 '빚으시고'를 두고, 각주에 'had formed(이미 빚으셨던)' 대안과 그 근거, 반론을 함께 기록한다. 이 절에서 הָאָדָם은 '사람'으로 옮긴다. 고유명사 'Adam'으로 옮길지는 관사가 없어지는 지점에서 따로 검토하며, 그 범위(2:20)는 이번 검토에 포함하지 않았다.",
+      "reconsider_if_ko": "출처가 명시된 문법 연구에서 이 유형의 문맥(새 단락 없이 이어지는 wayyiqtol)의 대과거 용례가 충분히 확인되면 두 독법을 본문에서 병기하는 방안을 검토한다.",
+      "final_opinion_ko": "채택 전 초안: 연속 과거 '빚으시고'를 본문으로, 대과거는 각주로 둔다. 생략 목적어, 분배적 לוֹ, נֶפֶשׁ חַיָּה의 구문 처리를 각주로 투명하게 밝힌다."
+    }
+  ],
+  "opinions": [
+    {
+      "id": "HYB.GEN.002.017",
+      "verdict": "additional_difficult_verse_review",
+      "final_opinion_ko": "채택 전 초안: '그것을 먹는 날에는 반드시 죽을 것이다'. 형태소 1cp 표지는 문맥상 3ms로 재해석했다는 사실과 근거를 기록으로 남긴다."
+    },
+    {
+      "id": "HYB.GEN.002.018",
+      "verdict": "additional_difficult_verse_review",
+      "final_opinion_ko": "채택 전 초안: '그와 마주하여 걸맞은 돕는 이'. 성별, 배우자, 서열 같은 의미는 번역에 넣지 않는다. 형태 특이는 표시 정보로만 남긴다."
+    },
+    {
+      "id": "HYB.GEN.002.019",
+      "verdict": "additional_difficult_verse_review",
+      "final_opinion_ko": "채택 전 초안: 연속 과거 '빚으시고'를 본문으로, 대과거는 각주로 둔다. 생략 목적어, 분배적 לוֹ, נֶפֶשׁ חַיָּה의 구문 처리를 각주로 투명하게 밝힌다."
+    }
+  ],
+  "overall_opinion_ko": "Gen 2:17–19만 검토했다. 2:16(허락과 의무)과 2:20(주어, Adam/사람)은 범위 밖이라 다루지 않았다. 핵심 사항은 세 가지다. (1) 2:17의 מִמֶּנּוּ 두 곳은 형태소 자료의 1cp 표지와 달리 문맥상 3ms '그것에서'로 읽었고, 이를 형태소 자료와의 불일치로 기록한다. (2) 2:18의 אֶעֱשֶׂהּ 점은 표시상 특이일 뿐이며, 업스트림 주석은 검증되지 않았다. (3) 2:19는 연속 과거를 본문으로 두고 대과거를 대안으로 남긴다. 이 결과는 채택되지 않은 모델 초안이다. 사본 대조, 최초 본문 인증, 인간 검토, GPT/Gemini 비교는 수행하지 않았으며, 그런 결과가 있다고 주장하지 않는다. 요청된 모델 식별자는 claude-opus-5-5이고, 내부 버전 세부와 샘플링 설정은 노출되지 않는다. 외부 문헌 인용은 하지 않았다.",
+  "raw_response": "```json\n{\n  \"verses\": [\n    {\n      \"id\": \"Gen.2.17\",\n      \"translations\": {\n        \"ko\": \"그러나 선과 악을 아는 지식의 나무에서는 먹지 마라. 네가 그것을 먹는 날에는 반드시 죽을 것이다.\",\n        \"en\": \"But from the tree of the knowledge of good and evil you shall not eat, for in the day you eat from it you shall surely die.\",\n        \"es\": \"Pero del árbol del conocimiento del bien y del mal no comerás, porque el día que comas de él, ciertamente morirás.\"\n      },\n      \"basis\": \"וּמֵעֵץ: וְ+מִן+עֵץ, contrastive after 2:16. הַדַּעַת טוֹב וָרָע: articular noun דַּעַת with טוֹב/רָע as its objects ('knowing good and bad'). לֹא תֹאכַל: לֹא + yiqtol 2ms, a standing prohibition. מִמֶּנּוּ ×2 (upstream_id 019Yh, 01PuA): the supplied morph is HR/Sp1cp ('from us'), but מִמֶּנּוּ is also the 3ms form, and the only masculine-singular antecedent is עֵץ. Read 3ms 'from it'. Treat the 1cp tag as a probable contextual misparse, and record it as a disagreement with the supplied analysis; it is not a correction of the source. כִּי בְּיוֹם + infinitive construct with suffix אֲכָלְךָ: a temporal clause. מוֹת תָּמוּת: infinitive absolute + yiqtol 2ms of מות, which adds emphasis or certainty.\",\n      \"reason_ko\": \"'בְּיוֹם'은 문자적 '날'을 살려 '먹는 날에는'으로 옮기고, 관용적 '~할 때'는 대안으로 둔다. 부정사 절대형과 정동사를 겹친 구문은 확실성을 강조하므로 '반드시 죽을 것이다'로 옮겼다. '선악을 알게 하는'처럼 사역 의미를 더하지 않으려고 '선과 악을 아는 지식의'로 했다.\",\n      \"counterargument_ko\": \"בְּיוֹם + 부정사 연계형은 관용적으로 '~할 때(when)'를 뜻할 수 있어, '날'을 고정하면 24시간 시점처럼 읽힐 위험이 있다. מוֹת תָּמוּת는 확실성 외에 판결·선고 양식('죽임을 당하리라')이나 죽음이 시작되는 시점('죽게 되리라')으로도 읽힐 수 있다. 문법만으로는 이 중 하나를 확정할 수 없다. 형태소 자료의 1cp 표지를 따르면 '우리에게서'가 되지만, 문맥상 지시 대상이 없다.\",\n      \"current_opinion_ko\": \"본문에는 '날에는'과 '반드시 죽을 것이다'를 두고, 각주에 '먹을 때에는'과 '죽게 되리라/죽임을 당하리라'를 대안으로 기록한다. 영적 죽음이나 즉사 여부 같은 신학적 해석은 번역에 넣지 않는다. מִמֶּנּוּ는 3ms '그것에서'로 옮긴다.\",\n      \"reconsider_if_ko\": \"יוֹם + 부정사 연계형 구문의 용례를 출처를 밝혀 비교한 결과, 이 문맥에서 관용적 '때' 의미가 압도적이라는 근거가 나오면 '먹을 때에는'을 본문으로 올린다.\",\n      \"final_opinion_ko\": \"채택 전 초안: '그것을 먹는 날에는 반드시 죽을 것이다'. 형태소 1cp 표지는 문맥상 3ms로 재해석했다는 사실과 근거를 기록으로 남긴다.\"\n    },\n    {\n      \"id\": \"Gen.2.18\",\n      \"translations\": {\n        \"ko\": \"YHWH 하나님이 말씀하셨다. \\\"사람이 혼자 있는 것이 좋지 않다. 내가 그에게 그와 마주하여 걸맞은 돕는 이를 만들겠다.\\\"\",\n        \"en\": \"Then YHWH God said, \\\"It is not good for the human to be alone; I will make for him a helper corresponding to him.\\\"\",\n        \"es\": \"Y dijo YHWH Dios: «No es bueno que el ser humano esté solo; le haré una ayuda que le corresponda.»\"\n      },\n      \"basis\": \"לֹא־טוֹב הֱיוֹת הָאָדָם לְבַדּוֹ: the infinitive construct הֱיוֹת is the clause subject ('the human's being alone is not good'). הָאָדָם carries the article, so it is not a proper name here. אֶעֱשֶׂהּ: the display shows a dot in the final ה, which looks like mappiq. The supplied morph HVqi1cs has no suffix, and עֵזֶר follows as the explicit object, so the form is translated as plain 'I will make'. The dot is treated as a display or form anomaly. The upstream note says BHS kept the Leningrad form; that note is preserved but not independently verified. עֵזֶר כְּנֶגְדּוֹ: עֵזֶר is 'help/helper' (Ncmsa). כְּנֶגְדּוֹ is כְּ + נֶגֶד + 3ms, 'as/like in front of him', i.e. corresponding to, matching, or facing him.\",\n      \"reason_ko\": \"'돕는 배필'은 '배필(배우자)'이라는 의미를 미리 더하므로 쓰지 않았다. 대신 '마주하여 걸맞은 돕는 이'로 상응과 대면이라는 두 뉘앙스를 함께 살렸다. עֵזֶר 자체는 상하 서열을 표시하지 않으므로 '조수'나 '보조자'처럼 종속을 암시하는 말을 피했다.\",\n      \"counterargument_ko\": \"נֶגֶד는 '맞은편'이라는 공간적 의미라서 '대응하는 짝' 외에 '맞서는 자'로도 읽을 수 있다는 견해가 가능하다. 다만 이 절만으로 대립 의미를 끌어내는 것은 과잉 해석이다. 반대로 עֵזֶר를 동등하거나 더 우월한 지위로 읽는 것도 이 절의 문법이 보증하지 않는다. 끝의 הּ 점을 3fs 목적 접미사('그녀를 만들겠다')로 읽을 수도 있으나, 뒤에 명시 목적어 עֵזֶר(남성형)가 있고 제공된 형태소 분석과도 맞지 않는다.\",\n      \"current_opinion_ko\": \"'걸맞은/상응하는'과 '마주하는'을 함께 쓰고 서열은 추론하지 않는다. אֶעֱשֶׂהּ의 점은 사본 표시상의 특이로만 기록하며, 번역과 의미에는 반영하지 않는다.\",\n      \"reconsider_if_ko\": \"Leningrad 사본 이미지나 신뢰할 수 있는 마소라 주석에서 이 점의 성격이 확인되면 각주를 갱신한다. 그 확인 전에는 업스트림 주장을 검증된 사실로 승격하지 않는다.\",\n      \"final_opinion_ko\": \"채택 전 초안: '그와 마주하여 걸맞은 돕는 이'. 성별, 배우자, 서열 같은 의미는 번역에 넣지 않는다. 형태 특이는 표시 정보로만 남긴다.\"\n    },\n    {\n      \"id\": \"Gen.2.19\",\n      \"translations\": {\n        \"ko\": \"YHWH 하나님이 흙(땅)으로 들의 모든 짐승과 하늘의 모든 새를 빚으시고, 그것들을 사람에게로 데려가셔서 그가 그것들을 무엇이라 부르는지 보려 하셨다. 사람이 각 생물을 무엇이라 부르든 그것이 그 이름이 되었다.\",\n        \"en\": \"And YHWH God formed from the ground every animal of the field and every bird of the sky, and brought them to the human to see what he would call each one; and whatever the human called each living creature, that was its name.\",\n        \"es\": \"YHWH Dios formó de la tierra todo animal del campo y toda ave del cielo, y los llevó ante el ser humano para ver cómo los llamaría; y el nombre que el ser humano diera a cada ser viviente, ese fue su nombre.\"\n      },\n      \"basis\": \"וַיִּצֶר: wayyiqtol 3ms of יצר, ordinarily narrative-sequential. מִן־הָאֲדָמָה echoes הָאָדָם; the wordplay cannot be reproduced and goes in a note. וַיָּבֵא: Hiphil wayyiqtol with no expressed object; 'them' is supplied from context. לִרְאוֹת מַה־יִּקְרָא־לוֹ: לוֹ (3ms) refers distributively to each creature ('call it'), not to the human. וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמוֹ: the syntax is uneven. נֶפֶשׁ חַיָּה is read as apposition to the referent of לוֹ, and הוּא שְׁמוֹ as the resumptive predicate. הָאָדָם (articular, twice) = 'the human', not the name 'Adam'.\",\n      \"reason_ko\": \"wayyiqtol의 기본 기능을 따라 '빚으시고'(단순 과거, 연속)로 옮겼다. 앞 장과의 순서를 조화시키려는 이유로 문법을 바꾸지 않는다. 생략된 목적어 '그것들을'과 분배적 '각'은 번역상 보충이며 원문에는 명시되지 않는다.\",\n      \"counterargument_ko\": \"일부 번역은 '이미 빚으셨던'(had formed)이라는 대과거로 읽는다. wayyiqtol이 문맥에 따라 앞선 사건을 되짚는 기능을 가질 수 있다는 문법적 주장이 있고, 그렇게 읽으면 2:18의 의도와 동물 형성 사이의 순서 긴장이 완화된다. 반론은 다음과 같다. 이 절에는 대과거를 표시하는 형태 신호가 없고, 대과거 독법은 외부 본문과의 조화를 동기로 삼는 경향이 있다. נֶפֶשׁ חַיָּה의 구문 위치가 어색해 삽입구나 후대 설명구로 보는 견해도 있을 수 있으나, 이 자료만으로는 판단할 수 없다.\",\n      \"current_opinion_ko\": \"본문에는 '빚으시고'를 두고, 각주에 'had formed(이미 빚으셨던)' 대안과 그 근거, 반론을 함께 기록한다. 이 절에서 הָאָדָם은 '사람'으로 옮긴다. 고유명사 'Adam'으로 옮길지는 관사가 없어지는 지점에서 따로 검토하며, 그 범위(2:20)는 이번 검토에 포함하지 않았다.\",\n      \"reconsider_if_ko\": \"출처가 명시된 문법 연구에서 이 유형의 문맥(새 단락 없이 이어지는 wayyiqtol)의 대과거 용례가 충분히 확인되면 두 독법을 본문에서 병기하는 방안을 검토한다.\",\n      \"final_opinion_ko\": \"채택 전 초안: 연속 과거 '빚으시고'를 본문으로, 대과거는 각주로 둔다. 생략 목적어, 분배적 לוֹ, נֶפֶשׁ חַיָּה의 구문 처리를 각주로 투명하게 밝힌다.\"\n    }\n  ],\n  \"final_opinion_ko\": \"Gen 2:17–19만 검토했다. 2:16(허락과 의무)과 2:20(주어, Adam/사람)은 범위 밖이라 다루지 않았다. 핵심 사항은 세 가지다. (1) 2:17의 מִמֶּנּוּ 두 곳은 형태소 자료의 1cp 표지와 달리 문맥상 3ms '그것에서'로 읽었고, 이를 형태소 자료와의 불일치로 기록한다. (2) 2:18의 אֶעֱשֶׂהּ 점은 표시상 특이일 뿐이며, 업스트림 주석은 검증되지 않았다. (3) 2:19는 연속 과거를 본문으로 두고 대과거를 대안으로 남긴다. 이 결과는 채택되지 않은 모델 초안이다. 사본 대조, 최초 본문 인증, 인간 검토, GPT/Gemini 비교는 수행하지 않았으며, 그런 결과가 있다고 주장하지 않는다. 요청된 모델 식별자는 claude-opus-5-5이고, 내부 버전 세부와 샘플링 설정은 노출되지 않는다. 외부 문헌 인용은 하지 않았다.\"\n}\n```"
+}

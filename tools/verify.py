@@ -31,8 +31,12 @@ for r in records:
         assert trace['model_final_opinions']['gemini-3.8-flash-medium']['stage']=='gemini.round3'
         if int(r['id'][-3:]) in (1,2,3,6,26,27,28):
             assert 'claude-opus-4-6-thinking' in {p['model'] for p in trace['model_proposals']}
-    if r['id'].startswith('HYB.GEN.002.') and int(r['id'][-3:]) in (2,3,4,6,7,8,12,14,15):
+    if r['id'].startswith('HYB.GEN.002.') and int(r['id'][-3:]) in (2,3,4,6,7,8,12,14,15,17,18,19):
         assert 'claude-opus-5-5' in models
+    if r['reference']=='Gen.2.18':
+        note=next(n for n in r['hebrew_layer']['source_notes'] if n['type']=='reviewed_upstream_form_comment')
+        assert hashlib.sha256(note['text'].encode()).hexdigest()=='acf2c7fbd7b2f4e011464e699bd884c0d660fe3f979c44c5be9da7287353bfc3'
+        assert 'אֶֽעֱשֶׂהּ' in r['hebrew_layer']['hebrew']
     if not r['id'].startswith('HYB.GEN.'):
         assert {x['version'] for x in trace['previous_editions']} >= {'0.1.0','0.2.0'}
     for lang in ('ko','en','es'):

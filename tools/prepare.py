@@ -1,5 +1,6 @@
 """Freeze selected WLC verses and OSHB analyses from a specific upstream commit."""
 import hashlib, json, pathlib, urllib.request, xml.etree.ElementTree as ET
+from source_notes import reviewed_plain_note
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CACHE=ROOT/'private/upstream_cache'; CACHE.mkdir(parents=True,exist_ok=True)
 CFG=json.loads((ROOT/'config.json').read_text(encoding='utf-8'))
@@ -38,6 +39,8 @@ for book,ids in SELECT.items():
                 pieces.append(''.join(el.itertext()))
             elif tag=='note' and not list(el) and el.get('n') in ('c','p'):
                 notes.append({'type':{'c':'upstream_accent_comparison','p':'upstream_punctuation_comparison'}[el.get('n')],'text':el.text or ''})
+            elif reviewed_plain_note(vid,el,hashlib.sha256(raw).hexdigest()):
+                notes.append({'type':'reviewed_upstream_form_comment','n':el.get('n'),'text':el.text or '', 'status':'Upstream assertion preserved, not independent manuscript verification'})
             elif tag!='seg':
                 raise ValueError(f'{vid}: unsupported {tag} markup; review Qere/Ketiv and notes before extending the pilot')
         text=' '.join(pieces).replace(' ־ ','־').replace(' ׃','׃')
