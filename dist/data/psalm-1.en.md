@@ -1,6 +1,6 @@
 # Psalm 1
 
-Hansam Yang · Original Bible · v0.4.5
+Hansam Yang · Original Bible · v0.4.6
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -70,6 +70,10 @@ Previous v0.4.4
 
 Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.
 
+Previous v0.4.5
+
+Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.
+
 ## 2 · HYB.PS.001.002
 
 Hebrew display (MT/WLC): כִּ֤י אִ֥ם בְּתוֹרַ֥ת יְהוָ֗ה חֶ֫פְצ֥וֹ וּֽבְתוֹרָת֥וֹ יֶהְגֶּ֗ה יוֹמָ֥ם וָלָֽיְלָה׃
@@ -125,6 +129,10 @@ Previous v0.4.3
 Rather, his delight is in YHWH’s instruction, and he recites it day and night.
 
 Previous v0.4.4
+
+Rather, his delight is in YHWH’s instruction, and he recites it day and night.
+
+Previous v0.4.5
 
 Rather, his delight is in YHWH’s instruction, and he recites it day and night.
 
@@ -186,6 +194,10 @@ Previous v0.4.4
 
 He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
 
+Previous v0.4.5
+
+He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
+
 ## 4 · HYB.PS.001.004
 
 Hebrew display (MT/WLC): לֹא־כֵ֥ן הָרְשָׁעִ֑ים כִּ֥י אִם־כַּ֝מֹּ֗ץ אֲֽשֶׁר־תִּדְּפֶ֥נּוּ רֽוּחַ׃
@@ -241,6 +253,10 @@ Previous v0.4.3
 Not so the wicked! Rather, they are like chaff that the wind drives away.
 
 Previous v0.4.4
+
+Not so the wicked! Rather, they are like chaff that the wind drives away.
+
+Previous v0.4.5
 
 Not so the wicked! Rather, they are like chaff that the wind drives away.
 
@@ -302,6 +318,10 @@ Previous v0.4.4
 
 Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
 
+Previous v0.4.5
+
+Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
+
 ## 6 · HYB.PS.001.006
 
 Hebrew display (MT/WLC): כִּֽי־יוֹדֵ֣עַ יְ֭הוָה דֶּ֣רֶךְ צַדִּיקִ֑ים וְדֶ֖רֶךְ רְשָׁעִ֣ים תֹּאבֵֽד׃
@@ -360,6 +380,10 @@ Previous v0.4.4
 
 For YHWH knows the way of the righteous, but the way of the wicked perishes.
 
+Previous v0.4.5
+
+For YHWH knows the way of the righteous, but the way of the wicked perishes.
+
 ## Notes
 
 Torah can denote instruction or law. This draft uses ‘instruction’ without fixing the precise scope of the writings intended.
@@ -370,7 +394,7 @@ In verse 6 the subject that perishes is ‘the way of the wicked’. Verse 3 is 
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.4.5. https://yangs777.github.io/hansam-bible/en/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.4.6. https://yangs777.github.io/hansam-bible/en/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Génesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.5
+Hansam Yang · Original Bible · v0.4.6
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -58,6 +58,10 @@ Previous v0.4.4
 
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
+Previous v0.4.5
+
+Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
+
 ## 2 · HYB.GEN.002.002
 
 Hebrew display (MT/WLC): וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכָּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃
@@ -107,6 +111,10 @@ Previous v0.4.3
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
 Previous v0.4.4
+
+En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
+
+Previous v0.4.5
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
@@ -162,6 +170,10 @@ Previous v0.4.4
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
+Previous v0.4.5
+
+Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
+
 ## 4 · HYB.GEN.002.004
 
 Hebrew display (MT/WLC): אֵ֣לֶּה תוֹלְד֧וֹת הַשָּׁמַ֛יִם וְהָאָ֖רֶץ בְּהִבָּֽרְאָ֑ם בְּי֗וֹם עֲשׂ֛וֹת יְהוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְשָׁמָֽיִם׃
@@ -214,6 +226,10 @@ Previous v0.4.4
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
 
+Previous v0.4.5
+
+Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
+
 ## 5 · HYB.GEN.002.005
 
 Hebrew display (MT/WLC): וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃
@@ -257,6 +273,10 @@ Previous v0.4.3
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
 Previous v0.4.4
+
+Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
+
+Previous v0.4.5
 
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
@@ -308,6 +328,10 @@ Previous v0.4.4
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
 
+Previous v0.4.5
+
+Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
+
 ## 7 · HYB.GEN.002.007
 
 Hebrew display (MT/WLC): וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃
@@ -353,6 +377,10 @@ Previous v0.4.3
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
 Previous v0.4.4
+
+Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
+
+Previous v0.4.5
 
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
@@ -404,6 +432,10 @@ Previous v0.4.4
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
 
+Previous v0.4.5
+
+Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
+
 ## 9 · HYB.GEN.002.009
 
 Hebrew display (MT/WLC): וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כָּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃
@@ -443,6 +475,10 @@ Previous v0.4.3
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
 Previous v0.4.4
+
+Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
+
+Previous v0.4.5
 
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
@@ -488,6 +524,10 @@ Previous v0.4.4
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
 
+Previous v0.4.5
+
+Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
+
 ## 11 · HYB.GEN.002.011
 
 Hebrew display (MT/WLC): שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃
@@ -523,6 +563,10 @@ Previous v0.4.3
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
 Previous v0.4.4
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
+
+Previous v0.4.5
 
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
@@ -570,6 +614,10 @@ Previous v0.4.4
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
 
+Previous v0.4.5
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
 ## 13 · HYB.GEN.002.013
 
 Hebrew display (MT/WLC): וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃
@@ -605,6 +653,10 @@ Previous v0.4.3
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
 Previous v0.4.4
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
+
+Previous v0.4.5
 
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
@@ -652,6 +704,10 @@ Previous v0.4.4
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
 
+Previous v0.4.5
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
 ## 15 · HYB.GEN.002.015
 
 Hebrew display (MT/WLC): וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃
@@ -696,6 +752,10 @@ Previous v0.4.4
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
 
+Previous v0.4.5
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
 ## 16 · HYB.GEN.002.016
 
 Hebrew display (MT/WLC): וַיְצַו֙ יְהוָ֣ה אֱלֹהִ֔ים עַל־הָֽאָדָ֖ם לֵאמֹ֑ר מִכֹּ֥ל עֵֽץ־הַגָּ֖ן אָכֹ֥ל תֹּאכֵֽל׃
@@ -727,6 +787,10 @@ Previous v0.4.3
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
 Previous v0.4.4
+
+Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
+
+Previous v0.4.5
 
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
@@ -770,6 +834,10 @@ Previous v0.4.4
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
 
+Previous v0.4.5
+
+pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
+
 ## 18 · HYB.GEN.002.018
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר֙ יְהוָ֣ה אֱלֹהִ֔ים לֹא־ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֶֽעֱשֶׂהּ־לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃
@@ -807,6 +875,10 @@ Previous v0.4.3
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
 
 Previous v0.4.4
+
+Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
+
+Previous v0.4.5
 
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
 
@@ -850,6 +922,10 @@ Previous v0.4.4
 
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
 
+Previous v0.4.5
+
+Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
+
 ## 20 · HYB.GEN.002.020
 
 Hebrew display (MT/WLC): וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכָל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃
@@ -881,6 +957,10 @@ Previous v0.4.3
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
 
 Previous v0.4.4
+
+El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
+
+Previous v0.4.5
 
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
 
@@ -920,6 +1000,10 @@ Previous v0.4.4
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
 
+Previous v0.4.5
+
+YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
+
 ## 22 · HYB.GEN.002.022
 
 Hebrew display (MT/WLC): וַיִּבֶן֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ אֶֽת־הַצֵּלָ֛ע אֲשֶׁר־לָקַ֥ח מִן־הָֽאָדָ֖ם לְאִשָּׁ֑ה וַיְבִאֶ֖הָ אֶל־הָֽאָדָֽם׃
@@ -956,6 +1040,10 @@ Previous v0.4.4
 
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
 
+Previous v0.4.5
+
+YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
+
 ## 23 · HYB.GEN.002.023
 
 Hebrew display (MT/WLC): וַיֹּאמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקֳחָה־זֹּֽאת׃
@@ -983,6 +1071,10 @@ Final opinion (Korean original): 이번에야말로의 감탄, 뼈·살의 반�
 Counterargument (Korean): 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
 
 Previous v0.4.4
+
+El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
+
+Previous v0.4.5
 
 El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
 
@@ -1022,6 +1114,10 @@ Previous v0.4.4
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
 
+Previous v0.4.5
+
+Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
+
 ## 25 · HYB.GEN.002.025
 
 Hebrew display (MT/WLC): וַיִּֽהְי֤וּ שְׁנֵיהֶם֙ עֲרוּמִּ֔ים הָֽאָדָ֖ם וְאִשְׁתּ֑וֹ וְלֹ֖א יִתְבֹּשָֽׁשׁוּ׃
@@ -1049,6 +1145,10 @@ Final opinion (Korean original): 둘 다 벌거벗었으나 부끄러워하지 �
 Counterargument (Korean): 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
 
 Previous v0.4.4
+
+El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
+
+Previous v0.4.5
 
 El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
 
@@ -1090,7 +1190,7 @@ El v. 25 expresa ausencia de vergüenza sin añadir entre sí. Siguen abiertas l
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.5. https://yangs777.github.io/hansam-bible/es/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.6. https://yangs777.github.io/hansam-bible/es/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

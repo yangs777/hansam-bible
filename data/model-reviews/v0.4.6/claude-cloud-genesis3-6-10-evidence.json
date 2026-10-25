@@ -1,0 +1,300 @@
+{
+  "state": "Five pre-existing cloud drafts reused from one completed run; not new independent calls",
+  "runs": [
+    {
+      "manifest": {
+        "branch": "refs/remotes/github/claude/friendly-heisenberg-o4rtc0",
+        "path": "automation/cloud-runs/20261023T211759Z-ff69750f.json",
+        "run_id": "20261023T211759Z-ff69750f",
+        "created_at": "2026-10-23T21:17:59.736226+00:00",
+        "status": "draft_complete_unadopted",
+        "verse_ids": [
+          "Gen.3.2",
+          "Gen.3.3",
+          "Gen.3.4",
+          "Gen.3.5",
+          "Gen.3.6",
+          "Gen.3.7",
+          "Gen.3.8",
+          "Gen.3.9",
+          "Gen.3.10",
+          "Gen.3.11",
+          "Gen.3.12",
+          "Gen.3.13",
+          "Gen.3.14",
+          "Gen.3.15",
+          "Gen.3.16",
+          "Gen.3.17",
+          "Gen.3.18",
+          "Gen.3.19",
+          "Gen.3.20",
+          "Gen.3.21",
+          "Gen.3.22",
+          "Gen.3.23",
+          "Gen.3.24",
+          "Gen.4.1",
+          "Gen.4.2",
+          "Gen.4.3",
+          "Gen.4.4",
+          "Gen.4.5",
+          "Gen.4.6",
+          "Gen.4.7",
+          "Gen.4.8",
+          "Gen.4.9",
+          "Gen.4.10",
+          "Gen.4.11",
+          "Gen.4.12",
+          "Gen.4.13",
+          "Gen.4.14",
+          "Gen.4.15",
+          "Gen.4.16",
+          "Gen.4.17",
+          "Gen.4.18",
+          "Gen.4.19",
+          "Gen.4.20",
+          "Gen.4.21",
+          "Gen.4.22",
+          "Gen.4.23",
+          "Gen.4.24",
+          "Gen.4.25",
+          "Gen.4.26",
+          "Gen.5.1",
+          "Gen.5.2",
+          "Gen.5.3",
+          "Gen.5.4",
+          "Gen.5.5",
+          "Gen.5.6",
+          "Gen.5.7",
+          "Gen.5.8",
+          "Gen.5.9",
+          "Gen.5.10",
+          "Gen.5.11",
+          "Gen.5.12",
+          "Gen.5.13",
+          "Gen.5.14",
+          "Gen.5.15",
+          "Gen.5.16",
+          "Gen.5.17",
+          "Gen.5.18",
+          "Gen.5.19",
+          "Gen.5.20",
+          "Gen.5.21",
+          "Gen.5.22",
+          "Gen.5.23",
+          "Gen.5.24",
+          "Gen.5.25",
+          "Gen.5.26",
+          "Gen.5.27",
+          "Gen.5.28",
+          "Gen.5.29",
+          "Gen.5.30",
+          "Gen.5.31",
+          "Gen.5.32",
+          "Gen.6.1",
+          "Gen.6.2",
+          "Gen.6.3",
+          "Gen.6.4",
+          "Gen.6.5",
+          "Gen.6.6",
+          "Gen.6.7",
+          "Gen.6.8",
+          "Gen.6.9",
+          "Gen.6.10",
+          "Gen.6.11",
+          "Gen.6.12",
+          "Gen.6.13",
+          "Gen.6.14",
+          "Gen.6.15",
+          "Gen.6.17",
+          "Gen.6.18",
+          "Gen.6.19",
+          "Gen.6.20"
+        ],
+        "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+        "provider": "Claude Code native cloud",
+        "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock",
+        "output": "automation/cloud-drafts/20261023T211759Z-ff69750f.json",
+        "drafted_verse_count": 100,
+        "requested_model": "claude-sonnet-5-5",
+        "independent_review": "not performed"
+      },
+      "commit": "b1f1bc1990730fa7a4365696550a17ed56bf3aa4",
+      "output_metadata": {
+        "run_id": "20261023T211759Z-ff69750f",
+        "provider": "Claude Code native cloud",
+        "model_identity": {
+          "requested_or_configured_model": "claude-sonnet-5-5",
+          "served_model_reported_by_session_api": "not exposed to this session",
+          "identity_basis": "The session system context states the serving model as Sonnet 5.5 (claude-sonnet-5-5); no API call was made to verify the served snapshot. A model self-report is not source evidence.",
+          "session": "https://claude.ai/code/session_01JEwLUdjeMvRfJUufNXpgEA",
+          "unavailable": [
+            "dated model snapshot identifier",
+            "per-request token counts",
+            "cost or credit consumption counters",
+            "sampling parameters"
+          ]
+        },
+        "executed_at_utc": "2026-10-23T21:22:37.249140+00:00",
+        "state": "unadopted_model_draft",
+        "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+        "input": {
+          "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+          "source_packet_sha256": "3796e94a5dd0d8550f257c51275ca269831f73ee5c053000904d143c9b1eda8a",
+          "verse_count": 100,
+          "first_id": "Gen.3.2",
+          "last_id": "Gen.6.20",
+          "skipped_in_range": {
+            "Gen.6.16": "not in source packet (excluded upstream; see automation/source-queue-report.json if listed); not drafted"
+          }
+        },
+        "self_check": {
+          "exact_id_coverage": true,
+          "duplicate_ids": false,
+          "ko_en_es_nonempty": true,
+          "hebrew_provenance_and_rights_attached": true,
+          "no_human_certification_claim": true,
+          "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; corrections made to Gen.3.2, 3.10, 3.11, 3.24, 4.2, 4.13, 4.15, 6.13 and genealogy particles",
+          "default_text_note": "Verses without a verse-specific objection use a shared default for counterargument/opinion/reconsider fields; this means no notable issue was identified by the drafting model, not that none exists.",
+          "genealogy_note": "Gen.5 formulaic verses were produced from a shared template with per-verse numbers and names; numbers follow the MT display, and manuscript number differences were not collated.",
+          "independent_review": "not performed; GPT and Gemini review remain required",
+          "open_items": [
+            "Gen.3.15, 3.16, 4.7, 6.3, 6.4 lexical/syntactic choices uncertain",
+            "Gen.3.19 and 3.22 cross-language register consistency",
+            "Gen.4.8 content of Cain's speech absent in MT display; reported variants not collated",
+            "Gen.5.1 adam as person vs humankind",
+            "Gen.6.16 absent from packet"
+          ]
+        },
+        "publication_requires": [
+          "GPT review",
+          "Gemini review",
+          "current best editorial selection",
+          "versioned archive",
+          "publication checks"
+        ]
+      },
+      "verses": [
+        {
+          "id": "Gen.3.6",
+          "translations": {
+            "ko": "여자가 보니 그 나무는 먹기에 좋고 눈에 탐스럽고 지혜롭게 할 만큼 탐나는 나무였다. 그래서 그 열매를 따서 먹고, 함께 있던 남편에게도 주니 그도 먹었다.",
+            "en": "The woman saw that the tree was good for food, that it was a delight to the eyes, and that the tree was desirable for gaining insight; so she took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.",
+            "es": "La mujer vio que el árbol era bueno para comer, que era un deleite para los ojos y que era deseable para adquirir entendimiento; tomó de su fruto y comió, y dio también a su marido, que estaba con ella, y él comió."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "לְהַשְׂכִּיל를 \"통찰/지혜를 얻게 하려고\"로 옮겼다. עִמָּהּ는 \"그녀와 함께\"로 두어 남편이 곁에 있었음을 보존했다.",
+          "counterargument_ko": "להשכיל을 \"지혜롭게 하는 데\"가 아니라 \"바라보는 데\"로 읽는 소수설이 있다. 또 עִמָּהּ를 단지 \"함께\"로 볼지 \"그 자리에 있던\"으로 볼지 갈린다.",
+          "current_opinion_ko": "\"통찰/지혜를 얻기에 탐나는\"을 유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.3.6",
+          "source_hebrew": "וַתֵּ֣רֶא הָֽאִשָּׁ֡ה כִּ֣י טוֹב֩ הָעֵ֨ץ לְמַאֲכָ֜ל וְכִ֧י תַֽאֲוָה־ה֣וּא לָעֵינַ֗יִם וְנֶחְמָ֤ד הָעֵץ֙ לְהַשְׂכִּ֔יל וַתִּקַּ֥ח מִפִּרְי֖וֹ וַתֹּאכַ֑ל וַתִּתֵּ֧ן גַּם־לְאִישָׁ֛הּ עִמָּ֖הּ וַיֹּאכַֽל׃",
+          "source_hebrew_sha256": "2b4594623fc442320ef0a3c1f1c71dc0fe98dd68f15fdf3ef270d59606b37372",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.7",
+          "translations": {
+            "ko": "그러자 두 사람의 눈이 열려 자기들이 벌거벗은 것을 알았다. 그래서 무화과나무 잎을 엮어 자기들의 허리를 가릴 것을 만들었다.",
+            "en": "Then the eyes of both of them were opened, and they knew that they were naked; and they sewed fig leaves together and made loincloths for themselves.",
+            "es": "Entonces se les abrieron los ojos a los dos y supieron que estaban desnudos; cosieron hojas de higuera y se hicieron taparrabos."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "חֲגֹרֹת는 허리에 두르는 것이므로 \"허리를 가릴 것\"/loincloth/taparrabos로 옮겼다. וַיֵּדְעוּ는 경험적 앎의 뜻이다.",
+          "counterargument_ko": "\"앞치마(apron)\"나 \"띠\"가 다 가능한 어휘 선택이다.",
+          "current_opinion_ko": "허리 두르개로 옮긴다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.3.7",
+          "source_hebrew": "וַתִּפָּקַ֨חְנָה֙ עֵינֵ֣י שְׁנֵיהֶ֔ם וַיֵּ֣דְע֔וּ כִּ֥י עֵֽירֻמִּ֖ם הֵ֑ם וַֽיִּתְפְּרוּ֙ עֲלֵ֣ה תְאֵנָ֔ה וַיַּעֲשׂ֥וּ לָהֶ֖ם חֲגֹרֹֽת׃",
+          "source_hebrew_sha256": "37b92b0153e0c1e5accfb7c4bd54e85208d5f0dbb1f81c44938669b9a8c570e1",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.8",
+          "translations": {
+            "ko": "그때 그들은 날이 서늘할 즈음 동산을 거니시는 주 하나님의 소리를 들었다. 사람과 그의 아내는 주 하나님의 얼굴을 피하여 동산 나무들 사이에 숨었다.",
+            "en": "They heard the sound of the LORD God walking about in the garden at the breezy time of the day, and the man and his wife hid themselves from the presence of the LORD God among the trees of the garden.",
+            "es": "Oyeron el sonido del SEÑOR Dios que andaba por el huerto a la hora de la brisa del día, y el hombre y su mujer se escondieron de la presencia del SEÑOR Dios entre los árboles del huerto."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "לְרוּחַ הַיּוֹם를 \"낮의 바람 부는 때\"로 보아 \"날이 서늘할 즈음\"으로 옮겼다. קוֹל은 \"소리\"로 두어 발걸음/음성 어느 쪽도 닫지 않았다.",
+          "counterargument_ko": "\"낮의 바람\"을 오후의 미풍으로 보는 설과, 아카드어 계열로 \"폭풍의 때\"를 읽는 소수설이 있다. מִתְהַלֵּךְ의 주어가 소리인지 하나님인지도 갈린다.",
+          "current_opinion_ko": "\"서늘한 때\"를 따르되 주어는 하나님으로 읽는다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.3.8",
+          "source_hebrew": "וַֽיִּשְׁמְע֞וּ אֶת־ק֨וֹל יְהוָ֧ה אֱלֹהִ֛ים מִתְהַלֵּ֥ךְ בַּגָּ֖ן לְר֣וּחַ הַיּ֑וֹם וַיִּתְחַבֵּ֨א הָֽאָדָ֜ם וְאִשְׁתּ֗וֹ מִפְּנֵי֙ יְהוָ֣ה אֱלֹהִ֔ים בְּת֖וֹךְ עֵ֥ץ הַגָּֽן׃",
+          "source_hebrew_sha256": "2d22b87f56a3cd5e029989669b3989ad57b8f1791ca77a3db4f06870750ee76a",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.9",
+          "translations": {
+            "ko": "주 하나님께서 사람을 부르시며 \"네가 어디 있느냐?\" 하고 물으셨다.",
+            "en": "But the LORD God called to the man and said to him, \"Where are you?\"",
+            "es": "Pero el SEÑOR Dios llamó al hombre y le dijo: «¿Dónde estás?»"
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "이 절에서 두드러진 어휘·구문 문제는 발견하지 못했다. 직역에 가깝게 옮겼다.",
+          "counterargument_ko": "대안적 번역 선택이 있을 수 있으나 본문 이문이나 중대한 해석 분기는 이 절에서 확인하지 않았다.",
+          "current_opinion_ko": "현재 번역을 잠정 의견으로 유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.3.9",
+          "source_hebrew": "וַיִּקְרָ֛א יְהוָ֥ה אֱלֹהִ֖ים אֶל־הָֽאָדָ֑ם וַיֹּ֥אמֶר ל֖וֹ אַיֶּֽכָּה׃",
+          "source_hebrew_sha256": "44d6aeecbaaf83a3565f4fc94e1b9a20b3e3dc42792e0dc9ad4610dc4021e22c",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.3.10",
+          "translations": {
+            "ko": "그가 대답하였다. \"동산에서 주의 소리를 듣고 내가 벌거벗었으므로 두려워 숨었습니다.\"",
+            "en": "He said, \"I heard your sound in the garden, and I was afraid because I was naked, so I hid myself.\"",
+            "es": "Él respondió: «Oí tu voz en el huerto y tuve miedo, porque estaba desnudo, y me escondí»."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "קֹלְךָ는 \"당신의 소리\"이며 8절의 קוֹל과 같은 어휘이므로 \"소리\"로 통일했다.",
+          "counterargument_ko": "\"음성(voice)\"과 \"소리(sound)\" 중 선택이 갈린다.",
+          "current_opinion_ko": "\"소리\"로 통일한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.3.10",
+          "source_hebrew": "וַיֹּ֕אמֶר אֶת־קֹלְךָ֥ שָׁמַ֖עְתִּי בַּגָּ֑ן וָאִירָ֛א כִּֽי־עֵירֹ֥ם אָנֹ֖כִי וָאֵחָבֵֽא׃",
+          "source_hebrew_sha256": "11fb01b0fbc22adf74eed7145ebbbcf11a21a7f0b9f3c4fb9d937c0aa83b2502",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        }
+      ]
+    }
+  ]
+}

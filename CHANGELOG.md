@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.6 — 2026-10-26
+
+- Added Genesis 3:6–10 in Korean, English and Spanish: 76 selected verses / 228 translations overall.
+- Recorded actual GPT and Gemini proposals/final opinions through official Antigravity CLI, plus Claude Code CLI (modelUsage claude-opus-5-5) proposals/opinions for 3:6, 3:8 and 3:10. Reused five existing cloud drafts.
+- Preserved visual/cognitive readings of gaining wisdom, the limits of with her, garment-shape uncertainty, sound/voice and day/evening-wind alternatives, singular address and the idiomatic Spanish Te oí.
+- Preserved the prior 71 selections, Hebrew layers and byte-identical v0.4.5 archives. Adoption automatically added the public update record; stable Genesis 3 URLs remain unchanged.
+
 ## 0.4.5 — 2026-10-26
 
 - Added Genesis 3:1–5 in Korean, English and Spanish: 71 selected verses / 213 translations overall.

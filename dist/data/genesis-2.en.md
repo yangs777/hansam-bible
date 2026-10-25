@@ -1,6 +1,6 @@
 # Genesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.5
+Hansam Yang · Original Bible · v0.4.6
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -58,6 +58,10 @@ Previous v0.4.4
 
 Thus the heavens and the earth and all their host were completed.
 
+Previous v0.4.5
+
+Thus the heavens and the earth and all their host were completed.
+
 ## 2 · HYB.GEN.002.002
 
 Hebrew display (MT/WLC): וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכָּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃
@@ -107,6 +111,10 @@ Previous v0.4.3
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
 Previous v0.4.4
+
+On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
+
+Previous v0.4.5
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
@@ -162,6 +170,10 @@ Previous v0.4.4
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
+Previous v0.4.5
+
+God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
+
 ## 4 · HYB.GEN.002.004
 
 Hebrew display (MT/WLC): אֵ֣לֶּה תוֹלְד֧וֹת הַשָּׁמַ֛יִם וְהָאָ֖רֶץ בְּהִבָּֽרְאָ֑ם בְּי֗וֹם עֲשׂ֛וֹת יְהוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְשָׁמָֽיִם׃
@@ -214,6 +226,10 @@ Previous v0.4.4
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
 
+Previous v0.4.5
+
+This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
+
 ## 5 · HYB.GEN.002.005
 
 Hebrew display (MT/WLC): וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃
@@ -257,6 +273,10 @@ Previous v0.4.3
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
 Previous v0.4.4
+
+No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
+
+Previous v0.4.5
 
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
@@ -308,6 +328,10 @@ Previous v0.4.4
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
 
+Previous v0.4.5
+
+But a flow of water would rise from the earth and water the whole surface of the ground.
+
 ## 7 · HYB.GEN.002.007
 
 Hebrew display (MT/WLC): וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃
@@ -353,6 +377,10 @@ Previous v0.4.3
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
 Previous v0.4.4
+
+Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
+
+Previous v0.4.5
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
@@ -404,6 +432,10 @@ Previous v0.4.4
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
 
+Previous v0.4.5
+
+Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
+
 ## 9 · HYB.GEN.002.009
 
 Hebrew display (MT/WLC): וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כָּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃
@@ -443,6 +475,10 @@ Previous v0.4.3
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
 Previous v0.4.4
+
+Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
+
+Previous v0.4.5
 
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
@@ -488,6 +524,10 @@ Previous v0.4.4
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
 
+Previous v0.4.5
+
+A river flowed out of Eden to water the garden; from there it divided into four branches.
+
 ## 11 · HYB.GEN.002.011
 
 Hebrew display (MT/WLC): שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃
@@ -523,6 +563,10 @@ Previous v0.4.3
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
 Previous v0.4.4
+
+The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
+
+Previous v0.4.5
 
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
@@ -570,6 +614,10 @@ Previous v0.4.4
 
 The gold of that land is good; bdellium and shoham stone are there.
 
+Previous v0.4.5
+
+The gold of that land is good; bdellium and shoham stone are there.
+
 ## 13 · HYB.GEN.002.013
 
 Hebrew display (MT/WLC): וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃
@@ -605,6 +653,10 @@ Previous v0.4.3
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
 Previous v0.4.4
+
+The name of the second river is Gihon; it flows around the whole land of Cush.
+
+Previous v0.4.5
 
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
@@ -652,6 +704,10 @@ Previous v0.4.4
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
 
+Previous v0.4.5
+
+The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
+
 ## 15 · HYB.GEN.002.015
 
 Hebrew display (MT/WLC): וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃
@@ -696,6 +752,10 @@ Previous v0.4.4
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
 
+Previous v0.4.5
+
+Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
+
 ## 16 · HYB.GEN.002.016
 
 Hebrew display (MT/WLC): וַיְצַו֙ יְהוָ֣ה אֱלֹהִ֔ים עַל־הָֽאָדָ֖ם לֵאמֹ֑ר מִכֹּ֥ל עֵֽץ־הַגָּ֖ן אָכֹ֥ל תֹּאכֵֽל׃
@@ -727,6 +787,10 @@ Previous v0.4.3
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
 Previous v0.4.4
+
+Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
+
+Previous v0.4.5
 
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
@@ -770,6 +834,10 @@ Previous v0.4.4
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
 
+Previous v0.4.5
+
+but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
+
 ## 18 · HYB.GEN.002.018
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר֙ יְהוָ֣ה אֱלֹהִ֔ים לֹא־ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֶֽעֱשֶׂהּ־לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃
@@ -807,6 +875,10 @@ Previous v0.4.3
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
 Previous v0.4.4
+
+Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
+
+Previous v0.4.5
 
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
@@ -850,6 +922,10 @@ Previous v0.4.4
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
 
+Previous v0.4.5
+
+Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
+
 ## 20 · HYB.GEN.002.020
 
 Hebrew display (MT/WLC): וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכָל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃
@@ -881,6 +957,10 @@ Previous v0.4.3
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
 Previous v0.4.4
+
+The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
+
+Previous v0.4.5
 
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
@@ -920,6 +1000,10 @@ Previous v0.4.4
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
 
+Previous v0.4.5
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
 ## 22 · HYB.GEN.002.022
 
 Hebrew display (MT/WLC): וַיִּבֶן֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ אֶֽת־הַצֵּלָ֛ע אֲשֶׁר־לָקַ֥ח מִן־הָֽאָדָ֖ם לְאִשָּׁ֑ה וַיְבִאֶ֖הָ אֶל־הָֽאָדָֽם׃
@@ -956,6 +1040,10 @@ Previous v0.4.4
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
 
+Previous v0.4.5
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
 ## 23 · HYB.GEN.002.023
 
 Hebrew display (MT/WLC): וַיֹּאמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקֳחָה־זֹּֽאת׃
@@ -983,6 +1071,10 @@ Final opinion (Korean original): 이번에야말로의 감탄, 뼈·살의 반�
 Counterargument (Korean): 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
 
 Previous v0.4.4
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
+
+Previous v0.4.5
 
 The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
@@ -1022,6 +1114,10 @@ Previous v0.4.4
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
 
+Previous v0.4.5
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
 ## 25 · HYB.GEN.002.025
 
 Hebrew display (MT/WLC): וַיִּֽהְי֤וּ שְׁנֵיהֶם֙ עֲרוּמִּ֔ים הָֽאָדָ֖ם וְאִשְׁתּ֑וֹ וְלֹ֖א יִתְבֹּשָֽׁשׁוּ׃
@@ -1049,6 +1145,10 @@ Final opinion (Korean original): 둘 다 벌거벗었으나 부끄러워하지 �
 Counterargument (Korean): 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
 
 Previous v0.4.4
+
+The human and his wife were both naked, but they were not ashamed.
+
+Previous v0.4.5
 
 The human and his wife were both naked, but they were not ashamed.
 
@@ -1090,7 +1190,7 @@ Verse 25 renders absence of shame without adding an explicit toward one another.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.5. https://yangs777.github.io/hansam-bible/en/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.6. https://yangs777.github.io/hansam-bible/en/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
