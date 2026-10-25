@@ -4,6 +4,8 @@
 
 [본문 읽기](https://yangs777.github.io/hansam-bible/) · [공개 데이터](https://yangs777.github.io/hansam-bible/data/) · [운영 전략](STRATEGY.ko.md)
 
+[업데이트 기록](https://yangs777.github.io/hansam-bible/updates/)에서 날짜별 번역판·기능 변경과 최근 공개 작업을 확인할 수 있습니다. [RSS](https://yangs777.github.io/hansam-bible/updates/feed.xml)와 [JSON](https://yangs777.github.io/hansam-bible/updates/feed.json)도 제공합니다. 새 판본을 `tools/adopt.py`로 채택하면 이력이 자동 기록됩니다. 사이트 기능 변경은 `tools/record_update.py`로 남깁니다. 기록 시각과 실제 배포 완료 시각을 구분합니다.
+
 각 언어에서 현재 근거에 따른 최선의 번역을 읽고, 더 좋은 증거가 나오면 갱신하는 공개 성경 연구 프로젝트입니다. 이전 이름은 Hansam Bible이며 기존 주소와 구절 식별자는 유지합니다. Hansam Yang은 현대 프로젝트의 최초 기획자·제작자이며 고대 성경의 저자라는 뜻이 아닙니다.
 
 The pilot contains Genesis 1:1–31, Genesis 2:1–25, Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: sixty-six unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.

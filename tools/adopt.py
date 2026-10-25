@@ -1,5 +1,7 @@
 """Adopt a new current edition while preserving the superseded verse dataset."""
 import argparse, copy, json, pathlib, re
+from datetime import timedelta, timezone
+import update_log
 
 R = pathlib.Path(__file__).resolve().parents[1]
 def read(path): return json.loads(path.read_text(encoding='utf-8'))
@@ -69,6 +71,8 @@ def adopt(decision_file, version):
         if len(p['verses']) == 1:
             p['basis'] = selected[p['verses'][0]['id']]['basis']
     config['version'] = version
+    entry=update_log.edition_entry(version,previous_verses,proposed_passages,decisions,R)
+    config['date']=update_log.timestamp(entry['recorded_at']).astimezone(timezone(timedelta(hours=9))).date().isoformat()
     save(R/'data/editorial.json',editorial); save(R/'config.json',config)
     save(R/'data/decisions.json', {k:v for k,v in decisions.items() if k not in ('new_passages','passage_updates')})
     citation=R/'CITATION.cff'
@@ -77,6 +81,7 @@ def adopt(decision_file, version):
     package=R/'package.json'
     if package.exists():
         metadata=read(package); metadata['version']=version; save(package,metadata)
+    update_log.append_entry(R,entry)
     print(json.dumps({'previous':old_version,'current':version,'archived':str(archive),'selected_verses':len(verses)}))
 
 if __name__ == '__main__':

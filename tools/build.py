@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import review_layers
 import search_pages
 import reader
+import updates
 R=pathlib.Path(__file__).resolve().parents[1]; D=R/'dist'; D.mkdir(exist_ok=True)
 C=json.loads((R/'config.json').read_text(encoding='utf-8'))
 E=json.loads((R/'data/editorial.json').read_text(encoding='utf-8'))['passages']
@@ -24,7 +25,7 @@ def citation(p,lang):return f"Hansam Yang. Original Bible: {p['reference']} ({la
 def header(lang,path=''):
     t=L[lang]
     langs=''.join(f'<a lang="{k}" href="/{k}/{path}"'+(' aria-current="page"' if k==lang else '')+f'>{v["name"]}</a>' for k,v in L.items())
-    return f'''<a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang=='ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a><nav aria-label="Main"><a href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'}</a><a href="/{lang}/#passages">{t['home']}</a><a href="/data/">{t['data']}</a><a href="/about/">{t['about']}</a></nav><div class="languages" aria-label="Languages">{langs}</div></header>'''
+    return f'''<a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang=='ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a><nav aria-label="Main"><a href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'}</a><a href="/{lang}/#passages">{t['home']}</a><a href="/data/">{t['data']}</a><a href="/updates/">{'업데이트' if lang=='ko' else 'Updates' if lang=='en' else 'Novedades'}</a><a href="/about/">{t['about']}</a></nav><div class="languages" aria-label="Languages">{langs}</div></header>'''
 def footer(lang):
     t=L[lang]
     return f'''<footer><div class="footer-brand">ORIGINAL BIBLE <span>v{VERSION}</span></div><p>{t['author']}: <a href="/about/">Hansam Yang</a></p><p>{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 · {t['terms']}</a> · <a href="{C['repository']}">GitHub</a> · <a href="/data/">JSON / JSONL / Markdown</a></p><small>{t['privacy']}</small></footer>'''
@@ -34,14 +35,14 @@ def page(path,title,body,lang='en',alternates=None,structured=None,description='
     data=structured or {'@context':'https://schema.org','@type':'WebPage','name':title,'url':canonical,'inLanguage':lang,'isPartOf':{'@id':url('/#project')}}
     safe_json=js(data).replace(chr(60)+chr(47),chr(60)+chr(92)+chr(47))
     alt=''.join(f'<link rel="alternate" hreflang="{k}" href="{url(v)}">' for k,v in (alternates or {}).items())
-    out=f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | 원문성경 · Original Bible</title><meta name="description" content="{esc(description or title+' — Hansam Yang, research pilot '+VERSION)}"><meta name="author" content="Hansam Yang"><meta name="robots" content="index,follow"><link rel="canonical" href="{canonical}">{alt}<link rel="stylesheet" href="/assets/style.css"><meta property="og:site_name" content="원문성경 / Original Bible"><meta property="og:title" content="{esc(title)}"><meta property="og:url" content="{canonical}"><meta property="og:type" content="article"><script type="application/ld+json">{safe_json}</script><script src="/assets/app.js" defer></script></head><body>{header(lang,path.split('/',2)[-1] if path.startswith('/'+lang+'/') else '')}<main id="main">{body}</main>{footer(lang)}</body></html>'''
+    out=f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | 원문성경 · Original Bible</title><meta name="description" content="{esc(description or title+' — Hansam Yang, research pilot '+VERSION)}"><meta name="author" content="Hansam Yang"><meta name="robots" content="index,follow"><link rel="canonical" href="{canonical}">{alt}<link rel="alternate" type="application/rss+xml" title="Original Bible updates" href="{url('/updates/feed.xml')}"><link rel="stylesheet" href="/assets/style.css"><meta property="og:site_name" content="원문성경 / Original Bible"><meta property="og:title" content="{esc(title)}"><meta property="og:url" content="{canonical}"><meta property="og:type" content="article"><script type="application/ld+json">{safe_json}</script><script src="/assets/app.js" defer></script></head><body>{header(lang,path.split('/',2)[-1] if path.startswith('/'+lang+'/') else '')}<main id="main">{body}</main>{footer(lang)}</body></html>'''
     write(path.lstrip('/')+'index.html',out)
 def home(lang):
     t=L[lang]; rows=''; sample=next(p for p in E if p['slug']=='psalm-1')
     for i,p in enumerate(E,1):
         rows+=f'''<a class="passage-row" href="/{lang}/{p['slug']}/"><span class="row-number">0{i}</span><div><h3>{p['title'][lang]}</h3><p>{p['subtitle'][lang]}</p></div><span class="status">{review_layers.LABELS[lang][0]}</span><span class="arrow" aria-hidden="true">↗</span></a>'''
     body=f'''<section class="hero"><div><p class="eyebrow">ORIGINAL BIBLE / {t['pilot']} v{VERSION}</p><h1>{t['hero']}</h1><p class="lead">{t['lead']}</p><div class="actions"><a class="button" href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'} <span>→</span></a><a class="text-link" href="/data/">{t['download']} ↗</a></div></div><aside class="specimen"><p class="eyebrow">PSALM 1:2 · MT DISPLAY</p><div class="hebrew large" lang="he" dir="rtl">כִּי אִם בְּתוֹרַת<br>יְהוָה חֶפְצוֹ</div><div class="specimen-line"></div><p>{esc(sample['verses'][1][lang])}</p><small>WLC / AI-assisted literal draft</small></aside></section><div class="stats"><div><strong>{len(E):02}</strong><span>PASSAGES</span></div><div><strong>03</strong><span>LANGUAGES</span></div><div><strong>{VERSE_COUNT}</strong><span>VERSES</span></div><div class="stat-note">{t['draft']}</div></div><section class="catalog" id="passages"><p class="eyebrow">THE FIRST COLLECTION</p><h2>{t['texts']}</h2>{rows}</section><section class="manifesto"><div><p class="eyebrow">EVIDENCE BEFORE CERTAINTY</p><h2>{t['intro2']}</h2></div><div><p>{t['intro3']}</p><a class="text-link" href="/methodology/">Editorial method ↗</a></div></section>'''
-    page('/'+lang+'/',t['home'],body,lang,{k:'/'+k+'/' for k in L},description=t['lead'])
+    page('/'+lang+'/',{'ko':'원문성경 — 히브리어 원문과 번역 대조','en':'Original Bible — Hebrew text and translation comparison','es':'Original Bible — texto hebreo y comparación de traducciones'}[lang],body,lang,{k:'/'+k+'/' for k in L},description=t['lead'])
 def study(p,lang):
     t=L[lang]; rows=''; md=[f"# {p['title'][lang]}",f"Hansam Yang · Original Bible · v{VERSION}",t['draft'],t['warning'],p['intro'][lang],f"Basis: {p['basis']}",f"Decision: {p['decision']}"]
     for v in p['verses']:
@@ -112,6 +113,7 @@ schema={'$schema':'https://json-schema.org/draft/2020-12/schema','$id':url('/dat
 write('data/schema.json',js(schema)+'\n')
 search_pages.build(page,write,C,E,H,TRACES)
 reader.build(page,write,C,E,H)
+updates.build(page,write,C,E)
 indexnow=json.loads((R/'automation/indexnow.json').read_text(encoding='utf-8'))
 write(indexnow['key']+'.txt',indexnow['key']+'\n')
 write('robots.txt',f'User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: GPTBot\nAllow: /\n\nSitemap: {ORIGIN}/sitemap.xml\n')
@@ -123,6 +125,8 @@ write('llms.txt',f'''# Original Bible — Hansam Yang
 ## Read
 '''+''.join(f'- [{p["reference"]}]({url("/en/"+p["slug"]+"/")})\n' for p in E)+f'''
 - [Bible reader and comparison]({url('/read/')})
+- [Update history and publication status]({url('/updates/')})
+- [Update RSS]({url('/updates/feed.xml')})
 - [Separately sourced reading editions]({url('/library/catalog.json')}) — KorRV, ASV 1901, RV1909; upstream Public Domain distributions, not translations by Hansam Yang. Chapter/verse alignment only; source metadata and empty slots retained.
 
 ## Download

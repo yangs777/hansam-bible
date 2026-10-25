@@ -1,5 +1,11 @@
 # Changelog
 
+## Website update — 2026-10-25
+
+- Added a public update timeline with Korean timestamps, edition history, current coverage, review steps, RSS and JSON feeds, and a read-only public deployment-status check.
+- New editorial adoption automatically records added/revised verses and actual model labels. Existing update entries remain immutable; site changes have a dedicated recording command.
+- Linked updates across the site and improved localized homepage titles. Translation edition v0.4.4 and its archived datasets are unchanged.
+
 ## 0.4.4 — 2026-10-25
 
 - Added Genesis 2:21–25 in Korean, English and Spanish, completing the chapter: 66 selected verses / 198 translations overall.

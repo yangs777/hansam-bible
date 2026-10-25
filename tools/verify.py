@@ -108,6 +108,12 @@ for lang in ('ko','en','es'):
         assert 'ORIGINAL BIBLE' in s and 'gemini-' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
-assert len(pages)==9+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3
+assert len(pages)==10+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3
 ET.parse(D/'sitemap.xml')
+ET.parse(D/'updates/feed.xml')
+updates=json.loads((D/'updates/feed.json').read_text(encoding='utf-8'))
+assert updates['current_version']==C['version'] and updates['total_verses']==expected_count
+assert len({e['id'] for e in updates['entries']})==len(updates['entries'])
+assert any(e.get('version')==C['version'] for e in updates['entries'])
+assert all(not link['url'].startswith('/') for e in updates['entries'] for link in e.get('links',[]))
 print(json.dumps({'result':'PASS','html_pages':len(pages),'localized_passage_pages':len(E)*3,'verse_records':expected_count,'draft_translations':expected_count*3,'upstream_tokens_compared':checked_tokens,'checks':['per-record provenance and rights','draft and review states','shared-data export equality','source Hebrew codepoint preservation when cache exists','local links and anchors','JSON-LD parsing','canonical/hreflang','SHA-256 manifest','XML sitemap']},ensure_ascii=False,indent=2))

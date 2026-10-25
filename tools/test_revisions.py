@@ -38,6 +38,11 @@ class RevisionTests(unittest.TestCase):
         self.assertEqual('검증용 새 채택문',selected['ko'])
         old=next(v for v in archive['records'] if v['id']==target_id)
         self.assertNotEqual(selected['ko'],old['translations']['ko'])
+        log=adopt.read(self.root/'data/updates.json')['entries']
+        self.assertEqual(log[0]['version'],self.next_version)
+        self.assertEqual(log[0]['revised_ids'],[target_id])
+        self.assertEqual(log[0]['time_basis'],'edition_adopted_at')
+        self.assertEqual(log[0]['total_verses'],len(previous))
     def test_existing_archive_cannot_be_changed(self):
         self.next_decisions(); path=self.root/f'data/releases/v{self.version}.json'
         old=adopt.read(self.root/'dist/data/hansam-bible.json'); old['records'][0]['translations']['ko']='tampered'
@@ -56,6 +61,9 @@ class RevisionTests(unittest.TestCase):
         old=adopt.read(self.root/'dist/data/hansam-bible.json')['records']
         with contextlib.redirect_stdout(io.StringIO()):adopt.adopt(self.path,self.next_version)
         self.assertEqual(old,adopt.read(self.root/f'data/releases/v{self.version}.json')['records'])
+
+        log=adopt.read(self.root/'data/updates.json')['entries']
+        self.assertEqual(log[0]['added_references'],[passage['verses'][0]['source']])
         self.assertEqual('TEST.NEW.001',adopt.read(self.root/'data/editorial.json')['passages'][0]['verses'][0]['id'])
 
     def test_extend_passage_preserves_url_and_previous_collection(self):
