@@ -28,7 +28,9 @@ jobs:
       - name: Build from committed selected evidence
         run: python tools/build.py
       - name: Check public data and links
-        run: python tools/verify.py
+        run: |
+          python tools/verify.py
+          python tools/test_reader.py
       - name: Adapt links to the project subpath
         run: python tools/pages_mirror.py
       - uses: actions/upload-pages-artifact@v4

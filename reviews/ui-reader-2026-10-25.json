@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-25",
+  "scope": "Bible reading UI, not translation adoption or manuscript verification",
+  "access": "Official Antigravity agy CLI; read-only supplied-code review, no desktop automation",
+  "requested_model": "claude-sonnet-4-6",
+  "identity_basis": "Official CLI requested model and stream init model; not Claude Code CLI",
+  "reviewed_input_sha256": "67ce4f7a2493d1ec469c3a3a8789b7bc9c1a7328929d7ef7e52d9c97949ea9f4",
+  "actual_result": {
+    "conversation_id": "429ca3c2-3950-4f7b-a567-087c49f41d33",
+    "status": "SUCCESS",
+    "response": "주인님, 코드를 꼼꼼히 검토했습니다. 발견된 버그들을 JSON으로 정리했습니다.\n\n```json\n{\n  \"findings\": [\n    {\n      \"severity\": \"HIGH\",\n      \"location\": \"render() → cell 생성 루프 내 study-link href\",\n      \"issue\": \"original.records[state.book][state.chapter][n].study[v.lang] 경로에 대한 방어 코드가 없음. study 객체나 특정 lang 키가 없으면 TypeError로 render() 전체가 중단되고, 빈 문자열이 들어오면 siteRoot 기준으로 잘못된 URL이 생성됨.\",\n      \"fix\": \"const studyPath = original.records[state.book]?.[state.chapter]?.[n]?.study?.[v.lang]; if (studyPath) { ... } 로 감싸고, studyPath가 falsy면 링크를 생성하지 않음.\"\n    },\n    {\n      \"severity\": \"HIGH\",\n      \"location\": \"parsePasted() — numbered 모드의 연속행(continuation) 병합\",\n      \"issue\": \"rows[current] += ' ' + lines[i] 에서 rows[current]가 undefined인 경우(첫 줄이 번호 없는 행인데 current가 null이 아닌 정상 숫자인 상황) TypeError 없이 'undefined 본문' 문자열이 만들어짐. 실제로 current가 null이면 아래 throw로 처리되지만, 번호 있는 행이 먼저 나와 current에 값이 설정된 뒤 parsePasted()가 직전 절에 대한 rows 엔트리 없이 분기에 도달하는 경우는 없음 — 그러나 패턴 m[3]이 실제 본문을 캡처하므로, 캡처 그룹 인덱스가 잘못됨: pattern = /^(?:\\\\[(\\\\d+)\\\\]|(\\\\d+)[.)]?)(?:\\\\s+)(.+)$/ → m[1]=대괄호, m[2]=점/괄호 숫자, m[3]=본문. '[3]절 본문' 형태 입력에서 m[1]='3', m[2]=undefined이므로 Number(m[1]||m[2]) = 3으로 정상. 그런데 '3. 본문' 형태는 m[1]=undefined, m[2]='3', m[3]='본문'으로 정상. 단, '3)본문'처럼 (?:\\\\s+)가 필수(+)여서 숫자와 본문 사이에 공백이 없으면 매치 실패 → numbered=false로 잘못 분류될 수 있음.\",\n      \"fix\": \"(?:\\\\s+) 를 (?:\\\\s*) 로 변경하거나 (?:\\\\s+)? 로 하여 공백 없는 '3)본문' 형식도 numbered로 인식.\"\n    },\n    {\n      \"severity\": \"HIGH\",\n      \"location\": \"formatRows() — filter 조건 r.values[i] (truthy check)\",\n      \"issue\": \"r.values[i] 가 빈 문자열 '' 일 때 falsy이므로 해당 절이 결과에서 누락됨. missing() 함수가 반환하는 '배포본에 별도 본문 없음' 같은 대체 문자열은 값이 있을 때만 표시되어 TSV와 plain 포맷 간에 동작이 불일치함. TSV에서는 빈 문자열을 '[배포본에 별도 본문 없음]'으로 명시적으로 처리하는데, plain/numbered 포맷에서는 그냥 제거됨.\",\n      \"fix\": \"filter 조건을 r.values[i] !== undefined && r.values[i] !== null 로 변경하거나, TSV처럼 빈 문자열도 대체 텍스트로 치환.\"\n    },\n    {\n      \"severity\": \"MEDIUM\",\n      \"location\": \"init() → source-list 링크 생성\",\n      \"issue\": \"v.rights_url 이 catalog JSON에서 온 임의 문자열이며 검증 없이 a.href에 할당됨. javascript: 스킴 URL이 들어올 경우 XSS 벡터가 됨. (단, textContent를 사용해 본문 자체는 안전하나, href는 별도임.)\",\n      \"fix\": \"const u = new URL(v.rights_url); if (!['http:','https:'].includes(u.protocol)) throw new Error(...); a.href = u.href; 로 스킴을 명시적으로 검증.\"\n    },\n    {\n      \"severity\": \"MEDIUM\",\n      \"location\": \"move() — 장(chapter) 경계 처리\",\n      \"issue\": \"c > Object.keys(book().chapters).length 로 비교하는데, 이 시점의 book()은 이동 전 state.book 기준임. i가 이미 증가(i++)한 뒤에도 book()은 여전히 구 책을 참조하므로, 다음 책의 장 수를 올바르게 가져오지 못함. move(+1) 시 마지막 장에서 i++로 다음 책으로 넘어가지만 c=1로 설정하므로 실제 이동은 맞으나, move(-1) 시 c<1 분기에서 i-- 후 이전 책 마지막 장을 Object.keys(catalog.books[i].chapters).length로 올바르게 읽음 — 이쪽은 catalog.books[i]를 직접 참조하므로 무결. +1 방향에서만 문제: book() 대신 catalog.books[i+1 전의 i].chapters 를 쓰므로 실은 정상이나, 66권 초과 guard가 >=66인데 성경은 정확히 66권이므로 경계가 맞음. 잠재적 혼란을 방지하려면 명시적으로 catalog.books[i].chapters를 사용.\",\n      \"fix\": \"move() 내부에서 book() 헬퍼 대신 catalog.books[i].chapters를 직접 참조하도록 리팩터링.\"\n    },\n    {\n      \"severity\": \"MEDIUM\",\n      \"location\": \"render() — chapter-filter oninput\",\n      \"issue\": \"$('chapter-filter').oninput = () => render() 가 wire()에서 연결됨. 사용자가 빠르게 타이핑할 때마다 render()가 호출되고 각각 request 티켓을 증가시키므로 getJSON 캐시가 있어도 DOM 재구성이 반복됨. filter는 이미 받은 data로만 필터링하면 되는데 매번 전체 render를 트리거함.\",\n      \"fix\": \"chapter-filter 변경 시에는 이미 로드된 visible 데이터에 대해 필터링만 수행하는 별도 함수(예: applyFilter())를 호출. 또는 최소한 debounce 적용.\"\n    },\n    {\n      \"severity\": \"LOW\",\n      \"location\": \"getJSON() — Promise 캐싱\",\n      \"issue\": \"실패한 fetch Promise를 catch에서 cache.delete()로 제거함. 그런데 같은 path를 동시에 두 번 요청하면 첫 번째 Promise가 캐시에 들어가고, 실패 시 삭제되기 전에 두 번째 호출이 같은 Promise를 반환받아 동일한 reject를 awaiting 중임. 삭제 후 세 번째 재시도는 새 fetch를 생성하므로 논리는 맞으나, race condition에서 두 호출 모두 동일한 에러 객체를 receive하는 것이 의도인지 불명확.\",\n      \"fix\": \"문서화 주석으로 동작 명시. 또는 실패 후 캐시 항목 자체를 null로 표시하는 sentinel 패턴 사용.\"\n    },\n    {\n      \"severity\": \"LOW\",\n      \"location\": \"download-text onclick — Blob URL 해제 타이머\",\n      \"issue\": \"setTimeout(() => URL.revokeObjectURL(url), 1000) 의 1초는 일부 구형 브라우저에서 다운로드가 시작되기 전에 URL이 해제될 수 있음. 특히 대용량 선택 시 위험.\",\n      \"fix\": \"a.click() 이후 setTimeout 지연을 최소 60000ms(60초)로 늘리거나, a.addEventListener('click', () => setTimeout(...)) 패턴 사용.\"\n    }\n  ]\n}\n```\n\n**요약 (심각도 순):**\n\n| # | 심각도 | 핵심 |\n|---|--------|------|\n| 1 | 🔴 HIGH | `study-link` href 생성 시 null 체크 없음 → render 중단 |\n| 2 | 🔴 HIGH | `parsePasted` 정규식에서 `(?:\\s+)` 필수 공백으로 일부 형식 미인식 |\n| 3 | 🔴 HIGH | `formatRows` plain 모드에서 빈 문자열(`''`) 절 누락 (TSV와 불일치) |\n| 4 | 🟠 MEDIUM | `rights_url` href 스킴 미검증 → `javascript:` XSS 가능 |\n| 5 | 🟠 MEDIUM | `move()` 내부 `book()` 헬퍼 혼용으로 가독성/잠재 혼란 |\n| 6 | 🟠 MEDIUM | `chapter-filter` oninput마다 전체 render 재실행 (debounce 없음) |\n| 7 | 🟡 LOW | `getJSON` Promise 캐시 race condition 동작 미문서화 |\n| 8 | 🟡 LOW | Blob URL revoke 타이머 1초로 너무 짧음 |\n",
+    "duration_seconds": 59.8327278,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 18881,
+      "output_tokens": 2964,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 0,
+      "total_tokens": 21845
+    }
+  },
+  "disposition": {
+    "study_link_guard": "Added optional-path guard and HTTP(S) URL validation; generated study paths were present already.",
+    "paste_no_space": "Expanded supported numbered delimiters; duplicate and out-of-range validation retained and tested.",
+    "empty_verse_copy": "Intentional: plain/numbered copy includes available text only. UI states this, citations enumerate available verse numbers, TSV preserves missing/empty status. No invented scripture.",
+    "rights_link_scheme": "HTTP(S) validation added. Catalog is pinned local data.",
+    "chapter_boundaries": "Original flow correct; clarified explicit current-book access. Browser boundary checks required.",
+    "filter_performance": "Added 120 ms debounce; in-flight cache sharing documented.",
+    "promise_cache": "Shared rejection is intended deduplication; failures evicted for retry.",
+    "download_url_lifetime": "Increased async Blob URL cleanup delay to 60 seconds.",
+    "additional_internal_review": "Share-link clipboard fallback now has its own readonly field so it cannot replace the scripture copy preview."
+  },
+  "followup_actual_result": {
+    "conversation_id": "429ca3c2-3950-4f7b-a567-087c49f41d33",
+    "status": "SUCCESS",
+    "response": "```json\n{\n  \"findings\": [\n    {\n      \"severity\": \"HIGH\",\n      \"location\": \"parsePasted() — pattern, group m[3]\",\n      \"issue\": \"새 패턴 /^(?:\\\\[(\\\\d+)\\\\]\\\\s*|(\\\\d+)[.)]\\\\s*|(\\\\d+)\\\\s+)(.+)$/ 의 세 번째 대안 (\\\\d+)\\\\s+ 은 '3 본문' 형태를 잡으려는 의도인데, '3' 만 있고 뒤에 공백+텍스트가 없는 줄은 당연히 불일치하지만, 더 큰 문제는 numbered=false 인 모드에서 lines[i] 가 '1 verse one' 처럼 숫자+공백으로 시작하면 pattern.test()가 true를 반환해 numbered=true로 분류된다는 점. 사용자가 의도적으로 단락 번호 없이 붙여넣은 본문(예: 시편 산문 번역 '1 절이 아니라 문단 번호')이 numbered로 잘못 분류되어 파싱 오류가 발생함.\",\n      \"fix\": \"세 번째 대안을 제거하고 '3 본문' 형식을 지원하려면 패턴을 /^(?:\\\\[(\\\\d+)\\\\]|(\\\\d+)[.)]|(\\\\d+))\\\\s+(.+)$/ 처럼 구분자를 공유 \\\\s+ 로 빼되, [N] / N. / N) 형식만 numbered로 인식하도록 첫 두 대안만 유지하는 편이 안전함.\"\n    },\n    {\n      \"severity\": \"HIGH\",\n      \"location\": \"parsePasted() — continuation 병합 시 rows[current] 타입\",\n      \"issue\": \"numbered 모드에서 연속행을 rows[current] += ' ' + lines[i] 로 병합하는데, rows[current] 는 string이므로 정상처럼 보임. 그러나 current 가 Number(m[1]||m[2]||m[3]) 로 설정될 때, m[1], m[2], m[3] 이 모두 undefined면 Number(undefined) = NaN 이 된다. 이론상 패턴이 매칭됐다면 셋 중 하나는 문자열이어야 하지만, 캡처 그룹 전체가 undefined인 엣지 케이스에서 current=NaN 이 되어 range 검사(NaN<1 = false, NaN>end = false)를 통과하고, Object.hasOwn(rows, NaN)도 false여서 rows[NaN]='본문' 이 조용히 저장됨. 이후 render()에서 NaN 키는 무시되어 본문이 유실됨.\",\n      \"fix\": \"current = Number(m[1] ?? m[2] ?? m[3]); 후 if (!Number.isFinite(current)) throw new Error('절 번호를 읽을 수 없습니다.'); 로 방어.\"\n    },\n    {\n      \"severity\": \"MEDIUM\",\n      \"location\": \"copy() — share URL 폴백, field 분기\",\n      \"issue\": \"share-link 호출 시 copy(url, 'share-status') 처럼 field 인수 없이 호출되므로 catch 블록 내 if(field) 가 false → 아무 처리도 하지 않고 조용히 실패함(status 텍스트도 업데이트 안 됨). 이전 버전은 $('copy-preview')로 폴백했는데 새 버전에서 else 브랜치가 제거됨.\",\n      \"fix\": \"catch 블록에 else { $(status).textContent = '링크를 클립보드에 복사하지 못했습니다. 주소창에서 직접 복사하세요.'; } 추가.\"\n    },\n    {\n      \"severity\": \"LOW\",\n      \"location\": \"parsePasted() — end 범위 검사\",\n      \"issue\": \"current > end 를 검사하지만 current < start 는 검사하지 않음. 사용자가 장 범위(state.from ~ state.to)가 5–10절인데 '2절 본문'을 붙여넣으면 오류 없이 rows[2]에 저장되고, render()에서 해당 절이 표시 범위 밖이므로 조용히 유실됨. 오류 메시지가 '1–end' 형식으로 안내하는 것도 실제 허용 범위(start–end)와 다름.\",\n      \"fix\": \"if (current < start || current > end) throw new Error(`이 장의 선택 범위는 ${start}–${end}절입니다.`); 로 양쪽 경계 모두 검사.\"\n    }\n  ]\n}\n```\n",
+    "duration_seconds": 281.1601844,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 29442,
+      "output_tokens": 4389,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 12421,
+      "total_tokens": 33831
+    }
+  },
+  "followup_disposition": {
+    "numeric_text_ambiguity": "Documented auto-detection: numbered forms are treated as verse labels. A real ambiguity in free prose, not data corruption; preview is shown before copy. No speculative regex replacement adopted.",
+    "NaN": "Unreachable with the current matched alternatives; integer validation added as inexpensive defense.",
+    "share_missing_field": "False positive from partial snippet: actual share caller supplies share-url field. Added generic fallback status for future callers too.",
+    "below_start": "Intentional chapter scope for numbered input. All 1..chapterMax verses retained in the in-memory chapter map and visible when range changes; not lost.",
+    "browser_range_check": "Added explicit Apply range button and Enter handling; verified 2-4 renders exactly three verses.",
+    "browser_checks": "Book boundary Genesis 50 <-> Exodus 1; single-column reading; three-language native text; original/WLC links; selected plain text; TSV; paste markup displayed as text; range and chapter filtering; mobile 390px iframe visual check."
+  }
+}
