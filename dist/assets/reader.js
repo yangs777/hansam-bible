@@ -47,7 +47,7 @@ async function rowsFor(v){
   if(v.type==='library')return (await getJSON(`${v.id}/${state.book}.json`)).chapters[String(state.chapter)]||{};
   const lang=v.id==='he'?'he':v.lang;return Object.fromEntries(Object.entries(original.records[state.book]?.[state.chapter]||{}).map(([n,r])=>[n,r[lang]]));
 }
-function missing(v,value){return value===''?'배포본에 별도 본문 없음':v.type==='paste'?'이 절의 본문을 붙여 넣어 주세요':v.id==='he'?'히브리어 표시문 미공개':'원문성경 미공개';}
+export function missing(v,value){return value===''?'배포본에 별도 본문 없음':v.type==='library'?'이 배포본에 해당 절 없음':v.type==='paste'?'이 절의 본문을 붙여 넣어 주세요':v.id==='he'?'히브리어 표시문 미공개':'원문성경 미공개';}
 async function render(){
   clearTimeout(filterTimer);$('share-status').textContent='';$('share-url').hidden=true;
   const ticket=++request;selected.clear();visible=[];$('copy-status').textContent='';$('verses').replaceChildren();$('copy-preview').value='';$('reader').setAttribute('aria-busy','true');$('copy-text').disabled=true;$('download-text').disabled=true;
@@ -90,7 +90,7 @@ export function parsePasted(text,start,end){
 }
 export function formatRows(rows,indices,format){
   if(!rows.length)return '';
-  if(format==='tsv'){const clean=t=>String(t).replace(/[\t\r\n]+/g,' ');return [['절',...indices.map(i=>rows[0].cols[i].label)].map(clean).join('\t'),...rows.map(r=>[r.number,...indices.map(i=>r.values[i]===undefined?'[미공개 / 미입력]':r.values[i]===''?'[배포본에 별도 본문 없음]':r.values[i])].map(clean).join('\t'))].join('\n');}
+  if(format==='tsv'){const clean=t=>String(t).replace(/[\t\r\n]+/g,' ');return [['절',...indices.map(i=>rows[0].cols[i].label)].map(clean).join('\t'),...rows.map(r=>[r.number,...indices.map(i=>r.values[i]===undefined||r.values[i]===''?'['+missing(r.cols[i],r.values[i])+']':r.values[i])].map(clean).join('\t'))].join('\n');}
   return indices.map(i=>{const lines=rows.filter(r=>r.values[i]).map(r=>(format==='numbered'?r.number+' ':'')+r.values[i]);return lines.length?(indices.length>1?rows[0].cols[i].label+'\n':'')+lines.join('\n'):'';}).filter(Boolean).join('\n\n');
 }
 function preview(){

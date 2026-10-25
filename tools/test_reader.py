@@ -64,7 +64,7 @@ class ReaderTests(unittest.TestCase):
 
     @unittest.skipUnless(shutil.which('node'), 'Node.js not installed')
     def test_copy_formats_and_paste_validation(self):
-        script = '''import {parsePasted,formatRows,safeHTTP} from './reader.mjs';
+        script = '''import {parsePasted,formatRows,safeHTTP,missing} from './reader.mjs';
 import assert from 'node:assert/strict';
 assert.deepEqual(parsePasted('1 First\\ncontinued\\n[3] Third',1,31),{'1':'First continued','3':'Third'});
 assert.deepEqual(parsePasted('First\\nSecond',5,31),{'5':'First','6':'Second'});
@@ -73,13 +73,16 @@ assert.equal(safeHTTP('ko/genesis-1/',new URL('https://example.org/hansam-bible/
 for(const href of ['javascript:alert(1)','data:text/html,test','file:///private'])assert.throws(()=>safeHTTP(href));
 for(const s of ['1 A\\n1 B','32 Outside','1 A\\n0 Wrong','Before\\n1 A',''])assert.throws(()=>parsePasted(s,1,31));
 assert.throws(()=>parsePasted('A\\nB',31,31));
-const cols=[{label:'Original'},{label:'Comparison'}];
+assert.equal(missing({type:'library'},undefined),'이 배포본에 해당 절 없음');
+assert.equal(missing({type:'library'},''),'배포본에 별도 본문 없음');
+assert.equal(missing({type:'original'},undefined),'원문성경 미공개');
+const cols=[{label:'Original',type:'original'},{label:'Comparison',type:'library'}];
 const rows=[{number:1,cols,values:['Alpha','Beta']},{number:2,cols,values:[undefined,'']},{number:3,cols,values:['Gamma','Tab\\tline\\nbreak']}];
 assert.equal(formatRows(rows,[0],'plain'),'Alpha\\nGamma');
 assert.equal(formatRows(rows,[0],'numbered'),'1 Alpha\\n3 Gamma');
 const tsv=formatRows(rows,[0,1],'tsv');
 assert.equal(tsv.split('\\n').length,4);
-assert.ok(tsv.includes('[미공개 / 미입력]\\t[배포본에 별도 본문 없음]'));
+assert.ok(tsv.includes('[원문성경 미공개]\\t[배포본에 별도 본문 없음]'));
 assert.ok(tsv.endsWith('Tab line break'));
 assert.equal(formatRows([], [0], 'plain'),'');
 console.log('copy/paste edge cases PASS');'''
