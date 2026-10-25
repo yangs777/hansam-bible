@@ -1,20 +1,20 @@
 # 원문성경 / Original Bible
 
-**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.4.1**
+**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.4.2**
 
 [본문 읽기](https://yangs777.github.io/hansam-bible/) · [공개 데이터](https://yangs777.github.io/hansam-bible/data/) · [운영 전략](STRATEGY.ko.md)
 
 각 언어에서 현재 근거에 따른 최선의 번역을 읽고, 더 좋은 증거가 나오면 갱신하는 공개 성경 연구 프로젝트입니다. 이전 이름은 Hansam Bible이며 기존 주소와 구절 식별자는 유지합니다. Hansam Yang은 현대 프로젝트의 최초 기획자·제작자이며 고대 성경의 저자라는 뜻이 아닙니다.
 
-The pilot contains Genesis 1:1–31, Genesis 2:1–10, Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: fifty-one unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
+The pilot contains Genesis 1:1–31, Genesis 2:1–15, Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: fifty-six unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
 
 ## Compare the selected text with actual model proposals
 
 Each verse shows the current best selection and an expandable comparison: actual GPT and Gemini translations, final opinions, selection reasons, counterarguments and previous wording. The JSONL retains those layers per verse.
 
 - GPT: gpt-6.1-sol, from the local Codex model configuration. An immutable backend snapshot is not exposed. This editorial agent had seen the previous pilot; it is not a blinded replicate.
-- Gemini: gemini-3.8-flash-medium, explicitly selected through official Antigravity CLI 1.4.6. Round 1 withheld other translations; round 2 was a disclosed cross-review. Genesis 2:1–5 uses gemini-3.8-flash-high; 2:6–10 uses gemini-3.8-flash-medium, each with a source-only draft and final selected-text review.
-- Seven difficult Genesis verses and Deuteronomy 32:8 also have an actual Claude Opus 4.6 Thinking proposal and final opinion through Antigravity CLI. Genesis 2:2–4 and 2:6–8 additionally has actual read-only Claude Code CLI review, canonical model claude-opus-5-5 reported by modelUsage; the backend snapshot is not exposed. The original cloud pilot drafts for 2:1–10 are preserved as separate comparison evidence.
+- Gemini: gemini-3.8-flash-medium, explicitly selected through official Antigravity CLI 1.4.6. Round 1 withheld other translations; round 2 was a disclosed cross-review. Genesis 2:1–5 uses gemini-3.8-flash-high; 2:6–15 uses gemini-3.8-flash-medium, each with a source-only draft and final selected-text review.
+- Seven difficult Genesis verses and Deuteronomy 32:8 also have an actual Claude Opus 4.6 Thinking proposal and final opinion through Antigravity CLI. Genesis 2:2–4, 2:6–8, 2:12, 2:14 and 2:15 additionally has actual read-only Claude Code CLI review, canonical model claude-opus-5-5 reported by modelUsage; the backend snapshot is not exposed. The original cloud pilot drafts for 2:1–15 are preserved as separate comparison evidence.
 - Model agreement is an opinion record. Source evidence, grammar, context and counterarguments remain separately identified.
 
 Deuteronomy 32:8 currently selects the divine-sons reading. The full translation is a **modern editorial reconstruction: MT remainder plus the reported 4Q37 phrase**. The complete Hebrew alongside it is MT, ending with sons of Israel; its separate translation remains in the comparison. No complete preserved 4Q37 verse or new photograph reading is claimed.
@@ -24,7 +24,7 @@ Deuteronomy 32:8 currently selects the divine-sons reading. The full translation
 Prepare all verse decisions with three-language texts, bases and reasons, then run:
 
 ```sh
-python tools/adopt.py new-decisions.json --version 0.4.2
+python tools/adopt.py new-decisions.json --version 0.4.3
 python tools/build.py
 python tools/verify.py
 ```

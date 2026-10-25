@@ -1,12 +1,12 @@
-# Génesis 2:1–10
+# Génesis 2:1–15
 
-Hansam Yang · Original Bible · v0.4.1
+Hansam Yang · Original Bible · v0.4.2
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Esta edición publica los versículos 1–10 con el WLC fijado, selecciones en tres idiomas, comparación GPT/Gemini y opiniones reales de Claude Code sobre pasajes difíciles. Se añadirán más versículos en esta misma dirección tras su revisión.
+Esta edición publica los versículos 1–15 con el WLC fijado, selecciones en tres idiomas, comparación GPT/Gemini y opiniones reales de Claude Code sobre pasajes difíciles. Se añadirán más versículos tras su revisión en esta misma dirección.
 
 Basis: MT-WLC display; no independent full critical collation completed
 
@@ -39,6 +39,10 @@ Final opinion (Korean original): 현재 선택을 지지하되 이문·문법·�
 Counterargument (Korean): 무리는 군대로 오해될 수 있으며 하늘 천체만을 뜻한다고 좁히지 않는다.
 
 Previous v0.4.0
+
+Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
+
+Previous v0.4.1
 
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
@@ -78,6 +82,10 @@ Previous v0.4.0
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
+Previous v0.4.1
+
+En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
+
 ## 3 · HYB.GEN.002.003
 
 Hebrew display (MT/WLC): וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכָּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃
@@ -111,6 +119,10 @@ Final opinion (Korean original): 초기 GPT의 창조 작업이라는 압축을 
 Counterargument (Korean): 목적(만들기 위해 창조하신) 또는 방식(만드시며 창조하신) 분석도 가능하다. 두 동사 관계를 확정한 사본 증거라고 주장하지 않는다.
 
 Previous v0.4.0
+
+Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
+
+Previous v0.4.1
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
@@ -150,6 +162,10 @@ Previous v0.4.0
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
 
+Previous v0.4.1
+
+Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
+
 ## 5 · HYB.GEN.002.005
 
 Hebrew display (MT/WLC): וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃
@@ -177,6 +193,10 @@ Final opinion (Korean original): 사람과 들의 풀을 현재 선택한다. �
 Counterargument (Korean): 들의 풀을 재배 작물로 좁혀 읽을 수 있지만 문법만으로 모든 식물 또는 농작물 하나로 단정하지 않는다.
 
 Previous v0.4.0
+
+Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
+
+Previous v0.4.1
 
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
@@ -212,6 +232,10 @@ Final opinion (Korean original): 초기 GPT의 물안개를 물줄기로 수정�
 
 Counterargument (Korean): אד의 안개/수증기 해석과 일회적·시작상 분석이 가능하다. 비교언어 어원·지하수 지질 체계는 검증하지 않아 번역에 넣지 않는다.
 
+Previous v0.4.1
+
+Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
+
 ## 7 · HYB.GEN.002.007
 
 Hebrew display (MT/WLC): וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃
@@ -243,6 +267,10 @@ Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices ali
 Final opinion (Korean original): 살아 있는 존재가 되었다라는 구문을 보존한다. 인간이 영혼을 받았다는 해석도 영혼이 없다는 해석도 번역문에 확정하지 않는다. 관사 유무만으로 고유명사 여부를 기계적으로 결정하지 않는다.
 
 Counterargument (Korean): 영혼이라는 전통적 번역은 별도 실체를 주입할 수 있다. 이 절만으로 영혼의 존재 여부나 인간론을 확정하지도 않는다. אדם/אדמה 말놀이는 세 언어에 완전 재현되지 않는다.
+
+Previous v0.4.1
+
+Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
 ## 8 · HYB.GEN.002.008
 
@@ -276,6 +304,10 @@ Final opinion (Korean original): נטע를 드러내도록 가꾸시고를 심�
 
 Counterargument (Korean): מקדם은 문맥에 따라 오래전부터라는 시간 해석도 가능하다. 동쪽의 기준 위치는 이 절에서 확정되지 않으며 현대 지도에 좌표를 부여하지 않는다.
 
+Previous v0.4.1
+
+Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
+
 ## 9 · HYB.GEN.002.009
 
 Hebrew display (MT/WLC): וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כָּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃
@@ -301,6 +333,10 @@ Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para 
 Final opinion (Korean original): 두 나무를 보존하고 가운데 수식어는 생명나무 바로 뒤에 둔다. 두 나무가 같은 중심에 있거나 다른 나무가 외곽이라는 어느 지리도 확정하지 않는다. 선악의 포괄적·도덕적 해석은 주석에서 열린다.
 
 Counterargument (Korean): 지식의 선악을 도덕적 판단만으로 한정하거나 모든 지식이라는 총칭으로 풀면 해석이 강해진다. 두 나무 모두 가운데라는 위치가 적용되는지도 구문만으로 과도하게 확정하지 않는다.
+
+Previous v0.4.1
+
+Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
 ## 10 · HYB.GEN.002.010
 
@@ -328,6 +364,158 @@ Final opinion (Korean original): 네 줄기/four branches/cuatro brazos를 현�
 
 Counterargument (Korean): 네 머리를 원류나 지류로 구체화하면 현대 수계 개념을 덧붙일 수 있다. 이 문장만으로 실제 강들의 합류·분류 지도를 확정하지 않는다.
 
+Previous v0.4.1
+
+Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
+
+## 11 · HYB.GEN.002.011
+
+Hebrew display (MT/WLC): שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.11
+
+### Traducción seleccionada: mejor opción actual
+
+첫째 강의 이름과 하윌라 전체를 두르는 관계, 금의 존재를 보존한다.
+
+#### gemini-3.8-flash-medium
+
+El nombre del primero es Pisón; este es el que rodea toda la tierra de Javilá, donde hay oro.
+
+Final opinion (Korean original): 주인님, 제안된 한·영·스 번역을 전적으로 지지합니다. 고유명 비손과 하윌라를 충실히 음역 표기하고, סֹבֵב를 '두루 흐른다(flows around / rodea)'로 번역한 것은 지형을 완전히 원형 포위한다는 식의 현대 지도학적 가정을 강제하지 않으면서도 본문의 묘사를 정확히 살린 균형 잡힌 선택입니다. 또한 이전 답변의 히브리어 본문 인용에 아랍 문자 와우가 혼입되었던 중대한 오류를 확인하였으며, 인공지능의 재인용 텍스트를 권위 있는 원문으로 취급하지 않고 고정된 표준 WLC만을 표시 원문으로 삼아야 한다는 편집 지침에 절대 동의합니다.
+
+#### gpt-6.1-sol
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
+
+Final opinion (Korean original): 비손·하윌라를 현재 고유명 표기로 유지하고 두루 흐른다를 선택한다. 특정 현대 위치나 영역의 완전한 포위는 확정하지 않는다. Gemini가 재인용한 히브리어에 아랍 문자 혼입이 있어 표시 원문에는 사용하지 않으며 고정 WLC만 사용한다.
+
+Counterargument (Korean): סבב를 두르다·굽이돌다로 이해할 수 있다. 강이 실제 국경을 완전히 한 바퀴 돈다는 현대 지도나 하윌라 좌표를 확정하지 않는다.
+
+## 12 · HYB.GEN.002.012
+
+Hebrew display (MT/WLC): וּֽזֲהַ֛ב הָאָ֥רֶץ הַהִ֖וא ט֑וֹב שָׁ֥ם הַבְּדֹ֖לַח וְאֶ֥בֶן הַשֹּֽׁהַם׃
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.12
+
+### Traducción seleccionada: mejor opción actual
+
+브돌라흐는 בדלח의 음역, 영어·스페인어 bdellium·bedelio는 전통 대응어로 현재 사용한다. BDB의 물질 식별 불확실성을 고려해 특정 수지 종이나 보석으로 확정하지 않으며 שהם은 음역을 유지한다.
+
+#### claude-opus-5-5
+
+Y el oro de aquella tierra es bueno; allí hay bedelio y la piedra de sóham.
+
+Final opinion (Korean original): '그 땅의 금은 좋고, 그곳에는 브돌라흐와 쇼함 보석이 있다'를 기본으로 하고, 전통 대응어는 괄호/주석으로만 제시한다.
+
+#### gemini-3.8-flash-medium
+
+Y el oro de aquella tierra es bueno; allí se encuentran el bedelio (resina aromática o perla) y la piedra de ónice (shoham).
+
+Final opinion (Korean original): 주인님, 브돌라흐와 쇼함 돌(bdellium / shoham stone / bedelio / piedra de shóham)의 현 번역 채택을 지지합니다. BDB 사전(916, 7718)이 명시하듯 고대 물질의 실제 실체는 불확실하며, 특정 수지 식물종(코미포라 등)이나 특정 광물(줄마노, 홍옥수 등)로 단정할 수 없습니다. 따라서 본문에서는 과도한 현대적 동정을 피하고 음역 및 전통 명칭을 유지하며, 식별 논쟁은 주석으로 다루는 방식이 가장 학문적으로 정직합니다.
+
+#### gpt-6.1-sol
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
+Final opinion (Korean original): 브돌라흐와 쇼함 돌을 현재 선택한다. 확인한 BDB도 불확실성을 보존한다. Gemini가 제시한 특정 수지 식물종·광물종 및 흉패의 구체 위치 설명은 이 검토에서 검증하지 않아 채택 근거로 쓰지 않는다.
+
+Counterargument (Korean): בדלח를 수지·진주 등으로, שׁהם을 줄마노·다른 보석으로 식별하는 대안이 있다. 음역은 의미 이해를 어렵게 하므로 각주가 필요하며 현대 광물학적 확정이 아니다.
+
+## 13 · HYB.GEN.002.013
+
+Hebrew display (MT/WLC): וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.13
+
+### Traducción seleccionada: mejor opción actual
+
+둘째 강의 이름과 구스 땅을 두르는 관계를 보존하고 고유명 구스를 유지한다.
+
+#### gemini-3.8-flash-medium
+
+Y el nombre del segundo río es Guijón; este es el que rodea toda la tierra de Cus.
+
+Final opinion (Korean original): 주인님, 기혼과 구스를 원음대로 보존한 번역에 동의합니다. 구스(Cush)를 현대 에티오피아나 메소포타미아의 카시트(Kassite) 지역으로 성급히 확정·치환하지 않고 성경 고유명 그대로 둔 것은 주석적 비약을 방지하는 탁월한 선택입니다. 원문의 지리적 서술은 신학적·문학적 맥락을 포괄하므로 임의의 지리적 동정은 배제되어야 합니다.
+
+#### gpt-6.1-sol
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
+
+Final opinion (Korean original): 구스를 유지하고 에티오피아나 카시트 지역으로 치환하지 않는다. Gemini의 카시트 지역을 지시하는 용례가 있다는 단정은 이번 자료로 확인되지 않아 채택 근거로 사용하지 않는다. Gemini 최종 의견의 원음대로라는 표현도 인증하지 않는다. 음역은 편집상의 현재 표기이며 고대 발음의 완전 복원을 뜻하지 않는다.
+
+Counterargument (Korean): 구스를 현대 에티오피아 국경이나 특정 다른 지역과 동일시할 수 없다. 지명의 다른 문헌 용례가 이 구절의 정확한 위치를 자동으로 확정하지 않는다.
+
+## 14 · HYB.GEN.002.014
+
+Hebrew display (MT/WLC): וְשֵׁ֨ם הַנָּהָ֤ר הַשְּׁלִישִׁי֙ חִדֶּ֔קֶל ה֥וּא הַֽהֹלֵ֖ךְ קִדְמַ֣ת אַשּׁ֑וּר וְהַנָּהָ֥ר הָֽרְבִיעִ֖י ה֥וּא פְרָֽת׃
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.14
+
+### Traducción seleccionada: mejor opción actual
+
+חִדֶּקֶל·אַשּׁוּר·פְרָת를 음역하고 קדמת를 동쪽으로 현재 선택한다.
+
+#### claude-opus-5-5
+
+El nombre del tercer río es Hidekel; es el que corre al oriente de (o: frente a) Asur. Y el cuarto río es Perat.
+
+Final opinion (Korean original): '셋째 강의 이름은 힛데겔이며 앗수르 동쪽(또는 앞쪽)으로 흐르고, 넷째 강은 브랏이다.' 전통 동일시는 각주로 처리하는 것을 권한다.
+
+#### gemini-3.8-flash-medium
+
+El nombre del tercer río es Hidekel (Tigris); es el que corre al oriente de (o frente a) Asiria (Asur). Y el cuarto río es el Éufrates (Perat).
+
+Final opinion (Korean original): 주인님, 힛데겔, 아슈르, 프라트의 음역 및 קִדְמַת를 '동쪽(east of / al este de)'으로 번역한 결정을 지지합니다. 이전 인용에서 히브리어 텍스트 내에 한국어 자모 '이'가 오삽입되었던 결함을 명확히 인정하며, 이는 권위 있는 텍스트로 결코 사용될 수 없음을 재확인합니다. 티그리스와 유프라테스라는 관용 지명이나 아슈르의 도시/제국 범위 논쟁은 본문이 아닌 각주에서 처리하는 것이 원칙에 부합합니다.
+
+#### gpt-6.1-sol
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
+Final opinion (Korean original): 힛데겔·프라트·아슈르 표기와 동쪽을 현재 선택한다. 관용적 대응명과 앞쪽이라는 해석은 주석에 보존한다. 두 Claude 기록의 도시와 강 위치 주장이 다르므로 실제 지도를 검증했다는 근거로 쓰지 않는다. Gemini의 재인용 원문에 섞인 한국어 글자도 표시 원문에는 반영하지 않는다.
+
+Counterargument (Korean): 티그리스·유프라테스라는 관용 지명 번역도 가능하며, קדמת의 앞쪽이라는 대안과 아슈르의 도시·지역 지시 문제가 남는다. 음역이 역사적 수계 전체의 복원을 의미하지 않는다.
+
+## 15 · HYB.GEN.002.015
+
+Hebrew display (MT/WLC): וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.15
+
+### Traducción seleccionada: mejor opción actual
+
+데려감·배치·일함과 지킴의 두 목적을 보존한다. 번역의 그것은 현재 동산을 가리키도록 선택한다.
+
+#### claude-opus-5-5
+
+El SEÑOR Dios tomó al hombre y lo puso en el jardín del Edén para que lo labrara y lo guardara.
+
+Final opinion (Korean original): '야훼 하나님이 그 사람을 데려다 에덴 동산에 두시고, 그곳을 일구고 지키게 하셨다'를 채택 후보로 둔다. 여성 접미사 문제와 제의적 해석 가능성은 각주로만 처리한다.
+
+#### gemini-3.8-flash-medium
+
+Tomó, pues, Yahveh Dios al hombre y lo puso en el huerto de Edén para que lo labrara/sirviera y lo guardase/custodiara.
+
+Final opinion (Korean original): 주인님, '그곳을 일구고 지키게(to work it and keep it / para trabajarlo y cuidarlo)'로 번역한 현재안을 지지합니다. OSHB 형태론 분석에 따라 גַּן이 Ncbsc(공성 단수 연계형)로 등재되어 있고 부정사 접미사(-ah)가 Sp3fs로 결합된 것을 확인할 때, 이를 본문 손상이나 문법적 불일치로 단정할 근거가 없습니다. 또한 제사장적 성막 봉사(섬김과 지킴)라는 신학적 해석을 본문 번역에 강제 주입하지 않고 다의적 기본 의미를 충실히 담아낸 점이 매우 적절합니다.
+
+#### gpt-6.1-sol
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
+Final opinion (Korean original): 그곳을 일구고 지키게를 선택한다. 초기 GPT의 남성 명사 대비 설명은 제공된 OSHB의 공성 분류를 함께 표시하도록 보완한다. 접미사 지시 대상과 제의적 해석은 번역문에서 확정하지 않는다.
+
+Counterargument (Korean): 두 부정사의 여성 접미사 지시 대상에 땅이라는 대안이 있다. 제공 OSHB는 גן을 Ncbsc(공성 단수 연계형)로 분류하므로 통상적 남성 용례만으로 불일치나 본문 손상을 단정하지 않는다. 섬기다·보호하다라는 의미와 제의적 해석은 주석에서 구별한다.
+
 ## Notes
 
 El v. 2 conserva las dos menciones del séptimo día del WLC. No se cotejaron aquí los testimonios que, según informes, leen sexto día. La especulación del modelo sobre cambios teológicos no fundamenta la selección.
@@ -344,9 +532,17 @@ El v. 7 conserva aliento de vida y llegó a ser un ser viviente, sin afirmar ni 
 
 El v. 8 elige al este y plantó, con desde antiguo como alternativa y sin fijar el punto de referencia. El v. 9 vincula en medio directamente al árbol de la vida sin situar exactamente ambos árboles. Cuatro brazos en el v. 10 interpreta literalmente cabezas; no reconstruye un mapa fluvial moderno.
 
+Pisón, Javilá, Guijón, Cus, Hidequel, Asur y Perat son grafías editoriales, no una pronunciación antigua certificada ni coordenadas modernas. Tigris/Éufrates son equivalentes convencionales de Hidequel/Perat; al este/frente a y la referencia a ciudad o región de Asur siguen abiertos al análisis.
+
+En el v. 12, bedelio es una correspondencia tradicional y shóham una transliteración. Las entradas BDB de בדלח y שהם conservan la incertidumbre semántica y de identificación de la gema (https://biblehub.com/bdb/916.htm; https://biblehub.com/bdb/7718.htm). No se identifica químicamente una resina ni un mineral antiguo.
+
+Trabajar/cuidar en el v. 15 es una elección contextual. Los sufijos de objeto son femeninos singulares (Sp3fs), y OSHB clasifica jardín como género común (Ncbsc). Ninguna etiqueta por sí sola prueba corrupción textual, referente u oficio sacerdotal. Suelo como referente y servir/guardar siguen como alternativas.
+
+La primera respuesta de Gemini introdujo un carácter árabe en su cita hebrea del v. 11 y uno coreano en el v. 14. Se conservan las respuestas y correcciones, pero esas citas no son la fuente mostrada. El hebreo mostrado procede de los datos cotejados con el XML WLC fijado.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–10 (es), research pilot v0.4.1. https://yangs777.github.io/hansam-bible/es/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–15 (es), research pilot v0.4.2. https://yangs777.github.io/hansam-bible/es/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Genesis 1
 
-Hansam Yang · Original Bible · v0.4.1
+Hansam Yang · Original Bible · v0.4.2
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -52,6 +52,10 @@ Previous v0.4.0
 
 In the beginning, God created the heavens and the earth.
 
+Previous v0.4.1
+
+In the beginning, God created the heavens and the earth.
+
 ## 2 · HYB.GEN.001.002
 
 Hebrew display (MT/WLC): וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃
@@ -89,6 +93,10 @@ Previous v0.3.0
 The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.
 
 Previous v0.4.0
+
+The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.
+
+Previous v0.4.1
 
 The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.
 
@@ -132,6 +140,10 @@ Previous v0.4.0
 
 God said, “Let there be light.” And there was light.
 
+Previous v0.4.1
+
+God said, “Let there be light.” And there was light.
+
 ## 4 · HYB.GEN.001.004
 
 Hebrew display (MT/WLC): וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָא֖וֹר כִּי־ט֑וֹב וַיַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָא֖וֹר וּבֵ֥ין הַחֹֽשֶׁךְ׃
@@ -166,6 +178,10 @@ Previous v0.4.0
 
 God saw that the light was good, and God separated the light from the darkness.
 
+Previous v0.4.1
+
+God saw that the light was good, and God separated the light from the darkness.
+
 ## 5 · HYB.GEN.001.005
 
 Hebrew display (MT/WLC): וַיִּקְרָ֨א אֱלֹהִ֤ים ׀ לָאוֹר֙ י֔וֹם וְלַחֹ֖שֶׁךְ קָ֣רָא לָ֑יְלָה וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם אֶחָֽד׃
@@ -197,6 +213,10 @@ Previous v0.3.0
 God called the light Day, and the darkness he called Night. Evening came and morning came: one day.
 
 Previous v0.4.0
+
+God called the light Day, and the darkness he called Night. Evening came and morning came: one day.
+
+Previous v0.4.1
 
 God called the light Day, and the darkness he called Night. Evening came and morning came: one day.
 
@@ -240,6 +260,10 @@ Previous v0.4.0
 
 God said, “Let there be a vault amid the waters, and let it separate water from water.”
 
+Previous v0.4.1
+
+God said, “Let there be a vault amid the waters, and let it separate water from water.”
+
 ## 7 · HYB.GEN.001.007
 
 Hebrew display (MT/WLC): וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִיעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֨יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃
@@ -271,6 +295,10 @@ Previous v0.3.0
 God made the vault and separated the waters below it from the waters above it. And it was so.
 
 Previous v0.4.0
+
+God made the vault and separated the waters below it from the waters above it. And it was so.
+
+Previous v0.4.1
 
 God made the vault and separated the waters below it from the waters above it. And it was so.
 
@@ -308,6 +336,10 @@ Previous v0.4.0
 
 God called the vault Sky. Evening came and morning came: a second day.
 
+Previous v0.4.1
+
+God called the vault Sky. Evening came and morning came: a second day.
+
 ## 9 · HYB.GEN.001.009
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים יִקָּו֨וּ הַמַּ֜יִם מִתַּ֤חַת הַשָּׁמַ֨יִם֙ אֶל־מָק֣וֹם אֶחָ֔ד וְתֵרָאֶ֖ה הַיַּבָּשָׁ֑ה וַֽיְהִי־כֵֽן׃
@@ -339,6 +371,10 @@ Previous v0.3.0
 God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.
 
 Previous v0.4.0
+
+God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.
+
+Previous v0.4.1
 
 God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.
 
@@ -376,6 +412,10 @@ Previous v0.4.0
 
 God called the dry ground Land, and the gathering of the waters he called Seas. God saw that it was good.
 
+Previous v0.4.1
+
+God called the dry ground Land, and the gathering of the waters he called Seas. God saw that it was good.
+
 ## 11 · HYB.GEN.001.011
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים תַּֽדְשֵׁ֤א הָאָ֨רֶץ֙ דֶּ֔שֶׁא עֵ֚שֶׂב מַזְרִ֣יעַ זֶ֔רַע עֵ֣ץ פְּרִ֞י עֹ֤שֶׂה פְּרִי֙ לְמִינ֔וֹ אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃
@@ -407,6 +447,10 @@ Previous v0.3.0
 God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.
 
 Previous v0.4.0
+
+God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.
+
+Previous v0.4.1
 
 God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.
 
@@ -444,6 +488,10 @@ Previous v0.4.0
 
 The earth brought forth vegetation: plants bearing seed according to their kinds, and trees bearing fruit with seed inside, according to their kinds. God saw that it was good.
 
+Previous v0.4.1
+
+The earth brought forth vegetation: plants bearing seed according to their kinds, and trees bearing fruit with seed inside, according to their kinds. God saw that it was good.
+
 ## 13 · HYB.GEN.001.013
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שְׁלִישִֽׁי׃
@@ -475,6 +523,10 @@ Previous v0.3.0
 Evening came and morning came: a third day.
 
 Previous v0.4.0
+
+Evening came and morning came: a third day.
+
+Previous v0.4.1
 
 Evening came and morning came: a third day.
 
@@ -512,6 +564,10 @@ Previous v0.4.0
 
 God said, “Let there be lights in the vault of the sky to separate day from night, and let them mark signs, appointed times, days and years.
 
+Previous v0.4.1
+
+God said, “Let there be lights in the vault of the sky to separate day from night, and let them mark signs, appointed times, days and years.
+
 ## 15 · HYB.GEN.001.015
 
 Hebrew display (MT/WLC): וְהָי֤וּ לִמְאוֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהָאִ֖יר עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃
@@ -543,6 +599,10 @@ Previous v0.3.0
 Let them be lights in the vault of the sky to shine upon the earth.” And it was so.
 
 Previous v0.4.0
+
+Let them be lights in the vault of the sky to shine upon the earth.” And it was so.
+
+Previous v0.4.1
 
 Let them be lights in the vault of the sky to shine upon the earth.” And it was so.
 
@@ -580,6 +640,10 @@ Previous v0.4.0
 
 God made the two great lights: the greater light to rule the day and the lesser light to rule the night, and the stars as well.
 
+Previous v0.4.1
+
+God made the two great lights: the greater light to rule the day and the lesser light to rule the night, and the stars as well.
+
 ## 17 · HYB.GEN.001.017
 
 Hebrew display (MT/WLC): וַיִּתֵּ֥ן אֹתָ֛ם אֱלֹהִ֖ים בִּרְקִ֣יעַ הַשָּׁמָ֑יִם לְהָאִ֖יר עַל־הָאָֽרֶץ׃
@@ -611,6 +675,10 @@ Previous v0.3.0
 God placed them in the vault of the sky to shine upon the earth,
 
 Previous v0.4.0
+
+God placed them in the vault of the sky to shine upon the earth,
+
+Previous v0.4.1
 
 God placed them in the vault of the sky to shine upon the earth,
 
@@ -648,6 +716,10 @@ Previous v0.4.0
 
 to rule over day and night and to separate light from darkness. God saw that it was good.
 
+Previous v0.4.1
+
+to rule over day and night and to separate light from darkness. God saw that it was good.
+
 ## 19 · HYB.GEN.001.019
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם רְבִיעִֽי׃
@@ -679,6 +751,10 @@ Previous v0.3.0
 Evening came and morning came: a fourth day.
 
 Previous v0.4.0
+
+Evening came and morning came: a fourth day.
+
+Previous v0.4.1
 
 Evening came and morning came: a fourth day.
 
@@ -716,6 +792,10 @@ Previous v0.4.0
 
 God said, “Let the waters swarm with living creatures, and let winged creatures fly above the earth across the face of the vault of the sky.”
 
+Previous v0.4.1
+
+God said, “Let the waters swarm with living creatures, and let winged creatures fly above the earth across the face of the vault of the sky.”
+
 ## 21 · HYB.GEN.001.021
 
 Hebrew display (MT/WLC): וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כָּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה ׀ הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִֽינֵהֶ֗ם וְאֵ֨ת כָּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃
@@ -747,6 +827,10 @@ Previous v0.3.0
 God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.
 
 Previous v0.4.0
+
+God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.
+
+Previous v0.4.1
 
 God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.
 
@@ -784,6 +868,10 @@ Previous v0.4.0
 
 God blessed them, saying, “Be fruitful and multiply; fill the waters in the seas, and let winged creatures multiply on the earth.”
 
+Previous v0.4.1
+
+God blessed them, saying, “Be fruitful and multiply; fill the waters in the seas, and let winged creatures multiply on the earth.”
+
 ## 23 · HYB.GEN.001.023
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם חֲמִישִֽׁי׃
@@ -815,6 +903,10 @@ Previous v0.3.0
 Evening came and morning came: a fifth day.
 
 Previous v0.4.0
+
+Evening came and morning came: a fifth day.
+
+Previous v0.4.1
 
 Evening came and morning came: a fifth day.
 
@@ -852,6 +944,10 @@ Previous v0.4.0
 
 God said, “Let the earth bring forth living creatures according to their kinds: livestock, creeping things and wild animals of the earth according to their kinds.” And it was so.
 
+Previous v0.4.1
+
+God said, “Let the earth bring forth living creatures according to their kinds: livestock, creeping things and wild animals of the earth according to their kinds.” And it was so.
+
 ## 25 · HYB.GEN.001.025
 
 Hebrew display (MT/WLC): וַיַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָאָ֜רֶץ לְמִינָ֗הּ וְאֶת־הַבְּהֵמָה֙ לְמִינָ֔הּ וְאֵ֛ת כָּל־רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃
@@ -883,6 +979,10 @@ Previous v0.3.0
 God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.
 
 Previous v0.4.0
+
+God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.
+
+Previous v0.4.1
 
 God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.
 
@@ -926,6 +1026,10 @@ Previous v0.4.0
 
 God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”
 
+Previous v0.4.1
+
+God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”
+
 ## 27 · HYB.GEN.001.027
 
 Hebrew display (MT/WLC): וַיִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃
@@ -963,6 +1067,10 @@ Previous v0.3.0
 God created humankind in his image; in the image of God he created him; male and female he created them.
 
 Previous v0.4.0
+
+God created humankind in his image; in the image of God he created him; male and female he created them.
+
+Previous v0.4.1
 
 God created humankind in his image; in the image of God he created him; male and female he created them.
 
@@ -1006,6 +1114,10 @@ Previous v0.4.0
 
 God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”
 
+Previous v0.4.1
+
+God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”
+
 ## 29 · HYB.GEN.001.029
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים הִנֵּה֩ נָתַ֨תִּי לָכֶ֜ם אֶת־כָּל־עֵ֣שֶׂב ׀ זֹרֵ֣עַ זֶ֗רַע אֲשֶׁר֙ עַל־פְּנֵ֣י כָל־הָאָ֔רֶץ וְאֶת־כָּל־הָעֵ֛ץ אֲשֶׁר־בּ֥וֹ פְרִי־עֵ֖ץ זֹרֵ֣עַ זָ֑רַע לָכֶ֥ם יִֽהְיֶ֖ה לְאָכְלָֽה׃
@@ -1037,6 +1149,10 @@ Previous v0.3.0
 God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.
 
 Previous v0.4.0
+
+God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.
+
+Previous v0.4.1
 
 God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.
 
@@ -1074,6 +1190,10 @@ Previous v0.4.0
 
 And to every wild animal of the earth, every winged creature of the sky and everything that creeps on the earth, in which there is life, I have given every green plant for food.” And it was so.
 
+Previous v0.4.1
+
+And to every wild animal of the earth, every winged creature of the sky and everything that creeps on the earth, in which there is life, I have given every green plant for food.” And it was so.
+
 ## 31 · HYB.GEN.001.031
 
 Hebrew display (MT/WLC): וַיַּ֤רְא אֱלֹהִים֙ אֶת־כָּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃
@@ -1108,6 +1228,10 @@ Previous v0.4.0
 
 God saw everything he had made, and look: it was very good. Evening came and morning came: the sixth day.
 
+Previous v0.4.1
+
+God saw everything he had made, and look: it was very good. Evening came and morning came: the sixth day.
+
 ## Notes
 
 Verse 1 is currently selected as an independent opening. A temporal clause linked to verses 2–3 remains a serious alternative. Neither absence of the article nor medieval accents settles the earliest syntax.
@@ -1124,7 +1248,7 @@ A fresh translation of the displayed MT-WLC. Direct full-chapter collation of De
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 1:1–31 (en), research pilot v0.4.1. https://yangs777.github.io/hansam-bible/en/genesis-1/
+Hansam Yang. Original Bible: Genesis 1:1–31 (en), research pilot v0.4.2. https://yangs777.github.io/hansam-bible/en/genesis-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

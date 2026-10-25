@@ -1,0 +1,141 @@
+{
+  "origin_branch": "claude/bible-cloud-pilot-g8bkcx",
+  "origin_commit": "00833739afebcd2370ee25c47c2518c02e02a64e",
+  "run_id": "20261023T154258Z-a305a9f8",
+  "model_identity": {
+    "requested_or_configured_model": "claude-opus-5-5",
+    "served_model_reported_by_session_api": "claude-opus-5-5",
+    "identity_basis": "Claude Code remote get_session for this session: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5 at drafting time",
+    "session": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "sampling parameters"
+    ],
+    "note": "A model self-report is not source evidence."
+  },
+  "state": "Original cloud draft, compared without regeneration",
+  "verses": [
+    {
+      "id": "Gen.2.11",
+      "translations": {
+        "ko": "첫째 강의 이름은 비손이다. 그것은 금이 있는 하윌라 온 땅을 휘감아 흐른다.",
+        "en": "The name of the first is Pishon; it is the one that encircles the whole land of Havilah, where there is gold.",
+        "es": "El nombre del primero es Pisón; es el que rodea toda la tierra de Havilá, donde hay oro."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הַסֹּבֵב는 '두르다/돌아 흐르다'이며 땅을 감싸는 경로를 뜻한다. 고유명은 한국어 관례 표기(비손, 하윌라)를 따랐다. הָאֶחָד는 기수 '하나'지만 서수 '첫째'의 의미로 쓰였다.",
+      "counterargument_ko": "'휘감아 흐른다' 대신 '둘러 흐른다/가로지른다' 중 무엇이 더 정확한지 논쟁이 있고, 비손과 하윌라의 위치는 알 수 없다. 'winds through'와 'rodea'가 의미상 다소 다르다.",
+      "current_opinion_ko": "지명 비정은 번역에 넣지 않는다. 자체 검토 후 영어를 'encircles'로 맞추어 스페인어 'rodea'와 정렬했다.",
+      "reconsider_if_ko": "검토에서 영어 동사 통일이 요구되면 'encircles'로 수정한다.",
+      "source_reference": "Gen.2.11",
+      "source_hebrew": "שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃",
+      "source_hebrew_sha256": "f846c665955ada5fdc596724f4fbef91aa50b2ddd35504b9659bbed937ae51cd",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.12",
+      "translations": {
+        "ko": "그 땅의 금은 좋다. 그곳에는 브돌라흐와 소함 보석도 있다.",
+        "en": "The gold of that land is good; bdellium and shoham stone are there.",
+        "es": "El oro de esa tierra es bueno; allí hay bedelio y piedra de shoham."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בְּדֹלַח과 אֶבֶן הַשֹּׁהַם은 정확한 물질 비정이 불확실하므로 한국어·영어는 음역 위주로 두었다.",
+      "counterargument_ko": "בְּדֹלַח은 방향성 수지(bdellium)로, שֹׁהַם은 마노/줄마노/홍옥수 등으로 다양하게 비정된다. 음역은 독자에게 의미를 전달하지 못한다는 단점이 있다.",
+      "current_opinion_ko": "불확실성이 큰 물질명은 음역+해설이 정직하다. 자체 검토 후 스페인어도 'piedra de shoham'으로 맞추었다.",
+      "reconsider_if_ko": "편집부의 보석·광물 용어표가 마련될 경우.",
+      "source_reference": "Gen.2.12",
+      "source_hebrew": "וּֽזֲהַ֛ב הָאָ֥רֶץ הַהִ֖וא ט֑וֹב שָׁ֥ם הַבְּדֹ֖לַח וְאֶ֥בֶן הַשֹּֽׁהַם׃",
+      "source_hebrew_sha256": "2f9697226203b2ec8450ef184c9cf099f4fe469f34d4cdf7a01c65c8caa93910",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.13",
+      "translations": {
+        "ko": "둘째 강의 이름은 기혼이다. 그것은 구스 온 땅을 휘감아 흐른다.",
+        "en": "The name of the second river is Gihon; it is the one that encircles the whole land of Cush.",
+        "es": "El nombre del segundo río es Guijón; es el que rodea toda la tierra de Cus."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "11절과 같은 구문이므로 같은 동사 표현을 유지했다. כּוּשׁ는 지명 비정 없이 음역했다.",
+      "counterargument_ko": "כּוּשׁ를 '에티오피아/누비아'로 옮기는 전통 역본이 있으나, 메소포타미아의 카시트(Kassite) 지역으로 보는 견해도 있어 비정이 불확실하다.",
+      "current_opinion_ko": "음역 유지가 타당하다. 영어 동사는 11절과 함께 'encircles'로 정렬했다.",
+      "reconsider_if_ko": "11절과 함께 영어 동사를 통일할 때 동시 수정한다.",
+      "source_reference": "Gen.2.13",
+      "source_hebrew": "וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃",
+      "source_hebrew_sha256": "6f238bd5ca280b262c7cb7cf50e301afb3f0d857a2bab8398e424f545d9c1212",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.14",
+      "translations": {
+        "ko": "셋째 강의 이름은 힛데겔(티그리스)이다. 그것은 앗수르 동쪽으로 흐른다. 넷째 강은 브랏(유프라테스)이다.",
+        "en": "The name of the third river is Hiddekel (the Tigris); it is the one that flows east of Assyria. And the fourth river is the Perath (the Euphrates).",
+        "es": "El nombre del tercer río es Hidekel (el Tigris); es el que corre al oriente de Asiria. Y el cuarto río es el Perat (el Éufrates)."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חִדֶּקֶל과 פְּרָת은 티그리스·유프라테스로 일반적으로 비정되므로 영어·스페인어는 음역 뒤 괄호 설명을 붙였다(괄호는 원문에 없는 보충 표시). קִדְמַת אַשּׁוּר는 '앗수르 동쪽'으로 읽었다.",
+      "counterargument_ko": "티그리스는 실제로 앗수르(도시)의 동쪽이 아니라 그 곁을 흐르므로 קִדְמַת을 '앞쪽/맞은편'으로 읽자는 견해가 있다.",
+      "current_opinion_ko": "괄호 보충은 원문 외 정보임을 표시해야 한다. 자체 검토 후 한국어도 '힛데겔(티그리스)', '브랏(유프라테스)'로 통일했다.",
+      "reconsider_if_ko": "편집 규칙이 본문 내 괄호 보충을 금지할 경우 각주로 이동한다.",
+      "source_reference": "Gen.2.14",
+      "source_hebrew": "וְשֵׁ֨ם הַנָּהָ֤ר הַשְּׁלִישִׁי֙ חִדֶּ֔קֶל ה֥וּא הַֽהֹלֵ֖ךְ קִדְמַ֣ת אַשּׁ֑וּר וְהַנָּהָ֥ר הָֽרְבִיעִ֖י ה֥וּא פְרָֽת׃",
+      "source_hebrew_sha256": "fc401698099fb6964177ec81a01f9df09df431464e4030df7a0b6a26e6d44ba5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.15",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람을 데려다 에덴 동산에 두시고, 그곳을 일구고 지키게 하셨다.",
+        "en": "YHWH God took the human and settled him in the garden of Eden to work it and to keep it.",
+        "es": "YHWH Dios tomó al ser humano y lo estableció en el huerto de Edén para que lo labrara y lo cuidara."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיַּנִּחֵהוּ(הנח Hiphil)는 '안식하게 두다/정착시키다'로, 8절의 וַיָּשֶׂם과 다른 동사이므로 영어는 'settled'로 구분했다. לְעָבְדָהּ וּלְשָׁמְרָהּ는 '일구고 지키다'로 옮겼다.",
+      "counterargument_ko": "두 부정사의 접미사가 여성형(-ָהּ)인데 גַּן은 보통 남성이므로, 지시 대상을 אֲדָמָה(땅)로 보거나 동사를 제의적 '섬기고 지키다'로 읽는 해석이 있다. 이는 문법·해석 문제이며 사본 이문으로 주장하지 않는다.",
+      "current_opinion_ko": "'그곳'으로 지시 대상을 열어 둔 한국어가 원문의 모호성을 가장 잘 보존한다. 영어·스페인어 'it/lo'는 정원을 지시하는 것으로 읽힐 수 있어 해설 보완이 필요하다.",
+      "reconsider_if_ko": "편집부가 여성 접미사의 지시 대상을 명시적으로 결정할 경우.",
+      "source_reference": "Gen.2.15",
+      "source_hebrew": "וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃",
+      "source_hebrew_sha256": "86ff084db3c6524120723e06befe37cd4afd24f5f778558aeca04d104f80936b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    }
+  ]
+}
