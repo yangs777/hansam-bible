@@ -1,12 +1,12 @@
-# Genesis 2:1–20
+# Genesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.3
+Hansam Yang · Original Bible · v0.4.4
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-This edition publishes Genesis 2:1–20 with the pinned WLC display, three-language selections, actual GPT/Gemini opinions and Claude Code review of difficult verses. The v. 18 form note is kept separately; later verses will follow at this stable address.
+This edition covers all 25 verses of Genesis 2 with the pinned WLC display, three-language selections, actual GPT/Gemini comparisons and Claude Code review of difficult verses. Manuscript and human specialist review remain incomplete; better evidence can change the next edition.
 
 Basis: MT-WLC display; no independent full critical collation completed
 
@@ -47,6 +47,10 @@ Previous v0.4.1
 Thus the heavens and the earth and all their host were completed.
 
 Previous v0.4.2
+
+Thus the heavens and the earth and all their host were completed.
+
+Previous v0.4.3
 
 Thus the heavens and the earth and all their host were completed.
 
@@ -94,6 +98,10 @@ Previous v0.4.2
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
+Previous v0.4.3
+
+On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
+
 ## 3 · HYB.GEN.002.003
 
 Hebrew display (MT/WLC): וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכָּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃
@@ -135,6 +143,10 @@ Previous v0.4.1
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
 Previous v0.4.2
+
+God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
+
+Previous v0.4.3
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
@@ -182,6 +194,10 @@ Previous v0.4.2
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
 
+Previous v0.4.3
+
+This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
+
 ## 5 · HYB.GEN.002.005
 
 Hebrew display (MT/WLC): וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃
@@ -217,6 +233,10 @@ Previous v0.4.1
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
 Previous v0.4.2
+
+No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
+
+Previous v0.4.3
 
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
@@ -260,6 +280,10 @@ Previous v0.4.2
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
 
+Previous v0.4.3
+
+But a flow of water would rise from the earth and water the whole surface of the ground.
+
 ## 7 · HYB.GEN.002.007
 
 Hebrew display (MT/WLC): וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃
@@ -297,6 +321,10 @@ Previous v0.4.1
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
 Previous v0.4.2
+
+Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
+
+Previous v0.4.3
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
@@ -340,6 +368,10 @@ Previous v0.4.2
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
 
+Previous v0.4.3
+
+Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
+
 ## 9 · HYB.GEN.002.009
 
 Hebrew display (MT/WLC): וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כָּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃
@@ -371,6 +403,10 @@ Previous v0.4.1
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
 Previous v0.4.2
+
+Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
+
+Previous v0.4.3
 
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
@@ -408,6 +444,10 @@ Previous v0.4.2
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
 
+Previous v0.4.3
+
+A river flowed out of Eden to water the garden; from there it divided into four branches.
+
 ## 11 · HYB.GEN.002.011
 
 Hebrew display (MT/WLC): שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כָּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃
@@ -435,6 +475,10 @@ Final opinion (Korean original): 비손·하윌라를 현재 고유명 표기로
 Counterargument (Korean): סבב를 두르다·굽이돌다로 이해할 수 있다. 강이 실제 국경을 완전히 한 바퀴 돈다는 현대 지도나 하윌라 좌표를 확정하지 않는다.
 
 Previous v0.4.2
+
+The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
+
+Previous v0.4.3
 
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
@@ -474,6 +518,10 @@ Previous v0.4.2
 
 The gold of that land is good; bdellium and shoham stone are there.
 
+Previous v0.4.3
+
+The gold of that land is good; bdellium and shoham stone are there.
+
 ## 13 · HYB.GEN.002.013
 
 Hebrew display (MT/WLC): וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כָּל־אֶ֥רֶץ כּֽוּשׁ׃
@@ -501,6 +549,10 @@ Final opinion (Korean original): 구스를 유지하고 에티오피아나 카�
 Counterargument (Korean): 구스를 현대 에티오피아 국경이나 특정 다른 지역과 동일시할 수 없다. 지명의 다른 문헌 용례가 이 구절의 정확한 위치를 자동으로 확정하지 않는다.
 
 Previous v0.4.2
+
+The name of the second river is Gihon; it flows around the whole land of Cush.
+
+Previous v0.4.3
 
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
@@ -540,6 +592,10 @@ Previous v0.4.2
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
 
+Previous v0.4.3
+
+The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
+
 ## 15 · HYB.GEN.002.015
 
 Hebrew display (MT/WLC): וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃
@@ -576,6 +632,10 @@ Previous v0.4.2
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
 
+Previous v0.4.3
+
+Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
+
 ## 16 · HYB.GEN.002.016
 
 Hebrew display (MT/WLC): וַיְצַו֙ יְהוָ֣ה אֱלֹהִ֔ים עַל־הָֽאָדָ֖ם לֵאמֹ֑ר מִכֹּ֥ל עֵֽץ־הַגָּ֖ן אָכֹ֥ל תֹּאכֵֽל׃
@@ -601,6 +661,10 @@ Yahweh God commanded the human, saying, “You may freely eat from every tree of
 Final opinion (Korean original): 명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다. 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
 
 Counterargument (Korean): 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
+
+Previous v0.4.3
+
+Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
 ## 17 · HYB.GEN.002.017
 
@@ -634,6 +698,10 @@ Final opinion (Korean original): 먹는 날과 반드시 죽는다는 확실성�
 
 Counterargument (Korean): 날/때의 범위와 죽음의 방식은 구문만으로 확정되지 않는다. 즉사·영적 죽음이나 역사적 발생을 번역에서 단정하지 않는다.
 
+Previous v0.4.3
+
+but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
+
 ## 18 · HYB.GEN.002.018
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר֙ יְהוָ֣ה אֱלֹהִ֔ים לֹא־ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֶֽעֱשֶׂהּ־לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃
@@ -665,6 +733,10 @@ Yahweh God said, “It is not good for the human to be alone. I will make for hi
 Final opinion (Korean original): 상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다. 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
 
 Counterargument (Korean): 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
+
+Previous v0.4.3
+
+Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
 ## 19 · HYB.GEN.002.019
 
@@ -698,6 +770,10 @@ Final opinion (Korean original): 빚으시고·데려오심·명명의 서술 �
 
 Counterargument (Korean): 이미 빚으셨던이라는 선행과거와 절 후반의 다른 구문 분석도 가능하다. 일반 과거를 선택해도 전체 창조 연대기를 확정한 것은 아니다.
 
+Previous v0.4.3
+
+Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
+
 ## 20 · HYB.GEN.002.020
 
 Hebrew display (MT/WLC): וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכָל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃
@@ -723,6 +799,158 @@ The human gave names to all the livestock, to the birds of the heavens and to ev
 Final opinion (Korean original): 이름 부여 뒤 돕는 이가 발견되지 않은 결과를 비인칭적 수동으로 현재 옮긴다. 18절과 같은 상응 표현을 쓴다. מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
 
 Counterargument (Korean): מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
+
+Previous v0.4.3
+
+The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
+
+## 21 · HYB.GEN.002.021
+
+Hebrew display (MT/WLC): וַיַּפֵּל֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ תַּרְדֵּמָ֛ה עַל־הָאָדָ֖ם וַיִּישָׁ֑ן וַיִּקַּ֗ח אַחַת֙ מִצַּלְעֹתָ֔יו וַיִּסְגֹּ֥ר בָּשָׂ֖ר תַּחְתֶּֽנָּה׃
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.21
+
+### Current best selected translation
+
+신체 문맥과 하나를 취하는 구문 및 BDB의 해당 용례를 참고해 갈빗대를 현재 채택한다.
+
+#### claude-opus-5-5
+
+So the LORD God caused a deep sleep to fall upon the man, and he slept. He took one of his ribs and closed up its place with flesh.
+
+Final opinion (Korean original): 초안 번역은 '갈빗대(또는 옆구리)'입니다. '생물학적 사실'이나 '여성의 지위'에 관한 결론은 이 절의 본문 진술이 아니라 해석임을 주석에서 분리해 표시해야 합니다. 채택되지 않은 모델 초안입니다.
+
+#### gemini-3.8-flash-medium
+
+So the LORD God caused a deep sleep to fall upon the man, and he slept; then He took one of his ribs (or sides) and closed up the flesh in its place.
+
+Final opinion (Korean original): 주인님, 제시된 한·영·스 번역은 본문의 서사적 흐름을 왜곡 없이 정확히 전달합니다. BDB 6763이 창세기 2:21-22를 인체의 '갈빗대(rib)'로 분류하고 건축적 의미를 별도로 다루듯, 다른 본문의 빈도만으로 인체 문맥의 기본 의미를 대체할 수는 없습니다. '갈빗대'를 1차 본문 번역으로 택하고 '측면/옆구리'를 주석적 가능성으로 열어두는 잠정적 선택은 사전적·문맥적으로 매우 건실하며, 살로 자리를 채웠다는 묘사 역시 과도한 외과적 해석 없이 담백하게 처리되었습니다.
+
+#### gpt-6.1-sol
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
+Final opinion (Korean original): 신체 문맥과 하나를 취하는 구문 및 BDB의 해당 용례를 참고해 갈빗대를 현재 채택한다. 옆구리·측면도 어휘상 대안이다. 다른 곳의 건축 용례 빈도만으로 이 문맥을 결정하지 않으며 해부학·수술·유전이나 성별 위계를 확정하지 않는다.
+
+Counterargument (Korean): 옆구리·측면도 어휘상 대안이다. 다른 곳의 건축 용례 빈도만으로 이 문맥을 결정하지 않으며 해부학·수술·유전이나 성별 위계를 확정하지 않는다.
+
+## 22 · HYB.GEN.002.022
+
+Hebrew display (MT/WLC): וַיִּבֶן֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ אֶֽת־הַצֵּלָ֛ע אֲשֶׁר־לָקַ֥ח מִן־הָֽאָדָ֖ם לְאִשָּׁ֑ה וַיְבִאֶ֖הָ אֶל־הָֽאָדָֽם׃
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.22
+
+### Current best selected translation
+
+21절과 갈빗대 역어를 맞추고 בנה의 짓다 이미지를 지으시고/built/construyó로 보존한다. 한국어·스페인어는 재료 구문으로 자연스럽게 옮긴다.
+
+#### claude-opus-5-5
+
+Then the LORD God built the rib that he had taken from the man into a woman, and he brought her to the man.
+
+Final opinion (Korean original): '여호와 하나님께서 그 갈빗대로 여자를 지으시고 그 사람에게 데려오셨다'를 초안으로 제시합니다. 혼인 예식 해석은 주석 층위에서 다루고 번역 본문에는 넣지 않습니다.
+
+#### gemini-3.8-flash-medium
+
+And the LORD God fashioned (built) into a woman the rib (or side) which He had taken from the man, and brought her to the man.
+
+Final opinion (Korean original): 주인님, 지적해 주신 BDB 1129의 실제 항목 분류를 확인하여 바로잡습니다. BDB는 창세기 2:22를 2번 '비유적(figurative)' 범주가 아니라, 1번 '문자적(literal)' 용법 중 재료를 취해 형성하는 하위 항목 1.c에 배치하며 '갈빗대를 여자로 빚으셨다/형성하셨다(fashioned the rib into a woman)'로 풀이합니다. 따라서 이전 답변에서 이를 BDB의 '비유적 형성' 범주로 언급한 것은 이전 대화의 단서에 의존한 명백한 출처 인용 오류였습니다. '건축 메타포'는 후대 주석가들의 해석적 틀일 수는 있으나 BDB 사전 자체의 분류 체계로 귀속시킬 수 없습니다. 이 사전적 구분을 바로잡더라도, 제시된 세 언어 번역(ko: 지으시고, en: built... into, es: construyó... con)은 텍스트 자체의 어휘적 범위를 벗어나지 않으며 오역 없이 번역문으로서 충분히 기능합니다.
+
+#### gpt-6.1-sol
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
+Final opinion (Korean original): 21절과 갈빗대 역어를 맞추고 בנה의 짓다 이미지를 지으시고/built/construyó로 보존한다. 한국어·스페인어는 재료 구문으로 자연스럽게 옮긴다. 원문의 직접 목적어는 그 갈빗대다. 재료 구문은 의미를 살린 재배열이며, 만들다·형성하다 또는 옆면이라는 대안도 가능하다. 혼례 의식은 본문에 보충하지 않는다. 최종 검토 지시에서 BDB를 비유 범주로 잘못 설명한 편집자의 오류를 실제 페이지와 대조해 문자적 용례 1.c로 정정하고 Gemini 3차 의견에 반영했다.
+
+Counterargument (Korean): 원문의 직접 목적어는 그 갈빗대다. 재료 구문은 의미를 살린 재배열이며, 만들다·형성하다 또는 옆면이라는 대안도 가능하다. 혼례 의식은 본문에 보충하지 않는다.
+
+## 23 · HYB.GEN.002.023
+
+Hebrew display (MT/WLC): וַיֹּאמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקֳחָה־זֹּֽאת׃
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.23
+
+### Current best selected translation
+
+이번에야말로의 감탄, 뼈·살의 반복, 취해짐을 옮기며 איש/אשה의 소리 유희는 주석으로 보완한다.
+
+#### gemini-3.8-flash-medium
+
+Then the man said: 'This at last is bone of my bones and flesh of my flesh; this one shall be called Woman (Ishah), for from Man (Ish) she was taken.'
+
+Final opinion (Korean original): 주인님, 세 언어 번역 모두 아담의 감탄과 존재적 유대를 온전히 살려냈습니다. 한국어의 '내 뼈에서 나온 뼈'는 전치사 מִן(민)의 출처 의미를 자연스럽게 살린 동적 일치 번역이며, '이쉬/이샤'의 언어유희적 대응과 수동태 동사(루카하)의 원인 설명('취해졌기 때문이다 / was taken / fue tomada')도 군더더기 없이 정확합니다.
+
+#### gpt-6.1-sol
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
+
+Final opinion (Korean original): 이번에야말로의 감탄, 뼈·살의 반복, 취해짐을 옮기며 איש/אשה의 소리 유희는 주석으로 보완한다. 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
+
+Counterargument (Korean): 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
+
+## 24 · HYB.GEN.002.024
+
+Hebrew display (MT/WLC): עַל־כֵּן֙ יַֽעֲזָב־אִ֔ישׁ אֶת־אָבִ֖יו וְאֶת־אִמּ֑וֹ וְדָבַ֣ק בְּאִשְׁתּ֔וֹ וְהָי֖וּ לְבָשָׂ֥ר אֶחָֽד׃
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.24
+
+### Current best selected translation
+
+총칭적 현재, 굳은 결합, 그들은 한 몸이라는 표현을 채택한다. 23절 인용을 닫고 서술자 설명으로 읽는다.
+
+#### claude-opus-5-5
+
+Therefore a man leaves his father and his mother and clings to his wife, and they become one flesh.
+
+Final opinion (Korean original): 초안 번역은 '그러므로 남자는 자기 아버지와 어머니를 떠나 자기 아내와 결합하고, 그들은 한 몸이 된다'입니다. 본문(관습 해설), 관용어 의미(친족·결합), 신학적·윤리적 적용(혼인 규범)의 세 층위를 주석에서 구분해야 합니다.
+
+#### gemini-3.8-flash-medium
+
+Therefore a man leaves his father and his mother and cleaves to his wife, and they become one flesh.
+
+Final opinion (Korean original): 주인님, 번역문이 특정 신학적 교리나 사회제도적 정의를 억지로 투사하지 않고 히브리어 본문 표현을 있는 그대로 담백하게 반영했습니다. 'דָבַק(다바크)'를 '굳게 결합하고 / holds fast / se une firmemente'로 옮겨 유착과 결속의 뉘앙스를 온전히 살렸고, '한 몸이 된다(לְבָשָׂר אֶחָד)' 역시 과도한 생물학적·제도적 해설을 덧붙이지 않고 원문의 관용적 형태를 정확히 보존했습니다.
+
+#### gpt-6.1-sol
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
+Final opinion (Korean original): 총칭적 현재, 굳은 결합, 그들은 한 몸이라는 표현을 채택한다. 23절 인용을 닫고 서술자 설명으로 읽는다. 미래·규범적 독법과 발화 연속 대안은 남는다. 인용 경계는 현대 편집이며 한 몸/one flesh/una sola carne만으로 친족·성·혼인 제도 전체의 범위를 확정하지 않는다.
+
+Counterargument (Korean): 미래·규범적 독법과 발화 연속 대안은 남는다. 인용 경계는 현대 편집이며 한 몸/one flesh/una sola carne만으로 친족·성·혼인 제도 전체의 범위를 확정하지 않는다.
+
+## 25 · HYB.GEN.002.025
+
+Hebrew display (MT/WLC): וַיִּֽהְי֤וּ שְׁנֵיהֶם֙ עֲרוּמִּ֔ים הָֽאָדָ֖ם וְאִשְׁתּ֑וֹ וְלֹ֖א יִתְבֹּשָֽׁשׁוּ׃
+
+The human and his wife were both naked, but they were not ashamed.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.2.25
+
+### Current best selected translation
+
+둘 다 벌거벗었으나 부끄러워하지 않았다는 진술을 옮기고 서로라는 대상을 덧붙이지 않는다.
+
+#### gemini-3.8-flash-medium
+
+And the man and his wife were both naked, and were not ashamed.
+
+Final opinion (Korean original): 주인님, 원문의 상태 묘사를 군더더기 없이 투명하게 옮긴 훌륭한 번역입니다. 동사 'יִתְבֹּשָׁשׁוּ(이트보샤슈)'에 대해 상호적 부끄러움(mutual shame)이나 원초적 의(original innocence) 같은 특정 교리적 프레임을 강요하지 않고, '부끄러워하지 않았다 / were not ashamed / no sentían vergüenza'로 담담하게 처리하여 텍스트 자체의 정직성을 지켰습니다.
+
+#### gpt-6.1-sol
+
+The human and his wife were both naked, but they were not ashamed.
+
+Final opinion (Korean original): 둘 다 벌거벗었으나 부끄러워하지 않았다는 진술을 옮기고 서로라는 대상을 덧붙이지 않는다. 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
+
+Counterargument (Korean): 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
 
 ## Notes
 
@@ -754,9 +982,15 @@ Verse 18 retains the exact dotted-he form אֶֽעֱשֶׂהּ. One precisely re
 
 Verse 19 selects formed, retaining had formed as an alternative; each expresses a distributive reading. In v. 20 was found is a functional outcome rendering, while Hebrew מצא is active in form. Human/Adam and human/divine/impersonal subject readings remain revisable.
 
+In vv. 21–22 rib is the current choice, with side retained as an alternative. BDB lists this Genesis usage and other senses; this does not establish anatomy, surgery, heredity or gender status. Verse 22 retains build imagery; Korean and Spanish rearrange the material/result syntax.
+
+Verse 23 plays on ish (man) and ishah (woman); translations only partly retain that sound play. No exact historical derivation is certified. Verse 24 is placed outside the quote and read as generic present; future, normative and continued-speech readings remain alternatives. One flesh does not settle every theological or biological interpretation.
+
+Verse 25 renders absence of shame without adding an explicit toward one another. Reciprocal readings and sound similarity with 3:1 remain discussable; exact homophony and additional doctrines are not asserted. This edition now covers all 25 verses of Genesis 2, subject to revision.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–20 (en), research pilot v0.4.3. https://yangs777.github.io/hansam-bible/en/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.4. https://yangs777.github.io/hansam-bible/en/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

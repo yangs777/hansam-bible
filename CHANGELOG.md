@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.4 — 2026-10-25
+
+- Added Genesis 2:21–25 in Korean, English and Spanish, completing the chapter: 66 selected verses / 198 translations overall.
+- Recorded actual GPT/Gemini proposals and final opinions, plus Claude Code CLI review (modelUsage claude-opus-5-5) for 2:21–22 and 2:24. Reused five existing cloud drafts.
+- Selected rib provisionally while preserving side as an alternative; retained wordplay, speaker-boundary and one-flesh alternatives separately from the reading. Corrected an editor-supplied BDB category error in an actual third Gemini review.
+- Preserved all 61 previous selections, Hebrew layers and exact v0.4.3 archive bytes. Stable reading and comparison URLs are unchanged.
+
 ## 0.4.3 — 2026-10-25
 
 - Added Genesis 2:16–20 in Korean, English and Spanish: 61 selected verses / 183 translations.

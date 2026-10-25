@@ -1,0 +1,151 @@
+{
+  "state": "Reused existing cloud draft evidence, not a new model call",
+  "branch": "refs/remotes/github/claude/bible-cloud-pilot-g8bkcx",
+  "commit": "00833739afebcd2370ee25c47c2518c02e02a64e",
+  "run_id": "20261023T154258Z-a305a9f8",
+  "model_identity": {
+    "requested_or_configured_model": "claude-opus-5-5",
+    "served_model_reported_by_session_api": "claude-opus-5-5",
+    "identity_basis": "Claude Code remote get_session for this session: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5 at drafting time",
+    "session": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "sampling parameters"
+    ],
+    "note": "A model self-report is not source evidence."
+  },
+  "input": {
+    "source_packet": "automation/cloud-packets/20261023T154258Z-a305a9f8.json",
+    "source_packet_sha256": "fb89ed9a0e1fbb88055ba36986e71ab66c0c45303502a5e64084ac0562ddfbe2",
+    "verse_count": 25,
+    "first_id": "Gen.2.1",
+    "last_id": "Gen.3.1",
+    "skipped_in_range": {
+      "Gen.2.18": "deferred_unsupported_readings in automation/source-queue-report.json; not drafted"
+    }
+  },
+  "verses": [
+    {
+      "id": "Gen.2.21",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람에게 깊은 잠이 쏟아지게 하시니 그가 잠들었다. 그러자 그분께서 그의 옆구리에서 하나를 취하시고, 그 자리를 살로 메우셨다.",
+        "en": "YHWH God caused a deep sleep to fall upon the human, and he slept; then he took one of his sides and closed up the flesh in its place.",
+        "es": "YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió; luego tomó uno de sus costados y cerró la carne en su lugar."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "צֵלָע는 성막·성전 건축 용어로 '옆/측면'을 뜻하는 경우가 많아 '갈빗대'로 좁히지 않고 '옆구리/side'로 옮겼다. 23절의 '내 뼈 중의 뼈'와 연결되는 해석 가능성은 해설에 남긴다. תַּרְדֵּמָה는 초자연적 깊은 잠이다.",
+      "counterargument_ko": "전통 번역 '갈빗대(rib)'가 오랜 수용사를 가지며 23절의 '뼈' 언급과 더 잘 맞는다는 반론이 강하다. 한국어 '하나를 취하시고'는 무엇을 취했는지 덜 분명하다.",
+      "current_opinion_ko": "'옆구리'는 어휘의 일반적 용례에 근거한 선택이지만 논쟁적이므로, 편집부가 '갈빗대' 대안을 각주로 병기해야 한다. 이 선택은 확정 의견이 아니라 검토 요청이다.",
+      "reconsider_if_ko": "GPT/Gemini 및 전문가 검토가 '갈빗대'를 본문 역어로 권고할 경우.",
+      "source_reference": "Gen.2.21",
+      "source_hebrew": "וַיַּפֵּל֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ תַּרְדֵּמָ֛ה עַל־הָאָדָ֖ם וַיִּישָׁ֑ן וַיִּקַּ֗ח אַחַת֙ מִצַּלְעֹתָ֔יו וַיִּסְגֹּ֥ר בָּשָׂ֖ר תַּחְתֶּֽנָּה׃",
+      "source_hebrew_sha256": "1eb8f821c2110dc87feb3590a3cc73ac97c0cd11d9f6d200a569164ba497267d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.22",
+      "translations": {
+        "ko": "YHWH 하나님께서 사람에게서 취하신 그 옆구리로 여자를 지으시고, 그 여자를 사람에게로 데려오셨다.",
+        "en": "YHWH God built the side that he had taken from the human into a woman and brought her to the human.",
+        "es": "YHWH Dios construyó una mujer con el costado que había tomado del ser humano, y la llevó ante el ser humano."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיִּבֶן은 '짓다/건축하다'로, 21절 צֵלָע의 건축적 함의와 연결된다. 한국어 '지으시고'와 영어 'built', 스페인어 'construyó'로 건축 동사를 유지했다. 21절과 일관되게 '옆구리/side'를 썼다.",
+      "counterargument_ko": "'지으시다'는 한국어에서 '창조하다'와 비슷하게 들려 건축적 뉘앙스가 약할 수 있다. 21절 역어가 바뀌면 이 절도 연동된다.",
+      "current_opinion_ko": "21절과 동시에 검토되어야 하는 연동 항목이다.",
+      "reconsider_if_ko": "21절 צֵלָע 역어가 변경될 경우 동시 수정한다.",
+      "source_reference": "Gen.2.22",
+      "source_hebrew": "וַיִּבֶן֩ יְהוָ֨ה אֱלֹהִ֧ים ׀ אֶֽת־הַצֵּלָ֛ע אֲשֶׁר־לָקַ֥ח מִן־הָֽאָדָ֖ם לְאִשָּׁ֑ה וַיְבִאֶ֖הָ אֶל־הָֽאָדָֽם׃",
+      "source_hebrew_sha256": "28ea032031fc8aa5505b4f1988092b4b2033ca5bcd3480e3537cc1e9d6b285cf",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.23",
+      "translations": {
+        "ko": "사람이 말하였다. “이번에야말로 내 뼈 중의 뼈요, 내 살 중의 살이다. 남자에게서 취하였으니 이를 여자라 부르리라.”",
+        "en": "The human said, “This one, at last, is bone of my bones and flesh of my flesh; this one shall be called Woman, for from Man this one was taken.”",
+        "es": "El ser humano dijo: «¡Esta vez sí, esta es hueso de mis huesos y carne de mi carne! Esta será llamada Mujer, porque del Hombre fue tomada»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "זֹאת가 세 번 반복되는 운문적 감탄을 영어는 'this one'으로 살렸다. אִשָּׁה/אִישׁ 말놀이는 영어 Woman/Man, 스페인어 Mujer/Hombre로는 부분적으로만, 한국어 '여자/남자'로는 '자' 공유로 근사하게 반영된다. 한국어는 이유절을 앞으로 옮겨 자연스러운 어순을 택했다.",
+      "counterargument_ko": "말놀이를 살리기 위해 한국어 '지아비/지어미' 같은 대응이나 스페인어 'varona'(고어) 사용을 제안하는 전통이 있다. 실제 어원은 다르다는 점을 해설해야 한다. 한국어 어순 변경은 원문 구조에서 벗어난다.",
+      "current_opinion_ko": "자연스러움과 말놀이 근사를 모두 고려할 때 현재안이 균형적이다. 한국어 운문 재배열은 검토 항목이다.",
+      "reconsider_if_ko": "편집부가 운문 구절의 행 배열 규칙을 정할 경우.",
+      "source_reference": "Gen.2.23",
+      "source_hebrew": "וַיֹּאמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקֳחָה־זֹּֽאת׃",
+      "source_hebrew_sha256": "11979a47bb545499d5bf5159181778015b0dd4519b7c386cf27047cddd9f588d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.24",
+      "translations": {
+        "ko": "그러므로 남자는 자기 아버지와 어머니를 떠나 자기 아내와 굳게 결합하고, 그들은 한 몸이 된다.",
+        "en": "That is why a man leaves his father and his mother and clings to his wife, and they become one flesh.",
+        "es": "Por eso el hombre deja a su padre y a su madre, se une a su mujer, y llegan a ser una sola carne."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עַל־כֵּן은 서술자의 원인론적 논평이다. 미완료 יַעֲזָב와 와우완료는 일반적 현재(관습)로 옮겼다. דָּבַק은 '들러붙다/굳게 결합하다'이다. אִשְׁתּוֹ는 문맥상 '아내'이다.",
+      "counterargument_ko": "이 절을 23절 사람의 말에 이어진 인용으로 보는 견해도 있다. 또 미완료를 명령적 의미('떠나야 한다')로 읽을 수 있으나 형식상 근거가 약하다. '한 몸'은 성적 결합만이 아닌 친족 관계를 뜻한다는 해석이 있다.",
+      "current_opinion_ko": "서술자 논평으로 보고 인용 부호 밖에 둔다.",
+      "reconsider_if_ko": "편집부가 이 절을 23절 발화의 연속으로 본 인용 체계를 정할 경우.",
+      "source_reference": "Gen.2.24",
+      "source_hebrew": "עַל־כֵּן֙ יַֽעֲזָב־אִ֔ישׁ אֶת־אָבִ֖יו וְאֶת־אִמּ֑וֹ וְדָבַ֣ק בְּאִשְׁתּ֔וֹ וְהָי֖וּ לְבָשָׂ֥ר אֶחָֽד׃",
+      "source_hebrew_sha256": "a05de71ebb85db71226cafda6e6bb96883dc5a86426ff4f216b123649e58d4c1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.2.25",
+      "translations": {
+        "ko": "사람과 그의 아내, 두 사람 모두 벌거벗었으나 부끄러워하지 않았다.",
+        "en": "The two of them, the human and his wife, were naked, yet they were not ashamed.",
+        "es": "Los dos, el ser humano y su mujer, estaban desnudos, y no se avergonzaban."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עֲרוּמִּים(벌거벗은)은 3:1의 עָרוּם(교활한)과 말놀이를 이루어 장면 전환을 연결한다. 히트파엘 יִתְבֹּשָׁשׁוּ는 지속적 상태 '부끄러워하지 않았다'로 옮겼다.",
+      "counterargument_ko": "히트파엘을 상호적('서로')으로 단정할 근거가 약하며 단순 재귀일 수 있다. 번역으로는 3:1과의 말놀이를 살리기 어렵다.",
+      "current_opinion_ko": "1차 초안의 '서로'는 상호적 해석의 과잉 첨가로 판단해 자체 검토에서 삭제했다.",
+      "reconsider_if_ko": "검토자가 '서로'를 과잉 해석으로 판단할 경우 삭제한다.",
+      "source_reference": "Gen.2.25",
+      "source_hebrew": "וַיִּֽהְי֤וּ שְׁנֵיהֶם֙ עֲרוּמִּ֔ים הָֽאָדָ֖ם וְאִשְׁתּ֑וֹ וְלֹ֖א יִתְבֹּשָֽׁשׁוּ׃",
+      "source_hebrew_sha256": "2f7ffb364396529f4fc7e9e74a6809dedba9d996692ed799b1706295fdefcfed",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    }
+  ]
+}

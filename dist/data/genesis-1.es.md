@@ -1,6 +1,6 @@
 # Génesis 1
 
-Hansam Yang · Original Bible · v0.4.3
+Hansam Yang · Original Bible · v0.4.4
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -60,6 +60,10 @@ Previous v0.4.2
 
 Al comienzo, Dios creó los cielos y la tierra.
 
+Previous v0.4.3
+
+Al comienzo, Dios creó los cielos y la tierra.
+
 ## 2 · HYB.GEN.001.002
 
 Hebrew display (MT/WLC): וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃
@@ -105,6 +109,10 @@ Previous v0.4.1
 La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
 
 Previous v0.4.2
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.3
 
 La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
 
@@ -156,6 +164,10 @@ Previous v0.4.2
 
 Dios dijo: «Que haya luz». Y hubo luz.
 
+Previous v0.4.3
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
 ## 4 · HYB.GEN.001.004
 
 Hebrew display (MT/WLC): וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָא֖וֹר כִּי־ט֑וֹב וַיַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָא֖וֹר וּבֵ֥ין הַחֹֽשֶׁךְ׃
@@ -198,6 +210,10 @@ Previous v0.4.2
 
 Dios vio que la luz era buena y separó la luz de la oscuridad.
 
+Previous v0.4.3
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
 ## 5 · HYB.GEN.001.005
 
 Hebrew display (MT/WLC): וַיִּקְרָ֨א אֱלֹהִ֤ים ׀ לָאוֹר֙ י֔וֹם וְלַחֹ֖שֶׁךְ קָ֣רָא לָ֑יְלָה וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם אֶחָֽד׃
@@ -237,6 +253,10 @@ Previous v0.4.1
 Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
 
 Previous v0.4.2
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.3
 
 Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
 
@@ -288,6 +308,10 @@ Previous v0.4.2
 
 Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
 
+Previous v0.4.3
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
 ## 7 · HYB.GEN.001.007
 
 Hebrew display (MT/WLC): וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִיעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֨יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃
@@ -327,6 +351,10 @@ Previous v0.4.1
 Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
 
 Previous v0.4.2
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.3
 
 Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
 
@@ -372,6 +400,10 @@ Previous v0.4.2
 
 Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
 
+Previous v0.4.3
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
 ## 9 · HYB.GEN.001.009
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים יִקָּו֨וּ הַמַּ֜יִם מִתַּ֤חַת הַשָּׁמַ֨יִם֙ אֶל־מָק֣וֹם אֶחָ֔ד וְתֵרָאֶ֖ה הַיַּבָּשָׁ֑ה וַֽיְהִי־כֵֽן׃
@@ -411,6 +443,10 @@ Previous v0.4.1
 Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
 
 Previous v0.4.2
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.3
 
 Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
 
@@ -456,6 +492,10 @@ Previous v0.4.2
 
 Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
 
+Previous v0.4.3
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
 ## 11 · HYB.GEN.001.011
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים תַּֽדְשֵׁ֤א הָאָ֨רֶץ֙ דֶּ֔שֶׁא עֵ֚שֶׂב מַזְרִ֣יעַ זֶ֔רַע עֵ֣ץ פְּרִ֞י עֹ֤שֶׂה פְּרִי֙ לְמִינ֔וֹ אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃
@@ -495,6 +535,10 @@ Previous v0.4.1
 Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
 
 Previous v0.4.2
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.3
 
 Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
 
@@ -540,6 +584,10 @@ Previous v0.4.2
 
 La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
 
+Previous v0.4.3
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
 ## 13 · HYB.GEN.001.013
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שְׁלִישִֽׁי׃
@@ -579,6 +627,10 @@ Previous v0.4.1
 Llegó la tarde y llegó la mañana: un tercer día.
 
 Previous v0.4.2
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.3
 
 Llegó la tarde y llegó la mañana: un tercer día.
 
@@ -624,6 +676,10 @@ Previous v0.4.2
 
 Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
 
+Previous v0.4.3
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
 ## 15 · HYB.GEN.001.015
 
 Hebrew display (MT/WLC): וְהָי֤וּ לִמְאוֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהָאִ֖יר עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃
@@ -663,6 +719,10 @@ Previous v0.4.1
 Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
 
 Previous v0.4.2
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.3
 
 Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
 
@@ -708,6 +768,10 @@ Previous v0.4.2
 
 Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
 
+Previous v0.4.3
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
 ## 17 · HYB.GEN.001.017
 
 Hebrew display (MT/WLC): וַיִּתֵּ֥ן אֹתָ֛ם אֱלֹהִ֖ים בִּרְקִ֣יעַ הַשָּׁמָ֑יִם לְהָאִ֖יר עַל־הָאָֽרֶץ׃
@@ -747,6 +811,10 @@ Previous v0.4.1
 Dios las puso en la bóveda del cielo para alumbrar la tierra,
 
 Previous v0.4.2
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.3
 
 Dios las puso en la bóveda del cielo para alumbrar la tierra,
 
@@ -792,6 +860,10 @@ Previous v0.4.2
 
 para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
 
+Previous v0.4.3
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
 ## 19 · HYB.GEN.001.019
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם רְבִיעִֽי׃
@@ -831,6 +903,10 @@ Previous v0.4.1
 Llegó la tarde y llegó la mañana: un cuarto día.
 
 Previous v0.4.2
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.3
 
 Llegó la tarde y llegó la mañana: un cuarto día.
 
@@ -876,6 +952,10 @@ Previous v0.4.2
 
 Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
 
+Previous v0.4.3
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
 ## 21 · HYB.GEN.001.021
 
 Hebrew display (MT/WLC): וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כָּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה ׀ הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִֽינֵהֶ֗ם וְאֵ֨ת כָּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃
@@ -915,6 +995,10 @@ Previous v0.4.1
 Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
 
 Previous v0.4.2
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.3
 
 Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
 
@@ -960,6 +1044,10 @@ Previous v0.4.2
 
 Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
 
+Previous v0.4.3
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
 ## 23 · HYB.GEN.001.023
 
 Hebrew display (MT/WLC): וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם חֲמִישִֽׁי׃
@@ -999,6 +1087,10 @@ Previous v0.4.1
 Llegó la tarde y llegó la mañana: un quinto día.
 
 Previous v0.4.2
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.3
 
 Llegó la tarde y llegó la mañana: un quinto día.
 
@@ -1044,6 +1136,10 @@ Previous v0.4.2
 
 Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
 
+Previous v0.4.3
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
 ## 25 · HYB.GEN.001.025
 
 Hebrew display (MT/WLC): וַיַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָאָ֜רֶץ לְמִינָ֗הּ וְאֶת־הַבְּהֵמָה֙ לְמִינָ֔הּ וְאֵ֛ת כָּל־רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃
@@ -1083,6 +1179,10 @@ Previous v0.4.1
 Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
 
 Previous v0.4.2
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.3
 
 Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
 
@@ -1134,6 +1234,10 @@ Previous v0.4.2
 
 Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
 
+Previous v0.4.3
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
 ## 27 · HYB.GEN.001.027
 
 Hebrew display (MT/WLC): וַיִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃
@@ -1179,6 +1283,10 @@ Previous v0.4.1
 Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
 
 Previous v0.4.2
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.3
 
 Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
 
@@ -1230,6 +1338,10 @@ Previous v0.4.2
 
 Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
 
+Previous v0.4.3
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
 ## 29 · HYB.GEN.001.029
 
 Hebrew display (MT/WLC): וַיֹּ֣אמֶר אֱלֹהִ֗ים הִנֵּה֩ נָתַ֨תִּי לָכֶ֜ם אֶת־כָּל־עֵ֣שֶׂב ׀ זֹרֵ֣עַ זֶ֗רַע אֲשֶׁר֙ עַל־פְּנֵ֣י כָל־הָאָ֔רֶץ וְאֶת־כָּל־הָעֵ֛ץ אֲשֶׁר־בּ֥וֹ פְרִי־עֵ֖ץ זֹרֵ֣עַ זָ֑רַע לָכֶ֥ם יִֽהְיֶ֖ה לְאָכְלָֽה׃
@@ -1269,6 +1381,10 @@ Previous v0.4.1
 Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
 
 Previous v0.4.2
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.3
 
 Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
 
@@ -1314,6 +1430,10 @@ Previous v0.4.2
 
 Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
 
+Previous v0.4.3
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
 ## 31 · HYB.GEN.001.031
 
 Hebrew display (MT/WLC): וַיַּ֤רְא אֱלֹהִים֙ אֶת־כָּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃
@@ -1356,6 +1476,10 @@ Previous v0.4.2
 
 Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
 
+Previous v0.4.3
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
 ## Notes
 
 El versículo 1 se adopta como apertura independiente. Sigue siendo importante la alternativa de una cláusula temporal ligada a 2–3; ni la falta de artículo ni los acentos medievales resuelven la sintaxis más antigua.
@@ -1372,7 +1496,7 @@ Nueva traducción del TM-WLC mostrado. No se ha completado la colación directa 
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 1:1–31 (es), research pilot v0.4.3. https://yangs777.github.io/hansam-bible/es/genesis-1/
+Hansam Yang. Original Bible: Genesis 1:1–31 (es), research pilot v0.4.4. https://yangs777.github.io/hansam-bible/es/genesis-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
