@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.7 — 2026-10-26
+
+- Added Genesis 3:11–15 in Korean, English and Spanish: 81 selected verses / 243 translations overall.
+- Preserved actual GPT and Gemini proposals/final opinions, with read-only Claude Code CLI (modelUsage claude-opus-5-5) proposals/opinions for 3:12, 3:14 and 3:15; reused five existing cloud drafts.
+- Distinguished the negative command from the main question, retained gave/gave and the deception statement, and documented comparative/separative curse readings, offspring/pronoun reference and repeated shuf alternatives. Model quotation errors and overstatements remain separate from the pinned Hebrew and source evidence.
+- Preserved prior 76 selections and Hebrew layers plus byte-identical v0.4.6 archives/ZIP. Adoption automatically recorded the edition on the updates page; reading URLs remain stable.
+
 ## 0.4.6 — 2026-10-26
 
 - Added Genesis 3:6–10 in Korean, English and Spanish: 76 selected verses / 228 translations overall.

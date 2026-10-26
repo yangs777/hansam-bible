@@ -1,6 +1,6 @@
 # 시편 1편
 
-Hansam Yang · Original Bible · v0.4.6
+Hansam Yang · Original Bible · v0.4.7
 
 AI 보조 번역 초안 · 원어·모국어 전문가 검수 전
 
@@ -74,6 +74,10 @@ Previous v0.4.5
 
 복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
 
+Previous v0.4.6
+
+복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
+
 ## 2 · HYB.PS.001.002
 
 Hebrew display (MT/WLC): כִּ֤י אִ֥ם בְּתוֹרַ֥ת יְהוָ֗ה חֶ֫פְצ֥וֹ וּֽבְתוֹרָת֥וֹ יֶהְגֶּ֗ה יוֹמָ֥ם וָלָֽיְלָה׃
@@ -133,6 +137,10 @@ Previous v0.4.4
 오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
 
 Previous v0.4.5
+
+오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
+
+Previous v0.4.6
 
 오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
 
@@ -198,6 +206,10 @@ Previous v0.4.5
 
 그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
 
+Previous v0.4.6
+
+그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
+
 ## 4 · HYB.PS.001.004
 
 Hebrew display (MT/WLC): לֹא־כֵ֥ן הָרְשָׁעִ֑ים כִּ֥י אִם־כַּ֝מֹּ֗ץ אֲֽשֶׁר־תִּדְּפֶ֥נּוּ רֽוּחַ׃
@@ -257,6 +269,10 @@ Previous v0.4.4
 악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
 
 Previous v0.4.5
+
+악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
+
+Previous v0.4.6
 
 악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
 
@@ -322,6 +338,10 @@ Previous v0.4.5
 
 그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
 
+Previous v0.4.6
+
+그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
+
 ## 6 · HYB.PS.001.006
 
 Hebrew display (MT/WLC): כִּֽי־יוֹדֵ֣עַ יְ֭הוָה דֶּ֣רֶךְ צַדִּיקִ֑ים וְדֶ֖רֶךְ רְשָׁעִ֣ים תֹּאבֵֽד׃
@@ -384,6 +404,10 @@ Previous v0.4.5
 
 YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
 
+Previous v0.4.6
+
+YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
+
 ## Notes
 
 תורה는 가르침·지시·율법의 의미 영역을 가집니다. 이 초안은 ‘가르침’을 선택하며 특정 문서 범위를 단정하지 않습니다.
@@ -394,7 +418,7 @@ YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 �
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.4.6. https://yangs777.github.io/hansam-bible/ko/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.4.7. https://yangs777.github.io/hansam-bible/ko/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,12 +1,12 @@
-# Genesis 3:1–10
+# Genesis 3:1–15
 
-Hansam Yang · Original Bible · v0.4.6
+Hansam Yang · Original Bible · v0.4.7
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-The opening ten verses of Genesis 3 have three-language current selections and actual GPT/Gemini comparisons, plus Claude Code review of vv. 1, 4, 5, 6, 8 and 10. Lexical and syntactic alternatives remain in notes; full manuscript collation and human specialist review are pending.
+The first fifteen verses of Genesis 3 have current selections in three languages and actual GPT/Gemini comparisons, plus Claude Code review of vv. 1, 4, 5, 6, 8, 10, 12, 14 and 15. Lexical, syntactic and referential alternatives remain in notes; full manuscript collation and human specialist review are pending.
 
 Basis: MT-WLC display; no independent full critical collation completed
 
@@ -48,6 +48,10 @@ Previous v0.4.5
 
 The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
 
+Previous v0.4.6
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
 ## 2 · HYB.GEN.003.002
 
 Hebrew display (MT/WLC): וַתֹּ֥אמֶר הָֽאִשָּׁ֖ה אֶל־הַנָּחָ֑שׁ מִפְּרִ֥י עֵֽץ־הַגָּ֖ן נֹאכֵֽל׃
@@ -78,6 +82,10 @@ Previous v0.4.5
 
 The woman said to the serpent, “We may eat the fruit of the trees of the garden.
 
+Previous v0.4.6
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
 ## 3 · HYB.GEN.003.003
 
 Hebrew display (MT/WLC): וּמִפְּרִ֣י הָעֵץ֮ אֲשֶׁ֣ר בְּתוֹךְ־הַגָּן֒ אָמַ֣ר אֱלֹהִ֗ים לֹ֤א תֹֽאכְלוּ֙ מִמֶּ֔נּוּ וְלֹ֥א תִגְּע֖וּ בּ֑וֹ פֶּן־תְּמֻתֽוּן׃
@@ -105,6 +113,10 @@ Final opinion (Korean original): 먹지 말라와 만지지 말라를 여자가 
 Counterargument (Korean): 왜 접촉 금지가 앞 장의 기록과 다른지는 확정하지 않는다. 수입 형태분석 1cp 태그는 그대로 남기며, 파라고긱 눈에 필수적인 엄중함을 부여하지 않는다. 한국어 목적절을 앞에 둔 선택은 경고의 강도를 덜 드러낼 수 있으며, 금지 뒤에 경고를 두는 어순도 대안이다.
 
 Previous v0.4.5
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.6
 
 But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
 
@@ -144,6 +156,10 @@ Previous v0.4.5
 
 The serpent said to the woman, “You certainly will not die.
 
+Previous v0.4.6
+
+The serpent said to the woman, “You certainly will not die.
+
 ## 5 · HYB.GEN.003.005
 
 Hebrew display (MT/WLC): כִּ֚י יֹדֵ֣עַ אֱלֹהִ֔ים כִּ֗י בְּיוֹם֙ אֲכָלְכֶ֣ם מִמֶּ֔נּוּ וְנִפְקְח֖וּ עֵֽינֵיכֶ֑ם וִהְיִיתֶם֙ כֵּֽאלֹהִ֔ים יֹדְעֵ֖י ט֥וֹב וָרָֽע׃
@@ -180,6 +196,10 @@ Previous v0.4.5
 
 For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
 
+Previous v0.4.6
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
 ## 6 · HYB.GEN.003.006
 
 Hebrew display (MT/WLC): וַתֵּ֣רֶא הָֽאִשָּׁ֡ה כִּ֣י טוֹב֩ הָעֵ֨ץ לְמַאֲכָ֜ל וְכִ֧י תַֽאֲוָה־ה֣וּא לָעֵינַ֗יִם וְנֶחְמָ֤ד הָעֵץ֙ לְהַשְׂכִּ֔יל וַתִּקַּ֥ח מִפִּרְי֖וֹ וַתֹּאכַ֑ל וַתִּתֵּ֧ן גַּם־לְאִישָׁ֛הּ עִמָּ֖הּ וַיֹּאכַֽל׃
@@ -212,6 +232,10 @@ Final opinion (Korean original): 세 평가와 먹고 주는 행동을 보존하
 
 Counterargument (Korean): 바라보기에라는 시각적 대안도 BDB에 명시되어 있으며 인지 독법만 확정하지 않는다. 세 번째 평가절의 통사 범위도 논의 대상이다. 함께 있었다는 말로 앞선 대화 내내의 동석을 단정하지 않는다.
 
+Previous v0.4.6
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
 ## 7 · HYB.GEN.003.007
 
 Hebrew display (MT/WLC): וַתִּפָּקַ֨חְנָה֙ עֵינֵ֣י שְׁנֵיהֶ֔ם וַיֵּ֣דְע֔וּ כִּ֥י עֵֽירֻמִּ֖ם הֵ֑ם וַֽיִּתְפְּרוּ֙ עֲלֵ֣ה תְאֵנָ֔ה וַיַּעֲשׂ֥וּ לָהֶ֖ם חֲגֹרֹֽת׃
@@ -237,6 +261,10 @@ Then the eyes of both of them were opened, and they knew that they were naked. T
 Final opinion (Korean original): 눈이 열림·벌거벗음의 인식·잎을 꿰맴을 보존하고 חגורות는 BDB의 해당 용례에 따라 허리 가리개를 현재 선택한다. 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
 
 Counterargument (Korean): 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
+
+Previous v0.4.6
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
 
 ## 8 · HYB.GEN.003.008
 
@@ -270,6 +298,10 @@ Final opinion (Korean original): קול은 소리로, מתהלך는 하나님이
 
 Counterargument (Korean): 목소리 및 소리가 움직인다는 구문 대안, 저녁/서늘한 때라는 시간 해석을 남긴다. BDB는 낮의 바람·저녁 바람을 병기한다. breeze/brisa는 현재 역어이며 강도·기온·정오·폭풍·습관을 본문만으로 확정하지 않는다.
 
+Previous v0.4.6
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
 ## 9 · HYB.GEN.003.009
 
 Hebrew display (MT/WLC): וַיִּקְרָ֛א יְהוָ֥ה אֱלֹהִ֖ים אֶל־הָֽאָדָ֑ם וַיֹּ֥אמֶר ל֖וֹ אַיֶּֽכָּה׃
@@ -295,6 +327,10 @@ YHWH God called to the man and said to him, “Where are you?”
 Final opinion (Korean original): 관사 있는 האדם을 그 사람으로, 단수 남성 대상의 질문을 네가 어디 있느냐로 현재 옮긴다. 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
 
 Counterargument (Korean): 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
+
+Previous v0.4.6
+
+YHWH God called to the man and said to him, “Where are you?”
 
 ## 10 · HYB.GEN.003.010
 
@@ -328,6 +364,158 @@ Final opinion (Korean original): 화자의 일인칭 듣기·두려움·벌거�
 
 Counterargument (Korean): 스페인어는 קול 명사를 암시적으로 처리한다. 당신의 음성/your voice/tu voz도 대안이다. 히브리어 무동사절을 현재의 벌거벗음으로 읽는 대안과 영어·스페인어 과거 시제의 문맥상 조응을 구분하며 죄책감·회개·옷의 효과나 시간표를 보충하지 않는다.
 
+Previous v0.4.6
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+## 11 · HYB.GEN.003.011
+
+Hebrew display (MT/WLC): וַיֹּ֕אמֶר מִ֚י הִגִּ֣יד לְךָ֔ כִּ֥י עֵירֹ֖ם אָ֑תָּה הֲמִן־הָעֵ֗ץ אֲשֶׁ֧ר צִוִּיתִ֛יךָ לְבִלְתִּ֥י אֲכָל־מִמֶּ֖נּוּ אָכָֽלְתָּ׃
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.11
+
+### Current best selected translation
+
+벌거벗음의 정보 출처와 금지한 나무에서 먹었는지를 두 질문으로 옮긴다. 부정은 먹지 말라는 명령 내용에 속하며 주절 질문 자체의 부정이 아니다.
+
+#### gemini-3.8-flash-medium
+
+And he said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Final opinion (Korean original): 선택된 3개 언어 번역은 원문의 2인칭 남성 단수 대명사 및 접미사, 그리고 부정 명령의 내용(לְבִלְתִּי אֲכָל)을 문맥에 맞게 정확히 살렸습니다. 이전 응답에서 לְךָ(le-kha)를 '대격(accusative)'으로 표기했던 설명은 중대한 문법적 과오이며, 전치사 lamed가 결합된 '여격(dative/간접목적어)'으로 명확히 정정합니다. 부정 의문 형식(הֲמִן־הָעֵץ... אָכָלְתָּ)은 정황 확인과 추궁의 긴장을 잘 보존하고 있습니다.
+
+#### gpt-6.1-sol
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Final opinion (Korean original): 벌거벗음의 정보 출처와 금지한 나무에서 먹었는지를 두 질문으로 옮긴다. 부정은 먹지 말라는 명령 내용에 속하며 주절 질문 자체의 부정이 아니다. ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
+
+Counterargument (Korean): ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
+
+## 12 · HYB.GEN.003.012
+
+Hebrew display (MT/WLC): וַיֹּ֖אמֶר הָֽאָדָ֑ם הָֽאִשָּׁה֙ אֲשֶׁ֣ר נָתַ֣תָּה עִמָּדִ֔י הִ֛וא נָֽתְנָה־לִּ֥י מִן־הָעֵ֖ץ וָאֹכֵֽל׃
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.12
+
+### Current best selected translation
+
+당신이 주신/그 여자가 주었다의 반복과 강조적 그녀, 내가 먹었다를 보존하고 한국어 연결은 주었고로 다듬었다.
+
+#### claude-opus-5-5
+
+And the man said, “The woman whom you gave to be with me—she gave me from the tree, and I ate.”
+
+Final opinion (Korean original): 미채택 초안으로 제출한다. 그 사람이 하나님이 주신 일과 여자가 준 일을 언급하는 말은 그대로 살리고, 그의 동기는 판정하지 않는다.
+
+#### gemini-3.8-flash-medium
+
+And the man said, “The woman whom you placed with me, she gave to me from the tree, and I ate.”
+
+Final opinion (Korean original): 선택본은 '주셨다(נָתַתָּה)'와 '주었다(נָתְנָה)'의 동사 반복 및 3인칭 여성 단수 강조 대명사 'הִוא(그 여자가 / she / ella)'를 명확히 보존했습니다. 한국어 번역의 '그 나무에서 난 것을'은 히브리어 'מִן־הָעֵץ' 뒤에 생략된 목적어를 우리말 어법에 맞게 보충한 '명시적 생략 보충(disclosed ellipsis expansion)'으로 적절하며, 영어의 'some from the tree' 역시 같은 취지를 잘 살렸습니다. 남자의 진술에 대해 주관적 죄책 회피나 심리적 책임 전가의 동기를 본문 외적으로 단정하지 않고 객관적 진술 형태로 유지한 점이 타당합니다.
+
+#### gpt-6.1-sol
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Final opinion (Korean original): 당신이 주신/그 여자가 주었다의 반복과 강조적 그녀, 내가 먹었다를 보존하고 한국어 연결은 주었고로 다듬었다. 함께 있도록은 עם의 관계를 자연스럽게 푼 선택이며 목적 해석이 포함된다. 나무에서 난 것은 생략된 먹을 것을 푼 편집적 보충이다. 책임 전가·원망은 담화 해석으로 가능하지만 화자의 동기를 번역에 확정하지 않는다.
+
+Counterargument (Korean): 함께 있도록은 עם의 관계를 자연스럽게 푼 선택이며 목적 해석이 포함된다. 나무에서 난 것은 생략된 먹을 것을 푼 편집적 보충이다. 책임 전가·원망은 담화 해석으로 가능하지만 화자의 동기를 번역에 확정하지 않는다.
+
+## 13 · HYB.GEN.003.013
+
+Hebrew display (MT/WLC): וַיֹּ֨אמֶר יְהוָ֧ה אֱלֹהִ֛ים לָאִשָּׁ֖ה מַה־זֹּ֣את עָשִׂ֑ית וַתֹּ֨אמֶר֙ הָֽאִשָּׁ֔ה הַנָּחָ֥שׁ הִשִּׁיאַ֖נִי וָאֹכֵֽל׃
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.13
+
+### Current best selected translation
+
+무엇을 했느냐는 질문과 뱀이 속였다는 여자의 진술 및 내가 먹었다를 화자별로 보존한다.
+
+#### gemini-3.8-flash-medium
+
+And Yahweh God said to the woman, “What is this that you have done?” And the woman said, “The serpent deceived me, and I ate.”
+
+Final opinion (Korean original): 동사 הִשִּׁיאַנִי(Hifil 완료 3인칭 남성 단수)를 '속였다/deceived/engañó'로 명료하게 번역하였고, 여자의 2인칭 여성 단수 형태(עָשִׂית)를 충실히 반영했습니다. 텍스트에 나타나지 않는 사탄이나 초자연적 악마의 명칭을 본문에 삽입하지 않고 '그 뱀(הַנָּחָשׁ)'의 기만 행위로 한정한 처리가 엄밀합니다.
+
+#### gpt-6.1-sol
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Final opinion (Korean original): 무엇을 했느냐는 질문과 뱀이 속였다는 여자의 진술 및 내가 먹었다를 화자별로 보존한다. 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
+
+Counterargument (Korean): 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
+
+## 14 · HYB.GEN.003.014
+
+Hebrew display (MT/WLC): וַיֹּאמֶר֩ יְהֹוָ֨ה אֱלֹהִ֥ים ׀ אֶֽל־הַנָּחָשׁ֮ כִּ֣י עָשִׂ֣יתָ זֹּאת֒ אָר֤וּר אַתָּה֙ מִכָּל־הַבְּהֵמָ֔ה וּמִכֹּ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה עַל־גְּחֹנְךָ֣ תֵלֵ֔ךְ וְעָפָ֥ר תֹּאכַ֖ל כָּל־יְמֵ֥י חַיֶּֽיךָ׃
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.14
+
+### Current best selected translation
+
+מכל의 비교를 현재 선택하여 모든 집짐승과 들짐승보다 더 저주받았다는 선언으로 옮기고, 배로 다님·평생 흙 먹음을 보존한다.
+
+#### claude-opus-5-5
+
+And the LORD God said to the serpent, “Because you have done this, cursed are you from among all the livestock and from among every animal of the field. On your belly you shall go, and dust you shall eat all the days of your life.
+
+Final opinion (Korean original): 미채택 초안으로 제출한다. 저주 선언의 범위는 본문에 나열된 짐승 무리 안에서만 표현했다. 배와 흙에 관한 구절은 직역하고, 몸의 구조에 관한 추론은 배제한다.
+
+#### gemini-3.8-flash-medium
+
+And Yahweh God said to the serpent, “Because you have done this, cursed are you above all livestock and above all beasts of the field; upon your belly you shall go, and dust you shall eat all the days of your life.”
+
+Final opinion (Korean original): 이전 응답에서 히브리어 원문 철자에 한글 '이'가 삽입되었던 오기(`חַיֶּֽ이ךָ` → `חַיֶּֽיךָ`)를 명확히 바로잡습니다. BDB 779에 근거한 수동분사 저주 양식(אָרוּר אַתָּה)을 충실히 반영하였으며, 전치사 מִן(מִכָּל...)에 대해 비교급 해석('~보다 더 / above all / más que')을 채택한 편집적 선택은 타당합니다(구별/분리의 의미인 '~가운데/among' 역시 동등한 번역 대안으로 공존함). 뱀의 다리 상실 등 입증되지 않은 고대 생물 해부학적 추정이나, '흙먼지를 먹는다'는 표현을 순수하게 은유적·상징적 굴욕으로만 제한하는 이분법적 단정을 배제하였습니다. 또한 14~15절은 뱀을 향한 단일한 신적 선고이므로 14절의 인용 부호는 닫지 않고 15절 끝에서 닫는 것이 정확하며, 16절(여자) 및 17~19절(남자)로 청자가 완전히 전환되므로 같은 연설이 19절까지 이어진다고 주장해서는 안 됩니다.
+
+#### gpt-6.1-sol
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Final opinion (Korean original): מכל의 비교를 현재 선택하여 모든 집짐승과 들짐승보다 더 저주받았다는 선언으로 옮기고, 배로 다님·평생 흙 먹음을 보존한다. 가운데서·구별되어라는 범위/분리 독법도 있다. 비교가 다른 모든 동물의 별도 저주를 확증하지 않는다. 이전 다리·해부학 변화나 흙 먹기의 문자적/상징적 의미를 확정하지 않는다. 14–15절을 뱀에게 하는 발화로 묶는다.
+
+Counterargument (Korean): 가운데서·구별되어라는 범위/분리 독법도 있다. 비교가 다른 모든 동물의 별도 저주를 확증하지 않는다. 이전 다리·해부학 변화나 흙 먹기의 문자적/상징적 의미를 확정하지 않는다. 14–15절을 뱀에게 하는 발화로 묶는다.
+
+## 15 · HYB.GEN.003.015
+
+Hebrew display (MT/WLC): וְאֵיבָ֣ה ׀ אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.15
+
+### Current best selected translation
+
+적의와 양쪽 후손을 반복하고 הוא를 앞의 여자의 후손으로 현재 읽는다. 두 שוף는 치다/strike/golpear로 맞춰 어휘 반복과 머리·발꿈치의 대비를 보존한다.
+
+#### claude-opus-5-5
+
+I will put enmity between you and the woman, and between your offspring and her offspring; it shall strike you on the head, and you shall strike it on the heel.
+
+Final opinion (Korean original): 미채택 초안으로 제출한다. 미래 시제, 집합적 후손, 문법적 성 일치, 같은 동사의 대칭이라는 본문 근거를 보존하고, 특정 인물이나 신학 체계는 번역에 들이지 않는다.
+
+#### gemini-3.8-flash-medium
+
+And I will put enmity between you and the woman, and between your offspring and her offspring; he/they shall strike your head, and you shall strike his/their heel.”
+
+Final opinion (Korean original): 뱀을 향한 신적 담화는 본 절(15절) 끝에서 마침 따옴표로 공식 종료됩니다. BDB 7779에 따른 שׁוּף(shuf)는 양 문장에 동일하게 사용되었으며, 현재 번역은 두 문장 모두 동일한 동사('치고/칠 것이다', strike/strike, golpeará/golpearás)로 처리하여 구문적 대칭성을 보존한 편집적 결정을 따랐습니다. 다만 동일 동사라 하여 양측의 부상 수위가 동일해야 한다는 절대적 증거는 없으며, 타격 부위(머리 vs 발꿈치) 및 문맥에 따른 차등적 동사 번역 역시 유효한 대안으로 존중됩니다. 명사 זֶרַע(BDB 2233)는 본문에서 집합적 후손의 용례(section 4)로 쓰였으나 다른 문맥에서 개별 자녀를 가리키기도 하므로, 문법적 남성 단수 대명사 הוּא가 개별 지시 대상을 원천적으로 배제한다고 과장해서는 안 됩니다. 스페인어 번역의 여성형 'Esa descendencia / la'는 스페인어 여성 명사 descendencia와의 문법적 성 일치에 따른 자연스러운 언어적 결과이며, 히브리어 주어가 여성임을 의미하지 않음을 각주에서 명시합니다. 특정 사본 확인 없는 막연한 칠십인역/불가타 통칭 주장을 지양하고, 예수/마리아/사탄의 명시적 본문 삽입 없이 뱀과 여자의 족속 간 지속적인 적대 관계로 서술한 현재 선택본을 확정합니다.
+
+#### gpt-6.1-sol
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Final opinion (Korean original): 적의와 양쪽 후손을 반복하고 הוא를 앞의 여자의 후손으로 현재 읽는다. 두 שוף는 치다/strike/golpear로 맞춰 어휘 반복과 머리·발꿈치의 대비를 보존한다. BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
+
+Counterargument (Korean): BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
+
 ## Notes
 
 Verse 1 selects a rhetorical did God really say question, also listed in BDB. Exclamatory or unfinished-speech alternatives remain open. Not from any tree is selected, with not from every tree retained as a scope alternative. The serpent is not identified by an added theological name.
@@ -348,9 +536,17 @@ Verse 8 selects sound for qol, which can also mean voice, and attaches walking a
 
 Verse 9 selects the man and singular you; Adam remains a naming alternative, without a universal rule from the article alone. Verse 10 is his first-person answer. Sound/voice alternatives remain; Spanish Te oí leaves the noun sound implicit. Present nakedness and English/Spanish past-tense backshift are rendering choices; guilt, repentance, clothing effectiveness and a fixed chronology are not added.
 
+In v. 11 the negation belongs to the command not to eat, not to the main question. The supplied 1cp tag for ממנו is preserved while context selects from the tree. Verse 12 retains gave/gave and the resumed she; Korean makes the omitted edible item explicit. Motives such as blame are interpretive possibilities, not added speech. Verse 13 retains her deception statement without adding Satan, coercion or acquittal.
+
+Verse 14 selects comparison above all animals, retaining among/separation alternatives. This does not establish a separate curse on every other animal, earlier legs or anatomical change. Belly movement and eating dust remain in the text, without exclusive symbolic or biological claims. The serpent-directed quotation spans vv. 14–15 and closes at v. 15.
+
+In v. 15 zera is grammatically masculine singular; BDB lists the animal and woman offspring here as collective. Hu currently refers to her offspring, without grammar alone settling or excluding an individual referent. Spanish feminine descendencia/la is target-language agreement, not a Hebrew feminine subject. Both shuf forms are rendered strike; bruise and stronger/context-dependent verbs remain alternatives. Lexical repetition does not establish equal injury or a final outcome.
+
+No specific Septuagint or Vulgate edition or manuscript was collated for this batch; model generalizations are not adopted as witness evidence. Jesus, Mary and Satan are not added to the text. Later individual interpretations can be discussed separately from linguistic selection. Raw model quotation errors and overstatements remain distinct from the pinned source and editorial evidence. The main question in v. 11 is not negative; the negation is inside the command. Modern quotation boundaries are editorial. Individual reference can also be discussed linguistically.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–10 (en), research pilot v0.4.6. https://yangs777.github.io/hansam-bible/en/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–15 (en), research pilot v0.4.7. https://yangs777.github.io/hansam-bible/en/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
