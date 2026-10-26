@@ -1,0 +1,2457 @@
+{
+ "run_id": "20261026T031820Z-269db8ba",
+ "provider": "Claude Code native cloud",
+ "model_identity": {
+  "requested_or_configured_model": "claude-sonnet-5-5",
+  "identity_basis": "Session system prompt states the model is Sonnet 5.5, model ID claude-sonnet-5-5; no API/session endpoint was queried to verify. A model self-report is not source evidence.",
+  "session": "https://claude.ai/code/session_01C8mJX8V5wHhgi2U7aPF51T",
+  "unavailable": [
+   "dated model snapshot identifier",
+   "per-request token counts",
+   "cost or credit consumption counters",
+   "sampling parameters"
+  ]
+ },
+ "executed_at_utc": "2026-10-26T03:20:53.214812+00:00",
+ "state": "unadopted_model_draft",
+ "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+ "input": {
+  "source_packet": "automation/cloud-packets/20261026T031820Z-269db8ba.json",
+  "source_packet_sha256": "9fa157f00820595e01a2afd6262f734308a013c6a19f7712f9fcf1ae8d2c62b8",
+  "verse_count": 100,
+  "first_id": "Gen.35.13",
+  "last_id": "Gen.38.11",
+  "skipped_in_range": "IDs absent from the claimed packet inside the first_id–last_id span (e.g. Gen.35.21-22, 36.5, 36.13-14, 37.12, 38.9) were not drafted"
+ },
+ "response": {
+  "verses": [
+   {
+    "id": "Gen.35.13",
+    "translations": {
+     "ko": "하나님께서 그와 말씀하시던 그곳에서 그에게서 올라가셨다.",
+     "en": "God went up from him in the place where he had spoken with him.",
+     "es": "Dios subió de su lado, en el lugar donde había hablado con él."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.13",
+    "source_hebrew": "וַיַּ֥עַל מֵעָלָ֖יו אֱלֹהִ֑ים בַּמָּק֖וֹם אֲשֶׁר־דִּבֶּ֥ר אִתּֽוֹ׃",
+    "source_hebrew_sha256": "797aee5eb114e70c82baf2f360d30e8a1c321f392936a5d1e4905ffde8605228",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.14",
+    "translations": {
+     "ko": "야곱이 하나님께서 자기와 말씀하신 그곳에 기둥, 곧 돌 기둥을 세우고, 그 위에 부어 드리는 제물을 붓고 기름을 부었다.",
+     "en": "Jacob set up a pillar in the place where he had spoken with him, a pillar of stone; he poured out a drink offering on it and poured oil on it.",
+     "es": "Jacob erigió una estela en el lugar donde Dios había hablado con él, una estela de piedra; derramó sobre ella una libación y derramó aceite sobre ella."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "נֶסֶךְ(부어 드리는 제물)와 שֶׁמֶן(기름)을 구분하여 옮김.",
+    "counterargument_ko": "기름 부음을 \"성별\"의 뜻으로 풀어 옮길 수 있으나 본문은 단순히 부었다고 함.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.14",
+    "source_hebrew": "וַיַּצֵּ֨ב יַעֲקֹ֜ב מַצֵּבָ֗ה בַּמָּק֛וֹם אֲשֶׁר־דִּבֶּ֥ר אִתּ֖וֹ מַצֶּ֣בֶת אָ֑בֶן וַיַּסֵּ֤ךְ עָלֶ֨יהָ֙ נֶ֔סֶךְ וַיִּצֹ֥ק עָלֶ֖יהָ שָֽׁמֶן׃",
+    "source_hebrew_sha256": "b7ff14b6b6a4aaa632730ad0f3ae1eead3fdf4d77985e38e0a0c7cddc250f8f1",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.15",
+    "translations": {
+     "ko": "야곱은 하나님께서 자기와 말씀하신 그곳의 이름을 벧엘이라 불렀다.",
+     "en": "Jacob called the name of the place where God had spoken with him Bethel.",
+     "es": "Jacob llamó Betel al lugar donde Dios había hablado con él."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.15",
+    "source_hebrew": "וַיִּקְרָ֨א יַעֲקֹ֜ב אֶת־שֵׁ֣ם הַמָּק֗וֹם אֲשֶׁר֩ דִּבֶּ֨ר אִתּ֥וֹ שָׁ֛ם אֱלֹהִ֖ים בֵּֽית־אֵֽל׃",
+    "source_hebrew_sha256": "839b80d304c5cf037b8709e9889d59e866e4771bc0e691974d4a06af72cc767a",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.16",
+    "translations": {
+     "ko": "그들이 벧엘에서 길을 떠났는데, 에브랏에 이르기까지 아직 얼마간의 거리가 남아 있을 때 라헬이 해산하였고 산통이 심하였다.",
+     "en": "They set out from Bethel, and when there was still some distance to go to Ephrath, Rachel gave birth, and her labor was hard.",
+     "es": "Partieron de Betel, y cuando todavía faltaba cierta distancia para llegar a Efrata, Raquel dio a luz, y tuvo un parto difícil."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "כִּבְרַת־הָאָרֶץ는 정확한 거리 단위가 불확실하여 \"얼마간의 거리\"로 옮김.",
+    "counterargument_ko": "구체적 거리 단위(고정 길이)로 옮기는 견해가 있으나 확실하지 않음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.16",
+    "source_hebrew": "וַיִּסְעוּ֙ מִבֵּ֣ית אֵ֔ל וַֽיְהִי־ע֥וֹד כִּבְרַת־הָאָ֖רֶץ לָב֣וֹא אֶפְרָ֑תָה וַתֵּ֥לֶד רָחֵ֖ל וַתְּקַ֥שׁ בְּלִדְתָּֽהּ׃",
+    "source_hebrew_sha256": "8ea0ec5b3327159d5a93ea4cdf0fb4a01bb11746663d257891fb9e92d2a6c3f8",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.17",
+    "translations": {
+     "ko": "그가 진통으로 몹시 힘들 때 산파가 그에게 말하였다. “두려워하지 마십시오. 이번에도 당신에게 아들이 있습니다.”",
+     "en": "As she struggled in giving birth, the midwife said to her, “Do not be afraid, for this one also is a son for you.”",
+     "es": "Mientras ella sufría en el parto, la partera le dijo: «No temas, porque también este es un hijo para ti»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.17",
+    "source_hebrew": "וַיְהִ֥י בְהַקְשֹׁתָ֖הּ בְּלִדְתָּ֑הּ וַתֹּ֨אמֶר לָ֤הּ הַמְיַלֶּ֨דֶת֙ אַל־תִּ֣ירְאִ֔י כִּֽי־גַם־זֶ֥ה לָ֖ךְ בֵּֽן׃",
+    "source_hebrew_sha256": "dd10350dbdd9251ac1d15768c00fde41c2e4936aac98510618c4d614120431b0",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.18",
+    "translations": {
+     "ko": "그의 목숨이 떠나갈 때, 곧 죽어 갈 때에 그가 아들의 이름을 벤오니라 불렀으나, 그의 아버지는 그를 베냐민이라 불렀다.",
+     "en": "As her life was departing—for she was dying—she called his name Ben-oni, but his father called him Benjamin.",
+     "es": "Cuando su vida se le iba —pues estaba muriendo— ella llamó su nombre Ben-oni, pero su padre lo llamó Benjamín."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "בֶּן־אוֹנִי는 \"내 슬픔의 아들\"로 풀 수 있으나 이름으로 음역하고 뜻은 옮기지 않음.",
+    "counterargument_ko": "\"내 힘의 아들\"로도 읽을 수 있는 어휘적 다의성이 있음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.18",
+    "source_hebrew": "וַיְהִ֞י בְּצֵ֤את נַפְשָׁהּ֙ כִּ֣י מֵ֔תָה וַתִּקְרָ֥א שְׁמ֖וֹ בֶּן־אוֹנִ֑י וְאָבִ֖יו קָֽרָא־ל֥וֹ בִנְיָמִֽין׃",
+    "source_hebrew_sha256": "ea311eb17b4e2262ae2a35de3b513223eba3f5e62769da175987181c8a87473b",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.19",
+    "translations": {
+     "ko": "라헬이 죽어 에브랏 길가, 곧 베들레헴에 묻혔다.",
+     "en": "Rachel died and was buried on the road to Ephrath, that is, Bethlehem.",
+     "es": "Raquel murió y fue sepultada en el camino a Efrata, que es Belén."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.19",
+    "source_hebrew": "וַתָּ֖מָת רָחֵ֑ל וַתִּקָּבֵר֙ בְּדֶ֣רֶךְ אֶפְרָ֔תָה הִ֖וא בֵּ֥ית לָֽחֶם׃",
+    "source_hebrew_sha256": "b62c8e1e660c889b89bce9c53c6656e8805cffe24c60b1516d5bdb2c4cca6f87",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.20",
+    "translations": {
+     "ko": "야곱이 그의 무덤 위에 기둥을 세웠으니, 그것이 라헬 무덤의 기둥으로 오늘까지 있다.",
+     "en": "Jacob set up a pillar over her grave; it is the pillar of Rachel's grave to this day.",
+     "es": "Jacob erigió una estela sobre su sepulcro; es la estela del sepulcro de Raquel hasta el día de hoy."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.20",
+    "source_hebrew": "וַיַּצֵּ֧ב יַעֲקֹ֛ב מַצֵּבָ֖ה עַל־קְבֻרָתָ֑הּ הִ֛וא מַצֶּ֥בֶת קְבֻֽרַת־רָחֵ֖ל עַד־הַיּֽוֹם׃",
+    "source_hebrew_sha256": "0bd56934a241c49630ccfa9a6f5b9acc105557d5bc688235da88a88c73577d25",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.23",
+    "translations": {
+     "ko": "레아의 아들들은 야곱의 맏아들 르우벤, 그리고 시므온, 레위, 유다, 잇사갈, 스불론이다.",
+     "en": "The sons of Leah: Reuben, Jacob's firstborn, and Simeon, Levi, Judah, Issachar, and Zebulun.",
+     "es": "Hijos de Lea: Rubén, primogénito de Jacob, y Simeón, Leví, Judá, Isacar y Zabulón."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.23",
+    "source_hebrew": "בְּנֵ֣י לֵאָ֔ה בְּכ֥וֹר יַעֲקֹ֖ב רְאוּבֵ֑ן וְשִׁמְעוֹן֙ וְלֵוִ֣י וִֽיהוּדָ֔ה וְיִשָּׂשכָ֖ר וּזְבוּלֻֽן׃",
+    "source_hebrew_sha256": "2f8b8ededd088c9e646e5df445608bf4669f85f637d8677f2cfd179d32694875",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.24",
+    "translations": {
+     "ko": "라헬의 아들들은 요셉과 베냐민이다.",
+     "en": "The sons of Rachel: Joseph and Benjamin.",
+     "es": "Hijos de Raquel: José y Benjamín."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.24",
+    "source_hebrew": "בְּנֵ֣י רָחֵ֔ל יוֹסֵ֖ף וּבִנְיָמִֽן׃",
+    "source_hebrew_sha256": "6aa0a8673b0f753290de9072f61c14452d870c10e104634783f43c8d86e53ce0",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.25",
+    "translations": {
+     "ko": "라헬의 여종 빌하의 아들들은 단과 납달리이다.",
+     "en": "The sons of Bilhah, Rachel's maidservant: Dan and Naphtali.",
+     "es": "Hijos de Bilhá, sierva de Raquel: Dan y Neftalí."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.25",
+    "source_hebrew": "וּבְנֵ֤י בִלְהָה֙ שִׁפְחַ֣ת רָחֵ֔ל דָּ֖ן וְנַפְתָּלִֽי׃",
+    "source_hebrew_sha256": "d427422333e979eb0f227d84f4fcebfba25f1678affce0ca34eb2c8faf499405",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.26",
+    "translations": {
+     "ko": "레아의 여종 실바의 아들들은 갓과 아셀이다. 이들은 야곱의 아들들로, 밧단아람에서 그에게 태어난 이들이다.",
+     "en": "The sons of Zilpah, Leah's maidservant: Gad and Asher. These are the sons of Jacob who were born to him in Paddan-aram.",
+     "es": "Hijos de Zilpa, sierva de Lea: Gad y Aser. Estos son los hijos de Jacob que le nacieron en Padán-aram."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.26",
+    "source_hebrew": "וּבְנֵ֥י זִלְפָּ֛ה שִׁפְחַ֥ת לֵאָ֖ה גָּ֣ד וְאָשֵׁ֑ר אֵ֚לֶּה בְּנֵ֣י יַעֲקֹ֔ב אֲשֶׁ֥ר יֻלַּד־ל֖וֹ בְּפַדַּ֥ן אֲרָֽם׃",
+    "source_hebrew_sha256": "1990d123304a512ea59062b8449289efefddd36b81e753fb2fcc45b3082c1a1d",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.27",
+    "translations": {
+     "ko": "야곱이 기럇아르바, 곧 아브라함과 이삭이 나그네로 살던 헤브론의 마므레에 있는 자기 아버지 이삭에게 이르렀다.",
+     "en": "Jacob came to Isaac his father at Mamre, Kiriath-arba, that is Hebron, where Abraham and Isaac had lived as sojourners.",
+     "es": "Jacob llegó a Mamre, donde estaba su padre Isaac, en Quiriat-arba, que es Hebrón, donde habían residido como forasteros Abraham e Isaac."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.27",
+    "source_hebrew": "וַיָּבֹ֤א יַעֲקֹב֙ אֶל־יִצְחָ֣ק אָבִ֔יו מַמְרֵ֖א קִרְיַ֣ת הָֽאַרְבַּ֑ע הִ֣וא חֶבְר֔וֹן אֲשֶׁר־גָּֽר־שָׁ֥ם אַבְרָהָ֖ם וְיִצְחָֽק׃",
+    "source_hebrew_sha256": "501d51f8bbb641f4d1fef35a5c2dddb8bc1af2a2cc186481a57e01bae20645a3",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.28",
+    "translations": {
+     "ko": "이삭의 날수는 백팔십 년이었다.",
+     "en": "The days of Isaac were one hundred and eighty years.",
+     "es": "Los días de Isaac fueron ciento ochenta años."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.28",
+    "source_hebrew": "וַיִּֽהְי֖וּ יְמֵ֣י יִצְחָ֑ק מְאַ֥ת שָׁנָ֖ה וּשְׁמֹנִ֥ים שָׁנָֽה׃",
+    "source_hebrew_sha256": "1ea7bd4c4b5597eb152ff06fb1cbb6651018873ed1963960f05ea5d23af84d27",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.35.29",
+    "translations": {
+     "ko": "이삭은 숨을 거두고 죽어 늙고 나이가 차서 자기 백성에게로 모아졌고, 그의 아들 에서와 야곱이 그를 장사하였다.",
+     "en": "Isaac breathed his last and died and was gathered to his people, old and full of days; and Esau and Jacob his sons buried him.",
+     "es": "Isaac expiró y murió, y fue reunido con su pueblo, anciano y lleno de días; y Esaú y Jacob, sus hijos, lo sepultaron."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.35.29",
+    "source_hebrew": "וַיִּגְוַ֨ע יִצְחָ֤ק וַיָּ֨מָת֙ וַיֵּאָ֣סֶף אֶל־עַמָּ֔יו זָקֵ֖ן וּשְׂבַ֣ע יָמִ֑ים וַיִּקְבְּר֣וּ אֹת֔וֹ עֵשָׂ֥ו וְיַעֲקֹ֖ב בָּנָֽיו׃",
+    "source_hebrew_sha256": "23ce50ac18010cd1da64464c1c02bc31c42a121bc13979a6d242a264ceba23b5",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.1",
+    "translations": {
+     "ko": "이것은 에돔이라고도 하는 에서의 계보이다.",
+     "en": "These are the generations of Esau, that is, Edom.",
+     "es": "Estas son las generaciones de Esaú, es decir, Edom."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.1",
+    "source_hebrew": "וְאֵ֛לֶּה תֹּלְד֥וֹת עֵשָׂ֖ו ה֥וּא אֱדֽוֹם׃",
+    "source_hebrew_sha256": "962b7ffc67c20d6991e51f868ae47ac586eccae9323c7ceb7defb3f29e174e92",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.2",
+    "translations": {
+     "ko": "에서는 가나안 여자들 중에서 아내들을 맞이하였으니, 헷 사람 엘론의 딸 아다와, 히위 사람 시브온의 딸인 아나의 딸 오홀리바마이다.",
+     "en": "Esau took his wives from the daughters of Canaan: Adah the daughter of Elon the Hittite, and Oholibamah the daughter of Anah, daughter of Zibeon the Hivite,",
+     "es": "Esaú tomó sus mujeres de entre las hijas de Canaán: Ada, hija de Elón el hitita, y Aholibama, hija de Aná, hija de Zibeón el heveo,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.2",
+    "source_hebrew": "עֵשָׂ֛ו לָקַ֥ח אֶת־נָשָׁ֖יו מִבְּנ֣וֹת כְּנָ֑עַן אֶת־עָדָ֗ה בַּת־אֵילוֹן֙ הַֽחִתִּ֔י וְאֶת־אָהֳלִֽיבָמָה֙ בַּת־עֲנָ֔ה בַּת־צִבְע֖וֹן הַֽחִוִּֽי׃",
+    "source_hebrew_sha256": "165d10d8205708ca2a2a36f842b9dc14d40df496558bcb9ce717901ba24fa7d5",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.3",
+    "translations": {
+     "ko": "또 이스마엘의 딸, 느바욧의 누이 바스맛이다.",
+     "en": "and Basemath, daughter of Ishmael, sister of Nebaioth.",
+     "es": "y Basemat, hija de Ismael, hermana de Nebayot."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.3",
+    "source_hebrew": "וְאֶת־בָּשְׂמַ֥ת בַּת־יִשְׁמָעֵ֖אל אֲח֥וֹת נְבָיֽוֹת׃",
+    "source_hebrew_sha256": "2837b6fdc340c8febb3c547a5c4240b9cced1c282c641cd3e5dd8db04be78f83",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.4",
+    "translations": {
+     "ko": "아다는 에서에게 엘리바스를 낳았고, 바스맛은 르우엘을 낳았다.",
+     "en": "Adah bore Eliphaz to Esau, and Basemath bore Reuel.",
+     "es": "Ada dio a luz a Elifaz para Esaú, y Basemat dio a luz a Reuel."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.4",
+    "source_hebrew": "וַתֵּ֧לֶד עָדָ֛ה לְעֵשָׂ֖ו אֶת־אֱלִיפָ֑ז וּבָ֣שְׂמַ֔ת יָלְדָ֖ה אֶת־רְעוּאֵֽל׃",
+    "source_hebrew_sha256": "7c95c2a92d581d166decf652fa9cce4aab961ca606911f2fd818ea9a20890dbd",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.6",
+    "translations": {
+     "ko": "에서는 자기 아내들과 아들들과 딸들과 자기 집의 모든 사람과 가축 떼와 모든 짐승과, 가나안 땅에서 얻은 모든 재산을 데리고, 자기 동생 야곱 앞을 떠나 다른 땅으로 갔다.",
+     "en": "Esau took his wives, his sons, his daughters, and all the persons of his household, his livestock, all his animals, and all his property that he had acquired in the land of Canaan, and went to a land away from Jacob his brother.",
+     "es": "Esaú tomó a sus mujeres, a sus hijos, a sus hijas y a todas las personas de su casa, su ganado, todos sus animales y todos los bienes que había adquirido en la tierra de Canaán, y se fue a otra tierra, lejos de Jacob su hermano."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.6",
+    "source_hebrew": "וַיִּקַּ֣ח עֵשָׂ֡ו אֶת־נָ֠שָׁיו וְאֶת־בָּנָ֣יו וְאֶת־בְּנֹתָיו֮ וְאֶת־כָּל־נַפְשׁ֣וֹת בֵּיתוֹ֒ וְאֶת־מִקְנֵ֣הוּ וְאֶת־כָּל־בְּהֶמְתּ֗וֹ וְאֵת֙ כָּל־קִנְיָנ֔וֹ אֲשֶׁ֥ר רָכַ֖שׁ בְּאֶ֣רֶץ כְּנָ֑עַן וַיֵּ֣לֶךְ אֶל־אֶ֔רֶץ מִפְּנֵ֖י יַעֲקֹ֥ב אָחִֽיו׃",
+    "source_hebrew_sha256": "20b333458be5efe5d6d3e887ac600eb541ace2668989faa3645a51f2c77a2ea2",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.7",
+    "translations": {
+     "ko": "그들의 재산이 너무 많아 함께 살 수 없었고, 그들이 머물던 땅이 그들의 가축 떼 때문에 그들을 감당할 수 없었기 때문이다.",
+     "en": "For their possessions were too great for them to dwell together, and the land of their sojournings could not support them because of their livestock.",
+     "es": "Porque sus posesiones eran demasiado grandes para habitar juntos, y la tierra donde residían como forasteros no podía sostenerlos a causa de sus ganados."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.7",
+    "source_hebrew": "כִּֽי־הָיָ֧ה רְכוּשָׁ֛ם רָ֖ב מִשֶּׁ֣בֶת יַחְדָּ֑ו וְלֹ֨א יָֽכְלָ֜ה אֶ֤רֶץ מְגֽוּרֵיהֶם֙ לָשֵׂ֣את אֹתָ֔ם מִפְּנֵ֖י מִקְנֵיהֶֽם׃",
+    "source_hebrew_sha256": "2146dd59ffa775b8131948ec81d055ea99739e5b7695dbcb23aca47b3ce882b7",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.8",
+    "translations": {
+     "ko": "에서는 세일 산에 거주하였다. 에서가 곧 에돔이다.",
+     "en": "So Esau settled in the hill country of Seir. Esau is Edom.",
+     "es": "Esaú se estableció en la región montañosa de Seir. Esaú es Edom."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.8",
+    "source_hebrew": "וַיֵּ֤שֶׁב עֵשָׂו֙ בְּהַ֣ר שֵׂעִ֔יר עֵשָׂ֖ו ה֥וּא אֱדֽוֹם׃",
+    "source_hebrew_sha256": "ac9d9bb493b355647739e4c39ce0d9281b1f23d4401abbe0f3c6c51b63ea1b52",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.9",
+    "translations": {
+     "ko": "이것은 세일 산에 있는 에돔의 조상 에서의 계보이다.",
+     "en": "These are the generations of Esau, father of the Edomites, in the hill country of Seir.",
+     "es": "Estas son las generaciones de Esaú, padre de Edom, en la región montañosa de Seir."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.9",
+    "source_hebrew": "וְאֵ֛לֶּה תֹּלְד֥וֹת עֵשָׂ֖ו אֲבִ֣י אֱד֑וֹם בְּהַ֖ר שֵׂעִֽיר׃",
+    "source_hebrew_sha256": "f148de097d1acc6807784deb75e8090e872da037aa2236b72665ab7c6c5e0567",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.10",
+    "translations": {
+     "ko": "이들은 에서의 아들들의 이름이다. 에서의 아내 아다의 아들 엘리바스, 에서의 아내 바스맛의 아들 르우엘이다.",
+     "en": "These are the names of the sons of Esau: Eliphaz the son of Adah, wife of Esau; Reuel the son of Basemath, wife of Esau.",
+     "es": "Estos son los nombres de los hijos de Esaú: Elifaz, hijo de Ada, mujer de Esaú; Reuel, hijo de Basemat, mujer de Esaú."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.10",
+    "source_hebrew": "אֵ֖לֶּה שְׁמ֣וֹת בְּנֵֽי־עֵשָׂ֑ו אֱלִיפַ֗ז בֶּן־עָדָה֙ אֵ֣שֶׁת עֵשָׂ֔ו רְעוּאֵ֕ל בֶּן־בָּשְׂמַ֖ת אֵ֥שֶׁת עֵשָֽׂו׃",
+    "source_hebrew_sha256": "f534cc03486123b40ba1ead14aded7dd0fc5d713d84a63bcddf402bccb32b376",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.11",
+    "translations": {
+     "ko": "엘리바스의 아들들은 데만, 오말, 스보, 가담, 그나스이다.",
+     "en": "The sons of Eliphaz were Teman, Omar, Zepho, Gatam, and Kenaz.",
+     "es": "Los hijos de Elifaz fueron Temán, Omar, Zefo, Gatam y Quenaz."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.11",
+    "source_hebrew": "וַיִּהְי֖וּ בְּנֵ֣י אֱלִיפָ֑ז תֵּימָ֣ן אוֹמָ֔ר צְפ֥וֹ וְגַעְתָּ֖ם וּקְנַֽז׃",
+    "source_hebrew_sha256": "c0a2278c265cfd47b431b29819ef2459fccfb845251b277c4e95193187c9ea32",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.12",
+    "translations": {
+     "ko": "딤나는 에서의 아들 엘리바스의 첩이었는데, 엘리바스에게 아말렉을 낳아 주었다. 이들은 에서의 아내 아다의 자손이다.",
+     "en": "Timna was a concubine of Eliphaz the son of Esau; she bore Amalek to Eliphaz. These are the sons of Adah, wife of Esau.",
+     "es": "Timna era concubina de Elifaz, hijo de Esaú, y le dio a luz a Amalec. Estos son los hijos de Ada, mujer de Esaú."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.12",
+    "source_hebrew": "וְתִמְנַ֣ע ׀ הָיְתָ֣ה פִילֶ֗גֶשׁ לֶֽאֱלִיפַז֙ בֶּן־עֵשָׂ֔ו וַתֵּ֥לֶד לֶאֱלִיפַ֖ז אֶת־עֲמָלֵ֑ק אֵ֕לֶּה בְּנֵ֥י עָדָ֖ה אֵ֥שֶׁת עֵשָֽׂו׃",
+    "source_hebrew_sha256": "fcc00d94ead046be351add2d342b98d261aabf40bbab1af02e3fcd3d6d610326",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.15",
+    "translations": {
+     "ko": "에서의 자손 중 족장들은 이러하다. 에서의 맏아들 엘리바스의 자손으로는 데만 족장, 오말 족장, 스보 족장, 그나스 족장,",
+     "en": "These are the chiefs of the sons of Esau. The sons of Eliphaz, the firstborn of Esau: the chiefs Teman, Omar, Zepho, Kenaz,",
+     "es": "Estos son los jefes de los hijos de Esaú. Hijos de Elifaz, primogénito de Esaú: el jefe Temán, el jefe Omar, el jefe Zefo, el jefe Quenaz,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.15",
+    "source_hebrew": "אֵ֖לֶּה אַלּוּפֵ֣י בְנֵֽי־עֵשָׂ֑ו בְּנֵ֤י אֱלִיפַז֙ בְּכ֣וֹר עֵשָׂ֔ו אַלּ֤וּף תֵּימָן֙ אַלּ֣וּף אוֹמָ֔ר אַלּ֥וּף צְפ֖וֹ אַלּ֥וּף קְנַֽז׃",
+    "source_hebrew_sha256": "0e40be83dcd057e81262b01d1facf783ffb77973f3e7f3d74a8d9f6783052022",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.16",
+    "translations": {
+     "ko": "고라 족장, 가담 족장, 아말렉 족장이다. 이들은 에돔 땅에서 엘리바스에게서 나온 족장들이며, 아다의 자손이다.",
+     "en": "chief Korah, chief Gatam, chief Amalek. These are the chiefs of Eliphaz in the land of Edom; these are the sons of Adah.",
+     "es": "el jefe Coré, el jefe Gatam, el jefe Amalec. Estos son los jefes de Elifaz en la tierra de Edom; estos son los hijos de Ada."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.16",
+    "source_hebrew": "אַלּֽוּף־קֹ֛רַח אַלּ֥וּף גַּעְתָּ֖ם אַלּ֣וּף עֲמָלֵ֑ק אֵ֣לֶּה אַלּוּפֵ֤י אֱלִיפַז֙ בְּאֶ֣רֶץ אֱד֔וֹם אֵ֖לֶּה בְּנֵ֥י עָדָֽה׃",
+    "source_hebrew_sha256": "9fdc1bcbdab88967f768fb5b6a1df62d3a9e6d6d547d6082f47ba103887f16bf",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.17",
+    "translations": {
+     "ko": "에서의 아들 르우엘의 자손은 나핫 족장, 세라 족장, 삼마 족장, 미사 족장이다. 이들은 에돔 땅에서 르우엘에게서 나온 족장들이며, 에서의 아내 바스맛의 자손이다.",
+     "en": "These are the sons of Reuel, Esau's son: the chiefs Nahath, Zerah, Shammah, Mizzah. These are the chiefs of Reuel in the land of Edom; these are the sons of Basemath, wife of Esau.",
+     "es": "Estos son los hijos de Reuel, hijo de Esaú: el jefe Nahat, el jefe Zera, el jefe Sama, el jefe Miza. Estos son los jefes de Reuel en la tierra de Edom; estos son los hijos de Basemat, mujer de Esaú."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.17",
+    "source_hebrew": "וְאֵ֗לֶּה בְּנֵ֤י רְעוּאֵל֙ בֶּן־עֵשָׂ֔ו אַלּ֥וּף נַ֨חַת֙ אַלּ֣וּף זֶ֔רַח אַלּ֥וּף שַׁמָּ֖ה אַלּ֣וּף מִזָּ֑ה אֵ֣לֶּה אַלּוּפֵ֤י רְעוּאֵל֙ בְּאֶ֣רֶץ אֱד֔וֹם אֵ֕לֶּה בְּנֵ֥י בָשְׂמַ֖ת אֵ֥שֶׁת עֵשָֽׂו׃",
+    "source_hebrew_sha256": "f83ee728653083c19aecf20ed4efeb6b6ca2ca7e44de3d7fc7ab7a1716ee2034",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.18",
+    "translations": {
+     "ko": "에서의 아내 오홀리바마의 자손은 여우스 족장, 얄람 족장, 고라 족장이다. 이들은 아나의 딸이며 에서의 아내인 오홀리바마에게서 나온 족장들이다.",
+     "en": "These are the sons of Oholibamah, wife of Esau: the chiefs Jeush, Jalam, Korah. These are the chiefs born of Oholibamah the daughter of Anah, wife of Esau.",
+     "es": "Estos son los hijos de Aholibama, mujer de Esaú: el jefe Jeús, el jefe Jalam, el jefe Coré. Estos son los jefes de Aholibama, hija de Aná, mujer de Esaú."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.18",
+    "source_hebrew": "וְאֵ֗לֶּה בְּנֵ֤י אָהֳלִֽיבָמָה֙ אֵ֣שֶׁת עֵשָׂ֔ו אַלּ֥וּף יְע֛וּשׁ אַלּ֥וּף יַעְלָ֖ם אַלּ֣וּף קֹ֑רַח אֵ֣לֶּה אַלּוּפֵ֞י אָֽהֳלִיבָמָ֛ה בַּת־עֲנָ֖ה אֵ֥שֶׁת עֵשָֽׂו׃",
+    "source_hebrew_sha256": "e323e7d96466496115c7ac0f2f0fece623f33c52a3c51dc2a6e3ab5b3c4169ec",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.19",
+    "translations": {
+     "ko": "이들이 에서의 자손이며, 이들이 그들의 족장들이다. 에서가 곧 에돔이다.",
+     "en": "These are the sons of Esau (that is, Edom), and these are their chiefs.",
+     "es": "Estos son los hijos de Esaú, es decir, Edom, y estos son sus jefes."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.19",
+    "source_hebrew": "אֵ֧לֶּה בְנֵי־עֵשָׂ֛ו וְאֵ֥לֶּה אַלּוּפֵיהֶ֖ם ה֥וּא אֱדֽוֹם׃",
+    "source_hebrew_sha256": "72114213014bd2b35f138195b407fc226343f6c32a3957d4718505165ede5185",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.20",
+    "translations": {
+     "ko": "이들은 그 땅에 살던 호리 사람 세일의 아들들로, 로단, 소발, 시브온, 아나,",
+     "en": "These are the sons of Seir the Horite, the inhabitants of the land: Lotan, Shobal, Zibeon, Anah,",
+     "es": "Estos son los hijos de Seir el horeo, habitantes de la tierra: Lotán, Sobal, Zibeón, Aná,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.20",
+    "source_hebrew": "אֵ֤לֶּה בְנֵֽי־שֵׂעִיר֙ הַחֹרִ֔י יֹשְׁבֵ֖י הָאָ֑רֶץ לוֹטָ֥ן וְשׁוֹבָ֖ל וְצִבְע֥וֹן וַעֲנָֽה׃",
+    "source_hebrew_sha256": "5716cedeca785c08c55bcdb2d26c812284a8e9493ad486fa6c81d8cbd8a7f360",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.21",
+    "translations": {
+     "ko": "디손, 에셀, 디산이다. 이들은 에돔 땅에 있는 세일의 아들들인 호리 사람의 족장들이다.",
+     "en": "Dishon, Ezer, and Dishan. These are the chiefs of the Horites, the sons of Seir in the land of Edom.",
+     "es": "Disón, Ezer y Disán. Estos son los jefes de los horeos, hijos de Seir, en la tierra de Edom."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.21",
+    "source_hebrew": "וְדִשׁ֥וֹן וְאֵ֖צֶר וְדִישָׁ֑ן אֵ֣לֶּה אַלּוּפֵ֧י הַחֹרִ֛י בְּנֵ֥י שֵׂעִ֖יר בְּאֶ֥רֶץ אֱדֽוֹם׃",
+    "source_hebrew_sha256": "76d01c159db69471104985476c74ab1679273048bf6958ac3c24b09139ab2e07",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.22",
+    "translations": {
+     "ko": "로단의 아들들은 호리와 헤맘이며, 로단의 누이는 딤나이다.",
+     "en": "The sons of Lotan were Hori and Hemam, and Lotan's sister was Timna.",
+     "es": "Los hijos de Lotán fueron Hori y Hemam; y la hermana de Lotán fue Timna."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.22",
+    "source_hebrew": "וַיִּהְי֥וּ בְנֵי־לוֹטָ֖ן חֹרִ֣י וְהֵימָ֑ם וַאֲח֥וֹת לוֹטָ֖ן תִּמְנָֽע׃",
+    "source_hebrew_sha256": "3418c5721a886d80dcde0f3cf642d346febdddb17a890f5827a66193bb883dca",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.23",
+    "translations": {
+     "ko": "소발의 아들들은 알완, 마나핫, 에발, 스보, 오남이다.",
+     "en": "These are the sons of Shobal: Alvan, Manahath, Ebal, Shepho, and Onam.",
+     "es": "Estos son los hijos de Sobal: Alván, Manahat, Ebal, Sefo y Onam."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.23",
+    "source_hebrew": "וְאֵ֨לֶּה֙ בְּנֵ֣י שׁוֹבָ֔ל עַלְוָ֥ן וּמָנַ֖חַת וְעֵיבָ֑ל שְׁפ֖וֹ וְאוֹנָֽם׃",
+    "source_hebrew_sha256": "47b6c00c9f8cbbb4f1afc9ed826861521a2594e131f50c1bbfaaf71ddd509223",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.24",
+    "translations": {
+     "ko": "시브온의 아들들은 아야와 아나이다. 이 아나는 자기 아버지 시브온의 나귀들을 치다가 광야에서 온천을 발견한 사람이다.",
+     "en": "These are the sons of Zibeon: Aiah and Anah; he is the Anah who found the hot springs in the wilderness as he pastured the donkeys of Zibeon his father.",
+     "es": "Estos son los hijos de Zibeón: Aya y Aná; este es el Aná que halló las fuentes termales en el desierto cuando apacentaba los asnos de Zibeón su padre."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "הַיֵּמִם는 의미 불확실한 희소어로, 전통 해석 중 \"온천\"을 택함.",
+    "counterargument_ko": "\"노새\"로 읽는 전통도 있어 어휘 선택이 열려 있음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.24",
+    "source_hebrew": "וְאֵ֥לֶּה בְנֵֽי־צִבְע֖וֹן וְאַיָּ֣ה וַעֲנָ֑ה ה֣וּא עֲנָ֗ה אֲשֶׁ֨ר מָצָ֤א אֶת־הַיֵּמִם֙ בַּמִּדְבָּ֔ר בִּרְעֹת֥וֹ אֶת־הַחֲמֹרִ֖ים לְצִבְע֥וֹן אָבִֽיו׃",
+    "source_hebrew_sha256": "36c94b9c36adfc06c5510fdb4da85fb1438051a5b1f942fb11bf45f55ef8d106",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.25",
+    "translations": {
+     "ko": "아나의 자녀는 디손과 아나의 딸 오홀리바마이다.",
+     "en": "These are the children of Anah: Dishon and Oholibamah the daughter of Anah.",
+     "es": "Estos son los hijos de Aná: Disón y Aholibama, hija de Aná."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.25",
+    "source_hebrew": "וְאֵ֥לֶּה בְנֵֽי־עֲנָ֖ה דִּשֹׁ֑ן וְאָהֳלִיבָמָ֖ה בַּת־עֲנָֽה׃",
+    "source_hebrew_sha256": "8044855018590579725264765149aeda8f2fe00b7da9539a820a561ef30f7f02",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.26",
+    "translations": {
+     "ko": "디손의 아들들은 헴단, 에스반, 이드란, 그란이다.",
+     "en": "These are the sons of Dishon: Hemdan, Eshban, Ithran, and Cheran.",
+     "es": "Estos son los hijos de Disón: Hemdán, Esbán, Itrán y Querán."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.26",
+    "source_hebrew": "וְאֵ֖לֶּה בְּנֵ֣י דִישָׁ֑ן חֶמְדָּ֥ן וְאֶשְׁבָּ֖ן וְיִתְרָ֥ן וּכְרָֽן׃",
+    "source_hebrew_sha256": "1d255cfe77ef71a2ac1f9cf77b5ef4baeb75b9a73037b15fba30c25a1b259081",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.27",
+    "translations": {
+     "ko": "에셀의 아들들은 빌한, 사아완, 아간이다.",
+     "en": "These are the sons of Ezer: Bilhan, Zaavan, and Akan.",
+     "es": "Estos son los hijos de Ezer: Bilhán, Zaaván y Acán."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.27",
+    "source_hebrew": "אֵ֖לֶּה בְּנֵי־אֵ֑צֶר בִּלְהָ֥ן וְזַעֲוָ֖ן וַעֲקָֽן׃",
+    "source_hebrew_sha256": "c9012cc911e41d250aed6459fe3d1ee6a3d1eed16c1410b9d46bcdeba4ed2d84",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.28",
+    "translations": {
+     "ko": "디산의 아들들은 우스와 아란이다.",
+     "en": "These are the sons of Dishan: Uz and Aran.",
+     "es": "Estos son los hijos de Disán: Uz y Arán."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.28",
+    "source_hebrew": "אֵ֥לֶּה בְנֵֽי־דִישָׁ֖ן ע֥וּץ וַאֲרָֽן׃",
+    "source_hebrew_sha256": "58970c699f705d0e0822d5b2fb2e9d32172296b6da2108c178ac402cefdedb6c",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.29",
+    "translations": {
+     "ko": "호리 사람의 족장들은 로단 족장, 소발 족장, 시브온 족장, 아나 족장,",
+     "en": "These are the chiefs of the Horites: the chiefs Lotan, Shobal, Zibeon, Anah,",
+     "es": "Estos son los jefes de los horeos: el jefe Lotán, el jefe Sobal, el jefe Zibeón, el jefe Aná,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.29",
+    "source_hebrew": "אֵ֖לֶּה אַלּוּפֵ֣י הַחֹרִ֑י אַלּ֤וּף לוֹטָן֙ אַלּ֣וּף שׁוֹבָ֔ל אַלּ֥וּף צִבְע֖וֹן אַלּ֥וּף עֲנָֽה׃",
+    "source_hebrew_sha256": "2900f9593fedca1f84f752b89d439c8ad9d0f81335737941be34b0d9f56b0eb3",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.30",
+    "translations": {
+     "ko": "디손 족장, 에셀 족장, 디산 족장이다. 이들은 세일 땅에서 그들의 족장 구분에 따른 호리 사람의 족장들이다.",
+     "en": "the chiefs Dishon, Ezer, Dishan. These are the chiefs of the Horites, according to their chiefs in the land of Seir.",
+     "es": "el jefe Disón, el jefe Ezer, el jefe Disán. Estos son los jefes de los horeos, según sus jefaturas en la tierra de Seir."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.30",
+    "source_hebrew": "אַלּ֥וּף דִּשֹׁ֛ן אַלּ֥וּף אֵ֖צֶר אַלּ֣וּף דִּישָׁ֑ן אֵ֣לֶּה אַלּוּפֵ֧י הַחֹרִ֛י לְאַלֻּפֵיהֶ֖ם בְּאֶ֥רֶץ שֵׂעִֽיר׃",
+    "source_hebrew_sha256": "e8e71a85217990140b07a7c36350e525c8a7222a3e686a066f7f67967b89a08f",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.31",
+    "translations": {
+     "ko": "이스라엘 자손을 다스리는 왕이 있기 전에 에돔 땅을 다스린 왕들은 이러하다.",
+     "en": "These are the kings who reigned in the land of Edom, before any king reigned over the sons of Israel.",
+     "es": "Estos son los reyes que reinaron en la tierra de Edom antes de que reinara rey alguno sobre los hijos de Israel."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "לִפְנֵי מְלָךְ־מֶלֶךְ는 \"이스라엘 자손을 다스리는 왕이 있기 전\"으로 옮김.",
+    "counterargument_ko": "후대 편집 관점에서 읽을지는 해석의 문제이며 본문 변형 판단이 아님.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.31",
+    "source_hebrew": "וְאֵ֨לֶּה֙ הַמְּלָכִ֔ים אֲשֶׁ֥ר מָלְכ֖וּ בְּאֶ֣רֶץ אֱד֑וֹם לִפְנֵ֥י מְלָךְ־מֶ֖לֶךְ לִבְנֵ֥י יִשְׂרָאֵֽל׃",
+    "source_hebrew_sha256": "4cfd102c11786254c7c043f784ad20047b1d0b2aa7d1e66acd884e5e1bac387b",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.32",
+    "translations": {
+     "ko": "브올의 아들 벨라가 에돔에서 왕이 되었으니, 그의 성읍 이름은 딘하바였다.",
+     "en": "Bela the son of Beor reigned in Edom, the name of his city being Dinhabah.",
+     "es": "Bela, hijo de Beor, reinó en Edom; el nombre de su ciudad era Dinaba."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.32",
+    "source_hebrew": "וַיִּמְלֹ֣ךְ בֶּאֱד֔וֹם בֶּ֖לַע בֶּן־בְּע֑וֹר וְשֵׁ֥ם עִיר֖וֹ דִּנְהָֽבָה׃",
+    "source_hebrew_sha256": "63feb24be21f253eb53170705146a80b8c93227c9fea042df9e3c0e5d0d6c251",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.33",
+    "translations": {
+     "ko": "벨라가 죽자 보스라 출신 세라의 아들 요밥이 그를 이어 왕이 되었다.",
+     "en": "Bela died, and Jobab the son of Zerah of Bozrah reigned in his place.",
+     "es": "Murió Bela, y reinó en su lugar Jobab, hijo de Zera, de Bosra."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.33",
+    "source_hebrew": "וַיָּ֖מָת בָּ֑לַע וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו יוֹבָ֥ב בֶּן־זֶ֖רַח מִבָּצְרָֽה׃",
+    "source_hebrew_sha256": "d6beb90da699e6b9c6814d55658d0eff3290db100d6733eb4ca95e69f1439d59",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.34",
+    "translations": {
+     "ko": "요밥이 죽자 데만 사람의 땅 출신 후삼이 그를 이어 왕이 되었다.",
+     "en": "Jobab died, and Husham of the land of the Temanites reigned in his place.",
+     "es": "Murió Jobab, y reinó en su lugar Husam, de la tierra de los temanitas."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.34",
+    "source_hebrew": "וַיָּ֖מָת יוֹבָ֑ב וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו חֻשָׁ֖ם מֵאֶ֥רֶץ הַתֵּימָנִֽי׃",
+    "source_hebrew_sha256": "92e8f01dc34efe289ddb773c534f2ab6913b95fb61cc055fdac1ee761750514d",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.35",
+    "translations": {
+     "ko": "후삼이 죽자 브닷의 아들 하닷이 그를 이어 왕이 되었다. 그는 모압 들에서 미디안을 친 사람이며, 그의 성읍 이름은 아윗이었다.",
+     "en": "Husham died, and Hadad the son of Bedad, who defeated Midian in the field of Moab, reigned in his place, the name of his city being Avith.",
+     "es": "Murió Husam, y reinó en su lugar Hadad, hijo de Bedad, el que derrotó a Madián en el campo de Moab; el nombre de su ciudad era Avit."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.35",
+    "source_hebrew": "וַיָּ֖מָת חֻשָׁ֑ם וַיִּמְלֹ֨ךְ תַּחְתָּ֜יו הֲדַ֣ד בֶּן־בְּדַ֗ד הַמַּכֶּ֤ה אֶת־מִדְיָן֙ בִּשְׂדֵ֣ה מוֹאָ֔ב וְשֵׁ֥ם עִיר֖וֹ עֲוִֽית׃",
+    "source_hebrew_sha256": "cbb4c3e42c18ad2bf3e9e85bf0b1edb6788e8cebef97423daf3349df9fb09edb",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.36",
+    "translations": {
+     "ko": "하닷이 죽자 마스레가 출신 삼라가 그를 이어 왕이 되었다.",
+     "en": "Hadad died, and Samlah of Masrekah reigned in his place.",
+     "es": "Murió Hadad, y reinó en su lugar Samla, de Masreca."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.36",
+    "source_hebrew": "וַיָּ֖מָת הֲדָ֑ד וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו שַׂמְלָ֖ה מִמַּשְׂרֵקָֽה׃",
+    "source_hebrew_sha256": "415bc5d0e291ad2dae74a0380b1ff8d04e900ce3cbd3ba2edd62b902dc35f3c9",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.37",
+    "translations": {
+     "ko": "삼라가 죽자 강가의 르호봇 출신 사울이 그를 이어 왕이 되었다.",
+     "en": "Samlah died, and Shaul of Rehoboth on the River reigned in his place.",
+     "es": "Murió Samla, y reinó en su lugar Saúl, de Rehobot, junto al río."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.37",
+    "source_hebrew": "וַיָּ֖מָת שַׂמְלָ֑ה וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו שָׁא֖וּל מֵרְחֹב֥וֹת הַנָּהָֽר׃",
+    "source_hebrew_sha256": "3c8fe83da87cb5a4a85583a736d2fd0a0cca1f64bc6d302f32a9b8dcdf7f2439",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.38",
+    "translations": {
+     "ko": "사울이 죽자 악볼의 아들 바알하난이 그를 이어 왕이 되었다.",
+     "en": "Shaul died, and Baal-hanan the son of Achbor reigned in his place.",
+     "es": "Murió Saúl, y reinó en su lugar Baal-hanán, hijo de Acbor."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.38",
+    "source_hebrew": "וַיָּ֖מָת שָׁא֑וּל וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו בַּ֥עַל חָנָ֖ן בֶּן־עַכְבּֽוֹר׃",
+    "source_hebrew_sha256": "8ba3abb6c82d26761a8cfd757a8a13a4c25a86996d261ed3bc2b50dc7b89d861",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.39",
+    "translations": {
+     "ko": "악볼의 아들 바알하난이 죽자 하달이 그를 이어 왕이 되었다. 그의 성읍 이름은 바우였고, 그의 아내 이름은 므헤다벨이니, 마드렛의 딸이며 메사합의 손녀였다.",
+     "en": "Baal-hanan the son of Achbor died, and Hadar reigned in his place, the name of his city being Pau; his wife's name was Mehetabel, the daughter of Matred, daughter of Mezahab.",
+     "es": "Murió Baal-hanán, hijo de Acbor, y reinó en su lugar Hadar; el nombre de su ciudad era Pau, y el nombre de su mujer, Mehetabel, hija de Matred, hija de Mezaab."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "הֲדַר(본문 표시)를 하달로 표기하되, 다른 표기(하닷)는 본 실행에서 대조하지 않음.",
+    "counterargument_ko": "다른 사본·병행본문(대상 1장)의 표기와 대조하면 달라질 수 있으나 이 실행은 대조하지 않음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.39",
+    "source_hebrew": "וַיָּמָת֮ בַּ֣עַל חָנָ֣ן בֶּן־עַכְבּוֹר֒ וַיִּמְלֹ֤ךְ תַּחְתָּיו֙ הֲדַ֔ר וְשֵׁ֥ם עִיר֖וֹ פָּ֑עוּ וְשֵׁ֨ם אִשְׁתּ֤וֹ מְהֵֽיטַבְאֵל֙ בַּת־מַטְרֵ֔ד בַּ֖ת מֵ֥י זָהָֽב׃",
+    "source_hebrew_sha256": "063d8debba57d085400eba789392faeaabdf571d83c5395ec29632b2958d55ca",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.40",
+    "translations": {
+     "ko": "에서에게서 나온 족장들의 이름은 그들의 가문과 거처와 이름에 따라 이러하다. 딤나 족장, 알와 족장, 여뎃 족장,",
+     "en": "These are the names of the chiefs of Esau, according to their clans and their dwelling places, by their names: the chiefs Timna, Alvah, Jetheth,",
+     "es": "Estos son los nombres de los jefes de Esaú, según sus familias, sus lugares y sus nombres: el jefe Timna, el jefe Alva, el jefe Jetet,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.40",
+    "source_hebrew": "וְ֠אֵלֶּה שְׁמ֞וֹת אַלּוּפֵ֤י עֵשָׂו֙ לְמִשְׁפְּחֹתָ֔ם לִמְקֹמֹתָ֖ם בִּשְׁמֹתָ֑ם אַלּ֥וּף תִּמְנָ֛ע אַלּ֥וּף עַֽלְוָ֖ה אַלּ֥וּף יְתֵֽת׃",
+    "source_hebrew_sha256": "8528642557483777398547f05d667299e2118f7d1829925bf0091939800470dd",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.41",
+    "translations": {
+     "ko": "오홀리바마 족장, 엘라 족장, 비논 족장,",
+     "en": "the chiefs Oholibamah, Elah, Pinon,",
+     "es": "el jefe Aholibama, el jefe Elá, el jefe Pinón,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.41",
+    "source_hebrew": "אַלּ֧וּף אָהֳלִיבָמָ֛ה אַלּ֥וּף אֵלָ֖ה אַלּ֥וּף פִּינֹֽן׃",
+    "source_hebrew_sha256": "dfe0950c31951a76e8b64fbc951d9908b985a830db5ac61962f1810224d9fc5b",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.42",
+    "translations": {
+     "ko": "그나스 족장, 데만 족장, 밉살 족장,",
+     "en": "the chiefs Kenaz, Teman, Mibzar,",
+     "es": "el jefe Quenaz, el jefe Temán, el jefe Mibzar,"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.42",
+    "source_hebrew": "אַלּ֥וּף קְנַ֛ז אַלּ֥וּף תֵּימָ֖ן אַלּ֥וּף מִבְצָֽר׃",
+    "source_hebrew_sha256": "c3ea2e26d7a178845b4d3c0a7c9d12dc98240265c5b20ced9e980d9f64557964",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.36.43",
+    "translations": {
+     "ko": "막디엘 족장, 이람 족장이다. 이들은 자기들이 차지한 땅의 거처에 따른 에돔의 족장들이며, 에돔의 조상 에서가 그들의 시조이다.",
+     "en": "the chiefs Magdiel, Iram. These are the chiefs of Edom, according to their dwelling places in the land of their possession. That is Esau, the father of Edom.",
+     "es": "el jefe Magdiel, el jefe Iram. Estos son los jefes de Edom, según sus moradas en la tierra de su posesión. Este es Esaú, padre de Edom."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.36.43",
+    "source_hebrew": "אַלּ֥וּף מַגְדִּיאֵ֖ל אַלּ֣וּף עִירָ֑ם אֵ֣לֶּה ׀ אַלּוּפֵ֣י אֱד֗וֹם לְמֹֽשְׁבֹתָם֙ בְּאֶ֣רֶץ אֲחֻזָּתָ֔ם ה֥וּא עֵשָׂ֖ו אֲבִ֥י אֱדֽוֹם׃",
+    "source_hebrew_sha256": "f515c1df270ae87587613a6e5bc38e73146448a3c181f9b42ef60682bb674780",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.1",
+    "translations": {
+     "ko": "야곱은 자기 아버지가 나그네로 살던 땅, 곧 가나안 땅에 거주하였다.",
+     "en": "Jacob lived in the land of his father's sojournings, in the land of Canaan.",
+     "es": "Jacob habitó en la tierra donde su padre había residido como forastero, en la tierra de Canaán."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.1",
+    "source_hebrew": "וַיֵּ֣שֶׁב יַעֲקֹ֔ב בְּאֶ֖רֶץ מְגוּרֵ֣י אָבִ֑יו בְּאֶ֖רֶץ כְּנָֽעַן׃",
+    "source_hebrew_sha256": "0c390331e69091be473422812274d639eb51ec0b61e14daa534bae5953247fdf",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.2",
+    "translations": {
+     "ko": "이것은 야곱의 계보이다. 요셉은 열일곱 살에 형들과 함께 양 떼를 치고 있었는데, 그는 아버지의 아내들인 빌하와 실바의 아들들과 함께 있는 소년이었다. 요셉은 그들에 대한 나쁜 소문을 아버지에게 가져갔다.",
+     "en": "These are the generations of Jacob. Joseph, being seventeen years old, was pasturing the flock with his brothers; he was a boy with the sons of Bilhah and the sons of Zilpah, his father's wives. And Joseph brought a bad report of them to their father.",
+     "es": "Estas son las generaciones de Jacob. José, de diecisiete años, apacentaba el rebaño con sus hermanos; era un muchacho con los hijos de Bilhá y los hijos de Zilpa, mujeres de su padre. Y José llevó a su padre un mal informe de ellos."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.2",
+    "source_hebrew": "אֵ֣לֶּה ׀ תֹּלְד֣וֹת יַעֲקֹ֗ב יוֹסֵ֞ף בֶּן־שְׁבַֽע־עֶשְׂרֵ֤ה שָׁנָה֙ הָיָ֨ה רֹעֶ֤ה אֶת־אֶחָיו֙ בַּצֹּ֔אן וְה֣וּא נַ֗עַר אֶת־בְּנֵ֥י בִלְהָ֛ה וְאֶת־בְּנֵ֥י זִלְפָּ֖ה נְשֵׁ֣י אָבִ֑יו וַיָּבֵ֥א יוֹסֵ֛ף אֶת־דִּבָּתָ֥ם רָעָ֖ה אֶל־אֲבִיהֶֽם׃",
+    "source_hebrew_sha256": "51038bf86ba500a8cdfab1330b57c37fab8723bd38a4e55b84ef041c5898fdfc",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.3",
+    "translations": {
+     "ko": "이스라엘은 요셉을 그의 모든 아들보다 더 사랑하였으니, 그가 노년에 얻은 아들이었기 때문이다. 그래서 그에게 채색 긴 옷을 지어 주었다.",
+     "en": "Now Israel loved Joseph more than all his sons, because he was the son of his old age; and he made him a long robe with sleeves.",
+     "es": "Israel amaba a José más que a todos sus hijos, porque era el hijo de su vejez; y le hizo una túnica larga de mangas."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "כְּתֹנֶת פַּסִּים은 \"채색/소매 있는 긴 옷\"으로 의미가 불확실하여 병기 가능한 선택임.",
+    "counterargument_ko": "\"무늬 있는 옷\"·\"소매 있는 긴 옷\" 등 다른 어휘 선택이 가능함.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.3",
+    "source_hebrew": "וְיִשְׂרָאֵ֗ל אָהַ֤ב אֶת־יוֹסֵף֙ מִכָּל־בָּנָ֔יו כִּֽי־בֶן־זְקֻנִ֥ים ה֖וּא ל֑וֹ וְעָ֥שָׂה ל֖וֹ כְּתֹ֥נֶת פַּסִּֽים׃",
+    "source_hebrew_sha256": "baa003d89c8cde3f58c2333adebc917fbbdb0d955710f6270f4b60f17c82b164",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.4",
+    "translations": {
+     "ko": "그의 형들은 아버지가 그를 형들보다 더 사랑하는 것을 보고 그를 미워하여, 그에게 평안하게 말할 수 없었다.",
+     "en": "His brothers saw that their father loved him more than all his brothers, and they hated him and could not speak peaceably to him.",
+     "es": "Sus hermanos vieron que su padre lo amaba más que a todos ellos, y lo aborrecieron y no podían hablarle pacíficamente."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.4",
+    "source_hebrew": "וַיִּרְא֣וּ אֶחָ֗יו כִּֽי־אֹת֞וֹ אָהַ֤ב אֲבִיהֶם֙ מִכָּל־אֶחָ֔יו וַֽיִּשְׂנְא֖וּ אֹת֑וֹ וְלֹ֥א יָכְל֖וּ דַּבְּר֥וֹ לְשָׁלֹֽם׃",
+    "source_hebrew_sha256": "52b55fe65485ee66b46557e4117b850bfde2142c2c17bf58ae12f37aab533f99",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.5",
+    "translations": {
+     "ko": "요셉이 꿈을 꾸고 형들에게 말하자, 그들은 그를 더욱 미워하였다.",
+     "en": "Joseph had a dream, and when he told it to his brothers they hated him even more.",
+     "es": "José tuvo un sueño y se lo contó a sus hermanos, y ellos lo aborrecieron aún más."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.5",
+    "source_hebrew": "וַיַּחֲלֹ֤ם יוֹסֵף֙ חֲל֔וֹם וַיַּגֵּ֖ד לְאֶחָ֑יו וַיּוֹסִ֥פוּ ע֖וֹד שְׂנֹ֥א אֹתֽוֹ׃",
+    "source_hebrew_sha256": "0ac1d5bf01a57df782b280f967f2d42472b2074669ba77de49eb581747d342df",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.6",
+    "translations": {
+     "ko": "그가 그들에게 말하였다. “내가 꾼 이 꿈을 들어 보십시오.",
+     "en": "He said to them, “Hear this dream that I have dreamed:",
+     "es": "Les dijo: «Escuchen, por favor, este sueño que he soñado:"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.6",
+    "source_hebrew": "וַיֹּ֖אמֶר אֲלֵיהֶ֑ם שִׁמְעוּ־נָ֕א הַחֲל֥וֹם הַזֶּ֖ה אֲשֶׁ֥ר חָלָֽמְתִּי׃",
+    "source_hebrew_sha256": "66188665b666e5c293f1610493ab3e9731fe54cefbea9eb520bd53d0e0e72290",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.7",
+    "translations": {
+     "ko": "보십시오, 우리가 밭 가운데서 곡식 단을 묶고 있었는데, 내 단이 일어나 곧게 서고, 형님들의 단이 둘러서서 내 단에게 절하였습니다.”",
+     "en": "Behold, we were binding sheaves in the field, and behold, my sheaf arose and stood upright, and behold, your sheaves gathered around it and bowed down to my sheaf.”",
+     "es": "He aquí que estábamos atando gavillas en medio del campo, y he aquí que mi gavilla se levantó y se puso derecha, y he aquí que las gavillas de ustedes la rodearon y se postraron ante mi gavilla»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.7",
+    "source_hebrew": "וְ֠הִנֵּה אֲנַ֜חְנוּ מְאַלְּמִ֤ים אֲלֻמִּים֙ בְּת֣וֹךְ הַשָּׂדֶ֔ה וְהִנֵּ֛ה קָ֥מָה אֲלֻמָּתִ֖י וְגַם־נִצָּ֑בָה וְהִנֵּ֤ה תְסֻבֶּ֨ינָה֙ אֲלֻמֹּ֣תֵיכֶ֔ם וַתִּֽשְׁתַּחֲוֶ֖יןָ לַאֲלֻמָּתִֽי׃",
+    "source_hebrew_sha256": "0f834c03f10ba19558137a15bdec8d7203d87933b93f5e336532fd8cee856d7d",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.8",
+    "translations": {
+     "ko": "그의 형들이 그에게 말하였다. “네가 정말 우리를 다스리는 왕이 되겠느냐? 네가 정말 우리를 다스리겠느냐?” 그들은 그의 꿈과 그의 말 때문에 그를 더욱 미워하였다.",
+     "en": "His brothers said to him, “Are you indeed to reign over us? Or are you indeed to rule over us?” So they hated him even more for his dreams and for his words.",
+     "es": "Sus hermanos le dijeron: «¿Acaso vas a reinar sobre nosotros? ¿O vas a dominarnos?». Y lo aborrecieron aún más por sus sueños y por sus palabras."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.8",
+    "source_hebrew": "וַיֹּ֤אמְרוּ לוֹ֙ אֶחָ֔יו הֲמָלֹ֤ךְ תִּמְלֹךְ֙ עָלֵ֔ינוּ אִם־מָשׁ֥וֹל תִּמְשֹׁ֖ל בָּ֑נוּ וַיּוֹסִ֤פוּ עוֹד֙ שְׂנֹ֣א אֹת֔וֹ עַל־חֲלֹמֹתָ֖יו וְעַל־דְּבָרָֽיו׃",
+    "source_hebrew_sha256": "72b5cee442535af07b39f31dca9861cd78a890e12ef4a92623eacd33bd11ec97",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.9",
+    "translations": {
+     "ko": "그가 또 다른 꿈을 꾸고 그것을 형들에게 이야기하며 말하였다. “보십시오, 내가 또 꿈을 꾸었는데, 보십시오, 해와 달과 열한 별이 나에게 절하고 있었습니다.”",
+     "en": "Then he dreamed another dream and told it to his brothers and said, “Behold, I have dreamed another dream: behold, the sun, the moon, and eleven stars were bowing down to me.”",
+     "es": "Soñó todavía otro sueño y se lo contó a sus hermanos, y dijo: «He aquí que he soñado otro sueño: he aquí que el sol, la luna y once estrellas se postraban ante mí»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.9",
+    "source_hebrew": "וַיַּחֲלֹ֥ם עוֹד֙ חֲל֣וֹם אַחֵ֔ר וַיְסַפֵּ֥ר אֹת֖וֹ לְאֶחָ֑יו וַיֹּ֗אמֶר הִנֵּ֨ה חָלַ֤מְתִּֽי חֲלוֹם֙ ע֔וֹד וְהִנֵּ֧ה הַשֶּׁ֣מֶשׁ וְהַיָּרֵ֗חַ וְאַחַ֤ד עָשָׂר֙ כּֽוֹכָבִ֔ים מִֽשְׁתַּחֲוִ֖ים לִֽי׃",
+    "source_hebrew_sha256": "643ae28a706e6f4dd21ae9440cd2e986695171cec2becc629147847865b624d7",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.10",
+    "translations": {
+     "ko": "그가 아버지와 형들에게 이야기하자 아버지가 그를 꾸짖으며 말하였다. “네가 꾼 이 꿈이 무엇이냐? 나와 네 어머니와 네 형들이 정말 땅에 엎드려 네게 절하러 오겠느냐?”",
+     "en": "But when he told it to his father and to his brothers, his father rebuked him and said to him, “What is this dream that you have dreamed? Shall I and your mother and your brothers indeed come to bow ourselves to the ground before you?”",
+     "es": "Lo contó a su padre y a sus hermanos, y su padre lo reprendió y le dijo: «¿Qué es este sueño que has soñado? ¿Acaso vendremos yo, tu madre y tus hermanos a postrarnos en tierra ante ti?»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.10",
+    "source_hebrew": "וַיְסַפֵּ֣ר אֶל־אָבִיו֮ וְאֶל־אֶחָיו֒ וַיִּגְעַר־בּ֣וֹ אָבִ֔יו וַיֹּ֣אמֶר ל֔וֹ מָ֛ה הַחֲל֥וֹם הַזֶּ֖ה אֲשֶׁ֣ר חָלָ֑מְתָּ הֲב֣וֹא נָב֗וֹא אֲנִי֙ וְאִמְּךָ֣ וְאַחֶ֔יךָ לְהִשְׁתַּחֲוֺ֥ת לְךָ֖ אָֽרְצָה׃",
+    "source_hebrew_sha256": "e76c8bc0d67ad93cf95e826f8f98eef0539e71b653c6fa9c9d7e14727bd76b76",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.11",
+    "translations": {
+     "ko": "그의 형들은 그를 질투하였으나, 그의 아버지는 그 말을 마음에 간직하였다.",
+     "en": "And his brothers were jealous of him, but his father kept the saying in mind.",
+     "es": "Sus hermanos le tuvieron envidia, pero su padre guardó el asunto en su mente."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.11",
+    "source_hebrew": "וַיְקַנְאוּ־ב֖וֹ אֶחָ֑יו וְאָבִ֖יו שָׁמַ֥ר אֶת־הַדָּבָֽר׃",
+    "source_hebrew_sha256": "29d777a0450f23f5ff4cfc2c51254bc9e30d3e864d430a9e838cdb4f9afa0a23",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.13",
+    "translations": {
+     "ko": "이스라엘이 요셉에게 말하였다. “네 형들이 세겜에서 양을 치고 있지 않느냐? 가거라, 내가 너를 그들에게 보내겠다.” 그가 그에게 말하였다. “제가 여기 있습니다.”",
+     "en": "And Israel said to Joseph, “Are not your brothers pasturing the flock at Shechem? Come, I will send you to them.” And he said to him, “Here I am.”",
+     "es": "Israel dijo a José: «¿No están tus hermanos apacentando el rebaño en Siquem? Ven, te enviaré a ellos». Él le respondió: «Aquí estoy»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.13",
+    "source_hebrew": "וַיֹּ֨אמֶר יִשְׂרָאֵ֜ל אֶל־יוֹסֵ֗ף הֲל֤וֹא אַחֶ֨יךָ֙ רֹעִ֣ים בִּשְׁכֶ֔ם לְכָ֖ה וְאֶשְׁלָחֲךָ֣ אֲלֵיהֶ֑ם וַיֹּ֥אמֶר ל֖וֹ הִנֵּֽנִי׃",
+    "source_hebrew_sha256": "49d98a6394b0f00365f0da59a7e1b4677c10fb144f583cc0bfa4fde33f15a53e",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.14",
+    "translations": {
+     "ko": "그가 그에게 말하였다. “가서 네 형들이 평안한지 양 떼가 평안한지 보고 내게 소식을 가져오너라.” 그리하여 그를 헤브론 골짜기에서 보냈고, 요셉은 세겜에 이르렀다.",
+     "en": "So he said to him, “Go now, see if it is well with your brothers and with the flock, and bring me word.” So he sent him from the Valley of Hebron, and he came to Shechem.",
+     "es": "Le dijo: «Ve ahora, mira si les va bien a tus hermanos y al rebaño, y tráeme noticia». Así lo envió desde el valle de Hebrón, y llegó a Siquem."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.14",
+    "source_hebrew": "וַיֹּ֣אמֶר ל֗וֹ לֶךְ־נָ֨א רְאֵ֜ה אֶת־שְׁל֤וֹם אַחֶ֨יךָ֙ וְאֶת־שְׁל֣וֹם הַצֹּ֔אן וַהֲשִׁבֵ֖נִי דָּבָ֑ר וַיִּשְׁלָחֵ֨הוּ֙ מֵעֵ֣מֶק חֶבְר֔וֹן וַיָּבֹ֖א שְׁכֶֽמָה׃",
+    "source_hebrew_sha256": "3897e57f399d3c82d47fcc4b9daafd142e5c8064e11d9122551df3779f793091",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.15",
+    "translations": {
+     "ko": "어떤 사람이 그를 만났는데, 보니 그가 들에서 헤매고 있었다. 그 사람이 그에게 물었다. “무엇을 찾느냐?”",
+     "en": "And a man found him wandering in the fields. And the man asked him, “What are you seeking?”",
+     "es": "Un hombre lo encontró, y he aquí que andaba errante por el campo; y el hombre le preguntó: «¿Qué buscas?»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.15",
+    "source_hebrew": "וַיִּמְצָאֵ֣הוּ אִ֔ישׁ וְהִנֵּ֥ה תֹעֶ֖ה בַּשָּׂדֶ֑ה וַיִּשְׁאָלֵ֧הוּ הָאִ֛ישׁ לֵאמֹ֖ר מַה־תְּבַקֵּֽשׁ׃",
+    "source_hebrew_sha256": "4d1f1cda258e423e2f309f2b8abc525f74a49417b515c71a6ed4df5b778464f2",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.16",
+    "translations": {
+     "ko": "그가 말하였다. “저는 제 형들을 찾고 있습니다. 그들이 어디서 양을 치고 있는지 제게 말씀해 주십시오.”",
+     "en": "“I am seeking my brothers,” he said. “Tell me, please, where they are pasturing the flock.”",
+     "es": "Él dijo: «Busco a mis hermanos. Dime, por favor, dónde apacientan el rebaño»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.16",
+    "source_hebrew": "וַיֹּ֕אמֶר אֶת־אַחַ֖י אָנֹכִ֣י מְבַקֵּ֑שׁ הַגִּֽידָה־נָּ֣א לִ֔י אֵיפֹ֖ה הֵ֥ם רֹעִֽים׃",
+    "source_hebrew_sha256": "0cde4b32478440186204e5188dc83dbb58a4c111c39f4d2c149af381089ea93c",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.17",
+    "translations": {
+     "ko": "그 사람이 말하였다. “그들은 여기서 떠났다. ‘도단으로 가자’ 하고 말하는 것을 내가 들었다.” 요셉이 형들을 뒤따라가서 도단에서 그들을 찾았다.",
+     "en": "And the man said, “They have gone away, for I heard them say, ‘Let us go to Dothan.’” So Joseph went after his brothers and found them at Dothan.",
+     "es": "El hombre dijo: «Se han ido de aquí, pues les oí decir: “Vamos a Dotán”». José fue tras sus hermanos y los halló en Dotán."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.17",
+    "source_hebrew": "וַיֹּ֤אמֶר הָאִישׁ֙ נָסְע֣וּ מִזֶּ֔ה כִּ֤י שָׁמַ֨עְתִּי֙ אֹֽמְרִ֔ים נֵלְכָ֖ה דֹּתָ֑יְנָה וַיֵּ֤לֶךְ יוֹסֵף֙ אַחַ֣ר אֶחָ֔יו וַיִּמְצָאֵ֖ם בְּדֹתָֽן׃",
+    "source_hebrew_sha256": "36ea1582ecb75aa42e8f0f3f1be65ba16cf2faf1ceb5f4ee0b841a56822874d4",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.18",
+    "translations": {
+     "ko": "그들은 멀리서 그를 보았고, 그가 가까이 오기 전에 그를 죽이려고 음모를 꾸몄다.",
+     "en": "They saw him from afar, and before he came near to them they conspired against him to kill him.",
+     "es": "Ellos lo vieron de lejos, y antes de que se acercara a ellos tramaron contra él para matarlo."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.18",
+    "source_hebrew": "וַיִּרְא֥וּ אֹת֖וֹ מֵרָחֹ֑ק וּבְטֶ֨רֶם֙ יִקְרַ֣ב אֲלֵיהֶ֔ם וַיִּֽתְנַכְּל֥וּ אֹת֖וֹ לַהֲמִיתֽוֹ׃",
+    "source_hebrew_sha256": "64172346e7206decdbdb9dc46a4901b04a29ad9e68289255af36c07bf091d334",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.19",
+    "translations": {
+     "ko": "그들은 서로 말하였다. “보라, 저 꿈꾸는 자가 온다.",
+     "en": "They said to one another, “Here comes this dreamer.",
+     "es": "Se dijeron unos a otros: «Aquí viene ese soñador."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.19",
+    "source_hebrew": "וַיֹּאמְר֖וּ אִ֣ישׁ אֶל־אָחִ֑יו הִנֵּ֗ה בַּ֛עַל הַחֲלֹמ֥וֹת הַלָּזֶ֖ה בָּֽא׃",
+    "source_hebrew_sha256": "4579da375f3ec9c3e259e09410a582424b729f8e09441afeec1e4046d1070ba5",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.20",
+    "translations": {
+     "ko": "자, 이제 가서 그를 죽여 어느 구덩이에 던지고, ‘사나운 짐승이 그를 잡아먹었다’ 하자. 그러면 그의 꿈이 어떻게 되는지 보게 될 것이다.”",
+     "en": "Come now, let us kill him and throw him into one of the pits; then we will say that a fierce animal has devoured him, and we will see what will become of his dreams.”",
+     "es": "Ahora, pues, vengan, matémoslo y echémoslo en una de las cisternas, y diremos: “Una fiera lo devoró”. Y veremos en qué quedan sus sueños»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.20",
+    "source_hebrew": "וְעַתָּ֣ה ׀ לְכ֣וּ וְנַֽהַרְגֵ֗הוּ וְנַשְׁלִכֵ֨הוּ֙ בְּאַחַ֣ד הַבֹּר֔וֹת וְאָמַ֕רְנוּ חַיָּ֥ה רָעָ֖ה אֲכָלָ֑תְהוּ וְנִרְאֶ֕ה מַה־יִּהְי֖וּ חֲלֹמֹתָֽיו׃",
+    "source_hebrew_sha256": "97d965756b8aff14f255dd70a04bbe14eb374b355a7e260ec9f123cd00183323",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.21",
+    "translations": {
+     "ko": "르우벤이 듣고 그들의 손에서 그를 건져 내며 말하였다. “우리가 그의 목숨을 치지는 말자.”",
+     "en": "But when Reuben heard it, he rescued him out of their hands, saying, “Let us not take his life.”",
+     "es": "Rubén lo oyó y lo libró de sus manos, diciendo: «No le quitemos la vida»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.21",
+    "source_hebrew": "וַיִּשְׁמַ֣ע רְאוּבֵ֔ן וַיַּצִּלֵ֖הוּ מִיָּדָ֑ם וַיֹּ֕אמֶר לֹ֥א נַכֶּ֖נּוּ נָֽפֶשׁ׃",
+    "source_hebrew_sha256": "993dd1e77a3ae3a667b0145ed1a421161a576a4aee1c4aaab6e1ed6657be5588",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.22",
+    "translations": {
+     "ko": "르우벤이 그들에게 말하였다. “피를 흘리지 말고, 광야에 있는 이 구덩이에 그를 던지되 그에게 손을 대지는 말자.” 그의 손에서 그를 구해 아버지께 돌려보내려는 것이었다.",
+     "en": "And Reuben said to them, “Shed no blood; throw him into this pit here in the wilderness, but do not lay a hand on him”—that he might rescue him out of their hand to restore him to his father.",
+     "es": "Rubén les dijo: «No derramen sangre; échenlo en esta cisterna que está en el desierto, pero no pongan mano sobre él», para librarlo de sus manos y devolverlo a su padre."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.22",
+    "source_hebrew": "וַיֹּ֨אמֶר אֲלֵהֶ֣ם ׀ רְאוּבֵן֮ אַל־תִּשְׁפְּכוּ־דָם֒ הַשְׁלִ֣יכוּ אֹת֗וֹ אֶל־הַבּ֤וֹר הַזֶּה֙ אֲשֶׁ֣ר בַּמִּדְבָּ֔ר וְיָ֖ד אַל־תִּשְׁלְחוּ־ב֑וֹ לְמַ֗עַן הַצִּ֤יל אֹתוֹ֙ מִיָּדָ֔ם לַהֲשִׁיב֖וֹ אֶל־אָבִֽיו׃",
+    "source_hebrew_sha256": "f0380a5a5701b2ad52d575fb004d417bd4c63c6363a955e3233dd8904fc7e7ab",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.23",
+    "translations": {
+     "ko": "요셉이 형들에게 이르렀을 때, 그들은 요셉의 옷, 곧 그가 입고 있던 채색 긴 옷을 벗기고,",
+     "en": "So when Joseph came to his brothers, they stripped Joseph of his robe, the long robe with sleeves that he wore.",
+     "es": "Cuando José llegó a sus hermanos, le quitaron a José su túnica, la túnica larga de mangas que llevaba puesta."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.23",
+    "source_hebrew": "וַֽיְהִ֕י כַּֽאֲשֶׁר־בָּ֥א יוֹסֵ֖ף אֶל־אֶחָ֑יו וַיַּפְשִׁ֤יטוּ אֶת־יוֹסֵף֙ אֶת־כֻּתָּנְתּ֔וֹ אֶת־כְּתֹ֥נֶת הַפַּסִּ֖ים אֲשֶׁ֥ר עָלָֽיו׃",
+    "source_hebrew_sha256": "a8ded11d82dd2232954a78bca0290edfd27b74f9543e73ff61699c0709615cbd",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.24",
+    "translations": {
+     "ko": "그를 붙잡아 구덩이에 던졌다. 그 구덩이는 비어 있었고 그 안에는 물이 없었다.",
+     "en": "And they took him and threw him into a pit. The pit was empty; there was no water in it.",
+     "es": "Lo tomaron y lo echaron en la cisterna. La cisterna estaba vacía; no había agua en ella."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.24",
+    "source_hebrew": "וַיִּ֨קָּחֻ֔הוּ וַיַּשְׁלִ֥כוּ אֹת֖וֹ הַבֹּ֑רָה וְהַבּ֣וֹר רֵ֔ק אֵ֥ין בּ֖וֹ מָֽיִם׃",
+    "source_hebrew_sha256": "2db7573b0dc8e60c77c74127dc45809f196526ef76c672ec6ef3836651b6af18",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.25",
+    "translations": {
+     "ko": "그들은 앉아 음식을 먹다가 눈을 들어 보았는데, 보라, 이스마엘 사람들의 대상이 길르앗에서 오고 있었다. 그들의 낙타들은 향품과 유향과 몰약을 싣고 이집트로 내려가는 중이었다.",
+     "en": "Then they sat down to eat. And looking up they saw a caravan of Ishmaelites coming from Gilead, with their camels bearing gum, balm, and myrrh, on their way to carry it down to Egypt.",
+     "es": "Luego se sentaron a comer. Alzaron los ojos y vieron, y he aquí una caravana de ismaelitas que venía de Galaad; sus camellos traían goma, bálsamo y mirra, y la llevaban para bajarla a Egipto."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "נְכֹאת וּצְרִי וָלֹט 식물성 향품 용어는 불확실하여 \"향품·유향·몰약\"으로 옮김.",
+    "counterargument_ko": "각 물품의 정확한 동정은 확실하지 않음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.25",
+    "source_hebrew": "וַיֵּשְׁבוּ֮ לֶֽאֱכָל־לֶחֶם֒ וַיִּשְׂא֤וּ עֵֽינֵיהֶם֙ וַיִּרְא֔וּ וְהִנֵּה֙ אֹרְחַ֣ת יִשְׁמְעֵאלִ֔ים בָּאָ֖ה מִגִּלְעָ֑ד וּגְמַלֵּיהֶ֣ם נֹֽשְׂאִ֗ים נְכֹאת֙ וּצְרִ֣י וָלֹ֔ט הוֹלְכִ֖ים לְהוֹרִ֥יד מִצְרָֽיְמָה׃",
+    "source_hebrew_sha256": "91a2fa506c7bfcb1559ef5f61f7ca1ff9e1d1855d5ccdce0cc44239b21596b79",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.26",
+    "translations": {
+     "ko": "유다가 형제들에게 말하였다. “우리가 동생을 죽이고 그의 피를 덮어 둔다고 무슨 유익이 있겠느냐?",
+     "en": "Then Judah said to his brothers, “What profit is it if we kill our brother and conceal his blood?",
+     "es": "Entonces Judá dijo a sus hermanos: «¿Qué provecho hay en que matemos a nuestro hermano y encubramos su sangre?"
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.26",
+    "source_hebrew": "וַיֹּ֥אמֶר יְהוּדָ֖ה אֶל־אֶחָ֑יו מַה־בֶּ֗צַע כִּ֤י נַהֲרֹג֙ אֶת־אָחִ֔ינוּ וְכִסִּ֖ינוּ אֶת־דָּמֽוֹ׃",
+    "source_hebrew_sha256": "a0d0d50128a1273293805f1266b873666e78de00c03b89af1dafa7394bea0d43",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.27",
+    "translations": {
+     "ko": "가자, 그를 이스마엘 사람들에게 팔자. 우리 손을 그에게 대지 말자. 그는 우리 형제요 우리의 살붙이다.” 그의 형제들이 듣고 따랐다.",
+     "en": "Come, let us sell him to the Ishmaelites, and let not our hand be upon him, for he is our brother, our own flesh.” And his brothers listened to him.",
+     "es": "Vengan, vendámoslo a los ismaelitas, y que no sea nuestra mano contra él, pues es nuestro hermano, nuestra propia carne». Y sus hermanos le hicieron caso."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.27",
+    "source_hebrew": "לְכ֞וּ וְנִמְכְּרֶ֣נּוּ לַיִּשְׁמְעֵאלִ֗ים וְיָדֵ֨נוּ֙ אַל־תְּהִי־ב֔וֹ כִּֽי־אָחִ֥ינוּ בְשָׂרֵ֖נוּ ה֑וּא וַֽיִּשְׁמְע֖וּ אֶחָֽיו׃",
+    "source_hebrew_sha256": "0688e04ccbd9d448455f8832d5777fc4b6afbbf2393639f575ce8a2f969f8d2a",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.28",
+    "translations": {
+     "ko": "미디안 상인들이 지나가자, 그들은 요셉을 구덩이에서 끌어올렸다. 그리고 요셉을 이스마엘 사람들에게 은 이십 개에 팔았고, 그들은 요셉을 이집트로 데려갔다.",
+     "en": "Then Midianite traders passed by. And they drew Joseph up and lifted him out of the pit, and sold him to the Ishmaelites for twenty shekels of silver. They took Joseph to Egypt.",
+     "es": "Pasaron entonces unos mercaderes madianitas; sacaron a José, lo subieron de la cisterna y lo vendieron a los ismaelitas por veinte siclos de plata. Y llevaron a José a Egipto."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "מִדְיָנִים와 יִשְׁמְעֵאלִים의 주어 교체(누가 끌어올렸는가)는 본문 그대로 모호하게 두고 번역함.",
+    "counterargument_ko": "주어를 형제들 또는 미디안 상인으로 확정하는 해석이 있으나 본문 표시는 이를 명시하지 않음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.28",
+    "source_hebrew": "וַיַּֽעַבְרוּ֩ אֲנָשִׁ֨ים מִדְיָנִ֜ים סֹֽחֲרִ֗ים וַֽיִּמְשְׁכוּ֙ וַיַּֽעֲל֤וּ אֶת־יוֹסֵף֙ מִן־הַבּ֔וֹר וַיִּמְכְּר֧וּ אֶת־יוֹסֵ֛ף לַיִּשְׁמְעֵאלִ֖ים בְּעֶשְׂרִ֣ים כָּ֑סֶף וַיָּבִ֥יאוּ אֶת־יוֹסֵ֖ף מִצְרָֽיְמָה׃",
+    "source_hebrew_sha256": "e9494d82b74a7e5459479b652c1850eb20f7d3f86ab9d48e091951096c8088df",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.29",
+    "translations": {
+     "ko": "르우벤이 구덩이로 돌아와 보니, 보라, 요셉이 구덩이에 없었다. 그는 자기 옷을 찢었다.",
+     "en": "When Reuben returned to the pit, behold, Joseph was not in the pit, and he tore his clothes",
+     "es": "Rubén volvió a la cisterna, y he aquí que José no estaba en la cisterna; entonces rasgó sus vestidos."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "וַיָּשָׁב רְאוּבֵן의 접속을 살려 옮김.",
+    "counterargument_ko": "연결문 구분은 구두점 선택에 달림.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.29",
+    "source_hebrew": "וַיָּ֤שָׁב רְאוּבֵן֙ אֶל־הַבּ֔וֹר וְהִנֵּ֥ה אֵין־יוֹסֵ֖ף בַּבּ֑וֹר וַיִּקְרַ֖ע אֶת־בְּגָדָֽיו׃",
+    "source_hebrew_sha256": "698757543bef2ea409ce7db1385c1e55e8389e8457c8f7fe2b7886a06351f8e6",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.30",
+    "translations": {
+     "ko": "그가 형제들에게 돌아가 말하였다. “아이가 없다. 나는, 나는 이제 어디로 가야 하느냐?”",
+     "en": "and returned to his brothers and said, “The boy is gone, and I, where shall I go?”",
+     "es": "Volvió a sus hermanos y dijo: «El muchacho no está; y yo, ¿adónde iré yo?»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.30",
+    "source_hebrew": "וַיָּ֥שָׁב אֶל־אֶחָ֖יו וַיֹּאמַ֑ר הַיֶּ֣לֶד אֵינֶ֔נּוּ וַאֲנִ֖י אָ֥נָה אֲנִי־בָֽא׃",
+    "source_hebrew_sha256": "15f89c49858ecec4f41c2a05146e6a96a66dce75ed5f09df44acf85fede53517",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.31",
+    "translations": {
+     "ko": "그들은 요셉의 옷을 가져다가 숫염소 한 마리를 잡아 그 옷을 피에 적셨다.",
+     "en": "Then they took Joseph's robe and slaughtered a goat and dipped the robe in the blood.",
+     "es": "Tomaron la túnica de José, degollaron un macho cabrío y empaparon la túnica en la sangre."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.31",
+    "source_hebrew": "וַיִּקְח֖וּ אֶת־כְּתֹ֣נֶת יוֹסֵ֑ף וַֽיִּשְׁחֲטוּ֙ שְׂעִ֣יר עִזִּ֔ים וַיִּטְבְּל֥וּ אֶת־הַכֻּתֹּ֖נֶת בַּדָּֽם׃",
+    "source_hebrew_sha256": "3ed45ca93b4f68e2d357c78bc0381ee2855662fbf20361c3be600628e3c52c1d",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.32",
+    "translations": {
+     "ko": "그리고 채색 긴 옷을 아버지에게 보내며 말하였다. “우리가 이것을 주웠습니다. 이것이 아버지 아들의 옷인지 아닌지 살펴보십시오.”",
+     "en": "And they sent the long robe with sleeves and brought it to their father and said, “This we have found; please identify whether it is your son's robe or not.”",
+     "es": "Enviaron la túnica larga de mangas y la llevaron a su padre, y dijeron: «Esto hemos hallado; reconoce, por favor, si es la túnica de tu hijo o no»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.32",
+    "source_hebrew": "וַֽיְשַׁלְּח֞וּ אֶת־כְּתֹ֣נֶת הַפַּסִּ֗ים וַיָּבִ֨יאוּ֙ אֶל־אֲבִיהֶ֔ם וַיֹּאמְר֖וּ זֹ֣את מָצָ֑אנוּ הַכֶּר־נָ֗א הַכְּתֹ֧נֶת בִּנְךָ֛ הִ֖וא אִם־לֹֽא׃",
+    "source_hebrew_sha256": "f50a56ca0199c0f5a4df090437c76e93c3572c4161b15f80406f5f710fa7c306",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.33",
+    "translations": {
+     "ko": "그가 알아보고 말하였다. “내 아들의 옷이다. 사나운 짐승이 그를 잡아먹었구나. 요셉이 틀림없이 찢겼다.”",
+     "en": "And he identified it and said, “It is my son's robe. A fierce animal has devoured him. Joseph is without doubt torn to pieces.”",
+     "es": "Él la reconoció y dijo: «Es la túnica de mi hijo. Una fiera lo devoró; sin duda José ha sido despedazado»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.33",
+    "source_hebrew": "וַיַּכִּירָ֤הּ וַיֹּ֨אמֶר֙ כְּתֹ֣נֶת בְּנִ֔י חַיָּ֥ה רָעָ֖ה אֲכָלָ֑תְהוּ טָרֹ֥ף טֹרַ֖ף יוֹסֵֽף׃",
+    "source_hebrew_sha256": "2d44bfbe75f1a001146881a339cffebebc7236396d85020d631c5d86b8bac89e",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.34",
+    "translations": {
+     "ko": "야곱은 자기 옷을 찢고 허리에 굵은 베를 두르고 여러 날 동안 아들을 위해 애곡하였다.",
+     "en": "Then Jacob tore his garments and put sackcloth on his loins and mourned for his son many days.",
+     "es": "Jacob rasgó sus vestidos, se puso cilicio en la cintura y lloró a su hijo durante muchos días."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.34",
+    "source_hebrew": "וַיִּקְרַ֤ע יַעֲקֹב֙ שִׂמְלֹתָ֔יו וַיָּ֥שֶׂם שַׂ֖ק בְּמָתְנָ֑יו וַיִּתְאַבֵּ֥ל עַל־בְּנ֖וֹ יָמִ֥ים רַבִּֽים׃",
+    "source_hebrew_sha256": "1358876fb9ba172aa9f9cebb9038064d3a447f482c3e41d3006bfb583149ed63",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.35",
+    "translations": {
+     "ko": "그의 모든 아들과 모든 딸이 일어나 그를 위로하려 하였으나 그는 위로받기를 거절하며 말하였다. “아니다, 내가 슬퍼하며 스올로 내 아들에게 내려가겠다.” 그의 아버지는 그를 위해 울었다.",
+     "en": "All his sons and all his daughters rose up to comfort him, but he refused to be comforted and said, “No, I shall go down to Sheol to my son, mourning.” Thus his father wept for him.",
+     "es": "Todos sus hijos y todas sus hijas se levantaron para consolarlo, pero él rehusó ser consolado y dijo: «No; descenderé enlutado al Seol, a mi hijo». Y su padre lo lloró."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "שְׁאֹלָה는 \"스올\"로 음역하여 해석(무덤/저승)을 열어 둠.",
+    "counterargument_ko": "\"무덤\"으로 옮기는 선택이 가능함.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.35",
+    "source_hebrew": "וַיָּקֻמוּ֩ כָל־בָּנָ֨יו וְכָל־בְּנֹתָ֜יו לְנַחֲמ֗וֹ וַיְמָאֵן֙ לְהִתְנַחֵ֔ם וַיֹּ֕אמֶר כִּֽי־אֵרֵ֧ד אֶל־בְּנִ֛י אָבֵ֖ל שְׁאֹ֑לָה וַיֵּ֥בְךְּ אֹת֖וֹ אָבִֽיו׃",
+    "source_hebrew_sha256": "e415b0011ac82b990ba4cb5548515538ca509dbb33ce9228d693710a62cecab1",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.37.36",
+    "translations": {
+     "ko": "미디안 사람들은 그를 이집트에서 바로의 신하, 곧 경호대장 보디발에게 팔았다.",
+     "en": "Meanwhile the Midianites had sold him in Egypt to Potiphar, an officer of Pharaoh, the captain of the guard.",
+     "es": "Entretanto los madianitas lo vendieron en Egipto a Potifar, oficial del faraón, capitán de la guardia."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "הַמְּדָנִים(본문 표시, 미디안)과 28절의 מִדְיָנִים 표기 차이는 본 실행에서 통일된 \"미디안\"으로 옮김; 사본 대조는 하지 않음.",
+    "counterargument_ko": "히브리 표기 차이를 번역에 드러내는 선택도 가능함.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.37.36",
+    "source_hebrew": "וְהַ֨מְּדָנִ֔ים מָכְר֥וּ אֹת֖וֹ אֶל־מִצְרָ֑יִם לְפֽוֹטִיפַר֙ סְרִ֣יס פַּרְעֹ֔ה שַׂ֖ר הַטַּבָּחִֽים׃",
+    "source_hebrew_sha256": "970d93a58dae52bd9e647a83063553c070d5545348b6e3849bdd9efaa189a5da",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.1",
+    "translations": {
+     "ko": "그때에 유다가 형제들에게서 내려가 아둘람 사람, 이름이 히라인 사람에게로 가서 머물렀다.",
+     "en": "It happened at that time that Judah went down from his brothers and turned aside to a certain Adullamite whose name was Hirah.",
+     "es": "Sucedió en aquel tiempo que Judá se apartó de sus hermanos y se hospedó con un hombre adulamita llamado Hira."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.1",
+    "source_hebrew": "וַֽיְהִי֙ בָּעֵ֣ת הַהִ֔וא וַיֵּ֥רֶד יְהוּדָ֖ה מֵאֵ֣ת אֶחָ֑יו וַיֵּ֛ט עַד־אִ֥ישׁ עֲדֻלָּמִ֖י וּשְׁמ֥וֹ חִירָֽה׃",
+    "source_hebrew_sha256": "22147be885528c1be4be2b699d5786a629d71ec49b81b1b5e42a2527ff1bf046",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.2",
+    "translations": {
+     "ko": "유다는 거기서 수아라는 가나안 사람의 딸을 보고 그를 아내로 맞아 그에게 들어갔다.",
+     "en": "There Judah saw the daughter of a certain Canaanite whose name was Shua. He took her and went in to her,",
+     "es": "Allí Judá vio a la hija de un hombre cananeo llamado Súa; la tomó y se unió a ella."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.2",
+    "source_hebrew": "וַיַּרְא־שָׁ֧ם יְהוּדָ֛ה בַּת־אִ֥ישׁ כְּנַעֲנִ֖י וּשְׁמ֣וֹ שׁ֑וּעַ וַיִּקָּחֶ֖הָ וַיָּבֹ֥א אֵלֶֽיהָ׃",
+    "source_hebrew_sha256": "4b9e2b61d0cf5abbe8a1fe7ec10ae1cc400f02f7b8f1b5398ea671eab79201a7",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.3",
+    "translations": {
+     "ko": "그가 임신하여 아들을 낳자 유다가 그의 이름을 엘이라 하였다.",
+     "en": "and she conceived and bore a son, and he called his name Er.",
+     "es": "Ella concibió y dio a luz un hijo, y él le puso por nombre Er."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "וַיִּקְרָא(그가 불렀다)로 표시된 본문을 그대로 따름.",
+    "counterargument_ko": "4·5절의 וַתִּקְרָא(그 여자가 불렀다)와 주어가 다름. 본문 표시 그대로 직역함.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.3",
+    "source_hebrew": "וַתַּ֖הַר וַתֵּ֣לֶד בֵּ֑ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ עֵֽר׃",
+    "source_hebrew_sha256": "20c6c9b315b78d35188e46c4a04abb61969a975e4c8faa4528617b24fcaa4754",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.4",
+    "translations": {
+     "ko": "그가 다시 임신하여 아들을 낳고 그의 이름을 오난이라 하였다.",
+     "en": "She conceived again and bore a son, and she called his name Onan.",
+     "es": "Concibió otra vez y dio a luz un hijo, y le puso por nombre Onán."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.4",
+    "source_hebrew": "וַתַּ֥הַר ע֖וֹד וַתֵּ֣לֶד בֵּ֑ן וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ אוֹנָֽן׃",
+    "source_hebrew_sha256": "c7a8891ab086c354b9d36d914007bcbf8f0992918b78b85048d7150180f016af",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.5",
+    "translations": {
+     "ko": "그가 또 아들을 낳고 그의 이름을 셀라라 하였다. 그가 그를 낳을 때 유다는 거십에 있었다.",
+     "en": "Yet again she bore a son, and she called his name Shelah. Judah was in Chezib when she bore him.",
+     "es": "Volvió a dar a luz otro hijo y le puso por nombre Sela. Judá estaba en Quezib cuando ella lo dio a luz."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "בִכְזִיב는 지명으로 보고 \"거십\"으로 옮김.",
+    "counterargument_ko": "\"그가 낳을 때 유다가 거십에 있었다\"는 문장 주어 해석에 변동 여지가 있음.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.5",
+    "source_hebrew": "וַתֹּ֤סֶף עוֹד֙ וַתֵּ֣לֶד בֵּ֔ן וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵׁלָ֑ה וְהָיָ֥ה בִכְזִ֖יב בְּלִדְתָּ֥הּ אֹתֽוֹ׃",
+    "source_hebrew_sha256": "2d314ee1c77b82dd8c618fde68a30b80752728214ca2ffc28c4472dec88ab6c2",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.6",
+    "translations": {
+     "ko": "유다가 맏아들 엘을 위하여 아내를 맞았는데, 그의 이름은 다말이었다.",
+     "en": "And Judah took a wife for Er his firstborn, and her name was Tamar.",
+     "es": "Judá tomó una mujer para Er, su primogénito, y su nombre era Tamar."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.6",
+    "source_hebrew": "וַיִּקַּ֧ח יְהוּדָ֛ה אִשָּׁ֖ה לְעֵ֣ר בְּכוֹר֑וֹ וּשְׁמָ֖הּ תָּמָֽר׃",
+    "source_hebrew_sha256": "544e90488591cd2233761856343d8d27dcadde99c8add415eb861b1eb10fb7a9",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.7",
+    "translations": {
+     "ko": "유다의 맏아들 엘은 여호와의 눈앞에서 악하였으므로 여호와께서 그를 죽이셨다.",
+     "en": "But Er, Judah's firstborn, was wicked in the sight of the LORD, and the LORD put him to death.",
+     "es": "Pero Er, primogénito de Judá, fue malo ante los ojos del SEÑOR, y el SEÑOR lo hizo morir."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.7",
+    "source_hebrew": "וַיְהִ֗י עֵ֚ר בְּכ֣וֹר יְהוּדָ֔ה רַ֖ע בְּעֵינֵ֣י יְהוָ֑ה וַיְמִתֵ֖הוּ יְהוָֽה׃",
+    "source_hebrew_sha256": "4329306d6853c9628c069baaba6b7985d1380e611c44142b083f095af9721676",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.8",
+    "translations": {
+     "ko": "유다가 오난에게 말하였다. “네 형의 아내에게 들어가 시동생의 의무를 행하여 네 형을 위해 후사를 일으켜라.”",
+     "en": "Then Judah said to Onan, “Go in to your brother's wife and perform the duty of a brother-in-law to her, and raise up offspring for your brother.”",
+     "es": "Entonces Judá dijo a Onán: «Únete a la mujer de tu hermano y cumple con ella como cuñado, y levanta descendencia para tu hermano»."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "וְיַבֵּם(시동생 혼인 의무)는 \"시동생의 의무를 행하여\"로 풀어 옮김.",
+    "counterargument_ko": "동사 자체를 단순히 \"결혼하라\"로 옮길 수 있으나 의무 개념을 살림.",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.8",
+    "source_hebrew": "וַיֹּ֤אמֶר יְהוּדָה֙ לְאוֹנָ֔ן בֹּ֛א אֶל־אֵ֥שֶׁת אָחִ֖יךָ וְיַבֵּ֣ם אֹתָ֑הּ וְהָקֵ֥ם זֶ֖רַע לְאָחִֽיךָ׃",
+    "source_hebrew_sha256": "4db6f6fc3d2680e57d216684bca6a9f0950b2dea9bb24220d848af2cfe3a8a5b",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.10",
+    "translations": {
+     "ko": "그가 한 일이 여호와의 눈에 악하였으므로 여호와께서 그도 죽이셨다.",
+     "en": "And what he did was wicked in the sight of the LORD, and he put him to death also.",
+     "es": "Lo que hizo fue malo ante los ojos del SEÑOR, y también a él lo hizo morir."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.10",
+    "source_hebrew": "וַיֵּ֛רַע בְּעֵינֵ֥י יְהוָ֖ה אֲשֶׁ֣ר עָשָׂ֑ה וַיָּ֖מֶת גַּם־אֹתֽוֹ׃",
+    "source_hebrew_sha256": "a4a2288b08284333c27b266a294902ec71a2a1e32a84e88de06cef56feb89eb2",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   },
+   {
+    "id": "Gen.38.11",
+    "translations": {
+     "ko": "유다가 자기 며느리 다말에게 말하였다. “내 아들 셀라가 클 때까지 네 아버지 집에서 과부로 살아라.” 그가 ‘그도 자기 형들처럼 죽을까 두렵다’ 하고 생각하였기 때문이다. 다말은 가서 자기 아버지 집에 살았다.",
+     "en": "Then Judah said to Tamar his daughter-in-law, “Remain a widow in your father's house, till Shelah my son grows up”—for he feared that he would die, like his brothers. So Tamar went and remained in her father's house.",
+     "es": "Entonces Judá dijo a Tamar, su nuera: «Quédate viuda en la casa de tu padre hasta que crezca mi hijo Sela», pues dijo: «No sea que muera él también como sus hermanos». Y Tamar se fue y se quedó en la casa de su padre."
+    },
+    "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+    "reason_ko": "히브리어 본문을 절 범위 안에서 직역 위주로 옮김. 특별한 어휘·구문 쟁점은 확인하지 못함(정형 서술).",
+    "counterargument_ko": "의역 정도나 접속사 처리에서 다른 선택이 가능하나 뜻이 달라질 정도의 쟁점은 확인하지 못함(정형 서술).",
+    "current_opinion_ko": "본 번역을 잠정 유지하되 대안을 열어 둠.",
+    "reconsider_if_ko": "원문 해석이 달라지거나 독립 검토에서 문제가 지적될 때.",
+    "source_reference": "Gen.38.11",
+    "source_hebrew": "וַיֹּ֣אמֶר יְהוּדָה֩ לְתָמָ֨ר כַּלָּת֜וֹ שְׁבִ֧י אַלְמָנָ֣ה בֵית־אָבִ֗יךְ עַד־יִגְדַּל֙ שֵׁלָ֣ה בְנִ֔י כִּ֣י אָמַ֔ר פֶּן־יָמ֥וּת גַּם־ה֖וּא כְּאֶחָ֑יו וַתֵּ֣לֶךְ תָּמָ֔ר וַתֵּ֖שֶׁב בֵּ֥ית אָבִֽיהָ׃",
+    "source_hebrew_sha256": "84e9ffc732df40c31ef8f5d1c8537336a3a76fe53eaa8eb149a0e5778f324928",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "rights": {
+     "text": "WLC public domain",
+     "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+     "credit": "https://github.com/openscriptures/morphhb"
+    }
+   }
+  ]
+ },
+ "self_check": {
+  "exact_id_coverage": true,
+  "duplicate_ids": false,
+  "ko_en_es_nonempty": true,
+  "hebrew_provenance_and_rights_attached": true,
+  "no_human_certification_claim": true,
+  "reread_for_dropped_clauses_and_language_agreement": "one drafting pass by the same model plus automated coverage checks; no full second reread; residual errors possible",
+  "independent_review": "not performed; GPT and Gemini review remain required",
+  "open_items": [
+   "Most verses carry formulaic reason/counterargument/opinion text (marked 정형 서술); only verses with identified issues have specific notes",
+   "Gen.36.24 הַיֵּמִם (hot springs vs mules) uncertain",
+   "Gen.37.3 כְּתֹנֶת פַּסִּים sense uncertain",
+   "Gen.37.25 spice terms uncertain",
+   "Gen.37.28 subject of drawing Joseph up left ambiguous",
+   "Gen.38.3 verb subject וַיִּקְרָא as displayed",
+   "Divine name rendered 여호와/LORD/SEÑOR by convention; not a source-based decision",
+   "Gen.36 name spellings (ko/es) are conventional renderings, not collated against witnesses"
+  ],
+  "rights_note": "WLC public domain; OSHB morphology CC BY 4.0 (https://github.com/openscriptures/morphhb). Translations are new model drafts, not copied from a modern translation."
+ },
+ "publication_requires": [
+  "GPT review",
+  "Gemini review",
+  "current best editorial selection",
+  "versioned archive",
+  "publication checks"
+ ]
+}
