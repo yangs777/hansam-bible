@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.8 — 2026-10-27
+
+- Added Genesis3:16–20 with three-language selections, independent GPT/Gemini drafts, final selected-text review and actual Claude Code review of3:16,17,19;86 total verses.
+- Reused five existing cloud drafts. Preserved the plain upstream accent note separately; Hebrew and imported tags remain intact.
+- Documented pain/pregnancy alternatives, desire/rule interpretation, homographic/pausal forms, ground/dust and Eve/living limits. Previous81 selections and v0.4.7 exports preserved.
+
 ## 0.4.7 — 2026-10-26
 
 - Added Genesis 3:11–15 in Korean, English and Spanish: 81 selected verses / 243 translations overall.

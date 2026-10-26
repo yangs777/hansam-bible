@@ -1,12 +1,12 @@
-# Génesis 3:1–15
+# Génesis 3:1–20
 
-Hansam Yang · Original Bible · v0.4.7
+Hansam Yang · Original Bible · v0.4.8
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Los primeros quince versículos de Génesis 3 tienen selecciones en tres idiomas y comparación GPT/Gemini, más revisión Claude Code de los vv. 1, 4, 5, 6, 8, 10, 12, 14 y 15. Se conservan alternativas léxicas, sintácticas y referenciales; el cotejo de manuscritos y la revisión humana siguen pendientes.
+Los primeros veinte versículos de Génesis3 tienen selecciones en tres idiomas y comparación GPT/Gemini, con revisión Claude Code de los vv1,4,5,6,8,10,12,14,15,16,17,19. Se conservan alternativas léxicas y sintácticas; siguen pendientes el cotejo de manuscritos y la revisión humana.
 
 Basis: MT-WLC display; no independent full critical collation completed
 
@@ -52,6 +52,10 @@ Previous v0.4.6
 
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
+Previous v0.4.7
+
+La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
+
 ## 2 · HYB.GEN.003.002
 
 Hebrew display (MT/WLC): וַתֹּ֥אמֶר הָֽאִשָּׁ֖ה אֶל־הַנָּחָ֑שׁ מִפְּרִ֥י עֵֽץ־הַגָּ֖ן נֹאכֵֽל׃
@@ -86,6 +90,10 @@ Previous v0.4.6
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
 
+Previous v0.4.7
+
+La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
+
 ## 3 · HYB.GEN.003.003
 
 Hebrew display (MT/WLC): וּמִפְּרִ֣י הָעֵץ֮ אֲשֶׁ֣ר בְּתוֹךְ־הַגָּן֒ אָמַ֣ר אֱלֹהִ֗ים לֹ֤א תֹֽאכְלוּ֙ מִמֶּ֔נּוּ וְלֹ֥א תִגְּע֖וּ בּ֑וֹ פֶּן־תְּמֻתֽוּן׃
@@ -117,6 +125,10 @@ Previous v0.4.5
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
 Previous v0.4.6
+
+Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
+
+Previous v0.4.7
 
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
@@ -160,6 +172,10 @@ Previous v0.4.6
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
 
+Previous v0.4.7
+
+La serpiente dijo a la mujer: «Ciertamente no morirán.
+
 ## 5 · HYB.GEN.003.005
 
 Hebrew display (MT/WLC): כִּ֚י יֹדֵ֣עַ אֱלֹהִ֔ים כִּ֗י בְּיוֹם֙ אֲכָלְכֶ֣ם מִמֶּ֔נּוּ וְנִפְקְח֖וּ עֵֽינֵיכֶ֑ם וִהְיִיתֶם֙ כֵּֽאלֹהִ֔ים יֹדְעֵ֖י ט֥וֹב וָרָֽע׃
@@ -200,6 +216,10 @@ Previous v0.4.6
 
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
+Previous v0.4.7
+
+Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
+
 ## 6 · HYB.GEN.003.006
 
 Hebrew display (MT/WLC): וַתֵּ֣רֶא הָֽאִשָּׁ֡ה כִּ֣י טוֹב֩ הָעֵ֨ץ לְמַאֲכָ֜ל וְכִ֧י תַֽאֲוָה־ה֣וּא לָעֵינַ֗יִם וְנֶחְמָ֤ד הָעֵץ֙ לְהַשְׂכִּ֔יל וַתִּקַּ֥ח מִפִּרְי֖וֹ וַתֹּאכַ֑ל וַתִּתֵּ֧ן גַּם־לְאִישָׁ֛הּ עִמָּ֖הּ וַיֹּאכַֽל׃
@@ -236,6 +256,10 @@ Previous v0.4.6
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
 
+Previous v0.4.7
+
+La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
+
 ## 7 · HYB.GEN.003.007
 
 Hebrew display (MT/WLC): וַתִּפָּקַ֨חְנָה֙ עֵינֵ֣י שְׁנֵיהֶ֔ם וַיֵּ֣דְע֔וּ כִּ֥י עֵֽירֻמִּ֖ם הֵ֑ם וַֽיִּתְפְּרוּ֙ עֲלֵ֣ה תְאֵנָ֔ה וַיַּעֲשׂ֥וּ לָהֶ֖ם חֲגֹרֹֽת׃
@@ -263,6 +287,10 @@ Final opinion (Korean original): 눈이 열림·벌거벗음의 인식·잎을 �
 Counterargument (Korean): 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
 
 Previous v0.4.6
+
+Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
+
+Previous v0.4.7
 
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
@@ -302,6 +330,10 @@ Previous v0.4.6
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
 
+Previous v0.4.7
+
+Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
+
 ## 9 · HYB.GEN.003.009
 
 Hebrew display (MT/WLC): וַיִּקְרָ֛א יְהוָ֥ה אֱלֹהִ֖ים אֶל־הָֽאָדָ֑ם וַיֹּ֥אמֶר ל֖וֹ אַיֶּֽכָּה׃
@@ -329,6 +361,10 @@ Final opinion (Korean original): 관사 있는 האדם을 그 사람으로, 단
 Counterargument (Korean): 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
 
 Previous v0.4.6
+
+YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
+
+Previous v0.4.7
 
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
@@ -368,6 +404,10 @@ Previous v0.4.6
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
 
+Previous v0.4.7
+
+Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
+
 ## 11 · HYB.GEN.003.011
 
 Hebrew display (MT/WLC): וַיֹּ֕אמֶר מִ֚י הִגִּ֣יד לְךָ֔ כִּ֥י עֵירֹ֖ם אָ֑תָּה הֲמִן־הָעֵ֗ץ אֲשֶׁ֧ר צִוִּיתִ֛יךָ לְבִלְתִּ֥י אֲכָל־מִמֶּ֖נּוּ אָכָֽלְתָּ׃
@@ -393,6 +433,10 @@ Final opinion (Korean original): 선택된 3개 언어 번역은 원문의 2인�
 Final opinion (Korean original): 벌거벗음의 정보 출처와 금지한 나무에서 먹었는지를 두 질문으로 옮긴다. 부정은 먹지 말라는 명령 내용에 속하며 주절 질문 자체의 부정이 아니다. ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
 
 Counterargument (Korean): ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
+
+Previous v0.4.7
+
+Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
 ## 12 · HYB.GEN.003.012
 
@@ -426,6 +470,10 @@ Final opinion (Korean original): 당신이 주신/그 여자가 주었다의 반
 
 Counterargument (Korean): 함께 있도록은 עם의 관계를 자연스럽게 푼 선택이며 목적 해석이 포함된다. 나무에서 난 것은 생략된 먹을 것을 푼 편집적 보충이다. 책임 전가·원망은 담화 해석으로 가능하지만 화자의 동기를 번역에 확정하지 않는다.
 
+Previous v0.4.7
+
+El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
+
 ## 13 · HYB.GEN.003.013
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר יְהוָ֧ה אֱלֹהִ֛ים לָאִשָּׁ֖ה מַה־זֹּ֣את עָשִׂ֑ית וַתֹּ֨אמֶר֙ הָֽאִשָּׁ֔ה הַנָּחָ֥שׁ הִשִּׁיאַ֖נִי וָאֹכֵֽל׃
@@ -451,6 +499,10 @@ YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «L
 Final opinion (Korean original): 무엇을 했느냐는 질문과 뱀이 속였다는 여자의 진술 및 내가 먹었다를 화자별로 보존한다. 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
 
 Counterargument (Korean): 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
+
+Previous v0.4.7
+
+YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
 ## 14 · HYB.GEN.003.014
 
@@ -484,6 +536,10 @@ Final opinion (Korean original): מכל의 비교를 현재 선택하여 모든 
 
 Counterargument (Korean): 가운데서·구별되어라는 범위/분리 독법도 있다. 비교가 다른 모든 동물의 별도 저주를 확증하지 않는다. 이전 다리·해부학 변화나 흙 먹기의 문자적/상징적 의미를 확정하지 않는다. 14–15절을 뱀에게 하는 발화로 묶는다.
 
+Previous v0.4.7
+
+YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
+
 ## 15 · HYB.GEN.003.015
 
 Hebrew display (MT/WLC): וְאֵיבָ֣ה ׀ אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃
@@ -516,6 +572,158 @@ Final opinion (Korean original): 적의와 양쪽 후손을 반복하고 הוא�
 
 Counterargument (Korean): BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
 
+Previous v0.4.7
+
+Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
+
+## 16 · HYB.GEN.003.016
+
+Hebrew display (MT/WLC): אֶֽל־הָאִשָּׁ֣ה אָמַ֗ר הַרְבָּ֤ה אַרְבֶּה֙ עִצְּבוֹנֵ֣ךְ וְהֵֽרֹנֵ֔ךְ בְּעֶ֖צֶב תֵּֽלְדִ֣י בָנִ֑ים וְאֶל־אִישֵׁךְ֙ תְּשׁ֣וּקָתֵ֔ךְ וְה֖וּא יִמְשָׁל־בָּֽךְ׃
+
+A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.16
+
+### Traducción seleccionada: mejor opción actual
+
+늘리다의 반복을 크게로 옮기고 고통과 임신의 두 명사를 현재는 임신의 고통이라는 결합 독법으로 읽는다. 갈망의 방향과 다스릴 것이다라는 예고를 보존한다.
+
+#### claude-opus-5-5
+
+A la mujer dijo: “Multiplicaré en gran manera tu dolor y tu embarazo; con dolor darás a luz hijos. Tu deseo será hacia tu marido, y él gobernará sobre ti.”
+
+Final opinion (Korean original): 채택되지 않은 모델 초안이다. 강조 구문은 반영했고, 두 명사는 유지하고 중언법은 각주로 돌렸다. 갈망은 방향만 중립적으로 번역했고, 다스림은 명령이 아닌 결과 서술로 보았다. 편집 채택 전에 다른 모델 번역과 비교하고 인간 검토를 거쳐야 한다.
+
+#### gemini-3.8-flash-medium
+
+A la mujer dijo: “En gran manera multiplicaré tu fatiga y tu concepción; con dolor darás a luz hijos. Tu anhelo será para tu marido, y él se enseñoreará de ti.”
+
+Final opinion (Korean original): 주인님, 제안 번역 ‘임신의 고통’은 접속된 두 명사 ‘עִצְּבוֹנֵךְ וְהֵרֹנֵךְ’(BDB 6093 고통/수고, BDB 2032 수태/임신)을 중언법(hendiadys)으로 처리한 독법입니다. 그러나 이는 문자적 병렬인 ‘네 고통과 네 임신’이라는 대안적 번역 가능성을 배제할 수 없으며, 임신의 빈도나 특정 통사론을 필연적으로 단정하지 않습니다. 사전(BDB)의 정의가 중언법 채택이나 모든 신학적 쟁점을 홀로 입증하지는 못합니다. ‘הַרְבָּה אַרְבֶּה’의 부정사 절대형은 양적·수치적 배가가 아닌 관습적 강조(GKC 113n, o)를 나타냅니다. ‘תְּשׁוּקָתֵךְ’(BDB 8669 갈망)과 ‘יִמְשָׁל־בָּךְ’(BDB 4910 그가 너를 다스릴 것이다)의 미완료형은 형태론상 명령형 규범(imperative prescription)이 아닌 진술이지만, 문법 형태론만으로 규범 신학이나 타락으로 인한 왜곡된 권력 구조를 문법적으로 입증된 사실로 규정할 수는 없습니다. 인용 부호는 현대 편집적 요소입니다.
+
+#### gpt-6.1-sol
+
+A la mujer le dijo: «Multiplicaré en gran manera tu dolor y tus embarazos. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti.».
+
+Final opinion (Korean original): 늘리다의 반복을 크게로 옮기고 고통과 임신의 두 명사를 현재는 임신의 고통이라는 결합 독법으로 읽는다. 갈망의 방향과 다스릴 것이다라는 예고를 보존한다. 두 명사를 고통과 임신으로 병렬 번역하는 GPT 초기·Claude 초안과 기존 클라우드 대안을 보존한다. 임신 횟수 증가나 중언법을 확정하지 않는다. 갈망을 오직 지배욕·성욕·적의로 좁히지 않는다. 문맥상 미래 진술을 선택하며 미완료 형태만으로 모든 규범적 신학을 판정하지 않는다.
+
+Counterargument (Korean): 두 명사를 고통과 임신으로 병렬 번역하는 GPT 초기·Claude 초안과 기존 클라우드 대안을 보존한다. 임신 횟수 증가나 중언법을 확정하지 않는다. 갈망을 오직 지배욕·성욕·적의로 좁히지 않는다. 문맥상 미래 진술을 선택하며 미완료 형태만으로 모든 규범적 신학을 판정하지 않는다.
+
+## 17 · HYB.GEN.003.017
+
+Hebrew display (MT/WLC): וּלְאָדָ֣ם אָמַ֗ר כִּֽי־שָׁמַעְתָּ֮ לְק֣וֹל אִשְׁתֶּךָ֒ וַתֹּ֨אכַל֙ מִן־הָעֵ֔ץ אֲשֶׁ֤ר צִוִּיתִ֨יךָ֙ לֵאמֹ֔ר לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ אֲרוּרָ֤ה הָֽאֲדָמָה֙ בַּֽעֲבוּרֶ֔ךָ בְּעִצָּבוֹן֙ תֹּֽאכֲלֶ֔נָּה כֹּ֖ל יְמֵ֥י חַיֶּֽיךָ׃
+
+A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.17
+
+### Traducción seleccionada: mejor opción actual
+
+아담/Adán이라는 현재 선택과 금지 위반의 이유절, 직접 저주의 주어인 땅, 평생 고된 수고를 보존한다.
+
+#### claude-opus-5-5
+
+Y a Adán dijo: “Por cuanto escuchaste la voz de tu mujer y comiste del árbol del cual te mandé diciendo: ‘No comerás de él’, maldita es la tierra por tu causa; con penoso trabajo comerás de ella todos los días de tu vida.
+
+Final opinion (Korean original): 채택되지 않은 모델 초안이다. ‘아담’은 각주와 함께 사용했고, 금지 인용은 보존했으며, ‘너 때문에 땅이 저주받음’과 ‘평생의 고통스러운 수고’를 반영했다. מִמֶּנּוּ의 1cp 태그는 데이터를 보존한 채 오류 가능 분석으로 표시했다. 악센트 메모는 성경 본문이 아닌 메타데이터이다.
+
+#### gemini-3.8-flash-medium
+
+Y al hombre dijo: “Por cuanto escuchaste la voz de tu mujer y comiste del árbol del que te ordené diciendo: ‘No comerás de él’, maldita será la tierra por tu causa; con doloroso afán comerás de ella todos los días de tu vida.”
+
+Final opinion (Korean original): 주인님, ‘וּלְאָדָם’은 관사가 없는 형태이므로 고유명사 ‘아담에게’뿐 아니라 ‘사람에게’로도 번역될 수 있습니다. 본문 내 ‘מִמֶּנּוּ’는 OSHB 태깅에 1인칭 복수(HR/Sp1cp)로 등록되어 있으나, GKC 103i에 제시된 바와 같이 ‘מִמֶּנּוּ’는 1인칭 복수(우리에게서)와 3인칭 남성 단수(그것에게서)의 완전한 동형이의(homography) 형태입니다. 따라서 기계적 오류로 단정하지 않고 기존 태깅 코드를 보존하되, 문맥상 선행사인 ‘그 나무’(הָעֵץ, 3ms)를 가리키는 것으로 설명해야 합니다. ‘너 때문에 땅이 저주받았다’는 진술에서 무죄한 땅이 활력을 상실했다거나 온 피조물이 탄식한다는 해석은 문법적으로 증명된 사실이 아닌 신학적 해석입니다. 17절 끝의 닫는 따옴표 부재는 19절까지 이어지는 신적 담화의 편집적 처리를 보여줍니다.
+
+#### gpt-6.1-sol
+
+A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
+
+Final opinion (Korean original): 아담/Adán이라는 현재 선택과 금지 위반의 이유절, 직접 저주의 주어인 땅, 평생 고된 수고를 보존한다. 사람이라는 번역도 가능하다. 땅에서 먹을 것을 얻는다는 것은 먹다의 여성 목적어를 자연스럽게 푼 것이다. ממנו는1cp/3ms 동형이며 수입1cp 분석을 보존하고 문맥상 나무에서로 읽는다. 악센트 비교 주석은 이미 지원되는 별도 메타데이터이며 실물 BHS/L 대조 결과로 사칭하지 않는다.
+
+Counterargument (Korean): 사람이라는 번역도 가능하다. 땅에서 먹을 것을 얻는다는 것은 먹다의 여성 목적어를 자연스럽게 푼 것이다. ממנו는1cp/3ms 동형이며 수입1cp 분석을 보존하고 문맥상 나무에서로 읽는다. 악센트 비교 주석은 이미 지원되는 별도 메타데이터이며 실물 BHS/L 대조 결과로 사칭하지 않는다.
+
+## 18 · HYB.GEN.003.018
+
+Hebrew display (MT/WLC): וְק֥וֹץ וְדַרְדַּ֖ר תַּצְמִ֣יחַֽ לָ֑ךְ וְאָכַלְתָּ֖ אֶת־עֵ֥שֶׂב הַשָּׂדֶֽה׃
+
+Te producirá espinos y cardos, y comerás las plantas del campo.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.18
+
+### Traducción seleccionada: mejor opción actual
+
+앞 절의 땅을 주어로 명시하고 가시·엉겅퀴 및 들의 식물을 옮긴다.
+
+#### gemini-3.8-flash-medium
+
+Espinos y cardos te producirá, y comerás las plantas del campo.
+
+Final opinion (Korean original): 주인님, ‘תַּצְמִיחַ לָךְ’에서 ‘לָךְ’는 제공된 태깅에 여성 2인칭(HR/Sp2fs)으로 기록되어 있으나, GKC 103f 표에 기술된 대로 남성 2인칭 대명사 접미사 ‘לְךָ’(le-kha)가 휴지형(pause)에서 ‘לָךְ’(la-kh)으로 실현된 것입니다. 따라서 기계적 오류로 추정하지 않고 원 태깅을 유지하면서 남성(아담)에 대한 휴지형 용례로 문맥을 설명해야 합니다. ‘עֵשֶׂב הַשָּׂדֶה’(들의 식물)는 배타적으로 인간의 손으로 경작된 농작물만을 의미하거나 생물학적으로 완전히 새로운 식물의 등장을 문법적으로 강제하지 않습니다.
+
+#### gpt-6.1-sol
+
+Te producirá espinos y cardos, y comerás las plantas del campo.
+
+Final opinion (Korean original): 앞 절의 땅을 주어로 명시하고 가시·엉겅퀴 및 들의 식물을 옮긴다. 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
+
+Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
+
+## 19 · HYB.GEN.003.019
+
+Hebrew display (MT/WLC): בְּזֵעַ֤ת אַפֶּ֨יךָ֙ תֹּ֣אכַל לֶ֔חֶם עַ֤ד שֽׁוּבְךָ֙ אֶל־הָ֣אֲדָמָ֔ה כִּ֥י מִמֶּ֖נָּה לֻקָּ֑חְתָּ כִּֽי־עָפָ֣ר אַ֔תָּה וְאֶל־עָפָ֖ר תָּשֽׁוּב׃
+
+Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.19
+
+### Traducción seleccionada: mejor opción actual
+
+얼굴의 땀, 빵, 땅으로 돌아감, 티끌로 돌아감의 반복을 살린다. 땅과 티끌의 서로 다른 어휘를 구별한다.
+
+#### claude-opus-5-5
+
+Con el sudor de tu rostro comerás el pan hasta que vuelvas a la tierra, porque de ella fuiste tomado; pues polvo eres, y al polvo volverás.”
+
+Final opinion (Korean original): 채택되지 않은 모델 초안이다. 얼굴의 땀, 양식, 땅/흙의 구분, ‘돌아감’의 수미상관을 보존했다. 기존 2:7 번역어와의 일관성은 편집 단계에서 확인해야 한다.
+
+#### gemini-3.8-flash-medium
+
+Con el sudor de tu rostro comerás el pan hasta que vuelvas a la tierra, porque de ella fuiste tomado; pues polvo eres, y al polvo volverás.”
+
+Final opinion (Korean original): 주인님, ‘לֶחֶם’을 ‘빵’으로 번역한 것은 일상적 음식 및 양식을 포괄하는 어휘(food/bread)의 허용 가능한 선택이나, 포괄적 생계 수단으로서의 ‘식물/음식’이라는 폭넓은 의미를 배제하지 않도록 주석적 고려가 필요합니다. 본문은 ‘הָאֲדָמָה’(땅/흙, ground)와 ‘עָפָר’(티끌/먼지, dust)을 명확히 구분하고 있으며, 제안 번역이 이를 ‘땅’과 ‘티끌’로 변별한 것은 적절합니다. 17절에서 시작된 신적 선언의 인용 부호가 19절 끝에서 닫히는 것은 현대 편집자의 구두점 배치에 따릅니다.
+
+#### gpt-6.1-sol
+
+Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
+
+Final opinion (Korean original): 얼굴의 땀, 빵, 땅으로 돌아감, 티끌로 돌아감의 반복을 살린다. 땅과 티끌의 서로 다른 어휘를 구별한다. 양식/food와 흙먼지/흙도 대안이다. 기존2:7의 흙먼지와 이 절의 티끌은 같은 עפר를 옮긴 표현 차이이며 서로 다른 물질을 주장하지 않는다. 죽음 문맥을 넘어 영혼·부활·물질 구성·과학 이론을 본문에 보충하지 않는다.
+
+Counterargument (Korean): 양식/food와 흙먼지/흙도 대안이다. 기존2:7의 흙먼지와 이 절의 티끌은 같은 עפר를 옮긴 표현 차이이며 서로 다른 물질을 주장하지 않는다. 죽음 문맥을 넘어 영혼·부활·물질 구성·과학 이론을 본문에 보충하지 않는다.
+
+## 20 · HYB.GEN.003.020
+
+Hebrew display (MT/WLC): וַיִּקְרָ֧א הָֽאָדָ֛ם שֵׁ֥ם אִשְׁתּ֖וֹ חַוָּ֑ה כִּ֛י הִ֥וא הָֽיְתָ֖ה אֵ֥ם כָּל־חָֽי׃
+
+El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.3.20
+
+### Traducción seleccionada: mejor opción actual
+
+하와/Eve/Eva의 이름과 살아 있는 이의 어머니라는 서술을 유지한다.
+
+#### gemini-3.8-flash-medium
+
+Y llamó el hombre el nombre de su mujer Eva, por cuanto ella era la madre de todos los vivientes.
+
+Final opinion (Korean original): 주인님, ‘הָאָדָם’은 정관사가 붙어 ‘그 사람’으로 정확히 번역되었습니다. ‘하와’(חַוָּה)와 ‘살아 있는 자’(חָי) 사이의 언어유희적 관계는 서사적·문학적 연결일 뿐, 역사언어학적으로 확정된 유일한 어원이나 이름 부여자의 신앙적·희망적 동기를 문법적으로 입증하는 사실이 아닙니다. ‘הָיְתָה’(Qal 완료 3fs)는 문자적으로 ‘~이었다’(was)를 뜻하며, 필연적으로 ‘~이 될 것이었다’(would become)는 목적론적 결과를 문법 형태로만 단정할 수 없으므로 제안본의 ‘어머니였기 때문이다’는 형태론에 충실합니다. ‘모든 산 자’(כָּל־חָי)는 생물학적 보편 전체라기보다 서사적으로 한정된(narratively scoped) 범위로 이해됩니다. 칠십인역(LXX) 초기 인용은 본 검토에서 별도 대조·검증되지 않았습니다.
+
+#### gpt-6.1-sol
+
+El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
+
+Final opinion (Korean original): 하와/Eve/Eva의 이름과 살아 있는 이의 어머니라는 서술을 유지한다. 이름과 생명의 문학적 연결은 정확한 역사 어원 증명이 아니다. 어머니였다는 서술자의 시점과 앞으로 어머니가 됨이라는 독법을 열어 둔다. 이름 짓기의 믿음·희망·지배 동기를 확정하거나 모든 동식물의 생물학적 모계로 확대하지 않는다.
+
+Counterargument (Korean): 이름과 생명의 문학적 연결은 정확한 역사 어원 증명이 아니다. 어머니였다는 서술자의 시점과 앞으로 어머니가 됨이라는 독법을 열어 둔다. 이름 짓기의 믿음·희망·지배 동기를 확정하거나 모든 동식물의 생물학적 모계로 확대하지 않는다.
+
 ## Notes
 
 El v. 1 elige la pregunta retórica de veras dijo Dios, también registrada en BDB. Siguen abiertas la exclamación o una frase incompleta. Se elige ningún árbol, conservando no de todos como alternativa de alcance. No se añade una identidad teológica a la serpiente.
@@ -544,9 +752,17 @@ En el v. 15 zera es masculino singular gramatical; BDB registra aquí la descend
 
 No se cotejó una edición o manuscrito concreto de la Septuaginta o Vulgata; las generalizaciones de modelos no son pruebas de testigos. No se añaden Jesús, María ni Satanás al texto. Las lecturas personales posteriores pueden debatirse aparte de la selección lingüística. Errores de citas y afirmaciones excesivas quedan separados de la fuente fijada. La pregunta principal del v. 11 no es negativa; la negación está dentro del mandato. Las comillas modernas son editoriales. La referencia individual también admite discusión lingüística.
 
+El v16 elige dolor en el embarazo para dos nombres coordinados. Dolor y embarazo/concepción conserva mejor la estructura superficial y queda en los borradores GPT/Claude. No se fija una frecuencia de embarazos ni un endíadis seguro. El primer nombre también aparece como trabajo penoso en el v17; el segundo es afín pero distinto.
+
+El deseo se dirige al marido sin limitarse al control, la sexualidad o la hostilidad. Gobernará se elige como predicción contextual, sin convertirla en un imperativo. La forma imperfecta por sí sola no resuelve toda cuestión normativa o teológica. Las interpretaciones de modelos se distinguen de las pruebas lingüísticas.
+
+El v17 elige Adán y conserva el hombre como alternativa; la tierra es el sujeto directo de la maldición. Se conservan las etiquetas importadas1cp y2fs. Las tablas de GKC103 y el discurso apoyan del árbol y el destinatario masculino. La nota de acentos del v17 sigue como metadato, sin afirmar un cotejo físico nuevo de L/BHS.
+
+Las plantas del campo del v18 no se restringen a una especie o cultivo. El v19 elige pan y conserva alimento como alternativa, distinguiendo tierra/polvo. La expresión coreana para polvo difiere de2:7 sin afirmar otro material. El v20 conserva el vínculo literario Eva/viviente, sin probar etimología, motivo ni ascendencia biológica de todo organismo. Las comillas de17–19 son editoriales.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–15 (es), research pilot v0.4.7. https://yangs777.github.io/hansam-bible/es/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–20 (es), research pilot v0.4.8. https://yangs777.github.io/hansam-bible/es/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
