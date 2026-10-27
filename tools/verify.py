@@ -120,6 +120,9 @@ for lang in ('ko','en','es'):
     if lang=='ko':
         assert support_config['bank']['account'] in support_html
         assert support_config['bank']['holder'] in support_html
+        if support_config['product']['url']:
+            assert support_config['product']['url'] in pages[(D/lang/'support/index.html').resolve()].links
+            assert 'support-pending' not in support_html
         assert support_html.count('class="support-card"')==2
         assert all(value not in support_html for value in ('USDT','TRC20',support_config['usdt']['address']))
     else:
