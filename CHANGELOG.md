@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.9 — 2026-10-27
+
+- Added Genesis 3:21–24 and 4:1 in three languages: 91 selected verses / 273 translations, completing Genesis 1–3.
+- Preserved actual GPT/Gemini proposals and final opinions, Claude Code reviews of 3:22, 3:24 and 4:1, and five existing cloud drafts.
+- Recorded alternatives for the unfinished lest clause, plural referent, cherubim and sword flame, and with YHWH’s help. Prior 86 selections and v0.4.8 archives/ZIP preserved; existing URLs stay stable.
+
 ## v0.4.8 — 2026-10-27
 
 - Added Genesis3:16–20 with three-language selections, independent GPT/Gemini drafts, final selected-text review and actual Claude Code review of3:16,17,19;86 total verses.
