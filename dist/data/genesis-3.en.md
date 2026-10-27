@@ -1,6 +1,6 @@
 # Genesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.11
+Hansam Yang · Original Bible · v0.4.12
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -45,6 +45,10 @@ Final opinion (Korean original): 꾀가 많았다는 비교와 복수 너희를 
 Counterargument (Korean): אף כי의 감탄·미완결 발화, 모든 나무에서는 아님이라는 부정 범위 대안은 남긴다. 문법만으로 예외 없음이나 뱀의 심리를 확정하지 않고 사탄이라는 이름을 보충하지 않는다.
 
 Previous v0.4.10
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.11
 
 The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
 
@@ -98,6 +102,10 @@ Previous v0.4.10
 
 The woman said to the serpent, “We may eat the fruit of the trees of the garden.
 
+Previous v0.4.11
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
 Previous v0.4.5
 
 The woman said to the serpent, “We may eat the fruit of the trees of the garden.
@@ -145,6 +153,10 @@ Final opinion (Korean original): 먹지 말라와 만지지 말라를 여자가 
 Counterargument (Korean): 왜 접촉 금지가 앞 장의 기록과 다른지는 확정하지 않는다. 수입 형태분석 1cp 태그는 그대로 남기며, 파라고긱 눈에 필수적인 엄중함을 부여하지 않는다. 한국어 목적절을 앞에 둔 선택은 경고의 강도를 덜 드러낼 수 있으며, 금지 뒤에 경고를 두는 어순도 대안이다.
 
 Previous v0.4.10
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.11
 
 But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
 
@@ -204,6 +216,10 @@ Previous v0.4.10
 
 The serpent said to the woman, “You certainly will not die.
 
+Previous v0.4.11
+
+The serpent said to the woman, “You certainly will not die.
+
 Previous v0.4.5
 
 The serpent said to the woman, “You certainly will not die.
@@ -257,6 +273,10 @@ Final opinion (Korean original): 같은 절 앞부분의 단수 일치와 문맥
 Counterargument (Korean): 신들·신적 존재들처럼 및 복수 분사의 다른 부착 대안이 있다. 처음 כי의 오히려 독법, 날/때, 선악의 지식 범위는 추가 검토 대상이며 교리나 생물학적 순서를 확정하지 않는다.
 
 Previous v0.4.10
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.11
 
 For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
 
@@ -316,6 +336,10 @@ Previous v0.4.10
 
 The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
 
+Previous v0.4.11
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
 Previous v0.4.6
 
 The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
@@ -359,6 +383,10 @@ Final opinion (Korean original): 눈이 열림·벌거벗음의 인식·잎을 �
 Counterargument (Korean): 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
 
 Previous v0.4.10
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.11
 
 Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
 
@@ -414,6 +442,10 @@ Previous v0.4.10
 
 They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
 
+Previous v0.4.11
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
 Previous v0.4.6
 
 They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
@@ -457,6 +489,10 @@ Final opinion (Korean original): 관사 있는 האדם을 그 사람으로, 단
 Counterargument (Korean): 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
 
 Previous v0.4.10
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.11
 
 YHWH God called to the man and said to him, “Where are you?”
 
@@ -512,6 +548,10 @@ Previous v0.4.10
 
 He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
 
+Previous v0.4.11
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
 Previous v0.4.6
 
 He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
@@ -555,6 +595,10 @@ Final opinion (Korean original): 벌거벗음의 정보 출처와 금지한 나�
 Counterargument (Korean): ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
 
 Previous v0.4.10
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.11
 
 He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
 
@@ -606,6 +650,10 @@ Previous v0.4.10
 
 The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
 
+Previous v0.4.11
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
 Previous v0.4.7
 
 The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
@@ -645,6 +693,10 @@ Final opinion (Korean original): 무엇을 했느냐는 질문과 뱀이 속였�
 Counterargument (Korean): 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
 
 Previous v0.4.10
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.11
 
 YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
 
@@ -696,6 +748,10 @@ Previous v0.4.10
 
 YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
 
+Previous v0.4.11
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
 Previous v0.4.7
 
 YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
@@ -741,6 +797,10 @@ Final opinion (Korean original): 적의와 양쪽 후손을 반복하고 הוא�
 Counterargument (Korean): BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
 
 Previous v0.4.10
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.11
 
 I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
 
@@ -792,6 +852,10 @@ Previous v0.4.10
 
 To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
 
+Previous v0.4.11
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
 Previous v0.4.8
 
 To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
@@ -836,6 +900,10 @@ Previous v0.4.10
 
 To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
 
+Previous v0.4.11
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
 Previous v0.4.8
 
 To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
@@ -871,6 +939,10 @@ Final opinion (Korean original): 앞 절의 땅을 주어로 명시하고 가시
 Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
 
 Previous v0.4.10
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.11
 
 It will bring forth thorns and thistles for you, and you will eat the plants of the field.
 
@@ -918,6 +990,10 @@ Previous v0.4.10
 
 By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
 
+Previous v0.4.11
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
 Previous v0.4.8
 
 By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
@@ -956,6 +1032,10 @@ Previous v0.4.10
 
 The man called his wife’s name Eve, because she was the mother of all the living.
 
+Previous v0.4.11
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
 Previous v0.4.8
 
 The man called his wife’s name Eve, because she was the mother of all the living.
@@ -991,6 +1071,10 @@ Final opinion (Korean original): 가죽으로 된 옷을 만들고 입힌 두 �
 Counterargument (Korean): 사람도 대안이며 원출처 일반명사 분석은 보존한다. 튜닉/긴 속옷이라는 더 구체적인 옷 형식을 가죽옷으로 넓게 옮겼다. 동물 제사·최초 죽음·대속·제작 동기를 본문에 보충하지 않는다.
 
 Previous v0.4.10
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.11
 
 YHWH God made garments of skin for Adam and his wife and clothed them.
 
@@ -1034,6 +1118,10 @@ Previous v0.4.10
 
 YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
 
+Previous v0.4.11
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
 Previous v0.4.9
 
 YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
@@ -1065,6 +1153,10 @@ Final opinion (Korean original): 에덴동산에서 내보냄과 그가 취해�
 Counterargument (Korean): 그래서는 앞 구문과의 결과 관계를 자연스럽게 잇는 편집 선택이다. 내보내다와 다음절 쫓아내다를 구별하되 사명 파견·합법 퇴거·물리적 폭력을 동사만으로 확정하지 않는다.
 
 Previous v0.4.10
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.11
 
 So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
 
@@ -1105,6 +1197,10 @@ Final opinion (Korean original): 그 사람을 쫓아내고 동쪽에 케루빔�
 Counterargument (Korean): 여성 분사는 칼과 일치한다. 케루빔의 해부학·칼을 쥔 손·정확한 회전 기제를 넣지 않는다. 목적어 병렬만으로 손에 들 수 없다고 증명하지도 않는다.
 
 Previous v0.4.10
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.11
 
 He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
 
@@ -1156,7 +1252,7 @@ Sent out in v. 23 and drove out in v. 24 remain distinct without proving a missi
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (en), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/en/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (en), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/en/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Números 6:24–26
 
-Hansam Yang · Original Bible · v0.4.11
+Hansam Yang · Original Bible · v0.4.12
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -59,6 +59,10 @@ Previous v0.4.1
 Que YHWH te bendiga y te guarde.
 
 Previous v0.4.10
+
+Que YHWH te bendiga y te guarde.
+
+Previous v0.4.11
 
 Que YHWH te bendiga y te guarde.
 
@@ -144,6 +148,10 @@ Previous v0.4.10
 
 Que YHWH haga brillar su rostro hacia ti y te conceda su favor.
 
+Previous v0.4.11
+
+Que YHWH haga brillar su rostro hacia ti y te conceda su favor.
+
 Previous v0.4.2
 
 Que YHWH haga brillar su rostro hacia ti y te conceda su favor.
@@ -226,6 +234,10 @@ Previous v0.4.10
 
 Que YHWH alce su rostro hacia ti y te dé paz.
 
+Previous v0.4.11
+
+Que YHWH alce su rostro hacia ti y te dé paz.
+
 Previous v0.4.2
 
 Que YHWH alce su rostro hacia ti y te dé paz.
@@ -268,7 +280,7 @@ La comparación con inscripciones como Ketef Hinnom queda pendiente de una revis
 
 ## Citation
 
-Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/
+Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Génesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.11
+Hansam Yang · Original Bible · v0.4.12
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -47,6 +47,10 @@ Previous v0.4.1
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
 Previous v0.4.10
+
+Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
+
+Previous v0.4.11
 
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
@@ -126,6 +130,10 @@ Previous v0.4.10
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
+Previous v0.4.11
+
+En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
+
 Previous v0.4.2
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
@@ -199,6 +207,10 @@ Previous v0.4.1
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
 Previous v0.4.10
+
+Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
+
+Previous v0.4.11
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
@@ -278,6 +290,10 @@ Previous v0.4.10
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
 
+Previous v0.4.11
+
+Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
+
 Previous v0.4.2
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
@@ -345,6 +361,10 @@ Previous v0.4.1
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
 Previous v0.4.10
+
+Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
+
+Previous v0.4.11
 
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
@@ -420,6 +440,10 @@ Previous v0.4.10
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
 
+Previous v0.4.11
+
+Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
+
 Previous v0.4.2
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
@@ -489,6 +513,10 @@ Previous v0.4.1
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
 Previous v0.4.10
+
+Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
+
+Previous v0.4.11
 
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
@@ -564,6 +592,10 @@ Previous v0.4.10
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
 
+Previous v0.4.11
+
+Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
+
 Previous v0.4.2
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
@@ -627,6 +659,10 @@ Previous v0.4.1
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
 Previous v0.4.10
+
+Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
+
+Previous v0.4.11
 
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
@@ -696,6 +732,10 @@ Previous v0.4.10
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
 
+Previous v0.4.11
+
+Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
+
 Previous v0.4.2
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
@@ -755,6 +795,10 @@ Final opinion (Korean original): 비손·하윌라를 현재 고유명 표기로
 Counterargument (Korean): סבב를 두르다·굽이돌다로 이해할 수 있다. 강이 실제 국경을 완전히 한 바퀴 돈다는 현대 지도나 하윌라 좌표를 확정하지 않는다.
 
 Previous v0.4.10
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
+
+Previous v0.4.11
 
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
@@ -826,6 +870,10 @@ Previous v0.4.10
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
 
+Previous v0.4.11
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
 Previous v0.4.2
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
@@ -885,6 +933,10 @@ Final opinion (Korean original): 구스를 유지하고 에티오피아나 카�
 Counterargument (Korean): 구스를 현대 에티오피아 국경이나 특정 다른 지역과 동일시할 수 없다. 지명의 다른 문헌 용례가 이 구절의 정확한 위치를 자동으로 확정하지 않는다.
 
 Previous v0.4.10
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
+
+Previous v0.4.11
 
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
@@ -956,6 +1008,10 @@ Previous v0.4.10
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
 
+Previous v0.4.11
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
 Previous v0.4.2
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
@@ -1024,6 +1080,10 @@ Previous v0.4.10
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
 
+Previous v0.4.11
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
 Previous v0.4.2
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
@@ -1083,6 +1143,10 @@ Final opinion (Korean original): 명령 도입과 먹는 동사의 반복을 허
 Counterargument (Korean): 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
 
 Previous v0.4.10
+
+Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
+
+Previous v0.4.11
 
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
@@ -1150,6 +1214,10 @@ Previous v0.4.10
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
 
+Previous v0.4.11
+
+pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
+
 Previous v0.4.3
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
@@ -1211,6 +1279,10 @@ Final opinion (Korean original): 상응하는 돕는 이라는 어휘 선택을 
 Counterargument (Korean): 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
 
 Previous v0.4.10
+
+Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
+
+Previous v0.4.11
 
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
 
@@ -1278,6 +1350,10 @@ Previous v0.4.10
 
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
 
+Previous v0.4.11
+
+Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
+
 Previous v0.4.3
 
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
@@ -1333,6 +1409,10 @@ Final opinion (Korean original): 이름 부여 뒤 돕는 이가 발견되지 �
 Counterargument (Korean): מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
 
 Previous v0.4.10
+
+El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
+
+Previous v0.4.11
 
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
 
@@ -1400,6 +1480,10 @@ Previous v0.4.10
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
 
+Previous v0.4.11
+
+YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
+
 Previous v0.4.4
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
@@ -1460,6 +1544,10 @@ Previous v0.4.10
 
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
 
+Previous v0.4.11
+
+YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
+
 Previous v0.4.4
 
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
@@ -1511,6 +1599,10 @@ Final opinion (Korean original): 이번에야말로의 감탄, 뼈·살의 반�
 Counterargument (Korean): 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
 
 Previous v0.4.10
+
+El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
+
+Previous v0.4.11
 
 El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
 
@@ -1574,6 +1666,10 @@ Previous v0.4.10
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
 
+Previous v0.4.11
+
+Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
+
 Previous v0.4.4
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
@@ -1625,6 +1721,10 @@ Final opinion (Korean original): 둘 다 벌거벗었으나 부끄러워하지 �
 Counterargument (Korean): 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
 
 Previous v0.4.10
+
+El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
+
+Previous v0.4.11
 
 El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
 
@@ -1690,7 +1790,7 @@ El v. 25 expresa ausencia de vergüenza sin añadir entre sí. Siguen abiertas l
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/es/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/es/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

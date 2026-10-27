@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.12 — 2026-10-27
+
+- Added Genesis4:12–16 in three languages:106 selected verses /318 translations.
+- Preserved actual GPT/Gemini drafts and final opinions,Claude Code review of4:13–15,and five existing cloud drafts. The Gemini honorific-style disagreement remains recorded.
+- Documented soil strength,yield,paired wandering participles,pausal suffix,guilt/punishment and bearing/forgiveness,impersonal sevenfold vengeance,unspecified sign,and opposite/east Eden alternatives. Previous101 selections and v0.4.11 data/ZIP preserved.
+
 ## 0.4.11 — 2026-10-27
 
 - Added Genesis 4:7–11 in three languages: 101 selected verses / 303 translations.

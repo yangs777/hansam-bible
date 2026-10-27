@@ -1,6 +1,6 @@
 # Génesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.11
+Hansam Yang · Original Bible · v0.4.12
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -45,6 +45,10 @@ Final opinion (Korean original): 꾀가 많았다는 비교와 복수 너희를 
 Counterargument (Korean): אף כי의 감탄·미완결 발화, 모든 나무에서는 아님이라는 부정 범위 대안은 남긴다. 문법만으로 예외 없음이나 뱀의 심리를 확정하지 않고 사탄이라는 이름을 보충하지 않는다.
 
 Previous v0.4.10
+
+La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
+
+Previous v0.4.11
 
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
@@ -98,6 +102,10 @@ Previous v0.4.10
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
 
+Previous v0.4.11
+
+La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
+
 Previous v0.4.5
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
@@ -145,6 +153,10 @@ Final opinion (Korean original): 먹지 말라와 만지지 말라를 여자가 
 Counterargument (Korean): 왜 접촉 금지가 앞 장의 기록과 다른지는 확정하지 않는다. 수입 형태분석 1cp 태그는 그대로 남기며, 파라고긱 눈에 필수적인 엄중함을 부여하지 않는다. 한국어 목적절을 앞에 둔 선택은 경고의 강도를 덜 드러낼 수 있으며, 금지 뒤에 경고를 두는 어순도 대안이다.
 
 Previous v0.4.10
+
+Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
+
+Previous v0.4.11
 
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
@@ -204,6 +216,10 @@ Previous v0.4.10
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
 
+Previous v0.4.11
+
+La serpiente dijo a la mujer: «Ciertamente no morirán.
+
 Previous v0.4.5
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
@@ -257,6 +273,10 @@ Final opinion (Korean original): 같은 절 앞부분의 단수 일치와 문맥
 Counterargument (Korean): 신들·신적 존재들처럼 및 복수 분사의 다른 부착 대안이 있다. 처음 כי의 오히려 독법, 날/때, 선악의 지식 범위는 추가 검토 대상이며 교리나 생물학적 순서를 확정하지 않는다.
 
 Previous v0.4.10
+
+Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
+
+Previous v0.4.11
 
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
@@ -316,6 +336,10 @@ Previous v0.4.10
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
 
+Previous v0.4.11
+
+La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
+
 Previous v0.4.6
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
@@ -359,6 +383,10 @@ Final opinion (Korean original): 눈이 열림·벌거벗음의 인식·잎을 �
 Counterargument (Korean): 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
 
 Previous v0.4.10
+
+Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
+
+Previous v0.4.11
 
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
@@ -414,6 +442,10 @@ Previous v0.4.10
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
 
+Previous v0.4.11
+
+Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
+
 Previous v0.4.6
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
@@ -457,6 +489,10 @@ Final opinion (Korean original): 관사 있는 האדם을 그 사람으로, 단
 Counterargument (Korean): 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
 
 Previous v0.4.10
+
+YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
+
+Previous v0.4.11
 
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
@@ -512,6 +548,10 @@ Previous v0.4.10
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
 
+Previous v0.4.11
+
+Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
+
 Previous v0.4.6
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
@@ -555,6 +595,10 @@ Final opinion (Korean original): 벌거벗음의 정보 출처와 금지한 나�
 Counterargument (Korean): ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
 
 Previous v0.4.10
+
+Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
+
+Previous v0.4.11
 
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
@@ -606,6 +650,10 @@ Previous v0.4.10
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
 
+Previous v0.4.11
+
+El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
+
 Previous v0.4.7
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
@@ -645,6 +693,10 @@ Final opinion (Korean original): 무엇을 했느냐는 질문과 뱀이 속였�
 Counterargument (Korean): 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
 
 Previous v0.4.10
+
+YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
+
+Previous v0.4.11
 
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
@@ -696,6 +748,10 @@ Previous v0.4.10
 
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
 
+Previous v0.4.11
+
+YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
+
 Previous v0.4.7
 
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
@@ -741,6 +797,10 @@ Final opinion (Korean original): 적의와 양쪽 후손을 반복하고 הוא�
 Counterargument (Korean): BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
 
 Previous v0.4.10
+
+Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
+
+Previous v0.4.11
 
 Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
 
@@ -792,6 +852,10 @@ Previous v0.4.10
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
 
+Previous v0.4.11
+
+A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
+
 Previous v0.4.8
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
@@ -836,6 +900,10 @@ Previous v0.4.10
 
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
 
+Previous v0.4.11
+
+A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
+
 Previous v0.4.8
 
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
@@ -871,6 +939,10 @@ Final opinion (Korean original): 앞 절의 땅을 주어로 명시하고 가시
 Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
 
 Previous v0.4.10
+
+Te producirá espinos y cardos, y comerás las plantas del campo.
+
+Previous v0.4.11
 
 Te producirá espinos y cardos, y comerás las plantas del campo.
 
@@ -918,6 +990,10 @@ Previous v0.4.10
 
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
 
+Previous v0.4.11
+
+Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
+
 Previous v0.4.8
 
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
@@ -956,6 +1032,10 @@ Previous v0.4.10
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
 
+Previous v0.4.11
+
+El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
+
 Previous v0.4.8
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
@@ -991,6 +1071,10 @@ Final opinion (Korean original): 가죽으로 된 옷을 만들고 입힌 두 �
 Counterargument (Korean): 사람도 대안이며 원출처 일반명사 분석은 보존한다. 튜닉/긴 속옷이라는 더 구체적인 옷 형식을 가죽옷으로 넓게 옮겼다. 동물 제사·최초 죽음·대속·제작 동기를 본문에 보충하지 않는다.
 
 Previous v0.4.10
+
+YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
+
+Previous v0.4.11
 
 YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
 
@@ -1034,6 +1118,10 @@ Previous v0.4.10
 
 YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
 
+Previous v0.4.11
+
+YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
+
 Previous v0.4.9
 
 YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
@@ -1065,6 +1153,10 @@ Final opinion (Korean original): 에덴동산에서 내보냄과 그가 취해�
 Counterargument (Korean): 그래서는 앞 구문과의 결과 관계를 자연스럽게 잇는 편집 선택이다. 내보내다와 다음절 쫓아내다를 구별하되 사명 파견·합법 퇴거·물리적 폭력을 동사만으로 확정하지 않는다.
 
 Previous v0.4.10
+
+Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
+
+Previous v0.4.11
 
 Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
 
@@ -1105,6 +1197,10 @@ Final opinion (Korean original): 그 사람을 쫓아내고 동쪽에 케루빔�
 Counterargument (Korean): 여성 분사는 칼과 일치한다. 케루빔의 해부학·칼을 쥔 손·정확한 회전 기제를 넣지 않는다. 목적어 병렬만으로 손에 들 수 없다고 증명하지도 않는다.
 
 Previous v0.4.10
+
+Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
+
+Previous v0.4.11
 
 Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
 
@@ -1156,7 +1252,7 @@ Se distinguen enviar fuera y expulsar sin probar misión, desalojo legal ni viol
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/es/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/es/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

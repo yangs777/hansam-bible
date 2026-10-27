@@ -1,6 +1,6 @@
 # Genesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.11
+Hansam Yang · Original Bible · v0.4.12
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -47,6 +47,10 @@ Previous v0.4.1
 Thus the heavens and the earth and all their host were completed.
 
 Previous v0.4.10
+
+Thus the heavens and the earth and all their host were completed.
+
+Previous v0.4.11
 
 Thus the heavens and the earth and all their host were completed.
 
@@ -126,6 +130,10 @@ Previous v0.4.10
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
+Previous v0.4.11
+
+On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
+
 Previous v0.4.2
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
@@ -199,6 +207,10 @@ Previous v0.4.1
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
 Previous v0.4.10
+
+God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
+
+Previous v0.4.11
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
@@ -278,6 +290,10 @@ Previous v0.4.10
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
 
+Previous v0.4.11
+
+This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
+
 Previous v0.4.2
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
@@ -345,6 +361,10 @@ Previous v0.4.1
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
 Previous v0.4.10
+
+No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
+
+Previous v0.4.11
 
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
@@ -420,6 +440,10 @@ Previous v0.4.10
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
 
+Previous v0.4.11
+
+But a flow of water would rise from the earth and water the whole surface of the ground.
+
 Previous v0.4.2
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
@@ -489,6 +513,10 @@ Previous v0.4.1
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
 Previous v0.4.10
+
+Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
+
+Previous v0.4.11
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
@@ -564,6 +592,10 @@ Previous v0.4.10
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
 
+Previous v0.4.11
+
+Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
+
 Previous v0.4.2
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
@@ -627,6 +659,10 @@ Previous v0.4.1
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
 Previous v0.4.10
+
+Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
+
+Previous v0.4.11
 
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
@@ -696,6 +732,10 @@ Previous v0.4.10
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
 
+Previous v0.4.11
+
+A river flowed out of Eden to water the garden; from there it divided into four branches.
+
 Previous v0.4.2
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
@@ -755,6 +795,10 @@ Final opinion (Korean original): 비손·하윌라를 현재 고유명 표기로
 Counterargument (Korean): סבב를 두르다·굽이돌다로 이해할 수 있다. 강이 실제 국경을 완전히 한 바퀴 돈다는 현대 지도나 하윌라 좌표를 확정하지 않는다.
 
 Previous v0.4.10
+
+The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
+
+Previous v0.4.11
 
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
@@ -826,6 +870,10 @@ Previous v0.4.10
 
 The gold of that land is good; bdellium and shoham stone are there.
 
+Previous v0.4.11
+
+The gold of that land is good; bdellium and shoham stone are there.
+
 Previous v0.4.2
 
 The gold of that land is good; bdellium and shoham stone are there.
@@ -885,6 +933,10 @@ Final opinion (Korean original): 구스를 유지하고 에티오피아나 카�
 Counterargument (Korean): 구스를 현대 에티오피아 국경이나 특정 다른 지역과 동일시할 수 없다. 지명의 다른 문헌 용례가 이 구절의 정확한 위치를 자동으로 확정하지 않는다.
 
 Previous v0.4.10
+
+The name of the second river is Gihon; it flows around the whole land of Cush.
+
+Previous v0.4.11
 
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
@@ -956,6 +1008,10 @@ Previous v0.4.10
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
 
+Previous v0.4.11
+
+The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
+
 Previous v0.4.2
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
@@ -1024,6 +1080,10 @@ Previous v0.4.10
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
 
+Previous v0.4.11
+
+Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
+
 Previous v0.4.2
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
@@ -1083,6 +1143,10 @@ Final opinion (Korean original): 명령 도입과 먹는 동사의 반복을 허
 Counterargument (Korean): 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
 
 Previous v0.4.10
+
+Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
+
+Previous v0.4.11
 
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
@@ -1150,6 +1214,10 @@ Previous v0.4.10
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
 
+Previous v0.4.11
+
+but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
+
 Previous v0.4.3
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
@@ -1211,6 +1279,10 @@ Final opinion (Korean original): 상응하는 돕는 이라는 어휘 선택을 
 Counterargument (Korean): 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
 
 Previous v0.4.10
+
+Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
+
+Previous v0.4.11
 
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
@@ -1278,6 +1350,10 @@ Previous v0.4.10
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
 
+Previous v0.4.11
+
+Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
+
 Previous v0.4.3
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
@@ -1333,6 +1409,10 @@ Final opinion (Korean original): 이름 부여 뒤 돕는 이가 발견되지 �
 Counterargument (Korean): מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
 
 Previous v0.4.10
+
+The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
+
+Previous v0.4.11
 
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
@@ -1400,6 +1480,10 @@ Previous v0.4.10
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
 
+Previous v0.4.11
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
 Previous v0.4.4
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
@@ -1460,6 +1544,10 @@ Previous v0.4.10
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
 
+Previous v0.4.11
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
 Previous v0.4.4
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
@@ -1511,6 +1599,10 @@ Final opinion (Korean original): 이번에야말로의 감탄, 뼈·살의 반�
 Counterargument (Korean): 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
 
 Previous v0.4.10
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
+
+Previous v0.4.11
 
 The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
@@ -1574,6 +1666,10 @@ Previous v0.4.10
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
 
+Previous v0.4.11
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
 Previous v0.4.4
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
@@ -1625,6 +1721,10 @@ Final opinion (Korean original): 둘 다 벌거벗었으나 부끄러워하지 �
 Counterargument (Korean): 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
 
 Previous v0.4.10
+
+The human and his wife were both naked, but they were not ashamed.
+
+Previous v0.4.11
 
 The human and his wife were both naked, but they were not ashamed.
 
@@ -1690,7 +1790,7 @@ Verse 25 renders absence of shame without adding an explicit toward one another.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/en/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/en/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

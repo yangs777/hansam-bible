@@ -1,12 +1,12 @@
-# Genesis 4:1–11
+# Genesis 4:1–16
 
-Hansam Yang · Original Bible · v0.4.11
+Hansam Yang · Original Bible · v0.4.12
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-The first eleven verses of Genesis4 include selections in three languages,actual GPT/Gemini proposals and final opinions,and Claude Code review of vv.1,3–5,7,8,11. Verse8 has a limited digital-version comparison; specialist review and full manuscript collation are pending.
+The first sixteen verses of Genesis4 include selections in three languages,actual GPT/Gemini proposals and final opinions,and Claude Code review of vv.1,3–5,7,8,11,13–15. Digital-version comparisons are limited; specialist review and full manuscript collation are pending.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -48,6 +48,10 @@ Previous v0.4.10
 
 The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
 
+Previous v0.4.11
+
+The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
+
 Previous v0.4.9
 
 The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
@@ -79,6 +83,10 @@ Final opinion (Korean original): 이어 아벨을 낳음과 가인과의 형제 
 Counterargument (Korean): 계속 낳음으로 쌍둥이·별도 임신을 확정하지 않는다. 양 떼는 양·염소 등 작은 가축을 포함할 수 있다. 직업 자체의 도덕적 우열을 덧붙이지 않는다.
 
 Previous v0.4.10
+
+She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
+
+Previous v0.4.11
 
 She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
 
@@ -118,6 +126,10 @@ Previous v0.4.10
 
 After some time, Cain brought an offering to YHWH from the produce of the ground.
 
+Previous v0.4.11
+
+After some time, Cain brought an offering to YHWH from the produce of the ground.
+
 ## 4 · HYB.GEN.004.004
 
 Hebrew display (MT/WLC): וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃
@@ -151,6 +163,10 @@ Final opinion (Korean original): 맏배들과 기름 부위, 부분을 뜻하는
 Counterargument (Korean): 좋은 부분이라는 비유와 설명적 곧 연결도 대안이다. BDB는 이 절을 동물 기름 부위에 둔다. 사람과 예물이 나열된 순서만으로 선호 이유·신앙 우열·시간적 우선순위를 증명하지 않는다. 피·도살 절차·하늘 불을 본문에 보충하지 않는다.
 
 Previous v0.4.10
+
+Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
+
+Previous v0.4.11
 
 Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
 
@@ -190,6 +206,10 @@ Previous v0.4.10
 
 But he did not look with favor on Cain and his offering. Cain became very angry, and his face fell.
 
+Previous v0.4.11
+
+But he did not look with favor on Cain and his offering. Cain became very angry, and his face fell.
+
 ## 6 · HYB.GEN.004.006
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר יְהוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃
@@ -217,6 +237,10 @@ Final opinion (Korean original): 분노와 낯빛 변화의 두 질문을 앞 �
 Counterargument (Korean): 수입 לך2fs 태그는 보존하고 가인·남성 접미사와 휴지형에 따라 남자 대상 너로 읽는다. 태깅의 생성 원인이나 신의 무지·책망·초청 동기를 질문형만으로 확정하지 않는다.
 
 Previous v0.4.10
+
+YHWH said to Cain, “Why are you angry, and why has your face fallen?
+
+Previous v0.4.11
 
 YHWH said to Cain, “Why are you angry, and why has your face fallen?
 
@@ -252,6 +276,10 @@ Final opinion (Korean original): 받아들여짐을 현재 선택하고 문 앞�
 
 Counterargument (Korean): BDB7613은 난구로 표시하며 낯을 듦·용서를 병기한다. 잘 행함을 특정 제사 규정에 제한하지 않는다. 여성 죄와 남성 분사·접미사 태그를 보존하고 지시 대상을 죄로 선택하되 아벨 지시·죄의 제물·근동 비교 대안을 기록한다. 의인화가 성 불일치의 유일한 증명은 아니다. 갈망이 곧 지배욕임을 단정하지 않고 다스릴 수 있다·다스릴 것이다도 남긴다.
 
+Previous v0.4.11
+
+If you do well, will you not be accepted? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it.”
+
 ## 8 · HYB.GEN.004.008
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
@@ -284,6 +312,10 @@ Final opinion (Korean original): 고정 WLC에는 말한 내용이 없어 대사
 
 Counterargument (Korean): 실제로 읽은 Swete 디지털4:8에는 들로 가자에 해당하는 그리스어가 있다. 원래 탈락인지 역본 보충인지 판정하지 않는다. XML에 물리적 공백 표시나 말줄임표가 있는 것은 아니며 의도된 긴장감도 확정하지 않는다. 투명한 본문비평 재구성은 별도 정당한 작업이지 그 자체로 변조가 아니다.
 
+Previous v0.4.11
+
+Cain spoke to his brother Abel. While they were in the field, Cain rose up against his brother Abel and killed him.
+
 ## 9 · HYB.GEN.004.009
 
 Hebrew display (MT/WLC): וַיֹּ֤אמֶר יְהוָה֙ אֶל־קַ֔יִן אֵ֖י הֶ֣בֶל אָחִ֑יךָ וַיֹּ֨אמֶר֙ לֹ֣א יָדַ֔עְתִּי הֲשֹׁמֵ֥ר אָחִ֖י אָנֹֽכִי׃
@@ -310,6 +342,10 @@ Final opinion (Korean original): 아벨이 어디 있느냐는 질문과 모른�
 
 Counterargument (Korean): 수사적 거부의 효과는 문맥 해석이며 하나님의 지식 상태·숨은 동기를 확정하지 않는다.
 
+Previous v0.4.11
+
+YHWH said to Cain, “Where is your brother Abel?” He said, “I do not know. Am I my brother’s keeper?”
+
 ## 10 · HYB.GEN.004.010
 
 Hebrew display (MT/WLC): וַיֹּ֖אמֶר מֶ֣ה עָשִׂ֑יתָ ק֚וֹל דְּמֵ֣י אָחִ֔יךָ צֹעֲקִ֥ים אֵלַ֖י מִן־הָֽאֲדָמָֽה׃
@@ -335,6 +371,10 @@ He said, “What have you done? Your brother’s blood is crying out to me from 
 Final opinion (Korean original): 피가 부르짖는 소리와 땅으로부터를 보존한다. 한국어 소리가 들린다로 호소를 살리고 영·서는 소리를 주어로 자연스럽게 옮긴다. 피들 및 부르짖는 분사의 원문 복수는 주석에 보존한다. 집합적 피·blood·sangre와 소리의 단수 동사는 목표어 처리이며 히브리어 복수 일치의 재현이라고 주장하지 않는다. 후손이나 흉기를 덧붙이지 않으며 발화는12절까지 이어진다.
 
 Counterargument (Korean): 피들 및 부르짖는 분사의 원문 복수는 주석에 보존한다. 집합적 피·blood·sangre와 소리의 단수 동사는 목표어 처리이며 히브리어 복수 일치의 재현이라고 주장하지 않는다. 후손이나 흉기를 덧붙이지 않으며 발화는12절까지 이어진다.
+
+Previous v0.4.11
+
+He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
 
 ## 11 · HYB.GEN.004.011
 
@@ -374,6 +414,158 @@ Final opinion (Korean original): 저주받은 상태와 땅으로부터의 관�
 
 Counterargument (Korean): 땅으로부터/from/de는 출처 쪽으로 기우는 현재 선택이며 세 의미를 모두 동등하게 담는다고 주장하지 않는다. BDB4480의 분리 독법과 출처·비교 대안을 병기한다. 검토 중 제안한 쫓겨남/banished는 별도 히브리어 동사가 없어 최종문에서 뺐다. 스페인어 de는 성경체의 격식 표현이다. 피의 복수는 후손으로 확정하지 않는다.
 
+Previous v0.4.11
+
+Now you are cursed from the ground, which opened its mouth to receive your brother’s blood from your hand.
+
+## 12 · HYB.GEN.004.012
+
+Hebrew display (MT/WLC): כִּ֤י תַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה לֹֽא־תֹסֵ֥ף תֵּת־כֹּחָ֖הּ לָ֑ךְ נָ֥ע וָנָ֖ד תִּֽהְיֶ֥ה בָאָֽרֶץ׃
+
+When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.12
+
+### Current best selected translation
+
+땅의 힘을 문자 이미지로 옮기고 소출의 의미를 설명한다. 떠돌이·도망자의 두 분사를14절과 맞추고10절부터의 발화를 닫는다.
+
+#### gemini-3.8-flash-medium
+
+When you till the ground, it shall no longer yield its strength to you; a fugitive and a wanderer you shall be on the earth.
+
+Final opinion (Korean original): 주인님, 12절 번역은 10절에서 시작된 여호와의 심판 담화를 규정대로 닫는 따옴표(”)로 정확히 완결하고 있습니다. '제 힘(힘의 은유)'을 본문에 유지하면서 주석적 이해로 땅의 산물(BDB 3581 §5)을 포괄하는 방식은 직역성과 가독성을 모두 만족합니다. '떠돌며 도망다니는 자'는 14절의 '나 와나드(נָע וָנָד)' 쌍과 완벽하게 일치되어 통일성을 유지합니다. 전치사 결합형 '라크(לָ֑ךְ)'의 OSHB 2인칭 여성단수(2fs) 원본 태그는 비평적 데이터로 그대로 보존하되, GKC §103f에 제시된 남성 휴지형(pausal form) 음운 규칙에 따라 문맥적 남성 수혜격 카인으로 올바르게 번역되었습니다.
+
+#### gpt-6.1-sol
+
+When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
+
+Final opinion (Korean original): 땅의 힘을 문자 이미지로 옮기고 소출의 의미를 설명한다. 떠돌이·도망자의 두 분사를14절과 맞추고10절부터의 발화를 닫는다. BDB3581은 이 절의 땅의 힘을 소출로 풀이한다. 방랑·동요의 대안도 보존한다. 수입 lakh2fs 태그는 바꾸지 않고 GKC103f의 남성 휴지형과 가인 맥락을 따른다. 태깅 생성 원인은 확인하지 않았다.
+
+Counterargument (Korean): BDB3581은 이 절의 땅의 힘을 소출로 풀이한다. 방랑·동요의 대안도 보존한다. 수입 lakh2fs 태그는 바꾸지 않고 GKC103f의 남성 휴지형과 가인 맥락을 따른다. 태깅 생성 원인은 확인하지 않았다.
+
+## 13 · HYB.GEN.004.013
+
+Hebrew display (MT/WLC): וַיֹּ֥אמֶר קַ֖יִן אֶל־יְהוָ֑ה גָּד֥וֹל עֲוֺנִ֖י מִנְּשֹֽׂא׃
+
+Cain said to YHWH, “My punishment is too great to bear.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.13
+
+### Current best selected translation
+
+현재는 awon을 벌,감당하기에 너무 큼으로 읽는다. 죄 자체·죄책과 용서받기에는 너무 큼을 대안으로 남긴다.
+
+#### claude-opus-5-5
+
+Cain said to the LORD, “My iniquity is too great to bear.
+
+Final opinion (Korean original): 제안: ko ‘제 죄가 감당할 수 없을 만큼 큽니다’, en ‘My iniquity is too great to bear’, es ‘Mi culpa es mayor de lo que se puede llevar’. 각주에 두 가지 대안을 함께 실을 것을 권한다. 하나는 ‘벌/형벌’ 해석이고, 다른 하나는 ‘용서받기에는 너무 크다’ 해석이다. 이것은 채택되지 않은 모델 초안이며 확정본이 아니다.
+
+#### gemini-3.8-flash-medium
+
+And Cain said to YHWH, 'My iniquity [or punishment] is greater than I can bear [or greater than can be forgiven].'
+
+Final opinion (Korean original): 주인님, 13절은 카인의 응답 발화가 시작되는 절로서 여는 따옴표(“)로 개시하고, 14절로 직접 이어지도록 닫는 따옴표를 두지 않은 편집 구조가 정확합니다. '아본(עָוֺן)'을 광범위한 '죄'로 뭉뚱그려 회개 고백으로 단정하지 않고, BDB 5771 §3의 명시적 용례에 따라 '제가 받을 벌(punishment)'로 선택한 것은 카인의 방어적 탄식 문맥에 잘 부합합니다. 다만 스웨트(Swete) 70인역 디지털 판본의 'τοῦ ἀφεθῆναί με(내가 사유함을 받기에)' 및 '죄책(iniquity/guilt)'과 '용서(pardon)'의 가능성 또한 대안적 독법으로 열려 있음을 주석적 지평으로 병기해야 합니다.
+
+#### gpt-6.1-sol
+
+Cain said to YHWH, “My punishment is too great to bear.
+
+Final opinion (Korean original): 현재는 awon을 벌,감당하기에 너무 큼으로 읽는다. 죄 자체·죄책과 용서받기에는 너무 큼을 대안으로 남긴다. BDB5771은4:13을 벌 독법의 예로 들지만 유일한 뜻은 아니다. 실제 읽은 Swete 디지털13절은 용서 독법을 보인다. 부정사의 행위자는 명시되지 않아 현대어의 내가 견딤은 해석이며 회개 여부·신의 용서 가능성을 단정하지 않는다.
+
+Counterargument (Korean): BDB5771은4:13을 벌 독법의 예로 들지만 유일한 뜻은 아니다. 실제 읽은 Swete 디지털13절은 용서 독법을 보인다. 부정사의 행위자는 명시되지 않아 현대어의 내가 견딤은 해석이며 회개 여부·신의 용서 가능성을 단정하지 않는다.
+
+## 14 · HYB.GEN.004.014
+
+Hebrew display (MT/WLC): הֵן֩ גֵּרַ֨שְׁתָּ אֹתִ֜י הַיּ֗וֹם מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה וּמִפָּנֶ֖יךָ אֶסָּתֵ֑ר וְהָיִ֜יתִי נָ֤ע וָנָד֙ בָּאָ֔רֶץ וְהָיָ֥ה כָל־מֹצְאִ֖י יַֽהַרְגֵֽנִי׃
+
+Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.14
+
+### Current best selected translation
+
+땅에서의 명시적 추방,주의 얼굴에서 숨음과12절의 두 분사 반복,누구든 죽일 것이라는 가인의 발언을 옮긴다.
+
+#### claude-opus-5-5
+
+Look, today you have driven me from the face of the ground, and from your face I will be hidden; I will be a wanderer and a drifter on the earth, and whoever finds me will kill me.”
+
+Final opinion (Korean original): 제안한 세 언어 번역을 유지한다. 주석 세 가지를 붙일 것을 권한다. (1) אֶסָּתֵר는 ‘숨을 것이다’로도 읽힐 수 있다. (2) נָע וָנָד는 짝을 이루는 두 분사다. (3) ‘얼굴’이라는 낱말이 되풀이된다. 인용은 이 절 끝에서 닫는다. 채택되지 않은 초안이다.
+
+#### gemini-3.8-flash-medium
+
+Behold, you have driven me today from the face of the ground, and from your face I shall be hidden; I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.
+
+Final opinion (Korean original): 주인님, 14절은 13절에서 시작된 카인의 탄식 담화를 닫는 따옴표(”)로 적절히 종결하고 있습니다. '나 와나드' 역시 12절과 동일하게 '떠돌며 도망다니는 자'로 완벽히 일치되었습니다. 텍스트 외적인 인구학적 상상이나 족보 가설을 완전히 배제한 점이 우수합니다. '숨게 되고'는 BDB 5641 니팔 §2(수동/은폐: be hid, concealed)의 의미를 한국어 결과적 상태(-게 되다)로 수용했으나, '얼굴을 피해'라는 부사는 재귀적(reflexive) 회피 뉘앙스를 담고 있습니다. 카인의 심리적 관점에서 주의 면전에서 차단/배제되는 수동적 소외('주의 얼굴로부터 가려져/숨겨져')도 유력한 직역 대안이므로 문법적 강제가 아님을 인식해야 합니다. 아울러 카인이 느끼는 신적 단절은 카인의 실존적 공포일 뿐, 존재론적 신의 부재를 의미하지 않습니다.
+
+#### gpt-6.1-sol
+
+Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
+
+Final opinion (Korean original): 땅에서의 명시적 추방,주의 얼굴에서 숨음과12절의 두 분사 반복,누구든 죽일 것이라는 가인의 발언을 옮긴다. 한국어는 현재 재귀 표현을 선택했으나 Nifal 수동 숨겨짐도 유력하며 BDB5641은 이 절을 그 항목에 둔다. 의무 동사를 추가하지 않는다. 숨겨짐은 가인의 말이며 형이상학적 신의 부재나 실제 인구·계보를 증명하지 않는다.
+
+Counterargument (Korean): 한국어는 현재 재귀 표현을 선택했으나 Nifal 수동 숨겨짐도 유력하며 BDB5641은 이 절을 그 항목에 둔다. 의무 동사를 추가하지 않는다. 숨겨짐은 가인의 말이며 형이상학적 신의 부재나 실제 인구·계보를 증명하지 않는다.
+
+## 15 · HYB.GEN.004.015
+
+Hebrew display (MT/WLC): וַיֹּ֧אמֶר ל֣וֹ יְהוָ֗ה לָכֵן֙ כָּל־הֹרֵ֣ג קַ֔יִן שִׁבְעָתַ֖יִם יֻקָּ֑ם וַיָּ֨שֶׂם יְהוָ֤ה לְקַ֨יִן֙ א֔וֹת לְבִלְתִּ֥י הַכּוֹת־אֹת֖וֹ כָּל־מֹצְאֽוֹ׃
+
+YHWH said to him, “Therefore, if anyone kills Cain, vengeance will be taken sevenfold.” YHWH appointed a sign for Cain so that no one who found him would strike him.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.15
+
+### Current best selected translation
+
+고정 WLC의 그러므로와 일곱 배의 보복,가인에게 주어진 보호 표를 옮긴다. 보복의 수동 주어·행위자를 번역에서 고정하지 않는다.
+
+#### claude-opus-5-5
+
+The LORD said to him, “Therefore, if anyone kills Cain, vengeance will be taken sevenfold.” And the LORD set a sign for Cain, so that no one who found him would strike him.
+
+Final opinion (Korean original): 제안한 번역을 유지한다. 주석 네 가지를 권한다. (1) לָכֵן은 WLC 읽기이며, ‘그렇지 않다’ 이문은 보고되었으나 검증되지 않았다. (2) יֻקָּם의 주어는 모호하다. (3) ‘일곱 배’는 배수이지 반복 횟수가 아니다. (4) 징표의 형태는 밝혀지지 않았으며, 몸·피부색·인종으로 추론해서는 안 된다. 채택되지 않은 초안이다.
+
+#### gemini-3.8-flash-medium
+
+And YHWH said to him, 'Therefore, whoever kills Cain, vengeance shall be taken on him sevenfold.' And YHWH appointed a sign for Cain, lest anyone who found him should strike him down.
+
+Final opinion (Korean original): 주인님, 15절은 신의 직설 담화(“...보복이 있을 것이다.”)가 따옴표 안에서 종결되고 표를 세우시는 서술부가 따옴표 밖으로 배치된 구조가 매우 정확합니다. 호팔(Hophal) 수동태 '유캄(יֻקָּם)'을 살해자나 카인 개인으로 주어를 한정하지 않고 '일곱 배의 보복이 있을 것이다(vengeance will be taken sevenfold)'라는 비인칭 수동태로 처리하여 살해자에 대한 경고 문맥을 탁월하게 살렸습니다. '오트(אוֹת)'는 카인을 '위한(לְ)' 보호 표징으로서 신체 부착설을 배제하지만, 그렇다고 '비신체적 표'로 확증된 것도 아니며 외형은 미상입니다(인종·피부색 주장은 엄격히 배제됨). 본문비평적으로 WLC의 '라켄(그러므로)'을 기본 번역으로 삼되 스웨트 70인역의 'Οὐχ οὕτως(그렇지 않다)' 이문을 병기해야 합니다. 한편, 한국어 경어법(honorifics register)에서 하나님을 가리킬 때 '야훼가'라는 비존칭 주격 조사를 사용하는 것은 성경적 문체로서 부자연스러우므로 '야훼께서'로 격상 교정하는 것이 타당합니다.
+
+#### gpt-6.1-sol
+
+YHWH said to him, “Therefore, whoever kills Cain will suffer sevenfold vengeance.” YHWH appointed a sign for Cain so that no one who found him would strike him.
+
+Final opinion (Korean original): 고정 WLC의 그러므로와 일곱 배의 보복,가인에게 주어진 보호 표를 옮긴다. 보복의 수동 주어·행위자를 번역에서 고정하지 않는다. 실제 Swete 디지털15절은 그렇지 않다를 보이나 원래 히브리어가 그러했다고 확정하지 않는다. 문맥상 살해자에 대한 보복이지만 가인의 피를 갚음/비인칭 수동을 구분하고 일곱 번 살해로 읽지 않는다. 표의 형태·몸 위치는 미상이며 신체 표식이라는 단정도 비신체적이라는 단정도 하지 않는다. Gemini는 야훼께서라는 경어 주격으로 바꾸라고 권고했지만 이는 원문 오역이 아닌 문체 의견으로 보아 기존 장과 같은 야훼가/는 및 높임 서술어를 현재 유지한다.
+
+Counterargument (Korean): 실제 Swete 디지털15절은 그렇지 않다를 보이나 원래 히브리어가 그러했다고 확정하지 않는다. 문맥상 살해자에 대한 보복이지만 가인의 피를 갚음/비인칭 수동을 구분하고 일곱 번 살해로 읽지 않는다. 표의 형태·몸 위치는 미상이며 신체 표식이라는 단정도 비신체적이라는 단정도 하지 않는다. Gemini는 야훼께서라는 경어 주격으로 바꾸라고 권고했지만 이는 원문 오역이 아닌 문체 의견으로 보아 기존 장과 같은 야훼가/는 및 높임 서술어를 현재 유지한다.
+
+## 16 · HYB.GEN.004.016
+
+Hebrew display (MT/WLC): וַיֵּ֥צֵא קַ֖יִן מִלִּפְנֵ֣י יְהוָ֑ה וַיֵּ֥שֶׁב בְּאֶֽרֶץ־נ֖וֹד קִדְמַת־עֵֽדֶן׃
+
+Cain went out from the presence of YHWH and settled in the land of Nod, opposite Eden.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.16
+
+### Current best selected translation
+
+야훼 앞을 떠남과 놋 땅 거주를 옮기며 현재 에덴 맞은편을 선택한다.
+
+#### gemini-3.8-flash-medium
+
+Then Cain went out from the presence of YHWH, and settled in the land of Nod, east of Eden.
+
+Final opinion (Korean original): 주인님, 16절은 BDB 6926 §1(front/over against, 맞은편)과 스웨트 70인역의 'κατέναντι Ἔδεμ(에덴 맞은편)'에 근거하여 전통적인 '동쪽' 대신 '에덴 맞은편(opposite Eden / frente a Edén)'으로 전환한 학술적 결단을 명료하게 반영하고 있습니다. 다만 공간적 방위로서의 '동쪽' 역시 히브리어 방위 개념상 타당한 전통적 대안이므로 절대적 확정으로 강제해서는 안 됩니다. '야훼 앞을 떠나'는 표현을 성전이나 성소 등 후대의 물리적 건축물 이탈로 비정하는 교조적 단정을 배제하였으며, '놋(Nod)' 땅의 실재성 대 상징성(12, 14절의 '나드'와 연관된 방황의 영역) 사이의 긴장을 훼손하지 않고 담백하게 보존하였습니다.
+
+#### gpt-6.1-sol
+
+Cain went out from the presence of YHWH and settled in the land of Nod, east of Eden.
+
+Final opinion (Korean original): 야훼 앞을 떠남과 놋 땅 거주를 옮기며 현재 에덴 맞은편을 선택한다. BDB6926은4:16을 앞·맞은편 항목에 두고 실제 Swete 디지털은 카테난티를 쓴다. 동쪽 독법도 보존한다. 놋과 방랑 어휘의 소리 관계는 현대 지도·순수 상징 공간·특정 성소의 확정을 뜻하지 않는다.
+
+Counterargument (Korean): BDB6926은4:16을 앞·맞은편 항목에 두고 실제 Swete 디지털은 카테난티를 쓴다. 동쪽 독법도 보존한다. 놋과 방랑 어휘의 소리 관계는 현대 지도·순수 상징 공간·특정 성소의 확정을 뜻하지 않는다.
+
 ## Notes
 
 Know is read as a sexual euphemism and rendered lay with. The subject-first perfect construction does not by itself settle whether intercourse preceded or followed expulsion. Eve remains the subject of conception, birth and speech.
@@ -400,9 +592,21 @@ The keeper question in v.9 and the crying blood in v.10 remain. Plural blood in 
 
 Cursed from the ground in v.11 is the current source-oriented choice; it does not preserve separation,source and comparison equally. BDB4480 1b explicitly gives separation from the tilled soil and a from alternative. An intermediate explicit banishment was withdrawn after Gemini critique. Ground-mouth,hand and receiving purpose remain. Speech continues through v.12.
 
+The strength of the soil in v.12 is glossed as produce by BDB3581. Fugitive and wanderer preserve the paired participles and recur in v.14. Imported lakh2fs stays intact; GKC103f lists the male pausal form,consistent with Cain. No tagging mechanism or new female addressee is inferred. Speech begun in v.10 closes here.
+
+Verse13 presently selects punishment too great to bear. BDB5771 lists the verse under punishment while also recording iniquity and guilt. The actually read Swete digital v.13 uses a forgiveness expression. Hebrew leaves the infinitive agent unstated; guilt/punishment and bearing/forgiveness remain alternatives. Neither repentance,its absence,nor divine inability to forgive is established.
+
+Verse14 is Cain’s speech. Ground surface and divine face repeat the same Hebrew face word. Korean selects a reflexive hiding expression; passive concealment is a strong alternative and BDB5641 places this verse there. No doctrine of God literally being unable to see Cain or population origin/count is added.
+
+Pinned laken in v.15 is translated therefore. The actually read Swete digital text has Not so,but no full witness collation or original Hebrew reconstruction is claimed. Impersonal sevenfold vengeance follows BDB5358 on passive avenging without fixing subject or agent. Context threatens the killer; Cain is not killed seven times.
+
+The sign in v.15 is for Cain and has a protective purpose; BDB226 lists sign,pledge,token. Its appearance and bodily location are unspecified. Neither a bodily mark nor a non-bodily form is established. Strike may include a fatal blow in context.
+
+Qidmat in v.16 is presently opposite Eden. The actually read BDB6926 assigns4:16 to in front of/over against; digital Swete uses opposite Eden. East remains an alternative and no modern coordinates are fixed. Nod echoes wandering vocabulary without proving a purely symbolic location or departure from a particular shrine.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 4:1–11 (en), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/en/genesis-4/
+Hansam Yang. Original Bible: Genesis 4:1–16 (en), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/en/genesis-4/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
