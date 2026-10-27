@@ -1,6 +1,6 @@
 # Genesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.10
+Hansam Yang · Original Bible · v0.4.11
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -43,6 +43,10 @@ The serpent was craftier than any wild animal that YHWH God had made. It said to
 Final opinion (Korean original): 꾀가 많았다는 비교와 복수 너희를 보존하고, 하나님이 정말로라고 묻는 반문 및 어떤 나무에서도라는 전면 금지 인용을 현재 채택한다. אף כי의 감탄·미완결 발화, 모든 나무에서는 아님이라는 부정 범위 대안은 남긴다. 문법만으로 예외 없음이나 뱀의 심리를 확정하지 않고 사탄이라는 이름을 보충하지 않는다.
 
 Counterargument (Korean): אף כי의 감탄·미완결 발화, 모든 나무에서는 아님이라는 부정 범위 대안은 남긴다. 문법만으로 예외 없음이나 뱀의 심리를 확정하지 않고 사탄이라는 이름을 보충하지 않는다.
+
+Previous v0.4.10
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
 
 Previous v0.4.5
 
@@ -90,6 +94,10 @@ Final opinion (Korean original): 우리의 허용 답변으로 먹어도 된다�
 
 Counterargument (Korean): 먹는다·먹을 것이다도 양태 대안이다. 앞 장과의 표현 차이만으로 여자의 심리적 약화나 의도적 축소를 단정하지 않는다.
 
+Previous v0.4.10
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
 Previous v0.4.5
 
 The woman said to the serpent, “We may eat the fruit of the trees of the garden.
@@ -135,6 +143,10 @@ But concerning the fruit of the tree in the middle of the garden, God said, ‘Y
 Final opinion (Korean original): 먹지 말라와 만지지 말라를 여자가 전하는 말로 그대로 보존한다. פן은 피하려는 결과로 옮기며 ממנו는 문맥상 그것에서로 읽는다. 왜 접촉 금지가 앞 장의 기록과 다른지는 확정하지 않는다. 수입 형태분석 1cp 태그는 그대로 남기며, 파라고긱 눈에 필수적인 엄중함을 부여하지 않는다. Gemini가 지적한 목적절 선행의 경고 효과 차이를 기록하되 세 언어의 피하려는 결과라는 현재 선택을 유지한다.
 
 Counterargument (Korean): 왜 접촉 금지가 앞 장의 기록과 다른지는 확정하지 않는다. 수입 형태분석 1cp 태그는 그대로 남기며, 파라고긱 눈에 필수적인 엄중함을 부여하지 않는다. 한국어 목적절을 앞에 둔 선택은 경고의 강도를 덜 드러낼 수 있으며, 금지 뒤에 경고를 두는 어순도 대안이다.
+
+Previous v0.4.10
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
 
 Previous v0.4.5
 
@@ -188,6 +200,10 @@ Final opinion (Korean original): 죽음 표현의 반복을 뱀의 강한 부정
 
 Counterargument (Korean): 반드시 죽는다는 확실성을 부정하는 메아리 독법도 가능하다. 즉사·지연·영생 같은 시간표를 번역에 추가하지 않는다. 검증되지 않은 평행구절이나 예외 없는 통사 법칙을 근거로 삼지 않는다.
 
+Previous v0.4.10
+
+The serpent said to the woman, “You certainly will not die.
+
 Previous v0.4.5
 
 The serpent said to the woman, “You certainly will not die.
@@ -239,6 +255,10 @@ For God knows that on the day you eat from it your eyes will be opened, and you 
 Final opinion (Korean original): 같은 절 앞부분의 단수 일치와 문맥을 따라 하나님처럼을 현재 선택하고, 복수 아는 이들이라는 상태를 드러낸다. 신들·신적 존재들처럼 및 복수 분사의 다른 부착 대안이 있다. 처음 כי의 오히려 독법, 날/때, 선악의 지식 범위는 추가 검토 대상이며 교리나 생물학적 순서를 확정하지 않는다.
 
 Counterargument (Korean): 신들·신적 존재들처럼 및 복수 분사의 다른 부착 대안이 있다. 처음 כי의 오히려 독법, 날/때, 선악의 지식 범위는 추가 검토 대상이며 교리나 생물학적 순서를 확정하지 않는다.
+
+Previous v0.4.10
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
 
 Previous v0.4.5
 
@@ -292,6 +312,10 @@ Final opinion (Korean original): 세 평가와 먹고 주는 행동을 보존하
 
 Counterargument (Korean): 바라보기에라는 시각적 대안도 BDB에 명시되어 있으며 인지 독법만 확정하지 않는다. 세 번째 평가절의 통사 범위도 논의 대상이다. 함께 있었다는 말로 앞선 대화 내내의 동석을 단정하지 않는다.
 
+Previous v0.4.10
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
 Previous v0.4.6
 
 The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
@@ -333,6 +357,10 @@ Then the eyes of both of them were opened, and they knew that they were naked. T
 Final opinion (Korean original): 눈이 열림·벌거벗음의 인식·잎을 꿰맴을 보존하고 חגורות는 BDB의 해당 용례에 따라 허리 가리개를 현재 선택한다. 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
 
 Counterargument (Korean): 띠·앞치마도 대안이다. 정확한 크기·재단·의복 형태를 확정하지 않는다. עלה는 수입 형태분석의 단수 태그를 보존하며 번역에서는 집합적 잎을 자연스럽게 표현한다.
+
+Previous v0.4.10
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
 
 Previous v0.4.6
 
@@ -382,6 +410,10 @@ Final opinion (Korean original): קול은 소리로, מתהלך는 하나님이
 
 Counterargument (Korean): 목소리 및 소리가 움직인다는 구문 대안, 저녁/서늘한 때라는 시간 해석을 남긴다. BDB는 낮의 바람·저녁 바람을 병기한다. breeze/brisa는 현재 역어이며 강도·기온·정오·폭풍·습관을 본문만으로 확정하지 않는다.
 
+Previous v0.4.10
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
 Previous v0.4.6
 
 They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
@@ -423,6 +455,10 @@ YHWH God called to the man and said to him, “Where are you?”
 Final opinion (Korean original): 관사 있는 האדם을 그 사람으로, 단수 남성 대상의 질문을 네가 어디 있느냐로 현재 옮긴다. 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
 
 Counterargument (Korean): 아담이라는 이름으로 옮기는 대안도 있다. 관사 때문에 고유명사가 항상 불가능하다는 보편 규칙을 주장하지 않는다. 질문만으로 화자의 지식·법정 의도를 확정하지 않는다.
+
+Previous v0.4.10
+
+YHWH God called to the man and said to him, “Where are you?”
 
 Previous v0.4.6
 
@@ -472,6 +508,10 @@ Final opinion (Korean original): 화자의 일인칭 듣기·두려움·벌거�
 
 Counterargument (Korean): 스페인어는 קול 명사를 암시적으로 처리한다. 당신의 음성/your voice/tu voz도 대안이다. 히브리어 무동사절을 현재의 벌거벗음으로 읽는 대안과 영어·스페인어 과거 시제의 문맥상 조응을 구분하며 죄책감·회개·옷의 효과나 시간표를 보충하지 않는다.
 
+Previous v0.4.10
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
 Previous v0.4.6
 
 He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
@@ -513,6 +553,10 @@ He said, “Who told you that you were naked? Have you eaten from the tree from 
 Final opinion (Korean original): 벌거벗음의 정보 출처와 금지한 나무에서 먹었는지를 두 질문으로 옮긴다. 부정은 먹지 말라는 명령 내용에 속하며 주절 질문 자체의 부정이 아니다. ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
 
 Counterargument (Korean): ממנו의 수입 1cp 형태 태그는 보존하고 문맥상 그 나무에서로 옮긴다. לך는 네게라는 여격이다. 질문만으로 화자의 지식·법정 의도·질책의 정도를 확정하지 않는다.
+
+Previous v0.4.10
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
 
 Previous v0.4.7
 
@@ -558,6 +602,10 @@ Final opinion (Korean original): 당신이 주신/그 여자가 주었다의 반
 
 Counterargument (Korean): 함께 있도록은 עם의 관계를 자연스럽게 푼 선택이며 목적 해석이 포함된다. 나무에서 난 것은 생략된 먹을 것을 푼 편집적 보충이다. 책임 전가·원망은 담화 해석으로 가능하지만 화자의 동기를 번역에 확정하지 않는다.
 
+Previous v0.4.10
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
 Previous v0.4.7
 
 The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
@@ -595,6 +643,10 @@ YHWH God said to the woman, “What is this you have done?” The woman said, �
 Final opinion (Korean original): 무엇을 했느냐는 질문과 뱀이 속였다는 여자의 진술 및 내가 먹었다를 화자별로 보존한다. 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
 
 Counterargument (Korean): 속여서라는 한국어 연결은 자연스러운 관계 표현이다. 유혹하다도 대안이지만 사탄·강제·무죄·회개를 본문에 보충하지 않는다.
+
+Previous v0.4.10
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
 
 Previous v0.4.7
 
@@ -640,6 +692,10 @@ Final opinion (Korean original): מכל의 비교를 현재 선택하여 모든 
 
 Counterargument (Korean): 가운데서·구별되어라는 범위/분리 독법도 있다. 비교가 다른 모든 동물의 별도 저주를 확증하지 않는다. 이전 다리·해부학 변화나 흙 먹기의 문자적/상징적 의미를 확정하지 않는다. 14–15절을 뱀에게 하는 발화로 묶는다.
 
+Previous v0.4.10
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
 Previous v0.4.7
 
 YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
@@ -683,6 +739,10 @@ I will put enmity between you and the woman, and between your offspring and her 
 Final opinion (Korean original): 적의와 양쪽 후손을 반복하고 הוא를 앞의 여자의 후손으로 현재 읽는다. 두 שוף는 치다/strike/golpear로 맞춰 어휘 반복과 머리·발꿈치의 대비를 보존한다. BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
 
 Counterargument (Korean): BDB는 bruise와 집합적 후손 용례를 제시한다. 상하게 하다·으스러뜨리다·노리다와 문맥별 다른 동사도 재검토할 수 있다. 같은 동사가 같은 피해 정도나 특정 승패를 증명하지 않는다. 남성 단수와 집합명사는 특정 한 인물을 자동 확정하거나 불가능하게 하지 않는다. 스페인어 여성 일치는 원문의 여성 주어 주장이 아니며 후대 특정 인물의 이름을 보충하지 않는다.
+
+Previous v0.4.10
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
 
 Previous v0.4.7
 
@@ -728,6 +788,10 @@ Final opinion (Korean original): 늘리다의 반복을 크게로 옮기고 고�
 
 Counterargument (Korean): 두 명사를 고통과 임신으로 병렬 번역하는 GPT 초기·Claude 초안과 기존 클라우드 대안을 보존한다. 임신 횟수 증가나 중언법을 확정하지 않는다. 갈망을 오직 지배욕·성욕·적의로 좁히지 않는다. 문맥상 미래 진술을 선택하며 미완료 형태만으로 모든 규범적 신학을 판정하지 않는다.
 
+Previous v0.4.10
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
 Previous v0.4.8
 
 To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
@@ -768,6 +832,10 @@ Final opinion (Korean original): 아담/Adán이라는 현재 선택과 금지 �
 
 Counterargument (Korean): 사람이라는 번역도 가능하다. 땅에서 먹을 것을 얻는다는 것은 먹다의 여성 목적어를 자연스럽게 푼 것이다. ממנו는1cp/3ms 동형이며 수입1cp 분석을 보존하고 문맥상 나무에서로 읽는다. 악센트 비교 주석은 이미 지원되는 별도 메타데이터이며 실물 BHS/L 대조 결과로 사칭하지 않는다.
 
+Previous v0.4.10
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
 Previous v0.4.8
 
 To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
@@ -801,6 +869,10 @@ It will bring forth thorns and thistles for you, and you will eat the plants of 
 Final opinion (Korean original): 앞 절의 땅을 주어로 명시하고 가시·엉겅퀴 및 들의 식물을 옮긴다. 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
 
 Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
+
+Previous v0.4.10
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
 
 Previous v0.4.8
 
@@ -842,6 +914,10 @@ Final opinion (Korean original): 얼굴의 땀, 빵, 땅으로 돌아감, 티끌
 
 Counterargument (Korean): 양식/food와 흙먼지/흙도 대안이다. 기존2:7의 흙먼지와 이 절의 티끌은 같은 עפר를 옮긴 표현 차이이며 서로 다른 물질을 주장하지 않는다. 죽음 문맥을 넘어 영혼·부활·물질 구성·과학 이론을 본문에 보충하지 않는다.
 
+Previous v0.4.10
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
 Previous v0.4.8
 
 By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
@@ -876,6 +952,10 @@ Final opinion (Korean original): 하와/Eve/Eva의 이름과 살아 있는 이�
 
 Counterargument (Korean): 이름과 생명의 문학적 연결은 정확한 역사 어원 증명이 아니다. 어머니였다는 서술자의 시점과 앞으로 어머니가 됨이라는 독법을 열어 둔다. 이름 짓기의 믿음·희망·지배 동기를 확정하거나 모든 동식물의 생물학적 모계로 확대하지 않는다.
 
+Previous v0.4.10
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
 Previous v0.4.8
 
 The man called his wife’s name Eve, because she was the mother of all the living.
@@ -909,6 +989,10 @@ YHWH God made garments of skin for Adam and his wife and clothed them.
 Final opinion (Korean original): 가죽으로 된 옷을 만들고 입힌 두 동작을 보존한다. 아담은 앞17절과 이어 현재 선택한다. 사람도 대안이며 원출처 일반명사 분석은 보존한다. 튜닉/긴 속옷이라는 더 구체적인 옷 형식을 가죽옷으로 넓게 옮겼다. 동물 제사·최초 죽음·대속·제작 동기를 본문에 보충하지 않는다.
 
 Counterargument (Korean): 사람도 대안이며 원출처 일반명사 분석은 보존한다. 튜닉/긴 속옷이라는 더 구체적인 옷 형식을 가죽옷으로 넓게 옮겼다. 동물 제사·최초 죽음·대속·제작 동기를 본문에 보충하지 않는다.
+
+Previous v0.4.10
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
 
 Previous v0.4.9
 
@@ -946,6 +1030,10 @@ Final opinion (Korean original): 선과 악을 아는 데서 우리 가운데 �
 
 Counterargument (Korean): 이전 상태를 뜻하는 있었다나 반어 독법도 대안이다. 우리 지시 대상을 확정하지 않는다. 말줄임·따옴표는 현대 편집이며 공포·급박함·반어가 원문에 확정되었다고 주장하지 않는다.
 
+Previous v0.4.10
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
 Previous v0.4.9
 
 YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
@@ -975,6 +1063,10 @@ So YHWH God sent him out from the garden of Eden to work the ground from which h
 Final opinion (Korean original): 에덴동산에서 내보냄과 그가 취해진 땅을 일구는 목적을 보존한다. 그래서는 앞 구문과의 결과 관계를 자연스럽게 잇는 편집 선택이다. 내보내다와 다음절 쫓아내다를 구별하되 사명 파견·합법 퇴거·물리적 폭력을 동사만으로 확정하지 않는다.
 
 Counterargument (Korean): 그래서는 앞 구문과의 결과 관계를 자연스럽게 잇는 편집 선택이다. 내보내다와 다음절 쫓아내다를 구별하되 사명 파견·합법 퇴거·물리적 폭력을 동사만으로 확정하지 않는다.
+
+Previous v0.4.10
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
 
 Previous v0.4.9
 
@@ -1011,6 +1103,10 @@ He drove out the human and stationed the cherubim and the flame of the turning s
 Final opinion (Korean original): 그 사람을 쫓아내고 동쪽에 케루빔들과 돌아가는 칼의 불꽃을 두어 길을 지키는 구문을 옮긴다. 여성 분사는 칼과 일치한다. 케루빔의 해부학·칼을 쥔 손·정확한 회전 기제를 넣지 않는다. 목적어 병렬만으로 손에 들 수 없다고 증명하지도 않는다.
 
 Counterargument (Korean): 여성 분사는 칼과 일치한다. 케루빔의 해부학·칼을 쥔 손·정확한 회전 기제를 넣지 않는다. 목적어 병렬만으로 손에 들 수 없다고 증명하지도 않는다.
+
+Previous v0.4.10
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
 
 Previous v0.4.9
 
@@ -1060,7 +1156,7 @@ Sent out in v. 23 and drove out in v. 24 remain distinct without proving a missi
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (en), research pilot v0.4.10. https://yangs777.github.io/hansam-bible/en/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (en), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/en/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

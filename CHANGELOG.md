@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.11 — 2026-10-27
+
+- Added Genesis 4:7–11 in three languages: 101 selected verses / 303 translations.
+- Preserved actual GPT/Gemini drafts and final opinions,including the critique and correction; Claude Code review of4:7,8,11 and five existing cloud drafts remain separate evidence.
+- Recorded acceptance/lifting and modal alternatives,the speech content absent from pinned WLC4:8 versus the actually read Swete digital text,blood plural and min alternatives. Previous96 selections and v0.4.10 data/ZIP preserved.
+
 ## 0.4.10 — 2026-10-27
 
 - Added Genesis 4:2–6 in three languages: 96 selected verses / 288 translations.

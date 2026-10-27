@@ -1,6 +1,6 @@
 # Genesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.10
+Hansam Yang · Original Bible · v0.4.11
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -43,6 +43,10 @@ Previous v0.4.0
 Thus the heavens and the earth and all their host were completed.
 
 Previous v0.4.1
+
+Thus the heavens and the earth and all their host were completed.
+
+Previous v0.4.10
 
 Thus the heavens and the earth and all their host were completed.
 
@@ -118,6 +122,10 @@ Previous v0.4.1
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
+Previous v0.4.10
+
+On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
+
 Previous v0.4.2
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
@@ -187,6 +195,10 @@ Previous v0.4.0
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
 Previous v0.4.1
+
+God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
+
+Previous v0.4.10
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
@@ -262,6 +274,10 @@ Previous v0.4.1
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
 
+Previous v0.4.10
+
+This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
+
 Previous v0.4.2
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
@@ -325,6 +341,10 @@ Previous v0.4.0
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
 Previous v0.4.1
+
+No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
+
+Previous v0.4.10
 
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
@@ -396,6 +416,10 @@ Previous v0.4.1
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
 
+Previous v0.4.10
+
+But a flow of water would rise from the earth and water the whole surface of the ground.
+
 Previous v0.4.2
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
@@ -461,6 +485,10 @@ Final opinion (Korean original): 살아 있는 존재가 되었다라는 구문�
 Counterargument (Korean): 영혼이라는 전통적 번역은 별도 실체를 주입할 수 있다. 이 절만으로 영혼의 존재 여부나 인간론을 확정하지도 않는다. אדם/אדמה 말놀이는 세 언어에 완전 재현되지 않는다.
 
 Previous v0.4.1
+
+Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
+
+Previous v0.4.10
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
@@ -532,6 +560,10 @@ Previous v0.4.1
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
 
+Previous v0.4.10
+
+Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
+
 Previous v0.4.2
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
@@ -591,6 +623,10 @@ Final opinion (Korean original): 두 나무를 보존하고 가운데 수식어�
 Counterargument (Korean): 지식의 선악을 도덕적 판단만으로 한정하거나 모든 지식이라는 총칭으로 풀면 해석이 강해진다. 두 나무 모두 가운데라는 위치가 적용되는지도 구문만으로 과도하게 확정하지 않는다.
 
 Previous v0.4.1
+
+Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
+
+Previous v0.4.10
 
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
@@ -656,6 +692,10 @@ Previous v0.4.1
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
 
+Previous v0.4.10
+
+A river flowed out of Eden to water the garden; from there it divided into four branches.
+
 Previous v0.4.2
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
@@ -713,6 +753,10 @@ The name of the first is Pishon; it flows around the whole land of Havilah, wher
 Final opinion (Korean original): 비손·하윌라를 현재 고유명 표기로 유지하고 두루 흐른다를 선택한다. 특정 현대 위치나 영역의 완전한 포위는 확정하지 않는다. Gemini가 재인용한 히브리어에 아랍 문자 혼입이 있어 표시 원문에는 사용하지 않으며 고정 WLC만 사용한다.
 
 Counterargument (Korean): סבב를 두르다·굽이돌다로 이해할 수 있다. 강이 실제 국경을 완전히 한 바퀴 돈다는 현대 지도나 하윌라 좌표를 확정하지 않는다.
+
+Previous v0.4.10
+
+The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
 Previous v0.4.2
 
@@ -778,6 +822,10 @@ Final opinion (Korean original): 브돌라흐와 쇼함 돌을 현재 선택한�
 
 Counterargument (Korean): בדלח를 수지·진주 등으로, שׁהם을 줄마노·다른 보석으로 식별하는 대안이 있다. 음역은 의미 이해를 어렵게 하므로 각주가 필요하며 현대 광물학적 확정이 아니다.
 
+Previous v0.4.10
+
+The gold of that land is good; bdellium and shoham stone are there.
+
 Previous v0.4.2
 
 The gold of that land is good; bdellium and shoham stone are there.
@@ -835,6 +883,10 @@ The name of the second river is Gihon; it flows around the whole land of Cush.
 Final opinion (Korean original): 구스를 유지하고 에티오피아나 카시트 지역으로 치환하지 않는다. Gemini의 카시트 지역을 지시하는 용례가 있다는 단정은 이번 자료로 확인되지 않아 채택 근거로 사용하지 않는다. Gemini 최종 의견의 원음대로라는 표현도 인증하지 않는다. 음역은 편집상의 현재 표기이며 고대 발음의 완전 복원을 뜻하지 않는다.
 
 Counterargument (Korean): 구스를 현대 에티오피아 국경이나 특정 다른 지역과 동일시할 수 없다. 지명의 다른 문헌 용례가 이 구절의 정확한 위치를 자동으로 확정하지 않는다.
+
+Previous v0.4.10
+
+The name of the second river is Gihon; it flows around the whole land of Cush.
 
 Previous v0.4.2
 
@@ -900,6 +952,10 @@ Final opinion (Korean original): 힛데겔·프라트·아슈르 표기와 동�
 
 Counterargument (Korean): 티그리스·유프라테스라는 관용 지명 번역도 가능하며, קדמת의 앞쪽이라는 대안과 아슈르의 도시·지역 지시 문제가 남는다. 음역이 역사적 수계 전체의 복원을 의미하지 않는다.
 
+Previous v0.4.10
+
+The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
+
 Previous v0.4.2
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
@@ -964,6 +1020,10 @@ Final opinion (Korean original): 그곳을 일구고 지키게를 선택한다. 
 
 Counterargument (Korean): 두 부정사의 여성 접미사 지시 대상에 땅이라는 대안이 있다. 제공 OSHB는 גן을 Ncbsc(공성 단수 연계형)로 분류하므로 통상적 남성 용례만으로 불일치나 본문 손상을 단정하지 않는다. 섬기다·보호하다라는 의미와 제의적 해석은 주석에서 구별한다.
 
+Previous v0.4.10
+
+Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
+
 Previous v0.4.2
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
@@ -1021,6 +1081,10 @@ Yahweh God commanded the human, saying, “You may freely eat from every tree of
 Final opinion (Korean original): 명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다. 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
 
 Counterargument (Korean): 반복형의 양태를 적극적 의무로 옮기는 대안이 있지만 다음 금지와의 대조에서는 허용이 더 자연스럽다.
+
+Previous v0.4.10
+
+Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
 Previous v0.4.3
 
@@ -1082,6 +1146,10 @@ Final opinion (Korean original): 먹는 날과 반드시 죽는다는 확실성�
 
 Counterargument (Korean): 날/때의 범위와 죽음의 방식은 구문만으로 확정되지 않는다. 즉사·영적 죽음이나 역사적 발생을 번역에서 단정하지 않는다.
 
+Previous v0.4.10
+
+but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
+
 Previous v0.4.3
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
@@ -1141,6 +1209,10 @@ Yahweh God said, “It is not good for the human to be alone. I will make for hi
 Final opinion (Korean original): 상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다. 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
 
 Counterargument (Korean): 도움과 상응만으로 열등·완전한 동등·우월의 제도 전체를 입증할 수 없다. 원출처의 BHS/레닌그라드 주장에 대한 직접 검증은 미완이다.
+
+Previous v0.4.10
+
+Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
 Previous v0.4.3
 
@@ -1202,6 +1274,10 @@ Final opinion (Korean original): 빚으시고·데려오심·명명의 서술 �
 
 Counterargument (Korean): 이미 빚으셨던이라는 선행과거와 절 후반의 다른 구문 분석도 가능하다. 일반 과거를 선택해도 전체 창조 연대기를 확정한 것은 아니다.
 
+Previous v0.4.10
+
+Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
+
 Previous v0.4.3
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
@@ -1255,6 +1331,10 @@ The human gave names to all the livestock, to the birds of the heavens and to ev
 Final opinion (Korean original): 이름 부여 뒤 돕는 이가 발견되지 않은 결과를 비인칭적 수동으로 현재 옮긴다. 18절과 같은 상응 표현을 쓴다. מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
 
 Counterargument (Korean): מצא는 능동형이며 사람 또는 하나님 주어로 읽을 수 있다. 번역의 수동 표현이 히브리어 수동 형태라는 뜻은 아니다. 사람/아담의 명칭 대안도 남긴다.
+
+Previous v0.4.10
+
+The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
 Previous v0.4.3
 
@@ -1316,6 +1396,10 @@ Final opinion (Korean original): 신체 문맥과 하나를 취하는 구문 및
 
 Counterargument (Korean): 옆구리·측면도 어휘상 대안이다. 다른 곳의 건축 용례 빈도만으로 이 문맥을 결정하지 않으며 해부학·수술·유전이나 성별 위계를 확정하지 않는다.
 
+Previous v0.4.10
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
 Previous v0.4.4
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
@@ -1372,6 +1456,10 @@ Final opinion (Korean original): 21절과 갈빗대 역어를 맞추고 בנה�
 
 Counterargument (Korean): 원문의 직접 목적어는 그 갈빗대다. 재료 구문은 의미를 살린 재배열이며, 만들다·형성하다 또는 옆면이라는 대안도 가능하다. 혼례 의식은 본문에 보충하지 않는다.
 
+Previous v0.4.10
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
 Previous v0.4.4
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
@@ -1421,6 +1509,10 @@ The human said, “This time, bone from my bones and flesh from my flesh! This o
 Final opinion (Korean original): 이번에야말로의 감탄, 뼈·살의 반복, 취해짐을 옮기며 איש/אשה의 소리 유희는 주석으로 보완한다. 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
 
 Counterargument (Korean): 한국어 여자라 부를 것이다는 비인칭적 기능 번역이다. 정확한 어원이나 완전한 운율 재현을 입증하지 않으며 마침내라는 대안도 가능하다.
+
+Previous v0.4.10
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
 Previous v0.4.4
 
@@ -1478,6 +1570,10 @@ Final opinion (Korean original): 총칭적 현재, 굳은 결합, 그들은 한 
 
 Counterargument (Korean): 미래·규범적 독법과 발화 연속 대안은 남는다. 인용 경계는 현대 편집이며 한 몸/one flesh/una sola carne만으로 친족·성·혼인 제도 전체의 범위를 확정하지 않는다.
 
+Previous v0.4.10
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
 Previous v0.4.4
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
@@ -1527,6 +1623,10 @@ The human and his wife were both naked, but they were not ashamed.
 Final opinion (Korean original): 둘 다 벌거벗었으나 부끄러워하지 않았다는 진술을 옮기고 서로라는 대상을 덧붙이지 않는다. 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
 
 Counterargument (Korean): 상호적 독법도 가능하다. 무죄·원의·완전한 평화 등 별도 교리를 번역에 보충하지 않는다. 3:1과의 소리 유사성은 주석 대상이며 완전한 동음이라고 단정하지 않는다.
+
+Previous v0.4.10
+
+The human and his wife were both naked, but they were not ashamed.
 
 Previous v0.4.4
 
@@ -1590,7 +1690,7 @@ Verse 25 renders absence of shame without adding an explicit toward one another.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.10. https://yangs777.github.io/hansam-bible/en/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/en/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

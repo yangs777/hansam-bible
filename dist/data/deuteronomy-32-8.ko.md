@@ -1,6 +1,6 @@
 # 신명기 32:8
 
-Hansam Yang · Original Bible · v0.4.10
+Hansam Yang · Original Bible · v0.4.11
 
 AI 보조 번역 초안 · 원어·모국어 전문가 검수 전
 
@@ -68,6 +68,10 @@ Previous v0.4.1
 
 지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.
 
+Previous v0.4.10
+
+지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.
+
 Previous v0.4.2
 
 지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.
@@ -122,7 +126,7 @@ Emanuel Tov의 2023년 비교는 MT·사마리아오경의 ‘이스라엘 자�
 
 ## Citation
 
-Hansam Yang. Original Bible: Deuteronomy 32:8 (ko), research pilot v0.4.10. https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/
+Hansam Yang. Original Bible: Deuteronomy 32:8 (ko), research pilot v0.4.11. https://yangs777.github.io/hansam-bible/ko/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
