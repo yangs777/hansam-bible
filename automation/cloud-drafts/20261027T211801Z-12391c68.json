@@ -1,0 +1,2456 @@
+{
+  "run_id": "20261027T211801Z-12391c68",
+  "provider": "Claude Code native cloud",
+  "model_identity": {
+    "requested_or_configured_model": "claude-sonnet-5-5",
+    "served_model_reported_by_session_api": "not independently exposed in this scheduled session",
+    "identity_basis": "Session system context named the model as Sonnet 5.5 (claude-sonnet-5-5); runtime-provided label, not a verified API response header",
+    "session": "https://claude.ai/code/session_01UknqVKVdWUuCsfcV34gstr",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "sampling parameters"
+    ],
+    "note": "A model self-report is not source evidence."
+  },
+  "executed_at_utc": "2026-10-27T21:21:48.289664+00:00",
+  "state": "unadopted_model_draft",
+  "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+  "input": {
+    "source_packet": "automation/cloud-packets/20261027T211801Z-12391c68.json",
+    "source_packet_sha256": "052b1a32f327e327e54d43592367a893dd5c66b99826d24cf67c4a23bb07ce2e",
+    "verse_count": 100,
+    "first_id": "Exod.10.11",
+    "last_id": "Exod.13.21",
+    "note": "Packet skips Exod.11.8 (not queued); cross-verse quotation continuity there was not checked."
+  },
+  "self_check": {
+    "exact_id_coverage": true,
+    "duplicate_ids": false,
+    "ko_en_es_nonempty": true,
+    "hebrew_provenance_and_rights_attached": true,
+    "no_human_certification_claim": true,
+    "reread_for_dropped_clauses_and_language_agreement": "one pass by the same model only, written in one session; many reasoning/counterargument fields are brief or generic where no specific issue was identified; ko/en/es not exhaustively cross-aligned",
+    "independent_review": "not performed; GPT and Gemini review remain required",
+    "open_items": [
+      "Exod.10.21 וְיָמֵשׁ (feel vs. depart)",
+      "Exod.11.2/12.35 שאל (ask vs. borrow) rendered neutrally as request",
+      "Exod.12.4 תָּכֹסּוּ and 12.22 סַף uncertain",
+      "Exod.12.34 מִשְׁאֲרֹת (kneading bowl vs. leftovers)",
+      "Exod.12.40 number follows MT only; no versional comparison",
+      "Exod.13.16 טוֹטָפֹת and 13.18 חֲמֻשִׁים uncertain",
+      "Exod.11.7 and 13.11-12 quotations continue across unqueued/adjacent verses",
+      "Reasoning notes were not independently verified against lexica"
+    ]
+  },
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "verses": [
+    {
+      "id": "Exod.10.11",
+      "translations": {
+        "ko": "그렇게는 안 됩니다. 장정들만 가서 여호와를 섬기십시오. 그것이 당신들이 구하던 것이 아닙니까?” 그러고는 그들을 바로 앞에서 쫓아냈다.",
+        "en": "“Not so! Go, you men, and serve the LORD, for that is what you are seeking.” And they were driven out from Pharaoh’s presence.",
+        "es": "«¡No así! Vayan los varones y sirvan al SEÑOR, pues eso es lo que ustedes buscan». Y los echaron de la presencia del faraón."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הַגְּבָרִים는 성인 남자들. כִּי אֹתָהּ(여성 대명사 목적어)는 문맥상 ‘그것(섬김)’으로 풀었다. וַיְגָרֶשׁ는 주어 없는 3인칭 단수로 수동 의미(‘쫓겨났다’)로 옮겼다.",
+      "counterargument_ko": "אֹתָהּ의 여성형 지시를 ‘섬김’으로 푸는 것은 해석이며, 바로의 말 끝에서 서술자의 말로 넘어가는 경계는 어조 판단이다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.11",
+      "source_hebrew": "לֹ֣א כֵ֗ן לְכֽוּ־נָ֤א הַגְּבָרִים֙ וְעִבְד֣וּ אֶת־יְהוָ֔ה כִּ֥י אֹתָ֖הּ אַתֶּ֣ם מְבַקְשִׁ֑ים וַיְגָ֣רֶשׁ אֹתָ֔ם מֵאֵ֖ת פְּנֵ֥י פַרְעֹֽה׃",
+      "source_hebrew_sha256": "94cfc3f7272505c200e28e219052b2f48f05b058f671eee7982fa20ecd4f5339",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.12",
+      "translations": {
+        "ko": "여호와께서 모세에게 말씀하셨다. “이집트 땅 위로 네 손을 뻗어라. 메뚜기가 이집트 땅 위로 올라와 우박이 남긴 땅의 모든 풀을 먹어 치울 것이다.”",
+        "en": "The LORD said to Moses, “Stretch out your hand over the land of Egypt for the locust, that it may come up over the land of Egypt and eat every plant of the land, all that the hail left.”",
+        "es": "El SEÑOR dijo a Moisés: «Extiende tu mano sobre la tierra de Egipto para que venga la langosta, suba sobre la tierra de Egipto y devore toda la hierba de la tierra, todo lo que dejó el granizo»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בָּאַרְבֶּה의 ב는 ‘메뚜기 때문에/를 위해’의 목적 용법으로 읽었다. אַרְבֶּה는 집합 단수.",
+      "counterargument_ko": "ב를 도구(‘메뚜기로써’)로 읽을 가능성이 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.12",
+      "source_hebrew": "וַיֹּ֨אמֶר יְהוָ֜ה אֶל־מֹשֶׁ֗ה נְטֵ֨ה יָדְךָ֜ עַל־אֶ֤רֶץ מִצְרַ֨יִם֙ בָּֽאַרְבֶּ֔ה וְיַ֖עַל עַל־אֶ֣רֶץ מִצְרָ֑יִם וְיֹאכַל֙ אֶת־כָּל־עֵ֣שֶׂב הָאָ֔רֶץ אֵ֛ת כָּל־אֲשֶׁ֥ר הִשְׁאִ֖יר הַבָּרָֽד׃",
+      "source_hebrew_sha256": "84c597d4001bf0f83223674f305af1a9c8f226404f6e161cd917e32696406f89",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.13",
+      "translations": {
+        "ko": "모세가 이집트 땅 위로 지팡이를 뻗자, 여호와께서 그날 온종일과 밤새도록 동풍을 땅에 몰아오셨다. 아침이 되자 동풍이 메뚜기를 실어 왔다.",
+        "en": "Moses stretched out his staff over the land of Egypt, and the LORD drove an east wind over the land all that day and all that night. When morning came, the east wind had brought the locusts.",
+        "es": "Moisés extendió su vara sobre la tierra de Egipto, y el SEÑOR hizo soplar un viento del este sobre la tierra todo aquel día y toda la noche. Al amanecer, el viento del este había traído la langosta."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "נִהַג은 ‘몰다·이끌다’. רוּחַ קָדִים은 ‘동풍’. הַבֹּקֶר הָיָה는 ‘아침이 되었다’로 옮겼다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.13",
+      "source_hebrew": "וַיֵּ֨ט מֹשֶׁ֣ה אֶת־מַטֵּהוּ֮ עַל־אֶ֣רֶץ מִצְרַיִם֒ וַֽיהוָ֗ה נִהַ֤ג ר֥וּחַ קָדִים֙ בָּאָ֔רֶץ כָּל־הַיּ֥וֹם הַה֖וּא וְכָל־הַלָּ֑יְלָה הַבֹּ֣קֶר הָיָ֔ה וְר֨וּחַ֙ הַקָּדִ֔ים נָשָׂ֖א אֶת־הָאַרְבֶּֽה׃",
+      "source_hebrew_sha256": "70f11d77006e5388e33e9c87de9307e9e89fcc18f477899e351c7e47b6796865",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.14",
+      "translations": {
+        "ko": "메뚜기가 이집트 온 땅에 올라와 이집트 모든 지역에 내려앉았다. 매우 심했다. 이전에는 이런 메뚜기 떼가 없었고 이후에도 이런 일이 없을 것이다.",
+        "en": "The locusts came up over all the land of Egypt and settled on the whole territory of Egypt, very grievous; before them there had never been such a locust swarm, and after them there will never be again.",
+        "es": "La langosta subió sobre toda la tierra de Egipto y se posó en todo el territorio de Egipto; fue muy grave. Antes de ella no hubo langosta semejante, ni después habrá otra así."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כָּבֵד מְאֹד는 ‘매우 무거운/심한’으로 두었다. לְפָנָיו/אַחֲרָיו의 ‘그’는 메뚜기 떼를 가리킨다.",
+      "counterargument_ko": "כָּבֵד가 앞 문장에 붙는지 뒤 문장에 붙는지는 구두점(‘심했다’)에 의존한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.14",
+      "source_hebrew": "וַיַּ֣עַל הָֽאַרְבֶּ֗ה עַ֚ל כָּל־אֶ֣רֶץ מִצְרַ֔יִם וַיָּ֕נַח בְּכֹ֖ל גְּב֣וּל מִצְרָ֑יִם כָּבֵ֣ד מְאֹ֔ד לְ֠פָנָיו לֹא־הָ֨יָה כֵ֤ן אַרְבֶּה֙ כָּמֹ֔הוּ וְאַחֲרָ֖יו לֹ֥א יִֽהְיֶה־כֵּֽן׃",
+      "source_hebrew_sha256": "e3256c2972a1233508204caa0a2ed02a88b91da9b7a24cc2850028411659e0b4",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.15",
+      "translations": {
+        "ko": "메뚜기가 온 땅의 표면을 덮어 땅이 어두워졌다. 우박이 남긴 땅의 모든 풀과 나무의 모든 열매를 먹어 치워, 이집트 온 땅에서 나무에도 들의 풀에도 푸른 것이 하나도 남지 않았다.",
+        "en": "They covered the face of all the land so that the land was darkened, and they ate all the plants of the land and all the fruit of the trees that the hail had left. Nothing green remained on tree or plant of the field in all the land of Egypt.",
+        "es": "Cubrieron la superficie de toda la tierra, de modo que la tierra se oscureció; devoraron toda la hierba de la tierra y todo el fruto de los árboles que había dejado el granizo. No quedó nada verde en los árboles ni en la hierba del campo en toda la tierra de Egipto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עֵין הָאָרֶץ는 ‘땅의 눈(표면)’이라는 관용으로 ‘표면’이라 옮겼다. יֶרֶק는 ‘푸른 것’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.15",
+      "source_hebrew": "וַיְכַ֞ס אֶת־עֵ֣ין כָּל־הָאָרֶץ֮ וַתֶּחְשַׁ֣ךְ הָאָרֶץ֒ וַיֹּ֜אכַל אֶת־כָּל־עֵ֣שֶׂב הָאָ֗רֶץ וְאֵת֙ כָּל־פְּרִ֣י הָעֵ֔ץ אֲשֶׁ֥ר הוֹתִ֖יר הַבָּרָ֑ד וְלֹא־נוֹתַ֨ר כָּל־יֶ֧רֶק בָּעֵ֛ץ וּבְעֵ֥שֶׂב הַשָּׂדֶ֖ה בְּכָל־אֶ֥רֶץ מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "62eb62160917ffdcd4e59ea3268a2b9765c7de15fcf244c84837c02d6b4fff2a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.16",
+      "translations": {
+        "ko": "바로가 서둘러 모세와 아론을 불러 말했다. “내가 당신들의 하나님 여호와께 그리고 당신들에게 죄를 지었습니다.",
+        "en": "Pharaoh hurried to call Moses and Aaron and said, “I have sinned against the LORD your God, and against you.",
+        "es": "El faraón se apresuró a llamar a Moisés y a Aarón, y dijo: «He pecado contra el SEÑOR su Dios, y contra ustedes."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חָטָאתִי는 ‘죄를 지었다’(완료, 현재 고백). 말은 다음 절로 이어진다(따옴표를 닫지 않음).",
+      "counterargument_ko": "바로의 고백의 진정성은 본문 밖 평가이며 번역에서는 중립으로 둔다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.16",
+      "source_hebrew": "וַיְמַהֵ֣ר פַּרְעֹ֔ה לִקְרֹ֖א לְמֹשֶׁ֣ה וּֽלְאַהֲרֹ֑ן וַיֹּ֗אמֶר חָטָ֛אתִי לַיהוָ֥ה אֱלֹֽהֵיכֶ֖ם וְלָכֶֽם׃",
+      "source_hebrew_sha256": "c0aebcdbb05148b524afe4c1978b4d1b0993f2dc21ad0c0702947d16172d3b5c",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.17",
+      "translations": {
+        "ko": "이제 이번 한 번만 내 죄를 용서하고, 당신들의 하나님 여호와께 간구하여 이 죽음만은 내게서 거두어 가게 해 주십시오.”",
+        "en": "Now forgive my sin, only this once, and plead with the LORD your God to remove from me only this death.”",
+        "es": "Ahora perdonen, por favor, mi pecado solo esta vez, e intercedan ante el SEÑOR su Dios para que aparte de mí esta muerte.»"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "שָׂא נָא חַטָּאתִי는 ‘내 죄를 짊어져/용서해 달라’. הַמָּוֶת הַזֶּה는 재앙을 ‘이 죽음’이라 부른 비유적 표현으로 직역했다.",
+      "counterargument_ko": "‘죽음’을 메뚜기 재앙의 환유로 보는 것은 해석이다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.17",
+      "source_hebrew": "וְעַתָּ֗ה שָׂ֣א נָ֤א חַטָּאתִי֙ אַ֣ךְ הַפַּ֔עַם וְהַעְתִּ֖ירוּ לַיהוָ֣ה אֱלֹהֵיכֶ֑ם וְיָסֵר֙ מֵֽעָלַ֔י רַ֖ק אֶת־הַמָּ֥וֶת הַזֶּֽה׃",
+      "source_hebrew_sha256": "db60a062bfb895e646e495b973591d06cfe57be0ea6a4e12f37d5abef349c420",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.18",
+      "translations": {
+        "ko": "모세가 바로에게서 나와 여호와께 간구했다.",
+        "en": "He went out from Pharaoh and pleaded with the LORD.",
+        "es": "Salió de la presencia del faraón e intercedió ante el SEÑOR."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "주어 생략(모세)을 문맥상 보충했다. וַיֶּעְתַּר는 간구·중보.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.18",
+      "source_hebrew": "וַיֵּצֵ֖א מֵעִ֣ם פַּרְעֹ֑ה וַיֶּעְתַּ֖ר אֶל־יְהוָֽה׃",
+      "source_hebrew_sha256": "29f7c32028de97c72fb09c0ff6660c1302ed57d42fd6ccbae01a44eed3ec9f13",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.19",
+      "translations": {
+        "ko": "여호와께서 매우 강한 서풍으로 바꾸시니, 메뚜기를 실어다 갈대바다에 밀어 넣었다. 이집트 온 지역에 메뚜기가 한 마리도 남지 않았다.",
+        "en": "The LORD turned a very strong west wind, which lifted the locusts and drove them into the Red Sea; not one locust remained in all the territory of Egypt.",
+        "es": "El SEÑOR cambió a un viento del oeste muy fuerte, que levantó la langosta y la arrojó al Mar Rojo; no quedó ni una langosta en todo el territorio de Egipto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "רוּחַ־יָם은 ‘바다의 바람’, 곧 서풍. יַם־סוּף는 전통 호칭 ‘갈대바다/홍해’이며 위치 단정은 하지 않는다. וַיִּתְקָעֵהוּ는 ‘박아 넣다/밀어 넣다’.",
+      "counterargument_ko": "יַם־סוּף를 ‘홍해’로 부르는 것은 전통 호칭이고 지리 동정은 별도 문제다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.19",
+      "source_hebrew": "וַיַּהֲפֹ֨ךְ יְהוָ֤ה רֽוּחַ־יָם֙ חָזָ֣ק מְאֹ֔ד וַיִּשָּׂא֙ אֶת־הָ֣אַרְבֶּ֔ה וַיִּתְקָעֵ֖הוּ יָ֣מָּה סּ֑וּף לֹ֤א נִשְׁאַר֙ אַרְבֶּ֣ה אֶחָ֔ד בְּכֹ֖ל גְּב֥וּל מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "93e865f6703b6853a6d0685785f4957e3b2dc037908aa2c6569509348ce28cf8",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.20",
+      "translations": {
+        "ko": "그러나 여호와께서 바로의 마음을 강하게 하셨고, 바로는 이스라엘 자손을 보내지 않았다.",
+        "en": "But the LORD hardened Pharaoh’s heart, and he did not let the people of Israel go.",
+        "es": "Pero el SEÑOR endureció el corazón del faraón, y este no dejó ir a los hijos de Israel."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיְחַזֵּק는 피엘 ‘강하게 하다’이며 ‘완악하게’라는 전통 번역 대신 직역했다.",
+      "counterargument_ko": "‘완악하게 하다’ 전통 어휘와 신학적 함의가 다를 수 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.20",
+      "source_hebrew": "וַיְחַזֵּ֥ק יְהוָ֖ה אֶת־לֵ֣ב פַּרְעֹ֑ה וְלֹ֥א שִׁלַּ֖ח אֶת־בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "source_hebrew_sha256": "6b6359069ee660cb37d5be65414291654faa91f8deb57bfda7b5d083cb3c2acf",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.21",
+      "translations": {
+        "ko": "여호와께서 모세에게 말씀하셨다. “네 손을 하늘로 뻗어라. 이집트 땅에 어둠이 임하되 더듬어 만질 만한 어둠이 될 것이다.”",
+        "en": "The LORD said to Moses, “Stretch out your hand toward heaven, that there may be darkness over the land of Egypt, a darkness one can feel.”",
+        "es": "El SEÑOR dijo a Moisés: «Extiende tu mano hacia el cielo, para que haya tinieblas sobre la tierra de Egipto, tinieblas que se puedan palpar»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וְיָמֵשׁ חֹשֶׁךְ는 ‘어둠이 만져지게 하다(hiphil/qal 해석 다양)’. 마소라 점은 ‘더듬을 만한’으로 읽었다.",
+      "counterargument_ko": "יָמֵשׁ를 ‘만지다(מוש)’ 대신 ‘물러가다(מוש)’ 계열로 보는 입장도 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.21",
+      "source_hebrew": "וַיֹּ֨אמֶר יְהוָ֜ה אֶל־מֹשֶׁ֗ה נְטֵ֤ה יָֽדְךָ֙ עַל־הַשָּׁמַ֔יִם וִ֥יהִי חֹ֖שֶׁךְ עַל־אֶ֣רֶץ מִצְרָ֑יִם וְיָמֵ֖שׁ חֹֽשֶׁךְ׃",
+      "source_hebrew_sha256": "7e89134d548c3d3749357bce6395a6a7cb1d3926630b79ad97203fe8d764ebdb",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.22",
+      "translations": {
+        "ko": "모세가 하늘로 손을 뻗자 이집트 온 땅에 사흘 동안 짙은 어둠이 있었다.",
+        "en": "Moses stretched out his hand toward heaven, and there was thick darkness in all the land of Egypt for three days.",
+        "es": "Moisés extendió su mano hacia el cielo, y hubo densas tinieblas en toda la tierra de Egipto durante tres días."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חֹשֶׁךְ־אֲפֵלָה는 연계형으로 ‘짙은 어둠’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.22",
+      "source_hebrew": "וַיֵּ֥ט מֹשֶׁ֛ה אֶת־יָד֖וֹ עַל־הַשָּׁמָ֑יִם וַיְהִ֧י חֹֽשֶׁךְ־אֲפֵלָ֛ה בְּכָל־אֶ֥רֶץ מִצְרַ֖יִם שְׁלֹ֥שֶׁת יָמִֽים׃",
+      "source_hebrew_sha256": "15dcc59eafe95bf7d680d4b9ed02f07ae915481189b12b99785591700fe7859d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.23",
+      "translations": {
+        "ko": "사흘 동안 서로 보지 못했고 아무도 제자리에서 일어나지 못했다. 그러나 이스라엘 자손 모두가 사는 곳에는 빛이 있었다.",
+        "en": "They did not see one another, nor did anyone rise from his place for three days, but all the people of Israel had light where they lived.",
+        "es": "No se veían unos a otros, ni nadie se levantó de su lugar durante tres días; pero todos los hijos de Israel tenían luz en sus moradas."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מִתַּחְתָּיו는 ‘자기 아래(제자리)에서’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.23",
+      "source_hebrew": "לֹֽא־רָא֞וּ אִ֣ישׁ אֶת־אָחִ֗יו וְלֹא־קָ֛מוּ אִ֥ישׁ מִתַּחְתָּ֖יו שְׁלֹ֣שֶׁת יָמִ֑ים וּֽלְכָל־בְּנֵ֧י יִשְׂרָאֵ֛ל הָ֥יָה א֖וֹר בְּמוֹשְׁבֹתָֽם׃",
+      "source_hebrew_sha256": "e30735078e280a6de6d2d9e09bb14fac89ab3ecf10a22e04234014c0b47fbefc",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.24",
+      "translations": {
+        "ko": "바로가 모세를 불러 말했다. “가서 여호와를 섬기시오. 다만 양과 소는 남겨 두시오. 당신들의 어린아이들은 함께 가도 좋소.”",
+        "en": "Pharaoh called Moses and said, “Go, serve the LORD; only let your flocks and herds remain behind. Even your little ones may go with you.”",
+        "es": "El faraón llamó a Moisés y dijo: «Vayan, sirvan al SEÑOR; solo queden sus ovejas y su ganado. También sus niños pueden ir con ustedes»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יֻצָּג은 호팔 ‘세워 두다/남겨 두다’. טַף는 어린아이들.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.24",
+      "source_hebrew": "וַיִּקְרָ֨א פַרְעֹ֜ה אֶל־מֹשֶׁ֗ה וַיֹּ֨אמֶר֙ לְכוּ֙ עִבְד֣וּ אֶת־יְהוָ֔ה רַ֛ק צֹאנְכֶ֥ם וּבְקַרְכֶ֖ם יֻצָּ֑ג גַּֽם־טַפְּכֶ֖ם יֵלֵ֥ךְ עִמָּכֶֽם׃",
+      "source_hebrew_sha256": "2bd5eceee11215f430cfee36f7176b66dd0d7afebd898e3dd2bc8b983c77b115",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.25",
+      "translations": {
+        "ko": "모세가 말했다. “왕께서도 우리 하나님 여호와께 드릴 제물과 번제물을 우리 손에 주셔야 합니다.",
+        "en": "Moses said, “You must also give us sacrifices and burnt offerings to offer to the LORD our God.",
+        "es": "Moisés dijo: «También tú has de darnos en nuestras manos sacrificios y holocaustos para ofrecer al SEÑOR nuestro Dios."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "תִּתֵּן בְּיָדֵנוּ는 ‘우리 손에 주다’. 말은 다음 절로 이어진다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.25",
+      "source_hebrew": "וַיֹּ֣אמֶר מֹשֶׁ֔ה גַּם־אַתָּ֛ה תִּתֵּ֥ן בְּיָדֵ֖נוּ זְבָחִ֣ים וְעֹל֑וֹת וְעָשִׂ֖ינוּ לַיהוָ֥ה אֱלֹהֵֽינוּ׃",
+      "source_hebrew_sha256": "8e628aa159c07b0d8673a4b759876cbc5edbcc330cc236e8624552d4e69e9a09",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.26",
+      "translations": {
+        "ko": "우리 가축도 우리와 함께 가야 하며 발굽 하나도 남길 수 없습니다. 우리 하나님 여호와를 섬기려면 그 가운데서 취해야 하고, 우리가 그곳에 이르기까지는 무엇으로 여호와를 섬길지 알지 못하기 때문입니다.”",
+        "en": "Our livestock also must go with us; not a hoof shall be left behind, for we must take some of them to serve the LORD our God, and we do not know with what we must serve the LORD until we arrive there.”",
+        "es": "También nuestro ganado irá con nosotros; no quedará ni una pezuña, porque de él hemos de tomar para servir al SEÑOR nuestro Dios, y no sabemos con qué serviremos al SEÑOR hasta que lleguemos allá»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "פַּרְסָה는 발굽. מַה־נַּעֲבֹד는 ‘무엇으로/무엇을 섬길지’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.26",
+      "source_hebrew": "וְגַם־מִקְנֵ֜נוּ יֵלֵ֣ךְ עִמָּ֗נוּ לֹ֤א תִשָּׁאֵר֙ פַּרְסָ֔ה כִּ֚י מִמֶּ֣נּוּ נִקַּ֔ח לַעֲבֹ֖ד אֶת־יְהוָ֣ה אֱלֹהֵ֑ינוּ וַאֲנַ֣חְנוּ לֹֽא־נֵדַ֗ע מַֽה־נַּעֲבֹד֙ אֶת־יְהוָ֔ה עַד־בֹּאֵ֖נוּ שָֽׁמָּה׃",
+      "source_hebrew_sha256": "c8c9049b6087a8b0749c9dfc5ba6955aca4788f6a4e94bf532d0cf499ef8bc4a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.27",
+      "translations": {
+        "ko": "그러나 여호와께서 바로의 마음을 강하게 하셨고, 바로는 그들을 보내려 하지 않았다.",
+        "en": "But the LORD hardened Pharaoh’s heart, and he was not willing to let them go.",
+        "es": "Pero el SEÑOR endureció el corazón del faraón, y este no quiso dejarlos ir."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וְלֹא אָבָה는 ‘원하지 않았다’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.27",
+      "source_hebrew": "וַיְחַזֵּ֥ק יְהוָ֖ה אֶת־לֵ֣ב פַּרְעֹ֑ה וְלֹ֥א אָבָ֖ה לְשַׁלְּחָֽם׃",
+      "source_hebrew_sha256": "f584033d934cb5767808bfad7ee5b90c072a3f15ba7d4335f1ef63320750d3c2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.28",
+      "translations": {
+        "ko": "바로가 모세에게 말했다. “내게서 물러가라! 조심하라. 다시는 내 얼굴을 보지 마라. 네가 내 얼굴을 보는 날 죽을 것이다.”",
+        "en": "Pharaoh said to him, “Get away from me! Take care never to see my face again, for on the day you see my face you shall die.”",
+        "es": "El faraón le dijo: «¡Vete de mi presencia! Cuídate de volver a ver mi rostro, porque el día que veas mi rostro morirás»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אַל־תֹּסֶף רְאוֹת는 ‘다시 보지 말라’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.28",
+      "source_hebrew": "וַיֹּֽאמֶר־ל֥וֹ פַרְעֹ֖ה לֵ֣ךְ מֵעָלָ֑י הִשָּׁ֣מֶר לְךָ֗ אֶל־תֹּ֨סֶף֙ רְא֣וֹת פָּנַ֔י כִּ֗י בְּי֛וֹם רְאֹתְךָ֥ פָנַ֖י תָּמֽוּת׃",
+      "source_hebrew_sha256": "6ee0a407b3790f9e992acbee21242a68dc1913ce81e91312d5ed480f408349ff",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.10.29",
+      "translations": {
+        "ko": "모세가 말했다. “말씀하신 대로입니다. 내가 다시는 왕의 얼굴을 보지 않겠습니다.”",
+        "en": "Moses said, “You have spoken rightly; I will not see your face again.”",
+        "es": "Moisés dijo: «Bien has dicho; no volveré a ver tu rostro»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כֵּן דִּבַּרְתָּ는 ‘네가 옳게(그렇게) 말했다’. 11:1 이하 신탁과의 시간적 관계는 본문이 밝히지 않아 건드리지 않았다.",
+      "counterargument_ko": "11:4–8이 이 대화의 연속 발언일 가능성이 있어 시간 순서를 단정하지 않았다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.10.29",
+      "source_hebrew": "וַיֹּ֥אמֶר מֹשֶׁ֖ה כֵּ֣ן דִּבַּ֑רְתָּ לֹא־אֹסִ֥ף ע֖וֹד רְא֥וֹת פָּנֶֽיךָ׃",
+      "source_hebrew_sha256": "630c0302d1eadc2abb404a154f8783f6a432eaefbc817663932b1a6b5ee467ec",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.1",
+      "translations": {
+        "ko": "여호와께서 모세에게 말씀하셨다. “내가 바로와 이집트에 재앙 하나를 더 내리겠다. 그 뒤에야 그가 너희를 여기서 보낼 것이다. 그가 보낼 때는 너희를 아주 이곳에서 내쫓을 것이다.",
+        "en": "The LORD said to Moses, “One more plague I will bring upon Pharaoh and upon Egypt; afterward he will let you go from here. When he lets you go, he will drive you out from here completely.",
+        "es": "El SEÑOR dijo a Moisés: «Una plaga más traeré sobre el faraón y sobre Egipto; después los dejará ir de aquí. Cuando los deje ir, los echará de aquí del todo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כָּלָה는 ‘완전히’로 읽고 בְּשַׁלְּחוֹ에 이어 붙였다. גָּרֵשׁ יְגָרֵשׁ는 부정사 강조.",
+      "counterargument_ko": "כָּלָה를 ‘완전히’ 대신 ‘전부 한꺼번에’로 읽을 여지가 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.1",
+      "source_hebrew": "וַיֹּ֨אמֶר יְהוָ֜ה אֶל־מֹשֶׁ֗ה ע֣וֹד נֶ֤גַע אֶחָד֙ אָבִ֤יא עַל־פַּרְעֹה֙ וְעַל־מִצְרַ֔יִם אַֽחֲרֵי־כֵ֕ן יְשַׁלַּ֥ח אֶתְכֶ֖ם מִזֶּ֑ה כְּשַׁ֨לְּח֔וֹ כָּלָ֕ה גָּרֵ֛שׁ יְגָרֵ֥שׁ אֶתְכֶ֖ם מִזֶּֽה׃",
+      "source_hebrew_sha256": "ff8f0235af6e8886966ecf975c84e70fbf275278797f259293f52ddaab70c761",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.2",
+      "translations": {
+        "ko": "백성의 귀에 말하여, 남자는 이웃에게서, 여자는 이웃 여인에게서 은 패물과 금 패물을 달라고 하게 하라.”",
+        "en": "Speak now in the hearing of the people, that each man ask of his neighbor and each woman of hers, for objects of silver and objects of gold.”",
+        "es": "Habla ahora a oídos del pueblo, para que cada hombre pida a su vecino y cada mujer a su vecina objetos de plata y objetos de oro»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כְּלֵי는 ‘물건·그릇·패물’의 넓은 의미라 ‘패물’로 옮겼다. וְיִשְׁאֲלוּ는 ‘요청하다’(‘빌리다’ 가능).",
+      "counterargument_ko": "שָׁאַל을 ‘빌리다’로 읽는 전통이 있으나 ‘달라고 요청하다’로 중립 유지했다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.2",
+      "source_hebrew": "דַּבֶּר־נָ֖א בְּאָזְנֵ֣י הָעָ֑ם וְיִשְׁאֲל֞וּ אִ֣ישׁ ׀ מֵאֵ֣ת רֵעֵ֗הוּ וְאִשָּׁה֙ מֵאֵ֣ת רְעוּתָ֔הּ כְּלֵי־כֶ֖סֶף וּכְלֵ֥י זָהָֽב׃",
+      "source_hebrew_sha256": "764c653af7f4437a78f84f9da0e45d0148056f3f32bdda76192164b3d6f8bd37",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.3",
+      "translations": {
+        "ko": "여호와께서 백성이 이집트 사람들 눈에 은혜를 입게 하셨다. 또 모세라는 사람도 이집트 땅에서, 바로의 신하들과 백성의 눈에 매우 크게 보였다.",
+        "en": "The LORD gave the people favor in the sight of the Egyptians. Moreover, the man Moses was very great in the land of Egypt, in the sight of Pharaoh’s servants and in the sight of the people.",
+        "es": "El SEÑOR hizo que el pueblo hallara gracia a los ojos de los egipcios. Además, el varón Moisés era muy grande en la tierra de Egipto, a los ojos de los siervos del faraón y a los ojos del pueblo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חֵן는 ‘호의’. 모세를 ‘그 사람’이라 부른 삽입구를 유지했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.3",
+      "source_hebrew": "וַיִּתֵּ֧ן יְהוָ֛ה אֶת־חֵ֥ן הָעָ֖ם בְּעֵינֵ֣י מִצְרָ֑יִם גַּ֣ם ׀ הָאִ֣ישׁ מֹשֶׁ֗ה גָּד֤וֹל מְאֹד֙ בְּאֶ֣רֶץ מִצְרַ֔יִם בְּעֵינֵ֥י עַבְדֵֽי־פַרְעֹ֖ה וּבְעֵינֵ֥י הָעָֽם׃",
+      "source_hebrew_sha256": "3dc2cad2d16f64939dfef0396c5931c0f2115b63541f81e8d35f1e2a3ce9ebb5",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.4",
+      "translations": {
+        "ko": "모세가 말했다. “여호와께서 이렇게 말씀하셨다. 한밤중에 내가 이집트 가운데로 나가겠다.",
+        "en": "Moses said, “Thus says the LORD: About midnight I will go out in the midst of Egypt,",
+        "es": "Moisés dijo: «Así dice el SEÑOR: Hacia la medianoche yo saldré por en medio de Egipto,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כַּחֲצֹת는 ‘~쯤/한밤중에’. 말은 이어지므로 따옴표를 열어 둔다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.4",
+      "source_hebrew": "וַיֹּ֣אמֶר מֹשֶׁ֔ה כֹּ֖ה אָמַ֣ר יְהוָ֑ה כַּחֲצֹ֣ת הַלַּ֔יְלָה אֲנִ֥י יוֹצֵ֖א בְּת֥וֹךְ מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "36dfd38897875a8845515d0246b0e38a732855d5ce5c6cc4343a135c7d73f144",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.5",
+      "translations": {
+        "ko": "이집트 땅의 모든 맏아들이 죽을 것이다. 왕좌에 앉은 바로의 맏아들부터 맷돌 뒤에 있는 여종의 맏아들까지, 그리고 모든 가축의 맏배까지.",
+        "en": "and every firstborn in the land of Egypt shall die, from the firstborn of Pharaoh who sits on his throne to the firstborn of the slave girl who is behind the mill, and all the firstborn of the cattle.",
+        "es": "y morirá todo primogénito en la tierra de Egipto, desde el primogénito del faraón que se sienta en su trono hasta el primogénito de la sierva que está tras el molino, y todo primogénito del ganado."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הָרֵחַיִם는 쌍수 ‘맷돌’. בְּכוֹר בְּהֵמָה는 ‘가축의 맏배’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.5",
+      "source_hebrew": "וּמֵ֣ת כָּל־בְּכוֹר֮ בְּאֶ֣רֶץ מִצְרַיִם֒ מִבְּכ֤וֹר פַּרְעֹה֙ הַיֹּשֵׁ֣ב עַל־כִּסְא֔וֹ עַ֚ד בְּכ֣וֹר הַשִּׁפְחָ֔ה אֲשֶׁ֖ר אַחַ֣ר הָרֵחָ֑יִם וְכֹ֖ל בְּכ֥וֹר בְּהֵמָֽה׃",
+      "source_hebrew_sha256": "614c53849897cb131cc094777ef95f96ba63009de44c0d37f996fb75d4c4477e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.6",
+      "translations": {
+        "ko": "이집트 온 땅에 큰 부르짖음이 있을 것이다. 이전에도 그런 적이 없고 이후에도 다시 없을 것이다.",
+        "en": "There shall be a great cry throughout all the land of Egypt, such as there has never been, nor ever will be again.",
+        "es": "Habrá un gran clamor en toda la tierra de Egipto, como nunca hubo ni volverá a haber."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כָּמֹהוּ는 ‘그와 같은’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.6",
+      "source_hebrew": "וְהָֽיְתָ֛ה צְעָקָ֥ה גְדֹלָ֖ה בְּכָל־אֶ֣רֶץ מִצְרָ֑יִם אֲשֶׁ֤ר כָּמֹ֨הוּ֙ לֹ֣א נִהְיָ֔תָה וְכָמֹ֖הוּ לֹ֥א תֹסִֽף׃",
+      "source_hebrew_sha256": "955883a54290abda5bf9f57a7aebb2c44519181414f2d985e8ddc66998cda6c0",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.7",
+      "translations": {
+        "ko": "그러나 이스라엘 모든 자손에게는 사람부터 가축까지 개 한 마리도 혀를 놀리지 않을 것이다. 이는 여호와께서 이집트와 이스라엘을 구별하시는 것을 너희가 알게 하려는 것이다.",
+        "en": "But not a dog shall growl against any of the people of Israel, either man or beast, that you may know that the LORD makes a distinction between Egypt and Israel.",
+        "es": "Pero entre todos los hijos de Israel ni un perro moverá su lengua, ni contra hombre ni contra animal, para que sepan que el SEÑOR hace distinción entre Egipto e Israel."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לֹא יֶחֱרַץ כֶּלֶב לְשֹׁנוֹ는 ‘개가 혀를 움직이지 않다’. 7절 뒤 8절은 큐에 없어 이 절 끝은 인용이 이어질 수 있다.",
+      "counterargument_ko": "11.8이 큐에 없어 인용의 연속성을 확인하지 못했다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.7",
+      "source_hebrew": "וּלְכֹ֣ל ׀ בְּנֵ֣י יִשְׂרָאֵ֗ל לֹ֤א יֶֽחֱרַץ־כֶּ֨לֶב֙ לְשֹׁנ֔וֹ לְמֵאִ֖ישׁ וְעַד־בְּהֵמָ֑ה לְמַ֨עַן֙ תֵּֽדְע֔וּן אֲשֶׁר֙ יַפְלֶ֣ה יְהוָ֔ה בֵּ֥ין מִצְרַ֖יִם וּבֵ֥ין יִשְׂרָאֵֽל׃",
+      "source_hebrew_sha256": "f7ec6435f4040135df853890b57ffa5ab8a34394dea8cea305d25a01b360a5e9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.9",
+      "translations": {
+        "ko": "여호와께서 모세에게 말씀하셨다. “바로가 너희 말을 듣지 않을 것이다. 이는 내 기적들이 이집트 땅에서 많아지게 하려는 것이다.”",
+        "en": "The LORD said to Moses, “Pharaoh will not listen to you, that my wonders may be multiplied in the land of Egypt.”",
+        "es": "El SEÑOR dijo a Moisés: «El faraón no les escuchará, para que mis prodigios se multipliquen en la tierra de Egipto»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לְמַעַן은 목적절로 직역(‘~하려고’).",
+      "counterargument_ko": "목적/결과 해석에 따라 신학적 무게가 달라진다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.9",
+      "source_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ אֶל־מֹשֶׁ֔ה לֹא־יִשְׁמַ֥ע אֲלֵיכֶ֖ם פַּרְעֹ֑ה לְמַ֛עַן רְב֥וֹת מוֹפְתַ֖י בְּאֶ֥רֶץ מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "8e73741775107cafaef3fb91de1f3c82015faa33c212498ae69b882a963195f3",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.11.10",
+      "translations": {
+        "ko": "모세와 아론이 바로 앞에서 이 모든 기적을 행했으나, 여호와께서 바로의 마음을 강하게 하셨고 바로는 이스라엘 자손을 자기 땅에서 보내지 않았다.",
+        "en": "Moses and Aaron did all these wonders before Pharaoh, but the LORD hardened Pharaoh’s heart, and he did not let the people of Israel go out of his land.",
+        "es": "Moisés y Aarón hicieron todos estos prodigios delante del faraón, pero el SEÑOR endureció el corazón del faraón, y este no dejó salir de su tierra a los hijos de Israel."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מוֹפְתִים는 ‘기적·징조’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.11.10",
+      "source_hebrew": "וּמֹשֶׁ֣ה וְאַהֲרֹ֗ן עָשׂ֛וּ אֶת־כָּל־הַמֹּפְתִ֥ים הָאֵ֖לֶּה לִפְנֵ֣י פַרְעֹ֑ה וַיְחַזֵּ֤ק יְהוָה֙ אֶת־לֵ֣ב פַּרְעֹ֔ה וְלֹֽא־שִׁלַּ֥ח אֶת־בְּנֵֽי־יִשְׂרָאֵ֖ל מֵאַרְצֽוֹ׃",
+      "source_hebrew_sha256": "0efa0b1f1e5398c1a6044899d96a21f33114568d76c5b1afde550ebf471dcaef",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.1",
+      "translations": {
+        "ko": "여호와께서 이집트 땅에서 모세와 아론에게 말씀하셨다.",
+        "en": "The LORD said to Moses and Aaron in the land of Egypt,",
+        "es": "El SEÑOR habló a Moisés y a Aarón en la tierra de Egipto, diciendo:"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לֵאמֹר는 인용 도입으로 말줄임 없이 다음 절로 이어진다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.1",
+      "source_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ אֶל־מֹשֶׁ֣ה וְאֶֽל־אַהֲרֹ֔ן בְּאֶ֥רֶץ מִצְרַ֖יִם לֵאמֹֽר׃",
+      "source_hebrew_sha256": "670fa39deba457a95006535f0c8b8fab7c9689199553e7b989edb7539b475a01",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.2",
+      "translations": {
+        "ko": "“이 달이 너희에게 달들의 머리가 되고, 너희에게 한 해의 첫 달이 될 것이다.",
+        "en": "“This month shall be for you the beginning of months; it shall be the first month of the year for you.",
+        "es": "«Este mes será para ustedes el principio de los meses; será para ustedes el primer mes del año."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "רֹאשׁ חֳדָשִׁים는 ‘달들의 머리’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.2",
+      "source_hebrew": "הַחֹ֧דֶשׁ הַזֶּ֛ה לָכֶ֖ם רֹ֣אשׁ חֳדָשִׁ֑ים רִאשׁ֥וֹן הוּא֙ לָכֶ֔ם לְחָדְשֵׁ֖י הַשָּׁנָֽה׃",
+      "source_hebrew_sha256": "389e8a75aa81c63c7fcf39cba4331bf66ae161a4b1e1e75e35bee10d1b9bc5c2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.3",
+      "translations": {
+        "ko": "이스라엘 온 회중에게 말하라. 이 달 열째 날에 각자 가족 단위로 어린 양 한 마리, 곧 한 집에 한 마리씩 취하라.",
+        "en": "Speak to all the congregation of Israel, saying: On the tenth day of this month every man shall take a lamb according to their fathers’ houses, a lamb for each household.",
+        "es": "Hablen a toda la congregación de Israel y digan: El día diez de este mes cada uno tome un cordero por familia, un cordero por casa."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "שֶׂה는 양 또는 염소 새끼(5절 참조). 문맥상 ‘어린 양’으로 옮기되 5절에서 범위를 넓힌다.",
+      "counterargument_ko": "שֶׂה는 양·염소 모두 포함 가능한 단어다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.3",
+      "source_hebrew": "דַּבְּר֗וּ אֶֽל־כָּל־עֲדַ֤ת יִשְׂרָאֵל֙ לֵאמֹ֔ר בֶּעָשֹׂ֖ר לַחֹ֣דֶשׁ הַזֶּ֑ה וְיִקְח֣וּ לָהֶ֗ם אִ֛ישׁ שֶׂ֥ה לְבֵית־אָבֹ֖ת שֶׂ֥ה לַבָּֽיִת׃",
+      "source_hebrew_sha256": "fd33ba79aa556536e0e6afaff4369b9a4fc339f77f6080883d8bc13de195355e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.4",
+      "translations": {
+        "ko": "가족이 어린 양 한 마리를 다 먹기에 적으면, 그와 가장 가까운 이웃이 사람 수에 따라 함께 취하라. 각자 먹을 양에 맞추어 그 어린 양을 나누어 계산하라.",
+        "en": "If the household is too small for a lamb, then he and his nearest neighbor shall take according to the number of persons; according to what each can eat you shall make your count for the lamb.",
+        "es": "Si la casa es demasiado pequeña para un cordero, tome uno junto con su vecino más cercano, según el número de personas; conforme a lo que cada uno pueda comer, harán la cuenta del cordero."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "תָּכֹסּוּ는 ‘계산하다’ 의미로 읽었다.",
+      "counterargument_ko": "תָּכֹסּוּ의 어근 해석(כסס)은 불확실하다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.4",
+      "source_hebrew": "וְאִם־יִמְעַ֣ט הַבַּיִת֮ מִהְיֹ֣ת מִשֶּׂה֒ וְלָקַ֣ח ה֗וּא וּשְׁכֵנ֛וֹ הַקָּרֹ֥ב אֶל־בֵּית֖וֹ בְּמִכְסַ֣ת נְפָשֹׁ֑ת אִ֚ישׁ לְפִ֣י אָכְל֔וֹ תָּכֹ֖סּוּ עַל־הַשֶּֽׂה׃",
+      "source_hebrew_sha256": "8180484ef8852a4a42255dfd5de18ac3d3a97dcea51fb2a0f61c149f72a99da4",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.5",
+      "translations": {
+        "ko": "어린 양은 흠 없는 일 년 된 수컷이어야 한다. 양 가운데서나 염소 가운데서 취하라.",
+        "en": "Your lamb shall be without blemish, a year-old male. You may take it from the sheep or from the goats,",
+        "es": "El cordero será sin defecto, macho de un año; lo tomarán de entre los corderos o de entre las cabras."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "תָמִים는 ‘흠 없는’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.5",
+      "source_hebrew": "שֶׂ֥ה תָמִ֛ים זָכָ֥ר בֶּן־שָׁנָ֖ה יִהְיֶ֣ה לָכֶ֑ם מִן־הַכְּבָשִׂ֥ים וּמִן־הָעִזִּ֖ים תִּקָּֽחוּ׃",
+      "source_hebrew_sha256": "9d4b068fc466898960bdd49fb8e3d6de631dbdc70104ea20f3b08649a961ba41",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.6",
+      "translations": {
+        "ko": "그것을 이 달 열넷째 날까지 보관하다가, 이스라엘 회중의 모든 무리가 저녁 무렵에 잡아야 한다.",
+        "en": "and you shall keep it until the fourteenth day of this month, when the whole assembled congregation of Israel shall kill their lambs at twilight.",
+        "es": "Lo guardarán hasta el día catorce de este mes, y toda la asamblea de la congregación de Israel lo matará al atardecer."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בֵּין הָעַרְבָּיִם는 ‘두 저녁 사이’로 해석이 갈려 ‘저녁 무렵’으로 옮겼다.",
+      "counterargument_ko": "‘두 저녁 사이’의 정확한 시각은 전통에 따라 다르다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.6",
+      "source_hebrew": "וְהָיָ֤ה לָכֶם֙ לְמִשְׁמֶ֔רֶת עַ֣ד אַרְבָּעָ֥ה עָשָׂ֛ר י֖וֹם לַחֹ֣דֶשׁ הַזֶּ֑ה וְשָׁחֲט֣וּ אֹת֗וֹ כֹּ֛ל קְהַ֥ל עֲדַֽת־יִשְׂרָאֵ֖ל בֵּ֥ין הָעַרְבָּֽיִם׃",
+      "source_hebrew_sha256": "a087fd1355d4c089b59a87e1b2cbf3424ab9e8d1a769f66bff99ba034e38fc6e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.7",
+      "translations": {
+        "ko": "그 피를 취하여 그것을 먹을 집의 두 문설주와 상인방에 바르라.",
+        "en": "Then they shall take some of the blood and put it on the two doorposts and the lintel of the houses in which they eat it.",
+        "es": "Tomarán de la sangre y la pondrán en los dos postes y en el dintel de las casas en que lo coman."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הַמַּשְׁקוֹף는 상인방.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.7",
+      "source_hebrew": "וְלָֽקְחוּ֙ מִן־הַדָּ֔ם וְנָֽתְנ֛וּ עַל־שְׁתֵּ֥י הַמְּזוּזֹ֖ת וְעַל־הַמַּשְׁק֑וֹף עַ֚ל הַבָּ֣תִּ֔ים אֲשֶׁר־יֹאכְל֥וּ אֹת֖וֹ בָּהֶֽם׃",
+      "source_hebrew_sha256": "73b69ca63e1c29b63117638ecb6729c861d628456f76aa14abc44a60157807d9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.8",
+      "translations": {
+        "ko": "그날 밤에 그 고기를 불에 구워 무교병과 쓴 나물과 함께 먹어야 한다.",
+        "en": "They shall eat the flesh that night, roasted on the fire; with unleavened bread and bitter herbs they shall eat it.",
+        "es": "Esa noche comerán la carne asada al fuego; con panes sin levadura y hierbas amargas la comerán."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מְרֹרִים는 쓴 나물.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.8",
+      "source_hebrew": "וְאָכְל֥וּ אֶת־הַבָּשָׂ֖ר בַּלַּ֣יְלָה הַזֶּ֑ה צְלִי־אֵ֣שׁ וּמַצּ֔וֹת עַל־מְרֹרִ֖ים יֹאכְלֻֽהוּ׃",
+      "source_hebrew_sha256": "8592bd6fb25b5ae0ea2856d79e6cbd56cf6cfa7b535d37a82e25c552c4dffb55",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.9",
+      "translations": {
+        "ko": "날것으로나 물에 삶아서 먹지 말고, 머리와 다리와 내장까지 불에 구워 먹으라.",
+        "en": "Do not eat any of it raw or boiled in water, but roasted on the fire, its head with its legs and its inner parts.",
+        "es": "No coman nada de él crudo ni cocido en agua, sino asado al fuego, con su cabeza, sus patas y sus entrañas."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "נָא를 ‘날것’으로 읽는 전통(נא)을 따랐다.",
+      "counterargument_ko": "נָא를 부사 ‘제발’로 읽는 설도 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.9",
+      "source_hebrew": "אַל־תֹּאכְל֤וּ מִמֶּ֨נּוּ֙ נָ֔א וּבָשֵׁ֥ל מְבֻשָּׁ֖ל בַּמָּ֑יִם כִּ֣י אִם־צְלִי־אֵ֔שׁ רֹאשׁ֥וֹ עַל־כְּרָעָ֖יו וְעַל־קִרְבּֽוֹ׃",
+      "source_hebrew_sha256": "e37c76065daa81c05663d3c67eb712c1dffcf041b7cef4aacc6eb382ce4e0bff",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.10",
+      "translations": {
+        "ko": "아침까지 그것을 조금도 남기지 말고, 아침까지 남은 것은 불에 태우라.",
+        "en": "And you shall let none of it remain until the morning; anything that remains until the morning you shall burn.",
+        "es": "No dejarán nada de él hasta la mañana; lo que quede hasta la mañana lo quemarán en el fuego."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.10",
+      "source_hebrew": "וְלֹא־תוֹתִ֥ירוּ מִמֶּ֖נּוּ עַד־בֹּ֑קֶר וְהַנֹּתָ֥ר מִמֶּ֛נּוּ עַד־בֹּ֖קֶר בָּאֵ֥שׁ תִּשְׂרֹֽפוּ׃",
+      "source_hebrew_sha256": "4f157dd1da6c72186333adc5e7b1e91f05e859d476af7107f4a54f381fd1e5d1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.11",
+      "translations": {
+        "ko": "이렇게 먹으라. 허리에 띠를 매고 발에 신을 신고 손에 지팡이를 들고 급히 먹으라. 이것은 여호와의 유월절이다.",
+        "en": "In this manner you shall eat it: with your belt fastened, your sandals on your feet, and your staff in your hand. And you shall eat it in haste. It is the LORD’s Passover.",
+        "es": "Así lo comerán: ceñidos los lomos, con sandalias en los pies y el bastón en la mano; y lo comerán apresuradamente. Es la Pascua del SEÑOR."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "פֶּסַח는 음역 ‘유월절/Passover/Pascua’으로 전통 용어를 따랐다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.11",
+      "source_hebrew": "וְכָכָה֮ תֹּאכְל֣וּ אֹתוֹ֒ מָתְנֵיכֶ֣ם חֲגֻרִ֔ים נַֽעֲלֵיכֶם֙ בְּרַגְלֵיכֶ֔ם וּמַקֶּלְכֶ֖ם בְּיֶדְכֶ֑ם וַאֲכַלְתֶּ֤ם אֹתוֹ֙ בְּחִפָּז֔וֹן פֶּ֥סַח ה֖וּא לַיהוָֽה׃",
+      "source_hebrew_sha256": "48a3d2f71607785606c2886092b0fb2746018d5d9a445e98b7320a732f85f488",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.12",
+      "translations": {
+        "ko": "그날 밤 내가 이집트 땅을 지나며 사람부터 가축까지 이집트 땅의 모든 맏배를 치고, 이집트의 모든 신들에게 심판을 행하겠다. 나는 여호와다.",
+        "en": "For I will pass through the land of Egypt that night, and I will strike all the firstborn in the land of Egypt, both man and beast; and on all the gods of Egypt I will execute judgments: I am the LORD.",
+        "es": "Esa noche pasaré por la tierra de Egipto y heriré a todo primogénito en la tierra de Egipto, desde los hombres hasta los animales; y ejecutaré juicios contra todos los dioses de Egipto. Yo soy el SEÑOR."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "שְׁפָטִים는 복수 ‘심판들’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.12",
+      "source_hebrew": "וְעָבַרְתִּ֣י בְאֶֽרֶץ־מִצְרַיִם֮ בַּלַּ֣יְלָה הַזֶּה֒ וְהִכֵּיתִ֤י כָל־בְּכוֹר֙ בְּאֶ֣רֶץ מִצְרַ֔יִם מֵאָדָ֖ם וְעַד־בְּהֵמָ֑ה וּבְכָל־אֱלֹהֵ֥י מִצְרַ֛יִם אֶֽעֱשֶׂ֥ה שְׁפָטִ֖ים אֲנִ֥י יְהוָֽה׃",
+      "source_hebrew_sha256": "ebb157ac9e63f2dd29c1a8aa1e3dccc32bc8ac322d07bcf463fbe534fcef1464",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.13",
+      "translations": {
+        "ko": "그 피가 너희가 있는 집들에 표가 되리니, 내가 그 피를 보고 너희를 넘어갈 것이다. 내가 이집트 땅을 칠 때 멸하는 재앙이 너희에게 내리지 않을 것이다.",
+        "en": "The blood shall be a sign for you, on the houses where you are. And when I see the blood, I will pass over you, and no plague will befall you to destroy you, when I strike the land of Egypt.",
+        "es": "La sangre será una señal para ustedes en las casas donde estén; yo veré la sangre y pasaré de largo sobre ustedes, y no habrá plaga destructora entre ustedes cuando hiera la tierra de Egipto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וּפָסַחְתִּי는 ‘넘어가다/지나치다’(보호의 뜻 가능).",
+      "counterargument_ko": "פסח의 어의(뛰어넘다/보호하다)는 논쟁 중이다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.13",
+      "source_hebrew": "וְהָיָה֩ הַדָּ֨ם לָכֶ֜ם לְאֹ֗ת עַ֤ל הַבָּתִּים֙ אֲשֶׁ֣ר אַתֶּ֣ם שָׁ֔ם וְרָאִ֨יתִי֙ אֶת־הַדָּ֔ם וּפָסַחְתִּ֖י עֲלֵכֶ֑ם וְלֹֽא־יִֽהְיֶ֨ה בָכֶ֥ם נֶ֨גֶף֙ לְמַשְׁחִ֔ית בְּהַכֹּתִ֖י בְּאֶ֥רֶץ מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "57e5a0a5164aa7e5a605162ffd3aed0a15ebbfce194f987ee042ea7d5efdd4f9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.14",
+      "translations": {
+        "ko": "이날은 너희에게 기념일이 될 것이다. 너희는 이날을 여호와의 절기로 지키되 대대로 영원한 규례로 지키라.",
+        "en": "This day shall be for you a memorial day, and you shall keep it as a feast to the LORD; throughout your generations, as a statute forever, you shall keep it as a feast.",
+        "es": "Este día será para ustedes un memorial, y lo celebrarán como fiesta al SEÑOR; por todas sus generaciones lo celebrarán como estatuto perpetuo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חֻקַּת עוֹלָם은 ‘영원한 규례’(‘영구’의 범위는 해석).",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.14",
+      "source_hebrew": "וְהָיָה֩ הַיּ֨וֹם הַזֶּ֤ה לָכֶם֙ לְזִכָּר֔וֹן וְחַגֹּתֶ֥ם אֹת֖וֹ חַ֣ג לַֽיהוָ֑ה לְדֹרֹ֣תֵיכֶ֔ם חֻקַּ֥ת עוֹלָ֖ם תְּחָגֻּֽהוּ׃",
+      "source_hebrew_sha256": "7f84ba282f5a52611f1c82c9f744ca5641801b567355a67030fb5b3c5ebd0c3a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.15",
+      "translations": {
+        "ko": "이레 동안 무교병을 먹으라. 첫날에 너희 집에서 누룩을 없애라. 첫날부터 일곱째 날까지 유교병을 먹는 사람은 이스라엘에서 끊어질 것이다.",
+        "en": "Seven days you shall eat unleavened bread. On the first day you shall remove leaven out of your houses, for if anyone eats what is leavened, from the first day until the seventh day, that person shall be cut off from Israel.",
+        "es": "Siete días comerán panes sin levadura. El primer día quitarán la levadura de sus casas, porque cualquiera que coma pan con levadura desde el primer día hasta el séptimo, esa persona será cortada de Israel."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "נֶפֶשׁ는 ‘사람’. נִכְרְתָה는 ‘끊어지다’로 처벌 방식은 특정하지 않았다.",
+      "counterargument_ko": "‘끊어짐’이 추방인지 사형인지는 해석이 갈린다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.15",
+      "source_hebrew": "שִׁבְעַ֤ת יָמִים֙ מַצּ֣וֹת תֹּאכֵ֔לוּ אַ֚ךְ בַּיּ֣וֹם הָרִאשׁ֔וֹן תַּשְׁבִּ֥יתוּ שְּׂאֹ֖ר מִבָּתֵּיכֶ֑ם כִּ֣י ׀ כָּל־אֹכֵ֣ל חָמֵ֗ץ וְנִכְרְתָ֞ה הַנֶּ֤פֶשׁ הַהִוא֙ מִיִּשְׂרָאֵ֔ל מִיּ֥וֹם הָרִאשֹׁ֖ן עַד־י֥וֹם הַשְּׁבִעִֽי׃",
+      "source_hebrew_sha256": "efd0c818b3f1ec8e79be72724178fd8d6f39f6120ab8190795a0704a7a8b80d9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.16",
+      "translations": {
+        "ko": "첫날에 거룩한 모임이 있고 일곱째 날에도 거룩한 모임이 있을 것이다. 그날들에는 어떤 일도 하지 말고 오직 모든 사람이 먹을 것만 만들라.",
+        "en": "On the first day you shall hold a holy convocation, and on the seventh day a holy convocation. No work shall be done on those days; but what everyone needs to eat, that alone may be prepared by you.",
+        "es": "El primer día habrá santa convocación, y el séptimo día santa convocación; en ellos no se hará ningún trabajo, excepto lo que todos hayan de comer; solo eso podrán preparar."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מִקְרָא־קֹדֶשׁ는 ‘거룩한 모임’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.16",
+      "source_hebrew": "וּבַיּ֤וֹם הָרִאשׁוֹן֙ מִקְרָא־קֹ֔דֶשׁ וּבַיּוֹם֙ הַשְּׁבִיעִ֔י מִקְרָא־קֹ֖דֶשׁ יִהְיֶ֣ה לָכֶ֑ם כָּל־מְלָאכָה֙ לֹא־יֵעָשֶׂ֣ה בָהֶ֔ם אַ֚ךְ אֲשֶׁ֣ר יֵאָכֵ֣ל לְכָל־נֶ֔פֶשׁ ה֥וּא לְבַדּ֖וֹ יֵעָשֶׂ֥ה לָכֶֽם׃",
+      "source_hebrew_sha256": "ce8e8c42dd41eae4646693b8b5c184c73e4af1c388ab7d35f714b7cf1f24ffde",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.17",
+      "translations": {
+        "ko": "너희는 무교절을 지키라. 바로 이날에 내가 너희 군대를 이집트 땅에서 인도해 냈기 때문이다. 이날을 대대로 영원한 규례로 지키라.",
+        "en": "And you shall observe the Feast of Unleavened Bread, for on this very day I brought your hosts out of the land of Egypt. Therefore you shall observe this day, throughout your generations, as a statute forever.",
+        "es": "Guardarán la fiesta de los panes sin levadura, porque en este mismo día saqué a sus ejércitos de la tierra de Egipto; por eso guardarán este día por sus generaciones como estatuto perpetuo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "צִבְאוֹתֵיכֶם은 ‘너희 군대/무리’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.17",
+      "source_hebrew": "וּשְׁמַרְתֶּם֮ אֶת־הַמַּצּוֹת֒ כִּ֗י בְּעֶ֨צֶם֙ הַיּ֣וֹם הַזֶּ֔ה הוֹצֵ֥אתִי אֶת־צִבְאוֹתֵיכֶ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם וּשְׁמַרְתֶּ֞ם אֶת־הַיּ֥וֹם הַזֶּ֛ה לְדֹרֹתֵיכֶ֖ם חֻקַּ֥ת עוֹלָֽם׃",
+      "source_hebrew_sha256": "aa9207a510557178c54b7dfca53d69ba55f7148a271d40befa9208f47179cb3e",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.18",
+      "translations": {
+        "ko": "첫째 달 열넷째 날 저녁부터 그달 스물한째 날 저녁까지 무교병을 먹으라.",
+        "en": "In the first month, from the fourteenth day of the month at evening, you shall eat unleavened bread until the twenty-first day of the month at evening.",
+        "es": "En el mes primero, desde el atardecer del día catorce del mes hasta el atardecer del día veintiuno, comerán panes sin levadura."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.18",
+      "source_hebrew": "בָּרִאשֹׁ֡ן בְּאַרְבָּעָה֩ עָשָׂ֨ר י֤וֹם לַחֹ֨דֶשׁ֙ בָּעֶ֔רֶב תֹּאכְל֖וּ מַצֹּ֑ת עַ֠ד י֣וֹם הָאֶחָ֧ד וְעֶשְׂרִ֛ים לַחֹ֖דֶשׁ בָּעָֽרֶב׃",
+      "source_hebrew_sha256": "2f686ebd4daf113d2f571b81a7524ea5fd890bd9dea2190e7023d3ad4eb27f14",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.19",
+      "translations": {
+        "ko": "이레 동안 너희 집에서 누룩이 발견되지 않게 하라. 유교물을 먹는 사람은 타국인이든 본토 사람이든 이스라엘 회중에서 끊어질 것이다.",
+        "en": "For seven days no leaven is to be found in your houses. If anyone eats what is leavened, that person will be cut off from the congregation of Israel, whether he is a sojourner or a native of the land.",
+        "es": "Durante siete días no se hallará levadura en sus casas; porque cualquiera que coma lo leudado, sea extranjero o natural de la tierra, esa persona será cortada de la congregación de Israel."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "גֵּר는 ‘거류민’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.19",
+      "source_hebrew": "שִׁבְעַ֣ת יָמִ֔ים שְׂאֹ֕ר לֹ֥א יִמָּצֵ֖א בְּבָתֵּיכֶ֑ם כִּ֣י ׀ כָּל־אֹכֵ֣ל מַחְמֶ֗צֶת וְנִכְרְתָ֞ה הַנֶּ֤פֶשׁ הַהִוא֙ מֵעֲדַ֣ת יִשְׂרָאֵ֔ל בַּגֵּ֖ר וּבְאֶזְרַ֥ח הָאָֽרֶץ׃",
+      "source_hebrew_sha256": "c18f85d62bf1a1b3fc94b42a47e373d5b74dc749ac7b41eb7a8a24816830974a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.20",
+      "translations": {
+        "ko": "유교물은 아무것도 먹지 말고 너희가 사는 모든 곳에서 무교병을 먹으라.”",
+        "en": "You shall eat nothing leavened; in all your dwelling places you shall eat unleavened bread.”",
+        "es": "No comerán nada leudado; en todas sus moradas comerán panes sin levadura»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "인용 마침을 20절 끝에 두었다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.20",
+      "source_hebrew": "כָּל־מַחְמֶ֖צֶת לֹ֣א תֹאכֵ֑לוּ בְּכֹל֙ מוֹשְׁבֹ֣תֵיכֶ֔ם תֹּאכְל֖וּ מַצּֽוֹת׃",
+      "source_hebrew_sha256": "8105774667c5ffea3894d327488c44d55841470d0a36bdcbd15ffdb84b663f46",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.21",
+      "translations": {
+        "ko": "모세가 이스라엘의 모든 장로를 불러 말했다. “가서 너희 가족을 위해 양을 골라 취하여 유월절 양을 잡으라.",
+        "en": "Then Moses called all the elders of Israel and said to them, “Go and select lambs for your families, and kill the Passover lamb.",
+        "es": "Moisés llamó a todos los ancianos de Israel y les dijo: «Vayan y tomen corderos para sus familias, y maten la Pascua."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מִשְׁכוּ는 ‘끌어내다’ 곧 ‘골라 내다’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.21",
+      "source_hebrew": "וַיִּקְרָ֥א מֹשֶׁ֛ה לְכָל־זִקְנֵ֥י יִשְׂרָאֵ֖ל וַיֹּ֣אמֶר אֲלֵהֶ֑ם מִֽשְׁכ֗וּ וּקְח֨וּ לָכֶ֥ם צֹ֛אן לְמִשְׁפְּחֹתֵיכֶ֖ם וְשַׁחֲט֥וּ הַפָּֽסַח׃",
+      "source_hebrew_sha256": "497066027f131a7654922ca67db03038b4489849161fcb7e13d3b7160d64e32a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.22",
+      "translations": {
+        "ko": "우슬초 한 다발을 취하여 대야에 있는 피에 적시고, 대야의 피를 상인방과 두 문설주에 바르라. 아침까지 아무도 자기 집 문 밖으로 나가지 말라.",
+        "en": "Take a bunch of hyssop and dip it in the blood that is in the basin, and touch the lintel and the two doorposts with the blood that is in the basin. None of you shall go out of the door of his house until the morning.",
+        "es": "Tomen un manojo de hisopo, mójenlo en la sangre que está en la vasija y unten el dintel y los dos postes con la sangre de la vasija. Ninguno de ustedes saldrá por la puerta de su casa hasta la mañana."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "סַף는 ‘대야/문턱’ 양쪽이 가능해 ‘대야’를 택했다.",
+      "counterargument_ko": "סַף를 ‘문턱’으로 읽을 가능성이 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.22",
+      "source_hebrew": "וּלְקַחְתֶּ֞ם אֲגֻדַּ֣ת אֵז֗וֹב וּטְבַלְתֶּם֮ בַּדָּ֣ם אֲשֶׁר־בַּסַּף֒ וְהִגַּעְתֶּ֤ם אֶל־הַמַּשְׁקוֹף֙ וְאֶל־שְׁתֵּ֣י הַמְּזוּזֹ֔ת מִן־הַדָּ֖ם אֲשֶׁ֣ר בַּסָּ֑ף וְאַתֶּ֗ם לֹ֥א תֵצְא֛וּ אִ֥ישׁ מִפֶּֽתַח־בֵּית֖וֹ עַד־בֹּֽקֶר׃",
+      "source_hebrew_sha256": "7e02bfa5784bab092113d24cb45717991c31f3734a6f433a8aed54cca115eced",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.23",
+      "translations": {
+        "ko": "여호와께서 이집트를 치려고 지나가시다가 상인방과 두 문설주의 피를 보시면, 그 문을 넘어가시고 멸하는 자가 너희 집에 들어가 치지 못하게 하실 것이다.",
+        "en": "For the LORD will pass through to strike the Egyptians, and when he sees the blood on the lintel and on the two doorposts, the LORD will pass over the door and will not allow the destroyer to enter your houses to strike you.",
+        "es": "Pues el SEÑOR pasará hiriendo a los egipcios; y cuando vea la sangre en el dintel y en los dos postes, el SEÑOR pasará de largo la puerta y no permitirá que el destructor entre en sus casas para herirlos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הַמַּשְׁחִית는 ‘멸하는 자’(정관사 있는 분사 명사).",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.23",
+      "source_hebrew": "וְעָבַ֣ר יְהוָה֮ לִנְגֹּ֣ף אֶת־מִצְרַיִם֒ וְרָאָ֤ה אֶת־הַדָּם֙ עַל־הַמַּשְׁק֔וֹף וְעַ֖ל שְׁתֵּ֣י הַמְּזוּזֹ֑ת וּפָסַ֤ח יְהוָה֙ עַל־הַפֶּ֔תַח וְלֹ֤א יִתֵּן֙ הַמַּשְׁחִ֔ית לָבֹ֥א אֶל־בָּתֵּיכֶ֖ם לִנְגֹּֽף׃",
+      "source_hebrew_sha256": "43ad39b343d6d2e1f24e73b6b68e1b82c69f50eb3b40d03c8843a04a81c4a397",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.24",
+      "translations": {
+        "ko": "너희는 이 일을 너와 네 자손을 위한 규례로 영원히 지키라.",
+        "en": "You shall observe this rite as a statute for you and for your sons forever.",
+        "es": "Guardarán esto como estatuto para ti y para tus hijos para siempre."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לְחָק־לְךָ에서 단수 2인칭으로 전환된다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.24",
+      "source_hebrew": "וּשְׁמַרְתֶּ֖ם אֶת־הַדָּבָ֣ר הַזֶּ֑ה לְחָק־לְךָ֥ וּלְבָנֶ֖יךָ עַד־עוֹלָֽם׃",
+      "source_hebrew_sha256": "44e97412fa08930814659f82e72e627cba3c061e1b28c6b088490903b83e1acc",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.25",
+      "translations": {
+        "ko": "여호와께서 약속하신 대로 너희에게 주실 땅에 들어가거든 이 예식을 지키라.",
+        "en": "And when you come to the land that the LORD will give you, as he has promised, you shall keep this service.",
+        "es": "Cuando entren en la tierra que el SEÑOR les dará, como lo ha prometido, guardarán este rito."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עֲבֹדָה는 ‘섬김/예식’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.25",
+      "source_hebrew": "וְהָיָ֞ה כִּֽי־תָבֹ֣אוּ אֶל־הָאָ֗רֶץ אֲשֶׁ֨ר יִתֵּ֧ן יְהוָ֛ה לָכֶ֖ם כַּאֲשֶׁ֣ר דִּבֵּ֑ר וּשְׁמַרְתֶּ֖ם אֶת־הָעֲבֹדָ֥ה הַזֹּֽאת׃",
+      "source_hebrew_sha256": "cd729d8892fdf17d715c5df770a5145d4c9dc7096306c4f9fb0eba43c87aba4b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.26",
+      "translations": {
+        "ko": "너희 자녀가 너희에게 “이 예식은 무엇입니까?” 하고 묻거든,",
+        "en": "And when your children say to you, ‘What do you mean by this service?’",
+        "es": "Y cuando sus hijos les pregunten: “¿Qué significa para ustedes este rito?”,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "질문은 다음 절 대답으로 이어진다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.26",
+      "source_hebrew": "וְהָיָ֕ה כִּֽי־יֹאמְר֥וּ אֲלֵיכֶ֖ם בְּנֵיכֶ֑ם מָ֛ה הָעֲבֹדָ֥ה הַזֹּ֖את לָכֶֽם׃",
+      "source_hebrew_sha256": "2e9cbbbfbbe22d09d55bc508e37a066725e008006a152495cd5d9ec4788a4cde",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.27",
+      "translations": {
+        "ko": "너희는 이렇게 말하라. “이것은 여호와께 드리는 유월절 제사다. 여호와께서 이집트 사람들을 치실 때 이집트에 있던 이스라엘 자손의 집들을 넘어가시고 우리 집들을 구하셨다.” 그러자 백성이 머리를 숙여 경배했다.",
+        "en": "you shall say, ‘It is the sacrifice of the LORD’s Passover, for he passed over the houses of the people of Israel in Egypt, when he struck the Egyptians but spared our houses.’” And the people bowed their heads and worshiped.",
+        "es": "ustedes responderán: “Es el sacrificio de la Pascua del SEÑOR, que pasó de largo las casas de los hijos de Israel en Egipto, cuando hirió a los egipcios y libró nuestras casas”». Entonces el pueblo se inclinó y adoró."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיִּקֹּד는 ‘머리를 숙이다’. 인용 안의 인용을 겹따옴표로 구분했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.27",
+      "source_hebrew": "וַאֲמַרְתֶּ֡ם זֶֽבַח־פֶּ֨סַח ה֜וּא לַֽיהוָ֗ה אֲשֶׁ֣ר פָּ֠סַח עַל־בָּתֵּ֤י בְנֵֽי־יִשְׂרָאֵל֙ בְּמִצְרַ֔יִם בְּנָגְפּ֥וֹ אֶת־מִצְרַ֖יִם וְאֶת־בָּתֵּ֣ינוּ הִצִּ֑יל וַיִּקֹּ֥ד הָעָ֖ם וַיִּֽשְׁתַּחֲוּֽוּ׃",
+      "source_hebrew_sha256": "5e929f55735fa046b826553df3e139f7e2d48677ea4f240a8c2f71b9b1b0c79c",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.28",
+      "translations": {
+        "ko": "이스라엘 자손이 가서 그대로 했다. 여호와께서 모세와 아론에게 명하신 대로 행했다.",
+        "en": "Then the people of Israel went and did so; as the LORD had commanded Moses and Aaron, so they did.",
+        "es": "Los hijos de Israel fueron e hicieron así; como el SEÑOR había mandado a Moisés y a Aarón, así lo hicieron."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.28",
+      "source_hebrew": "וַיֵּלְכ֥וּ וַיַּֽעֲשׂ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל כַּאֲשֶׁ֨ר צִוָּ֧ה יְהוָ֛ה אֶת־מֹשֶׁ֥ה וְאַהֲרֹ֖ן כֵּ֥ן עָשֽׂוּ׃",
+      "source_hebrew_sha256": "4684651a4f138cb3cb6d22b3a3ada9295b15f94eaf032a328398ce3bfd2a3833",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.29",
+      "translations": {
+        "ko": "한밤중에 여호와께서 이집트 땅의 모든 맏아들을 치셨다. 왕좌에 앉은 바로의 맏아들부터 지하 감옥에 있는 포로의 맏아들까지, 그리고 모든 가축의 맏배까지였다.",
+        "en": "At midnight the LORD struck down all the firstborn in the land of Egypt, from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon, and all the firstborn of the livestock.",
+        "es": "A medianoche el SEÑOR hirió a todo primogénito en la tierra de Egipto, desde el primogénito del faraón que se sentaba en su trono hasta el primogénito del cautivo que estaba en la cárcel, y todo primogénito del ganado."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בֵּית הַבּוֹר는 ‘구덩이의 집’, 곧 지하 감옥. הַשְּׁבִי는 포로.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.29",
+      "source_hebrew": "וַיְהִ֣י ׀ בַּחֲצִ֣י הַלַּ֗יְלָה וַֽיהוָה֮ הִכָּ֣ה כָל־בְּכוֹר֮ בְּאֶ֣רֶץ מִצְרַיִם֒ מִבְּכֹ֤ר פַּרְעֹה֙ הַיֹּשֵׁ֣ב עַל־כִּסְא֔וֹ עַ֚ד בְּכ֣וֹר הַשְּׁבִ֔י אֲשֶׁ֖ר בְּבֵ֣ית הַבּ֑וֹר וְכֹ֖ל בְּכ֥וֹר בְּהֵמָֽה׃",
+      "source_hebrew_sha256": "5b4df47b3d0ae71e5b3d67262a68543d1671d01be9f1420499b29c548128ce62",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.30",
+      "translations": {
+        "ko": "그날 밤 바로와 그의 모든 신하와 모든 이집트 사람이 일어났고, 이집트에 큰 부르짖음이 있었다. 죽은 사람이 없는 집이 하나도 없었기 때문이다.",
+        "en": "Pharaoh rose up in the night, he and all his servants and all the Egyptians. And there was a great cry in Egypt, for there was not a house where there was not someone dead.",
+        "es": "Se levantó el faraón de noche, él y todos sus siervos y todos los egipcios; y hubo un gran clamor en Egipto, porque no había casa donde no hubiera un muerto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.30",
+      "source_hebrew": "וַיָּ֨קָם פַּרְעֹ֜ה לַ֗יְלָה ה֤וּא וְכָל־עֲבָדָיו֙ וְכָל־מִצְרַ֔יִם וַתְּהִ֛י צְעָקָ֥ה גְדֹלָ֖ה בְּמִצְרָ֑יִם כִּֽי־אֵ֣ין בַּ֔יִת אֲשֶׁ֥ר אֵֽין־שָׁ֖ם מֵֽת׃",
+      "source_hebrew_sha256": "98564f6f1a6fbc639e6838cb3cc379a51e4a1a8a886d1a560541d3c4ce8a35ed",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.31",
+      "translations": {
+        "ko": "바로가 밤에 모세와 아론을 불러 말했다. “일어나 내 백성 가운데서 떠나라. 너희와 이스라엘 자손 모두 가서 너희 말대로 여호와를 섬기라.",
+        "en": "Then he summoned Moses and Aaron by night and said, “Up, go out from among my people, both you and the people of Israel; and go, serve the LORD, as you have said.",
+        "es": "Llamó de noche a Moisés y a Aarón y dijo: «Levántense, salgan de en medio de mi pueblo, ustedes y los hijos de Israel, y vayan, sirvan al SEÑOR, como han dicho."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עַמִּי(내 백성)는 바로의 어휘로, 이스라엘을 가리킨다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.31",
+      "source_hebrew": "וַיִּקְרָא֩ לְמֹשֶׁ֨ה וּֽלְאַהֲרֹ֜ן לַ֗יְלָה וַיֹּ֨אמֶר֙ ק֤וּמוּ צְּאוּ֙ מִתּ֣וֹךְ עַמִּ֔י גַּם־אַתֶּ֖ם גַּם־בְּנֵ֣י יִשְׂרָאֵ֑ל וּלְכ֛וּ עִבְד֥וּ אֶת־יְהוָ֖ה כְּדַבֶּרְכֶֽם׃",
+      "source_hebrew_sha256": "192b99a48303957136101525731592456b3c482489d5f5cb472576313649bf62",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.32",
+      "translations": {
+        "ko": "너희 말대로 양과 소도 데리고 가라. 그리고 나를 위해서도 복을 빌어 달라.”",
+        "en": "Take your flocks and your herds, as you have said, and be gone, and bless me also!”",
+        "es": "Tomen también sus ovejas y su ganado, como han dicho, y váyanse; y bendíganme también a mí»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וּבֵרַכְתֶּם은 명령적 의미로 읽었다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.32",
+      "source_hebrew": "גַּם־צֹאנְכֶ֨ם גַּם־בְּקַרְכֶ֥ם קְח֛וּ כַּאֲשֶׁ֥ר דִּבַּרְתֶּ֖ם וָלֵ֑כוּ וּבֵֽרַכְתֶּ֖ם גַּם־אֹתִֽי׃",
+      "source_hebrew_sha256": "4280562cc49fd2ae3a8580c6eeb88d31874a5dffdc99fef265a9b1ef6284901c",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.33",
+      "translations": {
+        "ko": "이집트 사람들도 백성을 재촉하여 서둘러 그 땅에서 내보내려 했다. 그들이 “우리가 다 죽게 되었다” 하고 말했기 때문이다.",
+        "en": "The Egyptians pressed the people to hurry them out of the land, for they said, “We shall all be dead.”",
+        "es": "Los egipcios apremiaban al pueblo para echarlos pronto de la tierra, porque decían: «Todos moriremos»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "כֻּלָּנוּ מֵתִים는 ‘우리는 모두 죽은 자들이다’의 분사문.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.33",
+      "source_hebrew": "וַתֶּחֱזַ֤ק מִצְרַ֨יִם֙ עַל־הָעָ֔ם לְמַהֵ֖ר לְשַׁלְּחָ֣ם מִן־הָאָ֑רֶץ כִּ֥י אָמְר֖וּ כֻּלָּ֥נוּ מֵתִֽים׃",
+      "source_hebrew_sha256": "1669f6e96268782549956aeb02ed9f7a84561a7b361ae77787ba976221a36c9f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.34",
+      "translations": {
+        "ko": "백성은 아직 부풀지 않은 반죽을 가져갔고, 반죽 그릇을 옷에 싸서 어깨에 멨다.",
+        "en": "So the people took their dough before it was leavened, with their kneading bowls bound up in their cloaks on their shoulders.",
+        "es": "El pueblo tomó su masa antes que se leudara, con sus artesas envueltas en sus mantos sobre sus hombros."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מִשְׁאֲרֹתָם은 ‘반죽 그릇’ 또는 ‘남은 것’으로 해석되며 ‘반죽 그릇’을 택했다.",
+      "counterargument_ko": "מִשְׁאֶרֶת의 뜻은 ‘반죽 그릇/남은 음식’으로 갈린다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.34",
+      "source_hebrew": "וַיִּשָּׂ֥א הָעָ֛ם אֶת־בְּצֵק֖וֹ טֶ֣רֶם יֶחְמָ֑ץ מִשְׁאֲרֹתָ֛ם צְרֻרֹ֥ת בְּשִׂמְלֹתָ֖ם עַל־שִׁכְמָֽם׃",
+      "source_hebrew_sha256": "3081397966a666db75b7b99ec87c66c3f818fea5fce4aa34a6d915c671a772b9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.35",
+      "translations": {
+        "ko": "이스라엘 자손이 모세의 말대로 하여 이집트 사람들에게 은 패물과 금 패물과 옷을 요구했다.",
+        "en": "The people of Israel had also done as Moses told them, for they had asked the Egyptians for silver and gold jewelry and for clothing.",
+        "es": "Los hijos de Israel hicieron conforme a lo que Moisés había dicho, y pidieron a los egipcios objetos de plata, objetos de oro y vestidos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "11:2와 같은 שאל을 ‘요구했다’로 옮겨 일관성을 유지했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.35",
+      "source_hebrew": "וּבְנֵי־יִשְׂרָאֵ֥ל עָשׂ֖וּ כִּדְבַ֣ר מֹשֶׁ֑ה וַֽיִּשְׁאֲלוּ֙ מִמִּצְרַ֔יִם כְּלֵי־כֶ֛סֶף וּכְלֵ֥י זָהָ֖ב וּשְׂמָלֹֽת׃",
+      "source_hebrew_sha256": "cac4a5245c6c3586a9803b4a9b21b8ff3d2cc768d76bc4cf15cb0b4c90fee71f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.36",
+      "translations": {
+        "ko": "여호와께서 백성이 이집트 사람들 눈에 은혜를 입게 하셨으므로 그들이 요구한 것을 주었고, 이스라엘은 이집트 사람들의 것을 빼앗았다.",
+        "en": "And the LORD had given the people favor in the sight of the Egyptians, so that they let them have what they asked. Thus they plundered the Egyptians.",
+        "es": "El SEÑOR había dado gracia al pueblo ante los egipcios, que les dieron lo que pedían; así despojaron a los egipcios."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וַיְנַצְּלוּ는 피엘 ‘빼앗다/벗겨 내다’.",
+      "counterargument_ko": "도덕적 함의를 완화해 ‘얻어 냈다’로 옮길 수도 있다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.36",
+      "source_hebrew": "וַֽיהוָ֞ה נָתַ֨ן אֶת־חֵ֥ן הָעָ֛ם בְּעֵינֵ֥י מִצְרַ֖יִם וַיַּשְׁאִל֑וּם וַֽיְנַצְּל֖וּ אֶת־מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "35c594f0c9ddd1f6612148b6bed0a101c2657adce29961c1eddbe71dbf504861",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.37",
+      "translations": {
+        "ko": "이스라엘 자손이 라암셋에서 숙곳으로 행진했다. 어린아이를 제외한 보행 남자가 육십만 명 가량이었다.",
+        "en": "And the people of Israel journeyed from Rameses to Succoth, about six hundred thousand men on foot, besides little ones.",
+        "es": "Los hijos de Israel partieron de Ramesés hacia Sucot, unos seiscientos mil hombres de a pie, sin contar los niños."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לְבַד מִטָּף는 ‘어린아이 외’. 영문의 women을 더하지 않고 본문만 따랐다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.37",
+      "source_hebrew": "וַיִּסְע֧וּ בְנֵֽי־יִשְׂרָאֵ֛ל מֵרַעְמְסֵ֖ס סֻכֹּ֑תָה כְּשֵׁשׁ־מֵא֨וֹת אֶ֧לֶף רַגְלִ֛י הַגְּבָרִ֖ים לְבַ֥ד מִטָּֽף׃",
+      "source_hebrew_sha256": "6b24fe28cbf69631f0cfc2be65cd616b1448f66c28edb67e8f2a46eb5a0be9f6",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.38",
+      "translations": {
+        "ko": "수많은 잡다한 무리도 그들과 함께 올라갔고, 양 떼와 소 떼 곧 매우 많은 가축도 함께였다.",
+        "en": "A mixed multitude also went up with them, and very much livestock, both flocks and herds.",
+        "es": "También subió con ellos una multitud mixta, y ganado muy numeroso, ovejas y vacas."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עֵרֶב רַב는 ‘섞인 큰 무리’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.38",
+      "source_hebrew": "וְגַם־עֵ֥רֶב רַ֖ב עָלָ֣ה אִתָּ֑ם וְצֹ֣אן וּבָקָ֔ר מִקְנֶ֖ה כָּבֵ֥ד מְאֹֽד׃",
+      "source_hebrew_sha256": "d40d5b5c672d607ec88758cb1f6bce617d758cca8b61284eb202ba474b6b3b2b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.39",
+      "translations": {
+        "ko": "그들이 이집트에서 가지고 나온 반죽으로 무교병 과자를 구웠다. 이집트에서 쫓겨나 지체할 수 없었기에 부풀지 않았고, 자기들을 위해 음식도 준비하지 못했다.",
+        "en": "And they baked unleavened cakes of the dough that they had brought out of Egypt, for it was not leavened, because they were thrust out of Egypt and could not wait, nor had they prepared any provisions for themselves.",
+        "es": "Cocieron la masa que habían sacado de Egipto en tortas sin levadura, pues no estaba leudada, porque fueron echados de Egipto y no pudieron detenerse; tampoco habían preparado provisiones para sí."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "צֵדָה는 여정 음식.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.39",
+      "source_hebrew": "וַיֹּאפ֨וּ אֶת־הַבָּצֵ֜ק אֲשֶׁ֨ר הוֹצִ֧יאוּ מִמִּצְרַ֛יִם עֻגֹ֥ת מַצּ֖וֹת כִּ֣י לֹ֣א חָמֵ֑ץ כִּֽי־גֹרְשׁ֣וּ מִמִּצְרַ֗יִם וְלֹ֤א יָֽכְלוּ֙ לְהִתְמַהְמֵ֔הַּ וְגַם־צֵדָ֖ה לֹא־עָשׂ֥וּ לָהֶֽם׃",
+      "source_hebrew_sha256": "096da0b7b1d4a45dc6dc959aa9f10229e99ad5e34e5787a2b3a2129a66a2caed",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.40",
+      "translations": {
+        "ko": "이스라엘 자손이 이집트에서 산 기간은 사백삼십 년이었다.",
+        "en": "The time that the people of Israel lived in Egypt was 430 years.",
+        "es": "El tiempo que los hijos de Israel habitaron en Egipto fue de cuatrocientos treinta años."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "마소라 본문의 수를 따르며, 칠십인역·사마리아 오경의 다른 읽기는 이 실행에서 대조하지 않았다.",
+      "counterargument_ko": "사본 대조를 수행하지 않았음을 명시한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.40",
+      "source_hebrew": "וּמוֹשַׁב֙ בְּנֵ֣י יִשְׂרָאֵ֔ל אֲשֶׁ֥ר יָשְׁב֖וּ בְּמִצְרָ֑יִם שְׁלֹשִׁ֣ים שָׁנָ֔ה וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָֽה׃",
+      "source_hebrew_sha256": "85d6f636947eeba2e7ac298fd674ee30a989164ff55eb82a5bbdf149732f7dba",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.41",
+      "translations": {
+        "ko": "사백삼십 년이 끝나는 바로 그날에 여호와의 모든 군대가 이집트 땅에서 나왔다.",
+        "en": "At the end of 430 years, on that very day, all the hosts of the LORD went out from the land of Egypt.",
+        "es": "Al cabo de cuatrocientos treinta años, ese mismo día, todos los ejércitos del SEÑOR salieron de la tierra de Egipto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "צִבְאוֹת יְהוָה는 ‘여호와의 군대/무리’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.41",
+      "source_hebrew": "וַיְהִ֗י מִקֵּץ֙ שְׁלֹשִׁ֣ים שָׁנָ֔ה וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָ֑ה וַיְהִ֗י בְּעֶ֨צֶם֙ הַיּ֣וֹם הַזֶּ֔ה יָֽצְא֛וּ כָּל־צִבְא֥וֹת יְהוָ֖ה מֵאֶ֥רֶץ מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "52d7d9709cb4bd256c19b79c74a3e4a520e33a49a9aac8993c2e3fc5a599ad8b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.42",
+      "translations": {
+        "ko": "이것은 여호와께서 그들을 이집트 땅에서 인도해 내신 일 때문에 지키는 밤이다. 이 밤은 여호와를 위하여 이스라엘 모든 자손이 대대로 지켜야 할 밤이다.",
+        "en": "It was a night of watching by the LORD, to bring them out of the land of Egypt; so this same night is a night of watching kept to the LORD by all the people of Israel throughout their generations.",
+        "es": "Noche de vigilia fue para el SEÑOR, para sacarlos de la tierra de Egipto; esa misma noche es de vigilia para el SEÑOR, para todos los hijos de Israel por sus generaciones."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "שִׁמֻּרִים는 ‘지킴·파수’ 뜻이 겹쳐 ‘지키는 밤’으로 옮겼다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.42",
+      "source_hebrew": "לֵ֣יל שִׁמֻּרִ֥ים הוּא֙ לַֽיהוָ֔ה לְהוֹצִיאָ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם הֽוּא־הַלַּ֤יְלָה הַזֶּה֙ לַֽיהוָ֔ה שִׁמֻּרִ֛ים לְכָל־בְּנֵ֥י יִשְׂרָאֵ֖ל לְדֹרֹתָֽם׃",
+      "source_hebrew_sha256": "d9460708f02f234b932e0fa65b7097ad2fc8d274620abfedd48879b5cd8573bf",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.43",
+      "translations": {
+        "ko": "여호와께서 모세와 아론에게 말씀하셨다. “유월절 규례는 이러하다. 이방인은 아무도 그것을 먹지 못한다.",
+        "en": "The LORD said to Moses and Aaron, “This is the statute of the Passover: no foreigner shall eat of it,",
+        "es": "El SEÑOR dijo a Moisés y a Aarón: «Esta es la ordenanza de la Pascua: ningún extranjero comerá de ella."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בֶּן־נֵכָר는 ‘이방의 아들’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.43",
+      "source_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ אֶל־מֹשֶׁ֣ה וְאַהֲרֹ֔ן זֹ֖את חֻקַּ֣ת הַפָּ֑סַח כָּל־בֶּן־נֵכָ֖ר לֹא־יֹ֥אכַל בּֽוֹ׃",
+      "source_hebrew_sha256": "2342d8689a5e96166ead06082c370c57db024db00c1683ed48c819d7b27c506d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.44",
+      "translations": {
+        "ko": "돈으로 산 사람의 종은 할례를 받은 뒤에는 그것을 먹을 수 있다.",
+        "en": "but every slave that is bought for money may eat of it after you have circumcised him.",
+        "es": "Pero todo siervo comprado con dinero podrá comer de ella después que lo hayas circuncidado."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.44",
+      "source_hebrew": "וְכָל־עֶ֥בֶד אִ֖ישׁ מִקְנַת־כָּ֑סֶף וּמַלְתָּ֣ה אֹת֔וֹ אָ֖ז יֹ֥אכַל בּֽוֹ׃",
+      "source_hebrew_sha256": "2cd6e230a6ad3e4b53bb90b762e41206f43e4f3cea0573f37bd8056bc56400c2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.45",
+      "translations": {
+        "ko": "거류민과 품꾼은 그것을 먹지 못한다.",
+        "en": "A foreigner and a hired servant shall not eat of it.",
+        "es": "El extranjero residente y el jornalero no comerán de ella."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "תוֹשָׁב는 ‘거주하는 외인’, שָׂכִיר는 ‘품꾼’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.45",
+      "source_hebrew": "תּוֹשָׁ֥ב וְשָׂכִ֖יר לֹא־יֹ֥אכַל־בּֽוֹ׃",
+      "source_hebrew_sha256": "63ee9a7a58e2022e778c8bfc2bf26415455c43bbc487b1055989c9e85f1b44a2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.46",
+      "translations": {
+        "ko": "그것은 한 집에서 먹어야 하며, 고기를 집 밖으로 가져가지 말고 뼈도 꺾지 말라.",
+        "en": "It shall be eaten in one house; you shall not take any of the flesh outside the house, and you shall not break any of its bones.",
+        "es": "Se comerá en una sola casa; no sacarás de la casa nada de la carne, ni quebrarán hueso suyo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.46",
+      "source_hebrew": "בְּבַ֤יִת אֶחָד֙ יֵאָכֵ֔ל לֹא־תוֹצִ֧יא מִן־הַבַּ֛יִת מִן־הַבָּשָׂ֖ר ח֑וּצָה וְעֶ֖צֶם לֹ֥א תִשְׁבְּרוּ־בֽוֹ׃",
+      "source_hebrew_sha256": "06992b005d4f4768b4ee0ddbf17c8ab88bb90d0b3839258170c0ac2affdd6c21",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.47",
+      "translations": {
+        "ko": "이스라엘 온 회중이 그것을 지켜야 한다.",
+        "en": "All the congregation of Israel shall keep it.",
+        "es": "Toda la congregación de Israel lo celebrará."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יַעֲשׂוּ אֹתוֹ는 ‘그것을 행하다’이며 ‘지키다’로 옮겼다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.47",
+      "source_hebrew": "כָּל־עֲדַ֥ת יִשְׂרָאֵ֖ל יַעֲשׂ֥וּ אֹתֽוֹ׃",
+      "source_hebrew_sha256": "f71d0ba22d199679264762ffdb2270720de21a9beec1962d717cefcf9156200d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.48",
+      "translations": {
+        "ko": "너희와 함께 사는 이방인이 여호와의 유월절을 지키려면 그의 모든 남자가 할례를 받은 뒤에야 가까이 와서 지킬 수 있으며, 그는 본토인과 같게 된다. 할례받지 않은 사람은 아무도 그것을 먹지 못한다.",
+        "en": "If a stranger sojourns with you and would keep the Passover to the LORD, let all his males be circumcised. Then he may come near and keep it; he shall be as a native of the land. But no uncircumcised person shall eat of it.",
+        "es": "Si un extranjero reside contigo y quiere celebrar la Pascua del SEÑOR, que se circunciden todos sus varones; entonces podrá acercarse a celebrarla, y será como un natural de la tierra. Pero ningún incircunciso comerá de ella."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "גֵּר는 ‘거주하는 이방인’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.48",
+      "source_hebrew": "וְכִֽי־יָג֨וּר אִתְּךָ֜ גֵּ֗ר וְעָ֣שָׂה פֶסַח֮ לַיהוָה֒ הִמּ֧וֹל ל֣וֹ כָל־זָכָ֗ר וְאָז֙ יִקְרַ֣ב לַעֲשֹׂת֔וֹ וְהָיָ֖ה כְּאֶזְרַ֣ח הָאָ֑רֶץ וְכָל־עָרֵ֖ל לֹֽא־יֹ֥אכַל בּֽוֹ׃",
+      "source_hebrew_sha256": "2d113c6d62d3385303d50e209f3dca63a3c54e70588a8a80b97b8c3ab6c7cbcf",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.49",
+      "translations": {
+        "ko": "본토인에게나 너희 가운데 사는 이방인에게나 같은 법이 있다.”",
+        "en": "There shall be one law for the native and for the stranger who sojourns among you.”",
+        "es": "Una misma ley habrá para el natural y para el extranjero que reside entre ustedes»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "תוֹרָה אַחַת는 ‘하나의 법’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.49",
+      "source_hebrew": "תּוֹרָ֣ה אַחַ֔ת יִהְיֶ֖ה לָֽאֶזְרָ֑ח וְלַגֵּ֖ר הַגָּ֥ר בְּתוֹכְכֶֽם׃",
+      "source_hebrew_sha256": "aed64af90c04efbf8f8df13c263b3484f0e056e9e75fc67fee94b98265159e2d",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.50",
+      "translations": {
+        "ko": "모든 이스라엘 자손이 그렇게 했다. 여호와께서 모세와 아론에게 명하신 대로 행했다.",
+        "en": "All the people of Israel did just as the LORD had commanded Moses and Aaron.",
+        "es": "Todos los hijos de Israel lo hicieron; como el SEÑOR había mandado a Moisés y a Aarón, así lo hicieron."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.50",
+      "source_hebrew": "וַיַּֽעֲשׂ֖וּ כָּל־בְּנֵ֣י יִשְׂרָאֵ֑ל כַּאֲשֶׁ֨ר צִוָּ֧ה יְהוָ֛ה אֶת־מֹשֶׁ֥ה וְאֶֽת־אַהֲרֹ֖ן כֵּ֥ן עָשֽׂוּ׃",
+      "source_hebrew_sha256": "c6d1e2f2a818b5f4f328c0c45d9ed1adbd19b5eb8116f261573909f07f5d63e4",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.12.51",
+      "translations": {
+        "ko": "바로 그날에 여호와께서 이스라엘 자손을 그들의 군대별로 이집트 땅에서 인도해 내셨다.",
+        "en": "And on that very day the LORD brought the people of Israel out of the land of Egypt by their hosts.",
+        "es": "Y ese mismo día el SEÑOR sacó a los hijos de Israel de la tierra de Egipto, por sus ejércitos."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "עַל־צִבְאֹתָם은 ‘그들의 군대/무리별로’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.12.51",
+      "source_hebrew": "וַיְהִ֕י בְּעֶ֖צֶם הַיּ֣וֹם הַזֶּ֑ה הוֹצִ֨יא יְהוָ֜ה אֶת־בְּנֵ֧י יִשְׂרָאֵ֛ל מֵאֶ֥רֶץ מִצְרַ֖יִם עַל־צִבְאֹתָֽם׃",
+      "source_hebrew_sha256": "a25089e55e14248f53f89db514a2ff87f8f90eb1d0b762788271d45779c53c7a",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.1",
+      "translations": {
+        "ko": "여호와께서 모세에게 말씀하셨다.",
+        "en": "The LORD said to Moses,",
+        "es": "El SEÑOR habló a Moisés, diciendo:"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "다음 절 인용으로 이어진다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.1",
+      "source_hebrew": "וַיְדַבֵּ֥ר יְהוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "source_hebrew_sha256": "dabaafd19339de911964c7e4206002d833da5960fc65032ed458b9bafd9dd873",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.2",
+      "translations": {
+        "ko": "“이스라엘 자손 가운데 태를 처음 연 모든 맏이를 사람이든 짐승이든 내게 거룩히 구별하라. 그것은 내 것이다.”",
+        "en": "“Consecrate to me all the firstborn. Whatever is first to open the womb among the people of Israel, both of man and of beast, is mine.”",
+        "es": "«Conságrame todo primogénito. Todo lo que abre la matriz entre los hijos de Israel, tanto de hombres como de animales, es mío»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "פֶּטֶר כָּל־רֶחֶם은 ‘모든 태를 여는 것’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.2",
+      "source_hebrew": "קַדֶּשׁ־לִ֨י כָל־בְּכ֜וֹר פֶּ֤טֶר כָּל־רֶ֨חֶם֙ בִּבְנֵ֣י יִשְׂרָאֵ֔ל בָּאָדָ֖ם וּבַבְּהֵמָ֑ה לִ֖י הֽוּא׃",
+      "source_hebrew_sha256": "c97e50a3beec3af3e748f8bb90d9a7d31a21572ee01076543b742597ef38f24c",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.3",
+      "translations": {
+        "ko": "모세가 백성에게 말했다. “종살이하던 집 이집트에서 나온 이날을 기억하라. 여호와께서 강한 손으로 너희를 여기서 인도해 내셨으니 유교물을 먹지 말라.",
+        "en": "Moses said to the people, “Remember this day in which you came out from Egypt, out of the house of slavery, for by a strong hand the LORD brought you out from this place. No leavened bread shall be eaten.",
+        "es": "Moisés dijo al pueblo: «Acuérdense de este día en que salieron de Egipto, de casa de esclavitud, pues con mano fuerte el SEÑOR los sacó de aquí. No se comerá nada leudado."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בֵּית עֲבָדִים은 ‘종들의 집’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.3",
+      "source_hebrew": "וַיֹּ֨אמֶר מֹשֶׁ֜ה אֶל־הָעָ֗ם זָכ֞וֹר אֶת־הַיּ֤וֹם הַזֶּה֙ אֲשֶׁ֨ר יְצָאתֶ֤ם מִמִּצְרַ֨יִם֙ מִבֵּ֣ית עֲבָדִ֔ים כִּ֚י בְּחֹ֣זֶק יָ֔ד הוֹצִ֧יא יְהֹוָ֛ה אֶתְכֶ֖ם מִזֶּ֑ה וְלֹ֥א יֵאָכֵ֖ל חָמֵֽץ׃",
+      "source_hebrew_sha256": "e38ceecdb18b714eb3de3a755bba31d77ac64170f53fd68ae84537452666962f",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.4",
+      "translations": {
+        "ko": "오늘 너희는 아빕월에 나온다.",
+        "en": "Today, in the month of Abib, you are going out.",
+        "es": "Hoy ustedes salen, en el mes de Abib."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "אָבִיב는 고유한 달 이름으로 음역.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.4",
+      "source_hebrew": "הַיּ֖וֹם אַתֶּ֣ם יֹצְאִ֑ים בְּחֹ֖דֶשׁ הָאָבִֽיב׃",
+      "source_hebrew_sha256": "8768d11c2cfde6c66f95ce961a0430328e46aec205c0d972280272afa0e104f2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.5",
+      "translations": {
+        "ko": "여호와께서 네 조상들에게 맹세하신 대로, 가나안 사람과 헷 사람과 아모리 사람과 히위 사람과 여부스 사람의 땅, 곧 젖과 꿀이 흐르는 땅으로 너를 이끌어 들이실 때 이 달에 이 예식을 지키라.",
+        "en": "And when the LORD brings you into the land of the Canaanites, the Hittites, the Amorites, the Hivites, and the Jebusites, which he swore to your fathers to give you, a land flowing with milk and honey, you shall keep this service in this month.",
+        "es": "Cuando el SEÑOR te introduzca en la tierra de los cananeos, los heteos, los amorreos, los heveos y los jebuseos, que juró a tus padres que te daría, tierra que fluye leche y miel, guardarás este rito en este mes."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "זָבַת חָלָב וּדְבָשׁ는 ‘젖과 꿀이 흐르는’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.5",
+      "source_hebrew": "וְהָיָ֣ה כִֽי־יְבִֽיאֲךָ֣ יְהוָ֡ה אֶל־אֶ֣רֶץ הַֽ֠כְּנַעֲנִי וְהַחִתִּ֨י וְהָאֱמֹרִ֜י וְהַחִוִּ֣י וְהַיְבוּסִ֗י אֲשֶׁ֨ר נִשְׁבַּ֤ע לַאֲבֹתֶ֨יךָ֙ לָ֣תֶת לָ֔ךְ אֶ֛רֶץ זָבַ֥ת חָלָ֖ב וּדְבָ֑שׁ וְעָבַדְתָּ֛ אֶת־הָעֲבֹדָ֥ה הַזֹּ֖את בַּחֹ֥דֶשׁ הַזֶּֽה׃",
+      "source_hebrew_sha256": "8cb58c423a2381f352ad590568eb0e1457fd4a2cb7c14c2ec6c5119956092a57",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.6",
+      "translations": {
+        "ko": "이레 동안 무교병을 먹고, 일곱째 날에는 여호와께 절기를 지키라.",
+        "en": "Seven days you shall eat unleavened bread, and on the seventh day there shall be a feast to the LORD.",
+        "es": "Siete días comerás panes sin levadura, y el séptimo día habrá fiesta para el SEÑOR."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.6",
+      "source_hebrew": "שִׁבְעַ֥ת יָמִ֖ים תֹּאכַ֣ל מַצֹּ֑ת וּבַיּוֹם֙ הַשְּׁבִיעִ֔י חַ֖ג לַיהוָֽה׃",
+      "source_hebrew_sha256": "c1fb777ef5eba25b2f70a5752faa35638ee763db14aa2609de2b69aaa5ea8bef",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.7",
+      "translations": {
+        "ko": "이레 동안 무교병을 먹어야 하며, 네 모든 지경에서 유교물이 네게 보여서도 안 되고 누룩이 네게 보여서도 안 된다.",
+        "en": "Unleavened bread shall be eaten for the seven days; no leavened bread shall be seen with you, and no leaven shall be seen with you in all your territory.",
+        "es": "Se comerán panes sin levadura durante los siete días; no se verá contigo pan leudado, ni se verá levadura en todo tu territorio."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.7",
+      "source_hebrew": "מַצּוֹת֙ יֵֽאָכֵ֔ל אֵ֖ת שִׁבְעַ֣ת הַיָּמִ֑ים וְלֹֽא־יֵרָאֶ֨ה לְךָ֜ חָמֵ֗ץ וְלֹֽא־יֵרָאֶ֥ה לְךָ֛ שְׂאֹ֖ר בְּכָל־גְּבֻלֶֽךָ׃",
+      "source_hebrew_sha256": "c9da6b62d24f350f756e286580419a33bc0416e6df8ff63b407e2c40ab44d9d9",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.8",
+      "translations": {
+        "ko": "그날에 네 아들에게 이렇게 일러 주라. “이는 내가 이집트에서 나올 때 여호와께서 나를 위해 행하신 일 때문이다.”",
+        "en": "You shall tell your son on that day, ‘It is because of what the LORD did for me when I came out of Egypt.’",
+        "es": "Ese día explicarás a tu hijo: “Es por lo que el SEÑOR hizo por mí cuando salí de Egipto”."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "בַּעֲבוּר זֶה는 ‘이것 때문에’. 1인칭 ‘나’로 세대의 동일시를 보존했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.8",
+      "source_hebrew": "וְהִגַּדְתָּ֣ לְבִנְךָ֔ בַּיּ֥וֹם הַה֖וּא לֵאמֹ֑ר בַּעֲב֣וּר זֶ֗ה עָשָׂ֤ה יְהוָה֙ לִ֔י בְּצֵאתִ֖י מִמִּצְרָֽיִם׃",
+      "source_hebrew_sha256": "8764d8e311c47a4d5927545c5d16f855b6311e84ee90ed235d6cccb3b17e5b31",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.9",
+      "translations": {
+        "ko": "이것이 네 손의 표와 네 눈 사이의 기념이 되어, 여호와의 가르침이 네 입에 있게 하라. 여호와께서 강한 손으로 너를 이집트에서 인도해 내셨기 때문이다.",
+        "en": "And it shall be to you as a sign on your hand and as a memorial between your eyes, that the law of the LORD may be in your mouth. For with a strong hand the LORD has brought you out of Egypt.",
+        "es": "Te será como una señal en tu mano y como un memorial entre tus ojos, para que la ley del SEÑOR esté en tu boca; porque con mano fuerte te sacó el SEÑOR de Egipto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "לְאוֹת/זִכָּרוֹן의 육체적 착용 여부는 본문이 정하지 않아 직역했다.",
+      "counterargument_ko": "비유로 읽을지 실제 착용으로 읽을지는 해석의 문제다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.9",
+      "source_hebrew": "וְהָיָה֩ לְךָ֨ לְא֜וֹת עַל־יָדְךָ֗ וּלְזִכָּרוֹן֙ בֵּ֣ין עֵינֶ֔יךָ לְמַ֗עַן תִּהְיֶ֛ה תּוֹרַ֥ת יְהוָ֖ה בְּפִ֑יךָ כִּ֚י בְּיָ֣ד חֲזָקָ֔ה הוֹצִֽאֲךָ֥ יְהֹוָ֖ה מִמִּצְרָֽיִם׃",
+      "source_hebrew_sha256": "58285d4d7fec954ec1086a319a2698b8272e52e5281ff285c8935fde1692f7d2",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.10",
+      "translations": {
+        "ko": "너는 해마다 정해진 때에 이 규례를 지키라.",
+        "en": "You shall therefore keep this statute at its appointed time from year to year.",
+        "es": "Guardarás, pues, este estatuto a su tiempo, año tras año."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מִיָּמִים יָמִימָה는 ‘해마다’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.10",
+      "source_hebrew": "וְשָׁמַרְתָּ֛ אֶת־הַחֻקָּ֥ה הַזֹּ֖את לְמוֹעֲדָ֑הּ מִיָּמִ֖ים יָמִֽימָה׃",
+      "source_hebrew_sha256": "a39a6de9159bc110f485368acdea226c2572925abb015f4e7745c44f09922803",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.11",
+      "translations": {
+        "ko": "여호와께서 너와 네 조상들에게 맹세하신 대로 너를 가나안 사람의 땅에 이끌어 들이시고 그 땅을 네게 주실 때,",
+        "en": "When the LORD brings you into the land of the Canaanites, as he swore to you and to your fathers, and shall give it to you,",
+        "es": "Cuando el SEÑOR te haya introducido en la tierra de los cananeos, como te juró a ti y a tus padres, y te la haya dado,"
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "13:12로 문장이 이어진다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.11",
+      "source_hebrew": "וְהָיָ֞ה כִּֽי־יְבִֽאֲךָ֤ יְהוָה֙ אֶל־אֶ֣רֶץ הַֽכְּנַעֲנִ֔י כַּאֲשֶׁ֛ר נִשְׁבַּ֥ע לְךָ֖ וְלַֽאֲבֹתֶ֑יךָ וּנְתָנָ֖הּ לָֽךְ׃",
+      "source_hebrew_sha256": "11a9bb5d3de695752d933ca93d78071c140d5e460ceae0e22313cfe6de40b1c0",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.12",
+      "translations": {
+        "ko": "너는 태를 처음 연 모든 것을 여호와께 드리라. 네 가축이 낳은 맏배 가운데 수컷은 여호와의 것이다.",
+        "en": "you shall set apart to the LORD all that first opens the womb. All the firstborn of your animals that are males shall be the LORD’s.",
+        "es": "apartarás para el SEÑOR todo lo que abre la matriz; todo primer nacido macho de tus animales será del SEÑOR."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "וְהַעֲבַרְתָּ는 ‘넘기다/드리다’. שֶׁגֶר는 ‘새끼’ 의미의 희귀어.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.12",
+      "source_hebrew": "וְהַעֲבַרְתָּ֥ כָל־פֶּֽטֶר־רֶ֖חֶם לַֽיהֹוָ֑ה וְכָל־פֶּ֣טֶר ׀ שֶׁ֣גֶר בְּהֵמָ֗ה אֲשֶׁ֨ר יִהְיֶ֥ה לְךָ֛ הַזְּכָרִ֖ים לַיהוָֽה׃",
+      "source_hebrew_sha256": "512b8b81880fdf257936ec60f7956e3bad50120c73b396455ec13b24b1b1496b",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.13",
+      "translations": {
+        "ko": "나귀의 맏배는 어린 양으로 대속하라. 대속하지 않으려면 목을 꺾으라. 네 아들들 가운데 사람의 맏이는 모두 대속하라.",
+        "en": "Every firstborn donkey you shall redeem with a lamb, or if you will not redeem it you shall break its neck. Every firstborn of man among your sons you shall redeem.",
+        "es": "Todo primer nacido de asno rescatarás con un cordero; y si no lo rescatas, le quebrarás la cerviz. Y todo primogénito de hombre entre tus hijos rescatarás."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "שֶׂה는 양·염소 새끼. וַעֲרַפְתּוֹ는 목을 꺾음.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.13",
+      "source_hebrew": "וְכָל־פֶּ֤טֶר חֲמֹר֙ תִּפְדֶּ֣ה בְשֶׂ֔ה וְאִם־לֹ֥א תִפְדֶּ֖ה וַעֲרַפְתּ֑וֹ וְכֹ֨ל בְּכ֥וֹר אָדָ֛ם בְּבָנֶ֖יךָ תִּפְדֶּֽה׃",
+      "source_hebrew_sha256": "c944a9098898108919c55a5c60c844e6270d995822bf217cacbc2c5d311ce8fe",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.14",
+      "translations": {
+        "ko": "훗날 네 아들이 “이것이 무슨 뜻입니까?” 하고 묻거든 이렇게 말하라. “여호와께서 강한 손으로 우리를 종살이하던 집 이집트에서 인도해 내셨다.",
+        "en": "And when in time to come your son asks you, ‘What does this mean?’ you shall say to him, ‘By a strong hand the LORD brought us out of Egypt, from the house of slavery.",
+        "es": "Y cuando en el futuro tu hijo te pregunte: “¿Qué es esto?”, le dirás: “Con mano fuerte nos sacó el SEÑOR de Egipto, de casa de esclavitud."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "מָחָר는 ‘내일/훗날’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.14",
+      "source_hebrew": "וְהָיָ֞ה כִּֽי־יִשְׁאָלְךָ֥ בִנְךָ֛ מָחָ֖ר לֵאמֹ֣ר מַה־זֹּ֑את וְאָמַרְתָּ֣ אֵלָ֔יו בְּחֹ֣זֶק יָ֗ד הוֹצִיאָ֧נוּ יְהוָ֛ה מִמִּצְרַ֖יִם מִבֵּ֥ית עֲבָדִֽים׃",
+      "source_hebrew_sha256": "7ad4a5e21bba53d32ea25b252491a89eb14681a775b38b482647a092cc121e31",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.15",
+      "translations": {
+        "ko": "바로가 우리를 놓아주지 않으려고 고집을 부릴 때, 여호와께서 이집트 땅의 모든 맏이를 사람의 맏이부터 가축의 맏배까지 죽이셨다. 그래서 나는 태를 처음 연 모든 수컷을 여호와께 제사로 드리고, 내 아들들 가운데 맏이는 모두 대속한다.”",
+        "en": "For when Pharaoh stubbornly refused to let us go, the LORD killed all the firstborn in the land of Egypt, both the firstborn of man and the firstborn of animals. Therefore I sacrifice to the LORD all the males that first open the womb, but all the firstborn of my sons I redeem.’",
+        "es": "Pues cuando el faraón se obstinó en no dejarnos ir, el SEÑOR mató a todo primogénito en la tierra de Egipto, desde el primogénito del hombre hasta el primogénito del animal. Por eso yo sacrifico al SEÑOR todo macho que abre la matriz, y a todo primogénito de mis hijos rescato”."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הִקְשָׁה는 ‘굳게 하다/고집하다’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.15",
+      "source_hebrew": "וַיְהִ֗י כִּֽי־הִקְשָׁ֣ה פַרְעֹה֮ לְשַׁלְּחֵנוּ֒ וַיַּהֲרֹ֨ג יְהֹוָ֤ה כָּל־בְּכוֹר֙ בְּאֶ֣רֶץ מִצְרַ֔יִם מִבְּכֹ֥ר אָדָ֖ם וְעַד־בְּכ֣וֹר בְּהֵמָ֑ה עַל־כֵּן֩ אֲנִ֨י זֹבֵ֜חַ לַֽיהוָ֗ה כָּל־פֶּ֤טֶר רֶ֨חֶם֙ הַזְּכָרִ֔ים וְכָל־בְּכ֥וֹר בָּנַ֖י אֶפְדֶּֽה׃",
+      "source_hebrew_sha256": "b5ac8ddedb9390da5930eda2d42ede2d187be9c1b21f63e03a103015f587b0be",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.16",
+      "translations": {
+        "ko": "이것이 네 손의 표와 네 눈 사이의 띠가 될 것이다. 여호와께서 강한 손으로 우리를 이집트에서 인도해 내셨기 때문이다.”",
+        "en": "It shall be as a sign on your hand and as frontlets between your eyes, for by a strong hand the LORD brought us out of Egypt.”",
+        "es": "Será como una señal sobre tu mano y como frontales entre tus ojos, porque con mano fuerte nos sacó el SEÑOR de Egipto»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "טוֹטָפֹת는 정확한 뜻이 불분명한 희귀어로 ‘띠’로 옮겼다.",
+      "counterargument_ko": "טוֹטָפֹת는 ‘이마 장식’ 등으로도 번역된다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.16",
+      "source_hebrew": "וְהָיָ֤ה לְאוֹת֙ עַל־יָ֣דְכָ֔ה וּלְטוֹטָפֹ֖ת בֵּ֣ין עֵינֶ֑יךָ כִּ֚י בְּחֹ֣זֶק יָ֔ד הוֹצִיאָ֥נוּ יְהוָ֖ה מִמִּצְרָֽיִם׃",
+      "source_hebrew_sha256": "3edb30a26819293fd9da24dd83d06ef8a544a0b2868b6d5562e64b7e6157a1c1",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.17",
+      "translations": {
+        "ko": "바로가 백성을 보낸 뒤, 블레셋 땅의 길이 가까웠지만 하나님은 그 길로 인도하지 않으셨다. 하나님이 “백성이 전쟁을 보면 마음을 돌려 이집트로 돌아갈까 염려한다” 하고 말씀하셨기 때문이다.",
+        "en": "When Pharaoh let the people go, God did not lead them by way of the land of the Philistines, although that was near. For God said, “Lest the people change their minds when they see war and return to Egypt.”",
+        "es": "Cuando el faraón dejó ir al pueblo, Dios no los llevó por el camino de la tierra de los filisteos, aunque era más cercano; pues dijo Dios: «No sea que el pueblo se arrepienta al ver la guerra y vuelva a Egipto»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "יִנָּחֵם은 ‘마음을 바꾸다/후회하다’. 같은 어근 נָחָה(인도하다)와의 말장난은 번역에 드러나지 않는다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.17",
+      "source_hebrew": "וַיְהִ֗י בְּשַׁלַּ֣ח פַּרְעֹה֮ אֶת־הָעָם֒ וְלֹא־נָחָ֣ם אֱלֹהִ֗ים דֶּ֚רֶךְ אֶ֣רֶץ פְּלִשְׁתִּ֔ים כִּ֥י קָר֖וֹב ה֑וּא כִּ֣י ׀ אָמַ֣ר אֱלֹהִ֗ים פֶּֽן־יִנָּחֵ֥ם הָעָ֛ם בִּרְאֹתָ֥ם מִלְחָמָ֖ה וְשָׁ֥בוּ מִצְרָֽיְמָה׃",
+      "source_hebrew_sha256": "a8c2941a67ab8090ad13193a1ea8cf51c42e782f5abce42b838e706bce29c0cb",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.18",
+      "translations": {
+        "ko": "하나님은 백성을 돌려 갈대바다 쪽 광야 길로 인도하셨다. 이스라엘 자손은 무장하고 이집트 땅에서 올라갔다.",
+        "en": "But God led the people around by the way of the wilderness toward the Red Sea. And the people of Israel went up out of the land of Egypt equipped for battle.",
+        "es": "Pero Dios hizo que el pueblo rodeara por el camino del desierto hacia el Mar Rojo. Y los hijos de Israel subieron de la tierra de Egipto armados."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "חֲמֻשִׁים은 ‘무장한’ 또는 ‘다섯 줄로’라는 해석이 있어 ‘무장하고’를 택했다.",
+      "counterargument_ko": "חֲמֻשִׁים의 뜻(무장/다섯 줄)은 불확실하다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.18",
+      "source_hebrew": "וַיַּסֵּ֨ב אֱלֹהִ֧ים ׀ אֶת־הָעָ֛ם דֶּ֥רֶךְ הַמִּדְבָּ֖ר יַם־ס֑וּף וַחֲמֻשִׁ֛ים עָל֥וּ בְנֵי־יִשְׂרָאֵ֖ל מֵאֶ֥רֶץ מִצְרָֽיִם׃",
+      "source_hebrew_sha256": "f4c7071cf4245da8e7f5986fa8f840c5f8f2bce6625e80700562145d2e7c0819",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.19",
+      "translations": {
+        "ko": "모세는 요셉의 뼈를 가져갔다. 요셉이 이스라엘 자손에게 “하나님이 반드시 너희를 돌보실 것이니 너희는 여기서 내 뼈를 가지고 올라가라” 하고 엄히 맹세시켰기 때문이다.",
+        "en": "Moses took the bones of Joseph with him, for Joseph had made the sons of Israel solemnly swear, saying, “God will surely visit you, and you shall carry up my bones with you from here.”",
+        "es": "Moisés tomó consigo los huesos de José, pues este había hecho jurar solemnemente a los hijos de Israel, diciendo: «Dios ciertamente los visitará, y harán subir mis huesos de aquí con ustedes»."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "פָּקֹד יִפְקֹד는 부정사 강조, ‘반드시 돌보다’.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.19",
+      "source_hebrew": "וַיִּקַּ֥ח מֹשֶׁ֛ה אֶת־עַצְמ֥וֹת יוֹסֵ֖ף עִמּ֑וֹ כִּי֩ הַשְׁבֵּ֨עַ הִשְׁבִּ֜יעַ אֶת־בְּנֵ֤י יִשְׂרָאֵל֙ לֵאמֹ֔ר פָּקֹ֨ד יִפְקֹ֤ד אֱלֹהִים֙ אֶתְכֶ֔ם וְהַעֲלִיתֶ֧ם אֶת־עַצְמֹתַ֛י מִזֶּ֖ה אִתְּכֶֽם׃",
+      "source_hebrew_sha256": "9dc2516b18e6651c17a88210f64b0cb0477ad98ddea745499a5e458f902929c6",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.20",
+      "translations": {
+        "ko": "그들은 숙곳에서 떠나 광야 끝 에담에 진을 쳤다.",
+        "en": "And they moved on from Succoth and encamped at Etham, on the edge of the wilderness.",
+        "es": "Salieron de Sucot y acamparon en Etam, al borde del desierto."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "직역 가능한 평이한 구문으로, 특별한 어휘·구문 쟁점을 따로 확인하지 못했다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.20",
+      "source_hebrew": "וַיִּסְע֖וּ מִסֻּכֹּ֑ת וַיַּחֲנ֣וּ בְאֵתָ֔ם בִּקְצֵ֖ה הַמִּדְבָּֽר׃",
+      "source_hebrew_sha256": "c4d4c4d90180f14ce7c35213752a344278e099a701aafbe2059ebaacaa88a987",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Exod.13.21",
+      "translations": {
+        "ko": "여호와께서 낮에는 구름 기둥으로 그들 앞에서 길을 인도하시고, 밤에는 불기둥으로 그들에게 빛을 비추어 밤낮으로 행진할 수 있게 하셨다.",
+        "en": "The LORD went before them by day in a pillar of cloud to lead them along the way, and by night in a pillar of fire to give them light, that they might travel by day and by night.",
+        "es": "El SEÑOR iba delante de ellos de día en una columna de nube para guiarlos por el camino, y de noche en una columna de fuego para alumbrarlos, a fin de que anduvieran de día y de noche."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "הֹלֵךְ 분사로 지속 행위를 나타냈다.",
+      "counterargument_ko": "구체적 반론은 확인하지 못했다. 어휘·어순 선택은 다른 번역 전통에서 달리 옮길 수 있으며, 일반적 반론은 독립 검토(GPT/Gemini)에서 확인되어야 한다.",
+      "current_opinion_ko": "위 읽기를 현재 모델 초안으로 유지한다(채택문 아님).",
+      "reconsider_if_ko": "독립 검토나 사본 대조에서 다른 읽기가 확인되거나, 편집 지침이 용어·어투를 통일할 때.",
+      "source_reference": "Exod.13.21",
+      "source_hebrew": "וַֽיהוָ֡ה הֹלֵךְ֩ לִפְנֵיהֶ֨ם יוֹמָ֜ם בְּעַמּ֤וּד עָנָן֙ לַנְחֹתָ֣ם הַדֶּ֔רֶךְ וְלַ֛יְלָה בְּעַמּ֥וּד אֵ֖שׁ לְהָאִ֣יר לָהֶ֑ם לָלֶ֖כֶת יוֹמָ֥ם וָלָֽיְלָה׃",
+      "source_hebrew_sha256": "697123475240bdb4db9e798749d0fdba0636851fd7d27037913c2d06f4b842e0",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    }
+  ]
+}
