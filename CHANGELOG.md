@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.10 — 2026-10-27
+
+- Added Genesis 4:2–6 in three languages: 96 selected verses / 288 translations.
+- Preserved actual GPT/Gemini drafts and final opinions, Claude Code review of 4:3–5 and five existing cloud drafts.
+- Documented shared offering terminology, firstborn/fat portions, favorable regard, facial idiom and pausal pronoun analysis. Prior 91 selections and v0.4.9 archives/ZIP preserved.
+
 ## 0.4.9 — 2026-10-27
 
 - Added Genesis 3:21–24 and 4:1 in three languages: 91 selected verses / 273 translations, completing Genesis 1–3.

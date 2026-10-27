@@ -1,0 +1,300 @@
+{
+  "state": "Five existing cloud drafts reused from one completed run; not new independent calls",
+  "runs": [
+    {
+      "manifest": {
+        "branch": "refs/remotes/github/claude/friendly-heisenberg-o4rtc0",
+        "path": "automation/cloud-runs/20261023T211759Z-ff69750f.json",
+        "run_id": "20261023T211759Z-ff69750f",
+        "created_at": "2026-10-23T21:17:59.736226+00:00",
+        "status": "draft_complete_unadopted",
+        "verse_ids": [
+          "Gen.3.2",
+          "Gen.3.3",
+          "Gen.3.4",
+          "Gen.3.5",
+          "Gen.3.6",
+          "Gen.3.7",
+          "Gen.3.8",
+          "Gen.3.9",
+          "Gen.3.10",
+          "Gen.3.11",
+          "Gen.3.12",
+          "Gen.3.13",
+          "Gen.3.14",
+          "Gen.3.15",
+          "Gen.3.16",
+          "Gen.3.17",
+          "Gen.3.18",
+          "Gen.3.19",
+          "Gen.3.20",
+          "Gen.3.21",
+          "Gen.3.22",
+          "Gen.3.23",
+          "Gen.3.24",
+          "Gen.4.1",
+          "Gen.4.2",
+          "Gen.4.3",
+          "Gen.4.4",
+          "Gen.4.5",
+          "Gen.4.6",
+          "Gen.4.7",
+          "Gen.4.8",
+          "Gen.4.9",
+          "Gen.4.10",
+          "Gen.4.11",
+          "Gen.4.12",
+          "Gen.4.13",
+          "Gen.4.14",
+          "Gen.4.15",
+          "Gen.4.16",
+          "Gen.4.17",
+          "Gen.4.18",
+          "Gen.4.19",
+          "Gen.4.20",
+          "Gen.4.21",
+          "Gen.4.22",
+          "Gen.4.23",
+          "Gen.4.24",
+          "Gen.4.25",
+          "Gen.4.26",
+          "Gen.5.1",
+          "Gen.5.2",
+          "Gen.5.3",
+          "Gen.5.4",
+          "Gen.5.5",
+          "Gen.5.6",
+          "Gen.5.7",
+          "Gen.5.8",
+          "Gen.5.9",
+          "Gen.5.10",
+          "Gen.5.11",
+          "Gen.5.12",
+          "Gen.5.13",
+          "Gen.5.14",
+          "Gen.5.15",
+          "Gen.5.16",
+          "Gen.5.17",
+          "Gen.5.18",
+          "Gen.5.19",
+          "Gen.5.20",
+          "Gen.5.21",
+          "Gen.5.22",
+          "Gen.5.23",
+          "Gen.5.24",
+          "Gen.5.25",
+          "Gen.5.26",
+          "Gen.5.27",
+          "Gen.5.28",
+          "Gen.5.29",
+          "Gen.5.30",
+          "Gen.5.31",
+          "Gen.5.32",
+          "Gen.6.1",
+          "Gen.6.2",
+          "Gen.6.3",
+          "Gen.6.4",
+          "Gen.6.5",
+          "Gen.6.6",
+          "Gen.6.7",
+          "Gen.6.8",
+          "Gen.6.9",
+          "Gen.6.10",
+          "Gen.6.11",
+          "Gen.6.12",
+          "Gen.6.13",
+          "Gen.6.14",
+          "Gen.6.15",
+          "Gen.6.17",
+          "Gen.6.18",
+          "Gen.6.19",
+          "Gen.6.20"
+        ],
+        "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+        "provider": "Claude Code native cloud",
+        "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock",
+        "output": "automation/cloud-drafts/20261023T211759Z-ff69750f.json",
+        "drafted_verse_count": 100,
+        "requested_model": "claude-sonnet-5-5",
+        "independent_review": "not performed"
+      },
+      "commit": "b1f1bc1990730fa7a4365696550a17ed56bf3aa4",
+      "output_metadata": {
+        "run_id": "20261023T211759Z-ff69750f",
+        "provider": "Claude Code native cloud",
+        "model_identity": {
+          "requested_or_configured_model": "claude-sonnet-5-5",
+          "served_model_reported_by_session_api": "not exposed to this session",
+          "identity_basis": "The session system context states the serving model as Sonnet 5.5 (claude-sonnet-5-5); no API call was made to verify the served snapshot. A model self-report is not source evidence.",
+          "session": "https://claude.ai/code/session_01JEwLUdjeMvRfJUufNXpgEA",
+          "unavailable": [
+            "dated model snapshot identifier",
+            "per-request token counts",
+            "cost or credit consumption counters",
+            "sampling parameters"
+          ]
+        },
+        "executed_at_utc": "2026-10-23T21:22:37.249140+00:00",
+        "state": "unadopted_model_draft",
+        "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+        "input": {
+          "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+          "source_packet_sha256": "3796e94a5dd0d8550f257c51275ca269831f73ee5c053000904d143c9b1eda8a",
+          "verse_count": 100,
+          "first_id": "Gen.3.2",
+          "last_id": "Gen.6.20",
+          "skipped_in_range": {
+            "Gen.6.16": "not in source packet (excluded upstream; see automation/source-queue-report.json if listed); not drafted"
+          }
+        },
+        "self_check": {
+          "exact_id_coverage": true,
+          "duplicate_ids": false,
+          "ko_en_es_nonempty": true,
+          "hebrew_provenance_and_rights_attached": true,
+          "no_human_certification_claim": true,
+          "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; corrections made to Gen.3.2, 3.10, 3.11, 3.24, 4.2, 4.13, 4.15, 6.13 and genealogy particles",
+          "default_text_note": "Verses without a verse-specific objection use a shared default for counterargument/opinion/reconsider fields; this means no notable issue was identified by the drafting model, not that none exists.",
+          "genealogy_note": "Gen.5 formulaic verses were produced from a shared template with per-verse numbers and names; numbers follow the MT display, and manuscript number differences were not collated.",
+          "independent_review": "not performed; GPT and Gemini review remain required",
+          "open_items": [
+            "Gen.3.15, 3.16, 4.7, 6.3, 6.4 lexical/syntactic choices uncertain",
+            "Gen.3.19 and 3.22 cross-language register consistency",
+            "Gen.4.8 content of Cain's speech absent in MT display; reported variants not collated",
+            "Gen.5.1 adam as person vs humankind",
+            "Gen.6.16 absent from packet"
+          ]
+        },
+        "publication_requires": [
+          "GPT review",
+          "Gemini review",
+          "current best editorial selection",
+          "versioned archive",
+          "publication checks"
+        ]
+      },
+      "verses": [
+        {
+          "id": "Gen.4.2",
+          "translations": {
+            "ko": "그녀는 다시 그의 동생 아벨을 낳았다. 아벨은 양 치는 목자가 되고 가인은 땅을 가는 농부가 되었다.",
+            "en": "Again she bore his brother Abel. Abel was a keeper of sheep, and Cain a tiller of the ground.",
+            "es": "Volvió a dar a luz, a su hermano Abel. Abel fue pastor de ovejas, y Caín fue labrador de la tierra."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "וַתֹּסֶף לָלֶדֶת의 주어는 여성 3인칭이므로 \"그녀는\"으로 명시했다.",
+          "counterargument_ko": "대안적 번역 선택이 있을 수 있으나 본문 이문이나 중대한 해석 분기는 이 절에서 확인하지 않았다.",
+          "current_opinion_ko": "유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.2",
+          "source_hebrew": "וַתֹּ֣סֶף לָלֶ֔דֶת אֶת־אָחִ֖יו אֶת־הָ֑בֶל וַֽיְהִי־הֶ֨בֶל֙ רֹ֣עֵה צֹ֔אן וְקַ֕יִן הָיָ֖ה עֹבֵ֥ד אֲדָמָֽה׃",
+          "source_hebrew_sha256": "57a413f5f79a3ee5eb6784dc22483c16213e8f878a7a664de42e79fa100e6234",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.3",
+          "translations": {
+            "ko": "세월이 흐른 뒤에 가인은 땅의 소출 가운데서 주께 예물을 가져왔다.",
+            "en": "In the course of time Cain brought to the LORD an offering of the fruit of the ground,",
+            "es": "Pasado un tiempo, Caín presentó al SEÑOR una ofrenda del fruto de la tierra,"
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "מִקֵּץ יָמִים은 \"날들의 끝에서\"로, 일정 기간이 지난 뒤를 뜻한다. מִנְחָה는 곡물 예물에만 한정되지 않는 \"예물\"로 옮겼다.",
+          "counterargument_ko": "\"절기가 끝날 때(해의 끝)\"로 읽는 견해가 있다.",
+          "current_opinion_ko": "\"세월이 흐른 뒤\"를 유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.3",
+          "source_hebrew": "וַֽיְהִ֖י מִקֵּ֣ץ יָמִ֑ים וַיָּבֵ֨א קַ֜יִן מִפְּרִ֧י הָֽאֲדָמָ֛ה מִנְחָ֖ה לַֽיהוָֽה׃",
+          "source_hebrew_sha256": "ad38da13ba19f95b20f0a322d34f489f51dd61d18a7ecf244999f098d2aa6d21",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.4",
+          "translations": {
+            "ko": "아벨도 자기 양 떼의 첫 새끼들과 그 기름을 가져왔다. 주께서는 아벨과 그의 예물을 돌아보셨으나,",
+            "en": "and Abel also brought of the firstlings of his flock and of their fat portions. The LORD had regard for Abel and his offering,",
+            "es": "y Abel también presentó, de los primogénitos de su rebaño y de la grasa de ellos. El SEÑOR miró con agrado a Abel y su ofrenda,"
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "וַיִּשַׁע는 \"눈여겨보다/호의로 돌아보다\"로 옮겼다. מֵחֶלְבֵהֶן은 \"그 기름(가장 좋은 부분)\"이다.",
+          "counterargument_ko": "\"기름\"이 문자적 지방인지 최상의 부분인지, 그리고 5절과 한 문장으로 이어지는지가 갈린다.",
+          "current_opinion_ko": "\"돌아보다\"를 유지하고 5절과 이어 읽는다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.4",
+          "source_hebrew": "וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃",
+          "source_hebrew_sha256": "7a104c6727629c63d815f789f4dd0442d5d3a2cf8d9e0848b73a41c50de3028c",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.5",
+          "translations": {
+            "ko": "가인과 그의 예물은 돌아보지 않으셨다. 가인은 몹시 화가 나서 얼굴이 어두워졌다.",
+            "en": "but for Cain and his offering he had no regard. So Cain was very angry, and his face fell.",
+            "es": "pero no miró con agrado a Caín ni su ofrenda. Caín se enojó mucho y su semblante decayó."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "וַיִּפְּלוּ פָנָיו는 숙이거나 어두워진 얼굴이다.",
+          "counterargument_ko": "이유가 본문에 없고 해석자들이 추정할 뿐이다.",
+          "current_opinion_ko": "이유를 보충하지 않는다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.5",
+          "source_hebrew": "וְאֶל־קַ֥יִן וְאֶל־מִנְחָת֖וֹ לֹ֣א שָׁעָ֑ה וַיִּ֤חַר לְקַ֨יִן֙ מְאֹ֔ד וַֽיִּפְּל֖וּ פָּנָֽיו׃",
+          "source_hebrew_sha256": "52177021bda41cf43ec96b586db3e163f52ea93eec6a95c563a674e7b42e5f3d",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.6",
+          "translations": {
+            "ko": "주께서 가인에게 말씀하셨다. \"네가 왜 화가 났느냐? 왜 얼굴이 어두워졌느냐?",
+            "en": "The LORD said to Cain, \"Why are you angry, and why has your face fallen?",
+            "es": "El SEÑOR dijo a Caín: «¿Por qué te has enojado y por qué ha decaído tu semblante?"
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "두 의문문을 평행으로 옮겼다.",
+          "counterargument_ko": "대안적 번역 선택이 있을 수 있으나 본문 이문이나 중대한 해석 분기는 이 절에서 확인하지 않았다.",
+          "current_opinion_ko": "현재 번역을 잠정 의견으로 유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.6",
+          "source_hebrew": "וַיֹּ֥אמֶר יְהוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃",
+          "source_hebrew_sha256": "90ba60c49dfc1b5cc334e7d083f7dce7182dead677f29bf0b4edbc7fd6dd483f",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        }
+      ]
+    }
+  ]
+}

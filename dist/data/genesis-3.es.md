@@ -1,6 +1,6 @@
 # Génesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.9
+Hansam Yang · Original Bible · v0.4.10
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -60,6 +60,10 @@ Previous v0.4.8
 
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
+Previous v0.4.9
+
+La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
+
 ## 2 · HYB.GEN.003.002
 
 Hebrew display (MT/WLC): וַתֹּ֥אמֶר הָֽאִשָּׁ֖ה אֶל־הַנָּחָ֑שׁ מִפְּרִ֥י עֵֽץ־הַגָּ֖ן נֹאכֵֽל׃
@@ -102,6 +106,10 @@ Previous v0.4.8
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
 
+Previous v0.4.9
+
+La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
+
 ## 3 · HYB.GEN.003.003
 
 Hebrew display (MT/WLC): וּמִפְּרִ֣י הָעֵץ֮ אֲשֶׁ֣ר בְּתוֹךְ־הַגָּן֒ אָמַ֣ר אֱלֹהִ֗ים לֹ֤א תֹֽאכְלוּ֙ מִמֶּ֔נּוּ וְלֹ֥א תִגְּע֖וּ בּ֑וֹ פֶּן־תְּמֻתֽוּן׃
@@ -141,6 +149,10 @@ Previous v0.4.7
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
 Previous v0.4.8
+
+Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
+
+Previous v0.4.9
 
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
@@ -192,6 +204,10 @@ Previous v0.4.8
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
 
+Previous v0.4.9
+
+La serpiente dijo a la mujer: «Ciertamente no morirán.
+
 ## 5 · HYB.GEN.003.005
 
 Hebrew display (MT/WLC): כִּ֚י יֹדֵ֣עַ אֱלֹהִ֔ים כִּ֗י בְּיוֹם֙ אֲכָלְכֶ֣ם מִמֶּ֔נּוּ וְנִפְקְח֖וּ עֵֽינֵיכֶ֑ם וִהְיִיתֶם֙ כֵּֽאלֹהִ֔ים יֹדְעֵ֖י ט֥וֹב וָרָֽע׃
@@ -240,6 +256,10 @@ Previous v0.4.8
 
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
+Previous v0.4.9
+
+Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
+
 ## 6 · HYB.GEN.003.006
 
 Hebrew display (MT/WLC): וַתֵּ֣רֶא הָֽאִשָּׁ֡ה כִּ֣י טוֹב֩ הָעֵ֨ץ לְמַאֲכָ֜ל וְכִ֧י תַֽאֲוָה־ה֣וּא לָעֵינַ֗יִם וְנֶחְמָ֤ד הָעֵץ֙ לְהַשְׂכִּ֔יל וַתִּקַּ֥ח מִפִּרְי֖וֹ וַתֹּאכַ֑ל וַתִּתֵּ֧ן גַּם־לְאִישָׁ֛הּ עִמָּ֖הּ וַיֹּאכַֽל׃
@@ -284,6 +304,10 @@ Previous v0.4.8
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
 
+Previous v0.4.9
+
+La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
+
 ## 7 · HYB.GEN.003.007
 
 Hebrew display (MT/WLC): וַתִּפָּקַ֨חְנָה֙ עֵינֵ֣י שְׁנֵיהֶ֔ם וַיֵּ֣דְע֔וּ כִּ֥י עֵֽירֻמִּ֖ם הֵ֑ם וַֽיִּתְפְּרוּ֙ עֲלֵ֣ה תְאֵנָ֔ה וַיַּעֲשׂ֥וּ לָהֶ֖ם חֲגֹרֹֽת׃
@@ -319,6 +343,10 @@ Previous v0.4.7
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
 Previous v0.4.8
+
+Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
+
+Previous v0.4.9
 
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
@@ -366,6 +394,10 @@ Previous v0.4.8
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
 
+Previous v0.4.9
+
+Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
+
 ## 9 · HYB.GEN.003.009
 
 Hebrew display (MT/WLC): וַיִּקְרָ֛א יְהוָ֥ה אֱלֹהִ֖ים אֶל־הָֽאָדָ֑ם וַיֹּ֥אמֶר ל֖וֹ אַיֶּֽכָּה׃
@@ -401,6 +433,10 @@ Previous v0.4.7
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
 Previous v0.4.8
+
+YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
+
+Previous v0.4.9
 
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
@@ -448,6 +484,10 @@ Previous v0.4.8
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
 
+Previous v0.4.9
+
+Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
+
 ## 11 · HYB.GEN.003.011
 
 Hebrew display (MT/WLC): וַיֹּ֕אמֶר מִ֚י הִגִּ֣יד לְךָ֔ כִּ֥י עֵירֹ֖ם אָ֑תָּה הֲמִן־הָעֵ֗ץ אֲשֶׁ֧ר צִוִּיתִ֛יךָ לְבִלְתִּ֥י אֲכָל־מִמֶּ֖נּוּ אָכָֽלְתָּ׃
@@ -479,6 +519,10 @@ Previous v0.4.7
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
 Previous v0.4.8
+
+Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
+
+Previous v0.4.9
 
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
@@ -522,6 +566,10 @@ Previous v0.4.8
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
 
+Previous v0.4.9
+
+El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
+
 ## 13 · HYB.GEN.003.013
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר יְהוָ֧ה אֱלֹהִ֛ים לָאִשָּׁ֖ה מַה־זֹּ֣את עָשִׂ֑ית וַתֹּ֨אמֶר֙ הָֽאִשָּׁ֔ה הַנָּחָ֥שׁ הִשִּׁיאַ֖נִי וָאֹכֵֽל׃
@@ -553,6 +601,10 @@ Previous v0.4.7
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
 Previous v0.4.8
+
+YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
+
+Previous v0.4.9
 
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
@@ -596,6 +648,10 @@ Previous v0.4.8
 
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
 
+Previous v0.4.9
+
+YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
+
 ## 15 · HYB.GEN.003.015
 
 Hebrew display (MT/WLC): וְאֵיבָ֣ה ׀ אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃
@@ -636,6 +692,10 @@ Previous v0.4.8
 
 Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
 
+Previous v0.4.9
+
+Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
+
 ## 16 · HYB.GEN.003.016
 
 Hebrew display (MT/WLC): אֶֽל־הָאִשָּׁ֣ה אָמַ֗ר הַרְבָּ֤ה אַרְבֶּה֙ עִצְּבוֹנֵ֣ךְ וְהֵֽרֹנֵ֔ךְ בְּעֶ֖צֶב תֵּֽלְדִ֣י בָנִ֑ים וְאֶל־אִישֵׁךְ֙ תְּשׁ֣וּקָתֵ֔ךְ וְה֖וּא יִמְשָׁל־בָּֽךְ׃
@@ -669,6 +729,10 @@ Final opinion (Korean original): 늘리다의 반복을 크게로 옮기고 고�
 Counterargument (Korean): 두 명사를 고통과 임신으로 병렬 번역하는 GPT 초기·Claude 초안과 기존 클라우드 대안을 보존한다. 임신 횟수 증가나 중언법을 확정하지 않는다. 갈망을 오직 지배욕·성욕·적의로 좁히지 않는다. 문맥상 미래 진술을 선택하며 미완료 형태만으로 모든 규범적 신학을 판정하지 않는다.
 
 Previous v0.4.8
+
+A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
+
+Previous v0.4.9
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
 
@@ -708,6 +772,10 @@ Previous v0.4.8
 
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
 
+Previous v0.4.9
+
+A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
+
 ## 18 · HYB.GEN.003.018
 
 Hebrew display (MT/WLC): וְק֥וֹץ וְדַרְדַּ֖ר תַּצְמִ֣יחַֽ לָ֑ךְ וְאָכַלְתָּ֖ אֶת־עֵ֥שֶׂב הַשָּׂדֶֽה׃
@@ -735,6 +803,10 @@ Final opinion (Korean original): 앞 절의 땅을 주어로 명시하고 가시
 Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
 
 Previous v0.4.8
+
+Te producirá espinos y cardos, y comerás las plantas del campo.
+
+Previous v0.4.9
 
 Te producirá espinos y cardos, y comerás las plantas del campo.
 
@@ -774,6 +846,10 @@ Previous v0.4.8
 
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
 
+Previous v0.4.9
+
+Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
+
 ## 20 · HYB.GEN.003.020
 
 Hebrew display (MT/WLC): וַיִּקְרָ֧א הָֽאָדָ֛ם שֵׁ֥ם אִשְׁתּ֖וֹ חַוָּ֑ה כִּ֛י הִ֥וא הָֽיְתָ֖ה אֵ֥ם כָּל־חָֽי׃
@@ -804,6 +880,10 @@ Previous v0.4.8
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
 
+Previous v0.4.9
+
+El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
+
 ## 21 · HYB.GEN.003.021
 
 Hebrew display (MT/WLC): וַיַּעַשׂ֩ יְהוָ֨ה אֱלֹהִ֜ים לְאָדָ֧ם וּלְאִשְׁתּ֛וֹ כָּתְנ֥וֹת ע֖וֹר וַיַּלְבִּשֵֽׁם׃
@@ -829,6 +909,10 @@ YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
 Final opinion (Korean original): 가죽으로 된 옷을 만들고 입힌 두 동작을 보존한다. 아담은 앞17절과 이어 현재 선택한다. 사람도 대안이며 원출처 일반명사 분석은 보존한다. 튜닉/긴 속옷이라는 더 구체적인 옷 형식을 가죽옷으로 넓게 옮겼다. 동물 제사·최초 죽음·대속·제작 동기를 본문에 보충하지 않는다.
 
 Counterargument (Korean): 사람도 대안이며 원출처 일반명사 분석은 보존한다. 튜닉/긴 속옷이라는 더 구체적인 옷 형식을 가죽옷으로 넓게 옮겼다. 동물 제사·최초 죽음·대속·제작 동기를 본문에 보충하지 않는다.
+
+Previous v0.4.9
+
+YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
 
 ## 22 · HYB.GEN.003.022
 
@@ -862,6 +946,10 @@ Final opinion (Korean original): 선과 악을 아는 데서 우리 가운데 �
 
 Counterargument (Korean): 이전 상태를 뜻하는 있었다나 반어 독법도 대안이다. 우리 지시 대상을 확정하지 않는다. 말줄임·따옴표는 현대 편집이며 공포·급박함·반어가 원문에 확정되었다고 주장하지 않는다.
 
+Previous v0.4.9
+
+YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
+
 ## 23 · HYB.GEN.003.023
 
 Hebrew display (MT/WLC): וַֽיְשַׁלְּחֵ֛הוּ יְהוָ֥ה אֱלֹהִ֖ים מִגַּן־עֵ֑דֶן לַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה אֲשֶׁ֥ר לֻקַּ֖ח מִשָּֽׁם׃
@@ -887,6 +975,10 @@ Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra 
 Final opinion (Korean original): 에덴동산에서 내보냄과 그가 취해진 땅을 일구는 목적을 보존한다. 그래서는 앞 구문과의 결과 관계를 자연스럽게 잇는 편집 선택이다. 내보내다와 다음절 쫓아내다를 구별하되 사명 파견·합법 퇴거·물리적 폭력을 동사만으로 확정하지 않는다.
 
 Counterargument (Korean): 그래서는 앞 구문과의 결과 관계를 자연스럽게 잇는 편집 선택이다. 내보내다와 다음절 쫓아내다를 구별하되 사명 파견·합법 퇴거·물리적 폭력을 동사만으로 확정하지 않는다.
+
+Previous v0.4.9
+
+Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
 
 ## 24 · HYB.GEN.003.024
 
@@ -919,6 +1011,10 @@ Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la
 Final opinion (Korean original): 그 사람을 쫓아내고 동쪽에 케루빔들과 돌아가는 칼의 불꽃을 두어 길을 지키는 구문을 옮긴다. 여성 분사는 칼과 일치한다. 케루빔의 해부학·칼을 쥔 손·정확한 회전 기제를 넣지 않는다. 목적어 병렬만으로 손에 들 수 없다고 증명하지도 않는다.
 
 Counterargument (Korean): 여성 분사는 칼과 일치한다. 케루빔의 해부학·칼을 쥔 손·정확한 회전 기제를 넣지 않는다. 목적어 병렬만으로 손에 들 수 없다고 증명하지도 않는다.
+
+Previous v0.4.9
+
+Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
 
 ## Notes
 
@@ -964,7 +1060,7 @@ Se distinguen enviar fuera y expulsar sin probar misión, desalojo legal ni viol
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.9. https://yangs777.github.io/hansam-bible/es/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.10. https://yangs777.github.io/hansam-bible/es/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
