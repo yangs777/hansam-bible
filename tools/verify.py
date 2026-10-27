@@ -112,7 +112,20 @@ for lang in ('ko','en','es'):
         assert 'ORIGINAL BIBLE' in s and 'gemini-' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
-assert len(pages)==10+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3
+assert len(pages)==13+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3
+support_config=json.loads((R/'support.json').read_text(encoding='utf-8'))
+for lang in ('ko','en','es'):
+    support_html=(D/lang/'support/index.html').read_text(encoding='utf-8')
+    assert all(f'hreflang="{key}"' in support_html for key in ('ko','en','es'))
+    if lang=='ko':
+        assert support_config['bank']['account'] in support_html
+        assert support_config['bank']['holder'] in support_html
+        assert support_html.count('class="support-card"')==2
+        assert all(value not in support_html for value in ('USDT','TRC20',support_config['usdt']['address']))
+    else:
+        assert support_config['usdt']['address'] in support_html and 'TRON (TRC20)' in support_html
+        assert support_config['usdt']['qr'] in support_html
+        assert all(value not in support_html for value in (*support_config['bank'].values(),'coupang.com','쿠팡','메주자'))
 ET.parse(D/'sitemap.xml')
 ET.parse(D/'updates/feed.xml')
 updates=json.loads((D/'updates/feed.json').read_text(encoding='utf-8'))

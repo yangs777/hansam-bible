@@ -5,6 +5,7 @@ import review_layers
 import search_pages
 import reader
 import updates
+import support
 R=pathlib.Path(__file__).resolve().parents[1]; D=R/'dist'; D.mkdir(exist_ok=True)
 C=json.loads((R/'config.json').read_text(encoding='utf-8'))
 E=json.loads((R/'data/editorial.json').read_text(encoding='utf-8'))['passages']
@@ -28,7 +29,7 @@ def header(lang,path=''):
     return f'''<a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang=='ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a><nav aria-label="Main"><a href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'}</a><a href="/{lang}/#passages">{t['home']}</a><a href="/data/">{t['data']}</a><a href="/updates/">{'업데이트' if lang=='ko' else 'Updates' if lang=='en' else 'Novedades'}</a><a href="/about/">{t['about']}</a></nav><div class="languages" aria-label="Languages">{langs}</div></header>'''
 def footer(lang):
     t=L[lang]
-    return f'''<footer><div class="footer-brand">ORIGINAL BIBLE <span>v{VERSION}</span></div><p>{t['author']}: <a href="/about/">Hansam Yang</a></p><p>{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 · {t['terms']}</a> · <a href="{C['repository']}">GitHub</a> · <a href="/data/">JSON / JSONL / Markdown</a></p><small>{t['privacy']}</small></footer>'''
+    return f'''<footer>{support.footer(lang)}<div class="footer-brand">ORIGINAL BIBLE <span>v{VERSION}</span></div><p>{t['author']}: <a href="/about/">Hansam Yang</a></p><p>{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 · {t['terms']}</a> · <a href="{C['repository']}">GitHub</a> · <a href="/data/">JSON / JSONL / Markdown</a></p><small>{t['privacy']}</small></footer>'''
 PAGES=[]
 def page(path,title,body,lang='en',alternates=None,structured=None,description=''):
     canonical=url(path); PAGES.append(canonical)
@@ -112,6 +113,7 @@ Modified by [name], [date], if applicable.</pre><h2>Keep these scopes separate</
 schema={'$schema':'https://json-schema.org/draft/2020-12/schema','$id':url('/data/schema.json'),'title':'Original Bible verse record','type':'object','required':['id','reference','version','project_author','translation_status','human_specialist_review','decision','basis','hebrew_layer','translations','canonical_urls','citations','rights','selection_status','decision_trace','model_provenance'],'properties':{'id':{'type':'string','pattern':'^HYB\\.'},'project_author':{'const':AUTHOR},'version':{'type':'string'},'translation_status':{'enum':['draft','reviewed']},'human_specialist_review':{'type':'string'},'translations':{'type':'object','required':['ko','en','es'],'properties':{k:{'type':'string','minLength':1} for k in L}},'hebrew_layer':{'type':'object','required':['hebrew','tokens','source_url','source_file_sha256','source_commit','display_transformation']},'rights':{'type':'object','required':['editorial','hebrew_text','morphology']},'citations':{'type':'object','required':list(L)}}}
 write('data/schema.json',js(schema)+'\n')
 search_pages.build(page,write,C,E,H,TRACES)
+support.build(page)
 reader.build(page,write,C,E,H)
 updates.build(page,write,C,E)
 indexnow=json.loads((R/'automation/indexnow.json').read_text(encoding='utf-8'))
