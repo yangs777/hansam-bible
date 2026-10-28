@@ -1,12 +1,12 @@
-# Génesis 4:1–16
+# Génesis4:1–21
 
-Hansam Yang · Original Bible · v0.4.12
+Hansam Yang · Original Bible · v0.4.13
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Los dieciséis primeros versículos de Génesis4 incluyen selecciones en tres idiomas,propuestas y opiniones finales GPT/Gemini y revisión Claude Code de los vv.1,3–5,7,8,11,13–15. El cotejo digital es limitado; siguen pendientes la revisión humana y el cotejo completo.
+Los primeros21 versículos incluyen selecciones en tres idiomas,propuestas y opiniones finales GPT/Gemini y revisión Claude Code de los vv.1,3–5,7,8,11,13–15,17,20–21. El cotejo digital es limitado;siguen pendientes la revisión humana y el cotejo completo.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -52,6 +52,10 @@ Previous v0.4.11
 
 El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».
 
+Previous v0.4.12
+
+El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».
+
 Previous v0.4.9
 
 El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».
@@ -87,6 +91,10 @@ Previous v0.4.10
 Ella volvió a dar a luz a su hermano Abel. Abel llegó a ser pastor de rebaños, y Caín era labrador de la tierra.
 
 Previous v0.4.11
+
+Ella volvió a dar a luz a su hermano Abel. Abel llegó a ser pastor de rebaños, y Caín era labrador de la tierra.
+
+Previous v0.4.12
 
 Ella volvió a dar a luz a su hermano Abel. Abel llegó a ser pastor de rebaños, y Caín era labrador de la tierra.
 
@@ -130,6 +138,10 @@ Previous v0.4.11
 
 Pasado un tiempo, Caín trajo a YHWH una ofrenda de los frutos de la tierra.
 
+Previous v0.4.12
+
+Pasado un tiempo, Caín trajo a YHWH una ofrenda de los frutos de la tierra.
+
 ## 4 · HYB.GEN.004.004
 
 Hebrew display (MT/WLC): וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃
@@ -167,6 +179,10 @@ Previous v0.4.10
 Abel también trajo de los primogénitos de su rebaño y de sus porciones de grasa. YHWH miró con favor a Abel y a su ofrenda.
 
 Previous v0.4.11
+
+Abel también trajo de los primogénitos de su rebaño y de sus porciones de grasa. YHWH miró con favor a Abel y a su ofrenda.
+
+Previous v0.4.12
 
 Abel también trajo de los primogénitos de su rebaño y de sus porciones de grasa. YHWH miró con favor a Abel y a su ofrenda.
 
@@ -210,6 +226,10 @@ Previous v0.4.11
 
 Pero no miró con favor a Caín ni a su ofrenda. Caín se enojó mucho y su semblante decayó.
 
+Previous v0.4.12
+
+Pero no miró con favor a Caín ni a su ofrenda. Caín se enojó mucho y su semblante decayó.
+
 ## 6 · HYB.GEN.004.006
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר יְהוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃
@@ -241,6 +261,10 @@ Previous v0.4.10
 YHWH dijo a Caín: «¿Por qué estás enojado y por qué ha decaído tu semblante?
 
 Previous v0.4.11
+
+YHWH dijo a Caín: «¿Por qué estás enojado y por qué ha decaído tu semblante?
+
+Previous v0.4.12
 
 YHWH dijo a Caín: «¿Por qué estás enojado y por qué ha decaído tu semblante?
 
@@ -280,6 +304,10 @@ Previous v0.4.11
 
 Si haces lo que está bien, ¿no serás aceptado? Pero si no haces lo que está bien, el pecado está agazapado a la puerta. Su deseo se dirige a ti, pero tú debes dominarlo.”
 
+Previous v0.4.12
+
+Si haces lo que está bien, ¿no serás aceptado? Pero si no haces lo que está bien, el pecado está agazapado a la puerta. Su deseo se dirige a ti, pero tú debes dominarlo.”
+
 ## 8 · HYB.GEN.004.008
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
@@ -316,6 +344,10 @@ Previous v0.4.11
 
 Caín habló con su hermano Abel. Mientras estaban en el campo, Caín se levantó contra su hermano Abel y lo mató.
 
+Previous v0.4.12
+
+Caín habló con su hermano Abel. Mientras estaban en el campo, Caín se levantó contra su hermano Abel y lo mató.
+
 ## 9 · HYB.GEN.004.009
 
 Hebrew display (MT/WLC): וַיֹּ֤אמֶר יְהוָה֙ אֶל־קַ֔יִן אֵ֖י הֶ֣בֶל אָחִ֑יךָ וַיֹּ֨אמֶר֙ לֹ֣א יָדַ֔עְתִּי הֲשֹׁמֵ֥ר אָחִ֖י אָנֹֽכִי׃
@@ -346,6 +378,10 @@ Previous v0.4.11
 
 YHWH dijo a Caín: «¿Dónde está tu hermano Abel?». Él respondió: «No sé. ¿Acaso soy yo el guardián de mi hermano?».
 
+Previous v0.4.12
+
+YHWH dijo a Caín: «¿Dónde está tu hermano Abel?». Él respondió: «No sé. ¿Acaso soy yo el guardián de mi hermano?».
+
 ## 10 · HYB.GEN.004.010
 
 Hebrew display (MT/WLC): וַיֹּ֖אמֶר מֶ֣ה עָשִׂ֑יתָ ק֚וֹל דְּמֵ֣י אָחִ֔יךָ צֹעֲקִ֥ים אֵלַ֖י מִן־הָֽאֲדָמָֽה׃
@@ -373,6 +409,10 @@ Final opinion (Korean original): 피가 부르짖는 소리와 땅으로부터�
 Counterargument (Korean): 피들 및 부르짖는 분사의 원문 복수는 주석에 보존한다. 집합적 피·blood·sangre와 소리의 단수 동사는 목표어 처리이며 히브리어 복수 일치의 재현이라고 주장하지 않는다. 후손이나 흉기를 덧붙이지 않으며 발화는12절까지 이어진다.
 
 Previous v0.4.11
+
+Él dijo: «¿Qué has hecho? La voz de la sangre de tu hermano clama a mí desde la tierra.
+
+Previous v0.4.12
 
 Él dijo: «¿Qué has hecho? La voz de la sangre de tu hermano clama a mí desde la tierra.
 
@@ -418,6 +458,10 @@ Previous v0.4.11
 
 Ahora eres maldito de la tierra, que abrió su boca para recibir de tu mano la sangre de tu hermano.
 
+Previous v0.4.12
+
+Ahora eres maldito de la tierra, que abrió su boca para recibir de tu mano la sangre de tu hermano.
+
 ## 12 · HYB.GEN.004.012
 
 Hebrew display (MT/WLC): כִּ֤י תַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה לֹֽא־תֹסֵ֥ף תֵּת־כֹּחָ֖הּ לָ֑ךְ נָ֥ע וָנָ֖ד תִּֽהְיֶ֥ה בָאָֽרֶץ׃
@@ -443,6 +487,10 @@ Cuando cultives la tierra, ya no te dará su fuerza. Serás errante y fugitivo e
 Final opinion (Korean original): 땅의 힘을 문자 이미지로 옮기고 소출의 의미를 설명한다. 떠돌이·도망자의 두 분사를14절과 맞추고10절부터의 발화를 닫는다. BDB3581은 이 절의 땅의 힘을 소출로 풀이한다. 방랑·동요의 대안도 보존한다. 수입 lakh2fs 태그는 바꾸지 않고 GKC103f의 남성 휴지형과 가인 맥락을 따른다. 태깅 생성 원인은 확인하지 않았다.
 
 Counterargument (Korean): BDB3581은 이 절의 땅의 힘을 소출로 풀이한다. 방랑·동요의 대안도 보존한다. 수입 lakh2fs 태그는 바꾸지 않고 GKC103f의 남성 휴지형과 가인 맥락을 따른다. 태깅 생성 원인은 확인하지 않았다.
+
+Previous v0.4.12
+
+Cuando cultives la tierra, ya no te dará su fuerza. Serás errante y fugitivo en la tierra».
 
 ## 13 · HYB.GEN.004.013
 
@@ -476,6 +524,10 @@ Final opinion (Korean original): 현재는 awon을 벌,감당하기에 너무 �
 
 Counterargument (Korean): BDB5771은4:13을 벌 독법의 예로 들지만 유일한 뜻은 아니다. 실제 읽은 Swete 디지털13절은 용서 독법을 보인다. 부정사의 행위자는 명시되지 않아 현대어의 내가 견딤은 해석이며 회개 여부·신의 용서 가능성을 단정하지 않는다.
 
+Previous v0.4.12
+
+Caín dijo a YHWH: «Mi castigo es demasiado grande para soportarlo.
+
 ## 14 · HYB.GEN.004.014
 
 Hebrew display (MT/WLC): הֵן֩ גֵּרַ֨שְׁתָּ אֹתִ֜י הַיּ֗וֹם מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה וּמִפָּנֶ֖יךָ אֶסָּתֵ֑ר וְהָיִ֜יתִי נָ֤ע וָנָד֙ בָּאָ֔רֶץ וְהָיָ֥ה כָל־מֹצְאִ֖י יַֽהַרְגֵֽנִי׃
@@ -507,6 +559,10 @@ Mira, hoy me has expulsado de la tierra, y quedaré oculto de tu rostro. Seré e
 Final opinion (Korean original): 땅에서의 명시적 추방,주의 얼굴에서 숨음과12절의 두 분사 반복,누구든 죽일 것이라는 가인의 발언을 옮긴다. 한국어는 현재 재귀 표현을 선택했으나 Nifal 수동 숨겨짐도 유력하며 BDB5641은 이 절을 그 항목에 둔다. 의무 동사를 추가하지 않는다. 숨겨짐은 가인의 말이며 형이상학적 신의 부재나 실제 인구·계보를 증명하지 않는다.
 
 Counterargument (Korean): 한국어는 현재 재귀 표현을 선택했으나 Nifal 수동 숨겨짐도 유력하며 BDB5641은 이 절을 그 항목에 둔다. 의무 동사를 추가하지 않는다. 숨겨짐은 가인의 말이며 형이상학적 신의 부재나 실제 인구·계보를 증명하지 않는다.
+
+Previous v0.4.12
+
+Mira, hoy me has expulsado de la tierra, y quedaré oculto de tu rostro. Seré errante y fugitivo en la tierra, y cualquiera que me encuentre me matará».
 
 ## 15 · HYB.GEN.004.015
 
@@ -540,6 +596,10 @@ Final opinion (Korean original): 고정 WLC의 그러므로와 일곱 배의 보
 
 Counterargument (Korean): 실제 Swete 디지털15절은 그렇지 않다를 보이나 원래 히브리어가 그러했다고 확정하지 않는다. 문맥상 살해자에 대한 보복이지만 가인의 피를 갚음/비인칭 수동을 구분하고 일곱 번 살해로 읽지 않는다. 표의 형태·몸 위치는 미상이며 신체 표식이라는 단정도 비신체적이라는 단정도 하지 않는다. Gemini는 야훼께서라는 경어 주격으로 바꾸라고 권고했지만 이는 원문 오역이 아닌 문체 의견으로 보아 기존 장과 같은 야훼가/는 및 높임 서술어를 현재 유지한다.
 
+Previous v0.4.12
+
+YHWH le dijo: «Por eso, si alguien mata a Caín, la venganza será séptuple». YHWH dispuso una señal para Caín, para que nadie que lo encontrara lo hiriera.
+
 ## 16 · HYB.GEN.004.016
 
 Hebrew display (MT/WLC): וַיֵּ֥צֵא קַ֖יִן מִלִּפְנֵ֣י יְהוָ֑ה וַיֵּ֥שֶׁב בְּאֶֽרֶץ־נ֖וֹד קִדְמַת־עֵֽדֶן׃
@@ -565,6 +625,158 @@ Caín salió de la presencia de YHWH y se estableció en la tierra de Nod, al es
 Final opinion (Korean original): 야훼 앞을 떠남과 놋 땅 거주를 옮기며 현재 에덴 맞은편을 선택한다. BDB6926은4:16을 앞·맞은편 항목에 두고 실제 Swete 디지털은 카테난티를 쓴다. 동쪽 독법도 보존한다. 놋과 방랑 어휘의 소리 관계는 현대 지도·순수 상징 공간·특정 성소의 확정을 뜻하지 않는다.
 
 Counterargument (Korean): BDB6926은4:16을 앞·맞은편 항목에 두고 실제 Swete 디지털은 카테난티를 쓴다. 동쪽 독법도 보존한다. 놋과 방랑 어휘의 소리 관계는 현대 지도·순수 상징 공간·특정 성소의 확정을 뜻하지 않는다.
+
+Previous v0.4.12
+
+Caín salió de la presencia de YHWH y se estableció en la tierra de Nod, frente a Edén.
+
+## 17 · HYB.GEN.004.017
+
+Hebrew display (MT/WLC): וַיֵּ֤דַע קַ֨יִן֙ אֶת־אִשְׁתּ֔וֹ וַתַּ֖הַר וַתֵּ֣לֶד אֶת־חֲנ֑וֹךְ וַֽיְהִי֙ בֹּ֣נֶה עִ֔יר וַיִּקְרָא֙ שֵׁ֣ם הָעִ֔יר כְּשֵׁ֖ם בְּנ֥וֹ חֲנֽוֹךְ׃
+
+Caín tuvo relaciones con su mujer, y ella concibió y dio a luz a Enoc. Él estaba construyendo una ciudad y la llamó Enoc, por el nombre de su hijo.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.17
+
+### Traducción seleccionada: mejor opción actual
+
+성관계 관용어는4:1과 같은 동침으로,성읍 건설은 진행형으로 옮긴다. 후반 주어는 그로 두되 현재 가인으로 이해한다.
+
+#### claude-opus-5-5
+
+Caín se unió a su mujer, y ella concibió y dio a luz a Enoc. Estaba edificando una ciudad, y llamó el nombre de la ciudad conforme al nombre de su hijo, Enoc.
+
+Final opinion (Korean original): 번역은 뜻을 살리되, 주어는 대명사로만 옮겨 원문의 모호함을 남긴다. 에녹 주어설은 현재 본문을 고쳐야 성립하는 재구성 견해로 각주에서만 구분해 다룬다. 아내의 출신과 성의 고고학은 다루지 않는다.
+
+#### gemini-3.8-flash-medium
+
+Y conoció Caín a su mujer, y ella concibió y dio a luz a Enoc; y él estaba edificando una ciudad, y llamó el nombre de la ciudad conforme al nombre de su hijo, Enoc.
+
+Final opinion (Korean original): 주인님, 편집자의 3개 언어 번역안은 마소라 본문의 통사적 특성을 매우 유려하면서도 정확하게 반영하고 있습니다. 후반절 주어로 '카인'을 인위적으로 반복 삽입하지 않고 대명사('그는 / He / Él')를 선택한 것은 원문('וַיְהִי')의 주어 모호성(카인인지 에녹인지에 대한 가능성)을 닫지 않고 살려둔 탁월한 판단입니다. 또한 BDB 1129가 가리키듯 'בֹּנֶה'는 능동분사로서 성읍 건축의 점진적·지속적 진행 상태('짓고 있었으며 / was building / estaba construyendo')를 성곽 유무나 고고학적 규모에 대한 사변적 단정 없이 성실히 담아내었습니다.
+
+#### gpt-6.1-sol
+
+Caín tuvo relaciones con su mujer, y ella concibió y dio a luz a Enoc. Él estaba construyendo una ciudad y la llamó Enoc, por el nombre de su hijo.
+
+Final opinion (Korean original): 성관계 관용어는4:1과 같은 동침으로,성읍 건설은 진행형으로 옮긴다. 후반 주어는 그로 두되 현재 가인으로 이해한다. 고정 본문의 아들 에녹 명명과 가인 주어가 잘 맞는다. 에녹 주어를 포함한 재구성 대안을 본문이 확정한 것으로 다루지 않는다. 성벽·규모·완공 여부·아내 출신은 미상이다.
+
+Counterargument (Korean): 고정 본문의 아들 에녹 명명과 가인 주어가 잘 맞는다. 에녹 주어를 포함한 재구성 대안을 본문이 확정한 것으로 다루지 않는다. 성벽·규모·완공 여부·아내 출신은 미상이다.
+
+## 18 · HYB.GEN.004.018
+
+Hebrew display (MT/WLC): וַיִּוָּלֵ֤ד לַֽחֲנוֹךְ֙ אֶת־עִירָ֔ד וְעִירָ֕ד יָלַ֖ד אֶת־מְחֽוּיָאֵ֑ל וּמְחִיּיָאֵ֗ל יָלַד֙ אֶת־מְת֣וּשָׁאֵ֔ל וּמְתוּשָׁאֵ֖ל יָלַ֥ד אֶת־לָֽמֶךְ׃
+
+A Enoc le nació Irad; Irad engendró a Mejuyael, Mejuyael engendró a Metusael y Metusael engendró a Lamec.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.18
+
+### Traducción seleccionada: mejor opción actual
+
+출생의 수동과 뒤이은 계보를 옮기고 같은 인명은 현대어에서 통일한다.
+
+#### gemini-3.8-flash-medium
+
+Y a Enoc le nació Irad, e Irad engendró a Mejujael, y Mejiyajel engendró a Metusael, y Metusael engendró a Lamec.
+
+Final opinion (Korean original): 1차 독립 라운드에서 본 에이전트가 제시했던 '철자 차이의 번역 내 차별화가 필수적'이라는 주장은 과도했습니다. 히브리어 자모와 토큰 데이터가 바이트 단위로 동일하게 보존되는 전제하에, 번역문 표제에서 '므후야엘(Mehujael / Mejuyael)'로 독자 가독성을 위해 정규화하고 각주나 주해로 표기 이형태를 명시하는 편집 방식은 훌륭하고 확립된 번역 관행입니다. 또한 첫 세대의 수동형 니팔('태어났고 / was born / nació')과 이후 세대의 능동 낳음('fathered / engendró')을 온전히 대조시켰고, 창세기 5장 족보와의 혼동 없이 본문 계보를 단단히 세웠습니다.
+
+#### gpt-6.1-sol
+
+A Enoc le nació Irad; Irad engendró a Mehujael, Mehujael engendró a Metusael y Metusael engendró a Lamec.
+
+Final opinion (Korean original): 출생의 수동과 뒤이은 계보를 옮기고 같은 인명은 현대어에서 통일한다. 히브리어 표시문은 므후야엘/므히야엘에 해당하는 두 철자를 그대로 보존한다. Gemini의 초기 번역은 두 음역을 구별했으나 최종 검토에서 명시적 주석을 동반한 현대어 통일을 재검토했다. 한글·스페인어 음역은 편집 선택이며5장 인물과 동일시하지 않는다.
+
+Counterargument (Korean): 히브리어 표시문은 므후야엘/므히야엘에 해당하는 두 철자를 그대로 보존한다. Gemini의 초기 번역은 두 음역을 구별했으나 최종 검토에서 명시적 주석을 동반한 현대어 통일을 재검토했다. 한글·스페인어 음역은 편집 선택이며5장 인물과 동일시하지 않는다.
+
+## 19 · HYB.GEN.004.019
+
+Hebrew display (MT/WLC): וַיִּֽקַּֽח־ל֥וֹ לֶ֖מֶךְ שְׁתֵּ֣י נָשִׁ֑ים שֵׁ֤ם הָֽאַחַת֙ עָדָ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית צִלָּֽה׃
+
+Lamec tomó dos mujeres: una se llamaba Ada y la otra Zila.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.19
+
+### Traducción seleccionada: mejor opción actual
+
+두 아내와 두 이름을 서술한다.
+
+#### gemini-3.8-flash-medium
+
+Y Lamec tomó para sí dos mujeres; el nombre de la una era Ada, y el nombre de la otra, Zila.
+
+Final opinion (Korean original): 라멕의 중혼 사건을 서술함에 있어 어떠한 외생적 도덕적 단죄나 주석적 어조를 첨가하지 않고, 담담하고 간결한 역사적 보고('아내 둘을 맞이하였다 / took two wives / tomó dos mujeres')로 번역한 것은 성경 내러티브 문체에 가장 부합합니다. 원문의 'שְׁתֵּי נָשִׁים'을 가감 없이 전달하여 독자가 문맥을 통해 상황을 조망하도록 돕습니다.
+
+#### gpt-6.1-sol
+
+Lamec tomó dos mujeres: una se llamaba Ada y la otra Zila.
+
+Final opinion (Korean original): 두 아내와 두 이름을 서술한다. 도덕적 승인·비난이나 최초의 역사적 일부다처 사례라는 판단을 번역에 추가하지 않는다.
+
+Counterargument (Korean): 도덕적 승인·비난이나 최초의 역사적 일부다처 사례라는 판단을 번역에 추가하지 않는다.
+
+## 20 · HYB.GEN.004.020
+
+Hebrew display (MT/WLC): וַתֵּ֥לֶד עָדָ֖ה אֶת־יָבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י יֹשֵׁ֥ב אֹ֖הֶל וּמִקְנֶֽה׃
+
+Ada dio a luz a Jabal. Él fue el padre de quienes viven en tiendas y crían ganado.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.20
+
+### Traducción seleccionada: mejor opción actual
+
+천막에 살며 가축을 기르는 이들의 아버지로 옮기고21절과 병렬을 맞춘다.
+
+#### claude-opus-5-5
+
+Ada dio a luz a Jabal; él fue el padre de los que habitan en tiendas y crían ganado.
+
+Final opinion (Korean original): 번역은 '장막에 살며 가축을 치는 이들의 조상'으로 정한다. '치는'은 생략을 풀어 보충한 말이라는 점과, 이 구절이 발명의 증거는 아니라는 점을 각주에 남긴다.
+
+#### gemini-3.8-flash-medium
+
+Y Ada dio a luz a Jabal; él fue padre de los que habitan en tiendas y crían ganado.
+
+Final opinion (Korean original): 편집자가 확인한 BDB 1(섹션 5)의 용례대로 'אָב'(아버지)은 단순한 혈연적 친부를 넘어 특정 직업군·문화적 양식의 '창시자/선구자/후원자(originator or patron)'를 뜻합니다. 번역문에서 '아버지(father / padre)'라는 역사적 표현을 유지하고 과거 시제 술어('였다 / was / fue')를 취한 것은 서술의 품격을 높입니다. 또한 BDB 4735(유목민 가축)의 배경을 반영하여 '천막에 살며 가축을 기르는 이들'로 생략 구문(zeugma)을 유려하게 풀어낸 점은 '발명자'라는 잘못된 단정 없이 유목 목축의 생활 양식을 정확히 드러냅니다.
+
+#### gpt-6.1-sol
+
+Ada dio a luz a Jabal. Él fue el padre de quienes viven en tiendas y crían ganado.
+
+Final opinion (Korean original): 천막에 살며 가축을 기르는 이들의 아버지로 옮기고21절과 병렬을 맞춘다. 가축 기름은 생략된 관계를 풀어 보충했다. 실제 읽은 BDB1은20·21절을 직업·예술 집단의 창시자나 후원자 뜻에 둔다. 아버지는 이 문화적 선구자 뜻을 설명하며 혈통만으로 한정하지 않는다. 고고학적 최초 발명의 증거는 아니다.
+
+Counterargument (Korean): 가축 기름은 생략된 관계를 풀어 보충했다. 실제 읽은 BDB1은20·21절을 직업·예술 집단의 창시자나 후원자 뜻에 둔다. 아버지는 이 문화적 선구자 뜻을 설명하며 혈통만으로 한정하지 않는다. 고고학적 최초 발명의 증거는 아니다.
+
+## 21 · HYB.GEN.004.021
+
+Hebrew display (MT/WLC): וְשֵׁ֥ם אָחִ֖יו יוּבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י כָּל־תֹּפֵ֥שׂ כִּנּ֖וֹר וְעוּגָֽב׃
+
+Su hermano se llamaba Jubal. Él fue el padre de todos los que tocan la lira y la flauta.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.21
+
+### Traducción seleccionada: mejor opción actual
+
+형제의 나이 순서를 정하지 않고 리라와 피리를 연주하는 모든 이의 아버지로 옮긴다.
+
+#### claude-opus-5-5
+
+El nombre de su hermano era Jubal; él fue el padre de todos los que tocan la lira y la flauta.
+
+Final opinion (Korean original): 수금(lyre/lira)은 그대로 두고, 피리(pipe/flauta)는 잠정적인 번역으로 둔다. 각주에는 '모든 음악의 발명이 아니라 두 악기 연주자의 조상'이라는 점, 우가브의 정체가 불확실하다는 점, 오르간이 시대에 맞지 않는다는 점을 적는다.
+
+#### gemini-3.8-flash-medium
+
+Y el nombre de su hermano fue Jubal; él fue padre de todos los que tocan la lira y la flauta pastoral.
+
+Final opinion (Korean original): 한국어에서 '아우'라는 서열 단정을 피하고 중립적인 '형제'를 택한 것은 히브리어 'אָח'의 어의에 비추어 매우 정직한 처리입니다. 또한 1차 라운드에서 언급되었던 칠십인역 특정 어휘 관련 주장을 미확인 사실로 단정하지 않고, 현대적 건반 오르간의 시대착오만 경계하면서 BDB 3658(리라)과 BDB 5748(관악기/피리 잠정안)을 바탕으로 '리라와 피리(lyre and pipe / lira y flauta)'로 정돈한 것은 고대 악기학의 학술적 불확실성을 겸손하고 정확하게 수용한 선택입니다.
+
+#### gpt-6.1-sol
+
+Su hermano se llamaba Jubal. Él fue el padre de todos los que tocan la lira y la flauta.
+
+Final opinion (Korean original): 형제의 나이 순서를 정하지 않고 리라와 피리를 연주하는 모든 이의 아버지로 옮긴다. 실제 읽은 BDB3658은 리라,5748은 불확실한 악기를 설명한다. 피리/pipe/flauta는 현재의 잠정 선택이며 갈대·관 수·정확한 구조를 확정하지 않는다. 모든 음악의 발명이나 특정 전문 계급을 본문에 추가하지 않는다. 클라우드와 Gemini 초안의 아우·퉁소는 현재 채택하지 않는다.
+
+Counterargument (Korean): 실제 읽은 BDB3658은 리라,5748은 불확실한 악기를 설명한다. 피리/pipe/flauta는 현재의 잠정 선택이며 갈대·관 수·정확한 구조를 확정하지 않는다. 모든 음악의 발명이나 특정 전문 계급을 본문에 추가하지 않는다. 클라우드와 Gemini 초안의 아우·퉁소는 현재 채택하지 않는다.
 
 ## Notes
 
@@ -604,9 +816,17 @@ La señal del v.15 es para Caín y tiene finalidad protectora; BDB226 da señal,
 
 Qidmat del v.16 se elige frente a Edén. BDB6926 sitúa4:16 bajo delante de/enfrente y el Swete digital usa enfrente. Este sigue como alternativa sin fijar coordenadas modernas. Nod evoca vagar,sin probar lugar puramente simbólico ni salida de un santuario concreto.
 
+En el v.17 conocer se vierte como el giro sexual de4:1. La construcción es progresiva y se conserva el sujeto pronominal,entendido actualmente como Caín. No se fijan murallas,tamaño,ubicación,obra perpetuamente incompleta ni origen de la esposa. Las reconstrucciones con Enoc como constructor se distinguen del texto fijado.
+
+El v.18 conserva las dos grafías hebreas de Mehujael/Mehiyyael. Se unifica el nombre en las traducciones con esta nota,sin corregir el hebreo. No se identifica a estas personas con las de nombres parecidos de Génesis5 ni se calculan fechas. El v.19 relata las dos esposas sin añadir un juicio moral.
+
+Padre en los vv.20–21 incluye precursor cultural o fundador; BDB1 sitúa ambos bajo originador o protector de una clase,profesión o arte. Criar ganado explicita en el v.20 la relación elíptica entre tiendas y ganado. No se determinan especies,primera invención ni descendencia exclusivamente biológica.
+
+Hermano no fija la edad relativa. Kinnor se traduce lira según BDB3658. Ugab es incierto:BDB5748 recoge varias propuestas y flauta es provisional. No se determina una estructura de tubos ni un órgano moderno de teclado. Se habla de intérpretes,no de la invención de toda la música. La atribución inicial de Gemini a una frase concreta de la Septuaginta no se adopta como testimonio verificado.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 4:1–16 (es), research pilot v0.4.12. https://yangs777.github.io/hansam-bible/es/genesis-4/
+Hansam Yang. Original Bible: Genesis4:1–21 (es), research pilot v0.4.13. https://yangs777.github.io/hansam-bible/es/genesis-4/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

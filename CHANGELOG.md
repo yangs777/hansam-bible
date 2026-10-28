@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.13 — 2026-10-28
+
+- Added Genesis4:17–21 in three languages:111 selected verses /333 translations.
+- Preserved actual GPT/Gemini independent proposals and final opinions,Claude Code review of17,20,21,and five reused cloud drafts. Gemini corrected its mandatory name-spelling distinction and unverified Septuagint attribution.
+- Documented progressive city building,unstated subject,name normalization with unchanged Hebrew,cultural fatherhood,elliptical livestock wording and uncertain instruments. Previous106 selections and v0.4.12 data/ZIP preserved.
+
 ## 0.4.12 — 2026-10-27
 
 - Added Genesis4:12–16 in three languages:106 selected verses /318 translations.
