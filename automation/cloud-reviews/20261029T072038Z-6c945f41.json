@@ -1,0 +1,448 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261029T072038Z-6c945f41",
+  "unit_id": "gen-2-18-24",
+  "verse_ids": [
+    "Gen.2.18",
+    "Gen.2.19",
+    "Gen.2.20",
+    "Gen.2.21",
+    "Gen.2.22",
+    "Gen.2.23",
+    "Gen.2.24"
+  ],
+  "traditional_numbering_note": "OSIS Gen.2.18–Gen.2.24 = 전통 장절 창세기 2:18–24; 차이 없음.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (scheduled routine trig_01VW932QoUaCXcDuaktx5PCG)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "세션 시스템 설정에 표시된 구성 모델 ID(claude-opus-5-5, 표시명 Opus 5.5). 이 실행에서 세션 API(get_session)는 도구 목록에 없어 실제 서빙 모델을 별도 확인하지 못했다. 폴백 사용 여부 미확인.",
+    "not_exposed": [
+      "dated backend snapshot",
+      "actual served model confirmation via session API",
+      "sampling parameters",
+      "token counts",
+      "credit consumption or remaining balance"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-29T07:20:38+00:00",
+    "independent_notes_written": "2026-10-29T07:21:31Z",
+    "review_saved": "2026-10-29T07:24:12+00:00"
+  },
+  "source": {
+    "packet": "automation/hard-review-packets/20261029T072038Z-6c945f41.json",
+    "verses": [
+      {
+        "id": "Gen.2.18",
+        "raw_xml": "<verse osisID=\"Gen.2.18\">\n          <w lemma=\"c/559\" n=\"1.1.0\" morph=\"HC/Vqw3ms\" id=\"01AXU\">וַ/יֹּ֨אמֶר֙</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"01reD\">יְהוָ֣ה</w>\n          <w lemma=\"430\" n=\"1.1\" morph=\"HNcmpa\" id=\"01VFM\">אֱלֹהִ֔ים</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01SGf\">לֹא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2896 a\" n=\"1.0.0\" morph=\"HAamsa\" id=\"019jX\">ט֛וֹב</w>\n          <w lemma=\"1961\" morph=\"HVqc\" id=\"016t4\">הֱי֥וֹת</w>\n          <w lemma=\"d/120\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"01Yu7\">הָֽ/אָדָ֖ם</w>\n          <w lemma=\"l/905\" n=\"1\" morph=\"HR/Ncmsc/Sp3ms\" id=\"01vL9\">לְ/בַדּ֑/וֹ</w>\n          <w lemma=\"6213 a\" morph=\"HVqi1cs\" id=\"01G2d\">אֶֽעֱשֶׂהּ</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp3ms\" id=\"01xY3\">לּ֥/וֹ</w>\n          <note n=\"1\">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>\n          <w lemma=\"5828\" n=\"0.0\" morph=\"HNcmsa\" id=\"01Zmd\">עֵ֖זֶר</w>\n          <w lemma=\"k/5048\" n=\"0\" morph=\"HR/R/Sp3ms\" id=\"01Wyn\">כְּ/נֶגְדּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "0e17c66a0f1877405581df3196921053de6629dc5d5a748f9a5369918efbb3f3",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.2.19",
+        "raw_xml": "<verse osisID=\"Gen.2.19\">\n          <w lemma=\"c/3335\" morph=\"HC/Vqw3ms\" id=\"01njg\">וַ/יִּצֶר֩</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"01L6G\">יְהוָ֨ה</w>\n          <w lemma=\"430\" n=\"1.2.2.0\" morph=\"HNcmpa\" id=\"01EDP\">אֱלֹהִ֜ים</w>\n          <w lemma=\"4480 a\" morph=\"HR\" id=\"01QUP\">מִן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/127\" n=\"1.2.2\" morph=\"HTd/Ncfsa\" id=\"01fv8\">הָֽ/אֲדָמָ֗ה</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"012SX\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2416 c\" morph=\"HNcfsc\" id=\"01pwZ\">חַיַּ֤ת</w>\n          <w lemma=\"d/7704 b\" n=\"1.2.1\" morph=\"HTd/Ncmsa\" id=\"01KKJ\">הַ/שָּׂדֶה֙</w>\n          <w lemma=\"c/853\" n=\"1.2.0\" morph=\"HC/To\" id=\"01U9v\">וְ/אֵת֙</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"013V4\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5775\" morph=\"HNcmsc\" id=\"01gJ1\">ע֣וֹף</w>\n          <w lemma=\"d/8064\" n=\"1.2\" morph=\"HTd/Ncmpa\" id=\"01rWk\">הַ/שָּׁמַ֔יִם</w>\n          <w lemma=\"c/935\" n=\"1.1.0\" morph=\"HC/Vhw3ms\" id=\"016gQ\">וַ/יָּבֵא֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01mSF\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" n=\"1.1\" morph=\"HTd/Ncmsa\" id=\"01awX\">הָ֣/אָדָ֔ם</w>\n          <w lemma=\"l/7200\" n=\"1.0\" morph=\"HR/Vqc\" id=\"01wik\">לִ/רְא֖וֹת</w>\n          <w lemma=\"4100\" morph=\"HTi\" id=\"01CVM\">מַה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7121\" morph=\"HVqi3ms\" id=\"01gbT\">יִּקְרָא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"1\" morph=\"HR/Sp3ms\" id=\"01wMq\">ל֑/וֹ</w>\n          <w lemma=\"c/3605\" morph=\"HC/Ncmsa\" id=\"012GY\">וְ/כֹל֩</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01Doj\">אֲשֶׁ֨ר</w>\n          <w lemma=\"7121\" morph=\"HVqi3ms\" id=\"01m3h\">יִקְרָא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp3ms\" id=\"01Djb\">ל֧/וֹ</w>\n          <w lemma=\"d/120\" n=\"0.0.0\" morph=\"HTd/Ncmsa\" id=\"01F5r\">הָֽ/אָדָ֛ם</w>\n          <w lemma=\"5315\" morph=\"HNcbsa\" id=\"01V4p\">נֶ֥פֶשׁ</w>\n          <w lemma=\"2416 a\" n=\"0.0\" morph=\"HAafsa\" id=\"01HsZ\">חַיָּ֖ה</w>\n          <w lemma=\"1931\" morph=\"HPp3ms\" id=\"01DgA\">ה֥וּא</w>\n          <w lemma=\"8034\" n=\"0\" morph=\"HNcmsc/Sp3ms\" id=\"01QCa\">שְׁמֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "b3465e435e3e46bf9ee6179fd62343207f1cf99fcd947df4429b429dae36011c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.2.20",
+        "raw_xml": "<verse osisID=\"Gen.2.20\">\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3ms\" id=\"01nps\">וַ/יִּקְרָ֨א</w>\n          <w lemma=\"d/120\" n=\"1.1.1.0\" morph=\"HTd/Ncmsa\" id=\"01oA2\">הָֽ/אָדָ֜ם</w>\n          <w lemma=\"8034\" n=\"1.1.1\" morph=\"HNcmpa\" id=\"01CYW\">שֵׁמ֗וֹת</w>\n          <w lemma=\"l/3605\" morph=\"HR/Ncmsc\" id=\"01TDs\">לְ/כָל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/929\" n=\"1.1.0\" morph=\"HTd/Ncfsa\" id=\"01fhx\">הַ/בְּהֵמָה֙</w>\n          <w lemma=\"c/l/5775\" morph=\"HC/R/Ncmsc\" id=\"01JPp\">וּ/לְ/ע֣וֹף</w>\n          <w lemma=\"d/8064\" n=\"1.1\" morph=\"HTd/Ncmpa\" id=\"01dWm\">הַ/שָּׁמַ֔יִם</w>\n          <w lemma=\"c/l/3605\" n=\"1.0\" morph=\"HC/R/Ncmsc\" id=\"01BYg\">וּ/לְ/כֹ֖ל</w>\n          <w lemma=\"2416 c\" morph=\"HNcfsc\" id=\"019by\">חַיַּ֣ת</w>\n          <w lemma=\"d/7704 b\" n=\"1\" morph=\"HTd/Ncmsa\" id=\"01VRt\">הַ/שָּׂדֶ֑ה</w>\n          <w lemma=\"c/l/120\" n=\"0.1\" morph=\"HC/R/Ncmsa\" id=\"01CPS\">וּ/לְ/אָדָ֕ם</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01fiV\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4672\" morph=\"HVqp3ms\" id=\"01vAa\">מָצָ֥א</w>\n          <w lemma=\"5828\" n=\"0.0\" morph=\"HNcmsa\" id=\"018Na\">עֵ֖זֶר</w>\n          <w lemma=\"k/5048\" n=\"0\" morph=\"HR/R/Sp3ms\" id=\"01RZN\">כְּ/נֶגְדּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "953072b9e7589b7166db8882f0cded36079bec86087311d9f7551c4d2b0e1e2f",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.2.21",
+        "raw_xml": "<verse osisID=\"Gen.2.21\">\n          <w lemma=\"c/5307\" morph=\"HC/Vhw3ms\" id=\"01krV\">וַ/יַּפֵּל֩</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"01sQy\">יְהוָ֨ה</w>\n          <w lemma=\"430\" morph=\"HNcmpa\" id=\"01asy\">אֱלֹהִ֧ים</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"8639\" n=\"1.0.0\" morph=\"HNcfsa\" id=\"01rxG\">תַּרְדֵּמָ֛ה</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"016fj\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"01oGi\">הָ/אָדָ֖ם</w>\n          <w lemma=\"c/3462\" n=\"1\" morph=\"HC/Vqw3ms\" id=\"01PrG\">וַ/יִּישָׁ֑ן</w>\n          <w lemma=\"c/3947\" n=\"0.1.1\" morph=\"HC/Vqw3ms\" id=\"01Ao4\">וַ/יִּקַּ֗ח</w>\n          <w lemma=\"259\" n=\"0.1.0\" morph=\"HAcfsa\" id=\"01fjK\">אַחַת֙</w>\n          <w lemma=\"m/6763\" n=\"0.1\" morph=\"HR/Ncbpc/Sp3ms\" id=\"01Dwm\">מִ/צַּלְעֹתָ֔י/ו</w>\n          <w lemma=\"c/5462\" morph=\"HC/Vqw3ms\" id=\"0131Z\">וַ/יִּסְגֹּ֥ר</w>\n          <w lemma=\"1320\" n=\"0.0\" morph=\"HNcmsa\" id=\"01nRw\">בָּשָׂ֖ר</w>\n          <w lemma=\"8478\" n=\"0\" morph=\"HR/Sp3fs\" id=\"01qjY\">תַּחְתֶּֽ/נָּה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "a8010349e2acb281fb98d9bd85086077780bee1f4cc7f43eac1fad52a4c44644",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.2.22",
+        "raw_xml": "<verse osisID=\"Gen.2.22\">\n          <w lemma=\"c/1129\" morph=\"HC/Vqw3ms\" id=\"012oH\">וַ/יִּבֶן֩</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"01H3W\">יְהוָ֨ה</w>\n          <w lemma=\"430\" morph=\"HNcmpa\" id=\"01wQL\">אֱלֹהִ֧ים</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"853\" morph=\"HTo\" id=\"014LW\">אֶֽת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/6763\" n=\"1.0.0\" morph=\"HTd/Ncbsa\" id=\"01q4j\">הַ/צֵּלָ֛ע</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01Jdu\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3947\" morph=\"HVqp3ms\" id=\"01cgg\">לָקַ֥ח</w>\n          <w lemma=\"4480 a\" morph=\"HR\" id=\"01x5W\">מִן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"01s3h\">הָֽ/אָדָ֖ם</w>\n          <w lemma=\"l/802\" n=\"1\" morph=\"HR/Ncfsa\" id=\"01ymv\">לְ/אִשָּׁ֑ה</w>\n          <w lemma=\"c/935\" n=\"0.0\" morph=\"HC/Vhw3ms/Sp3fs\" id=\"0162T\">וַ/יְבִאֶ֖/הָ</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01NmZ\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"01RD4\">הָֽ/אָדָֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "eb692353abf8b839681d77cf4a5192cadc4982973e3f4dbbf6299d24c8fe9dbb",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.2.23",
+        "raw_xml": "<verse osisID=\"Gen.2.23\">\n          <w lemma=\"c/559\" n=\"1.2.0\" morph=\"HC/Vqw3ms\" id=\"01Xjv\">וַ/יֹּאמֶר֮</w>\n          <w lemma=\"d/120\" n=\"1.2\" morph=\"HTd/Ncmsa\" id=\"01WVH\">הָֽ/אָדָם֒</w>\n          <w lemma=\"2063\" morph=\"HPdxfs\" id=\"01WMK\">זֹ֣את</w>\n          <w lemma=\"d/6471\" n=\"1.1.1\" morph=\"HTd/Ncfsa\" id=\"01ctU\">הַ/פַּ֗עַם</w>\n          <w lemma=\"6106\" n=\"1.1.0\" morph=\"HNcfsa\" id=\"01CmP\">עֶ֚צֶם</w>\n          <w lemma=\"m/6106\" n=\"1.1\" morph=\"HR/Ncfpc/Sp1cs\" id=\"01LY2\">מֵֽ/עֲצָמַ֔/י</w>\n          <w lemma=\"c/1320\" n=\"1.0\" morph=\"HC/Ncmsa\" id=\"01k7w\">וּ/בָשָׂ֖ר</w>\n          <w lemma=\"m/1320\" n=\"1\" morph=\"HR/Ncmsc/Sp1cs\" id=\"01JFy\">מִ/בְּשָׂרִ֑/י</w>\n          <w lemma=\"l/2063\" n=\"0.1.0\" morph=\"HR/Pdxfs\" id=\"01Amf\">לְ/זֹאת֙</w>\n          <w lemma=\"7121\" morph=\"HVNi3ms\" id=\"01i9m\">יִקָּרֵ֣א</w>\n          <w lemma=\"802\" n=\"0.1\" morph=\"HNcfsa\" id=\"01FCo\">אִשָּׁ֔ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01wNS\">כִּ֥י</w>\n          <w lemma=\"m/376\" n=\"0.0\" morph=\"HR/Ncmsa\" id=\"01XPV\">מֵ/אִ֖ישׁ</w>\n          <w lemma=\"3947\" morph=\"HVPp3fs\" id=\"01K9E\">לֻֽקֳחָה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2063\" n=\"0\" morph=\"HPdxfs\" id=\"01sNR\">זֹּֽאת</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "89a414561cf94c296716dcd696a01f1f8fad1be6c14ba6fda819ef545e8efa44",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.2.24",
+        "raw_xml": "<verse osisID=\"Gen.2.24\">\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01pww\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.1.0\" morph=\"HTm\" id=\"01d1k\">כֵּן֙</w>\n          <w lemma=\"5800 a\" morph=\"HVqi3ms\" id=\"01Gpp\">יַֽעֲזָב</w><seg type=\"x-maqqef\">־</seg><w lemma=\"376\" n=\"1.1\" morph=\"HNcmsa\" id=\"01T85\">אִ֔ישׁ</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01E2x\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01vUM\">אָבִ֖י/ו</w>\n          <w lemma=\"c/853\" morph=\"HC/To\" id=\"01pMW\">וְ/אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"517\" n=\"1\" morph=\"HNcfsc/Sp3ms\" id=\"01fiZ\">אִמּ֑/וֹ</w>\n          <w lemma=\"c/1692\" morph=\"HC/Vqq3ms\" id=\"01FQf\">וְ/דָבַ֣ק</w>\n          <w lemma=\"b/802\" n=\"0.1\" morph=\"HR/Ncfsc/Sp3ms\" id=\"01Gbx\">בְּ/אִשְׁתּ֔/וֹ</w>\n          <w lemma=\"c/1961\" n=\"0.0\" morph=\"HC/Vqq3cp\" id=\"01H82\">וְ/הָי֖וּ</w>\n          <w lemma=\"l/1320\" morph=\"HR/Ncmsa\" id=\"01XaZ\">לְ/בָשָׂ֥ר</w>\n          <w lemma=\"259\" n=\"0\" morph=\"HAcmsa\" id=\"01RGz\">אֶחָֽד</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "8ad543cc88a7c209a7834b9b6acc8a6c21b85119fcc3457a09d6b482018d089d",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "collation_disclaimer": "Pinned WLC/OSHB digital display only. No manuscript, Qere/Ketiv or versional collation performed. No Qere/Ketiv markup occurs in these seven fragments; one upstream <note n=\"1\"> (Gen.2.18) and two <seg type=\"x-paseq\"> (Gen.2.21, 2.22) are preserved verbatim in raw_xml."
+  },
+  "independent_initial_reading": {
+    "method_note": "아래 독해는 이전 GPT/Gemini/Claude 기록을 열기 전에 원문 패킷만으로 작성했다(scratchpad 기록 2026-10-29T07:21:31Z). 현행 채택문은 패킷에 포함되어 있어 이미 보았다.",
+    "Gen.2.18": {
+      "lexical": "עֵזֶר는 \"도움/돕는 자\". 다른 본문에서 하나님에게도 쓰이므로(예: 출 18:4, 신 33:7, 시 121:1–2; 모델 기억에 의한 참조, 이번 실행에서 원문 대조 안 함) 어휘 자체가 하위 지위를 뜻하지 않는다. כְּנֶגְדּוֹ = כְּ + נֶגֶד + 3ms, \"그의 맞은편처럼/그와 마주하여 걸맞은\".",
+      "syntax": "לֹא־טוֹב הֱיוֹת הָאָדָם לְבַדּוֹ: 부정사 연계절이 주어인 명사문. אֶעֱשֶׂהּ־לּוֹ 1cs 미완료(의지·결의).",
+      "textual": "אֶֽעֱשֶׂהּ의 마지막 he에 점(마픽 모양)이 있고 업스트림 note n=\"1\"이 \"BHS가 레닌그라드 사본 형태를 따랐다\"고 주석. 의미 변화 없는 표기 문제로 보며, BHS/레닌그라드 주장은 이번 실행에서 실물 확인하지 않았다.",
+      "proposal": {
+        "ko": "야훼 하나님께서 말씀하셨다. “그 사람이 홀로 있는 것은 좋지 않다. 내가 그에게 걸맞은 돕는 이를 만들어 주겠다.”",
+        "en": "Yahweh God said, “It is not good for the human to be alone; I will make him a helper corresponding to him.”",
+        "es": "Yahvé Dios dijo: «No es bueno que el ser humano esté solo; le haré una ayuda que le corresponda»."
+      }
+    },
+    "Gen.2.19": {
+      "syntax": "וַיִּצֶר 와이크톨: 연속 과거가 기본. 대과거(\"이미 빚으셨던\")는 문법적으로 논쟁적이며 1장과의 조화 동기가 강하다. לוֹ 3ms는 집합·분배(\"각각을\"). 후반 וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמוֹ는 נֶפֶשׁ חַיָּה가 לוֹ의 동격처럼 늦게 놓여 어색하다.",
+      "textual": "고정 WLC에 이문 표기 없음. נֶפֶשׁ חַיָּה를 후대 주석(gloss)으로 보는 비평 제안은 재구성 제안일 뿐 증거된 독법이 아니며, 이번 실행에서 역본 증거를 확인하지 않았다.",
+      "proposal": {
+        "ko": "현행과 동일 의미: 연속 과거, \"살아 있는 각 존재\".",
+        "en": "as current",
+        "es": "como el actual"
+      }
+    },
+    "Gen.2.20": {
+      "lexical": "וּלְאָדָם: MT 모음은 관사 없는 לְ(=lə)로, 앞의 הָאָדָם과 달리 무관사. \"아담에게(고유명사)\" 또는 \"사람에게\"로 읽힌다. 모음 변경(לָאָדָם)은 재구성 제안이다.",
+      "syntax": "לֹא־מָצָא는 칼 능동 3ms. 주어는 그 사람/하나님/비인칭 \"아무도\". 번역의 수동 표현은 기능적 처리.",
+      "proposal": {
+        "ko": "그 사람은 모든 가축과 하늘의 새와 들의 모든 짐승에게 이름을 붙였으나, 사람에게는 그에게 걸맞은 돕는 이를 찾지 못했다.",
+        "en": "The human gave names to all the livestock, to the birds of the heavens and to every animal of the field; but for the human he did not find a helper corresponding to him.",
+        "es": "El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo; pero para el ser humano no halló una ayuda que le correspondiera."
+      }
+    },
+    "Gen.2.21": {
+      "lexical": "תַּרְדֵּמָה 하나님이 내리시는 깊은 잠(창 15:12 참조). צֵלָע는 다른 곳에서 건물·성막의 \"측면/옆방/판\"으로 빈번하나 이 신체 문맥에서는 \"갈빗대\"와 \"옆구리/한쪽 면\"이 모두 가능. אַחַת מִצַּלְעֹתָיו \"그의 צלע들 가운데 하나\"는 복수 중 하나를 말하므로 \"한쪽 면(둘 중 하나)\"보다 \"갈빗대 하나\"가 구문상 조금 더 자연스럽다고 본다. תַּחְתֶּנָּה 3fs = 취한 צלע의 자리.",
+      "markup": "두 번째 단어 뒤 <seg type=\"x-paseq\">׀</seg> 보존.",
+      "proposal": {
+        "ko": "현행과 동일",
+        "en": "as current",
+        "es": "como el actual"
+      }
+    },
+    "Gen.2.22": {
+      "lexical": "וַיִּבֶן \"짓다/세우다\"(19절 יָצַר \"빚다\"와 다른 동사). 목적어 אֶת־הַצֵּלָע + לְאִשָּׁה(결과 보어): \"그 갈빗대를 여자로 지었다\".",
+      "markup": "<seg type=\"x-paseq\">׀</seg> 보존.",
+      "proposal": {
+        "ko": "현행과 동일",
+        "en": "as current",
+        "es": "como el actual"
+      }
+    },
+    "Gen.2.23": {
+      "syntax": "זֹאת가 세 번 나온다: (1) זֹאת הַפַּעַם … 문두 주어(\"이 사람이야말로 이번에는\"), (2) לְזֹאת יִקָּרֵא אִשָּׁה \"이 사람에게 ‘여자’라는 이름이 불릴 것이다\", (3) לֻקֳחָה־זֹּאת \"이 사람이 취해졌다\". 첫 זֹאת를 주어로 살리는 것이 원문 구조에 더 가깝다. יִקָּרֵא 니팔 3ms 비인칭.",
+      "lexical": "אִישׁ/אִשָּׁה 소리 유희(민간 어원적 연결이며 현대 어원론의 증명이 아님). לֻקֳחָה 푸알 완료 3fs.",
+      "textual": "칠십인역이 \"그녀의 남편에게서\"(ἐκ τοῦ ἀνδρὸς αὐτῆς)로 읽는다고 기억하지만 이번 실행에서 확인하지 못했다(네트워크 거부). 증거된 독법으로 기록하지 않는다.",
+      "proposal": {
+        "ko": "그 사람이 말했다. “이번에야말로 이 사람은 내 뼈에서 나온 뼈, 내 살에서 나온 살이구나. 이 사람을 여자라 부를 것이다. 남자에게서 취해졌기 때문이다.”",
+        "en": "The human said, “This one, at last, is bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”",
+        "es": "El ser humano dijo: «¡Esta, por fin, es hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada esta»."
+      }
+    },
+    "Gen.2.24": {
+      "discourse": "עַל־כֵּן 서술자의 원인론적 설명(사람의 발화 연장으로 읽는 대안 있음; 인용 부호는 현대 편집).",
+      "syntax": "יַעֲזָב 미완료 = 총칭적 현재(또는 규범적 미래). וְדָבַק 와우완료 연속. וְהָיוּ 3cp \"그들은 … 되다\". בְּאִשְׁתּוֹ \"자기 아내에게\"(3ms 소유 접미사).",
+      "textual": "칠십인역 등의 \"둘이\"(οἱ δύο) 추가는 기억에 의한 보고일 뿐 이번 실행에서 확인하지 못했다. MT에는 \"둘이\"가 없다.",
+      "proposal": {
+        "ko": "그러므로 남자는 자기 아버지와 어머니를 떠나 자기 아내와 굳게 결합하고, 그들은 한 몸이 된다.",
+        "en": "as current",
+        "es": "como el actual"
+      }
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/model-reviews/v0.4.3/gpt-genesis2-16-20.round1.json, round2.json",
+      "model_label": "gpt-6.1-sol",
+      "verses": [
+        "Gen.2.18",
+        "Gen.2.19",
+        "Gen.2.20"
+      ],
+      "summary_ko": "18 \"상응하는 돕는 이\" 채택, 위계 범위는 해석으로 분리. 19 일반 과거 우선, 대과거 대안. 20 비인칭 수동 처리, מצא 능동이며 주어 대안과 사람/아담 대안 보존. 현행 채택문과 문구 일치."
+    },
+    {
+      "record": "data/model-reviews/v0.4.3/gemini-genesis2-16-20.round1.json, round2.json",
+      "model_label": "gemini-3.8-flash-medium",
+      "verses": [
+        "Gen.2.18",
+        "Gen.2.19",
+        "Gen.2.20"
+      ],
+      "summary_ko": "1차: 위계 배제·단순 과거·무관사 \"사람/아담\" 대조 보존 제안. 2차: 세 절 모두 PROVISIONAL_ACCEPT."
+    },
+    {
+      "record": "data/model-reviews/v0.4.3/claude-code-genesis2-16-20.round1.json",
+      "model_label": "claude-opus-5-5",
+      "verses": [
+        "Gen.2.18",
+        "Gen.2.19"
+      ],
+      "summary_ko": "18 \"그와 마주하여 걸맞은 돕는 이\" 초안, 형태 특이는 표시 정보. 19 연속 과거 본문/대과거 각주. 2:20은 범위 밖으로 다루지 않음."
+    },
+    {
+      "record": "data/model-reviews/v0.4.4/gpt-genesis2-21-25.round1.json, round2.json",
+      "model_label": "gpt-6.1-sol",
+      "verses": [
+        "Gen.2.21",
+        "Gen.2.22",
+        "Gen.2.23",
+        "Gen.2.24"
+      ],
+      "summary_ko": "21 갈빗대 채택(옆구리·측면 대안). 22 בנה 지으시고/built/construyó, 재료 구문 재배열 명시; BDB 1129 분류 오류(편집자 지시)를 1.c로 정정. 23 \"이번에야말로\", 소리 유희는 주석. 24 총칭 현재·서술자 설명, 인용 경계는 현대 편집."
+    },
+    {
+      "record": "data/model-reviews/v0.4.4/gemini-genesis2-21-25.round1.json, round2.json, round3.json",
+      "model_label": "gemini-3.8-flash-medium",
+      "verses": [
+        "Gen.2.21",
+        "Gen.2.22",
+        "Gen.2.23",
+        "Gen.2.24"
+      ],
+      "summary_ko": "1차는 옆구리/측면 뉘앙스 강조, 2차는 갈빗대 본문+측면 주석 수용. 23절 첫 זֹּאת 생략은 한국어 구조상 자연스러운 생략이라고 명시적으로 수용. 3차는 BDB 1.c 정정 반영."
+    },
+    {
+      "record": "data/model-reviews/v0.4.4/claude-code-genesis2-21-25.round1.json",
+      "model_label": "claude-opus-5-5",
+      "verses": [
+        "Gen.2.21",
+        "Gen.2.22",
+        "Gen.2.24"
+      ],
+      "summary_ko": "21 갈빗대(또는 옆구리), 22 혼례 해석은 주석층, 24 \"자기 아내와 결합\" 초안(현행 ko에는 \"자기\"가 빠짐). 2:23에 대한 별도 최종 의견은 이 기록에서 찾지 못함."
+    },
+    {
+      "record": "data/source-note-decisions.json",
+      "model_label": "editorial decision record (no model label)",
+      "verses": [
+        "Gen.2.18"
+      ],
+      "summary_ko": "업스트림 note n=1을 표시문 밖에 보존, 동사의 점 있는 he 코드포인트 보존, BHS/레닌그라드 주장 독립 검증 아님."
+    },
+    {
+      "record": "data/decisions.json",
+      "model_label": "editorial selection v0.4.13",
+      "verses": [
+        "Gen.2.18",
+        "Gen.2.19",
+        "Gen.2.20",
+        "Gen.2.21",
+        "Gen.2.22",
+        "Gen.2.23",
+        "Gen.2.24"
+      ],
+      "summary_ko": "현행 채택문은 위 GPT 2차 문구와 동일. 이 검토는 그 문구를 변경하지 않는다."
+    }
+  ],
+  "alternatives": [
+    {
+      "verse": "Gen.2.18",
+      "clause": "עֵזֶר כְּנֶגְדּוֹ",
+      "option": "상응하는 돕는 이 / a helper corresponding to him (현행)",
+      "for": "어휘·전치사 구조 반영, 위계/평등 교리 투사 없음.",
+      "against": "\"상응하는\"은 한국어에서 다소 행정적; \"걸맞은\"이 자연스러울 수 있다.",
+      "verdict": "현행 유지(ko \"걸맞은\"은 선택적 문체 대안)"
+    },
+    {
+      "verse": "Gen.2.18",
+      "clause": "עֵזֶר כְּנֶגְדּוֹ",
+      "option": "짝 / partner / compañera",
+      "for": "관계적 의미를 쉽게 전달.",
+      "against": "עֵזֶר의 \"도움\" 의미를 지우고 혼인 해석을 미리 넣는다.",
+      "verdict": "기각(주석 수준)"
+    },
+    {
+      "verse": "Gen.2.19",
+      "clause": "וַיִּצֶר",
+      "option": "대과거 had formed",
+      "for": "1장 창조 순서와 조화.",
+      "against": "와이크톨 대과거 용법은 논쟁적이며 조화 동기가 번역을 결정하게 된다.",
+      "verdict": "각주 대안"
+    },
+    {
+      "verse": "Gen.2.20",
+      "clause": "וּלְאָדָם",
+      "option": "for Adam / 아담에게",
+      "for": "MT 모음이 관사 없음(lə-).",
+      "against": "4:25 전후까지 고유명사 사용이 불분명; 관사 생략은 전치사 결합 형태의 모음 문제일 수 있어 근거가 약하다.",
+      "verdict": "현행 \"그 사람\" 유지, 주석에 무관사 사실 기록"
+    },
+    {
+      "verse": "Gen.2.20",
+      "clause": "לֹא־מָצָא",
+      "option": "능동 \"그가 찾지 못했다\"",
+      "for": "형태 반영(칼 능동 3ms).",
+      "against": "주어가 모호(사람/하나님/비인칭)하므로 능동 주어를 정하면 오히려 해석을 하나로 고정.",
+      "verdict": "현행 기능적 수동 유지, 형태는 주석"
+    },
+    {
+      "verse": "Gen.2.21",
+      "clause": "צֵלָע",
+      "option": "옆구리/측면 side",
+      "for": "성경 내 다수 용례(건축적 측면).",
+      "against": "\"그의 צלע들 가운데 하나\" 구문과 23절 \"뼈\" 문맥이 갈빗대를 지지; 다수 용례가 신체 문맥을 자동 결정하지 않는다.",
+      "verdict": "현행 \"갈빗대\" 유지, 측면 각주"
+    },
+    {
+      "verse": "Gen.2.22",
+      "clause": "וַיִּבֶן … לְאִשָּׁה",
+      "option": "만들다/fashioned",
+      "for": "자연스러움.",
+      "against": "בנה 고유 이미지(짓다/세우다)와 19절 יצר 구분이 사라진다.",
+      "verdict": "현행 유지"
+    },
+    {
+      "verse": "Gen.2.23",
+      "clause": "זֹאת הַפַּעַם",
+      "option": "첫 זֹאת를 주어로 명시: \"이 사람이야말로/This one, at last, is\"",
+      "for": "세 번 반복되는 זֹאת의 구조(시적 수미상관)를 보존; 현행 en/ko/es는 첫 זֹאת를 생략.",
+      "against": "(가장 강한 반론) 히브리어 감탄 명사문을 무주어 감탄으로 옮겨도 의미 손실이 작고, 뒤 두 절이 주어를 회복한다; Gemini 2차는 이를 자연스러운 생략으로 수용했다.",
+      "verdict": "선택적 개선으로 제안(필수 오류 아님)"
+    },
+    {
+      "verse": "Gen.2.23",
+      "clause": "מֵאִישׁ",
+      "option": "\"그녀의 남편에게서\"(칠십인역 보고)",
+      "for": "역본 보고.",
+      "against": "이번 실행에서 원문 확인 불가; MT 본문은 מֵאִישׁ.",
+      "verdict": "미확인, 번역 반영 안 함"
+    },
+    {
+      "verse": "Gen.2.24",
+      "clause": "יַעֲזָב … וְדָבַק",
+      "option": "규범적 미래 \"떠날 것이다/shall leave\"",
+      "for": "전통 번역.",
+      "against": "서술자의 일반적 관찰(원인론)이라는 담화 기능은 총칭 현재가 더 잘 나타냄.",
+      "verdict": "현행 유지, 대안 각주"
+    },
+    {
+      "verse": "Gen.2.24",
+      "clause": "בְּאִשְׁתּוֹ",
+      "option": "ko \"자기 아내와\"",
+      "for": "3ms 접미사 반영, en \"his wife\"/es \"su mujer\"와 일치, 이전 Claude 초안과 일치.",
+      "against": "한국어에서 생략해도 의미 동일.",
+      "verdict": "선택적 소폭 수정 제안"
+    }
+  ],
+  "strongest_objection_to_own_reading": "2:23의 첫 זֹאת를 주어로 살리자는 이 검토의 주된 제안에 대한 가장 강한 반론: 히브리어 זֹאת הַפַּעַם עֶצֶם מֵעֲצָמַי는 감탄 명사문이며, 현행 무주어 감탄(\"이번에야말로 … 뼈\")도 문법적으로 정확하고 뒤의 두 זֹאת가 지시 대상을 회복하므로 의미 손실은 거의 없다. Gemini 2차 기록도 이를 자연스러운 생략으로 판단했다. 따라서 이 제안은 오류 수정이 아니라 수사 구조(세 번의 זֹאת) 보존을 위한 선택적 개선이다.",
+  "editorial_consistency_finding": "현행 채택문에서 신명 표기가 단원 내부에서 다르다: 2:18–20은 en \"Yahweh\"/es \"Yahvé\", 2:21–22는 en/es \"YHWH\"; ko는 2:18–19 \"야훼 하나님께서\", 2:21–22 \"야훼 하나님이\"(존칭 조사 차이). editorial.json 집계상 창 2장 en/es \"Yahweh/Yahvé\" 9절, \"YHWH\" 2절; 창 3–4장은 en/es \"YHWH\" 사용. 이 검토는 어느 표기를 택할지 결정하지 않으며 편집 차원 통일 결정을 요청한다. preferred_wording은 현행 표기를 그대로 둔다.",
+  "preferred_wording": {
+    "Gen.2.18": {
+      "ko": "야훼 하나님께서 말씀하셨다. “그 사람이 홀로 있는 것은 좋지 않다. 내가 그에게 상응하는 돕는 이를 만들어 주겠다.”",
+      "en": "Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”",
+      "es": "Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».",
+      "change_from_selected": "현행과 동일"
+    },
+    "Gen.2.19": {
+      "ko": "야훼 하나님께서는 땅에서 들의 모든 짐승과 하늘의 모든 새를 빚으시고, 그 사람이 그것들을 무엇이라 부르는지 보시려고 그에게 데려오셨다. 그 사람이 살아 있는 각 존재를 무엇이라 부르든 그것이 그 이름이 되었다.",
+      "en": "Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.",
+      "es": "Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.",
+      "change_from_selected": "현행과 동일"
+    },
+    "Gen.2.20": {
+      "ko": "그 사람은 모든 가축과 하늘의 새와 들의 모든 짐승에게 이름을 붙였다. 그러나 그 사람에게 상응하는 돕는 이는 발견되지 않았다.",
+      "en": "The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.",
+      "es": "El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.",
+      "change_from_selected": "현행과 동일"
+    },
+    "Gen.2.21": {
+      "ko": "야훼 하나님이 그 사람에게 깊은 잠이 들게 하시니 그가 잠들었다. 그분은 그의 갈빗대 하나를 취하시고 그 자리를 살로 닫으셨다.",
+      "en": "YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.",
+      "es": "YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.",
+      "change_from_selected": "현행과 동일"
+    },
+    "Gen.2.22": {
+      "ko": "야훼 하나님이 그 사람에게서 취하신 갈빗대로 여자를 지으시고, 그 여자를 그 사람에게 데려오셨다.",
+      "en": "YHWH God built the rib he had taken from the human into a woman and brought her to the human.",
+      "es": "YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.",
+      "change_from_selected": "현행과 동일"
+    },
+    "Gen.2.23": {
+      "ko": "그 사람이 말했다. “이번에야말로 이 사람은 내 뼈에서 나온 뼈, 내 살에서 나온 살이구나. 이 사람을 여자라 부를 것이다. 남자에게서 취해졌기 때문이다.”",
+      "en": "The human said, “This one, at last, is bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”",
+      "es": "El ser humano dijo: «¡Esta, por fin, es hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».",
+      "change_from_selected": "선택적: 첫 זֹאת를 주어로 명시(ko \"이 사람은\", en \"This one, at last, is\", es \"Esta, por fin, es\"); ko \"이를\"→\"이 사람을\". 오류 수정이 아닌 구조 보존 개선."
+    },
+    "Gen.2.24": {
+      "ko": "그러므로 남자는 자기 아버지와 어머니를 떠나 자기 아내와 굳게 결합하고, 그들은 한 몸이 된다.",
+      "en": "Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.",
+      "es": "Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.",
+      "change_from_selected": "ko만 \"아내와\"→\"자기 아내와\"(בְּאִשְׁתּוֹ 접미사). en/es 동일."
+    }
+  },
+  "final_opinion_ko": "현행 채택문(v0.4.13)은 일곱 절 모두 원문 구문과 어휘 범위를 정확히 반영하며 교체가 필요한 번역 오류는 발견하지 못했다. 독립 독해 결과는 이전 GPT·Gemini·Claude 기록의 핵심 판단(상응하는 돕는 이, 연속 과거, 비인칭 수동, 갈빗대+측면 각주, בנה 짓다, 총칭 현재와 서술자 설명)과 대체로 일치한다. 제안: (1) 2:23 첫 זֹאת를 주어로 명시하는 선택적 개선, (2) 2:24 ko \"자기 아내와\", (3) 2:18–22 신명 표기·존칭 조사 통일 편집 결정. 2:20 무관사 וּלְאָדָם과 능동 מָצָא, 2:21 צֵלָע 측면 대안, 2:19 대과거 대안은 주석 유지가 적절하다.",
+  "confidence_limits": [
+    "칠십인역 2:23 \"그녀의 남편에게서\", 2:24 \"둘이\" 등 역본 독법은 모델 기억에 의한 보고이며 이번 실행에서 원문 확인 실패.",
+    "BDB·HALOT 등 사전 항목을 이번 실행에서 직접 열람하지 않았다(이전 기록의 BDB 1.c 정정을 재검증하지 않음).",
+    "18절 업스트림 note의 BHS/레닌그라드 주장은 미검증.",
+    "인간 전문가 검토, 다른 모델의 새 응답, 사본 대조는 수행·생성하지 않았다."
+  ],
+  "reconsider_if": [
+    "칠십인역·사마리아 오경 원문을 실제로 확인하여 2:23/2:24 독법 차이가 번역 주석에 필요하다고 판단될 때.",
+    "편집자가 신명 표기 정책(Yahweh/YHWH, 야훼 존칭 조사)을 확정할 때 2:18–22를 일괄 재검토.",
+    "2:20 וּלְאָדָם 모음(lə-/la-)에 대한 문법 전문가 의견이 고유명사 독법을 강하게 지지할 때.",
+    "히브리어 원어민·한국어/스페인어 모국어 검토가 2:23 주어 명시 문장을 부자연스럽다고 판단할 때(현행 유지)."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/01.Gen.1.mlxx",
+      "accessed_utc": "2026-10-29T07:22Z (approximate, minute precision)",
+      "result": "CONNECT tunnel failed, response 403 (session network policy). No excerpt obtained."
+    },
+    {
+      "url": "https://api.github.com/repos/eliranwong/LXX-Rahlfs-1935/git/trees/master?recursive=1",
+      "accessed_utc": "2026-10-29T07:23Z (approximate, minute precision)",
+      "result": "Repository not in session scope; not accessed further (out-of-scope repositories are not used)."
+    }
+  ],
+  "publication_requires": [
+    "independent GPT review",
+    "independent Gemini review",
+    "official agy review",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "checks": {
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "fragment_hashes_match_packet": true,
+    "source_file_hash_matches_pinned": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "raw_xml_verbatim_in_source": true,
+    "qere_ketiv_present": false,
+    "clause_coverage": {
+      "Gen.2.18": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.2.19": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.2.20": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.2.21": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.2.22": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.2.23": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.2.24": "independent reading + preferred wording cover every clause of the verse"
+    },
+    "original_vs_interpretation_separated": true,
+    "attribution": "actual saved record labels only; no invented model responses, collation or human review",
+    "rights_recorded": true
+  }
+}
