@@ -1,0 +1,309 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261029T081925Z-35359368",
+  "unit_id": "gen-3-22-24",
+  "verse_ids": [
+    "Gen.3.22",
+    "Gen.3.23",
+    "Gen.3.24"
+  ],
+  "traditional_numbering_note": "OSIS Gen.3.22–Gen.3.24 = 전통 장절 창세기 3:22–24; 차이 없음. 3:24 끝의 <seg type=\"x-samekh\">ס</seg>(세투마 단락 표지)는 원 XML 그대로 보존.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (scheduled routine trig_01VW932QoUaCXcDuaktx5PCG)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "세션 시스템 설정에 표시된 구성 모델 ID(claude-opus-5-5, 표시명 Opus 5.5; 대체 후보 claude-opus-5[1m], claude-opus-4-8[1m]). 이 실행의 도구 목록에 get_session이 없어 실제 서빙 모델을 별도 API로 확인하지 못했다.",
+    "not_exposed": [
+      "실제 서빙 모델(last_served_model) 확인값",
+      "토큰 사용량/modelUsage",
+      "크레딧 잔액·차감액",
+      "샘플링 설정",
+      "숨은 추론 원문"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-29T08:19:25+00:00",
+    "claim_pushed": "2026-10-29T08:20Z (approximate)",
+    "independent_notes_written": "2026-10-29T08:20Z (approximate; 이전 기록을 열기 전 원문 패킷만 보고 작성)",
+    "review_saved": "2026-10-29T08:22:36+00:00"
+  },
+  "source": {
+    "packet": "automation/hard-review-packets/20261029T081925Z-35359368.json",
+    "verses": [
+      {
+        "id": "Gen.3.22",
+        "raw_xml": "<verse osisID=\"Gen.3.22\">\n          <w lemma=\"c/559\" n=\"1.1.2.0\" morph=\"HC/Vqw3ms\" id=\"01sFr\">וַ/יֹּ֣אמֶר</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"01Q98\">יְהוָ֣ה</w>\n          <w lemma=\"430\" n=\"1.1.2\" morph=\"HNcmpa\" id=\"01e6Q\">אֱלֹהִ֗ים</w>\n          <w lemma=\"2005\" morph=\"HTm\" id=\"01Zzk\">הֵ֤ן</w>\n          <w lemma=\"d/120\" n=\"1.1.1\" morph=\"HTd/Ncmsa\" id=\"01Ynf\">הָֽ/אָדָם֙</w>\n          <w lemma=\"1961\" n=\"1.1.0\" morph=\"HVqp3ms\" id=\"015pP\">הָיָה֙</w>\n          <w lemma=\"k/259\" morph=\"HR/Acmsc\" id=\"01Xxj\">כְּ/אַחַ֣ד</w>\n          <w lemma=\"4480 a\" n=\"1.1\" morph=\"HR/Sp1cp\" id=\"01eNB\">מִמֶּ֔/נּוּ</w>\n          <w lemma=\"l/3045\" n=\"1.0\" morph=\"HR/Vqc\" id=\"01r8g\">לָ/דַ֖עַת</w>\n          <w lemma=\"2896 b\" morph=\"HAamsa\" id=\"01sJk\">ט֣וֹב</w>\n          <w lemma=\"c/7451 b\" n=\"1\" morph=\"HC/Aamsa\" id=\"01wBJ\">וָ/רָ֑ע</w>\n          <w lemma=\"c/6258\" n=\"0.1.2.0\" morph=\"HC/D\" id=\"01tvR\">וְ/עַתָּ֣ה</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"6435\" morph=\"HC\" id=\"01Uoi\">פֶּן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7971\" morph=\"HVqi3ms\" id=\"01H29\">יִשְׁלַ֣ח</w>\n          <w lemma=\"3027\" n=\"0.1.2\" morph=\"HNcbsc/Sp3ms\" id=\"01m2e\">יָד֗/וֹ</w>\n          <w lemma=\"c/3947\" n=\"0.1.1\" morph=\"HC/Vqq3ms\" id=\"01WQ1\">וְ/לָקַח֙</w>\n          <w lemma=\"1571\" n=\"0.1.0\" morph=\"HTa\" id=\"017uv\">גַּ֚ם</w>\n          <w lemma=\"m/6086\" morph=\"HR/Ncmsc\" id=\"01Z1J\">מֵ/עֵ֣ץ</w>\n          <w lemma=\"d/2416 e\" n=\"0.1\" morph=\"HTd/Ncmpa\" id=\"01KZa\">הַֽ/חַיִּ֔ים</w>\n          <w lemma=\"c/398\" n=\"0.0\" morph=\"HC/Vqq3ms\" id=\"012u6\">וְ/אָכַ֖ל</w>\n          <w lemma=\"c/2425\" morph=\"HC/Vqq3ms\" id=\"01CGY\">וָ/חַ֥י</w>\n          <w lemma=\"l/5769\" n=\"0\" morph=\"HR/Ncmsa\" id=\"01cy3\">לְ/עֹלָֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "a3d876bc36c5a5f969168c50da7f3e4bb87c90c0f50298408d33b96c479e4109",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.3.23",
+        "raw_xml": "<verse osisID=\"Gen.3.23\">\n          <w lemma=\"c/7971\" n=\"1.0.0\" morph=\"HC/Vpw3ms/Sp3ms\" id=\"015EE\">וַֽ/יְשַׁלְּחֵ֛/הוּ</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"017yo\">יְהוָ֥ה</w>\n          <w lemma=\"430\" n=\"1.0\" morph=\"HNcmpa\" id=\"016ot\">אֱלֹהִ֖ים</w>\n          <w lemma=\"m/1588\" morph=\"HR/Ncbsc\" id=\"012Sx\">מִ/גַּן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5731 b\" n=\"1\" morph=\"HNp\" id=\"014mo\">עֵ֑דֶן</w>\n          <w lemma=\"l/5647\" n=\"0.1.0\" morph=\"HR/Vqc\" id=\"01RqC\">לַֽ/עֲבֹד֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01ESM\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/127\" n=\"0.1\" morph=\"HTd/Ncfsa\" id=\"01mCp\">הָ֣/אֲדָמָ֔ה</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01DCR\">אֲשֶׁ֥ר</w>\n          <w lemma=\"3947\" n=\"0.0\" morph=\"HVPp3ms\" id=\"019jq\">לֻקַּ֖ח</w>\n          <w lemma=\"m/8033\" n=\"0\" morph=\"HR/D\" id=\"01uFy\">מִ/שָּֽׁם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "8a16f76c18d547e91cf6ae89d2b1d7169b0abff2179bbd336cc9e9582bdf22b8",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.3.24",
+        "raw_xml": "<verse osisID=\"Gen.3.24\">\n          <w lemma=\"c/1644\" n=\"1.0\" morph=\"HC/Vpw3ms\" id=\"01rnW\">וַ/יְגָ֖רֶשׁ</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01to2\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" n=\"1\" morph=\"HTd/Ncmsa\" id=\"01XrY\">הָֽ/אָדָ֑ם</w>\n          <w lemma=\"c/7931\" morph=\"HC/Vhw3ms\" id=\"014De\">וַ/יַּשְׁכֵּן֩</w>\n          <w lemma=\"m/6924 a\" morph=\"HR/Ncmsa\" id=\"01dPn\">מִ/קֶּ֨דֶם</w>\n          <w lemma=\"l/1588\" morph=\"HR/Ncbsc\" id=\"01Qve\">לְ/גַן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5731 b\" n=\"0.2.1.0\" morph=\"HNp\" id=\"013dz\">עֵ֜דֶן</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01vcq\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/3742\" n=\"0.2.1\" morph=\"HTd/Ncmpa\" id=\"014Ed\">הַ/כְּרֻבִ֗ים</w>\n          <w lemma=\"c/853\" morph=\"HC/To\" id=\"01kfR\">וְ/אֵ֨ת</w>\n          <w lemma=\"3858\" morph=\"HNcmsc\" id=\"01FUa\">לַ֤הַט</w>\n          <w lemma=\"d/2719\" n=\"0.2.0\" morph=\"HTd/Ncfsa\" id=\"01RZP\">הַ/חֶ֨רֶב֙</w>\n          <w lemma=\"d/2015\" n=\"0.2\" morph=\"HTd/Vtrfsa\" id=\"01qLo\">הַ/מִּתְהַפֶּ֔כֶת</w>\n          <w lemma=\"l/8104\" n=\"0.1\" morph=\"HR/Vqc\" id=\"01UwQ\">לִ/שְׁמֹ֕ר</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01EG9\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1870\" n=\"0.0\" morph=\"HNcbsc\" id=\"01fSj\">דֶּ֖רֶךְ</w>\n          <w lemma=\"6086\" morph=\"HNcmsc\" id=\"01LGP\">עֵ֥ץ</w>\n          <w lemma=\"d/2416 e\" n=\"0\" morph=\"HTd/Ncmpa\" id=\"01oYa\">הַֽ/חַיִּֽים</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-samekh\">ס</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "f85f1913268832915e2dc396cfc287256b3462cdde747065cbca189de1896aac",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "collation_disclaimer": "Pinned WLC/OSHB digital display only. 사본·Qere/Ketiv·역본(칠십인역, 타르굼 등) 대조를 수행하지 않았다. 이 세 절의 고정 WLC에는 Qere/Ketiv 표기가 없다. 아래 역본 관련 언급은 모델 기억에 의한 보고이며 이번 실행에서 확인되지 않았다."
+  },
+  "independent_initial_reading": {
+    "method_note": "아래 독해는 data/decisions.json, data/model-reviews의 GPT/Gemini/Claude 기록을 열기 전에 원문 패킷(raw XML과 OSHB 형태 태그)만으로 구상했다. 패킷에 현행 채택문이 함께 들어 있어 완전한 맹검은 아니다.",
+    "Gen.3.22": {
+      "markup": "וַ/יֹּ֣אמֶר 뒤와 וְ/עַתָּ֣ה 뒤의 <seg type=\"x-paseq\">׀</seg> 두 개, פֶּן־יִשְׁלַ֣ח의 maqqef를 보존. 파세크는 낭독 표지이며 의미를 단정하는 근거로 쓰지 않는다.",
+      "lexical": "הֵן 주의 환기('보라'). לָדַעַת טוֹב וָרָע는 2:9·2:17·3:5와 같은 표현. לְעֹלָם은 '영원히'와 '한없이 오래' 사이의 범위가 있다. גַּם '…도'는 지식의 나무에 더하여 생명나무'도'라는 첨가를 표시.",
+      "syntax": "הָיָה Qal 완료 3ms: 결과 상태('되었다')가 3:5·3:7 맥락에 가장 맞고, '…와 같다/같았다' 상태 독법은 대안. כְּאַחַד מִמֶּנּוּ: OSHB는 Sp1cp('우리 가운데')로 태그. 같은 꼴이 3ms 접미('그에게서/그 자신으로부터')와 동형이므로 '하나처럼, 스스로 선악을 아는' 류의 독법이 문법적으로 가능하다(유대 해석 전통 일부가 이렇게 읽는다고 기억하나 이번 실행에서 확인하지 못함). לָדַעַת은 비교의 범위('아는 데서') 또는 결과/설명. 아트나흐(וָרָ֑ע)가 진술과 우려 절을 나눈다. וְעַתָּה פֶּן + 이크톨 יִשְׁלַח 뒤 웨카탈 연쇄 וְלָקַח… וְאָכַל… וָחַי가 이어지지만 주절이 없이 소프 파수크로 끝난다(돈절/aposiopesis). 생략된 결말은 23절의 서술 행위로 대체된다.",
+      "discourse": "'우리'의 지시 대상(천상 회의, 숙고/위엄 복수, 후대 삼위일체 독법)은 1:26, 11:7과 함께 본문이 확정하지 않는다. 신의 감정(두려움·염려)은 문법에 표시되지 않는다.",
+      "textual": "고정 WLC에 이문 표기 없음. 역본 증거는 이번 실행에서 확인하지 못했다.",
+      "proposal": {
+        "ko": "야훼 하나님이 말씀하셨다. “보라, 그 사람이 선과 악을 아는 데서 우리 가운데 하나처럼 되었다. 이제 그가 손을 내밀어 생명나무에서도 따서 먹고 영원히 살지 않도록…”",
+        "en": "YHWH God said, “See, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”",
+        "es": "YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, y coma, y viva para siempre…»."
+      }
+    },
+    "Gen.3.23": {
+      "lexical": "וַיְשַׁלְּחֵהוּ Piel 와이크톨+3ms 접미 '내보내다'. 22절의 Qal יִשְׁלַח (יָדוֹ) '손을 내밀다'와 같은 어근 שׁלח의 반향: 그가 손을 '내밀지' 않도록 하나님이 그를 '내보내신다'. לַעֲבֹד אֶת־הָאֲדָמָה는 2:5, 2:15, 3:19와 연결('일구다/섬기다'). לֻקַּח Pual 완료 3ms '취해졌다'(3:19 כִּי מִמֶּנָּה לֻקָּחְתָּ의 반향).",
+      "syntax": "단순 와우 연속 서술; '그래서'는 22절과의 인과를 드러내는 번역상의 선택. אֲשֶׁר … מִשָּׁם 관계절의 재귀 부사 '거기서'가 '그 땅'을 받는다.",
+      "proposal": {
+        "ko": "그래서 야훼 하나님이 그를 에덴동산에서 내보내어, 그가 거기서 취해진 땅을 일구게 하셨다.",
+        "en": "So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.",
+        "es": "Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado."
+      }
+    },
+    "Gen.3.24": {
+      "markup": "maqqef들, 아트나흐(הָֽ/אָדָ֑ם), 절 끝 <seg type=\"x-sof-pasuq\">׃</seg>와 <seg type=\"x-samekh\">ס</seg>(세투마)를 보존.",
+      "lexical": "וַיְגָרֶשׁ Piel '쫓아내다'(23절 שׁלח보다 강함). וַיַּשְׁכֵּן Hiphil '거하게 하다/상주시키다'(어근 שׁכן). מִקֶּדֶם לְ־ '…의 동쪽에'(2:8의 מִקֶּדֶם). הַכְּרֻבִים 관사 붙은 복수(이미 -im 복수). לַהַט '불꽃/화염'. הַמִּתְהַפֶּכֶת Hithpael 분사 여성 단수 '스스로 뒤집히는/이리저리 도는'. לִשְׁמֹר '지키다'는 2:15에서 사람에게 맡겨진 동산 '지킴'과 같은 동사.",
+      "syntax": "וַיַּשְׁכֵּן의 목적어가 אֶת־הַכְּרֻבִים과 וְאֵת לַהַט הַחֶרֶב… 둘(병렬). 분사 여성 단수는 여성 명사 חֶרֶב와 일치(OSHB는 לַהַט 남성). 연계 '칼의 불꽃'을 '불타는 칼'로 바꾸는 것은 의미상 허용되나 구조를 재배열한다. 누가 칼을 쥐는지, 케루빔의 모습은 본문이 말하지 않는다. דֶּרֶךְ עֵץ הַחַיִּים '생명나무의 길' → '생명나무로 가는 길'은 기능적 해석.",
+      "textual": "칠십인역이 이 절에서 '그를 낙원 맞은편에 살게 하고(κατῴκισεν αὐτὸν ἀπέναντι…), 케루빔을 배치했다(ἔταξεν)'처럼 동사 שׁכן을 사람에게 적용하고 케루빔에는 별도 동사를 쓴다고 기억한다. 이는 MT와 다른 히브리어 대본 또는 번역 확장을 시사할 수 있으나, 이번 실행에서 원문을 확인하지 못했으므로(biblehub.com 403) 증거된 독법으로 기록하지 않는다. MT 번역은 MT 구문을 따른다.",
+      "proposal": {
+        "ko": "그분은 그 사람을 쫓아내시고, 생명나무로 가는 길을 지키도록 에덴동산 동쪽에 케루빔과 이리저리 도는 칼의 불꽃을 자리 잡게 하셨다.",
+        "en": "He drove out the human, and east of the garden of Eden he stationed the cherubim and the flame of the turning sword to guard the way to the tree of life.",
+        "es": "Expulsó al ser humano, y al este del jardín de Edén apostó a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida."
+      }
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/decisions.json + data/editorial.json (selection_version 0.4.13)",
+      "model_label": "editorial selection (current_best_provisional; human_specialist_pending)",
+      "verses": [
+        "Gen.3.22",
+        "Gen.3.23",
+        "Gen.3.24"
+      ],
+      "summary_ko": "22 '선과 악을 아는 데서 우리 가운데 하나처럼', '살지 않도록…' 미완결, 반론에 '있었다'/반어 독법과 '우리' 미확정. 23 '내보내어… 일구게', '그래서'는 편집 선택. 24 '케루빔들과 이리저리 도는 칼의 불꽃', 분사-칼 일치, 칼 쥔 손 미첨가."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/gpt-genesis3-end4-1.round1.json, round2.json",
+      "model_label": "gpt-6.1-sol",
+      "verses": [
+        "Gen.3.22",
+        "Gen.3.23",
+        "Gen.3.24"
+      ],
+      "summary_ko": "현행 채택문의 출처. 1차 22절 ko '살게 될까 하니…'를 2차에서 '살지 않도록…'으로 바꿔 염려 감정 보충을 줄임. 23·24 초기안 유지. 하야의 이전 상태·반어 독법을 대안으로 기록."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/gemini-genesis3-end4-1.round1.json, round2.json",
+      "model_label": "gemini-3.8-flash-medium",
+      "verses": [
+        "Gen.3.22",
+        "Gen.3.23",
+        "Gen.3.24"
+      ],
+      "summary_ko": "1차 ko는 '여호와', '그룹들', 24절 '스스로 번쩍이며 회전하는 칼'(불꽃 누락). 23절을 '합법적 파송'으로, 24절을 '물리적 강제'로 이분하는 해석은 편집부가 채택하지 않음. 2차는 선택문을 모두 'Acceptable'로 평가하고 23/24 동사 이분법 과장을 스스로 경계."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/claude-code-genesis3-end4-1.round1.json",
+      "model_label": "claude-opus-5-5 (Claude Code CLI difficult subset; 22·24절만)",
+      "verses": [
+        "Gen.3.22",
+        "Gen.3.24"
+      ],
+      "summary_ko": "22 '손을 내밀어… 살게 될까 —', en 'good and bad'. מִמֶּנּוּ 3ms 동형 가능성 명시. 24 '그룹들… 자리 잡게 하시어', '그룹들'이 영어 group과 혼동될 수 있어 케루빔 표기 제안."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/claude-cloud-genesis3-end4-1-evidence.json",
+      "model_label": "Claude cloud draft (재사용된 기존 클라우드 초안; 새 독립 호출 아님)",
+      "verses": [
+        "Gen.3.22",
+        "Gen.3.23",
+        "Gen.3.24"
+      ],
+      "summary_ko": "22 ko '염려된다.'로 완결(중단 미보존, 스스로 반론에 기록). 23 '취해져 나온 땅을 갈게'. 24 '빙빙 도는 불 칼날'(연계 구조 재배열)."
+    }
+  ],
+  "alternatives": [
+    {
+      "verse": "Gen.3.22",
+      "clause": "הָיָה כְּאַחַד מִמֶּנּוּ",
+      "option": "되었다 / has become (현행)",
+      "for": "3:5 약속과 3:7 사건 뒤의 결과 상태; 완료형의 자연스러운 해석.",
+      "against": "완료형은 상태('같다')로도 읽힌다.",
+      "verdict": "현행 유지"
+    },
+    {
+      "verse": "Gen.3.22",
+      "clause": "הָיָה כְּאַחַד מִמֶּנּוּ",
+      "option": "'사람은 (이전에) 우리 중 하나와 같았다'(과거 상태) 또는 반어('보라, 사람이 우리 중 하나처럼 되었구나!')",
+      "for": "현행 반론에 이미 기록된 대안; 반어 독법은 3:5 뱀의 말과의 아이러니를 살린다.",
+      "against": "과거 상태 독법은 3:7 이후 변화와 맞지 않는다. 반어는 어조 판단이며 문법 표시가 없다.",
+      "verdict": "각주 대안"
+    },
+    {
+      "verse": "Gen.3.22",
+      "clause": "מִמֶּנּוּ",
+      "option": "3ms '그 자신에게서': '사람이 (유일한) 하나처럼 되어 스스로 선악을 안다'",
+      "for": "형태상 동형; 고대 유대 해석 일부의 독법(기억, 미확인).",
+      "against": "OSHB 1cp 태그, 1:26·11:7의 1인칭 복수 화법, כְּאַחַד מִן의 부분 구문이 '…가운데 하나'를 자연스럽게 만든다.",
+      "verdict": "각주 대안; 본문은 '우리 가운데'"
+    },
+    {
+      "verse": "Gen.3.22",
+      "clause": "וְעַתָּה פֶּן … לְעֹלָם (주절 없음)",
+      "option": "미완결 부호 유지(현행 '…살지 않도록…', en '—', es '…')",
+      "for": "주절을 채우지 않아 본문 구조를 보존; 23절이 행동으로 이어받음.",
+      "against": "독자에게 비문처럼 보일 수 있다; 전통 번역은 '…할까 하노라' 등으로 닫는다.",
+      "verdict": "현행 유지; 주절 보충 시 반드시 대괄호 표시"
+    },
+    {
+      "verse": "Gen.3.22",
+      "clause": "יִשְׁלַח יָדוֹ",
+      "option": "ko '손을 뻗어'(현행) vs '손을 내밀어'",
+      "for": "'내밀어'는 23절 '내보내어'와 '내-'로 שׁלח 반향을 약하게나마 살린다(en은 reach out/sent out으로 이미 반향).",
+      "against": "'뻗어'가 더 생생하며 차이는 문체 수준.",
+      "verdict": "선택적 문체 대안(현행 유지 가능)"
+    },
+    {
+      "verse": "Gen.3.23",
+      "clause": "אֲשֶׁר לֻקַּח מִשָּׁם",
+      "option": "ko '그가 취해진 땅'(현행) vs '그가 거기서 취해진 땅'",
+      "for": "מִשָּׁם을 반영하고, '취해진 땅'이 '빼앗긴 땅'으로 오독될 여지를 줄인다. en/es는 from which/de la que로 이미 반영.",
+      "against": "한국어 관계절에서 '거기서'는 다소 중복적으로 들릴 수 있다; '취해져 나온 땅'도 대안.",
+      "verdict": "선택적 개선 제안"
+    },
+    {
+      "verse": "Gen.3.23",
+      "clause": "וַיְשַׁלְּחֵהוּ (접속)",
+      "option": "'그래서'(현행) vs 무접속/'그리하여'",
+      "for": "22절 미완결의 결과를 자연스럽게 잇는다.",
+      "against": "히브리어는 단순 와우이며 인과는 함의.",
+      "verdict": "현행 유지"
+    },
+    {
+      "verse": "Gen.3.24",
+      "clause": "אֶת־הַכְּרֻבִים",
+      "option": "ko '케루빔들'(현행) vs '케루빔' / '그룹들' / '커룹들'",
+      "for": "'케루빔'은 이미 히브리어 복수(-im)라 '-들'은 이중 복수; '그룹들'은 개역 전통이나 영어 group과 혼동 가능.",
+      "against": "한국어 독자에게 '케루빔'이 단수로 오해될 수 있어 '-들'이 복수를 명확히 한다.",
+      "verdict": "선택적 표기 정리(편집 표기 정책에 맡김)"
+    },
+    {
+      "verse": "Gen.3.24",
+      "clause": "וַיַּשְׁכֵּן",
+      "option": "ko '두셨다'(현행) vs '자리 잡게 하셨다/머물게 하셨다'",
+      "for": "Hiphil שׁכן의 상주·거주 함의(성막 어휘 שׁכן과의 연결)를 살린다; en 'stationed', es 'puso'.",
+      "against": "'두셨다'가 간결하고 오역은 아니다.",
+      "verdict": "선택적 개선 제안"
+    },
+    {
+      "verse": "Gen.3.24",
+      "clause": "לַהַט הַחֶרֶב הַמִּתְהַפֶּכֶת",
+      "option": "'이리저리 도는 칼의 불꽃'(현행) vs '빙빙 도는 불칼'/'스스로 번쩍이며 회전하는 칼'",
+      "for": "현행은 연계 구조와 분사-칼 일치를 그대로 보존.",
+      "against": "'불타며 도는 칼'이 한국어로 더 자연스럽다는 의견 가능; Hithpael의 정확한 동작(회전/번쩍임)은 불확정.",
+      "verdict": "현행 유지"
+    },
+    {
+      "verse": "Gen.3.24",
+      "clause": "MT 구문 vs 칠십인역(기억)",
+      "option": "칠십인역식 '그를 동산 맞은편에 살게 하고 케루빔을 배치하였다'",
+      "for": "שׁכן이 '거하게 하다'라는 점에서 사람을 목적어로 하는 해석이 어휘적으로 자연스럽다는 논거가 있다.",
+      "against": "MT의 목적어 표지 אֶת가 케루빔과 불꽃을 직접 목적어로 명시한다; 역본 독법은 이번 실행에서 미확인.",
+      "verdict": "번역에 반영하지 않음; 확인 시 본문비평 각주 후보"
+    }
+  ],
+  "strongest_objection_to_own_reading": "이 검토는 현행 채택문을 대체로 유지하고 표기·문체 수준의 선택적 수정(23절 '거기서', 24절 '케루빔'/'자리 잡게')만 제안한다. 가장 강한 반론은 22절의 '우리 가운데 하나'와 '되었다'를 확정 번역으로 고정하는 것 자체가 해석이라는 점이다: מִמֶּנּוּ는 형태상 3ms와 동형이고 הָיָה는 상태로도 읽히므로, '사람이 (유일한) 하나처럼 되어 스스로 선악을 안다'는 독법이 문법적으로 배제되지 않는다. 그러나 이 독법은 1:26과 11:7의 1인칭 복수 화법, 하나님의 발화라는 맥락, OSHB 태그와 맞지 않아 본문으로 올리기에는 약하다고 판단하며, 각주 대안으로 남긴다. 두 번째 반론: 24절에서 MT를 따르는 것은 역본과의 대조 없이 결정된 것이며, 칠십인역 차이가 확인되면 본문비평 각주가 필요하다.",
+  "editorial_consistency_finding": "현행 3:22–24는 신명 표기가 ko '야훼 하나님', en/es 'YHWH (Dios)'로 단원 내부에서 일관된다. 다만 앞선 검토(gen-2-18-24)가 지적한 대로 인접 장절에서 Yahweh/YHWH 표기가 섞여 있다면 전체 표기 정책 정리가 필요하다(이 검토 범위 밖, 현행 채택문 변경 없음).",
+  "preferred_wording": {
+    "Gen.3.22": {
+      "ko": "야훼 하나님이 말씀하셨다. “보라, 그 사람이 선과 악을 아는 데서 우리 가운데 하나처럼 되었다. 이제 그가 손을 뻗어 생명나무에서도 따 먹고 영원히 살지 않도록…”",
+      "en": "YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”",
+      "es": "YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».",
+      "change_from_selected": "현행과 동일. 선택적 문체 대안: ko '손을 뻗어'→'손을 내밀어'(23절 '내보내어'와 שׁלח 반향)."
+    },
+    "Gen.3.23": {
+      "ko": "그래서 야훼 하나님이 그를 에덴동산에서 내보내어, 그가 거기서 취해진 땅을 일구게 하셨다.",
+      "en": "So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.",
+      "es": "Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.",
+      "change_from_selected": "ko만 '그가 취해진 땅'→'그가 거기서 취해진 땅'(מִשָּׁם 반영, 오독 방지). en/es 동일."
+    },
+    "Gen.3.24": {
+      "ko": "그분은 그 사람을 쫓아내시고, 생명나무로 가는 길을 지키도록 에덴동산 동쪽에 케루빔과 이리저리 도는 칼의 불꽃을 자리 잡게 하셨다.",
+      "en": "He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.",
+      "es": "Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.",
+      "change_from_selected": "ko만 선택적: '케루빔들'→'케루빔'(이중 복수 정리; 표기 정책에 따름), '두셨다'→'자리 잡게 하셨다'(Hiphil שׁכן). en/es 동일."
+    }
+  },
+  "final_opinion_ko": "현행 채택문(v0.4.13)은 세 절 모두 원문 구문을 정확히 반영하며 교체가 필요한 번역 오류는 발견하지 못했다. 특히 22절의 미완결(돈절) 처리, '우리' 지시 대상 미확정, 23/24절 동사 강도(내보내다/쫓아내다) 구별, 24절의 두 병렬 목적어와 분사-칼 일치, 칼을 쥔 손 미첨가는 원문에 충실하다. 개선 제안은 한국어 표면에 한정된다: 23절 '거기서'(מִשָּׁם), 24절 '케루빔'(이중 복수)과 '자리 잡게 하셨다'(Hiphil שׁכן). 모두 선택적이며 GPT/Gemini 독립 검토와 편집 채택 없이는 공개 본문을 바꾸지 않는다.",
+  "confidence_limits": [
+    "사본·역본 대조 없음: 칠십인역·타르굼 관련 언급은 모두 기억에 의한 보고이며 확인되지 않았다(네트워크 403).",
+    "OSHB 형태 태그(מִמֶּנּוּ 1cp, לַהַט 남성)를 그대로 신뢰했다.",
+    "한국어·스페인어 모국어 화자 검토 없음.",
+    "패킷에 현행 채택문이 포함되어 있어 독립 독해가 완전한 맹검은 아니다."
+  ],
+  "reconsider_if": [
+    "칠십인역 3:24의 '그를 맞은편에 살게 하고' 독법과 히브리어 대본 문제가 검증된 자료로 확인되면 본문비평 각주를 추가한다.",
+    "프로젝트가 케루빔/그룹/커룹 한국어 표기 정책을 확정하면 24절 표기를 그에 맞춘다.",
+    "한국어 모국어 검토에서 '그가 거기서 취해진 땅'이 '그가 취해진 땅'보다 어색하다고 판단되면 현행 유지 또는 '취해져 나온 땅'을 택한다.",
+    "מִמֶּנּוּ 3ms 독법이나 반어 독법에 대한 검증된 문법·주석 자료가 '우리 가운데' 번역의 우위를 뒤집을 근거를 주면 22절 각주·본문을 재검토한다."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://biblehub.com/sep/genesis/3.htm",
+      "accessed_utc": "2026-10-29T08:21:03Z",
+      "result": "curl: (56) CONNECT tunnel failed, response 403 (session network policy). No excerpt obtained."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "checks": {
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "fragment_hashes_match_packet": true,
+    "source_file_hash_matches_pinned": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "raw_xml_verbatim_in_source": true,
+    "qere_ketiv_present": false,
+    "clause_coverage": {
+      "Gen.3.22": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.3.23": "independent reading + preferred wording cover every clause of the verse",
+      "Gen.3.24": "independent reading + preferred wording cover every clause of the verse"
+    },
+    "original_vs_interpretation_separated": true,
+    "attribution": "actual saved record labels only; no invented model responses, collation or human review",
+    "rights_recorded": true
+  }
+}
