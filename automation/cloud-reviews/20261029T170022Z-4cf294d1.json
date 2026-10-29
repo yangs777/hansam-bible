@@ -1,0 +1,535 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261029T170022Z-4cf294d1",
+  "unit_id": "gen-4-22-26",
+  "verse_ids": [
+    "Gen.4.22",
+    "Gen.4.23",
+    "Gen.4.24",
+    "Gen.4.25",
+    "Gen.4.26"
+  ],
+  "unit_issue_ko": "가까운 예정 난구: 금속 가공 구문·라멕의 노래/수량·이름 부르기 시작",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.4.22-26 = 전통 장절 창세기 4:22-26. 패킷 안에서 장절 차이는 보이지 않는다. 다섯 절 모두 Qere/Ketiv와 중첩 마크업이 없다. <seg type=\"x-maqqef\">와 <seg type=\"x-sof-pasuq\">가 있고, 4:26 끝에는 <seg type=\"x-pe\">פ</seg>(열린 단락 표지)가 있다. 이 표지들은 raw_xml에 그대로 보존했고, 번역 판단에서 4:26 뒤 단락 경계(5:1의 새 톨레도트 앞)로만 반영했다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; not created by a Routine or Project per this session's own metadata)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) response around 2026-10-29T17:05Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. These are session metadata values, not a verified dated snapshot. The serving model can differ per turn; no fallback notice was observed during this run.",
+    "session": "https://claude.ai/code/session_01UknqVFfAdYH58j5EaaRkZz",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata only; no balance, dollar amount or credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters / remaining bonus balance",
+      "sampling parameters"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-29T17:00:22Z",
+    "claim_pushed": "2026-10-29T17:00Z (approximate; push succeeded as new branch claude/bible-hard-review-7cwcdv)",
+    "independent_notes_written": "2026-10-29T17:01:07Z (scratch notes written from the packet only, before opening data/editorial.json, data/model-reviews or other branches' drafts; the packet itself contains no current selected wording for these five verses)",
+    "earlier_records_opened": "2026-10-29T17:01Z-17:05Z (approximate)",
+    "lxx_digital_text_accessed": "2026-10-29T17:01:57Z",
+    "review_saved": "2026-10-29T17:06:59+00:00"
+  },
+  "source": {
+    "packet": "automation/hard-review-packets/20261029T170022Z-4cf294d1.json",
+    "verses": [
+      {
+        "id": "Gen.4.22",
+        "raw_xml": "<verse osisID=\"Gen.4.22\">\n          <w lemma=\"c/6741\" morph=\"HC/Np\" id=\"01evD\">וְ/צִלָּ֣ה</w>\n          <w lemma=\"1571\" morph=\"HD\" id=\"01vKo\">גַם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1931\" n=\"1.2.1\" morph=\"HPp3fs\" id=\"01mvJ\">הִ֗וא</w>\n          <w lemma=\"3205\" n=\"1.2.0\" morph=\"HVqp3fs\" id=\"01pDQ\">יָֽלְדָה֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01deG\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8423+\" morph=\"HNp\" id=\"01Nvj\">תּ֣וּבַל</w>\n          <w lemma=\"8423\" n=\"1.2\" morph=\"HNp\" id=\"01Gye\">קַ֔יִן</w>\n          <w lemma=\"3913\" n=\"1.1\" morph=\"HVqrmsc\" id=\"01qCo\">לֹטֵ֕שׁ</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"01h3K\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2794\" morph=\"HVqrmsc\" id=\"01USJ\">חֹרֵ֥שׁ</w>\n          <w lemma=\"5178 a\" n=\"1.0\" morph=\"HNcfsa\" id=\"01rMp\">נְחֹ֖שֶׁת</w>\n          <w lemma=\"c/1270\" n=\"1\" morph=\"HC/Ncmsa\" id=\"01sd2\">וּ/בַרְזֶ֑ל</w>\n          <w lemma=\"c/269\" morph=\"HC/Ncfsc\" id=\"01Ssu\">וַֽ/אֲח֥וֹת</w>\n          <w lemma=\"8423+\" morph=\"HNp\" id=\"01x1x\">תּֽוּבַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8423\" n=\"0.0\" morph=\"HNp\" id=\"01w5T\">קַ֖יִן</w>\n          <w lemma=\"5279 a\" n=\"0\" morph=\"HNp\" id=\"01FrL\">נַֽעֲמָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "d4c879ccab5d15cd0e08d0581fa913dd54b78d4993a9230fdf4fb5eff34e80c8",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.4.23",
+        "raw_xml": "<verse osisID=\"Gen.4.23\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01q3X\">וַ/יֹּ֨אמֶר</w>\n          <w lemma=\"3929\" n=\"1.2.1.0\" morph=\"HNp\" id=\"01YjW\">לֶ֜מֶךְ</w>\n          <w lemma=\"l/802\" n=\"1.2.1\" morph=\"HR/Ncfpc/Sp3ms\" id=\"014i9\">לְ/נָשָׁ֗י/ו</w>\n          <w lemma=\"5711\" morph=\"HNp\" id=\"01Afw\">עָדָ֤ה</w>\n          <w lemma=\"c/6741\" n=\"1.2.0\" morph=\"HC/Np\" id=\"01Vcq\">וְ/צִלָּה֙</w>\n          <w lemma=\"8085\" morph=\"HVqv2fp\" id=\"01eF7\">שְׁמַ֣עַן</w>\n          <w lemma=\"6963 a\" n=\"1.2\" morph=\"HNcmsc/Sp1cs\" id=\"01wPX\">קוֹלִ֔/י</w>\n          <w lemma=\"802\" morph=\"HNcfpc\" id=\"01tUi\">נְשֵׁ֣י</w>\n          <w lemma=\"3929\" n=\"1.1\" morph=\"HNp\" id=\"01S6i\">לֶ֔מֶךְ</w>\n          <w lemma=\"238\" n=\"1.0\" morph=\"HVhv2fp\" id=\"01KNH\">הַאְזֵ֖נָּה</w>\n          <w lemma=\"565 a\" n=\"1\" morph=\"HNcfsc/Sp1cs\" id=\"01XUc\">אִמְרָתִ֑/י</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01KGa\">כִּ֣י</w>\n          <w lemma=\"376\" morph=\"HNcmsa\" id=\"01jzU\">אִ֤ישׁ</w>\n          <w lemma=\"2026\" n=\"0.1.0\" morph=\"HVqp1cs\" id=\"013ws\">הָרַ֨גְתִּי֙</w>\n          <w lemma=\"l/6482\" n=\"0.1\" morph=\"HR/Ncmsc/Sp1cs\" id=\"01nkE\">לְ/פִצְעִ֔/י</w>\n          <w lemma=\"c/3206\" n=\"0.0\" morph=\"HC/Ncmsa\" id=\"01UeK\">וְ/יֶ֖לֶד</w>\n          <w lemma=\"l/2250\" n=\"0\" morph=\"HR/Ncfsc/Sp1cs\" id=\"01CYD\">לְ/חַבֻּרָתִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "94ee6a08d8e414656c7a7c77ee718a2e6ffed42fe001df88165450c327439141",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.4.24",
+        "raw_xml": "<verse osisID=\"Gen.4.24\">\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"019gs\">כִּ֥י</w>\n          <w lemma=\"7659\" n=\"1.0\" morph=\"HNcfda\" id=\"01GTQ\">שִׁבְעָתַ֖יִם</w>\n          <w lemma=\"5358\" morph=\"HVHi3ms\" id=\"01gKo\">יֻקַּם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7014 b\" n=\"1\" morph=\"HNp\" id=\"01oZb\">קָ֑יִן</w>\n          <w lemma=\"c/3929\" n=\"0.0\" morph=\"HC/Np\" id=\"01KCy\">וְ/לֶ֖מֶךְ</w>\n          <w lemma=\"7657\" morph=\"HAcbpa\" id=\"01juz\">שִׁבְעִ֥ים</w>\n          <w lemma=\"c/7651\" n=\"0\" morph=\"HC/Acmsa\" id=\"01DH2\">וְ/שִׁבְעָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "aacee0e553ab6b1ac3c7c5cd45223571a1a3bd02410899c340d36e0de5183c80",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.4.25",
+        "raw_xml": "<verse osisID=\"Gen.4.25\">\n          <w lemma=\"c/3045\" morph=\"HC/Vqw3ms\" id=\"014VF\">וַ/יֵּ֨דַע</w>\n          <w lemma=\"121\" morph=\"HNp\" id=\"0172H\">אָדָ֥ם</w>\n          <w lemma=\"5750\" n=\"1.2.0\" morph=\"HD\" id=\"0125j\">עוֹד֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01Vo3\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"802\" n=\"1.2\" morph=\"HNcfsc/Sp3ms\" id=\"01dhD\">אִשְׁתּ֔/וֹ</w>\n          <w lemma=\"c/3205\" morph=\"HC/Vqw3fs\" id=\"016uw\">וַ/תֵּ֣לֶד</w>\n          <w lemma=\"1121 a\" n=\"1.1\" morph=\"HNcmsa\" id=\"01zjv\">בֵּ֔ן</w>\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3fs\" id=\"011Mn\">וַ/תִּקְרָ֥א</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"016qW\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8034\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01Zjx\">שְׁמ֖/וֹ</w>\n          <w lemma=\"8352\" n=\"1\" morph=\"HNp\" id=\"01aoZ\">שֵׁ֑ת</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01EJP\">כִּ֣י</w>\n          <w lemma=\"7896\" morph=\"HVqp3ms\" id=\"014HM\">שָֽׁת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp1cs\" id=\"01EjA\">לִ֤/י</w>\n          <w lemma=\"430\" n=\"0.2.0\" morph=\"HNcmpa\" id=\"01E1f\">אֱלֹהִים֙</w>\n          <w lemma=\"2233\" morph=\"HNcmsa\" id=\"01Hwq\">זֶ֣רַע</w>\n          <w lemma=\"312\" n=\"0.2\" morph=\"HAamsa\" id=\"01MWU\">אַחֵ֔ר</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"01vD2\">תַּ֣חַת</w>\n          <w lemma=\"1893\" n=\"0.1\" morph=\"HNp\" id=\"01ygZ\">הֶ֔בֶל</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"016YP\">כִּ֥י</w>\n          <w lemma=\"2026\" n=\"0.0\" morph=\"HVqp3ms/Sp3ms\" id=\"01UhH\">הֲרָג֖/וֹ</w>\n          <w lemma=\"7014 b\" n=\"0\" morph=\"HNp\" id=\"01MSM\">קָֽיִן</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "43112244e69742be97fac6b1cdc93497b4503e98267f808e0bc8f62488a52c37",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.4.26",
+        "raw_xml": "<verse osisID=\"Gen.4.26\">\n          <w lemma=\"c/l/8352\" morph=\"HC/R/Np\" id=\"01TYN\">וּ/לְ/שֵׁ֤ת</w>\n          <w lemma=\"1571\" morph=\"HTa\" id=\"01cMr\">גַּם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1931\" n=\"1.1.0\" morph=\"HPp3ms\" id=\"014Up\">הוּא֙</w>\n          <w lemma=\"3205\" morph=\"HVPp3ms\" id=\"01pa1\">יֻלַּד</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" n=\"1.1\" morph=\"HNcmsa\" id=\"01GDg\">בֵּ֔ן</w>\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3ms\" id=\"01ZxK\">וַ/יִּקְרָ֥א</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01KpZ\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8034\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01nwq\">שְׁמ֖/וֹ</w>\n          <w lemma=\"583\" n=\"1\" morph=\"HNp\" id=\"01Lgy\">אֱנ֑וֹשׁ</w>\n          <w lemma=\"227 a\" morph=\"HD\" id=\"015AY\">אָ֣ז</w>\n          <w lemma=\"2490 c\" n=\"0.1\" morph=\"HVHp3ms\" id=\"01HUX\">הוּחַ֔ל</w>\n          <w lemma=\"l/7121\" n=\"0.0\" morph=\"HR/Vqc\" id=\"01RYU\">לִ/קְרֹ֖א</w>\n          <w lemma=\"b/8034\" morph=\"HR/Ncmsc\" id=\"013Q1\">בְּ/שֵׁ֥ם</w>\n          <w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"01ikx\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "b306f3fd535380b58047aad3e66c497b29f6f274b29860199e282402ecc7047a",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected_in_packet": [],
+    "packet_warning": "Preserve raw markup. No complete manuscript collation is asserted."
+  },
+  "independent_initial_reading": {
+    "method_note": "아래는 패킷의 raw XML과 OSHB 태그만 보고 세운 독해다. 사본 대조는 하지 않았다. 칠십인역 인용은 이번 실행에서 공개 디지털 본문 1종(network_access_log)으로 확인한 짧은 발췌에 한정된다. 그 밖의 고대 역본·유대 주석 전통 언급은 기억에 의한 보고이며 이번 실행에서 확인되지 않았다.",
+    "Gen.4.22": {
+      "clauses": [
+        {
+          "clause": "וְצִלָּה גַם־הִוא יָלְדָה אֶת־תּוּבַל קַיִן",
+          "note_ko": "주어 앞세움 + 완료(x-qatal). 20절 아다 계보와 대비. גַם־הִוא '그 여자도'는 번역에서 빠지면 안 된다. 첫 '두발 가인'은 maqqef 없이 두 단어(תּ֣וּבַל קַ֔יִן), 뒤의 '두발가인'은 maqqef로 연결됨. 표기 차이일 뿐 같은 인물로 읽는다."
+        },
+        {
+          "clause": "לֹטֵשׁ כָּל־חֹרֵשׁ נְחֹשֶׁת וּבַרְזֶל",
+          "note_ko": "난구. לֹטֵשׁ(벼리다/날을 세우다) 분사. OSHB는 לֹטֵשׁ와 חֹרֵשׁ를 모두 연계형(HVqrmsc)으로 태깅했다. 그러나 남성 단수 분사의 절대형과 연계형은 자음·모음이 같으므로, 이 태그는 형태 증거가 아니라 OSHB의 구문 해석이다. 읽기 (A) 연계 사슬: '청동과 쇠의 모든 자르는 것(=날 선 연장)을 벼리는 자'. (B) 동격 + 20-21절의 '…하는 모든 이의 아버지' 패턴: '벼리는 자, 청동과 쇠를 다루는 모든 장인[의 시조]'. 여기서 '아버지/시조'는 원문에 없다. (C) '모든 장인을 벼리는(가르치는) 자'라는 비유적 읽기. 첫 독해에서는 (A)를 본문으로 택했다."
+        },
+        {
+          "clause": "וַאֲחוֹת תּוּבַל־קַיִן נַעֲמָה",
+          "note_ko": "명사문: '두발가인의 누이는 나아마였다'. 계보에서 여성 이름이 드물게 나온다는 점은 관찰이다. 그 의미에 대한 추측은 본문 밖의 해석이다."
+        }
+      ],
+      "question_types": {
+        "lexical": "נְחֹשֶׁת은 구리/청동 어느 쪽인가. חֹרֵשׁ은 사람(새기는 자·장인)인가, 도구(자르는 것)인가. לֹטֵשׁ의 뜻 폭(날을 세우다/두드려 만들다).",
+        "syntactic": "לֹטֵשׁ 구가 두발가인과 어떤 관계인가(연계 사슬 대 동격). 20-21절의 אֲבִי כָּל־ 패턴이 없다.",
+        "discourse": "라멕 계보의 세 아들 목록이 문화 기원(목축·음악·금속)을 나열하는 구조다.",
+        "textual_variant": "패킷에는 이문 정보가 없다. 21절과 맞추려고 אֲבִי를 넣자는 제안은 재구성이며 증언으로 확인된 독법이 아니다. 칠십인역 디지털 본문은 '가인' 없이 Θοβελ만 쓰고 καὶ ἦν σφυροκόπος χαλκεὺς χαλκοῦ καὶ σιδήρου('그는 망치질하는 자, 청동과 쇠의 대장장이였다')라고 한다. 이것은 역본의 읽기다. 그 히브리어 저본(Vorlage)이 무엇이었는지는 이번 실행에서 판정하지 않았다.",
+        "historical": "철 사용 시기와의 연대 문제는 역사 질문이다. 번역 판단에는 넣지 않았다.",
+        "reception": "'두발가인'의 '가인'을 '대장장이'와 연결하는 어원 설명은 기억에 의한 보고이며 확인되지 않았다."
+      },
+      "initial_proposal": {
+        "ko": "씰라도 두발가인을 낳았는데, 그는 청동과 쇠로 된 온갖 날 선 연장을 벼리는 자였다. 두발가인의 누이는 나아마였다.",
+        "en": "Zillah too bore Tubal-cain, a forger of every cutting tool of bronze and iron. Tubal-cain's sister was Naamah.",
+        "es": "Zila, también ella, dio a luz a Tubal-caín, forjador de toda herramienta cortante de bronce y de hierro. La hermana de Tubal-caín fue Naama."
+      }
+    },
+    "Gen.4.23": {
+      "clauses": [
+        {
+          "clause": "וַיֹּאמֶר לֶמֶךְ לְנָשָׁיו",
+          "note_ko": "산문 도입. 이어지는 말은 운문(2행 평행 둘)."
+        },
+        {
+          "clause": "עָדָה וְצִלָּה שְׁמַעַן קוֹלִי",
+          "note_ko": "호격 + 여성 복수 명령. '내 목소리를 들으라'."
+        },
+        {
+          "clause": "נְשֵׁי לֶמֶךְ הַאְזֵנָּה אִמְרָתִי",
+          "note_ko": "평행구. 자기 이름을 3인칭으로 부르는 자기 과시 어조. הַאְזֵנָּה는 히필 명령 여성 복수. אִמְרָה는 시적 어휘('말씀/말')."
+        },
+        {
+          "clause": "כִּי אִישׁ הָרַגְתִּי לְפִצְעִי",
+          "note_ko": "כִּי는 발화 내용을 여는 단언/인용 표지로 볼 수도 있고, 원인('왜냐하면')으로 볼 수도 있다. הָרַגְתִּי 완료: 기본값은 과거 사건('죽였다'). 대안은 수행적·가정적 과시('죽이리라/죽인다')와 의문('내가 죽였느냐?')이다. לְפִצְעִי는 '나의 상처 때문에'. 소유격 접미사는 내가 입은 상처를 가리키며, '나를 다치게 했으므로'로 풀린다."
+        },
+        {
+          "clause": "וְיֶלֶד לְחַבֻּרָתִי",
+          "note_ko": "동사 생략(gapping): הָרַגְתִּי가 두 목적어를 함께 다스린다. אִישׁ ∥ יֶלֶד는 동의 평행으로 한 사람(젊은 남자)일 가능성이 높다. 그러나 두 사람이라는 읽기도 문법상 배제되지 않는다. חַבּוּרָה는 '멍/채찍 자국/타박상'."
+        }
+      ],
+      "question_types": {
+        "lexical": "יֶלֶד의 나이 폭(아이~젊은이). חַבּוּרָה(멍·타박상).",
+        "syntactic": "완료형의 시제/서법. כִּי의 기능. 동사 생략으로 한 사람인지 두 사람인지.",
+        "discourse": "15절 하나님의 보호 선언(일곱 배)을 사람이 자기 복수 과시로 바꾸어 부르는 대조 구조. 이는 문학적 해석이다.",
+        "textual_variant": "패킷에 이문 정보 없음. 칠십인역 디지털 본문은 ἄνδρα ἀπέκτεινα εἰς τραῦμα ἐμοὶ καὶ νεανίσκον εἰς μώλωπα ἐμοί로, 동사 하나와 목적어 둘이라는 구조가 같다.",
+        "historical": "해당 없음(본문 밖 사건 정보 없음).",
+        "reception": "라멕의 말을 의문문으로 읽어 아내들을 안심시키는 말로 보는 유대 주석 전통(라시 계열로 기억됨)은 기억에 의한 보고이며 확인되지 않았다."
+      },
+      "initial_proposal": {
+        "ko": "라멕이 자기 아내들에게 말하였다. “아다와 씰라여, 내 목소리를 들으라. 라멕의 아내들이여, 내 말에 귀를 기울이라. 나를 다치게 한 사람을, 나에게 멍을 입힌 젊은이를 내가 죽였다.",
+        "en": "Lamech said to his wives: “Adah and Zillah, hear my voice; wives of Lamech, give ear to my word: I have killed a man for wounding me, a young man for bruising me.",
+        "es": "Lamec dijo a sus mujeres: «Ada y Zila, escuchen mi voz; mujeres de Lamec, presten oído a mi palabra: he matado a un hombre por herirme, a un joven por magullarme."
+      }
+    },
+    "Gen.4.24": {
+      "clauses": [
+        {
+          "clause": "כִּי שִׁבְעָתַיִם יֻקַּם־קָיִן",
+          "note_ko": "כִּי는 조건('만일')으로 가장 자연스럽고, 원인('…이니')도 가능하다. שִׁבְעָתַיִם 쌍수형은 '일곱 배'(배수). יֻקַּם 호팔 미완료: '가인을 위하여 복수가 이루어진다'. 15절 יֻקָּם과 같은 동사 어근·태다. 15절에서 편집진이 남긴 메모(4:24의 '일곱 배' 역어와 맞출 것)에 해당한다."
+        },
+        {
+          "clause": "וְלֶמֶךְ שִׁבְעִים וְשִׁבְעָה",
+          "note_ko": "동사 생략. שִׁבְעִים וְשִׁבְעָה는 히브리어로 '일흔과 일곱' = 77이다. 앞 행의 배수 표현에 맞추어 '일흔일곱 배'로 읽는다. '70×7'은 히브리어 문면의 자연스러운 읽기가 아니다."
+        }
+      ],
+      "question_types": {
+        "lexical": "שִׁבְעָתַיִם의 쌍수 = 배수.",
+        "syntactic": "כִּי의 조건/원인. 둘째 행의 동사·배수 생략.",
+        "discourse": "23절과 묶인 노래의 결론. 따옴표는 이 절에서 닫는다.",
+        "textual_variant": "패킷에 이문 정보 없음. 칠십인역 디지털 본문은 ἑπτάκις … ἑβδομηκοντάκις ἑπτά다. 이 그리스어는 '일흔일곱 번'으로도, '일흔 번의 일곱'으로도 읽힐 수 있어 그 자체가 모호하다. 히브리어 수량(77)을 바꾸는 증거로 쓰지 않는다.",
+        "historical": "해당 없음.",
+        "reception": "마태복음 18:22와의 연결은 수용사 관찰이다. 창세기 번역 근거로 쓰지 않는다."
+      },
+      "initial_proposal": {
+        "ko": "가인을 위한 보복이 일곱 배라면, 라멕을 위한 보복은 일흔일곱 배이리라.”",
+        "en": "If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”",
+        "es": "Si Caín es vengado siete veces, Lamec lo será setenta y siete veces»."
+      }
+    },
+    "Gen.4.25": {
+      "clauses": [
+        {
+          "clause": "וַיֵּדַע אָדָם עוֹד אֶת־אִשְׁתּוֹ",
+          "note_ko": "'다시'(עוֹד)는 4:1과의 연결 고리다. אָדָם은 관사 없이 고유명사(OSHB HNp)로 쓰였다. 4:1의 הָאָדָם(관사 있음)과 다르다는 점은 관찰이다."
+        },
+        {
+          "clause": "וַתֵּלֶד בֵּן וַתִּקְרָא אֶת־שְׁמוֹ שֵׁת",
+          "note_ko": "이름을 짓는 이는 3인칭 여성(어머니)이다."
+        },
+        {
+          "clause": "כִּי שָׁת־לִי אֱלֹהִים זֶרַע אַחֵר תַּחַת הֶבֶל",
+          "note_ko": "말하기 동사 없는 직접 인용형 설명(כִּי). שָׁת(שִׁית '두다/세우다') ∥ שֵׁת 말놀이. 4:1의 야훼와 달리 여기는 אֱלֹהִים이다. זֶרַע '씨/자손'. תַּחַת '대신에'."
+        },
+        {
+          "clause": "כִּי הֲרָגוֹ קָיִן",
+          "note_ko": "둘째 כִּי: '가인이 그(아벨)를 죽였기 때문이다'. 어머니의 말 안에 있는지 서술자의 설명인지가 모호하다. 첫 독해에서는 말 안에 둔다."
+        }
+      ],
+      "question_types": {
+        "lexical": "שִׁית의 뜻 폭(두다/정하다/세우다). זֶרַע(씨, 자손; 집합/개별).",
+        "syntactic": "인용 표지 없는 설명절. 둘째 כִּי가 인용 안인지 밖인지.",
+        "discourse": "4:1-2의 탄생·명명 장면과 수미상관. 5:1 이후 계보로 넘어가는 다리.",
+        "textual_variant": "패킷에 이문 정보 없음. 칠십인역 디지털 본문은 하와의 이름(Ευαν)을 넣고, λέγουσα('말하며')를 명시하고, ὃν ἀπέκτεινεν Καιν('가인이 죽인')이라는 관계절을 쓴다. 이것이 역본의 해석적 번역인지 다른 저본인지는 판정하지 않았다.",
+        "historical": "해당 없음.",
+        "reception": "셋 계보를 '경건한 계보'로 보는 해석은 수용사다. 번역에는 넣지 않는다."
+      },
+      "initial_proposal": {
+        "ko": "아담이 다시 자기 아내와 동침하니, 그 여자가 아들을 낳고 “하나님이 아벨 대신 나에게 다른 자손을 세워 주셨다. 가인이 그를 죽였으니” 하며 그 이름을 셋이라 불렀다.",
+        "en": "Adam lay with his wife again, and she bore a son and named him Seth, for she said, “God has set for me another offspring in place of Abel, because Cain killed him.”",
+        "es": "Adán se unió de nuevo a su mujer, y ella dio a luz un hijo y le puso por nombre Set, pues dijo: «Dios me ha puesto otra descendencia en lugar de Abel, porque Caín lo mató»."
+      }
+    },
+    "Gen.4.26": {
+      "clauses": [
+        {
+          "clause": "וּלְשֵׁת גַּם־הוּא יֻלַּד־בֵּן",
+          "note_ko": "ל 대상 앞세움 + '그에게도' 재지시 + 푸알 '태어났다'. OSHB는 여기의 גַּם을 HTa로, 22절의 גַם을 HD로 태깅했다. 태깅 체계의 차이일 뿐 번역에 영향은 없다."
+        },
+        {
+          "clause": "וַיִּקְרָא אֶת־שְׁמוֹ אֱנוֹשׁ",
+          "note_ko": "3인칭 남성: 이번에는 셋이 이름을 짓는다. אֱנוֹשׁ은 보통명사로 '사람'이라는 뜻도 있다(말놀이 가능성은 관찰일 뿐 확정 아님)."
+        },
+        {
+          "clause": "אָז הוּחַל לִקְרֹא בְּשֵׁם יְהוָה",
+          "note_ko": "הוּחַל은 חלל의 호팔 완료 3남단, 비인칭 '시작되었다'. 같은 자음 어근 חלל에 '더럽히다'라는 뜻도 있어서, '이름 부름이 더럽혀졌다'는 수용사 읽기가 있다고 기억된다(확인 안 됨). 그러나 '시작하다' 용례(6:1 등) 쪽이 문맥상 자연스럽다. קָרָא בְּשֵׁם은 예배하며 '이름을 부르다', 또는 '이름을 선포하다'. 단락 뒤에 פ(열린 단락) 표지가 있다."
+        }
+      ],
+      "question_types": {
+        "lexical": "חלל(시작하다/더럽히다) 동형. קָרָא בְּשֵׁם(부르다/선포하다).",
+        "syntactic": "비인칭 수동(호팔)과 부정사 보어.",
+        "discourse": "출애굽기 3:13-15·6:3의 신명 계시와 긴장한다고 흔히 논의되지만, 이는 자료비평적 해석이다. 번역은 원문의 신명 יְהוָה를 그대로 반영한다.",
+        "textual_variant": "패킷에 이문 정보 없음. 칠십인역 디지털 본문은 οὗτος ἤλπισεν ἐπικαλεῖσθαι τὸ ὄνομα κυρίου τοῦ θεοῦ('이 사람이 주 하나님의 이름 부르기를 바랐다')다. 주어가 '이 사람'(에노스)이고 동사가 '바랐다'다. MT의 אָז הוּחַל과 다른 히브리어 읽기(예: זֶה הֵחֵל 같은 것)를 가정하는 설명은 재구성이다. 이번 실행에서 저본을 판정하지 않았다.",
+        "historical": "예배 기원에 대한 역사적 주장으로 번역하지 않는다.",
+        "reception": "'더럽혀졌다' 읽기(타르굼/랍비 전통으로 기억됨)는 확인되지 않은 보고다."
+      },
+      "initial_proposal": {
+        "ko": "셋에게도 아들이 태어나니, 셋이 그 이름을 에노스라 불렀다. 그때에 야훼의 이름을 부르는 일이 시작되었다.",
+        "en": "To Seth also a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.",
+        "es": "También a Set le nació un hijo, y le puso por nombre Enós. Entonces se comenzó a invocar el nombre de YHWH."
+      }
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbc; selection_version 0.4.13)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.4.22-26에는 현행 채택문이 없다(채택 범위는 Gen.4.21까지). 바꿀 채택문이 없으므로 이 검토는 미래 채택용 자료다. 인접 채택문의 관례를 확인했다. 신명은 ko '야훼'·en/es 'YHWH'(4:1·4:3·4:4·4:15). יָדַע는 4:1 ko '동침하니'·en 'lay with'·es 'se acostó con', 4:17 en 'had relations with'·es 'tuvo relaciones con'. 4:15는 '일곱 배의 보복이 있을 것이다'/'vengeance will be taken sevenfold'/'la venganza será séptuple'. 4:19는 '씰라'/'Zillah'/'Zila'. 4:20-21은 '…의 아버지'."
+    },
+    {
+      "record": "data/releases/v0.4.12.json (Gen.4.15 decision notes)",
+      "model_label": "editorial release notes (quoted, not authored here)",
+      "finding_ko": "4:15 reconsider_if_ko에 '4:24의 ‘일곱 배’ 역어와 맞출 필요가 생기는 경우'가 적혀 있다. final_opinion_ko에는 ''일곱 배'는 배수이지 반복 횟수가 아니다'라는 주석 권고가 있다. 이 검토의 4:24 제안은 이 원칙(배수)을 따르고, 보복의 주체를 밝히지 않는 15절 방식과 맞춘다."
+    },
+    {
+      "record": "data/model-reviews/v0.4.13/claude-code-genesis4-17-21.round1.json",
+      "model_label": "Claude Code (as labeled in that file; earlier run, not this session)",
+      "finding_ko": "4:20 검토의 reconsider_if_ko에 '4:21·4:22와 맞춰 볼 때 ‘시조’가 더 일관되면 한국어 용어를 바꾼다'가 있다. 22절에는 אֲבִי가 없으므로 '아버지/시조'를 본문에 넣지 않는 것이 원문에 충실하다. 이것이 20-21절 용어 통일 논의에 주는 함의를 아래 editorial_consistency_findings에 남겼다."
+    },
+    {
+      "record": "data/model-reviews/v0.4.13/claude-cloud-genesis4-17-21-evidence.json",
+      "model_label": "evidence index (reuse of existing cloud drafts)",
+      "finding_ko": "Gen.4.22-26은 이 파일에서 cloud run 20261023T211759Z-ff69750f의 verse_ids 목록에만 나온다. 해당 절에 대한 GPT·Gemini·Claude 검토 기록은 이 저장소 main에 없다. GPT/Gemini 응답은 존재하지 않으므로 비교하지 않았고, 지어내지 않았다."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-o4rtc0:automation/cloud-drafts/20261023T211759Z-ff69750f.json",
+      "model_label": "Claude Code native cloud draft; requested/configured model recorded in that file as claude-sonnet-5-5; state unadopted_model_draft",
+      "text": {
+        "Gen.4.22": {
+          "ko": "씰라도 두발가인을 낳았는데, 그는 구리와 쇠로 온갖 기구를 벼리는 사람이었다. 두발가인의 누이는 나아마였다.",
+          "en": "Zillah bore Tubal-cain; he was the forger of every kind of bronze and iron tool. The sister of Tubal-cain was Naamah.",
+          "es": "Zila también dio a luz a Tubal-caín, forjador de toda herramienta de bronce y de hierro. La hermana de Tubal-caín fue Naama."
+        },
+        "Gen.4.23": {
+          "ko": "라멕이 자기 아내들에게 말하였다. \"아다와 씰라여, 내 소리를 들어라. 라멕의 아내들아, 내 말에 귀를 기울여라. 내가 나를 상하게 한 사람을 죽였고 나를 때린 젊은이를 죽였다.",
+          "en": "Lamech said to his wives: \"Adah and Zillah, hear my voice; you wives of Lamech, listen to my speech: I have killed a man for wounding me, a young man for striking me.",
+          "es": "Lamec dijo a sus mujeres: «Ada y Zila, oigan mi voz; mujeres de Lamec, presten oído a mi dicho: he matado a un hombre por haberme herido, y a un joven por haberme golpeado."
+        },
+        "Gen.4.24": {
+          "ko": "가인을 해치면 일곱 배의 벌을 받는다면 라멕은 일흔일곱 배일 것이다.\"",
+          "en": "If Cain is avenged sevenfold, truly Lamech seventy-sevenfold.\"",
+          "es": "Si siete veces es vengado Caín, Lamec lo será setenta y siete veces»."
+        },
+        "Gen.4.25": {
+          "ko": "아담이 다시 자기 아내와 동침하니 그가 아들을 낳고 이름을 셋이라 불렀다. \"하나님께서 가인이 죽인 아벨 대신 다른 자손을 내게 주셨다\" 하였기 때문이다.",
+          "en": "Adam knew his wife again, and she bore a son and named him Seth, for she said, \"God has appointed for me another child instead of Abel, because Cain killed him.\"",
+          "es": "Adán conoció otra vez a su mujer, y ella dio a luz un hijo y le puso por nombre Set, pues dijo: «Dios me ha concedido otra descendencia en lugar de Abel, porque Caín lo mató»."
+        },
+        "Gen.4.26": {
+          "ko": "셋에게도 아들이 태어났고 그는 그 이름을 에노스라 하였다. 그때부터 사람들이 주의 이름을 부르기 시작하였다.",
+          "en": "To Seth, to him also a son was born, and he named him Enosh. At that time people began to call upon the name of the LORD.",
+          "es": "A Set también le nació un hijo, y le puso por nombre Enós. Entonces comenzó a invocarse el nombre del SEÑOR."
+        }
+      },
+      "summary_ko": "독립 독해를 마친 뒤 열람했다. 큰 줄기(22절 대장장이, 23절 과거 완료, 24절 77, 26절 '시작되었다')는 이 검토의 독립 제안과 같다. 차이와 문제점은 comparison_findings_ko에 정리했다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "4:26 신명: 기존 초안은 ko '주'·en 'the LORD'·es 'el SEÑOR'를 썼다. 현행 채택문의 신명 관례(ko '야훼', en/es 'YHWH'; 4:1·4:3·4:4·4:15)와 어긋난다. 채택 시 관례에 맞추어야 한다. 이것이 이 단위에서 가장 분명한 수정점이다.",
+    "4:22 언어 간 불일치: 기존 초안은 נְחֹשֶׁת을 ko '구리', en 'bronze', es 'bronce'로 서로 다르게 옮겼다. 이 검토는 세 언어 모두 청동(bronze/bronce)으로 맞추고, '구리'는 주석에 둔다. 또 기존 en은 גַם־הִוא('그 여자도')를 빠뜨렸다('Zillah bore'). ko와 es에는 있다.",
+    "4:23 동사 생략: 기존 ko는 '죽였고 … 죽였다'로 동사를 둘 넣어 두 사람을 죽인 것으로 확정한다. 원문은 הָרַגְתִּי 하나가 두 목적어를 다스린다. 이 검토의 ko는 동사를 하나만 두어 한 사람/두 사람 모호성을 보존한다. 기존 en/es는 동사 하나를 유지해 원문 구조에 가깝다.",
+    "4:24 ko 구문: 기존 ko '가인을 해치면 일곱 배의 벌을 받는다면'은 조건이 겹치고, '해치면'이 원문에 없는 행위를 보충한다. 이 검토는 '가인을 위한 보복이 일곱 배라면'으로 15절 방식(보복의 주체를 밝히지 않음)과 맞춘다.",
+    "4:25 기존 ko는 둘째 כִּי절('가인이 그를 죽였으니')을 관계절 '가인이 죽인 아벨'로 바꾸었다. 그 결과 칠십인역 디지털 본문의 관계절 구성(ὃν ἀπέκτεινεν Καιν)과 비슷해졌지만, MT의 독립 원인절은 잃었다. 이 검토는 원인절을 유지한다. יָדַע의 en 역어도 기존 초안('knew')과 현행 4:1('lay with')이 다르다. 채택 시 4:1·4:17과 함께 통일해야 한다.",
+    "인용부호: 기존 초안은 ko에 곧은 따옴표(\")를 썼다. 현행 채택문은 “ ”를 쓴다. 이 검토는 채택문 관례를 따른다."
+  ],
+  "alternatives": [
+    {
+      "verse": "Gen.4.22",
+      "clause": "לֹטֵשׁ כָּל־חֹרֵשׁ נְחֹשֶׁת וּבַרְזֶל",
+      "option": "(A) 청동과 쇠로 된 온갖 날 선 연장을 벼리는 자 / a forger of every cutting tool of bronze and iron (선호)",
+      "for": "OSHB의 연계 사슬 해석과 맞는다. 단어를 보충하지 않고 כָּל을 살린다. 22절 안에서 문장이 완결된다.",
+      "against": "חֹרֵשׁ는 대개 사람(밭가는 자·새기는 자·장인)을 가리킨다. 이를 도구로 읽는 것은 어휘상 무리일 수 있다. 칠십인역도 사람(대장장이)으로 옮겼다.",
+      "verdict": "본문 채택안. 아래 (B)를 주석으로 병기한다."
+    },
+    {
+      "verse": "Gen.4.22",
+      "clause": "לֹטֵשׁ כָּל־חֹרֵשׁ נְחֹשֶׁת וּבַרְזֶל",
+      "option": "(B) 청동과 쇠를 다루는 모든 장인의 [시조]인 대장장이 / a smith, [father] of all who work bronze and iron",
+      "for": "20-21절의 'X하는 모든 이의 아버지' 패턴, 그리고 חֹרֵשׁ를 사람으로 보는 통상 용법과 맞는다.",
+      "against": "'아버지/시조'가 원문에 없다. 그 단어를 보충하거나 אֲבִי 탈락을 가정해야 한다(재구성). 칠십인역도 '모든'이나 '아버지'를 반영하지 않는다.",
+      "verdict": "강한 대안. 본문에는 넣지 않고 주석에 둔다."
+    },
+    {
+      "verse": "Gen.4.22",
+      "clause": "לֹטֵשׁ כָּל־חֹרֵשׁ",
+      "option": "(C) 모든 장인을 가르친 자 / instructor of every artificer",
+      "for": "חֹרֵשׁ를 사람으로 두면서 연계 사슬을 유지한다.",
+      "against": "לֹטֵשׁ('날을 세우다')를 '가르치다'로 확장하는 비유가 필요하다. 근거가 약하다.",
+      "verdict": "기각(주석 언급 불필요)."
+    },
+    {
+      "verse": "Gen.4.22",
+      "clause": "נְחֹשֶׁת",
+      "option": "청동 / bronze / bronce (선호) 대 구리 / copper / cobre",
+      "for": "연장 제작 문맥에는 합금이 자연스럽다. 세 언어를 통일할 수 있다.",
+      "against": "'구리'는 광물 문맥(신 8:9)에서 쓰이고 더 보수적이다.",
+      "verdict": "청동, 주석 '또는 구리'."
+    },
+    {
+      "verse": "Gen.4.23",
+      "clause": "הָרַגְתִּי",
+      "option": "과거 '죽였다' (선호) 대 과시적 미래 '죽이리라' 대 의문 '죽였느냐'",
+      "for": "완료형의 기본값. 23절 하반절의 구체적 원인(나를 다치게 했으므로)이 실제 사건 보고와 어울린다.",
+      "against": "시에서 완료형은 수행적·확신의 의미로도 쓰인다. 24절의 '…라면'과 함께 보면 과시적 위협으로 읽을 수도 있다. 의문 읽기는 의문 표지가 없어 약하다.",
+      "verdict": "과거 유지, 주석에 과시적 미래 가능성 표기."
+    },
+    {
+      "verse": "Gen.4.23",
+      "clause": "אִישׁ … וְיֶלֶד",
+      "option": "한 동사 + 두 목적어(모호성 보존, 선호) 대 두 동사(두 사람 확정)",
+      "for": "원문의 동사 생략 구조를 그대로 반영한다.",
+      "against": "한국어로는 동사 생략이 다소 압축적이다. 두 사람 읽기가 자연스럽게 들린다는 반론이 있다.",
+      "verdict": "한 동사 유지."
+    },
+    {
+      "verse": "Gen.4.24",
+      "clause": "שִׁבְעִים וְשִׁבְעָה",
+      "option": "일흔일곱 배 (선호) 대 일흔 번의 일곱 배(490)",
+      "for": "히브리어 '일흔과 일곱'의 문면 그대로다. 앞 행의 배수 표현과 평행한다.",
+      "against": "칠십인역 ἑβδομηκοντάκις ἑπτά와 마태 18:22 수용사가 '70×7'로 읽힐 여지를 준다.",
+      "verdict": "77 유지. 그리스어 표현의 모호성은 수용사 주석으로만 둔다."
+    },
+    {
+      "verse": "Gen.4.25",
+      "clause": "כִּי הֲרָגוֹ קָיִן",
+      "option": "어머니의 말 안의 원인절 (선호) 대 서술자 설명 대 관계절('가인이 죽인')",
+      "for": "말하기 동사가 없는 인용 설명 안에서 כִּי가 연쇄되는 자연스러운 구조다.",
+      "against": "서술자가 덧붙인 설명으로 볼 수도 있다. 관계절 처리는 매끄럽지만 문장 구조를 바꾼다.",
+      "verdict": "말 안에 두되, 주석에 모호성을 표기."
+    },
+    {
+      "verse": "Gen.4.25",
+      "clause": "שָׁת",
+      "option": "세워 주셨다/set/puesto (선호) 대 주셨다/granted/concedido",
+      "for": "שִׁית('두다/세우다')의 뜻에 가깝다. ko '세워'는 이름 '셋'과 우연히 소리가 비슷하지만, 이는 번역상 우연일 뿐 원어 어원 주장이 아니다.",
+      "against": "'주셨다'가 더 자연스럽다.",
+      "verdict": "'세워 주셨다' 유지, 주석에 שֵׁת/שָׁת 말놀이 설명."
+    },
+    {
+      "verse": "Gen.4.26",
+      "clause": "אָז הוּחַל לִקְרֹא",
+      "option": "비인칭 '부르는 일이 시작되었다' (선호, ko/es) 대 '사람들이 부르기 시작하였다' (en, 보충 주어)",
+      "for": "호팔 비인칭을 보존한다. ko/es는 자연스러운 비인칭 구문이 있다.",
+      "against": "영어에는 자연스러운 비인칭 구문이 없다. 그래서 en은 'people'을 보충하고, 그 결과 언어 간 형식이 다르다.",
+      "verdict": "ko/es 비인칭, en 'people' 보충, 주석 표기."
+    },
+    {
+      "verse": "Gen.4.26",
+      "clause": "הוּחַל",
+      "option": "'시작되었다' (선호) 대 '더럽혀졌다'",
+      "for": "창 6:1·10:8 등 חלל 히필/호팔 '시작하다' 용례(기억에 의한 보고)와 문맥이 맞는다.",
+      "against": "같은 어근의 '더럽히다'를 택하는 랍비 전통 읽기가 있다고 보고된다(확인 안 됨).",
+      "verdict": "'시작되었다'. 대안은 수용사 주석."
+    }
+  ],
+  "strongest_objection_to_own_reading": "가장 강한 반론은 22절 (A) 읽기에 대한 것이다. חֹרֵשׁ는 구약에서 대개 사람(밭가는 자·새기는 자·장인)을 가리키는 분사다. 이를 '날 선 연장'이라는 사물로 읽으려면 분사의 도구적 용법을 가정해야 한다. 칠십인역도 사람으로 옮겼고(χαλκεύς), 20-21절의 '…하는 모든 이' 패턴도 사람 읽기를 지지한다. 게다가 OSHB의 연계형 태그는 형태 증거가 아니다. 이 반론을 절별로 시험해 보면: (B)는 원문에 없는 '아버지/시조'를 보충해야 하고, (C)는 '벼리다'의 비유 확장이 필요하다. 반면 (A)는 보충어 없이 문장이 성립한다. 그래서 본문안은 (A)로 유지한다. 다만 확신도는 낮음(low-moderate)이고, (B)를 주석에 병기할 것을 강하게 권한다. 둘째로 강한 반론은 23절 완료형을 과시적 미래로 읽는 견해다. 24절이 조건문이므로 노래 전체가 위협일 수 있다. 그러나 23절 하반절의 구체적 원인(לְפִצְעִי)은 사건 보고와 더 자연스럽게 맞으므로 과거를 유지한다.",
+  "preferred_wording": {
+    "Gen.4.22": {
+      "ko": "씰라도 두발가인을 낳았는데, 그는 청동과 쇠로 된 온갖 날 선 연장을 벼리는 자였다. 두발가인의 누이는 나아마였다.",
+      "en": "Zillah too bore Tubal-cain, a forger of every cutting tool of bronze and iron. Tubal-cain's sister was Naamah.",
+      "es": "Zila, también ella, dio a luz a Tubal-caín, forjador de toda herramienta cortante de bronce y de hierro. La hermana de Tubal-caín fue Naama.",
+      "footnote_proposal_ko": "‘청동’은 ‘구리’로도 옮길 수 있다. ‘온갖 날 선 연장을 벼리는 자’는 문법상 가장 단순한 읽기다. 20-21절처럼 ‘청동과 쇠를 다루는 모든 장인[의 시조]’로 읽는 견해도 있다. 다만 22절에는 ‘아버지’라는 말이 없다. 칠십인역은 ‘망치질하는 자, 청동과 쇠의 대장장이’로 옮겼다."
+    },
+    "Gen.4.23": {
+      "ko": "라멕이 자기 아내들에게 말하였다. “아다와 씰라여, 내 목소리를 들으라. 라멕의 아내들이여, 내 말에 귀를 기울이라. 나를 다치게 한 사람을, 나에게 멍을 입힌 젊은이를 내가 죽였다.",
+      "en": "Lamech said to his wives: “Adah and Zillah, hear my voice; wives of Lamech, give ear to my word: I have killed a man for wounding me, a young man for bruising me.",
+      "es": "Lamec dijo a sus mujeres: «Ada y Zila, escuchen mi voz; mujeres de Lamec, presten oído a mi palabra: he matado a un hombre por herirme, a un joven por magullarme.",
+      "footnote_proposal_ko": "히브리어는 ‘죽였다’라는 동사 하나가 ‘사람’과 ‘젊은이’를 함께 받는 시적 평행이다. 같은 한 사람을 두 번 부른 것으로 읽는 견해가 많지만, 두 사람일 가능성도 배제되지 않는다. ‘죽였다’를 ‘죽이리라’ 같은 과시적 위협으로 읽는 견해도 있다."
+    },
+    "Gen.4.24": {
+      "ko": "가인을 위한 보복이 일곱 배라면, 라멕을 위한 보복은 일흔일곱 배이리라.”",
+      "en": "If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”",
+      "es": "Si Caín es vengado siete veces, Lamec lo será setenta y siete veces».",
+      "footnote_proposal_ko": "‘일곱 배’(4:15와 같은 표현)는 배수다. ‘일흔일곱’은 히브리어로 ‘일흔과 일곱’이다. 칠십인역의 그리스어 표현은 ‘일흔 번의 일곱’으로도 읽힐 수 있고, 이 표현은 마태복음 18:22와 연결되어 논의된다."
+    },
+    "Gen.4.25": {
+      "ko": "아담이 다시 자기 아내와 동침하니, 그 여자가 아들을 낳고 “하나님이 아벨 대신 나에게 다른 자손을 세워 주셨다. 가인이 그를 죽였으니” 하며 그 이름을 셋이라 불렀다.",
+      "en": "Adam lay with his wife again, and she bore a son and named him Seth, for she said, “God has set for me another offspring in place of Abel, because Cain killed him.”",
+      "es": "Adán se acostó de nuevo con su mujer, y ella dio a luz un hijo y le puso por nombre Set, pues dijo: «Dios me ha puesto otra descendencia en lugar de Abel, porque Caín lo mató».",
+      "supplied_words_note": "ko '하며', en 'she said', es 'dijo'는 원문에 없는 말하기 동사를 보충한 것이다. ko는 명명절과 인용의 순서를 바꾸었다(절 누락 없음).",
+      "footnote_proposal_ko": "이름 ‘셋’(셰트)은 ‘세워 주셨다/두셨다’(샤트)와 소리가 비슷한 말놀이다. 한국어 ‘세워’와 ‘셋’의 소리 유사는 번역상 우연이다. ‘가인이 그를 죽였으니’가 어머니의 말인지 서술자의 설명인지는 원문에서 모호하다."
+    },
+    "Gen.4.26": {
+      "ko": "셋에게도 아들이 태어나니, 셋이 그 이름을 에노스라 불렀다. 그때에 야훼의 이름을 부르는 일이 시작되었다.",
+      "en": "To Seth also a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.",
+      "es": "También a Set le nació un hijo, y le puso por nombre Enós. Entonces se comenzó a invocar el nombre de YHWH.",
+      "supplied_words_note": "ko '셋이'는 3인칭 남성 동사의 주어를 밝힌 것이다. en 'people'은 비인칭 호팔을 영어로 옮기려고 보충한 주어다.",
+      "footnote_proposal_ko": "‘시작되었다’(후할)는 ‘더럽히다’와 같은 자음 어근이어서, 다르게 읽은 전통이 있다고 보고된다. 칠십인역은 ‘이 사람이 주 하나님의 이름 부르기를 바랐다’로 옮겼다. ‘에노스’는 ‘사람’이라는 뜻의 보통명사이기도 하다. 이 절 뒤에는 원문의 단락 표지(פ)가 있다."
+    }
+  },
+  "editorial_consistency_findings": [
+    "신명: 4:26의 יְהוָה는 채택 관례대로 ko '야훼'·en/es 'YHWH'로 옮겨야 한다. 기존 Sonnet 초안의 '주/the LORD/el SEÑOR'를 그대로 쓰면 안 된다.",
+    "יָדַע(4:25): 현행 4:1 'lay with/se acostó con'과 4:17 'had relations with/tuvo relaciones con'이 이미 서로 다르다. 이 검토는 4:1을 따랐다. 채택 시 4:1·4:17·4:25를 하나로 통일하는 결정이 필요하다.",
+    "'아버지'(4:20-21) 대 22절: 22절에 אֲבִי가 없다는 사실은 20-21절에서 '시조'로 용어를 바꾸자는 논의(v0.4.13 Claude Code 검토의 reconsider_if)와 별개다. 22절에 '아버지/시조'를 넣는 것은 원문 보충이다.",
+    "'일곱 배'(4:15·4:24): 같은 동사 נקם 호팔과 같은 쌍수 שִׁבְעָתַיִם이므로 세 언어 모두 4:15와 같은 계열의 역어(일곱 배/sevenfold/siete veces·séptuple)를 쓴다. es에서는 4:15 'séptuple'과 4:24 'siete veces' 중 하나로 통일할지 편집 결정이 필요하다."
+  ],
+  "final_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+  "confidence_limits": [
+    "4:22 (A) 읽기 확신도 낮음-중간. 히브리어 사전(BDB/HALOT) 해당 항목을 이번 실행에서 열람하지 못했다.",
+    "칠십인역 확인은 Rahlfs 1935 판을 옮긴 공개 디지털 본문 1종에 한정된다. 사본, 비평 장치, 괴팅겐판은 확인하지 않았다.",
+    "타르굼, 페쉬타, 불가타, 사마리아 오경, 사해문서의 해당 절 읽기는 확인하지 않았다.",
+    "랍비 해석(23절 의문 읽기, 26절 '더럽혀졌다' 읽기)은 기억에 의한 보고이며 확인되지 않았다.",
+    "같은 모델 계열의 자체 점검은 GPT/Gemini의 독립 검토를 대신하지 않는다."
+  ],
+  "reconsider_if": [
+    "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다.",
+    "편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우.",
+    "편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다.",
+    "검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다.",
+    "GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우."
+  ],
+  "unresolved": [
+    "4:22 חֹרֵשׁ: 사람인가 도구인가(사전 근거 미확인).",
+    "4:22·4:26 칠십인역 차이('가인' 없음, '이 사람이 바랐다')의 히브리어 저본 문제: 재구성 단계이며 판정하지 않았다.",
+    "4:23 한 사람/두 사람, 과거/과시적 미래: 문법상 결정 불가. 번역 선택과 주석으로만 처리했다.",
+    "4:25 둘째 כִּי절이 인용 안인지 밖인지.",
+    "4:24 es 'siete veces' 대 4:15 'séptuple' 통일 여부(편집 결정 사항)."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/eliranwong/LXX-Rahlfs-1935/master/11_end-users_files/MyBible/Bibles/LXX_final_main.csv",
+      "accessed_utc": "2026-10-29T17:01:57Z",
+      "file_sha256": "6dbd1b934586cc6340f40ff8dddf2afaa765b511cedbf16a3b0d251f68681a2a",
+      "what_it_is": "Public digital transcription of the Rahlfs 1935 Septuagint with morphology tags (third-party GitHub repository). Not a manuscript, not a critical apparatus, not the Goettingen edition. Rights of that dataset not reviewed here; only short excerpts are quoted for comparison and the file is not redistributed.",
+      "excerpts": {
+        "Gen.4.22": "Σελλα δὲ ἔτεκεν καὶ αὐτὴ τὸν Θοβελ καὶ ἦν σφυροκόπος χαλκεὺς χαλκοῦ καὶ σιδήρου ἀδελφὴ δὲ Θοβελ Νοεμα",
+        "Gen.4.23": "ὅτι ἄνδρα ἀπέκτεινα εἰς τραῦμα ἐμοὶ καὶ νεανίσκον εἰς μώλωπα ἐμοί",
+        "Gen.4.24": "ὅτι ἑπτάκις ἐκδεδίκηται ἐκ Καιν ἐκ δὲ Λαμεχ ἑβδομηκοντάκις ἑπτά",
+        "Gen.4.25": "ἔγνω δὲ Αδαμ Ευαν τὴν γυναῖκα αὐτοῦ … λέγουσα ἐξανέστησεν γάρ μοι ὁ θεὸς σπέρμα ἕτερον ἀντὶ Αβελ ὃν ἀπέκτεινεν Καιν",
+        "Gen.4.26": "καὶ τῷ Σηθ ἐγένετο υἱός ἐπωνόμασεν δὲ τὸ ὄνομα αὐτοῦ Ενως οὗτος ἤλπισεν ἐπικαλεῖσθαι τὸ ὄνομα κυρίου τοῦ θεοῦ"
+      },
+      "excerpt_note": "Excerpts were copied from the downloaded CSV with Strong/morph markup tags removed; accents as in that file."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or critical-apparatus verification was performed.",
+    "No GPT, Gemini, Antigravity or human review response was obtained or is represented here.",
+    "No human specialist review or unanimous agreement is claimed.",
+    "No credit balance, dollar amount or credit deduction is asserted.",
+    "This file does not change data/editorial.json, data/decisions.json, data/releases/, dist/ or main.",
+    "Reconstructed Hebrew readings mentioned above are hypotheses, not attested readings."
+  ],
+  "memo_ko": "automation/cloud-reviews/20261029T170022Z-4cf294d1.ko.md",
+  "checks": {
+    "target_ids_exactly_once": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_file_hash_matches_pinned": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "qere_ketiv_present": false,
+    "paragraph_marker_preserved": true,
+    "nonempty_ko_en_es": true,
+    "independent_reading_per_verse": true,
+    "clause_coverage": {
+      "Gen.4.22": 3,
+      "Gen.4.23": 5,
+      "Gen.4.24": 2,
+      "Gen.4.25": 4,
+      "Gen.4.26": 3
+    },
+    "current_selected_in_packet": 0,
+    "original_vs_interpretation_separated": true,
+    "attribution": "Only this session authored the proposals; the earlier Sonnet cloud draft and editorial notes are quoted with their own labels; no GPT/Gemini record exists for these verses.",
+    "self_check_is_not_independent_review": true
+  }
+}
