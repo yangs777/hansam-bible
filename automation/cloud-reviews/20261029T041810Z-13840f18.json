@@ -1,0 +1,311 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261029T041810Z-13840f18",
+  "unit_id": "gen-3-15-16",
+  "verse_ids": [
+    "Gen.3.15",
+    "Gen.3.16"
+  ],
+  "traditional_numbering": "Gen 3:15–16; OSIS IDs match traditional English/Korean numbering.",
+  "model": {
+    "provider": "Anthropic, Claude Code native cloud session (scheduled routine)",
+    "requested_model_id": "claude-opus-5-5",
+    "identity_basis": "Session configuration/system context states claude-opus-5-5 (fallbacks configured); immutable backend snapshot, per-call served-model field, sampling settings and token counts are not exposed. Model self-report is not evidence.",
+    "session": "https://claude.ai/code/session_01UknqVFpKoCQvnNACtR7MDV",
+    "credit": "Included cloud-session credit; no balance, deduction or limit was exposed or is asserted."
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-29T04:18:10Z",
+    "claim_pushed": "2026-10-29T04:18Z (branch claude/tender-mccarthy-oudwp7)",
+    "independent_reading_written": "2026-10-29T04:18Z, before reading data/decisions.json or data/model-reviews (the packet itself already carries current selected wording, which was therefore seen)",
+    "review_saved": "2026-10-29T04:21:10+00:00"
+  },
+  "source": {
+    "verses": [
+      {
+        "id": "Gen.3.15",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fragment_sha256": "5e373d88045b9a2be24f5807f2f976091017f1a385a5f4043bc30646bce6d47d",
+        "raw_xml_preserved_in": "automation/hard-review-packets/20261029T041810Z-13840f18.json"
+      },
+      {
+        "id": "Gen.3.16",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fragment_sha256": "b1b54967d7d1b9a8cc3e59c35c336aa15cd030b12c3da08b962f68c4fa0d58ec",
+        "raw_xml_preserved_in": "automation/hard-review-packets/20261029T041810Z-13840f18.json"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "markup_notes": "Raw OSHB XML kept verbatim in the packet: 3:15 has seg x-paseq after וְ/אֵיבָה, sof-pasuq and seg x-samekh (setumah); 3:16 has three maqqef segs, sof-pasuq and x-samekh. No Qere/Ketiv (rdg/note) element occurs in either fragment; הוּא in 3:15 is pointed with shureq (masc.), so the Pentateuchal הִוא Ketiv issue does not arise here.",
+    "collation": "No manuscript image, Masoretic edition, Samaritan, Greek, Latin, Syriac or Targum text was read or collated in this run."
+  },
+  "network_research": [
+    {
+      "url": "https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=1&page=3",
+      "accessed_utc": "2026-10-29T04:19:26Z",
+      "result": "Blocked: proxy CONNECT 403 under current network policy. Nothing verified; all statements about ancient versions below are labelled unverified reception reports."
+    },
+    {
+      "url": "https://biblehub.com/sep/genesis/3.htm",
+      "accessed_utc": "2026-10-29T04:19:26Z",
+      "result": "Blocked: proxy CONNECT 403 under current network policy. Nothing verified; all statements about ancient versions below are labelled unverified reception reports."
+    }
+  ],
+  "independent_initial_proposal": {
+    "note": "Formed from the source packet only (Hebrew XML + OSHB tags), before consulting decisions or saved model records.",
+    "Gen.3.15": {
+      "lexical": "אֵיבָה (342) 'enmity', fronted before אָשִׁית (qal yiqtol 1cs, 'I will set/put'): contrastive focus on enmity. זֶרַע (2233) collective singular 'seed/offspring', used for both sides. שׁוּף (7779) twice; rare (cf. Job 9:17, Ps 139:11 with disputed sense); meaning range 'strike / bruise / crush' vs a homonym or by-form near שׁאף 'snap at / lie in wait'. Same root in both clauses: lexical repetition should be preserved by one target verb.",
+      "syntactic": "Four בֵּין phrases = two pairs (you/woman; your seed/her seed). הוּא 3ms agrees grammatically with masc. זֶרַע; it cannot grammatically refer to הָאִשָּׁה (fem). Emphatic pronouns הוּא … וְאַתָּה mark contrast between the two agents. יְשׁוּפְךָ רֹאשׁ / תְּשׁוּפֶנּוּ עָקֵב: verb + pronominal object + accusative of the part affected ('strike you [on the] head', 'strike him [on the] heel').",
+      "discourse": "Continues the address to the serpent begun in 3:14; setumah after the verse. Edition closes the serpent speech here.",
+      "textual": "No variant in the pinned packet. Ancient versions are widely reported to differ (Greek masc. pronoun after a neuter noun; Latin tradition with a feminine pronoun; Greek verb 'watch/guard' for שׁוף). These are reception/translation facts, NOT verified in this run and not grounds for altering MT.",
+      "reception": "Individual/messianic ('protevangelium'), Marian and collective-humanity readings are later interpretation; grammar neither requires nor excludes an individual referent.",
+      "proposal": {
+        "ko": "내가 너와 여자 사이에, 네 후손과 여자의 후손 사이에 적의를 두겠다. 그 후손은 네 머리를 치고, 너는 그 후손의 발꿈치를 칠 것이다.”",
+        "en": "I will put enmity between you and the woman, and between your offspring and her offspring. It will strike you on the head, and you will strike it on the heel.”",
+        "es": "Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón»."
+      },
+      "note_on_proposal": "Independent ko/es matched the selected wording (which the packet showed); independent en first used 'it', then rejected it in comparison (see alternatives)."
+    },
+    "Gen.3.16": {
+      "lexical": "עִצָּבוֹן (6093) 'pain/toil' — the SAME lexeme recurs in 3:17 for the man's labor (בְּעִצָּבוֹן תֹּאכְלֶנָּה) and later in 5:29; עֶצֶב (6089) in בְּעֶצֶב תֵּלְדִי is a related but different noun. הֵרֹן (2032), defectively spelled form of הֵרָיוֹן 'conception/pregnancy'. תְּשׁוּקָה (8669) rare (also 4:7; Song 7:11). מָשַׁל בְּ (4910) 'rule over'.",
+      "syntactic": "הַרְבָּה אַרְבֶּה: infinitive absolute + finite, intensifying ('greatly increase'), not a numerical multiplier. עִצְּבוֹנֵךְ וְהֵרֹנֵךְ: two coordinated objects — literal 'your pain/toil and your pregnancy', or hendiadys 'your pain in pregnancy'. וְאֶל־אִישֵׁךְ תְּשׁוּקָתֵךְ: verbless clause with fronted prepositional phrase; time reference supplied by context (future/descriptive). וְהוּא יִמְשָׁל־בָּךְ: qal yiqtol, predictive in this sentence-of-consequence context; jussive/normative reading is not marked morphologically.",
+      "discourse": "Speaker implicit (YHWH God of 3:14); addressee shift marked by fronted אֶל־הָאִשָּׁה. 3:16 תְּשׁוּקָה + מָשַׁל בְּ is verbally echoed in 4:7 (תְּשׁוּקָתוֹ … תִּמְשָׁל־בּוֹ): the echo should be visible in each target language.",
+      "textual": "No variant in the pinned packet. Greek is commonly reported to render the second noun as 'groaning' and תְּשׁוּקָה as 'turning'; NOT verified here.",
+      "reception": "Desire as longing/attraction, dependence, or desire to control (by analogy with 4:7); 'rule' as description of a broken relation vs. a prescription — both interpretive layers, not settled by morphology.",
+      "proposal": {
+        "ko": "여자에게는 말씀하셨다. “내가 네 임신의 고통을 크게 늘리겠다. 너는 고통 속에서 자녀를 낳을 것이다. 네 갈망은 네 남편을 향하고, 그는 너를 다스릴 것이다.",
+        "en": "To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.",
+        "es": "A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él te dominará."
+      }
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "path": "data/decisions.json + data/editorial.json (selection 0.4.13)",
+      "summary": "3:15 '적의 / 그 후손은 … 치고 / strike … that offspring / golpeará … la'; הוא read as the woman's offspring; same-verb rendering. 3:16 hendiadys '임신의 고통 / pain in pregnancy / dolor en el embarazo'; parallel two-noun alternative preserved in counterargument; 'rule' as future statement."
+    },
+    {
+      "path": "data/model-reviews/v0.4.7/gpt-genesis3-11-15.round1.json, round2.json",
+      "label": "gpt-6.1-sol",
+      "summary": "Round1 already proposed the wording now selected for 3:15; round2 kept it as current_best_provisional_after_comparison."
+    },
+    {
+      "path": "data/model-reviews/v0.4.7/gemini-genesis3-11-15.round1.json, round2.json",
+      "label": "gemini-3.8-flash-medium",
+      "summary": "Round1 en 'he/they … his/their'; round2 accepted selected text, withdrew an overstated claim that grammar excludes an individual referent; notes Spanish feminine agreement is grammatical only."
+    },
+    {
+      "path": "data/model-reviews/v0.4.7/claude-code-genesis3-11-15.round1.json",
+      "label": "claude-opus-5-5 (Claude Code CLI)",
+      "summary": "'그 후손 … 상하게 하다', en 'it shall strike', es 'esa descendencia … le herirás'; flagged that 'it' may sound impersonal."
+    },
+    {
+      "path": "data/model-reviews/v0.4.7/claude-cloud-genesis3-11-15-evidence.json (draft run 20261023T211759Z-ff69750f)",
+      "label": "claude-sonnet-5-5 (configured, cloud draft)",
+      "summary": "'그가 … 상하게 하고', en 'he shall strike at', es 'él te herirá'."
+    },
+    {
+      "path": "data/model-reviews/v0.4.8/gpt-genesis3-16-20.round1.json, round2.json",
+      "label": "gpt-6.1-sol",
+      "summary": "Round1 parallel 'pain and your pregnancies'; round2 switched to hendiadys for readability, preserving the parallel alternative."
+    },
+    {
+      "path": "data/model-reviews/v0.4.8/gemini-genesis3-16-20.round1.json, round2.json",
+      "label": "gemini-3.8-flash-medium",
+      "summary": "Round1 'toil and your conception' (es 'fatiga … se enseñoreará'); round2 REVISE_WITH_CAUTION: hendiadys must leave the literal parallel open."
+    },
+    {
+      "path": "data/model-reviews/v0.4.8/claude-code-genesis3-16-20.round1.json",
+      "label": "claude-opus-5-5 (Claude Code CLI)",
+      "summary": "Kept two nouns in text, hendiadys as footnote; recommended noting the 3:16/3:17 עִצָּבוֹן link."
+    },
+    {
+      "path": "data/model-reviews/v0.4.8/claude-cloud-genesis3-16-20-evidence.json",
+      "label": "claude-sonnet-5-5 (configured, cloud draft)",
+      "summary": "Hendiadys; 'yet your desire'; es 'él te dominará'."
+    },
+    {
+      "path": "data/model-reviews/v0.4.7/genesis3-11-15-lexical-evidence.json; v0.4.8/genesis3-16-20-lexical-evidence.json",
+      "summary": "Editor-read BDB/GKC digital reproductions (7779 bruise; 2233 collective; 8669 longing; 2032 conception; 6093 pain/toil incl. 3:17; 4910; GKC 113n,o). Not re-accessed in this run."
+    },
+    {
+      "path": "origin/claude/tender-mccarthy-6k7m2i automation/cloud-reviews/20261029T035353Z-5ba0f13e.json (hard review gen-4-7-8)",
+      "label": "claude-opus-5-5 (cloud)",
+      "summary": "Its main finding was that 4:7 Korean should mirror the 3:16 wording '갈망은 ~을 향하고 / 다스리다'; relevant to keeping 3:16 stable."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "verse": "Gen.3.16",
+      "topic": "משל ב echo in Spanish",
+      "finding": "3:16 es 'él gobernará sobre ti' vs 4:7 es 'tú debes dominarlo' renders the same מָשַׁל בְּ with two verbs, while ko (다스리다) and en (rule over) keep the echo. Proposal: use dominar in both (3:16 'y él te dominará'), or gobernar in both. 'dominar' is idiomatic for 4:7 and attested in major Spanish usage for 3:16.",
+      "strength": "strongest concrete, low-risk wording point; editor choice of direction"
+    },
+    {
+      "id": "F2",
+      "verse": "Gen.3.16",
+      "topic": "עִצָּבוֹן 3:16/3:17 link",
+      "finding": "The same noun is 'pain/고통/dolor' in 3:16 and 'painful toil/고된 수고/penoso trabajo' in 3:17; translations hide that the woman's and the man's sentences share a keyword. Text change not required (pain fits the childbirth context), but a note should state the shared lexeme and the 'toil' reading (parallel 'your toil and your pregnancies').",
+      "strength": "note-level; strongest objection to the hendiadys"
+    },
+    {
+      "id": "F3",
+      "verse": "Gen.3.16",
+      "topic": "desire 'toward' vs 'for' (cross-unit)",
+      "finding": "en 3:16 'toward your husband' vs en 4:7 'Its desire is for you'. Both Hebrew clauses use אֶל + תְּשׁוּקָה; recommend one preposition in both (prefer 'toward', which keeps the directional אֶל and avoids reading 'for' as 'in favour of'). 4:7 belongs to another unit; recorded only as a consistency flag.",
+      "strength": "low-risk consistency"
+    },
+    {
+      "id": "F4",
+      "verse": "Gen.3.15",
+      "topic": "pronoun handling",
+      "finding": "Current 'That offspring … that offspring' / '그 후손' / 'esa descendencia … la' is the most neutral option tested: it keeps grammatical agreement with זֶרַע, the הוּא/אַתָּה contrast and same-verb repetition without fixing individual vs collective. No change recommended.",
+      "strength": "confirmation"
+    }
+  ],
+  "alternatives_tested": [
+    {
+      "verse": "Gen.3.15",
+      "clause": "ה֚וּא יְשׁוּפְךָ רֹאשׁ",
+      "options": [
+        {
+          "reading": "that offspring (current)",
+          "for": "keeps agreement with זרע, neutral on number/gender",
+          "against": "English demonstrative slightly heavier than Hebrew pronoun; may sound like one specific offspring"
+        },
+        {
+          "reading": "he",
+          "for": "formal 3ms, traditional",
+          "against": "pushes toward an individual male; reception-loaded"
+        },
+        {
+          "reading": "it",
+          "for": "agrees with collective 'offspring'",
+          "against": "sounds impersonal for human descendants (my own initial en; rejected after comparison)"
+        },
+        {
+          "reading": "they",
+          "for": "collective sense",
+          "against": "introduces plural absent from Hebrew"
+        }
+      ]
+    },
+    {
+      "verse": "Gen.3.15",
+      "clause": "שׁוּף ×2",
+      "options": [
+        {
+          "reading": "strike/strike (current)",
+          "for": "one verb for one root; neutral on severity",
+          "against": "loses possible lexical nuance"
+        },
+        {
+          "reading": "crush/strike or bruise/bite (asymmetric)",
+          "for": "head vs heel context",
+          "against": "imposes a victory judgment on the identical verb"
+        },
+        {
+          "reading": "lie in wait/watch",
+          "for": "reported Greek tradition and שאף link",
+          "against": "unverified here; weaker for the head/heel accusatives"
+        }
+      ]
+    },
+    {
+      "verse": "Gen.3.16",
+      "clause": "עִצְּבוֹנֵךְ וְהֵרֹנֵךְ",
+      "options": [
+        {
+          "reading": "pain in pregnancy (current hendiadys)",
+          "for": "natural, coheres with בְּעֶצֶב תֵּלְדִי",
+          "against": "collapses two coordinated nouns; hides 3:17 link"
+        },
+        {
+          "reading": "your pain and your pregnancy/pregnancies",
+          "for": "formal fidelity",
+          "against": "'increase pregnancies' suggests frequency claim; awkward ko"
+        },
+        {
+          "reading": "your toil and your pregnancies",
+          "for": "keeps 3:17 keyword sense",
+          "against": "interpretive social-historical reading; weaker fit with 6089 'pain' in next clause"
+        }
+      ]
+    },
+    {
+      "verse": "Gen.3.16",
+      "clause": "וְהוּא יִמְשָׁל־בָּךְ",
+      "options": [
+        {
+          "reading": "and he will rule over you (current)",
+          "for": "predictive yiqtol, neutral",
+          "against": "none decisive"
+        },
+        {
+          "reading": "but/yet he will rule",
+          "for": "contrast with desire",
+          "against": "adds adversative not marked"
+        },
+        {
+          "reading": "he shall rule",
+          "for": "traditional",
+          "against": "English 'shall' can sound prescriptive"
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_view": "For 3:16 the hendiadys (which I keep) is an editorial fusion: the Hebrew coordinates two nouns, and the 3:17 reuse of עִצָּבוֹן supports 'toil'. A reader of 'pain in pregnancy' cannot see either fact. My answer: keep the readable selected text but require the note (F2); if the editor prioritises formal correspondence, the parallel option is the fallback. For 3:15 the strongest objection is that 'that offspring' is a demonstrative expansion of a bare pronoun.",
+  "preferred_wording": {
+    "Gen.3.15": {
+      "ko": "내가 너와 여자 사이에, 네 후손과 여자의 후손 사이에 적의를 두겠다. 그 후손은 네 머리를 치고, 너는 그 후손의 발꿈치를 칠 것이다.”",
+      "en": "I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”",
+      "es": "Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».",
+      "change": "none"
+    },
+    "Gen.3.16": {
+      "ko": "여자에게는 말씀하셨다. “내가 네 임신의 고통을 크게 늘리겠다. 너는 고통 속에서 자녀를 낳을 것이다. 네 갈망은 네 남편을 향하고, 그는 너를 다스릴 것이다.”",
+      "en": "To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”",
+      "es": "A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él te dominará».",
+      "change": "es only: 'y él gobernará sobre ti' → 'y él te dominará' (F1). Minimal-change option: keep current es and instead change 4:7 es to 'gobernarlo' — editor decides direction.",
+      "note_recommended_ko": "עִצָּבוֹן은 17절 남자의 '고된 수고'와 같은 단어다. 두 명사를 병렬로 읽으면 '네 수고(고통)와 네 임신을 크게 늘리겠다'가 된다."
+    }
+  },
+  "final_opinion_ko": "두 절의 현행 채택문은 원문에 대한 오역이 없고, 대명사·동일 동사·중언법·미래 진술 처리 모두 방어 가능하다. 15절은 변경을 권하지 않는다. 16절은 스페인어에서 מָשַׁל בְּ가 4:7과 다른 동사로 옮겨져 평행이 깨지는 점(F1)이 가장 구체적 개선점이며, 17절과 공유하는 עִצָּבוֹן을 주석으로 드러낼 것(F2)과 영어 4:7 'for'/3:16 'toward' 통일(F3)을 권한다. 모두 편집 채택 전 GPT/Gemini 비교가 필요한 미채택 모델 의견이다.",
+  "confidence_limits": "Model-only review from pinned WLC/OSHB. No ancient-version or manuscript text was read (network blocked); BDB/GKC not re-accessed, only editor-saved notes cited. Spanish idiom judgments are model judgments without native-speaker review.",
+  "reconsider_if": [
+    "Editor adopts formal-correspondence policy for coordinated nouns → switch 3:16 to the parallel two-noun option.",
+    "Verified lexical study shows שׁוּף in the two clauses are different roots → reconsider asymmetric verbs.",
+    "Native Spanish review judges 'dominar' too harsh for 3:16 → use gobernar in both 3:16 and 4:7 instead.",
+    "Verified LXX/SP/Vulgate collation becomes available → add textual-reception notes (not text change unless MT is questioned with evidence)."
+  ],
+  "checks": {
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "source_file_hash": true,
+    "fragment_hash": true,
+    "rights_present": true,
+    "clauses_covered": "3:15: enmity / you–woman / seeds / he strikes head / you strike heel; 3:16: addressee / increase pain+pregnancy / bear children in pain / desire toward husband / he will rule",
+    "original_vs_interpretation_separated": true,
+    "attribution": "Only saved records cited with stored model labels; no new GPT/Gemini call; no human review claimed",
+    "state": true
+  },
+  "not_done": [
+    "No ancient-version or manuscript collation (network 403).",
+    "No change to data/, releases, dist/ or main; no PR created."
+  ],
+  "requires_before_adoption": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "Official agy review",
+    "Versioned editorial adoption and publication checks"
+  ]
+}
