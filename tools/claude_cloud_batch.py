@@ -18,6 +18,8 @@ def claimed_sources():
 def prepare(limit):
     policy=read(R/'automation/claude-cloud-policy.json');now=dt.datetime.now(dt.timezone.utc)
     if not guard(policy,now):return {'status':'stopped_by_date_or_policy','paid_api_calls':0}
+    if policy.get('work_mode') == 'difficult_passage_review':
+        return {'status':'bulk_drafting_paused_use_claude_hard_review','paid_api_calls':0}
     if not 1<=limit<=policy['initial_verse_limit_per_run']:raise ValueError('Batch exceeds configured limit')
     adopted={v['source'] for p in read(R/'data/editorial.json')['passages'] for v in p['verses']}
     claimed=claimed_sources();selected=[]

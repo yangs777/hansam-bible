@@ -1,5 +1,7 @@
 # Useful Bible work with native Claude cloud-session credit
 
+2026-10-29: When work_mode is difficult_passage_review, follow CLAUDE-HARD-REVIEW-TASK.md instead of the bulk-drafting steps below.
+
 This task is specifically authorized for Original Bible by Hansam Yang. Work only in yangs777/hansam-bible. No other account, repository, connector, email, contacts, image/video generation or paid API is part of it.
 
 1. First check UTC time against automation/claude-cloud-policy.json. After the stop_new_translation_at timestamp, or if disabled, stop before translation. Do not try to restart yourself, buy credit or fall back to an API. The policy is a work/date guard, not an assertion of a provider-enforced dollar cap.

@@ -10,7 +10,7 @@
   "initial_verse_limit_per_run": 100,
   "pilot_verse_limit": 25,
   "max_task_minutes": 45,
-  "cadence_hours": 6,
+  "cadence_hours": 1,
   "allowed_repository": "yangs777/hansam-bible",
   "output_state": "unadopted_model_draft",
   "publication_requires": [
@@ -23,9 +23,17 @@
   "budget_control_limitations": "Native cloud credit applies automatically. There is no implemented API budget meter for this credit type. Date and batch limits bound useful work; account credit snapshots are monitored separately. After credit expiry/exhaustion the provider may use included plan quota. No purchases or billing changes are authorized.",
   "native_routine_id": "trig_01VW932QoUaCXcDuaktx5PCG",
   "native_routine_url": "https://claude.ai/code/routines/trig_01VW932QoUaCXcDuaktx5PCG",
-  "verified_schedule": "Every 6 hours, Asia/Seoul, minute 17",
+  "verified_schedule": "Every hour, Asia/Seoul, minute 17; UI verified 2026-10-29",
   "first_scheduled_run_kst": "2026-10-24T06:17:00+09:00",
   "pilot_session_url": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
   "pilot_model_ui": "Opus 5.5 high",
-  "pilot_branch": "claude/bible-cloud-pilot-g8bkcx"
+  "pilot_branch": "claude/bible-cloud-pilot-g8bkcx",
+  "work_mode": "difficult_passage_review",
+  "review_task": "automation/CLAUDE-HARD-REVIEW-TASK.md",
+  "review_queue": "automation/hard-review-queue.json",
+  "max_review_units_per_run": 1,
+  "max_review_verses_per_run": 20,
+  "authorization_updated": "2026-10-29",
+  "priority": "Existing difficult verses, then likely difficult upcoming passages; preserve useful unadopted dossiers",
+  "review_model_ui": "Opus 5.5"
 }
