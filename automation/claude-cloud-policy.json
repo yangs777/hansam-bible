@@ -1,6 +1,10 @@
 {
   "provider": "Claude Code native cloud sessions",
-  "enabled": true,
+  "enabled": false,
+  "pause_reason": "2026-10-29 correction: promotional cloud credit explicitly excludes Projects and Routines. Pause routine and verify a standalone cloud session before resuming.",
+  "routine_credit_eligible": false,
+  "credit_terms_source": "https://support.claude.com/en/articles/17152539-cloud-sessions-bonus-credit-promotion",
+  "required_execution_path": "standalone Claude Code cloud session outside Projects and Routines",
   "credit_type": "Included cloud-session credits; not Anthropic Platform API balance",
   "credit_verified_date_kst": "2026-10-24",
   "expires_at": "2026-11-05T16:59:00+09:00",

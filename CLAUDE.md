@@ -1,5 +1,7 @@
 # Original Bible cloud work
 
+2026-10-29 billing correction: Projects and Routines are excluded from the promotional cloud-session bonus. They consume subscription allowance. Do not start or resume Bible work through a Routine/Project to spend that bonus. Current disabled policy is deliberate; do not enable it yourself. Only a separately authorized standalone cloud session outside Projects/Routines can use the bonus. Official terms: https://support.claude.com/en/articles/17152539-cloud-sessions-bonus-credit-promotion
+
 Founder and original creator: Hansam Yang. Ancient WLC text is public domain; OSHB morphology is CC BY 4.0. Preserve those scopes.
 
 Read automation/CLAUDE-CLOUD-TASK.md and automation/claude-cloud-policy.json before Bible cloud work. The user authorized useful Bible drafting/review with included Claude cloud-session credits before their expiry. These are NOT Anthropic Platform API credits. Do not buy credits, change billing, enable auto-reload, read secrets or call paid external APIs.
