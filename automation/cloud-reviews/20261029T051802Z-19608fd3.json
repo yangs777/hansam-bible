@@ -1,0 +1,315 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261029T051802Z-19608fd3",
+  "unit_id": "gen-1-1-3",
+  "verse_ids": [
+    "Gen.1.1",
+    "Gen.1.2",
+    "Gen.1.3"
+  ],
+  "traditional_numbering": "Gen 1:1–3; OSIS IDs match traditional English/Korean/Spanish numbering.",
+  "model": {
+    "provider": "Anthropic, Claude Code native cloud session (scheduled routine)",
+    "requested_model_id": "claude-opus-5-5",
+    "identity_basis": "Session system context states configured model claude-opus-5-5 (fallbacks claude-opus-5[1m], claude-opus-4-8[1m] configured). get_session tool was not available in this run, so the served model of each turn is not independently confirmed.",
+    "session": "https://claude.ai/code/session_01UknqVJgDjEp9i8ApD3roHs",
+    "not_exposed": [
+      "dated snapshot id",
+      "per-turn served model confirmation",
+      "token counts",
+      "credit balance or deduction",
+      "sampling parameters"
+    ],
+    "credit": "Included cloud-session credit; no balance, deduction or limit was exposed or is asserted.",
+    "note": "A model self-report is not source evidence."
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-29T05:18:02Z",
+    "claim_pushed": "2026-10-29T05:18Z (branch claude/tender-mccarthy-irqs26, commit before review)",
+    "independent_reading_written": "2026-10-29T05:18Z, from the packet (raw XML + OSHB tags) before reading data/decisions.json, data/model-reviews or earlier cloud reviews. The packet itself includes the current selected wording, which was therefore visible.",
+    "review_saved": "2026-10-29T05:20:57+00:00"
+  },
+  "source": {
+    "verses": [
+      {
+        "id": "Gen.1.1",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fragment_sha256": "8209fd9a3d546eadc876074ec005af9ffb4d7727cabd736da50efdf0f42b63a8",
+        "raw_xml_preserved_in": "automation/hard-review-packets/20261029T051802Z-19608fd3.json"
+      },
+      {
+        "id": "Gen.1.2",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fragment_sha256": "3de3742a484533fa084630ec35977d7d9ac123173aaba6962ddf5bf96af2fdca",
+        "raw_xml_preserved_in": "automation/hard-review-packets/20261029T051802Z-19608fd3.json"
+      },
+      {
+        "id": "Gen.1.3",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fragment_sha256": "3be02bf9d863d5b591643639645736d91f3b39a4265e1b8ebe4a99e95f13de00",
+        "raw_xml_preserved_in": "automation/hard-review-packets/20261029T051802Z-19608fd3.json"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "markup_notes": "Raw OSHB XML kept verbatim in the packet: sof-pasuq seg in all three verses; maqqef segs in 1:2 (עַל־פְּנֵי twice) and 1:3 (וַיְהִי־אוֹר). No Qere/Ketiv, no textual note, no paseq in these verses. Morphology codes cited below are OSHB tags (CC BY 4.0), not independent analysis.",
+    "accent_check": "Packet בְּ/רֵאשִׁ֖ית carries U+0596 (tipcha); בָּרָ֣א U+05A3 (munach); אֱלֹהִ֑ים U+0591 (atnach). This confirms the GPT round-2 correction of the v0.3.0 Claude/Gemini round-1 \"zaqef qatan\" claim. Medieval accentuation is reception evidence, not proof of original syntax.",
+    "collation": "No manuscript image, Masoretic edition other than the pinned WLC/OSHB file, Samaritan, Greek, Latin, Syriac or Targum text was read. No witness collation is asserted."
+  },
+  "network_research": [
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Rashi_on_Genesis.1.1.1",
+      "accessed_utc": "2026-10-29T05:18:50Z",
+      "result": "Failed (curl HTTP 000, no connection under current network policy). Nothing verified; reception and ancient-version statements below are marked as commonly reported, unverified in this run."
+    }
+  ],
+  "independent_initial_proposal": {
+    "note": "Formed from the packet only; lexical citations are from model knowledge and should be checked by a human editor.",
+    "Gen.1.1": {
+      "lexical": "רֵאשִׁית (7225) 'beginning/first(fruits)'. בָּרָא qal perf 3ms (OSHB HVqp3ms) with divine subject only in the Hebrew Bible; no material object marked. הַשָּׁמַיִם וְאֵת הָאָרֶץ: a merism for the ordered cosmos.",
+      "syntactic": "Three readings: (A) independent main clause: 'In the beginning God created…'; (B) temporal clause with רֵאשִׁית as construct before a finite verb: 'When God began to create…' — construct before a finite clause is attested (e.g. Hos 1:2 תְּחִלַּת דִּבֶּר; Exod 6:28 בְּיוֹם דִּבֶּר), so the missing article does not exclude it, but also does not prove it: temporal adverbs often lack the article (cf. Isa 46:10 מֵרֵאשִׁית). (C) revocalizing בָּרָא as infinitive בְּרֹא is a reconstruction, NOT the attested MT vocalization in the packet.",
+      "discourse": "1:1 can function as a heading/summary of the whole 1:1–2:3 unit (compatible with A); 2:4b, by contrast, uses an infinitive (בְּיוֹם עֲשׂוֹת), so 1:1's finite form is at least a different construction. 1:2 opens with waw + subject + qatal (background), which fits A and B equally.",
+      "textual": "No variant in packet. Reported ancient versions (Greek ἐν ἀρχῇ, Latin in principio) render an independent clause — reported, not verified here.",
+      "reception": "Temporal-clause reading is associated with Rashi and Ibn Ezra and modern NJPS/NRSV-note-type translations — commonly reported, not verified in this run.",
+      "proposal": {
+        "ko": "태초에 하나님께서 하늘과 땅을 창조하셨다.",
+        "en": "In the beginning, God created the heavens and the earth.",
+        "es": "Al comienzo, Dios creó los cielos y la tierra.",
+        "es_option": "En el principio, Dios creó los cielos y la tierra."
+      }
+    },
+    "Gen.1.2": {
+      "lexical": "תֹהוּ וָבֹהוּ: rhyming pair; תֹהוּ elsewhere 'waste, wilderness, nothingness' (Deut 32:10; Isa 45:18 where it contrasts with 'to be inhabited'; Jer 4:23 echoes the whole pair). So the sense is 'uninhabitable waste and emptiness' more than geometric 'formlessness'. תְהוֹם without article (quasi-proper 'the Deep'). רוּחַ (fem.) = wind / breath / spirit. מְרַחֶפֶת piel ptc fs (OSHB HVprfsa), feminine agreement with רוּחַ; piel elsewhere only Deut 32:11 (eagle over its young).",
+      "syntactic": "Three nominal/background clauses: (1) earth — הָיְתָה qatal after fronted subject = state 'was', not event 'became' (the 'gap' reading needs a wayyiqtol-type sequence the text lacks); (2) darkness over surface of the deep — verbless; (3) ruach + participle = ongoing state 'was hovering'.",
+      "genitive_test": "Definiteness: if אֱלֹהִים is treated as a name, the chain is definite ('the ruach of God'). Counter-test: אִישׁ־אֱלֹהִים without article is used indefinitely ('a man of God', e.g. 1 Sam 2:27). Result: definiteness does not decide 'a' vs 'the'.",
+      "superlative_test": "אֱלֹהִים as superlative ('mighty wind') is possible elsewhere (cf. Jonah 3:3 לֵאלֹהִים), but in Gen 1 אֱלֹהִים is the acting subject in every other occurrence; a superlative here is the weakest of the three readings.",
+      "proposal": {
+        "ko": "땅은 형체 없이 비어 있었고, 어둠이 깊음의 표면 위에 있었으며, 하나님의 바람이 물의 표면 위를 맴돌고 있었다.",
+        "en": "The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.",
+        "es": "La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas."
+      }
+    },
+    "Gen.1.3": {
+      "lexical_syntactic": "וַיֹּאמֶר wayyiqtol; יְהִי qal jussive 3ms (HVqj3ms) — third-person directive; וַיְהִי־אוֹר wayyiqtol of the same root, maqqef-bound. Command/fulfilment pair with identical root and noun.",
+      "discourse": "Under reading A it is the first narrated speech-act after a heading; under reading B it is the main clause of 1:1–3. Its own translation is the same in both cases; only punctuation of 1:1–2 changes.",
+      "proposal": {
+        "ko": "하나님께서 말씀하셨다. “빛이 있으라.” 그러자 빛이 있었다.",
+        "en": "God said, “Let there be light.” And there was light.",
+        "es": "Dios dijo: «Que haya luz». Y hubo luz."
+      }
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "path": "data/decisions.json + data/editorial.json (selection 0.4.13)",
+      "summary": "1:1 independent opening; 1:2 background state, '하나님의 바람 / a wind of God / un viento de Dios', alternatives spirit/breath/mighty wind kept in note; 1:3 '있으라/있었다'. Passage note: neither the missing article nor medieval accents settles 1:1."
+    },
+    {
+      "path": "data/model-reviews/v0.3.0/gpt.round1.json",
+      "model_label": "gpt-6.1-sol",
+      "summary": "1:1 'At the beginning'/'Al comienzo'; 1:2 '하나님에게서 온 바람 / a wind from God'; 1:3 '있어라 / 생겼다 / Let light be … came to be'."
+    },
+    {
+      "path": "data/model-reviews/v0.3.0/gemini.round1.json",
+      "model_label": "gemini-3.8-flash-medium",
+      "summary": "1:1 independent ('zaqef qatan' claim); 1:2 '하나님의 영 / the Spirit of God / el aliento divino'; 1:3 symmetric."
+    },
+    {
+      "path": "data/model-reviews/v0.3.0/claude.round1.json",
+      "model_label": "claude-opus-4-6-thinking (Antigravity-hosted, per decisions.json)",
+      "summary": "1:1 independent ('zaqef qatan' claim, ancient versions); 1:2 '하나님의 바람 / a wind of God' with spirit equally valid; 1:3 '있으라/있었다'; review asked '께서'→'이', 'In the beginning', 'En el principio', 'of God' instead of 'from God'."
+    },
+    {
+      "path": "data/model-reviews/v0.3.0/gemini.round2.json, gemini.round3.json",
+      "model_label": "gemini-3.8-flash-medium",
+      "summary": "Round 3 corrected the accent to tipcha; 1:2 ACCEPT_WITH_NOTE requiring the spirit alternative in a note."
+    },
+    {
+      "path": "data/model-reviews/v0.3.0/gpt.round2.json",
+      "model_label": "gpt-6.1-sol",
+      "summary": "Editorial selection; rejected the zaqef-qatan and construct-certainty claims (accent U+0596 tipcha); kept '께서'; rejected mechanical -어라/-으라 rule (selection nonetheless now reads '있으라')."
+    },
+    {
+      "path": "origin/claude/bible-cloud-pilot-g8bkcx:automation/cloud-reviews/20261023T154258Z-a305a9f8-gen1-difficult.json",
+      "model_label": "claude-opus-5-5 (Claude Code native cloud pilot, unadopted)",
+      "summary": "1:1 agree, optional 'En el principio'; 1:2 proposed '하나님의 영 / the spirit of God / el espíritu de Dios' with wind as alternative (Piel bird image Deut 32:11, Gen 41:38, Exod 31:3); 1:3 agree."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "verse": "Gen.1.1",
+      "topic": "accent evidence",
+      "finding": "Packet confirms tipcha on בְּרֵאשִׁית; the earlier zaqef-qatan claims (Claude v0.3.0 round 1, Gemini round 1) are wrong in fact, as GPT round 2 and Gemini round 3 already stated. Even correct accents are medieval reception and do not decide A vs B.",
+      "strength": "verified against packet"
+    },
+    {
+      "id": "F2",
+      "verse": "Gen.1.2",
+      "topic": "רוּחַ אֱלֹהִים",
+      "finding": "Clause-by-clause tests do not decide wind vs spirit: definiteness is neutral (אִישׁ־אֱלֹהִים 'a man of God'); the piel bird image (Deut 32:11) favors an animate-like agent; the wind-over-waters motif (Gen 8:1 וַיַּעֲבֵר אֱלֹהִים רוּחַ … וַיָּשֹׁכּוּ הַמָּיִם; Exod 14:21) favors wind; superlative reading is weakest. This run therefore does NOT join the pilot's request to flip the text to 'spirit'; it supports keeping the selection with a mandatory note, and records the pilot's opposite judgment as a genuine Claude-to-Claude disagreement.",
+      "strength": "main unresolved issue; editorial, not textual"
+    },
+    {
+      "id": "F3",
+      "verse": "Gen.1.2",
+      "topic": "תֹהוּ",
+      "finding": "'unformed / 형체 없이 / sin forma' leans toward shapelessness; usage (Isa 45:18, Jer 4:23, Deut 32:10) leans toward 'uninhabitable waste'. Not an error; a note-level nuance. Option: ko '황량하고 텅 비어', en 'a desolate emptiness' / 'waste and void', es 'desolada y vacía'.",
+      "strength": "lexical nuance; low priority"
+    },
+    {
+      "id": "F4",
+      "verse": "Gen.1.1",
+      "topic": "Spanish opening",
+      "finding": "'Al comienzo' is correct Spanish; 'En el principio' matches the English pattern and the established Spanish biblical idiom. Three Claude-labelled records (v0.3.0, pilot, this run) prefer it; GPT kept 'Al comienzo'. Optional, stylistic.",
+      "strength": "optional"
+    }
+  ],
+  "alternatives_tested": [
+    {
+      "verse": "Gen.1.1",
+      "clause": "בְּרֵאשִׁית בָּרָא אֱלֹהִים",
+      "options": [
+        {
+          "reading": "A independent / heading",
+          "ko": "태초에 하나님께서 하늘과 땅을 창조하셨다.",
+          "for": "MT pointing as finite perfect; reported ancient versions; heading function; 2:4b uses a different (infinitive) construction",
+          "against": "missing article on רֵאשִׁית; tension between created earth and its tohu state in 1:2 unless read as heading"
+        },
+        {
+          "reading": "B temporal clause (construct before finite verb)",
+          "ko": "하나님께서 하늘과 땅을 창조하기 시작하셨을 때, 땅은 … 하나님께서 말씀하셨다.",
+          "for": "construct + finite verb attested (Hos 1:2); explains missing article; resembles reported ANE \"when…\" openings",
+          "against": "requires 1:1–3 as one long sentence; finite בָּרָא rather than infinitive; MT tradition reads otherwise"
+        },
+        {
+          "reading": "C revocalized infinitive בְּרֹא",
+          "for": "smoothest Hebrew for B",
+          "against": "reconstruction only; not the attested vocalization in the packet — must not be presented as the text"
+        }
+      ]
+    },
+    {
+      "verse": "Gen.1.2",
+      "clause": "וְהָאָרֶץ הָיְתָה",
+      "options": [
+        {
+          "reading": "'was' (state)",
+          "for": "waw + subject + qatal = background",
+          "against": "none serious"
+        },
+        {
+          "reading": "'became' (gap theory)",
+          "for": "היה can mean become",
+          "against": "syntax of a circumstantial clause; inserts an unnarrated catastrophe — reception, not translation"
+        }
+      ]
+    },
+    {
+      "verse": "Gen.1.2",
+      "clause": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת",
+      "options": [
+        {
+          "reading": "wind of God (selected)",
+          "ko": "하나님의 바람",
+          "for": "concrete; scene of waters/darkness; Gen 8:1 wind over waters",
+          "against": "hovering image is bird-like; אֱלֹהִים is God elsewhere in chapter; may sound merely meteorological"
+        },
+        {
+          "reading": "spirit of God",
+          "ko": "하나님의 영",
+          "for": "same phrase elsewhere = spirit (Gen 41:38; Exod 31:3); bird image",
+          "against": "Korean 영 is heard as 성령 — later doctrinal specification; those parallels endow persons, a different domain"
+        },
+        {
+          "reading": "breath of God",
+          "ko": "하나님의 숨결",
+          "for": "bridges wind/spirit; links to the speech of 1:3 (cf. Ps 33:6, reported)",
+          "against": "less usual; still a choice of one sense"
+        },
+        {
+          "reading": "mighty/awesome wind",
+          "for": "superlative use of אֱלֹהִים exists",
+          "against": "Elohim is the actor throughout Gen 1; weakest"
+        }
+      ]
+    },
+    {
+      "verse": "Gen.1.3",
+      "clause": "יְהִי אוֹר וַיְהִי־אוֹר",
+      "options": [
+        {
+          "reading": "'있으라 / 있었다' (selected)",
+          "for": "preserves same-root echo",
+          "against": "none"
+        },
+        {
+          "reading": "'생겨라 / 생겼다', 'came to be'",
+          "for": "eventive nuance of היה",
+          "against": "breaks the visible echo; GPT round 1 form, already superseded"
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_view": "For 1:1 the strongest objection is the missing article plus the logical tension of 1:2: if 1:1 narrates a completed first act, why is the earth then 'waste and void'? Reading 1:1 as a heading answers it, but that is also an interpretation; reading B removes the tension at the cost of a long dependent sentence. For 1:2, the strongest objection to keeping 'wind' is that מְרַחֶפֶת describes a living, bird-like hovering, which a Korean reader hears more naturally of '영' than of '바람'.",
+  "preferred_wording": {
+    "Gen.1.1": {
+      "ko": "태초에 하나님께서 하늘과 땅을 창조하셨다.",
+      "en": "In the beginning, God created the heavens and the earth.",
+      "es": "Al comienzo, Dios creó los cielos y la tierra.",
+      "change": "none required",
+      "optional": "es 'En el principio, Dios creó los cielos y la tierra.' (F4)"
+    },
+    "Gen.1.2": {
+      "ko": "땅은 형체 없이 비어 있었고, 어둠이 깊음의 표면 위에 있었으며, 하나님의 바람이 물의 표면 위를 맴돌고 있었다.",
+      "en": "The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.",
+      "es": "La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.",
+      "change": "none",
+      "note_recommended_ko": "רוּחַ אֱלֹהִים은 바람·숨결·영을 모두 뜻할 수 있다. מְרַחֶפֶת(맴돌다)는 신 32:11에서 독수리가 새끼 위를 맴도는 동작에 쓰인다. תֹהוּ는 다른 곳에서 '사람이 살 수 없는 황무지'를 뜻한다."
+    },
+    "Gen.1.3": {
+      "ko": "하나님께서 말씀하셨다. “빛이 있으라.” 그러자 빛이 있었다.",
+      "en": "God said, “Let there be light.” And there was light.",
+      "es": "Dios dijo: «Que haya luz». Y hubo luz.",
+      "change": "none"
+    }
+  },
+  "final_opinion_ko": "세 절의 현행 채택문에 원문 오역은 없다. 1:1은 독립 도입문(표제적 기능 포함)을 유지하되 시간절 독법(B)을 강한 대안으로 계속 표시하고, 모음 재구성(בְּרֹא)은 증언된 본문이 아닌 재구성으로만 언급해야 한다. 1:2의 רוח אלהים은 절 단위 검사(한정성·최상급·동사 분사·병행 용례)로도 결정되지 않으므로, 이번 실행은 파일럿 Claude 검토의 '영' 전환 요청에 동참하지 않고 현행 '바람' + 필수 주석을 지지한다. 이는 Claude 표지 기록 사이의 실제 이견으로 보존한다. 1:3은 변경 불필요. 선택 사항: 1:1 스페인어 'En el principio', 1:2 תהו의 '황무지' 뉘앙스 주석.",
+  "confidence_limits": "Model-only review from pinned WLC/OSHB. No ancient-version, manuscript or reception text was read (network blocked); cited parallels are from model knowledge and should be checked against a concordance. No GPT/Gemini call, no human review, no consensus claimed.",
+  "reconsider_if": [
+    "An editor adopts reading B for 1:1 (then 1:1–3 punctuation must change together; 1:3 wording stays).",
+    "A verified lexicon/concordance check shows the piel רחף or the ruach-over-water motif points clearly one way.",
+    "Korean reader testing shows '하나님의 바람' is read as merely meteorological, or '하나님의 영' as necessarily 성령.",
+    "Verified ancient-version or Qumran evidence for a different reading of 1:1–3 is collated."
+  ],
+  "checks": {
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "source_file_hash": true,
+    "fragment_hash": true,
+    "rights_present": true,
+    "clauses_covered": "1:1: beginning / created / God / heavens / earth; 1:2: earth was / tohu wabohu / darkness over deep / ruach Elohim hovering over waters; 1:3: God said / jussive let there be light / fulfilment",
+    "original_vs_interpretation_separated": true,
+    "attribution": "Only saved records cited with stored model labels; no new GPT/Gemini call; no human review claimed.",
+    "state": true
+  },
+  "not_done": [
+    "No witness collation or ancient-version text read (network blocked).",
+    "Selected data, releases, dist and main not modified."
+  ],
+  "requires_before_adoption": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "Editorial selection with versioned archive",
+    "Publication checks"
+  ]
+}
