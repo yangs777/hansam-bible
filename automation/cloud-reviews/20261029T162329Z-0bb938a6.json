@@ -1,0 +1,305 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261029T162329Z-0bb938a6",
+  "unit_id": "gen-4-1",
+  "verse_ids": [
+    "Gen.4.1"
+  ],
+  "traditional_numbering_note": "OSIS Gen.4.1 = 전통 장절 창세기 4:1. 패킷 안에서 장절 차이는 보이지 않는다. 이 절에는 Qere/Ketiv, 단락 표지(פ/ס), 중첩 마크업이 없고 <seg type=\"x-maqqef\"> 세 개와 <seg type=\"x-sof-pasuq\"> 하나만 있으며 raw XML 그대로 보존했다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; not a Routine or Project per session metadata observed)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id 생략) 응답 2026-10-29T16:23Z 무렵: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high, origin=claude_code_cli, environment_kind=anthropic_cloud, tags에 routine/project 표시 없음, rate_limit_info.rateLimitType=ccr_promotional status=allowed. last_served_model은 조회 시점 직전 턴 기준이며 이후 턴이 같은 모델로 서빙되었다는 보증은 아니다.",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "not_exposed": [
+      "모델 스냅샷/버전 해시",
+      "이 실행의 토큰 사용량·modelUsage",
+      "크레딧 잔액, 차감액, 실제 과금 경로(ccr_promotional 표시는 rate-limit 분류일 뿐 잔액·차감 증거가 아님)",
+      "턴별 실제 서빙 모델의 전수 기록"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-29T16:23:29Z",
+    "claim_pushed": "2026-10-29T16:24Z (approximate; push 성공 확인)",
+    "independent_notes_written": "2026-10-29T16:24:44Z (data/decisions.json·data/model-reviews·다른 브랜치 초안을 열기 전, 패킷만 보고 작성. 패킷에 현행 채택문이 들어 있어 완전한 맹검은 아님)",
+    "earlier_records_opened": "2026-10-29T16:25Z (approximate)",
+    "review_saved": "2026-10-29T16:27:38+00:00"
+  },
+  "source": {
+    "packet": "automation/hard-review-packets/20261029T162329Z-0bb938a6.json",
+    "verses": [
+      {
+        "id": "Gen.4.1",
+        "raw_xml": "<verse osisID=\"Gen.4.1\">\n          <w lemma=\"c/d/120\" n=\"1.1\" morph=\"HC/Td/Ncmsa\" id=\"01L3V\">וְ/הָ֣/אָדָ֔ם</w>\n          <w lemma=\"3045\" n=\"1.0\" morph=\"HVqp3ms\" id=\"01Nkc\">יָדַ֖ע</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"018qm\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2332\" morph=\"HNp\" id=\"01XRb\">חַוָּ֣ה</w>\n          <w lemma=\"802\" n=\"1\" morph=\"HNcfsc/Sp3ms\" id=\"01AkY\">אִשְׁתּ֑/וֹ</w>\n          <w lemma=\"c/2029\" n=\"0.2.0\" morph=\"HC/Vqw3fs\" id=\"01e5T\">וַ/תַּ֨הַר֙</w>\n          <w lemma=\"c/3205\" morph=\"HC/Vqw3fs\" id=\"01MGG\">וַ/תֵּ֣לֶד</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"016q3\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7014 b\" n=\"0.2\" morph=\"HNp\" id=\"01MDa\">קַ֔יִן</w>\n          <w lemma=\"c/559\" n=\"0.1\" morph=\"HC/Vqw3fs\" id=\"01WBd\">וַ/תֹּ֕אמֶר</w>\n          <w lemma=\"7069\" morph=\"HVqp1cs\" id=\"01jGt\">קָנִ֥יתִי</w>\n          <w lemma=\"376\" n=\"0.0\" morph=\"HNcmsa\" id=\"01tyS\">אִ֖ישׁ</w>\n          <w lemma=\"854\" morph=\"HR\" id=\"01k6N\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"01mY8\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "639d1469a5e7f80f1c223bd05b782b93baffc4523d703f989b6ab1b82ee36243",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected_in_packet": [
+      {
+        "source": "Gen.4.1",
+        "id": "HYB.GEN.004.001",
+        "number": 1,
+        "ko": "그 사람이 자기 아내 하와와 동침하니, 하와가 임신하여 가인을 낳았다. 그 여자가 말했다. “내가 야훼의 도움으로 남자아이를 얻었다.”",
+        "en": "The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”",
+        "es": "El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».",
+        "translation_status": "ai_assisted_draft",
+        "review_status": "human_specialist_pending",
+        "source_basis": "Pinned MT-WLC display; no full independent manuscript collation",
+        "project_author": "Hansam Yang",
+        "editorial_license": "CC-BY-4.0 to the extent rights are held",
+        "selection_status": "current_best_provisional",
+        "selection_version": "0.4.13"
+      }
+    ]
+  },
+  "independent_initial_reading": {
+    "method_note": "아래는 패킷의 raw XML과 OSHB 태그만 보고 세운 독해다. 사본·역본 대조는 하지 않았다. 고대 역본·주석 전통 언급은 모두 기억에 의한 보고이며 이번 실행에서 확인되지 않았다(network_access_log 참조).",
+    "Gen.4.1": {
+      "markup": "וְ/הָ֣/אָדָ֔ם … אֶת<seg type=\"x-maqqef\">־</seg>חַוָּ֣ה … אֶת<seg type=\"x-maqqef\">־</seg>קַ֔יִן … אֶת<seg type=\"x-maqqef\">־</seg>יְהוָֽה<seg type=\"x-sof-pasuq\">׃</seg>. 아트나흐는 אִשְׁתּ֑וֹ에 있어 '그 사람이 하와를 앎'과 '임신·출산·발화'를 나눈다. 자켑은 קַ֔יִן과 הָ֣/אָדָ֔ם에 있다. 악센트는 낭독·구분 표지이며 의미를 확정하는 증거로 쓰지 않는다.",
+      "clauses": [
+        {
+          "clause": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ",
+          "syntax": "와우 + 관사 붙은 명사 주어 + Qal 완료(x-qatal). 3:22–24의 와이크톨 연쇄를 끊고 주어를 앞세운다. 새 단락의 주제 전환(3:22–24의 주어는 야훼 하나님)으로 읽는 것이 가장 단순하다. 대과거('알았었다', 추방 이전)는 문법상 가능하지만 이 어순만으로 강제되지 않는다.",
+          "lexical": "יָדַע은 성관계 완곡어법. 2:9·2:17·3:5·3:7·3:22의 '앎' 모티프와 같은 어근이라는 점은 문학적 연결(해석)이지 원문이 명시한 의미는 아니다. הָאָדָם은 관사가 있어 '그 사람'; 4:25의 관사 없는 אָדָם과 구별된다(4:25는 패킷 밖)."
+        },
+        {
+          "clause": "וַתַּהַר",
+          "syntax": "Qal 와이크톨 3fs",
+          "lexical": "임신하다"
+        },
+        {
+          "clause": "וַתֵּלֶד אֶת־קַיִן",
+          "syntax": "Qal 와이크톨 3fs + 목적어 표지(OSHB 853)",
+          "lexical": "가인을 낳다"
+        },
+        {
+          "clause": "וַתֹּאמֶר",
+          "syntax": "Qal 와이크톨 3fs; 화자는 하와(앞 절 주어 연속)",
+          "lexical": "말하다"
+        },
+        {
+          "clause": "קָנִיתִי אִישׁ אֶת־יְהוָה",
+          "syntax": "Qal 완료 1cs + 관사 없는 남성 단수 명사 + אֶת־יְהוָה. OSHB는 이 אֶת를 854(전치사 '함께')로, 같은 절의 앞 두 אֶת를 853(목적어 표지)으로 태그했다. 이 구분은 OSHB의 분석층(CC BY 4.0)이지 자음·모음 본문 자체의 표지가 아니다. 세 אֶת는 모두 같은 자음·모음 꼴이다.",
+          "lexical": "קָנָה: 기본 '얻다/획득하다'; '만들다/낳다' 의미는 일부 본문(14:19·22 등)에서 논란. קַיִן–קָנִיתִי는 소리 말놀이이며 학문적 어원 주장이 아니다. אִישׁ: 갓난아이에게 쓴 것이 이례적(보통 בֵּן/זָכָר). 2:23의 מֵאִישׁ와 같은 단어라는 점은 확인 가능한 어휘 사실이고, '여자가 남자에게서 나왔듯 이제 여자가 남자를 낳았다'는 역전은 문학적 해석이다."
+        }
+      ],
+      "question_types": {
+        "lexical": "קָנָה의 의미 폭(얻다/만들다), אִישׁ의 신생아 지칭, יָדַע 완곡어법.",
+        "syntactic": "אֶת־יְהוָה의 기능: (a) 전치사 동반·도움 '야훼와 함께/야훼의 도움으로'(OSHB 태그), (b) 목적어 표지로 보아 אִישׁ와 동격 '한 남자, 곧 야훼', (c) '야훼처럼/야훼와 대등하게'(창조적 협력) 독법. 문두 x-qatal의 시점.",
+        "discourse": "새 단락 시작과 주제 전환; 하와 발화의 수사(감사·자부·협력 주장 중 무엇인지 본문은 말하지 않음).",
+        "textual_variant": "패킷에는 이 절의 이독 정보가 없다. 'מֵאֵת(~에게서)'로 고치자는 식의 제안은 재구성(emendation)이며 증언으로 확인된 독법으로 취급하지 않는다. 미해결.",
+        "historical": "고대 근동 출산 명명 관습과의 비교는 패킷 밖이며 미확인.",
+        "reception": "칠십인역·불가타·타르굼 옹켈로스가 대체로 도구/출처 의미('하나님을 통해/말미암아', '야훼 앞에서')로 옮겼다는 것, 라시의 대과거 독법, 루터의 동격 독법은 기억에 의한 보고일 뿐 이번 실행에서 원문 확인 실패(Sefaria 403). 수용사이지 원문 증거가 아니다."
+      },
+      "initial_proposal": {
+        "ko": "그 사람이 자기 아내 하와와 동침하니, 하와가 임신하여 가인을 낳았다. 그 여자가 말했다. “내가 야훼와 함께 남자아이를 얻었다.”",
+        "en": "The man knew Eve his wife, and she conceived and bore Cain. She said, “I have acquired a man with YHWH.”",
+        "es": "El hombre conoció a Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con YHWH»."
+      }
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json + data/decisions.json (HYB.GEN.004.001, selection_version 0.4.13)",
+      "model_label": "editorial selection (current_best_provisional; human_specialist_pending)",
+      "text": {
+        "ko": "그 사람이 자기 아내 하와와 동침하니, 하와가 임신하여 가인을 낳았다. 그 여자가 말했다. “내가 야훼의 도움으로 남자아이를 얻었다.”",
+        "en": "The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”",
+        "es": "El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH»."
+      },
+      "summary_ko": "BDB 854 '도움' 용례에 따라 '야훼의 도움으로' 선택. 반론란에 '도움 명사는 원문에 없음', '남자아이는 신생아 문맥의 선택', 함께·목적격·동격 대안, 추방 전후 시점·신적 동일시 비첨가를 이미 기록함."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/gpt-genesis3-end4-1.round1.json / round2.json",
+      "model_label": "gpt-6.1-sol (record label)",
+      "summary_ko": "round1 번역이 현행 채택문과 동일. round2 verdict current_best_provisional_after_comparison: '도움'과 '남자아이'가 해석적 선택임을 명시하고 유지."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/gemini-genesis3-end4-1.round1.json / round2.json",
+      "model_label": "gemini-3.8-flash-medium (record label)",
+      "summary_ko": "round1: ko '여호와와 함께[또는 … 도우심으로 / … 통해] 남자를', en 'knew … a man with [the help of] Yahweh', es 'conoció … con [la ayuda de] Yahvé'. OSHB 전치사 태그를 '후대 편집자의 해석적 분류'로 명시. round2: 현행 채택문 '채택(Acceptable)', 단 אִישׁ 직역 유지 요구와 목적격 대안 각주 반론을 기록. 루터 관련 주장은 editorial_caution에서 미검증으로 처리됨."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/claude-code-genesis3-end4-1.round1.json",
+      "model_label": "claude-opus-5-5 (Claude Code CLI record; 이 세션과 별개 실행)",
+      "summary_ko": "ko '하와를 알았다 … 야훼와 함께 한 남자를', en 'knew … I have gotten a man with YHWH', es 'conoció … un varón con YHWH'. 직역·모호성 보존을 지지하되 '알았다'의 한국어 전달력 반론을 스스로 기록."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/claude-cloud-genesis3-end4-1-evidence.json = origin/claude/friendly-heisenberg-o4rtc0:automation/cloud-drafts/20261023T211759Z-ff69750f.json",
+      "model_label": "Claude Code native cloud (unadopted_model_draft, 2026-10-23)",
+      "summary_ko": "ko '주와 함께 한 사람을', en 'knew … a man with the LORD', es 'conoció … con el SEÑOR'. 신명을 '주/LORD/SEÑOR'로 옮겨 현행 프로젝트 표기(야훼/YHWH)와 다름."
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/genesis3-end4-1-lexical-evidence.json",
+      "model_label": "editor-read digital BDB entries (2026-10-27 기록)",
+      "summary_ko": "BDB 7069 'get, acquire'(만들다 의미는 배타적 규칙 아님), BDB 854 'with the help of'가 4:1을 예외적 용례로 든다고 기록. 이 세션은 BDB를 직접 다시 읽지 않았다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "다섯 기존 기록 모두 אֶת־יְהוָה를 전치사로 읽었고, 목적격·동격 독법을 본문으로 채택한 기록은 없다. 이 세션도 같다. 이는 독립적 합의가 아니라 같은 OSHB 태그를 입력으로 받은 결과일 수 있다.",
+    "기존 기록의 실제 차이는 세 군데다: (1) '도움'을 보충하느냐(GPT·현행) 맨 '함께/with'로 두느냐(Claude CLI·Claude cloud, Gemini는 괄호 병기); (2) אִישׁ를 'male child/남자아이'(현행)로 하느냐 'a man/한 남자'(Gemini·Claude)로 하느냐; (3) יָדַע를 'lay with/동침'(현행)으로 하느냐 'knew/conoció/알았다'로 하느냐.",
+    "편집 일관성 발견: 같은 장 4:17의 현행 채택문은 같은 동사 יָדַע를 en 'had relations with', es 'tuvo relaciones con'으로 옮겼는데 4:1은 en 'lay with', es 'se acostó con'이다. ko는 둘 다 '동침하니'로 일관된다. 4:25(아직 미채택)를 옮기기 전에 en/es 표기 정책을 하나로 정할 필요가 있다.",
+    "편집 일관성 발견: 2:23 현행 en은 מֵאִישׁ를 'from man', es는 'del varón', ko는 '남자에게서'로 옮겼다. 4:1 es 'un varón'과 ko '남자아이'는 이 어휘 연결을 어느 정도 유지하지만, en 'a male child'는 'man' 연결을 끊는다."
+  ],
+  "alternatives": [
+    {
+      "clause": "אֶת־יְהוָה",
+      "option": "야훼의 도움으로 / with YHWH’s help / con la ayuda de YHWH (현행)",
+      "for": "편집자가 읽은 BDB 854가 이 절을 '도움' 용례로 든다고 기록됨; 독자에게 가장 분명함.",
+      "against": "'도움'은 원문에 없는 명사를 보충한 것이다. 영어 'with'와 스페인어 'con'은 원래 동반·도구 의미 폭을 함께 지니므로 보충 없이도 자연스럽다.",
+      "verdict": "ko는 유지, en/es는 맨 전치사를 선호(선택적 수정)"
+    },
+    {
+      "clause": "אֶת־יְהוָה",
+      "option": "야훼와 함께 / with YHWH / con YHWH",
+      "for": "OSHB 854 태그의 가장 직접적인 번역; 도움·동반·협력 해석을 열어 둔다.",
+      "against": "한국어 '함께'는 동반·공동 주체 쪽으로 좁아져, 히브리어보다 오히려 '야훼와 공동으로 만들었다'는 해석을 더 강하게 암시한다. 영어·스페인어에서는 이 문제가 덜하다.",
+      "verdict": "en/es 선호; ko는 대안 각주"
+    },
+    {
+      "clause": "אֶת־יְהוָה",
+      "option": "야훼로 말미암아 / through YHWH",
+      "for": "새 명사 없이 도구·원인 의미를 나타낸다; 기억상 일부 고대 역본 수용과 방향이 같다(미확인).",
+      "against": "모호성을 도구 의미로 해소한다는 점에서 '도움으로'와 같은 수준의 해석이고, 현행보다 낫다는 원문 근거가 없다.",
+      "verdict": "대안 각주"
+    },
+    {
+      "clause": "אֶת־יְהוָה",
+      "option": "한 남자, 곧 야훼를 얻었다 (목적어 표지·동격)",
+      "for": "같은 절 앞 두 אֶת가 목적어 표지이며 꼴이 같다; 해석사에 존재.",
+      "against": "OSHB 태그와 다르다; 남편이 아내를 알고 임신했다는 앞 절, 4:2 이하 가인 서사와 맞지 않으며 아이에게 신적 정체성을 부여한다; 동격 구문으로서도 어순이 어색하다.",
+      "verdict": "비채택, 해석사 각주"
+    },
+    {
+      "clause": "אֶת־יְהוָה",
+      "option": "야훼처럼/야훼와 대등하게 남자를 지어냈다",
+      "for": "קָנָה의 '만들다' 의미 및 1–2장 창조 문맥과 연결.",
+      "against": "אֵת를 비교·대등으로 읽는 근거가 이 패킷 안에 없다; קָנָה '만들다'도 논란이다.",
+      "verdict": "비채택, 해석 대안"
+    },
+    {
+      "clause": "קָנִיתִי",
+      "option": "얻었다/acquired/adquirido (현행 유지) 대 만들었다·낳았다/produced/he producido",
+      "for": "'얻다'는 기본 의미이며 가인 말놀이를 각주로 보존하기 쉽다.",
+      "against": "'만들다'를 택하면 창조 문맥 반향이 강해지지만 의미 논란을 본문에 고정한다.",
+      "verdict": "현행 유지"
+    },
+    {
+      "clause": "אִישׁ",
+      "option": "남자아이/male child (현행) 대 남자·한 남자/a man/un varón",
+      "for": "'a man'은 2:23 'from man'과의 어휘 연결과 이례성을 보존한다; es 'un varón'은 이미 그렇게 한다.",
+      "against": "신생아에게 'a man'은 영어에서 어색하다; 한국어 '남자를 얻었다/한 남자를 얻었다'는 배우자를 얻었다는 뜻으로 오해될 수 있다.",
+      "verdict": "en은 'a man' 선호, ko '남자아이'·es 'un varón' 유지"
+    },
+    {
+      "clause": "יָדַע",
+      "option": "동침하다/lay with/se acostó con (현행) 대 알았다/knew/conoció",
+      "for": "en 'knew'·es 'conoció'는 알려진 성경식 완곡어법이며 바로 뒤 '임신하여'가 의미를 분명히 한다; '앎' 모티프 연결 유지.",
+      "against": "현대 독자에게 'knew'는 고어적이다; 한국어 '알았다'는 성적 의미가 전달되지 않는다.",
+      "verdict": "en/es 'knew/conoció' 약한 선호; ko '동침하니' 유지; 어느 쪽이든 4:17·4:25와 통일 필요"
+    },
+    {
+      "clause": "וְהָאָדָם יָדַע",
+      "option": "단순 과거 대 대과거('알았었다')",
+      "for": "대과거는 추방 전 임신 해석을 가능하게 한다.",
+      "against": "x-qatal 어순은 새 단락·주제 전환으로 충분히 설명되며 대과거를 강제하지 않는다; 4:17 וַיֵּדַע와의 차이도 주어 전환으로 설명 가능.",
+      "verdict": "단순 과거 유지"
+    }
+  ],
+  "strongest_objection_to_own_reading": "이 검토는 en/es에서 '도움(help/ayuda)'을 빼자고 하면서 ko에서는 '도움으로'를 유지한다. 가장 강한 반론은 이것이 언어별로 다른 해석을 본문에 넣는 비일관성이라는 점이다: 한국어 독자는 '도움'으로, 영어·스페인어 독자는 열린 'with/con'으로 읽게 된다. 답변: 영어 'with'·스페인어 'con'은 히브리어 אֵת와 비슷하게 동반·도구 의미 폭을 가지므로 보충 없이 원문의 모호성을 옮길 수 있지만, 한국어에는 그 폭을 함께 가진 조사가 없어 어느 쪽이든 해석을 골라야 한다. 그렇다면 BDB가 지지한다고 기록된 '도움' 쪽을 고르는 현행이 '함께'(공동 주체 암시)보다 덜 위험하다. 두 번째 반론: en 'a man'은 신생아 문맥에서 어색하고 '배우자를 얻었다'로 오해될 수 있다. 답변: 바로 앞에 '가인을 낳았다'가 있어 오해 가능성은 낮고, 어색함은 히브리어 자체의 이례성이다. 세 번째 반론: 이 세션도 같은 OSHB 854 태그를 입력으로 받았으므로 전치사 독법에 대한 '합의'는 독립 증거가 아니다.",
+  "preferred_wording": {
+    "Gen.4.1": {
+      "ko": "그 사람이 자기 아내 하와와 동침하니, 하와가 임신하여 가인을 낳았다. 그 여자가 말했다. “내가 야훼의 도움으로 남자아이를 얻었다.”",
+      "en": "The man knew Eve his wife, and she conceived and bore Cain. She said, “I have acquired a man with YHWH.”",
+      "es": "El hombre conoció a Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con YHWH».",
+      "change_from_current": {
+        "ko": "변경 없음 (현행 유지)",
+        "en": "'lay with' → 'knew' (약한 선호, 4:17과 통일 조건), 'a male child' → 'a man', 'with YHWH’s help' → 'with YHWH'",
+        "es": "'se acostó con' → 'conoció' (약한 선호, 4:17과 통일 조건), 'con la ayuda de YHWH' → 'con YHWH'"
+      },
+      "footnote_proposal_ko": "‘얻었다’(카니티)는 이름 ‘가인’(카인)과 소리가 비슷한 말놀이다(학문적 어원 주장 아님). ‘야훼의 도움으로’는 히브리어 ‘에트 야훼’(직역: 야훼와 함께)를 풀어 옮긴 것이며 ‘도움’이라는 낱말은 원문에 없다. 이 ‘에트’를 목적어 표지로 보아 ‘한 남자, 곧 야훼’로 읽는 해석사도 있으나 본문 번역으로 채택하지 않았다. ‘남자아이’로 옮긴 말은 2:23의 ‘남자’(이쉬)와 같은 낱말이다."
+    }
+  },
+  "editorial_consistency_finding": "4:1(en 'lay with', es 'se acostó con')과 4:17(en 'had relations with', es 'tuvo relaciones con')의 יָדַע 번역이 다르다. 4:25를 옮기기 전에 en/es 한 가지로 정할 것을 권한다(이 검토는 현행 채택문을 바꾸지 않는다). 신명은 4:1 현행이 ko '야훼', en/es 'YHWH'로 프로젝트 표기와 일치하며, 2026-10-23 cloud 초안의 '주/LORD/SEÑOR'는 이 정책과 다르므로 채택 근거로 쓰지 말아야 한다.",
+  "final_opinion_ko": "현행 채택문(v0.4.13)에 교체가 필요한 오역은 없다. 한국어는 그대로 유지할 것을 권한다. 영어·스페인어는 선택적 수정을 권한다: (1) 'with YHWH’s help/con la ayuda de YHWH'의 보충 명사를 빼고 'with YHWH/con YHWH'로 원문의 모호성을 보존, (2) 영어 'a male child'를 'a man'으로 바꿔 אִישׁ의 이례성과 2:23 연결 보존, (3) יָדַע는 'knew/conoció'를 약하게 선호하되 핵심은 4:17·4:25와의 통일이다. 목적격·동격 독법과 대과거 독법은 각주 대안으로만 남긴다. 이 의견은 채택되지 않은 모델 검토이며 GPT·Gemini 독립 검토, 공식 agy 검토, 버전별 편집 채택 없이는 공개 본문을 바꾸지 않는다.",
+  "confidence_limits": [
+    "사본·고대 역본 대조 없음. 칠십인역·불가타·옹켈로스·라시·루터에 관한 언급은 모두 기억에 의한 보고이며 이번 실행에서 확인하지 못했다(Sefaria 403).",
+    "OSHB의 אֶת 854/853 구분을 입력으로 받았다. 이 태그는 해석적 분석이며 이 세션의 전치사 독법은 그 태그와 독립적이지 않다.",
+    "BDB 854·7069 내용은 저장소의 편집자 기록(2026-10-27)을 통해서만 알고 있으며 이 세션이 직접 다시 읽지 않았다.",
+    "한국어·영어·스페인어 모국어 화자 검토 없음. 'knew' 선호와 '한 남자' 오해 가능성 판단은 모델의 언어 감각이다.",
+    "패킷에 현행 채택문이 포함되어 있어 독립 독해가 완전한 맹검은 아니다."
+  ],
+  "reconsider_if": [
+    "편집진이 en/es에서 יָדַע 표기를 'lay with'나 'had relations with'로 통일하기로 하면 'knew' 제안은 철회하고 그 정책을 따른다.",
+    "영어 모국어 검토에서 'acquired a man'이 배우자 획득으로 오해된다는 결과가 나오면 'a male child' 현행 유지 또는 'a man-child' 같은 대안을 다시 검토한다.",
+    "한국어 독자 검토에서 '야훼의 도움으로'가 '함께' 독법을 지나치게 배제한다는 의견이 나오면 '야훼와 함께'를 본문에, '도움으로'를 각주에 두는 방안을 다시 검토한다.",
+    "검증된 고대 역본 원문이나 사본 자료에서 אֶת־יְהוָה 대신 다른 전치사(예: מֵאֵת)를 반영하는 증언이 확인되면 본문비평 각주를 추가하고 번역을 재검토한다.",
+    "BDB 이외의 검증된 문법 자료가 אֵת의 '도움' 용례를 이 절 외에서 확인하지 못하거나, 반대로 동격 목적어 독법을 문법적으로 뒷받침하면 대안 순위를 재검토한다."
+  ],
+  "unresolved": [
+    "אֶת־יְהוָה의 정확한 기능(도움·동반·출처·협력)은 원문만으로 확정되지 않는다.",
+    "קָנָה '만들다' 의미의 성립 여부.",
+    "문두 x-qatal이 대과거를 뜻하는지 여부.",
+    "이 절의 고대 역본·사본 이독 여부: 이번 실행에서 확인 불가."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Onkelos_Genesis.4.1",
+      "accessed_utc": "2026-10-29T16:24:49Z",
+      "result": "curl: (56) CONNECT tunnel failed, response 403 (session network policy). No excerpt obtained."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Rashi_on_Genesis.4.1",
+      "accessed_utc": "2026-10-29T16:24:49Z",
+      "result": "curl: (56) CONNECT tunnel failed, response 403. No excerpt obtained."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Genesis.4.1?version=hebrew",
+      "accessed_utc": "2026-10-29T16:24:49Z",
+      "result": "curl: (56) CONNECT tunnel failed, response 403. No excerpt obtained."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "manuscript or ancient-version collation",
+    "human or specialist review",
+    "any GPT/Gemini response beyond the saved repository records quoted above",
+    "unanimous agreement",
+    "credit balance or deduction",
+    "adoption or publication"
+  ],
+  "checks": {
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "fragment_hash_matches_packet": true,
+    "source_file_hash_matches_pinned": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "raw_xml_verbatim_in_pinned_source": true,
+    "qere_ketiv_present": false,
+    "clause_coverage": {
+      "Gen.4.1": "independent reading, alternatives and preferred wording cover all five clauses: וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ / וַתַּהַר / וַתֵּלֶד אֶת־קַיִן / וַתֹּאמֶר / קָנִיתִי אִישׁ אֶת־יְהוָה"
+    },
+    "original_vs_interpretation_separated": true,
+    "attribution": "Only this session (Claude Code cloud) authored the proposals; earlier GPT/Gemini/Claude texts are quoted from saved repository records with their own model labels.",
+    "self_check_is_not_independent_review": true
+  }
+}
