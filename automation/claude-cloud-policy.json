@@ -1,7 +1,7 @@
 {
   "provider": "Claude Code native cloud sessions",
-  "enabled": false,
-  "pause_reason": "2026-10-29 correction: promotional cloud credit explicitly excludes Projects and Routines. Pause routine and verify a standalone cloud session before resuming.",
+  "enabled": true,
+  "pause_reason": null,
   "routine_credit_eligible": false,
   "credit_terms_source": "https://support.claude.com/en/articles/17152539-cloud-sessions-bonus-credit-promotion",
   "required_execution_path": "standalone Claude Code cloud session outside Projects and Routines",
@@ -16,7 +16,7 @@
   "max_task_minutes": 45,
   "cadence_hours": 1,
   "allowed_repository": "yangs777/hansam-bible",
-  "output_state": "unadopted_model_draft",
+  "output_state": "unadopted_model_review",
   "publication_requires": [
     "GPT review",
     "Gemini review",
@@ -27,7 +27,7 @@
   "budget_control_limitations": "Native cloud credit applies automatically. There is no implemented API budget meter for this credit type. Date and batch limits bound useful work; account credit snapshots are monitored separately. After credit expiry/exhaustion the provider may use included plan quota. No purchases or billing changes are authorized.",
   "native_routine_id": "trig_01VW932QoUaCXcDuaktx5PCG",
   "native_routine_url": "https://claude.ai/code/routines/trig_01VW932QoUaCXcDuaktx5PCG",
-  "verified_schedule": "Every hour, Asia/Seoul, minute 17; UI verified 2026-10-29",
+  "verified_schedule": "Old native Bible Routine paused via official CLI; it must remain paused",
   "first_scheduled_run_kst": "2026-10-24T06:17:00+09:00",
   "pilot_session_url": "https://claude.ai/code/session_01YLZBVxSpc25Wrr9AYnunuh",
   "pilot_model_ui": "Opus 5.5 high",
@@ -37,7 +37,11 @@
   "review_queue": "automation/hard-review-queue.json",
   "max_review_units_per_run": 1,
   "max_review_verses_per_run": 20,
-  "authorization_updated": "2026-10-29",
+  "authorization_updated": "2026-10-30",
   "priority": "Existing difficult verses, then likely difficult upcoming passages; preserve useful unadopted dossiers",
-  "review_model_ui": "Opus 5.5"
+  "review_model_ui": "Opus 5.5",
+  "require_standalone_cloud_marker": true,
+  "native_routine_enabled": false,
+  "projects_credit_eligible": false,
+  "execution_mode": "standalone_cloud_only"
 }

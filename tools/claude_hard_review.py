@@ -47,13 +47,15 @@ def claimed_units():
     return claimed, sorted(set(active))
 
 
-def prepare(check_only=False):
+def prepare(check_only=False, standalone_cloud=False):
     policy = read(R / 'automation/claude-cloud-policy.json')
     now = dt.datetime.now(dt.timezone.utc)
     if not policy['enabled'] or now >= dt.datetime.fromisoformat(policy['stop_new_translation_at']):
         raise SystemExit('Hard-review policy disabled or past stop time')
     if policy['new_cash_budget_usd'] != 0:
         raise SystemExit('Unexpected cash policy')
+    if policy.get('require_standalone_cloud_marker') and not standalone_cloud:
+        raise SystemExit('Standalone cloud launch required; Routine/Project/local execution is not authorized')
     queue = read(R / 'automation/hard-review-queue.json')['units']
     ids = [unit['id'] for unit in queue]
     if len(ids) != len(set(ids)):
@@ -111,7 +113,9 @@ def prepare(check_only=False):
     if not check_only:
         manifest = {'run_id': run_id, 'unit_id': unit['id'], 'verse_ids': refs,
                     'created_at': now.isoformat(), 'status': 'claimed_pending_review',
-                    'source_packet': packet_path, 'state': 'unadopted_model_review'}
+                    'source_packet': packet_path, 'state': 'unadopted_model_review',
+                    'execution_path_declared': 'standalone_cloud' if standalone_cloud else 'legacy_unspecified',
+                    'execution_marker_is_billing_proof': False}
         for rel, value in [(packet_path, packet), (f'automation/hard-review-runs/{run_id}.json', manifest)]:
             dest = R / rel
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -123,4 +127,6 @@ def prepare(check_only=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--check', action='store_true', help='Validate first pending unit without claiming it')
-    prepare(parser.parse_args().check)
+    parser.add_argument('--standalone-cloud', action='store_true', help='Caller marker for a controller-launched standalone cloud session; not proof of billing')
+    args = parser.parse_args()
+    prepare(args.check, args.standalone_cloud)
