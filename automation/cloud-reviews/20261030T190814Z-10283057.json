@@ -1,0 +1,1153 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T190814Z-10283057",
+  "unit_id": "gen-25-21-26",
+  "verse_ids": [
+    "Gen.25.21",
+    "Gen.25.22",
+    "Gen.25.23",
+    "Gen.25.24",
+    "Gen.25.25",
+    "Gen.25.26"
+  ],
+  "unit_issue_ko": "큰/작은 자 섬김의 방향·태중 민족·발꿈치 어원",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.25.21-26 = 전통 장절 창세기 25:21-26(한국어·영어·스페인어 성경 공통; KRV/ASV/RV1909 라이브러리 파일 같은 번호 확인). 칠십인역 OCR도 1.25.21-1.25.26. 참고 평행 Hos.12.4(히브리어 번호)는 개역·ASV 12:3에 해당한다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml (copied byte-for-byte from the claim packet by script). Hebrew in clause labels and excerpts is a derived display (see excerpt_form) and is not source text.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T19:09Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The system prompt of this session also names claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVFmFWboyDjKkXQaVYX",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is service metadata only; no balance, dollar amount or per-run credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ],
+    "identity_rechecked": "2026-10-30T19:16:00Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional allowed)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Gen.25.21",
+      "clauses": [
+        {
+          "hebrew_display": "וַיֶּעְתַּר יִצְחָק לַיהוָה לְנֹכַח אִשְׁתּוֹ",
+          "kind": "lexical",
+          "reading_ko": "עתר 칼형 = 간구하다. לְנֹכַח는 본래 ‘맞은편/앞’(창 30:38 공간 용례)이나 기도 동사와 함께 ‘~을 위하여/~에 관하여’로 읽는 것이 우세."
+        },
+        {
+          "hebrew_display": "כִּי עֲקָרָה הִוא",
+          "kind": "syntactic",
+          "reading_ko": "명사문 이유절: 그녀는 아이를 낳지 못하는 여자(상태)였다."
+        },
+        {
+          "hebrew_display": "וַיֵּעָתֶר לוֹ יְהוָה וַתַּהַר רִבְקָה אִשְׁתּוֹ",
+          "kind": "lexical/discourse",
+          "reading_ko": "같은 어근 니팔(간구를 받아들이다)로 칼형과 짝. 25:20(40세)과 25:26(60세) 사이 20년 공백은 서사 정보이지 본문 이문이 아니다."
+        }
+      ]
+    },
+    {
+      "id": "Gen.25.22",
+      "clauses": [
+        {
+          "hebrew_display": "וַיִּתְרֹצֲצוּ הַבָּנִים בְּקִרְבָּהּ",
+          "kind": "lexical",
+          "reading_ko": "רצץ(짓누르다/부수다) 히트폴렐 상호형 = 서로 짓누르다. ‘다투다’보다 물리적. הַבָּנִים은 서술자의 선취 표현(아들들/아이들)."
+        },
+        {
+          "hebrew_display": "וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי",
+          "kind": "syntactic/ellipsis",
+          "reading_ko": "לָמָּה זֶּה의 זֶּה는 의문사 강조 접어(창 18:13 같은 구성). 남는 것은 술어 없는 ‘왜 나?’ 명사문. 보충 술어 후보: (A) 이러한가 (B) 사는가 (C) (이것을) 구했는가 (D) 이것이 내게 일어나는가. 최소 보충 A 선호, 미해결 표시."
+        },
+        {
+          "hebrew_display": "וַתֵּלֶךְ לִדְרֹשׁ אֶת־יְהוָה",
+          "kind": "historical",
+          "reading_ko": "דרש את־יהוה = 신탁을 구하다. 장소·매개자 언급 없음; 번역에서 보충하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "Gen.25.23",
+      "clauses": [
+        {
+          "hebrew_display": "וַיֹּאמֶר יְהוָה לָהּ",
+          "kind": "discourse",
+          "reading_ko": "신탁 도입. 이하 4행 시문."
+        },
+        {
+          "hebrew_display": "שְׁנֵי גיים [K] / גוֹיִם [Q] בְּבִטְנֵךְ",
+          "kind": "textual (Ketiv/Qere)",
+          "reading_ko": "Ketiv גיים(바브 없음, 요드 둘)·Qere גוֹיִם. 번역은 Qere ‘민족들’. Ketiv를 다른 낱말로 읽는 후대 해석은 수용사이며 이 세션에서 확인하지 못함."
+        },
+        {
+          "hebrew_display": "וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ",
+          "kind": "lexical/syntactic",
+          "reading_ko": "בֶּטֶן ∥ מֵעִים 평행. 니팔 יִפָּרֵדוּ = 갈라지다/나뉘다. 아트나흐가 이 행 끝."
+        },
+        {
+          "hebrew_display": "וּלְאֹם מִלְאֹם יֶאֱמָץ",
+          "kind": "syntactic",
+          "reading_ko": "מִן 비교: 한 백성이 다른 백성보다 강하다."
+        },
+        {
+          "hebrew_display": "וְרַב יַעֲבֹד צָעִיר",
+          "kind": "syntactic/lexical",
+          "reading_ko": "אֶת 없음. 기본 어순 주어-동사-목적어 = 큰 자가 작은 자를 섬긴다. 목적어 전치(작은 자가 큰 자를 섬긴다)는 문법상 배제 못 하나 앞 행 주어-선행 평행과 맞지 않음. רַב은 창세기의 통상 쌍 בְּכוֹר/צָעִיר과 다른 낱말(크다/많다) → 세 언어에서 ‘크기·나이’ 양쪽을 담는 말 선택."
+        }
+      ]
+    },
+    {
+      "id": "Gen.25.24",
+      "clauses": [
+        {
+          "hebrew_display": "וַיִּמְלְאוּ יָמֶיהָ לָלֶדֶת",
+          "kind": "lexical",
+          "reading_ko": "해산할 날이 차다."
+        },
+        {
+          "hebrew_display": "וְהִנֵּה תוֹמִם בְּבִטְנָהּ",
+          "kind": "discourse/orthographic",
+          "reading_ko": "הִנֵּה = 발견 시점. תוֹמִם은 결자 철자(38:27 תְאוֹמִים 완전 철자와 대조). 의미 차이 없음; 철자에 의미를 부여하는 해석은 수용사."
+        }
+      ]
+    },
+    {
+      "id": "Gen.25.25",
+      "clauses": [
+        {
+          "hebrew_display": "וַיֵּצֵא הָרִאשׁוֹן אַדְמוֹנִי",
+          "kind": "lexical/wordplay",
+          "reading_ko": "אַדְמוֹנִי 붉은/불그레한 — 25:30 אֱדוֹם과 소리 연결(본문 자체가 30절에서 명시)."
+        },
+        {
+          "hebrew_display": "כֻּלּוֹ כְּאַדֶּרֶת שֵׂעָר",
+          "kind": "syntactic/wordplay",
+          "reading_ko": "자켑이 אַדְמוֹנִי에 있어 כֻּלּוֹ는 뒤 비교구와 묶임: 온몸이 털 겉옷 같다. שֵׂעָר ~ 세일(שֵׂעִיר) 소리 연결은 본문이 명시하지 않음(36:8, 32:4에서 세일=에돔)."
+        },
+        {
+          "hebrew_display": "וַיִּקְרְאוּ שְׁמוֹ עֵשָׂו",
+          "kind": "syntactic",
+          "reading_ko": "3인칭 복수(비인칭 ‘그들이’). 에서 이름의 어원은 본문이 설명하지 않음; 보충하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "Gen.25.26",
+      "clauses": [
+        {
+          "hebrew_display": "וְאַחֲרֵי־כֵן יָצָא אָחִיו",
+          "kind": "discourse",
+          "reading_ko": "부사구 전치 + 완료형(와이크톨 아님): 앞 사건과 바로 이어지는 짝 장면. אָחִיו = 그의 형제(나이 표시 없음)."
+        },
+        {
+          "hebrew_display": "וְיָדוֹ אֹחֶזֶת בַּעֲקֵב עֵשָׂו",
+          "kind": "syntactic",
+          "reading_ko": "분사 상황절: 손이 에서의 발꿈치를 붙잡고 있는 채로."
+        },
+        {
+          "hebrew_display": "וַיִּקְרָא שְׁמוֹ יַעֲקֹב",
+          "kind": "syntactic/etymology",
+          "reading_ko": "3인칭 남성 단수, 주어 미명시(25절 복수와 대조). 가장 가까운 남성 선행사가 ‘그의 형제’라 영어 ‘he called’는 야곱이 스스로 이름 지은 것처럼 읽힘. עָקֵב–יַעֲקֹב 소리 연결은 본문의 이름 설명; ‘속이는 자’ 의미는 27:36에서 에서가 새로 붙인 해석이므로 여기에 넣지 않는다."
+        },
+        {
+          "hebrew_display": "וְיִצְחָק בֶּן־שִׁשִּׁים שָׁנָה בְּלֶדֶת אֹתָם",
+          "kind": "syntactic",
+          "reading_ko": "부정사 בְּלֶדֶת에 주어 없음(16:16은 하갈을 명시). 문맥상 리브가(24절 לָלֶדֶת과 같은 동사). 한국어에서 이삭을 낳은 주체로 오해하게 만들면 안 된다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Gen.25.21",
+      "ko": "이삭이 자기 아내를 위하여 야훼께 간구하였다. 그녀가 아이를 낳지 못하는 여자였기 때문이다. 야훼께서 그의 간구를 들어주셔서, 그의 아내 리브가가 임신하였다.",
+      "en": "Isaac pleaded with YHWH on behalf of his wife, because she was barren. YHWH granted his plea, and Rebekah his wife conceived.",
+      "es": "Isaac suplicó a YHWH por su mujer, porque ella era estéril. YHWH accedió a su súplica, y Rebeca su mujer concibió."
+    },
+    {
+      "id": "Gen.25.22",
+      "ko": "아이들이 그녀 안에서 서로 짓누르며 다투었다. 그녀가 말했다. “이렇다면, 나는 도대체 왜 이러한가?” 그리고 그녀는 야훼께 여쭈러 갔다.",
+      "en": "The children crushed against one another within her, and she said, “If it is so, why then am I like this?” So she went to inquire of YHWH.",
+      "es": "Los hijos chocaban con violencia entre sí dentro de ella, y ella dijo: «Si es así, ¿por qué estoy yo así?». Y fue a consultar a YHWH."
+    },
+    {
+      "id": "Gen.25.23",
+      "ko": "야훼께서 그녀에게 말씀하셨다. “두 민족이 네 태 안에 있고, 두 백성이 네 몸속에서부터 갈라질 것이다. 한 백성이 다른 백성보다 강할 것이며, 큰 자가 작은 자를 섬길 것이다.”",
+      "en": "YHWH said to her, “Two nations are in your womb, and two peoples from within you shall be divided; one people shall be stronger than the other people, and the elder shall serve the younger.”",
+      "es": "YHWH le dijo: «Dos naciones hay en tu vientre, y dos pueblos se dividirán desde tus entrañas; un pueblo será más fuerte que el otro pueblo, y el mayor servirá al menor»."
+    },
+    {
+      "id": "Gen.25.24",
+      "ko": "그녀의 해산할 날이 찼을 때, 보니 그녀의 태 안에 쌍둥이가 있었다.",
+      "en": "When her days to give birth were fulfilled, there were indeed twins in her womb.",
+      "es": "Cuando se cumplieron sus días para dar a luz, he aquí que había gemelos en su vientre."
+    },
+    {
+      "id": "Gen.25.25",
+      "ko": "먼저 나온 아이는 붉었는데, 온몸이 털 겉옷 같았다. 그들은 그의 이름을 에서라고 불렀다.",
+      "en": "The first came out ruddy, all of him like a hairy cloak, and they called his name Esau.",
+      "es": "Salió el primero rojizo, todo él como un manto de pelo, y lo llamaron Esaú."
+    },
+    {
+      "id": "Gen.25.26",
+      "ko": "그 뒤에 그의 형제가 나왔는데, 그의 손이 에서의 발꿈치를 붙잡고 있었다. 그의 이름을 야곱이라 하였다. 그녀가 그들을 낳았을 때 이삭은 예순 살이었다.",
+      "en": "Afterward his brother came out, his hand gripping Esau’s heel, and his name was called Jacob. Isaac was sixty years old when she bore them.",
+      "es": "Después salió su hermano, con la mano asida al talón de Esaú, y se le llamó Jacob. Isaac tenía sesenta años cuando ella los dio a luz."
+    }
+  ],
+  "initial_proposals_note": "Initial proposals were written from the packet before opening the Sonnet cloud draft or any other model record (scratch note 2026-10-30T19:10:02Z holds the clause analysis; full wording was fixed before the comparison step below).",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 4fbdcbc) has 111 selected verses, none in Gen.25; packet current_selected is empty."
+    },
+    {
+      "kind": "saved_cloud_draft",
+      "result": "found",
+      "path": "origin/claude/friendly-heisenberg-gjppk9:automation/cloud-drafts/20261025T091809Z-3091ac03.json",
+      "model_label_as_saved": "requested_or_configured_model claude-sonnet-5-5 (identity basis: session system prompt; not endpoint-verified, as recorded in that file)",
+      "state_as_saved": "unadopted_model_draft",
+      "covers": [
+        "Gen.25.21",
+        "Gen.25.22",
+        "Gen.25.24",
+        "Gen.25.25",
+        "Gen.25.26"
+      ],
+      "missing": {
+        "Gen.25.23": "not in claimed packet (deferred/unsupported source); not drafted (as recorded in that file)"
+      },
+      "open_items_as_saved_relevant": [
+        "Gen.25.22 elliptical clause flagged as open item"
+      ]
+    },
+    {
+      "kind": "source_queue_report",
+      "result": "found",
+      "path": "automation/source-queue-report.json",
+      "note": "Gen.25.23 is listed in deferred_unsupported_readings: Deferred verses require explicit Qere/Ketiv/markup review before translation."
+    },
+    {
+      "kind": "saved_gpt_or_gemini_records",
+      "result": "none_found",
+      "note": "No GPT, Gemini or Antigravity record for Gen.25.21-26 was found in data/model-reviews, data/decisions.json, data/source-note-decisions.json or any fetched claude/ branch (git grep of Gen.25.2[1-6]). None is quoted or implied."
+    },
+    {
+      "kind": "other_cloud_review_mention",
+      "result": "found_incidental",
+      "path": "origin/claude/original-bible-hard-review-voh8a3:automation/cloud-reviews/20261030T130857Z-40cf9972.json",
+      "note": "gen-15-1-6 review cites Gen.25.23 only as a Hebrew parallel for מֵעִים (womb//inner parts), with both Ketiv and Qere tokens kept. Consistent with this review."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Gen.25.23",
+      "severity": "high",
+      "finding_ko": "기존 일괄 초안에는 25:23이 없다(Ketiv/Qere 보류). 이 검토가 이 신탁의 첫 초안이다. Ketiv גיים은 원시 XML에 그대로 보존했고 번역은 Qere גוֹיִם을 따른다; 두 형태의 의미 차이는 번역 수준에서 없다."
+    },
+    {
+      "id": "Gen.25.26",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 한국어 ‘이삭은 그들을 낳을 때 육십 세였다’는 이삭을 ‘낳다’의 주어로 읽게 만든다(en/es는 she/ella를 보충해 정확). 히브리어 부정사 בְּלֶדֶת은 주어가 없고 문맥상 리브가다. 이 검토는 ‘그녀가 그들을 낳았을 때’로 바로잡았다."
+    },
+    {
+      "id": "Gen.25.26",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 영어 ‘and he called his name Jacob’은 바로 앞 남성 단수 선행사가 ‘his brother’(야곱)라서 야곱이 자기 이름을 지은 것처럼 읽힌다. 한국어 초안은 원문에 없는 ‘그래서’를 넣었다. 이 검토는 한국어 주어 생략, 영어·스페인어 비인칭(‘his name was called’, ‘se le llamó’)을 택했다."
+    },
+    {
+      "id": "Gen.25.22",
+      "severity": "low",
+      "finding_ko": "생략절 처리(‘왜 내가 이러한가/why am I thus/¿para qué estoy yo así?’)는 이 검토의 독립 판독 A와 같다. 실질적 일치이며 바꿀 이유가 없다. 동사 רצץ는 초안의 ‘부딪쳤다/struggled together/se agitaban’보다 강한 ‘짓누르다/crushed’ 쪽을 이 검토가 택했다."
+    },
+    {
+      "id": "Gen.25.21-26",
+      "severity": "low",
+      "finding_ko": "Sonnet 초안은 신명을 ‘여호와/the LORD/el SEÑOR’로 옮겼다. 현재 채택문은 대체로 ‘야훼/YHWH’를 쓴다(이 브랜치 data/editorial.json 집계: 야훼 27절, YHWH 23절, Yahweh 9절). 이 검토는 채택문 다수 관례를 따랐다. 편집 통일 대상."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "비교 후 초기 제안을 바꾸지 않았다. Sonnet 초안과의 차이(25:26 한국어 주어 오해, 영어 he 선행사, 25:22 동사 강도, 신명 표기)는 이 검토의 초기 판단을 오히려 확인했다. 25:22 생략절 처리는 Sonnet 초안과 실질적으로 같다.",
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from a third-party raw OCR of Swete LXX (not a critical edition). KRV/ASV/RV1909 lines come from this repository library (public domain as declared in library/catalog.json) and are translation reception, not manuscript evidence.",
+    "excerpts": [
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.18.13",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר יְהוָה אֶל אַבְרָהָם לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַנְתִּי",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "18:13 לָמָּה זֶּה: זֶּה가 의문사 강조 접어로 쓰이는 창세기 용례. 25:22에서 זֶּה를 ‘이것’ 주어로 읽지 않는 근거.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.30.38",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיַּצֵּג אֶת הַמַּקְלוֹת אֲשֶׁר פִּצֵּל בָּרֳהָטִים בְּשִׁקֲתוֹת הַמָּיִם אֲשֶׁר תָּבֹאןָ הַצֹּאן לִשְׁתּוֹת לְנֹכַח הַצֹּאן וַיֵּחַמְנָה בְּבֹאָן לִשְׁתּוֹת",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "לְנֹכַח의 창세기 유일 다른 용례: 공간적 ‘~ 맞은편에’. 25:21 공간적 독해(대안 B)의 근거이자, 기도 문맥에서는 다르게 쓰였다고 볼 여지.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.16.16",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְאַבְרָם בֶּן שְׁמֹנִים שָׁנָה וְשֵׁשׁ שָׁנִים בְּלֶדֶת הָגָר אֶת יִשְׁמָעֵאל לְאַבְרָם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "בְּלֶדֶת 구문에서 낳는 이(하갈)를 명시한 평행. 25:26은 주어를 생략했다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.38.27",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיְהִי בְּעֵת לִדְתָּהּ וְהִנֵּה תְאוֹמִים בְּבִטְנָהּ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "쌍둥이 완전 철자 תְאוֹמִים(25:24 결자 תוֹמִם과 대조). 철자 차이의 관찰 사실.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.25.30",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר עֵשָׂו אֶל יַעֲקֹב הַלְעִיטֵנִי נָא מִן הָאָדֹם הָאָדֹם הַזֶּה כִּי עָיֵף אָנֹכִי עַל כֵּן קָרָא שְׁמוֹ אֱדוֹם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "본문이 ‘붉은 것’ אָדֹם으로 에돔 이름을 설명. 25:25 אַדְמוֹנִי 소리 연결의 본문 내 근거.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.36.8",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֵּשֶׁב עֵשָׂו בְּהַר שֵׂעִיר עֵשָׂו הוּא אֱדוֹם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "세일 산 = 에서 = 에돔. 25:25 שֵׂעָר–שֵׂעִיר 연결은 본문이 명시하지 않는 추론임을 보여 주는 맥락.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.36",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר הֲכִי קָרָא שְׁמוֹ יַעֲקֹב וַיַּעְקְבֵנִי זֶה פַעֲמַיִם אֶת בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי וַיֹּאמַר הֲלֹא אָצַלְתָּ לִּי בְּרָכָה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "에서가 יַעֲקֹב을 עקב(속이다)로 재해석. 25:26에 ‘속이는 자’를 넣지 않는 근거(후대 장면의 인물 발화).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.40",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְעַל חַרְבְּךָ תִחְיֶה וְאֶת אָחִיךָ תַּעֲבֹד וְהָיָה כַּאֲשֶׁר תָּרִיד וּפָרַקְתָּ עֻלּוֹ מֵעַל צַוָּארֶךָ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "이삭이 에서에게 ‘네 형제를 섬길 것’이라 말함 — 25:23 주어-동사-목적어 독해(큰 자가 섬김)를 서사가 받는 방식. 같은 절이 멍에를 벗을 때도 말한다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.19.31",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַתֹּאמֶר הַבְּכִירָה אֶל הַצְּעִירָה אָבִינוּ זָקֵן וְאִישׁ אֵין בָּאָרֶץ לָבוֹא עָלֵינוּ כְּדֶרֶךְ כָּל הָאָרֶץ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "창세기의 통상 쌍 בְּכִירָה/צְעִירָה. 25:23의 רַב이 특이한 낱말 선택임을 보여 줌.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.29.26",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר לָבָן לֹא יֵעָשֶׂה כֵן בִּמְקוֹמֵנוּ לָתֵת הַצְּעִירָה לִפְנֵי הַבְּכִירָה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "같은 통상 쌍(צְעִירָה/בְּכִירָה).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.43.33",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֵּשְׁבוּ לְפָנָיו הַבְּכֹר כִּבְכֹרָתוֹ וְהַצָּעִיר כִּצְעִרָתוֹ וַיִּתְמְהוּ הָאֲנָשִׁים אִישׁ אֶל רֵעֵהוּ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "같은 통상 쌍(בְּכֹר/צָּעִיר).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.48.14",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּשְׁלַח יִשְׂרָאֵל אֶת יְמִינוֹ וַיָּשֶׁת עַל רֹאשׁ אֶפְרַיִם וְהוּא הַצָּעִיר וְאֶת שְׂמֹאלוֹ עַל רֹאשׁ מְנַשֶּׁה שִׂכֵּל אֶת יָדָיו כִּי מְנַשֶּׁה הַבְּכוֹר",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "같은 통상 쌍(צָּעִיר/בְּכוֹר), 그리고 작은 자가 우선되는 장면.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Hos.12.4",
+        "traditional_numbering": "English/Korean Hos 12:3 (KRV/ASV 12:3; RV1909 library file uses 12:4 for this content)",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "excerpt": "בַּבֶּטֶן עָקַב אֶת אָחִיו וּבְאוֹנוֹ שָׂרָה אֶת אֱלֹהִים",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "호세아가 태 안의 발꿈치 사건을 동사 עָקַב로 되받음. 25:26 이름 설명이 이스라엘 전승 안에서 다시 읽힌 실제 예(수용사)."
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Mal.1.2",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Mal.xml",
+        "file_sha256": "1583e6a701406dce7b8c2bf85e3522ec31383756de130685fc7c2eb6df8964b2",
+        "excerpt": "אָהַבְתִּי אֶתְכֶם אָמַר יְהוָה וַאֲמַרְתֶּם בַּמָּה אֲהַבְתָּנוּ הֲלוֹא אָח עֵשָׂו לְיַעֲקֹב נְאֻם יְהוָה וָאֹהַב אֶת יַעֲקֹב",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "야곱/에서를 민족(이스라엘/에돔) 차원에서 읽는 예언서 수용. 25:23 ‘두 민족’과 연결되지만 25:23 번역을 결정하지는 않는다."
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Mal.1.3",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Mal.xml",
+        "file_sha256": "1583e6a701406dce7b8c2bf85e3522ec31383756de130685fc7c2eb6df8964b2",
+        "excerpt": "וְאֶת עֵשָׂו שָׂנֵאתִי וָאָשִׂים אֶת הָרָיו שְׁמָמָה וְאֶת נַחֲלָתוֹ לְתַנּוֹת מִדְבָּר",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "야곱/에서를 민족(이스라엘/에돔) 차원에서 읽는 예언서 수용. 25:23 ‘두 민족’과 연결되지만 25:23 번역을 결정하지는 않는다."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.25.21",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "ἐδεῖτο δὲ Ἰσαὰκ κυρίου περὶ Ῥεβέκκας τῆς γυναικὸς αὐτοῦ, ὅτι στεῖραἦν. ἐπήκουσεν δὲ αὐτοῦ ὁ θεός, καὶ ἔλαβεν ἐν γαστρὶ Ῥεβέκκα ἡ αὐτοῦ.",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "첫 야훼는 κυρίου, 둘째는 ὁ θεός로 옮김. לְנֹכַח = περὶ(‘~에 관하여’) — 대안 B(공간적 맞은편)를 따르지 않음."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.25.22",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "ἐσκίρτων δὲ τὰ παιδία ἐν αὐτῇ· εἶπεν δέ Εἰ οὕτως μοι γίνεσθαι, ἵνα τί μοι τοῦτο ; ἐπορεύθη δὲ πυθέσθαι παρὰ Κυρίου.",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "ἐσκίρτων(뛰놀았다)으로 רצץ를 약화. 생략절을 Εἰ οὕτως μοι … γίνεσθαι, ἵνα τί μοι τοῦτο(‘이렇게 내게 일어난다면, 이것이 왜 내게?’)로 보충 = 대안 D 계열. OCR 본문이며 Swete 인쇄본의 정확한 단어(예: 누락 가능 낱말)는 확인하지 못함."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.25.23",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "καὶεἶπεν κύριος αὐτῇΔύο ἔθνη ἐν τῇ γαστρί σού εἰσιν,καὶ δύο λαοὶ ἐκ τῆς κοιλίας σου διασταλήσονται·καὶ λαὸς λαοῦ ὑπερέξει,καὶ ὁ μείζων δουλεύσει τῷ ἐλάσσονι.",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "ὁ μείζων δουλεύσει τῷ ἐλάσσονι — 여격 목적어로 ‘더 큰 자가 더 작은 자를 섬긴다’(주어-동사-목적어)를 명시. רַב/צָעִיר을 나이가 아니라 크기 비교형으로 옮김."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.25.24",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "καὶ ἐπληρώθησαν αἱ ἡμέραι τοῦ τεκεῖν αὐτήν· καὶ τῇδε ἦν δίδυμα τῇ γαστρὶ αὐτῆς.",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "καὶ τῇδε ἦν δίδυμα — הִנֵּה를 τῇδε로 옮긴 OCR 문자열."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.25.25",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "ἐξῆλθεν δὲ ὁ υἱὸς ὁ πρωτότοκος πυρράκης, ὅ ὡσεὶ δορὰ δασύς· ἐπωνόμασεν δὲ τὸ ὄνομα αὐτοῦ Ἡσαύ.",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "ὁ υἱὸς ὁ πρωτότοκος(맏아들)로 הָרִאשׁוֹן을 해석적으로 옮김; 이름 짓기 동사는 단수 ἐπωνόμασεν(마소라 본문 복수 וַיִּקְרְאוּ와 다름)."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.25.26",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "καὶ μετὰτοῦτο ἐξῆλθεν ὁ ἀδελφὸς αὐτοῦ, καὶ ἡ χεὶρ αὐτοῦ ἐπειλημμένη τῆςπτέρνης ’Hσαύ· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ἰακώβ. Ἰσαὰκ δὲ ἦν ἐτῶν ἑξήκοντα ὅτε ἐγέννησεν αὐτοὺς Ῥεβέκκα.",
+        "excerpt_verified_against_file": true,
+        "observation_ko": "ἐκάλεσεν 단수; 마지막 절을 ὅτε ἐγέννησεν αὐτοὺς Ῥεβέκκα로 리브가를 주어로 보충."
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.25.22",
+        "excerpt": "아이들이 그의 태 속에서 서로 싸우는지라 그가 가로되 이같으면 내가 어찌할꼬 하고 가서 여호와께 묻자온대",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "전통 역본의 생략절 처리: 개역 ‘내가 어찌할꼬’, ASV ‘wherefore do I live?’, RV1909 ‘¿para qué vivo yo?’ — 대안 B(존재/삶) 또는 행위 보충. 근거 본문(예: 시리아어역)은 이 세션에서 확인하지 않음.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.25.23",
+        "excerpt": "여호와께서 그에게 이르시되 두 국민이 네 태중에 있구나 두 민족이 네 복중에서부터 나누이리라 이 족속이 저 족속보다 강하겠고 큰 자는 어린 자를 섬기리라 하셨더라",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "세 전통 역본 모두 주어-동사-목적어(큰 자/elder/mayor가 섬김).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.25.26",
+        "excerpt": "후에 나온 아우는 손으로 에서의 발꿈치를 잡았으므로 그 이름을 야곱이라 하였으며 리브가가 그들을 낳을 때에 이삭이 육십 세이었더라",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역은 ‘리브가가 그들을 낳을 때’로 주어 보충, ASV ‘his name was called’ 비인칭, RV1909 ‘fué llamado’ 비인칭.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Rom.9.12",
+        "excerpt": "리브가에게 이르시되 큰 자가 어린 자를 섬기리라 하셨나니",
+        "file": "library/krv/Rom.json",
+        "file_sha256": "0fc22fc19b2a31c6c01c6de4e397c5349c0399a91e50937054514611e0f25649",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "신약의 25:23 인용(장로교 개신교 기본 수용 맥락). 세 역본 모두 큰 자가 작은 자를 섬김 방향.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.25.22",
+        "excerpt": "And the children struggled together within her; and she said, If it be so, wherefore do I live? And she went to inquire of Jehovah.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "전통 역본의 생략절 처리: 개역 ‘내가 어찌할꼬’, ASV ‘wherefore do I live?’, RV1909 ‘¿para qué vivo yo?’ — 대안 B(존재/삶) 또는 행위 보충. 근거 본문(예: 시리아어역)은 이 세션에서 확인하지 않음.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.25.23",
+        "excerpt": "And Jehovah said unto her, Two nations are in thy womb, And two peoples shall be separated from thy bowels: And the one people shall be stronger than the other people; And the elder shall serve the younger.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "세 전통 역본 모두 주어-동사-목적어(큰 자/elder/mayor가 섬김).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.25.26",
+        "excerpt": "And after that came forth his brother, and his hand had hold on Esau’s heel; and his name was called Jacob: and Isaac was threescore years old when she bare them.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역은 ‘리브가가 그들을 낳을 때’로 주어 보충, ASV ‘his name was called’ 비인칭, RV1909 ‘fué llamado’ 비인칭.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.36",
+        "excerpt": "And he said, Is not he rightly named Jacob? for he hath supplanted me these two times: he took away my birthright; and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me?",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV는 עקב을 ‘supplanted’로 옮김 — 재어원화는 27:36에 속함.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Rom.9.12",
+        "excerpt": "it was said unto her, The elder shall serve the younger.",
+        "file": "library/asv/Rom.json",
+        "file_sha256": "930e7d03d8bfdeff5003b9171ca80095c9976c847ccdfd05539d72941632c09c",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "신약의 25:23 인용(장로교 개신교 기본 수용 맥락). 세 역본 모두 큰 자가 작은 자를 섬김 방향.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.25.22",
+        "excerpt": "Y los hijos se combatían dentro de ella; y dijo: Si es así ¿para qué vivo yo? Y fué á consultar á Jehová.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "전통 역본의 생략절 처리: 개역 ‘내가 어찌할꼬’, ASV ‘wherefore do I live?’, RV1909 ‘¿para qué vivo yo?’ — 대안 B(존재/삶) 또는 행위 보충. 근거 본문(예: 시리아어역)은 이 세션에서 확인하지 않음.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.25.23",
+        "excerpt": "Y respondióle Jehová: Dos gentes hay en tu seno, y dos pueblos serán divididos desde tus entrañas: y el un pueblo será más fuerte que el otro pueblo, y el mayor servirá al menor.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "세 전통 역본 모두 주어-동사-목적어(큰 자/elder/mayor가 섬김).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.25.26",
+        "excerpt": "Y después salió su hermano, trabada su mano al calcañar de Esaú: y fué llamado su nombre Jacob. Y era Isaac de edad de sesenta años cuando ella los parió.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역은 ‘리브가가 그들을 낳을 때’로 주어 보충, ASV ‘his name was called’ 비인칭, RV1909 ‘fué llamado’ 비인칭.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Rom.9.12",
+        "excerpt": "Le fué dicho que el mayor serviría al menor.",
+        "file": "library/rv1909/Rom.json",
+        "file_sha256": "6b3ebdce649176030d17353672c576fa1d652e59742c9b50da6056b9ac537080",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "신약의 25:23 인용(장로교 개신교 기본 수용 맥락). 세 역본 모두 큰 자가 작은 자를 섬김 방향.",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "25:22 ‘왜 내가 사는가’ 보충이 시리아어역(페쉬타) 등 고대 역본에 있다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Peshitta text was not accessed. Only ASV/RV1909 renderings (modern reception) were verified."
+    },
+    {
+      "claim_ko": "25:23 Ketiv גיים을 ‘교만한 자들/존귀한 자들’(גֵּאִים)로 읽는 랍비 해석(탈무드·라시).",
+      "status": "not_verified_in_session",
+      "reason": "No rabbinic text was accessed. Reported only as a known reception topic, not used for translation."
+    },
+    {
+      "claim_ko": "25:21 לְנֹכַח를 이삭과 리브가가 서로 마주 서서 기도했다고 읽는 랍비 해석.",
+      "status": "not_verified_in_session",
+      "reason": "No rabbinic text was accessed. Lexical support checked only through Gen.30.38 (spatial use)."
+    },
+    {
+      "claim_ko": "25:24 결자 철자 תוֹמִם에 도덕적 의미(한 명은 의롭고 한 명은 악함)를 부여하는 랍비 해석.",
+      "status": "not_verified_in_session",
+      "reason": "No rabbinic text was accessed. Only the spelling contrast with Gen.38.27 was verified."
+    },
+    {
+      "claim_ko": "야곱 이름이 고대 서셈어 인명 Ya‘qub-’El(‘신이 보호하시기를/따르시기를’ 계열)과 연관된다는 역사적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "No epigraphic source was accessed. Not used in translation; a later note would need a cited source."
+    },
+    {
+      "claim_ko": "사마리아 오경이 25:25 또는 25:26의 이름 짓기 동사에서 마소라 본문과 수(단수/복수)가 다르다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Samaritan Pentateuch text was not accessed. Only LXX OCR singular forms were verified."
+    }
+  ],
+  "alternatives": {
+    "Gen.25.21": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "לְנֹכַח = ‘~을 위하여/on behalf of/por’",
+        "argument_ko": "기도 동사 עתר + לַיהוָה 뒤에서 대상 인물을 소개; 칠십인역 OCR περὶ(~에 관하여)와 같은 방향.",
+        "objection_ko": "창세기의 다른 유일한 용례(30:38)는 공간적 ‘맞은편’이다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘아내 맞은편에서/in the presence of his wife’",
+        "argument_ko": "어휘 본뜻 보존; 부부가 함께 기도하는 장면 가능.",
+        "objection_ko": "기도 대상이 야훼로 이미 주어졌는데 장소 표시를 하나 더 두는 것은 어색하고, ‘그녀가 아이를 낳지 못하므로’ 이유절이 ‘그녀를 위하여’와 더 자연스럽게 이어진다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "니팔 언어유희를 ‘간구하다/간구를 받아들이다’처럼 같은 어근으로 노출(en ‘pleaded … let himself be pleaded with’)",
+        "argument_ko": "같은 어근 칼/니팔 짝을 보존.",
+        "objection_ko": "영어·스페인어에서 부자연스럽다. 이 검토는 한국어 ‘간구하다/간구를 들어주다’로 어근 반복을 부분 보존하고 영어 plea/pleaded, 스페인어 suplicó/súplica로 맞췄다."
+      }
+    ],
+    "Gen.25.22": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘나는 도대체 왜 이러한가?/why then am I like this?/¿por qué estoy yo así?’",
+        "argument_ko": "זֶּה를 강조 접어로 보고(18:13) 빠진 술어를 가장 적게 보충. 고통의 원인을 묻는 말로 이어 신탁 문의(דרש)와 자연스럽게 연결.",
+        "objection_ko": "‘이러한가/like this’도 보충이다. 원문은 더 짧고 더 날카롭다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘내가 왜 사는가?/why do I live?/¿para qué vivo yo?’ (ASV·RV1909 확인)",
+        "argument_ko": "전통 역본(ASV, RV1909)의 선택; 극단적 고통 표현.",
+        "objection_ko": "‘살다’는 히브리어에 없는 동사다. 근거로 흔히 드는 고대 역본(시리아어역)은 이 세션에서 확인하지 못했다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘내가 왜 (이것을) 구했던가?’",
+        "argument_ko": "21절 간구와 연결되는 극적 아이러니.",
+        "objection_ko": "동사·목적어를 둘 다 보충한다. 근거는 후대 해석(미확인)뿐이다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "‘이것이 왜 내게 일어나는가?/why is this happening to me?’ (칠십인역 OCR ἵνα τί μοι τοῦτο 계열)",
+        "argument_ko": "자연스러운 현대어; 칠십인역의 실제 해석 방향.",
+        "objection_ko": "זֶּה를 주어 ‘이것’으로 다시 읽고 אָנֹכִי를 ‘내게’로 바꾸어 1인칭 주어 문장을 없앤다."
+      },
+      {
+        "label": "verb",
+        "reading_ko": "רצץ: ‘짓누르며 다투었다/crushed against one another/chocaban con violencia’ (선호) vs ‘다투었다/struggled/luchaban’",
+        "argument_ko": "어근 의미(짓누르다, 압제하다)를 보존해 리브가의 고통 발화를 설명.",
+        "objection_ko": "태아에게 ‘crushed’는 지나치게 물리적일 수 있다; 칠십인역은 ἐσκίρτων(뛰놀다)으로 약화."
+      }
+    ],
+    "Gen.25.23": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "주어-동사-목적어: ‘큰 자가 작은 자를 섬길 것이다/the elder shall serve the younger/el mayor servirá al menor’",
+        "argument_ko": "히브리어 기본 어순; 바로 앞 행(וּלְאֹם מִלְאֹם יֶאֱמָץ)도 주어 선행; 칠십인역 OCR가 여격 목적어로 이 방향을 명시; 27:40 서사도 에서가 섬긴다고 받는다; 롬 9:12(KRV/ASV/RV1909 확인) 수용.",
+        "objection_ko": "strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "목적어 전치: ‘큰 자를 작은 자가 섬길 것이다’",
+        "argument_ko": "시문에서 אֶת 생략과 어순 도치는 가능하다. 이후 서사(33장 야곱이 에서에게 ‘내 주’라 부르는 장면 등)를 신탁의 이중성으로 읽는 해석과 연결될 수 있다.",
+        "objection_ko": "이 독해를 직접 지지하는 고대 번역 증거를 이 세션에서 찾지 못했다. 평행 구조와 27:40을 거스른다. 33장 연결은 이 세션에서 본문 확인 없이 쓰지 않는다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘큰 자/the greater/el mayor’ vs ‘맏이/the firstborn’",
+        "argument_ko": "רַב은 ‘크다/많다’이지 ‘맏이’(בְּכוֹר)가 아니다(창 19:31, 29:26, 43:33, 48:14의 통상 쌍 확인). 한국어 ‘큰 자/작은 자’, 스페인어 ‘mayor/menor’는 크기·나이 양쪽을 담는다.",
+        "objection_ko": "영어 ‘elder/younger’는 나이만 담는다. ‘the greater/the lesser’가 더 직역이지만 쌍둥이 출생 장면과 ‘younger’(צָעִיר의 창세기 통상 의미)를 약화한다."
+      },
+      {
+        "label": "Ketiv/Qere",
+        "reading_ko": "Qere גוֹיִם ‘민족들’ 번역, Ketiv גיים 원문 보존",
+        "argument_ko": "두 형태 모두 같은 낱말(lemma 1471)로 표기되어 있고 의미 차이가 번역 수준에서 없다.",
+        "objection_ko": "Ketiv를 다른 낱말로 읽는 랍비 해석(미확인)은 번역에 반영하지 않는다; 각주 후보로만 남긴다."
+      }
+    ],
+    "Gen.25.24": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "הִנֵּה를 ‘보니/indeed/he aquí’로 발견 시점 표시",
+        "argument_ko": "서술 시점이 리브가(또는 출산 현장)의 발견으로 이동.",
+        "objection_ko": "22-23절에서 이미 둘임을 알았으므로 ‘놀람’을 과장할 수 있다. 영어 ‘indeed’는 확인의 뉘앙스."
+      }
+    ],
+    "Gen.25.25": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘붉었는데, 온몸이 털 겉옷 같았다’ (자켑 분할 따름)",
+        "argument_ko": "마소라 강세가 אַדְמוֹנִי 뒤에서 끊는다. אַדֶּרֶת = 겉옷/망토(가죽옷이 아님).",
+        "objection_ko": "‘온몸이 붉고 털옷 같았다’(כֻּלּוֹ를 양쪽에 거는 독해, 개역 ‘전신이’)도 의미상 큰 차이 없다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "말놀이를 본문에 노출(‘붉은(아드모니) … 털(세아르)’)",
+        "argument_ko": "에돔·세일 연결을 독자가 볼 수 있다.",
+        "objection_ko": "25:25 자체는 연결을 명시하지 않는다(에돔 설명은 30절). 각주로 충분."
+      }
+    ],
+    "Gen.25.26": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "이름 짓는 이를 밝히지 않음: 한국어 주어 생략, en ‘his name was called’, es ‘se le llamó’",
+        "argument_ko": "원문 단수 주어가 미명시이고, 영어 ‘he’는 바로 앞 선행사(야곱 자신)로 오독된다. ASV·RV1909도 비인칭.",
+        "objection_ko": "25절 복수 ‘그들이’와 26절 단수의 대조가 번역에서 흐려진다. 칠십인역 OCR는 둘 다 단수라 대조 자체가 마소라 본문 특징이다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘그가 그의 이름을 야곱이라 불렀다’ (Sonnet 초안 en/es)",
+        "argument_ko": "단수형 보존.",
+        "objection_ko": "선행사 혼동(야곱이 스스로 이름 지음)."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘이삭이 그의 이름을 야곱이라 불렀다’",
+        "argument_ko": "같은 절 끝에 이삭이 언급된다.",
+        "objection_ko": "주어를 해석으로 확정한다."
+      },
+      {
+        "label": "etymology",
+        "reading_ko": "이름 ‘야곱’ 유지 + 각주 ‘발꿈치(아케브)와 소리가 이어진다’; ‘속이는 자’는 27:36으로 미룸",
+        "argument_ko": "25:26 본문은 발꿈치 동작만 기술한다. ‘속이다’ 의미는 27:36 에서의 발화(호 12:4도 עָקַב)이다.",
+        "objection_ko": "본문 안 괄호 풀이(‘야곱(발꿈치를 잡는 자)’)가 독자에게 더 즉각적이다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.25.23 final line: subject-verb-object (the elder shall serve the younger) chosen over object-fronted reading, and rav rendered as elder in English",
+    "objection_ko": "가장 강한 반론: (1) 이 신탁은 의도적으로 모호하게 짜였을 수 있다. 시문에서 אֶת이 생략되면 רַב과 צָעִיר 중 어느 쪽이 주어인지 형태로 정해지지 않는다. (2) 화자는 맏이에 해당하는 통상어 בְּכוֹר를 쓰지 않고 רַב(크다/많다)을 썼다 — 창세기의 다른 네 곳은 모두 בְּכוֹר/צָעִיר 쌍이다. (3) 이후 이야기(27:40의 ‘멍에를 벗을 때’)는 섬김이 영구적이지 않다고 말한다. 따라서 번역이 한 방향을 확정하면 신탁의 열린 성격을 지운다.",
+    "test_ko": "행 단위로 시험했다. (a) 어순: 이 신탁의 앞 세 행은 모두 주어(또는 주어 구)가 먼저 온다(שְׁנֵי גוֹיִם / שְׁנֵי לְאֻמִּים / לְאֹם). 마지막 행만 목적어 전치로 읽을 형태 표지가 없다. (b) 칠십인역 OCR은 τῷ ἐλάσσονι 여격으로 방향을 명시한다 — 실제 확인한 가장 이른 해석 증거. (c) 27:40 히브리어 וְאֶת אָחִיךָ תַּעֲבֹד(네 형제를 섬길 것)는 에서가 섬긴다는 방향을 서사 안에서 확인한다; ‘멍에를 벗는다’는 방향을 뒤집지 않고 기간을 제한한다. (d) רַב의 특이성은 방향 문제가 아니라 낱말 범위 문제다 → 한국어 ‘큰 자’와 스페인어 ‘mayor’는 크기·나이를 함께 담아 해결되고, 영어만 ‘elder’로 좁아진다. 결론: 방향 A는 유지, 영어 ‘elder’는 중간 신뢰도로 두고 각주에서 רַב(=greater)를 밝힌다.",
+    "residual_risk_ko": "의도적 모호성 가설은 문학적 해석이라 반증도 입증도 이 세션 자료로는 되지 않는다. B 독해를 지지하는 고대 역본이나 학술 문헌을 이 세션에서 찾지 못했으므로 ‘B를 지지하는 증거가 없다’가 아니라 ‘찾지 못했다’로 기록한다. 영어 ‘the greater shall serve the lesser’가 더 직역이라는 반론은 편집 방침 문제로 남는다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.25.22 ellipsis rendered why then am I like this (A)",
+      "objection_ko": "‘like this/이러한가/así’도 원문에 없는 보충이므로, 가장 정직한 번역은 말줄임(‘왜 나는…?’)이나 문자 그대로(‘why this I?’)일 수 있다.",
+      "response_ko": "말줄임표는 세 언어 독자에게 원문보다 더 이상한 문장을 만든다. A는 보충 범위가 가장 작고, 각주에서 생략과 B·C·D를 설명하면 원문 정보가 보존된다. 미해결 항목으로 유지."
+    },
+    {
+      "target": "Gen.25.26 impersonal passive for vayyiqra",
+      "objection_ko": "원문은 능동 단수다. 수동 비인칭은 문법 범주를 바꾼다.",
+      "response_ko": "히브리어 3인칭 단수 비인칭 용법이 가능하고, 영어 능동 ‘he’의 선행사 오독 위험이 더 크다. 한국어는 주어 생략으로 원문 미명시를 그대로 살린다. 편집이 C(이삭)로 확정하지 않는 한 유지."
+    }
+  ],
+  "preferred_wording": {
+    "Gen.25.21": {
+      "ko": "이삭이 자기 아내를 위하여 야훼께 간구하였다. 그녀가 아이를 낳지 못하는 여자였기 때문이다. 야훼께서 그의 간구를 들어주셔서, 그의 아내 리브가가 임신하였다.",
+      "en": "Isaac pleaded with YHWH on behalf of his wife, because she was barren. YHWH granted his plea, and Rebekah his wife conceived.",
+      "es": "Isaac suplicó a YHWH por su mujer, porque ella era estéril. YHWH accedió a su súplica, y Rebeca su mujer concibió.",
+      "reason_ko": "לְנֹכַח = 위하여/on behalf of/por(칠십인역 περί와 같은 방향). עתר 칼/니팔 짝을 ‘간구하다/간구를 들어주다’, plea/pleaded, suplicó/súplica로 부분 보존. עֲקָרָה = 아이를 낳지 못하는 여자/barren/estéril.",
+      "counterargument_ko": "alternatives Gen.25.21 B·C 참조.",
+      "current_opinion_ko": "A 유지(높은 신뢰도).",
+      "reconsider_if_ko": "편집 방침이 לְנֹכַח 공간적 본뜻을 본문에 살리기로 하면 B로 바꾼다."
+    },
+    "Gen.25.22": {
+      "ko": "아이들이 그녀 안에서 서로 짓누르며 다투었다. 그녀가 말했다. “이렇다면, 나는 도대체 왜 이러한가?” 그리고 그녀는 야훼께 여쭈러 갔다.",
+      "en": "The children crushed against one another within her, and she said, “If it is so, why then am I like this?” So she went to inquire of YHWH.",
+      "es": "Los hijos chocaban con violencia entre sí dentro de ella, y ella dijo: «Si es así, ¿por qué estoy yo así?». Y fue a consultar a YHWH.",
+      "reason_ko": "רצץ 히트폴렐을 ‘짓누르며 다투었다/crushed against one another/chocaban con violencia’로 강하게. 생략절은 최소 보충 A. דרש = 여쭈다/inquire/consultar(장소 보충 없음).",
+      "counterargument_ko": "alternatives Gen.25.22 B·C·D·verb, secondary_objections 참조.",
+      "current_opinion_ko": "A 유지(중간 신뢰도; 생략절 미해결). 각주 1 권고.",
+      "reconsider_if_ko": "시리아어역 등 고대 역본의 실제 읽기가 URL과 함께 확인되고 편집 방침이 고대 역본 보충을 허용하면 B를 재평가한다."
+    },
+    "Gen.25.23": {
+      "ko": "야훼께서 그녀에게 말씀하셨다. “두 민족이 네 태 안에 있고, 두 백성이 네 몸속에서부터 갈라질 것이다. 한 백성이 다른 백성보다 강할 것이며, 큰 자가 작은 자를 섬길 것이다.”",
+      "en": "YHWH said to her, “Two nations are in your womb, and two peoples from within you shall be divided; one people shall be stronger than the other people, and the elder shall serve the younger.”",
+      "es": "YHWH le dijo: «Dos naciones hay en tu vientre, y dos pueblos se dividirán desde tus entrañas; un pueblo será más fuerte que el otro pueblo, y el mayor servirá al menor».",
+      "reason_ko": "첫 초안. Qere 번역, Ketiv 보존. 4행 시문 구조 유지(세미콜론/쉼표). 마지막 행 주어-동사-목적어. ‘큰 자/작은 자’, ‘mayor/menor’는 רַב/צָעִיר의 크기·나이 범위를 함께 담는다.",
+      "counterargument_ko": "strongest_objection_to_own_reading, alternatives Gen.25.23 참조.",
+      "current_opinion_ko": "A 유지(방향은 높은 신뢰도, 영어 elder는 중간). 각주 2 권고.",
+      "reconsider_if_ko": "편집 방침이 영어에서 רַב을 ‘the greater’로 직역하기로 하면 ‘the greater shall serve the lesser’ 또는 ‘the greater shall serve the younger’로 바꾼다. 목적어 전치 독해를 지지하는 고대 역본 증거가 실제로 확인되면 각주에 추가한다."
+    },
+    "Gen.25.24": {
+      "ko": "그녀의 해산할 날이 찼을 때, 보니 그녀의 태 안에 쌍둥이가 있었다.",
+      "en": "When her days to give birth were fulfilled, there were indeed twins in her womb.",
+      "es": "Cuando se cumplieron sus días para dar a luz, he aquí que había gemelos en su vientre.",
+      "reason_ko": "הִנֵּה 발견 시점 표시. תוֹמִם 결자 철자는 의미 차이 없음(각주 불필요, 기록만).",
+      "counterargument_ko": "alternatives Gen.25.24 참조.",
+      "current_opinion_ko": "유지(높은 신뢰도).",
+      "reconsider_if_ko": "편집 문체 기준이 הִנֵּה 처리를 통일하면 맞춘다."
+    },
+    "Gen.25.25": {
+      "ko": "먼저 나온 아이는 붉었는데, 온몸이 털 겉옷 같았다. 그들은 그의 이름을 에서라고 불렀다.",
+      "en": "The first came out ruddy, all of him like a hairy cloak, and they called his name Esau.",
+      "es": "Salió el primero rojizo, todo él como un manto de pelo, y lo llamaron Esaú.",
+      "reason_ko": "마소라 강세 분할 따름. אַדֶּרֶת = 겉옷/cloak/manto. 복수 ‘그들이’ 보존. 에서 이름 어원 보충 없음.",
+      "counterargument_ko": "alternatives Gen.25.25 B 참조.",
+      "current_opinion_ko": "유지(중상 신뢰도).",
+      "reconsider_if_ko": "편집 방침이 이름 말놀이를 본문 괄호로 노출하기로 하면 B로 바꾼다."
+    },
+    "Gen.25.26": {
+      "ko": "그 뒤에 그의 형제가 나왔는데, 그의 손이 에서의 발꿈치를 붙잡고 있었다. 그의 이름을 야곱이라 하였다. 그녀가 그들을 낳았을 때 이삭은 예순 살이었다.",
+      "en": "Afterward his brother came out, his hand gripping Esau’s heel, and his name was called Jacob. Isaac was sixty years old when she bore them.",
+      "es": "Después salió su hermano, con la mano asida al talón de Esaú, y se le llamó Jacob. Isaac tenía sesenta años cuando ella los dio a luz.",
+      "reason_ko": "이름 짓는 이 미명시 보존(선행사 오독 방지). בְּלֶדֶת의 주어를 문맥(리브가)대로 ‘그녀가/she/ella’로 보충해 한국어에서 이삭이 낳은 것처럼 읽히는 오류를 피함. אָחִיו = 그의 형제(나이 중립). 야곱–발꿈치 연결은 각주.",
+      "counterargument_ko": "alternatives Gen.25.26 B·C·etymology, secondary_objections 참조.",
+      "current_opinion_ko": "A 유지(중상 신뢰도). 각주 3 권고.",
+      "reconsider_if_ko": "편집 방침이 이름 짓는 이를 이삭으로 확정하거나, 25절·26절 수 대조를 본문에서 보이기로 하면 C 또는 B(한국어 ‘그가’)로 바꾼다."
+    }
+  },
+  "speech_boundaries_ko": "직접 화법: 22절 리브가(‘이렇다면 … 이러한가?’), 23절 야훼 신탁(‘두 민족이 … 섬길 것이다’, 4행 시문 전체). 21·24·25·26절은 서술.",
+  "proposed_notes_ko": [
+    {
+      "id": "Gen.25.22",
+      "note_ko": "‘나는 도대체 왜 이러한가’: 히브리어는 ‘이렇다면 왜 나?’처럼 술어가 빠져 있다. 옛 번역들은 ‘내가 왜 사는가’(ASV, RV1909), ‘내가 어찌할꼬’(개역)로, 칠십인역은 ‘이것이 왜 내게?’로 채웠다."
+    },
+    {
+      "id": "Gen.25.23",
+      "note_ko": "‘큰 자가 작은 자를’: 히브리어 רַב은 ‘맏이’가 아니라 ‘큰/많은’이라는 말이다. 목적어 표지가 없어 문법상 반대 방향 독해도 이론적으로 가능하나, 이 번역은 기본 어순과 칠십인역, 창 27:40을 따른다. ‘민족’은 읽기(Qere) גוֹיִם을 따른 것이며, 쓰기(Ketiv)는 גיים이다."
+    },
+    {
+      "id": "Gen.25.26",
+      "note_ko": "‘야곱’은 ‘발꿈치’(아케브)와 소리가 이어진다. ‘속이다’라는 뜻풀이는 27:36에서 에서가 붙인다. 이름 지은 이는 원문에 밝혀져 있지 않다(25절은 ‘그들이’, 26절은 단수)."
+    },
+    {
+      "id": "Gen.25.25",
+      "note_ko": "‘붉은’(아드모니)은 에돔(30절), ‘털’(세아르)은 에서가 살게 될 세일(36:8)과 소리가 이어진다고 흔히 본다. 본문은 이 절에서 그 연결을 직접 말하지 않는다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "divine name",
+      "finding_ko": "이 검토는 채택문 다수 관례(야훼/YHWH/YHWH)를 따랐다. Sonnet 초안(여호와/the LORD/el SEÑOR)과 다르다. 편집 통일 필요."
+    },
+    {
+      "topic": "Ketiv/Qere policy",
+      "finding_ko": "25:23은 Qere 번역 + Ketiv 원문 보존 방식이다. 같은 방식이 프로젝트 전체 Ketiv/Qere 방침과 맞는지 편집 확인 필요(source-queue-report 보류 사유)."
+    }
+  ],
+  "final_opinion_ko": "여섯 절 모두 고정 WLC 본문(Qere 포함)을 그대로 번역하며 이문을 채택하지 않는다. 핵심 판단: (1) 25:23은 기존 초안에 없던 첫 초안이며, 마지막 행은 주어-동사-목적어(큰 자가 작은 자를 섬김)로 번역하되 רַב이 ‘맏이’가 아닌 ‘큰’임을 각주로 밝힌다. 한국어 ‘큰 자/작은 자’와 스페인어 ‘mayor/menor’는 크기·나이를 함께 담아 원문 폭을 보존한다. (2) 25:22 생략절은 최소 보충(‘왜 이러한가’)을 택하고 미해결로 표시한다. (3) 25:26은 이름 짓는 이를 밝히지 않고, ‘낳다’의 주어를 리브가로 보충해 기존 한국어 초안의 오해 소지를 고친다. 야곱–발꿈치 연결은 각주로, ‘속이는 자’는 27:36으로 미룬다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.25.21",
+      "level": "high",
+      "note_ko": "לְנֹכַח 처리만 중상."
+    },
+    {
+      "id": "Gen.25.22",
+      "level": "medium",
+      "note_ko": "생략절은 본질적으로 미해결; 동사 강도는 문체 선택."
+    },
+    {
+      "id": "Gen.25.23",
+      "level": "medium-high",
+      "note_ko": "방향은 높음; 영어 elder와 Ketiv 수용사 처리는 중간."
+    },
+    {
+      "id": "Gen.25.24",
+      "level": "high",
+      "note_ko": "평이."
+    },
+    {
+      "id": "Gen.25.25",
+      "level": "medium-high",
+      "note_ko": "강세 분할·겉옷 용어 선택."
+    },
+    {
+      "id": "Gen.25.26",
+      "level": "medium-high",
+      "note_ko": "이름 짓는 이 처리와 비인칭 수동."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.25.22",
+      "condition_ko": "페쉬타·타르굼·불가타의 25:22 실제 본문을 URL과 발췌로 확인하면 대안 B·C·D 근거를 보강하고 각주를 다시 쓴다."
+    },
+    {
+      "id": "Gen.25.23",
+      "condition_ko": "목적어 전치 독해(B)를 지지하는 고대 역본 또는 학술 문헌이 실제로 인용되면 각주에 추가하고 방향 신뢰도를 다시 평가한다. 편집이 영어 רַב 직역을 정하면 elder를 greater로 바꾼다."
+    },
+    {
+      "id": "Gen.25.25-26",
+      "condition_ko": "사마리아 오경의 이름 짓기 동사 수를 실제로 확인하면 25절/26절 대조에 관한 각주를 보강한다."
+    },
+    {
+      "id": "Gen.25.21-26",
+      "condition_ko": "편집이 신명 표기를 통일하면 세 언어 모두 맞춘다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.25.22",
+      "issue": "Elliptical im-ken lammah zeh anokhi: missing predicate",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Peshitta, Targum Onqelos and Vulgate texts for 25:22 with URLs; Swete printed LXX check of the OCR line (possible dropped word)."
+    },
+    {
+      "id": "Gen.25.23",
+      "issue": "rav ya'avod tsa'ir direction and lexical range of rav (greater vs elder)",
+      "status": "resolved_for_draft_with_note",
+      "needed_evidence": "Any ancient version or cited scholarship supporting object-fronted reading; editorial decision on English greater vs elder."
+    },
+    {
+      "id": "Gen.25.23",
+      "issue": "Ketiv GYYM reception (rabbinic re-reading) not verified",
+      "status": "unverified_reception",
+      "needed_evidence": "Talmud/Rashi text with URL if a note on Ketiv interpretation is wanted."
+    },
+    {
+      "id": "Gen.25.26",
+      "issue": "Unspecified namer (singular vayyiqra vs plural vayyiqre'u in 25:25)",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Samaritan Pentateuch reading; editorial decision on whether to surface number contrast."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T19:08:14Z) or reused from private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "accessed_utc": "2026-10-30T19:11:06Z",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+      "what_it_is": "Pinned WLC/OSHB Hosea (Hos.12.4 parallel)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Mal.xml",
+      "accessed_utc": "2026-10-30T19:11:06Z",
+      "file_sha256": "1583e6a701406dce7b8c2bf85e3522ec31383756de130685fc7c2eb6df8964b2",
+      "what_it_is": "Pinned WLC/OSHB Malachi (Mal.1.2-3 reception)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T19:11:06Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete LXX Genesis; same pinned file and hash as earlier runs. OCR spacing defects visible in 1.25.21, 1.25.23, 1.25.26."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "The self-checks below are not an independent review."
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-30T19:08:14.709139+00:00",
+    "claim_pushed": "2026-10-30T19:08Z (commit on claude/original-bible-hard-review-xv18i9 before any model review)",
+    "independent_reading_from_packet": "2026-10-30T19:08:30Z-19:10:02Z (scratch note timestamped 19:10:02Z before opening any model record)",
+    "earlier_records_inspected": "2026-10-30T19:10:05Z-19:10:50Z",
+    "reception_checks": "2026-10-30T19:10:50Z-19:11:37Z",
+    "review_written": "2026-10-30T19:11:40Z-2026-10-30T19:16:05Z",
+    "identity_rechecked": "2026-10-30T19:16:00Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional allowed)"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "packet": "automation/hard-review-packets/20261030T190814Z-10283057.json",
+    "claim_manifest": "automation/hard-review-runs/20261030T190814Z-10283057.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Gen.25.21",
+        "raw_xml": "<verse osisID=\"Gen.25.21\">\n          <w lemma=\"c/6279\" morph=\"HC/Vqw3ms\" id=\"01LkN\">וַ/יֶּעְתַּ֨ר</w>\n          <w lemma=\"3327\" morph=\"HNp\" id=\"01sNT\">יִצְחָ֤ק</w>\n          <w lemma=\"l/3068\" n=\"1.1.0\" morph=\"HR/Np\" id=\"01tBw\">לַֽ/יהוָה֙</w>\n          <w lemma=\"l/5227\" morph=\"HR/R\" id=\"018Ka\">לְ/נֹ֣כַח</w>\n          <w lemma=\"802\" n=\"1.1\" morph=\"HNcfsc/Sp3ms\" id=\"0135Y\">אִשְׁתּ֔/וֹ</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"019MC\">כִּ֥י</w>\n          <w lemma=\"6135\" n=\"1.0\" morph=\"HAafsa\" id=\"01L8B\">עֲקָרָ֖ה</w>\n          <w lemma=\"1931\" n=\"1\" morph=\"HPp3fs\" id=\"01S9i\">הִ֑וא</w>\n          <w lemma=\"c/6279\" morph=\"HC/VNw3ms\" id=\"01Mv3\">וַ/יֵּעָ֤תֶר</w>\n          <w lemma=\"l\" n=\"0.1.0\" morph=\"HR/Sp3ms\" id=\"01wVV\">ל/וֹ֙</w>\n          <w lemma=\"3068\" n=\"0.1\" morph=\"HNp\" id=\"01g4n\">יְהוָ֔ה</w>\n          <w lemma=\"c/2029\" n=\"0.0\" morph=\"HC/Vqw3fs\" id=\"01kQp\">וַ/תַּ֖הַר</w>\n          <w lemma=\"7259\" morph=\"HNp\" id=\"01Kb6\">רִבְקָ֥ה</w>\n          <w lemma=\"802\" n=\"0\" morph=\"HNcfsc/Sp3ms\" id=\"01b2m\">אִשְׁתּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "af7a758c340bcbb38e65e0aa9564664b7fb8b5f913d4a42278fa5ae73b780f6d",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.25.22",
+        "raw_xml": "<verse osisID=\"Gen.25.22\">\n          <w lemma=\"c/7533\" morph=\"HC/Vrw3mp\" id=\"01ydG\">וַ/יִּתְרֹֽצֲצ֤וּ</w>\n          <w lemma=\"d/1121 a\" n=\"1.2.0\" morph=\"HTd/Ncmpa\" id=\"015Fz\">הַ/בָּנִים֙</w>\n          <w lemma=\"b/7130\" n=\"1.2\" morph=\"HR/Ncmsc/Sp3fs\" id=\"01fdx\">בְּ/קִרְבָּ֔/הּ</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3fs\" id=\"01nbJ\">וַ/תֹּ֣אמֶר</w>\n          <w lemma=\"518 a\" morph=\"HC\" id=\"01kFR\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.1\" morph=\"HTm\" id=\"01bdT\">כֵּ֔ן</w>\n          <w lemma=\"l/4100\" morph=\"HR/Ti\" id=\"01198\">לָ֥/מָּה</w>\n          <w lemma=\"2088\" n=\"1.0\" morph=\"HPdxms\" id=\"01zXN\">זֶּ֖ה</w>\n          <w lemma=\"595\" n=\"1\" morph=\"HPp1cs\" id=\"01GsJ\">אָנֹ֑כִי</w>\n          <w lemma=\"c/3212\" n=\"0.0\" morph=\"HC/Vqw3fs\" id=\"01Ygk\">וַ/תֵּ֖לֶךְ</w>\n          <w lemma=\"l/1875\" morph=\"HR/Vqc\" id=\"01pvb\">לִ/דְרֹ֥שׁ</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01ikT\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"01hkL\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "cd67ad3d36a6c2c84964e0988508e4fec05441e008e91779406b1ac308eb773a",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.25.23",
+        "raw_xml": "<verse osisID=\"Gen.25.23\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01Zkg\">וַ/יֹּ֨אמֶר</w>\n          <w lemma=\"3068\" n=\"1.2.1.0\" morph=\"HNp\" id=\"01rjG\">יְהוָ֜ה</w>\n          <w lemma=\"l\" n=\"1.2.1\" morph=\"HR/Sp3fs\" id=\"01Zr3\">לָ֗/הּ</w>\n          <w lemma=\"8147\" morph=\"HAcmdc\" id=\"01wyh\">שְׁנֵ֤י</w>\n          <w type=\"x-ketiv\" lemma=\"1471 a\" morph=\"HNcmpa\" id=\"01ptA\">גיים</w><note type=\"variant\"><catchWord>גיים</catchWord><rdg type=\"x-qere\"><w lemma=\"1471 a\" n=\"1.2.0\" morph=\"HNcmpa\" id=\"01eWf\">גוֹיִם֙</w></rdg></note>\n          <w lemma=\"b/990\" n=\"1.2\" morph=\"HR/Ncfsc/Sp2fs\" id=\"01CPj\">בְּ/בִטְנֵ֔/ךְ</w>\n          <w lemma=\"c/8147\" morph=\"HC/Acmdc\" id=\"0175q\">וּ/שְׁנֵ֣י</w>\n          <w lemma=\"3816\" n=\"1.1\" morph=\"HNcmpa\" id=\"01ZEp\">לְאֻמִּ֔ים</w>\n          <w lemma=\"m/4578\" n=\"1.0\" morph=\"HR/Ncmpc/Sp2fs\" id=\"01ujr\">מִ/מֵּעַ֖יִ/ךְ</w>\n          <w lemma=\"6504\" n=\"1\" morph=\"HVNi3mp\" id=\"01YAj\">יִפָּרֵ֑דוּ</w>\n          <w lemma=\"c/3816\" n=\"0.1.0\" morph=\"HC/Ncmsa\" id=\"01vTy\">וּ/לְאֹם֙</w>\n          <w lemma=\"m/3816\" morph=\"HR/Ncmsa\" id=\"01uRq\">מִ/לְאֹ֣ם</w>\n          <w lemma=\"553\" n=\"0.1\" morph=\"HVqi3ms\" id=\"01ZEw\">יֶֽאֱמָ֔ץ</w>\n          <w lemma=\"c/7227 a\" n=\"0.0\" morph=\"HC/Aamsa\" id=\"01WYA\">וְ/רַ֖ב</w>\n          <w lemma=\"5647\" morph=\"HVqi3ms\" id=\"01qhb\">יַעֲבֹ֥ד</w>\n          <w lemma=\"6810\" n=\"0\" morph=\"HAamsa\" id=\"01GDP\">צָעִֽיר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "f327246c95bd9c5e321a03f67f69b372f71c488d3e3ba5d321fc0dc8598090bb",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.25.24",
+        "raw_xml": "<verse osisID=\"Gen.25.24\">\n          <w lemma=\"c/4390\" morph=\"HC/Vqw3mp\" id=\"01APs\">וַ/יִּמְלְא֥וּ</w>\n          <w lemma=\"3117\" n=\"1.0\" morph=\"HNcmpc/Sp3fs\" id=\"01qXw\">יָמֶ֖י/הָ</w>\n          <w lemma=\"l/3205\" n=\"1\" morph=\"HR/Vqc\" id=\"01Gh9\">לָ/לֶ֑דֶת</w>\n          <w lemma=\"c/2009\" morph=\"HC/Tm\" id=\"01n4y\">וְ/הִנֵּ֥ה</w>\n          <w lemma=\"8380\" n=\"0.0\" morph=\"HNcmpa\" id=\"016i6\">תוֹמִ֖ם</w>\n          <w lemma=\"b/990\" n=\"0\" morph=\"HR/Ncfsc/Sp3fs\" id=\"01squ\">בְּ/בִטְנָֽ/הּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "7017cf9d7a6e70c842134b2db8dcdd9d4016050347f2f75f8f81d3fd74391d74",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.25.25",
+        "raw_xml": "<verse osisID=\"Gen.25.25\">\n          <w lemma=\"c/3318\" morph=\"HC/Vqw3ms\" id=\"01Kgq\">וַ/יֵּצֵ֤א</w>\n          <w lemma=\"d/7223\" n=\"1.1.0\" morph=\"HTd/Aomsa\" id=\"01v4i\">הָ/רִאשׁוֹן֙</w>\n          <w lemma=\"132\" n=\"1.1\" morph=\"HAamsa\" id=\"01RbN\">אַדְמוֹנִ֔י</w>\n          <w lemma=\"3605\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"019LN\">כֻּלּ֖/וֹ</w>\n          <w lemma=\"k/155\" morph=\"HR/Ncfsc\" id=\"01dof\">כְּ/אַדֶּ֣רֶת</w>\n          <w lemma=\"8181\" n=\"1\" morph=\"HNcmsa\" id=\"01jCu\">שֵׂעָ֑ר</w>\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3mp\" id=\"01RA2\">וַ/יִּקְרְא֥וּ</w>\n          <w lemma=\"8034\" n=\"0.0\" morph=\"HNcmsc/Sp3ms\" id=\"0122L\">שְׁמ֖/וֹ</w>\n          <w lemma=\"6215\" n=\"0\" morph=\"HNp\" id=\"01eJb\">עֵשָֽׂו</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "e6e486bcf8a73fd8bd3e1d0be436b450c50eecbd8e92822a90c5dae93afe7ed6",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.25.26",
+        "raw_xml": "<verse osisID=\"Gen.25.26\">\n          <w lemma=\"c/310 a\" morph=\"HC/R\" id=\"01TCo\">וְ/אַֽחֲרֵי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.1.1.0\" morph=\"HD\" id=\"011DL\">כֵ֞ן</w>\n          <w lemma=\"3318\" morph=\"HVqp3ms\" id=\"01U11\">יָצָ֣א</w>\n          <w lemma=\"251\" n=\"1.1.1\" morph=\"HNcmsc/Sp3ms\" id=\"01wAB\">אָחִ֗י/ו</w>\n          <w lemma=\"c/3027\" morph=\"HC/Ncbsc/Sp3ms\" id=\"01Jdr\">וְ/יָד֤/וֹ</w>\n          <w lemma=\"270\" n=\"1.1.0\" morph=\"HVqrfsa\" id=\"01kds\">אֹחֶ֨זֶת֙</w>\n          <w lemma=\"b/6119\" morph=\"HR/Ncmsc\" id=\"01VhE\">בַּ/עֲקֵ֣ב</w>\n          <w lemma=\"6215\" n=\"1.1\" morph=\"HNp\" id=\"01XYi\">עֵשָׂ֔ו</w>\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3ms\" id=\"01ejz\">וַ/יִּקְרָ֥א</w>\n          <w lemma=\"8034\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01etA\">שְׁמ֖/וֹ</w>\n          <w lemma=\"3290\" n=\"1\" morph=\"HNp\" id=\"01DcB\">יַעֲקֹ֑ב</w>\n          <w lemma=\"c/3327\" n=\"0.0.0\" morph=\"HC/Np\" id=\"01pEu\">וְ/יִצְחָ֛ק</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc\" id=\"01Xoa\">בֶּן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8346\" morph=\"HAcbpa\" id=\"01EWC\">שִׁשִּׁ֥ים</w>\n          <w lemma=\"8141\" n=\"0.0\" morph=\"HNcfsa\" id=\"01yDn\">שָׁנָ֖ה</w>\n          <w lemma=\"b/3205\" morph=\"HR/Vqc\" id=\"01bJ2\">בְּ/לֶ֥דֶת</w>\n          <w lemma=\"853\" n=\"0\" morph=\"HTo/Sp3mp\" id=\"01YKT\">אֹתָֽ/ם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "caa99bde7e7d4b095a89af3498ecb02b7a9fdc0d20db6b7b831f9c9f57cd9475",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T190814Z-10283057.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "catchWord",
+      "note",
+      "rdg",
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-sof-pasuq"
+    ],
+    "notes_present_in": [
+      "Gen.25.23"
+    ],
+    "qere_ketiv_present": true,
+    "ketiv_qere_preserved_in_raw_xml": true,
+    "clause_coverage": {
+      "Gen.25.21": 3,
+      "Gen.25.22": 3,
+      "Gen.25.23": 5,
+      "Gen.25.24": 2,
+      "Gen.25.25": 3,
+      "Gen.25.26": 4
+    },
+    "all_source_words_covered_by_clauses": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "no_ascii_double_quote_in_wording": true,
+    "gen_25_23_first_draft_previous_draft_absent": true,
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
