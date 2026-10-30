@@ -1,0 +1,753 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T110950Z-64002013",
+  "unit_id": "gen-12-1-3",
+  "verse_ids": [
+    "Gen.12.1",
+    "Gen.12.2",
+    "Gen.12.3"
+  ],
+  "unit_issue_ko": "떠나라·축복 명령·복을 받음/스스로 축복함",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.12.1-3 = 전통 장절 창세기 12:1-3(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 디지털 본문(Swete 원시 OCR)도 1.12.1-1.12.3을 쓴다. 이 범위에서 장절 차이는 발견하지 못했다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml. Clause hebrew_display strings are derived displays generated from the raw w elements (OSHB morpheme slashes removed; maqqef and sof pasuq omitted in the display only) and are not a substitute for raw_xml.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; no trigger or project in session record)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T11:10:37Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. Labels only.",
+    "session": "https://claude.ai/code/session_01UknqVFojqLhNfvsWGT627j",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata, not a balance or deduction figure.",
+    "not_exposed": [
+      "exact served model snapshot beyond the session metadata label",
+      "token counts",
+      "cost or credit deduction for this run",
+      "remaining promotional credit balance"
+    ],
+    "recheck": "get_session re-checked at about 2026-10-30T11:18:23Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, last_served_model=claude-opus-5-5, rate_limit status=allowed (ccr_promotional, isUsingOverage=false). Labels only; served snapshot not otherwise exposed."
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T11:09:37Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; all 13 earlier hard-review claims on claude/ branches are completed; no active claim)",
+    "claim_created": "2026-10-30T11:09:50Z (run_id timestamp; manifest created_at holds the exact value)",
+    "claim_pushed": "2026-10-30T11:10Z (claim commit 0f5afa10 pushed to claude/bible-hard-passage-review-uhg85t; ls-remote confirmed)",
+    "independent_reading_saved": "2026-10-30T11:10:37Z (scratch note from packet raw XML only, before opening any earlier model record)",
+    "earlier_records_compared": "2026-10-30T11:10:40Z-11:14Z",
+    "parallel_evidence_fetched": "2026-10-30T11:11:08Z-11:17:42Z",
+    "review_saved": "2026-10-30T11:17:52Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "Reading built from packet raw XML and OSHB morphology only, then saved to scratch before reading the earlier Sonnet draft or other reviews. Clause notes below were refined afterwards with parallels from the same pinned WLC file and the reception sources in network_access_log; the as_first_written text is the unrefined first note.",
+    "written_before_reading_other_records_utc": "2026-10-30T11:10:37Z",
+    "as_first_written_en": "12.1 ko: 야훼께서 아브람에게 말씀하셨다. \"너는 네 땅과 네 친족과 네 아버지의 집을 떠나, 내가 너에게 보여 줄 그 땅으로 가거라.\" / en: YHWH said to Abram, \"Go, for your part, from your land, from your kindred, and from your father's house, to the land that I will show you.\" / es: YHWH dijo a Abram: \"Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que yo te mostrare.\" issues: lek-leka (centripetal/ethical dative, not 'go to yourself'); moledet kindred vs birthplace; wayyiqtol not pluperfect by grammar (KJV 'had said' is reception harmonizing with Acts 7:2 / 11:31); YHWH tetragram rendering policy. | 12.2 ko: 내가 너를 큰 민족으로 만들고, 너에게 복을 주며, 네 이름을 크게 하겠다. 너는 복이 되어라. / en: I will make you into a great nation; I will bless you and make your name great. Be a blessing! / es: Hare de ti una gran nacion, te bendecire y engrandecere tu nombre. Se tu una bendicion. issues: weyiqtol after imperative = purpose/result volitive; cohortative waagaddelah; wehyeh imperative: command vs consequence ('so that you will be'); conjecture wehayah (not attested in packet); LXX rendering (recalled, unverified). | 12.3 ko: 너를 축복하는 자들은 내가 축복하고, 너를 업신여기는 자는 내가 저주하겠다. 땅의 모든 족속이 너로 말미암아 복을 받을 것이다. / en: I will bless those who bless you, and the one who treats you with contempt I will curse; and in you all the families of the ground will be blessed. issues: plural mevarekheka vs singular umeqallelka (MT); qll (light/contempt) vs arar (curse) lexical distinction; Niphal nivrekhu passive vs middle/reflexive ('bless themselves by you') vs 'find blessing'; ba-ka instrumental/locative; adamah vs erets. (Spanish of 12.3 was not written in the first note; es initial proposal below was added after the first note and before reading other records. Spanish accents were omitted in the first note and are preserved as typed.)",
+    "clauses": {
+      "Gen.12.1": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01edC",
+            "01mRn",
+            "01axV",
+            "01o7u"
+          ],
+          "morph": [
+            "HC/Vqw3ms",
+            "HNp",
+            "HR",
+            "HNp"
+          ],
+          "category": [
+            "discourse",
+            "reception"
+          ],
+          "note_ko": "וַיֹּאמֶר 와이익톨 3남단. 11:31-32(데라의 하란 정착·죽음) 바로 뒤에 이어진다. 문법 형태만으로는 과거완료('말씀하셨었다')를 표시하지 않는다. 과거완료 해석은 15:7(갈대아 우르에서 이끌어 냄)과 사도행전 7:2-4(하란에 살기 전 메소포타미아에서 나타남)를 조화시키려는 수용사적 읽기다. 신명 יְהוָה는 크레 영속(qere perpetuum) 표기로 원시 XML에 그대로 보존했다.",
+          "hebrew_display": "וַיֹּ֤אמֶר יְהוָה֙ אֶל אַבְרָ֔ם",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01ihd",
+            "01vRG"
+          ],
+          "morph": [
+            "HVqv2ms",
+            "HR/Sp2ms"
+          ],
+          "category": [
+            "lexical",
+            "syntax"
+          ],
+          "note_ko": "לֶךְ־לְךָ: 칼 명령 + ל+2남단 접미사. ל은 '너에게로 가라'라는 방향이 아니라 주어 자신에게 행위를 되돌리는 이른바 재귀적(centripetal/ethical) 여격으로 보는 것이 무난하다. 같은 정식이 22:2(וְלֶךְ־לְךָ 모리아 땅으로, '내가 네게 말할 산')에 다시 나와 아브라함 이야기의 앞뒤를 묶는다. 번역에서는 별도 단어로 옮기지 않고 명령의 개인적 강세('너는 … 가거라')로 반영한다.",
+          "hebrew_display": "לֶךְ לְךָ֛",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01fGs",
+            "015QH",
+            "01R1Q",
+            "01ckh"
+          ],
+          "morph": [
+            "HR/Ncbsc/Sp2ms",
+            "HC/R/Ncfsc/Sp2ms",
+            "HC/R/Ncmsc",
+            "HNcmsc/Sp2ms"
+          ],
+          "category": [
+            "lexical",
+            "discourse",
+            "historical"
+          ],
+          "note_ko": "מִן 셋이 넓은 범위에서 좁은 범위로 나아간다: 땅 → 친족(מוֹלֶדֶת) → 아버지의 집. מוֹלֶדֶת는 11:28 '그의 출생지(בְּאֶרֶץ מוֹלַדְתּוֹ) 갈대아 우르'처럼 출생지를 뜻할 수 있지만, 24:4('내 땅, 내 מוֹלֶדֶת로')와 24:7('내 아버지의 집과 내 מוֹלֶדֶת의 땅')에서는 하란/아람 나하라임의 친족 집단을 가리킨다. 그래서 '친족'이 이 본문의 흐름에 더 맞다. 히브리어에는 '떠나다' 동사가 따로 없고 מִן 전치사구가 לֶךְ에 걸린다. 한국어 '떠나'는 이 전치사구를 동사로 풀어 쓴 것이다.",
+          "hebrew_display": "מֵאַרְצְךָ֥ וּמִמּֽוֹלַדְתְּךָ֖ וּמִבֵּ֣ית אָבִ֑יךָ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 4,
+          "word_ids": [
+            "01z9U",
+            "01ySc",
+            "01hPW",
+            "01CfY"
+          ],
+          "morph": [
+            "HR",
+            "HTd/Ncbsa",
+            "HTr",
+            "HVhi1cs/Sp2ms"
+          ],
+          "category": [
+            "lexical",
+            "discourse"
+          ],
+          "note_ko": "אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶךָּ: 정관사 있는 '그 땅'이지만 아직 이름이 없다. אַרְאֶךָּ는 히필 미완료 1공단+2남단 접미사 '내가 너에게 보여 줄'. 목적지가 밝혀지지 않은 것이 본문의 요점이다. 12:7에서 '이 땅을 네 씨에게 주겠다'로 이어진다.",
+          "hebrew_display": "אֶל הָאָ֖רֶץ אֲשֶׁ֥ר אַרְאֶֽךָּ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        }
+      ],
+      "Gen.12.2": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01b31",
+            "01PmK",
+            "01DVx"
+          ],
+          "morph": [
+            "HC/Vqi1cs/Sp2ms",
+            "HR/Ncmsa",
+            "HAamsa"
+          ],
+          "category": [
+            "syntax",
+            "discourse"
+          ],
+          "note_ko": "וְאֶעֶשְׂךָ: 단순 와우 + 미완료 1공단(OSHB Vqi). 명령(לֶךְ) 뒤에 오는 단순 와우 + 1인칭 미완료/권유형은 목적·결과('그러면 내가 …하리라 / …하려 한다')로 읽히는 일반적 연쇄다. 번역은 약속의 미래형으로 두고 목적 해석은 주석으로 남긴다. לְגוֹי גָּדוֹל '큰 민족으로'(ל 결과 표지). 11:30 '사래는 임신하지 못하여 자식이 없었다'와 날카롭게 대비된다.",
+          "hebrew_display": "וְאֶֽעֶשְׂךָ֙ לְג֣וֹי גָּד֔וֹל",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01XEf"
+          ],
+          "morph": [
+            "HC/Vpi1cs/Sp2ms"
+          ],
+          "category": [
+            "lexical"
+          ],
+          "note_ko": "וַאֲבָרֶכְךָ 피엘 1공단 + 2남단 접미사 '내가 너에게 복을 주겠다'. 12:2-3에는 √ברך가 다섯 번 나온다(동사 4: 12:2 וַאֲבָרֶכְךָ, 12:3 וַאֲבָרֲכָה·מְבָרְכֶיךָ·וְנִבְרְכוּ; 명사 1: 12:2 בְּרָכָה). OSHB 렘마 779(ארר)는 창 1-11장에서 3:14·3:17·4:11·5:29·9:25의 다섯 곳에 나온다(고정 커밋 파일에서 검색). 저주 다섯과 복 다섯의 대응은 문학적 관찰이며 본문 번역에 덧붙이지 않는다.",
+          "hebrew_display": "וַאֲבָ֣רֶכְךָ֔",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "0156w",
+            "01h2d"
+          ],
+          "morph": [
+            "HC/Vpi1cs",
+            "HNcmsc/Sp2ms"
+          ],
+          "category": [
+            "lexical",
+            "discourse"
+          ],
+          "note_ko": "וַאֲגַדְּלָה 피엘 권유형(끝 ה) '내가 크게 하리라'. שְׁמֶךָ '네 이름'. 11:4 바벨 건축자들이 '우리 이름을 내자'(וְנַעֲשֶׂה־לָּנוּ שֵׁם)고 스스로 하려 한 것을 여기서는 야훼가 주어로서 준다. 이 대비는 담화적 연결이며 번역에 반영할 필요는 없다.",
+          "hebrew_display": "וַאֲגַדְּלָ֖ה שְׁמֶ֑ךָ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 4,
+          "word_ids": [
+            "01GLn",
+            "012mU"
+          ],
+          "morph": [
+            "HC/Vqv2ms",
+            "HNcfsa"
+          ],
+          "category": [
+            "syntax",
+            "textual",
+            "reception"
+          ],
+          "note_ko": "וֶהְיֵה בְּרָכָה: OSHB는 칼 명령 2남단(Vqv2ms)으로 분석한다. 명령으로 읽으면 '너는 복이 되어라'. 그러나 권유형 연쇄 뒤 와우+명령은 결과·목적('그리하여 네가 복이 될 것이다')을 표현할 수 있다: 같은 책 20:7 וְיִתְפַּלֵּל בַּעַדְךָ וֶחְיֵה('그가 너를 위해 기도하면 너는 살 것이다'), 42:18 זֹאת עֲשׂוּ וִחְיוּ('이렇게 하라, 그러면 살리라'). 반대로 17:1 הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִים은 같은 꼴 וֶהְיֵה가 진짜 명령으로 쓰인 예다. 따라서 문법만으로는 결정되지 않는다. 칠십인역 OCR은 καὶ ἔσῃ εὐλογητός('너는 복받은 자가 될 것이다', 미래 직설법 + 형용사)로 결과 해석과 '복받은'으로 읽는다(수용사). 자음 והיה를 3남단 와카탈 וְהָיָה('그것[이름]이 복이 되리라')로 다시 모음 붙이는 추정은 가능한 재구성일 뿐이며 이 패킷과 이 세션이 확인한 어떤 증인에도 그 읽기가 없다.",
+          "hebrew_display": "וֶהְיֵ֖ה בְּרָכָֽה",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        }
+      ],
+      "Gen.12.3": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01gjo",
+            "01jvq"
+          ],
+          "morph": [
+            "HC/Vpi1cs",
+            "HVprmpc/Sp2ms"
+          ],
+          "category": [
+            "lexical",
+            "syntax"
+          ],
+          "note_ko": "וַאֲבָרְכָה 피엘 권유형 1공단(목적어 접미사 없음) + מְבָרְכֶיךָ 피엘 분사 남복 연계형 + 2남단 접미사 '너를 축복하는 이들'(복수). 사람이 사람을 '축복하다'(복을 빌다)와 하나님이 '복을 주다'는 같은 동사이므로 한국어에서는 주어에 따라 '축복하다/복을 주다'로 나누어 옮길 수 있다.",
+          "hebrew_display": "וַאֲבָֽרֲכָה֙ מְבָ֣רְכֶ֔יךָ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01kmi",
+            "01uRv"
+          ],
+          "morph": [
+            "HC/Vprmsc/Sp2ms",
+            "HVqi1cs"
+          ],
+          "category": [
+            "lexical",
+            "syntax",
+            "textual"
+          ],
+          "note_ko": "וּמְקַלֶּלְךָ אָאֹר: 피엘 분사 남단 + 2남단 접미사(단수, MT) '너를 קלל하는 자'를 동사 앞에 둔 교차 어순 뒤 칼 미완료 1공단 אָאֹר(√ארר) '내가 저주하겠다'. (1) 수: 앞의 복수 '축복하는 이들'과 단수 '…하는 자'가 대조된다. 칠십인역 OCR은 τοὺς καταρωμένους σε(복수)로 읽는다. 사마리아 오경도 복수로 읽는다는 보고가 있으나 이 세션에서 확인하지 못했다. (2) 어휘: 같은 절 안에서 קלל(피엘)과 ארר가 갈린다. 27:29는 대칭을 원할 때 אֹרְרֶיךָ אָרוּר처럼 같은 어근을 쓴다. 다만 8:21 לְקַלֵּל עוֹד אֶת־הָאֲדָמָה에서 야훼가 קלל 피엘로 땅을 '저주'하므로 קלל을 '가볍게 여기다'로만 좁히는 것은 어원 의존이다(칼형 8:8·8:11은 물이 '줄어들다'). 그래서 말로 해를 가하는 '모욕하다/revile/injuriar'를 택해 두 어근의 차이를 살리되 강도를 낮추지 않는다.",
+          "hebrew_display": "וּמְקַלֶּלְךָ֖ אָאֹ֑ר",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01YCW",
+            "01uJ1",
+            "0171E",
+            "01kBH",
+            "01tFR"
+          ],
+          "morph": [
+            "HC/VNp3cp",
+            "HR/Sp2ms",
+            "HNcmsc",
+            "HNcfpc",
+            "HTd/Ncfsa"
+          ],
+          "category": [
+            "syntax",
+            "lexical",
+            "reception"
+          ],
+          "note_ko": "וְנִבְרְכוּ 니팔 와카탈 3공복. 니팔 √ברך는 이 약속 정식 세 곳(12:3, 18:18, 28:14)에만 나오고, 22:18·26:4(창세기), 시 72:17, 렘 4:2는 히트파엘(וְהִתְבָּרֲכוּ/וְיִתְבָּרְכוּ)을 쓴다. 니팔은 수동('복을 받다')과 중간·재귀('스스로 복을 빌다', 즉 '아브람처럼 되기를' 하며 그의 이름으로 복을 비는 관용; 48:20 בְּךָ יְבָרֵךְ יִשְׂרָאֵל 참조) 모두 가능하다. 12:3a에서 복의 출처가 야훼 자신이므로 수동·수혜 해석이 문맥에 자연스럽다. 칠십인역 OCR은 εὐλογηθήσονται(수동 미래)로, 18:18·22:18·26:4·28:14 OCR과 갈라디아서 3:8 SBLGNT는 ἐνευλογηθήσονται로 읽는다(모두 수동, 수용사). בְךָ는 도구('너로 말미암아')·장소('네 안에서')·관용('너를 두고 복을 빎') 모두 열려 있다. מִשְׁפְּחֹת는 가문·씨족 단위(10:5·10:31 참조). הָאֲדָמָה는 12:1의 אֶרֶץ(나라·땅)와 다른 단어로 3:17·4:11·5:29·8:21의 '저주받은 땅(아다마)'을 되울린다.",
+          "hebrew_display": "וְנִבְרְכ֣וּ בְךָ֔ כֹּ֖ל מִשְׁפְּחֹ֥ת הָאֲדָמָֽה",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only"
+        }
+      ]
+    }
+  },
+  "initial_proposals": {
+    "Gen.12.1": {
+      "ko": "야훼께서 아브람에게 말씀하셨다. “너는 네 땅과 네 친족과 네 아버지의 집을 떠나, 내가 너에게 보여 줄 그 땅으로 가거라.",
+      "en": "YHWH said to Abram, “Go, for your part, from your land, from your kindred, and from your father’s house, to the land that I will show you.",
+      "es": "YHWH dijo a Abram: «Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que yo te mostrare."
+    },
+    "Gen.12.2": {
+      "ko": "내가 너를 큰 민족으로 만들고, 너에게 복을 주며, 네 이름을 크게 하겠다. 너는 복이 되어라.",
+      "en": "I will make you into a great nation; I will bless you and make your name great. Be a blessing!",
+      "es": "Hare de ti una gran nacion, te bendecire y engrandecere tu nombre. Se tu una bendicion."
+    },
+    "Gen.12.3": {
+      "ko": "너를 축복하는 자들은 내가 축복하고, 너를 업신여기는 자는 내가 저주하겠다. 땅의 모든 족속이 너로 말미암아 복을 받을 것이다.”",
+      "en": "I will bless those who bless you, and the one who treats you with contempt I will curse; and in you all the families of the ground will be blessed.”",
+      "es": "Bendecire a los que te bendigan, y al que te desprecie lo maldecire; y en ti seran benditas todas las familias de la tierra»."
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbcadea73cca32b2febcc8f3e4fb214ccb83)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.12.1-3에는 현행 채택문이 없다(패킷 current_selected 빈 목록, editorial.json 111절 중 없음). 이 검토는 미래 채택용 연구 자료다. 인접 관례: 4:1 채택문 ko '야훼'·en/es 'YHWH', 2:4 채택문 en 'Yahweh'·es 'Yahvé'(내부 불일치), 인용부호 ko/en “ ”·es « », 아포스트로피 ’."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-po3u6x:automation/cloud-drafts/20261024T091815Z-bda79429.json (branch head cf43fd5e5d987e81afb03d9da5ecd57ab2e5c7c1; file sha256 ea26c0933c69f57960ce700fc5f3cbe55b2773879004d3549760be190a0675de)",
+      "model_label": "Claude Code native cloud draft; recorded requested_model 'Claude Sonnet 5.5 (claude-sonnet-5-5), as reported by the session system prompt'; exact snapshot recorded as unavailable; state unadopted_model_draft; independent_review none",
+      "covered_ids": [
+        "Gen.12.1",
+        "Gen.12.2",
+        "Gen.12.3"
+      ],
+      "missing_ids": [],
+      "finding_ko": "일반 초안(100절 배치, Gen.10.27-Gen.15.6)이 세 절을 모두 다룬다. 그 초안의 source_hebrew_sha256 값(예: 12:1 4e30f9c9…)은 이 패킷의 fragment_sha256(c66b229e…)과 다른 해시 기준(추출 텍스트)이므로 직접 비교하지 않았다. 같은 morphhb 커밋·Gen.xml sha256(0526e5c9…)을 쓰므로 원문 불일치는 없다."
+    },
+    {
+      "record": "data/model-reviews/, reviews/, data/decisions.json, data/hebrew.json, data/genesis-guides.json (main 4fbdcbc)",
+      "model_label": "saved GPT/Gemini/agy/editor records",
+      "finding_ko": "Gen.12.1-3에 대한 GPT·Gemini·agy·사람 검토 기록을 찾지 못했다(grep 'Gen.12.'). 따라서 이 단위에서 비교한 실제 저장 모델 기록은 위 Claude Sonnet 일반 초안 하나뿐이다."
+    },
+    {
+      "record": "origin/claude/original-bible-difficult-passages-5dzlq2:automation/cloud-reviews/20261030T090524Z-179e2d93.json (gen-8-20-22) and origin/claude/original-bible-hard-review-dfb67p:automation/cloud-reviews/20261030T100019Z-e59b1d2e.json (gen-9-20-27)",
+      "model_label": "Claude Code native cloud hard reviews; recorded requested_model claude-opus-5-5; unadopted_model_review",
+      "finding_ko": "다른 단위 검토이며 이 단위를 다루지 않는다. 용어 일관성 비교에만 썼다: 8:21 검토는 לְקַלֵּל(피엘 קלל)을 '저주하다/curse/maldecir'로 옮겼고 아다마를 en 'ground'·es 'el suelo'로 제안했다. 9:20-27 검토는 아다마/에레츠 구별 정책이 필요하다고 지적했다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "12:2 끝 וֶהְיֵה בְּרָכָה에서 Sonnet 초안은 언어마다 해석이 다르다: ko '너는 복이 되어라'(명령), en 'and you shall be a blessing'(미래·결과), es 'y serás una bendición'(미래). 초안의 current_opinion_ko는 '명령형 정점'이라고 했으므로 en·es가 그 의견과 어긋난다. 본 검토는 세 언어 모두 명령형으로 맞추고 결과 해석은 주석으로 둔다.",
+    "12:1 Sonnet 초안 en 'Leave your land … and go to the land'는 '떠나다'와 '가다' 두 동사를 만들었다. 히브리어는 명령 하나(לֶךְ)에 מִן…אֶל 전치사구가 걸리는 구조다. 본 검토 en 'Go forth from … to the land'가 구조에 더 가깝다. 초안 es 'Vete de … a la tierra'는 이미 구조와 맞다.",
+    "12:1 Sonnet 초안은 ko '주님'·en 'The LORD'·es 'el SEÑOR'를 썼다. 4:1 채택문과 다른 검토들의 관례(ko '야훼', en/es 'YHWH')와 다르다. 본 검토는 채택 관례를 따른다. 신명 정책 자체(2:4 'Yahweh/Yahvé'와의 불일치)는 편집 결정이 필요하다.",
+    "12:1 Sonnet 초안의 인용부호: en 12:1은 “로 열고 12:3 끝 ”로 닫는다(일관). ko 12:1은 인용을 12:1 안에서 닫아 12:2-3이 인용 밖에 놓였다. 12:1-3은 한 발화이므로 본 검토는 12:1에서 열고 12:3 끝에서 닫는다.",
+    "12:3 Sonnet 초안은 단수·복수 대조를 en 'the one who curses you'·es 'a quien te maldiga'로 살렸지만 קלל/ארר 어휘 차이는 세 언어 모두 '저주'로 평평하게 했다. 본 검토는 '모욕하다/revile/injuriar'로 차이를 살린다. 이 선택에 대한 가장 강한 반론은 strongest_objection_to_own_reading에 있다.",
+    "12:3 니팔 וְנִבְרְכוּ: Sonnet 초안과 본 검토 모두 수동('복을 얻을/받을', 'will be blessed', 'serán benditas')을 택했다. 초안 en 'through you'는 도구 해석을 고정한다. 본 검토 en 'in you'는 도구·장소·관용을 모두 열어 둔다. ko '너로 말미암아'는 두 기록이 같다.",
+    "12:3 הָאֲדָמָה: 초안 en 'the earth'·es 'la tierra'. 본 검토도 같다. 다만 en 'ground' 일관성 정책(3:17·4:2 채택문)과 충돌하므로 editorial_consistency_findings에 남긴다."
+  ],
+  "reception_evidence": {
+    "source_note": "Septuagint lines are from third-party raw OCR of Swete (First1KGreek) and contain visible OCR damage (e.g. 12:4 'πέντε' without the tens numeral). NT lines are from MorphGNT SBLGNT token files (master branch, file sha256 recorded). All are reception evidence only, not Hebrew witnesses; quoted verbatim, not corrected.",
+    "excerpts": [
+      {
+        "ref": "LXX Gen 12:1",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.12.1 Καὶ εἶπεν κύριος τῷ Ἁβρἀμ Ἔξελθε ἐκ τῆς γῆς σου καὶσυγγενείας σου καὶ ἐκ τοῦ οἴκου τοῦ πατρός σου, εἰς τὴν γῆν ἢν ἄν δείξω."
+      },
+      {
+        "ref": "LXX Gen 12:2",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.12.2 καὶ ποιήσω σε εἰς ἔθνος μέγα καὶ εὐλογήσω σε καὶ τὸ ὄνομά σου, καὶ ἔσῃ εὐλογητός·"
+      },
+      {
+        "ref": "LXX Gen 12:3",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.12.3 καὶ εὐλογήσω τοὺς εὐλογοῦντάς σε,καὶ τοὺς καταρωμένους σε καταράσομαι, καὶ εὐλογηθήσονται ἐν σοὶ πᾶσαι οἱ φυλαὶ τῆς γῆς."
+      },
+      {
+        "ref": "LXX Gen 18:18",
+        "file": "lxx_gen.txt",
+        "excerpt": "καὶ ἐνευλογηθήσονται ἐν αὐτῷ πάντα τὰ ἔθνη τῆς γῆς."
+      },
+      {
+        "ref": "LXX Gen 28:14",
+        "file": "lxx_gen.txt",
+        "excerpt": "καὶ ἐνευλογηθήσονται ἐν σοὶ πᾶσαι αἱ φυλαὶ τῆς ἰῆς καὶ ἐν τῷ σπέρματίσου."
+      },
+      {
+        "ref": "Gal 3:8 SBLGNT token",
+        "file": "ga.txt",
+        "excerpt": "090308 V- 3FPI-P-- Ἐνευλογηθήσονται Ἐνευλογηθήσονται ἐνευλογηθήσονται ἐνευλογέω"
+      },
+      {
+        "ref": "Acts 7:2 SBLGNT token",
+        "file": "ac.txt",
+        "excerpt": "050702 N- ----DSF- Μεσοποταμίᾳ Μεσοποταμίᾳ Μεσοποταμίᾳ Μεσοποταμία"
+      },
+      {
+        "ref": "Acts 7:4 SBLGNT token",
+        "file": "ac.txt",
+        "excerpt": "050704 V- -AAN---- ἀποθανεῖν ἀποθανεῖν ἀποθανεῖν ἀποθνῄσκω"
+      }
+    ],
+    "assessment_ko": "(1) 12:1 칠십인역 OCR Ἔξελθε('나가라')는 לֶךְ־לְךָ의 ל을 따로 옮기지 않고 출발 의미로 읽으며, מוֹלֶדֶת를 συγγένεια('친족')로 옮겨 '친족' 해석과 맞는다. OCR 줄에는 δείξω 앞의 σοι가 없으나, 사도행전 7:3 SBLGNT 인용에는 'ἣν ἄν σοι δείξω'가 있다. OCR 손상인지 Swete 본문인지 확인하지 않았으므로 이형으로 다루지 않는다. (2) 12:2 OCR은 'καὶ τὸ ὄνομά σου' 앞에 동사가 없다. 이것도 OCR 누락 가능성이 있어 이형으로 다루지 않는다. 마지막 'καὶ ἔσῃ εὐλογητός'는 וֶהְיֵה를 미래 직설법 결과로, בְּרָכָה('복')를 εὐλογητός('복받은')로 옮긴 해석적 번역이다. (3) 12:3 OCR은 저주하는 자를 복수(τοὺς καταρωμένους)로 읽어 MT 단수와 다르고, קלל과 ארר를 같은 어근(καταράομαι)으로 평평하게 한다. 이것이 다른 히브리 대본을 반영하는지, 번역상의 동화인지는 이 자료만으로 판단할 수 없다. 니팔은 수동 εὐλογηθήσονται로, מִשְׁפְּחֹת הָאֲדָמָה는 αἱ φυλαὶ τῆς γῆς로 옮긴다. (4) 갈라디아서 3:8은 12:3과 18:18을 섞은 듯한 'ἐν σοὶ πάντα τὰ ἔθνη'를 수동 ἐνευλογηθήσονται로 인용한다(수용사). (5) 사도행전 7:2-4는 부르심을 하란 이전 메소포타미아에 두고 이주를 '그의 아버지가 죽은 뒤'에 둔다. MT 연대(11:26 데라 70세에 출생 기사, 12:4 아브람 75세 하란 출발, 11:32 데라 205세 사망)를 단순 계산하면 데라는 아브람 출발 뒤 60년을 더 산다. 다만 11:26은 아브람이 맏아들임을 명시하지 않으므로 이 계산은 확정적이지 않다. 사마리아 오경 11:32의 145세 보고(이전 초안이 '보고'로 적음)는 이 세션에서 확인하지 못했다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.12.1",
+      "clause": "וַיֹּאמֶר",
+      "option": "(A) 말씀하셨다 / said / dijo (선호)",
+      "for": "와이익톨의 기본 서사 과거. 문법이 요구하는 이상을 덧붙이지 않는다.",
+      "against": "11:32의 데라 사망 기사 뒤에 놓여 독자가 '데라 사후에 부르심'으로 오해할 수 있다.",
+      "verdict": "본문 채택안. 연대 문제는 주석으로 분리."
+    },
+    {
+      "verse": "Gen.12.1",
+      "clause": "וַיֹּאמֶר",
+      "option": "(B) 말씀하셨었다 / had said / había dicho",
+      "for": "15:7, 사도행전 7:2와 조화된다. 11:32가 시간 순서를 앞당긴 요약일 가능성을 반영한다.",
+      "against": "와이익톨의 과거완료 용법은 논쟁적이며 이 문맥에서 형태상 표지가 없다. 수용사적 조화를 번역에 고정한다.",
+      "verdict": "주석의 대안으로만."
+    },
+    {
+      "verse": "Gen.12.1",
+      "clause": "לֶךְ־לְךָ",
+      "option": "(A) 가거라 / Go forth / Vete (선호)",
+      "for": "재귀 여격의 개인적 강세를 명령의 어조로 반영한다. 22:2와 같은 역어를 쓸 수 있다.",
+      "against": "ל의 존재가 번역에서 보이지 않는다.",
+      "verdict": "채택. 22:2도 같은 정식으로 옮기도록 권고."
+    },
+    {
+      "verse": "Gen.12.1",
+      "clause": "לֶךְ־לְךָ",
+      "option": "(B) 너 자신을 위해 가라 / Go for yourself",
+      "for": "ל을 문자적으로 드러낸다.",
+      "against": "'자신의 이익을 위해'라는 의미를 덧붙여 해석을 과도하게 고정한다(일부 유대 수용사의 '너의 유익을 위해' 해석과 연결되지만 이 세션에서 그 원문을 확인하지 않았다).",
+      "verdict": "주석으로만."
+    },
+    {
+      "verse": "Gen.12.1",
+      "clause": "מוֹלַדְתְּךָ",
+      "option": "(A) 친족 / kindred / parentela (선호)",
+      "for": "24:4·24:7에서 아브라함이 하란 쪽 친족을 '내 מוֹלֶדֶת'로 부른다. 칠십인역 OCR συγγένεια와도 맞는다.",
+      "against": "11:28은 같은 단어로 출생지(갈대아 우르)를 가리킨다.",
+      "verdict": "채택."
+    },
+    {
+      "verse": "Gen.12.1",
+      "clause": "מוֹלַדְתְּךָ",
+      "option": "(B) 고향·출생지 / birthplace / tierra natal",
+      "for": "11:28 용례와 맞는다.",
+      "against": "'네 땅'과 의미가 겹치고, 부르심의 장소(하란 또는 우르) 논쟁에 번역이 개입하게 된다.",
+      "verdict": "주석의 대안."
+    },
+    {
+      "verse": "Gen.12.2",
+      "clause": "וֶהְיֵה בְּרָכָה",
+      "option": "(A) 너는 복이 되어라 / And be a blessing / Y sé una bendición (선호)",
+      "for": "OSHB 분석과 MT 모음이 명령형이다. 17:1 וֶהְיֵה תָמִים처럼 같은 꼴이 진짜 명령으로 쓰인다. 아브람에게 역할을 부여하는 독립적 명령으로 읽힌다.",
+      "against": "권유형 연쇄 뒤 와우+명령은 결과를 표현하는 경우가 많다(20:7 וֶחְיֵה, 42:18 וִחְיוּ).",
+      "verdict": "세 언어 모두 명령형으로 통일하고 결과 해석을 주석에 둔다."
+    },
+    {
+      "verse": "Gen.12.2",
+      "clause": "וֶהְיֵה בְּרָכָה",
+      "option": "(B) 그리하여 너는 복이 될 것이다 / so that you will be a blessing / y así serás una bendición",
+      "for": "20:7·42:18의 결과 명령 용법. 칠십인역 OCR καὶ ἔσῃ εὐλογητός가 미래 직설법으로 읽는다.",
+      "against": "명령형 형태를 번역에서 지운다. 칠십인역은 수용사이며 '복받은'으로 의미도 바꾼다.",
+      "verdict": "강한 대안. 주석 필수."
+    },
+    {
+      "verse": "Gen.12.2",
+      "clause": "וֶהְיֵה בְּרָכָה",
+      "option": "(C) 재구성: וְהָיָה '그것(네 이름)이 복이 되리라'",
+      "for": "자음 והיה만 보면 3남단 와카탈로 다시 모음을 붙일 수 있고, 앞의 '네 이름'과 자연스럽게 이어진다.",
+      "against": "이 패킷과 이 세션이 확인한 어떤 증인에도 이 읽기가 없다(칠십인역 OCR은 2인칭 ἔσῃ). 증거 없는 재구성이다.",
+      "verdict": "번역에 쓰지 않음. 재구성 가설로만 기록."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "וּמְקַלֶּלְךָ (MT 단수)",
+      "option": "(A) 단수 유지 / the one who … / al que …(선호)",
+      "for": "MT 본문과 OSHB 분석이 단수다. 복수 '축복하는 이들'과의 비대칭이 의도적일 수 있다(복의 범위는 넓고 저주의 대상은 예외적).",
+      "against": "칠십인역 OCR은 복수이고, 사마리아 오경도 복수라는 보고가 있다(미확인). 분사 단수는 집합적 총칭('누구든지')일 수도 있어 비대칭 해석은 과잉일 수 있다.",
+      "verdict": "단수 유지. 복수 이형은 '보고된 이형'으로 주석."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "וּמְקַלֶּלְךָ (MT 단수)",
+      "option": "(B) 복수로 고침 / those who curse you",
+      "for": "앞 구와 대칭이 되고 칠십인역과 맞는다.",
+      "against": "MT를 고치는 것이며, 칠십인역 복수가 대본 차이인지 번역 동화인지 판단할 수 없다.",
+      "verdict": "채택하지 않음."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "קלל 대 ארר",
+      "option": "(A) 모욕하는 자 / the one who reviles you / al que te injurie (선호)",
+      "for": "한 절 안의 두 어근 차이를 살린다(27:29는 대칭을 원할 때 같은 어근 ארר를 쓴다). '모욕/revile/injuriar'는 말로 가하는 해를 가리켜 출 21:17·삼하 16장 같은 피엘 קלל 용례의 언어 행위 성격에 맞고, 어원('가볍다')에만 기대지 않는다.",
+      "against": "8:21에서 야훼가 קלל 피엘로 땅을 '저주'하므로 두 어근은 창세기 안에서 거의 동의어다. 동의어 변주를 의미 차이로 과잉 해석할 수 있다.",
+      "verdict": "잠정 채택. 신뢰도 중간."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "קלל 대 ארר",
+      "option": "(B) 저주하는 자 / the one who curses you / al que te maldiga",
+      "for": "8:21 검토 역어와 일관되고 칠십인역 OCR도 같은 어근으로 옮긴다. 가장 안전하다.",
+      "against": "두 어근의 차이가 번역에서 완전히 사라진다.",
+      "verdict": "편집자가 8:21과의 일관성을 우선하면 이 안을 택할 것."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "קלל 대 ארר",
+      "option": "(C) 업신여기는 자 / treats you with contempt / te desprecie (독립 판독 초안)",
+      "for": "'가볍게 여기다'라는 어원과 칼형 8:8·8:11('줄어들다')의 의미를 살린다.",
+      "against": "어원에 의존해 강도를 약화한다. 피엘 용례는 언어적 저주를 가리키는 경우가 많다.",
+      "verdict": "독립 판독 뒤 기각. (A)로 수정."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "וְנִבְרְכוּ בְךָ",
+      "option": "(A) 너로 말미암아 복을 받을 것이다 / in you … will be blessed / en ti serán benditas (선호)",
+      "for": "12:3a에서 복의 주체가 야훼다. 니팔의 기본 수동 의미. 칠십인역·신약 수용사와 같다.",
+      "against": "22:18·26:4가 같은 약속을 히트파엘(재귀·상호)로 쓰므로 니팔도 중간 의미일 가능성이 있다.",
+      "verdict": "채택. 재귀 해석을 주석 필수 항목으로."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "וְנִבְרְכוּ בְךָ",
+      "option": "(B) 너를 두고 스스로 복을 빌 것이다 / will bless themselves by you / se bendecirán por ti",
+      "for": "48:20 '너를 두고 이스라엘이 복을 빌어 말하기를'이 '…처럼 되게 하소서' 정식을 보여 준다. 시 72:17·렘 4:2 히트파엘 병행.",
+      "against": "니팔과 히트파엘이 같은 의미라는 전제가 필요하다. 12:3a 문맥(야훼가 복을 줌)과 덜 어울린다.",
+      "verdict": "강한 대안. 주석에 명시."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "וְנִבְרְכוּ בְךָ",
+      "option": "(C) 너를 통해 복을 얻을 것이다 / will find blessing through you",
+      "for": "수동과 중간의 중간('얻다')을 표현한다.",
+      "against": "'통해'는 도구 해석을 고정한다.",
+      "verdict": "ko '너로 말미암아 … 복을 받을'이 이 뉘앙스를 일부 담는다."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "מִשְׁפְּחֹת הָאֲדָמָה",
+      "option": "(A) 땅의 모든 족속 / all the families of the earth / todas las familias de la tierra (선호)",
+      "for": "범위가 인류 전체임을 자연스럽게 전한다.",
+      "against": "en 'earth'는 12:1 אֶרֶץ와 아다마를 구별하지 못하고 3:17·4:2 채택문 en 'ground'와 어긋난다.",
+      "verdict": "잠정 채택. 아다마 정책 결정 필요."
+    },
+    {
+      "verse": "Gen.12.3",
+      "clause": "מִשְׁפְּחֹת הָאֲדָמָה",
+      "option": "(B) all the clans of the ground / todas las familias del suelo",
+      "for": "3:17·4:11·5:29·8:21의 '저주받은 아다마'와 12:3의 '복받는 아다마의 족속' 사이 문학적 연결을 보존한다.",
+      "against": "영어·스페인어에서 부자연스럽고 범위를 좁히는 듯 들린다.",
+      "verdict": "아다마 일관 정책이 '항상 ground'로 정해지면 재검토."
+    }
+  ],
+  "strongest_objection_to_own_reading": "가장 강한 반론은 12:3의 קלל을 '모욕하다/revile/injuriar'로 ארר와 구별한 선택이다. 같은 고정 WLC 창세기에서 8:21의 야훼는 קלל 피엘로 땅을 '저주'하며 이는 3:17의 ארר 저주를 되돌리는 말이다. 즉 창세기 안에서 두 어근은 거의 같은 뜻으로 쓰일 수 있고, 시적 병행에서 동의어 변주는 흔하다. 칠십인역 OCR도 둘을 같은 어근으로 옮긴다. 이 반론이 옳다면 '모욕'은 근거 없는 의미 차이를 만들어 낸다. 그래도 (A)를 유지하는 이유: 27:29가 같은 축복·저주 정식에서 대칭을 원할 때 같은 어근(אֹרְרֶיךָ אָרוּר)을 쓰므로 12:3의 비대칭(복수 대 단수, קלל 대 ארר)은 문체적 선택일 가능성이 있고, '모욕'은 언어적 저주 행위를 가리켜 강도를 크게 낮추지 않는다. 확신은 중간이며 편집자가 8:21과의 일관성을 우선하면 (B) '저주하는 자'가 정당하다. 두 번째로 강한 반론은 12:2 וֶהְיֵה의 명령형 유지다. 20:7 וֶחְיֵה·42:18 וִחְיוּ의 결과 명령 용법이 같은 책에 있고 칠십인역도 결과로 읽으므로, 명령형 번역은 문법적 기능보다 형태를 우선한 것일 수 있다.",
+  "preferred_wording": {
+    "Gen.12.1": {
+      "ko": "야훼께서 아브람에게 말씀하셨다. “너는 네 땅과 네 친족과 네 아버지의 집을 떠나, 내가 너에게 보여 줄 땅으로 가거라.",
+      "en": "YHWH said to Abram, “Go forth from your land, from your kindred, and from your father’s house, to the land that I will show you.",
+      "es": "YHWH dijo a Abram: «Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que yo te mostraré."
+    },
+    "Gen.12.2": {
+      "ko": "내가 너를 큰 민족으로 만들고, 너에게 복을 주며, 네 이름을 크게 하겠다. 너는 복이 되어라.",
+      "en": "I will make you into a great nation; I will bless you and make your name great. And be a blessing.",
+      "es": "Haré de ti una nación grande, te bendeciré y engrandeceré tu nombre. Y sé una bendición."
+    },
+    "Gen.12.3": {
+      "ko": "너를 축복하는 이들에게는 내가 복을 주고, 너를 모욕하는 자는 내가 저주하겠다. 땅의 모든 족속이 너로 말미암아 복을 받을 것이다.”",
+      "en": "I will bless those who bless you, and the one who reviles you I will curse; and in you all the families of the earth will be blessed.”",
+      "es": "Bendeciré a los que te bendigan, y al que te injurie lo maldeciré; y en ti serán benditas todas las familias de la tierra»."
+    }
+  },
+  "proposed_notes_ko": {
+    "Gen.12.1": [
+      "'가거라'(לֶךְ־לְךָ)의 לְךָ는 주어 자신에게 행위를 되돌리는 여격으로 별도 단어로 옮기지 않았다. 22:2에 같은 정식이 다시 나온다.",
+      "'친족'(מוֹלֶדֶת)은 '출생지·고향'으로도 옮길 수 있다(11:28 참조). 24:4·24:7 용례에 따라 '친족'을 택했다.",
+      "부르심의 시점: 본문은 11:32(데라의 죽음) 뒤에 부르심을 놓지만, 15:7과 사도행전 7:2는 갈대아 우르에서의 부르심을 전제한다. '말씀하셨었다'(과거완료) 번역은 이 조화를 반영하는 대안이며 히브리어 형태가 요구하는 것은 아니다."
+    ],
+    "Gen.12.2": [
+      "'너는 복이 되어라'는 히브리어 명령형(וֶהְיֵה)을 따른 것이다. 앞의 약속들에 이어지는 결과('그리하여 너는 복이 될 것이다')로 읽을 수도 있다(창 20:7·42:18의 같은 구문 참조). 칠십인역은 '너는 복받은 자가 될 것이다'로 옮겼다.",
+      "'네 이름을 크게 하겠다'는 11:4 바벨 사람들이 '우리 이름을 내자'고 한 말과 대비된다."
+    ],
+    "Gen.12.3": [
+      "히브리어(마소라 본문)는 '너를 축복하는 이들'(복수)과 '너를 모욕하는 자'(단수)를 대조한다. 칠십인역은 후자도 복수로 읽는다.",
+      "'모욕하다'(קלל)와 '저주하다'(ארר)는 다른 어근이다. 창 8:21에서는 קלל이 하나님의 '저주'에 쓰이므로 '너를 저주하는 자'로 옮길 수도 있다.",
+      "'복을 받을 것이다'(니팔 וְנִבְרְכוּ)는 '너를 두고 스스로 복을 빌 것이다'(즉 '아브람처럼 되기를' 하고 복을 빎)로도 읽을 수 있다. 같은 약속을 22:18·26:4는 재귀형 동사로 표현한다. 갈라디아서 3:8은 수동으로 인용한다.",
+      "'땅'은 여기서 아다마(הָאֲדָמָה)로 12:1의 '네 땅'(אֶרֶץ)과 다른 단어다. 3:17·4:11·5:29·8:21의 '저주받은 땅'과 연결된다."
+    ]
+  },
+  "editorial_consistency_findings": [
+    "신명: ko '야훼'·en/es 'YHWH'(4:1 채택 관례와 다른 검토들)를 따랐다. 2:4 채택문 en 'Yahweh'·es 'Yahvé'와의 내부 불일치, 그리고 Sonnet 일반 초안 'The LORD/주님/el SEÑOR'는 편집 결정이 필요하다.",
+    "קלל 피엘: 8:21 검토(미채택)는 '저주하다/curse/maldecir', 본 검토 12:3은 '모욕하다/revile/injuriar'. 오경 전체 קלל(출 21:17, 22:27 등)과 ארר의 역어 정책을 함께 정해야 한다.",
+    "아다마: en 'ground'(3:17·3:23·4:2 채택문) 대 본 검토 12:3 en 'earth'. es는 채택문 'la tierra', 8:21 검토 제안 'el suelo', 본 검토 'la tierra'. 아다마/에레츠 구별 정책이 필요하다. 28:14(같은 정식 מִשְׁפְּחֹת הָאֲדָמָה)와 18:18·22:18·26:4(גּוֹיֵי הָאָרֶץ)의 역어도 이 결정에 연동된다.",
+    "니팔/히트파엘 ברך: 12:3·18:18·28:14(니팔)와 22:18·26:4(히트파엘)를 같은 정책으로 옮길지(모두 수동 또는 니팔 수동·히트파엘 재귀) 결정해야 한다. 한 구절만 따로 바꾸면 약속 정식의 반복이 독자에게 보이지 않는다.",
+    "לֶךְ־לְךָ: 12:1과 22:2를 같은 역어로 옮겨 두 시험의 수미상관을 보이게 할 것을 권고한다.",
+    "인용부호: 12:1-3은 하나의 발화이므로 ko/en “는 12:1에서 열고 12:3 끝 ”에서 닫는다. es «는 12:1, »는 12:3 끝."
+  ],
+  "final_opinion_ko": "Gen.12.1-3에는 현행 채택문이 없다. 이 검토는 미래 채택용 연구 자료이며 preferred_wording은 잠정 의견이다. 핵심 판단: (1) 12:1 וַיֹּאמֶר는 단순 과거로 두고, 과거완료는 수용사적 조화로 분리한다. לֶךְ־לְךָ는 '가거라/Go forth/Vete'로 옮기며 מוֹלֶדֶת는 '친족'. (2) 12:2 וֶהְיֵה בְּרָכָה는 세 언어 모두 명령형으로 통일하고 결과 해석(20:7·42:18 구문, 칠십인역)을 필수 주석으로 둔다. 이전 Sonnet 초안은 ko 명령·en/es 미래로 갈라져 있었다. (3) 12:3은 MT 단수 '…하는 자'를 유지하고 칠십인역 복수는 이형 보고로만 둔다. קלל/ארר 구별은 '모욕/revile/injuriar'로 살리되 신뢰도 중간이며 8:21 역어와의 정책 결정이 필요하다. (4) 니팔 וְנִבְרְכוּ는 수동 '복을 받을 것이다'를 택하고 재귀 해석을 필수 주석으로 둔다. 신약 수용사(갈 3:8)는 수동을 따르지만 그것이 히브리어 의미를 결정하지는 않는다. (5) 과거완료·재귀·결과 명령 등 해석 선택지는 번역문에 넣지 않고 주석에 분리했다.",
+  "confidence_limits": [
+    "칠십인역은 제3자 OCR 텍스트이며 12:1(σοι 부재?)·12:2(동사 부재?)·12:4(수 누락)에 손상 의심이 있다. 비평본(괴팅겐·랄프스)과 대조하지 않았다.",
+    "BHS·BHQ 비평 장치, 레닌그라드 사본 이미지, 사마리아 오경, 쿰란 단편, 페시타, 불가타, 탈굼을 이 세션에서 확인하지 않았다. 12:3 복수 이형과 11:32 145세는 '보고'일 뿐 확인되지 않았다.",
+    "SBLGNT는 MorphGNT master 브랜치에서 받았고 커밋을 고정하지 못했다(파일 sha256만 기록). 신약은 수용사 자료로만 썼다.",
+    "니팔 ברך의 의미에 관한 근대 문법서·주석 문헌을 이 세션에서 확인하지 않았다. 대안 설명은 본문 자체와 고정 WLC 파일의 병행구절에 근거한다.",
+    "같은 모델 계열(Claude)의 이전 초안과 비교했을 뿐 독립 GPT/Gemini/사람 검토가 아니다."
+  ],
+  "reconsider_if": [
+    "편집자가 오경 전체 קלל/ארר 역어를 통일하기로 정하면 12:3 '모욕하는 자'를 '저주하는 자'로 바꾼다.",
+    "아다마 역어 정책이 en 'ground'·es 'el suelo'로 고정되면 12:3 en/es를 그에 맞춘다.",
+    "니팔/히트파엘 ברך 정책이 재귀로 정해지거나 독립 검토자가 12:3a 문맥 논증을 반박하면 '스스로 복을 빌 것이다' 계열로 바꾼다.",
+    "사마리아 오경·쿰란 등에서 12:3 복수 읽기가 확인되고 편집 원칙이 MT 이외 읽기 채택을 허용하면 단수/복수 선택을 다시 본다.",
+    "GPT·Gemini 독립 검토가 12:2를 결과절로 일치해 읽고 편집자가 기능 우선 원칙을 정하면 '그리하여 너는 복이 될 것이다'로 바꾼다.",
+    "신명 정책(야훼/YHWH/Yahweh/주님)이 확정되면 12:1을 그에 맞춘다."
+  ],
+  "unresolved": [
+    "12:3 MT 단수 וּמְקַלֶּלְךָ 대 칠십인역 OCR 복수: 히브리 대본 차이인지 번역 동화인지 미해결. 사마리아 오경 읽기 미확인.",
+    "12:2 וֶהְיֵה: 명령 대 결과. 문법만으로 결정되지 않는다(17:1 대 20:7·42:18).",
+    "12:3 니팔 וְנִבְרְכוּ: 수동 대 재귀/중간. 히트파엘 병행(22:18·26:4)과의 관계 미해결.",
+    "12:1 부르심의 장소·시점(우르 대 하란)과 11:32 데라 사망 연대: MT 내부 계산, 사마리아 오경 145세 보고, 사도행전 7:4 수용사 사이 관계 미해결.",
+    "칠십인역 OCR 12:1 σοι 부재와 12:2 동사 부재가 OCR 손상인지 Swete 본문인지 미확인.",
+    "קלל/ארר 구별을 번역에 반영할지 정책 미정."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T11:09:50Z) into private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and parallels Gen 8:8, 8:11, 8:21, 11:4, 11:26, 11:28, 11:30-32, 12:4-5, 12:7-8, 15:7, 17:1, 18:18, 20:7, 22:2, 22:18, 24:4, 24:7, 26:4, 27:29, 28:14, 42:18, 48:20 read from it; lemma counts 779/1288/7043 for Gen 1-12."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T11:11:41Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Psalms; Ps 72:17 Hithpael parallel."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-10-30T11:11:41Z",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "what_it_is": "Pinned WLC/OSHB Jeremiah; Jer 4:2 Hithpael parallel."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T11:11:08Z-11:11:09Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); reception evidence only; rights of the OCR repository not assessed, only short excerpts quoted. Same file hash as used by the gen-9-20-27 review."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/69-Ga-morphgnt.txt",
+      "accessed_utc": "2026-10-30T11:11:41Z-11:11:42Z",
+      "file_sha256": "ec249897464e8e8992e4869645471d6f3372e7373ba3a5d429516946d8cffada",
+      "what_it_is": "MorphGNT SBLGNT Galatians token file (master branch, commit not pinned); Gal 3:8 reception only; short token excerpt quoted."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/65-Ac-morphgnt.txt",
+      "accessed_utc": "2026-10-30T11:11:41Z-11:11:42Z",
+      "file_sha256": "04349afeba263d667698b37d39465d746530434b455fb6ac2941ec5c59fb85ca",
+      "what_it_is": "MorphGNT SBLGNT Acts token file (master branch, commit not pinned); Acts 7:2-4 reception only; short token excerpts quoted."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T11:17:42Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB; Exod 21:17, 22:27 Piel qll (lemma 7043) parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Sam.xml",
+      "accessed_utc": "2026-10-30T11:17:42Z",
+      "file_sha256": "e7793e141ed94eadbd2dfb23936abbb4062e81a7dcd41114a6e36644f50b8333",
+      "what_it_is": "Pinned WLC/OSHB; 2 Sam 16:5, 16:7 Piel qll (lemma 7043) parallels (Shimei)."
+    },
+    {
+      "url": "https://api.github.com/repos/morphgnt/sblgnt/commits/master",
+      "accessed_utc": "2026-10-30T11:11:42Z",
+      "file_sha256": null,
+      "what_it_is": "Attempted to pin the SBLGNT commit; no commit sha was returned. Not used."
+    }
+  ],
+  "publication_requires": [
+    "independent GPT review",
+    "independent Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "사본 대조나 비평 장치 확인을 수행했다고 주장하지 않는다.",
+    "GPT·Gemini·Antigravity·사람 검토 응답을 포함하지 않는다.",
+    "이 문서는 채택·인증·출판된 번역이 아니다.",
+    "남은 크레딧 잔액·차감액을 알지 못한다.",
+    "사마리아 오경·탈굼·미드라쉬 내용을 확인했다고 주장하지 않는다."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T110950Z-64002013.json",
+    "packet_sha256": "80fa7d78f8cfe22567426a1fce4d57d0bcf18c5d2520dbaf687f11c1349039ae",
+    "verses": [
+      {
+        "id": "Gen.12.1",
+        "raw_xml": "<verse osisID=\"Gen.12.1\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01edC\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"3068\" n=\"1.1.0\" morph=\"HNp\" id=\"01mRn\">יְהוָה֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01axV\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"87\" n=\"1.1\" morph=\"HNp\" id=\"01o7u\">אַבְרָ֔ם</w>\n          <w lemma=\"3212\" morph=\"HVqv2ms\" id=\"01ihd\">לֶךְ</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"1.0.0\" morph=\"HR/Sp2ms\" id=\"01vRG\">לְ/ךָ֛</w>\n          <w lemma=\"m/776\" morph=\"HR/Ncbsc/Sp2ms\" id=\"01fGs\">מֵ/אַרְצְ/ךָ֥</w>\n          <w lemma=\"c/m/4138\" n=\"1.0\" morph=\"HC/R/Ncfsc/Sp2ms\" id=\"015QH\">וּ/מִ/מּֽוֹלַדְתְּ/ךָ֖</w>\n          <w lemma=\"c/m/1004 b\" morph=\"HC/R/Ncmsc\" id=\"01R1Q\">וּ/מִ/בֵּ֣ית</w>\n          <w lemma=\"1\" n=\"1\" morph=\"HNcmsc/Sp2ms\" id=\"01ckh\">אָבִ֑י/ךָ</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01z9U\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/776\" n=\"0.0\" morph=\"HTd/Ncbsa\" id=\"01ySc\">הָ/אָ֖רֶץ</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01hPW\">אֲשֶׁ֥ר</w>\n          <w lemma=\"7200\" n=\"0\" morph=\"HVhi1cs/Sp2ms\" id=\"01CfY\">אַרְאֶֽ/ךָּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "c66b229e8a000d17ed79c1363c61d91c18344690588193f8eac1bdddac81efa3",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.12.2",
+        "raw_xml": "<verse osisID=\"Gen.12.2\">\n          <w lemma=\"c/6213 a\" n=\"1.2.0\" morph=\"HC/Vqi1cs/Sp2ms\" id=\"01b31\">וְ/אֶֽעֶשְׂ/ךָ֙</w>\n          <w lemma=\"l/1471 a\" morph=\"HR/Ncmsa\" id=\"01PmK\">לְ/ג֣וֹי</w>\n          <w lemma=\"1419 a\" n=\"1.2\" morph=\"HAamsa\" id=\"01DVx\">גָּד֔וֹל</w>\n          <w lemma=\"c/1288\" n=\"1.1\" morph=\"HC/Vpi1cs/Sp2ms\" id=\"01XEf\">וַ/אֲבָ֣רֶכְ/ךָ֔</w>\n          <w lemma=\"c/1431\" n=\"1.0\" morph=\"HC/Vpi1cs\" id=\"0156w\">וַ/אֲגַדְּלָ֖ה</w>\n          <w lemma=\"8034\" n=\"1\" morph=\"HNcmsc/Sp2ms\" id=\"01h2d\">שְׁמֶ֑/ךָ</w>\n          <w lemma=\"c/1961\" n=\"0.0\" morph=\"HC/Vqv2ms\" id=\"01GLn\">וֶ/הְיֵ֖ה</w>\n          <w lemma=\"1293\" n=\"0\" morph=\"HNcfsa\" id=\"012mU\">בְּרָכָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "0798c9798b5afd250fe2b868f654a023203457760a5cc2d3912758a88e70e655",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.12.3",
+        "raw_xml": "<verse osisID=\"Gen.12.3\">\n          <w lemma=\"c/1288\" n=\"1.1.0\" morph=\"HC/Vpi1cs\" id=\"01gjo\">וַ/אֲבָֽרֲכָה֙</w>\n          <w lemma=\"1288\" n=\"1.1\" morph=\"HVprmpc/Sp2ms\" id=\"01jvq\">מְבָ֣רְכֶ֔י/ךָ</w>\n          <w lemma=\"c/7043\" n=\"1.0\" morph=\"HC/Vprmsc/Sp2ms\" id=\"01kmi\">וּ/מְקַלֶּלְ/ךָ֖</w>\n          <w lemma=\"779\" n=\"1\" morph=\"HVqi1cs\" id=\"01uRv\">אָאֹ֑ר</w>\n          <w lemma=\"c/1288\" morph=\"HC/VNp3cp\" id=\"01YCW\">וְ/נִבְרְכ֣וּ</w>\n          <w lemma=\"b\" n=\"0.1\" morph=\"HR/Sp2ms\" id=\"01uJ1\">בְ/ךָ֔</w>\n          <w lemma=\"3605\" n=\"0.0\" morph=\"HNcmsc\" id=\"0171E\">כֹּ֖ל</w>\n          <w lemma=\"4940\" morph=\"HNcfpc\" id=\"01kBH\">מִשְׁפְּחֹ֥ת</w>\n          <w lemma=\"d/127\" n=\"0\" morph=\"HTd/Ncfsa\" id=\"01tFR\">הָ/אֲדָמָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "4f46f3dd582ebcfb66b0b9cacbcfa74fde705e4d05c17c252e301f01cc52670b",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "author_project": "Hansam Yang (founder and original creator); this file is a model review, not an editorial selection"
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T110950Z-64002013.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "independent_reading_per_verse": true,
+    "initial_proposals_per_verse": true,
+    "notes_per_verse": true,
+    "clause_coverage": {
+      "Gen.12.1": 4,
+      "Gen.12.2": 4,
+      "Gen.12.3": 3
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "duplicate_word_assignments": {},
+    "hebrew_display_matches_raw_words": true,
+    "current_selected_in_packet": 0,
+    "current_selected_changed": false,
+    "quote_balance_across_unit": {
+      "ko": [
+        1,
+        1
+      ],
+      "en": [
+        1,
+        1
+      ],
+      "es": [
+        1,
+        1
+      ]
+    },
+    "quotes_balanced": true,
+    "network_excerpts_verified_against_fetched_files": true,
+    "original_vs_interpretation_separated": "clause notes carry a category; LXX/NT are labelled reception; conjectures and reported variants are labelled as such and kept out of preferred wording",
+    "authentic_attribution": "Only actual saved records are compared; no GPT/Gemini/human response is represented.",
+    "all_required_checks_pass": true
+  }
+}
