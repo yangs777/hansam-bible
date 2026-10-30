@@ -1,0 +1,1000 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T160743Z-eaddc772",
+  "unit_id": "gen-18-20-23",
+  "verse_ids": [
+    "Gen.18.20",
+    "Gen.18.21",
+    "Gen.18.22",
+    "Gen.18.23"
+  ],
+  "unit_issue_ko": "내려감·소문 확인·야훼 앞에 섬과 전통적 교정 주장",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.18.20-23 = 전통 장절 창세기 18:20-23(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 OCR(스웨테판)도 1.18.20-1.18.23을 쓴다. 이 범위에서 장절 차이는 없다. 히브리어 문단 구분(페투하/세투마)은 패킷 마크업에 없어 확인하지 않았다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml (copied byte-for-byte from the claim packet). Clause hebrew_display strings are derived by the checker from OSHB word ids (morpheme slashes removed, maqqef joined, accents kept) and are marked as derived. Parallel excerpts are joined OSHB tokens with accents and meteg removed and are marked as derived. Hebrew words quoted inside Korean prose notes were typed by the model and are Unicode NFC-normalized (mark order may differ from the source file); they are commentary, not source quotations. Parallel excerpts were re-sliced from the pinned file in source code-point order by the checker.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T16:08Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. The system prompt also names claude-opus-5-5. Rechecked before commit (see timestamps_utc.identity_rechecked).",
+    "session": "https://claude.ai/code/session_01UknqVGkUQdMEDDH8GoNkwG",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false at about 2026-10-30T16:08Z. This is a service label only; no balance or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot/build beyond the model id",
+      "per-turn served model for every individual turn (only last_served_model at the time of each check)",
+      "token counts, cost and credit deduction for this run",
+      "remaining promotional credit balance"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-30T16:07:43Z",
+    "claim_pushed": "2026-10-30T16:08Z",
+    "independent_reading_from_packet": "2026-10-30T16:08Z",
+    "earlier_records_inspected": "2026-10-30T16:08Z-16:09Z",
+    "reception_checks": "2026-10-30T16:09:28Z-16:11:13Z",
+    "review_written": "2026-10-30T16:12Z-2026-10-30T16:16:58Z",
+    "identity_rechecked": "2026-10-30T16:16:58Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info rateLimitType=ccr_promotional status=allowed isUsingOverage=false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Gen.18.20",
+      "clauses": [
+        {
+          "word_ids": [
+            "01FnR",
+            "01zxj"
+          ],
+          "gloss_ko": "야훼가 말씀하셨다",
+          "category": "discourse",
+          "note_ko": "18:17 וַיהוָה אָמָר(독백)에 이어 다시 도입된 야훼의 말. 청자가 명시되지 않아 아브라함에게 하는 말인지 독백인지 열려 있다. 한국어 평서체 ‘-다’는 두 해석 모두와 맞는다.",
+          "hebrew_display": "וַיֹּ֣אמֶר יְהוָ֔ה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01jnw",
+            "01UjJ",
+            "01wmR",
+            "01Xsc",
+            "01qCb"
+          ],
+          "gloss_ko": "소돔과 고모라의 부르짖음 — 참으로 크다",
+          "category": "lexical+syntactic",
+          "note_ko": "זַעֲקַת는 연계형이라 ‘소돔과 고모라(에서 나오는) 부르짖음’(주어적 속격)과 ‘소돔과 고모라에 대한 부르짖음’(목적적 속격)이 모두 문법적으로 가능하다. 출 3:9 ‘이스라엘 자손의 부르짖음이 내게 이르렀다’, 출 22:22 학대받는 자의 부르짖음 병행은 피해자의 법적 호소를 가리킨다. 앞에 놓인 주제어(casus pendens) 뒤의 כִּי는 이유가 아니라 강조(‘참으로’)로 읽는다. רָ֑בָּה는 첫 음절(רָ)에 아트나흐가 있고 카메츠라서 형용사 רַבָּה가 아니라 완료 3여단(OSHB HVqp3fs) ‘커졌다/크다’이다.",
+          "hebrew_display": "זַעֲקַ֛ת סְדֹ֥ם וַעֲמֹרָ֖ה כִּי־רָ֑בָּה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01rDe",
+            "01LQN",
+            "01gWC",
+            "01c6U"
+          ],
+          "gloss_ko": "그들의 죄 — 참으로 매우 무겁다",
+          "category": "lexical+syntactic",
+          "note_ko": "같은 구조의 반복(주제어 + כִּי + 완료 3여단). כָּבְדָה는 ‘무겁다’로 은유가 살아 있다. 접미사 ־ם(3남복)는 도시들이 아니라 주민을 가리키도록 전환된다.",
+          "hebrew_display": "וְחַ֨טָּאתָ֔ם כִּ֥י כָבְדָ֖ה מְאֹֽד",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    },
+    {
+      "id": "Gen.18.21",
+      "clauses": [
+        {
+          "word_ids": [
+            "01PAw",
+            "01hXi"
+          ],
+          "gloss_ko": "이제 내가 내려가겠다",
+          "category": "syntactic",
+          "note_ko": "청유형 אֵרֲדָה + נָּא. 신적 자기 결의이므로 ‘부디’보다 ‘이제/자’가 맞다. ‘내려감’은 11:5,7 바벨 이야기와 같은 사법 조사 언어이며, 신의 무지를 말하는 교리 진술로 번역에서 약화하지 않는다.",
+          "hebrew_display": "אֵֽרֲדָה־נָּ֣א",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01jjb"
+          ],
+          "gloss_ko": "그리고 보겠다",
+          "category": "syntactic",
+          "note_ko": "청유형 연속(목적·결과).",
+          "hebrew_display": "וְאֶרְאֶ֔ה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01gpQ",
+            "01EiV",
+            "01dY1"
+          ],
+          "gloss_ko": "나에게 이른 그곳의 부르짖음대로인지",
+          "category": "syntactic+lexical",
+          "note_ko": "הַ־ 의문사 + כְּ + צַעֲקָתָהּ(3여단 접미사 ‘그것/그 여자의’). 3여단은 18:24,26의 ‘그 성(הָעִיר)’처럼 도시를 가리키는 것이 가장 자연스럽다. 20절의 זְעָקָה와 21절의 צְעָקָה는 같은 말의 이형이다. הַבָּ֥אָה는 강세가 בָּ에 있어(merkha) 분사(밀라)가 아니라 완료 3여단에 관사가 붙은 형태로 마소라가 읽는다(OSHB HTd/Vqp3fs; 같은 태깅이 46:27 הַבָּאָה에도 있다). 관사가 관계사처럼 쓰인 드문 용법이며 뜻은 ‘이른/온’으로 같다. 출 3:9 בָּאָה אֵלָי 와 거의 같은 표현이다.",
+          "hebrew_display": "הַכְּצַעֲקָתָ֛הּ הַבָּ֥אָה אֵלַ֖י",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01iDg",
+            "01dB9"
+          ],
+          "gloss_ko": "그들이 완전히 행하였는지",
+          "category": "lexical+syntactic+masoretic",
+          "note_ko": "עָשׂ֣וּ ׀ כָּלָ֑ה: 무나흐 + 파세크(레가르메, 약한 분리)가 עָשׂוּ와 כָּלָה 사이에 있다. 기본 독해는 כָּלָה를 부사 ‘완전히/모조리’로 보는 것(출 11:1 כָּלָה גָּרֵשׁ יְגָרֵשׁ 병행). 대안은 명사 ‘멸절’로 보고 동사를 보충하는 것(아래 alternatives B). 파세크는 결정적 근거가 아니다.",
+          "hebrew_display": "עָשׂ֣וּ כָּלָ֑ה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01CcA",
+            "01R2m",
+            "01ryM"
+          ],
+          "gloss_ko": "그렇지 않다면, 내가 알아야겠다",
+          "category": "syntactic+ellipsis",
+          "note_ko": "וְאִם־לֹא 뒤에 서술어 생략(‘그렇지 않다면’). אֵדָעָה는 접미 ה가 붙은 청유형으로 ‘알겠다/알아야겠다’. 두 조건 중 하나만 귀결을 갖는 비대칭 문장이다: 첫 조건(‘부르짖음대로 행했다면’)의 귀결은 말해지지 않는다(aposiopesis로 볼 수도 있음). 번역에서 귀결을 만들어 넣지 않는다.",
+          "hebrew_display": "וְאִם־לֹ֖א אֵדָֽעָה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    },
+    {
+      "id": "Gen.18.22",
+      "clauses": [
+        {
+          "word_ids": [
+            "01evQ",
+            "01jkP",
+            "01NA8"
+          ],
+          "gloss_ko": "그 사람들은 거기서 돌이켜",
+          "category": "discourse",
+          "note_ko": "הָאֲנָשִׁים은 18:2의 세 ‘사람’을 받는 말이지만 19:1에는 ‘두 사자’만 소돔에 이른다. 번역은 ‘그 사람들’로 두고 인원 문제를 해결하지 않는다.",
+          "hebrew_display": "וַיִּפְנ֤וּ מִשָּׁם֙ הָֽאֲנָשִׁ֔ים",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01Zrf",
+            "01cEv"
+          ],
+          "gloss_ko": "소돔 쪽으로 갔다",
+          "category": "lexical",
+          "note_ko": "סְדֹמָה 방향 ה. 도착은 19:1(저녁)이므로 ‘소돔 쪽으로/소돔을 향해’.",
+          "hebrew_display": "וַיֵּלְכ֖וּ סְדֹ֑מָה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01KV2",
+            "01c59",
+            "01d4U",
+            "01nLr",
+            "01Qb5"
+          ],
+          "gloss_ko": "아브라함은 여전히 야훼 앞에 서 있었다",
+          "category": "textual_tradition+discourse",
+          "note_ko": "고정 WLC 본문은 ‘아브라함이 여전히 야훼 앞에 서 있었다’이다. ‘원래는 야훼가 여전히 아브라함 앞에 서 있었는데 공경 때문에 서기관이 바꾸었다’는 티쿠네 소페림(서기관 교정) 전승이 있다고 알려져 있다(창세기 랍바·라시·마소라 목록 등으로 알려짐, 이 실행에서 원문 미확인). 이는 전승된 주장이지 증언된 사본 읽기가 아니다. 이 패킷에 그런 히브리어 증언은 없고, 확인한 칠십인역 OCR도 MT와 같은 방향(아브라함이 주 앞에 섬)이다. 내부 증거는 양쪽이다: 21절 ‘내가 내려가겠다’와 33절 ‘야훼가 가셨다(וַיֵּלֶךְ יְהוָה)’는 야훼가 남아 기다린 그림과 맞고, 19:27 ‘아브라함이 야훼 앞에 섰던 곳(אֲשֶׁר־עָמַד שָׁם אֶת־פְּנֵי יְהוָה)’은 MT 그림과 맞는다.",
+          "hebrew_display": "וְאַ֨בְרָהָ֔ם עוֹדֶ֥נּוּ עֹמֵ֖ד לִפְנֵ֥י יְהוָֽה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    },
+    {
+      "id": "Gen.18.23",
+      "clauses": [
+        {
+          "word_ids": [
+            "01tTy",
+            "01T78"
+          ],
+          "gloss_ko": "아브라함이 가까이 나아가",
+          "category": "lexical",
+          "note_ko": "נָגַשׁ ‘가까이 오다’. 법정·제의에서 탄원자가 나아가는 장면과도 쓰이지만 여기서는 공간적 의미가 기본이다.",
+          "hebrew_display": "וַיִּגַּ֥שׁ אַבְרָהָ֖ם",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01q8b"
+          ],
+          "gloss_ko": "말했다",
+          "category": "discourse",
+          "note_ko": "아브라함의 발화가 여기서 시작되어 18:25 끝까지 이어진다(18:24는 새 도입 없이 계속, 18:26에 וַיֹּאמֶר יְהוָה). 따라서 23절에서 인용 부호를 열고 이 단위 안에서 닫지 않는다.",
+          "hebrew_display": "וַיֹּאמַ֑ר",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01ehU",
+            "016io",
+            "01WEE",
+            "01dDG",
+            "01iLp"
+          ],
+          "gloss_ko": "정말로 의인을 악인과 함께 쓸어버리시렵니까?",
+          "category": "lexical+rhetorical",
+          "note_ko": "הַאַף: 의문 ה + אַף ‘정말/과연’. 수사 의문으로 항의의 기능이 있다. סָפָה ‘쓸어 없애다’. צַדִּיק / רָשָׁע 단수 집합명사이며 25절 ‘온 땅의 재판관’ 문맥에서는 법정어 ‘무죄한 자/유죄한 자’ 뉘앙스도 있다. 기본 번역은 ‘의인/악인’.",
+          "hebrew_display": "הַאַ֣ף תִּסְפֶּ֔ה צַדִּ֖יק עִם־רָשָֽׁע",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, maqqef joined, accents kept, paseq and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Gen.18.20",
+      "ko": "야훼가 말씀하셨다. “소돔과 고모라의 부르짖음이 참으로 크고, 그들의 죄가 참으로 몹시 무겁다.",
+      "en": "YHWH said, “The outcry of Sodom and Gomorrah is indeed great, and their sin is indeed very grave.",
+      "es": "YHWH dijo: «El clamor de Sodoma y Gomorra es en verdad grande, y su pecado es en verdad muy grave."
+    },
+    {
+      "id": "Gen.18.21",
+      "ko": "이제 내가 내려가서, 나에게 이른 그곳의 부르짖음대로 그들이 완전히 행하였는지 보겠다. 그렇지 않다면, 내가 알아야겠다.”",
+      "en": "Let me go down now and see whether they have done altogether according to its outcry that has come to me. And if not, I will know.”",
+      "es": "Bajaré ahora y veré si han actuado del todo conforme a su clamor que ha llegado hasta mí; y si no, lo sabré»."
+    },
+    {
+      "id": "Gen.18.22",
+      "ko": "그 사람들은 거기서 돌이켜 소돔 쪽으로 갔고, 아브라함은 여전히 야훼 앞에 서 있었다.",
+      "en": "The men turned from there and went toward Sodom, while Abraham was still standing before YHWH.",
+      "es": "Los hombres se volvieron de allí y se fueron hacia Sodoma, mientras Abraham seguía de pie delante de YHWH."
+    },
+    {
+      "id": "Gen.18.23",
+      "ko": "아브라함이 가까이 나아가 말했다. “정말로 의인을 악인과 함께 쓸어버리시렵니까?",
+      "en": "Abraham drew near and said, “Will you really sweep away the righteous with the wicked?",
+      "es": "Abraham se acercó y dijo: «¿De veras arrasarás al justo junto con el malvado?"
+    }
+  ],
+  "initial_proposals_note": "Written from the source packet before opening the existing Sonnet draft. Unchanged in preferred_wording except where changes_from_initial_proposal_ko says so.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json (selection_version 0.4.13) has no Gen.18 verses; packet current_selected is []. Nothing selected was changed or reviewed as published text."
+    },
+    {
+      "kind": "saved_gpt_gemini_or_review_records",
+      "result": "none_found",
+      "note": "No Gen.18.20-23 entry in data/ (decisions, model-reviews, source-note-decisions) on main or any fetched claude/ branch. No GPT, Gemini, Antigravity or human review exists to compare."
+    },
+    {
+      "kind": "cloud_draft",
+      "branch": "origin/claude/friendly-heisenberg-05g9sz",
+      "path": "automation/cloud-drafts/20261024T151820Z-3e687f64.json",
+      "run_id": "20261024T151820Z-3e687f64",
+      "model_label_as_recorded": "Claude Sonnet 5.5 (claude-sonnet-5-5), as reported by the session system prompt",
+      "state_as_recorded": "unadopted_model_draft",
+      "source_file_sha256_as_recorded": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "verses": {
+        "Gen.18.20": {
+          "ko": "여호와께서 말씀하셨다. \"소돔과 고모라에 대한 부르짖음이 크고, 그들의 죄가 매우 무겁다.\"",
+          "en": "Then YHWH said, \"The outcry against Sodom and Gomorrah is great, and their sin is very grave.\"",
+          "es": "Entonces YHWH dijo: «El clamor de Sodoma y Gomorra es grande, y su pecado es muy grave»."
+        },
+        "Gen.18.21": {
+          "ko": "내가 내려가 보겠다. 그들이 행한 일이 내게 이른 부르짖음과 정말 같은지 아닌지 알아보겠다.",
+          "en": "I will go down to see whether they have done altogether according to the outcry that has come to me. And if not, I will know.",
+          "es": "Descenderé ahora y veré si han hecho en todo conforme al clamor que ha llegado hasta mí; y si no, lo sabré»."
+        },
+        "Gen.18.22": {
+          "ko": "그 사람들이 거기서 돌아서서 소돔으로 갔고, 아브라함은 여전히 여호와 앞에 서 있었다.",
+          "en": "So the men turned from there and went toward Sodom, while Abraham still stood before YHWH.",
+          "es": "Los hombres se volvieron de allí y se fueron hacia Sodoma, pero Abraham permaneció aún delante de YHWH."
+        },
+        "Gen.18.23": {
+          "ko": "아브라함이 가까이 나아가 말했다. \"정말 의인을 악인과 함께 쓸어버리시겠습니까?\"",
+          "en": "Then Abraham drew near and said, \"Will you indeed sweep away the righteous with the wicked?\"",
+          "es": "Se acercó Abraham y dijo: «¿Destruirás también al justo con el impío?»."
+        }
+      },
+      "note": "Copied verbatim from that branch (including its ASCII double quotes). Its counterargument_ko fields for these verses are the generic sentence that no alternative was raised.",
+      "blob_sha256": "de80efadd55593ba6a74c569a7d864c308127ccfb73d9129bf234eb57e475dda"
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Gen.18.21",
+      "severity": "high",
+      "finding_ko": "Sonnet 초안 한국어는 כָּלָה(완전히)를 번역하지 않았고, וְאִם־לֹא אֵדָעָה(그렇지 않다면 내가 알겠다)라는 독립 절을 ‘같은지 아닌지 알아보겠다’로 합쳐 버려 원문의 비대칭 조건문(첫 조건의 귀결 생략)이 사라졌다. נָּא와 ‘그곳의(3여단)’도 빠졌다. 같은 초안의 영어·스페인어는 ‘altogether/en todo’와 ‘if not, I will know/si no, lo sabré’를 유지하므로 언어 간 불일치이기도 하다."
+    },
+    {
+      "id": "Gen.18.21",
+      "severity": "low",
+      "finding_ko": "Sonnet 영어 ‘I will go down to see’는 청유형 + נָּא의 ‘이제/자, 내려가겠다’ 뉘앙스를 약화했다. 스페인어는 ‘ahora’로 נָּא를 반영했다."
+    },
+    {
+      "id": "Gen.18.20",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 한국어 ‘…에 대한 부르짖음’, 영어 ‘outcry against’는 목적적 속격을 택했고 스페인어 ‘clamor de’는 중립이다. 한 초안 안에서 해석이 갈린다. 또 두 번 나오는 강조 כִּי가 반영되지 않았다(이유 접속사로 오역하지 않은 점은 맞다)."
+    },
+    {
+      "id": "Gen.18.20-23",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안은 ‘여호와(께서)’를 쓰지만 현재 채택문(0.4.13)은 ‘야훼가/YHWH’를 쓴다. 채택 시 통일 필요."
+    },
+    {
+      "id": "Gen.18.20-23",
+      "severity": "low",
+      "finding_ko": "Sonnet 초안은 절마다 인용 부호를 닫았으나, 야훼의 말은 20-21절에 걸치고 아브라함의 말은 23-25절에 걸친다. 채택문 관례(Gen.4.6-7)대로 첫 절에서 열고 마지막 절에서 닫아야 한다. 영어·한국어에 ASCII 따옴표가 쓰였다."
+    },
+    {
+      "id": "Gen.18.22",
+      "severity": "none",
+      "finding_ko": "Sonnet 초안의 18:22 번역은 고정 WLC를 정확히 따랐고 티쿠네 소페림을 본문이 아닌 전승 정보로 분리한 판단도 이 검토와 같다. es ‘permaneció aún’도 적절하다."
+    },
+    {
+      "id": "Gen.18.23",
+      "severity": "low",
+      "finding_ko": "Sonnet 스페인어 ‘¿Destruirás también…?’는 הַאַף의 ‘정말/과연’을 ‘también(또한)’으로 옮겨 질문의 항의 어조가 다소 약하다. 오역은 아니다. ‘impío’는 רָשָׁע 대응으로 가능하나 이 검토는 25절 법정 문맥까지 아우르는 ‘malvado’를 택했다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "비교 후 바꾼 것 없음. 기존 초안을 보고 나서 18:22 스페인어 ‘seguía de pie’와 ‘permaneció aún’을 다시 비교했으나 עוֹדֶנּוּ עֹמֵד(분사, 지속)를 더 직접 반영하는 ‘seguía de pie’를 유지했다.",
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). LXX lines come from a third-party raw OCR of Swete (First1KGreek) at the same pinned commit and file hash used by runs 20261030T141004Z-e2026743 and 20261030T150941Z-5417de15; reception evidence only, OCR errors preserved, rights of the OCR repository not asserted, Rahlfs/Goettingen not checked. Sefaria (Genesis Rabbah, Rashi, Targum) was refused by this session's network policy.",
+    "excerpts": [
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.18.20",
+        "excerpt": "εἶπεν δὲ Κύριος Κραυγὴ Σοδόμων καὶ Γομόρρας πεπλήθυνται, καὶ αἱ ἁμαρτίαι αὐτῶν μεγάλαι σφόδρα.",
+        "observation_ko": "두 כִּי에 대응하는 말이 없고, 죄가 복수(αἱ ἁμαρτίαι)다. 번역상의 선택일 수 있으며 히브리어 이문으로 주장하지 않는다.",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.18.21",
+        "excerpt": "καταβὰς οὖν ὄψομαι εἰ κατὰτὴν κραυγὴν αὐτῶν τὴν ἐρχομένην πρὸς μὲ συντελοῦνταί· εἰ δὲ μή, ἵνα γνῶ.",
+        "observation_ko": "(OCR ‘κατὰτὴν’ 띄어쓰기 오류 보존.) 3여단 ‘그곳의’ 대신 αὐτῶν(그들의), 완료 הַבָּאָה 대신 현재분사 τὴν ἐρχομένην, עָשׂוּ כָּלָה를 한 동사 συντελοῦνται(끝까지 행하다/완수하다)로 옮겼다. 이는 כָּלָה를 ‘멸절’ 명사가 아니라 ‘완전히 행함’으로 이해한 고대 수용 증거로, 이 검토의 부사 독해와 같은 방향이다. ἵνα γνῶ는 청유형 אֵדָעָה의 의지/목적 뉘앙스를 반영한다.",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.18.22",
+        "excerpt": "Καὶ ἀποστρέψαντες ἐκεῖθεν οἱ ἄνδρες ἦλθον εἰς Σόδομα· Ἀβραὰμ δὲ ἦν ἑστηκὼς ἐναντίον Κυρίου.",
+        "observation_ko": "MT와 같이 아브라함이 주 앞에 서 있다. 티쿠네 소페림 전승이 말하는 ‘야훼가 아브라함 앞에’ 그림은 이 줄에 없다. 이 OCR 줄에는 עוֹדֶנּוּ(여전히)에 해당하는 ἔτι가 보이지 않는다. 인쇄본에 있는지는 확인하지 않았다(OCR 누락 가능).",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.18.23",
+        "excerpt": "καὶ ἐίσας Ἀβραὰμ εἶπεν Mὴ συναπολέσῃς δίκαιον μετὰ ἀσεβοῦς, καὶ ἱστᾶι ὁ δίκαιος ὡς ὁ ἀσεβής.",
+        "observation_ko": "OCR ‘ἐίσας’는 ἐγγίσας, ‘ἱστᾶι’는 ἔσται, ‘Mὴ’는 라틴 M이 섞인 오류로 보이나 인쇄본으로 확인하지 않았다. 의문문 הַאַף תִּסְפֶּה를 금지형 ‘멸하지 마소서’로 옮겼고, MT 18:23에 없는 ‘의인이 악인처럼 되리라’가 덧붙어 있다(MT 18:25b וְהָיָה כַצַּדִּיק כָּרָשָׁע와 비슷). 칠십인역의 확장/조화로 보이며 MT 번역에 넣지 않는다.",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.18.33",
+        "excerpt": "ἀπῆλθεν δὲ κύριος ὡς ἐπαύσατο λαλῶν τῷ Ἀβραάμ, καὶ Ἀβραάμ ἀπέστρεψεν εἰς τὸν τόπον αὐτοῦ.",
+        "observation_ko": "MT 18:33과 같은 구도(주가 떠나고 아브라함이 돌아감).",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.19.27",
+        "excerpt": "ὤρθρισεν δὲ Ἀβραὰμ τὸ πρωὶ εἰς τὸν τόπον οὗ ἱστήκει ἐναντίον Κυρίου,",
+        "observation_ko": "아브라함이 ‘주 앞에 섰던 곳’ — MT 19:27과 같고 18:22 MT 그림을 지지한다.",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.18.17",
+        "tag": "yhwh_soliloquy",
+        "excerpt": "וַיהֹוָה אָמָר הַמְכַסֶּה אֲנִי מֵאַבְרָהָם אֲשֶׁר אֲנִי עֹשֶׂה",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.18.24",
+        "tag": "the_city_singular",
+        "excerpt": "אוּלַי יֵשׁ חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר הַאַף תִּסְפֶּה וְלֹא־תִשָּׂא לַמָּקוֹם לְמַעַן חֲמִשִּׁים הַצַּדִּיקִם אֲשֶׁר בְּקִרְבָּהּ",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.18.25",
+        "tag": "forensic_context",
+        "excerpt": "חָלִלָה לְּךָ מֵעֲשֹׂת כַּדָּבָר הַזֶּה לְהָמִית צַדִּיק עִם־רָשָׁע וְהָיָה כַצַּדִּיק כָּרָשָׁע חָלִלָה לָּךְ הֲשֹׁפֵט כָּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּט",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.18.26",
+        "tag": "next_speech_formula",
+        "excerpt": "וַיֹּאמֶר יְהוָה אִם־אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר וְנָשָׂאתִי לְכָל־הַמָּקוֹם בַּעֲבוּרָם",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.18.33",
+        "tag": "yhwh_departs",
+        "excerpt": "וַיֵּלֶךְ יְהוָה כַּאֲשֶׁר כִּלָּה לְדַבֵּר אֶל־אַבְרָהָם וְאַבְרָהָם שָׁב לִמְקֹמוֹ",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.19.13",
+        "tag": "outcry_grew",
+        "excerpt": "כִּי־מַשְׁחִתִים אֲנַחְנוּ אֶת־הַמָּקוֹם הַזֶּה כִּי־גָדְלָה צַעֲקָתָם אֶת־פְּנֵי יְהוָה וַיְשַׁלְּחֵנוּ יְהוָה לְשַׁחֲתָהּ",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.19.27",
+        "tag": "abraham_stood_before_yhwh",
+        "excerpt": "וַיַּשְׁכֵּם אַבְרָהָם בַּבֹּקֶר אֶל־הַמָּקוֹם אֲשֶׁר־עָמַד שָׁם אֶת־פְּנֵי יְהוָה",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.46.27",
+        "tag": "article_plus_perfect_haba_ah",
+        "excerpt": "כָּל־הַנֶּפֶשׁ לְבֵית־יַעֲקֹב הַבָּאָה מִצְרַיְמָה שִׁבְעִים",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Exod.3.7",
+        "tag": "outcry_of_oppressed",
+        "excerpt": "וְאֶת־צַעֲקָתָם שָׁמַעְתִּי מִפְּנֵי נֹגְשָׂיו כִּי יָדַעְתִּי אֶת־מַכְאֹבָיו",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Exod.3.9",
+        "tag": "outcry_came_to_me",
+        "excerpt": "וְעַתָּה הִנֵּה צַעֲקַת בְּנֵי־יִשְׂרָאֵל בָּאָה אֵלָי",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Exod.11.1",
+        "tag": "kalah_adverbial",
+        "excerpt": "כְּשַׁלְּחוֹ כָּלָה גָּרֵשׁ יְגָרֵשׁ אֶתְכֶם מִזֶּה",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Exod.22.22",
+        "tag": "cry_of_afflicted",
+        "excerpt": "כִּי אִם־צָעֹק יִצְעַק אֵלַי שָׁמֹעַ אֶשְׁמַע צַעֲקָתוֹ",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true,
+        "excerpt_codepoint_order": "source order restored from file (matched under NFC)"
+      }
+    ]
+  },
+  "alternatives": {
+    "Gen.18.20": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘소돔과 고모라의 부르짖음’(연계형 그대로) + 강조 כִּי ‘참으로’",
+        "argument_ko": "히브리어 연계형의 모호성을 세 언어 모두에서 같은 수준으로 보존한다. 출 3:9/22:22 병행은 피해자의 호소를 시사하지만 번역이 그것을 강제하지 않는다.",
+        "objection_ko": "한국어 ‘소돔과 고모라의 부르짖음’은 ‘소돔 사람들이 부르짖는다’로 읽혀 가해자의 소리처럼 들릴 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘소돔과 고모라에 대한 부르짖음 / the outcry against’",
+        "argument_ko": "19:13 ‘그들에 대한 부르짖음이 야훼 앞에 커졌다’를 고발로 읽는 해석과 맞고 독자에게 분명하다.",
+        "objection_ko": "목적적 속격을 확정하여 ‘피해자들의 부르짖음’ 독해(출 3:9 병행)를 닫는다. 원문에는 전치사가 없다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "כִּי를 이유(‘…가 크므로’)로 보고 21절을 귀결로 읽기",
+        "argument_ko": "‘부르짖음이 크고 죄가 무거우므로 내가 내려가겠다’는 서사 흐름이 매끄럽다.",
+        "objection_ko": "두 כִּי가 각각 앞선 주제어 뒤에 와서 병렬 구조를 이루며, 이유절이라면 주제어를 앞세울 이유가 약하다. 18:20 끝의 소프 파숙(절 끝)과 21절 새 청유형 시작도 독립 진술을 시사한다. 내용상 큰 차이는 없어 기각보다 ‘덜 선호’."
+      },
+      {
+        "label": "D",
+        "reading_ko": "감탄 ‘얼마나 큰가!’",
+        "argument_ko": "주제어 + כִּי 구문을 감탄으로 읽는 해석도 있다.",
+        "objection_ko": "강조 ‘참으로’와 의미 차이가 작고, 영어·스페인어에서 감탄문은 원문보다 감정이 강하게 들린다."
+      }
+    ],
+    "Gen.18.21": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "כָּלָה = 부사 ‘완전히’: ‘그곳의 부르짖음대로 그들이 완전히 행하였는지 보겠다. 그렇지 않다면 내가 알아야겠다.’",
+        "argument_ko": "주어가 ‘그들(עָשׂוּ)’이므로 ‘그들이 완전히 행했다’가 가장 직접적이다. 출 11:1에서 כָּלָה의 부사 용법이 확인된다. 칠십인역(OCR) συντελοῦνται도 ‘완전히 행함’ 이해를 보여 준다.",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "כָּלָה = 명사 ‘멸절’, 동사 보충: ‘그곳의 부르짖음대로 그들이 행하였다면 — 멸절이다(내가 끝장을 내리라). 그렇지 않다면 내가 알겠다.’",
+        "argument_ko": "עשׂה כָּלָה ‘끝장을 내다’는 예언서에서 흔한 관용구이고, 파세크(레가르메)가 עָשׂוּ와 כָּלָה를 떼어 놓는다. 이렇게 읽으면 두 조건(행했다면/아니라면)이 모두 귀결을 갖는 대칭 문장이 된다. 라시·온켈로스 계열 수용이 이와 비슷하다고 알려져 있다(이 실행에서 원문 미확인).",
+        "objection_ko": "관용구 עשׂה כָּלָה에서 주어는 멸하는 자인데 여기 동사는 3복 ‘그들’이라 ‘그들이 멸절을 행했다’가 되거나, 다른 동사(‘내가 하리라’)를 보충해야 한다. 원문에 없는 동사 보충은 번역 본문이 아니라 각주로 다뤄야 한다. 레가르메는 강한 분리가 아니다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "הַבָּאָה를 분사 ‘오고 있는’으로 읽기",
+        "argument_ko": "자음만 보면 분사 여성형과 같고, 칠십인역(OCR)도 현재분사 ἐρχομένην이다.",
+        "objection_ko": "고정 WLC의 강세 위치(בָּ에 메르하, 밀엘)는 완료형을 나타내고 OSHB도 Vqp3fs로 태깅했다. 뜻 차이는 ‘이른/오고 있는’ 정도로 작으며, 이 프로젝트는 마소라 모음·강세를 따른다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "3여단 접미사를 ‘그 부르짖음’(앞 절 זְעָקָה)으로 돌려 생략",
+        "argument_ko": "한국어가 자연스럽고 Sonnet 초안도 그렇게 했다.",
+        "objection_ko": "접미사 정보를 지운다. 18:24,26 ‘그 성’과 연결되는 지시를 ‘그곳의’로 보존할 수 있다."
+      }
+    ],
+    "Gen.18.22": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "고정 WLC 그대로: ‘아브라함은 여전히 야훼 앞에 서 있었다’ + 티쿠네 소페림 각주",
+        "argument_ko": "프로젝트 본문 기준은 고정 MT-WLC이다. 이 실행에서 접근한 증거(WLC, 칠십인역 OCR, 19:27 내부 병행)가 모두 이 읽기다. 교정 전승은 ‘원래 본문’에 대한 재구성 주장으로 각주에서 다룬다.",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B (reconstruction, not attested in accessed evidence)",
+        "reading_ko": "‘야훼는 여전히 아브라함 앞에 서 계셨다’",
+        "argument_ko": "티쿠네 소페림 전승이 이 형태를 원래 본문이라 전한다고 알려져 있다. 21절 ‘내가 내려가겠다’, 33절 ‘야훼가 가셨다’와 서사가 맞아 보인다.",
+        "objection_ko": "이 실행에서 이 읽기를 담은 히브리어 사본이나 고대 역본을 하나도 확인하지 못했다. 전승 자체가 실제 변경 기록인지, 경외적 표현을 설명하는 해석 전통인지 학계에서 논쟁된다(일반 지식, 미확인). 재구성을 본문에 올리는 것은 이 프로젝트의 ‘사본 표시/재구성/번역 분리’ 원칙에 어긋난다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "סְדֹמָה ‘소돔으로’(도착 함의)",
+        "argument_ko": "간결하다.",
+        "objection_ko": "도착은 19:1이다. 방향 ה를 ‘소돔 쪽으로’로 살리는 편이 정확하다."
+      }
+    ],
+    "Gen.18.23": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘정말로 의인을 악인과 함께 쓸어버리시렵니까?’",
+        "argument_ko": "수사 의문(항의)을 보존하고 סָפָה의 ‘쓸어 없앰’ 은유를 살린다. 2인칭은 높임 동사로 표시하여 원문에 없는 ‘주께서’를 넣지 않는다.",
+        "objection_ko": "‘쓸어버리다’는 구어적일 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘무죄한 사람을 죄 있는 사람과 함께…’",
+        "argument_ko": "25절 ‘온 땅의 재판관’ 문맥에서 צַדִּיק/רָשָׁע는 법정어(무죄/유죄)다.",
+        "objection_ko": "같은 단어가 18:24-28에서 ‘의인 오십 명’ 등으로 반복되는데, 개인의 도덕 상태 전체를 말하는 ‘의인’이 그 반복에 더 자연스럽다. 법정 뉘앙스는 각주로 처리."
+      },
+      {
+        "label": "C",
+        "reading_ko": "칠십인역식 금지형 ‘멸하지 마소서’ 및 ‘의인이 악인처럼 되리라’ 추가",
+        "argument_ko": "고대 수용 증거(OCR)에 있다.",
+        "objection_ko": "MT 18:23은 의문문이고 추가 구절이 없다. 18:25b와의 조화로 보이며 MT 번역 본문에 넣지 않는다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.18.21 kalah as adverb (preferred A)",
+    "objection_ko": "가장 강한 반론은 18:21 כָּלָה에 대한 것이다. (1) 마소라가 עָשׂ֣וּ 뒤에 파세크를 둔 것은 두 낱말을 한 구(‘완전히 행했다’)로 묶지 말라는 신호일 수 있다. (2) 히브리 성경에서 כָּלָה는 ‘끝장/멸절’ 명사로 עשׂה와 결합하는 예가 훨씬 많다(예레미야·나훔·에스겔의 עשׂה כָּלָה, 이 실행에서 개별 구절 미대조). (3) 명사로 읽으면 ‘그렇다면 멸절, 아니라면 알겠다’는 대칭 조건문이 되어 문장 구조가 더 균형 잡힌다. (4) 랍비 주석 일부가 이렇게 읽는다고 알려져 있다(미확인).",
+    "test_ko": "절 단위로 다시 시험했다. (a) 부사 독해: ‘הַ + כְּצַעֲקָתָהּ … עָשׂוּ כָּלָה’ = ‘그곳의 부르짖음대로 그들이 완전히 행하였는가’ — 동사·주어·부사가 모두 원문 안에 있고 보충이 필요 없다. (b) 명사 독해: ‘그들이 행했는가 — 멸절!’ — 귀결을 감탄 명사로 보거나 ‘내가 하리라’를 보충해야 하며, 의문 ה가 이끄는 간접의문(‘…인지 보겠다’) 안에 귀결 명사가 끼어드는 구조가 된다. (c) 파세크는 같은 자음/음가 충돌, 낭독 휴지 등 여러 기능을 가지며 의미 분리의 확정 증거가 아니다. (d) 칠십인역(OCR) συντελοῦνται는 ‘완전히 행함’ 쪽이다. 결론: 부사 독해 유지, 명사 독해는 각주 대안으로 기록.",
+    "residual_risk_ko": "다른 구절의 עשׂה כָּלָה 용례 전수 조사와 랍비 주석·타르굼 원문 확인을 하지 못했으므로 판단의 신뢰도는 중간이다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.18.22 MT reading",
+      "objection_ko": "티쿠네 소페림 전승을 신뢰한다면 MT 18:22b는 원래 본문이 아니며, 21절(야훼가 내려가겠다)과 33절(야훼가 가셨다)이 ‘야훼가 아브라함을 기다렸다’는 그림을 지지한다.",
+      "response_ko": "프로젝트 본문은 고정 MT이며, 이 실행에서 확인한 모든 증거(WLC, 칠십인역 OCR, 19:27 내부 병행)가 MT와 같다. 재구성은 각주에서 ‘전승된 주장’으로만 밝힌다."
+    },
+    {
+      "target": "Gen.18.20 neutral genitive",
+      "objection_ko": "중립 번역은 독자에게 ‘누가 부르짖는가’를 알려 주지 않아, 소돔 죄의 성격(학대·불의)에 대한 본문의 단서(출 3:9와 같은 피해자 호소 어휘)가 전달되지 않는다.",
+      "response_ko": "번역 본문은 중립으로 두고 각주에 זְעָקָה/צְעָקָה가 억눌린 자의 호소 어휘임을 밝힌다."
+    },
+    {
+      "target": "Gen.18.21 divine inquiry",
+      "objection_ko": "‘내려가서 보겠다… 알아야겠다’를 직역하면 신이 모른다는 인상을 준다.",
+      "response_ko": "사법 조사 언어(11:5,7과 같음)이며 신학적 설명은 해석층이다. 번역 본문에서 완화하지 않는다."
+    }
+  ],
+  "preferred_wording": {
+    "Gen.18.20": {
+      "ko": "야훼가 말씀하셨다. “소돔과 고모라의 부르짖음이 참으로 크고, 그들의 죄가 참으로 몹시 무겁다.",
+      "en": "YHWH said, “The outcry of Sodom and Gomorrah is indeed great, and their sin is indeed very grave.",
+      "es": "YHWH dijo: «El clamor de Sodoma y Gomorra es en verdad grande, y su pecado es en verdad muy grave.",
+      "reason_ko": "연계형 모호성 보존, 두 강조 כִּי를 ‘참으로/indeed/en verdad’로 반영, 접미사 3복 ‘그들의’ 보존. 야훼의 말은 21절 끝까지 이어지므로 여기서 닫지 않는다.",
+      "counterargument_ko": "alternatives Gen.18.20 B·C 참조. 피해자 호소 의미를 본문에 드러내야 한다는 반론이 있다.",
+      "current_opinion_ko": "A 유지. 각주 1(부르짖음의 성격) 권고.",
+      "reconsider_if_ko": "편집 방침이 속격 해석을 본문에 확정하기로 하면 ‘소돔과 고모라에서 들려오는 부르짖음’(주어적)으로 바꾼다. ‘에 대한’(목적적)은 근거가 더 약하다."
+    },
+    "Gen.18.21": {
+      "ko": "이제 내가 내려가서, 나에게 이른 그곳의 부르짖음대로 그들이 완전히 행하였는지 보겠다. 그렇지 않다면, 내가 알아야겠다.”",
+      "en": "Let me go down now and see whether they have done altogether according to its outcry that has come to me. And if not, I will know.”",
+      "es": "Bajaré ahora y veré si han actuado del todo conforme a su clamor que ha llegado hasta mí; y si no, lo sabré».",
+      "reason_ko": "청유형+נָּא, 간접의문(הַ), 3여단 접미사(그곳의/its/su), 완료 관사형 הַבָּאָה(이른), 부사 כָּלָה(완전히/altogether/del todo), 생략된 조건 ‘그렇지 않다면’과 청유형 אֵדָעָה(알아야겠다)를 모두 별개 요소로 보존. 스페인어 ‘lo’는 언어상 필요한 보충 목적어이다.",
+      "counterargument_ko": "strongest_objection_to_own_reading 참조(כָּלָה 명사 독해).",
+      "current_opinion_ko": "A 유지(중간 신뢰도). 각주 2(כָּלָה 대안)와 각주 3(הַבָּאָה 강세) 권고.",
+      "reconsider_if_ko": "עשׂה כָּלָה 용례 전수 조사에서 3인칭 복수 주어 + 부사 כָּלָה 용법이 더 없고, 파세크의 의미 분리 기능이 이 위치에서 확인되면 B를 본문 후보로 재검토."
+    },
+    "Gen.18.22": {
+      "ko": "그 사람들은 거기서 돌이켜 소돔 쪽으로 갔고, 아브라함은 여전히 야훼 앞에 서 있었다.",
+      "en": "The men turned from there and went toward Sodom, while Abraham was still standing before YHWH.",
+      "es": "Los hombres se volvieron de allí y se fueron hacia Sodoma, mientras Abraham seguía de pie delante de YHWH.",
+      "reason_ko": "방향 ה(쪽으로/toward/hacia), עוֹדֶנּוּ + 분사(여전히 서 있었다) 보존. 본문은 고정 WLC.",
+      "counterargument_ko": "티쿠네 소페림 재구성(alternatives Gen.18.22 B).",
+      "current_opinion_ko": "A 유지(높은 신뢰도: 본문 / 낮은 확인도: 전승 세부). 각주 4(서기관 교정 전승은 재구성 주장이며 증언 읽기가 아님) 권고.",
+      "reconsider_if_ko": "‘야훼가 아브라함 앞에’ 읽기를 담은 히브리어 사본·사마리아 오경·고대 역본이 URL과 함께 실제로 확인되면 본문 이문 각주로 승격하고 재평가."
+    },
+    "Gen.18.23": {
+      "ko": "아브라함이 가까이 나아가 말했다. “정말로 의인을 악인과 함께 쓸어버리시렵니까?",
+      "en": "Abraham drew near and said, “Will you really sweep away the righteous with the wicked?",
+      "es": "Abraham se acercó y dijo: «¿De veras arrasarás al justo junto con el malvado?",
+      "reason_ko": "הַאַף 수사 의문(정말로/really/De veras), סָפָה(쓸어버리다/sweep away/arrasar), 단수 집합명사 צַדִּיק/רָשָׁע 보존. 발화는 18:25까지 이어지므로 이 단위 안에서 닫지 않는다. 한국어는 원문에 없는 ‘주께서’를 넣지 않고 높임 동사로 2인칭을 나타낸다.",
+      "counterargument_ko": "alternatives Gen.18.23 B(법정어 무죄/유죄).",
+      "current_opinion_ko": "A 유지. 각주 5(법정 뉘앙스) 선택 사항.",
+      "reconsider_if_ko": "18:24-25가 검토되어 그쪽 번역에서 법정어(무죄/유죄)가 채택되면 23절도 함께 맞춘다."
+    }
+  },
+  "speech_boundaries_ko": "야훼의 발화는 18:20 ‘“소돔과…’에서 열고 18:21 ‘알아야겠다.”’에서 닫는다(채택문 Gen.4.6-7 관례). 아브라함의 발화는 18:23에서 열고 이 단위 안에서 닫지 않는다(18:25 끝까지 계속, 18:26에 새 도입 וַיֹּאמֶר יְהוָה). 스페인어는 채택문처럼 절을 넘는 연속 발화에서 다음 절 첫머리에 따옴표를 다시 열지 않았다. 채택문 Gen.4.7 스페인어가 «로 열고 ”로 닫는 불일치가 있어, 이 검토는 18:21 스페인어를 »로 닫았다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Gen.18.20",
+      "note_ko": "‘부르짖음’(זְעָקָה, 21절 צְעָקָה)은 억눌리고 학대받는 사람이 도움을 청하는 호소에 쓰이는 말이다(출 3:7,9; 22:22). ‘소돔과 고모라의 부르짖음’은 그 성들에서 피해자들이 올리는 호소로도, 그 성들을 고발하는 소리로도 읽을 수 있다."
+    },
+    {
+      "id": "Gen.18.21",
+      "note_ko": "‘완전히’로 옮긴 כָּלָה를 명사 ‘멸절’로 보아 ‘그들이 그렇게 행했다면 멸절이다(내가 끝장을 내리라). 그렇지 않다면 내가 알겠다’로 읽는 해석도 있다. 이 경우 원문에 없는 동사를 보충해야 한다."
+    },
+    {
+      "id": "Gen.18.21",
+      "note_ko": "‘이른’(הַבָּאָה)은 마소라 강세 위치상 완료형에 관사가 붙은 드문 형태다. 같은 자음을 분사 ‘오고 있는’으로 읽을 수도 있으며 뜻 차이는 작다."
+    },
+    {
+      "id": "Gen.18.22",
+      "note_ko": "유대 전승의 ‘서기관 교정(티쿠네 소페림)’ 목록은 이 구절이 원래 ‘야훼는 여전히 아브라함 앞에 서 계셨다’였으나 공경 때문에 고쳐졌다고 전한다. 이것은 전승된 주장이며, 그 형태를 담은 사본은 이 검토에서 확인되지 않았다. 칠십인역도 아브라함이 주 앞에 서 있었다고 읽는다."
+    },
+    {
+      "id": "Gen.18.23",
+      "note_ko": "‘의인/악인’(צַדִּיק/רָשָׁע)은 25절 ‘온 땅의 재판관’ 문맥에서 법정의 ‘무죄한 자/유죄한 자’ 의미도 갖는다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    "Current selected Korean uses ‘야훼가 … 말씀하셨다’ (Gen.4.6, 4.9); the Sonnet draft's ‘여호와께서’ must be normalized on adoption. This review follows ‘야훼가’.",
+    "Current selected Gen.4.7 es opens with « (in Gen.4.6) and closes with ” — an existing selected-text punctuation inconsistency, reported only, not changed. This review closes Spanish speech with ».",
+    "Prior review 20261030T150941Z-5417de15 (gen-18-1-5) used Gen.18.22 as evidence that the men leave and YHWH remains; this review's MT reading of 18:22 is consistent with that use."
+  ],
+  "final_opinion_ko": "네 절 모두 고정 WLC 본문을 그대로 번역하며 본문 이문 주장은 없다. 핵심 판단: (1) 18:20 연계형 ‘소돔과 고모라의 부르짖음’은 중립으로 두고, 두 כִּי는 이유가 아닌 강조 ‘참으로’로 읽는다. (2) 18:21 כָּלָה는 부사 ‘완전히’(출 11:1, 칠십인역 OCR συντελοῦνται와 같은 방향)로 읽고, 명사 ‘멸절’ 독해를 가장 강한 반론으로 각주에 남긴다. ‘그렇지 않다면 내가 알아야겠다’라는 생략 조건절은 독립 절로 보존한다 — 기존 Sonnet 초안 한국어가 이 절과 כָּלָה를 빠뜨린 것이 이 검토의 가장 구체적인 수정 사항이다. (3) 18:22는 MT ‘아브라함이 여전히 야훼 앞에 서 있었다’를 본문으로 하고, 티쿠네 소페림의 ‘야훼가 아브라함 앞에’는 증언되지 않은 재구성 주장으로 각주에서만 다룬다. (4) 18:23은 항의하는 수사 의문으로 옮기고, 칠십인역 OCR의 금지형과 덧붙은 구절은 수용 증거로만 기록한다. 이 검토는 채택·인증·출판이 아니다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.18.21",
+      "level": "medium",
+      "note_ko": "כָּלָה 부사/명사 판단은 용례 전수 조사와 주석 원문 확인 없이 내렸다."
+    },
+    {
+      "id": "Gen.18.22",
+      "level": "high (text) / low (tradition details)",
+      "note_ko": "본문 번역은 분명하다. 티쿠네 소페림 전승의 출처·문구·성격은 이 실행에서 원문 확인하지 못했다."
+    },
+    {
+      "id": "Gen.18.20",
+      "level": "medium-high",
+      "note_ko": "강조 כִּי 독해는 일반 문법 지식에 근거하며 문법서는 참조하지 않았다. 속격 판단은 의도적으로 보류했다."
+    },
+    {
+      "id": "Gen.18.23",
+      "level": "high",
+      "note_ko": "어휘·구문이 분명하다. 법정 뉘앙스 처리만 편집 선택이다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.18.21",
+      "condition_ko": "עשׂה כָּלָה와 부사 כָּלָה의 히브리 성경 전체 용례(고정 WLC 검색)를 정리해 이 위치의 파세크가 의미 분리를 표시한다는 근거가 나오면 대안 B를 재평가."
+    },
+    {
+      "id": "Gen.18.21",
+      "condition_ko": "라시·타르굼 온켈로스 18:21 원문을 URL과 함께 확인하면 대안 B의 수용사 진술을 ‘알려져 있다’에서 원문 인용으로 바꾼다."
+    },
+    {
+      "id": "Gen.18.22",
+      "condition_ko": "창세기 랍바 49, 라시 18:22, 마소라 티쿠네 소페림 목록(예: 레닌그라드 사본 마소라 또는 BHS/BHQ 장치)을 직접 확인하면 각주 4의 출처를 구체화하고, 전승이 ‘실제 변경’인지 ‘경외적 표현 설명’인지 문구를 조정한다."
+    },
+    {
+      "id": "Gen.18.22",
+      "condition_ko": "칠십인역 인쇄본(Rahlfs/괴팅겐)에서 ἔτι 유무를 확인하면 reception_evidence 관찰을 수정한다."
+    },
+    {
+      "id": "Gen.18.23",
+      "condition_ko": "칠십인역 인쇄본에서 18:23 덧붙은 구절(καὶ ἔσται ὁ δίκαιος ὡς ὁ ἀσεβής)이 확인되면 ‘OCR 기준’ 단서를 지우고, 사본 장치에 이문이 있으면 함께 기록한다."
+    },
+    {
+      "id": "Gen.18.20",
+      "condition_ko": "편집 방침이 속격 해석을 본문에서 확정하기로 하면 주어적 속격(‘…에서 들려오는’)을 우선한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.18.21",
+      "issue": "kalah: adverb 'completely' vs noun 'full destruction' with supplied verb; function of paseq after asu",
+      "status": "unresolved_syntactic",
+      "needed_evidence": "Concordance study of kalah/asah kalah in pinned WLC; Rashi and Targum Onkelos wording; accentuation handbook on paseq"
+    },
+    {
+      "id": "Gen.18.22",
+      "issue": "Tiqqun soferim report (original 'YHWH still stood before Abraham')",
+      "status": "reported_tradition_unverified_in_this_run; no attested witness found",
+      "needed_evidence": "Genesis Rabbah 49, Rashi on 18:22, Masoretic tiqqun lists, Samaritan Pentateuch, Qumran (if extant)"
+    },
+    {
+      "id": "Gen.18.22",
+      "issue": "LXX OCR line lacks an equivalent of od-ennu ('still')",
+      "status": "possibly_OCR_or_translation_choice_unverified",
+      "needed_evidence": "Printed Swete or Rahlfs page"
+    },
+    {
+      "id": "Gen.18.23",
+      "issue": "LXX OCR plus 'and the righteous shall be as the wicked' and prohibitive rendering",
+      "status": "reception_evidence_unverified_against_printed_edition",
+      "needed_evidence": "Printed Swete/Rahlfs with apparatus"
+    },
+    {
+      "id": "Gen.18.20",
+      "issue": "Subjective vs objective genitive of zaaqat Sedom",
+      "status": "unresolved_interpretive (deliberately left neutral)",
+      "needed_evidence": "Editorial policy decision"
+    },
+    {
+      "id": "Gen.18.20-23",
+      "issue": "No GPT or Gemini record exists for this unit, so no cross-model comparison was possible",
+      "status": "pending_external_reviews",
+      "needed_evidence": "Independent GPT and Gemini reviews"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T16:07:43Z)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T16:09:52Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus; parallels Exod.3.7, 3.9, 11.1, 22.22. Not stored in the repository."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T16:09:28Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); lines 1.18.20-23, 1.18.33, 1.19.27. Same pinned file and hash as earlier runs."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Rashi_on_Genesis.18.22?version=hebrew",
+      "accessed_utc": "2026-10-30T16:09:29Z",
+      "file_sha256": null,
+      "what_it_is": "Attempt to read Rashi on Gen 18:22; proxy CONNECT returned 403 (network policy denial). Not retried or routed around."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where the project requires it",
+    "current best editorial selection with versioned adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or textual variant for Gen 18:20-23 is asserted; Samaritan, Qumran, Targum and Vulgate were not checked.",
+    "The tiqqun soferim tradition for Gen 18:22, Genesis Rabbah, Rashi and Onkelos readings are mentioned only as general background knowledge and are explicitly unverified in this run.",
+    "No GPT, Gemini, Antigravity or human reviewer response is represented or simulated; none was found saved for this unit.",
+    "No lexicon or grammar (BDB/HALOT/DCH/GKC/Joüon) was consulted; grammatical statements (emphatic ki after casus pendens, article with perfect, paseq/legarmeh function) are general knowledge labelled as such.",
+    "The LXX evidence is a third-party OCR of Swete, used as reception evidence only; OCR errors are noted and not corrected silently.",
+    "No credit balance, deduction or dollar amount is asserted; only the service's rate-limit metadata labels are recorded.",
+    "This is not an adopted, certified or published translation.",
+    "The Sonnet 5.5 draft is compared as recorded; its model identity is its own record's statement, not verified here."
+  ],
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "packet": "automation/hard-review-packets/20261030T160743Z-eaddc772.json",
+    "claim_manifest": "automation/hard-review-runs/20261030T160743Z-eaddc772.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Gen.18.20",
+        "raw_xml": "<verse osisID=\"Gen.18.20\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01FnR\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"01zxj\">יְהוָ֔ה</w>\n          <w lemma=\"2201\" n=\"1.0.0\" morph=\"HNcfsc\" id=\"01jnw\">זַעֲקַ֛ת</w>\n          <w lemma=\"5467\" morph=\"HNp\" id=\"01UjJ\">סְדֹ֥ם</w>\n          <w lemma=\"c/6017\" n=\"1.0\" morph=\"HC/Np\" id=\"01wmR\">וַ/עֲמֹרָ֖ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01Xsc\">כִּי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7227 a\" n=\"1\" morph=\"HVqp3fs\" id=\"01qCb\">רָ֑בָּה</w>\n          <w lemma=\"c/2403 b\" n=\"0.1\" morph=\"HC/Ncfsc/Sp3mp\" id=\"01rDe\">וְ/חַ֨טָּאתָ֔/ם</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01LQN\">כִּ֥י</w>\n          <w lemma=\"3513\" n=\"0.0\" morph=\"HVqp3fs\" id=\"01gWC\">כָבְדָ֖ה</w>\n          <w lemma=\"3966\" n=\"0\" morph=\"HD\" id=\"01c6U\">מְאֹֽד</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "ed22d5a0de555cc612457c1290d3f780878b3c64da4a9b65f17c5b40d4633dcd",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.18.21",
+        "raw_xml": "<verse osisID=\"Gen.18.21\">\n          <w lemma=\"3381\" morph=\"HVqh1cs\" id=\"01PAw\">אֵֽרֲדָה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4994\" morph=\"HTj\" id=\"01hXi\">נָּ֣א</w>\n          <w lemma=\"c/7200\" n=\"1.1\" morph=\"HC/Vqh1cs\" id=\"01jjb\">וְ/אֶרְאֶ֔ה</w>\n          <w lemma=\"i/k/6818\" n=\"1.0.0\" morph=\"HTi/R/Ncfsc/Sp3fs\" id=\"01gpQ\">הַ/כְּ/צַעֲקָתָ֛/הּ</w>\n          <w lemma=\"d/935\" morph=\"HTd/Vqp3fs\" id=\"01EiV\">הַ/בָּ֥אָה</w>\n          <w lemma=\"413\" n=\"1.0\" morph=\"HR/Sp1cs\" id=\"01dY1\">אֵלַ֖/י</w>\n          <w lemma=\"6213 a\" morph=\"HVqp3cp\" id=\"01iDg\">עָשׂ֣וּ</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"3617\" n=\"1\" morph=\"HNcfsa\" id=\"01dB9\">כָּלָ֑ה</w>\n          <w lemma=\"c/518 a\" morph=\"HC/C\" id=\"01CcA\">וְ/אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3808\" n=\"0.0\" morph=\"HTn\" id=\"01R2m\">לֹ֖א</w>\n          <w lemma=\"3045\" n=\"0\" morph=\"HVqi1cs\" id=\"01ryM\">אֵדָֽעָה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "8d9a7d1453a1f3d9e64354091271d08fba1630f612fc1bc0a2a6ae476eaa7460",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.18.22",
+        "raw_xml": "<verse osisID=\"Gen.18.22\">\n          <w lemma=\"c/6437\" morph=\"HC/Vqw3mp\" id=\"01evQ\">וַ/יִּפְנ֤וּ</w>\n          <w lemma=\"m/8033\" n=\"1.1.0\" morph=\"HR/D\" id=\"01jkP\">מִ/שָּׁם֙</w>\n          <w lemma=\"d/376\" n=\"1.1\" morph=\"HTd/Ncmpa\" id=\"01NA8\">הָֽ/אֲנָשִׁ֔ים</w>\n          <w lemma=\"c/3212\" n=\"1.0\" morph=\"HC/Vqw3mp\" id=\"01Zrf\">וַ/יֵּלְכ֖וּ</w>\n          <w lemma=\"5467\" n=\"1\" morph=\"HNp/Sd\" id=\"01cEv\">סְדֹ֑מָ/ה</w>\n          <w lemma=\"c/85\" n=\"0.1\" morph=\"HC/Np\" id=\"01KV2\">וְ/אַ֨בְרָהָ֔ם</w>\n          <w lemma=\"5750\" morph=\"HD/Sp3ms\" id=\"01c59\">עוֹדֶ֥/נּוּ</w>\n          <w lemma=\"5975\" n=\"0.0\" morph=\"HVqrmsa\" id=\"01d4U\">עֹמֵ֖ד</w>\n          <w lemma=\"l/6440\" morph=\"HR/Ncbpc\" id=\"01nLr\">לִ/פְנֵ֥י</w>\n          <w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"01Qb5\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "61e3ad660fb77fce68f260f9eef9d251170c5b249f3baf39f0f1ca6a381e30ad",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.18.23",
+        "raw_xml": "<verse osisID=\"Gen.18.23\">\n          <w lemma=\"c/5066\" morph=\"HC/Vqw3ms\" id=\"01tTy\">וַ/יִּגַּ֥שׁ</w>\n          <w lemma=\"85\" n=\"1.0\" morph=\"HNp\" id=\"01T78\">אַבְרָהָ֖ם</w>\n          <w lemma=\"c/559\" n=\"1\" morph=\"HC/Vqw3ms\" id=\"01q8b\">וַ/יֹּאמַ֑ר</w>\n          <w lemma=\"i/637\" morph=\"HTi/D\" id=\"01ehU\">הַ/אַ֣ף</w>\n          <w lemma=\"5595\" n=\"0.1\" morph=\"HVqi2ms\" id=\"016io\">תִּסְפֶּ֔ה</w>\n          <w lemma=\"6662\" n=\"0.0\" morph=\"HAamsa\" id=\"01WEE\">צַדִּ֖יק</w>\n          <w lemma=\"5973 a\" morph=\"HR\" id=\"01dDG\">עִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7563\" n=\"0\" morph=\"HAamsa\" id=\"01iLp\">רָשָֽׁע</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "42f265cdfb362a6fb5e0b0800002e92aac2033dd83245af3fe000acfe724eab0",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T160743Z-eaddc772.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-paseq",
+      "x-sof-pasuq"
+    ],
+    "qere_ketiv_or_notes_present": false,
+    "paseq_preserved_in_raw_xml": true,
+    "clause_coverage": {
+      "Gen.18.20": 3,
+      "Gen.18.21": 5,
+      "Gen.18.22": 3,
+      "Gen.18.23": 3
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "clauses_follow_source_word_order": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "earlier_draft_copied_verbatim": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "no_ascii_double_quote_in_wording": true,
+    "quote_counts_per_verse_open_close": {
+      "ko": {
+        "Gen.18.20": [
+          1,
+          0
+        ],
+        "Gen.18.21": [
+          0,
+          1
+        ],
+        "Gen.18.22": [
+          0,
+          0
+        ],
+        "Gen.18.23": [
+          1,
+          0
+        ]
+      },
+      "en": {
+        "Gen.18.20": [
+          1,
+          0
+        ],
+        "Gen.18.21": [
+          0,
+          1
+        ],
+        "Gen.18.22": [
+          0,
+          0
+        ],
+        "Gen.18.23": [
+          1,
+          0
+        ]
+      },
+      "es": {
+        "Gen.18.20": [
+          1,
+          0
+        ],
+        "Gen.18.21": [
+          0,
+          1
+        ],
+        "Gen.18.22": [
+          0,
+          0
+        ],
+        "Gen.18.23": [
+          1,
+          0
+        ]
+      }
+    },
+    "quote_pattern_matches_speech_boundaries": true,
+    "quote_note": "YHWH speech opens Gen.18.20 and closes Gen.18.21; Abraham speech opens Gen.18.23 and continues past this unit to Gen.18.25.",
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
