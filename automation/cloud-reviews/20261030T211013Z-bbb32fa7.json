@@ -1,0 +1,1135 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T211013Z-bbb32fa7",
+  "unit_id": "gen-32-wrestling",
+  "verse_ids": [
+    "Gen.32.23",
+    "Gen.32.24",
+    "Gen.32.25",
+    "Gen.32.26",
+    "Gen.32.27",
+    "Gen.32.28",
+    "Gen.32.29",
+    "Gen.32.30",
+    "Gen.32.31",
+    "Gen.32.32",
+    "Gen.32.33"
+  ],
+  "unit_issue_ko": "WLC 절 번호·사람/하나님 씨름·이스라엘/브니엘·고관절",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "Source OSIS IDs follow WLC/Hebrew numbering Gen.32.23-33. Each raw verse carries an OSHB note KJV:Gen.32.22 ... KJV:Gen.32.32, i.e. traditional English and Korean (KRV) numbering is one lower: WLC 32:23 = English/Korean 32:22, ..., WLC 32:33 = English/Korean 32:32. WLC 32:1 corresponds to English 31:55. The IDs in this record are the source IDs only.",
+  "hebrew_quotation_policy": "Hebrew in clause maps and notes is joined OSHB tokens with accents and meteg removed for readability; the exact raw XML with all markup is preserved in source.verses[].raw_xml and in the source packet.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session (session_id omitted) at about 2026-10-30T21:13Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. The system prompt also names claude-opus-5-5. A model self-report is not source evidence; the served model for every individual turn is not independently exposed beyond last_served_model.",
+    "session": "https://claude.ai/code/session_01UknqVKk2SqJXa4bDJikBj2",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info at about 2026-10-30T21:13Z reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is a label from the service, not a balance or a deduction amount.",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "credit balance or credit deduction",
+      "sampling parameters"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T21:10:06Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; main revision 4197e00afdd2f77dd8e887bf34787f0bc5072856)",
+    "claim_created": "2026-10-30T21:10:13Z (run_id prefix; manifest created_at)",
+    "claim_pushed": "2026-10-30T21:10:18Z commit e29e3d475d3ac2ea5d8bde082242a027e66df3f0 pushed to claude/original-bible-hard-review-xlul3c before review",
+    "independent_reading_saved": "2026-10-30T21:12:25Z",
+    "earlier_records_compared": "2026-10-30T21:12:30Z-21:13:00Z",
+    "parallel_evidence_fetched": "2026-10-30T21:13:00Z-21:13:01Z",
+    "identity_checked": "about 2026-10-30T21:13Z via get_session",
+    "review_built": "2026-10-30T21:18:46Z"
+  },
+  "independent_initial_reading": {
+    "lexical": [
+      "32:25-26 wayyeaveq / behe'avqo: Niphal of the rare root abq, only in these two verses in the pinned WLC search done here; 'wrestled' is contextual. The sound play Yabboq (32:23) / ye'aveq / Ya'aqov is audible in Hebrew and lost in translation; recorded as a note, not inserted into the text.",
+      "32:26 naga be- 'touched' (also 32:33) can mean a light touch or a striking blow; the result (taqa', Qal 3fs) is dislocation/wrenching. Exact anatomical sense of taqa' here is uncertain.",
+      "32:26, 32:33 kaf (ha)yerekh: 'hollow/palm of the thigh' = hip socket; rendered hip joint / socket of the hip.",
+      "32:29 sarita: Qal 2ms of srh 'strive, persist'; only here and Hos 12:4 (sarah et-elohim) in the pinned files checked. Hos 12:5 has wayyasar el-mal'akh, which may belong to srh or to srr; not resolved here.",
+      "32:33 gid hanasheh: 'the sinew of the nasheh'; nasheh is otherwise unknown in the checked files. 'Sciatic nerve' is a later traditional identification, not a philological certainty.",
+      "32:24 nahal 'wadi / stream / torrent'."
+    ],
+    "syntactic": [
+      "32:26 pronoun reference: 'he saw that he could not prevail against him, and he touched the hollow of his thigh'. The narrative disambiguates the second half (kaf yerekh Ya'aqov) and 32:33 (naga bekhaf yerekh Ya'aqov); the man is therefore read as the subject of wayyar and wayyigga'. This is a reader inference made explicit in ko/en/es.",
+      "32:26 behe'avqo immo: infinitive with suffix; whose wrestling is left ambiguous (either party).",
+      "32:27 lo ashallehakha ki im berakhtani: negative + ki im = 'unless'. Perfect berakhtani after ki im in a condition: 'unless you (first) bless me'.",
+      "32:29 lo Ya'aqov ye'amer od shimkha ki im Yisra'el: 'no longer will your name be said (to be) Jacob, but Israel'.",
+      "32:31 ki ra'iti ... is 1cs: it is Jacob's own explanation of the name (speech without verbum dicendi). wattinnatsel nafshi is wayyiqtol after a perfect; a concessive 'and yet' is a contextual reading.",
+      "32:23 ballaylah hu: 'that night' (hu as anaphoric demonstrative)."
+    ],
+    "discourse": [
+      "32:23 Qal wayya'avor 'he crossed the ford' vs 32:24 Hiphil 'he made them cross' and 32:25 'Jacob was left alone': either 32:23 is a summary heading that 32:24 expands, or Jacob crossed and came back, or he stayed on the near side. The translation keeps 'crossed' and does not harmonize.",
+      "32:32 the sunrise answers 32:25 'until the dawn came up' and 32:27 'the dawn has come up'.",
+      "32:33 'to this day' is the narrator's etiological comment, outside story time."
+    ],
+    "textual_variant": [
+      "No rdg, Qere/Ketiv or variant note is present in the 11 raw verses. Every verse has an OSHB versification note (KJV:Gen.32.22...32.32).",
+      "Gen.32.24 carries an OSHB note n=1: 'BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.' The note is not anchored to a specific word in the XML; the same note text occurs 36 times in pinned Gen.xml. Which form is meant is unresolved here; no variant reading is asserted.",
+      "32:31 Peniel (penî'el) vs 32:32 Penuel (penû'el): both spellings are in the pinned WLC (same lemma 6439). This is an internal spelling difference, not a manuscript variant asserted by this review. Penuel is the spelling in Judg 8:8, 8:9, 8:17 and 1 Kgs 12:25 (pinned WLC).",
+      "No Samaritan Pentateuch, Qumran, LXX, Targum or Vulgate evidence was checked in this run."
+    ],
+    "historical": [
+      "Jabbok ford: geography not verified in this run.",
+      "Eleven children: by Gen 30:21-24 the household includes Dinah and eleven sons before Benjamin. yeladav is masculine plural and can be generic; whether 'eleven' counts only sons is a reception question (e.g. the Dinah tradition) and is left open.",
+      "The food custom in 32:33 is presented as a narrator-time practice; this review does not verify its historical origin or halakhic scope."
+    ],
+    "reception": [
+      "Identity of the 'man' (ish): the story names him only as a man; 32:29 and 32:31 interpret the encounter as with elohim; Hos 12:4-5 (pinned WLC) pairs elohim with mal'akh. The translation keeps 'a man' in 32:25 and 'God' in 32:29/31 without adding 'angel'.",
+      "Name explanation of Yisra'el: the text explains it by sarita im-elohim. Grammatically a name of the form yisra-el has El as subject ('El strives / may El persist'). The narrative explanation and grammatical etymology are kept separate; the narrative is not 'corrected'.",
+      "Peniel = 'face of God' wordplay with panim el panim; Gen 33:10 (Esau's face like seeing the face of God) is a near-context echo."
+    ]
+  },
+  "initial_proposals": {
+    "Gen.32.23": {
+      "ko": "그는 그 밤에 일어나 그의 두 아내와 두 여종과 열한 아이를 데리고 얍복 나루를 건넜다.",
+      "en": "He arose that night, took his two wives, his two maidservants, and his eleven children, and crossed the ford of the Jabbok.",
+      "es": "Se levantó aquella noche, tomó a sus dos esposas, a sus dos siervas y a sus once hijos, y cruzó el vado del Jaboc.",
+      "issues": [
+        "qal wayyaavor 'crossed' vs v24 hiphil causative and v25 Jacob alone: summary heading vs Jacob returning; translation keeps qal 'crossed' without harmonizing",
+        "yeladav eleven: masc pl generic 'children'; Dinah and the count left unresolved (reception)",
+        "paseq after wayyaqom preserved in raw XML; no translational effect asserted",
+        "KJV 32:22 numbering"
+      ]
+    },
+    "Gen.32.24": {
+      "ko": "그는 그들을 데려다가 그 시내를 건너게 하고, 자기에게 속한 것도 건너게 하였다.",
+      "en": "He took them and sent them across the wadi, and he sent across what belonged to him.",
+      "es": "Los tomó y los hizo cruzar el torrente, e hizo cruzar también lo que le pertenecía.",
+      "issues": [
+        "OSHB note n=1 about a form kept per BHS/Leningrad; anchoring word not identifiable from packet; unresolved",
+        "nahal: wadi/stream"
+      ]
+    },
+    "Gen.32.25": {
+      "ko": "야곱은 홀로 남았다. 그런데 어떤 사람이 동이 틀 때까지 그와 씨름하였다.",
+      "en": "Jacob was left alone, and a man wrestled with him until the dawn came up.",
+      "es": "Jacob se quedó solo, y un hombre luchó con él hasta que despuntó el alba.",
+      "issues": [
+        "wayyeaveq niphal of rare root abq, only here and v26; sound play with Yabboq and Yaaqov",
+        "ish indefinite; identity left to narrative (Hos 12 reception)"
+      ]
+    },
+    "Gen.32.26": {
+      "ko": "그 사람은 자기가 야곱을 이기지 못하는 것을 보고 그의 허벅지 관절을 건드렸다. 그러자 야곱이 그와 씨름하는 동안 야곱의 허벅지 관절이 어긋났다.",
+      "en": "When the man saw that he could not prevail against him, he touched the socket of his hip, and the socket of Jacob's hip was wrenched as he wrestled with him.",
+      "es": "Cuando el hombre vio que no podía vencerlo, le tocó la articulación de la cadera, y la articulación de la cadera de Jacob se dislocó mientras luchaba con él.",
+      "issues": [
+        "subject of wayyar supplied as the man (pronoun ambiguity); v33 confirms toucher touched Jacob's hip",
+        "naga touched vs struck",
+        "taqa dislocated/wrenched lexical uncertainty",
+        "kaf yerekh hollow/socket of thigh = hip socket"
+      ]
+    },
+    "Gen.32.27": {
+      "ko": "그 사람이 말하였다. \"나를 놓아 보내라. 동이 텄다.\" 야곱이 말하였다. \"당신이 나를 축복하지 않으면 당신을 놓아 보내지 않겠습니다.\"",
+      "en": "Then he said, \"Let me go, for the dawn has come up.\" But Jacob said, \"I will not let you go unless you bless me.\"",
+      "es": "Entonces él dijo: «Déjame ir, porque ya despunta el alba». Pero Jacob dijo: «No te dejaré ir si no me bendices».",
+      "issues": [
+        "speakers supplied",
+        "ki im after negative = unless"
+      ]
+    },
+    "Gen.32.28": {
+      "ko": "그가 야곱에게 말하였다. \"네 이름이 무엇이냐?\" 그가 말하였다. \"야곱입니다.\"",
+      "en": "He said to him, \"What is your name?\" And he said, \"Jacob.\"",
+      "es": "Él le dijo: «¿Cuál es tu nombre?». Y respondió: «Jacob».",
+      "issues": []
+    },
+    "Gen.32.29": {
+      "ko": "그가 말하였다. \"네 이름은 더 이상 야곱이라 불리지 않고 이스라엘이라 불릴 것이다. 네가 하나님과 그리고 사람들과 겨루어 이겼기 때문이다.\"",
+      "en": "He said, \"Your name shall no longer be called Jacob, but Israel, for you have striven with God and with humans, and have prevailed.\"",
+      "es": "Él dijo: «Ya no se llamará tu nombre Jacob, sino Israel, porque has luchado con Dios y con los hombres, y has prevalecido».",
+      "issues": [
+        "sarita root srh strive (also Hos 12:4); narrative explanation vs grammatical form of Yisrael (El as subject); not equated",
+        "elohim God vs divine being",
+        "anashim humans/men"
+      ]
+    },
+    "Gen.32.30": {
+      "ko": "야곱이 물어 말하였다. \"제발 당신의 이름을 알려 주십시오.\" 그가 말하였다. \"어찌하여 너는 내 이름을 묻느냐?\" 그리고 그는 거기에서 야곱에게 복을 빌어 주었다.",
+      "en": "Jacob asked and said, \"Please tell me your name.\" But he said, \"Why is it that you ask my name?\" And he blessed him there.",
+      "es": "Jacob le preguntó: «Dime, por favor, tu nombre». Pero él respondió: «¿Por qué preguntas por mi nombre?». Y allí lo bendijo.",
+      "issues": [
+        "lamma zeh emphatic why",
+        "blessing content not stated"
+      ]
+    },
+    "Gen.32.31": {
+      "ko": "야곱은 그곳의 이름을 브니엘이라 불렀다. \"내가 하나님을 얼굴과 얼굴을 마주하여 보았는데도 내 목숨이 건짐을 받았다\"는 뜻이었다.",
+      "en": "So Jacob called the name of the place Peniel, \"For I have seen God face to face, and yet my life has been spared.\"",
+      "es": "Jacob llamó a aquel lugar Peniel, «porque he visto a Dios cara a cara, y aun así mi vida fue librada».",
+      "issues": [
+        "ki clause in 1cs = Jacob's naming speech",
+        "Peniel = face of God etymological gloss",
+        "nifal nsl delivered/spared",
+        "wayyiqtol rendered concessive 'and yet' is interpretive"
+      ]
+    },
+    "Gen.32.32": {
+      "ko": "그가 브누엘을 지날 때 해가 그 위로 떠올랐다. 그는 허벅지 때문에 절뚝거리고 있었다.",
+      "en": "The sun rose upon him as he passed Penuel, and he was limping because of his hip.",
+      "es": "El sol salió sobre él cuando pasaba por Penuel, y él cojeaba a causa de su cadera.",
+      "issues": [
+        "Penuel vs Peniel spelling difference within WLC preserved",
+        "al yerekho on/because of hip"
+      ]
+    },
+    "Gen.32.33": {
+      "ko": "그러므로 이스라엘 자손은 오늘날까지 허벅지 관절 위에 있는 넓적다리 힘줄을 먹지 않는다. 그가 야곱의 허벅지 관절, 곧 넓적다리 힘줄을 건드렸기 때문이다.",
+      "en": "Therefore to this day the children of Israel do not eat the thigh sinew that is on the socket of the hip, because he touched the socket of Jacob's hip at the thigh sinew.",
+      "es": "Por eso, hasta el día de hoy, los hijos de Israel no comen el tendón del muslo que está sobre la articulación de la cadera, porque él tocó la articulación de la cadera de Jacob en el tendón del muslo.",
+      "issues": [
+        "gid hanasheh lexical identity uncertain; sciatic nerve is a later traditional identification",
+        "to this day = narrator perspective etiology",
+        "final prepositional phrase be-gid hanasheh must not be dropped"
+      ]
+    }
+  },
+  "initial_proposals_note": "Saved to a scratch file at 2026-10-30T21:12:25Z (date -u printed immediately after the write) before any earlier model record for this unit was opened. Copied here unchanged.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4197e00afdd2f77dd8e887bf34787f0bc5072856)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.32.23-33에는 현행 채택문이 없다(패킷 current_selected 빈 목록). 이 검토는 미래 채택용 연구 자료다. 채택문 표기 관례(엘로힘=하나님, 한국어·영어 “ ”, 스페인어 « », 영어 아포스트로피 ’)를 Gen.1.1, 2.7, 4.26, 5장 채택문에서 확인해 따랐다."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-gafl4o:automation/cloud-drafts/20261025T211839Z-986ede43.json (last commit touching file 02f98e4080df323c6f3691ad489cc652ef9b3f8f)",
+      "model_label": "claude-sonnet-5-5 as stated in that record's model_identity.requested_or_configured_model; Claude Code native cloud draft, unadopted_model_draft",
+      "finding_ko": "범위는 Gen.31.12-35.12이지만 Gen.32 전체(32:1-33)가 응답에 없다. 확인 결과 automation/source-queue-report.json의 deferred_unsupported_readings에 Gen.32.1-33 전체가 들어 있다. tools/queue_sources.py는 n이 c/p가 아닌 note 요소를 지원하지 않는 마크업으로 보류하는데, Gen.32의 모든 절에 OSHB 'KJV:Gen.32.x' 절번호 note가 있기 때문으로 보인다. 따라서 이 단원에 대한 기존 모델 번역은 없다. 같은 초안의 인접 절(Gen.33.1-2 여종/maidservants/siervas, children; Gen.33.10 하나님의 얼굴; Gen.35.10 이스라엘 개명; Gen.33.20 엘엘로헤이스라엘)을 용어 일관성 확인에만 사용했다."
+    },
+    {
+      "record": "origin/claude/bible-difficult-passages-bn9knm:automation/cloud-reviews/20261030T141004Z-e2026743.json (unit gen-16-7-14)",
+      "model_label": "claude-opus-5-5 as stated in that record's model_identity (Claude Code native cloud hard review, unadopted_model_review)",
+      "finding_ko": "이 단원 대상 절의 번역은 없다. Gen.32.31을 '하나님을 보고 살아남음' 병행(tag saw_god_and_survived)으로 인용하며, 그 인용문은 이번 고정 파일 추출과 자음·모음이 일치한다. 그 검토의 높임 정책(정체가 밝혀지기 전 사자의 발화를 '말하였다'로 둠)과 '사자/messenger' 선택을 이번 '어떤 사람' 발화의 높임 처리 판단에 참고했다."
+    },
+    {
+      "record": "GPT, Gemini, Antigravity/agy or human review records for Gen.32.23-33",
+      "model_label": "none found",
+      "finding_ko": "main과 모든 원격 claude/ 브랜치에서 automation/, reviews/, data/ 경로를 Gen.32 대상 ID로 검색했으나 해당 기록이 없다. 다른 모델 응답을 대신 만들지 않았다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "비교할 기존 대상 번역이 없으므로, 이번 검토는 이 단원의 첫 저장 번역 제안이다. 기존 일괄 초안의 공백은 Gen.32 전체가 절번호 note 때문에 보류된 결과이며, 32:1-22도 아직 어떤 모델 초안에도 없다.",
+    "인접 초안과의 용어 일관성: 여종/maidservants/siervas, 아이들/children, 하나님의 얼굴(33:10), 이스라엘(35:10)은 일치한다. 33:10의 '하나님의 얼굴을 뵙듯'은 32:31 브니엘과 의도적 반향이므로, 채택 시 두 절의 '얼굴' 표현을 함께 맞춰야 한다.",
+    "인접 초안 35:10은 '부르지 않고 ... 이스라엘이 네 이름이 될 것이다'이고 이번 32:29는 '불리지 않고 ... 이스라엘이라 불릴 것이다'이다. 히브리어도 32:29 lo ye'amer와 35:10 lo yiqqare로 동사가 다르므로 차이를 유지해도 된다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "32:23 ko '그의' -> '자기의', 쉼표 조정(의미 변화 없음).",
+    "32:24 ko '그 시내' -> '시내', en 'wadi' -> 'stream'(대안 wadi는 alternatives에 남김), es 'Los ... hizo' -> 'les hizo' 어순 다듬기.",
+    "32:25 ko '그런데'를 빼고 '남았는데'로 연결해 접속을 덜 해석적으로 했다. es 'despuntó el alba' -> 'rayó el alba'(27절과 통일).",
+    "32:26 ko 두 번째 문장의 '야곱이 그와 씨름하는 동안'을 '씨름하는 중에'로 바꿔 behe'avqo의 주어 모호성을 보존했다. en 'Jacob's' -> 'Jacob’s'(채택문 아포스트로피 관례).",
+    "32:27, 32:30 ko 동사 통일: '축복하다'/'복을 빌어 주다' 혼용을 '복을 주다'로 통일. 27절 ko는 '동이 텄으니 나를 가게 하여라'로 원문 ki 이유절을 살리고 '놓아 보내라'를 '가게 하여라'로 바꿨다.",
+    "32:28 es '¿Cuál es tu nombre?' 유지, 화자 '그 사람이'를 ko에 보충 표시.",
+    "32:29 ko '겨루어 이겼다'를 '겨루었고 또 이겼다'로 바꿔 두 동사(sarita, wattukhal)를 분리했다. es 'no se llamará tu nombre' -> 'no se dirá que tu nombre es'(ye'amer 'said').",
+    "32:31 ko를 '... 브니엘이라 불렀다. “...건짐을 받았기 때문이다.”'로 바꿔 ki 절이 야곱의 말이자 이름 이유임을 살렸다. en ', “For' -> ': “For'.",
+    "32:33 ko '곧' -> '그'(동격 위치 표지 be- 두 번을 더 중립적으로)."
+  ],
+  "reception_evidence": {
+    "pinned_hebrew_parallels": [
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.32.4",
+        "tag": "human_malakhim_same_chapter",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים לְפָנָיו אֶל עֵשָׂו אָחִיו אַרְצָה שֵׂעִיר שְׂדֵה אֱדוֹם",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.33.10",
+        "tag": "face_of_god_echo",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר יַעֲקֹב אַל נָא אִם נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵנִי",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.35.10",
+        "tag": "second_renaming_israel",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר לוֹ אֱלֹהִים שִׁמְךָ יַעֲקֹב לֹא יִקָּרֵא שִׁמְךָ עוֹד יַעֲקֹב כִּי אִם יִשְׂרָאֵל יִהְיֶה שְׁמֶךָ וַיִּקְרָא אֶת שְׁמוֹ יִשְׂרָאֵל",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Hos.12.4",
+        "tag": "sarah_et_elohim",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "excerpt": "בַּבֶּטֶן עָקַב אֶת אָחִיו וּבְאוֹנוֹ שָׂרָה אֶת אֱלֹהִים",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Hos.12.5",
+        "tag": "malakh_parallel_and_weeping",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "excerpt": "וָיָּשַׂר אֶל מַלְאָךְ וַיֻּכָל בָּכָה וַיִּתְחַנֶּן לוֹ בֵּית אֵל יִמְצָאֶנּוּ וְשָׁם יְדַבֵּר עִמָּנוּ",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Judg.8.8",
+        "tag": "penuel_spelling",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וַיַּעַל מִשָּׁם פְּנוּאֵל וַיְדַבֵּר אֲלֵיהֶם כָּזֹאת וַיַּעֲנוּ אוֹתוֹ אַנְשֵׁי פְנוּאֵל כַּאֲשֶׁר עָנוּ אַנְשֵׁי סֻכּוֹת",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Judg.8.17",
+        "tag": "penuel_spelling",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וְאֶת מִגְדַּל פְּנוּאֵל נָתָץ וַיַּהֲרֹג אֶת אַנְשֵׁי הָעִיר",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "1Kgs.12.25",
+        "tag": "penuel_spelling",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+        "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+        "excerpt": "וַיִּבֶן יָרָבְעָם אֶת שְׁכֶם בְּהַר אֶפְרַיִם וַיֵּשֶׁב בָּהּ וַיֵּצֵא מִשָּׁם וַיִּבֶן אֶת פְּנוּאֵל",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      }
+    ],
+    "not_checked": [
+      "LXX, Samaritan Pentateuch, Qumran manuscripts, Targumim, Peshitta and Vulgate were not consulted.",
+      "No lexicon (BDB/HALOT/DCH) was consulted; lexical judgments rest on pinned WLC usage, OSHB morphology and general knowledge labelled as such.",
+      "Rabbinic and patristic reception (e.g. identification of the man, the Dinah tradition, the sciatic nerve custom) is mentioned only as background knowledge, not verified here."
+    ]
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.32.23",
+      "clause": "וַיַּעֲבֹר אֵת מַעֲבַר יַבֹּק",
+      "option": "'sent (them) over the ford' (reading 32:23 like 32:24) or 'came to the ford' to avoid Jacob crossing",
+      "for": "Removes the tension with 32:25 'Jacob was left alone'.",
+      "against": "The verb is Qal, not Hiphil; the object is the ford itself. Harmonizing changes the grammar. A summary-then-detail reading explains the sequence without emendation.",
+      "verdict": "Keep 'crossed the ford'; footnote the tension."
+    },
+    {
+      "verse": "Gen.32.23",
+      "clause": "אַחַד עָשָׂר יְלָדָיו",
+      "option": "'eleven sons'",
+      "for": "Count matches eleven sons before Benjamin.",
+      "against": "yeladim is a generic masculine plural; 'sons' would decide the Dinah question.",
+      "verdict": "Keep 'children' / 아이 / hijos; note."
+    },
+    {
+      "verse": "Gen.32.24",
+      "clause": "הַנָּחַל",
+      "option": "'the wadi' / '골짜기 시내'",
+      "for": "Technically precise for a seasonal stream bed.",
+      "against": "The Jabbok is a perennial river; 'stream' is plainer.",
+      "verdict": "Text 'stream'; note may mention wadi."
+    },
+    {
+      "verse": "Gen.32.25",
+      "clause": "וַיֵּאָבֵק אִישׁ עִמּוֹ",
+      "option": "'an angel wrestled' or 'a divine being wrestled'",
+      "for": "Hos 12:5 has mal'akh; 32:29/31 speak of elohim.",
+      "against": "The text says ish; identification is the reader's/later tradition's step. Translating 'angel' imports Hosea into Genesis.",
+      "verdict": "Keep 'a man'; note Hosea."
+    },
+    {
+      "verse": "Gen.32.26",
+      "clause": "וַיַּרְא כִּי לֹא יָכֹל לוֹ",
+      "option": "Keep pronouns ambiguous: 'When he saw that he could not prevail against him'",
+      "for": "Hebrew does not name the subject.",
+      "against": "In Korean an unmarked '그가' would be read as Jacob, inverting the story. The second half and 32:33 fix the referent.",
+      "verdict": "Name 'the man' in en/es first clause and in ko; marked as supplied."
+    },
+    {
+      "verse": "Gen.32.26",
+      "clause": "וַיִּגַּע בְּכַף יְרֵכוֹ",
+      "option": "'struck' / '쳤다' / 'golpeó'",
+      "for": "The result is a dislocation; a light touch seems insufficient.",
+      "against": "naga' is the ordinary verb for touch; the understatement may be intentional and 32:33 repeats the same verb.",
+      "verdict": "Keep 'touched'; 'struck' as alternative."
+    },
+    {
+      "verse": "Gen.32.26",
+      "clause": "וַתֵּקַע",
+      "option": "'was strained' / 'was put out of joint'",
+      "for": "Range of taqa' meanings is uncertain.",
+      "against": "'Limping' in 32:32 fits either.",
+      "verdict": "Use 'wrenched' (en), 'se dislocó' (es), '어긋났다' (ko); note uncertainty."
+    },
+    {
+      "verse": "Gen.32.29",
+      "clause": "עִם אֱלֹהִים וְעִם אֲנָשִׁים",
+      "option": "'with divine beings and with humans' / 'with gods and men' / '신적 존재와 사람들과'",
+      "for": "The pair elohim/anashim reads like a merism of divine and human opponents; the opponent here is called ish; elohim is formally plural.",
+      "against": "Elsewhere in this cycle elohim with the definite theophanic sense is God (31:13 context, 33:10, 35:10); 32:31 'I have seen elohim face to face' is naturally God. Changing 32:29 alone would break the 32:29/32:31 link.",
+      "verdict": "Text 'God'; footnote 'divine being(s)' as a real alternative. Low-medium confidence."
+    },
+    {
+      "verse": "Gen.32.29",
+      "clause": "כִּי שָׂרִיתָ",
+      "option": "'you have ruled/been a prince with God' (from srr)",
+      "for": "Some ancient renderings and later etymologies connect Israel with srr 'rule'.",
+      "against": "The pointed form sarita is Qal of srh; Hos 12:4 sarah confirms srh in the pinned text. Not checked against LXX here.",
+      "verdict": "Keep 'striven'."
+    },
+    {
+      "verse": "Gen.32.30",
+      "clause": "לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי",
+      "option": "Read as a refusal ('Why do you ask? You may not know')",
+      "for": "No name is given.",
+      "against": "The text only asks why; it does not state a prohibition.",
+      "verdict": "Translate the question only."
+    },
+    {
+      "verse": "Gen.32.31",
+      "clause": "וַתִּנָּצֵל נַפְשִׁי",
+      "option": "'and my life was preserved' without 'and yet'",
+      "for": "Hebrew has plain waw.",
+      "against": "In English the plain 'and' loses the surprise that Exod 33:20 makes explicit; a concessive reading is widely held.",
+      "verdict": "en 'and yet', es 'y aun así', ko '-는데도' kept as contextual; flagged as interpretive."
+    },
+    {
+      "verse": "Gen.32.32",
+      "clause": "פְּנוּאֵל",
+      "option": "Normalize to 'Peniel' as in 32:31",
+      "for": "Same place, same lemma.",
+      "against": "The WLC spelling differs and Penuel is the spelling elsewhere (Judg 8, 1 Kgs 12). Silent normalization hides a source fact.",
+      "verdict": "Keep Penuel; note same place."
+    },
+    {
+      "verse": "Gen.32.33",
+      "clause": "גִּיד הַנָּשֶׁה",
+      "option": "'sciatic nerve' / '좌골신경' / 'nervio ciático'",
+      "for": "Traditional identification in later Jewish practice.",
+      "against": "Modern anatomical term; nasheh is lexically unclear in the pinned evidence.",
+      "verdict": "Text 'thigh sinew'; footnote traditional identification as reception."
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.32.29 and Gen.32.31 elohim = 'God / 하나님 / Dios'",
+    "objection_ko": "이 단원에서 내 선택에 대한 가장 강한 반론은, 32:29와 32:31에서 אֱלֹהִים을 '하나님'으로 옮기면 서술자가 일부러 '어떤 사람(אִישׁ)'으로만 소개한 상대의 정체를 번역자가 확정한다는 점이다. 32:29의 '엘로힘과 그리고 사람들과'는 신적 상대와 인간 상대(라반, 에서)를 아우르는 대구로 읽힐 수 있고, 엘로힘은 형태상 복수이며, 호 12:4-5는 같은 사건을 엘로힘과 말아크(사자)로 병행한다. 그렇다면 '신적 존재와 사람들과'가 더 정직한 직역일 수 있다.",
+    "test_ko": "절별 시험: (1) 32:25-28은 정체를 밝히지 않으므로 '어떤 사람'과 비높임으로 둔다. (2) 32:29에서 '하나님'과 '신적 존재'를 바꿔 넣으면, '신적 존재'는 32:31의 '내가 엘로힘을 얼굴과 얼굴로 보았다'와 '브니엘(하나님의 얼굴)' 이름 풀이를 약화한다. 32:31을 '신적 존재를 대면하였다'로 옮기면 지명 페니엘의 '엘'(하나님)과 어긋난다. (3) 33:10과 35:10(고정 WLC)은 같은 이야기 흐름에서 엘로힘을 하나님으로 읽게 한다. (4) 호 12:5의 말아크는 후대 해석의 증거이지 창세기 본문의 단어가 아니다.",
+    "result_ko": "본문은 '하나님'을 유지하고, 32:29 각주에 '신적 존재(들)' 대안을 진지한 대안으로 남긴다. 이 판단의 신뢰도는 중간 이하이며, 한국어 높임은 사람의 발화에서는 쓰지 않아 정체 문제를 앞서 해결하지 않도록 했다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.32.26",
+      "objection_ko": "주어 '그 사람'을 명시하는 것은 보충이다. 일부 독자는 야곱이 우세했다는 32:29 '이겼다'와 연결해 첫 절의 주어를 야곱으로 읽으려 할 수 있다. 그러나 '그를 이기지 못함을 보고'의 주어가 야곱이면 바로 이어지는 '그의 허벅지 관절을 건드렸다'의 주어도 야곱이 되어 '야곱의 허벅지 관절이 어긋났다'와 충돌한다. 따라서 보충은 문법상 가장 개연성 높은 지시를 드러낼 뿐이다."
+    },
+    {
+      "target": "Gen.32.27-30 Korean register",
+      "objection_ko": "사람에게 해라체, 야곱에게 합쇼체를 준 것은 한국어에만 있는 해석이다. 상대가 하나님이라면 '하여라/묻느냐' 같은 하대는 적절하고, 야곱의 존대도 간청 상황에 맞다. 다만 서술문에서 그 사람에게 높임('말씀하셨다')을 쓰지 않은 것은 의도적이다. 채택 정책이 신적 존재 발화 전체에 높임을 요구하면 25-30절 서술 동사를 함께 바꿔야 한다."
+    },
+    {
+      "target": "Gen.32.31",
+      "objection_ko": "한국어에서 이름 이유를 '…때문이다'로 인용문 안에 넣었는데, 히브리어 ki는 서술자의 이유 접속사로도, 야곱의 말 도입으로도 읽힌다. 1인칭 동사 때문에 야곱의 말로 보는 것이 맞지만 인용 동사가 없으므로 따옴표 범위는 편집 판단이다."
+    },
+    {
+      "target": "Gen.32.33",
+      "objection_ko": "'허벅지'와 '넓적다리'는 한국어에서 거의 동의어다. ירך와 נשה의 구별을 살리려 다른 낱말을 썼지만 독자가 같은 부위로 읽을 수 있다. '둔부 힘줄', '기드 하나쉐' 음역도 가능하다."
+    }
+  ],
+  "clause_map": {
+    "Gen.32.23": [
+      {
+        "he": "וַיָּקָם בַּלַּיְלָה הוּא",
+        "en": "he arose that night"
+      },
+      {
+        "he": "וַיִּקַּח אֶת שְׁתֵּי נָשָׁיו",
+        "en": "took his two wives"
+      },
+      {
+        "he": "וְאֶת שְׁתֵּי שִׁפְחֹתָיו",
+        "en": "and his two maidservants"
+      },
+      {
+        "he": "וְאֶת אַחַד עָשָׂר יְלָדָיו",
+        "en": "and his eleven children"
+      },
+      {
+        "he": "וַיַּעֲבֹר אֵת מַעֲבַר יַבֹּק",
+        "en": "and crossed the ford of the Jabbok"
+      }
+    ],
+    "Gen.32.24": [
+      {
+        "he": "וַיִּקָּחֵם",
+        "en": "he took them"
+      },
+      {
+        "he": "וַיַּעֲבִרֵם אֶת הַנָּחַל",
+        "en": "and made them cross the stream"
+      },
+      {
+        "he": "וַיַּעֲבֵר אֶת אֲשֶׁר לוֹ",
+        "en": "and made cross what was his"
+      }
+    ],
+    "Gen.32.25": [
+      {
+        "he": "וַיִּוָּתֵר יַעֲקֹב לְבַדּוֹ",
+        "en": "Jacob was left alone"
+      },
+      {
+        "he": "וַיֵּאָבֵק אִישׁ עִמּוֹ",
+        "en": "and a man wrestled with him"
+      },
+      {
+        "he": "עַד עֲלוֹת הַשָּׁחַר",
+        "en": "until the dawn came up"
+      }
+    ],
+    "Gen.32.26": [
+      {
+        "he": "וַיַּרְא כִּי לֹא יָכֹל לוֹ",
+        "en": "he (the man, supplied) saw that he could not prevail against him"
+      },
+      {
+        "he": "וַיִּגַּע בְּכַף יְרֵכוֹ",
+        "en": "and touched the socket of his hip"
+      },
+      {
+        "he": "וַתֵּקַע כַּף יֶרֶךְ יַעֲקֹב",
+        "en": "and the socket of Jacob's hip was wrenched"
+      },
+      {
+        "he": "בְּהֵאָבְקוֹ עִמּוֹ",
+        "en": "as he wrestled with him"
+      }
+    ],
+    "Gen.32.27": [
+      {
+        "he": "וַיֹּאמֶר",
+        "en": "he said"
+      },
+      {
+        "he": "שַׁלְּחֵנִי כִּי עָלָה הַשָּׁחַר",
+        "en": "let me go, for the dawn has come up"
+      },
+      {
+        "he": "וַיֹּאמֶר",
+        "en": "he (Jacob, supplied) said"
+      },
+      {
+        "he": "לֹא אֲשַׁלֵּחֲךָ כִּי אִם בֵּרַכְתָּנִי",
+        "en": "I will not let you go unless you bless me"
+      }
+    ],
+    "Gen.32.28": [
+      {
+        "he": "וַיֹּאמֶר אֵלָיו",
+        "en": "he said to him"
+      },
+      {
+        "he": "מַה שְּׁמֶךָ",
+        "en": "what is your name"
+      },
+      {
+        "he": "וַיֹּאמֶר יַעֲקֹב",
+        "en": "and he said, Jacob"
+      }
+    ],
+    "Gen.32.29": [
+      {
+        "he": "וַיֹּאמֶר",
+        "en": "he said"
+      },
+      {
+        "he": "לֹא יַעֲקֹב יֵאָמֵר עוֹד שִׁמְךָ",
+        "en": "your name shall no longer be said to be Jacob"
+      },
+      {
+        "he": "כִּי אִם יִשְׂרָאֵל",
+        "en": "but Israel"
+      },
+      {
+        "he": "כִּי שָׂרִיתָ עִם אֱלֹהִים וְעִם אֲנָשִׁים",
+        "en": "for you have striven with God and with humans"
+      },
+      {
+        "he": "וַתּוּכָל",
+        "en": "and have prevailed"
+      }
+    ],
+    "Gen.32.30": [
+      {
+        "he": "וַיִּשְׁאַל יַעֲקֹב וַיֹּאמֶר",
+        "en": "Jacob asked and said"
+      },
+      {
+        "he": "הַגִּידָה נָּא שְׁמֶךָ",
+        "en": "please tell your name"
+      },
+      {
+        "he": "וַיֹּאמֶר",
+        "en": "he said"
+      },
+      {
+        "he": "לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי",
+        "en": "why is it that you ask for my name"
+      },
+      {
+        "he": "וַיְבָרֶךְ אֹתוֹ שָׁם",
+        "en": "and he blessed him there"
+      }
+    ],
+    "Gen.32.31": [
+      {
+        "he": "וַיִּקְרָא יַעֲקֹב שֵׁם הַמָּקוֹם פְּנִיאֵל",
+        "en": "Jacob called the name of the place Peniel"
+      },
+      {
+        "he": "כִּי רָאִיתִי אֱלֹהִים פָּנִים אֶל פָּנִים",
+        "en": "for I have seen God face to face"
+      },
+      {
+        "he": "וַתִּנָּצֵל נַפְשִׁי",
+        "en": "and (yet) my life was delivered"
+      }
+    ],
+    "Gen.32.32": [
+      {
+        "he": "וַיִּזְרַח לוֹ הַשֶּׁמֶשׁ",
+        "en": "the sun rose upon him"
+      },
+      {
+        "he": "כַּאֲשֶׁר עָבַר אֶת פְּנוּאֵל",
+        "en": "as he passed Penuel"
+      },
+      {
+        "he": "וְהוּא צֹלֵעַ עַל יְרֵכוֹ",
+        "en": "and he was limping because of his hip"
+      }
+    ],
+    "Gen.32.33": [
+      {
+        "he": "עַל כֵּן",
+        "en": "therefore"
+      },
+      {
+        "he": "לֹא יֹאכְלוּ בְנֵי יִשְׂרָאֵל אֶת גִּיד הַנָּשֶׁה",
+        "en": "the children of Israel do not eat the thigh sinew"
+      },
+      {
+        "he": "אֲשֶׁר עַל כַּף הַיָּרֵךְ",
+        "en": "that is on the socket of the hip"
+      },
+      {
+        "he": "עַד הַיּוֹם הַזֶּה",
+        "en": "to this day"
+      },
+      {
+        "he": "כִּי נָגַע בְּכַף יֶרֶךְ יַעֲקֹב",
+        "en": "because he touched the socket of Jacob's hip"
+      },
+      {
+        "he": "בְּגִיד הַנָּשֶׁה",
+        "en": "at the thigh sinew"
+      }
+    ]
+  },
+  "preferred_wording": {
+    "Gen.32.23": {
+      "ko": "그는 그 밤에 일어나, 자기의 두 아내와 두 여종과 열한 아이를 데리고 얍복 나루를 건넜다.",
+      "en": "He arose that night, took his two wives, his two maidservants, and his eleven children, and crossed the ford of the Jabbok.",
+      "es": "Se levantó aquella noche, tomó a sus dos esposas, a sus dos siervas y a sus once hijos, y cruzó el vado del Jaboc."
+    },
+    "Gen.32.24": {
+      "ko": "그는 그들을 데려다가 시내를 건너게 하고, 자기에게 속한 것을 건너게 하였다.",
+      "en": "He took them and sent them across the stream, and he sent across whatever was his.",
+      "es": "Los tomó y les hizo cruzar el torrente, e hizo cruzar lo que le pertenecía."
+    },
+    "Gen.32.25": {
+      "ko": "야곱은 홀로 남았는데, 어떤 사람이 동이 틀 때까지 그와 씨름하였다.",
+      "en": "And Jacob was left alone; and a man wrestled with him until the dawn came up.",
+      "es": "Jacob se quedó solo, y un hombre luchó con él hasta que rayó el alba.",
+      "supplied_ko": [
+        "'-는데'는 와우 연결을 한국어 연결어미로 옮긴 것"
+      ]
+    },
+    "Gen.32.26": {
+      "ko": "그 사람은 자기가 야곱을 이기지 못하는 것을 보고 야곱의 허벅지 관절을 건드렸다. 그러자 씨름하는 중에 야곱의 허벅지 관절이 어긋났다.",
+      "en": "When the man saw that he could not prevail against him, he touched the socket of his hip, and the socket of Jacob’s hip was wrenched as he wrestled with him.",
+      "es": "Cuando el hombre vio que no podía vencerlo, le tocó la articulación de la cadera, y la articulación de la cadera de Jacob se dislocó mientras luchaba con él.",
+      "supplied_ko": [
+        "'그 사람은'과 첫 문장의 '야곱을', '야곱의'는 대명사 지시를 밝힌 보충"
+      ]
+    },
+    "Gen.32.27": {
+      "ko": "그 사람이 말하였다. “동이 텄으니 나를 가게 하여라.” 야곱이 말하였다. “당신이 내게 복을 주지 않으면 당신을 가게 하지 않겠습니다.”",
+      "en": "Then he said, “Let me go, for the dawn has come up.” But Jacob said, “I will not let you go unless you bless me.”",
+      "es": "Entonces él dijo: «Déjame ir, porque ya rayó el alba». Pero Jacob dijo: «No te dejaré ir si no me bendices».",
+      "supplied_ko": [
+        "화자 '그 사람', '야곱'은 보충"
+      ]
+    },
+    "Gen.32.28": {
+      "ko": "그 사람이 그에게 말하였다. “네 이름이 무엇이냐?” 그가 말하였다. “야곱입니다.”",
+      "en": "He said to him, “What is your name?” And he said, “Jacob.”",
+      "es": "Él le dijo: «¿Cuál es tu nombre?». Y él respondió: «Jacob».",
+      "supplied_ko": [
+        "'그 사람이'는 보충"
+      ]
+    },
+    "Gen.32.29": {
+      "ko": "그 사람이 말하였다. “네 이름은 더 이상 야곱이라 불리지 않고 이스라엘이라 불릴 것이다. 네가 하나님과 그리고 사람들과 겨루었고 또 이겼기 때문이다.”",
+      "en": "He said, “Your name shall no longer be called Jacob, but Israel, for you have striven with God and with humans, and have prevailed.”",
+      "es": "Él dijo: «Ya no se dirá que tu nombre es Jacob, sino Israel, porque has luchado con Dios y con los hombres, y has prevalecido».",
+      "supplied_ko": [
+        "'불릴 것이다'는 kî im 생략 구문의 동사를 되풀이한 보충"
+      ]
+    },
+    "Gen.32.30": {
+      "ko": "야곱이 물으며 말하였다. “부디 당신의 이름을 알려 주십시오.” 그 사람이 말하였다. “어찌하여 너는 내 이름을 묻느냐?” 그리고 그는 거기에서 야곱에게 복을 주었다.",
+      "en": "Then Jacob asked and said, “Please tell me your name.” But he said, “Why is it that you ask my name?” And he blessed him there.",
+      "es": "Jacob le preguntó y dijo: «Dime, por favor, tu nombre». Pero él dijo: «¿Por qué preguntas por mi nombre?». Y allí lo bendijo."
+    },
+    "Gen.32.31": {
+      "ko": "야곱은 그곳의 이름을 브니엘이라 불렀다. “내가 하나님을 얼굴과 얼굴로 마주 보았는데도 내 목숨이 건짐을 받았기 때문이다.”",
+      "en": "So Jacob called the name of the place Peniel: “For I have seen God face to face, and yet my life was spared.”",
+      "es": "Jacob llamó a aquel lugar Peniel: «Porque he visto a Dios cara a cara, y aun así mi vida fue librada».",
+      "supplied_ko": [
+        "'-는데도'(and yet)는 문맥상 양보 해석"
+      ]
+    },
+    "Gen.32.32": {
+      "ko": "그가 브누엘을 지날 때 해가 그 위로 떠올랐다. 그는 허벅지 때문에 절뚝거리고 있었다.",
+      "en": "The sun rose upon him as he passed Penuel, and he was limping because of his hip.",
+      "es": "El sol salió sobre él cuando pasaba por Penuel, y él cojeaba a causa de su cadera."
+    },
+    "Gen.32.33": {
+      "ko": "그러므로 이스라엘 자손은 오늘날까지 허벅지 관절 위에 있는 넓적다리 힘줄을 먹지 않는다. 그가 야곱의 허벅지 관절, 그 넓적다리 힘줄을 건드렸기 때문이다.",
+      "en": "Therefore to this day the children of Israel do not eat the thigh sinew that is on the socket of the hip, because he touched the socket of Jacob’s hip at the thigh sinew.",
+      "es": "Por eso, hasta el día de hoy, los hijos de Israel no comen el tendón del muslo que está sobre la articulación de la cadera, porque él tocó la articulación de la cadera de Jacob en el tendón del muslo."
+    }
+  },
+  "speech_boundaries_ko": [
+    "27절: 첫 발화는 그 사람, 둘째 발화는 야곱(문맥 보충).",
+    "28절: 질문은 그 사람, 답 '야곱'은 야곱.",
+    "29절: 개명 선언과 이유절 전체가 그 사람의 말.",
+    "30절: 이름 요청은 야곱, 반문은 그 사람. '복을 주었다'는 서술.",
+    "31절: ki 이하 1인칭 절은 야곱의 이름 풀이 발화(인용 동사 없음; 따옴표는 편집 판단).",
+    "33절: 전체가 서술자의 해설(이야기 시간 밖)."
+  ],
+  "proposed_notes_ko": {
+    "Gen.32.23": "WLC 32:23은 한국어·영어 전통 절번호 32:22다. 23절의 '건넜다'(칼)와 24절 '건너게 하였다'(히필), 25절 '홀로 남았다'의 관계는 요약 후 상술, 또는 야곱의 왕복으로 읽을 수 있으며 본문을 조화시키지 않았다. '열한 아이'는 남성 복수 일반어이며 디나 포함 여부는 정하지 않는다.",
+    "Gen.32.24": "OSHB에 'BHS가 레닌그라드 사본의 형태를 그대로 따랐다'는 주석이 붙어 있으나 어느 낱말인지 XML에 표시되지 않아 확인하지 못했다. 이문을 주장하지 않는다.",
+    "Gen.32.25": "'씨름하다'(וַיֵּאָבֵק)는 이 장 25-26절에만 나오는 드문 동사로, 얍복(יַבֹּק)·야곱(יַעֲקֹב)과 소리가 겹친다. '어떤 사람'은 본문 그대로이며, 호 12:5는 같은 사건을 '사자'와 연결한다.",
+    "Gen.32.26": "첫 문장 주어 '그 사람'은 대명사 지시를 밝힌 보충이다. '건드렸다'는 '쳤다'로도 옮길 수 있다. '어긋났다'(תֵּקַע)의 정확한 의미(탈구/삠)는 불확실하다. '허벅지 관절'은 '허벅지의 오목한 곳', 곧 고관절을 뜻한다.",
+    "Gen.32.27": "'~하지 않으면'은 부정 뒤 כִּי אִם 구문이다. 그 사람에게 해라체, 야곱에게 합쇼체를 쓴 것은 한국어 번역의 해석이다.",
+    "Gen.32.28": "이름을 묻는 질문은 다음 절 개명 선언으로 이어진다.",
+    "Gen.32.29": "'이스라엘' 풀이는 본문이 '네가 하나님과 겨루었다(שָׂרִיתָ)'로 설명한다. 문법적으로 '이스라엘'형 이름은 하나님(엘)을 주어로 하는 형태('엘이 겨루신다/견디신다')로 볼 수 있으나, 본문의 이야기 풀이를 고치지 않는다. '하나님과 사람들'은 '신적 존재(들)와 사람들'로도 옮길 수 있다. 호 12:4 '그가 하나님과 겨루었다'와 병행.",
+    "Gen.32.30": "그 사람은 이름을 밝히지 않고 반문만 한다. 축복 내용은 본문에 없다.",
+    "Gen.32.31": "브니엘(פְּנִיאֵל)은 '하나님의 얼굴'이라는 뜻으로 풀이되며 '얼굴과 얼굴로'와 말놀이를 이룬다. '-는데도'는 문맥상 양보 해석이다(출 33:20 참조). 33:10 '하나님의 얼굴을 뵙듯'과 반향된다.",
+    "Gen.32.32": "같은 장소가 31절에서는 브니엘, 32절에서는 브누엘(פְּנוּאֵל)로 쓰였다. 고정 WLC 철자를 그대로 두었으며, 삿 8:8-17과 왕상 12:25도 브누엘이다.",
+    "Gen.32.33": "'넓적다리 힘줄'(גִּיד הַנָּשֶׁה)의 정확한 해부학적 의미는 불확실하다. 후대 유대 전통은 이를 좌골신경으로 이해한다(이 실행에서 검증하지 않은 수용사 정보). '오늘날까지'는 서술자 시대의 관습을 설명하는 해설이다."
+  },
+  "editorial_consistency_findings": [
+    "Elohim -> 하나님 / God / Dios, matching selected Gen.1.1 and adjacent draft Gen.33.10/35.10.",
+    "Quotation marks: ko/en curly double quotes, es angle quotes; English apostrophe ’ as in selected Genesis 5 notes.",
+    "Peniel/Penuel kept distinct in all three languages; Korean 브니엘/브누엘 follows the common Korean transliteration of each spelling.",
+    "Korean honorifics: narrative verbs for the unnamed man are non-honorific (말하였다, 주었다), consistent with the gen-16-7-14 review policy of not resolving identity through honorifics before the text does.",
+    "Spanish Jaboc, Peniel, Penuel, Israel; Korean 얍복."
+  ],
+  "final_opinion_ko": "창 32:23-33(전통 32:22-32)은 원문 자체에는 이문 표시가 없고, 어려움은 주로 (1) 23-25절의 건넘 순서, (2) 26절 대명사 지시와 תקע의 의미, (3) 29절 שָׂרִיתָ와 '이스라엘' 이름 풀이, (4) 29·31절 엘로힘의 범위, (5) 브니엘/브누엘 철자, (6) 33절 גיד הנשה의 정체에 있다. 이번 제안은 본문을 조화시키지 않고 '어떤 사람'을 그대로 두며, 29·31절은 '하나님'으로 옮기되 '신적 존재(들)' 대안을 각주로 남긴다. 기존 모델 번역이 없어 이 기록이 이 단원의 첫 제안이므로, 채택 전에 GPT·Gemini 독립 번역과 비교가 특히 필요하다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.32.23-25, 32.27-28, 32.30, 32.32",
+      "level": "high",
+      "note_ko": "어휘·구문이 분명하다. 23절 건넘 순서의 해석만 열려 있다."
+    },
+    {
+      "id": "Gen.32.26",
+      "level": "medium",
+      "note_ko": "주어 보충은 개연성이 높지만 보충이다. תקע의 의미는 불확실."
+    },
+    {
+      "id": "Gen.32.29",
+      "level": "medium-low",
+      "note_ko": "엘로힘 범위와 이름 어원은 해석 문제. 칠십인역·사전 미확인."
+    },
+    {
+      "id": "Gen.32.31",
+      "level": "medium",
+      "note_ko": "'-는데도/and yet' 양보 해석과 따옴표 범위는 편집 판단."
+    },
+    {
+      "id": "Gen.32.33",
+      "level": "medium-low",
+      "note_ko": "גיד הנשה의 해부학적 의미는 미해결."
+    },
+    {
+      "id": "all",
+      "level": "limit",
+      "note_ko": "사전(BDB/HALOT/DCH)과 칠십인역·사마리아 오경·쿰란·타르굼·불가타는 확인하지 않았다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.32.29",
+      "condition_ko": "편집 원칙이 '정체가 본문에서 확정되기 전 신명 확정 금지'로 정해지거나, GPT·Gemini 독립 검토가 '신적 존재'를 강하게 지지하는 어휘 근거(사전 항목 등)를 실제 URL과 함께 제시하면 29절 본문을 바꾸고 31절과 함께 맞춘다."
+    },
+    {
+      "id": "Gen.32.29",
+      "condition_ko": "칠십인역 인쇄판에서 שָׂרִיתָ 번역이 srr('다스리다') 계열로 확인되면 수용 각주를 보강한다(본문 변경 사유는 아님)."
+    },
+    {
+      "id": "Gen.32.23",
+      "condition_ko": "채택 시 23절이 요약 서술임을 드러내는 편집 관례('그렇게 그는 얍복 나루를 건넜다' 식)가 다른 절에 이미 쓰였다면 그에 맞춘다."
+    },
+    {
+      "id": "Gen.32.24",
+      "condition_ko": "OSHB/WLC 원 주석 표시(]1 등)의 대상 낱말이 확인되면 각주를 갱신한다."
+    },
+    {
+      "id": "Gen.32.26",
+      "condition_ko": "תקע 사전 항목을 확인해 '탈구'보다 '삐다/긴장되다'가 우세하면 en/es/ko 동사를 약하게 바꾼다."
+    },
+    {
+      "id": "Gen.32.33",
+      "condition_ko": "גיד הנשה에 관한 신뢰할 만한 사전·해부학적 근거가 확인되면 번역어를 '엉덩이 힘줄/좌골신경' 등으로 재검토한다."
+    },
+    {
+      "id": "Gen.32.27-30",
+      "condition_ko": "채택 정책이 신적 존재의 발화에 높임 서술을 요구하면 25-30절 서술 동사를 일괄 조정한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.32.24",
+      "issue": "OSHB note n=1 (BHS faithful to Leningrad form) is not anchored to a word in the pinned XML; target form unknown",
+      "status": "unresolved_source_annotation",
+      "needed_evidence": "OSHB/WLC note documentation or the WLC source line with its marker, checked directly with URL"
+    },
+    {
+      "id": "Gen.32.29",
+      "issue": "scope of elohim (God vs divine being[s]) and relation of sarita to the name Yisra'el",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "lexicon entries for srh/srr and elohim; LXX/Targum renderings checked directly"
+    },
+    {
+      "id": "Gen.32.26",
+      "issue": "precise meaning of taqa' (dislocate vs strain)",
+      "status": "unresolved_lexical",
+      "needed_evidence": "lexicon entry; other uses of yqa' in pinned WLC"
+    },
+    {
+      "id": "Gen.32.33",
+      "issue": "identity of gid hanasheh",
+      "status": "unresolved_lexical",
+      "needed_evidence": "lexicon entry; reception sources cited with URL"
+    },
+    {
+      "id": "Gen.32.23",
+      "issue": "count and identity of 'eleven children'; sequence of crossing",
+      "status": "unresolved_historical_reception",
+      "needed_evidence": "editorial decision; reception sources if a note is to cite them"
+    },
+    {
+      "id": "Gen.32.1-22",
+      "issue": "Gen.32 is entirely deferred from bulk drafting because every verse carries an OSHB KJV versification note; 32:1-22 has no model draft yet",
+      "status": "process_gap_outside_unit",
+      "needed_evidence": "editor decision on whether KJV versification notes should block drafting"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T21:10:13Z)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "accessed_utc": "2026-10-30T21:13:00Z",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+      "what_it_is": "Pinned WLC/OSHB Hosea; Hos 12:4-5 parallel."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-10-30T21:13:01Z",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "what_it_is": "Pinned WLC/OSHB Judges; Penuel spelling."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+      "accessed_utc": "2026-10-30T21:13:01Z",
+      "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+      "what_it_is": "Pinned WLC/OSHB 1 Kings; Penuel spelling."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where the project requires it",
+    "current best editorial selection with versioned adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or textual variant for Gen 32:23-33 is asserted; LXX, Samaritan, Qumran, Targum, Peshitta and Vulgate were not checked.",
+    "The Peniel/Penuel difference is reported only as a spelling inside the pinned WLC, not as a collated variant.",
+    "No GPT, Gemini, Antigravity/agy or human reviewer response is represented or simulated; none was found saved for this unit.",
+    "No lexicon was consulted; lexical judgments rest on pinned WLC usage, OSHB morphology and general knowledge labelled as such.",
+    "Reception statements (Dinah tradition, sciatic nerve identification, etymology of Israel) are background knowledge, not verified sources in this run.",
+    "No credit balance, deduction or dollar amount is asserted; only the service's rate-limit metadata labels are recorded.",
+    "This is not an adopted, certified or published translation."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T211013Z-bbb32fa7.json",
+    "packet_sha256": "342d096b614cdbc72d50f28bb87b9a2855cf8b00fd31c8f80888d5a23b0cb550",
+    "verses": [
+      {
+        "id": "Gen.32.23",
+        "raw_xml": "<verse osisID=\"Gen.32.23\">\n          <note>KJV:Gen.32.22</note>\n          <w lemma=\"c/6965 b\" n=\"1.1.1.0\" morph=\"HC/Vqw3ms\" id=\"01Jmy\">וַ/יָּ֣קָם</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"b/3915\" morph=\"HRd/Ncmsa\" id=\"01GbY\">בַּ/לַּ֣יְלָה</w>\n          <w lemma=\"1931\" n=\"1.1.1\" morph=\"HPp3ms\" id=\"01Zwd\">ה֗וּא</w>\n          <w lemma=\"c/3947\" n=\"1.1.0.0\" morph=\"HC/Vqw3ms\" id=\"01FTW\">וַ/יִּקַּ֞ח</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01WPw\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8147\" morph=\"HAcfdc\" id=\"01s8U\">שְׁתֵּ֤י</w>\n          <w lemma=\"802\" n=\"1.1.0\" morph=\"HNcfpc/Sp3ms\" id=\"019jH\">נָשָׁי/ו֙</w>\n          <w lemma=\"c/853\" morph=\"HC/To\" id=\"01ZJk\">וְ/אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8147\" morph=\"HAcfdc\" id=\"01aaq\">שְׁתֵּ֣י</w>\n          <w lemma=\"8198\" n=\"1.1\" morph=\"HNcfpc/Sp3ms\" id=\"01D9J\">שִׁפְחֹתָ֔י/ו</w>\n          <w lemma=\"c/853\" morph=\"HC/To\" id=\"01At4\">וְ/אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"259\" morph=\"HAcmsa\" id=\"01pFw\">אַחַ֥ד</w>\n          <w lemma=\"6240\" n=\"1.0\" morph=\"HAcmsa\" id=\"01pAn\">עָשָׂ֖ר</w>\n          <w lemma=\"3206\" n=\"1\" morph=\"HNcmpc/Sp3ms\" id=\"01V8L\">יְלָדָ֑י/ו</w>\n          <w lemma=\"c/5674 a\" n=\"0.1\" morph=\"HC/Vqw3ms\" id=\"01SFr\">וַֽ/יַּעֲבֹ֔ר</w>\n          <w lemma=\"853\" n=\"0.0\" morph=\"HTo\" id=\"01pAx\">אֵ֖ת</w>\n          <w lemma=\"4569 a\" morph=\"HNcmsc\" id=\"016L8\">מַעֲבַ֥ר</w>\n          <w lemma=\"2999\" n=\"0\" morph=\"HNp\" id=\"01EuB\">יַבֹּֽק</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "550394740c348fc051441519eec8e846d8c2c60672ed9d2cc9e7d105162e06fc",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.24",
+        "raw_xml": "<verse osisID=\"Gen.32.24\">\n          <note>KJV:Gen.32.23</note>\n          <w lemma=\"c/3947\" n=\"1.1\" morph=\"HC/Vqw3ms/Sp3mp\" id=\"01Eip\">וַ/יִּקָּחֵ֔/ם</w>\n          <w lemma=\"c/5674 a\" n=\"1.0\" morph=\"HC/Vhw3ms/Sp3mp\" id=\"01G8i\">וַ/יַּֽעֲבִרֵ֖/ם</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01yLr\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/5158 a\" n=\"1\" morph=\"HTd/Ncmsa\" id=\"01D3Q\">הַ/נָּ֑חַל</w>\n          <w lemma=\"c/5674 a\" n=\"0.0\" morph=\"HC/Vhw3ms\" id=\"01gLX\">וַֽ/יַּעֲבֵ֖ר</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01Rmf\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"834 a\" morph=\"HTr\" id=\"01tit\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"0\" morph=\"HR/Sp3ms\" id=\"01hSB\">ל/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <note n=\"1\">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "bbb29b5ec51fecac1f50ee5ecb9a0b11a3e75cdbec8a945b14b0c72eedb6750f",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.25",
+        "raw_xml": "<verse osisID=\"Gen.32.25\">\n          <note>KJV:Gen.32.24</note>\n          <w lemma=\"c/3498\" morph=\"HC/VNw3ms\" id=\"01tFY\">וַ/יִּוָּתֵ֥ר</w>\n          <w lemma=\"3290\" n=\"1.0\" morph=\"HNp\" id=\"01Rr1\">יַעֲקֹ֖ב</w>\n          <w lemma=\"l/905\" n=\"1\" morph=\"HR/Ncmsc/Sp3ms\" id=\"01Hbx\">לְ/בַדּ֑/וֹ</w>\n          <w lemma=\"c/79\" morph=\"HC/VNw3ms\" id=\"01etn\">וַ/יֵּאָבֵ֥ק</w>\n          <w lemma=\"376\" n=\"0.1.0\" morph=\"HNcmsa\" id=\"01JAN\">אִישׁ֙</w>\n          <w lemma=\"5973 a\" n=\"0.1\" morph=\"HR/Sp3ms\" id=\"01R6s\">עִמּ֔/וֹ</w>\n          <w lemma=\"5704\" n=\"0.0\" morph=\"HR\" id=\"01Wy4\">עַ֖ד</w>\n          <w lemma=\"5927\" morph=\"HVqc\" id=\"01869\">עֲל֥וֹת</w>\n          <w lemma=\"d/7837\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"01954\">הַ/שָּֽׁחַר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "08779fb8324aa625b45ece810ce9816dbb472c68dfd7341bf7f2c3fde36e9ba8",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.26",
+        "raw_xml": "<verse osisID=\"Gen.32.26\">\n          <note>KJV:Gen.32.25</note>\n          <w lemma=\"c/7200\" n=\"1.1.1\" morph=\"HC/Vqw3ms\" id=\"01wLC\">וַ/יַּ֗רְא</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01ZBr\">כִּ֣י</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01zbk\">לֹ֤א</w>\n          <w lemma=\"3201\" n=\"1.1.0\" morph=\"HVqp3ms\" id=\"01o1G\">יָכֹל֙</w>\n          <w lemma=\"l\" n=\"1.1\" morph=\"HR/Sp3ms\" id=\"01DM7\">ל֔/וֹ</w>\n          <w lemma=\"c/5060\" n=\"1.0\" morph=\"HC/Vqw3ms\" id=\"01D7s\">וַ/יִּגַּ֖ע</w>\n          <w lemma=\"b/3709\" morph=\"HR/Ncfsc\" id=\"01exS\">בְּ/כַף</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3409\" n=\"1\" morph=\"HNcfsc/Sp3ms\" id=\"01xpZ\">יְרֵכ֑/וֹ</w>\n          <w lemma=\"c/3363\" n=\"0.1.0\" morph=\"HC/Vqw3fs\" id=\"01x95\">וַ/תֵּ֨קַע֙</w>\n          <w lemma=\"3709\" morph=\"HNcfsc\" id=\"01qX6\">כַּף</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3409\" morph=\"HNcfsc\" id=\"01eNN\">יֶ֣רֶךְ</w>\n          <w lemma=\"3290\" n=\"0.1\" morph=\"HNp\" id=\"01PWp\">יַעֲקֹ֔ב</w>\n          <w lemma=\"b/79\" n=\"0.0\" morph=\"HR/VNc/Sp3ms\" id=\"013LH\">בְּ/הֵֽאָבְק֖/וֹ</w>\n          <w lemma=\"5973 a\" n=\"0\" morph=\"HR/Sp3ms\" id=\"01ecq\">עִמּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "d31e4499009a5b5242d18b0863582068500992aabfd42cddd61e82a2685d89e2",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.27",
+        "raw_xml": "<verse osisID=\"Gen.32.27\">\n          <note>KJV:Gen.32.26</note>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01hUd\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"7971\" n=\"1.1\" morph=\"HVpv2ms/Sp1cs\" id=\"0152X\">שַׁלְּחֵ֔/נִי</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"017WR\">כִּ֥י</w>\n          <w lemma=\"5927\" n=\"1.0\" morph=\"HVqp3ms\" id=\"019yL\">עָלָ֖ה</w>\n          <w lemma=\"d/7837\" n=\"1\" morph=\"HTd/Ncmsa\" id=\"01nZ2\">הַ/שָּׁ֑חַר</w>\n          <w lemma=\"c/559\" n=\"0.1.0\" morph=\"HC/Vqw3ms\" id=\"01sk9\">וַ/יֹּ֨אמֶר֙</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01FK9\">לֹ֣א</w>\n          <w lemma=\"7971\" n=\"0.1\" morph=\"HVpi1cs/Sp2ms\" id=\"016dr\">אֲשַֽׁלֵּחֲ/ךָ֔</w>\n          <w lemma=\"3588 b\" n=\"0.0\" morph=\"HC\" id=\"01UCY\">כִּ֖י</w>\n          <w lemma=\"518 b\" morph=\"HC\" id=\"01fgw\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1288\" n=\"0\" morph=\"HVpp2ms/Sp1cs\" id=\"01nVy\">בֵּרַכְתָּֽ/נִי</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "24505a1c1fb8e4b03bc006129d5f3f4c15e53ad06359d22e5d2ee76e7597b5ec",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.28",
+        "raw_xml": "<verse osisID=\"Gen.32.28\">\n          <note>KJV:Gen.32.27</note>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01KPw\">וַ/יֹּ֥אמֶר</w>\n          <w lemma=\"413\" n=\"1.0\" morph=\"HR/Sp3ms\" id=\"01pjN\">אֵלָ֖י/ו</w>\n          <w lemma=\"4100\" morph=\"HTi\" id=\"01DLD\">מַה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8034\" n=\"1\" morph=\"HNcmsc/Sp2ms\" id=\"01Jf1\">שְּׁמֶ֑/ךָ</w>\n          <w lemma=\"c/559\" n=\"0.0\" morph=\"HC/Vqw3ms\" id=\"013YY\">וַ/יֹּ֖אמֶר</w>\n          <w lemma=\"3290\" n=\"0\" morph=\"HNp\" id=\"015np\">יַעֲקֹֽב</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "d9824048eb40b7f2e58a3350a20047361ccf1b3d36d87504684c625450f368a8",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.29",
+        "raw_xml": "<verse osisID=\"Gen.32.29\">\n          <note>KJV:Gen.32.28</note>\n          <w lemma=\"c/559\" n=\"1.1.2\" morph=\"HC/Vqw3ms\" id=\"01kyD\">וַ/יֹּ֗אמֶר</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01cTB\">לֹ֤א</w>\n          <w lemma=\"3290\" n=\"1.1.1\" morph=\"HNp\" id=\"01xdg\">יַעֲקֹב֙</w>\n          <w lemma=\"559\" morph=\"HVNi3ms\" id=\"01Rp3\">יֵאָמֵ֥ר</w>\n          <w lemma=\"5750\" n=\"1.1.0\" morph=\"HD\" id=\"01riy\">עוֹד֙</w>\n          <w lemma=\"8034\" n=\"1.1\" morph=\"HNcmsc/Sp2ms\" id=\"0165F\">שִׁמְ/ךָ֔</w>\n          <w lemma=\"3588 b\" n=\"1.0\" morph=\"HC\" id=\"01qmk\">כִּ֖י</w>\n          <w lemma=\"518 b\" morph=\"HC\" id=\"01YgE\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3478\" n=\"1\" morph=\"HNp\" id=\"01Q1E\">יִשְׂרָאֵ֑ל</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01Y3X\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8280\" morph=\"HVqp2ms\" id=\"01nBU\">שָׂרִ֧יתָ</w>\n          <w lemma=\"5973 a\" morph=\"HR\" id=\"01Ske\">עִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"430\" n=\"0.0.0\" morph=\"HNcmpa\" id=\"01QPL\">אֱלֹהִ֛ים</w>\n          <w lemma=\"c/5973 a\" morph=\"HC/R\" id=\"01B38\">וְ/עִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"376\" n=\"0.0\" morph=\"HNcmpa\" id=\"01x1b\">אֲנָשִׁ֖ים</w>\n          <w lemma=\"c/3201\" n=\"0\" morph=\"HC/Vqw2ms\" id=\"01did\">וַ/תּוּכָֽל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "0a09c92cabe67b6412b5803f56c056eca07274ec1d4d266b3628129c38218623",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.30",
+        "raw_xml": "<verse osisID=\"Gen.32.30\">\n          <note>KJV:Gen.32.29</note>\n          <w lemma=\"c/7592\" morph=\"HC/Vqw3ms\" id=\"01Deu\">וַ/יִּשְׁאַ֣ל</w>\n          <w lemma=\"3290\" n=\"1.2.1\" morph=\"HNp\" id=\"01qP1\">יַעֲקֹ֗ב</w>\n          <w lemma=\"c/559\" n=\"1.2.0\" morph=\"HC/Vqw3ms\" id=\"01uJL\">וַ/יֹּ֨אמֶר֙</w>\n          <w lemma=\"5046\" morph=\"HVhv2ms/Sh\" id=\"011or\">הַגִּֽידָ/ה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4994\" morph=\"HTj\" id=\"01G5Y\">נָּ֣א</w>\n          <w lemma=\"8034\" n=\"1.2\" morph=\"HNcmsc/Sp2ms\" id=\"01jjU\">שְׁמֶ֔/ךָ</w>\n          <w lemma=\"c/559\" n=\"1.1\" morph=\"HC/Vqw3ms\" id=\"01Ky9\">וַ/יֹּ֕אמֶר</w>\n          <w lemma=\"l/4100\" morph=\"HR/Ti\" id=\"01Put\">לָ֥/מָּה</w>\n          <w lemma=\"2088\" n=\"1.0\" morph=\"HPdxms\" id=\"01XUT\">זֶּ֖ה</w>\n          <w lemma=\"7592\" morph=\"HVqi2ms\" id=\"01ZHS\">תִּשְׁאַ֣ל</w>\n          <w lemma=\"l/8034\" n=\"1\" morph=\"HR/Ncmsc/Sp1cs\" id=\"01DWS\">לִ/שְׁמִ֑/י</w>\n          <w lemma=\"c/1288\" morph=\"HC/Vpw3ms\" id=\"01Un6\">וַ/יְבָ֥רֶךְ</w>\n          <w lemma=\"853\" n=\"0.0\" morph=\"HTo/Sp3ms\" id=\"01W9g\">אֹת֖/וֹ</w>\n          <w lemma=\"8033\" n=\"0\" morph=\"HD\" id=\"01v7u\">שָֽׁם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "5d1c635a44c9ec15e5e5c02daf5c6b79e1a441e5b8a8675f57df830ae2ed7b12",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.31",
+        "raw_xml": "<verse osisID=\"Gen.32.31\">\n          <note>KJV:Gen.32.30</note>\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3ms\" id=\"01SkA\">וַ/יִּקְרָ֧א</w>\n          <w lemma=\"3290\" n=\"1.0.0\" morph=\"HNp\" id=\"01LWh\">יַעֲקֹ֛ב</w>\n          <w lemma=\"8034\" morph=\"HNcmsc\" id=\"01VKZ\">שֵׁ֥ם</w>\n          <w lemma=\"d/4725\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"01ruf\">הַ/מָּק֖וֹם</w>\n          <w lemma=\"6439\" n=\"1\" morph=\"HNp\" id=\"01Am2\">פְּנִיאֵ֑ל</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01Cnp\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7200\" morph=\"HVqp1cs\" id=\"01X1b\">רָאִ֤יתִי</w>\n          <w lemma=\"430\" n=\"0.1.0\" morph=\"HNcmpa\" id=\"01ALi\">אֱלֹהִים֙</w>\n          <w lemma=\"6440\" morph=\"HNcbpa\" id=\"01Ssy\">פָּנִ֣ים</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01DPE\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6440\" n=\"0.1\" morph=\"HNcbpa\" id=\"01zuZ\">פָּנִ֔ים</w>\n          <w lemma=\"c/5337\" n=\"0.0\" morph=\"HC/VNw3fs\" id=\"01qAF\">וַ/תִּנָּצֵ֖ל</w>\n          <w lemma=\"5315\" n=\"0\" morph=\"HNcbsc/Sp1cs\" id=\"01NmV\">נַפְשִֽׁ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "4e32ad7ed59d19839e27a01773bd5c7781400e6c83896f0794d7c51bb39b03a0",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.32",
+        "raw_xml": "<verse osisID=\"Gen.32.32\">\n          <note>KJV:Gen.32.31</note>\n          <w lemma=\"c/2224\" morph=\"HC/Vqw3ms\" id=\"01ycd\">וַ/יִּֽזְרַֽח</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp3ms\" id=\"01ZJr\">ל֣/וֹ</w>\n          <w lemma=\"d/8121\" n=\"1.1\" morph=\"HTd/Ncbsa\" id=\"01Nuf\">הַ/שֶּׁ֔מֶשׁ</w>\n          <w lemma=\"k/834 d\" morph=\"HR/Tr\" id=\"01HA5\">כַּ/אֲשֶׁ֥ר</w>\n          <w lemma=\"5674 a\" n=\"1.0\" morph=\"HVqp3ms\" id=\"01SBt\">עָבַ֖ר</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"014cJ\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6439\" n=\"1\" morph=\"HNp\" id=\"01mT3\">פְּנוּאֵ֑ל</w>\n          <w lemma=\"c/1931\" morph=\"HC/Pp3ms\" id=\"01kgZ\">וְ/ה֥וּא</w>\n          <w lemma=\"6760\" n=\"0.0\" morph=\"HVqrmsa\" id=\"01TiG\">צֹלֵ֖עַ</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01KCi\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3409\" n=\"0\" morph=\"HNcfsc/Sp3ms\" id=\"01zQa\">יְרֵכֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "cadb71aba411eac65eb449252dfc4868cd65426acb451724cbd686c2eff8c170",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.32.33",
+        "raw_xml": "<verse osisID=\"Gen.32.33\">\n          <note>KJV:Gen.32.32</note>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01avz\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.1.1.1\" morph=\"HTm\" id=\"01vVQ\">כֵּ֡ן</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01cwr\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"398\" morph=\"HVqi3mp\" id=\"01mS4\">יֹאכְל֨וּ</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"01eRj\">בְנֵֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3478\" n=\"1.1.1.0\" morph=\"HNp\" id=\"018XF\">יִשְׂרָאֵ֜ל</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01RL4\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1517\" morph=\"HNcmsc\" id=\"01G2B\">גִּ֣יד</w>\n          <w lemma=\"d/5384\" n=\"1.1.1\" morph=\"HTd/Ncmsa\" id=\"01QpK\">הַ/נָּשֶׁ֗ה</w>\n          <w lemma=\"834 a\" n=\"1.1.0\" morph=\"HTr\" id=\"01AxC\">אֲשֶׁר֙</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"019h6\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3709\" morph=\"HNcfsc\" id=\"01hXP\">כַּ֣ף</w>\n          <w lemma=\"d/3409\" n=\"1.1\" morph=\"HTd/Ncfsa\" id=\"018qi\">הַ/יָּרֵ֔ךְ</w>\n          <w lemma=\"5704\" n=\"1.0\" morph=\"HR\" id=\"01Kqz\">עַ֖ד</w>\n          <w lemma=\"d/3117\" morph=\"HTd/Ncmsa\" id=\"01ggm\">הַ/יּ֣וֹם</w>\n          <w lemma=\"d/2088\" n=\"1\" morph=\"HTd/Pdxms\" id=\"01Qza\">הַ/זֶּ֑ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01krk\">כִּ֤י</w>\n          <w lemma=\"5060\" n=\"0.1.0\" morph=\"HVqp3ms\" id=\"01b4n\">נָגַע֙</w>\n          <w lemma=\"b/3709\" morph=\"HR/Ncfsc\" id=\"01Jia\">בְּ/כַף</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3409\" morph=\"HNcfsc\" id=\"01Y9M\">יֶ֣רֶךְ</w>\n          <w lemma=\"3290\" n=\"0.1\" morph=\"HNp\" id=\"01nLA\">יַעֲקֹ֔ב</w>\n          <w lemma=\"b/1517\" n=\"0.0\" morph=\"HR/Ncmsc\" id=\"01jmt\">בְּ/גִ֖יד</w>\n          <w lemma=\"d/5384\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"01SEK\">הַ/נָּשֶֽׁה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "3db0222e745349876206468f7d9c79f374c5335d646aaa2f972140c901164a2c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "project": "Original Bible; founder and original creator Hansam Yang"
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T211013Z-bbb32fa7.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs": true,
+    "manifest_unit_and_ids_match": true,
+    "raw_markup_kinds": [
+      "note",
+      "seg",
+      "verse",
+      "w"
+    ],
+    "qere_ketiv_or_rdg_present": false,
+    "notes_in_packet": {
+      "Gen.32.23": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.22"
+        }
+      ],
+      "Gen.32.24": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.23"
+        },
+        {
+          "attrs": {
+            "n": "1"
+          },
+          "text": "BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. "
+        }
+      ],
+      "Gen.32.25": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.24"
+        }
+      ],
+      "Gen.32.26": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.25"
+        }
+      ],
+      "Gen.32.27": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.26"
+        }
+      ],
+      "Gen.32.28": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.27"
+        }
+      ],
+      "Gen.32.29": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.28"
+        }
+      ],
+      "Gen.32.30": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.29"
+        }
+      ],
+      "Gen.32.31": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.30"
+        }
+      ],
+      "Gen.32.32": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.31"
+        }
+      ],
+      "Gen.32.33": [
+        {
+          "attrs": {},
+          "text": "KJV:Gen.32.32"
+        }
+      ]
+    },
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "independent_reading_per_verse": true,
+    "notes_per_verse": true,
+    "clause_map_per_verse": true,
+    "clause_coverage": {
+      "Gen.32.23": 5,
+      "Gen.32.24": 3,
+      "Gen.32.25": 3,
+      "Gen.32.26": 4,
+      "Gen.32.27": 4,
+      "Gen.32.28": 3,
+      "Gen.32.29": 5,
+      "Gen.32.30": 5,
+      "Gen.32.31": 3,
+      "Gen.32.32": 3,
+      "Gen.32.33": 6
+    },
+    "uncovered_words": {},
+    "all_source_words_covered_by_clauses_in_order": true,
+    "quotes_balanced_per_verse": true,
+    "key_terms_present": {
+      "Jabbok_32_23": true,
+      "Israel_32_29": true,
+      "Peniel_32_31": true,
+      "Penuel_32_32": true,
+      "final_sinew_phrase_32_33": true,
+      "eleven_32_23": true
+    },
+    "all_key_terms_present": true,
+    "no_selected_text_for_unit": true,
+    "forbidden_paths_untouched": true,
+    "no_human_review_or_other_model_claimed": true,
+    "manuscript_collation_claimed": false,
+    "all_required_checks_passed": true,
+    "failed": []
+  }
+}
