@@ -1,12 +1,12 @@
-# Genesis4:1–21
+# Genesis4:1–26
 
-Hansam Yang · Original Bible · v0.4.13
+Hansam Yang · Original Bible · v0.4.14
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-The first21 verses include selections in three languages,actual GPT/Gemini proposals and final opinions,and Claude Code review of vv.1,3–5,7,8,11,13–15,17,20–21. Digital comparisons are limited;specialist review and full manuscript collation are pending.
+All26 verses of Genesis4 include current selections in three languages and actual model proposals/opinions. Verses22–26 reuse an existing Claude Code standalone cloud review with GPT/Gemini comparison and official agy final review. Full manuscript collation and human specialist review remain pending.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -56,6 +56,10 @@ Previous v0.4.12
 
 The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
 
+Previous v0.4.13
+
+The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
+
 Previous v0.4.9
 
 The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
@@ -95,6 +99,10 @@ Previous v0.4.11
 She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
 
 Previous v0.4.12
+
+She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
+
+Previous v0.4.13
 
 She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
 
@@ -142,6 +150,10 @@ Previous v0.4.12
 
 After some time, Cain brought an offering to YHWH from the produce of the ground.
 
+Previous v0.4.13
+
+After some time, Cain brought an offering to YHWH from the produce of the ground.
+
 ## 4 · HYB.GEN.004.004
 
 Hebrew display (MT/WLC): וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃
@@ -183,6 +195,10 @@ Previous v0.4.11
 Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
 
 Previous v0.4.12
+
+Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
+
+Previous v0.4.13
 
 Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
 
@@ -230,6 +246,10 @@ Previous v0.4.12
 
 But he did not look with favor on Cain and his offering. Cain became very angry, and his face fell.
 
+Previous v0.4.13
+
+But he did not look with favor on Cain and his offering. Cain became very angry, and his face fell.
+
 ## 6 · HYB.GEN.004.006
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר יְהוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃
@@ -265,6 +285,10 @@ Previous v0.4.11
 YHWH said to Cain, “Why are you angry, and why has your face fallen?
 
 Previous v0.4.12
+
+YHWH said to Cain, “Why are you angry, and why has your face fallen?
+
+Previous v0.4.13
 
 YHWH said to Cain, “Why are you angry, and why has your face fallen?
 
@@ -308,6 +332,10 @@ Previous v0.4.12
 
 If you do well, will you not be accepted? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it.”
 
+Previous v0.4.13
+
+If you do well, will you not be accepted? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it.”
+
 ## 8 · HYB.GEN.004.008
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
@@ -348,6 +376,10 @@ Previous v0.4.12
 
 Cain spoke to his brother Abel. While they were in the field, Cain rose up against his brother Abel and killed him.
 
+Previous v0.4.13
+
+Cain spoke to his brother Abel. While they were in the field, Cain rose up against his brother Abel and killed him.
+
 ## 9 · HYB.GEN.004.009
 
 Hebrew display (MT/WLC): וַיֹּ֤אמֶר יְהוָה֙ אֶל־קַ֔יִן אֵ֖י הֶ֣בֶל אָחִ֑יךָ וַיֹּ֨אמֶר֙ לֹ֣א יָדַ֔עְתִּי הֲשֹׁמֵ֥ר אָחִ֖י אָנֹֽכִי׃
@@ -382,6 +414,10 @@ Previous v0.4.12
 
 YHWH said to Cain, “Where is your brother Abel?” He said, “I do not know. Am I my brother’s keeper?”
 
+Previous v0.4.13
+
+YHWH said to Cain, “Where is your brother Abel?” He said, “I do not know. Am I my brother’s keeper?”
+
 ## 10 · HYB.GEN.004.010
 
 Hebrew display (MT/WLC): וַיֹּ֖אמֶר מֶ֣ה עָשִׂ֑יתָ ק֚וֹל דְּמֵ֣י אָחִ֔יךָ צֹעֲקִ֥ים אֵלַ֖י מִן־הָֽאֲדָמָֽה׃
@@ -413,6 +449,10 @@ Previous v0.4.11
 He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
 
 Previous v0.4.12
+
+He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
+
+Previous v0.4.13
 
 He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
 
@@ -462,6 +502,10 @@ Previous v0.4.12
 
 Now you are cursed from the ground, which opened its mouth to receive your brother’s blood from your hand.
 
+Previous v0.4.13
+
+Now you are cursed from the ground, which opened its mouth to receive your brother’s blood from your hand.
+
 ## 12 · HYB.GEN.004.012
 
 Hebrew display (MT/WLC): כִּ֤י תַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה לֹֽא־תֹסֵ֥ף תֵּת־כֹּחָ֖הּ לָ֑ךְ נָ֥ע וָנָ֖ד תִּֽהְיֶ֥ה בָאָֽרֶץ׃
@@ -489,6 +533,10 @@ Final opinion (Korean original): 땅의 힘을 문자 이미지로 옮기고 소
 Counterargument (Korean): BDB3581은 이 절의 땅의 힘을 소출로 풀이한다. 방랑·동요의 대안도 보존한다. 수입 lakh2fs 태그는 바꾸지 않고 GKC103f의 남성 휴지형과 가인 맥락을 따른다. 태깅 생성 원인은 확인하지 않았다.
 
 Previous v0.4.12
+
+When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
+
+Previous v0.4.13
 
 When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
 
@@ -528,6 +576,10 @@ Previous v0.4.12
 
 Cain said to YHWH, “My punishment is too great to bear.
 
+Previous v0.4.13
+
+Cain said to YHWH, “My punishment is too great to bear.
+
 ## 14 · HYB.GEN.004.014
 
 Hebrew display (MT/WLC): הֵן֩ גֵּרַ֨שְׁתָּ אֹתִ֜י הַיּ֗וֹם מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה וּמִפָּנֶ֖יךָ אֶסָּתֵ֑ר וְהָיִ֜יתִי נָ֤ע וָנָד֙ בָּאָ֔רֶץ וְהָיָ֥ה כָל־מֹצְאִ֖י יַֽהַרְגֵֽנִי׃
@@ -561,6 +613,10 @@ Final opinion (Korean original): 땅에서의 명시적 추방,주의 얼굴에�
 Counterargument (Korean): 한국어는 현재 재귀 표현을 선택했으나 Nifal 수동 숨겨짐도 유력하며 BDB5641은 이 절을 그 항목에 둔다. 의무 동사를 추가하지 않는다. 숨겨짐은 가인의 말이며 형이상학적 신의 부재나 실제 인구·계보를 증명하지 않는다.
 
 Previous v0.4.12
+
+Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
+
+Previous v0.4.13
 
 Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
 
@@ -600,6 +656,10 @@ Previous v0.4.12
 
 YHWH said to him, “Therefore, if anyone kills Cain, vengeance will be taken sevenfold.” YHWH appointed a sign for Cain so that no one who found him would strike him.
 
+Previous v0.4.13
+
+YHWH said to him, “Therefore, if anyone kills Cain, vengeance will be taken sevenfold.” YHWH appointed a sign for Cain so that no one who found him would strike him.
+
 ## 16 · HYB.GEN.004.016
 
 Hebrew display (MT/WLC): וַיֵּ֥צֵא קַ֖יִן מִלִּפְנֵ֣י יְהוָ֑ה וַיֵּ֥שֶׁב בְּאֶֽרֶץ־נ֖וֹד קִדְמַת־עֵֽדֶן׃
@@ -627,6 +687,10 @@ Final opinion (Korean original): 야훼 앞을 떠남과 놋 땅 거주를 옮�
 Counterargument (Korean): BDB6926은4:16을 앞·맞은편 항목에 두고 실제 Swete 디지털은 카테난티를 쓴다. 동쪽 독법도 보존한다. 놋과 방랑 어휘의 소리 관계는 현대 지도·순수 상징 공간·특정 성소의 확정을 뜻하지 않는다.
 
 Previous v0.4.12
+
+Cain went out from the presence of YHWH and settled in the land of Nod, opposite Eden.
+
+Previous v0.4.13
 
 Cain went out from the presence of YHWH and settled in the land of Nod, opposite Eden.
 
@@ -662,6 +726,10 @@ Final opinion (Korean original): 성관계 관용어는4:1과 같은 동침으�
 
 Counterargument (Korean): 고정 본문의 아들 에녹 명명과 가인 주어가 잘 맞는다. 에녹 주어를 포함한 재구성 대안을 본문이 확정한 것으로 다루지 않는다. 성벽·규모·완공 여부·아내 출신은 미상이다.
 
+Previous v0.4.13
+
+Cain had relations with his wife, and she conceived and bore Enoch. He was building a city and named it Enoch, after his son.
+
 ## 18 · HYB.GEN.004.018
 
 Hebrew display (MT/WLC): וַיִּוָּלֵ֤ד לַֽחֲנוֹךְ֙ אֶת־עִירָ֔ד וְעִירָ֕ד יָלַ֖ד אֶת־מְחֽוּיָאֵ֑ל וּמְחִיּיָאֵ֗ל יָלַד֙ אֶת־מְת֣וּשָׁאֵ֔ל וּמְתוּשָׁאֵ֖ל יָלַ֥ד אֶת־לָֽמֶךְ׃
@@ -688,6 +756,10 @@ Final opinion (Korean original): 출생의 수동과 뒤이은 계보를 옮기�
 
 Counterargument (Korean): 히브리어 표시문은 므후야엘/므히야엘에 해당하는 두 철자를 그대로 보존한다. Gemini의 초기 번역은 두 음역을 구별했으나 최종 검토에서 명시적 주석을 동반한 현대어 통일을 재검토했다. 한글·스페인어 음역은 편집 선택이며5장 인물과 동일시하지 않는다.
 
+Previous v0.4.13
+
+To Enoch was born Irad; Irad fathered Mehujael, Mehujael fathered Methushael, and Methushael fathered Lamech.
+
 ## 19 · HYB.GEN.004.019
 
 Hebrew display (MT/WLC): וַיִּֽקַּֽח־ל֥וֹ לֶ֖מֶךְ שְׁתֵּ֣י נָשִׁ֑ים שֵׁ֤ם הָֽאַחַת֙ עָדָ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית צִלָּֽה׃
@@ -713,6 +785,10 @@ Lamech took two wives; one was named Adah and the other Zillah.
 Final opinion (Korean original): 두 아내와 두 이름을 서술한다. 도덕적 승인·비난이나 최초의 역사적 일부다처 사례라는 판단을 번역에 추가하지 않는다.
 
 Counterargument (Korean): 도덕적 승인·비난이나 최초의 역사적 일부다처 사례라는 판단을 번역에 추가하지 않는다.
+
+Previous v0.4.13
+
+Lamech took two wives; one was named Adah and the other Zillah.
 
 ## 20 · HYB.GEN.004.020
 
@@ -746,6 +822,10 @@ Final opinion (Korean original): 천막에 살며 가축을 기르는 이들의 
 
 Counterargument (Korean): 가축 기름은 생략된 관계를 풀어 보충했다. 실제 읽은 BDB1은20·21절을 직업·예술 집단의 창시자나 후원자 뜻에 둔다. 아버지는 이 문화적 선구자 뜻을 설명하며 혈통만으로 한정하지 않는다. 고고학적 최초 발명의 증거는 아니다.
 
+Previous v0.4.13
+
+Adah bore Jabal. He was the father of those who live in tents and raise livestock.
+
 ## 21 · HYB.GEN.004.021
 
 Hebrew display (MT/WLC): וְשֵׁ֥ם אָחִ֖יו יוּבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י כָּל־תֹּפֵ֥שׂ כִּנּ֖וֹר וְעוּגָֽב׃
@@ -777,6 +857,170 @@ His brother was named Jubal. He was the father of all who play the lyre and pipe
 Final opinion (Korean original): 형제의 나이 순서를 정하지 않고 리라와 피리를 연주하는 모든 이의 아버지로 옮긴다. 실제 읽은 BDB3658은 리라,5748은 불확실한 악기를 설명한다. 피리/pipe/flauta는 현재의 잠정 선택이며 갈대·관 수·정확한 구조를 확정하지 않는다. 모든 음악의 발명이나 특정 전문 계급을 본문에 추가하지 않는다. 클라우드와 Gemini 초안의 아우·퉁소는 현재 채택하지 않는다.
 
 Counterargument (Korean): 실제 읽은 BDB3658은 리라,5748은 불확실한 악기를 설명한다. 피리/pipe/flauta는 현재의 잠정 선택이며 갈대·관 수·정확한 구조를 확정하지 않는다. 모든 음악의 발명이나 특정 전문 계급을 본문에 추가하지 않는다. 클라우드와 Gemini 초안의 아우·퉁소는 현재 채택하지 않는다.
+
+Previous v0.4.13
+
+His brother was named Jubal. He was the father of all who play the lyre and pipe.
+
+## 22 · HYB.GEN.004.022
+
+Hebrew display (MT/WLC): וְצִלָּ֣ה גַם־הִ֗וא יָֽלְדָה֙ אֶת־תּ֣וּבַל קַ֔יִן לֹטֵ֕שׁ כָּל־חֹרֵ֥שׁ נְחֹ֖שֶׁת וּבַרְזֶ֑ל וַֽאֲח֥וֹת תּֽוּבַל־קַ֖יִן נַֽעֲמָֽה׃
+
+Zillah too bore Tubal-cain, a forger of all kinds of tools of bronze and iron. Tubal-cain’s sister was Naamah.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.22
+
+### Current best selected translation
+
+청동과 쇠로 된 온갖 연장을 벼리는 사람으로 잠정 선택하고 גַם을 세 언어에 반영한다. 씰라 이름은 기존 판본에 맞춘다.
+
+#### claude-opus-5-5
+
+Zillah too bore Tubal-cain, a forger of every cutting tool of bronze and iron. Tubal-cain's sister was Naamah.
+
+Final opinion (Korean original): ‘청동’은 ‘구리’로도 옮길 수 있다. ‘온갖 날 선 연장을 벼리는 자’는 문법상 가장 단순한 읽기다. 20-21절처럼 ‘청동과 쇠를 다루는 모든 장인[의 시조]’로 읽는 견해도 있다. 다만 22절에는 ‘아버지’라는 말이 없다. 칠십인역은 ‘망치질하는 자, 청동과 쇠의 대장장이’로 옮겼다.
+
+#### gemini-3.8-flash-medium
+
+Zillah, she also bore Tubal-cain, a forger of every cutting tool of bronze and iron; and the sister of Tubal-cain was Naamah.
+
+Final opinion (Korean original): 주인님, 1차 검토에서 חֹרֵשׁ를 '날카로운 도구/연장'으로 취급했던 저의 분석은 명백한 잠정적 추론이자 어휘적 무리수였음을 인정합니다. BDB 2790에 따르면 חֹרֵשׁ는 인칭 명사/분사로서 '금속 장인(worker in metals)'에 배치되어 있고, BDB 3913의 לֹטֵשׁ 역시 '망치질하는 자(hammerer)'로 정의되어 성경 히브리어에서 실증된 '도구' 명사 용례가 없습니다. 따라서 20-21절의 '시조/아버지'를 억지로 보충하거나 검증되지 않은 '연장' 명사화를 고집하기보다, 문자적 어휘(대장장이/장인)와 문법적 난점(두 분사의 연계/병치)을 각주와 본문에 투명하게 드러내야 합니다. 현재 selected의 '온갖 연장을 벼리는 사람'을 유지할 경우 반드시 '연장은 확정된 명사가 아니며 장인으로 읽는 강한 대안이 있음'을 병기하거나, 최소 보충 직역으로 조정해야 합니다.
+
+#### gpt-6.1-sol
+
+Zillah too bore Tubal-cain, a forger of all kinds of tools of bronze and iron. Tubal-cain’s sister was Naamah.
+
+Final opinion (Korean original): 청동과 쇠로 된 온갖 연장을 벼리는 사람으로 잠정 선택하고 גַם을 세 언어에 반영한다. 씰라 이름은 기존 판본에 맞춘다. 실제 읽은 BDB2790은 חֹרֵשׁ을 금속 작업자 용례로 다루며 BDB3913은 두드려 만드는 자를 든다. 따라서 연장은 직접 확인한 사전 뜻이 아니라 난해한 연속 분사를 푼 번역 선택이다. 장인 해석을 강한 대안으로 알리고 아버지·교사·최초 발명은 보충하지 않는다. 청동은 구리도 포괄하는 원어의 잠정 선택이다. Gemini 최종 의견은 연장 독해를 수정하거나 불확실성을 명시하라고 요청했다. 현재는 주석 조건을 충족하는 잠정 선택을 유지한다. 제안된 장인을 벼린다는 직역은 한국어 의미를 더 불분명하게 하므로 채택하지 않았다. 사전 미확인은 모든 시대의 도구 용례 부재를 증명하지 않는다.
+
+Counterargument (Korean): 실제 읽은 BDB2790은 חֹרֵשׁ을 금속 작업자 용례로 다루며 BDB3913은 두드려 만드는 자를 든다. 따라서 연장은 직접 확인한 사전 뜻이 아니라 난해한 연속 분사를 푼 번역 선택이다. 장인 해석을 강한 대안으로 알리고 아버지·교사·최초 발명은 보충하지 않는다. 청동은 구리도 포괄하는 원어의 잠정 선택이다.
+
+## 23 · HYB.GEN.004.023
+
+Hebrew display (MT/WLC): וַיֹּ֨אמֶר לֶ֜מֶךְ לְנָשָׁ֗יו עָדָ֤ה וְצִלָּה֙ שְׁמַ֣עַן קוֹלִ֔י נְשֵׁ֣י לֶ֔מֶךְ הַאְזֵ֖נָּה אִמְרָתִ֑י כִּ֣י אִ֤ישׁ הָרַ֨גְתִּי֙ לְפִצְעִ֔י וְיֶ֖לֶד לְחַבֻּרָתִֽי׃
+
+Lamech said to his wives, “Adah and Zillah, hear my voice; wives of Lamech, listen to my words. I have killed a man for wounding me, a young man for bruising me.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.23
+
+### Current best selected translation
+
+완료형을 죽였다로 옮기고 병렬 목적어에 동사 하나를 두어 시적 구조를 보존한다.
+
+#### claude-opus-5-5
+
+Lamech said to his wives: “Adah and Zillah, hear my voice; wives of Lamech, give ear to my word: I have killed a man for wounding me, a young man for bruising me.
+
+Final opinion (Korean original): 히브리어는 ‘죽였다’라는 동사 하나가 ‘사람’과 ‘젊은이’를 함께 받는 시적 평행이다. 같은 한 사람을 두 번 부른 것으로 읽는 견해가 많지만, 두 사람일 가능성도 배제되지 않는다. ‘죽였다’를 ‘죽이리라’ 같은 과시적 위협으로 읽는 견해도 있다.
+
+#### gemini-3.8-flash-medium
+
+Lamech said to his wives: 'Adah and Zillah, hear my voice; wives of Lamech, listen to my speech: For I have slain a man for wounding me, and a young man for bruising me.'
+
+Final opinion (Korean original): 주인님, 1차 검토에서 카탈(qatal, הָרַגְתִּי) 형태소를 '오직 이미 발생한 확정적 과거 살인'으로만 단정하고 다른 가능성을 성급히 일축했던 저의 경직된 태도를 철회합니다. 완료형이 완료된 과거 행위를 우선 지지하는 것은 사실이나, 고대 히브리 시문학의 특성상 라멕의 노래 전체가 잠재적 적들을 향한 '과시적 위협(poetic threat)'이거나 조건적 선언일 가능성, 그리고 '한 사람(אִישׁ)'과 '젊은이(יֶלֶד)'가 시적 대구(synonymous parallelism)로서 동일인 1명인지 실제 2명인지의 문제는 교리나 문법으로 닫아걸 수 없는 열린 문제입니다. 번역 본문은 직역 형태('죽였다')를 유지하되, 이러한 다층적 해석 가능성을 열어두어야 합니다.
+
+#### gpt-6.1-sol
+
+Lamech said to his wives, “Adah and Zillah, hear my voice; wives of Lamech, listen to my words. I have killed a man for wounding me, a young man for bruising me.
+
+Final opinion (Korean original): 완료형을 죽였다로 옮기고 병렬 목적어에 동사 하나를 두어 시적 구조를 보존한다. 한 사람/두 사람,과거/과시적 위협은 확정되지 않는다. 상처·멍은 라멕이 입은 것으로 현재 읽는다. 자기방어의 정당성·아내의 반응·무기 설명은 삽입하지 않는다.
+
+Counterargument (Korean): 한 사람/두 사람,과거/과시적 위협은 확정되지 않는다. 상처·멍은 라멕이 입은 것으로 현재 읽는다. 자기방어의 정당성·아내의 반응·무기 설명은 삽입하지 않는다.
+
+## 24 · HYB.GEN.004.024
+
+Hebrew display (MT/WLC): כִּ֥י שִׁבְעָתַ֖יִם יֻקַּם־קָ֑יִן וְלֶ֖מֶךְ שִׁבְעִ֥ים וְשִׁבְעָֽה׃
+
+If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.24
+
+### Current best selected translation
+
+일곱 배와 일흔일곱 배의 대조를 보존하고 보복 주체를 지정하지 않는다.
+
+#### claude-opus-5-5
+
+If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
+
+Final opinion (Korean original): ‘일곱 배’(4:15와 같은 표현)는 배수다. ‘일흔일곱’은 히브리어로 ‘일흔과 일곱’이다. 칠십인역의 그리스어 표현은 ‘일흔 번의 일곱’으로도 읽힐 수 있고, 이 표현은 마태복음 18:22와 연결되어 논의된다.
+
+#### gemini-3.8-flash-medium
+
+'If Cain shall be avenged sevenfold, then Lamech seventy and sevenfold.'
+
+Final opinion (Korean original): 주인님, 본 구절의 일곱 배(שִׁבְעָתַיִם)와 일흔일곱(שִׁבְעִים וְשִׁבְעָה)의 배수 관계는 원문 그대로 엄격히 보존되어야 합니다. 마태복음 18장 22절의 수용사적 논의나 타 문헌의 상징적 수치에 기대어 77을 490 등으로 왜곡해서는 안 되며, 복수의 주체를 인간이나 하나님으로 단정하지 않고 수동태(יֻקַּם)의 모호성을 살려야 합니다. 스페인어 번역의 경우 관용적인 배수 표현을 보강하여 'setenta y siete veces'로 대칭을 맞추는 교정이 유익합니다.
+
+#### gpt-6.1-sol
+
+If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
+
+Final opinion (Korean original): 일곱 배와 일흔일곱 배의 대조를 보존하고 보복 주체를 지정하지 않는다. 77은 히브리어 일흔과 일곱에 근거한다. 490이나 보복 횟수의 실제 집계로 확정하지 않는다. 라멕의 발언이며 새 하나님의 명령으로 취급하지 않는다. 스페인어는 병렬 생략을 유지하고 둘째 veces를 보충했다. Gemini가 제안한 비인칭 앞절과 lo será의 혼합 구문은 그대로 채택하지 않았다.
+
+Counterargument (Korean): 77은 히브리어 일흔과 일곱에 근거한다. 490이나 보복 횟수의 실제 집계로 확정하지 않는다. 라멕의 발언이며 새 하나님의 명령으로 취급하지 않는다.
+
+## 25 · HYB.GEN.004.025
+
+Hebrew display (MT/WLC): וַיֵּ֨דַע אָדָ֥ם עוֹד֙ אֶת־אִשְׁתּ֔וֹ וַתֵּ֣לֶד בֵּ֔ן וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵׁ֑ת כִּ֣י שָֽׁת־לִ֤י אֱלֹהִים֙ זֶ֣רַע אַחֵ֔ר תַּ֣חַת הֶ֔בֶל כִּ֥י הֲרָג֖וֹ קָֽיִן׃
+
+Adam again had relations with his wife, and she bore a son and named him Seth, for she said, “God has appointed for me another offspring in place of Abel, because Cain killed him.”
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.25
+
+### Current best selected translation
+
+동침과 출생·셋 명명,다른 자손을 세워 주셨다는 설명 및 가인이 죽였다는 원인절을 보존한다.
+
+#### claude-opus-5-5
+
+Adam lay with his wife again, and she bore a son and named him Seth, for she said, “God has set for me another offspring in place of Abel, because Cain killed him.”
+
+Final opinion (Korean original): 이름 ‘셋’(셰트)은 ‘세워 주셨다/두셨다’(샤트)와 소리가 비슷한 말놀이다. 한국어 ‘세워’와 ‘셋’의 소리 유사는 번역상 우연이다. ‘가인이 그를 죽였으니’가 어머니의 말인지 서술자의 설명인지는 원문에서 모호하다.
+
+#### gemini-3.8-flash-medium
+
+And Adam knew his wife again, and she bore a son and called his name Seth: 'For God has appointed for me another offspring instead of Abel, for Cain killed him.'
+
+Final opinion (Korean original): 주인님, 셋(שֵׁת)과 '세워 주셨다/주셨다(שָׁת)' 사이의 음운적 말놀이는 자음 본문이 증언하는 핵심 요소입니다. 하와의 발화 속에 포함된 '가인이 그를 죽였으므로(כִּי הֲרָגוֹ קָיִן)'의 인과적 접속사는 온전히 보존되어야 합니다. 아울러 '그녀가 말하기를(하며 / she said / dijo)'과 같은 인용 연결어는 원문에 없는 역자의 명시적 보충(supplied words)임을 주석에서 투명하게 공개해야 하며, 1차 검토 시 언급했던 자의적인 구원사적 단정들은 배제되어야 합니다.
+
+#### gpt-6.1-sol
+
+Adam again had relations with his wife, and she bore a son and named him Seth, for she said, “God has appointed for me another offspring in place of Abel, whom Cain killed.”
+
+Final opinion (Korean original): 동침과 출생·셋 명명,다른 자손을 세워 주셨다는 설명 및 가인이 죽였다는 원인절을 보존한다. 말했다는 인용 연결을 보충했고 둘째 כי절은 어머니의 말 안에 두었다. 서술자 설명이라는 대안도 가능하다. 셋/샤트 말놀이는 주석으로 알리며 환생이나 고대 저자 신원은 확정하지 않는다.
+
+Counterargument (Korean): 말했다는 인용 연결을 보충했고 둘째 כי절은 어머니의 말 안에 두었다. 서술자 설명이라는 대안도 가능하다. 셋/샤트 말놀이는 주석으로 알리며 환생이나 고대 저자 신원은 확정하지 않는다.
+
+## 26 · HYB.GEN.004.026
+
+Hebrew display (MT/WLC): וּלְשֵׁ֤ת גַּם־הוּא֙ יֻלַּד־בֵּ֔ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ אֱנ֑וֹשׁ אָ֣ז הוּחַ֔ל לִקְרֹ֖א בְּשֵׁ֥ם יְהוָֽה׃
+
+To Seth too a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.4.26
+
+### Current best selected translation
+
+수동 출생과 에노스 명명,야훼의 이름 부르기가 시작됨을 옮긴다.
+
+#### claude-opus-5-5
+
+To Seth also a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.
+
+Final opinion (Korean original): ‘시작되었다’(후할)는 ‘더럽히다’와 같은 자음 어근이어서, 다르게 읽은 전통이 있다고 보고된다. 칠십인역은 ‘이 사람이 주 하나님의 이름 부르기를 바랐다’로 옮겼다. ‘에노스’는 ‘사람’이라는 뜻의 보통명사이기도 하다. 이 절 뒤에는 원문의 단락 표지(פ)가 있다.
+
+#### gemini-3.8-flash-medium
+
+And to Seth, to him also a son was born, and he called his name Enosh. At that time people began to call upon the name of the LORD.
+
+Final opinion (Korean original): 주인님, 1차 검토에서 제가 '모세 저작권', '역사상 최초의 공적 예배 및 거룩한 공동체의 출범', '신명 호칭의 일관된 긍정성', '랍비적 세속화 해석의 맹목적 배척' 등을 확정적 사실인 양 과도하게 단정했던 점을 깊이 반성하며 전면 철회합니다. 본문은 단지 에노스의 출생과 더불어 '그때에 비로소 여호와/야훼(YHWH)의 이름을 부르는 일이 시작되었다(אָז הוּחַל לִקְרֹא בְּשֵׁם יְהוָה)'는 사실만을 비인칭 수동태(Hophal)로 간결하게 기록하고 있을 뿐입니다. 이것이 배타적 신앙 공동체의 제도적 출범인지, 신명 발음의 기원인지, 혹은 인간의 연약함(에노스) 속에서 신을 향한 부르짖음이 시작된 것인지는 본문 자체만으로 과잉 확정할 수 없으므로, 신명을 프로젝트 원칙에 따라 '야훼/YHWH'로 표기하고 중립적 진술을 유지해야 합니다.
+
+#### gpt-6.1-sol
+
+To Seth too a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.
+
+Final opinion (Korean original): 수동 출생과 에노스 명명,야훼의 이름 부르기가 시작됨을 옮긴다. BDB2490의 비인칭 호팔 시작 용례와 맞춘다. 영어 people은 보충한 일반 주어다. 공적 예배 제도의 역사적 최초·특정 집단·신명 원발음을 증명하지 않으며 다른 어근의 신성모독 독해를 현재 본문으로 택하지 않는다.
+
+Counterargument (Korean): BDB2490의 비인칭 호팔 시작 용례와 맞춘다. 영어 people은 보충한 일반 주어다. 공적 예배 제도의 역사적 최초·특정 집단·신명 원발음을 증명하지 않으며 다른 어근의 신성모독 독해를 현재 본문으로 택하지 않는다.
 
 ## Notes
 
@@ -824,9 +1068,15 @@ Father in vv.20–21 includes cultural originator or patronage; the actually rea
 
 Brother in v.21 does not specify age order. Kinnor is lyre following the actually read BDB3658. Ugab is uncertain: BDB5748 records several instrument proposals,so pipe is provisional. No specific reed configuration or modern keyboard organ is established. The scope is instrument players,not invention of all music. Gemini’s initial specific Septuagint wording claim was not adopted as verified witness evidence.
 
+The metalworking syntax in v.22 is difficult. The consulted BDB2790 treats choresh as a metalworker and BDB3913 treats latash as a hammerer. All kinds of tools is a provisional syntactic interpretation,not an independently verified tool-noun meaning. An originator of metalworkers is an alternative,but father/originator is absent here. Bronze is selected within the copper/bronze range of BDB5178; no alloy analysis or invention date is claimed.
+
+In v.23 one verb killed governs man and young man in poetic parallel. One or two victims remains open. Completed action is selected without claiming that a poetic threat is grammatically impossible. Verse24 retains the sevenfold contrast with4:15 and Hebrew seventy plus seven as77. The agent and legitimacy of vengeance are not supplied.
+
+Verse25 has the sound-play Seth/shet with shat,set or appoint. She said is supplied,and because Cain killed him is placed inside the quotation; narrator explanation remains possible. The impersonal beginning in v.26 follows BDB2490; English people is supplied. Yahweh/YHWH follows editorial convention,not verified original pronunciation or proof of the first public worship in history. The paragraph marker pe is preserved in the source XML.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis4:1–21 (en), research pilot v0.4.13. https://yangs777.github.io/hansam-bible/en/genesis-4/
+Hansam Yang. Original Bible: Genesis4:1–26 (en), research pilot v0.4.14. https://yangs777.github.io/hansam-bible/en/genesis-4/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

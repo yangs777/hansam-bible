@@ -1,0 +1,173 @@
+{
+  "model": "claude-opus-5-5",
+  "execution": {
+    "provider": "Claude Code native standalone cloud session, launched by official claude --cloud TTY",
+    "identity_basis": "get_session(session_id omitted) response around 2026-10-29T17:05Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. These are session metadata values, not a verified dated snapshot. The serving model can differ per turn; no fallback notice was observed during this run.",
+    "requested_model_id": "claude-opus-5-5",
+    "session_url": "https://claude.ai/code/session_01UknqVFfAdYH58j5EaaRkZz",
+    "review_run_id": "20261029T170022Z-4cf294d1",
+    "scope": "Existing actual difficult-verse proposal/final opinion reused; not a new call or approval of later selected text",
+    "recorded_at": "2026-10-29T17:06:59+00:00",
+    "independence": "2026-10-29T17:01:07Z (scratch notes written from the packet only, before opening data/editorial.json, data/model-reviews or other branches' drafts; the packet itself contains no current selected wording for these five verses)"
+  },
+  "verses": [
+    {
+      "id": "HYB.GEN.004.022",
+      "translations": {
+        "ko": "씰라도 두발가인을 낳았는데, 그는 청동과 쇠로 된 온갖 날 선 연장을 벼리는 자였다. 두발가인의 누이는 나아마였다.",
+        "en": "Zillah too bore Tubal-cain, a forger of every cutting tool of bronze and iron. Tubal-cain's sister was Naamah.",
+        "es": "Zila, también ella, dio a luz a Tubal-caín, forjador de toda herramienta cortante de bronce y de hierro. La hermana de Tubal-caín fue Naama."
+      },
+      "basis": "Pinned WLC raw XML and fallible OSHB analysis; actual standalone Claude review",
+      "reason_ko": "‘청동’은 ‘구리’로도 옮길 수 있다. ‘온갖 날 선 연장을 벼리는 자’는 문법상 가장 단순한 읽기다. 20-21절처럼 ‘청동과 쇠를 다루는 모든 장인[의 시조]’로 읽는 견해도 있다. 다만 22절에는 ‘아버지’라는 말이 없다. 칠십인역은 ‘망치질하는 자, 청동과 쇠의 대장장이’로 옮겼다.",
+      "counterargument_ko": "{'lexical': 'נְחֹשֶׁת은 구리/청동 어느 쪽인가. חֹרֵשׁ은 사람(새기는 자·장인)인가, 도구(자르는 것)인가. לֹטֵשׁ의 뜻 폭(날을 세우다/두드려 만들다).', 'syntactic': 'לֹטֵשׁ 구가 두발가인과 어떤 관계인가(연계 사슬 대 동격). 20-21절의 אֲבִי כָּל־ 패턴이 없다.', 'discourse': '라멕 계보의 세 아들 목록이 문화 기원(목축·음악·금속)을 나열하는 구조다.', 'textual_variant': \"패킷에는 이문 정보가 없다. 21절과 맞추려고 אֲבִי를 넣자는 제안은 재구성이며 증언으로 확인된 독법이 아니다. 칠십인역 디지털 본문은 '가인' 없이 Θοβελ만 쓰고 καὶ ἦν σφυροκόπος χαλκεὺς χαλκοῦ καὶ σιδήρου('그는 망치질하는 자, 청동과 쇠의 대장장이였다')라고 한다. 이것은 역본의 읽기다. 그 히브리어 저본(Vorlage)이 무엇이었는지는 이번 실행에서 판정하지 않았다.\", 'historical': '철 사용 시기와의 연대 문제는 역사 질문이다. 번역 판단에는 넣지 않았다.', 'reception': \"'두발가인'의 '가인'을 '대장장이'와 연결하는 어원 설명은 기억에 의한 보고이며 확인되지 않았다.\"}",
+      "current_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+      "reconsider_if_ko": "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다. / 편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우. / 편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다. / 검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다. / GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우.",
+      "final_opinion_ko": "‘청동’은 ‘구리’로도 옮길 수 있다. ‘온갖 날 선 연장을 벼리는 자’는 문법상 가장 단순한 읽기다. 20-21절처럼 ‘청동과 쇠를 다루는 모든 장인[의 시조]’로 읽는 견해도 있다. 다만 22절에는 ‘아버지’라는 말이 없다. 칠십인역은 ‘망치질하는 자, 청동과 쇠의 대장장이’로 옮겼다."
+    },
+    {
+      "id": "HYB.GEN.004.023",
+      "translations": {
+        "ko": "라멕이 자기 아내들에게 말하였다. “아다와 씰라여, 내 목소리를 들으라. 라멕의 아내들이여, 내 말에 귀를 기울이라. 나를 다치게 한 사람을, 나에게 멍을 입힌 젊은이를 내가 죽였다.",
+        "en": "Lamech said to his wives: “Adah and Zillah, hear my voice; wives of Lamech, give ear to my word: I have killed a man for wounding me, a young man for bruising me.",
+        "es": "Lamec dijo a sus mujeres: «Ada y Zila, escuchen mi voz; mujeres de Lamec, presten oído a mi palabra: he matado a un hombre por herirme, a un joven por magullarme."
+      },
+      "basis": "Pinned WLC raw XML and fallible OSHB analysis; actual standalone Claude review",
+      "reason_ko": "히브리어는 ‘죽였다’라는 동사 하나가 ‘사람’과 ‘젊은이’를 함께 받는 시적 평행이다. 같은 한 사람을 두 번 부른 것으로 읽는 견해가 많지만, 두 사람일 가능성도 배제되지 않는다. ‘죽였다’를 ‘죽이리라’ 같은 과시적 위협으로 읽는 견해도 있다.",
+      "counterargument_ko": "{'lexical': 'יֶלֶד의 나이 폭(아이~젊은이). חַבּוּרָה(멍·타박상).', 'syntactic': '완료형의 시제/서법. כִּי의 기능. 동사 생략으로 한 사람인지 두 사람인지.', 'discourse': '15절 하나님의 보호 선언(일곱 배)을 사람이 자기 복수 과시로 바꾸어 부르는 대조 구조. 이는 문학적 해석이다.', 'textual_variant': '패킷에 이문 정보 없음. 칠십인역 디지털 본문은 ἄνδρα ἀπέκτεινα εἰς τραῦμα ἐμοὶ καὶ νεανίσκον εἰς μώλωπα ἐμοί로, 동사 하나와 목적어 둘이라는 구조가 같다.', 'historical': '해당 없음(본문 밖 사건 정보 없음).', 'reception': '라멕의 말을 의문문으로 읽어 아내들을 안심시키는 말로 보는 유대 주석 전통(라시 계열로 기억됨)은 기억에 의한 보고이며 확인되지 않았다.'}",
+      "current_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+      "reconsider_if_ko": "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다. / 편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우. / 편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다. / 검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다. / GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우.",
+      "final_opinion_ko": "히브리어는 ‘죽였다’라는 동사 하나가 ‘사람’과 ‘젊은이’를 함께 받는 시적 평행이다. 같은 한 사람을 두 번 부른 것으로 읽는 견해가 많지만, 두 사람일 가능성도 배제되지 않는다. ‘죽였다’를 ‘죽이리라’ 같은 과시적 위협으로 읽는 견해도 있다."
+    },
+    {
+      "id": "HYB.GEN.004.024",
+      "translations": {
+        "ko": "가인을 위한 보복이 일곱 배라면, 라멕을 위한 보복은 일흔일곱 배이리라.”",
+        "en": "If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”",
+        "es": "Si Caín es vengado siete veces, Lamec lo será setenta y siete veces»."
+      },
+      "basis": "Pinned WLC raw XML and fallible OSHB analysis; actual standalone Claude review",
+      "reason_ko": "‘일곱 배’(4:15와 같은 표현)는 배수다. ‘일흔일곱’은 히브리어로 ‘일흔과 일곱’이다. 칠십인역의 그리스어 표현은 ‘일흔 번의 일곱’으로도 읽힐 수 있고, 이 표현은 마태복음 18:22와 연결되어 논의된다.",
+      "counterargument_ko": "{'lexical': 'שִׁבְעָתַיִם의 쌍수 = 배수.', 'syntactic': 'כִּי의 조건/원인. 둘째 행의 동사·배수 생략.', 'discourse': '23절과 묶인 노래의 결론. 따옴표는 이 절에서 닫는다.', 'textual_variant': \"패킷에 이문 정보 없음. 칠십인역 디지털 본문은 ἑπτάκις … ἑβδομηκοντάκις ἑπτά다. 이 그리스어는 '일흔일곱 번'으로도, '일흔 번의 일곱'으로도 읽힐 수 있어 그 자체가 모호하다. 히브리어 수량(77)을 바꾸는 증거로 쓰지 않는다.\", 'historical': '해당 없음.', 'reception': '마태복음 18:22와의 연결은 수용사 관찰이다. 창세기 번역 근거로 쓰지 않는다.'}",
+      "current_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+      "reconsider_if_ko": "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다. / 편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우. / 편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다. / 검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다. / GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우.",
+      "final_opinion_ko": "‘일곱 배’(4:15와 같은 표현)는 배수다. ‘일흔일곱’은 히브리어로 ‘일흔과 일곱’이다. 칠십인역의 그리스어 표현은 ‘일흔 번의 일곱’으로도 읽힐 수 있고, 이 표현은 마태복음 18:22와 연결되어 논의된다."
+    },
+    {
+      "id": "HYB.GEN.004.025",
+      "translations": {
+        "ko": "아담이 다시 자기 아내와 동침하니, 그 여자가 아들을 낳고 “하나님이 아벨 대신 나에게 다른 자손을 세워 주셨다. 가인이 그를 죽였으니” 하며 그 이름을 셋이라 불렀다.",
+        "en": "Adam lay with his wife again, and she bore a son and named him Seth, for she said, “God has set for me another offspring in place of Abel, because Cain killed him.”",
+        "es": "Adán se acostó de nuevo con su mujer, y ella dio a luz un hijo y le puso por nombre Set, pues dijo: «Dios me ha puesto otra descendencia en lugar de Abel, porque Caín lo mató»."
+      },
+      "basis": "Pinned WLC raw XML and fallible OSHB analysis; actual standalone Claude review",
+      "reason_ko": "이름 ‘셋’(셰트)은 ‘세워 주셨다/두셨다’(샤트)와 소리가 비슷한 말놀이다. 한국어 ‘세워’와 ‘셋’의 소리 유사는 번역상 우연이다. ‘가인이 그를 죽였으니’가 어머니의 말인지 서술자의 설명인지는 원문에서 모호하다.",
+      "counterargument_ko": "{'lexical': 'שִׁית의 뜻 폭(두다/정하다/세우다). זֶרַע(씨, 자손; 집합/개별).', 'syntactic': '인용 표지 없는 설명절. 둘째 כִּי가 인용 안인지 밖인지.', 'discourse': '4:1-2의 탄생·명명 장면과 수미상관. 5:1 이후 계보로 넘어가는 다리.', 'textual_variant': \"패킷에 이문 정보 없음. 칠십인역 디지털 본문은 하와의 이름(Ευαν)을 넣고, λέγουσα('말하며')를 명시하고, ὃν ἀπέκτεινεν Καιν('가인이 죽인')이라는 관계절을 쓴다. 이것이 역본의 해석적 번역인지 다른 저본인지는 판정하지 않았다.\", 'historical': '해당 없음.', 'reception': \"셋 계보를 '경건한 계보'로 보는 해석은 수용사다. 번역에는 넣지 않는다.\"}",
+      "current_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+      "reconsider_if_ko": "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다. / 편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우. / 편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다. / 검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다. / GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우.",
+      "final_opinion_ko": "이름 ‘셋’(셰트)은 ‘세워 주셨다/두셨다’(샤트)와 소리가 비슷한 말놀이다. 한국어 ‘세워’와 ‘셋’의 소리 유사는 번역상 우연이다. ‘가인이 그를 죽였으니’가 어머니의 말인지 서술자의 설명인지는 원문에서 모호하다."
+    },
+    {
+      "id": "HYB.GEN.004.026",
+      "translations": {
+        "ko": "셋에게도 아들이 태어나니, 셋이 그 이름을 에노스라 불렀다. 그때에 야훼의 이름을 부르는 일이 시작되었다.",
+        "en": "To Seth also a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.",
+        "es": "También a Set le nació un hijo, y le puso por nombre Enós. Entonces se comenzó a invocar el nombre de YHWH."
+      },
+      "basis": "Pinned WLC raw XML and fallible OSHB analysis; actual standalone Claude review",
+      "reason_ko": "‘시작되었다’(후할)는 ‘더럽히다’와 같은 자음 어근이어서, 다르게 읽은 전통이 있다고 보고된다. 칠십인역은 ‘이 사람이 주 하나님의 이름 부르기를 바랐다’로 옮겼다. ‘에노스’는 ‘사람’이라는 뜻의 보통명사이기도 하다. 이 절 뒤에는 원문의 단락 표지(פ)가 있다.",
+      "counterargument_ko": "{'lexical': 'חלל(시작하다/더럽히다) 동형. קָרָא בְּשֵׁם(부르다/선포하다).', 'syntactic': '비인칭 수동(호팔)과 부정사 보어.', 'discourse': '출애굽기 3:13-15·6:3의 신명 계시와 긴장한다고 흔히 논의되지만, 이는 자료비평적 해석이다. 번역은 원문의 신명 יְהוָה를 그대로 반영한다.', 'textual_variant': \"패킷에 이문 정보 없음. 칠십인역 디지털 본문은 οὗτος ἤλπισεν ἐπικαλεῖσθαι τὸ ὄνομα κυρίου τοῦ θεοῦ('이 사람이 주 하나님의 이름 부르기를 바랐다')다. 주어가 '이 사람'(에노스)이고 동사가 '바랐다'다. MT의 אָז הוּחַל과 다른 히브리어 읽기(예: זֶה הֵחֵל 같은 것)를 가정하는 설명은 재구성이다. 이번 실행에서 저본을 판정하지 않았다.\", 'historical': '예배 기원에 대한 역사적 주장으로 번역하지 않는다.', 'reception': \"'더럽혀졌다' 읽기(타르굼/랍비 전통으로 기억됨)는 확인되지 않은 보고다.\"}",
+      "current_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+      "reconsider_if_ko": "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다. / 편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우. / 편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다. / 검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다. / GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우.",
+      "final_opinion_ko": "‘시작되었다’(후할)는 ‘더럽히다’와 같은 자음 어근이어서, 다르게 읽은 전통이 있다고 보고된다. 칠십인역은 ‘이 사람이 주 하나님의 이름 부르기를 바랐다’로 옮겼다. ‘에노스’는 ‘사람’이라는 뜻의 보통명사이기도 하다. 이 절 뒤에는 원문의 단락 표지(פ)가 있다."
+    }
+  ],
+  "opinions": [
+    {
+      "id": "HYB.GEN.004.022",
+      "verdict": "existing_difficult_review_reused",
+      "final_opinion_ko": "‘청동’은 ‘구리’로도 옮길 수 있다. ‘온갖 날 선 연장을 벼리는 자’는 문법상 가장 단순한 읽기다. 20-21절처럼 ‘청동과 쇠를 다루는 모든 장인[의 시조]’로 읽는 견해도 있다. 다만 22절에는 ‘아버지’라는 말이 없다. 칠십인역은 ‘망치질하는 자, 청동과 쇠의 대장장이’로 옮겼다."
+    },
+    {
+      "id": "HYB.GEN.004.023",
+      "verdict": "existing_difficult_review_reused",
+      "final_opinion_ko": "히브리어는 ‘죽였다’라는 동사 하나가 ‘사람’과 ‘젊은이’를 함께 받는 시적 평행이다. 같은 한 사람을 두 번 부른 것으로 읽는 견해가 많지만, 두 사람일 가능성도 배제되지 않는다. ‘죽였다’를 ‘죽이리라’ 같은 과시적 위협으로 읽는 견해도 있다."
+    },
+    {
+      "id": "HYB.GEN.004.024",
+      "verdict": "existing_difficult_review_reused",
+      "final_opinion_ko": "‘일곱 배’(4:15와 같은 표현)는 배수다. ‘일흔일곱’은 히브리어로 ‘일흔과 일곱’이다. 칠십인역의 그리스어 표현은 ‘일흔 번의 일곱’으로도 읽힐 수 있고, 이 표현은 마태복음 18:22와 연결되어 논의된다."
+    },
+    {
+      "id": "HYB.GEN.004.025",
+      "verdict": "existing_difficult_review_reused",
+      "final_opinion_ko": "이름 ‘셋’(셰트)은 ‘세워 주셨다/두셨다’(샤트)와 소리가 비슷한 말놀이다. 한국어 ‘세워’와 ‘셋’의 소리 유사는 번역상 우연이다. ‘가인이 그를 죽였으니’가 어머니의 말인지 서술자의 설명인지는 원문에서 모호하다."
+    },
+    {
+      "id": "HYB.GEN.004.026",
+      "verdict": "existing_difficult_review_reused",
+      "final_opinion_ko": "‘시작되었다’(후할)는 ‘더럽히다’와 같은 자음 어근이어서, 다르게 읽은 전통이 있다고 보고된다. 칠십인역은 ‘이 사람이 주 하나님의 이름 부르기를 바랐다’로 옮겼다. ‘에노스’는 ‘사람’이라는 뜻의 보통명사이기도 하다. 이 절 뒤에는 원문의 단락 표지(פ)가 있다."
+    }
+  ],
+  "overall_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+  "response_extract": {
+    "preferred_wording": {
+      "Gen.4.22": {
+        "ko": "씰라도 두발가인을 낳았는데, 그는 청동과 쇠로 된 온갖 날 선 연장을 벼리는 자였다. 두발가인의 누이는 나아마였다.",
+        "en": "Zillah too bore Tubal-cain, a forger of every cutting tool of bronze and iron. Tubal-cain's sister was Naamah.",
+        "es": "Zila, también ella, dio a luz a Tubal-caín, forjador de toda herramienta cortante de bronce y de hierro. La hermana de Tubal-caín fue Naama.",
+        "footnote_proposal_ko": "‘청동’은 ‘구리’로도 옮길 수 있다. ‘온갖 날 선 연장을 벼리는 자’는 문법상 가장 단순한 읽기다. 20-21절처럼 ‘청동과 쇠를 다루는 모든 장인[의 시조]’로 읽는 견해도 있다. 다만 22절에는 ‘아버지’라는 말이 없다. 칠십인역은 ‘망치질하는 자, 청동과 쇠의 대장장이’로 옮겼다."
+      },
+      "Gen.4.23": {
+        "ko": "라멕이 자기 아내들에게 말하였다. “아다와 씰라여, 내 목소리를 들으라. 라멕의 아내들이여, 내 말에 귀를 기울이라. 나를 다치게 한 사람을, 나에게 멍을 입힌 젊은이를 내가 죽였다.",
+        "en": "Lamech said to his wives: “Adah and Zillah, hear my voice; wives of Lamech, give ear to my word: I have killed a man for wounding me, a young man for bruising me.",
+        "es": "Lamec dijo a sus mujeres: «Ada y Zila, escuchen mi voz; mujeres de Lamec, presten oído a mi palabra: he matado a un hombre por herirme, a un joven por magullarme.",
+        "footnote_proposal_ko": "히브리어는 ‘죽였다’라는 동사 하나가 ‘사람’과 ‘젊은이’를 함께 받는 시적 평행이다. 같은 한 사람을 두 번 부른 것으로 읽는 견해가 많지만, 두 사람일 가능성도 배제되지 않는다. ‘죽였다’를 ‘죽이리라’ 같은 과시적 위협으로 읽는 견해도 있다."
+      },
+      "Gen.4.24": {
+        "ko": "가인을 위한 보복이 일곱 배라면, 라멕을 위한 보복은 일흔일곱 배이리라.”",
+        "en": "If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”",
+        "es": "Si Caín es vengado siete veces, Lamec lo será setenta y siete veces».",
+        "footnote_proposal_ko": "‘일곱 배’(4:15와 같은 표현)는 배수다. ‘일흔일곱’은 히브리어로 ‘일흔과 일곱’이다. 칠십인역의 그리스어 표현은 ‘일흔 번의 일곱’으로도 읽힐 수 있고, 이 표현은 마태복음 18:22와 연결되어 논의된다."
+      },
+      "Gen.4.25": {
+        "ko": "아담이 다시 자기 아내와 동침하니, 그 여자가 아들을 낳고 “하나님이 아벨 대신 나에게 다른 자손을 세워 주셨다. 가인이 그를 죽였으니” 하며 그 이름을 셋이라 불렀다.",
+        "en": "Adam lay with his wife again, and she bore a son and named him Seth, for she said, “God has set for me another offspring in place of Abel, because Cain killed him.”",
+        "es": "Adán se acostó de nuevo con su mujer, y ella dio a luz un hijo y le puso por nombre Set, pues dijo: «Dios me ha puesto otra descendencia en lugar de Abel, porque Caín lo mató».",
+        "supplied_words_note": "ko '하며', en 'she said', es 'dijo'는 원문에 없는 말하기 동사를 보충한 것이다. ko는 명명절과 인용의 순서를 바꾸었다(절 누락 없음).",
+        "footnote_proposal_ko": "이름 ‘셋’(셰트)은 ‘세워 주셨다/두셨다’(샤트)와 소리가 비슷한 말놀이다. 한국어 ‘세워’와 ‘셋’의 소리 유사는 번역상 우연이다. ‘가인이 그를 죽였으니’가 어머니의 말인지 서술자의 설명인지는 원문에서 모호하다."
+      },
+      "Gen.4.26": {
+        "ko": "셋에게도 아들이 태어나니, 셋이 그 이름을 에노스라 불렀다. 그때에 야훼의 이름을 부르는 일이 시작되었다.",
+        "en": "To Seth also a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.",
+        "es": "También a Set le nació un hijo, y le puso por nombre Enós. Entonces se comenzó a invocar el nombre de YHWH.",
+        "supplied_words_note": "ko '셋이'는 3인칭 남성 동사의 주어를 밝힌 것이다. en 'people'은 비인칭 호팔을 영어로 옮기려고 보충한 주어다.",
+        "footnote_proposal_ko": "‘시작되었다’(후할)는 ‘더럽히다’와 같은 자음 어근이어서, 다르게 읽은 전통이 있다고 보고된다. 칠십인역은 ‘이 사람이 주 하나님의 이름 부르기를 바랐다’로 옮겼다. ‘에노스’는 ‘사람’이라는 뜻의 보통명사이기도 하다. 이 절 뒤에는 원문의 단락 표지(פ)가 있다."
+      }
+    },
+    "final_opinion_ko": "Gen.4.22-26에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료다. 위 preferred_wording을 잠정 의견으로 제시한다. 가장 분명한 발견은 기존 Sonnet 초안의 4:26 신명 역어('주/the LORD/el SEÑOR')가 채택 관례(야훼/YHWH)와 어긋난다는 점이다. 그 밖에 22절의 구리/청동 언어 간 불일치와 en의 '그 여자도' 누락, 23절 ko가 동사를 둘로 늘려 두 사람을 확정한 문제, 24절 ko의 겹조건 구문이 있다. 가장 어려운 해석 문제는 22절 לֹטֵשׁ כָּל־חֹרֵשׁ이다. 본문안 (A)의 확신도는 낮음-중간이므로 대안 (B)를 주석에 병기해야 한다. 칠십인역 읽기(22절 '가인' 없음·26절 '이 사람이 바랐다')는 이번 실행에서 공개 디지털 본문으로 짧게 확인했다. 그러나 사본 대조나 저본 판정은 하지 않았으므로 '역본 읽기'로만 표시한다.",
+    "confidence_limits": [
+      "4:22 (A) 읽기 확신도 낮음-중간. 히브리어 사전(BDB/HALOT) 해당 항목을 이번 실행에서 열람하지 못했다.",
+      "칠십인역 확인은 Rahlfs 1935 판을 옮긴 공개 디지털 본문 1종에 한정된다. 사본, 비평 장치, 괴팅겐판은 확인하지 않았다.",
+      "타르굼, 페쉬타, 불가타, 사마리아 오경, 사해문서의 해당 절 읽기는 확인하지 않았다.",
+      "랍비 해석(23절 의문 읽기, 26절 '더럽혀졌다' 읽기)은 기억에 의한 보고이며 확인되지 않았다.",
+      "같은 모델 계열의 자체 점검은 GPT/Gemini의 독립 검토를 대신하지 않는다."
+    ],
+    "reconsider_if": [
+      "사전(BDB/HALOT 등) 확인 결과 חֹרֵשׁ의 도구 용법이 근거가 없다고 판명되면 4:22 본문을 (B) 계열로 바꾼다. 이때 '[시조]' 같은 보충 표시 정책도 함께 정한다.",
+      "편집진이 20-21절의 '아버지'를 '시조'로 바꾸고 22절도 같은 패턴으로 읽기로 결정하는 경우.",
+      "편집진이 יָדַע 역어(4:1·4:17·4:25)를 하나로 통일하는 경우: 4:25 en/es를 그 결정에 맞춘다.",
+      "검증된 히브리어 사본 증거(예: 사해문서 창세기 단편)가 4:22의 '가인' 유무나 4:26의 אָז הוּחַל에 대해 MT와 다른 읽기를 보여 주는 경우: 본문은 WLC로 유지하고 이문 주석을 추가한다.",
+      "GPT/Gemini 독립 검토가 23절 완료형을 과시적 미래로 읽어야 할 구체적 문법 근거를 제시하는 경우."
+    ],
+    "unresolved": [
+      "4:22 חֹרֵשׁ: 사람인가 도구인가(사전 근거 미확인).",
+      "4:22·4:26 칠십인역 차이('가인' 없음, '이 사람이 바랐다')의 히브리어 저본 문제: 재구성 단계이며 판정하지 않았다.",
+      "4:23 한 사람/두 사람, 과거/과시적 미래: 문법상 결정 불가. 번역 선택과 주석으로만 처리했다.",
+      "4:25 둘째 כִּי절이 인용 안인지 밖인지.",
+      "4:24 es 'siete veces' 대 4:15 'séptuple' 통일 여부(편집 결정 사항)."
+    ]
+  },
+  "extraction_note": "Verbatim selected response fields; full original response retained privately. Third-party Greek dataset excerpts are not redistributed. No billing information is published.",
+  "editorial_caution": "Claude preferred tools with low-medium confidence; this is a revisable model reading, not attested tool-noun proof or human specialist certification."
+}

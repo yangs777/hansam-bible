@@ -1,0 +1,299 @@
+{
+  "state": "Existing five bulk drafts reused; not new calls or selected-text approval",
+  "runs": [
+    {
+      "manifest": {
+        "run_id": "20261023T211759Z-ff69750f",
+        "created_at": "2026-10-23T21:17:59.736226+00:00",
+        "status": "draft_complete_unadopted",
+        "verse_ids": [
+          "Gen.3.2",
+          "Gen.3.3",
+          "Gen.3.4",
+          "Gen.3.5",
+          "Gen.3.6",
+          "Gen.3.7",
+          "Gen.3.8",
+          "Gen.3.9",
+          "Gen.3.10",
+          "Gen.3.11",
+          "Gen.3.12",
+          "Gen.3.13",
+          "Gen.3.14",
+          "Gen.3.15",
+          "Gen.3.16",
+          "Gen.3.17",
+          "Gen.3.18",
+          "Gen.3.19",
+          "Gen.3.20",
+          "Gen.3.21",
+          "Gen.3.22",
+          "Gen.3.23",
+          "Gen.3.24",
+          "Gen.4.1",
+          "Gen.4.2",
+          "Gen.4.3",
+          "Gen.4.4",
+          "Gen.4.5",
+          "Gen.4.6",
+          "Gen.4.7",
+          "Gen.4.8",
+          "Gen.4.9",
+          "Gen.4.10",
+          "Gen.4.11",
+          "Gen.4.12",
+          "Gen.4.13",
+          "Gen.4.14",
+          "Gen.4.15",
+          "Gen.4.16",
+          "Gen.4.17",
+          "Gen.4.18",
+          "Gen.4.19",
+          "Gen.4.20",
+          "Gen.4.21",
+          "Gen.4.22",
+          "Gen.4.23",
+          "Gen.4.24",
+          "Gen.4.25",
+          "Gen.4.26",
+          "Gen.5.1",
+          "Gen.5.2",
+          "Gen.5.3",
+          "Gen.5.4",
+          "Gen.5.5",
+          "Gen.5.6",
+          "Gen.5.7",
+          "Gen.5.8",
+          "Gen.5.9",
+          "Gen.5.10",
+          "Gen.5.11",
+          "Gen.5.12",
+          "Gen.5.13",
+          "Gen.5.14",
+          "Gen.5.15",
+          "Gen.5.16",
+          "Gen.5.17",
+          "Gen.5.18",
+          "Gen.5.19",
+          "Gen.5.20",
+          "Gen.5.21",
+          "Gen.5.22",
+          "Gen.5.23",
+          "Gen.5.24",
+          "Gen.5.25",
+          "Gen.5.26",
+          "Gen.5.27",
+          "Gen.5.28",
+          "Gen.5.29",
+          "Gen.5.30",
+          "Gen.5.31",
+          "Gen.5.32",
+          "Gen.6.1",
+          "Gen.6.2",
+          "Gen.6.3",
+          "Gen.6.4",
+          "Gen.6.5",
+          "Gen.6.6",
+          "Gen.6.7",
+          "Gen.6.8",
+          "Gen.6.9",
+          "Gen.6.10",
+          "Gen.6.11",
+          "Gen.6.12",
+          "Gen.6.13",
+          "Gen.6.14",
+          "Gen.6.15",
+          "Gen.6.17",
+          "Gen.6.18",
+          "Gen.6.19",
+          "Gen.6.20"
+        ],
+        "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+        "provider": "Claude Code native cloud",
+        "source_claim_note": "Push assigned branch before generation; includes visible previous claims, not an atomic lock",
+        "output": "automation/cloud-drafts/20261023T211759Z-ff69750f.json",
+        "drafted_verse_count": 100,
+        "requested_model": "claude-sonnet-5-5",
+        "independent_review": "not performed"
+      },
+      "branch": "refs/remotes/github/claude/friendly-heisenberg-o4rtc0",
+      "commit": "b1f1bc1990730fa7a4365696550a17ed56bf3aa4",
+      "output_metadata": {
+        "run_id": "20261023T211759Z-ff69750f",
+        "provider": "Claude Code native cloud",
+        "model_identity": {
+          "requested_or_configured_model": "claude-sonnet-5-5",
+          "served_model_reported_by_session_api": "not exposed to this session",
+          "identity_basis": "The session system context states the serving model as Sonnet 5.5 (claude-sonnet-5-5); no API call was made to verify the served snapshot. A model self-report is not source evidence.",
+          "session": "https://claude.ai/code/session_01JEwLUdjeMvRfJUufNXpgEA",
+          "unavailable": [
+            "dated model snapshot identifier",
+            "per-request token counts",
+            "cost or credit consumption counters",
+            "sampling parameters"
+          ]
+        },
+        "executed_at_utc": "2026-10-23T21:22:37.249140+00:00",
+        "state": "unadopted_model_draft",
+        "author_project": "Hansam Yang (founder and original creator); this file is a model draft, not an editorial selection",
+        "input": {
+          "source_packet": "automation/cloud-packets/20261023T211759Z-ff69750f.json",
+          "source_packet_sha256": "3796e94a5dd0d8550f257c51275ca269831f73ee5c053000904d143c9b1eda8a",
+          "verse_count": 100,
+          "first_id": "Gen.3.2",
+          "last_id": "Gen.6.20",
+          "skipped_in_range": {
+            "Gen.6.16": "not in source packet (excluded upstream; see automation/source-queue-report.json if listed); not drafted"
+          }
+        },
+        "self_check": {
+          "exact_id_coverage": true,
+          "duplicate_ids": false,
+          "ko_en_es_nonempty": true,
+          "hebrew_provenance_and_rights_attached": true,
+          "no_human_certification_claim": true,
+          "reread_for_dropped_clauses_and_language_agreement": "done once by the same model; corrections made to Gen.3.2, 3.10, 3.11, 3.24, 4.2, 4.13, 4.15, 6.13 and genealogy particles",
+          "default_text_note": "Verses without a verse-specific objection use a shared default for counterargument/opinion/reconsider fields; this means no notable issue was identified by the drafting model, not that none exists.",
+          "genealogy_note": "Gen.5 formulaic verses were produced from a shared template with per-verse numbers and names; numbers follow the MT display, and manuscript number differences were not collated.",
+          "independent_review": "not performed; GPT and Gemini review remain required",
+          "open_items": [
+            "Gen.3.15, 3.16, 4.7, 6.3, 6.4 lexical/syntactic choices uncertain",
+            "Gen.3.19 and 3.22 cross-language register consistency",
+            "Gen.4.8 content of Cain's speech absent in MT display; reported variants not collated",
+            "Gen.5.1 adam as person vs humankind",
+            "Gen.6.16 absent from packet"
+          ]
+        },
+        "publication_requires": [
+          "GPT review",
+          "Gemini review",
+          "current best editorial selection",
+          "versioned archive",
+          "publication checks"
+        ]
+      },
+      "verses": [
+        {
+          "id": "Gen.4.22",
+          "translations": {
+            "ko": "씰라도 두발가인을 낳았는데, 그는 구리와 쇠로 온갖 기구를 벼리는 사람이었다. 두발가인의 누이는 나아마였다.",
+            "en": "Zillah bore Tubal-cain; he was the forger of every kind of bronze and iron tool. The sister of Tubal-cain was Naamah.",
+            "es": "Zila también dio a luz a Tubal-caín, forjador de toda herramienta de bronce y de hierro. La hermana de Tubal-caín fue Naama."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "לֹטֵשׁ는 \"벼리는 사람\"으로, נְחֹשֶׁת는 구리 또는 청동이다. כָּל־חֹרֵשׁ는 \"온갖 기구를 만드는 이\"로 보았다.",
+          "counterargument_ko": "חֹרֵשׁ가 \"기구/장인\"인지 \"만드는 자\"인지 읽기가 갈린다. 또 \"구리/청동\"의 선택도 열려 있다.",
+          "current_opinion_ko": "\"구리\"로 하고 \"청동\" 가능성을 주석에 둔다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.22",
+          "source_hebrew": "וְצִלָּ֣ה גַם־הִ֗וא יָֽלְדָה֙ אֶת־תּ֣וּבַל קַ֔יִן לֹטֵ֕שׁ כָּל־חֹרֵ֥שׁ נְחֹ֖שֶׁת וּבַרְזֶ֑ל וַֽאֲח֥וֹת תּֽוּבַל־קַ֖יִן נַֽעֲמָֽה׃",
+          "source_hebrew_sha256": "d5f01364d7c5fd108defcb4a667c720f9febd017fa7416bc8d54108c16bce49a",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.23",
+          "translations": {
+            "ko": "라멕이 자기 아내들에게 말하였다. \"아다와 씰라여, 내 소리를 들어라. 라멕의 아내들아, 내 말에 귀를 기울여라. 내가 나를 상하게 한 사람을 죽였고 나를 때린 젊은이를 죽였다.",
+            "en": "Lamech said to his wives: \"Adah and Zillah, hear my voice; you wives of Lamech, listen to my speech: I have killed a man for wounding me, a young man for striking me.",
+            "es": "Lamec dijo a sus mujeres: «Ada y Zila, oigan mi voz; mujeres de Lamec, presten oído a mi dicho: he matado a un hombre por haberme herido, y a un joven por haberme golpeado."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "시의 평행 구조를 살려 두 호소와 두 살인 진술을 평행으로 옮겼다. 완료형 הָרַגְתִּי를 현재완료(이미 죽였다)로 읽었다.",
+          "counterargument_ko": "완료형을 \"죽이겠다(예고)\"나 \"죽일 수 있다(과장)\"로 읽는 견해가 있다. לְפִצְעִי의 ל는 \"~때문에/~를 위해\"로 볼 수 있다.",
+          "current_opinion_ko": "완료로 옮기고 다른 읽기는 주석에 표기한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.23",
+          "source_hebrew": "וַיֹּ֨אמֶר לֶ֜מֶךְ לְנָשָׁ֗יו עָדָ֤ה וְצִלָּה֙ שְׁמַ֣עַן קוֹלִ֔י נְשֵׁ֣י לֶ֔מֶךְ הַאְזֵ֖נָּה אִמְרָתִ֑י כִּ֣י אִ֤ישׁ הָרַ֨גְתִּי֙ לְפִצְעִ֔י וְיֶ֖לֶד לְחַבֻּרָתִֽי׃",
+          "source_hebrew_sha256": "b9b282fe2976df60f413ece0c2592d69dc40b69ef26cd126e4e1c30b63780a21",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.24",
+          "translations": {
+            "ko": "가인을 해치면 일곱 배의 벌을 받는다면 라멕은 일흔일곱 배일 것이다.\"",
+            "en": "If Cain is avenged sevenfold, truly Lamech seventy-sevenfold.\"",
+            "es": "Si siete veces es vengado Caín, Lamec lo será setenta y siete veces»."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "이 절에서 두드러진 어휘·구문 문제는 발견하지 못했다. 직역에 가깝게 옮겼다.",
+          "counterargument_ko": "대안적 번역 선택이 있을 수 있으나 본문 이문이나 중대한 해석 분기는 이 절에서 확인하지 않았다.",
+          "current_opinion_ko": "현재 번역을 잠정 의견으로 유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.24",
+          "source_hebrew": "כִּ֥י שִׁבְעָתַ֖יִם יֻקַּם־קָ֑יִן וְלֶ֖מֶךְ שִׁבְעִ֥ים וְשִׁבְעָֽה׃",
+          "source_hebrew_sha256": "47e404280947c1983b931b5835d948020e6d9a3e8bdc8d777cd519238567acaa",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.25",
+          "translations": {
+            "ko": "아담이 다시 자기 아내와 동침하니 그가 아들을 낳고 이름을 셋이라 불렀다. \"하나님께서 가인이 죽인 아벨 대신 다른 자손을 내게 주셨다\" 하였기 때문이다.",
+            "en": "Adam knew his wife again, and she bore a son and named him Seth, for she said, \"God has appointed for me another child instead of Abel, because Cain killed him.\"",
+            "es": "Adán conoció otra vez a su mujer, y ella dio a luz un hijo y le puso por nombre Set, pues dijo: «Dios me ha concedido otra descendencia en lugar de Abel, porque Caín lo mató»."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "שָׁת은 \"주다/세우다\"의 어근과 말놀이를 이루므로 이름은 음역하고 이유는 본문대로 옮겼다. זֶרַע אַחֵר는 \"다른 후손\"이다.",
+          "counterargument_ko": "대안적 번역 선택이 있을 수 있으나 본문 이문이나 중대한 해석 분기는 이 절에서 확인하지 않았다.",
+          "current_opinion_ko": "유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.25",
+          "source_hebrew": "וַיֵּ֨דַע אָדָ֥ם עוֹד֙ אֶת־אִשְׁתּ֔וֹ וַתֵּ֣לֶד בֵּ֔ן וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵׁ֑ת כִּ֣י שָֽׁת־לִ֤י אֱלֹהִים֙ זֶ֣רַע אַחֵ֔ר תַּ֣חַת הֶ֔בֶל כִּ֥י הֲרָג֖וֹ קָֽיִן׃",
+          "source_hebrew_sha256": "9c01836991d5742fac8f141364998e7dd802ede05d99113c92a2d4c6fdaf3ebe",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        },
+        {
+          "id": "Gen.4.26",
+          "translations": {
+            "ko": "셋에게도 아들이 태어났고 그는 그 이름을 에노스라 하였다. 그때부터 사람들이 주의 이름을 부르기 시작하였다.",
+            "en": "To Seth, to him also a son was born, and he named him Enosh. At that time people began to call upon the name of the LORD.",
+            "es": "A Set también le nació un hijo, y le puso por nombre Enós. Entonces comenzó a invocarse el nombre del SEÑOR."
+          },
+          "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+          "reason_ko": "הוּחַל은 호팔형으로 \"시작되었다\"인데, \"더럽혀졌다\"(חלל)와 구별하여 \"시작하다\"로 읽었다. לִקְרֹא는 \"부르다/예배하다\".",
+          "counterargument_ko": "\"부르기 시작했다\"인지 \"부르는 일이 더럽혀졌다\"인지가 갈린다.",
+          "current_opinion_ko": "\"시작되었다\"를 유지한다.",
+          "reconsider_if_ko": "편집부나 독립 검토에서 구체적 오역이 지적될 경우.",
+          "source_reference": "Gen.4.26",
+          "source_hebrew": "וּלְשֵׁ֤ת גַּם־הוּא֙ יֻלַּד־בֵּ֔ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ אֱנ֑וֹשׁ אָ֣ז הוּחַ֔ל לִקְרֹ֖א בְּשֵׁ֥ם יְהוָֽה׃",
+          "source_hebrew_sha256": "5cb62eb6aaf89aea46c7ea99ea8feffe0d776d93724cd7f4463587a7aaec1fc3",
+          "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+          "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+          "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+          "rights": {
+            "text": "WLC public domain",
+            "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+            "credit": "https://github.com/openscriptures/morphhb"
+          }
+        }
+      ]
+    }
+  ]
+}
