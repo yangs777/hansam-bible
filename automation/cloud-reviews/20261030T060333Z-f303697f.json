@@ -1,0 +1,487 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T060333Z-f303697f",
+  "unit_id": "gen-6-1-4",
+  "verse_ids": [
+    "Gen.6.1",
+    "Gen.6.2",
+    "Gen.6.3",
+    "Gen.6.4"
+  ],
+  "unit_issue_ko": "하나님의 아들들·네피림·120년·영/머무름 어휘와 해석 구분",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.6.1-4 = 전통 장절 창세기 6:1-4. 확인한 칠십인역 디지털 본문(Swete 원시 OCR)도 같은 장절 번호(1.6.1-1.6.4)를 쓴다. 네 절 모두 Qere/Ketiv와 중첩 마크업이 없다. <seg type=\"x-maqqef\">, <seg type=\"x-sof-pasuq\">가 있고 6:4 끝에 <seg type=\"x-pe\">פ</seg>(열린 단락 표지)가 있다. 6:1-4는 6:5 이하 홍수 단락과 단락 표지로 분리된다. 표지는 raw_xml에 그대로 보존했고 번역문에는 반영하지 않았다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; not created by a Routine or Project per this session own metadata)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) response around 2026-10-30T06:04Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. These are session metadata values, not a verified dated snapshot. The serving model can differ per turn; no fallback notice was observed during this run.",
+    "session": "https://claude.ai/code/session_01UknqVJteLnZWhhoL66UBLc",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Session metadata only; no balance, dollar amount or credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters / remaining bonus balance",
+      "sampling parameters"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T06:03:25Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached)",
+    "claim_created": "2026-10-30T06:03:33Z",
+    "claim_pushed": "2026-10-30T06:03Z (push of claim commit to claude/original-bible-hard-review-bjxtgv succeeded)",
+    "independent_notes_written": "2026-10-30T06:04:49Z (from packet and pinned WLC only, before the earlier draft wording was compared)",
+    "earlier_records_compared": "2026-10-30T06:05Z-06:07Z",
+    "review_saved": "2026-10-30T06:09:37Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "아래 독해는 패킷의 raw XML과 OSHB 형태 태그, 같은 고정 커밋 WLC 파일(창 6:5·6:9·6:17·10:8·11:4, 욥 1:6·2:1·38:7, 민 13:33, 신 32:8·32:36, 겔 32:27, 그리고 lemma 1777/7683/7686 용례 검색)만 보고 세웠다(노트 기록 2026-10-30T06:04:49Z). 그 뒤에 칠십인역 OCR 본문과 SBLGNT(유 6, 벧후 2:4)를 network_access_log의 공개 디지털 본문으로 짧게 확인했다. 사본 대조는 하지 않았다. 타르굼·페쉬타·불가타·사해문서·에녹서·희년서·랍비 문헌·교부 해석에 대한 언급은 기억에 의한 보고이며 이번 실행에서 원문을 열람하지 않았다.",
+    "Gen.6.1": {
+      "clauses": [
+        {
+          "clause": "וַיְהִי כִּי־הֵחֵל הָאָדָם לָרֹב עַל־פְּנֵי הָאֲדָמָה",
+          "note_ko": "וַיְהִי כִּי는 시간 전제절(…했을 때)을 열고 주절은 6:2 וַיִּרְאוּ다. 그래서 6:1은 문장을 닫지 않는다. הֵחֵל은 חלל 히필 완료 3ms('시작하다', OSHB 2490 c), לָרֹב은 רבב 칼 부정사 연계형('많아지다'). הָאָדָם은 관사가 붙은 집합 명사로 여기서는 개인 '그 사람'이 아니라 인류 전체다(복수 대명사 לָהֶם이 이를 확인한다). אָדָם/אֲדָמָה 말놀이는 한국어·영어·스페인어로 살릴 수 없어 주석 사항이다."
+        },
+        {
+          "clause": "וּבָנוֹת יֻלְּדוּ לָהֶם",
+          "note_ko": "יֻלְּדוּ는 ילד 푸알 완료 3cp(수동 '태어났다'). 딸들이 언급되는 이유는 6:2의 '사람의 딸들'을 준비하는 것이다. 아들이 언급되지 않는다고 해서 아들이 없었다는 뜻은 아니다."
+        }
+      ]
+    },
+    "Gen.6.2": {
+      "clauses": [
+        {
+          "clause": "וַיִּרְאוּ בְנֵי־הָאֱלֹהִים אֶת־בְּנוֹת הָאָדָם כִּי טֹבֹת הֵנָּה",
+          "note_ko": "어휘: בְנֵי־הָאֱלֹהִים은 '하나님의 아들들'(관사 있는 הָאֱלֹהִים). 같은 고정 WLC에서 같은 연계구는 욥 1:6·2:1(בְּנֵי הָאֱלֹהִים, 야훼 앞에 서는 천상 회의 구성원), 욥 38:7(בְּנֵי אֱלֹהִים, 새벽 별들과 평행)에 나온다. 반면 신 32:8 MT는 בְּנֵי יִשְׂרָאֵל이다. 정체에 대해서는 (1) 천상적 존재, (2) 셋 계열 사람들, (3) 왕·귀족 같은 지배자라는 해석이 있다. 본문은 이 정체를 스스로 풀어 말하지 않으므로 번역은 '하나님의 아들들'로 직역해야 한다. 구문: וַיִּרְא ... אֶת ... כִּי טוֹב는 창 1장 '하나님께서 …을 보시니 좋았다'와 같은 틀이고, 3:6 여자가 '보니 … 좋고 … 따서'와도 같은 '보다-좋다-취하다' 연쇄다. טֹבֹת은 '좋은'이며 여기서는 외모의 아름다움을 뜻한다고 본다. 직역 '좋았다'는 주석으로 남긴다."
+        },
+        {
+          "clause": "וַיִּקְחוּ לָהֶם נָשִׁים מִכֹּל אֲשֶׁר בָּחָרוּ",
+          "note_ko": "לָקַח אִשָּׁה는 결혼을 뜻하는 일반 관용구('아내로 맞다')로, 그것만으로는 폭력을 뜻하지 않는다. מִכֹּל אֲשֶׁר בָּחָרוּ는 '고른 모든 이들 가운데서'라는 부분의 מִן이다. 선택에 제한이 없었다는 함의를 읽을 수 있지만, '마음대로' 같은 평가어를 더하면 해석이 과해진다."
+        }
+      ]
+    },
+    "Gen.6.3": {
+      "clauses": [
+        {
+          "clause": "וַיֹּאמֶר יְהוָה",
+          "note_ko": "신명 YHWH. 이 프로젝트의 최근 채택문(창 4장) 관례인 ko '야훼'·en/es 'YHWH'를 따른다."
+        },
+        {
+          "clause": "לֹא־יָדוֹן רוּחִי בָאָדָם לְעֹלָם",
+          "note_ko": "어휘 문제의 핵심이다. OSHB는 יָדוֹן을 lemma 1777(דין '판단하다')의 칼 미완료 3ms로 태그한다. 그런데 같은 고정 WLC에서 확인한 같은 어근의 칼 미완료 3ms는 모두 יָדִין이다(창 49:16, 신 32:36, 욥 36:31). 오(o) 모음 יָדוֹן은 창 6:3에만 나온다. 따라서 '다투다/판결하다'(דין), '머물다/거하다'(칠십인역 καταμείνῃ와 그 전통), 다른 어근을 가정한 '보호하다' 같은 제안은 모두 추정이며 확정할 수 없다. 이 단계의 선호는 '머물다'다. 이유는 (a) 확인한 가장 이른 번역 증거(칠십인역)가 이 방향이고, (b) רוּחִי בָאָדָם(사람 '안에' 있는 나의 영/숨)과 6:17 רוּחַ חַיִּים('생명의 숨')을 함께 읽으면 생명 기한이라는 문맥에 맞기 때문이다. רוּחִי는 '나의 영/숨'이다. 한국어 '영', 영어 소문자 'spirit', 스페인어 소문자 'espíritu'로 두어 삼위일체적 대문자화(Spirit)를 본문에 들이지 않는다."
+        },
+        {
+          "clause": "בְּשַׁגַּם הוּא בָשָׂר",
+          "note_ko": "OSHB 분석은 בְּ + שַׁ(관계사) + גַּם(R/Tr/D) = '…이기도 하기 때문에'다. 칠십인역 διὰ τὸ εἶναι αὐτοὺς σάρκας('그들이 육체이기 때문에')도 이유절로 읽는다. 일부 학자는 같은 자음을 שׁגג('그릇 행하다') 부정사 + 3mp 접미사('그들의 그릇됨으로')로 다르게 모음 처리한다. 이것은 고정 WLC의 모음 표기(גַּ 다게쉬+파타흐)와 다른 재구성이며, 이를 지지하는 히브리어 사본 증거는 이번에 확인하지 못했다. הוּא는 단수(집합적 אָדָם을 받는다)."
+        },
+        {
+          "clause": "וְהָיוּ יָמָיו מֵאָה וְעֶשְׂרִים שָׁנָה",
+          "note_ko": "베카탈 '…이 될 것이다'. 120년이 (1) 인간 수명의 상한인지, (2) 홍수까지 주어진 유예 기간인지는 문법으로 결정되지 않는다. 반론: (1)이라면 11장 족보의 120세 초과 수명과 긴장이 생긴다. (2)라면 '그의 날들'(יָמָיו)이 개인 수명 공식(5장 וַיִּהְיוּ כָּל־יְמֵי)과 닮은 점이 설명되지 않는다. 번역은 '그의 날은 백이십 년'으로 중립을 유지한다."
+        }
+      ]
+    },
+    "Gen.6.4": {
+      "clauses": [
+        {
+          "clause": "הַנְּפִלִים הָיוּ בָאָרֶץ בַּיָּמִים הָהֵם",
+          "note_ko": "נְפִלִים은 히브리 성경에서 이 절과 민 13:33(같은 고정 WLC에서 הַנְּפִילִים / הַנְּפִלִים 두 철자, '아낙 자손'과 동일시)에만 나온다. 어원(נפל '떨어지다'에서 '떨어진 자들'/'쓰러뜨리는 자들'/'유산된 자들' 등)은 불확실하다. 칠십인역은 γίγαντες('거인들')로 옮겼다. 번역은 음역 '네피림/Nephilim/nefilim'으로 하고 '거인'은 해석 전통으로 주석에 둔다."
+        },
+        {
+          "clause": "וְגַם אַחֲרֵי־כֵן אֲשֶׁר יָבֹאוּ בְּנֵי הָאֱלֹהִים אֶל־בְּנוֹת הָאָדָם וְיָלְדוּ לָהֶם",
+          "note_ko": "담화: וְגַם אַחֲרֵי־כֵן('그리고 그 뒤에도')은 민 13:33과의 연결(홍수 뒤에도 네피림이 있었다는 전승)을 설명하는 삽입처럼 보인다. 다만 그것이 후대의 주해적 덧붙임이라는 주장은 본문 증거가 아니라 해석이다. אֲשֶׁר + 미완료 יָבֹאוּ는 과거의 반복('…하곤 하던 때')으로 읽고, 베카탈 וְיָלְדוּ도 반복 동작이다. בּוֹא אֶל은 성관계의 완곡어다. וְיָלְדוּ לָהֶם의 주어는 לָהֶם('그들에게', 곧 하나님의 아들들에게)으로 보아 딸들이다. 목적어(자식)는 생략되어 있다. 이 절은 네피림이 이 결합의 소생이라고 명시하지 않는다. '그때(와 그 뒤)에 있었다'라는 시간 관계만 말한다."
+        },
+        {
+          "clause": "הֵמָּה הַגִּבֹּרִים אֲשֶׁר מֵעוֹלָם אַנְשֵׁי הַשֵּׁם",
+          "note_ko": "הֵמָּה('그들')의 선행사는 네피림일 수도 있고, 태어난 자식들일 수도 있다. 문법상 둘 다 가능하므로 번역은 '그들은'으로 두어 결정하지 않는다. גִּבֹּרִים은 '용사/힘센 자'(10:8 니므롯 גִּבֹּר와 같은 낱말), מֵעוֹלָם은 '옛적부터/아득한 옛날의', אַנְשֵׁי הַשֵּׁם은 '그 이름의 사람들' = '이름난 사람들'이다. 11:4 '우리 이름을 내자'와 이어지는 '이름' 주제가 있다. 이 문장은 평가문(칭송 또는 아이러니)이 아니라 정체를 밝히는 문장이며, 칭송인지 비판인지는 6:5 이하 문맥이 결정한다."
+        }
+      ]
+    }
+  },
+  "initial_proposals": {
+    "Gen.6.1": {
+      "ko": "사람들이 땅 위에 많아지기 시작하고 그들에게 딸들이 태어났을 때에,",
+      "en": "When humankind began to multiply on the face of the ground, and daughters were born to them,",
+      "es": "Cuando los seres humanos comenzaron a multiplicarse sobre la faz de la tierra y les nacieron hijas,"
+    },
+    "Gen.6.2": {
+      "ko": "하나님의 아들들이 사람의 딸들을 보니 아름다웠다. 그들은 자기들이 고른 모든 여자를 아내로 맞아들였다.",
+      "en": "the sons of God saw that the daughters of humankind were beautiful, and they took for themselves wives from all whom they chose.",
+      "es": "los hijos de Dios vieron que las hijas de los seres humanos eran hermosas, y tomaron para sí mujeres de entre todas las que escogieron."
+    },
+    "Gen.6.3": {
+      "ko": "야훼가 말씀하셨다. “내 영이 사람 안에 영원히 머물지는 않을 것이다. 그도 육체이기 때문이다. 그의 날은 백이십 년이 될 것이다.”",
+      "en": "YHWH said, “My spirit shall not remain in humankind forever, since they too are flesh; their days shall be one hundred and twenty years.”",
+      "es": "YHWH dijo: «Mi espíritu no permanecerá para siempre en el ser humano, porque también él es carne; sus días serán ciento veinte años»."
+    },
+    "Gen.6.4": {
+      "ko": "그 시대에, 그리고 그 뒤에도, 땅에는 네피림이 있었다. 하나님의 아들들이 사람의 딸들과 동침하여 딸들이 그들에게 자식을 낳아 주던 때였다. 그들은 옛적의 용사들, 이름난 사람들이었다.",
+      "en": "The Nephilim were on the earth in those days, and also afterward, when the sons of God would go in to the daughters of humankind and they bore children to them. These were the mighty men of old, the men of renown.",
+      "es": "Los nefilim estaban en la tierra en aquellos días, y también después, cuando los hijos de Dios se unían a las hijas de los seres humanos y ellas les daban hijos. Esos fueron los héroes de antaño, los hombres de renombre."
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbc; selection_version 0.4.13)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.6.1-4에는 현행 채택문이 없다. 창세기 채택 범위는 Gen.4.21까지이고, 패킷의 current_selected도 빈 목록이다. 그래서 이 검토는 미래 채택용 연구 자료다. 인접 채택문 관례를 확인했다: 신명 ko '야훼'·en/es 'YHWH'(4:1·4:6·4:13), 야다 성관계 완곡어 ko '동침하니'(4:1·4:17), 1:4 ko '보시니 좋았다'/en 'saw that the light was good', 4:14 아다마 en 'the ground'/es 'la tierra', 4:18 ko '낳았다'/en 'fathered'/es 'engendró'."
+    },
+    {
+      "record": "data/editorial.json Deut.32.8 (selection_version 0.4.13)",
+      "model_label": "editorial selection",
+      "finding_ko": "신 32:8 채택문은 MT 'בְּנֵי יִשְׂרָאֵל' 대신 보고된 4Q37 읽기를 따라 ko '하나님의 아들들'·en 'the sons of God'·es 'los hijos de Dios'를 쓴다(source_basis: 'MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction'). 창 6:2·6:4의 ko/en/es 역어를 이와 같게 두면 프로젝트 안에서 같은 표현이 일관된다. 다만 창 6장은 MT 자체가 בְנֵי־הָאֱלֹהִים이므로 재구성이 아니라는 점을 구분해 기록한다."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-o4rtc0:automation/cloud-drafts/20261023T211759Z-ff69750f.json (verses Gen.6.1-6.4)",
+      "model_label": "Claude Code native cloud; requested/configured claude-sonnet-5-5 per that record; served model not exposed",
+      "finding_ko": "같은 고정 WLC 원문(source_file_sha256 0526e5c9…)에 근거한 기존 일반 초안이다. 이 비교는 독립 독해(위 initial_proposals)를 마친 뒤에 했다. 세부 비교는 comparison_findings_ko를 보라."
+    },
+    {
+      "record": "data/model-reviews/* (v0.2.0-v0.4.13)",
+      "model_label": "saved GPT/Gemini/Claude review records",
+      "finding_ko": "저장된 모델 검토 기록에서 Gen.6.1-4 본문 검토를 찾지 못했다. 단어 일치 검색 결과는 큐 범위 표기뿐이었다. 따라서 이 단위에 대한 GPT/Gemini 응답은 존재하지 않으며, 여기에도 그런 응답을 제시하지 않는다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "6:1 기존 초안 ko '사람들이 땅 위에 번성하기 시작하고 …'는 의미상 정확하다. '번성하다'는 1:28 채택문(פרו ורבו '번성하여')과 같은 낱말이라 רבב 칼 '많아지다'와 רבה 히필 '번성하다'의 구분이 흐려질 수 있다. 큰 문제는 아니며 '많아지기'를 선호한다. en 'people' 대 'humankind'는 취향의 문제지만, 6:2·6:4 '사람의 딸들'과 연결하려면 같은 낱말이 낫다.",
+    "6:2 기존 초안 ko '그래서 그들은 마음에 드는 모든 여자를 아내로 맞이하였다'에서 '그래서'는 원문에 없는 인과 연결이다(원문은 와이크톨 연쇄). '마음에 드는'은 בָּחָרוּ('골랐다')보다 감정적 평가가 강하다. 둘 다 빼는 것이 낫다. en/es는 내 독립안과 실질적으로 같다(en 'daughters of humans' 대 'humankind'는 표기 차이).",
+    "6:3 기존 초안 ko '주께서 말씀하셨다'는 프로젝트의 최근 신명 관례(ko '야훼', 4:1·4:6·4:13)와 맞지 않는다. en 'the LORD', es 'el SEÑOR'도 채택문 관례 'YHWH'와 다르다. 채택 시 바꾸어야 한다. 기존 en 'for they are flesh'는 גַּם('…도')을 옮기지 않았다. 기존 reason_ko는 '아카드어·전통 번역에 근거해 머물다로 옮겼다'고 했는데, 아카드어 근거는 그 기록에서도 이 기록에서도 확인되지 않았다. 확인된 근거는 칠십인역 καταμείνῃ다. 핵심 판단(머물다, 120년의 두 해석 병기)은 일치한다.",
+    "6:4 기존 초안 ko는 '…때에도 있었다. 그들은 옛적부터 이름난 용사들이었다'로 מֵעוֹלָם과 אַנְשֵׁי הַשֵּׁם을 한 구로 합쳐 '옛적부터 이름난'으로 만들었다. 원문은 'הַגִּבֹּרִים אֲשֶׁר מֵעוֹלָם'(옛적부터의 용사들)과 'אַנְשֵׁי הַשֵּׁם'(이름난 사람들)이라는 두 동격구다. 분리하는 것이 낫다. 또 기존 ko '들어가 자식들을 낳았을 때'는 낳는 주어를 하나님의 아들들처럼 읽히게 만든다. 원문 וְיָלְדוּ לָהֶם('그들에게 낳아 주었다')의 주어는 딸들이다. en 'warriors of renown'은 אַנְשֵׁי('사람들')을 'warriors'로 바꾼 것이라 'men of renown'이 원문에 가깝다. es 'Esos eran los héroes de la antigüedad, hombres de renombre'는 적절하다.",
+    "공통: 기존 초안과 이 검토는 모두 בְנֵי־הָאֱלֹהִים을 직역하고, 네피림을 음역하며, 120년의 두 해석을 주석으로 넘긴다는 점에서 일치한다. 같은 모델 계열(Claude) 안의 일치이므로 독립 확증으로 세지 않는다."
+  ],
+  "alternatives": [
+    {
+      "verse": "Gen.6.2, Gen.6.4",
+      "clause": "בְנֵי־הָאֱלֹהִים",
+      "option": "(A) 하나님의 아들들 / the sons of God / los hijos de Dios (선호)",
+      "for": "히브리어 연계구의 직역이다. 욥 1:6·2:1·38:7의 같은 표현과 독자가 연결할 수 있다. 정체 논쟁을 번역문에서 미리 판정하지 않는다. 신 32:8 채택문 역어와도 일치한다.",
+      "against": "한국어 '하나님의 아들들'은 신약의 '하나님의 자녀'(신자) 개념과 섞여 셋 계열 해석 쪽으로 읽힐 수 있다. 반대로 영어 'sons of God'은 천상적 존재로 먼저 읽힐 수 있다.",
+      "verdict": "본문 채택안. 세 해석(천상적 존재·셋 계열·지배자)을 주석에 나란히 두고, 칠십인역 Swete OCR 본문의 6:2 ἄγγελοι 대 6:4 υἱοὶ τοῦ θεοῦ 차이를 해석 수용 자료로 기록한다."
+    },
+    {
+      "verse": "Gen.6.2, Gen.6.4",
+      "clause": "בְנֵי־הָאֱלֹהִים",
+      "option": "(B) 천사들 / angels (칠십인역 Swete 6:2 읽기를 따름)",
+      "for": "확인한 칠십인역 디지털 본문이 6:2에서 οἱ ἄγγελοι로 해석했다. 유 6·벧후 2:4가 범죄한 천사를 언급한다(창 6장을 직접 인용하지는 않는다).",
+      "against": "MT 원문이 아니라 번역·해석이다. 같은 칠십인역 본문도 6:4에서는 υἱοὶ τοῦ θεοῦ를 쓴다. 신약 구절은 창 6장을 명시적으로 지목하지 않는다(연결은 해석이다).",
+      "verdict": "기각. 주석 사항이다."
+    },
+    {
+      "verse": "Gen.6.2, Gen.6.4",
+      "clause": "בְנֵי־הָאֱלֹהִים",
+      "option": "(C) 셋의 자손 / 귀인들의 아들들 (해석 번역)",
+      "for": "4:17-5:32의 가인 계열 대 셋 계열 구도와 연결할 수 있다(셋 계열 해석). 고대 근동의 왕권 이념과 연결할 수도 있다(지배자 해석). 이 해석들은 개혁주의 전통에서 널리 받아들여졌다고 기억에 의해 보고한다(이번 실행에서 원문 확인 안 함).",
+      "against": "히브리어 표현을 바꾸는 해석 번역이다. 같은 연계구가 히브리 성경 다른 곳(욥기)에서는 천상 회의를 가리킨다. 번역문이 해석 논쟁을 판정하게 된다.",
+      "verdict": "기각. 주석에서 동등하게 소개한다."
+    },
+    {
+      "verse": "Gen.6.3",
+      "clause": "לֹא־יָדוֹן",
+      "option": "(A) 머물지 않을 것이다 / shall not remain / no permanecerá (선호)",
+      "for": "칠십인역 οὐ μὴ καταμείνῃ(확인함). רוּחַ를 '생명의 숨'으로 보는 6:17과 문맥이 맞는다. 바로 이어지는 120년 기한 진술과도 논리가 이어진다.",
+      "against": "OSHB 태그(דין '판결하다/다투다')와 맞지 않는다. 형태 יָדוֹן 자체가 같은 고정 WLC의 דין 칼 미완료(יָדִין)와 다르다. '머물다'의 히브리어 어원 근거가 이번 실행에서 확인되지 않았다(번역 전통에 기댄 선택이다).",
+      "verdict": "잠정 채택하되, 각주에 '뜻이 불확실하다'는 표시와 대안 '다투다/판결하다'를 둔다."
+    },
+    {
+      "verse": "Gen.6.3",
+      "clause": "לֹא־יָדוֹן",
+      "option": "(B) 다투지 않을 것이다 / shall not contend (strive) / no contenderá",
+      "for": "OSHB lemma(דין)와 연결된다. 영어 전통 역본의 'strive'도 이 방향이다(기억에 의한 보고).",
+      "against": "형태 불일치(יָדוֹן 대 יָדִין)를 해결하지 못한다. '나의 영이 사람 안에서 다툰다'는 의미가 불분명하다.",
+      "verdict": "대안으로 각주에 둔다."
+    },
+    {
+      "verse": "Gen.6.3",
+      "clause": "בְּשַׁגַּם",
+      "option": "(A) 그도 육체이기 때문에 / since they too are flesh (선호)",
+      "for": "고정 WLC 모음 표기와 OSHB 분석(בְּ+שַׁ+גַּם)을 따른다. 칠십인역도 이유절이다.",
+      "against": "גַּם('…도')이 무엇과 비교하는지 분명하지 않다(동물? 다른 육체?). 관계사 שַׁ가 창세기에서 드물다.",
+      "verdict": "채택."
+    },
+    {
+      "verse": "Gen.6.3",
+      "clause": "בְּשַׁגַּם",
+      "option": "(B) 그들의 그릇됨으로 인해 / in their erring (שׁגג 부정사 + 접미사로 재모음)",
+      "for": "도덕적 원인을 말하는 문맥(6:5)에 맞는다고 주장된다.",
+      "against": "고정 WLC 모음 표기와 다른 재구성이다. 이를 지지하는 사본 읽기를 이번에 확인하지 못했다. 그리고 뒤의 הוּא(단수)와 3mp 접미사가 맞지 않는다.",
+      "verdict": "기각. 재구성 제안으로만 기록한다(입증된 읽기가 아님)."
+    },
+    {
+      "verse": "Gen.6.3",
+      "clause": "וְהָיוּ יָמָיו מֵאָה וְעֶשְׂרִים שָׁנָה",
+      "option": "(A) 그의 날은 백이십 년이 될 것이다 (중립 직역, 선호) / (B) 수명 한계로 명시 / (C) 홍수까지 백이십 년의 유예로 명시",
+      "for": "(A)는 두 해석을 모두 열어 둔다. (B)는 '그의 날들' 표현이 5장 수명 공식과 닮은 점을 근거로 든다. (C)는 홍수가 곧 온다는 문맥(6:5-7)과 11장의 긴 수명을 근거로 든다(타르굼 계열 해석으로 기억에 의해 보고).",
+      "against": "(B)와 (C)는 번역문에 해석을 넣는다.",
+      "verdict": "(A) 채택. (B)·(C)는 주석에 둔다."
+    },
+    {
+      "verse": "Gen.6.4",
+      "clause": "הַנְּפִלִים",
+      "option": "(A) 음역 네피림 / the Nephilim / los nefilim (선호) / (B) 거인들 / giants / gigantes",
+      "for": "(A)는 어원이 불확실한 고유 집단명을 보존한다. (B)는 칠십인역 γίγαντες와 민 13:33의 크기 묘사(메뚜기 비유)에 근거한다.",
+      "against": "(A)는 독자가 뜻을 알 수 없다. (B)는 해석을 번역에 넣는다.",
+      "verdict": "(A) 채택. '거인'은 칠십인역 해석으로 주석에 둔다."
+    },
+    {
+      "verse": "Gen.6.4",
+      "clause": "הֵמָּה הַגִּבֹּרִים",
+      "option": "(A) 그들은 … (선행사 미결정, 선호) / (B) 그 자식들이 바로 … (자식으로 명시) / (C) 네피림이 바로 … (네피림으로 명시)",
+      "for": "(A)는 원문의 모호성을 보존한다.",
+      "against": "(B)·(C)는 각각 한 해석을 고정한다.",
+      "verdict": "(A) 채택."
+    }
+  ],
+  "strongest_objection_to_own_reading": "가장 강한 반론은 6:3 '머물지 않을 것이다'가 중립 번역이 아니라는 것이다. 이 선택은 히브리어 형태론이 아니라 칠십인역 이후의 번역 전통에 기댄다. OSHB 자체는 דין('판결하다')으로 태그한다. 그리고 '머물다'는 '영'을 생명의 숨으로 읽는 해석(수명 한계 쪽)을 강화해 120년 해석 논쟁에도 영향을 준다. 절별로 시험해 보면: (1) 형태 יָדוֹן은 확인한 דין 칼 미완료 3ms(יָדִין, 창 49:16·신 32:36·욥 36:31)와 다르다. 그러니 OSHB 태그를 따른 '다투다'도 형태론적 근거가 약하다. 어느 쪽도 형태로 확정되지 않는다. (2) 가장 이른 확인 증거(칠십인역 καταμείνῃ)는 '머물다'다. (3) '머물다'를 써도 '그의 날은 백이십 년'을 수명으로 고정하지는 않는다(유예 해석에서도 '영이 머무는 기한'은 말이 된다). 결론: '머물다'를 유지하되 각주에 '불확실'을 명시하고 '다투다/판결하다'를 대안으로 둔다. 두 번째로 강한 반론은 6:4 ko '동침하여'가 בּוֹא אֶל('…에게 들어가다')의 그림을 지우고, 4:1의 יָדַע('알다') 역어와 같은 낱말을 써서 두 히브리어 관용구의 구분을 없앤다는 것이다. 이 반론은 각주로 처리한다(원문 관용구 표시).",
+  "preferred_wording": {
+    "Gen.6.1": {
+      "ko": "사람들이 땅 위에 많아지기 시작하고 그들에게 딸들이 태어났을 때에,",
+      "en": "When humankind began to multiply on the face of the ground, and daughters were born to them,",
+      "es": "Cuando los seres humanos comenzaron a multiplicarse sobre la faz de la tierra y les nacieron hijas,"
+    },
+    "Gen.6.2": {
+      "ko": "하나님의 아들들이 사람의 딸들을 보니 아름다웠다. 그들은 자기들이 고른 모든 여자를 아내로 맞아들였다.",
+      "en": "the sons of God saw that the daughters of humankind were beautiful, and they took for themselves wives from all whom they chose.",
+      "es": "los hijos de Dios vieron que las hijas de los seres humanos eran hermosas, y tomaron para sí mujeres de entre todas las que escogieron."
+    },
+    "Gen.6.3": {
+      "ko": "야훼가 말씀하셨다. “내 영이 사람 안에 영원히 머물지는 않을 것이다. 그도 육체이기 때문이다. 그의 날은 백이십 년이 될 것이다.”",
+      "en": "YHWH said, “My spirit shall not remain in humankind forever, since they too are flesh; their days shall be one hundred and twenty years.”",
+      "es": "YHWH dijo: «Mi espíritu no permanecerá para siempre en el ser humano, porque también él es carne; sus días serán ciento veinte años»."
+    },
+    "Gen.6.4": {
+      "ko": "그 시대에, 그리고 그 뒤에도, 땅에는 네피림이 있었다. 하나님의 아들들이 사람의 딸들과 동침하여 딸들이 그들에게 자식을 낳아 주던 때였다. 그들은 옛적의 용사들, 이름난 사람들이었다.",
+      "en": "The Nephilim were on the earth in those days, and also afterward, when the sons of God would go in to the daughters of humankind and they bore children to them. These were the mighty men of old, the men of renown.",
+      "es": "Los nefilim estaban en la tierra en aquellos días, y también después, cuando los hijos de Dios se unían a las hijas de los seres humanos y ellas les daban hijos. Esos fueron los héroes de antaño, los hombres de renombre."
+    }
+  },
+  "proposed_notes_ko": {
+    "Gen.6.1": [
+      "'사람(아담)'과 '땅(아다마)'은 히브리어 말놀이다."
+    ],
+    "Gen.6.2": [
+      "히브리어: 하나님의 아들들(בְנֵי־הָאֱלֹהִים). 같은 표현이 욥 1:6·2:1(욥 38:7은 관사 없이)에 나온다. 이들을 천상적 존재로 보는 해석, 셋의 자손으로 보는 해석, 지배자로 보는 해석이 있다. 칠십인역의 한 판본(Swete)은 6:2에서 '천사들'로, 6:4에서 '하나님의 아들들'로 옮겼다.",
+      "'아름다웠다'의 히브리어는 '좋았다'(טוֹב)로, 1:4 등 '보시니 좋았다'와 같은 낱말이다."
+    ],
+    "Gen.6.3": [
+      "'머물다'로 옮긴 동사(יָדוֹן)는 뜻이 불확실하다. 칠십인역은 '머물다'로 옮겼고, 다른 이들은 '다투다/판결하다'로 읽는다.",
+      "'영(רוּחַ)'은 '숨'으로도 옮길 수 있다(6:17 '생명의 숨' 참조).",
+      "백이십 년은 사람의 수명 한계로, 또는 홍수 전까지 주어진 기간으로 해석된다."
+    ],
+    "Gen.6.4": [
+      "네피림(הַנְּפִלִים)은 민 13:33에도 나온다. 칠십인역은 '거인들'로 옮겼다. 어원은 불확실하다.",
+      "'동침하여'의 히브리어 직역은 '…에게 들어가'다.",
+      "'그들'이 네피림을 가리키는지 태어난 자식들을 가리키는지는 문법으로 정해지지 않는다."
+    ]
+  },
+  "editorial_consistency_findings": [
+    "신명: 6:3 YHWH → ko '야훼'·en 'YHWH'·es 'YHWH'(창 4장 채택 관례). 창 2:7 en 'Yahweh'/es 'Yahvé'와 4장 'YHWH' 사이에 채택문 내부 불일치가 이미 있다. 이 검토는 최신(4장) 관례를 따랐고, 불일치 자체는 편집 결정 사항으로 보고한다.",
+    "신명 주어 존칭: 4:6 '야훼가 … 말씀하셨다'를 따라 6:3 '야훼가 말씀하셨다'로 했다. 1:4 '하나님께서'와 존칭 조사가 다르다. 편집 통일이 필요하다.",
+    "성관계 완곡어: 4:1·4:17 יָדַע → '동침하니'. 6:4 בּוֹא אֶל도 '동침하여'로 맞췄지만 원어 관용구가 다르다. 각주로 구분한다. 16:2·30:3 등 뒤에 나오는 בּוֹא אֶל 역어와 함께 정해야 한다.",
+    "'하나님의 아들들': 신 32:8 채택문 ko/en/es와 같은 역어를 썼다.",
+    "אָדָם: 2-3장 '그 사람'(개인)과 달리 6:1-4에서는 집합 의미로 ko '사람들/사람'·en 'humankind'·es 'seres humanos/el ser humano'로 했다. 6:3 es는 단수 הוּא에 맞추어 'el ser humano … él'로 단수를 유지했다. en은 자연스러움을 위해 복수 'they/their'로 했다. 이 언어 간 차이는 의도한 것이며 편집 확인이 필요하다.",
+    "גִּבֹּרִים: 10:8 니므롯 גִּבֹּר 역어를 정할 때 6:4 'mighty men/용사/héroes'와 맞출 필요가 있다."
+  ],
+  "final_opinion_ko": "Gen.6.1-4에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료이며, preferred_wording은 잠정 의견이다. 핵심 원칙: (1) בְנֵי־הָאֱלֹהִים은 '하나님의 아들들'로 직역하고, 천상적 존재·셋 계열·지배자 해석을 주석에서 동등하게 소개한다. 번역문이 해석 논쟁을 판정하지 않는다. (2) 6:3 יָדוֹן은 형태와 의미가 불확실하다(같은 고정 WLC의 דין 칼 미완료는 모두 יָדִין). '머물다'는 칠십인역 전통에 기댄 잠정 선택이며 불확실 표시가 필요하다. (3) 120년은 중립 직역으로 두고 두 해석을 주석에 둔다. (4) 네피림은 음역한다. 6:4는 네피림이 결합의 소생이라고 명시하지 않으므로, 번역도 시간 관계만 옮기고 הֵמָּה의 선행사를 정하지 않는다. 기존 Sonnet 초안과는 큰 방향이 같다. 다만 6:3 신명 표기(주/LORD/SEÑOR → 야훼/YHWH), 6:2 ko의 원문에 없는 '그래서'·'마음에 드는', 6:4 ko의 낳는 주어 혼동과 동격구 병합, en 'warriors of renown'은 채택 전에 고쳐야 한다.",
+  "confidence_limits": [
+    "히브리어 사전(BDB/HALOT/DCH)과 주석서를 이번 실행에서 열람하지 못했다. יָדוֹן과 נְפִלִים에 대한 어원 판단은 고정 WLC 용례 검색과 칠십인역 디지털 본문에만 근거한다.",
+    "칠십인역 확인은 Swete 판을 옮긴 First1KGreek 원시 OCR 텍스트 1종(제3자 저장소)에 한정된다. 6:2 ἄγγελοι가 Swete 본문 읽기인지 OCR 오류인지 인쇄본으로 확인하지 않았다. 다만 6:4의 υἱοὶ τοῦ θεοῦ와 같은 파일 안에서 대비된다. 괴팅겐판과 비평 장치는 확인하지 않았다.",
+    "사마리아 오경, 타르굼, 페쉬타, 불가타, 사해문서, 에녹서, 희년서, 필론·요세푸스, 랍비·교부·종교개혁자 해석은 확인하지 않았다. 이 파일에서 이들에 대한 언급은 모두 기억에 의한 보고로 표시했다.",
+    "같은 모델 계열(Claude) 안의 두 기록(이 검토와 2026-10-23 Sonnet 초안)이 일치해도 독립 확증이 아니다.",
+    "한국어 '영'과 영어 소문자 'spirit'의 신학적 기울기(성령 대 생명의 숨)를 독자 수준에서 시험하지 않았다."
+  ],
+  "reconsider_if": [
+    "검증된 히브리어 사전·주석이 יָדוֹן의 어원을 특정 어근으로 확정하는 근거를 제시하면 6:3 동사와 각주를 다시 정한다.",
+    "인쇄본 칠십인역(Swete/Rahlfs/괴팅겐) 확인 결과 6:2가 ἄγγελοι가 아니면 6:2 각주의 칠십인역 서술을 고친다.",
+    "히브리어 사본·사해문서 확인으로 6:3 בשגם의 다른 모음/자음 읽기가 입증되면 대안 (B)를 '보고된 읽기'로 격상해 다시 검토한다.",
+    "편집진이 성관계 완곡어 역어 정책(יָדַע, בּוֹא אֶל, שָׁכַב)을 정하면 6:4 ko/en/es를 그 정책에 맞춘다.",
+    "편집진이 신명 표기와 신명 주어 존칭을 통일하면 6:3 도입구를 그에 맞춘다.",
+    "GPT/Gemini 독립 검토에서 6:2 '아름다웠다'보다 '좋았다'를 본문에 두어 1:4 메아리를 살리자는 근거 있는 제안이 나오면 비교한다.",
+    "독자 시험에서 ko '하나님의 아들들'이 한 해석(셋 계열 또는 천사)으로 강하게 기운다는 근거가 나오면 각주 순서와 표현을 조정한다."
+  ],
+  "unresolved": [
+    "6:3 יָדוֹן의 어근과 의미: 머물다/다투다/판결하다/기타. 형태 증거로는 결정되지 않는다.",
+    "6:3 백이십 년: 수명 한계인가, 홍수까지의 유예인가. 해석 문제이며 번역은 중립으로 둔다.",
+    "6:2·6:4 하나님의 아들들의 정체: 해석 문제로 미결이다.",
+    "6:4 네피림의 어원과 정체, 그리고 הֵמָּה의 선행사: 미결이다.",
+    "6:4 וְגַם אַחֲרֵי־כֵן이 후대 삽입인지: 본문 증거 없음. 해석 주장으로만 존재한다.",
+    "칠십인역 6:2 ἄγγελοι: OCR 디지털 본문 1종에서만 확인했고, 인쇄본·사본 수준에서는 미확인이다.",
+    "6:3 בשגם 재모음 읽기를 지지한다고 보고되는 히브리어 사본: 미확인이다."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T06:03:33Z) into private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and Gen 6:17, 49:16.",
+      "excerpts": {
+        "Gen.6.17 (cantillation stripped)": "וַאֲנִי הִנְנִי מֵבִיא אֶת הַמַּבּוּל מַיִם עַל הָאָרֶץ לְשַׁחֵת כָּל בָּשָׂר אֲשֶׁר בּוֹ רוּחַ חַיִּים מִתַּחַת הַשָּׁמָיִם כֹּל אֲשֶׁר בָּאָרֶץ יִגְוָֽע",
+        "Gen.49.16 (cantillation stripped)": "דָּן יָדִין עַמּוֹ כְּאַחַד שִׁבְטֵי יִשְׂרָאֵֽל"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Job.xml",
+      "accessed_utc": "2026-10-30T06:04:49Z-06:04:51Z",
+      "file_sha256": "7db3311184122f37a8fd52f3c7c0c4a6d2da7b77ee82f4fdb26bcba9171d297f",
+      "what_it_is": "Pinned WLC/OSHB Job (same commit and rights as above).",
+      "excerpts": {
+        "Job.1.6 (cantillation stripped)": "וַיְהִי הַיּוֹם וַיָּבֹאוּ בְּנֵי הָאֱלֹהִים לְהִתְיַצֵּב עַל יְהוָה וַיָּבוֹא גַֽם הַשָּׂטָן בְּתוֹכָֽם",
+        "Job.38.7 (cantillation stripped)": "בְּרָן יַחַד כּוֹכְבֵי בֹקֶר וַיָּרִיעוּ כָּל בְּנֵי אֱלֹהִֽים"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-10-30T06:04:49Z-06:04:51Z",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "what_it_is": "Pinned WLC/OSHB Num (same commit and rights as above).",
+      "excerpts": {
+        "Num.13.33 (cantillation stripped)": "וְשָׁם רָאִינוּ אֶת הַנְּפִילִים בְּנֵי עֲנָק מִן הַנְּפִלִים וַנְּהִי בְעֵינֵינוּ כַּֽחֲגָבִים וְכֵן הָיִינוּ בְּעֵינֵיהֶֽם"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-30T06:04:49Z-06:04:51Z",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "what_it_is": "Pinned WLC/OSHB Deut (same commit and rights as above).",
+      "excerpts": {
+        "Deut.32.8 (cantillation stripped)": "בְּהַנְחֵל עֶלְיוֹן גּוֹיִם בְּהַפְרִידוֹ בְּנֵי אָדָם יַצֵּב גְּבֻלֹת עַמִּים לְמִסְפַּר בְּנֵי יִשְׂרָאֵֽל",
+        "Deut.32.36 (cantillation stripped)": "כִּֽי יָדִין יְהוָה עַמּוֹ וְעַל עֲבָדָיו יִתְנֶחָם כִּי יִרְאֶה כִּי אָזְלַת יָד וְאֶפֶס עָצוּר וְעָזֽוּב"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezek.xml",
+      "accessed_utc": "already present in private/upstream_cache (not re-downloaded in this run)",
+      "file_sha256": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+      "what_it_is": "Pinned WLC/OSHB Ezekiel; used only for the lemma search (Ezek 32:27 gibborim/noflim context).",
+      "excerpts": {}
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T06:05:13Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Raw OCR-derived digital text of Swete Septuagint (First1KGreek) in a third-party repository; same file hash as used by run 20261030T050134Z-7527a17b. Not a manuscript or critical apparatus. Short excerpts quoted verbatim including OCR spacing defects; file not redistributed.",
+      "excerpts": {
+        "1.6.1": "Καὶ ἐγένετο ἡνίκα ἤρξαντο οἱ ἄνθρωποι πολλοὶ γίνεσθαι ἐπὶ τῆς γῆς, καὶ θυγατέρες ἐγενήθησαν αὐτοῖς·",
+        "1.6.2": "ἰδόντες δὲ οἱ ἄγγελοι τοῦτὰς θυγατέρας τῶν ἀνθρώπων ὅτι καλαί εἰσιν, ἔλαβον ἑαυτοῖς γυναῖκας ἀπὸ πασῶν ὧν ἐξελέξαντο.",
+        "1.6.3": "καὶ εἶπεν κύριος ὁ θεός Οὐ μὴ καταμείνῃτὸ πνεῦμά μου ἐν τοῖς ἀνθρώποις τούτοις εἰς τὸν αἰῶνα, διὰ τὸ εἶναι αὐτοὺς σάρκας· ἔσονται δὲ αἱ ἡμέραι αὐτῶν ἑκατὸν εἴκοσι ἔτη.",
+        "1.6.4": "οἱ δὲγίγαντες ἦσαν ἐπὶ τῆς γῆς ἐν § ταῖς ἡμέραις ἐκείναις, καὶ μετ’ ἐκεῖνο ὡς ἄν εἰσεπορεύοντο οἱ υἱοὶ τοῦ θεοῦ πρὸς τὰς θυγατέρας τῶν ἀνθρώπων,καὶ ἐγεννῶσαν ἑαυτοῖς· ἐκεῖνοι ἦσαν οἱ γίγαντες οἱ ἀπ’ αἰῶνος, οἱ ἄνθρωποι οἱ ὀνομαστοί."
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LogosBible/SBLGNT/master/data/sblgnt/text/Jude.txt",
+      "accessed_utc": "2026-10-30T06:05:13Z",
+      "file_sha256": "9d80e8332848395a7af425ebf30edd21c9c43f0f446489f648b65c652630b734",
+      "what_it_is": "SBLGNT (CC BY 4.0). Reception evidence only; does not name Genesis 6.",
+      "excerpts": {
+        "Jude 1:6": "ἀγγέλους τε τοὺς μὴ τηρήσαντας τὴν ἑαυτῶν ἀρχὴν ἀλλὰ ἀπολιπόντας τὸ ἴδιον οἰκητήριον εἰς κρίσιν μεγάλης ἡμέρας δεσμοῖς ἀϊδίοις ὑπὸ ζόφον τετήρηκεν·"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LogosBible/SBLGNT/master/data/sblgnt/text/2Pet.txt",
+      "accessed_utc": "2026-10-30T06:05:14Z",
+      "file_sha256": "7afd9df2ea451cc6b3d55984d12fcf8d8d159b5f3d40489b4ebd375dbac8aea0",
+      "what_it_is": "SBLGNT (CC BY 4.0). Reception evidence only; does not name Genesis 6.",
+      "excerpts": {
+        "2Pet 2:4": "Εἰ γὰρ ὁ θεὸς ἀγγέλων ἁμαρτησάντων οὐκ ἐφείσατο, ἀλλὰ ⸀σειραῖς ζόφου ταρταρώσας παρέδωκεν εἰς κρίσιν τηρουμένους,"
+      }
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or critical-apparatus verification was performed.",
+    "No GPT, Gemini, Antigravity or human review response was obtained or is represented here.",
+    "No human specialist review or unanimous agreement is claimed.",
+    "No credit balance, dollar amount or credit deduction is asserted.",
+    "This file does not change data/editorial.json, data/decisions.json, data/releases/, dist/ or main."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T060333Z-f303697f.json",
+    "packet_sha256": "1f64135a7803ad77216b73bf2029c273a68cb16b4ae89c9e6f105f3af0272cdb",
+    "verses": [
+      {
+        "id": "Gen.6.1",
+        "raw_xml": "<verse osisID=\"Gen.6.1\">\n          <w lemma=\"c/1961\" n=\"1.1.0\" morph=\"HC/Vqw3ms\" id=\"01hdw\">וַֽ/יְהִי֙</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01LaJ\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2490 c\" morph=\"HVhp3ms\" id=\"01ZkJ\">הֵחֵ֣ל</w>\n          <w lemma=\"d/120\" n=\"1.1\" morph=\"HTd/Ncmsa\" id=\"01rrP\">הָֽ/אָדָ֔ם</w>\n          <w lemma=\"l/7231\" n=\"1.0\" morph=\"HR/Vqc\" id=\"01fqW\">לָ/רֹ֖ב</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01sNS\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6440\" morph=\"HNcbpc\" id=\"01Rij\">פְּנֵ֣י</w>\n          <w lemma=\"d/127\" n=\"1\" morph=\"HTd/Ncfsa\" id=\"01rq9\">הָֽ/אֲדָמָ֑ה</w>\n          <w lemma=\"c/1323\" n=\"0.0\" morph=\"HC/Ncfpa\" id=\"012pQ\">וּ/בָנ֖וֹת</w>\n          <w lemma=\"3205\" morph=\"HVPp3cp\" id=\"01hDH\">יֻלְּד֥וּ</w>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp3mp\" id=\"01zCX\">לָ/הֶֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "4e7b21903568fa81770d9482528cb094f041da65db3e1acb1774a2cf5201914b",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.6.2",
+        "raw_xml": "<verse osisID=\"Gen.6.2\">\n          <w lemma=\"c/7200\" morph=\"HC/Vqw3mp\" id=\"01BTq\">וַ/יִּרְא֤וּ</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"01qmD\">בְנֵי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/430\" n=\"1.1.0\" morph=\"HTd/Ncmpa\" id=\"01T54\">הָֽ/אֱלֹהִים֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01KK7\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1323\" morph=\"HNcfpc\" id=\"01xrB\">בְּנ֣וֹת</w>\n          <w lemma=\"d/120\" n=\"1.1\" morph=\"HTd/Ncmsa\" id=\"012tb\">הָֽ/אָדָ֔ם</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01AAU\">כִּ֥י</w>\n          <w lemma=\"2896 a\" n=\"1.0\" morph=\"HAafpa\" id=\"01fKo\">טֹבֹ֖ת</w>\n          <w lemma=\"2007\" n=\"1\" morph=\"HPp3fp\" id=\"01hrP\">הֵ֑נָּה</w>\n          <w lemma=\"c/3947\" morph=\"HC/Vqw3mp\" id=\"01NXB\">וַ/יִּקְח֤וּ</w>\n          <w lemma=\"l\" n=\"0.1.0\" morph=\"HR/Sp3mp\" id=\"01cv9\">לָ/הֶם֙</w>\n          <w lemma=\"802\" n=\"0.1\" morph=\"HNcfpa\" id=\"018HL\">נָשִׁ֔ים</w>\n          <w lemma=\"m/3605\" n=\"0.0\" morph=\"HR/Ncmsa\" id=\"01sDr\">מִ/כֹּ֖ל</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01Xyc\">אֲשֶׁ֥ר</w>\n          <w lemma=\"977\" n=\"0\" morph=\"HVqp3cp\" id=\"01nYo\">בָּחָֽרוּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "f0caf275440b65c603d4f290ad77c4c556ee2b23821ff71dddf3a36ed3309259",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.6.3",
+        "raw_xml": "<verse osisID=\"Gen.6.3\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01pow\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"3068\" n=\"1.1.1\" morph=\"HNp\" id=\"01j9W\">יְהוָ֗ה</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01c3J\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1777\" morph=\"HVqi3ms\" id=\"01a5b\">יָד֨וֹן</w>\n          <w lemma=\"7307\" morph=\"HNcbsc/Sp1cs\" id=\"01wEY\">רוּחִ֤/י</w>\n          <w lemma=\"b/120\" n=\"1.1.0\" morph=\"HRd/Ncmsa\" id=\"01EQ4\">בָֽ/אָדָם֙</w>\n          <w lemma=\"l/5769\" n=\"1.1\" morph=\"HR/Ncmsa\" id=\"01avL\">לְ/עֹלָ֔ם</w>\n          <w lemma=\"b/s/1571\" n=\"1.0\" morph=\"HR/Tr/D\" id=\"017ej\">בְּ/שַׁ/גַּ֖ם</w>\n          <w lemma=\"1931\" morph=\"HPp3ms\" id=\"01amD\">ה֣וּא</w>\n          <w lemma=\"1320\" n=\"1\" morph=\"HNcmsa\" id=\"01VUr\">בָשָׂ֑ר</w>\n          <w lemma=\"c/1961\" morph=\"HC/Vqq3cp\" id=\"01yB6\">וְ/הָי֣וּ</w>\n          <w lemma=\"3117\" n=\"0.1\" morph=\"HNcmpc/Sp3ms\" id=\"01c5N\">יָמָ֔י/ו</w>\n          <w lemma=\"3967\" morph=\"HAcbsa\" id=\"01T55\">מֵאָ֥ה</w>\n          <w lemma=\"c/6242\" n=\"0.0\" morph=\"HC/Acbpa\" id=\"01peT\">וְ/עֶשְׂרִ֖ים</w>\n          <w lemma=\"8141\" n=\"0\" morph=\"HNcfsa\" id=\"01Ksj\">שָׁנָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "cbfc85a23df9a5a5a13e9503b1f2d17a338682fdf63d3091e4314eee33185e8a",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.6.4",
+        "raw_xml": "<verse osisID=\"Gen.6.4\">\n          <w lemma=\"d/5303\" n=\"1.2.0.0\" morph=\"HTd/Ncmpa\" id=\"01Z3e\">הַ/נְּפִלִ֞ים</w>\n          <w lemma=\"1961\" morph=\"HVqp3cp\" id=\"01Kzf\">הָי֣וּ</w>\n          <w lemma=\"b/776\" n=\"1.2.0\" morph=\"HRd/Ncbsa\" id=\"01orc\">בָ/אָרֶץ֮</w>\n          <w lemma=\"b/3117\" morph=\"HRd/Ncmpa\" id=\"0162Y\">בַּ/יָּמִ֣ים</w>\n          <w lemma=\"d/1992\" n=\"1.2\" morph=\"HTd/Pp3mp\" id=\"01k5t\">הָ/הֵם֒</w>\n          <w lemma=\"c/1571\" morph=\"HC/Ta\" id=\"01KZM\">וְ/גַ֣ם</w>\n          <w lemma=\"310 a\" morph=\"HR\" id=\"01rez\">אַֽחֲרֵי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.1.1\" morph=\"HD\" id=\"01HUJ\">כֵ֗ן</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01psq\">אֲשֶׁ֨ר</w>\n          <w lemma=\"935\" n=\"1.1.0.0\" morph=\"HVqi3mp\" id=\"01WRG\">יָבֹ֜אוּ</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"01wbu\">בְּנֵ֤י</w>\n          <w lemma=\"d/430\" n=\"1.1.0\" morph=\"HTd/Ncmpa\" id=\"01Bav\">הָֽ/אֱלֹהִים֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01GVi\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1323\" morph=\"HNcfpc\" id=\"01Csn\">בְּנ֣וֹת</w>\n          <w lemma=\"d/120\" n=\"1.1\" morph=\"HTd/Ncmsa\" id=\"01R9z\">הָֽ/אָדָ֔ם</w>\n          <w lemma=\"c/3205\" n=\"1.0\" morph=\"HC/Vqq3cp\" id=\"01tn3\">וְ/יָלְד֖וּ</w>\n          <w lemma=\"l\" n=\"1\" morph=\"HR/Sp3mp\" id=\"01uiF\">לָ/הֶ֑ם</w>\n          <w lemma=\"1992\" morph=\"HPp3mp\" id=\"01hmQ\">הֵ֧מָּה</w>\n          <w lemma=\"d/1368\" n=\"0.0.0\" morph=\"HTd/Aampa\" id=\"01pj9\">הַ/גִּבֹּרִ֛ים</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01gza\">אֲשֶׁ֥ר</w>\n          <w lemma=\"m/5769\" n=\"0.0\" morph=\"HR/Ncmsa\" id=\"01nh4\">מֵ/עוֹלָ֖ם</w>\n          <w lemma=\"376\" morph=\"HNcmpc\" id=\"01yip\">אַנְשֵׁ֥י</w>\n          <w lemma=\"d/8034\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"01yhX\">הַ/שֵּֽׁם</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "bee25d5ac6fa7788ede822151c32e983f954ac7284ceec3535fb5e5e4d321c38",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "author_project": "Hansam Yang (founder and original creator); this file is a model review, not an editorial selection"
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T060333Z-f303697f.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "qere_ketiv_present": false,
+    "paragraph_marker_preserved": true,
+    "nonempty_ko_en_es": true,
+    "independent_reading_per_verse": true,
+    "clause_coverage": {
+      "Gen.6.1": 2,
+      "Gen.6.2": 2,
+      "Gen.6.3": 4,
+      "Gen.6.4": 3
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "current_selected_changed": false,
+    "original_vs_interpretation_separated": "clause-level notes mark lexical/syntactic/discourse/textual/reception questions; alternatives B/C for sons of God and the beshaggam revocalization are labelled interpretation or reconstruction, not attested MT readings",
+    "authentic_attribution": "Only actual saved records are compared; no GPT/Gemini/human response is represented.",
+    "initial_proposals_nonempty": true,
+    "target_ids_exactly_once": true,
+    "all_required_checks_pass": true
+  }
+}
