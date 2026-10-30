@@ -1,0 +1,1556 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T200837Z-c6b450d4",
+  "unit_id": "gen-27-18-23",
+  "verse_ids": [
+    "Gen.27.18",
+    "Gen.27.19",
+    "Gen.27.20",
+    "Gen.27.21",
+    "Gen.27.22",
+    "Gen.27.23"
+  ],
+  "unit_issue_ko": "나는 에서라는 발화·구문 분절과 윤리적 해석 분리",
+  "classification": "upcoming_difficult_review",
+  "author_project": "Hansam Yang (founder and original creator); this file is an unadopted model review, not an editorial selection",
+  "traditional_numbering_note": "OSIS Gen.27.18-23 = 전통 장절 창세기 27:18-23(한국어·영어·스페인어 성경 공통; library KRV/ASV/RV1909 같은 번호·같은 내용 확인). 칠십인역 OCR도 1.27.18-1.27.23으로 같은 절 경계.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml (copied byte-for-byte from the claim packet by script). clause hebrew_display and parallel excerpts are derived displays (slashes removed, cantillation/meteg/sof-pasuq removed, maqqef segments omitted, NFC) and are not source text.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T20:09Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The system prompt of this session also names claude-opus-5-5. A model self-report is not source evidence.",
+    "session": "https://claude.ai/code/session_01UknqVKrsha4USgF8WBy8y2",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false at 20:09Z and 20:16Z. This is service metadata only; no balance, dollar amount or per-run credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ],
+    "identity_rechecked": "2026-10-30T20:16:30Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional allowed, isUsingOverage=false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Gen.27.18",
+      "clauses": [
+        {
+          "hebrew_display": "וַיָּבֹא אֶל אָבִיו",
+          "word_ids": [
+            "01r5m",
+            "012oJ",
+            "01Ev1"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "וַיָּבֹא 칼 와우 연속형 = 그가 (아버지에게) 들어갔다/갔다. 주어 미명시이나 앞 17절 문맥상 야곱. 마소라 모음은 칼(왔다)이며 같은 자음 ויבא를 히필(가져왔다)로 읽을 가능성은 아래 textual 항목에서 따로 다룬다."
+        },
+        {
+          "hebrew_display": "וַיֹּאמֶר אָבִי",
+          "word_ids": [
+            "0198F",
+            "0174y"
+          ],
+          "kind": "discourse",
+          "reading_ko": "아트나흐가 אָבִי(‘아버지’) 뒤에 온다. 호격 한 마디로 대화를 연다."
+        },
+        {
+          "hebrew_display": "וַיֹּאמֶר הִנֶּנִּי",
+          "word_ids": [
+            "0152H",
+            "01xAC"
+          ],
+          "kind": "discourse",
+          "reading_ko": "둘째 וַיֹּאמֶר도 주어 미명시. 화자 전환은 문맥으로만 결정(이삭). הִנֵּנִי = ‘내가 여기 있다’(22:1, 22:7, 22:11의 아브라함·이삭 장면과 같은 응답어)."
+        },
+        {
+          "hebrew_display": "מִי אַתָּה בְּנִי",
+          "word_ids": [
+            "018JG",
+            "01nzC",
+            "01nLz"
+          ],
+          "kind": "discourse",
+          "reading_ko": "מִי אַתָּה בְּנִי = ‘내 아들아, 너는 누구냐?’ 이삭은 ‘내 아들’이라 부르면서도 어느 아들인지 묻는다. 의심의 시작점."
+        }
+      ]
+    },
+    {
+      "id": "Gen.27.19",
+      "clauses": [
+        {
+          "hebrew_display": "וַיֹּאמֶר יַעֲקֹב אֶל אָבִיו",
+          "word_ids": [
+            "01yHH",
+            "017my",
+            "01t1k",
+            "01YQA"
+          ],
+          "kind": "discourse",
+          "reading_ko": "서술자가 화자를 ‘야곱’이라고 명시한다. 이어지는 ‘나는 에서’와 화자 이름 사이의 어긋남은 서술 자체가 제공하는 사실 정보다."
+        },
+        {
+          "hebrew_display": "אָנֹכִי עֵשָׂו בְּכֹרֶךָ",
+          "word_ids": [
+            "01b5H",
+            "01G7D",
+            "01wAJ"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "무동사 명사문: אָנֹכִי(주어) | עֵשָׂו בְּכֹרֶךָ(술어; 고유명사 + 동격 ‘네 맏아들’). 강세: אָנֹכִי에 파쉬타(분리 강세), עֵשָׂו에 무나(연결), בְּכֹרֶךָ에 자켑 카톤. 파쉬타는 세 낱말 자켑 영역에서 주어와 술어를 가르는 통상 하위 분할이며 그 자체로 문장 경계(‘나다. 에서는 네 맏아들이다’)를 표시하지 않는다. 문법상 자연 독해 = ‘나는 네 맏아들 에서다’. בְּכֹרֶךָ의 2인칭 접미사(‘네/아버지의’)를 번역에서 빠뜨리지 않는다."
+        },
+        {
+          "hebrew_display": "עָשִׂיתִי כַּאֲשֶׁר דִּבַּרְתָּ אֵלָי",
+          "word_ids": [
+            "01oje",
+            "01fWJ",
+            "01fpQ",
+            "01Ygv"
+          ],
+          "kind": "lexical",
+          "reading_ko": "עָשִׂיתִי כַּאֲשֶׁר דִּבַּרְתָּ אֵלָי = ‘네가 내게 말한 대로 내가 하였다’. 27:3-4 이삭의 지시(에서에게 한 말)를 그대로 받는다. 목적어 미명시."
+        },
+        {
+          "hebrew_display": "קוּם נָא שְׁבָה וְאָכְלָה מִצֵּידִי",
+          "word_ids": [
+            "01Nge",
+            "01Yp9",
+            "01wLi",
+            "0188S",
+            "01KAU"
+          ],
+          "kind": "lexical",
+          "reading_ko": "קוּם־נָא שְׁבָה וְאָכְלָה מִצֵּידִי: 명령 + נָא(정중/요청) + 강조형 명령 둘. ‘일어나 앉아 먹으라’ — 누워 있던 자세에서 일어나 앉는 동작으로 읽는 것이 가장 단순하다. מִצֵּידִי = ‘내 사냥물 가운데서/내가 사냥한 것에서’."
+        },
+        {
+          "hebrew_display": "בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶׁךָ",
+          "word_ids": [
+            "01Xxi",
+            "01xb7",
+            "01DtU"
+          ],
+          "kind": "discourse",
+          "reading_ko": "בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶׁךָ = 목적절 ‘네 נֶפֶשׁ가 나를 축복하도록’. 27:4 이삭 자신의 말(בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי)과 27:31 에서의 말이 같은 구문 — 야곱은 아버지의 말투를 그대로 되돌린다. נֶפֶשׁ = 자아/생명/온 마음; 한국어 ‘영혼’은 오해를 부를 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "Gen.27.20",
+      "clauses": [
+        {
+          "hebrew_display": "וַיֹּאמֶר יִצְחָק אֶל בְּנוֹ",
+          "word_ids": [
+            "01poL",
+            "01KEx",
+            "01YMD",
+            "01TF6"
+          ],
+          "kind": "discourse",
+          "reading_ko": "서술자가 이삭과 ‘그의 아들’을 명시(누구인지는 말하지 않음 — 서술 시점이 이삭의 불확실성에 맞춰짐)."
+        },
+        {
+          "hebrew_display": "מַה זֶּה מִהַרְתָּ לִמְצֹא בְּנִי",
+          "word_ids": [
+            "01YB7",
+            "01hR3",
+            "01kGQ",
+            "01jYh",
+            "01jtu"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "מַה־זֶּה + 완료: זֶּה는 의문사 강조 접어(‘도대체 어떻게’). מִהַרְתָּ לִמְצֹא = 피엘 מהר + 부정사 ‘서둘러 찾았다 = 이렇게 빨리 찾았다’. 목적어 미명시(사냥감)."
+        },
+        {
+          "hebrew_display": "וַיֹּאמֶר",
+          "word_ids": [
+            "01EBN"
+          ],
+          "kind": "discourse",
+          "reading_ko": "וַיֹּאמֶר 주어 미명시 — 야곱의 답."
+        },
+        {
+          "hebrew_display": "כִּי הִקְרָה יְהוָה אֱלֹהֶיךָ לְפָנָי",
+          "word_ids": [
+            "01PYi",
+            "01KSQ",
+            "01yN8",
+            "01AVR",
+            "01fjn"
+          ],
+          "kind": "lexical",
+          "reading_ko": "כִּי 이유. הִקְרָה 히필 קרה = ‘마주치게 하다/일이 맞아떨어지게 하다’(24:12 아브라함의 종의 기도 הַקְרֵה־נָא לְפָנַי와 같은 표현). 목적어 미명시. יְהוָה אֱלֹהֶיךָ = ‘네 하나님 야훼’ — 야곱이 ‘나의/우리의’가 아니라 ‘아버지의’ 하나님이라 말하는 점을 번역에서 보존. 거짓 진술에 신명을 끌어들이는 문제는 해석 영역."
+        }
+      ]
+    },
+    {
+      "id": "Gen.27.21",
+      "clauses": [
+        {
+          "hebrew_display": "וַיֹּאמֶר יִצְחָק אֶל יַעֲקֹב",
+          "word_ids": [
+            "01CTb",
+            "01k9N",
+            "011M5",
+            "01Mcv"
+          ],
+          "kind": "discourse",
+          "reading_ko": "서술자는 ‘야곱에게’라고 명시하지만 이삭은 ‘내 아들’이라고만 부른다. 독자 지식과 등장인물 지식의 간격."
+        },
+        {
+          "hebrew_display": "גְּשָׁה נָּא וַאֲמֻשְׁךָ בְּנִי",
+          "word_ids": [
+            "01Jkx",
+            "01bzS",
+            "01VrM",
+            "01TCd"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "גְּשָׁה־נָּא (강조형 명령 + נָא) וַאֲמֻשְׁךָ (와우 + 1인칭 청유형 = 목적 ‘내가 너를 만지도록’). 어근 מוּשׁ(OSHB lemma 4184); 22절 וַיְמֻשֵּׁהוּ와 27:12 יְמֻשֵּׁנִי는 lemma 4959 משׁשׁ로 표시 — 같은 ‘더듬어 만지다’ 의미의 두 형태. 아트나흐가 בְּנִי 뒤."
+        },
+        {
+          "hebrew_display": "הַאַתָּה זֶה בְּנִי עֵשָׂו אִם לֹא",
+          "word_ids": [
+            "01acR",
+            "0188f",
+            "01zKH",
+            "01EkC",
+            "01XXd",
+            "01v2Y"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "הַאַתָּה זֶה בְּנִי עֵשָׂו אִם־לֹא = 의문 הֲ + 강조 זֶה ‘네가 정말 내 아들 에서냐, 아니냐’. 앞 동사(만지다)에 걸린 간접의문(‘…인지 아닌지’)으로도, 아트나흐 뒤 독립 직접의문으로도 읽힌다. 히브리어에 ‘알다/보다’ 동사는 없다 — 번역에서 추가하지 않는 편을 선호."
+        }
+      ]
+    },
+    {
+      "id": "Gen.27.22",
+      "clauses": [
+        {
+          "hebrew_display": "וַיִּגַּשׁ יַעֲקֹב אֶל יִצְחָק אָבִיו",
+          "word_ids": [
+            "01w1p",
+            "01MPM",
+            "01TLb",
+            "01hPU",
+            "01Qrn"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "וַיִּגַּשׁ 니팔 נגשׁ = 가까이 갔다. 서술자가 ‘야곱’과 ‘그의 아버지 이삭’을 모두 명시."
+        },
+        {
+          "hebrew_display": "וַיְמֻשֵּׁהוּ",
+          "word_ids": [
+            "01ttx"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וַיְמֻשֵּׁהוּ = ‘그가 그를 더듬어 만졌다’(주어 이삭, 목적어 야곱 — 문맥). 27:12 야곱의 걱정(אוּלַי יְמֻשֵּׁנִי אָבִי)이 그대로 실현됨."
+        },
+        {
+          "hebrew_display": "וַיֹּאמֶר",
+          "word_ids": [
+            "01izd"
+          ],
+          "kind": "discourse",
+          "reading_ko": "주어 미명시(이삭)."
+        },
+        {
+          "hebrew_display": "הַקֹּל קוֹל יַעֲקֹב",
+          "word_ids": [
+            "01GNT",
+            "01BW1",
+            "01XHh"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "הַקֹּל קוֹל יַעֲקֹב = 무동사 명사문 ‘목소리는 야곱의 목소리’. קוֹל이 음색인지 말투(예: 신명 언급, 정중한 נָא)인지는 본문이 정하지 않는다 — 해석 영역. 번역은 ‘목소리’."
+        },
+        {
+          "hebrew_display": "וְהַיָּדַיִם יְדֵי עֵשָׂו",
+          "word_ids": [
+            "01d51",
+            "01M9Z",
+            "01EZY"
+          ],
+          "kind": "discourse",
+          "reading_ko": "וְהַיָּדַיִם יְדֵי עֵשָׂו = 대조의 וְ ‘그러나 손은 에서의 손’. 앞 행과 정확히 평행(관사 붙은 주어 + 연계형 술어 + 이름). 이 평행을 세 언어에서 보존."
+        }
+      ]
+    },
+    {
+      "id": "Gen.27.23",
+      "clauses": [
+        {
+          "hebrew_display": "וְלֹא הִכִּירוֹ",
+          "word_ids": [
+            "01zaH",
+            "01tqU"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וְלֹא הִכִּירוֹ = 히필 נכר ‘알아보지 못했다’. 같은 동사가 37:32-33(הַכֶּר־נָא … וַיַּכִּירָהּ: 야곱이 아들의 옷을 ‘알아봄’ — 염소 피)과 38:25-26(유다)에서 핵심어로 다시 나온다. 번역 용어를 ‘알아보다/recognize/reconocer’로 고정하면 이 연결이 보존된다(연결의 의미 부여는 해석 영역)."
+        },
+        {
+          "hebrew_display": "כִּי הָיוּ יָדָיו כִּידֵי עֵשָׂו אָחִיו שְׂעִרֹת",
+          "word_ids": [
+            "01sL7",
+            "0162z",
+            "01p4B",
+            "01QVp",
+            "01ERj",
+            "01zLy",
+            "011Qm"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "כִּי־הָיוּ יָדָיו כִּידֵי עֵשָׂו אָחִיו שְׂעִרֹת = ‘그의 손이 그의 형 에서의 손처럼 털이 많았기 때문’. שְׂעִרֹת(형용사 여성 복수)는 문장 끝에 놓인 술어로 יָדָיו와 일치. 27:11 שָׂעִר / 27:16 염소 새끼 가죽과 연결. 소유 접미사 ‘그의’는 야곱(축복받는 이)."
+        },
+        {
+          "hebrew_display": "וַיְבָרְכֵהוּ",
+          "word_ids": [
+            "01PWq"
+          ],
+          "kind": "discourse",
+          "reading_ko": "וַיְבָרְכֵהוּ = ‘그리고 그가 그를 축복하였다’. 24절에서 확인 질문이 다시 시작되고 27절에서 같은 동사 וַיְבָרֲכֵהוּ 뒤에 실제 축복 말이 나온다. 따라서 23절 끝은 (A) 결과를 미리 말하는 요약/선행 서술, 또는 (B) 착수(‘축복하려 하였다’)로 읽힌다. 형태는 일반 와우 연속형이며 착수 의미를 표시하는 형태 표지는 없다. 33절 이삭 자신의 회고 וָאֲבָרֲכֵהוּ(‘내가 그를 축복하였다’)는 축복 행위 전체를 한 사건으로 묶는다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Gen.27.18",
+      "ko": "그가 아버지에게 가서 말했다. “아버지.” 아버지가 말했다. “내가 여기 있다. 내 아들아, 너는 누구냐?”",
+      "en": "He went in to his father and said, “My father.” And he said, “Here I am. Who are you, my son?”",
+      "es": "Entró adonde estaba su padre y dijo: «Padre mío». Y él respondió: «Aquí estoy. ¿Quién eres tú, hijo mío?»."
+    },
+    {
+      "id": "Gen.27.19",
+      "ko": "야곱이 아버지에게 말했다. “저는 아버지의 맏아들 에서입니다. 아버지께서 저에게 말씀하신 대로 했습니다. 부디 일어나 앉으셔서 제가 사냥한 것을 드시고, 아버지께서 마음을 다해 저를 축복해 주십시오.”",
+      "en": "Jacob said to his father, “I am Esau your firstborn. I have done as you told me. Please get up, sit and eat of my game, so that your soul may bless me.”",
+      "es": "Jacob dijo a su padre: «Yo soy Esaú, tu primogénito. He hecho como me dijiste. Levántate, te ruego, siéntate y come de mi caza, para que tu alma me bendiga»."
+    },
+    {
+      "id": "Gen.27.20",
+      "ko": "이삭이 자기 아들에게 말했다. “내 아들아, 어떻게 이처럼 빨리 찾았느냐?” 그가 말했다. “아버지의 하나님 야훼께서 그것을 제 앞에 마주치게 해 주셨기 때문입니다.”",
+      "en": "Isaac said to his son, “How is it that you found it so quickly, my son?” He said, “Because YHWH your God made it come my way.”",
+      "es": "Isaac dijo a su hijo: «¿Cómo es que lo hallaste tan pronto, hijo mío?». Él respondió: «Porque YHWH tu Dios hizo que se presentara delante de mí»."
+    },
+    {
+      "id": "Gen.27.21",
+      "ko": "이삭이 야곱에게 말했다. “내 아들아, 가까이 오너라. 내가 너를 만져 보겠다. 네가 정말 내 아들 에서냐, 아니냐?”",
+      "en": "Isaac said to Jacob, “Come near, please, so that I may feel you, my son, whether you are really my son Esau or not.”",
+      "es": "Isaac dijo a Jacob: «Acércate, te ruego, para que te palpe, hijo mío, a ver si de verdad eres mi hijo Esaú o no»."
+    },
+    {
+      "id": "Gen.27.22",
+      "ko": "야곱이 아버지 이삭에게 가까이 가자, 이삭이 그를 만져 보고 말했다. “목소리는 야곱의 목소리인데, 손은 에서의 손이로구나.”",
+      "en": "So Jacob came near to Isaac his father, and he felt him and said, “The voice is the voice of Jacob, but the hands are the hands of Esau.”",
+      "es": "Jacob se acercó a Isaac su padre, y este lo palpó y dijo: «La voz es la voz de Jacob, pero las manos son las manos de Esaú»."
+    },
+    {
+      "id": "Gen.27.23",
+      "ko": "이삭은 그를 알아보지 못했다. 그의 손이 그의 형 에서의 손처럼 털이 많았기 때문이다. 그리하여 이삭은 그를 축복했다.",
+      "en": "He did not recognize him, because his hands were hairy like the hands of his brother Esau. So he blessed him.",
+      "es": "No lo reconoció, porque sus manos eran velludas como las manos de su hermano Esaú; y lo bendijo."
+    }
+  ],
+  "initial_proposals_note": "The readings above were formed from the claim packet raw XML before the Sonnet cloud draft was opened (~2026-10-30T20:09Z). Honest limit: unlike some earlier runs, no sealed timestamped scratch note was saved before that draft was viewed; the scratch note (scratchpad independent-reading.md) was written at ~20:10Z, after the draft had been displayed. Treat independence as declared, not proven.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 1a9ea8f) has 116 selected verses, none in Gen.27; packet current_selected is empty."
+    },
+    {
+      "kind": "saved_cloud_draft",
+      "result": "found",
+      "path": "origin/claude/friendly-heisenberg-gjppk9:automation/cloud-drafts/20261025T091809Z-3091ac03.json",
+      "model_label_as_saved": "requested_or_configured_model claude-sonnet-5-5 (identity basis: session system prompt; not endpoint-verified, as recorded in that file)",
+      "state_as_saved": "unadopted_model_draft",
+      "covers": [
+        "Gen.27.18",
+        "Gen.27.19",
+        "Gen.27.20",
+        "Gen.27.21",
+        "Gen.27.22",
+        "Gen.27.23"
+      ],
+      "missing": {}
+    },
+    {
+      "kind": "cloud_queue_input",
+      "result": "found",
+      "path": "automation/cloud-queue.json",
+      "note": "Gen.27.18-23 appear only as source-token input in batches Gen.27.batch4 and Gen.27.batch5; no translation there."
+    },
+    {
+      "kind": "source_queue_report",
+      "result": "found",
+      "path": "automation/source-queue-report.json",
+      "note": "Deferred Ketiv/Qere readings in chapter 27 are Gen.27.3 and Gen.27.29 only; none of the six target verses is deferred. Target raw XML contains no Ketiv/Qere or note markup."
+    },
+    {
+      "kind": "saved_gpt_or_gemini_records",
+      "result": "none_found",
+      "note": "No GPT, Gemini or Antigravity record for Gen.27 was found in data/ (including data/model-reviews release folders), reviews/, or any fetched claude/ branch (git grep Gen.27.1[89] and Gen.27.2[0-3]). None is quoted or implied."
+    },
+    {
+      "kind": "other_cloud_reviews",
+      "result": "none_relevant",
+      "note": "The 22 earlier hard-review manifests on claude/ branches cover other units; the gen-25-21-26 review cites Gen.27.36 (ASV) only for the Jacob name pun."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Gen.27.19",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 한국어 ‘내가 맏아들 에서입니다’는 בְּכֹרֶךָ의 ‘아버지의’를 빠뜨리고, 아들이 아버지에게 ‘내가/내게’와 ‘아버지가 … 말씀하신’을 섞어 높임 체계가 흔들린다. ‘아버지의 영혼이 저를 축복해’는 נֶפֶשׁ를 한국어 종교어 ‘영혼’으로 옮겨 오해 소지가 있다. 이 검토는 ‘저는 아버지의 맏아들 에서입니다’ + ‘마음을 다해’(각주로 נֶפֶשׁ 표시)를 제안한다. 영·스 ‘your soul/tu alma’는 27:4·31 반향 보존 때문에 유지."
+    },
+    {
+      "id": "Gen.27.19",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 reason_ko는 ‘거짓말이다’라고 단정한다. 화자가 야곱이라는 사실은 서술(19절 서두)이 주므로 진술이 사실과 다르다는 점은 본문 정보이지만, 그것을 윤리적으로 어떻게 평가하느냐(죄, 25:23 신탁과의 관계, 리브가의 책임 등)는 해석이다. 이 검토는 번역 근거에서 ‘서술상 사실과 다른 진술’까지만 적고 평가는 해석 노트로 분리한다."
+    },
+    {
+      "id": "Gen.27.20",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 영어 ‘granted me success’는 הִקְרָה … לְפָנַי의 ‘내 앞에 마주치게 하다’를 일반화한 의역이고(초안 스스로도 의역이라고 기록), 한국어 ‘당신의 하나님’은 아들이 아버지를 부르는 한국어 호칭으로 부적절하다. 신명은 ‘여호와/the LORD/el SEÑOR’로 현재 채택문 다수 관례(야훼/YHWH/YHWH)와 다르다."
+    },
+    {
+      "id": "Gen.27.21",
+      "severity": "low",
+      "finding_ko": "Sonnet 초안 영어 ‘to know whether’, 스페인어 ‘y sepa si’는 히브리어에 없는 ‘알다’ 동사를 추가했다. 한국어 초안(직접의문)은 이 검토와 같다."
+    },
+    {
+      "id": "Gen.27.22",
+      "severity": "low",
+      "finding_ko": "Sonnet 한국어 ‘그가 그를 만져 보고’는 주어가 모호하다. 이 검토는 ‘이삭이 그를 만져 보고’로 명시(히브리어 주어 미명시를 문맥으로 보충했음을 기록)."
+    },
+    {
+      "id": "Gen.27.23",
+      "severity": "low",
+      "finding_ko": "Sonnet 초안과 이 검토 모두 וַיְבָרְכֵהוּ를 요약 선행으로 보고 ‘축복했다’를 유지한다. 이 검토는 27절의 같은 동사 반복과 33절 이삭의 회고 וָאֲבָרֲכֵהוּ를 근거로 추가하고 각주를 권고한다."
+    },
+    {
+      "id": "Gen.27.18",
+      "severity": "low",
+      "finding_ko": "Sonnet 초안과 실질적으로 같다. 한국어 둘째 화자를 Sonnet은 ‘이삭이’, 이 검토는 본문에 있는 ‘아버지가’로 보충."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "비교 후 초기 제안을 바꾸지 않았다. 기존 Sonnet 초안과의 차이(27:19 한국어 소유 접미사 누락과 높임 혼선, 27:20 영어 의역·한국어 ‘당신’, 27:21 영·스 ‘알다’ 추가, 신명 표기)는 이 검토의 초기 판단을 바꿀 근거가 아니었다.",
+  "unverified_reception": [
+    {
+      "claim_ko": "라쉬(Rashi)가 27:19를 ‘나는 (음식을 가져온) 사람이고, 에서는 당신의 맏아들입니다’처럼 분절해 야곱의 말을 거짓이 아닌 것으로 읽었다는 일반적 보고, 그리고 ‘עָשִׂיתִי’를 ‘(당신이 말한) 여러 일을 했다’로 읽었다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "www.sefaria.org returned proxy 403 (connect_rejected) at 2026-10-30T20:10:46Z; guessed raw.githubusercontent paths for Sefaria-Export returned 404 at 20:10:55Z. The claim is recorded only as model background knowledge and must not be cited as verified."
+    },
+    {
+      "claim_ko": "라쉬/미드라쉬 전통이 22절 ‘야곱의 목소리’를 음색이 아니라 정중한 말투(קוּם־נָא, 신명 언급)로 설명한다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Same access failure; not verified."
+    },
+    {
+      "claim_ko": "타르굼 온켈로스의 27:19-20 처리.",
+      "status": "not_accessed",
+      "reason": "Sefaria blocked; no other accessible pinned Aramaic text located within the time limit."
+    },
+    {
+      "claim_ko": "일부 현대 영어 역본이 23절 끝을 24절과 이어 ‘축복하려 할 때’로 옮긴다는 보고(대안 B).",
+      "status": "not_verified_in_session",
+      "reason": "No modern copyrighted translation was accessed; the claim is not attributed to any specific version."
+    },
+    {
+      "claim_ko": "칠십인역 27:18 εἰσήνεγκεν, 27:19 ἐποίησα 유무, 27:20 σου 유무에 대한 인쇄본 Swete 또는 Göttingen 판의 실제 본문.",
+      "status": "not_verified_in_session",
+      "reason": "Only third-party raw OCR was accessed; no printed or critical edition was checked."
+    }
+  ],
+  "alternatives": {
+    "Gen.27.18": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "마소라 칼 וַיָּבֹא = ‘그가 아버지에게 갔다/들어갔다’",
+        "argument_ko": "고정 WLC 본문의 모음. 대화 장면 진입 동사로 자연스럽다(목적어 없음).",
+        "objection_ko": "칠십인역 OCR εἰσήνεγκεν은 ‘가져왔다’로, 같은 자음을 히필로 읽은 전승을 보여 줄 수 있다. 장 전체에서 ויבא 히필이 반복된다(14, 25, 31절)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "ויבא를 히필 ‘그가 (음식을) 아버지에게 가져갔다’로 재모음",
+        "argument_ko": "칠십인역 OCR 대응; 17절에서 음식이 야곱 손에 주어진 직후라 서사상 자연스럽다.",
+        "objection_ko": "고정 본문은 칼 모음(וַיָּבֹ֥א)이며 히필이라면 기대되는 목적어가 없다. 칠십인역 대응은 번역 선택일 수도 있다. 증언된 히브리어 독법이 아니라 재구성이므로 본문 번역에 쓰지 않는다."
+      }
+    ],
+    "Gen.27.19": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘저는 아버지의 맏아들 에서입니다’ / ‘I am Esau your firstborn’ / ‘Yo soy Esaú, tu primogénito’ — 한 문장 동일시",
+        "argument_ko": "무동사 명사문의 자연 분석(주어 | 술어). 파쉬타는 이 분할의 통상 강세. 24절 אָנִי 단답, 12절 כִּמְתַעְתֵּעַ, 35절 בְּמִרְמָה, 칠십인역 OCR 한 문장, 개역·ASV·RV1909 모두 같은 방향.",
+        "objection_ko": "strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "재분절: ‘저입니다(가져온 자는). 에서는 아버지의 맏아들이고요’",
+        "argument_ko": "파쉬타가 אָנֹכִי 뒤에 휴지를 둔다. 경건한 수용 전통이 야곱의 말을 문자적 거짓에서 구하려 할 때 쓰는 독해(라쉬 보고, 이 세션 미검증).",
+        "objection_ko": "파쉬타는 주어-술어 분할의 기본 강세라 문장 경계 증거가 아니다. 이 분절은 24절 단답을 설명하지 못한다. 서술자가 화자를 ‘야곱’으로 명시하고, 등장인물들이 행위를 ‘속임’으로 부른다. 번역문에 넣으면 해석을 본문으로 밀어 넣는 것이 된다 — 각주(수용사)로만."
+      },
+      {
+        "label": "nefesh",
+        "reading_ko": "נַפְשֶׁךָ: ko ‘마음을 다해’(각주: 직역 ‘아버지의 נֶפֶשׁ/영혼이’) / en ‘your soul’ / es ‘tu alma’",
+        "argument_ko": "한국어 ‘영혼이 축복한다’는 어색하고 종교적 오해 소지; 개역 ‘마음껏’과 같은 방향. 영·스는 27:4·31 반향을 위해 직역 유지.",
+        "objection_ko": "세 언어 처리가 달라 언어 간 대응이 흐려진다. 한국어도 ‘아버지의 영혼이’로 직역해 4·19·25·31절을 맞추자는 편집 방침이 나올 수 있다."
+      }
+    ],
+    "Gen.27.20": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘아버지의 하나님 야훼께서 그것을 제 앞에 마주치게 해 주셨기 때문입니다’ / ‘made it come my way’ / ‘hizo que se presentara delante de mí’",
+        "argument_ko": "הִקְרָה + לְפָנַי의 구체성(24:12 평행) 보존, ‘네 하나님’ 보존.",
+        "objection_ko": "한국어 ‘그것을’은 원문에 없는 목적어 보충이다(이삭의 ‘찾았느냐’도 목적어 없음)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘일이 잘되게 해 주셨다/granted me success/me dio buen éxito’",
+        "argument_ko": "자연스러운 의역; 개역 ‘순적히’, ASV ‘sent me good speed’와 같은 방향.",
+        "objection_ko": "24:12와의 어휘 연결과 ‘내 앞에’ 공간성이 사라진다."
+      }
+    ],
+    "Gen.27.21": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘…만져 보겠다. 네가 정말 내 아들 에서냐, 아니냐?’(ko 직접의문) / en·es 간접 ‘whether … or not’, ‘a ver si … o no’",
+        "argument_ko": "‘알다’ 동사를 추가하지 않는다. 아트나흐 분할과 맞는다. 칠십인역 OCR·ASV·RV1909도 ‘알다’ 없음.",
+        "objection_ko": "스페인어 ‘a ver si’도 관용적 보충이며, 한국어 직접의문과 영·스 간접의문이 형식상 다르다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘…네가 정말 내 아들 에서인지 아닌지 알아보겠다’",
+        "argument_ko": "한국어 문장으로 매끄럽다.",
+        "objection_ko": "원문에 없는 동사 추가."
+      }
+    ],
+    "Gen.27.22": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘목소리는 야곱의 목소리인데, 손은 에서의 손이로구나’ — 두 행 평행 + 대조",
+        "argument_ko": "원문 평행을 그대로 따른다; 세 전통 역본도 같은 구조.",
+        "objection_ko": "‘목소리’가 음색인지 말투인지 결정하지 않는다(의도적 보존이지만 독자 질문은 남음)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘말투는 야곱의 말투인데…’",
+        "argument_ko": "수용 전통 일부의 설명(미검증)과 맞음.",
+        "objection_ko": "קוֹל의 기본 의미는 소리/목소리; 해석을 본문화함."
+      }
+    ],
+    "Gen.27.23": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "요약 선행: ‘그리하여 이삭은 그를 축복했다’ + 각주",
+        "argument_ko": "일반 와우 연속형 형태 그대로; 27절에서 같은 동사로 재개; 33절 회고; 칠십인역 OCR 단순 부정과거; 전통 역본 모두 ‘축복하였더라/blessed/bendijo’.",
+        "objection_ko": "독자는 23절에서 축복이 끝났다고 읽고 24-29절을 두 번째 축복으로 오해할 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "착수: ‘축복하려고 하였다/and was about to bless him/y se dispuso a bendecirlo’",
+        "argument_ko": "24절 질문 재개와 매끄럽게 연결된다.",
+        "objection_ko": "착수 의미를 표시하는 형태가 없다; 번역자가 서사 기법(요약 선행)을 제거하게 된다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "ברך = ‘인사하다/문안하다’",
+        "argument_ko": "ברך가 인사 의미로 쓰이는 문맥이 있다는 일반적 주장.",
+        "objection_ko": "이 장 전체의 핵심어가 ‘축복’(בְּרָכָה)이며 27절에서 같은 동사가 축복 말을 이끈다. 이 장면에서 근거가 약하다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.27.19 rendered as one identifying statement (I am Esau your firstborn), with the ethical evaluation kept out of the translation",
+    "objection_ko": "가장 강한 반론: (1) 마소라 강세는 אָנֹכִי 위에 분리 강세 파쉬타를 두어 ‘나(입니다)’ 뒤에 실제 휴지를 표시한다. 강세 전통 자체가 이 분절을 허용하므로 ‘저는 … 에서입니다’로 한 문장을 만드는 것은 강세 정보를 지운다는 비판이 가능하다. (2) 반대 방향의 반론: 이 검토가 ‘평가를 번역 밖에 둔다’고 하면서도 본문에 ‘저는 에서입니다’를 확정해 두면, 그 자체가 야곱을 거짓말쟁이로 확정하는 해석이라는 비판(경건 수용 전통 쪽)도 있을 수 있다.",
+    "test_ko": "절 단위로 시험했다. (a) 강세: 세 낱말 자켑 영역(אָנֹכִי עֵשָׂו בְּכֹרֶךָ)에서 첫 낱말 파쉬타 + 무나 + 자켑은 주어 | 술어구를 가르는 정상 구조다. 같은 장 24절의 대답은 한 낱말 אָנִי로 분절 여지가 없다. (b) 서술: 19절 서두가 화자를 ‘야곱’으로 명시하고, 12절 야곱 자신이 ‘속이는 자처럼’ 보일까 두려워하고, 35절 이삭이 ‘속임으로’라고 말한다. 따라서 진술이 사실과 다르다는 점은 번역자가 덧붙이는 판단이 아니라 서사가 제공하는 정보다. (c) 칠십인역 OCR, 개역, ASV, RV1909 모두 한 문장 동일시. (d) 재분절 독해(B)를 지지하는 고대 역본 증거는 이 세션에서 찾지 못했다(라쉬 본문은 접근 실패로 미검증).",
+    "residual_risk_ko": "‘서술이 진술의 허위를 보여 준다’와 ‘그 허위를 어떻게 윤리적으로 평가하는가’는 다르다. 이 검토는 전자만 번역 근거로 삼고, 후자(정죄·변호·25:23 신탁과의 관계·리브가의 지시 책임)는 해석 노트로 분리하라고 권고한다. 강세 휴지를 본문에서 보이고 싶다면 한국어 ‘저는, 아버지의 맏아들 에서입니다’ 같은 쉼표가 가능하지만 의미 차이를 만들지 않는 장식이라 권하지 않는다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.27.23 summary-anticipation (A)",
+      "objection_ko": "24-29절과 겹쳐 축복이 두 번 있었던 것처럼 읽힌다.",
+      "response_ko": "각주로 27절 재개를 안내한다. 본문을 착수(B)로 바꾸면 형태 근거 없는 해석이 된다. 편집 방침에 따라 B를 재검토할 수 있도록 미해결로 남긴다."
+    },
+    {
+      "target": "Gen.27.20 YHWH your God",
+      "objection_ko": "‘아버지의 하나님’은 한국어 독자에게 야곱이 하나님을 자기 하나님으로 인정하지 않는다는 신학적 함의를 과도하게 읽게 만들 수 있다.",
+      "response_ko": "원문 접미사(2인칭)를 그대로 옮긴 것이며 함의 해석은 노트로 분리한다. 28:21(‘야훼께서 나의 하나님이 되실 것’) 같은 후속 본문과의 연결도 해석 영역."
+    }
+  ],
+  "preferred_wording": {
+    "Gen.27.18": {
+      "ko": "그가 아버지에게 가서 말했다. “아버지.” 아버지가 말했다. “내가 여기 있다. 내 아들아, 너는 누구냐?”",
+      "en": "He went in to his father and said, “My father.” And he said, “Here I am. Who are you, my son?”",
+      "es": "Entró adonde estaba su padre y dijo: «Padre mío». Y él respondió: «Aquí estoy. ¿Quién eres tú, hijo mío?».",
+      "reason_ko": "화자 전환은 와우 연속형만으로 표시되므로 한국어에서 둘째 화자를 본문에 있는 ‘아버지’로 보충했다(이름 ‘이삭’ 추가 대신). 칼 וַיָּבֹא 유지; 칠십인역 ‘가져왔다’는 미해결 항목.",
+      "counterargument_ko": "alternatives Gen.27.18 B 참조.",
+      "current_opinion_ko": "A 유지(높은 신뢰도).",
+      "reconsider_if_ko": "인쇄본/비평본 칠십인역과 다른 고대 역본에서 ‘가져왔다’ 독법이 확인되고, 편집 방침이 모음 재구성을 각주로 노출하기로 하면 각주를 추가한다(본문은 그대로)."
+    },
+    "Gen.27.19": {
+      "ko": "야곱이 아버지에게 말했다. “저는 아버지의 맏아들 에서입니다. 아버지께서 저에게 말씀하신 대로 했습니다. 부디 일어나 앉으셔서 제가 사냥한 것을 드시고, 아버지께서 마음을 다해 저를 축복해 주십시오.”",
+      "en": "Jacob said to his father, “I am Esau your firstborn. I have done as you told me. Please get up, sit and eat of my game, so that your soul may bless me.”",
+      "es": "Jacob dijo a su padre: «Yo soy Esaú, tu primogénito. He hecho como me dijiste. Levántate, te ruego, siéntate y come de mi caza, para que tu alma me bendiga».",
+      "reason_ko": "한 문장 동일시(A). ‘아버지의 맏아들’로 2인칭 접미사 보존. 아들→아버지 높임 체계 통일. נֶפֶשׁ는 한국어 ‘마음을 다해’, 영·스 ‘your soul/tu alma’(27:4·31 반향). 윤리 평가는 번역 밖.",
+      "counterargument_ko": "strongest_objection_to_own_reading, alternatives Gen.27.19 B·nefesh 참조.",
+      "current_opinion_ko": "A 유지(높은 신뢰도). 각주 1·2 권고.",
+      "reconsider_if_ko": "편집 방침이 네 절(4·19·25·31)의 נֶפֶשׁ를 한국어에서도 직역으로 통일하기로 하면 ‘아버지의 영혼이 저를 축복하시도록’으로 바꾼다. 재분절 독해를 지지하는 고대 역본 증거가 URL과 함께 확인되면 각주를 보강한다."
+    },
+    "Gen.27.20": {
+      "ko": "이삭이 자기 아들에게 말했다. “내 아들아, 어떻게 이처럼 빨리 찾았느냐?” 그가 말했다. “아버지의 하나님 야훼께서 그것을 제 앞에 마주치게 해 주셨기 때문입니다.”",
+      "en": "Isaac said to his son, “How is it that you found it so quickly, my son?” He said, “Because YHWH your God made it come my way.”",
+      "es": "Isaac dijo a su hijo: «¿Cómo es que lo hallaste tan pronto, hijo mío?». Él respondió: «Porque YHWH tu Dios hizo que se presentara delante de mí».",
+      "reason_ko": "הִקְרָה … לְפָנַי 구체성 보존(24:12 연결), ‘네 하나님’ 보존, 신명 채택문 다수 관례(야훼/YHWH).",
+      "counterargument_ko": "alternatives Gen.27.20 B, secondary_objections 참조.",
+      "current_opinion_ko": "A 유지(중상 신뢰도; 한국어 ‘그것을’ 보충은 편집 판단).",
+      "reconsider_if_ko": "편집 방침이 신명 표기를 바꾸거나, 한국어 목적어 보충을 피하기로 하면 ‘제 앞에 일이 맞아떨어지게 해 주셨기 때문입니다’로 바꾼다."
+    },
+    "Gen.27.21": {
+      "ko": "이삭이 야곱에게 말했다. “내 아들아, 가까이 오너라. 내가 너를 만져 보겠다. 네가 정말 내 아들 에서냐, 아니냐?”",
+      "en": "Isaac said to Jacob, “Come near, please, so that I may feel you, my son, whether you are really my son Esau or not.”",
+      "es": "Isaac dijo a Jacob: «Acércate, te ruego, para que te palpe, hijo mío, a ver si de verdad eres mi hijo Esaú o no».",
+      "reason_ko": "‘알다’ 추가 없음. 한국어 직접의문, 영·스 간접의문.",
+      "counterargument_ko": "alternatives Gen.27.21 참조.",
+      "current_opinion_ko": "A 유지(높은 신뢰도).",
+      "reconsider_if_ko": "편집 문체 기준이 간접의문 형식 통일을 요구하면 맞춘다."
+    },
+    "Gen.27.22": {
+      "ko": "야곱이 아버지 이삭에게 가까이 가자, 이삭이 그를 만져 보고 말했다. “목소리는 야곱의 목소리인데, 손은 에서의 손이로구나.”",
+      "en": "So Jacob came near to Isaac his father, and he felt him and said, “The voice is the voice of Jacob, but the hands are the hands of Esau.”",
+      "es": "Jacob se acercó a Isaac su padre, y este lo palpó y dijo: «La voz es la voz de Jacob, pero las manos son las manos de Esaú».",
+      "reason_ko": "두 행 평행·대조 보존. 한국어 ‘이삭이’ 주어 보충(모호성 제거).",
+      "counterargument_ko": "alternatives Gen.27.22 B 참조.",
+      "current_opinion_ko": "A 유지(높은 신뢰도).",
+      "reconsider_if_ko": "없음(문체 기준 변경 시만)."
+    },
+    "Gen.27.23": {
+      "ko": "이삭은 그를 알아보지 못했다. 그의 손이 그의 형 에서의 손처럼 털이 많았기 때문이다. 그리하여 이삭은 그를 축복했다.",
+      "en": "He did not recognize him, because his hands were hairy like the hands of his brother Esau. So he blessed him.",
+      "es": "No lo reconoció, porque sus manos eran velludas como las manos de su hermano Esaú; y lo bendijo.",
+      "reason_ko": "הִכִּיר = ‘알아보다/recognize/reconocer’로 고정(37:33, 38:26 연결 보존). וַיְבָרְכֵהוּ 요약 선행 유지. 한국어 주어 ‘이삭’ 보충.",
+      "counterargument_ko": "alternatives Gen.27.23 B·C, secondary_objections 참조.",
+      "current_opinion_ko": "A 유지(중상 신뢰도). 각주 3 권고.",
+      "reconsider_if_ko": "편집 방침이 서사 요약 선행을 독자 편의상 착수형으로 풀기로 하면 B로 바꾼다."
+    }
+  },
+  "speech_boundaries_ko": "직접 화법: 18절 야곱 ‘아버지’ / 이삭 ‘내가 여기 있다 … 누구냐’; 19절 야곱(전체); 20절 이삭 질문 / 야곱 대답; 21절 이삭(전체); 22절 이삭 ‘목소리는 … 손이로구나’. 23절은 서술.",
+  "proposed_notes_ko": [
+    {
+      "id": "Gen.27.19",
+      "note_ko": "‘저는 아버지의 맏아들 에서입니다’: 히브리어는 동사 없이 ‘나 — 에서, 아버지의 맏아들’이다. 서술자는 이 말을 한 사람이 야곱이라고 밝힌다. 일부 유대 전통 주석은 이 말을 둘로 끊어(‘저입니다. 에서는 아버지의 맏아들이고요’) 읽었다고 알려져 있으나, 24절의 단답 ‘저입니다’와 35절 ‘속임으로’ 때문에 본문 번역은 한 문장으로 둔다."
+    },
+    {
+      "id": "Gen.27.19",
+      "note_ko": "‘마음을 다해’: 직역은 ‘아버지의 영혼(נֶפֶשׁ)이’. 4절 이삭의 말, 31절 에서의 말과 같은 표현이다."
+    },
+    {
+      "id": "Gen.27.23",
+      "note_ko": "‘그리하여 이삭은 그를 축복했다’: 결과를 미리 말하는 서술로 보인다. 확인 대화가 24-26절에 이어지고, 27절에서 같은 동사와 함께 축복의 말이 나온다."
+    },
+    {
+      "id": "Gen.27.20",
+      "note_ko": "‘마주치게 해 주셨기’: 24:12 아브라함의 종의 기도와 같은 표현이다."
+    }
+  ],
+  "interpretation_separation_ko": {
+    "manuscript_display": "고정 WLC(OSHB morphhb 3d15126) 원시 XML. 대상 6절에 Ketiv/Qere·note 표지 없음.",
+    "reported_variants": "칠십인역 OCR의 27:18 εἰσήνεγκεν, 27:19 동사/화자 차이, 27:20 σου 부재 — 모두 OCR 문자열에 대한 관찰이며 인쇄본·비평본 미확인.",
+    "reconstruction": "27:18 ויבא 히필 재모음은 칠십인역 대응에서 추론한 재구성일 뿐 증언된 히브리어가 아니다. 본문 번역에 사용하지 않음.",
+    "translation": "preferred_wording.",
+    "interpretation": "야곱 행위의 윤리 평가, 리브가의 책임, 25:23 신탁과의 관계, ‘목소리’의 의미(음색/말투), 37-38장과의 ‘알아보다’ 대칭의 의미 — 모두 해석 노트 영역이며 번역문에 반영하지 않았다."
+  },
+  "editorial_consistency_findings": [
+    {
+      "topic": "divine name",
+      "finding_ko": "이 검토는 채택문 다수 관례(야훼/YHWH/YHWH)를 따랐다. Sonnet 초안(여호와/the LORD/el SEÑOR)과 다르다. 일부 채택문(Gen.2.4)은 영어 Yahweh, 스페인어 Yahvé를 쓰므로 편집 통일 필요."
+    },
+    {
+      "topic": "nefesh",
+      "finding_ko": "27:4, 19, 25, 31의 נֶפֶשׁ 처리 방침(한국어 ‘마음을 다해’ vs ‘영혼이’)을 장 단위로 통일해야 한다."
+    },
+    {
+      "topic": "nkr recognize",
+      "finding_ko": "27:23, 37:32-33, 38:25-26의 נכר 히필 번역어를 ‘알아보다/recognize/reconocer’로 통일 권고."
+    }
+  ],
+  "final_opinion_ko": "여섯 절 모두 고정 WLC 본문을 그대로 번역하며 이문·재구성을 채택하지 않는다. 핵심 판단: (1) 27:19 ‘저는 아버지의 맏아들 에서입니다’는 한 문장 동일시로 옮긴다. 파쉬타는 주어-술어 분할 강세이고, 24절 단답 אָנִי가 재분절 독해를 막는다. 진술이 사실과 다르다는 것은 서술이 주는 정보이고, 그 윤리 평가는 번역 밖 해석 노트로 분리한다. (2) 27:20 ‘아버지의 하나님 야훼’와 הִקְרָה … לְפָנַי 구체성을 보존한다. (3) 27:21 ‘알다’ 동사를 추가하지 않는다. (4) 27:23 וַיְבָרְכֵהוּ는 요약 선행으로 ‘축복했다’를 유지하고 각주로 27절 재개를 안내한다. (5) 칠십인역 OCR의 27:18 ‘가져왔다’는 같은 자음의 히필 재모음과 같은 의미이나, 재구성일 뿐이며 인쇄본 확인 전까지 미해결이다. 기존 Sonnet 초안 대비 개선점은 한국어 높임·소유 접미사, 영어 의역 축소, 영·스 ‘알다’ 삭제, 신명 관례이다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.27.18",
+      "level": "high",
+      "note_ko": "칠십인역 차이는 번역에 영향 없음; 각주 여부만 미정."
+    },
+    {
+      "id": "Gen.27.19",
+      "level": "high",
+      "note_ko": "분절 판단은 높음. נֶפֶשׁ 한국어 처리는 편집 방침 의존(중간)."
+    },
+    {
+      "id": "Gen.27.20",
+      "level": "medium-high",
+      "note_ko": "한국어 ‘그것을’ 보충과 הִקְרָה 어휘 선택은 문체 판단."
+    },
+    {
+      "id": "Gen.27.21",
+      "level": "high",
+      "note_ko": "스페인어 ‘a ver si’ 관용 보충만 문체 판단."
+    },
+    {
+      "id": "Gen.27.22",
+      "level": "high",
+      "note_ko": "‘목소리’ 의미 해석은 열려 있음(번역은 영향 없음)."
+    },
+    {
+      "id": "Gen.27.23",
+      "level": "medium-high",
+      "note_ko": "요약 선행 vs 착수는 서사 해석; 형태는 A를 지지."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.27.18",
+      "condition_ko": "인쇄본 Swete/Göttingen 칠십인역과 사마리아 오경·타르굼에서 ‘가져왔다’ 독법이 URL·발췌로 확인되면 각주 추가 여부를 재검토."
+    },
+    {
+      "id": "Gen.27.19",
+      "condition_ko": "라쉬·타르굼 본문을 실제로 확인해 재분절 전통의 정확한 형태를 기록하면 각주 문구를 수정. 편집 방침이 נֶפֶשׁ 직역 통일을 정하면 한국어 수정."
+    },
+    {
+      "id": "Gen.27.20",
+      "condition_ko": "칠십인역 인쇄본에서 σου 부재가 실제 본문으로 확인되면 미해결 항목에 ‘역본 차이’로 기록(번역은 마소라 본문 유지)."
+    },
+    {
+      "id": "Gen.27.23",
+      "condition_ko": "편집 방침이 요약 선행 서술을 착수형으로 풀기로 하면 B 채택."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.27.18",
+      "issue": "LXX OCR eisenegken (brought in) vs MT Qal wayyavo (came): possible Hiphil vocalization of the same consonants",
+      "status": "unresolved_textual_reception",
+      "needed_evidence": "Printed Swete or Goettingen LXX text for Gen 27:18; Samaritan Pentateuch; Targum Onqelos."
+    },
+    {
+      "id": "Gen.27.19",
+      "issue": "LXX OCR line lacks a verb for asiti and names the speaker as ho huios autou",
+      "status": "unresolved_ocr_or_version_difference",
+      "needed_evidence": "Printed Swete or Goettingen LXX text for Gen 27:19."
+    },
+    {
+      "id": "Gen.27.20",
+      "issue": "LXX OCR line lacks sou after ho theos",
+      "status": "unresolved_ocr_or_version_difference",
+      "needed_evidence": "Printed Swete or Goettingen LXX text for Gen 27:20."
+    },
+    {
+      "id": "Gen.27.19",
+      "issue": "Exact wording of Rashi and other rabbinic re-segmentation of anokhi esav bekhorekha",
+      "status": "unverified_reception",
+      "needed_evidence": "Accessible Rashi text with URL and access time (Sefaria blocked by network policy in this session)."
+    },
+    {
+      "id": "Gen.27.23",
+      "issue": "vayvarekhehu: summary-anticipation vs ingressive",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial policy decision; independent GPT/Gemini review."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "Rashi and other rabbinic readings are recorded only as unverified background; no rabbinic text was accessed.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "The self-checks below are not an independent review."
+  ],
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from a third-party raw OCR of Swete LXX (not a critical edition). KRV/ASV/RV1909 lines come from this repository library (public domain as declared in library/catalog.json) and are translation reception, not manuscript evidence.",
+    "excerpts": [
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.4",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַעֲשֵׂה לִי מַטְעַמִּים כַּאֲשֶׁר אָהַבְתִּי וְהָבִיאָה לִּי וְאֹכֵלָה בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי בְּטֶרֶם אָמוּת",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "27:4 이삭 자신의 말 בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי — 19절 야곱의 בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶׁךָ와 같은 구문(주어·목적어만 뒤바뀜). 번역 용어 통일 근거.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.11",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר יַעֲקֹב אֶל רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָק",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "야곱 자신이 ‘에서는 털 많은 사람(אִישׁ שָׂעִר)’이라 말한 대목. 23절 שְׂעִרֹת의 배경.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.16",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְאֵת עֹרֹת גְּדָיֵי הָעִזִּים הִלְבִּישָׁה עַל יָדָיו וְעַל חֶלְקַת צַוָּארָיו",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "염소 새끼 가죽을 손과 목의 매끈한 곳에 입힘 — 23절 ‘털 많은 손’의 서술상 원인.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.24",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר אַתָּה זֶה בְּנִי עֵשָׂו וַיֹּאמֶר אָנִי",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "범위 밖이지만 결정적 평행: 의문 표지 없는 אַתָּה זֶה בְּנִי עֵשָׂו(‘네가 정말 내 아들 에서냐’)에 야곱이 אָנִי(‘저입니다’) 한 낱말로 답한다. 이 대답은 분절로 우회할 수 없어 19절의 재분절 독해를 약화한다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.25",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר הַגִּשָׁה לִּי וְאֹכְלָה מִצֵּיד בְּנִי לְמַעַן תְּבָרֶכְךָ נַפְשִׁי וַיַּגֶּשׁ לוֹ וַיֹּאכַל וַיָּבֵא לוֹ יַיִן וַיֵּשְׁתְּ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "הַגִּשָׁה לִּי וְאֹכְלָה מִצֵּיד בְּנִי — 이삭이 ‘내 아들의 사냥물’로 받아들임. 같은 절 וַיָּבֵא לוֹ יַיִן은 동일 자음 ויבא의 히필(가져왔다) 용례.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.31",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיַּעַשׂ גַּם הוּא מַטְעַמִּים וַיָּבֵא לְאָבִיו וַיֹּאמֶר לְאָבִיו יָקֻם אָבִי וְיֹאכַל מִצֵּיד בְּנוֹ בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶׁךָ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "에서의 말 בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶׁךָ — 19절 야곱의 말과 글자까지 같다. 같은 절 וַיָּבֵא לְאָבִיו(히필)도 18절 textual 항목의 비교 자료.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.33",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֶּחֱרַד יִצְחָק חֲרָדָה גְּדֹלָה עַד מְאֹד וַיֹּאמֶר מִי אֵפוֹא הוּא הַצָּד צַיִד וַיָּבֵא לִי וָאֹכַל מִכֹּל בְּטֶרֶם תָּבוֹא וָאֲבָרֲכֵהוּ גַּם בָּרוּךְ יִהְיֶה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "이삭의 회고 וָאֲבָרֲכֵהוּ גַּם בָּרוּךְ יִהְיֶה — 축복을 완료된 하나의 행위로 말함.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.35",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר בָּא אָחִיךָ בְּמִרְמָה וַיִּקַּח בִּרְכָתֶךָ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "이삭의 평가 בָּא אָחִיךָ בְּמִרְמָה — 행위를 ‘속임’으로 명명하는 것은 등장인물(이삭)의 말이다. 서술자의 직접 평가와 구별.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.36",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר הֲכִי קָרָא שְׁמוֹ יַעֲקֹב וַיַּעְקְבֵנִי זֶה פַעֲמַיִם אֶת בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי וַיֹּאמַר הֲלֹא אָצַלְתָּ לִּי בְּרָכָה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "에서의 이름 말놀이 וַיַּעְקְבֵנִי — 등장인물의 평가.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.24.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה נָא לְפָנַי הַיּוֹם וַעֲשֵׂה חֶסֶד עִם אֲדֹנִי אַבְרָהָם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "הַקְרֵה־נָא לְפָנַי הַיּוֹם — 20절 הִקְרָה … לְפָנָי와 같은 히필 + לְפָנַי 표현. 신의 섭리를 구하는 기도 언어를 야곱이 차용.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.37.32",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיְשַׁלְּחוּ אֶת כְּתֹנֶת הַפַּסִּים וַיָּבִיאוּ אֶל אֲבִיהֶם וַיֹּאמְרוּ זֹאת מָצָאנוּ הַכֶּר נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם לֹא",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "הַכֶּר־נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם־לֹא — ‘알아보라 … 네 아들의 것인지 아닌지’: 21절 אִם־לֹא, 23절 הִכִּיר와 어휘 연결.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.37.33",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיַּכִּירָהּ וַיֹּאמֶר כְּתֹנֶת בְּנִי חַיָּה רָעָה אֲכָלָתְהוּ טָרֹף טֹרַף יוֹסֵף",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וַיַּכִּירָהּ — 속은 이삭과 속는 야곱의 대칭(해석적 연결; 번역 용어 통일 권고만 함).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.38.25",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "הִוא מוּצֵאת וְהִיא שָׁלְחָה אֶל חָמִיהָ לֵאמֹר לְאִישׁ אֲשֶׁר אֵלֶּה לּוֹ אָנֹכִי הָרָה וַתֹּאמֶר הַכֶּר נָא לְמִי הַחֹתֶמֶת וְהַפְּתִילִים וְהַמַּטֶּה הָאֵלֶּה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "הַכֶּר־נָא — 같은 요청 표현.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.38.26",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיַּכֵּר יְהוּדָה וַיֹּאמֶר צָדְקָה מִמֶּנִּי כִּי עַל כֵּן לֹא נְתַתִּיהָ לְשֵׁלָה בְנִי וְלֹא יָסַף עוֹד לְדַעְתָּה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וַיַּכֵּר יְהוּדָה — 같은 동사.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "אוּלַי יְמֻשֵּׁנִי אָבִי … כִּמְתַעְתֵּעַ — 야곱 스스로 ‘속이는 자처럼’ 보일까 걱정. 21-22절 만짐 장면의 복선이며, 19절을 ‘거짓 아님’으로 재분절하는 독해에 대한 본문 내 반증 자료.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.26",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר אֵלָיו יִצְחָק אָבִיו גְּשָׁה נָּא וּשְׁקָה לִּי בְּנִי",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "גְּשָׁה נָּא — 21절과 같은 요청 표현이 입맞춤 요청으로 반복.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.27.27",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּגַּשׁ וַיִּשַּׁק לוֹ וַיָּרַח אֶת רֵיחַ בְּגָדָיו וַיְבָרֲכֵהוּ וַיֹּאמֶר רְאֵה רֵיחַ בְּנִי כְּרֵיחַ שָׂדֶה אֲשֶׁר בֵּרֲכוֹ יְהוָה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וַיְבָרֲכֵהוּ וַיֹּאמֶר … — 23절과 같은 동사 뒤에 실제 축복 말이 시작된다. 23절 끝 동사를 요약 선행으로 보는 근거.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.48.10",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְעֵינֵי יִשְׂרָאֵל כָּבְדוּ מִזֹּקֶן לֹא יוּכַל לִרְאוֹת וַיַּגֵּשׁ אֹתָם אֵלָיו וַיִּשַּׁק לָהֶם וַיְחַבֵּק לָהֶם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "늙은 이스라엘(야곱)이 눈이 어두워 아들들을 가까이 오게 하여 입맞춤 — 장면 대칭(해석적).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.18",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "καὶ εἰσήνεγκεν τῷ πατρὶ αὐτοῦ· εἶπ’ πάτερ μου· ὁ δὲ εἶπεν Ἴδου ἐγώ· τίς εἶ σύ, τέκνον;",
+        "observation_ko": "OCR 문자열은 καὶ εἰσήνεγκεν τῷ πατρὶ αὐτοῦ(‘그가 아버지에게 들여왔다/가져왔다’) — 마소라 וַיָּבֹא(칼 ‘왔다’)와 다르다. 같은 자음 ויבא를 히필 וַיָּבֵא(‘가져왔다’; 27:25, 27:31 용례)로 읽은 것과 같은 의미다. 이것은 번역 대응에서 추론한 재구성이지 증언된 히브리어 독법이 아니다. OCR 줄의 εἶπ’는 인쇄본 단어를 확인하지 못했다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.19",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "καὶ εἶπενὁ υἱὸς αὐτοῦ τῷ πατρὶ αὐτοῦ Ἐγὼ Ἠσαὺ ὁ πρωτότοκός σου,καθὰ ἐλάλησάς μοι· ἀναστὰς κάθισον καὶ φάγε τῆς θήρας μου, ὅπως εὐλογήσῃ με ἡ ψυχή σου.",
+        "observation_ko": "Ἐγὼ Ἠσαὺ ὁ πρωτότοκός σου — 한 문장 동일시 진술(재분절 흔적 없음). OCR 줄에는 עָשִׂיתִי에 해당하는 동사가 보이지 않고 화자도 ὁ υἱὸς αὐτοῦ로 되어 있다. 인쇄본 Swete와 대조하지 못했으므로 OCR 누락인지 역본 차이인지 미해결.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.20",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "εἶπεν δὲ Ἰσαὰκ τῷ υἱῷ αὐτοῦΤί τοῦτο ὃ ταχὺ εὗρες, ὦ τέκνον ; ὁ δὲ εἶπεν ὅ παρέδωκεν κύριος ὁ θεὸς ἐναντίον μου.",
+        "observation_ko": "ὃ παρέδωκεν κύριος ὁ θεὸς ἐναντίον μου — OCR 줄에는 אֱלֹהֶיךָ의 ‘네(σου)’가 보이지 않는다. 인쇄본 대조 미실시 — 미해결. הִקְרָה를 παρέδωκεν(넘겨주었다)으로 옮김.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.21",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "εἶπεν δὲ Ἰσαὰκ τῷ Ἰακώβ Ἔγγισόν μοι καὶ ψηλαφήσω σε, τέκνον, εἰ σὺ εἰ ὁ υἱός μου Ἠσαὺ ἢ οὔ.",
+        "observation_ko": "εἰ σὺ εἶ ὁ υἱός μου Ἠσαὺ ἢ οὔ — 간접의문(‘…인지 아닌지’), ‘알다’ 동사 없음.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.22",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "ἤγγισεν δὲΙακὼβ πρὸς Ἰσαὰκ τὸν πατέρα αὐτοῦ· καὶ ἐψηλάφησεν αὐτὸν καὶ εἶπεν Ἡ φωνὴ φωνὴ Ἰακώβ, αἱ δὲ χεῖρες χεῖρες ’Hσαύ.",
+        "observation_ko": "Ἡ φωνὴ φωνὴ Ἰακώβ, αἱ δὲ χεῖρες χεῖρες Ἠσαύ — 평행·대조(δέ) 보존.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.23",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "καὶοὐκ ἐπέγνω αὐτόν· ἦσαν γὰρ αἱ χεῖρες αὐτοῦ ὡς αἱ χεῖρες ’Hσαὺ τοῦ ἀδελφοῦ αὐτοῦ δασεῖαι· καὶ ηὐλόγησεν αὐτόν.",
+        "observation_ko": "καὶ ηὐλόγησεν αὐτόν — 단순 부정과거 ‘축복했다’(착수 표시 없음).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.27.24",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "accessed_utc": "2026-10-30T20:10:35Z",
+        "excerpt": "καὶ εἶπεν Σὺ εἶ ὁ υἱός μου Ἠσαύ; ὁ δὲ εἶπεν Ἐγώ.",
+        "observation_ko": "",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.18",
+        "excerpt": "야곱이 아버지에게 나아가서 내 아버지여 하고 부른대 가로되 내가 여기 있노라 내 아들아 네가 누구냐",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.19",
+        "excerpt": "야곱이 아비에게 대답하되 나는 아버지의 맏아들 에서로소이다 아버지께서 내게 명하신 대로 내가 하였사오니 청컨대 일어나 앉아서 내 사냥한 고기를 잡수시고 아버지의 마음껏 내게 축복하소서",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.20",
+        "excerpt": "이삭이 그 아들에게 이르되 내 아들아 네가 어떻게 이같이 속히 잡았느냐 그가 가로되 아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.21",
+        "excerpt": "이삭이 야곱에게 이르되 내 아들아 가까이 오라 네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.22",
+        "excerpt": "야곱이 그 아비 이삭에게 가까이 가니 이삭이 만지며 가로되 음성은 야곱의 음성이나 손은 에서의 손이로다 하며",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.23",
+        "excerpt": "그 손이 형 에서의 손과 같이 털이 있으므로 능히 분별치 못하고 축복하였더라",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.24",
+        "excerpt": "이삭이 가로되 네가 참 내 아들 에서냐 그가 대답하되 그러하니이다",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.4",
+        "excerpt": "나의 즐기는 별미를 만들어 내게로 가져다가 먹게 하여 나로 죽기 전에 내 마음껏 네게 축복하게 하라",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.31",
+        "excerpt": "그가 별미를 만들어 아비에게로 가지고 가서 가로되 아버지여 일어나서 아들의 사냥한 고기를 잡수시고 마음껏 내게 축복하소서",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.27.35",
+        "excerpt": "이삭이 가로되 네 아우가 간교하게 와서 네 복을 빼앗았도다",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "krv",
+        "ref": "Gen.24.12",
+        "excerpt": "그가 가로되 우리 주인 아브라함의 하나님 여호와여 원컨대 오늘날 나로 순적히 만나게 하사 나의 주인 아브라함에게 은혜를 베푸시옵소서",
+        "file": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "개역: 19절 ‘나는 아버지의 맏아들 에서로소이다’, ‘아버지의 마음껏 내게 축복하소서’; 20절 ‘아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다’; 21절 ‘네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라’; 23절 ‘능히 분별치 못하고 축복하였더라’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.18",
+        "excerpt": "And he came unto his father, and said, My father: and he said, Here am I; who art thou, my son?",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.19",
+        "excerpt": "And Jacob said unto his father, I am Esau thy first-born; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.20",
+        "excerpt": "And Isaac said unto his son, How is it that thou hast found it so quickly, my son? And he said, Because Jehovah thy God sent me good speed.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.21",
+        "excerpt": "And Isaac said unto Jacob, Come near, I pray thee, that I may feel thee, my son, whether thou be my very son Esau or not.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.22",
+        "excerpt": "And Jacob went near unto Isaac his father; and he felt him, and said, The voice is Jacob’s voice, but the hands are the hands of Esau.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.23",
+        "excerpt": "And he discerned him not, because his hands were hairy, as his brother Esau’s hands: so he blessed him.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.24",
+        "excerpt": "And he said, Art thou my very son Esau? And he said, I am.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.4",
+        "excerpt": "and make me savory food, such as I love, and bring it to me, that I may eat; that my soul may bless thee before I die.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.31",
+        "excerpt": "And he also made savory food, and brought it unto his father; and he said unto his father, Let my father arise, and eat of his son’s venison, that thy soul may bless me.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.27.35",
+        "excerpt": "And he said, Thy brother came with guile, and hath taken away thy blessing.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "asv",
+        "ref": "Gen.24.12",
+        "excerpt": "And he said, O Jehovah, the God of my master Abraham, send me, I pray thee, good speed this day, and show kindness unto my master Abraham.",
+        "file": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "ASV: 19 ‘I am Esau thy first-born’, ‘that thy soul may bless me’; 20 ‘Jehovah thy God sent me good speed’; 21 ‘that I may feel thee, my son, whether thou be my very son Esau or not’ (no added ‘know’); 23 ‘so he blessed him’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.18",
+        "excerpt": "Y él fué á su padre, y dijo: Padre mío: y él respondió: Heme aquí, ¿quién eres, hijo mío?",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.19",
+        "excerpt": "Y Jacob dijo á su padre: Yo soy Esaú tu primogénito; he hecho como me dijiste: levántate ahora, y siéntate, y come de mi caza, para que me bendiga tu alma.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.20",
+        "excerpt": "Entonces Isaac dijo á su hijo: ¿Cómo es que la hallaste tan presto, hijo mío? Y él respondió: Porque Jehová tu Dios hizo que se encontrase delante de mí.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.21",
+        "excerpt": "E Isaac dijo á Jacob: Acércate ahora, y te palparé, hijo mío, por si eres mi hijo Esaú, ó no.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.22",
+        "excerpt": "Y llegóse Jacob á su padre Isaac; y él le palpó, y dijo: La voz es la voz de Jacob, mas las manos, las manos de Esaú.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.23",
+        "excerpt": "Y no le conoció, porque sus manos eran vellosas como las manos de Esaú: y le bendijo.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.24",
+        "excerpt": "Y dijo: ¿Eres tú mi hijo Esaú? Y él respondió: Yo soy.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.4",
+        "excerpt": "Y hazme un guisado, como yo gusto, y tráeme lo, y comeré; para que te bendiga mi alma antes que muera.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.31",
+        "excerpt": "E hizo él también guisados, y trajo á su padre, y díjole: Levántese mi padre, y coma de la caza de su hijo, para que me bendiga tu alma.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.27.35",
+        "excerpt": "Y él dijo: Vino tu hermano con engaño, y tomó tu bendición.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "public_domain_translation_reception",
+        "version": "rv1909",
+        "ref": "Gen.24.12",
+        "excerpt": "Y dijo: Jehová, Dios de mi señor Abraham, dame, te ruego, el tener hoy buen encuentro, y haz misericordia con mi señor Abraham.",
+        "file": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "rights": "Public Domain as declared in library/catalog.json; not manuscript evidence",
+        "observation_ko": "RV1909: 19 ‘Yo soy Esaú tu primogénito’, ‘para que me bendiga tu alma’; 20 ‘hizo que se encontrase delante de mí’; 21 ‘te palparé, hijo mío, por si eres mi hijo Esaú, ó no’; 23 ‘y le bendijo’.",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T20:08:37Z) or reused from private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T20:10:35Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete LXX Genesis; same pinned file and hash as earlier runs. OCR spacing defects visible in 1.27.19, 1.27.20, 1.27.22, 1.27.23."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Rashi_on_Genesis.27.19 (and 27.21, 27.22, Onkelos_Genesis.27.19-20)",
+      "accessed_utc": "2026-10-30T20:10:46Z",
+      "result": "failed: agent proxy CONNECT 403 connect_rejected (host not allowed by this session's network policy)",
+      "what_it_is": "Attempted rabbinic reception check; nothing obtained."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/master/json/... (four guessed paths) and https://api.github.com/repos/Sefaria/Sefaria-Export/commits/master",
+      "accessed_utc": "2026-10-30T20:10:55Z",
+      "result": "failed: 404 for guessed raw paths; 403 for GitHub API",
+      "what_it_is": "Attempted alternative route to Rashi/Onkelos; nothing obtained."
+    }
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-30T20:08:37Z (run_id timestamp; manifest created_at)",
+    "claim_pushed": "2026-10-30T20:09Z (commit on claude/original-bible-hard-review-k5bqty before any model review)",
+    "independent_reading_from_packet": "2026-10-30T20:09Z (formed from packet raw XML; see initial_proposals_note for the honesty limit)",
+    "earlier_records_inspected": "2026-10-30T20:09Z-20:12Z (Sonnet cloud draft; data/, reviews/, claude/ branches)",
+    "reception_checks": "2026-10-30T20:10Z-20:12Z",
+    "review_written": "2026-10-30T20:12Z-20:17:37Z",
+    "identity_rechecked": "2026-10-30T20:16:30Z"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "packet": "automation/hard-review-packets/20261030T200837Z-c6b450d4.json",
+    "claim_manifest": "automation/hard-review-runs/20261030T200837Z-c6b450d4.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Gen.27.18",
+        "raw_xml": "<verse osisID=\"Gen.27.18\">\n          <w lemma=\"c/935\" morph=\"HC/Vqw3ms\" id=\"01r5m\">וַ/יָּבֹ֥א</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"012oJ\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01Ev1\">אָבִ֖י/ו</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"0198F\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"1\" n=\"1\" morph=\"HNcmsc/Sp1cs\" id=\"0174y\">אָבִ֑/י</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"0152H\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"2009\" n=\"0.1\" morph=\"HTm/Sp1cs\" id=\"01xAC\">הִנֶּ֔נִּ/י</w>\n          <w lemma=\"4310\" morph=\"HTi\" id=\"018JG\">מִ֥י</w>\n          <w lemma=\"859 a\" n=\"0.0\" morph=\"HPp2ms\" id=\"01nzC\">אַתָּ֖ה</w>\n          <w lemma=\"1121 a\" n=\"0\" morph=\"HNcmsc/Sp1cs\" id=\"01nLz\">בְּנִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "345ed28ae8b8103814d4974ca7e96b5aafd5d4ca40583c3b2d2d61bbfc525cd5",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.27.19",
+        "raw_xml": "<verse osisID=\"Gen.27.19\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01yHH\">וַ/יֹּ֨אמֶר</w>\n          <w lemma=\"3290\" n=\"1.2.1.0\" morph=\"HNp\" id=\"017my\">יַעֲקֹ֜ב</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01t1k\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1\" n=\"1.2.1\" morph=\"HNcmsc/Sp3ms\" id=\"01YQA\">אָבִ֗י/ו</w>\n          <w lemma=\"595\" n=\"1.2.0\" morph=\"HPp1cs\" id=\"01b5H\">אָנֹכִי֙</w>\n          <w lemma=\"6215\" morph=\"HNp\" id=\"01G7D\">עֵשָׂ֣ו</w>\n          <w lemma=\"1060\" n=\"1.2\" morph=\"HNcmsc/Sp2ms\" id=\"01wAJ\">בְּכֹרֶ֔/ךָ</w>\n          <w lemma=\"6213 a\" n=\"1.1\" morph=\"HVqp1cs\" id=\"01oje\">עָשִׂ֕יתִי</w>\n          <w lemma=\"k/834 d\" morph=\"HR/Tr\" id=\"01fWJ\">כַּ/אֲשֶׁ֥ר</w>\n          <w lemma=\"1696\" n=\"1.0\" morph=\"HVpp2ms\" id=\"01fpQ\">דִּבַּ֖רְתָּ</w>\n          <w lemma=\"413\" n=\"1\" morph=\"HR/Sp1cs\" id=\"01Ygv\">אֵלָ֑/י</w>\n          <w lemma=\"6965 b\" morph=\"HVqv2ms\" id=\"01Nge\">קֽוּם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4994\" morph=\"HTe\" id=\"01Yp9\">נָ֣א</w>\n          <w lemma=\"3427\" n=\"0.1.1\" morph=\"HVqv2ms/Sh\" id=\"01wLi\">שְׁבָ֗/ה</w>\n          <w lemma=\"c/398\" n=\"0.1.0\" morph=\"HC/Vqv2ms/Sh\" id=\"0188S\">וְ/אָכְלָ/ה֙</w>\n          <w lemma=\"m/6718 a\" n=\"0.1\" morph=\"HR/Ncmsc/Sp1cs\" id=\"01KAU\">מִ/צֵּידִ֔/י</w>\n          <w lemma=\"b/5668\" n=\"0.0\" morph=\"HR/Ncmsc\" id=\"01Xxi\">בַּ/עֲב֖וּר</w>\n          <w lemma=\"1288\" morph=\"HVpi3fs/Sp1cs\" id=\"01xb7\">תְּבָרֲכַ֥/נִּי</w>\n          <w lemma=\"5315\" n=\"0\" morph=\"HNcbsc/Sp2ms\" id=\"01DtU\">נַפְשֶֽׁ/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "e62b1c62be808bb259583324db49d66764bede8ea3700e7f1dbefc540c188c6b",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.27.20",
+        "raw_xml": "<verse osisID=\"Gen.27.20\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01poL\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"3327\" n=\"1.1.0\" morph=\"HNp\" id=\"01KEx\">יִצְחָק֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01YMD\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" n=\"1.1\" morph=\"HNcmsc/Sp3ms\" id=\"01TF6\">בְּנ֔/וֹ</w>\n          <w lemma=\"4100\" morph=\"HTi\" id=\"01YB7\">מַה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2088\" n=\"1.0.0\" morph=\"HPdxms\" id=\"01hR3\">זֶּ֛ה</w>\n          <w lemma=\"4116 a\" morph=\"HVpp2ms\" id=\"01kGQ\">מִהַ֥רְתָּ</w>\n          <w lemma=\"l/4672\" n=\"1.0\" morph=\"HR/Vqc\" id=\"01jYh\">לִ/מְצֹ֖א</w>\n          <w lemma=\"1121 a\" n=\"1\" morph=\"HNcmsc/Sp1cs\" id=\"01jtu\">בְּנִ֑/י</w>\n          <w lemma=\"c/559\" n=\"0.1\" morph=\"HC/Vqw3ms\" id=\"01EBN\">וַ/יֹּ֕אמֶר</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01PYi\">כִּ֥י</w>\n          <w lemma=\"7136 a\" n=\"0.0.0\" morph=\"HVhp3ms\" id=\"01KSQ\">הִקְרָ֛ה</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"01yN8\">יְהוָ֥ה</w>\n          <w lemma=\"430\" n=\"0.0\" morph=\"HNcmpc/Sp2ms\" id=\"01AVR\">אֱלֹהֶ֖י/ךָ</w>\n          <w lemma=\"l/6440\" n=\"0\" morph=\"HR/Ncbpc/Sp1cs\" id=\"01fjn\">לְ/פָנָֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "cf7a96f8d44a169c8a07213afd348748e7ae4f934bfe99485e00d74d7e3b89aa",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.27.21",
+        "raw_xml": "<verse osisID=\"Gen.27.21\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01CTb\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"3327\" n=\"1.1.0\" morph=\"HNp\" id=\"01k9N\">יִצְחָק֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"011M5\">אֶֽל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3290\" n=\"1.1\" morph=\"HNp\" id=\"01Mcv\">יַעֲקֹ֔ב</w>\n          <w lemma=\"5066\" morph=\"HVqv2ms/Sh\" id=\"01Jkx\">גְּשָׁ/ה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4994\" morph=\"HTj\" id=\"01bzS\">נָּ֥א</w>\n          <w lemma=\"c/4184\" n=\"1.0\" morph=\"HC/Vqh1cs/Sp2ms\" id=\"01VrM\">וַ/אֲמֻֽשְׁ/ךָ֖</w>\n          <w lemma=\"1121 a\" n=\"1\" morph=\"HNcmsc/Sp1cs\" id=\"01TCd\">בְּנִ֑/י</w>\n          <w lemma=\"i/859 a\" morph=\"HTi/Pp2ms\" id=\"01acR\">הַֽ/אַתָּ֥ה</w>\n          <w lemma=\"2088\" n=\"0.0.0\" morph=\"HPdxms\" id=\"0188f\">זֶ֛ה</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc/Sp1cs\" id=\"01zKH\">בְּנִ֥/י</w>\n          <w lemma=\"6215\" n=\"0.0\" morph=\"HNp\" id=\"01EkC\">עֵשָׂ֖ו</w>\n          <w lemma=\"518 a\" morph=\"HC\" id=\"01XXd\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3808\" n=\"0\" morph=\"HTn\" id=\"01v2Y\">לֹֽא</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "1c5728c344601dc2bfa59b9c92232a326422c10f83ff7e418cf4007b664b1666",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.27.22",
+        "raw_xml": "<verse osisID=\"Gen.27.22\">\n          <w lemma=\"c/5066\" morph=\"HC/Vqw3ms\" id=\"01w1p\">וַ/יִּגַּ֧שׁ</w>\n          <w lemma=\"3290\" n=\"1.0.0\" morph=\"HNp\" id=\"01MPM\">יַעֲקֹ֛ב</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01TLb\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3327\" morph=\"HNp\" id=\"01hPU\">יִצְחָ֥ק</w>\n          <w lemma=\"1\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01Qrn\">אָבִ֖י/ו</w>\n          <w lemma=\"c/4959\" n=\"1\" morph=\"HC/Vqw3ms/Sp3ms\" id=\"01ttx\">וַ/יְמֻשֵּׁ֑/הוּ</w>\n          <w lemma=\"c/559\" n=\"0.1.1\" morph=\"HC/Vqw3ms\" id=\"01izd\">וַ/יֹּ֗אמֶר</w>\n          <w lemma=\"d/6963 a\" n=\"0.1.0\" morph=\"HTd/Ncmsa\" id=\"01GNT\">הַ/קֹּל֙</w>\n          <w lemma=\"6963 a\" morph=\"HNcmsc\" id=\"01BW1\">ק֣וֹל</w>\n          <w lemma=\"3290\" n=\"0.1\" morph=\"HNp\" id=\"01XHh\">יַעֲקֹ֔ב</w>\n          <w lemma=\"c/d/3027\" n=\"0.0\" morph=\"HC/Td/Ncbda\" id=\"01d51\">וְ/הַ/יָּדַ֖יִם</w>\n          <w lemma=\"3027\" morph=\"HNcbdc\" id=\"01M9Z\">יְדֵ֥י</w>\n          <w lemma=\"6215\" n=\"0\" morph=\"HNp\" id=\"01EZY\">עֵשָֽׂו</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "6f42b99f3ae6cf67aee2caa9a8b405c9b2be52ddbdc7f5e1d40bf3c54554dac1",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.27.23",
+        "raw_xml": "<verse osisID=\"Gen.27.23\">\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"01zaH\">וְ/לֹ֣א</w>\n          <w lemma=\"5234 a\" n=\"1.1\" morph=\"HVhp3ms/Sp3ms\" id=\"01tqU\">הִכִּיר֔/וֹ</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01sL7\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1961\" morph=\"HVqp3cp\" id=\"0162z\">הָי֣וּ</w>\n          <w lemma=\"3027\" n=\"1.0.1\" morph=\"HNcbdc/Sp3ms\" id=\"01p4B\">יָדָ֗י/ו</w>\n          <w lemma=\"k/3027\" n=\"1.0.0\" morph=\"HR/Ncbdc\" id=\"01QVp\">כִּ/ידֵ֛י</w>\n          <w lemma=\"6215\" morph=\"HNp\" id=\"01ERj\">עֵשָׂ֥ו</w>\n          <w lemma=\"251\" n=\"1.0\" morph=\"HNcmsc/Sp3ms\" id=\"01zLy\">אָחִ֖י/ו</w>\n          <w lemma=\"8163 a\" n=\"1\" morph=\"HAafpa\" id=\"011Qm\">שְׂעִרֹ֑ת</w>\n          <w lemma=\"c/1288\" n=\"0\" morph=\"HC/Vpw3ms/Sp3ms\" id=\"01PWq\">וַֽ/יְבָרְכֵֽ/הוּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "5c437cb7fa829a7e8e56853f38502dd49cdd13b605fc66f9f89acbaa90627c17",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T200837Z-c6b450d4.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-sof-pasuq"
+    ],
+    "qere_ketiv_present": false,
+    "notes_present": false,
+    "clause_coverage": {
+      "Gen.27.18": 4,
+      "Gen.27.19": 5,
+      "Gen.27.20": 4,
+      "Gen.27.21": 3,
+      "Gen.27.22": 5,
+      "Gen.27.23": 3
+    },
+    "all_source_words_covered_by_clauses": true,
+    "hebrew_parallel_claims_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_convention_YHWH": true,
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
