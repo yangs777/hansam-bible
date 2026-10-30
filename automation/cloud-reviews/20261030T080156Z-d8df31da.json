@@ -1,0 +1,568 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T080156Z-d8df31da",
+  "unit_id": "gen-6-5-8",
+  "verse_ids": [
+    "Gen.6.5",
+    "Gen.6.6",
+    "Gen.6.7",
+    "Gen.6.8"
+  ],
+  "unit_issue_ko": "마음의 성향·후회와 슬픔·신적 변화에 대한 번역 확장",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.6.5-8 = 전통 장절 창세기 6:5-8. 확인한 칠십인역 디지털 본문(Swete 원시 OCR)도 같은 번호(1.6.5-1.6.8)를 쓴다. 네 절 모두 Qere/Ketiv와 중첩 마크업이 없다. <seg type=\"x-maqqef\">, <seg type=\"x-sof-pasuq\">가 있고 6:8 끝에 <seg type=\"x-pe\">פ</seg>(열린 단락)가 있다. 이 פ는 6:8에서 노아 이야기 이전 단락이 끝나고 6:9 תּוֹלְדֹת 표제가 시작됨을 보여 준다. 원문 XML은 source.verses[].raw_xml에 그대로 보존했다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; this session's own metadata shows no Routine or Project origin)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) response around 2026-10-30T08:03Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. These are session metadata values, not a verified dated snapshot. The serving model can differ per turn; no fallback notice was observed during this run.",
+    "session": "https://claude.ai/code/session_01UknqVKqDzUAqKXMEBt999F",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Session metadata only; no balance, dollar amount or credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters / remaining bonus balance",
+      "sampling parameters"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T08:01:45Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; no active hard-review claim on any fetched claude/ branch)",
+    "claim_created": "2026-10-30T08:01:56Z",
+    "claim_pushed": "2026-10-30T08:02Z (push of claim commit to claude/original-bible-hard-review-wbop5q succeeded)",
+    "independent_reading_formed": "2026-10-30T08:02Z (from packet raw XML only, in-session, before the earlier draft wording was opened; not separately written to disk before comparison)",
+    "earlier_records_compared": "2026-10-30T08:02Z-08:05Z",
+    "parallel_evidence_fetched": "2026-10-30T08:03:05Z-08:03:52Z",
+    "review_saved": "2026-10-30T08:09:20Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "아래 독해는 패킷의 raw XML과 OSHB 형태 태그만 보고 먼저 세웠다. 그 뒤 같은 고정 커밋 WLC 파일에서 병행 구절과 lemma 용례(5162 נחם, 6087 עצב, 3336 יצר, 4229 מחה)를 검색해 보강했다. 이 단계에서는 기존 초안·다른 모델 기록을 보지 않았다. 사전(BDB/HALOT/DCH)과 주석서는 열람하지 않았다.",
+    "Gen.6.5": {
+      "clauses": [
+        {
+          "clause": "וַיַּרְא יְהוָה כִּי",
+          "category": "syntax",
+          "note_ko": "지각 동사 + כִּי 목적절. 이 כִּי는 뒤의 두 명사절(רַבָּה רָעַת הָאָדָם בָּאָרֶץ / וְכָל־יֵצֶר … רַק רַע כָּל־הַיּוֹם)을 모두 지배하는 것으로 읽는다. 1:4·1:31 '하나님이 보시니 좋았다'의 역전 구도다. 6:12 וַיַּרְא אֱלֹהִים … וְהִנֵּה נִשְׁחָתָה와도 짝을 이룬다."
+        },
+        {
+          "clause": "רַבָּה רָעַת הָאָדָם בָּאָרֶץ",
+          "category": "lexical/syntax",
+          "note_ko": "רָעַת는 רָעָה(lemma 7451c, 명사 여성 연계형) '악/악행'. 문맥상 도덕적 악이다(재앙 의미 아님). רַבָּה는 술어 형용사 '크다/많다'. בָּאָרֶץ(아트나흐)는 '땅에서' — 사람의 악이 땅에 가득하다는 범위 표시. הָאָדָם은 집합 '사람/인류'."
+        },
+        {
+          "clause": "וְכָל־יֵצֶר מַחְשְׁבֹת לִבּוֹ",
+          "category": "lexical/reception",
+          "note_ko": "핵심 어휘. יֵצֶר는 יצר('빚다', 2:7 וַיִּיצֶר)에서 온 명사로 '빚어진 것/짜낸 것/궁리'다. 같은 고정 WLC에서 יֵצֶר מַחֲשָׁבוֹת가 대상 1 28:9, 29:18에 같은 연어로 나오고, 신 31:21 יִצְרוֹ אֲשֶׁר הוּא עֹשֶׂה('그가 짓고 있는 생각'), 사 29:16 יֵצֶר('빚어진 것=그릇'), 사 26:3 יֵצֶר סָמוּךְ가 있다. 따라서 '마음의 생각이 빚어내는 것/구상'이 어휘적 기본값이다. 후대 랍비 문헌의 '악한 성향(יצר הרע)' 개념은 수용사이며 이 절의 번역어 '성향(inclination)'은 그 개념 쪽으로 기운다. 2:7(하나님이 사람을 빚으심)과 6:5(사람의 마음이 빚어내는 것)의 어근 메아리는 담화 차원에서 의미가 있다. לִבּוֹ의 3ms는 집합 הָאָדָם을 받는다."
+        },
+        {
+          "clause": "רַק רַע כָּל־הַיּוֹם",
+          "category": "lexical/idiom",
+          "note_ko": "רַק '오직', רַע(형용사) '악하다', כָּל־הַיּוֹם 직역 '온종일'이지만 관용적으로 '늘/끊임없이'. '날마다(daily)'는 반복 빈도로 옮겨 원어의 연속성을 약화한다. 8:21 כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו와 수미상관이다: 같은 진단이 6장에서는 심판의 근거, 8장에서는 다시 저주하지 않으시는 맥락이 된다."
+        }
+      ]
+    },
+    "Gen.6.6": {
+      "clauses": [
+        {
+          "clause": "וַיִּנָּחֶם יְהוָה כִּי־עָשָׂה אֶת־הָאָדָם בָּאָרֶץ",
+          "category": "lexical/theological reception",
+          "note_ko": "נחם 니팔 와익톨. 고정 WLC 창세기 안의 같은 니팔 와익톨(24:67 וַיִּנָּחֵם, 38:12 וַיִּנָּחֶם)은 24:67(이삭이 위로를 받았다), 38:12(유다가 위로를 받고)에서 '위로받다'이다. 그러나 여기서는 כִּי + 완료(עָשָׂה '만들었다')가 대상이므로 '이미 한 일을 후회하다/아파하다'가 문맥 의미다. 삼상 15:11·15:35에서도 야훼가 사울을 왕으로 세운 일을 נחם하고, 같은 장 15:29와 민 23:19는 '하나님은 사람이 아니므로 후회하지(נחם) 않는다'고 한다. 히브리어 정경 자체가 이 긴장을 그대로 두고 있으므로, 번역문에서 신학적으로 미리 해소하지 않는 것이 원칙이다. 출 32:14, 렘 18:8·10, 욘 3:10의 נחם עַל־הָרָעָה('재앙을 내리려던 뜻을 돌이키다')는 구문이 다르다(עַל + 미래 행동). 6:6은 과거 행위 עָשָׂה가 대상이라 '마음을 돌이키다'로 옮기면 구문을 놓친다. 담화: 5:29 노아 명명 זֶה יְנַחֲמֵנוּ … וּמֵעִצְּבוֹן יָדֵינוּ מִן־הָאֲדָמָה와 같은 어근 נחם·עצב·אֲדָמָה가 6:6-7에 다시 모인다. 위로를 약속한 이름(노아) 직후 야훼 쪽의 נחם과 עצב가 나온다."
+        },
+        {
+          "clause": "וַיִּתְעַצֵּב אֶל־לִבּוֹ",
+          "category": "lexical/idiom",
+          "note_ko": "עצב 히트파엘 와익톨. 고정 WLC에서 같은 히트파엘은 창 34:7(디나 사건에 야곱의 아들들이 '몹시 마음 상하고 분노했다')뿐이다. 사 63:10은 피엘로 '그들이 그의 거룩한 영을 근심하게 했다'. 의미는 '깊이 아파하다/상처받다'. אֶל־לִבּוֹ '그의 마음으로/마음속까지'는 아픔의 깊이와 내면성을 표시한다. 3:16-17 עִצָּבוֹן(여자와 사람의 고통·수고)과 같은 어근이다: 사람이 받은 고통의 어휘가 이제 야훼의 아픔에 쓰인다."
+        }
+      ]
+    },
+    "Gen.6.7": {
+      "clauses": [
+        {
+          "clause": "וַיֹּאמֶר יְהוָה אֶמְחֶה אֶת־הָאָדָם אֲשֶׁר־בָּרָאתִי מֵעַל פְּנֵי הָאֲדָמָה",
+          "category": "lexical/syntax",
+          "note_ko": "מחה 칼 미완료 1cs '지워 없애다/닦아 내다'. 왕하 21:13 '접시를 닦아 엎듯이'에서 같은 동사가 쓰인다. 7:4 וּמָחִיתִי … מֵעַל פְּנֵי הָאֲדָמָה와 7:23 וַיִּמַח … וַיִּמָּחוּ מִן־הָאָרֶץ에서 성취된다. 어순상 אֲשֶׁר־בָּרָאתִי가 중간에 끼어 있지만 מֵעַל פְּנֵי הָאֲדָמָה는 '창조했다'가 아니라 אֶמְחֶה에 걸린다(7:4 병행으로 확인). בָּרָאתִי는 1장 ברא를 되부른다(2:7 יצר, 6:6 עשׂה와 함께 세 창조 동사가 6:5-7에 모두 나타남). אָדָם/אֲדָמָה 말놀이가 있다."
+        },
+        {
+          "clause": "מֵאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמָיִם",
+          "category": "syntax/discourse/historical",
+          "note_ko": "앞의 אֶת־הָאָדָם을 확장하는 범위 동격구다. 동사가 없다. 7:23에 똑같은 목록(מֵאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמַיִם)이 성취 보도로 반복되므로 내러티브 안에서 의도된 짝이다. 사람만 악하다고 했는데 짐승까지 포함되는 이유는 본문이 설명하지 않는다(1:26-28 다스림 관계, 6:12-13 כָּל־בָּשָׂר가 연결 고리로 제안될 수 있으나 해석이다). 이 목록을 후대 첨가(편집층)로 보는 학설이 있다고 알려져 있으나 이번 실행에서 확인하지 않았고, 고정 WLC에는 이문 표시가 없다. 번역에서는 생략하지 않는다."
+        },
+        {
+          "clause": "כִּי נִחַמְתִּי כִּי עֲשִׂיתִם",
+          "category": "lexical/syntax",
+          "note_ko": "첫 כִּי는 이유('…이기 때문이다'), 둘째 כִּי는 내용('…한 것을'). נִחַמְתִּי 니팔 완료 1cs는 현재 상태 '내가 후회한다'로 옮긴다. עֲשִׂיתִם의 3mp 접미사는 앞의 목록 전체(사람·가축·기는 것·새)를 받는다. 6:6 화자 서술(וַיִּנָּחֶם … כִּי־עָשָׂה)이 6:7 야훼의 1인칭 발화로 반복된다."
+        }
+      ]
+    },
+    "Gen.6.8": {
+      "clauses": [
+        {
+          "clause": "וְנֹחַ מָצָא חֵן בְּעֵינֵי יְהוָה",
+          "category": "syntax/lexical/discourse",
+          "note_ko": "와우 + 주어 선행 + 완료(מָצָא)는 와익톨 연쇄를 끊는 대조 구문이다: '그러나 노아는'. מָצָא חֵן בְּעֵינֵי는 사람 사이에서도 쓰는 관용구(고정 WLC 창 18:3, 19:19; 출 33:12 야훼와 모세)로 '…의 호의를 얻다/…에게 좋게 여겨지다'. חֵן은 '호의/은혜'. נֹחַ와 חֵן은 같은 두 자음 נ·ח를 거꾸로 배열한 말놀이다. 6:9의 '의인·흠 없는 자' 진술보다 6:8 '호의를 얻었다'가 먼저 나오는 순서는 담화상 의미가 있으나, 호의의 근거가 무엇인지는 본문이 여기서 말하지 않는다. 뒤의 <seg type=\"x-pe\">פ</seg>는 단락 끝."
+        }
+      ]
+    }
+  },
+  "initial_proposals": {
+    "Gen.6.5": {
+      "ko": "야훼는 땅에서 사람의 악이 크고, 그 마음의 생각이 빚어내는 모든 것이 언제나 오직 악할 뿐임을 보셨다.",
+      "en": "YHWH saw that the evil of humankind on the earth was great, and that everything the thoughts of their hearts devised was only evil continually.",
+      "es": "YHWH vio que la maldad del ser humano en la tierra era grande, y que todo lo que forjaban los pensamientos de su corazón era solamente malo todo el tiempo."
+    },
+    "Gen.6.6": {
+      "ko": "야훼는 땅 위에 사람을 만드신 것을 후회하시고, 마음 깊이 아파하셨다.",
+      "en": "YHWH regretted that he had made humankind on the earth, and he was grieved to his heart.",
+      "es": "A YHWH le pesó haber hecho al ser humano en la tierra, y sintió dolor en su corazón."
+    },
+    "Gen.6.7": {
+      "ko": "야훼가 말씀하셨다. “내가 창조한 사람을 지면에서 지워 버리겠다. 사람으로부터 가축과 기는 것과 하늘의 새에 이르기까지 그리하겠다. 내가 그것들을 만든 것을 후회하기 때문이다.”",
+      "en": "YHWH said, “I will wipe humankind, whom I created, from the face of the ground—from human to livestock, to creeping thing, and to the birds of the heavens—for I regret that I made them.”",
+      "es": "YHWH dijo: «Borraré de la faz del suelo al ser humano que he creado: desde el ser humano hasta el ganado, hasta lo que se arrastra y hasta las aves de los cielos, porque me pesa haberlos hecho»."
+    },
+    "Gen.6.8": {
+      "ko": "그러나 노아는 야훼의 눈에 은혜를 입었다.",
+      "en": "But Noah found favor in the eyes of YHWH.",
+      "es": "Pero Noé halló gracia ante los ojos de YHWH."
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbc; selection_version 0.4.13)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.6.5-8에는 현행 채택문이 없다(패킷 current_selected 빈 목록). 이 검토는 미래 채택용 연구 자료다. 인접 채택문 관례를 확인했다: 신명 ko '야훼'·en/es 'YHWH'(4:1·4:4·4:6·4:9·4:15), 존칭 '야훼가 … 말씀하셨다'(4:6·4:9), '야훼는 … 바라보셨다'(4:4). בְּהֵמָה '가축/livestock/ganado'(1:26·2:20·3:14), עוֹף הַשָּׁמַיִם '하늘의 새/the birds of the heavens/las aves de los cielos'(2:20), רֶמֶשׂ '기어 다니는 것/creeping thing/ser que se arrastra'(1:26), אֲדָמָה en 'ground'(4:11·4:14, 2:5)·es 'suelo'(2:5) 또는 'tierra'(4:11). 이 검토의 역어를 이에 맞췄다."
+    },
+    {
+      "record": "automation/cloud-drafts/20261023T211759Z-ff69750f.json on origin/claude/friendly-heisenberg-o4rtc0 (verses Gen.6.5-6.8)",
+      "model_label": "Claude Code native cloud; requested_or_configured_model claude-sonnet-5-5 per that file; served snapshot not exposed per that file; state unadopted_model_draft",
+      "quoted_wording": {
+        "Gen.6.5": {
+          "ko": "주께서 보시니 땅에 사람의 악이 크고, 그 마음이 생각하는 모든 계획이 날마다 오직 악할 뿐이었다.",
+          "en": "The LORD saw that the wickedness of humankind was great in the earth, and that every inclination of the thoughts of their hearts was only evil continually.",
+          "es": "El SEÑOR vio que la maldad del hombre era mucha en la tierra, y que todo designio de los pensamientos de su corazón era de continuo solo el mal."
+        },
+        "Gen.6.6": {
+          "ko": "주께서는 땅에 사람을 만드신 것을 후회하시고 마음 아파하셨다.",
+          "en": "And the LORD was sorry that he had made humankind on the earth, and it grieved him to his heart.",
+          "es": "Y se arrepintió el SEÑOR de haber hecho al hombre en la tierra, y le dolió en su corazón."
+        },
+        "Gen.6.7": {
+          "ko": "주께서 말씀하셨다. \"내가 창조한 사람을 땅 위에서 쓸어버리겠다. 사람에서부터 가축과 기는 것과 하늘의 새에 이르기까지 그리하겠으니, 내가 그것들을 만든 것을 후회하기 때문이다.\"",
+          "en": "So the LORD said, \"I will blot out from the earth the humans I have created—people together with animals and creeping things and birds of the air—for I am sorry that I have made them.\"",
+          "es": "Y dijo el SEÑOR: «Borraré de la faz de la tierra al hombre que he creado, desde el hombre hasta la bestia, el reptil y las aves del cielo, porque me arrepiento de haberlos hecho»."
+        },
+        "Gen.6.8": {
+          "ko": "그러나 노아는 주의 눈에 은혜를 입었다.",
+          "en": "But Noah found favor in the sight of the LORD.",
+          "es": "Pero Noé halló gracia ante los ojos del SEÑOR."
+        }
+      },
+      "finding_ko": "의미 골격은 이 검토와 대체로 같다(후회+마음 아픔, 쓸어/지워 없앰, 은혜). 차이: (1) 신명이 '주/the LORD/el SEÑOR'로 현행 채택 관례(야훼/YHWH)와 다르다. (2) 6:5 ko '날마다'는 כָּל־הַיּוֹם의 연속성을 반복 빈도로 바꾼다. 같은 초안의 en 'continually'와도 어긋난다. (3) 6:5 ko '계획'과 en 'inclination'이 서로 다른 해석을 택해 언어 간 불일치다. (4) 6:7 en 'from the earth'는 אֲדָמָה(ground)를 אֶרֶץ(earth)와 구분하지 않고, 'people together with animals'는 מֵאָדָם עַד … 범위 구문('…부터 …까지')을 병렬로 바꾼다. (5) 6:7 es 'bestia'는 1:26·2:20 채택문 'ganado'와 다르고, 'aves del cielo'는 2:20 'aves de los cielos'와 다르다. (6) 6:6 en 'was sorry'는 가능하지만 6:7 'I am sorry'와 함께 영어 구어에서 사과(apology)로 들릴 수 있다. 이 초안은 같은 모델 계열(Claude)의 기록이므로 일치가 독립 확증은 아니다."
+    },
+    {
+      "record": "data/model-reviews/ (v0.2.0-v0.4.13), data/decisions.json, data/genesis-guides.json, data/source-note-decisions.json",
+      "model_label": "saved GPT/Gemini/Claude review records and editorial decisions",
+      "finding_ko": "Gen.6.5-8에 대한 본문 검토 기록이나 편집 결정이 없다. data/model-reviews/v0.4.x/claude-cloud-*-evidence.json에는 위 2026-10-23 초안 실행의 verse_ids 목록으로만 Gen.6.5-8이 나타난다(본문 검토 아님). GPT/Gemini 응답은 존재하지 않으며, 여기서도 제시하지 않는다."
+    },
+    {
+      "record": "automation/cloud-reviews/20261030T060333Z-f303697f.json on origin/claude/original-bible-hard-review-bjxtgv (unit gen-6-1-4, unadopted)",
+      "model_label": "Claude Code native cloud; requested_model claude-opus-5-5 per that file",
+      "finding_ko": "대상 절이 다르므로 내용 비교가 아니라 역어 일관성만 확인했다. 그 검토는 6:1 עַל־פְּנֵי הָאֲדָמָה를 es 'sobre la faz de la tierra'로, הָאָדָם을 ko '사람들/사람'·en 'humankind'·es 'los seres humanos/el ser humano'로 옮겼다. 이 검토는 הָאָדָם 역어를 맞추되, 6:7에서 אָדָם/אֲדָמָה와 אֶרֶץ를 구분하기 위해 es 'faz del suelo'를 제안한다. 단락 안 통일은 편집 결정 사항으로 남긴다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "신명 표기: 기존 초안의 '주/LORD/SEÑOR'는 현행 채택 관례와 다르다. 이 검토는 '야훼/YHWH/YHWH'를 따른다.",
+    "6:5 יֵצֶר: 기존 초안은 ko '계획'·en 'inclination'·es 'designio'로 세 언어가 서로 다른 의미 축을 택했다. 이 검토는 세 언어 모두 어근 '빚다'를 살리는 '빚어내는 것/devised/forjaban'으로 맞추고, '성향(inclination)'은 수용사적 대안으로 주석에 둔다.",
+    "6:5 כָּל־הַיּוֹם: 기존 ko '날마다'를 '언제나'로 바꾸자는 것이 이 검토의 구체적 수정 의견이다(직역 '온종일'은 주석).",
+    "6:6-7 נחם: 기존 초안과 이 검토 모두 '후회'를 유지한다. 완화역('마음을 돌이키다/한탄하다')을 본문에 쓰지 않는다는 점에서 일치한다. 같은 모델 계열의 일치이므로 독립 확증이 아니다.",
+    "6:7 מֵעַל פְּנֵי הָאֲדָמָה와 범위 구문: 기존 en은 אֲדָמָה를 'earth'로, 범위 구문을 병렬로 옮겼다. 이 검토는 'ground'와 'from … to …'를 제안한다."
+  ],
+  "lxx_reception_evidence": {
+    "source": "Swete Septuagint, First1KGreek raw OCR text in a third-party repository (see network_access_log). OCR text; printed edition not checked; Göttingen edition and apparatus not checked.",
+    "excerpts": {
+      "1.6.5": "ἰδὼν δὲ κύριος ὁ θεὸς ὅτι ἐπληθύνθησαν αἱκακίαι τῶν ἀνθρώπων ἐπὶ τῆς γῆς, καὶ πᾶς τις διανοεῖται ἐν τῇ καρδίᾳ αὐτοῦ ἐπιμελῶς ἐπὶ τὰ πονηρὰ πάσας τὰς ἡμέρας·",
+      "1.6.6": "καὶ ἐνεθυμήθη θεὸς ὅτι ἐποίησεν τὸν ἄνθρωπον ἐπὶ τῆς γῆς, καὶ διενοήθη.",
+      "1.6.7": "καὶ εἶπενὁ θεός Ἀπαλείψω τὸν ἄνθρωπον ὃν ἐποίησα ἀπὸ προσώπου τῆς γῆς,ἀνθρώπου ἕως κτήνους καὶ ἀπὸ ἑρπετῶν ἕως τῶν πετεινῶν τοῦ οὐρανοῦ· ὅτι ἐθυμώθην ὅτι ἐποίησα αὐτούς.",
+      "1.6.8": "Νῶε δὲ εὗρεν χάρινκυρίου τοῦ θεοῦ.",
+      "1.8.21 (partial)": "ὅτι ἔγκειται ἡ διάνοια τοῦ ἀνθρώπου ἐπιμελῶςἐπὶ τὰ πονηρὰ ἐκ νεότητος"
+    },
+    "assessment_ko": "이 OCR 본문에서 칠십인역은 6:6 וַיִּנָּחֶם을 ἐνεθυμήθη('깊이 생각했다/마음에 품었다'), וַיִּתְעַצֵּב אֶל־לִבּוֹ를 διενοήθη('숙고했다'), 6:7 נִחַמְתִּי를 ἐθυμώθην('내가 노했다')로 옮긴다. 신적 후회·슬픔 표현을 피하는 번역 기법(반의인화 경향)으로 볼 수 있는 수용 자료이며, 다른 히브리어 대본(Vorlage)의 증거로 역추정하지 않는다. 6:5 יֵצֶר는 동사 διανοεῖται('궁리한다')로, כָּל־הַיּוֹם은 πάσας τὰς ἡμέρας('모든 날 동안')로 옮겨졌다. 신명 יְהוָה는 6:5에서 κύριος ὁ θεός, 6:6-7에서 ὁ θεός/θεός로 나온다. 이 역시 신명 이문의 확증으로 쓰지 않는다. 6:8 'χάρινκυρίου'는 OCR 공백 누락이며, 그 사이에 단어(예: 전치사)가 빠졌는지는 인쇄본을 보지 않아 판단하지 않는다. 6:7 'καὶ ἀπὸ ἑρπετῶν'은 MT 목록 구문과 다르다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.6.5",
+      "clause": "יֵצֶר מַחְשְׁבֹת לִבּוֹ",
+      "option": "(A) 마음의 생각이 빚어내는 모든 것 / everything the thoughts of their hearts devised / todo lo que forjaban los pensamientos de su corazón (선호)",
+      "for": "어근 יצר '빚다'(2:7)를 살리고, 대상 1 28:9·29:18의 같은 연어와 신 31:21 '짓고 있는 생각' 용례에 맞는다. 세 언어가 같은 의미 축을 쓴다.",
+      "against": "한국어가 길고 '빚어내다'가 낯설다. 생각의 '산물'로 읽히면 마음의 지속적 경향이라는 뉘앙스가 약해질 수 있다.",
+      "verdict": "본문 채택안. '성향' 해석은 주석에 둔다."
+    },
+    {
+      "verse": "Gen.6.5",
+      "clause": "יֵצֶר מַחְשְׁבֹת לִבּוֹ",
+      "option": "(B) 마음의 생각의 모든 성향 / every inclination of the thoughts of their hearts / toda inclinación de los pensamientos de su corazón",
+      "for": "영어권 표준 역어이며 짧다. 8:21과 함께 읽을 때 '타고난 기울기'를 잘 드러낸다.",
+      "against": "후대 랍비 문헌의 יצר הרע(악한 성향) 개념과 기독교 원죄론 논의로 독자를 미리 이끈다. 이는 수용사이지 6:5의 어휘 기본값이 아니다.",
+      "verdict": "대안. 주석에서 소개."
+    },
+    {
+      "verse": "Gen.6.5",
+      "clause": "יֵצֶר",
+      "option": "(C) 계획/의도 / plan, purpose / designio",
+      "for": "신 31:21, 사 26:3 용례와 맞고 의도성을 강조한다.",
+      "against": "기존 초안처럼 언어마다 다른 축을 택하면 불일치가 생긴다. '계획'은 6:5의 전면적·지속적 진단(כָּל … רַק … כָּל־הַיּוֹם)보다 좁다.",
+      "verdict": "보조 대안."
+    },
+    {
+      "verse": "Gen.6.5",
+      "clause": "כָּל־הַיּוֹם",
+      "option": "(A) 언제나 / continually / todo el tiempo (선호) vs (B) 온종일 / all day long / todo el día (직역) vs (C) 날마다 (기존 초안 ko)",
+      "for": "(A)는 관용적 의미, (B)는 형태, (C)는 반복성.",
+      "against": "(B)는 한 날 안의 시간으로 오해될 수 있다. (C)는 '매일 한 번씩'으로 읽혀 연속성을 약화한다.",
+      "verdict": "(A) 채택, (B)를 직역 주석으로."
+    },
+    {
+      "verse": "Gen.6.6, Gen.6.7",
+      "clause": "וַיִּנָּחֶם / נִחַמְתִּי",
+      "option": "(A) 후회하다 / regret / pesar (선호)",
+      "for": "כִּי + 과거 행위(עָשָׂה/עֲשִׂיתִם)가 대상이라 '이미 한 일에 대한 후회'가 구문에 맞다. 삼상 15:11·35와 같은 구조다. 6:6과 6:7을 같은 동사로 묶어 화자 서술과 1인칭 발화의 반복을 보존한다. 원문의 강도를 낮추지 않는다.",
+      "against": "가장 강한 반론: 한국어 '후회'와 영어 'regret'는 '판단 착오/예측 실패'를 함의할 수 있어, 삼상 15:29·민 23:19('하나님은 사람이 아니므로 후회하지 않는다')와 정면 충돌하는 것처럼 읽힌다. 개혁파·장로교 신론(하나님의 불변성, 의인화적 표현 이해)을 따르는 독자에게 본문이 신학적 오해를 유발한다는 비판이 가능하다. 칠십인역도 이 표현을 피했다(ἐνεθυμήθη, ἐθυμώθην).",
+      "verdict": "본문 채택안. 히브리어 정경 자체가 삼상 15장 안에서 긴장을 그대로 둔다는 점, 칠십인역 회피는 번역 기법이라는 점을 주석에 쓰고, '의인화적(신인동형) 표현'에 대한 교리적 해석은 주석의 해석 층위로 분리한다."
+    },
+    {
+      "verse": "Gen.6.6",
+      "clause": "וַיִּנָּחֶם",
+      "option": "(B) 한탄하다 / be sorry / arrepentirse",
+      "for": "한국 개신교 독자에게 익숙한 전통 역어 계열이다. '한탄'은 후회와 슬픔을 함께 담아 의인화 부담을 줄인다.",
+      "against": "'한탄'은 탄식·슬픔 쪽으로 기울어 뒤의 וַיִּתְעַצֵּב('아파하다')와 의미가 겹치고, 구문상 '이미 한 일을 뉘우침'이라는 핵심이 흐려진다. es 'arrepentirse'는 도덕적 회개(죄의 뉘우침)로 읽힐 위험이 있다.",
+      "verdict": "대안. 전통 역어로 주석에 병기."
+    },
+    {
+      "verse": "Gen.6.6",
+      "clause": "וַיִּנָּחֶם",
+      "option": "(C) 마음을 돌이키다 / relent, change his mind",
+      "for": "출 32:14, 욘 3:10 등 신적 נחם의 다른 용례와 맞춘다.",
+      "against": "그 용례들은 נחם עַל + 앞으로 하려던 재앙이다. 6:6은 כִּי + 과거 창조 행위라 구문이 다르다. '마음을 바꾸다'는 이미 한 창조를 철회하겠다는 의미로 오해될 수도 있다.",
+      "verdict": "기각(이 절에서는)."
+    },
+    {
+      "verse": "Gen.6.6",
+      "clause": "וַיִּתְעַצֵּב אֶל־לִבּוֹ",
+      "option": "(A) 마음 깊이 아파하셨다 / he was grieved to his heart / sintió dolor en su corazón (선호) vs (B) 마음에 근심하셨다 / it grieved him in his heart / le dolió en su corazón",
+      "for": "(A)는 אֶל '…까지/…으로'의 깊이 표시를 '깊이/to'로 반영하고 주어(야훼)를 유지한다. (B)는 전통적이다.",
+      "against": "(A)의 '깊이'는 אֶל의 해석적 확장이라는 비판 가능. (B) '근심'은 걱정(anxiety) 쪽으로 읽힐 수 있다.",
+      "verdict": "(A) 채택, '깊이'는 אֶל־לִבּוֹ 반영이라고 주석."
+    },
+    {
+      "verse": "Gen.6.7",
+      "clause": "אֶמְחֶה",
+      "option": "(A) 지워 버리다 / wipe … from / borrar (선호) vs (B) 쓸어버리다 / blot out, destroy",
+      "for": "(A)는 왕하 21:13 '접시를 닦다', 출 32:32-33 책에서 '지우다'와 연결되는 '닦아 없앰' 이미지를 보존하고 7:4·7:23 역어와 일관되게 할 수 있다.",
+      "against": "(B)는 홍수(물이 쓸어감) 이미지와 잘 맞고 한국어로 더 자연스럽다.",
+      "verdict": "(A) 채택. 7:4·7:23도 같은 역어로 통일할 것을 권고."
+    },
+    {
+      "verse": "Gen.6.7",
+      "clause": "מֵאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמָיִם",
+      "option": "ko에 '그리하겠다'를 보충(선호) vs 한 문장 안에 동격으로 삽입",
+      "for": "보충하면 한국어 문장이 자연스럽고 범위 구문의 동사 공백을 명시적으로 메운다.",
+      "against": "'그리하겠다'는 원문에 없는 보충어다. 엄격한 직역 원칙에서는 표시가 필요하다.",
+      "verdict": "보충하되 proposed_notes_ko에서 보충어임을 밝힌다. en/es는 동격 대시·콜론으로 보충 없이 처리."
+    },
+    {
+      "verse": "Gen.6.8",
+      "clause": "מָצָא חֵן בְּעֵינֵי יְהוָה",
+      "option": "(A) 야훼의 눈에 은혜를 입었다 / found favor in the eyes of YHWH / halló gracia ante los ojos de YHWH (선호) vs (B) 야훼의 호의를 얻었다 / was regarded with favor by YHWH",
+      "for": "(A)는 '눈에' 관용구를 보존하고 6:5-7의 '보다' 모티프(וַיַּרְא)와 연결된다. 한국어·스페인어 '은혜/gracia'는 전통 역어와 이어진다.",
+      "against": "'은혜'는 신약·교리적 의미('받을 자격 없는 은혜')를 강하게 실어 6:9 '의인'과의 관계를 미리 판정하게 만들 수 있다. 같은 관용구가 사람 사이(18:3, 19:19)에도 쓰여 기본 의미는 '호의'다. en 'favor'와 ko/es '은혜/gracia' 사이 의미 폭 차이도 있다.",
+      "verdict": "(A) 채택. '호의를 얻다'가 관용구의 기본 의미임을 주석에 쓰고, 신학적 '은혜' 해석은 해석 층위로 분리."
+    }
+  ],
+  "strongest_objection_to_own_reading": "가장 강한 반론은 6:6·6:7의 '후회하다/regret/pesar'다. (1) 삼상 15:29와 민 23:19는 같은 동사 נחם으로 '하나님은 후회하지 않는다'고 말한다. (2) 확인한 칠십인역 OCR 본문은 이 표현을 ἐνεθυμήθη·ἐθυμώθην으로 피했다. (3) 한국어 '후회'는 '잘못 판단했다'는 함의가 강해, 장로교·개혁파 신론의 하나님의 불변성과 충돌하는 것처럼 읽힐 수 있다. 이 반론을 받아들이면 '한탄하다'(전통 역어)나 '마음 아파하다'(정서 중심)가 더 안전하다. 그런데도 '후회'를 유지하는 이유: (a) 구문이 כִּי + 과거 행위로, 이미 한 일을 두고 마음이 바뀌었다는 의미를 문법이 직접 표시한다. (b) 삼상 15장은 11·35절(야훼가 후회함)과 29절(후회하지 않음)을 한 장 안에 함께 두므로, 히브리어 정경이 이 긴장을 번역자가 해소하도록 요구하지 않는다. (c) 칠십인역의 회피는 번역 기법이며 다른 대본의 증거가 아니다. 다만 이 판단은 어휘·구문 근거에 의존하며, 독자층(교회 낭독용)에 대한 시험은 하지 않았다. 편집부가 낭독 적합성을 우선하면 '한탄하다'로 바꿀 수 있고, 그 경우에도 주석에 '후회' 직역을 남겨야 한다.",
+  "preferred_wording": {
+    "Gen.6.5": {
+      "ko": "야훼는 땅에서 사람의 악이 크고, 그 마음의 생각이 빚어내는 모든 것이 언제나 오직 악할 뿐임을 보셨다.",
+      "en": "YHWH saw that the evil of humankind on the earth was great, and that everything the thoughts of their hearts devised was only evil continually.",
+      "es": "YHWH vio que la maldad del ser humano en la tierra era grande, y que todo lo que forjaban los pensamientos de su corazón era solamente malo todo el tiempo."
+    },
+    "Gen.6.6": {
+      "ko": "야훼는 땅 위에 사람을 만드신 것을 후회하시고, 마음 깊이 아파하셨다.",
+      "en": "YHWH regretted that he had made humankind on the earth, and he was grieved to his heart.",
+      "es": "A YHWH le pesó haber hecho al ser humano en la tierra, y sintió dolor en su corazón."
+    },
+    "Gen.6.7": {
+      "ko": "야훼가 말씀하셨다. “내가 창조한 사람을 지면에서 지워 버리겠다. 사람으로부터 가축과 기는 것과 하늘의 새에 이르기까지 그리하겠다. 내가 그것들을 만든 것을 후회하기 때문이다.”",
+      "en": "YHWH said, “I will wipe humankind, whom I created, from the face of the ground—from human to livestock, to creeping thing, and to the birds of the heavens—for I regret that I made them.”",
+      "es": "YHWH dijo: «Borraré de la faz del suelo al ser humano que he creado: desde el ser humano hasta el ganado, hasta lo que se arrastra y hasta las aves de los cielos, porque me pesa haberlos hecho»."
+    },
+    "Gen.6.8": {
+      "ko": "그러나 노아는 야훼의 눈에 은혜를 입었다.",
+      "en": "But Noah found favor in the eyes of YHWH.",
+      "es": "Pero Noé halló gracia ante los ojos de YHWH."
+    }
+  },
+  "proposed_notes_ko": {
+    "Gen.6.5": [
+      "'빚어내는 모든 것'은 יֵצֶר(어근 יצר '빚다', 2:7 '빚으시고'와 같은 어근)를 옮긴 말이다. 흔한 대안은 '성향(inclination)', '계획'이다. '성향'은 후대 랍비 문헌의 '악한 성향' 개념과 연결되는 해석 전통이다.",
+      "'언제나'의 직역은 '온종일'(כָּל־הַיּוֹם)이다.",
+      "8:21 '사람의 마음이 빚어내는 것은 어려서부터 악하다'와 짝을 이룬다. 1:31 '보시니 매우 좋았다'와 대조된다."
+    ],
+    "Gen.6.6": [
+      "'후회하다'(נחם 니팔)는 이미 한 일(사람을 만드신 것)을 두고 마음이 바뀐 것을 말한다. 삼상 15:11·35도 같은 표현을 쓰고, 같은 장 15:29와 민 23:19는 '하나님은 사람이 아니므로 후회하지 않는다'고 말한다. 본문은 이 긴장을 해소하지 않으며, 이를 신인동형적 표현으로 이해하는 해석은 교리적 해석 층위에 속한다. 전통 역어는 '한탄하다'이다. 칠십인역은 '깊이 생각했다'로 옮겼다.",
+      "'아파하다'(עצב 히트파엘)는 3:16-17의 '고통/수고'(עִצָּבוֹן)와 어근이 같다. 5:29 노아의 이름 풀이 '이 아이가 … 우리 손의 수고(עִצָּבוֹן)에서 우리를 위로하리라(נחם)'와 두 어근이 겹친다.",
+      "'마음 깊이'는 אֶל־לִבּוֹ('그의 마음으로/마음까지')를 반영한다."
+    ],
+    "Gen.6.7": [
+      "'지워 버리다'(מחה)는 닦아 없앤다는 뜻이다(왕하 21:13 '접시를 닦듯'). 7:4·7:23에서 성취된다.",
+      "'사람으로부터 … 하늘의 새에 이르기까지'는 원문에 동사가 없는 범위 표현이다. 한국어의 '그리하겠다'는 문장을 잇기 위한 보충어다. 7:23에 같은 목록이 반복된다.",
+      "'지면'은 '땅(אֲדָמָה)의 표면'이다. 사람(אָדָם)과 땅(אֲדָמָה)의 말놀이가 있다. 6:5-6의 '땅(אֶרֶץ)'과 다른 단어다."
+    ],
+    "Gen.6.8": [
+      "'눈에 은혜를 입다'(מָצָא חֵן בְּעֵינֵי)는 사람 사이에도 쓰는 관용구로 기본 의미는 '호의를 얻다'이다(18:3, 19:19).",
+      "노아(נֹחַ)와 은혜(חֵן)는 같은 자음을 거꾸로 놓은 말놀이다.",
+      "6:8 뒤에 단락 표시(פ)가 있고 6:9부터 '노아의 계보' 단락이 시작된다."
+    ]
+  },
+  "editorial_consistency_findings": [
+    "신명: ko '야훼'·en/es 'YHWH'(창 4장 채택 관례)를 따랐다. 창 2:5·2:7 en 'Yahweh'/es 'Yahvé'와 4장 'YHWH' 사이 채택문 내부 불일치가 이미 있으며 편집 결정 사항이다.",
+    "신명 주어 조사: 4:4 '야훼는 … 바라보셨다', 4:6 '야훼가 … 말씀하셨다'를 따라 6:5·6:6 '야훼는 … 보셨다/아파하셨다', 6:7 '야훼가 말씀하셨다'로 했다. 1:31·2:7 '하나님께서/야훼 하나님께서'와 존칭 조사가 다르다.",
+    "동물 범주: בְּהֵמָה '가축/livestock/ganado', רֶמֶשׂ '기는 것/creeping thing/lo que se arrastra', עוֹף הַשָּׁמַיִם '하늘의 새/the birds of the heavens/las aves de los cielos'로 1:26·2:20·3:14 채택문에 맞췄다(1:26 ko '하늘의 날짐승'·en 'winged creatures of the sky'는 2:20과 이미 다르다).",
+    "אֲדָמָה 대 אֶרֶץ: 6:5-6 בָּאָרֶץ는 ko '땅에서/땅 위에'·en 'on the earth'·es 'en la tierra', 6:7 פְּנֵי הָאֲדָמָה는 ko '지면'·en 'the face of the ground'·es 'la faz del suelo'로 구분했다. 6:1 형제 검토(es 'faz de la tierra')와는 다르므로 6:1·6:7·7:4·7:23·8:8·8:13을 함께 통일해야 한다.",
+    "נחם 역어 연동: 5:29 '위로하다'(피엘), 6:6-7 '후회하다'(니팔), 그리고 대기열의 exod-32-9-14(32:14 נחם עַל־הָרָעָה) 검토가 같은 어근 역어 체계를 함께 정해야 한다.",
+    "יֵצֶר 역어 연동: 6:5와 8:21(대기열 gen-8-20-22)은 같은 역어를 써야 한다."
+  ],
+  "final_opinion_ko": "Gen.6.5-8에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료이며 preferred_wording은 잠정 의견이다. 핵심 원칙: (1) 6:5 יֵצֶר는 어근 '빚다'를 살려 세 언어를 같은 의미 축으로 옮기고, '성향'은 수용사적 대안으로 주석에 둔다. 8:21과 같은 역어를 쓴다. (2) כָּל־הַיּוֹם은 '날마다'가 아니라 '언제나/continually'다. (3) 6:6-7 נחם은 구문(כִּי + 과거 행위)에 맞춰 '후회하다'를 유지하고, 신적 불변성과의 긴장(삼상 15:11·29·35, 민 23:19)은 본문이 아니라 주석에서 해석 층위로 다룬다. 낭독 적합성을 우선하는 편집 결정이 내려지면 '한탄하다'가 차선이다. (4) 6:7은 מֵעַל פְּנֵי הָאֲדָמָה를 '지워 버리다'에 걸고, 범위 구문 목록을 생략하지 않으며 7:23과 역어를 맞춘다. (5) 6:8은 대조 구문 '그러나 노아는'과 관용구 '눈에 은혜를 입었다'를 유지하고, 관용구의 기본 의미 '호의'와 נֹחַ/חֵן 말놀이를 주석에 둔다. 기존 2026-10-23 Sonnet 초안과 비교하면 신명 표기, 6:5 언어 간 불일치(계획/inclination/designio), '날마다', 6:7 en ground/범위 구문, es 동물 역어가 구체적 수정 대상이다.",
+  "confidence_limits": [
+    "히브리어 사전(BDB/HALOT/DCH)과 주석서를 이번 실행에서 열람하지 못했다. 어휘 판단은 고정 WLC 용례 검색(lemma 5162·6087·3336·4229)과 칠십인역 디지털 본문에만 근거한다.",
+    "칠십인역 확인은 Swete 판을 옮긴 First1KGreek 원시 OCR 텍스트 1종(제3자 저장소)에 한정된다. 6:8 'χάρινκυρίου'의 누락 단어 여부, 6:7 'καὶ ἀπὸ ἑρπετῶν'의 정확한 읽기는 인쇄본으로 확인하지 않았다. 괴팅겐판과 비평 장치는 확인하지 않았다.",
+    "사마리아 오경, 사해문서, 타르굼, 페쉬타, 불가타, 랍비·교부·종교개혁자 주석은 확인하지 않았다. 6:7 목록의 편집층 학설, 랍비 문헌의 יצר הרע 개념, 개혁파 신론의 의인화 이해에 대한 언급은 기억에 의한 일반 보고이며 출처 검증을 거치지 않았다.",
+    "같은 모델 계열(Claude) 안의 두 기록(이 검토와 2026-10-23 Sonnet 초안)이 일치해도 독립 확증이 아니다.",
+    "한국어 '후회'·'한탄', 스페인어 'pesar'·'arrepentirse'의 독자 반응(교회 낭독 적합성)을 시험하지 않았다."
+  ],
+  "reconsider_if": [
+    "사전·주석 확인 결과 6:6 נחם 니팔+כִּי+완료가 '후회'보다 '슬퍼하다/마음 아파하다'에 가깝다는 근거가 나오면 6:6-7 역어를 재검토한다.",
+    "편집부가 교회 낭독 적합성을 이유로 '한탄하다'를 택하면, 본문을 바꾸고 주석에 직역 '후회하다'와 삼상 15장 긴장을 남긴다.",
+    "8:21(gen-8-20-22) 검토에서 יֵצֶר 역어가 달리 정해지면 6:5를 그 역어로 맞춘다.",
+    "사마리아 오경·사해문서·칠십인역 인쇄본에서 6:5-8에 실제 히브리어 이문(예: 6:7 목록 유무, 신명 차이)이 확인되면 basis와 주석을 갱신한다.",
+    "6:1-4 및 7:4·7:23·8:8·8:13 채택 시 אֲדָמָה의 es 역어(suelo/tierra)를 단락 전체에서 통일하게 되면 6:7 es를 그에 맞춘다.",
+    "en 'regret'가 영어 독자 검토에서 '실수 인정'으로 과도하게 읽힌다는 근거가 있으면 'was sorry'(기존 초안)나 'it repented YHWH'(고어 직역) 대안을 다시 비교한다.",
+    "GPT/Gemini 독립 검토나 인간 전문가 검토가 구체적 오역이나 누락을 지적하면 재검토한다."
+  ],
+  "unresolved": [
+    "6:6 נחם을 '후회(regret)'로 둘지 '한탄/슬픔'으로 둘지는 어휘·구문 근거와 교회 낭독 적합성 사이의 편집 결정이다.",
+    "6:5 יֵצֶר의 본문 역어('빚어내는 것' 대 '성향')는 8:21과 함께 결정해야 한다.",
+    "6:7 목록(사람부터 새까지)에 짐승이 포함되는 이유는 본문이 설명하지 않는다. 6:12-13 כָּל־בָּשָׂר와의 관계는 해석이며 미결이다.",
+    "6:7 목록이 후대 편집층인지에 대한 학설은 이번 실행에서 확인하지 않았다. 고정 WLC에는 이문 표시가 없다.",
+    "칠십인역 6:6-7의 회피 역어가 번역 기법인지 다른 대본의 반영인지는 이 실행의 근거로 판정할 수 없다(번역 기법으로 보는 것이 이 검토의 잠정 판단).",
+    "6:8 칠십인역 OCR 'χάρινκυρίου'의 누락 단어 여부는 인쇄본으로 확인하지 않았다.",
+    "es 6:7 'faz del suelo'와 6:1 형제 검토의 'faz de la tierra' 사이의 단락 내 통일."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T08:01:56Z) into private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and parallels Gen 2:7, 3:16-17, 5:29, 6:9-13, 7:4, 7:23, 8:21, 18:3, 19:19, 24:67, 34:7, 38:12, 45:5.",
+      "excerpts": {
+        "Gen.5.29 (cantillation stripped)": "וַיִּקְרָא אֶת שְׁמוֹ נֹחַ לֵאמֹר זֶה יְנַחֲמֵנוּ מִמַּעֲשֵׂנוּ וּמֵעִצְּבוֹן יָדֵינוּ מִן הָאֲדָמָה אֲשֶׁר אֵרְרָהּ יְהוָה",
+        "Gen.7.23 (cantillation stripped)": "וַיִּמַח אֶת כָּל הַיְקוּם אֲשֶׁר עַל פְּנֵי הָאֲדָמָה מֵאָדָם עַד בְּהֵמָה עַד רֶמֶשׂ וְעַד עוֹף הַשָּׁמַיִם",
+        "Gen.8.21 (partial, cantillation stripped)": "כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו",
+        "Gen.7.4 (partial, cantillation stripped)": "וּמָחִיתִי אֶת כָּל הַיְקוּם אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָאֲדָמָה"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+      "accessed_utc": "2026-10-30T08:03:06Z",
+      "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+      "what_it_is": "Pinned WLC/OSHB 1 Samuel (same commit and rights).",
+      "excerpts": {
+        "1Sam.15.11 (partial)": "נִחַמְתִּי כִּי הִמְלַכְתִּי אֶת שָׁאוּל לְמֶלֶךְ",
+        "1Sam.15.29": "וְגַם נֵצַח יִשְׂרָאֵל לֹא יְשַׁקֵּר וְלֹא יִנָּחֵם כִּי לֹא אָדָם הוּא לְהִנָּחֵם",
+        "1Sam.15.35 (partial)": "וַיהוָה נִחָם כִּי הִמְלִיךְ אֶת שָׁאוּל עַל יִשְׂרָאֵל"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-10-30T08:03:05Z",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "what_it_is": "Pinned WLC/OSHB Numbers.",
+      "excerpts": {
+        "Num.23.19 (partial)": "לֹא אִישׁ אֵל וִיכַזֵּב וּבֶן אָדָם וְיִתְנֶחָם"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T08:03:05Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus.",
+      "excerpts": {
+        "Exod.32.33 (partial)": "מִי אֲשֶׁר חָטָא לִי אֶמְחֶנּוּ מִסִּפְרִי",
+        "Exod.32.14": "וַיִּנָּחֶם יְהוָה עַל הָרָעָה אֲשֶׁר דִּבֶּר לַעֲשׂוֹת לְעַמּוֹ"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-10-30T08:03:06Z",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "what_it_is": "Pinned WLC/OSHB Jeremiah.",
+      "excerpts": {
+        "Jer.18.8 (partial)": "וְנִחַמְתִּי עַל הָרָעָה אֲשֶׁר חָשַׁבְתִּי לַעֲשׂוֹת לוֹ"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jonah.xml",
+      "accessed_utc": "2026-10-30T08:03:07Z",
+      "file_sha256": "1e1afcc3aaba1399d5c884ee106894c6bfca87c8c81fa57783ab75a923eee17d",
+      "what_it_is": "Pinned WLC/OSHB Jonah.",
+      "excerpts": {
+        "Jonah.3.10 (partial)": "וַיִּנָּחֶם הָאֱלֹהִים עַל הָרָעָה אֲשֶׁר דִּבֶּר לַעֲשׂוֹת לָהֶם"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-30T08:03:06Z",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "what_it_is": "Pinned WLC/OSHB Deuteronomy.",
+      "excerpts": {
+        "Deut.31.21 (partial)": "כִּי יָדַעְתִּי אֶת יִצְרוֹ אֲשֶׁר הוּא עֹשֶׂה הַיּוֹם"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Chr.xml",
+      "accessed_utc": "2026-10-30T08:03:07Z",
+      "file_sha256": "8b59992b6607c6ca0fc423813be8cc244f011c1da32bc8485c0c0f581a897ed4",
+      "what_it_is": "Pinned WLC/OSHB 1 Chronicles.",
+      "excerpts": {
+        "1Chr.28.9 (partial)": "וְכָל יֵצֶר מַחֲשָׁבוֹת מֵבִין",
+        "1Chr.29.18 (partial)": "לְיֵצֶר מַחְשְׁבוֹת לְבַב עַמֶּךָ"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Kgs.xml",
+      "accessed_utc": "2026-10-30T08:03:06Z",
+      "file_sha256": "056db5393beaef0a1159d9bcaac7dfd865df9bab2eb240ea90e9fa3f0c0e7449",
+      "what_it_is": "Pinned WLC/OSHB 2 Kings.",
+      "excerpts": {
+        "2Kgs.21.13 (partial)": "וּמָחִיתִי אֶת יְרוּשָׁלִַם כַּאֲשֶׁר יִמְחֶה אֶת הַצַּלַּחַת"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "accessed_utc": "2026-10-30T08:03:07Z",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "what_it_is": "Pinned WLC/OSHB Isaiah (lemma search for 3336 and 6087).",
+      "excerpts": {
+        "Isa.63.10 (partial)": "וְעִצְּבוּ אֶת רוּחַ קָדְשׁוֹ"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T08:03:52Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Raw OCR-derived digital text of Swete Septuagint (First1KGreek) in a third-party repository; same file hash as used by runs 20261030T050134Z-7527a17b and 20261030T060333Z-f303697f. Reception/translation-technique evidence only; not a critical edition.",
+      "excerpts": "see lxx_reception_evidence.excerpts"
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or critical-apparatus verification was performed.",
+    "No GPT, Gemini, Antigravity or human review response was obtained or is represented here.",
+    "No human specialist review or unanimous agreement is claimed.",
+    "No credit balance, dollar amount or credit deduction is asserted.",
+    "This file does not change data/editorial.json, data/decisions.json, data/releases/, dist/ or main."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T080156Z-d8df31da.json",
+    "packet_sha256": "5e7d0d4aea8eda610839b6dc0e91b181443b9321de87ba10afc0254735ae9836",
+    "verses": [
+      {
+        "id": "Gen.6.5",
+        "raw_xml": "<verse osisID=\"Gen.6.5\">\n          <w lemma=\"c/7200\" morph=\"HC/Vqw3ms\" id=\"01Rr8\">וַ/יַּ֣רְא</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"01q3q\">יְהוָ֔ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01zBj\">כִּ֥י</w>\n          <w lemma=\"7227 a\" n=\"1.0.0\" morph=\"HAafsa\" id=\"01mM8\">רַבָּ֛ה</w>\n          <w lemma=\"7451 c\" morph=\"HNcfsc\" id=\"01Boi\">רָעַ֥ת</w>\n          <w lemma=\"d/120\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"019tu\">הָ/אָדָ֖ם</w>\n          <w lemma=\"b/776\" n=\"1\" morph=\"HRd/Ncbsa\" id=\"01cJ2\">בָּ/אָ֑רֶץ</w>\n          <w lemma=\"c/3605\" morph=\"HC/Ncmsc\" id=\"01qwa\">וְ/כָל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3336\" n=\"0.1.0\" morph=\"HNcmsc\" id=\"01U6p\">יֵ֨צֶר֙</w>\n          <w lemma=\"4284\" morph=\"HNcfpc\" id=\"01gi1\">מַחְשְׁבֹ֣ת</w>\n          <w lemma=\"3820 a\" n=\"0.1\" morph=\"HNcmsc/Sp3ms\" id=\"01zuP\">לִבּ֔/וֹ</w>\n          <w lemma=\"7535\" morph=\"HTa\" id=\"01RH3\">רַ֥ק</w>\n          <w lemma=\"7451 a\" n=\"0.0\" morph=\"HAamsa\" id=\"01tap\">רַ֖ע</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"01dpu\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/3117\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"01bEm\">הַ/יּֽוֹם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "e6c2b6c9afe32121798e921b1f6a3e911eaf8050698f5cb3d7fcde7728c10456",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.6.6",
+        "raw_xml": "<verse osisID=\"Gen.6.6\">\n          <w lemma=\"c/5162\" morph=\"HC/VNw3ms\" id=\"01jsC\">וַ/יִּנָּ֣חֶם</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"01VLV\">יְהוָ֔ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01RYi\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6213 a\" morph=\"HVqp3ms\" id=\"01VMS\">עָשָׂ֥ה</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01WwP\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"019hJ\">הָֽ/אָדָ֖ם</w>\n          <w lemma=\"b/776\" n=\"1\" morph=\"HRd/Ncbsa\" id=\"01wDc\">בָּ/אָ֑רֶץ</w>\n          <w lemma=\"c/6087 a\" n=\"0.0\" morph=\"HC/Vtw3ms\" id=\"011ME\">וַ/יִּתְעַצֵּ֖ב</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01bxs\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3820 a\" n=\"0\" morph=\"HNcmsc/Sp3ms\" id=\"01Eya\">לִבּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "e84973f8511b917cb908e9ef2d8cbc877ab43085e4a0dca25ba804a3aea6c13b",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.6.7",
+        "raw_xml": "<verse osisID=\"Gen.6.7\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01bTU\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"3068\" n=\"1.2.2\" morph=\"HNp\" id=\"01Wzj\">יְהוָ֗ה</w>\n          <w lemma=\"4229 a\" morph=\"HVqi1cs\" id=\"01xVG\">אֶמְחֶ֨ה</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01Ehm\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/120\" morph=\"HTd/Ncmsa\" id=\"01CAK\">הָ/אָדָ֤ם</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01o3f\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1254 a\" n=\"1.2.1\" morph=\"HVqp1cs\" id=\"01e88\">בָּרָ֨אתִי֙</w>\n          <w lemma=\"m/5921 a\" n=\"1.2.0\" morph=\"HR/R\" id=\"01f25\">מֵ/עַל֙</w>\n          <w lemma=\"6440\" morph=\"HNcbpc\" id=\"01Hww\">פְּנֵ֣י</w>\n          <w lemma=\"d/127\" n=\"1.2\" morph=\"HTd/Ncfsa\" id=\"01TVz\">הָֽ/אֲדָמָ֔ה</w>\n          <w lemma=\"m/120\" n=\"1.1.0\" morph=\"HR/Ncmsa\" id=\"01LRb\">מֵֽ/אָדָם֙</w>\n          <w lemma=\"5704\" morph=\"HR\" id=\"01HAt\">עַד</w><seg type=\"x-maqqef\">־</seg><w lemma=\"929\" n=\"1.1\" morph=\"HNcfsa\" id=\"01nGv\">בְּהֵמָ֔ה</w>\n          <w lemma=\"5704\" morph=\"HR\" id=\"01iiv\">עַד</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7431\" n=\"1.0\" morph=\"HNcmsa\" id=\"01CVL\">רֶ֖מֶשׂ</w>\n          <w lemma=\"c/5704\" morph=\"HC/R\" id=\"019vz\">וְ/עַד</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5775\" morph=\"HNcmsc\" id=\"01NTb\">ע֣וֹף</w>\n          <w lemma=\"d/8064\" n=\"1\" morph=\"HTd/Ncmpa\" id=\"01cvb\">הַ/שָּׁמָ֑יִם</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01B7J\">כִּ֥י</w>\n          <w lemma=\"5162\" n=\"0.0\" morph=\"HVNp1cs\" id=\"01XBu\">נִחַ֖מְתִּי</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01uMM\">כִּ֥י</w>\n          <w lemma=\"6213 a\" n=\"0\" morph=\"HVqp1cs/Sp3mp\" id=\"01XBy\">עֲשִׂיתִֽ/ם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "37413893557a36c2dc9260a866ebcd905fa7dae927aed38fe3f5bbd452645eec",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.6.8",
+        "raw_xml": "<verse osisID=\"Gen.6.8\">\n          <w lemma=\"c/5146\" n=\"0.1\" morph=\"HC/Np\" id=\"01Gch\">וְ/נֹ֕חַ</w>\n          <w lemma=\"4672\" morph=\"HVqp3ms\" id=\"01tZs\">מָ֥צָא</w>\n          <w lemma=\"2580\" n=\"0.0\" morph=\"HNcmsa\" id=\"01Sx5\">חֵ֖ן</w>\n          <w lemma=\"b/5869 a\" morph=\"HR/Ncbdc\" id=\"01mYa\">בְּ/עֵינֵ֥י</w>\n          <w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"01Fc9\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "6002c4fc81804c256b7db769724b1659bd5019f4a374dfc8647e94e4ecc4c8ea",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "author_project": "Hansam Yang (founder and original creator); this file is a model review, not an editorial selection"
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T080156Z-d8df31da.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "qere_ketiv_present": false,
+    "paragraph_marker_preserved": true,
+    "network_excerpts_verified_against_fetched_files": true,
+    "nonempty_ko_en_es": true,
+    "independent_reading_per_verse": true,
+    "clause_coverage": {
+      "Gen.6.5": 4,
+      "Gen.6.6": 2,
+      "Gen.6.7": 3,
+      "Gen.6.8": 1
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "current_selected_changed": false,
+    "current_selected_in_packet": 0,
+    "original_vs_interpretation_separated": "clause notes carry a category (lexical/syntax/discourse/historical/reception); LXX is labelled reception/translation technique, not Vorlage; editorial-layer theory and doctrinal readings are labelled unverified/interpretive",
+    "authentic_attribution": "Only actual saved records are compared and quoted; no GPT/Gemini/human response is represented.",
+    "target_ids_exactly_once": true,
+    "notes_per_verse": true,
+    "all_required_checks_pass": true
+  }
+}
