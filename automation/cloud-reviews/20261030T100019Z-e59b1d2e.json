@@ -1,0 +1,1107 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T100019Z-e59b1d2e",
+  "unit_id": "gen-9-20-27",
+  "verse_ids": [
+    "Gen.9.20",
+    "Gen.9.21",
+    "Gen.9.22",
+    "Gen.9.23",
+    "Gen.9.24",
+    "Gen.9.25",
+    "Gen.9.26",
+    "Gen.9.27"
+  ],
+  "unit_issue_ko": "벌거벗음·가나안 저주·야벳 확장·그의 장막 주어",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.9.20-27 = 전통 장절 창세기 9:20-27(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 디지털 본문(Swete 원시 OCR)도 1.9.20-1.9.27을 쓴다. 세 전통 사이 장절 차이는 이 범위에서 발견하지 못했다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml. Clause hebrew_display strings are derived displays (slashes removed) and are not a substitute for raw_xml.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; no trigger or project in session record)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T10:00Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. Re-checked before save; see model_identity.recheck.",
+    "session": "https://claude.ai/code/session_01UknqVHjE2LWtQNnp7peQ2i",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata, not a balance or deduction figure.",
+    "not_exposed": [
+      "exact served model snapshot beyond the session metadata label",
+      "token counts",
+      "cost or credit deduction for this run",
+      "remaining promotional credit balance"
+    ],
+    "recheck": "get_session re-checked at about 2026-10-30T10:07:36Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, last_served_model=claude-opus-5-5, rate_limit status=allowed (ccr_promotional, isUsingOverage=false). Labels only; served snapshot not otherwise exposed."
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T10:00:07Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; no active claim found)",
+    "claim_created": "2026-10-30T10:00:19.460184+00:00",
+    "claim_pushed": "2026-10-30T10:00Z (claim commit pushed to claude/original-bible-hard-review-dfb67p; ls-remote confirmed)",
+    "independent_reading_saved": "2026-10-30T10:01:54Z (scratch note from packet raw XML only, before opening any earlier model record)",
+    "earlier_records_compared": "2026-10-30T10:02Z",
+    "parallel_evidence_fetched": "2026-10-30T10:02:40Z-10:04:17Z",
+    "review_saved": "2026-10-30T10:08:33Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "Reading built from packet raw XML and OSHB morphology only, then saved to scratch before reading the earlier Sonnet draft or other reviews. Clause notes below were written after that and incorporate later parallel checks; initial_proposals are the first ko/en/es wording.",
+    "as_first_written_en": "Independent reading written before viewing any prior model record for Gen.9.20-27.\n20: wayyahel (Hiphil hll, begin) + wayyitta: began (to) plant. ish ha-adamah definite, apposition to Noah per accents (tipcha on Noah, atnach on ha-adamah). Alt: was the first to plant (cf 10:8 hehel), began to be a farmer (KJV-type, weak: hll not usually + noun predicate).\n21: min-hayyayin partitive; wayyitgal Hithpael glh: uncovered himself / lay uncovered (volition not stated). ahaloh with he = archaic 3ms suffix; WLC note says K/Q abandoned with L against BHS. Read 'his tent'; 3fs 'her tent' is reception wordplay only.\n22: Ham father of Canaan saw ervat aviv; told his two brothers outside. Strongest objection: ervah idiom (Lev 18, Lev 20:17 raah ervah) -> sexual act theories. Counter: verb is raah not gillah; v23 covering with garment backward implies literal sight. Keep literal 'nakedness'.\n23: wayyiqqah singular with compound subject (verb-first agreement). hassimlah definite: the garment/cloak. faces backward; did not see.\n24: wayyiqets from his wine; knew what his youngest son had done to him. beno haqqatan: youngest vs younger vs Canaan (grandson). asah lo -> act? keep 'had done to him'.\n25: arur Kenaan jussive sense; eved avadim superlative construct; to his brothers. Noah speaks, not God; curse falls on Canaan not Ham, no color element (reception misuse note).\n26: Blessed be YHWH the God of Shem (blesses God, not Shem directly); let Canaan be servant lamo (3mp; poetic, possibly collective/singular). Conjectural emendations not attested in packet.\n27: yaft (Hiphil jussive pth 'make wide', wordplay Yefet) Elohim le-Yefet: may God make room for Japheth. weyishkon subject ambiguous: God (grammatical continuity; Onkelos-type Shekhinah reading) vs Japheth (topic). Keep 'he' ambiguous. Canaan servant lamo.\n",
+    "written_before_reading_other_records_utc": "2026-10-30T10:01:54Z",
+    "clauses": {
+      "Gen.9.20": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01pM2",
+            "01fTE",
+            "01BxX",
+            "013b7"
+          ],
+          "hebrew_display": "וַיָּ֥חֶל נֹ֖חַ אִ֣ישׁ הָֽאֲדָמָ֑ה",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vhw3ms",
+            "HNp",
+            "HNcmsc",
+            "HTd/Ncfsa"
+          ],
+          "category": [
+            "syntax",
+            "lexical",
+            "discourse"
+          ],
+          "note_ko": "וַיָּחֶל(히필 √חלל '시작하다')은 보통 부정사를 취하지만 여기서는 바로 다음 와이익톨 וַיִּטַּע와 짝을 이루어 '시작하여 심었다 = 심기 시작했다'로 읽힌다. 악센트(נֹחַ 팁하, הָאֲדָמָה 아트나흐)는 אִישׁ הָאֲדָמָה를 노아의 동격으로 묶는다. 연계형+정관사 명사로 구 전체가 한정('그 땅의 사람')이며, 5:29 מִן־הָאֲדָמָה·8:21 '다시는 땅을 저주하지 않겠다'와 어휘 연결이 있다. 10:8 הֵחֵל לִהְיוֹת(처음으로 …이 되다)과 같은 어근이어서 '처음으로 포도원을 심은 사람'(문화 기원) 해석도 가능하다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "0162B",
+            "01MnE"
+          ],
+          "hebrew_display": "וַיִּטַּ֖ע כָּֽרֶם",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNcbsa"
+          ],
+          "category": [
+            "lexical"
+          ],
+          "note_ko": "כֶּרֶם '포도원'. 단순 진술."
+        }
+      ],
+      "Gen.9.21": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "015dP",
+            "01sJH",
+            "01Wke"
+          ],
+          "hebrew_display": "וַיֵּ֥שְׁתְּ מִן הַיַּ֖יִן",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms",
+            "HR",
+            "HTd/Ncmsa"
+          ],
+          "category": [
+            "lexical",
+            "syntax"
+          ],
+          "note_ko": "מִן־הַיַּיִן 부분의 מִן('그 포도주에서/얼마간'). 정관사는 앞 절 포도원의 산물을 가리키는 조응으로 볼 수 있다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "018Vg"
+          ],
+          "hebrew_display": "וַיִּשְׁכָּ֑ר",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "category": [
+            "lexical"
+          ],
+          "note_ko": "וַיִּשְׁכָּר '취했다'. 본문은 도덕 평가를 직접 덧붙이지 않는다."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01NwX",
+            "01VVb",
+            "01BJi"
+          ],
+          "hebrew_display": "וַיִּתְגַּ֖ל בְּת֥וֹךְ אָהֳלֹֽה",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vtw3ms",
+            "HR/Ncmsc",
+            "HNcmsc/Sp3ms"
+          ],
+          "category": [
+            "lexical",
+            "textual",
+            "reception"
+          ],
+          "note_ko": "וַיִּתְגַּל(히트파엘 √גלה)은 재귀형 '스스로 드러냈다'이나 의도성은 명시되지 않는다('드러난 채 있었다'). אָהֳלֹה는 고형 3인칭 남성 접미사 -ōh를 ה로 적은 철자로 OSHB 형태는 Sp3ms이다. 원시 XML의 <note n=\"q\">는 WLC가 BHS와 달리 크티브/크레를 버리거나 더했으며 L에 동의한다고만 말한다. 같은 철자가 12:8·35:21(같은 주석)에 있고 13:3에는 크티브 אהלה와 크레 אָהֳלוֹ가 명시되어 있다. 따라서 '그녀의 장막'은 이 패킷에서 입증된 읽기가 아니며 번역은 '그의 장막'이다. 이 절은 크레/크티브 주석 때문에 일반 초안 큐에서 보류되었던 절이다."
+        }
+      ],
+      "Gen.9.22": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01dp9",
+            "01ERi",
+            "01riL",
+            "01qeW",
+            "012Cm",
+            "01juK",
+            "01CyD"
+          ],
+          "hebrew_display": "וַיַּ֗רְא חָ֚ם אֲבִ֣י כְנַ֔עַן אֵ֖ת עֶרְוַ֣ת אָבִ֑יו",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNp",
+            "HNcmsc",
+            "HNp",
+            "HTo",
+            "HNcfsc",
+            "HNcmsc/Sp3ms"
+          ],
+          "category": [
+            "lexical",
+            "discourse",
+            "historical",
+            "reception"
+          ],
+          "note_ko": "'가나안의 아버지'는 9:18에 이어 두 번째로 반복되어 25절 저주를 예고한다. רָאָה אֶת עֶרְוַת אָבִיו: 동사는 '보았다'이며 레 18:7-8의 גִּלָּה עֶרְוָה('하체를 드러내다' = 성관계 금지 정식)와 다르다. 다만 레 20:17은 רָאָה עֶרְוָה를 성관계 표현으로 쓰므로 비문자적 해석의 근거가 된다(가장 강한 반론). 23절의 '보지 않으려고 뒷걸음질로 덮음'은 문자적 '봄'을 지지한다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01CuU",
+            "01fge",
+            "016Q1",
+            "01zHR"
+          ],
+          "hebrew_display": "וַיַּגֵּ֥ד לִשְׁנֵֽי אֶחָ֖יו בַּחֽוּץ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vhw3ms",
+            "HR/Acmdc",
+            "HNcmpc/Sp3ms",
+            "HRd/Ncmsa"
+          ],
+          "category": [
+            "syntax",
+            "discourse"
+          ],
+          "note_ko": "וַיַּגֵּד '알렸다'. בַּחוּץ '밖에서/밖에 있는'은 알린 장소나 형제들의 위치를 가리킬 수 있다. 칠십인역 OCR은 ἐξελθὼν('나가서')을 더하는데, 이는 해석적 확장일 수 있고 히브리어 이본을 입증하지 않는다."
+        }
+      ],
+      "Gen.9.23": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01tip",
+            "01KkZ",
+            "01hTx",
+            "01ZqW",
+            "01kWc"
+          ],
+          "hebrew_display": "וַיִּקַּח֩ שֵׁ֨ם וָיֶ֜פֶת אֶת הַשִּׂמְלָ֗ה",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNp",
+            "HC/Np",
+            "HTo",
+            "HTd/Ncfsa"
+          ],
+          "category": [
+            "syntax",
+            "reception"
+          ],
+          "note_ko": "단수 동사 וַיִּקַּח + 복합 주어(셈과 야벳)는 동사가 앞설 때 첫 주어와 일치하는 흔한 현상이다. 셈이 주도했다는 해석은 수용사의 추론이다. הַשִּׂמְלָה 정관사: '그 겉옷'(특정 옷이거나 총칭적 관사)."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01gXQ",
+            "01qr9",
+            "01TFW",
+            "012cg"
+          ],
+          "hebrew_display": "וַיָּשִׂ֨ימוּ֙ עַל שְׁכֶ֣ם שְׁנֵיהֶ֔ם",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3mp",
+            "HR",
+            "HNcmsc",
+            "HAcmdc/Sp3mp"
+          ],
+          "category": [
+            "syntax"
+          ],
+          "note_ko": "שְׁכֶם שְׁנֵיהֶם '둘의 어깨'(단수 שְׁכֶם, 배분적)."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01G6q",
+            "01E2j"
+          ],
+          "hebrew_display": "וַיֵּֽלְכוּ֙ אֲחֹ֣רַנִּ֔ית",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3mp",
+            "HD"
+          ],
+          "category": [
+            "lexical"
+          ],
+          "note_ko": "אֲחֹרַנִּית '뒤로/뒷걸음질로'."
+        },
+        {
+          "clause": 4,
+          "word_ids": [
+            "01tXV",
+            "017Ee",
+            "014LF",
+            "018Ur"
+          ],
+          "hebrew_display": "וַיְכַסּ֕וּ אֵ֖ת עֶרְוַ֣ת אֲבִיהֶ֑ם",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vpw3mp",
+            "HTo",
+            "HNcfsc",
+            "HNcmsc/Sp3mp"
+          ],
+          "category": [
+            "lexical"
+          ],
+          "note_ko": "피엘 וַיְכַסּוּ '덮었다'. עֶרְוָה는 22절과 같은 역어로 통일한다."
+        },
+        {
+          "clause": 5,
+          "word_ids": [
+            "01UB3",
+            "015iK"
+          ],
+          "hebrew_display": "וּפְנֵיהֶם֙ אֲחֹ֣רַנִּ֔ית",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Ncbpc/Sp3mp",
+            "HD"
+          ],
+          "category": [
+            "syntax"
+          ],
+          "note_ko": "명사문 상황절 '얼굴은 뒤로 (향해 있었고)'."
+        },
+        {
+          "clause": 6,
+          "word_ids": [
+            "01Der",
+            "01e1m",
+            "01JA6",
+            "01ZJi"
+          ],
+          "hebrew_display": "וְעֶרְוַ֥ת אֲבִיהֶ֖ם לֹ֥א רָאֽוּ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Ncfsc",
+            "HNcmsc/Sp3mp",
+            "HTn",
+            "HVqp3cp"
+          ],
+          "category": [
+            "syntax",
+            "discourse"
+          ],
+          "note_ko": "목적어 전치(וְעֶרְוַת אֲבִיהֶם לֹא רָאוּ)로 '보지 않았다'를 강조하여 22절 함의 '보았다'와 대조한다. 인과 접속('그래서')은 덧붙이지 않는다."
+        }
+      ],
+      "Gen.9.24": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01gKV",
+            "014qd",
+            "01LEv"
+          ],
+          "hebrew_display": "וַיִּ֥יקֶץ נֹ֖חַ מִיֵּינ֑וֹ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNp",
+            "HR/Ncmsc/Sp3ms"
+          ],
+          "category": [
+            "lexical"
+          ],
+          "note_ko": "מִיֵּינוֹ '그의 포도주(술기운)에서' 깨어."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01N84",
+            "01rBZ",
+            "01uki",
+            "01uaL",
+            "017ay",
+            "01VmT",
+            "01f8e"
+          ],
+          "hebrew_display": "וַיֵּ֕דַע אֵ֛ת אֲשֶׁר עָ֥שָׂה ל֖וֹ בְּנ֥וֹ הַקָּטָֽן",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms",
+            "HTo",
+            "HTr",
+            "HVqp3ms",
+            "HR/Sp3ms",
+            "HNcmsc/Sp3ms",
+            "HTd/Aamsa"
+          ],
+          "category": [
+            "lexical",
+            "discourse",
+            "historical",
+            "reception"
+          ],
+          "note_ko": "בְּנוֹ הַקָּטָן: (1) '막내아들'(세 아들 중 최상급), (2) '작은아들/손아래 아들'(27:15 야곱처럼 상대적), (3) 가나안을 '아들'(후손)로 보는 해석, (4) '하찮은 아들'. 목록 순서 '셈, 함, 야벳'(5:32·6:10·9:18)은 출생 순서를 반드시 뜻하지 않으며 10:21 אֲחִי יֶפֶת הַגָּדוֹל도 누가 맏이인지 모호하다. עָשָׂה לוֹ '그에게 한 일'은 '봄과 알림' 이상의 행위를 암시한다는 주장의 근거가 되지만 본문은 행위를 특정하지 않는다."
+        }
+      ],
+      "Gen.9.25": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01rZF"
+          ],
+          "hebrew_display": "וַיֹּ֖אמֶר",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "category": [
+            "discourse"
+          ],
+          "note_ko": "노아의 발화. 하나님의 직접 선언이 아니다. 25·26절 각각 וַיֹּאמֶר로 시작하는 별개의 발화 단위이며 26-27절은 하나의 발화다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01HRi",
+            "01cpy"
+          ],
+          "hebrew_display": "אָר֣וּר כְּנָ֑עַן",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HVqsmsa",
+            "HNp"
+          ],
+          "category": [
+            "syntax",
+            "historical",
+            "reception"
+          ],
+          "note_ko": "אָרוּר 수동 분사 명사문: 수행적·기원적 '저주받아라'(26-27절 지시형 연쇄와 조화). 3:14·3:17 채택문은 서술형('저주받았다/cursed are you')을 썼으므로 편집 일관성 결정이 필요하다. 저주 대상은 함이 아니라 가나안이며 본문에 피부색이나 특정 민족 일반에 대한 언급은 없다. 이 본문이 역사적으로 인종 노예제 정당화에 오용된 수용사는 본문 의미와 분리해 주석에서만 다룬다(이 세션에서 출처 미검증)."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01N1Q",
+            "01g1a",
+            "01sKY",
+            "01CQw"
+          ],
+          "hebrew_display": "עֶ֥בֶד עֲבָדִ֖ים יִֽהְיֶ֥ה לְאֶחָֽיו",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HNcmsc",
+            "HNcmpa",
+            "HVqi3ms",
+            "HR/Ncmpc/Sp3ms"
+          ],
+          "category": [
+            "syntax",
+            "lexical"
+          ],
+          "note_ko": "עֶבֶד עֲבָדִים 연계형 최상급 '종들의 종'(= 가장 낮은 종). לְאֶחָיו '그의 형제들에게'는 26-27절이 셈·야벳을 지목하므로 넓은 친족 의미."
+        }
+      ],
+      "Gen.9.26": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01C3C"
+          ],
+          "hebrew_display": "וַיֹּ֕אמֶר",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "category": [
+            "discourse"
+          ],
+          "note_ko": "새 발화 도입."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01bgL",
+            "01NPP",
+            "01son",
+            "01g5s"
+          ],
+          "hebrew_display": "בָּר֥וּךְ יְהֹוָ֖ה אֱלֹ֣הֵי שֵׁ֑ם",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HVqsmsa",
+            "HNp",
+            "HNcmpc",
+            "HNp"
+          ],
+          "category": [
+            "syntax",
+            "textual",
+            "reception"
+          ],
+          "note_ko": "셈을 직접 축복하지 않고 '셈의 하나님 야훼'를 송축한다. 셈의 복은 야훼가 그의 하나님이라는 사실이다. 이 구절을 고치는 현대 추측 교정이 거론되기도 하지만 이 패킷과 확인한 칠십인역 OCR(Εὐλογητὸς κύριος ὁ θεὸς τοῦ Σήμ) 어디에도 다른 읽기는 없으므로 채택하지 않는다. 원시 XML의 יְהֹוָה 모음 표기(홀렘 포함)는 그대로 보존했다."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01xyw",
+            "01UeH",
+            "01LdR",
+            "01LmR"
+          ],
+          "hebrew_display": "וִיהִ֥י כְנַ֖עַן עֶ֥בֶד לָֽמוֹ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqj3ms",
+            "HNp",
+            "HNcmsa",
+            "HR/Sp3mp"
+          ],
+          "category": [
+            "lexical",
+            "syntax",
+            "reception"
+          ],
+          "note_ko": "וִיהִי 지시형 '되기를'. לָמוֹ는 시적 형태로 OSHB는 3인칭 남성 복수로 태깅한다. 시에서 단수로 쓰일 가능성도 거론되며, 칠십인역 OCR은 26절 παῖς αὐτοῦ(단수)·27절 παῖς αὐτῶν(복수)로 다르게 옮긴다. 이 차이가 다른 히브리어 대본을 반영하는지 번역 선택인지는 판정할 수 없다. 번역은 형태 태그대로 '그들의'로 두고 셈과 그 후손(집합)을 가리키는 것으로 본다."
+        }
+      ],
+      "Gen.9.27": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01NJs",
+            "01AjX",
+            "014wq"
+          ],
+          "hebrew_display": "יַ֤פְתְּ אֱלֹהִים֙ לְיֶ֔פֶת",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HVhj3ms",
+            "HNcmpa",
+            "HR/Np"
+          ],
+          "category": [
+            "lexical",
+            "reception"
+          ],
+          "note_ko": "יַפְתְּ: OSHB lemma 6601 a(√פתה) 히필 지시형. 성경 히브리어에서 פתה는 대개 '꾀다/유혹하다'지만 여기서는 '넓히다/넓은 자리를 주다'로 보는 것이 통설이며 칠십인역 OCR πλατύναι('넓히시기를')도 그렇게 읽는다. יַפְתְּ와 יֶפֶת의 말놀이는 번역에서 재현되지 않으므로 주석이 필요하다. לְיֶפֶת의 לְ은 '야벳을 위해'."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01Xv2",
+            "01sVg",
+            "01qDj"
+          ],
+          "hebrew_display": "וְיִשְׁכֹּ֖ן בְּאָֽהֳלֵי שֵׁ֑ם",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqj3ms",
+            "HR/Ncmpc",
+            "HNp"
+          ],
+          "category": [
+            "syntax",
+            "discourse",
+            "reception"
+          ],
+          "note_ko": "וְיִשְׁכֹּן의 주어는 (A) 바로 앞 절의 명시 주어 אֱלֹהִים(주어 연속, שכן은 출 25:8처럼 신적 거주 동사), (B) 축복의 주제인 야벳(셈 축복 26절, 야벳 축복 27절의 병렬; 시 120:5 שָׁכַנְתִּי עִם־אָהֳלֵי קֵדָר처럼 '…의 장막들에 거하다'는 사람 주어 관용 표현) 둘 다 가능하다. 영어 'he'와 스페인어 주어 생략형으로 모호성을 보존하고, 경어를 피할 수 없는 한국어는 비경어 '그가 … 머물기를'(야벳 쪽)로 두되 주석에 (A)를 병기한다. 아람어 탈굼 옹켈로스의 쉐키나 해석은 이 세션에서 원문 확인에 실패했다(Sefaria 403)."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01A47",
+            "01zoe",
+            "01hNP",
+            "01vwy"
+          ],
+          "hebrew_display": "וִיהִ֥י כְנַ֖עַן עֶ֥בֶד לָֽמוֹ",
+          "hebrew_display_basis": "w element text from raw_xml with OSHB morpheme slashes removed; pointing and cantillation verbatim; maqqef and sof pasuq omitted in this display only",
+          "morph": [
+            "HC/Vqj3ms",
+            "HNp",
+            "HNcmsa",
+            "HR/Sp3mp"
+          ],
+          "category": [
+            "syntax"
+          ],
+          "note_ko": "26절 후렴 반복. לָמוֹ '그들의'(셈과 야벳, 또는 야벳 쪽 무리)."
+        }
+      ]
+    }
+  },
+  "initial_proposals": {
+    "Gen.9.20": {
+      "ko": "땅의 사람 노아가 포도원을 심기 시작했다.",
+      "en": "Noah, the man of the ground, began to plant a vineyard.",
+      "es": "Noé, el hombre de la tierra, comenzó a plantar una viña."
+    },
+    "Gen.9.21": {
+      "ko": "그는 포도주를 마시고 취하여, 자기 장막 안에서 벌거벗은 채로 있었다.",
+      "en": "He drank some of the wine and became drunk, and he lay uncovered inside his tent.",
+      "es": "Bebió del vino, se embriagó y quedó descubierto dentro de su tienda."
+    },
+    "Gen.9.22": {
+      "ko": "가나안의 아버지 함이 자기 아버지의 벌거벗은 몸을 보고, 밖에 있던 두 형제에게 알렸다.",
+      "en": "Ham, the father of Canaan, saw his father's nakedness and told his two brothers outside.",
+      "es": "Cam, padre de Canaán, vio la desnudez de su padre y se lo contó a sus dos hermanos, afuera."
+    },
+    "Gen.9.23": {
+      "ko": "셈과 야벳이 그 겉옷을 가져다가 둘의 어깨에 걸치고 뒷걸음질로 가서 자기들 아버지의 벌거벗은 몸을 덮었다. 그들은 얼굴을 뒤로 돌리고 있었고, 아버지의 벌거벗은 몸을 보지 않았다.",
+      "en": "Shem and Japheth took the garment, laid it on the shoulders of both of them, walked backward, and covered their father's nakedness; their faces were turned backward, and they did not see their father's nakedness.",
+      "es": "Sem y Jafet tomaron el manto, lo pusieron sobre los hombros de ambos, caminaron hacia atrás y cubrieron la desnudez de su padre; sus rostros estaban vueltos hacia atrás, y no vieron la desnudez de su padre."
+    },
+    "Gen.9.24": {
+      "ko": "노아가 술에서 깨어, 막내아들이 자기에게 한 일을 알았다.",
+      "en": "Noah awoke from his wine and knew what his youngest son had done to him.",
+      "es": "Noé despertó de su vino y supo lo que le había hecho su hijo menor."
+    },
+    "Gen.9.25": {
+      "ko": "그가 말했다. “가나안은 저주받아라. 그는 자기 형제들에게 종들의 종이 될 것이다.”",
+      "en": "And he said, “Cursed be Canaan; a servant of servants shall he be to his brothers.”",
+      "es": "Y dijo: «Maldito sea Canaán; siervo de siervos será para sus hermanos»."
+    },
+    "Gen.9.26": {
+      "ko": "그가 말했다. “셈의 하나님 야훼는 찬양받으시기를. 가나안은 그들의 종이 되기를.",
+      "en": "And he said, “Blessed be YHWH, the God of Shem; and let Canaan be their servant.",
+      "es": "Y dijo: «Bendito sea YHWH, el Dios de Sem, y sea Canaán siervo de ellos."
+    },
+    "Gen.9.27": {
+      "ko": "하나님께서 야벳을 넓혀 주시기를. 그가 셈의 장막들에 머물기를. 가나안은 그들의 종이 되기를.”",
+      "en": "May God make room for Japheth, and may he dwell in the tents of Shem; and let Canaan be their servant.”",
+      "es": "Ensanche Dios a Jafet, y habite en las tiendas de Sem, y sea Canaán siervo de ellos»."
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbc)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.9.20-27에는 현행 채택문이 없다(패킷 current_selected 빈 목록). 이 검토는 미래 채택용 연구 자료다. 인접 채택문 관례: 신명 ko '야훼'·en/es 'YHWH'(3:14·3:23·4장), 인용부호 ko/en “ ”·es « », ארור 서술형 3:14 '저주받았다/cursed are you/maldita eres'·3:17 '땅이 저주받았다/cursed is the ground/maldita es la tierra', 벌거벗음 3:10 '벌거벗은 몸', עבד אדמה 4:2 '땅을 일구는 이/worker of the ground/labrador de la tierra', 3:23 en 'ground'·es 'la tierra'."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-2qtwr9:automation/cloud-drafts/20261024T031738Z-50317bf8.json",
+      "model_label": "Claude Code native cloud draft; recorded requested_or_configured_model claude-sonnet-5-5; served model recorded as not exposed; state unadopted_model_draft",
+      "covered_ids": [
+        "Gen.9.20",
+        "Gen.9.22",
+        "Gen.9.23",
+        "Gen.9.24",
+        "Gen.9.25",
+        "Gen.9.26",
+        "Gen.9.27"
+      ],
+      "missing_ids": [
+        "Gen.9.21"
+      ],
+      "finding_ko": "일반 초안 run은 Gen.9.21을 포함하지 않는다. automation/source-queue-report.json의 deferred_unsupported_readings에 Gen.9.21이 있다(크레/크티브 관련 WLC 주석). 따라서 9:21의 ko/en/es 제안은 이 검토가 처음이다."
+    },
+    {
+      "record": "automation/cloud-reviews of other claude/ branches",
+      "model_label": "Claude Code native cloud hard reviews (other units)",
+      "finding_ko": "다른 브랜치의 hard-review 기록 12건(gen-4-7-8, gen-3-15-16, gen-1-1-3, gen-2-6-7, gen-2-18-24, gen-3-22-24, gen-4-1, gen-4-22-26, gen-5-21-24, gen-6-1-4, gen-6-5-8, gen-8-20-22)은 이 단위를 다루지 않는다. gen-8-20-22 검토의 관례(야훼/YHWH, 인용부호, 아다마 역어 정책 미정)만 참고했다."
+    },
+    {
+      "record": "GPT / Gemini / Antigravity / human review for Gen.9.20-27",
+      "model_label": "none found",
+      "finding_ko": "이 저장소의 main과 fetched claude/ 브랜치에서 Gen.9.20-27에 대한 GPT·Gemini·사람 검토 기록을 찾지 못했다. 그런 응답을 가정하거나 인용하지 않는다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "9:26·9:27 en 초안 'let Canaan be his servant'는 히브리어 לָמוֹ(OSHB Sp3mp)와 다르고, 같은 초안의 ko·es('그들의/de ellos')와도 불일치한다. 칠십인역 OCR 9:26 παῖς αὐτοῦ(단수)와는 우연히 일치하나 9:27은 αὐτῶν(복수)이다. 본 검토는 en도 'their'로 맞춘다.",
+    "9:27 ko 초안 '그가 셈의 장막에 거하게 하시기를'은 사역('하게 하시기를')을 더해 하나님이 야벳을 거하게 한다는 해석을 고정한다. 히브리어 וְיִשְׁכֹּן은 칼 지시형이다. 또 אָהֳלֵי(복수)를 '장막'으로 단수화했다. 본 검토는 '그가 셈의 장막들에 머물기를'로 사역을 없애고 복수를 살린다.",
+    "9:24 초안은 ko '…알고'·en/es 쉼표로 끝나 25절에 의존한다. 각 절이 독립 표시될 수 있으므로 본 검토는 9:24를 완결문으로 둔다.",
+    "9:25 ko 초안 '가나안은 저주를 받아 형제들에게 종들의 종이 될 것이다'는 저주 선언과 종 됨을 인과 연결로 합친다. 히브리어는 두 개의 병렬 선언이다. 본 검토는 두 문장으로 분리한다.",
+    "9:20 ko 초안 '땅을 갈던 사람'은 과거 습관('-던')과 해석('갈다')을 더한다. 본 검토는 한정 구 אִישׁ הָאֲדָמָה의 5:29·8:21 어휘 연결을 살리려고 '땅의 사람'을 택하되 4:2 채택문 '땅을 일구는 이'와의 통일 가능성을 대안으로 남긴다.",
+    "9:22 en·es 초안과 본 검토는 실질적으로 같다(문자적 'nakedness/desnudez'). ko 초안 '벌거벗은 것'보다 3:10 채택문 '벌거벗은 몸'과 맞추는 쪽을 택했다.",
+    "9:23 초안 en 'a garment'/es 'un manto'/ko '겉옷'은 히브리어 정관사 הַשִּׂמְלָה를 반영하지 않는다. 본 검토는 '그 겉옷/the garment/el manto'로 둔다(정관사가 총칭일 수 있다는 반론은 alternatives에 기록)."
+  ],
+  "lxx_reception_evidence": {
+    "source": "Swete Septuagint, First1KGreek raw OCR text in a third-party repository (see network_access_log). OCR text with visible character errors; quoted verbatim, not corrected. Reception evidence only; not a Hebrew witness collation.",
+    "excerpts": {
+      "1.9.20": "Καὶ ἤρξατο Νῶε ἄνθρω-   πος γεωργὸς γῆς, καὶ ἐφύτευσεν ἀμπελῶνα.",
+      "1.9.21": "καὶ ἔπιεν ἐκ τοῦ οἴνου  καὶ ἐμεθύσθη, καὶ ἐγυμνώθη ἐν τῷ οἴκῳ αὐτοῦ.",
+      "1.9.22": "καὶ εἶδεν Χὰμ ὁΧανάνν τὴν γύμνωσιν τοῦ πατρὸς αὐτοῦ, καὶ ἐξελθὼν ἀνήγγειλεν δυσὶν ἀδελΦοῖς αὐτοῦ ἔξω.",
+      "1.9.23": "καὶ λαβόντες Σῆμ’ καὶ ἸάΦεθ τὸ ἱμάτιονἐπέθηκαν ἐπὶ τὰ δύο νῶτα αὐτῶν, καὶ ἐπορεύθησαν ὀπισθοφανῶς καὶσυνεκάλυψαν τὴν γύμνωσιν τοῦ πατρὸς αὐτῶν· καὶ τὸ πρόσωπον αὐτῶν ὀπισθοφανές, καὶ τὴν γύμνωσιν τοῦ πατρὸς αὐτῶν οὐκ ἴδον.",
+      "1.9.24": "ἐξένηψενδὲ Νῶε ἀπὸ τοῦ οἴνου, καὶ ἔγνω ὅσα ἐποίησεν αὐτῷ ὁ υἱὸς αὐτοῦ ὁ τερος.",
+      "1.9.25": "καὶ εἶπενἘπικατάρατος Χανάαν.παῖς οἰκέτης ἔσται τοῖς ἀδελφοῖς αὐτοῦ.",
+      "1.9.26": "καἰ εἶπενΕὐλογητὸς κύριος ὁ θεὸς τοῦ Σήμ,καὶ ἔσται Χανάαν παῖς αὐτοῦ.",
+      "1.9.27": "πλατύναι ὁ θεὸς τῷ ἸάΦαθ,καὶ κατοικησάτω ἐν τοῖς οἴκοις τού Σήμ·καὶ γενηθήτω Χανάαν παῖς αὐτῶν."
+    },
+    "assessment_ko": "칠십인역 OCR은 (1) 9:20 ἤρξατο Νῶε ἄνθρωπος γεωργὸς γῆς로 '농부'를 명시하고, (2) 9:21 ἐν τῷ οἴκῳ αὐτοῦ로 남성 3인칭 '그의'를 읽어 אָהֳלֹה의 남성 해석과 맞으며 '장막' 대신 '집'을 쓴다, (3) 9:22 ἐξελθὼν('나가서')을 더하고 OCR이 'ὁ πατὴρ'를 판독하지 못한 듯 'ὁΧανάνν'으로 손상되었다, (4) 9:24 OCR 'ὁ τερος'는 손상되어 비교급/최상급 형태를 이 자료로 확인할 수 없다, (5) 9:25 עֶבֶד עֲבָדִים를 παῖς οἰκέτης로 옮긴다, (6) 9:26 παῖς αὐτοῦ(단수), 9:27 παῖς αὐτῶν(복수), (7) 9:27 πλατύναι로 '넓히다' 의미를 지지하고 κατοικησάτω의 주어는 그리스어에서도 모호하다. 이 차이들은 번역·수용 증거이며 히브리어 이본 입증으로 다루지 않는다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.9.20",
+      "clause": "וַיָּחֶל … וַיִּטַּע",
+      "option": "(A) 심기 시작했다 / began to plant / comenzó a plantar (선호)",
+      "for": "두 정동사 연쇄의 가장 단순한 해석. 의미 추가가 적다.",
+      "against": "'시작했다'가 무엇의 시작인지 흐리다.",
+      "verdict": "본문 채택안."
+    },
+    {
+      "verse": "Gen.9.20",
+      "clause": "וַיָּחֶל … וַיִּטַּע",
+      "option": "(B) 처음으로 포도원을 심었다 / was the first to plant",
+      "for": "10:8 הֵחֵל לִהְיוֹת과 같은 기원 서술 패턴.",
+      "against": "'처음'은 해석적 보충이다.",
+      "verdict": "주석 대안."
+    },
+    {
+      "verse": "Gen.9.20",
+      "clause": "וַיָּחֶל נֹחַ אִישׁ הָאֲדָמָה",
+      "option": "(C) 노아가 농부가 되기 시작했다 / began to be a farmer",
+      "for": "칠십인역 OCR ἤρξατο … ἄνθρωπος γεωργὸς를 그렇게 읽을 수 있다.",
+      "against": "חלל 히필이 명사 술어를 바로 취하는 용례가 약하고 악센트는 동격을 지지한다. 5:29에서 이미 땅과 연결된 인물이다.",
+      "verdict": "기각(수용 증거로만 기록)."
+    },
+    {
+      "verse": "Gen.9.20",
+      "clause": "אִישׁ הָאֲדָמָה",
+      "option": "ko '땅을 일구는 사람'(4:2 채택문과 통일) / en 'a man of the soil'",
+      "for": "채택문 4:2 עֹבֵד אֲדָמָה와 쉽게 연결되고 자연스럽다.",
+      "against": "4:2는 분사 עֹבֵד, 9:20은 אִישׁ 연계형이다. 한정성과 5:29 연결이 약해진다.",
+      "verdict": "편집 결정 사항으로 남김."
+    },
+    {
+      "verse": "Gen.9.21",
+      "clause": "וַיִּתְגַּל",
+      "option": "(A) 벌거벗은 채로 있었다 / was uncovered / quedó descubierto (선호)",
+      "for": "의도를 단정하지 않는다.",
+      "against": "히트파엘의 재귀 의미('스스로 드러냈다')를 약화한다.",
+      "verdict": "본문 채택안. 다만 초기안 en 'lay uncovered'의 'lay'는 자세를 더하므로 최종안에서 'was uncovered'로 바꿨다."
+    },
+    {
+      "verse": "Gen.9.21",
+      "clause": "אָהֳלֹה",
+      "option": "'그녀의 장막'(3인칭 여성)",
+      "for": "자음 철자 ה는 여성 접미사와 같다.",
+      "against": "OSHB 형태 Sp3ms, 같은 철자 12:8·35:21, 13:3의 크레 אָהֳלוֹ, 칠십인역 OCR αὐτοῦ. 여성 해석은 수용사의 말놀이일 뿐 이 패킷에서 입증된 읽기가 아니다.",
+      "verdict": "기각."
+    },
+    {
+      "verse": "Gen.9.22",
+      "clause": "וַיַּרְא … אֵת עֶרְוַת אָבִיו",
+      "option": "비문자적 해석(성적 행위·거세·어머니와의 관계 등)",
+      "for": "레 18:7-8 עֶרְוַת אָבִיךָ 정식, 레 20:17 רָאָה עֶרְוָה, 9:24 '그에게 한 일', 가나안(아들) 저주.",
+      "against": "동사가 גִּלָּה가 아니라 רָאָה이고 23절에서 형제들이 옷으로 덮고 보지 않은 행동이 문자적 시각 장면을 전제한다. 21절에서 노아가 이미 스스로 드러난 상태다.",
+      "verdict": "번역은 문자적으로 두고 해석은 주석으로 분리한다. 번역에 성적 의미를 넣지도, 배제하는 주석을 달지도 않는다."
+    },
+    {
+      "verse": "Gen.9.23",
+      "clause": "הַשִּׂמְלָה",
+      "option": "'겉옷 하나/a garment/un manto'",
+      "for": "히브리어 정관사는 서사에서 총칭·장면 한정으로 흔히 쓰인다.",
+      "against": "정관사를 지우면 특정 옷(노아의 옷 등) 해석 가능성이 사라진다.",
+      "verdict": "정관사 유지가 근소 우세."
+    },
+    {
+      "verse": "Gen.9.24",
+      "clause": "בְּנוֹ הַקָּטָן",
+      "option": "en 'his younger son'",
+      "for": "27:15처럼 상대적 의미로 쓰여 함의 서열 문제를 피한다.",
+      "against": "세 아들 맥락에서는 최상급이 자연스럽다.",
+      "verdict": "en 'youngest'를 두되 ko '작은아들'·es 'hijo menor'는 원문처럼 모호성을 보존한다."
+    },
+    {
+      "verse": "Gen.9.24",
+      "clause": "בְּנוֹ הַקָּטָן",
+      "option": "가나안(손자)을 가리킨다",
+      "for": "25절 저주 대상 설명, '아들'은 후손에 쓰일 수 있다.",
+      "against": "22절의 행위자는 함이며 9:18·10:6에서 가나안은 함의 아들이다. 본문 전개상 직접 지시 대상은 함이 자연스럽다.",
+      "verdict": "주석 대안으로만 기록."
+    },
+    {
+      "verse": "Gen.9.25",
+      "clause": "אָרוּר כְּנָעַן",
+      "option": "서술형 '가나안은 저주받았다/Cursed is Canaan'(3:14·3:17 채택문과 통일)",
+      "for": "프로젝트 내 ארור 역어 통일.",
+      "against": "26-27절이 지시형 연쇄이므로 노아의 발화는 기원·수행 기능이 두드러진다.",
+      "verdict": "기원형 선호, 통일 여부는 편집 결정."
+    },
+    {
+      "verse": "Gen.9.25",
+      "clause": "עֶבֶד עֲבָדִים",
+      "option": "'가장 낮은 종/the lowest of slaves'",
+      "for": "연계 최상급의 의미를 풀어 준다.",
+      "against": "직역 '종들의 종'도 충분히 이해되며 고유 표현을 보존한다.",
+      "verdict": "직역 유지."
+    },
+    {
+      "verse": "Gen.9.26",
+      "clause": "לָמוֹ",
+      "option": "'그의 종/his servant'(셈 단수)",
+      "for": "시적 לָמוֹ의 단수 가능성, 칠십인역 OCR 9:26 αὐτοῦ.",
+      "against": "OSHB 태그 Sp3mp, 9:27의 같은 형태는 복수가 자연스럽다.",
+      "verdict": "복수 '그들의' 유지."
+    },
+    {
+      "verse": "Gen.9.27",
+      "clause": "וְיִשְׁכֹּן",
+      "option": "주어 = 하나님 ('하나님이 셈의 장막들에 거하시기를')",
+      "for": "명시 주어의 연속, 신적 거주 동사 שכן(출 25:8), 26절 '셈의 하나님 야훼'와의 신학적 연결.",
+      "against": "축복 병렬상 27절은 야벳 몫이며, 사람이 '…의 장막들에 거하다'(시 120:5)는 관용 표현이 있다.",
+      "verdict": "en/es는 모호성 보존, ko는 야벳 쪽으로 기울고 이 대안을 주석에 병기."
+    },
+    {
+      "verse": "Gen.9.27",
+      "clause": "יַפְתְּ",
+      "option": "'꾀다/설득하다'(√פתה 일반 의미)",
+      "for": "같은 어근의 피엘 용례.",
+      "against": "칠십인역 OCR πλατύναι, 축복 문맥, 이름 말놀이.",
+      "verdict": "기각."
+    }
+  ],
+  "strongest_objection_to_own_reading": "가장 강한 반론은 9:22·24를 문자적 '봄'으로 번역하는 선택이다. 레 20:17은 רָאָה עֶרְוָה를 성관계 표현으로 쓰고, 레 18:7-8은 עֶרְוַת אָבִיךָ를 아버지의 아내와 연결하며, 9:24 '그에게 한 일'과 25절 가나안 저주의 강도는 단순 목격 이상의 행위를 시사한다는 주장이다. 이에 대해: (1) 22절 동사는 גִּלָּה가 아닌 רָאָה이고, (2) 21절에서 노아가 이미 드러난 상태이며, (3) 23절이 '보지 않음'을 목적어 전치로 강조해 22절 '봄'과 직접 대조한다. 그러나 이 근거들은 비문자적 해석을 배제할 만큼 결정적이지 않다. 그래서 번역문에는 문자적 표현만 두고 성적 의미를 덧붙이거나 배제하는 주석을 달지 않으며, 해석 선택지는 주석으로만 분리한다. 두 번째로 강한 반론은 9:27 한국어에서 경어 체계 때문에 주어 모호성을 보존할 수 없다는 점이다. 비경어 '그가'는 야벳 해석으로 기운다.",
+  "preferred_wording": {
+    "Gen.9.20": {
+      "ko": "땅의 사람 노아가 포도원을 심기 시작했다.",
+      "en": "Noah, the man of the ground, began to plant a vineyard.",
+      "es": "Noé, el hombre de la tierra, comenzó a plantar una viña."
+    },
+    "Gen.9.21": {
+      "ko": "그는 포도주를 마시고 취하여, 자기 장막 안에서 벌거벗은 채로 있었다.",
+      "en": "He drank some of the wine and became drunk, and he was uncovered inside his tent.",
+      "es": "Bebió del vino, se embriagó y quedó descubierto dentro de su tienda."
+    },
+    "Gen.9.22": {
+      "ko": "가나안의 아버지 함이 자기 아버지의 벌거벗은 몸을 보고, 밖에서 두 형제에게 알렸다.",
+      "en": "Ham, the father of Canaan, saw his father's nakedness and told his two brothers outside.",
+      "es": "Cam, padre de Canaán, vio la desnudez de su padre y se lo contó afuera a sus dos hermanos."
+    },
+    "Gen.9.23": {
+      "ko": "그러자 셈과 야벳이 그 겉옷을 가져다가 둘의 어깨에 걸치고, 뒷걸음질로 가서 자기들 아버지의 벌거벗은 몸을 덮었다. 그들은 얼굴을 뒤로 돌리고 있었고, 자기들 아버지의 벌거벗은 몸을 보지 않았다.",
+      "en": "Then Shem and Japheth took the garment, put it on the shoulders of both of them, walked backward, and covered their father's nakedness. Their faces were turned backward, and their father's nakedness they did not see.",
+      "es": "Entonces Sem y Jafet tomaron el manto, lo pusieron sobre los hombros de ambos, caminaron hacia atrás y cubrieron la desnudez de su padre. Sus rostros estaban vueltos hacia atrás, y la desnudez de su padre no la vieron."
+    },
+    "Gen.9.24": {
+      "ko": "노아가 술에서 깨어, 작은아들이 자기에게 한 일을 알게 되었다.",
+      "en": "Noah awoke from his wine and came to know what his youngest son had done to him.",
+      "es": "Noé despertó de su vino y supo lo que le había hecho su hijo menor."
+    },
+    "Gen.9.25": {
+      "ko": "그가 말했다. “가나안은 저주받아라. 그는 자기 형제들에게 종들의 종이 될 것이다.”",
+      "en": "And he said, “Cursed be Canaan; a servant of servants shall he be to his brothers.”",
+      "es": "Y dijo: «Maldito sea Canaán; siervo de siervos será para sus hermanos»."
+    },
+    "Gen.9.26": {
+      "ko": "그가 말했다. “셈의 하나님 야훼는 찬양받으시기를. 가나안은 그들의 종이 되기를.",
+      "en": "And he said, “Blessed be YHWH, the God of Shem; and let Canaan be their servant.",
+      "es": "Y dijo: «Bendito sea YHWH, el Dios de Sem, y sea Canaán siervo de ellos."
+    },
+    "Gen.9.27": {
+      "ko": "하나님께서 야벳을 넓혀 주시기를. 그가 셈의 장막들에 머물기를. 가나안은 그들의 종이 되기를.”",
+      "en": "May God make room for Japheth, and may he dwell in the tents of Shem; and let Canaan be their servant.”",
+      "es": "Ensanche Dios a Jafet, y habite en las tiendas de Sem, y sea Canaán siervo de ellos»."
+    }
+  },
+  "proposed_notes_ko": {
+    "Gen.9.20": [
+      "'땅의 사람'은 히브리어 한정 구 אִישׁ הָאֲדָמָה. 5:29(땅으로 인한 수고에서의 위로)·8:21(다시는 땅을 저주하지 않음)과 어휘가 이어진다.",
+      "'처음으로 포도원을 심었다'로도 읽을 수 있다(10:8 참조)."
+    ],
+    "Gen.9.21": [
+      "히브리어 אָהֳלֹה는 '그의 장막'을 옛 철자(끝 ה)로 쓴 것이다. WLC는 이 자리에서 레닌그라드 사본(L)을 따른다고 주석한다.",
+      "'벌거벗은 채로 있었다'의 히브리어는 재귀형이지만 의도 여부는 말하지 않는다."
+    ],
+    "Gen.9.22": [
+      "'아버지의 벌거벗은 몸을 보았다'를 성적 행위의 완곡어로 보는 해석도 있다(레 18:7-8, 20:17). 본문 자체는 행위를 특정하지 않는다."
+    ],
+    "Gen.9.23": [
+      "히브리어는 '그들의 아버지의 벌거벗은 몸을 그들은 보지 않았다'로 목적어를 앞세워 22절과 대조한다."
+    ],
+    "Gen.9.24": [
+      "'작은아들'은 '막내아들' 또는 '손아래 아들'로 읽을 수 있다. 셈·함·야벳의 나열 순서가 출생 순서인지는 본문이 확정하지 않는다."
+    ],
+    "Gen.9.25": [
+      "저주를 선언하는 이는 노아이며, 대상은 함이 아니라 가나안이다. 본문에는 피부색이나 특정 인종에 대한 언급이 없다."
+    ],
+    "Gen.9.26": [
+      "셈을 직접 축복하는 대신 '셈의 하나님'을 송축한다.",
+      "'그들의'는 히브리어 시적 형태 לָמוֹ. 단수 '그의'로 보는 견해도 있다."
+    ],
+    "Gen.9.27": [
+      "'넓혀 주시다'(야프트)와 '야벳'(예페트)은 소리가 비슷한 말놀이다.",
+      "'그가 셈의 장막들에 머물기를'의 '그'는 야벳일 수도, 앞 절의 하나님일 수도 있다(히브리어 주어 생략)."
+    ]
+  },
+  "editorial_consistency_findings": [
+    "신명: ko '야훼'·en/es 'YHWH'(3·4장 채택 관례)를 따랐다. 채택문 2:4 en 'Yahweh'/es 'Yahvé'와의 내부 불일치는 기존 검토들이 이미 지적한 편집 결정 사항이다.",
+    "ארור: 3:14·3:17 채택문은 서술형, 이 검토 9:25는 기원형 '저주받아라/Cursed be/Maldito sea'. 4:11 채택문은 '저주를 받은 자다'. 오경 전체 ארור 정식(신 27-28장 포함)에 대한 통일 결정이 필요하다.",
+    "אֲדָמָה: en 'ground'는 3:17·3:23·4:2 채택문과 일치. es 'la tierra'는 3:17·3:23·4:2 채택문과 일치하지만, gen-8-20-22 검토는 8:21 es 'el suelo'를 제안했다. 아다마/에레츠 구별 정책을 정해야 한다.",
+    "עֶרְוָה: ko '벌거벗은 몸'은 3:10 채택문과 같다. 레위기 18·20장의 같은 단어 역어를 정할 때 이 선택과 연동해야 한다.",
+    "עֶבֶד: 9:25-27은 en 'servant'·es 'siervo'·ko '종'. 노예/종 역어 정책(출 21장 등)과 연동된다.",
+    "인용부호: 25절은 닫힌 인용, 26절에서 열린 인용이 27절 끝에서 닫힌다(26-27절이 하나의 발화)."
+  ],
+  "final_opinion_ko": "Gen.9.20-27에는 현행 채택문이 없다. 이 검토는 미래 채택용 연구 자료이며 preferred_wording은 잠정 의견이다. 핵심 판단: (1) 22-23절 עֶרְוָה는 문자적 '벌거벗은 몸/nakedness/desnudez'로 옮기고 해석(완곡어설)은 주석으로만 분리한다. (2) 21절 אָהֳלֹה는 WLC·L 형태와 OSHB 태그대로 '그의 장막'이며, 여성 '그녀의'는 입증된 읽기가 아니다. (3) 24절 בְּנוֹ הַקָּטָן은 ko/es에서 모호성을 보존하고 en은 'youngest'. (4) 26-27절 לָמוֹ는 형태 태그대로 복수 '그들의'로 통일한다(이전 초안 en의 'his'는 고쳐야 한다). (5) 27절 וְיִשְׁכֹּן 주어는 en/es에서 모호하게 두고, ko는 경어 때문에 야벳 쪽으로 기울어지므로 주석으로 '하나님' 해석을 병기한다. (6) 저주 대상은 가나안이며 발화자는 노아라는 점을 주석으로 분명히 해 인종 차별적 오용과 본문을 분리한다.",
+  "confidence_limits": [
+    "칠십인역은 제3자 OCR 텍스트이며 9:22·9:24에 판독 손상이 있다. 비평본(괴팅겐 등)과 대조하지 않았다.",
+    "BHS·BHQ 비평 장치, 레닌그라드 사본 이미지, 사마리아 오경, 쿰란 단편, 페시타, 불가타, 탈굼을 이 세션에서 확인하지 않았다. 9:21 크레/크티브 상황은 WLC 주석 문구와 13:3의 명시 크레에서 추론한 것이다.",
+    "탈굼 옹켈로스 9:27, 창세기 랍바 36, 바빌론 탈무드 산헤드린 70a 같은 수용사 자료는 Sefaria 접근 실패(403)로 원문 확인을 못 했다. 본문에서 이들 내용을 근거로 쓰지 않았다.",
+    "근대 주석가들의 9:27 주어 논쟁, 9:22 해석 논쟁에 대한 구체 문헌은 이 세션에서 확인하지 않았다. 대안 설명은 본문 자체와 확인한 병행구절에 근거한다.",
+    "같은 모델(Claude)의 이전 초안과 비교했을 뿐 독립 GPT/Gemini/사람 검토가 아니다."
+  ],
+  "reconsider_if": [
+    "편집부가 ארור 정식을 서술형으로 통일하기로 하면 9:25를 '가나안은 저주받았다/Cursed is Canaan/Maldito es Canaán'으로 바꾼다.",
+    "아다마 역어 정책이 es 'el suelo'로 정해지면 9:20 es를 'el hombre del suelo' 등으로 재검토한다. ko '땅을 일구는 사람'(4:2 통일)이 채택되면 9:20 ko도 맞춘다.",
+    "비평본 칠십인역에서 9:24가 비교급(νεώτερος)으로 확인되고 편집부가 서열 문제를 피하기로 하면 en을 'younger son'으로 바꾼다.",
+    "9:27 주어에 대해 편집부가 '하나님'으로 결정하면 ko를 '셈의 장막들에 거하시기를'(경어)로, en을 'and may he dwell'에서 바꾸지 않되 주석을 반대로 한다.",
+    "BHS/BHQ 장치나 사본 이미지에서 9:21 크레가 확인되면 raw 표시 정책(크티브/크레 병기)을 갱신하되 번역 '그의 장막'은 유지한다.",
+    "GPT/Gemini 독립 검토가 9:22-24에 대해 본문 근거가 있는 다른 번역을 제시하면 대조한다.",
+    "9:26 לָמוֹ 단수 해석을 지지하는 히브리어 시 용례 연구를 편집부가 채택하면 26절만 '그의 종'으로 바꾸는 것을 검토한다."
+  ],
+  "unresolved": [
+    "9:22-24 함의 행위의 성격(문자적 목격 대 완곡어). 번역으로 해결하지 않는다.",
+    "9:24 בְּנוֹ הַקָּטָן의 지시 대상과 서열(함/가나안, 막내/손아래).",
+    "9:25 가나안이 저주받는 이유(본문 비설명).",
+    "9:26-27 לָמוֹ 단수/복수와 칠십인역 OCR의 26절 단수·27절 복수 차이의 원인.",
+    "9:27 וְיִשְׁכֹּן 주어(하나님/야벳)와 한국어 경어 처리.",
+    "9:21 BHS의 크레/크티브 표기 실제 형태(이 세션에서 BHS 미확인).",
+    "프로젝트 전체 역어 정책: ארור 서법, 아다마 es 역어, עֶבֶד 종/노예, 신명 표기."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T10:00:19.460184+00:00) into private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and parallels Gen 5:29, 9:18, 10:6, 10:8, 10:21, 12:8, 13:3, 27:15, 35:21 read from it."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+      "accessed_utc": "2026-10-30T10:02:40Z-10:02:41Z",
+      "file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "what_it_is": "Pinned WLC/OSHB Leviticus; Lev 18:7, 18:8, 20:17 parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T10:04:17Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Psalms; Ps 120:5 and 84:11 tent idioms."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T10:04:17Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus; Exod 25:8 divine shakan."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T10:02:40Z-10:02:41Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); reception evidence only; rights of the OCR repository not assessed, only short excerpts quoted."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Onkelos_Genesis.9.20-27",
+      "accessed_utc": "2026-10-30T10:02:41Z",
+      "file_sha256": null,
+      "what_it_is": "Attempted; proxy returned CONNECT 403. Not accessed; no Targum content is used as evidence."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Bereshit_Rabbah.36",
+      "accessed_utc": "2026-10-30T10:02:41Z",
+      "file_sha256": null,
+      "what_it_is": "Attempted; proxy returned CONNECT 403. Not accessed; no midrash content is used as evidence."
+    }
+  ],
+  "publication_requires": [
+    "independent GPT review",
+    "independent Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "사본 대조나 비평 장치 확인을 수행했다고 주장하지 않는다.",
+    "GPT·Gemini·Antigravity·사람 검토 응답을 포함하지 않는다.",
+    "이 문서는 채택·인증·출판된 번역이 아니다.",
+    "남은 크레딧 잔액·차감액을 알지 못한다.",
+    "탈굼·미드라쉬·탈무드 내용을 확인했다고 주장하지 않는다."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T100019Z-e59b1d2e.json",
+    "packet_sha256": "25ece8128adf995dbecc275dd2ac147fbfc6e26e738d44ae59073c3071145185",
+    "verses": [
+      {
+        "id": "Gen.9.20",
+        "raw_xml": "<verse osisID=\"Gen.9.20\">\n          <w lemma=\"c/2490 c\" morph=\"HC/Vhw3ms\" id=\"01pM2\">וַ/יָּ֥חֶל</w>\n          <w lemma=\"5146\" n=\"1.0\" morph=\"HNp\" id=\"01fTE\">נֹ֖חַ</w>\n          <w lemma=\"376\" morph=\"HNcmsc\" id=\"01BxX\">אִ֣ישׁ</w>\n          <w lemma=\"d/127\" n=\"1\" morph=\"HTd/Ncfsa\" id=\"013b7\">הָֽ/אֲדָמָ֑ה</w>\n          <w lemma=\"c/5193\" n=\"0.0\" morph=\"HC/Vqw3ms\" id=\"0162B\">וַ/יִּטַּ֖ע</w>\n          <w lemma=\"3754\" n=\"0\" morph=\"HNcbsa\" id=\"01MnE\">כָּֽרֶם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "929681b7bd36168162396378889e2e60cf367c6af12f0adea5a19400c17ead52",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.21",
+        "raw_xml": "<verse osisID=\"Gen.9.21\">\n          <w lemma=\"c/8354\" morph=\"HC/Vqw3ms\" id=\"015dP\">וַ/יֵּ֥שְׁתְּ</w>\n          <w lemma=\"4480 a\" morph=\"HR\" id=\"01sJH\">מִן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/3196\" n=\"1.0\" morph=\"HTd/Ncmsa\" id=\"01Wke\">הַ/יַּ֖יִן</w>\n          <w lemma=\"c/7937\" n=\"1\" morph=\"HC/Vqw3ms\" id=\"018Vg\">וַ/יִּשְׁכָּ֑ר</w>\n          <w lemma=\"c/1540\" n=\"0.0\" morph=\"HC/Vtw3ms\" id=\"01NwX\">וַ/יִּתְגַּ֖ל</w>\n          <w lemma=\"b/8432\" morph=\"HR/Ncmsc\" id=\"01VVb\">בְּ/ת֥וֹךְ</w>\n          <w lemma=\"168\" n=\"0\" morph=\"HNcmsc/Sp3ms\" id=\"01BJi\">אָהֳלֹֽ/ה</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <note n=\"q\">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "7b9f4fcf468ab0017c4f9718d5c34b5b4d932150f4de323e4d923b977e908108",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.22",
+        "raw_xml": "<verse osisID=\"Gen.9.22\">\n          <w lemma=\"c/7200\" n=\"1.1.1\" morph=\"HC/Vqw3ms\" id=\"01dp9\">וַ/יַּ֗רְא</w>\n          <w lemma=\"2526\" n=\"1.1.0\" morph=\"HNp\" id=\"01ERi\">חָ֚ם</w>\n          <w lemma=\"1\" morph=\"HNcmsc\" id=\"01riL\">אֲבִ֣י</w>\n          <w lemma=\"3667 a\" n=\"1.1\" morph=\"HNp\" id=\"01qeW\">כְנַ֔עַן</w>\n          <w lemma=\"853\" n=\"1.0\" morph=\"HTo\" id=\"012Cm\">אֵ֖ת</w>\n          <w lemma=\"6172\" morph=\"HNcfsc\" id=\"01juK\">עֶרְוַ֣ת</w>\n          <w lemma=\"1\" n=\"1\" morph=\"HNcmsc/Sp3ms\" id=\"01CyD\">אָבִ֑י/ו</w>\n          <w lemma=\"c/5046\" morph=\"HC/Vhw3ms\" id=\"01CuU\">וַ/יַּגֵּ֥ד</w>\n          <w lemma=\"l/8147\" morph=\"HR/Acmdc\" id=\"01fge\">לִ/שְׁנֵֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"251\" n=\"0.0\" morph=\"HNcmpc/Sp3ms\" id=\"016Q1\">אֶחָ֖י/ו</w>\n          <w lemma=\"b/2351\" n=\"0\" morph=\"HRd/Ncmsa\" id=\"01zHR\">בַּ/חֽוּץ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "da70b7aa5f2c8cda37be7427072380cf7a2fe15918138c246fb751e34eda3009",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.23",
+        "raw_xml": "<verse osisID=\"Gen.9.23\">\n          <w lemma=\"c/3947\" morph=\"HC/Vqw3ms\" id=\"01tip\">וַ/יִּקַּח֩</w>\n          <w lemma=\"8035\" morph=\"HNp\" id=\"01KkZ\">שֵׁ֨ם</w>\n          <w lemma=\"c/3315\" n=\"1.3.1.0\" morph=\"HC/Np\" id=\"01hTx\">וָ/יֶ֜פֶת</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01ZqW\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/8071\" n=\"1.3.1\" morph=\"HTd/Ncfsa\" id=\"01kWc\">הַ/שִּׂמְלָ֗ה</w>\n          <w lemma=\"c/7760 a\" n=\"1.3.0\" morph=\"HC/Vqw3mp\" id=\"01gXQ\">וַ/יָּשִׂ֨ימוּ֙</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01qr9\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7926\" morph=\"HNcmsc\" id=\"01TFW\">שְׁכֶ֣ם</w>\n          <w lemma=\"8147\" n=\"1.3\" morph=\"HAcmdc/Sp3mp\" id=\"012cg\">שְׁנֵי/הֶ֔ם</w>\n          <w lemma=\"c/3212\" n=\"1.2.0\" morph=\"HC/Vqw3mp\" id=\"01G6q\">וַ/יֵּֽלְכוּ֙</w>\n          <w lemma=\"322\" n=\"1.2\" morph=\"HD\" id=\"01E2j\">אֲחֹ֣רַנִּ֔ית</w>\n          <w lemma=\"c/3680\" n=\"1.1\" morph=\"HC/Vpw3mp\" id=\"01tXV\">וַ/יְכַסּ֕וּ</w>\n          <w lemma=\"853\" n=\"1.0\" morph=\"HTo\" id=\"017Ee\">אֵ֖ת</w>\n          <w lemma=\"6172\" morph=\"HNcfsc\" id=\"014LF\">עֶרְוַ֣ת</w>\n          <w lemma=\"1\" n=\"1\" morph=\"HNcmsc/Sp3mp\" id=\"018Ur\">אֲבִי/הֶ֑ם</w>\n          <w lemma=\"c/6440\" n=\"0.1.0\" morph=\"HC/Ncbpc/Sp3mp\" id=\"01UB3\">וּ/פְנֵי/הֶם֙</w>\n          <w lemma=\"322\" n=\"0.1\" morph=\"HD\" id=\"015iK\">אֲחֹ֣רַנִּ֔ית</w>\n          <w lemma=\"c/6172\" morph=\"HC/Ncfsc\" id=\"01Der\">וְ/עֶרְוַ֥ת</w>\n          <w lemma=\"1\" n=\"0.0\" morph=\"HNcmsc/Sp3mp\" id=\"01e1m\">אֲבִי/הֶ֖ם</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01JA6\">לֹ֥א</w>\n          <w lemma=\"7200\" n=\"0\" morph=\"HVqp3cp\" id=\"01ZJi\">רָאֽוּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "cfc77c4692900a80dcb84e2c90f05119ceded66c9334dfb1018f0bd73d65bcee",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.24",
+        "raw_xml": "<verse osisID=\"Gen.9.24\">\n          <w lemma=\"c/3364\" morph=\"HC/Vqw3ms\" id=\"01gKV\">וַ/יִּ֥יקֶץ</w>\n          <w lemma=\"5146\" n=\"1.0\" morph=\"HNp\" id=\"014qd\">נֹ֖חַ</w>\n          <w lemma=\"m/3196\" n=\"1\" morph=\"HR/Ncmsc/Sp3ms\" id=\"01LEv\">מִ/יֵּינ֑/וֹ</w>\n          <w lemma=\"c/3045\" n=\"0.1\" morph=\"HC/Vqw3ms\" id=\"01N84\">וַ/יֵּ֕דַע</w>\n          <w lemma=\"853\" n=\"0.0.0\" morph=\"HTo\" id=\"01rBZ\">אֵ֛ת</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01uki\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6213 a\" morph=\"HVqp3ms\" id=\"01uaL\">עָ֥שָׂה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"0.0\" morph=\"HR/Sp3ms\" id=\"017ay\">ל֖/וֹ</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc/Sp3ms\" id=\"01VmT\">בְּנ֥/וֹ</w>\n          <w lemma=\"d/6996 a\" n=\"0\" morph=\"HTd/Aamsa\" id=\"01f8e\">הַ/קָּטָֽן</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "36078d3f287121d79ecc162214bfc56b7248aa42f45ae3f9b279a51cee0776ae",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.25",
+        "raw_xml": "<verse osisID=\"Gen.9.25\">\n          <w lemma=\"c/559\" n=\"1.0\" morph=\"HC/Vqw3ms\" id=\"01rZF\">וַ/יֹּ֖אמֶר</w>\n          <w lemma=\"779\" morph=\"HVqsmsa\" id=\"01HRi\">אָר֣וּר</w>\n          <w lemma=\"3667 a\" n=\"1\" morph=\"HNp\" id=\"01cpy\">כְּנָ֑עַן</w>\n          <w lemma=\"5650\" morph=\"HNcmsc\" id=\"01N1Q\">עֶ֥בֶד</w>\n          <w lemma=\"5650\" n=\"0.0\" morph=\"HNcmpa\" id=\"01g1a\">עֲבָדִ֖ים</w>\n          <w lemma=\"1961\" morph=\"HVqi3ms\" id=\"01sKY\">יִֽהְיֶ֥ה</w>\n          <w lemma=\"l/251\" n=\"0\" morph=\"HR/Ncmpc/Sp3ms\" id=\"01CQw\">לְ/אֶחָֽי/ו</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "577284a89bbcb6fb03d79fba521643e24df954ab616741540b9cecf250fca45c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.26",
+        "raw_xml": "<verse osisID=\"Gen.9.26\">\n          <w lemma=\"c/559\" n=\"1.1\" morph=\"HC/Vqw3ms\" id=\"01C3C\">וַ/יֹּ֕אמֶר</w>\n          <w lemma=\"1288\" morph=\"HVqsmsa\" id=\"01bgL\">בָּר֥וּךְ</w>\n          <w lemma=\"3068\" n=\"1.0\" morph=\"HNp\" id=\"01NPP\">יְהֹוָ֖ה</w>\n          <w lemma=\"430\" morph=\"HNcmpc\" id=\"01son\">אֱלֹ֣הֵי</w>\n          <w lemma=\"8035\" n=\"1\" morph=\"HNp\" id=\"01g5s\">שֵׁ֑ם</w>\n          <w lemma=\"c/1961\" morph=\"HC/Vqj3ms\" id=\"01xyw\">וִ/יהִ֥י</w>\n          <w lemma=\"3667 a\" n=\"0.0\" morph=\"HNp\" id=\"01UeH\">כְנַ֖עַן</w>\n          <w lemma=\"5650\" morph=\"HNcmsa\" id=\"01LdR\">עֶ֥בֶד</w>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp3mp\" id=\"01LmR\">לָֽ/מוֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "6d977f9e7bbc0e4b5b36f4b712d798c6282c534afe3dac920c38f223b0ba0635",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.9.27",
+        "raw_xml": "<verse osisID=\"Gen.9.27\">\n          <w lemma=\"6601 a\" morph=\"HVhj3ms\" id=\"01NJs\">יַ֤פְתְּ</w>\n          <w lemma=\"430\" n=\"1.1.0\" morph=\"HNcmpa\" id=\"01AjX\">אֱלֹהִים֙</w>\n          <w lemma=\"l/3315\" n=\"1.1\" morph=\"HR/Np\" id=\"014wq\">לְ/יֶ֔פֶת</w>\n          <w lemma=\"c/7931\" n=\"1.0\" morph=\"HC/Vqj3ms\" id=\"01Xv2\">וְ/יִשְׁכֹּ֖ן</w>\n          <w lemma=\"b/168\" morph=\"HR/Ncmpc\" id=\"01sVg\">בְּ/אָֽהֳלֵי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8035\" n=\"1\" morph=\"HNp\" id=\"01qDj\">שֵׁ֑ם</w>\n          <w lemma=\"c/1961\" morph=\"HC/Vqj3ms\" id=\"01A47\">וִ/יהִ֥י</w>\n          <w lemma=\"3667 a\" n=\"0.0\" morph=\"HNp\" id=\"01zoe\">כְנַ֖עַן</w>\n          <w lemma=\"5650\" morph=\"HNcmsa\" id=\"01hNP\">עֶ֥בֶד</w>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp3mp\" id=\"01vwy\">לָֽ/מוֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "2d3142a54ff19baf9ebc5de13dca319078abb08946b1a603b0bf90723079ed45",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "author_project": "Hansam Yang (founder and original creator); this file is a model review, not an editorial selection"
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T100019Z-e59b1d2e.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "qere_ketiv_note_present": {
+      "Gen.9.21": true
+    },
+    "lxx_excerpts_found_for_all_targets": true,
+    "network_excerpts_verified_against_fetched_files": true,
+    "nonempty_ko_en_es": true,
+    "independent_reading_per_verse": true,
+    "clause_coverage": {
+      "Gen.9.20": 2,
+      "Gen.9.21": 3,
+      "Gen.9.22": 2,
+      "Gen.9.23": 6,
+      "Gen.9.24": 2,
+      "Gen.9.25": 3,
+      "Gen.9.26": 3,
+      "Gen.9.27": 3
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "current_selected_changed": false,
+    "current_selected_in_packet": 0,
+    "original_vs_interpretation_separated": "clause notes carry a category (lexical/syntax/discourse/textual/historical/reception); LXX is labelled reception; interpretive options live in alternatives and proposed_notes_ko, not in preferred_wording",
+    "authentic_attribution": "Only actual saved records are compared; no GPT/Gemini/human response is represented.",
+    "target_ids_exactly_once": true,
+    "notes_per_verse": true,
+    "quote_balance_across_unit": {
+      "ko": [
+        2,
+        2
+      ],
+      "en": [
+        2,
+        2
+      ],
+      "es": [
+        2,
+        2
+      ]
+    },
+    "all_required_checks_pass": true
+  }
+}
