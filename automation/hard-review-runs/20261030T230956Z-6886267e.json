@@ -8,9 +8,21 @@
     "Exod.3.15"
   ],
   "created_at": "2026-10-30T23:09:56.441674+00:00",
-  "status": "claimed_pending_review",
+  "status": "completed_unadopted_review",
   "source_packet": "automation/hard-review-packets/20261030T230956Z-6886267e.json",
   "state": "unadopted_model_review",
   "execution_path_declared": "standalone_cloud",
-  "execution_marker_is_billing_proof": false
+  "execution_marker_is_billing_proof": false,
+  "output": "automation/cloud-reviews/20261030T230956Z-6886267e.json",
+  "memo_ko": "automation/cloud-reviews/20261030T230956Z-6886267e.ko.md",
+  "completed_at": "2026-10-30T23:22:41Z",
+  "branch": "claude/bible-hard-review-vqib2m",
+  "requested_model": "claude-opus-5-5",
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ]
 }

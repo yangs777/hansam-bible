@@ -1,0 +1,1493 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T230956Z-6886267e",
+  "unit_id": "exod-3-12-15",
+  "verse_ids": [
+    "Exod.3.12",
+    "Exod.3.13",
+    "Exod.3.14",
+    "Exod.3.15"
+  ],
+  "unit_issue_ko": "에흐예·야훼·함께 있음·이름 풀이와 존재론",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.3.12-15 = 전통 장절 출애굽기 3:12-15. 저장소 라이브러리 KRV/ASV/RV1909의 3:12-15 내용이 같은 범위로 대응함을 확인했다. 칠십인역 OCR 파일 번호는 2.3.12-2.3.15. 병행구 Gen.32.28(WLC/OSIS) = 개역·영어 창세기 32:27, Hos.12.6 = 영어 호세아 12:5.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어는 source.verses[].raw_xml에만 있다(클레임 패킷에서 스크립트로 바이트 단위 복사). 절(clause) 표시 히브리어는 OSHB 낱말 id 범위에서 스크립트로 파생한 표기(슬래시 제거, 칸틸레이션·메텍 제거, NFC)이며 원문 표기가 아니다. 병행구 발췌도 같은 파생 방식이다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T23:11Z and again at 2026-10-30T23:20:08Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The runtime system prompt also names the configured model as claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVHHf8gXDgFbrq8X3SC",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false at both checks. This is service metadata only; no balance, cost or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ]
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.3.12",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02UG5",
+            "02UG5"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "kind": "discourse",
+          "reading_ko": "‘그분이 말했다’. 주어는 3:11의 대화 상대(하나님)에서 암시된다. 명시 주어 없음 → ko ‘그분이’, en ‘He’, es ‘Él’ (Gen.4.10·3.11 선정본 관례)."
+        },
+        {
+          "word_id_range": [
+            "02tZb",
+            "02zit"
+          ],
+          "derived_hebrew": "כִּי אֶהְיֶה עִמָּךְ",
+          "morph": [
+            "HC",
+            "HVqi1cs",
+            "HR/Sp2fs"
+          ],
+          "kind": "lexical/syntactic",
+          "reading_ko": "כִּי는 3:11 모세의 질문(‘내가 누구이기에 כִּי 가며 וְכִי 이끌어 내겠습니까’)에 같은 낱말로 응답한다. 역접(‘그러나’), 단언(‘정녕/반드시’), 원인(‘내가 함께 있을 것이기 때문이다’) 세 독해가 가능하다. אֶהְיֶה(칼 미완료 1공단, היה)는 3:14의 אֶהְיֶה와 철자·형태가 같다 — 이 낱말 고리를 번역에서 살리는 것이 이 단위의 핵심이다. עִמָּךְ는 휴지형 2남단(수신자 모세); OSHB morph는 Sp2fs로 표시하나 이는 아래 형태 태깅 관찰 참조."
+        },
+        {
+          "word_id_range": [
+            "02pcg",
+            "02k23"
+          ],
+          "derived_hebrew": "וְזֶה לְּךָ הָאוֹת כִּי אָנֹכִי שְׁלַחְתִּיךָ",
+          "morph": [
+            "HC/Pdxms",
+            "HR/Sp2ms",
+            "HTd/Ncbsa",
+            "HC",
+            "HPp1cs",
+            "HVqp1cs/Sp2ms"
+          ],
+          "kind": "syntactic/discourse",
+          "reading_ko": "וְזֶה־לְּךָ הָאוֹת는 동사 없는 명사문(‘이것이 너에게 표징이다’). זֶה의 지시 대상은 열려 있다: (a) 앞의 불타는 떨기나무 장면, (b) ‘내가 함께 있겠다’는 약속 자체, (c) 뒤따르는 ‘이 산에서 섬김’. 두 번째 כִּי는 표징의 내용(‘…라는’)을 이끈다. 독립 인칭대명사 אָנֹכִי + 완료 שְׁלַחְתִּיךָ는 강조(‘너를 보낸 이가 바로 나’). 마소라 악센트상 아트나흐가 שְׁלַחְתִּיךָ에 있어 이 지점에서 절 전체가 크게 나뉜다."
+        },
+        {
+          "word_id_range": [
+            "02nxs",
+            "02ozK"
+          ],
+          "derived_hebrew": "בְּהוֹצִיאֲךָ אֶת הָעָם מִמִּצְרַיִם",
+          "morph": [
+            "HR/Vhc/Sp2ms",
+            "HTo",
+            "HTd/Ncmsa",
+            "HR/Np"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "בְּ + 부정사 연계형 + 2남단 접미: ‘네가 … 이끌어 낼 때/이끌어 내면’. 미래 시점의 시간절."
+        },
+        {
+          "word_id_range": [
+            "026Tj",
+            "022Z3"
+          ],
+          "derived_hebrew": "תַּעַבְדוּן אֶת הָאֱלֹהִים עַל הָהָר הַזֶּה",
+          "morph": [
+            "HVqi2mp/Sn",
+            "HTo",
+            "HTd/Ncmpa",
+            "HR",
+            "HTd/Ncmsa",
+            "HTd/Pdxms"
+          ],
+          "kind": "lexical/syntactic",
+          "reading_ko": "תַּעַבְדוּן은 2남복 미완료 + 부가 눈(nun). 단수(모세)에서 복수(너희)로 전환 — en은 표시 불가, ko ‘너희가’, es ‘ustedes’로 표시. עבד는 ‘섬기다’(노역/예배 양쪽 의미; 출애굽기에서 파라오를 섬김과 하나님을 섬김의 대비) → ‘섬기다/serve/servir’. הָאֱלֹהִים은 관사 있는 형태. עַל 뒤 마케프 없음."
+        }
+      ]
+    },
+    {
+      "id": "Exod.3.13",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02bTo",
+            "02Ssi"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר מֹשֶׁה אֶל הָאֱלֹהִים",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNp",
+            "HR",
+            "HTd/Ncmpa"
+          ],
+          "kind": "discourse",
+          "reading_ko": "모세가 하나님(관사형 הָאֱלֹהִים)께 말함. 모세→하나님은 존대(합니다체)."
+        },
+        {
+          "word_id_range": [
+            "02UtQ",
+            "028xz"
+          ],
+          "derived_hebrew": "הִנֵּה אָנֹכִי בָא אֶל בְּנֵי יִשְׂרָאֵל",
+          "morph": [
+            "HTm",
+            "HPp1cs",
+            "HVqrmsa",
+            "HR",
+            "HNcmpc",
+            "HNp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "הִנֵּה + 1공단 대명사 + 분사 בָא: 임박/가정 상황(‘보십시오, 제가 가서…’ 또는 ‘제가 … 가게 되면’). 뒤의 와우 완료 사슬과 함께 조건 구조."
+        },
+        {
+          "word_id_range": [
+            "02y1Z",
+            "023r3"
+          ],
+          "derived_hebrew": "וְאָמַרְתִּי לָהֶם אֱלֹהֵי אֲבוֹתֵיכֶם שְׁלָחַנִי אֲלֵיכֶם",
+          "morph": [
+            "HC/Vqq1cs",
+            "HR/Sp3mp",
+            "HNcmpc",
+            "HNcmpc/Sp2mp",
+            "HVqp3ms/Sp1cs",
+            "HR/Sp2mp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "וְאָמַרְתִּי 와우 완료: 가정 사슬의 둘째 고리. 인용문 ‘너희 조상들의 하나님이 나를 너희에게 보내셨다’는 3:6, 3:15와 같은 칭호."
+        },
+        {
+          "word_id_range": [
+            "02sEP",
+            "02LG5"
+          ],
+          "derived_hebrew": "וְאָמְרוּ לִי מַה שְּׁמוֹ",
+          "morph": [
+            "HC/Vqq3cp",
+            "HR/Sp1cs",
+            "HTi",
+            "HNcmsc/Sp3ms"
+          ],
+          "kind": "lexical",
+          "reading_ko": "מַה־שְּׁמוֹ ‘그의 이름이 무엇이냐’. מָה(무엇)를 썼다는 점에서 ‘이름의 뜻/성격’을 묻는다는 해석이 있으나, 같은 공식이 창 32:28(마소라 번호)·잠 30:4에서 평범한 이름 질문으로 쓰이고, 삿 13:17은 מִי שְׁמֶךָ를 쓴다. 본문만으로는 ‘뜻’ 질문이라 확정할 근거가 약하다 → 문자 그대로 번역하고 해석은 각주로."
+        },
+        {
+          "word_id_range": [
+            "02pvY",
+            "02UDg"
+          ],
+          "derived_hebrew": "מָה אֹמַר אֲלֵהֶם",
+          "morph": [
+            "HTi",
+            "HVqi1cs",
+            "HR/Sp3mp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "מָה אֹמַר אֲלֵהֶם ‘제가 그들에게 무엇이라 말하리이까’. 아트나흐는 앞 אֲלֵיכֶם에 있다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.3.14",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02Baw",
+            "02x62"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר אֱלֹהִים אֶל מֹשֶׁה",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNcmpa",
+            "HR",
+            "HNp"
+          ],
+          "kind": "discourse",
+          "reading_ko": "이번에는 관사 없는 אֱלֹהִים이 명시 주어."
+        },
+        {
+          "word_id_range": [
+            "02dQK",
+            "02XwG"
+          ],
+          "derived_hebrew": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+          "morph": [
+            "HVqi1cs",
+            "HTr",
+            "HVqi1cs"
+          ],
+          "kind": "lexical/syntactic/reception",
+          "reading_ko": "אֶהְיֶה אֲשֶׁר אֶהְיֶה: 같은 1공단 미완료 동사를 관계사 אֲשֶׁר로 반복하는 idem per idem 구문(출 33:19 וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן, 삼상 23:13 וַיִּתְהַלְּכוּ בַּאֲשֶׁר יִתְהַלָּכוּ, 왕하 8:1 וְגוּרִי בַּאֲשֶׁר תָּגוּרִי 참조). 독해 후보: (A) ‘나는 내가 있을 자로 있겠다/I will be who I will be’ — 미완료를 미래·의지로, 3:12·4:12·4:15의 ‘함께 있겠다’와 직결; (B) ‘나는 있는 자다/I am who I am’ — 미완료를 현재·지속으로; (C) ‘나는 있는 이다’(칠십인역 OCR Ἐγώ εἰμι ὁ ὤν 계열) — 1인칭 관계절을 3인칭 분사로 바꾼 번역 수용이지 히브리어 문자 그대로가 아님; (D) ‘나는 되고자 하는 대로 되겠다/I will be what I will be’ — 결정의 자유·대답 유보로 읽는 idem per idem 해석; (E) 원인 אֲשֶׁר ‘나는 있기 때문에 있다’ — 소수 해석; (F) 히필 사역 재구성 ‘나는 있게 하는 자다’ — 모음 변경이 필요한 재구성으로, 고정 본문(칼 형태, OSHB HVqi1cs)에 증언되지 않음 → 본문 번역 불가, 각주 정보로만. 마소라 악센트: 첫 אֶהְיֶה 팁하, 둘째 אֶהְיֶה 아트나흐 → 세 낱말이 한 단위로 절 전반부를 끝낸다."
+        },
+        {
+          "word_id_range": [
+            "02iPC",
+            "02iPC"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "kind": "discourse",
+          "reading_ko": "두 번째 וַיֹּאמֶר(주어 생략, 하나님). 같은 화자의 연속 발화를 새로 도입 — 첫 대답과 둘째 지시를 구분한다."
+        },
+        {
+          "word_id_range": [
+            "028E1",
+            "02bvs"
+          ],
+          "derived_hebrew": "כֹּה תֹאמַר לִבְנֵי יִשְׂרָאֵל",
+          "morph": [
+            "HD",
+            "HVqi2ms",
+            "HR/Ncmpc",
+            "HNp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "כֹּה תֹאמַר ‘이렇게 말하여라’ — 미완료 2남단의 지시 용법. 이어지는 말은 직접 인용."
+        },
+        {
+          "word_id_range": [
+            "02Gxe",
+            "02t98"
+          ],
+          "derived_hebrew": "אֶהְיֶה שְׁלָחַנִי אֲלֵיכֶם",
+          "morph": [
+            "HVqi1cs",
+            "HVqp3ms/Sp1cs",
+            "HR/Sp2mp"
+          ],
+          "kind": "lexical/discourse",
+          "reading_ko": "אֶהְיֶה가 3남단 동사 שְׁלָחַנִי의 주어로 쓰인다 — 1인칭 동사형이 이름처럼 기능. 번역 선택: 의미 번역(‘I Will Be’) 대 음역(‘에흐예’). 앞 절 반복 고리와 3:12 고리를 보이려면 의미 번역이 낫다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.3.15",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02YfW",
+            "027Kw"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר עוֹד אֱלֹהִים אֶל מֹשֶׁה",
+          "morph": [
+            "HC/Vqw3ms",
+            "HD",
+            "HNcmpa",
+            "HR",
+            "HNp"
+          ],
+          "kind": "discourse",
+          "reading_ko": "וַיֹּאמֶר עוֹד ‘또/다시 말했다’. עוֹד가 3:14 대답을 대체하는지 보충하는지는 본문이 정하지 않는다 → 중립 ‘또/also/además’."
+        },
+        {
+          "word_id_range": [
+            "02E6n",
+            "02T97"
+          ],
+          "derived_hebrew": "כֹּה תֹאמַר אֶל בְּנֵי יִשְׂרָאֵל",
+          "morph": [
+            "HD",
+            "HVqi2ms",
+            "HR",
+            "HNcmpc",
+            "HNp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "3:14와 같은 지시 공식 כֹּה־תֹאמַר."
+        },
+        {
+          "word_id_range": [
+            "025L1",
+            "02KaN"
+          ],
+          "derived_hebrew": "יְהוָה אֱלֹהֵי אֲבֹתֵיכֶם אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב",
+          "morph": [
+            "HNp",
+            "HNcmpc",
+            "HNcmpc/Sp2mp",
+            "HNcmpc",
+            "HNp",
+            "HNcmpc",
+            "HNp",
+            "HC/Ncmpc",
+            "HNp"
+          ],
+          "kind": "lexical/textual-display",
+          "reading_ko": "יְהוָה: WLC 모음 표기(holem 없는 형태)는 읽기 관습(케레 페르페투움)을 반영하는 표시이며 원시 XML에 별도 Ketiv/Qere 마크업은 없다. 프로젝트 선정본 다수 관례(ko 야훼, en YHWH, es YHWH)를 따른다. 뒤의 칭호들은 동격: ‘너희 조상들의 하나님, 아브라함의 하나님, 이삭의 하나님, 야곱의 하나님’(3:6과 같은 목록, 마지막만 접속사 וֵ)."
+        },
+        {
+          "word_id_range": [
+            "02FsE",
+            "027Np"
+          ],
+          "derived_hebrew": "שְׁלָחַנִי אֲלֵיכֶם",
+          "morph": [
+            "HVqp3ms/Sp1cs",
+            "HR/Sp2mp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "שְׁלָחַנִי אֲלֵיכֶם — 3:13·3:14와 같은 말로 인용문을 닫는다. 아트나흐가 여기 있어 인용(모세가 할 말)과 이어지는 하나님의 1인칭 선언(‘내 이름’)을 나눈다."
+        },
+        {
+          "word_id_range": [
+            "02965",
+            "02Pw8"
+          ],
+          "derived_hebrew": "זֶה שְּׁמִי לְעֹלָם",
+          "morph": [
+            "HPdxms",
+            "HNcmsc/Sp1cs",
+            "HR/Ncmsa"
+          ],
+          "kind": "lexical/discourse",
+          "reading_ko": "זֶה־שְּׁמִי לְעֹלָם ‘이것이 영원히 내 이름이다’. זֶה의 대상은 바로 앞의 יְהוָה(또는 칭호 전체)로 읽는 것이 자연스럽다. 1공단 ‘내 이름’이므로 모세가 할 말이 아니라 하나님이 모세에게 하는 말. לְעֹלָם은 결자(defective) 철자 — 같은 철자가 고정 WLC 출애굽기에 5회(3:15, 15:18, 21:6, 31:17, 32:13) 있어 이 절만의 특이점이 아니다."
+        },
+        {
+          "word_id_range": [
+            "02Bxn",
+            "02Cmf"
+          ],
+          "derived_hebrew": "וְזֶה זִכְרִי לְדֹר דֹּר",
+          "morph": [
+            "HC/Pdxms",
+            "HNcmsc/Sp1cs",
+            "HR/Ncmsa",
+            "HNcmsa"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וְזֶה זִכְרִי לְדֹר דֹּר: זֵכֶר는 שֵׁם과 평행하는 ‘기억/불림/기념 이름’(시 135:13, 호 12:6, 사 26:8 평행 확인). לְדֹר דֹּר는 접속사 없는 반복(시 135:13 לְדֹר וָדֹר와 다름) ‘대대로’."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Exod.3.12",
+      "ko": "그분이 말씀하셨다. “그러나 내가 너와 함께 있겠다. 이것이 너에게 주는 표징, 곧 너를 보낸 이가 바로 나라는 표징이다. 네가 그 백성을 이집트에서 이끌어 내면, 너희가 이 산에서 하나님을 섬길 것이다.”",
+      "en": "He said, “But I will be with you. And this is the sign for you that it is I who have sent you. When you have brought the people out of Egypt, you will serve God on this mountain.”",
+      "es": "Él dijo: «Pero yo estaré contigo. Y esta es para ti la señal de que soy yo quien te ha enviado. Cuando hayas sacado al pueblo de Egipto, ustedes servirán a Dios en este monte»."
+    },
+    {
+      "id": "Exod.3.13",
+      "ko": "모세가 하나님께 말했다. “보십시오, 제가 이스라엘 자손에게 가서 ‘너희 조상들의 하나님이 나를 너희에게 보내셨다’고 말하면, 그들이 제게 ‘그의 이름이 무엇이냐?’ 하고 물을 것입니다. 그때 제가 그들에게 무엇이라 말해야 합니까?”",
+      "en": "Moses said to God, “Suppose I come to the Israelites and say to them, ‘The God of your fathers has sent me to you,’ and they say to me, ‘What is his name?’ What shall I say to them?”",
+      "es": "Moisés dijo a Dios: «Supongamos que voy a los israelitas y les digo: “El Dios de sus padres me ha enviado a ustedes”, y ellos me preguntan: “¿Cuál es su nombre?”. ¿Qué les diré?»"
+    },
+    {
+      "id": "Exod.3.14",
+      "ko": "하나님이 모세에게 말씀하셨다. “나는 내가 있을 자로 있겠다.” 또 말씀하셨다. “너는 이스라엘 자손에게 이렇게 말하여라. ‘나는 있겠다’ 하시는 분이 나를 너희에게 보내셨다.”",
+      "en": "God said to Moses, “I will be who I will be.” And he said, “Thus you shall say to the Israelites: ‘I Will Be has sent me to you.’”",
+      "es": "Dios dijo a Moisés: «Seré el que seré». Y añadió: «Así dirás a los israelitas: “Yo Seré me ha enviado a ustedes”»."
+    },
+    {
+      "id": "Exod.3.15",
+      "ko": "하나님이 다시 모세에게 말씀하셨다. “너는 이스라엘 자손에게 이렇게 말하여라. ‘야훼, 너희 조상들의 하나님, 아브라함의 하나님, 이삭의 하나님, 야곱의 하나님께서 나를 너희에게 보내셨다.’ 이것이 영원히 내 이름이고, 이것이 대대로 나를 기억할 이름이다.”",
+      "en": "God said further to Moses, “Thus you shall say to the Israelites: ‘YHWH, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial name from generation to generation.”",
+      "es": "Dios dijo además a Moisés: «Así dirás a los israelitas: “YHWH, el Dios de sus padres, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob, me ha enviado a ustedes”. Este es mi nombre para siempre, y este es mi nombre memorial de generación en generación»."
+    }
+  ],
+  "initial_proposals_note": "초기 제안(/tmp/hr/independent_reading.json, 파일 mtime 2026-10-30T23:13:41Z)은 패킷만으로 작성했다. 다만 정직하게 밝히면, 그 전 약 23:11Z에 이 단위의 유일한 기존 모델 기록인 Sonnet 5.5 일괄 초안(d63c8640)의 Exod.3.12-15 부분을 이미 열어 보았으므로 엄밀한 의미의 ‘다른 AI 제안 미열람’ 독립성은 충족하지 못했다. 라이브러리(KRV/ASV/RV1909)·칠십인역 OCR·병행구 조회는 초기 제안 저장 뒤에 했다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 4197e00) has no Exodus verse; packet current_selected is empty."
+    },
+    {
+      "kind": "decisions_and_model_reviews",
+      "result": "none",
+      "note": "No Exod.3.12-15 entry in data/decisions.json, data/model-reviews or reviews/ on main 4197e00."
+    },
+    {
+      "kind": "gpt_gemini_records",
+      "result": "none",
+      "note": "No saved GPT or Gemini record for Exod.3.12-15 was found in this repository on main or any fetched claude/ branch. None is quoted or simulated here."
+    },
+    {
+      "kind": "earlier_cloud_hard_reviews",
+      "result": "none for this unit",
+      "note": "All 26 fetched claude/ branches carrying automation/cloud-reviews files were listed; git grep for Exod.3.14 across claude/ branches found no cloud-review for these verses."
+    },
+    {
+      "kind": "earlier_cloud_draft",
+      "result": "found",
+      "path": "automation/cloud-drafts/20261027T091815Z-d63c8640.json",
+      "branch": "origin/claude/friendly-heisenberg-yd8t3j",
+      "commit": "72a69f5e313c2298e0e5a218951ccf19d4b57112",
+      "model_label_in_record": "requested_or_configured_model claude-sonnet-5-5 (identity basis in that record: runtime system prompt statement, not a session API call)",
+      "state_in_record": "unadopted_model_draft",
+      "note": "Bulk draft of Exod.1.17-5.21 (100 verses). Its Exod.3.12-15 entries were read and compared clause by clause; see comparison_findings_ko."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Exod.3.15",
+      "severity": "high",
+      "finding_ko": "기존 Sonnet 5.5 초안(d63c8640)은 יְהוָה를 ko ‘여호와’, en ‘The LORD’, es ‘El SEÑOR’로 옮겼다. 프로젝트 선정본 다수 관례(ko 야훼 28회, en YHWH 24회, es YHWH 24회; data/editorial.json 집계)와 다르다. 특히 3:14 ‘에흐예’와 3:15 ‘YHWH’의 소리·어근 고리가 ‘The LORD/El SEÑOR’에서는 완전히 사라진다. 이 검토는 YHWH/야훼를 유지한다."
+    },
+    {
+      "id": "Exod.3.14",
+      "severity": "high",
+      "finding_ko": "기존 초안 ko ‘나는 있는 자이다(나는 있을 자이다)’는 히브리어의 같은 동사 반복(אֶהְיֶה … אֶהְיֶה)을 ‘있는 자’ 한 번으로 줄이고, 본문 안에 괄호 대안을 넣었다. en ‘I AM WHO I AM’, es ‘Yo soy el que soy (yo seré el que seré)’로 세 언어의 시제 선택도 다르다. 이 검토는 세 언어 모두 미래/의지(A)로 통일하고, 현재(B)와 칠십인역 계열(C)은 필수 각주로 보낸다."
+    },
+    {
+      "id": "Exod.3.12/3.15",
+      "severity": "medium",
+      "finding_ko": "기존 초안 en 3:12 ‘But I will be with you. And this shall be the sign for you that I have sent you: when you have brought the people out of Egypt, you shall serve God on this mountain.’와 3:15 끝 ‘This is my name forever, and thus I am to be remembered throughout all generations.’는 널리 쓰이는 현대 영어 번역(ESV로 기억됨) 문구와 매우 가깝다는 모델 기억상의 우려가 있다. 이 세션에서 ESV 원문은 열람하지 않았으므로 확인된 사실이 아니라 검토 필요 신호다. 이 검토의 en은 문장 구조를 독립적으로 다시 썼다."
+    },
+    {
+      "id": "Exod.3.12",
+      "severity": "medium",
+      "finding_ko": "기존 초안 ko는 주어를 ‘하나님이’로 명시 보충했고(원문 주어 생략), 같은 초안 en/es는 ‘He/Él’로 두어 언어 간 불일치. 선정본 관례(Gen.4.10 ‘그분이 말씀하셨다’)에 맞춰 ‘그분이’로 둔다. 또 기존 ko는 ‘너희가 이 산에서 하나님을 섬기리라’로 복수 전환을 보존했으나 en ‘you shall serve’는 표시하지 못한다 — 이 점은 이 검토도 같다(각주 필요)."
+    },
+    {
+      "id": "Exod.3.13",
+      "severity": "low",
+      "finding_ko": "기존 초안은 조건 ‘만약’을 보충한다고 적었으나 실제 ko 문장은 ‘가서 … 말하면’으로 이미 조건을 표현하므로 보충 논쟁은 실익이 적다. 이 검토도 같은 방향."
+    },
+    {
+      "id": "Exod.3.12",
+      "severity": "low",
+      "finding_ko": "OSHB morph 데이터 관찰: 고정 WLC/OSHB에서 휴지형 עִמָּךְ 17회 가운데 15회가 Sp2fs로 표시되며, 그중 남성 수신자가 분명한 예(창 28:15·31:3 야곱, 출 3:12 모세, 출 18:18·19 모세)가 포함된다. 이는 번역 쟁점이나 본문 이문이 아니라 형태 태깅 관례/오류로 보이며, 번역은 2남단 ‘너와’로 한다. 형태 데이터를 독자에게 노출할 경우 편집 확인 필요."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "3:13 ko에서 ‘보십시오’를 빼고 조건 구조(‘…가서 … 말하면’)로 옮기고 마지막 문장 첫머리 ‘그때’를 ‘그러면’으로 바꿨다(הִנֵּה가 가정 표지로 기능; en ‘Suppose’, es ‘Supongamos’와 일치). 3:15 ko에 동격 표지 ‘곧’을 보충했다. 3:14 ko 둘째 문장의 이름 표기를 ‘‘나는 있겠다’ 하시는 분이’에서 따옴표 중첩을 피한 ‘나는 있겠다 하시는 분이’로 바꾸고, es ‘Y añadió’를 원문에 가까운 ‘Y dijo’로 바꿨다. 3:15 en/es 마지막 구를 ‘memorial name/nombre memorial’에서 ‘the name by which I am to be remembered/el nombre con que se me recordará’로 바꿔 ko ‘나를 기억할 이름’과 세 언어를 맞췄다(‘이름’은 שֵׁם 평행에서 보충). 3:15 ko ‘다시’를 ‘또’로, en ‘further’를 ‘also’로 바꿔 עוֹד의 보충/대체 판단을 중립으로 두었다.",
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from a third-party raw OCR of Swete LXX at a pinned commit (not a critical edition). KRV/ASV/RV1909 lines come from this repository library (upstream marked public domain) and are translation reception, not manuscript evidence.",
+    "excerpts": [
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.3.11",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וַיֹּאמֶר מֹשֶׁה אֶל הָאֱלֹהִים מִי אָנֹכִי כִּי אֵלֵךְ אֶל פַּרְעֹה וְכִי אוֹצִיא אֶת בְּנֵי יִשְׂרָאֵל מִמִּצְרָיִם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "모세의 질문 מִי אָנֹכִי כִּי … וְכִי. 3:12 첫 낱말 כִּי가 같은 낱말로 응답.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.4.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וְעַתָּה לֵךְ וְאָנֹכִי אֶהְיֶה עִם פִּיךָ וְהוֹרֵיתִיךָ אֲשֶׁר תְּדַבֵּר",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וְאָנֹכִי אֶהְיֶה עִם־פִּיךָ — 같은 1공단 미완료 אֶהְיֶה, 미래 동행 약속.",
+        "excerpt_verified_against_file": true,
+        "hayah_morph_tags": [
+          "HVqi1cs"
+        ]
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.4.15",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וְדִבַּרְתָּ אֵלָיו וְשַׂמְתָּ אֶת הַדְּבָרִים בְּפִיו וְאָנֹכִי אֶהְיֶה עִם פִּיךָ וְעִם פִּיהוּ וְהוֹרֵיתִי אֶתְכֶם אֵת אֲשֶׁר תַּעֲשׂוּן",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וְאָנֹכִי אֶהְיֶה עִם־פִּיךָ וְעִם־פִּיהוּ — 같은 형태, 미래 약속.",
+        "excerpt_verified_against_file": true,
+        "hayah_morph_tags": [
+          "HVqi1cs"
+        ]
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.31.3",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר יְהוָה אֶל יַעֲקֹב שׁוּב אֶל אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ וְאֶהְיֶה עִמָּךְ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וְאֶהְיֶה עִמָּךְ — 야곱에게 한 같은 동행 약속; 휴지형 עִמָּךְ도 같다.",
+        "excerpt_verified_against_file": true,
+        "hayah_morph_tags": [
+          "HC/Vqi1cs"
+        ]
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.6.2",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וַיְדַבֵּר אֱלֹהִים אֶל מֹשֶׁה וַיֹּאמֶר אֵלָיו אֲנִי יְהוָה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "אֲנִי יְהוָה — 3:15 이름 계시의 반복.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.6.3",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וָאֵרָא אֶל אַבְרָהָם אֶל יִצְחָק וְאֶל יַעֲקֹב בְּאֵל שַׁדָּי וּשְׁמִי יְהוָה לֹא נוֹדַעְתִּי לָהֶם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וּשְׁמִי יְהוָה — ‘내 이름 야훼’; 3:15 זֶה־שְּׁמִי의 대상이 YHWH라는 독해 지지.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.33.19",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וַיֹּאמֶר אֲנִי אַעֲבִיר כָּל טוּבִי עַל פָּנֶיךָ וְקָרָאתִי בְשֵׁם יְהוָה לְפָנֶיךָ וְחַנֹּתִי אֶת אֲשֶׁר אָחֹן וְרִחַמְתִּי אֶת אֲשֶׁר אֲרַחֵם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן וְרִחַמְתִּי אֶת־אֲשֶׁר אֲרַחֵם — 같은 동사를 אֲשֶׁר로 반복하는 idem per idem 구문, 신명 선포 문맥.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "1Sam.23.13",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+        "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+        "excerpt": "וַיָּקָם דָּוִד וַאֲנָשָׁיו כְּשֵׁשׁ מֵאוֹת אִישׁ וַיֵּצְאוּ מִקְּעִלָה וַיִּתְהַלְּכוּ בַּאֲשֶׁר יִתְהַלָּכוּ וּלְשָׁאוּל הֻגַּד כִּי נִמְלַט דָּוִד מִקְּעִילָה וַיֶּחְדַּל לָצֵאת",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וַיִּתְהַלְּכוּ בַּאֲשֶׁר יִתְהַלָּכוּ — idem per idem, 불특정성(‘갈 수 있는 데로 다녔다’).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "2Kgs.8.1",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Kgs.xml",
+        "file_sha256": "056db5393beaef0a1159d9bcaac7dfd865df9bab2eb240ea90e9fa3f0c0e7449",
+        "excerpt": "וֶאֱלִישָׁע דִּבֶּר אֶל הָאִשָּׁה אֲשֶׁר הֶחֱיָה אֶת בְּנָהּ לֵאמֹר קוּמִי וּלְכִי אתי אַתְּ וּבֵיתֵךְ וְגוּרִי בַּאֲשֶׁר תָּגוּרִי כִּי קָרָא יְהוָה לָרָעָב וְגַם בָּא אֶל הָאָרֶץ שֶׁבַע שָׁנִים",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וְגוּרִי בַּאֲשֶׁר תָּגוּרִי — idem per idem, 불특정성. 이 절의 원시 XML에는 Ketiv/Qere(אתי)가 있으나 여기서는 파생 표기만 인용.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Hos.1.9",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "excerpt": "וַיֹּאמֶר קְרָא שְׁמוֹ לֹא עַמִּי כִּי אַתֶּם לֹא עַמִּי וְאָנֹכִי לֹא אֶהְיֶה לָכֶם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "וְאָנֹכִי לֹא־אֶהְיֶה לָכֶם — ‘나는 너희에게 있지 않겠다’; 같은 אֶהְיֶה가 언약 관계 부정에 쓰여 출 3:14를 되울리는 것으로 흔히 읽힌다(그 연결 자체는 해석).",
+        "excerpt_verified_against_file": true,
+        "hayah_morph_tags": [
+          "HVqi1cs"
+        ]
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.32.28",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר אֵלָיו מַה שְּׁמֶךָ וַיֹּאמֶר יַעֲקֹב",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "מַה־שְּׁמֶךָ — 평범한 이름 질문에 쓰인 מָה 공식(마소라 번호; 개역·영어 32:27).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Prov.30.4",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+        "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+        "excerpt": "מִי עָלָה שָׁמַיִם וַיֵּרַד מִי אָסַף רוּחַ בְּחָפְנָיו מִי צָרַר מַיִם בַּשִּׂמְלָה מִי הֵקִים כָּל אַפְסֵי אָרֶץ מַה שְּׁמוֹ וּמַה שֶּׁם בְּנוֹ כִּי תֵדָע",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "מַה־שְּׁמוֹ וּמַה־שֶּׁם־בְּנוֹ — 3:13과 같은 מַה־שְּׁמוֹ 공식.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Judg.13.17",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וַיֹּאמֶר מָנוֹחַ אֶל מַלְאַךְ יְהוָה מִי שְׁמֶךָ כִּי יָבֹא דבריך דְבָרְךָ וְכִבַּדְנוּךָ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "מִי שְׁמֶךָ — 이름 질문에 מִי를 쓴 예(대비). 원시 XML에 Ketiv/Qere(דבריך) 있음.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Judg.13.18",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וַיֹּאמֶר לּוֹ מַלְאַךְ יְהוָה לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וְהוּא פֶלִאי",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וְהוּא־פֶלִאי — 이름 공개 유보의 비교 사례.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Ps.135.13",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "excerpt": "יְהוָה שִׁמְךָ לְעוֹלָם יְהוָה זִכְרְךָ לְדֹר וָדֹר",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "יְהוָה שִׁמְךָ לְעוֹלָם יְהוָה זִכְרְךָ לְדֹר־וָדֹר — 3:15와 거의 같은 שֵׁם//זֵכֶר 평행; 여기서는 לְעוֹלָם 완전 철자, לְדֹר וָדֹר 접속사 있음.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Hos.12.6",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "excerpt": "וַיהוָה אֱלֹהֵי הַצְּבָאוֹת יְהוָה זִכְרוֹ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "יְהוָה זִכְרוֹ — זֵכֶר가 신명 자체를 가리키는 용례(영어 12:5).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Isa.26.8",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+        "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+        "excerpt": "אַף אֹרַח מִשְׁפָּטֶיךָ יְהוָה קִוִּינוּךָ לְשִׁמְךָ וּלְזִכְרְךָ תַּאֲוַת נָפֶשׁ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "observation_ko": "לְשִׁמְךָ וּלְזִכְרְךָ — שֵׁם//זֵכֶר 평행.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "2.3.12",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+        "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+        "excerpt": "2.3.12 καὶ εἶπεν ὁ θεὸς Μωυσεῖ ἐγὼν ὅτι ἔσομαι μετὰ σοῦ· καὶ τοῦτό σοι τὸ σημεῖον ὅτι ἐγώ σεἐξαποστελῶ· ἐν τῷ ἐξαγαγεῖν σε τὸν λαόν μου ἐξ Αἰγύπτου, καὶλατρεύσατε τῷ θεῷ ἐν τῷ ὄρει τούτω.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition",
+        "observation_ko": "ἔσομαι μετὰ σοῦ — 같은 אֶהְיֶה를 미래로 옮김. OCR ‘ἐγὼν ὅτι’는 훼손. ‘τὸν λαόν μου’(내 백성), ἐξαποστελῶ(미래), ‘λατρεύσατε’ 형태는 히브리어와 다르거나 OCR 문제일 수 있음 — 미확인."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "2.3.13",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+        "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+        "excerpt": "2.3.13 καὶ εἶπεν Μωυσῆς πρὸς τὸνθεὸν ἰδοὺ ἐγὼ ἐξελεύσομαι πρὸς τοὺς υἰοὺς Ἰσραὴλ καὶ ἐρῶ πρὸςαὐτούς Ὁ θεὸς τῶν πατέρων ἡμῶν ἀπέσταλκέν με πρὸς ὑμᾶςἐρωτήσουσίν με Τί ὄνομα αὐτῷ; τί ἐμ πρὸς αὐτούς;",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition",
+        "observation_ko": "Τί ὄνομα αὐτῷ; ‘그의 이름이 무엇이냐’. ‘πατέρων ἡμῶν’(우리 조상들)으로 읽혀 히브리어 ‘너희 조상들’과 다름 — OCR 오류 가능, 미확인. ‘τί ἐμ’은 훼손(ἐρῶ로 추정)."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "2.3.14",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+        "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+        "excerpt": "2.3.14 καὶ εἶπεν ὁ θεὸς πρὸς Μωυσῆν λέγων Ἐγώ εἰμι ὁ ὤν· καὶ εἶπεν Οὕτως ἐρεῖςτοῖς υἱοῖς Ἰσραήλ Ὁ ὢν ἀπέσταλκέν με πρὸς ὑμᾶς.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition",
+        "observation_ko": "Ἐγώ εἰμι ὁ ὤν … Ὁ ὢν ἀπέσταλκέν με — 같은 אֶהְיֶה를 3:12와 달리 현재 + 분사(존재하는 이)로 옮김. 히브리어 1인칭 관계절을 3인칭 분사로 바꾼 번역 수용."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "2.3.15",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+        "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+        "excerpt": "2.3.15 καὶ εἶπεν ὁ θεὸς πάλιν πρὸς Μωυσῆν οὕτως ἐρεῖς τοῖς υἱοῖς Ἰσραήλ κύριος ὁ θεὸςτῶν πατέρων ὑμῶν, θεὸς Ἀβραὰμ καὶ θεὸς Ἰσαὰκ καὶ θεὸς Ἰακώβ,ἀπέσταλκέν με πρὸς ὑμᾶς· τοῦτό μού ἐστιν ὄνομα αἰώνιον καὶ μνη-μόσυνον γενεῶν γενεαῖς.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition",
+        "observation_ko": "κύριος — 신명을 ‘주’로 옮김. πάλιν(다시) = עוֹד. ‘ὄνομα αἰώνιον καὶ μνημόσυνον γενεῶν γενεαῖς’ — 두 평행 구를 한 문장(‘영원한 이름이요 대대의 기념’)으로 묶음."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "2.4.12",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+        "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+        "excerpt": "2.4.12 καὶ νῦν πορεύου καὶ ἐγὼ ἀνοίξω τὸ στόμα σου, καὶ συμβιβάσω σε ὃ μέλλεις λαλῆσαι.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition",
+        "observation_ko": "ἐγὼ ἀνοίξω τὸ στόμα σου — 히브리어 ‘네 입과 함께 있겠다(אֶהְיֶה)’를 ‘네 입을 열겠다’로 옮겨 אֶהְיֶה 고리가 그리스어에서는 사라짐."
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "2.33.19",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+        "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+        "excerpt": "2.33.19 καὶ εἶπεν Ἐγὼ παρελεύσομαι πρότερός σου τῇ δόξῃ μου, καὶ λαλήσω ἐπὶ τῷ ὀνόματί μου κύριος ἐναντίον σου· καὶ ἐλεήσω ὅν ἄν ἐλεῶ, καὶὃν ἀν’ οἰκτείρω.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition",
+        "observation_ko": "ἐλεήσω ὃν ἂν ἐλεῶ — idem per idem 구문을 그리스어도 보존."
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.3.11",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "모세가 하나님께 고하되 내가 누구관대 바로에게 가며 이스라엘 자손을 애굽에서 인도하여 내리이까",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.3.12",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "하나님이 가라사대 내가 정녕 너와 함께 있으리라 네가 백성을 애굽에서 인도하여 낸 후에 너희가 이 산에서 하나님을 섬기리니 이것이 내가 너를 보낸 증거니라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.3.13",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "모세가 하나님께 고하되 내가 이스라엘 자손에게 가서 이르기를 너희 조상의 하나님이 나를 너희에게 보내셨다 하면 그들이 내게 묻기를 그의 이름이 무엇이냐 하리니 내가 무엇이라고 그들에게 말하리이까",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.3.14",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "하나님이 모세에게 이르시되 나는 스스로 있는 자니라 또 이르시되 너는 이스라엘 자손에게 이같이 이르기를 스스로 있는 자가 나를 너희에게 보내셨다 하라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.3.15",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "하나님이 또 모세에게 이르시되 너는 이스라엘 자손에게 이같이 이르기를 나를 너희에게 보내신 이는 너희 조상의 하나님 곧 아브라함의 하나님, 이삭의 하나님, 야곱의 하나님 여호와라 하라 이는 나의 영원한 이름이요 대대로 기억할 나의 표호니라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.12",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "이제 가라 내가 네 입과 함께 있어서 할 말을 가르치리라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.15",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "너는 그에게 말하고 그 입에 말을 주라 내가 네 입과 그의 입에 함께 있어서 너의 행할 일을 가르치리라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.6.2",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "하나님이 모세에게 말씀하여 가라사대 나는 여호와로라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.6.3",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "내가 아브라함과 이삭과 야곱에게 전능의 하나님으로 나타났으나 나의 이름을 여호와로는 그들에게 알리지 아니하였고",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.33.19",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "여호와께서 가라사대 내가 나의 모든 선한 형상을 네 앞으로 지나게 하고 여호와의 이름을 네 앞에 반포하리라 나는 은혜 줄 자에게 은혜를 주고 긍휼히 여길 자에게 긍휼을 베푸느니라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.3.11",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And Moses said unto God, Who am I, that I should go unto Pharaoh, and that I should bring forth the children of Israel out of Egypt?",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.3.12",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And he said, Certainly I will be with thee; and this shall be the token unto thee, that I have sent thee: when thou hast brought forth the people out of Egypt, ye shall serve God upon this mountain.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.3.13",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And Moses said unto God, Behold, when I come unto the children of Israel, and shall say unto them, The God of your fathers hath sent me unto you; and they shall say to me, What is his name? What shall I say unto them?",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.3.14",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.3.15",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And God said moreover unto Moses, Thus shalt thou say unto the children of Israel, Jehovah, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath sent me unto you: this is my name for ever, and this is my memorial unto all generations.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.12",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "Now therefore go, and I will be with thy mouth, and teach thee what thou shalt speak.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.15",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And thou shalt speak unto him, and put the words in his mouth: and I will be with thy mouth, and with his mouth, and will teach you what ye shall do.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.6.2",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And God spake unto Moses, and said unto him, I am Jehovah:",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.6.3",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "and I appeared unto Abraham, unto Isaac, and unto Jacob, as God Almighty; but by my name Jehovah I was not known to them.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.33.19",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And he said, I will make all my goodness pass before thee, and will proclaim the name of Jehovah before thee; and I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.3.11",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Entonces Moisés respondió á Dios: ¿Quién soy yo, para que vaya á Faraón, y saque de Egipto á los hijos de Israel?",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.3.12",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y él le respondió: Ve, porque yo seré contigo; y esto te será por señal de que yo te he enviado: luego que hubieres sacado este pueblo de Egipto, serviréis á Dios sobre este monte.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.3.13",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y dijo Moisés á Dios: He aquí que llego yo á los hijos de Israel, y les digo, El Dios de vuestros padres me ha enviado á vosotros; si ellos me preguntaren: ¿Cuál es su nombre? ¿qué les responderé?",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.3.14",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y respondió Dios á Moisés: YO SOY EL QUE SOY. Y dijo: Así dirás á los hijos de Israel: YO SOY me ha enviado á vosotros.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.3.15",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y dijo más Dios á Moisés: Así dirás á los hijos de Israel: Jehová, el Dios de vuestros padres, el Dios de Abraham, Dios de Isaac y Dios de Jacob, me ha enviado á vosotros. Este es mi nombre para siempre, este es mi memorial por todos los siglos.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.12",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Ahora pues, ve, que yo seré en tu boca, y te enseñaré lo que hayas de hablar.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.15",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Tú hablarás á él, y pondrás en su boca las palabras, y yo seré en tu boca y en la suya, y os enseñaré lo que hayáis de hacer.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.6.2",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Habló todavía Dios á Moisés, y díjole: Yo soy JEHOVÁ;",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.6.3",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y aparecí á Abraham, á Isaac y á Jacob bajo el nombre de Dios Omnipotente, mas en mi nombre JEHOVÁ no me notifiqué á ellos.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.33.19",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y respondióle: Yo haré pasar todo mi bien delante de tu rostro, y proclamaré el nombre de Jehová delante de ti; y tendré misericordia del que tendré misericordia, y seré clemente para con el que seré clemente.",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "불가타가 3:14를 ‘ego sum qui sum … qui est misit me’로 옮긴다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Vulgate text was not accessed."
+    },
+    {
+      "claim_ko": "아퀼라·테오도티온이 ‘ἔσομαι (ὃς) ἔσομαι’(미래)로 옮겼다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Hexaplaric fragments were not accessed."
+    },
+    {
+      "claim_ko": "타르굼 전승(예: 위-요나단)이 3:14를 확장 의역한다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Targum text was not accessed."
+    },
+    {
+      "claim_ko": "탈무드(페사힘 50a 등)가 결자 철자 לעלם을 ‘숨기다(לְעַלֵּם)’로 풀이해 신명 발음 금기와 연결한다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Talmud text was not accessed; only the defective spelling itself was verified in the pinned WLC."
+    },
+    {
+      "claim_ko": "WLC의 holem 없는 יְהוָה 표기가 ‘셰마(그 이름)’ 읽기 또는 ‘아도나이’ 모음의 축약을 반영한다는 학설.",
+      "status": "not_verified_in_session",
+      "reason": "Scholarly sources on WLC divine-name pointing were not accessed; treated as model recollection."
+    },
+    {
+      "claim_ko": "신약 요한복음의 ‘ἐγώ εἰμι’ 발화가 출 3:14 칠십인역과 연결된다는 기독교 해석 전통.",
+      "status": "not_verified_in_session",
+      "reason": "This is reception history; it does not determine the Hebrew translation and no NT text was consulted in this session."
+    }
+  ],
+  "alternatives": {
+    "Exod.3.12": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "역접 ‘그러나 내가 너와 함께 있겠다’",
+        "argument_ko": "‘내가 누구이기에’라는 모세의 자기 평가 질문에, 자격이 아니라 동행으로 답하는 대조가 분명하다. 3:11 כִּי를 같은 낱말로 받는 응답 구조와 맞는다.",
+        "objection_ko": "KRV ‘정녕’, ASV ‘Certainly’는 단언으로 읽었다. 질문에 대한 대답 첫머리 כִּי는 단언 용법도 흔하다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "단언 ‘내가 반드시 너와 함께 있겠다’",
+        "argument_ko": "KRV·ASV 수용 전통; 약속의 확실성을 강조.",
+        "objection_ko": "대답이 질문(‘누구이기에’)과 어떻게 연결되는지가 덜 드러난다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "원인 ‘내가 너와 함께 있을 것이기 때문이다’",
+        "argument_ko": "RV1909 ‘porque yo seré contigo’, 칠십인역 OCR ‘ὅτι ἔσομαι’(ὅτι는 원인 또는 인용 표지). 3:11 כִּי(…하여서/…하기에)와 대칭.",
+        "objection_ko": "RV1909는 원문에 없는 ‘Ve’(가라)를 보충해야 원인절을 매달 수 있다. 보충 없이는 한국어·영어 문장이 불완전해진다."
+      },
+      {
+        "label": "Sign referent",
+        "reading_ko": "זֶה = 떨기나무(앞) / 함께 있겠다는 약속(앞) / 이 산에서의 섬김(뒤)",
+        "argument_ko": "이 검토는 마침표로 문장을 나누어 지시 방향을 열어 둔다(아트나흐 위치와도 부합).",
+        "objection_ko": "KRV는 어순을 바꿔 ‘섬김’을 표징으로 확정했고, ASV는 쌍점으로 뒤를 가리켰다. 미래 사건이 현재 표징이 되는 논리적 어려움 때문에 (뒤) 독해를 피하려는 해석도 있다. 독자에게는 각주 필요."
+      }
+    ],
+    "Exod.3.13": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "문자 그대로 ‘그의 이름이 무엇이냐’",
+        "argument_ko": "창 32:28(마소라)·잠 30:4에서 같은 מַה שְׁמוֹ/שְּׁמֶךָ 공식이 일반 이름 질문.",
+        "objection_ko": "삿 13:17의 מִי שְׁמֶךָ와 대비해 מָה가 ‘이름의 뜻/성격’을 묻는다는 해석이 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "의미 질문 ‘그의 이름이 무엇을 뜻하느냐/그는 어떤 분이냐’",
+        "argument_ko": "3:14 대답이 이름의 뜻풀이처럼 보이는 점과 잘 맞는다.",
+        "objection_ko": "본문 공식 자체는 평범한 이름 질문과 같다; 번역에 해석을 넣는 확장이 된다."
+      }
+    ],
+    "Exod.3.14": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "미래/의지 ‘나는 내가 있을 자로 있겠다 / I will be who I will be / Seré el que seré’",
+        "argument_ko": "같은 형태 אֶהְיֶה가 3:12 ‘내가 너와 함께 있겠다’, 4:12·4:15 ‘네 입과 함께 있겠다’, 창 31:3 ‘내가 너와 함께 있겠다’에서 미래·약속으로 쓰인다. 칠십인역 OCR도 3:12에서는 ἔσομαι(미래)로 옮겼다. 같은 낱말을 세 언어에서 같은 동사·같은 시제로 옮기면 독자가 3:12→3:14 고리를 본다. 호 1:9 ‘וְאָנֹכִי לֹא־אֶהְיֶה לָכֶם’(나는 너희에게 있지 않겠다)도 이 이름을 되울리는 것으로 읽힌다.",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "현재/지속 ‘나는 있는 자다 / I am who I am / Yo soy el que soy’",
+        "argument_ko": "히브리어 미완료는 현재·지속도 나타낼 수 있다; ASV ‘I AM THAT I AM’, RV1909 ‘YO SOY EL QUE SOY’, KRV ‘나는 스스로 있는 자니라’ 등 수용 전통이 압도적이다.",
+        "objection_ko": "KRV의 ‘스스로’는 원문에 대응 낱말이 없다. 현재로 옮기면 3:12의 같은 형태(번역본 모두 미래)와의 고리가 끊긴다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "칠십인역 계열 ‘나는 있는 이다 / I am the one who is’",
+        "argument_ko": "칠십인역 OCR ‘Ἐγώ εἰμι ὁ ὤν … Ὁ ὢν ἀπέσταλκέν με’ — 고대 번역 수용.",
+        "objection_ko": "히브리어 둘째 동사는 1인칭이며 분사가 아니다. 이는 번역 수용(존재론적 해석)이지 히브리어 독해가 아니다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "자유/유보 ‘나는 되고자 하는 대로 되겠다 / I will be what I will be’",
+        "argument_ko": "idem per idem 구문(출 33:19 ‘내가 은혜 베풀 자에게 은혜를 베푼다’, 삼상 23:13, 왕하 8:1)이 결정의 자유나 불특정성을 나타낸다.",
+        "objection_ko": "‘what’(사물)으로 옮기면 인격적 대답이 약해지고, 대답 거부로 읽으면 바로 이어지는 ‘에흐예가 나를 보냈다’(이름 기능)와 긴장이 생긴다."
+      },
+      {
+        "label": "F (reconstruction, not text)",
+        "reading_ko": "히필 사역 재구성 ‘나는 있게 하는 자다’",
+        "argument_ko": "신명 YHWH를 사역형으로 보는 일부 학설과 연결된다(모델 기억, 미확인).",
+        "objection_ko": "고정 본문 모음은 칼(OSHB HVqi1cs)이다. 모음 변경 재구성은 증언된 독법이 아니므로 본문 번역에 쓸 수 없다."
+      },
+      {
+        "label": "Name rendering",
+        "reading_ko": "둘째 אֶהְיֶה를 의미 번역(‘나는 있겠다 하시는 분/I Will Be/Yo Seré’) 대 음역(‘에흐예/Ehyeh’)",
+        "argument_ko": "의미 번역은 앞 문장과 3:12 고리를 유지한다; 음역은 이름 기능과 3:15 YHWH 음역 관례와의 대칭을 보인다.",
+        "objection_ko": "의미 번역 영어 ‘I Will Be has sent me’는 문법적으로 어색하고, 한국어 ‘하시는 분’은 보충이다. 음역은 독자가 뜻을 잃는다 — 어느 쪽이든 각주 필수."
+      }
+    ],
+    "Exod.3.15": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "YHWH/야훼 표기 유지, 인용은 ‘…보내셨다’에서 닫고 ‘이것이 영원히 내 이름’은 하나님의 말",
+        "argument_ko": "프로젝트 선정본 다수 관례; 1공단 ‘내 이름’이므로 모세가 백성에게 할 말이 아님; 아트나흐 위치와 일치.",
+        "objection_ko": "KRV·ASV·RV1909·칠십인역 OCR(κύριος)은 각각 여호와/Jehovah/Jehová/주로 옮겼다; 독자 친숙도는 낮아진다. 선정본 내부에도 Yahweh/Yahvé(9회) 표기가 섞여 있어 통일 결정이 필요하다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "זִכְרִי ‘나의 기념/표호/memorial’",
+        "argument_ko": "ASV ‘memorial’, RV1909 ‘memorial’, KRV ‘표호’, 칠십인역 OCR ‘μνημόσυνον’.",
+        "objection_ko": "현대 독자에게 ‘memorial/표호’는 뜻이 불분명하다. 이 검토는 שֵׁם 평행에 근거해 ‘나를 기억할 이름’으로 풀었으나 ‘이름’은 보충이다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "זֶה의 대상을 3:14 ‘에흐예’까지 포함",
+        "argument_ko": "3:14–15를 하나의 이름 계시로 읽을 수 있다.",
+        "objection_ko": "바로 앞 인용의 첫 낱말이 יְהוָה이고 6:2–3에서도 ‘내 이름 야훼’가 반복된다; 가장 가까운 선행사는 YHWH."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.3.14a: preferred wording renders ehyeh asher ehyeh as future/volitional in all three languages (en: I will be who I will be)",
+    "objection_ko": "가장 강한 반론: (1) 히브리어 칼 미완료는 시제가 아니라 상(aspect)이므로 ‘있겠다/will be’로 고정하면 현재·지속의 존재 선언(‘나는 있는 자다’)을 배제하게 되고, ‘지금은 아니고 나중에’라는 잘못된 함의를 줄 수 있다. (2) 고대 번역 수용(칠십인역 OCR Ἐγώ εἰμι ὁ ὤν)과 이 저장소 라이브러리의 세 번역(KRV 스스로 있는 자, ASV I AM THAT I AM, RV1909 YO SOY EL QUE SOY)이 모두 현재로 읽었고, 독자 기대와 예배 언어도 그쪽이다. (3) 같은 칠십인역이 3:12에서는 ἔσομαι(미래)로 옮기면서 3:14에서는 현재로 바꾼 것은, 번역자가 두 절의 기능 차이(동행 약속 대 이름 선언)를 의식했다는 증거일 수 있다. (4) 한국어 ‘있겠다’는 의지·추측 어감이 강해 하나님 이름 선언에 어울리지 않을 수 있다.",
+    "test_ko": "절 단위 시험: (a) 형태 — 3:12, 3:14(두 번), 3:14b, 4:12, 4:15의 אֶהְיֶה는 모두 HVqi1cs로 같다(고정 OSHB). (b) 문맥 — 3:12·4:12·4:15는 분명히 앞으로의 동행 약속이고, 3:14 대답은 바로 그 ‘보냄’ 질문(3:13)에 대한 답이며 3:14b·3:15에서 다시 ‘보냈다’로 이어진다 — 이름이 보냄과 동행의 약속 문맥에 놓여 있다. (c) 수용 — 칠십인역 OCR의 3:12/3:14 시제 분리는 실제로 관찰되며, 이것이 오히려 히브리어 원문에는 없는 구분을 번역이 도입했다는 점을 보여 준다. (d) 한국어 — ‘있을 것이다’(예측)보다 ‘있겠다’(의지·약속)가 3:12 약속과 같은 화행이다.",
+    "response_ko": "결론: 반론 (1)(2)는 실질적이며 이 절의 신뢰도는 ‘중간’이다. 그럼에도 본문은 A(미래/의지)로 세 언어를 통일하고, B(현재 ‘I am who I am’)와 C(칠십인역 계열)를 필수 각주로 둔다. 이유는 원문 독자가 보는 같은 낱말 고리(3:12↔3:14)를 번역 독자도 볼 수 있게 하는 것이 이 프로젝트의 ‘원문 대 해석 구분’ 원칙에 더 맞기 때문이다. 편집이 전통 친숙도나 예배 사용을 우선하면 B로 바꾸되, 그때는 3:12 각주에 같은 동사임을 반드시 밝혀야 한다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.3.14b I Will Be as a name",
+      "objection_ko": "영어 ‘I Will Be has sent me to you’와 스페인어 ‘Yo Seré me ha enviado’는 동사구를 주어로 써서 비문처럼 읽힌다; 음역 ‘Ehyeh’가 더 깔끔하다.",
+      "response_ko": "ASV ‘I AM hath sent me’ 등 같은 구조의 선례가 있고 대문자로 이름 기능을 표시한다. 음역을 택하면 첫 절과의 고리를 각주로만 보여 줄 수 있다. 편집 선택 사항으로 남긴다."
+    },
+    {
+      "target": "Exod.3.12 adversative ki",
+      "objection_ko": "단언(B)이 수용 전통에서 더 흔하다.",
+      "response_ko": "의미 차이는 작고 세 독해 모두 약속을 전한다. 대조 구조를 택하되 각주 없이도 무방한 수준의 차이로 본다."
+    },
+    {
+      "target": "Exod.3.15 the name by which I am to be remembered",
+      "objection_ko": "‘name’ 보충은 원문 זֵכֶר 한 낱말을 확장한다.",
+      "response_ko": "שֵׁם//זֵכֶר 평행(시 135:13, 호 12:6, 사 26:8)이 ‘불리는 이름’ 의미를 지지한다. 더 짧은 ‘my memorial’은 현대 독자에게 뜻 전달이 약하다. 보충임을 각주로 표시."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.3.12": {
+      "ko": "그분이 말씀하셨다. “그러나 내가 너와 함께 있겠다. 이것이 너에게 주는 표징, 곧 너를 보낸 이가 바로 나라는 표징이다. 네가 그 백성을 이집트에서 이끌어 내면, 너희가 이 산에서 하나님을 섬길 것이다.”",
+      "en": "He said, “But I will be with you. And this is the sign for you that it is I who have sent you. When you have brought the people out of Egypt, you will serve God on this mountain.”",
+      "es": "Él dijo: «Pero yo estaré contigo. Y esta es para ti la señal de que soy yo quien te ha enviado. Cuando hayas sacado al pueblo de Egipto, ustedes servirán a Dios en este monte».",
+      "reason_ko": "אֶהְיֶה를 ‘있겠다/will be/estaré’로 옮겨 3:14와의 고리를 준비했다(es는 ‘estar’ 동반 의미가 자연스러워 3:14 ‘ser’와 동사가 갈린다 — 아래 반론). 강조 대명사 אָנֹכִי를 ‘바로 나/it is I/soy yo’로 살렸다. 표징의 지시 대상은 마침표로 열어 두었다. 복수 תַּעַבְדוּן을 ko ‘너희가’, es ‘ustedes’로 표시했다.",
+      "counterargument_ko": "es는 3:12 ‘estaré’와 3:14 ‘Seré’로 동사가 달라 히브리어 같은 낱말 고리가 스페인어에서 약해진다(RV1909는 3:12 ‘seré contigo’로 고리를 유지했지만 현대 스페인어로는 어색). en은 2인칭 복수 전환을 보이지 못한다. ‘섬기다’ 대신 ‘예배하다’도 가능하다.",
+      "current_opinion_ko": "역접 ‘그러나’와 열린 지시 구조를 유지한다. 3:14 각주에 3:12와 같은 동사임을 명시해야 한다.",
+      "reconsider_if_ko": "편집이 표징의 지시 대상을 하나로 확정하는 해석 방침을 정하거나, 스페인어에서 3:12와 3:14를 같은 동사(ser 또는 estar)로 통일하기로 하면 다시 쓴다."
+    },
+    "Exod.3.13": {
+      "ko": "모세가 하나님께 말했다. “제가 이스라엘 자손에게 가서 ‘너희 조상들의 하나님이 나를 너희에게 보내셨다’고 말하면, 그들이 제게 ‘그의 이름이 무엇이냐?’ 하고 물을 것입니다. 그러면 제가 그들에게 무엇이라 말해야 합니까?”",
+      "en": "Moses said to God, “Suppose I come to the Israelites and say to them, ‘The God of your fathers has sent me to you,’ and they say to me, ‘What is his name?’ What shall I say to them?”",
+      "es": "Moisés dijo a Dios: «Supongamos que voy a los israelitas y les digo: “El Dios de sus padres me ha enviado a ustedes”, y ellos me preguntan: “¿Cuál es su nombre?”. ¿Qué les diré?»",
+      "reason_ko": "הִנֵּה + 분사 + 와우 완료 사슬을 가정 구조로 옮겼다. מַה־שְּׁמוֹ는 일반 이름 질문으로 문자 번역했다.",
+      "counterargument_ko": "ko ‘물을 것입니다’, es ‘me preguntan’은 אמר(말하다)를 ‘묻다’로 옮긴 것이다(en은 ‘say’ 유지). 이름의 ‘뜻’을 묻는 해석(B)은 각주로만 소개한다. 칠십인역 OCR은 ‘우리 조상들의(ἡμῶν)’로 읽혀 히브리어 ‘너희 조상들의’와 다르나 OCR 오류일 수 있어 채택하지 않는다.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "비평판 칠십인역에서 3:13 ἡμῶν/ὑμῶν이 확인되면 이문 각주 여부를 다시 판단한다(히브리어 본문 번역은 바뀌지 않음)."
+    },
+    "Exod.3.14": {
+      "ko": "하나님이 모세에게 말씀하셨다. “나는 내가 있을 자로 있겠다.” 또 말씀하셨다. “너는 이스라엘 자손에게 이렇게 말하여라. ‘나는 있겠다 하시는 분이 나를 너희에게 보내셨다.’”",
+      "en": "God said to Moses, “I will be who I will be.” And he said, “Thus you shall say to the Israelites: ‘I Will Be has sent me to you.’”",
+      "es": "Dios dijo a Moisés: «Seré el que seré». Y dijo: «Así dirás a los israelitas: “Yo Seré me ha enviado a ustedes”».",
+      "reason_ko": "같은 동사 반복과 1인칭을 두 번 모두 보존했다(ko ‘내가 있을 자로 있겠다’). 3:12와 같은 형태이므로 미래/의지로 통일했다. 둘째 אֶהְיֶה는 이름 기능이므로 ko는 ‘나는 있겠다 하시는 분’, en ‘I Will Be’, es ‘Yo Seré’로 대문자/서술 표시를 했다.",
+      "counterargument_ko": "strongest_objection_to_own_reading 참조. ko ‘하시는 분’은 보충이며, en/es 이름 구문은 어색하다. 전통 현재 번역(I am who I am)이 독자에게 익숙하다.",
+      "current_opinion_ko": "A 유지, 필수 각주: (1) 3:12·4:12·4:15와 같은 동사, (2) 현재 ‘나는 있는 자다/I am who I am’도 가능, (3) 칠십인역 ‘나는 있는 이다’는 번역 수용, (4) 히필 재구성은 본문이 아님.",
+      "reconsider_if_ko": "편집이 전통 현재 번역을 우선하기로 하거나, 둘째 אֶהְיֶה를 음역(에흐예/Ehyeh)으로 통일하기로 하면 다시 쓴다. 독립 GPT/Gemini 검토가 한국어 ‘있겠다’의 어감 문제를 구체적 대안과 함께 제기하면 재검토한다."
+    },
+    "Exod.3.15": {
+      "ko": "하나님이 또 모세에게 말씀하셨다. “너는 이스라엘 자손에게 이렇게 말하여라. ‘야훼, 곧 너희 조상들의 하나님, 아브라함의 하나님, 이삭의 하나님, 야곱의 하나님께서 나를 너희에게 보내셨다.’ 이것이 영원히 내 이름이고, 이것이 대대로 나를 기억할 이름이다.”",
+      "en": "God also said to Moses, “Thus you shall say to the Israelites: ‘YHWH, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is the name by which I am to be remembered from generation to generation.”",
+      "es": "Dios dijo además a Moisés: «Así dirás a los israelitas: “YHWH, el Dios de sus padres, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob, me ha enviado a ustedes”. Este es mi nombre para siempre, y este es el nombre con que se me recordará de generación en generación».",
+      "reason_ko": "선정본 신명 관례(야훼/YHWH)를 따랐다. 인용은 ‘보내셨다’에서 닫고 ‘내 이름’ 선언은 하나님의 말로 두었다(아트나흐·1공단). ko ‘곧’은 동격 보충. זִכְרִי는 שֵׁם 평행에 따라 ‘나를 기억할 이름’으로 풀었다. וְזֶה 반복을 ‘이것이 … 이것이’로 살렸다.",
+      "counterargument_ko": "‘이름’ 보충, ‘영원히’ 대 ‘영원한’(לְעֹלָם 부사 대 형용사적 해석), 그리고 YHWH 음역이 낭독 관습(아도나이/주)과 다르다는 점.",
+      "current_opinion_ko": "유지. 필수 각주: 에흐예(1인칭 ‘나는 있겠다’)와 YHWH(같은 어근 계열로 흔히 이해되는 3인칭형 이름)의 소리 연결은 학계 일반 이해이나 이 세션에서 문헌 확인은 하지 않았다는 단서를 붙인다.",
+      "reconsider_if_ko": "편집이 신명 표기를 Yahweh/Yahvé 또는 낭독형(주/LORD/SEÑOR)으로 통일하기로 하면 세 언어 모두 일괄 교체한다."
+    }
+  },
+  "speech_boundaries_ko": "3:12 하나님의 말(주어 생략). 3:13 모세의 말 안에 모세가 백성에게 할 말과 백성이 모세에게 할 말이 이중 인용으로 들어 있다. 3:14 하나님의 첫 대답 → 둘째 וַיֹּאמֶר로 지시 발화, 그 안에 모세가 할 말 인용. 3:15 지시 발화 안의 인용은 ‘보내셨다’에서 끝나고, ‘이것이 영원히 내 이름…’은 하나님이 모세에게 직접 하는 말.",
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.3.12",
+      "note_ko": "‘이것’이 가리키는 표징은 앞의 떨기나무 장면, ‘함께 있겠다’는 약속, 또는 뒤의 ‘이 산에서 섬김’일 수 있다. ‘너희가 섬길 것이다’는 원문에서 복수다."
+    },
+    {
+      "id": "Exod.3.14",
+      "note_ko": "‘있겠다’는 3:12 ‘내가 너와 함께 있겠다’와 같은 히브리어 낱말(에흐예)이다. ‘나는 있는 자다(I am who I am)’로도 옮길 수 있으며, 칠십인역의 ‘나는 있는 이다’는 고대 번역의 해석이다. 둘째 ‘나는 있겠다 하시는 분’은 원문에서 ‘에흐예’ 한 낱말이 이름처럼 쓰인 것이다."
+    },
+    {
+      "id": "Exod.3.15",
+      "note_ko": "‘야훼(YHWH)’는 히브리어 신명 네 글자를 옮긴 것으로, 많은 번역은 낭독 관습에 따라 ‘주/여호와/LORD’로 옮긴다. 3:14 ‘에흐예’와 소리가 이어진다. ‘나를 기억할 이름’은 히브리어 ‘기억/기념(제케르)’ 한 낱말을 앞 구의 ‘이름’과 평행하게 푼 것이다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "Divine name spelling",
+      "finding_ko": "선정본에 ko 야훼 28회·YHWH 5회, en YHWH 24회·Yahweh 9회, es YHWH 24회·Yahvé 9회가 섞여 있다(Gen.2.4–2.19 구간이 Yahweh/Yahvé). 출 3:14–15는 신명 자체가 주제이므로 출애굽기 진입 전에 표기 통일 결정이 필요하다."
+    },
+    {
+      "topic": "Ehyeh rendering across Exodus",
+      "finding_ko": "출 3:12, 3:14(3회), 4:12, 4:15의 אֶהְיֶה를 같은 번역어 계열로 유지할지 편집 용어 규칙이 필요하다. 호 1:9도 같은 형태."
+    },
+    {
+      "topic": "Spanish ser/estar split",
+      "finding_ko": "스페인어는 동반(estar contigo)과 이름 선언(seré)이 동사가 달라 원문 고리 보존에 한계가 있다. 각주로 보완할지, 3:14도 estar 계열로 실험할지 편집 판단 필요."
+    }
+  ],
+  "final_opinion_ko": "네 절 모두 고정 WLC 본문을 번역했고 이문이나 재구성을 본문에 채택하지 않았다. 핵심 판단: (1) 3:14 אֶהְיֶה אֲשֶׁר אֶהְיֶה는 3:12와 같은 동사 형태라는 고정 본문 사실에 근거해 세 언어 모두 미래/의지(‘나는 내가 있을 자로 있겠다 / I will be who I will be / Seré el que seré’)로 옮기고, 전통 현재 번역과 칠십인역 계열 해석은 필수 각주로 둔다 — 가장 강한 반론(미완료의 현재 가능성, 압도적 수용 전통)은 실질적이므로 신뢰도 중간. (2) 3:15는 선정본 신명 관례(야훼/YHWH)를 유지해야 3:14–15 이름 고리가 보인다; 기존 Sonnet 초안의 ‘여호와/The LORD/El SEÑOR’는 관례 불일치. (3) 3:12 표징의 지시 대상은 확정하지 않는다. (4) 3:13 ‘그의 이름이 무엇이냐’는 문자 그대로. (5) OSHB의 휴지형 עִמָּךְ Sp2fs 태깅은 번역 쟁점이 아닌 형태 데이터 문제. 이 검토는 독립 GPT/Gemini 검토와 편집 채택 전의 미채택 모델 검토다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.3.12",
+      "level": "medium-high",
+      "note_ko": "역접 ‘그러나’와 표징 지시 대상은 해석 선택."
+    },
+    {
+      "id": "Exod.3.13",
+      "level": "high",
+      "note_ko": "‘묻다’ 보충만 낮은 쟁점."
+    },
+    {
+      "id": "Exod.3.14",
+      "level": "medium",
+      "note_ko": "시제(미래 대 현재)와 이름 표기(의미 번역 대 음역)는 편집 결정 사항."
+    },
+    {
+      "id": "Exod.3.15",
+      "level": "high",
+      "note_ko": "신명 표기는 프로젝트 관례에 종속; ‘이름’ 보충은 중간."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.3.12",
+      "condition_ko": "편집이 표징 지시 대상 해석 방침을 정하거나 스페인어 ser/estar 통일 방침을 정할 때."
+    },
+    {
+      "id": "Exod.3.13",
+      "condition_ko": "비평판 칠십인역(예: 괴팅겐판)에서 3:13 ἡμῶν이 실제 독법으로 확인되면 이문 각주 추가 여부 판단."
+    },
+    {
+      "id": "Exod.3.14",
+      "condition_ko": "불가타·아퀼라·테오도티온·타르굼·사마리아 오경·쿰란 출애굽기 사본의 3:14 실제 본문을 URL과 발췌로 확인하면 대안 B–D 근거와 각주를 다시 쓴다. 편집이 전통 현재 번역 또는 음역을 택하면 본문을 교체한다."
+    },
+    {
+      "id": "Exod.3.15",
+      "condition_ko": "프로젝트 신명 표기 통일 결정이 나오면 세 언어 일괄 교체. 결자 לעלם에 관한 랍비 해석을 각주에 넣으려면 탈무드 원문 확인이 먼저 필요."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.3.14",
+      "issue": "Tense/aspect of ehyeh asher ehyeh (future/volitional vs present/continuous) and rendering of the second ehyeh as a name",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial decision; independent GPT/Gemini review; actual Vulgate, Aquila/Theodotion, Targum, Samaritan Pentateuch and Qumran Exodus texts with URLs and excerpts."
+    },
+    {
+      "id": "Exod.3.12",
+      "issue": "Referent of zeh (sign): bush, promise, or future worship on the mountain; function of initial ki",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial interpretive policy; no textual variant is involved in the pinned text."
+    },
+    {
+      "id": "Exod.3.13",
+      "issue": "LXX OCR reads 'our fathers' (hemon) where MT has 'your fathers'; may be OCR error or LXX reading",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition or printed Swete page image."
+    },
+    {
+      "id": "Exod.3.12",
+      "issue": "LXX OCR shows ton laon mou (my people), future exaposteleo, and latreusate; OCR quality unknown",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition."
+    },
+    {
+      "id": "Exod.3.15",
+      "issue": "Project-wide divine-name spelling (YHWH vs Yahweh/Yahve; ko yahwe vs YHWH) not yet unified",
+      "status": "editorial_decision_required",
+      "needed_evidence": "Versioned editorial decision."
+    },
+    {
+      "id": "Exod.3.12",
+      "issue": "OSHB morph tags pausal immakh as Sp2fs for masculine addressees (15 of 17 occurrences in pinned Gen/Exod)",
+      "status": "data_quality_observation",
+      "needed_evidence": "OSHB upstream documentation or issue tracker check; does not affect translation."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T23:09:56Z) or reused from private/upstream_cache",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus; target verses and Exodus parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-10-30T23:14:33Z",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Gen (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+      "accessed_utc": "2026-10-30T23:14:10Z",
+      "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+      "what_it_is": "Pinned WLC/OSHB 1Sam (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Kgs.xml",
+      "accessed_utc": "2026-10-30T23:14:10Z",
+      "file_sha256": "056db5393beaef0a1159d9bcaac7dfd865df9bab2eb240ea90e9fa3f0c0e7449",
+      "what_it_is": "Pinned WLC/OSHB 2Kgs (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "accessed_utc": "2026-10-30T23:14:08Z",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+      "what_it_is": "Pinned WLC/OSHB Hos (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+      "accessed_utc": "2026-10-30T23:14:09Z",
+      "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+      "what_it_is": "Pinned WLC/OSHB Prov (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-10-30T23:14:09Z",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "what_it_is": "Pinned WLC/OSHB Judg (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T23:14:09Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Ps (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "accessed_utc": "2026-10-30T23:14:10Z",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "what_it_is": "Pinned WLC/OSHB Isa (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "accessed_utc": "2026-10-30T23:14:16Z",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "what_it_is": "Third-party raw OCR of Swete LXX Exodus at the same pinned repository commit used by earlier runs; OCR defects visible (merged words, garbled tokens)."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "Reading F for Exod.3.14 (Hiphil causative) is a reconstruction, not a reading attested in the pinned text.",
+    "The possible ESV resemblance of the earlier draft is a model recollection; ESV text was not accessed.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "The self-checks below are by the same model and are not an independent review."
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-30T23:09:56Z",
+    "claim_pushed": "2026-10-30T23:10Z (commit on claude/bible-hard-review-vqib2m before any model review)",
+    "earlier_draft_opened": "about 2026-10-30T23:11Z (before the initial proposal was written; see initial_proposals_note)",
+    "independent_reading_from_packet": "2026-10-30T23:11Z-23:13:41Z (scratch file mtime 23:13:41Z)",
+    "reception_checks": "2026-10-30T23:13:45Z-23:15Z",
+    "review_written": "2026-10-30T23:15Z-23:25Z",
+    "identity_rechecked": "2026-10-30T23:20:08Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional allowed, isUsingOverage false)"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261030T230956Z-6886267e.json",
+    "claim_manifest": "automation/hard-review-runs/20261030T230956Z-6886267e.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.3.12",
+        "raw_xml": "<verse osisID=\"Exod.3.12\">\n          <w lemma=\"c/559\" n=\"1.2.0\" morph=\"HC/Vqw3ms\" id=\"02UG5\">וַ/יֹּ֨אמֶר֙</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"02tZb\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1961\" morph=\"HVqi1cs\" id=\"02UEd\">אֶֽהְיֶ֣ה</w>\n          <w lemma=\"5973 a\" n=\"1.2\" morph=\"HR/Sp2fs\" id=\"02zit\">עִמָּ֔/ךְ</w>\n          <w lemma=\"c/2088\" morph=\"HC/Pdxms\" id=\"02pcg\">וְ/זֶה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp2ms\" id=\"021pD\">לְּ/ךָ֣</w>\n          <w lemma=\"d/226\" n=\"1.1\" morph=\"HTd/Ncbsa\" id=\"02UCh\">הָ/א֔וֹת</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"02jZZ\">כִּ֥י</w>\n          <w lemma=\"595\" n=\"1.0\" morph=\"HPp1cs\" id=\"027a3\">אָנֹכִ֖י</w>\n          <w lemma=\"7971\" n=\"1\" morph=\"HVqp1cs/Sp2ms\" id=\"02k23\">שְׁלַחְתִּ֑י/ךָ</w>\n          <w lemma=\"b/3318\" morph=\"HR/Vhc/Sp2ms\" id=\"02nxs\">בְּ/הוֹצִֽיאֲ/ךָ֤</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02Rs7\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/5971 a\" n=\"0.2.0\" morph=\"HTd/Ncmsa\" id=\"02x1q\">הָ/עָם֙</w>\n          <w lemma=\"m/4714\" n=\"0.2\" morph=\"HR/Np\" id=\"02ozK\">מִ/מִּצְרַ֔יִם</w>\n          <w lemma=\"5647\" n=\"0.1.0\" morph=\"HVqi2mp/Sn\" id=\"026Tj\">תַּֽעַבְדוּ/ן֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02Wp4\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/430\" n=\"0.1\" morph=\"HTd/Ncmpa\" id=\"02ayu\">הָ֣/אֱלֹהִ֔ים</w>\n          <w lemma=\"5921 a\" n=\"0.0\" morph=\"HR\" id=\"02izi\">עַ֖ל</w>\n          <w lemma=\"d/2022\" morph=\"HTd/Ncmsa\" id=\"02cNi\">הָ/הָ֥ר</w>\n          <w lemma=\"d/2088\" n=\"0\" morph=\"HTd/Pdxms\" id=\"022Z3\">הַ/זֶּֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "9fb2e8b46cbf18f81dade9d502187c612a4f3e65167ddbaae0f3d70e8c6d403c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.3.13",
+        "raw_xml": "<verse osisID=\"Exod.3.13\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"02bTo\">וַ/יֹּ֨אמֶר</w>\n          <w lemma=\"4872\" n=\"1.2.1.0\" morph=\"HNp\" id=\"02hvK\">מֹשֶׁ֜ה</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02XQw\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/430\" n=\"1.2.1\" morph=\"HTd/Ncmpa\" id=\"02Ssi\">הָֽ/אֱלֹהִ֗ים</w>\n          <w lemma=\"2009\" morph=\"HTm\" id=\"02UtQ\">הִנֵּ֨ה</w>\n          <w lemma=\"595\" morph=\"HPp1cs\" id=\"02MVx\">אָנֹכִ֣י</w>\n          <w lemma=\"935\" n=\"1.2.0\" morph=\"HVqrmsa\" id=\"024dp\">בָא֮</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02nsw\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"02KGj\">בְּנֵ֣י</w>\n          <w lemma=\"3478\" n=\"1.2\" morph=\"HNp\" id=\"028xz\">יִשְׂרָאֵל֒</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqq1cs\" id=\"02y1Z\">וְ/אָמַרְתִּ֣י</w>\n          <w lemma=\"l\" n=\"1.1\" morph=\"HR/Sp3mp\" id=\"02Uq9\">לָ/הֶ֔ם</w>\n          <w lemma=\"430\" morph=\"HNcmpc\" id=\"02TiM\">אֱלֹהֵ֥י</w>\n          <w lemma=\"1\" n=\"1.0\" morph=\"HNcmpc/Sp2mp\" id=\"02NqW\">אֲבוֹתֵי/כֶ֖ם</w>\n          <w lemma=\"7971\" morph=\"HVqp3ms/Sp1cs\" id=\"02emv\">שְׁלָחַ֣/נִי</w>\n          <w lemma=\"413\" n=\"1\" morph=\"HR/Sp2mp\" id=\"023r3\">אֲלֵי/כֶ֑ם</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqq3cp\" id=\"02sEP\">וְ/אָֽמְרוּ</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp1cs\" id=\"02BYi\">לִ֣/י</w>\n          <w lemma=\"4100\" morph=\"HTi\" id=\"02K78\">מַה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8034\" n=\"0.1\" morph=\"HNcmsc/Sp3ms\" id=\"02LG5\">שְּׁמ֔/וֹ</w>\n          <w lemma=\"4100\" morph=\"HTi\" id=\"02pvY\">מָ֥ה</w>\n          <w lemma=\"559\" n=\"0.0\" morph=\"HVqi1cs\" id=\"02B6g\">אֹמַ֖ר</w>\n          <w lemma=\"413\" n=\"0\" morph=\"HR/Sp3mp\" id=\"02UDg\">אֲלֵ/הֶֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "13c5b407f451402ef53854365db60187f3a15a5daf5bd9da50b98ad3ee5c6d9d",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.3.14",
+        "raw_xml": "<verse osisID=\"Exod.3.14\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"02Baw\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"430\" n=\"1.1.0\" morph=\"HNcmpa\" id=\"02MZ9\">אֱלֹהִים֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02Svn\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4872\" n=\"1.1\" morph=\"HNp\" id=\"02x62\">מֹשֶׁ֔ה</w>\n          <w lemma=\"1961\" n=\"1.0\" morph=\"HVqi1cs\" id=\"02dQK\">אֶֽהְיֶ֖ה</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02dDm\">אֲשֶׁ֣ר</w>\n          <w lemma=\"1961\" n=\"1\" morph=\"HVqi1cs\" id=\"02XwG\">אֶֽהְיֶ֑ה</w>\n          <w lemma=\"c/559\" n=\"0.1.1\" morph=\"HC/Vqw3ms\" id=\"02iPC\">וַ/יֹּ֗אמֶר</w>\n          <w lemma=\"3541\" morph=\"HD\" id=\"028E1\">כֹּ֤ה</w>\n          <w lemma=\"559\" n=\"0.1.0\" morph=\"HVqi2ms\" id=\"024vF\">תֹאמַר֙</w>\n          <w lemma=\"l/1121 a\" morph=\"HR/Ncmpc\" id=\"02y7z\">לִ/בְנֵ֣י</w>\n          <w lemma=\"3478\" n=\"0.1\" morph=\"HNp\" id=\"02bvs\">יִשְׂרָאֵ֔ל</w>\n          <w lemma=\"1961\" n=\"0.0\" morph=\"HVqi1cs\" id=\"02Gxe\">אֶֽהְיֶ֖ה</w>\n          <w lemma=\"7971\" morph=\"HVqp3ms/Sp1cs\" id=\"02Qjd\">שְׁלָחַ֥/נִי</w>\n          <w lemma=\"413\" n=\"0\" morph=\"HR/Sp2mp\" id=\"02t98\">אֲלֵי/כֶֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "2a4534973b701adb2e2a9cdd6f2a02a3dd79c2672acd42e3c8b1eb90ec025abf",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.3.15",
+        "raw_xml": "<verse osisID=\"Exod.3.15\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"02YfW\">וַ/יֹּאמֶר֩</w>\n          <w lemma=\"5750\" morph=\"HD\" id=\"02P1s\">ע֨וֹד</w>\n          <w lemma=\"430\" n=\"1.1.1.0\" morph=\"HNcmpa\" id=\"02a9X\">אֱלֹהִ֜ים</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02RUp\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4872\" n=\"1.1.1\" morph=\"HNp\" id=\"027Kw\">מֹשֶׁ֗ה</w>\n          <w lemma=\"3541\" morph=\"HD\" id=\"02E6n\">כֹּֽה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"559\" n=\"1.1.0\" morph=\"HVqi2ms\" id=\"024YU\">תֹאמַר֮</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02yMS\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"02RZD\">בְּנֵ֣י</w>\n          <w lemma=\"3478\" n=\"1.1\" morph=\"HNp\" id=\"02T97\">יִשְׂרָאֵל֒</w>\n          <w lemma=\"3068\" n=\"1.0.1.0\" morph=\"HNp\" id=\"025L1\">יְהוָ֞ה</w>\n          <w lemma=\"430\" morph=\"HNcmpc\" id=\"02nY7\">אֱלֹהֵ֣י</w>\n          <w lemma=\"1\" n=\"1.0.1\" morph=\"HNcmpc/Sp2mp\" id=\"02S83\">אֲבֹתֵי/כֶ֗ם</w>\n          <w lemma=\"430\" morph=\"HNcmpc\" id=\"02SDb\">אֱלֹהֵ֨י</w>\n          <w lemma=\"85\" n=\"1.0.0.0\" morph=\"HNp\" id=\"02DKS\">אַבְרָהָ֜ם</w>\n          <w lemma=\"430\" morph=\"HNcmpc\" id=\"02YKr\">אֱלֹהֵ֥י</w>\n          <w lemma=\"3327\" n=\"1.0.0\" morph=\"HNp\" id=\"02r66\">יִצְחָ֛ק</w>\n          <w lemma=\"c/430\" morph=\"HC/Ncmpc\" id=\"02TW5\">וֵ/אלֹהֵ֥י</w>\n          <w lemma=\"3290\" n=\"1.0\" morph=\"HNp\" id=\"02KaN\">יַעֲקֹ֖ב</w>\n          <w lemma=\"7971\" morph=\"HVqp3ms/Sp1cs\" id=\"02FsE\">שְׁלָחַ֣/נִי</w>\n          <w lemma=\"413\" n=\"1\" morph=\"HR/Sp2mp\" id=\"027Np\">אֲלֵי/כֶ֑ם</w>\n          <w lemma=\"2088\" morph=\"HPdxms\" id=\"02965\">זֶה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8034\" morph=\"HNcmsc/Sp1cs\" id=\"02MeK\">שְּׁמִ֣/י</w>\n          <w lemma=\"l/5769\" n=\"0.1\" morph=\"HR/Ncmsa\" id=\"02Pw8\">לְ/עֹלָ֔ם</w>\n          <w lemma=\"c/2088\" morph=\"HC/Pdxms\" id=\"02Bxn\">וְ/זֶ֥ה</w>\n          <w lemma=\"2143\" n=\"0.0\" morph=\"HNcmsc/Sp1cs\" id=\"02Gne\">זִכְרִ֖/י</w>\n          <w lemma=\"l/1755\" morph=\"HR/Ncmsa\" id=\"02uXm\">לְ/דֹ֥ר</w>\n          <w lemma=\"1755\" n=\"0\" morph=\"HNcmsa\" id=\"02Cmf\">דֹּֽר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "fca93a4015f153434128c2025df18815dd1758df3c2e01f97d99a1ea81ac9980",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T230956Z-6886267e.ko.md",
+  "branch": "claude/bible-hard-review-vqib2m",
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_markup_present": false,
+    "clause_coverage": {
+      "Exod.3.12": 5,
+      "Exod.3.13": 5,
+      "Exod.3.14": 5,
+      "Exod.3.15": 6
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "library_excerpts_verified": true,
+    "hayah_qal_yiqtol_1cs_word_ids": {
+      "Exod.3.12": [
+        "02UEd"
+      ],
+      "Exod.3.14": [
+        "02dQK",
+        "02XwG",
+        "02Gxe"
+      ]
+    },
+    "immakh_morph_in_Exod_3_12": [
+      "HR/Sp2fs"
+    ],
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_convention": {
+      "ko_yahwe_in_3_15": true,
+      "en_YHWH_in_3_15": true,
+      "es_YHWH_in_3_15": true,
+      "no_LORD_or_Jehovah": true
+    },
+    "curly_and_angle_quotes_balanced": true,
+    "earlier_records_found": [
+      "automation/cloud-drafts/20261027T091815Z-d63c8640.json on origin/claude/friendly-heisenberg-yd8t3j (commit 72a69f5e313c2298e0e5a218951ccf19d4b57112)"
+    ],
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
