@@ -1,0 +1,1107 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T130857Z-40cf9972",
+  "unit_id": "gen-15-1-6",
+  "verse_ids": [
+    "Gen.15.1",
+    "Gen.15.2",
+    "Gen.15.3",
+    "Gen.15.4",
+    "Gen.15.5",
+    "Gen.15.6"
+  ],
+  "unit_issue_ko": "방패/보상·상속·믿음/의로 여김의 주어와 목적어",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.15.1-6 = 전통 장절 창세기 15:1-6(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 OCR도 1.15.1-1.15.6을 쓴다. 이 범위에서 장절 차이는 발견하지 못했다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml. Clause hebrew_display strings are derived display text (cantillation, paseq and morpheme slashes removed; vowels kept) generated from OSHB word ids by the build script, not quotations of a different text.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud, no Routine/Project tag)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T13:10Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The system prompt also names Opus 5.5 / claude-opus-5-5. A model self-report is not source evidence.",
+    "session": "https://claude.ai/code/session_01UknqVKAP8qkKXnuxvACjRS",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is service metadata, not a balance or a deduction amount; no dollar figure or remaining balance was exposed.",
+    "not_exposed": [
+      "exact model snapshot/build beyond the model id",
+      "per-turn served model for every individual turn (only last_served_model at the time of the check)",
+      "token counts, cost and credit deduction for this run",
+      "remaining promotional credit balance"
+    ],
+    "recheck": "See timestamps_utc.identity_rechecked (2026-10-30T13:19Z, unchanged)."
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T13:08:49Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; HEAD equalled origin/main 4fbdcbc; 15 earlier hard-review claims on claude/ branches were all completed, none active)",
+    "claim_created": "2026-10-30T13:08:57Z (run_id timestamp; manifest created_at holds the exact value)",
+    "claim_pushed": "2026-10-30T13:09:01Z commit 16ffa61689162ff426ade8e09d9446e005482a20 pushed to claude/original-bible-hard-review-voh8a3; git ls-remote confirmed",
+    "independent_reading_saved": "2026-10-30T13:10:53Z (scratch file mtime). The note itself says '~13:12Z'; that was an estimate typed before checking the clock and is wrong. The Sonnet draft was first opened at 13:10:56Z.",
+    "earlier_records_compared": "2026-10-30T13:10:56Z-13:13Z",
+    "parallel_evidence_fetched": "2026-10-30T13:11:21Z-13:11:49Z",
+    "review_saved": "2026-10-30T13:20Z (record built and checked by scratch build script; commit time on the branch is authoritative)",
+    "identity_rechecked": "2026-10-30T13:19Z: get_session again reported configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, last_served_model=claude-opus-5-5, rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. No limit or credit-exhaustion message observed during the run."
+  },
+  "independent_initial_reading": {
+    "method_note": "Reading built from packet raw XML and OSHB morphology plus pinned WLC Genesis parallels found by lemma search (Gen 31:15, 38:15, 45:26, 50:20, 18:19, 30:33, 25:23), then saved to scratch before opening any earlier model record. It was written in plain ASCII transliteration. Clause segmentation below was formalized afterwards from the same note; preferred wording changed later only where listed in changes_from_initial_proposal_ko.",
+    "written_before_reading_other_records_utc": "2026-10-30T13:10:53Z",
+    "clauses": {
+      "Gen.15.1": [
+        {
+          "word_ids": [
+            "01Tt9",
+            "01yQh",
+            "01CAN"
+          ],
+          "category": "discourse",
+          "reading_ko": "'이 일들 뒤에'. 14장 사건(소돔 재물 거절 포함)과 잇는 시간 틀. דְּבָרִים은 '말들/일들' 둘 다 가능하나 시간 틀에서는 '일들'. אַחַר 뒤에 paseq(׀)가 있다(낭독 표지, 의미 변화 없음).",
+          "hebrew_display": "אַחַר הַדְּבָרִים הָאֵלֶּה"
+        },
+        {
+          "word_ids": [
+            "01Xva",
+            "01ef9",
+            "01JnZ",
+            "01qg7",
+            "01cSo",
+            "01Yyj",
+            "01opb"
+          ],
+          "category": "lexical",
+          "reading_ko": "'야훼의 말씀이 환상 가운데 아브람에게 임하였다'. 예언 계시 정형구. מַחֲזֶה는 창세기에서 여기만 나온다(OSHB lemma 4236 검색 1회). לֵאמֹר는 직접 인용 도입.",
+          "hebrew_display": "הָיָה דְבַר יְהוָה אֶל אַבְרָם בַּמַּחֲזֶה לֵאמֹר"
+        },
+        {
+          "word_ids": [
+            "013dA",
+            "01m49",
+            "01HAZ"
+          ],
+          "category": "discourse",
+          "reading_ko": "'아브람아, 두려워하지 마라'. 금지형 אַל + 미완료. 호격 아브람.",
+          "hebrew_display": "אַל תִּירָא אַבְרָם"
+        },
+        {
+          "word_ids": [
+            "0118S",
+            "01pvu",
+            "01RzD"
+          ],
+          "category": "lexical",
+          "reading_ko": "'나는 너에게 방패다'. לָךְ는 휴지형(pausal) 2인칭 남성 형태로 읽는다. OSHB 형태 태그는 Sp2fs(2인칭 여성)인데, 형태상 휴지형과 여성형이 같아 생긴 태그로 보이며 지시 대상은 호격 아브람(남성)이다. 본문 이문 문제가 아니다.",
+          "hebrew_display": "אָנֹכִי מָגֵן לָךְ"
+        },
+        {
+          "word_ids": [
+            "01b9d",
+            "01yKt",
+            "01kTv"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'너의 보상은 매우 클 것이다'. 악센트상 לָךְ에 zaqef, שְׂכָרְךָ에 tipha가 있어 앞 절과 분리된 별개 명사절로 읽힌다. הַרְבֵּה(히필 부정사 절대형)+מְאֹד는 부사적 '매우 많이/크게'. 동격 '너의 지극히 큰 보상(=하나님)'은 악센트가 불리하나 배제되지 않는다. שָׂכָר는 30-31장에서 '품삯'이므로 14:21-24의 재물 거절에 대한 응답으로 읽힌다.",
+          "hebrew_display": "שְׂכָרְךָ הַרְבֵּה מְאֹד"
+        }
+      ],
+      "Gen.15.2": [
+        {
+          "word_ids": [
+            "013Zu",
+            "01cNU"
+          ],
+          "category": "discourse",
+          "reading_ko": "'아브람이 말하였다'. 바이익톨. 영어 'But'처럼 반의를 넣을 형태적 근거는 없다.",
+          "hebrew_display": "וַיֹּאמֶר אַבְרָם"
+        },
+        {
+          "word_ids": [
+            "01w93",
+            "01hRC"
+          ],
+          "category": "textual",
+          "reading_ko": "'주 야훼여'. אֲדֹנָי 다음 신명은 엘로힘 모음(יֱהוִה, OSHB lemma 3069)으로 표기된 낭독 관례다. 패킷에 Qere/Ketiv 마크업은 없다. 번역에서는 프로젝트 관례대로 '야훼/YHWH'.",
+          "hebrew_display": "אֲדֹנָי יֱהוִה"
+        },
+        {
+          "word_ids": [
+            "01y8q",
+            "016Us",
+            "017EH"
+          ],
+          "category": "discourse",
+          "reading_ko": "'제게 무엇을 주시겠습니까?' 1절 '보상'에 대한 반문.",
+          "hebrew_display": "מַה תִּתֶּן לִי"
+        },
+        {
+          "word_ids": [
+            "01xEy",
+            "01dYW",
+            "01Dbu"
+          ],
+          "category": "lexical",
+          "reading_ko": "'저는 자식 없이 가고 있는데'. 상황절. הוֹלֵךְ는 '(계속) 살아가다'와 '떠나가다(죽다)' 둘 다 가능하다. עֲרִירִי는 창세기에서 여기만 나온다.",
+          "hebrew_display": "וְאָנֹכִי הוֹלֵךְ עֲרִירִי"
+        },
+        {
+          "word_ids": [
+            "01biE",
+            "011oc",
+            "01X8S",
+            "01spk",
+            "01tvc",
+            "01Xj8"
+          ],
+          "category": "lexical",
+          "reading_ko": "'제 집의 בֶן־מֶשֶׁק은 다메섹 엘리에셀입니다'. מֶשֶׁק은 창세기에서 여기만 나오는 난해어(lemma 4943 검색 1회). מֶשֶׁק/דַּמֶּשֶׂק 소리 놀이. 의미는 3절 יוֹרֵשׁ('상속자')에서 문맥적으로 추론한다. דַּמֶּשֶׂק אֱלִיעֶזֶר는 고유명사 둘의 병치로 '다메섹의 엘리에셀'은 해석이다(형용사형 דַּמַּשְׂקִי 없음). 미해결 어휘.",
+          "hebrew_display": "וּבֶן מֶשֶׁק בֵּיתִי הוּא דַּמֶּשֶׂק אֱלִיעֶזֶר"
+        }
+      ],
+      "Gen.15.3": [
+        {
+          "word_ids": [
+            "013ho",
+            "01u8J"
+          ],
+          "category": "discourse",
+          "reading_ko": "'아브람이 (또) 말하였다'. 응답 없이 화자 표지가 반복된다. 주저하거나 다시 말을 잇는 효과.",
+          "hebrew_display": "וַיֹּאמֶר אַבְרָם"
+        },
+        {
+          "word_ids": [
+            "01pVY",
+            "01biG",
+            "01pZy",
+            "01q48",
+            "01s4E"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'보십시오, 제게는 자손을 주지 않으셨습니다'. לִי 전치로 '나에게는' 강조. זֶרַע는 '씨/자손'.",
+          "hebrew_display": "הֵן לִי לֹא נָתַתָּה זָרַע"
+        },
+        {
+          "word_ids": [
+            "01h3h",
+            "01918",
+            "01oD9",
+            "01iih",
+            "01vUK"
+          ],
+          "category": "lexical",
+          "reading_ko": "'그러니 보십시오, 제 집안 사람이 저를 상속할 것입니다'. 분사 יוֹרֵשׁ는 임박/확정된 미래. בֶּן־בַּיִת는 '내 아들'이 아니라 집안 사람. '집에서 난'은 14:14 יְלִידֵי בֵיתוֹ와 다른 표현이므로 보충이다. (초기 판단: '집안 사람'.)",
+          "hebrew_display": "וְהִנֵּה בֶן בֵּיתִי יוֹרֵשׁ אֹתִי"
+        }
+      ],
+      "Gen.15.4": [
+        {
+          "word_ids": [
+            "01ZDx",
+            "01YCX",
+            "01YWB",
+            "01tQU",
+            "01CJW"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'그때 보라, 야훼의 말씀이 그에게'. 동사 없는 서술. '임하였다'는 보충. וְהִנֵּה가 장면 전환의 즉시성을 표시.",
+          "hebrew_display": "וְהִנֵּה דְבַר יְהוָה אֵלָיו לֵאמֹר"
+        },
+        {
+          "word_ids": [
+            "01Y86",
+            "019vU",
+            "019R8"
+          ],
+          "category": "lexical",
+          "reading_ko": "'이 사람이 너를 상속하지 않을 것이다'. זֶה는 '이 자/이 사람'.",
+          "hebrew_display": "לֹא יִירָשְׁךָ זֶה"
+        },
+        {
+          "word_ids": [
+            "01moo",
+            "01gAE",
+            "01ZAq",
+            "01ubx",
+            "01cLd",
+            "01fc7",
+            "01zLa"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'오직 네 몸에서 나올 자, 그가 너를 상속할 것이다'. כִּי־אִם 대조, 재귀 대명사 הוּא로 강조. מֵעִים은 '내장/속'(25:23에서는 리브가의 태). 직역 '네 속에서'와 관용 '네 몸에서'.",
+          "hebrew_display": "כִּי אִם אֲשֶׁר יֵצֵא מִמֵּעֶיךָ הוּא יִירָשֶׁךָ"
+        }
+      ],
+      "Gen.15.5": [
+        {
+          "word_ids": [
+            "01Dcd",
+            "01sHq",
+            "01Z4P"
+          ],
+          "category": "discourse",
+          "reading_ko": "'그가 그를 밖으로 데리고 나갔다'. 주어는 명시되지 않았다(문맥상 야훼). 1절 '환상'과 '밖으로 데리고 나감', 12절 해 질 무렵과의 시간 관계는 본문이 풀지 않는다.",
+          "hebrew_display": "וַיּוֹצֵא אֹתוֹ הַחוּצָה"
+        },
+        {
+          "word_ids": [
+            "01n76",
+            "01bD6",
+            "01wcG",
+            "01S4Y"
+          ],
+          "category": "lexical",
+          "reading_ko": "'말씀하셨다. 하늘을 바라보아라'. נָא는 촉구 소사. 방향 접미 ה.",
+          "hebrew_display": "וַיֹּאמֶר הַבֶּט נָא הַשָּׁמַיְמָה"
+        },
+        {
+          "word_ids": [
+            "01pJA",
+            "01T7j",
+            "01fBv",
+            "01mGL",
+            "01m4P",
+            "01YX6"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'별들을 세어 보아라, 네가 그것들을 셀 수 있다면'. 조건절 אִם.",
+          "hebrew_display": "וּסְפֹר הַכּוֹכָבִים אִם תּוּכַל לִסְפֹּר אֹתָם"
+        },
+        {
+          "word_ids": [
+            "01aYb",
+            "01M4g",
+            "01WUC",
+            "01pov",
+            "013VU"
+          ],
+          "category": "lexical",
+          "reading_ko": "'또 그에게 말씀하셨다. 네 자손이 이와 같을 것이다'. כֹּה는 '이와 같이'. 수의 많음은 문맥적 함의이며 낱말 자체가 지정하지 않는다.",
+          "hebrew_display": "וַיֹּאמֶר לוֹ כֹּה יִהְיֶה זַרְעֶךָ"
+        }
+      ],
+      "Gen.15.6": [
+        {
+          "word_ids": [
+            "018qr",
+            "01Sag"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'(아브람이) 야훼를 믿었다'. 바이익톨 사슬을 끊는 웨카탈. 서술자의 평가/배경 진술, 반복·지속('계속 신뢰했다'), 단순 과거 중 무엇인지 형태만으로 확정되지 않는다. הֶאֱמִין + בְּ는 '~을 믿고 의지하다'(45:26 + לְ는 '보고를 믿다'). 주어 '아브람'은 원문에 없다.",
+          "hebrew_display": "וְהֶאֱמִן בַּיהוָה"
+        },
+        {
+          "word_ids": [
+            "01awo",
+            "01FpW",
+            "01Q3M"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'그가 그것을 그에게 의로 여겼다'. 주어 미표시. (i) 야훼가 그 믿음을 아브람에게 의로 여김(다수 해석; 38:15 '유다가 그를 창녀로 여겼다' 같은 평가 구문), (ii) 아브람이 그것(약속)을 야훼에게 의/공의로 여김(앞 절 주어 연속이 근거). 3인칭 여성 목적 접미 '그것'은 추상(믿음 행위) 또는 약속. צְדָקָה 앞에 לְ가 없는 이중 목적 구문. 초기 선호: (i), 각주 필수.",
+          "hebrew_display": "וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה"
+        }
+      ]
+    },
+    "as_first_written": "INDEPENDENT FIRST NOTE (packet raw XML + OSHB morph + pinned WLC Genesis parallels only; no earlier model record opened)\nWritten 2026-10-30 ~13:12Z, run 20261030T130857Z-40cf9972, unit gen-15-1-6.\n\n15.1  achar paseq hadevarim haelleh: temporal frame \"After these things/events\". devarim = things/words; links back to ch.14.\n      hayah devar-YHWH el-Avram bammachazeh: \"the word of YHWH came to Abram in a vision\" (prophetic formula; machazeh rare, Gen hapax).\n      al-tira Avram: \"Do not be afraid, Abram\".\n      anokhi magen lakh: \"I am a shield for you\". lakh = pausal 2ms (OSHB tags Sp2fs; form-based tag, referent is Abram, masc). Not a text issue.\n      sekharkha harbeh meod: accents put zaqef on lakh, tipha on sekharkha -> two clauses:\n        main reading: \"your reward will be very great\" (harbeh = Hiphil inf abs as adverb/predicate).\n        alt A (appositional, older English tradition): \"I am your shield, your exceedingly great reward\" (God = reward). Accents disfavor but do not exclude.\n        alt B (conjecture, NOT attested in packet): repoint magen as participle \"one who delivers/hands over\", echo of 14:20 miggen. Reconstruction only.\n      Clue: after 14:21-24 Abram refused Sodom's goods -> \"reward\" (sakhar = wage) answers that. Gen 30-31 use sakhar for wages.\n      KO: 이 일들 후에 야훼의 말씀이 환상 가운데 아브람에게 임하였다. \"아브람아, 두려워하지 마라. 나는 너의 방패다. 너의 보상은 매우 클 것이다.\"\n      EN: After these things the word of YHWH came to Abram in a vision: \"Do not be afraid, Abram. I am a shield for you; your reward will be very great.\"\n      ES: Despues de estas cosas, la palabra de YHWH vino a Abram en una vision: \"No temas, Abram. Yo soy un escudo para ti; tu recompensa sera muy grande.\"\n\n15.2  vayomer Avram Adonai YHWH(elohim-vowels, lemma 3069): \"Lord YHWH\" (Qere-perpetuum style vocalization; display issue only, no Ketiv/Qere markup in packet).\n      mah-titten-li: \"what will you give me\" (rhetorical, answering \"reward\").\n      veanokhi holekh ariri: circumstantial \"while I go childless\" -- holekh = \"I am going (on)\" or euphemistic \"I am departing/dying\". Ambiguous; keep \"go\" neutral-ish -> \"I am going (on) childless\".\n      uven-meshek beti hu Dammeseq Eliezer: crux. meshek hapax (Gen); wordplay meshek/Dammeseq.\n        options: \"the heir/possessor of my house\", \"the one in charge of my household\", \"son of acquisition\"; Dammeseq Eliezer = \"Eliezer of Damascus\" or \"Damascus (is) Eliezer\"? Syntax: hu + PN + PN, odd. Unresolved lexical; meaning recoverable from v3 (ben-beti yoresh oti = heir).\n      KO: 아브람이 말하였다. \"주 야훼여, 무엇을 제게 주시렵니까? 저는 자식 없이 지내고 있고, 제 집의 상속자는 다메섹 사람 엘리에셀입니다.\"\n      EN: Abram said, \"Lord YHWH, what will you give me, seeing I go on childless, and the heir of my house is Eliezer of Damascus?\"\n      ES: Abram dijo: \"Senor YHWH, que me daras, si sigo sin hijos y el heredero de mi casa es Eliezer de Damasco?\"\n      Flag: \"heir\" is contextual; footnote meshek as obscure.\n\n15.3  hen li lo natatta zara: \"Look, to me you have not given offspring\" (li fronted -> emphatic \"to me\").\n      vehinneh ven-beti yoresh oti: \"and so a member of my household will be my heir\" (participle: imminent/assured). ben-bayit = household member (likely servant); not \"my son\".\n      KO: 아브람이 또 말하였다. \"보십시오, 제게는 자손을 주지 않으셨으니, 제 집에서 난 자가 저의 상속자가 될 것입니다.\"\n      Note: \"ben-beti\" = \"son of my house\" ; \"born in my house\" is interpretive (cf. 14:14 yelide beto, different phrase). Prefer \"a member of my household\".\n      Second vayomer: speech resumption with no reply between -> \"And Abram said (further)\".\n      EN: And Abram said, \"Look, you have given me no offspring, so a member of my household will be my heir.\"\n      ES: Y Abram anadio: \"Mira, no me has dado descendencia, y un miembro de mi casa sera mi heredero.\"\n\n15.4  vehinneh devar-YHWH elav lemor: verbless \"and behold, the word of YHWH (came) to him\". supply \"came\" (mark supplied).\n      lo yirashkha zeh: \"This one will not be your heir\".\n      ki-im asher yetse mimmeekha hu yirasheka: \"but one who will come out of your own body -- he will be your heir\". meim = inner parts/bowels; cf 25:23 (womb of Rebekah). Literal \"from your inward parts\"; \"your own body\" idiomatic. Keep resumptive hu (emphasis).\n      KO: 그러자 보라, 야훼의 말씀이 그에게 임하였다. \"이 사람이 너를 상속하지 않을 것이다. 오직 네 몸에서 나올 사람, 그가 너를 상속할 것이다.\"\n      EN: Then the word of YHWH came to him: \"This one will not be your heir; rather, one who will come from your own body -- he will be your heir.\"\n      ES: Entonces la palabra de YHWH vino a el: \"Este no sera tu heredero; sino uno que saldra de tus entranas, ese sera tu heredero.\"\n\n15.5  vayyotse oto hachutsah: subject implicit (YHWH / the word personified). \"He brought him outside\". Note: vision (v1) + going out -> scene realism question (night? v12 sunset later). Do not resolve.\n      habbet-na hashamaymah: \"Look up at the sky\" (na = urging particle, not \"please\" necessarily).\n      usfor hakokhavim im-tukhal lispor otam: \"and count the stars, if you are able to count them.\"\n      vayomer lo koh yihyeh zarekha: \"So shall your offspring be.\" koh = \"thus/so\" (number? brightness? manner). Default: numerousness from context, but koh itself does not specify.\n      KO: 그분이 그를 밖으로 데리고 나가 말씀하셨다. \"하늘을 바라보아라. 별들을 셀 수 있거든 세어 보아라.\" 또 그에게 말씀하셨다. \"네 자손이 이와 같을 것이다.\"\n      EN: He brought him outside and said, \"Look toward the sky and count the stars, if you can count them.\" Then he said to him, \"So shall your offspring be.\"\n      ES: Lo saco afuera y le dijo: \"Mira al cielo y cuenta las estrellas, si puedes contarlas.\" Y le dijo: \"Asi sera tu descendencia.\"\n\n15.6  vehe'emin baYHWH: weqatal (not wayyiqtol) -- breaks narrative chain. Options: (a) narrator's background/evaluative comment \"Abram believed/trusted YHWH\"; (b) frequentative/continuous \"he kept trusting\"; (c) simple past; KO/EN normal past is fine but note. he'emin + be = trust in / rely on (cf. 45:26 he'emin + le = believe a report). So \"trusted/believed in YHWH\".\n      vayyachshevaha lo tsedaqah: wayyiqtol 3ms + 3fs object + lo + tsedaqah (no le before tsedaqah).\n        Subject: not named. Options:\n          (i) YHWH reckoned it (the trusting act; fem as abstract \"it\") to him (Abram) as righteousness. Majority; consistent with 38:15 pattern (subject X reckons obj as Y) and 31:15 (reckoned to/by him).\n          (ii) Abram reckoned it (the promise) to him (YHWH) as righteousness/justice/generous act. Grammatically possible: subject continuity from hee'min (Abram) favors this! Strongest objection to (i).\n          (iii) Passive \"it was reckoned\" -- that is a reception rendering (LXX/NT tradition per background knowledge; not verified in this note) not the MT active form.\n        Object -ha: fem \"it\" (abstract) -- the act of trust, or the promise/word (davar is masc, so \"promise\" referent less direct; tsedaqah fem itself could attract). Unresolved.\n        tsedaqah: \"righteousness\" vs \"right standing\", \"a righteous act\" (cf 18:19 doing tsedaqah; 30:33 tsidqati = my honesty/rightness). Keep \"righteousness\".\n      Preference: (i) with explicit footnote; translate subject as \"YHWH\" supplied? Better: keep pronoun \"he\" for EN/ES? KO needs a subject: \"야훼께서는\" supplied mark. EN: \"and he counted it to him as righteousness\" -- ambiguous like Hebrew. Prefer ambiguity-preserving in en/es; ko must choose -> supply [야훼께서] marked.\n      KO: 아브람이 야훼를 믿었고, [야훼께서] 그것을 그에게 의로 여기셨다.\n      EN: And Abram trusted in YHWH, and he counted it to him as righteousness.  (\"Abram\" supplied? Hebrew has no subject in 15:6 -- subject Abram is clear from context; supply \"Abram\" mark.)\n      ES: Abram creyo en YHWH, y el se lo conto por justicia.\n"
+  },
+  "initial_proposals": {
+    "Gen.15.1": {
+      "ko": "이 일들 후에 야훼의 말씀이 환상 가운데 아브람에게 임하였다. \"아브람아, 두려워하지 마라. 나는 너의 방패다. 너의 보상은 매우 클 것이다.\"",
+      "en": "After these things the word of YHWH came to Abram in a vision: \"Do not be afraid, Abram. I am a shield for you; your reward will be very great.\"",
+      "es": "Despues de estas cosas, la palabra de YHWH vino a Abram en una vision: \"No temas, Abram. Yo soy un escudo para ti; tu recompensa sera muy grande.\""
+    },
+    "Gen.15.2": {
+      "ko": "아브람이 말하였다. \"주 야훼여, 무엇을 제게 주시렵니까? 저는 자식 없이 지내고 있고, 제 집의 상속자는 다메섹 사람 엘리에셀입니다.\"",
+      "en": "Abram said, \"Lord YHWH, what will you give me, seeing I go on childless, and the heir of my house is Eliezer of Damascus?\"",
+      "es": "Abram dijo: \"Senor YHWH, que me daras, si sigo sin hijos y el heredero de mi casa es Eliezer de Damasco?\""
+    },
+    "Gen.15.3": {
+      "ko": "아브람이 또 말하였다. \"보십시오, 제게는 자손을 주지 않으셨으니, 제 집에서 난 자가 저의 상속자가 될 것입니다.\"",
+      "en": "And Abram said, \"Look, you have given me no offspring, so a member of my household will be my heir.\"",
+      "es": "Y Abram anadio: \"Mira, no me has dado descendencia, y un miembro de mi casa sera mi heredero.\""
+    },
+    "Gen.15.4": {
+      "ko": "그러자 보라, 야훼의 말씀이 그에게 임하였다. \"이 사람이 너를 상속하지 않을 것이다. 오직 네 몸에서 나올 사람, 그가 너를 상속할 것이다.\"",
+      "en": "Then the word of YHWH came to him: \"This one will not be your heir; rather, one who will come from your own body -- he will be your heir.\"",
+      "es": "Entonces la palabra de YHWH vino a el: \"Este no sera tu heredero; sino uno que saldra de tus entranas, ese sera tu heredero.\""
+    },
+    "Gen.15.5": {
+      "ko": "그분이 그를 밖으로 데리고 나가 말씀하셨다. \"하늘을 바라보아라. 별들을 셀 수 있거든 세어 보아라.\" 또 그에게 말씀하셨다. \"네 자손이 이와 같을 것이다.\"",
+      "en": "He brought him outside and said, \"Look toward the sky and count the stars, if you can count them.\" Then he said to him, \"So shall your offspring be.\"",
+      "es": "Lo saco afuera y le dijo: \"Mira al cielo y cuenta las estrellas, si puedes contarlas.\" Y le dijo: \"Asi sera tu descendencia.\""
+    },
+    "Gen.15.6": {
+      "ko": "아브람이 야훼를 믿었고, [야훼께서] 그것을 그에게 의로 여기셨다.",
+      "en": "And Abram trusted in YHWH, and he counted it to him as righteousness.",
+      "es": "Abram creyo en YHWH, y el se lo conto por justicia."
+    }
+  },
+  "initial_proposals_note": "Copied from the scratch note as first written (ASCII Spanish without accents, straight quotes). Typography and accents are normalized only in preferred_wording.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbcadea73cca32b2febcc8f3e4fb214ccb83)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.15.1-6에는 현행 채택문이 없다(패킷 current_selected 빈 목록; editorial.json 111절 중 없음). 이 검토는 미래 채택용 연구 자료다. 인접 창세기 채택문 관례: Gen.4.1 ko '야훼' / en·es 'YHWH', 한·영 곡선 따옴표, 스페인어 «». Gen.2.7은 'Yahweh/Yahvé'를 써서 신명 표기가 단일하지 않다."
+    },
+    {
+      "record": "data/decisions.json (main 4fbdcbc)",
+      "model_label": "editorial decision records",
+      "finding_ko": "Gen.15 결정 기록은 없다(grep 0건). 시편 등 결정문 reason_ko에 '신명을 YHWH로 통일한다'는 문구가 있다. 이 단원 제안은 창세기 인접 관례(ko 야훼, en/es YHWH)를 따른다."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-po3u6x:automation/cloud-drafts/20261024T091815Z-bda79429.json (Gen.15.1-15.6 entries)",
+      "model_label": "Claude Code native cloud; requested_model recorded as 'Claude Sonnet 5.5 (claude-sonnet-5-5), as reported by the session system prompt'; state unadopted_model_draft; execution_date_utc 2026-10-24",
+      "finding_ko": "같은 morphhb 커밋·Gen.xml(sha256 0526e5c9…)을 쓴 일반 100절 초안이다. 그 source_hebrew_sha256(예: 15:6 76e0ae04…)은 이 패킷 fragment_sha256(48e14870…)과 해시 기준이 달라 직접 비교하지 않았다. 원문 기준 불일치는 없다. 절별 비교는 comparison_findings_ko."
+    },
+    {
+      "record": "origin/claude/bible-hard-review-63tywh:automation/cloud-reviews/20261030T120350Z-6a01ae68.json (gen-14-18-22)",
+      "model_label": "Claude Code native cloud, requested claude-opus-5-5 (separate earlier session)",
+      "finding_ko": "14:20 주석 제안이 מִגֵּן('넘겨주신')과 15:1 מָגֵן('방패')의 소리 연결을 언급한다. 이 단원의 대안 3(מָגֵן 재모음화 추정)과 연결되며, 그 리뷰도 이를 사실로 확정하지 않았다. 신명 표기(ko 야훼, en/es YHWH)와 따옴표 관례가 이 제안과 같다."
+    },
+    {
+      "record": "origin/claude/bible-hard-passage-review-uhg85t:automation/cloud-reviews/20261030T110950Z-64002013.json (gen-12-1-3)",
+      "model_label": "Claude Code native cloud (separate earlier session)",
+      "finding_ko": "Gen.15를 직접 다루지 않는다. 같은 일반 초안이 Gen.10.27-Gen.15.6 범위라는 사실만 기록한다. 창 12:2 '큰 민족' 약속은 15:5 자손 약속의 앞선 맥락이다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "신명: Sonnet 초안은 '주님/the LORD/el SEÑOR', 15:2 '주 하나님/O Lord GOD/Señor DIOS'를 쓴다. 프로젝트 창세기 채택문(Gen.4.1)과 14장 검토는 '야훼/YHWH/YHWH'다. 채택 시 이 관례로 맞춰야 한다. 15:2 אֲדֹנָי יֱהוִה는 '주 야훼/Lord YHWH/Señor YHWH'로 제안한다.",
+    "15:1 시제 불일치: Sonnet 초안 en 'your reward is very great'과 es 'tu galardón será muy grande'가 서로 다르다. 이 제안은 세 언어 모두 미래('will be/será/클 것이다')로 맞추고 현재형을 대안으로 기록한다.",
+    "15:1 Sonnet reason_ko가 든 대안 '내가 네 상을 매우 많게 하겠다'(부정사 절대형을 정동사처럼): 고정 WLC 창세기에서 정동사와 짝을 이루는 강조형은 הַרְבָּה(qamets) אַרְבֶּה(3:16, 16:10)이고, 15:1과 41:49는 הַרְבֵּה(tsere) מְאֹד로 부사구다. 41:49는 '매우 많이'라는 부사적 용법이 분명하다. 따라서 그 대안은 약하다. 세 언어 공통으로 대안 각주에도 넣지 않을 것을 권고한다(편집자 판단 사항).",
+    "15:2 Sonnet en 'But Abram said': 바이익톨에 반의 접속을 넣은 해석이다. 문맥상 반문이지만 'But'은 형태가 요구하지 않는다. 이 제안은 'Abram said'.",
+    "15:2 '다메섹 사람 엘리에셀'(Sonnet ko, 그리고 내 초기 ko): 히브리어에는 형용사형 '다메섹 사람'이 없고 두 고유명사가 병치된다. 최종 ko는 '다메섹의 엘리에셀'로 더 적게 보충한다(대안 6 참조).",
+    "15:3 בֶן־בֵּיתִי: Sonnet은 '제 집에서 난 종 / a servant born in my house / un siervo nacido en mi casa'. 내 초기 판단은 '집안 사람'이었다. 이후 전도서 2:7(בְנֵי־בַיִת가 산 종들과 함께 소유 목록에 나옴)과 칠십인역 οἰκογενής를 확인한 뒤 '종'은 받아들이고 '집에서 난'은 보충으로 남긴다. 창 14:14는 '집에서 난 자'를 יְלִידֵי בֵיתוֹ로 따로 표현한다. 결과: '제 집안의 종 / a servant of my household / un siervo de mi casa'. 부분 합의.",
+    "15:3·15:4 Sonnet 기록의 reason/counter 필드는 스페인어·영어 자기 수정('further' 제거 등)을 적고 있어 בֶן־בֵּיתִי·מֵעִים 선택의 근거가 기록되지 않았다. 기록 품질 문제이며 번역 오류 주장은 아니다.",
+    "15:4 Sonnet en 'This man will not inherit from you': זֶה는 '이 자/this one'이며 'man'은 보충이다(경미). 'inherit from you'와 'be your heir'는 의미상 같다.",
+    "15:5 일치: Sonnet도 כֹּה를 '이와 같이'로 두고 '많음'을 번역에 넣지 않았다. 같은 판단이다.",
+    "15:6 Sonnet: ko는 높임말로 주어를 주님으로 확정(스스로 인정), en은 'the LORD'를 명시, es 'y se lo contó'는 주어 모호. 세 언어가 서로 다른 정도로 해석을 드러낸다. 이 제안은 세 언어 모두 '야훼/YHWH'를 보충 주어로 명시하고 보충 표시·대안 각주를 단다. 영어 'he'를 그대로 두면 앞 절 주어 아브람으로 읽히기 쉬워 오히려 소수 해석 쪽으로 기운다는 점이 근거다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "15:3 '집안 사람/member of my household' -> '집안의 종/servant of my household'. 근거: 전도서 2:7 בְנֵי־בַיִת가 종 목록에 있음, 칠십인역 οἰκογενής. '집에서 난'은 여전히 보충으로 보아 본문에 넣지 않는다.",
+    "15:2 '다메섹 사람 엘리에셀' -> '다메섹의 엘리에셀'(ko). 보충을 줄임.",
+    "15:2 ko '자식 없이 지내고 있고' -> '자식 없이 가고 있는데'. 시편 39:14(אֵלֵךְ '떠나가다/죽다')와 칠십인역 ἀπολύομαι('떠나가다/풀려나다')를 확인한 뒤, '지내다'(계속 생존 쪽으로 확정)보다 두 의미를 모두 남기는 '가다'를 택함. en 'go on childless' -> 'go childless', es 'sigo' -> 'me voy'.",
+    "15:6 en/es 두 번째 절 주어를 대명사 'he/él'에서 보충 주어 'YHWH'로 바꿈. 시편 32:2(יַחְשֹׁב יְהוָה לוֹ עָוֺן, 야훼가 주어인 같은 חשב + לְ 구문)를 확인했고, 영어 대명사가 아브람으로 읽힐 위험이 있기 때문.",
+    "15:4 ko '그러자 보라' -> '바로 그때'. 한국어 서술문에서 '보라'가 어색함. וְהִנֵּה의 즉시성은 칠십인역 εὐθύς(곧)도 같은 방향으로 이해했다(수용사 증거).",
+    "표기 정리: 곡선 따옴표, 스페인어 «» 및 악센트, 이음표."
+  ],
+  "reception_evidence": {
+    "source_note": "Hebrew parallels are joined OSHB display tokens from the pinned morphhb commit (same rights as the packet). Septuagint lines are from third-party raw OCR of Swete (First1KGreek) with visible OCR damage; quoted verbatim, not corrected; rights of that OCR repository were not assessed, so only short excerpts are used. NT lines are joined MorphGNT SBLGNT text tokens (master branch, unpinned; file hash recorded). LXX and NT are reception evidence only, not Hebrew witnesses.",
+    "excerpts": [
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.38.15",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּרְאֶהָ יְהוּדָה וַיַּחְשְׁבֶהָ לְזוֹנָה כִּי כִסְּתָה פָּנֶיהָ",
+        "use_ko": "같은 형태 וַיַּחְשְׁבֶהָ. 명시 주어(유다)가 대상을 무엇으로 '여기는' 평가 구문.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.31.15",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "הֲלוֹא נָכְרִיּוֹת נֶחְשַׁבְנוּ לוֹ כִּי מְכָרָנוּ וַיֹּאכַל גַּם אָכוֹל אֶת כַּסְפֵּנוּ",
+        "use_ko": "חשב + לוֹ: '그에게(그가 보기에) 이방인으로 여겨지다'. לוֹ가 평가하는 사람 쪽을 가리키는 용례로, 15:6 대안 (ii)를 완전히 배제하지는 못한다.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.45.26",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיַּגִּדוּ לוֹ לֵאמֹר עוֹד יוֹסֵף חַי וְכִי הוּא מֹשֵׁל בְּכָל אֶרֶץ מִצְרָיִם וַיָּפָג לִבּוֹ כִּי לֹא הֶאֱמִין לָהֶם",
+        "use_ko": "הֶאֱמִין + לְ: 보고를 믿다. 15:6은 + בְּ(인격적 신뢰).",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.41.49",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּצְבֹּר יוֹסֵף בָּר כְּחוֹל הַיָּם הַרְבֵּה מְאֹד עַד כִּי חָדַל לִסְפֹּר כִּי אֵין מִסְפָּר",
+        "use_ko": "הַרְבֵּה מְאֹד = 부사구 '매우 많이'. 15:1 '보상이 매우 크다' 독법 지지. 셀 수 없음(לִסְפֹּר) 주제도 15:5와 공명.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.16.10",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הַרְבָּה אַרְבֶּה אֶת זַרְעֵךְ וְלֹא יִסָּפֵר מֵרֹב",
+        "use_ko": "정동사와 짝을 이루는 강조형은 הַרְבָּה(qamets). 15:1의 הַרְבֵּה와 형태가 다르다.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.14.14",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּשְׁמַע אַבְרָם כִּי נִשְׁבָּה אָחִיו וַיָּרֶק אֶת חֲנִיכָיו יְלִידֵי בֵיתוֹ שְׁמֹנָה עָשָׂר וּשְׁלֹשׁ מֵאוֹת וַיִּרְדֹּף עַד דָּן",
+        "use_ko": "'집에서 난 자'는 יְלִידֵי בֵיתוֹ로 따로 표현된다. 15:3 בֶן־בֵּיתִי에 '난'을 넣는 것은 보충.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.14.20",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וּבָרוּךְ אֵל עֶלְיוֹן אֲשֶׁר מִגֵּן צָרֶיךָ בְּיָדֶךָ וַיִּתֶּן לוֹ מַעֲשֵׂר מִכֹּל",
+        "use_ko": "מִגֵּן('넘겨주다')과 15:1 מָגֵן('방패')의 자음 일치. 소리 연결은 관찰 사실이고, 15:1 재모음화는 추정이다.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.25.23",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר יְהוָה לָהּ שְׁנֵי גיים גוֹיִם בְּבִטְנֵךְ וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ וּלְאֹם מִלְאֹם יֶאֱמָץ וְרַב יַעֲבֹד צָעִיר",
+        "use_ko": "창세기의 다른 유일한 מֵעִים 용례(리브가의 태, בֶּטֶן과 평행). 15:4 '네 몸에서' 지지. 이 표시 문자열에는 원 파일의 Ketiv(גיים)·Qere(גוֹיִם) 토큰이 둘 다 그대로 들어 있다.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Ps.32.2",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "excerpt": "אַשְׁרֵי אָדָם לֹא יַחְשֹׁב יְהוָה לוֹ עָוֺן וְאֵין בְּרוּחוֹ רְמִיָּה",
+        "use_ko": "야훼가 명시 주어인 חשב + לוֹ + 명사(평가 내용) 구문. 15:6 해석 (i) 지지.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Ps.106.31",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "excerpt": "וַתֵּחָשֶׁב לוֹ לִצְדָקָה לְדֹר וָדֹר עַד עוֹלָם",
+        "use_ko": "비느하스의 행위가 '그에게 의로 여겨졌다'(니팔 수동, לִצְדָקָה). 사람의 행위가 의로 인정되는 내부 성경 평행. 15:6 (i) 지지, 동시에 צְדָקָה를 '의로운 행위'로 보는 독법과도 맞는다.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Ps.39.14",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "excerpt": "הָשַׁע מִמֶּנִּי וְאַבְלִיגָה בְּטֶרֶם אֵלֵךְ וְאֵינֶנִּי",
+        "use_ko": "הלך = '떠나가다(죽다)' 완곡 용법. 15:2 הוֹלֵךְ 대안 지지.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Lev.20.20",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+        "file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+        "excerpt": "וְאִישׁ אֲשֶׁר יִשְׁכַּב אֶת דֹּדָתוֹ עֶרְוַת דֹּדוֹ גִּלָּה חֶטְאָם יִשָּׂאוּ עֲרִירִים יָמֻתוּ",
+        "use_ko": "עֲרִירִים יָמֻתוּ '자식 없이 죽을 것이다'. עֲרִירִי와 죽음의 결합 용례.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Jer.22.30",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+        "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+        "excerpt": "כֹּה אָמַר יְהוָה כִּתְבוּ אֶת הָאִישׁ הַזֶּה עֲרִירִי גֶּבֶר לֹא יִצְלַח בְּיָמָיו כִּי לֹא יִצְלַח מִזַּרְעוֹ אִישׁ יֹשֵׁב עַל כִּסֵּא דָוִד וּמֹשֵׁל עוֹד בִּיהוּדָה",
+        "use_ko": "עֲרִירִי '자식 없는'이 왕위 계승자 부재와 연결된다. 15:2-3의 상속 문제와 같은 의미 영역.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Eccl.2.7",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Eccl.xml",
+        "file_sha256": "2dfc858d19048f6479eca33b9fe781c2d7e9059e9ae3ab0b37b802d3afec02bb",
+        "excerpt": "קָנִיתִי עֲבָדִים וּשְׁפָחוֹת וּבְנֵי בַיִת הָיָה לִי גַּם מִקְנֶה בָקָר וָצֹאן הַרְבֵּה הָיָה לִי מִכֹּל שֶׁהָיוּ לְפָנַי בִּירוּשָׁלִָם",
+        "use_ko": "בְנֵי בַיִת가 산 남종·여종과 나란히 소유 목록에 나온다. 15:3 בֶן־בֵּיתִי = 집안 종 독법 지지. 산 종과 구별되므로 '집에서 난 종' 함의도 가능하나 후대 문헌이다.",
+        "excerpt_note": "Regenerated from the fetched file; the hand-copied string was canonically equivalent (NFC) but differed in combining-mark order.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "text_substring",
+        "ref": "LXX Gen 15:1 (Swete OCR line 1.15.1)",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "ἐγὼ ὑπερασπίζω σου· ὁ μισθός σου πολὺς ¶ ἱστᾶι σφόδρα",
+        "use_ko": "'방패'를 동사 '내가 너를 방패로 지킨다'로 옮기고, '너의 보상은 매우 크다(…)'를 별도 절로 둔다(두 절 독법). '¶ ἱστᾶι'는 OCR 손상으로 보이며 교정하지 않았다. 동사 번역은 수용 방식이지 다른 모음 전통의 증거가 아니다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "text_substring",
+        "ref": "LXX Gen 15:2 (Swete OCR line 1.15.2)",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "ἐγὼ δὲ ἀπολύομαι ἄτεκνος· ὁ δὲ υἱὸς Μάσεκ τῆς οἰκογενοῦς μου, οὗτος Δαμασκὸς Ἐλιέζερ",
+        "use_ko": "הוֹלֵךְ를 ἀπολύομαι('떠나간다/풀려난다', 죽음 완곡어로 쓰일 수 있음)로, מֶשֶׁק을 고유명사처럼 Μάσεκ로 음역하고 '나의 집에서 난 여자(οἰκογενοῦς, 여성 속격)의 아들'로 읽는다. דַּמֶּשֶׂק אֱלִיעֶזֶר는 그대로 병치. 수용사 증거일 뿐 히브리어 이문 증거가 아니다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "text_substring",
+        "ref": "LXX Gen 15:3 (Swete OCR line 1.15.3)",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "ὁ δὲ οἰκογενής μου κληρονομήσει με",
+        "use_ko": "בֶן־בֵּיתִי를 οἰκογενής('집에서 난 자')로 이해. 같은 줄의 'οὐκ σπέρμα, σπέρμα'는 OCR 손상으로 보여 인용하지 않았다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "text_substring",
+        "ref": "LXX Gen 15:4 (Swete OCR line 1.15.4)",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "καὶ εὐθὺςφωνὴ κυρίου ἐγένετο πρὸς αὐτὸν",
+        "use_ko": "וְהִנֵּה를 εὐθύς('곧')로, דְבַר를 φωνή('음성')로 옮김. 'εὐθὺςφωνὴ' 붙어 쓰임은 OCR 상태 그대로.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "text_substring",
+        "ref": "LXX Gen 15:6 (Swete OCR line 1.15.6)",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "καὶ ἐπίστευσεν Ἀβρὰμ τῷ θεῷ,  καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην.",
+        "use_ko": "주어 Ἀβράμ을 명시, 야훼를 θεῷ로, 두 번째 동사를 수동 ἐλογίσθη('여겨졌다')로 옮겨 평가자를 밝히지 않는다. 마소라 본문은 능동 3인칭 남성 단수 + 목적 접미사다. 쉼표 뒤 공백 두 칸은 파일 그대로.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "morphgnt",
+        "ref": "Rom 4:3 (SBLGNT)",
+        "row_ref": "060403",
+        "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/66-Ro-morphgnt.txt",
+        "file_sha256": "364b3b57c70e731920c7fa8a61f09ecd53eed858f7f3590596066484d0638cc6",
+        "excerpt": "τί γὰρ ἡ γραφὴ λέγει; Ἐπίστευσεν δὲ Ἀβραὰμ τῷ θεῷ καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην.",
+        "use_ko": "칠십인역 형태(수동)로 인용하는 신약 수용. 히브리어 주어 문제를 해결하는 증거는 아니다.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "morphgnt",
+        "ref": "Gal 3:6 (SBLGNT)",
+        "row_ref": "090306",
+        "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/69-Ga-morphgnt.txt",
+        "file_sha256": "ec249897464e8e8992e4869645471d6f3372e7373ba3a5d429516946d8cffada",
+        "excerpt": "καθὼς Ἀβραὰμ ἐπίστευσεν τῷ θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην.",
+        "use_ko": "같은 수동형 수용.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "morphgnt",
+        "ref": "Jas 2:23 (SBLGNT)",
+        "row_ref": "200223",
+        "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/80-Jas-morphgnt.txt",
+        "file_sha256": "205d4cdbb4c89aabd51ebf599fcfa622001af6e64dcd4e5ad487298ee4b7a204",
+        "excerpt": "καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα· Ἐπίστευσεν δὲ Ἀβραὰμ τῷ θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην, καὶ φίλος θεοῦ ἐκλήθη.",
+        "use_ko": "같은 수동형 수용, 다른 신학적 논증 맥락. 수용사 다양성 기록용.",
+        "excerpt_verified_against_file": true
+      }
+    ],
+    "assessment_ko": "(1) 15:6 마소라 본문은 능동형(וַיַּחְשְׁבֶהָ, 주어 미표시)이고 칠십인역과 신약 세 인용은 모두 수동형(ἐλογίσθη)이다. 수동형은 평가자를 밝히지 않으므로 '누가 여겼는가' 문제를 해결하지 않지만, '아브람이 의롭다고 여겨진 쪽'이라는 수혜자 이해는 (i)과 같다. 번역은 마소라 본문의 능동형을 따른다. (2) 시편 32:2는 야훼가 주어인 같은 חשב + לוֹ + 명사 구문을 보여 (i)의 가장 가까운 문법 평행이다. (3) 15:2 칠십인역 ἀπολύομαι와 시편 39:14는 הוֹלֵךְ의 '떠나가다/죽다' 독법을 지지한다. (4) 15:2-3 칠십인역은 Μάσεκ·οἰκογενής로 상속자 정체를 '집에서 난 자의 아들'로 이해한다. 이는 해석 전통이며 히브리어 이문을 증명하지 않는다. (5) 사마리아 오경, 쿰란 사본, 타르굼, 불가타는 이 실행에서 확인하지 않았다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.15.1",
+      "clause": "אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹד",
+      "option": "동격: '나는 너의 방패요 너의 지극히 큰 보상이다' (en I am your shield, your exceedingly great reward; es Yo soy tu escudo, tu recompensa sobremanera grande)",
+      "for": "두 명사구를 모두 하나님 자기 진술로 묶어 1인칭 선언이 이어진다. 오래된 영어 전통 번역이 이 방향이라는 것은 일반 배경 지식이며 이 실행에서 확인하지 않았다.",
+      "against": "악센트가 לָךְ(zaqef)에서 끊고 שְׂכָרְךָ에 tipha를 둔다. הַרְבֵּה מְאֹד는 41:49처럼 부사구로 서술어 역할이 자연스럽다. 칠십인역 OCR도 'ὁ μισθός σου πολὺς … σφόδρα'로 별도 절이다. 14:21-24 재물 거절과의 연결도 '보상이 크다'가 자연스럽다.",
+      "verdict": "본문 비채택, 각주에서 언급 가능."
+    },
+    {
+      "verse": "Gen.15.1",
+      "clause": "שְׂכָרְךָ הַרְבֵּה מְאֹד",
+      "option": "'내가 네 보상을 매우 크게 하겠다'(부정사 절대형을 1인칭 정동사처럼; Sonnet 초안 reason_ko가 든 대안)",
+      "for": "부정사 절대형은 정동사 대용이 가능하고 앞 절 주어 אָנֹכִי를 이어받을 수 있다.",
+      "against": "정동사와 짝을 이루는 강조형은 הַרְבָּה(qamets, 3:16, 16:10)이고 15:1은 41:49와 같은 הַרְבֵּה(tsere) מְאֹד 부사구다.",
+      "verdict": "비채택. 각주 불필요."
+    },
+    {
+      "verse": "Gen.15.1",
+      "clause": "מָגֵן",
+      "option": "재모음화 추정 '(보상을) 넘겨주는 자/주는 자'(14:20 מִגֵּן과 같은 어근으로 읽기)",
+      "for": "14:20 מִגֵּן과 자음이 같아 장 경계를 넘는 소리 연결이 분명하다. 다음 절 'שָׂכָר(보상)'과 '주다' 주제가 이어진다.",
+      "against": "고정 WLC 모음은 명사 מָגֵן(lemma 4043, 방패)이고 패킷과 이 실행에서 확인한 증거에 다른 모음 전통은 없다. 칠십인역 ὑπερασπίζω도 '방패로 지키다'다. 이것은 재구성이며 증언된 독법이 아니다.",
+      "verdict": "본문 비채택. 소리 연결만 주석 언급 가능, 추정임을 명시."
+    },
+    {
+      "verse": "Gen.15.2",
+      "clause": "וְאָנֹכִי הוֹלֵךְ עֲרִירִי",
+      "option": "'저는 자식 없이 죽어 갑니다/떠나갑니다' (en I am dying childless; es me muero sin hijos)",
+      "for": "시편 39:14 אֵלֵךְ '떠나가다(죽다)', 레 20:20 עֲרִירִים יָמֻתוּ, 칠십인역 ἀπολύομαι. 상속자 문제는 죽음을 전제한다.",
+      "against": "분사 הוֹלֵךְ는 '계속 ~한 채로 지내다'로도 흔히 쓰인다(일반 문법 지식, 이 실행에서 용례 전수 조사는 하지 않음). '죽다'로 확정하면 해석이 본문보다 강해진다.",
+      "verdict": "본문은 '가다/go/irse'로 두 의미를 남기고 각주로 죽음 의미를 제시."
+    },
+    {
+      "verse": "Gen.15.2",
+      "clause": "בֶן־מֶשֶׁק בֵּיתִי",
+      "option": "(a) '제 집의 상속자/소유할 자'(본문 제안), (b) '제 집을 맡은 자/관리인', (c) 칠십인역처럼 Μάσεκ를 사람 이름으로 보아 '제 집 (여종) 마섹의 아들'",
+      "for": "(a)는 3절 יוֹרֵשׁ 병행과 소리 놀이 מֶשֶׁק/דַּמֶּשֶׂק에 맞는다. (b)는 24:2 '집의 가장 늙은 종, 모든 소유를 다스리는 자'와 연결될 수 있다(동일 인물이라는 근거는 본문에 없음). (c)는 고대 수용 증거가 있다.",
+      "against": "מֶשֶׁק은 창세기 유일 용례이고 이 실행에서 사전·비교 셈어 증거를 확인하지 못했다. 어느 것도 확정할 수 없다.",
+      "verdict": "미해결 어휘. 본문 (a) '상속자'를 문맥 추론으로 두고 각주에 원어 불명확성을 명시."
+    },
+    {
+      "verse": "Gen.15.2",
+      "clause": "ה֖וּא דַּמֶּ֥שֶׂק אֱלִיעֶֽזֶר",
+      "option": "(a) '다메섹의 엘리에셀', (b) '다메섹 사람 엘리에셀', (c) 병치를 그대로 '다메섹 엘리에셀'(복합 호칭), (d) 본문 손상 추정",
+      "for": "(a)(b)는 출신지로 자연스럽다. (c)는 원문 형태를 가장 그대로 보존한다(칠십인역 Δαμασκὸς Ἐλιέζερ도 병치). (d)는 어순이 이상하다는 관찰에 근거한다.",
+      "against": "(b)는 히브리어에 없는 형용사형을 보충한다. (c)는 독자에게 의미가 불명하다. (d)는 이 실행에서 어떤 사본 증거로도 뒷받침되지 않은 추정이다.",
+      "verdict": "본문 (a). (d)는 증언 독법이 아니므로 본문 근거로 쓰지 않음."
+    },
+    {
+      "verse": "Gen.15.3",
+      "clause": "בֶן־בֵּיתִי",
+      "option": "'제 집에서 난 종'(Sonnet 초안, 칠십인역 οἰκογενής 방향) 대 '제 집안의 종'(본문 제안) 대 '제 집안 사람'(내 초기 판단)",
+      "for": "'집에서 난 종': 칠십인역, 전도서 2:7에서 산 종과 구별됨. '집안 사람': 낱말 자체는 신분을 명시하지 않음.",
+      "against": "'난'은 히브리어 구에 없는 정보다(14:14는 יְלִידֵי בֵיתוֹ로 따로 표현). '집안 사람'은 종 신분 함의를 놓친다.",
+      "verdict": "본문 '집안의 종', 각주에 '집에서 난 종' 대안."
+    },
+    {
+      "verse": "Gen.15.4",
+      "clause": "מִמֵּעֶיךָ",
+      "option": "직역 '네 속(내장)에서' 대 관용 '네 몸에서'",
+      "for": "직역은 신체 이미지 보존. 25:23에서 같은 낱말이 리브가의 태를 가리킨다.",
+      "against": "한국어 '속에서/내장에서'는 어색하거나 오해 소지가 있다.",
+      "verdict": "본문 '네 몸에서/your own body/tus entrañas'. 스페인어는 entrañas가 직역과 관용을 함께 담는다."
+    },
+    {
+      "verse": "Gen.15.5",
+      "clause": "כֹּה יִהְיֶה זַרְעֶךָ",
+      "option": "'네 자손이 이처럼 많아질 것이다'",
+      "for": "앞 절 '셀 수 있거든'이 수를 가리키며 16:10 'וְלֹא יִסָּפֵר מֵרֹב', 41:49와 공명한다.",
+      "against": "כֹּה 자체는 '이와 같이'일 뿐 '많음'을 말하지 않는다. 함의(수·빛남·하늘의 질서)를 번역이 고정한다.",
+      "verdict": "본문 '이와 같을 것이다'. 각주에서 수의 함의 설명."
+    },
+    {
+      "verse": "Gen.15.6",
+      "clause": "וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "option": "주어 아브람: '아브람이 그것(약속)을 그분(야훼)께 의/공의로 여겼다'",
+      "for": "앞 절 주어(아브람) 연속, 새 주어가 명시되지 않음, 여성 목적 접미사가 약속 내용을 가리킬 수 있음, צְדָקָה가 하나님의 신실함·공의를 뜻할 수 있음. 히브리어 형태로는 가능하다.",
+      "against": "시편 32:2(יַחְשֹׁב יְהוָה לוֹ עָוֺן)가 같은 구문에서 야훼를 평가자로 둔다. 시편 106:31도 사람의 행위가 의로 '여겨지는' 쪽이다. 같은 장 5절에서도 주어가 표시 없이 야훼로 바뀐다. 칠십인역·신약 수용도 아브람을 수혜자로 본다(수용사).",
+      "verdict": "본문 비채택, 각주 필수. strongest_objection_to_own_reading 참조."
+    },
+    {
+      "verse": "Gen.15.6",
+      "clause": "וְהֶאֱמִן",
+      "option": "'(계속) 믿었다/믿고 있었다' 또는 '(이미) 믿었다'",
+      "for": "바이익톨이 아닌 웨카탈이라 서사 사슬 밖의 진술이다. 반복·지속 또는 배경 진술 해석이 있다.",
+      "against": "형태만으로 상을 확정할 수 없고, 한국어 '믿었다'도 지속을 배제하지 않는다. 과잉 번역 위험.",
+      "verdict": "본문 '믿었다/trusted/creyó', 각주에서 동사형 특이성 설명."
+    },
+    {
+      "verse": "Gen.15.6",
+      "clause": "וַיַּחְשְׁבֶהָ",
+      "option": "칠십인역·신약식 수동 '그것이 그에게 의로 여겨졌다'",
+      "for": "주어 해석 논쟁을 피하고 신약 인용과 표현이 같다.",
+      "against": "마소라 본문은 능동형이다. 수동형은 수용 전통의 번역이지 원문 형태가 아니다.",
+      "verdict": "비채택. 각주에서 수용 형태로 언급."
+    },
+    {
+      "verse": "Gen.15.6",
+      "clause": "צְדָקָה",
+      "option": "'의로운 행위/공로' 또는 '올바른 관계'",
+      "for": "18:19 '의와 공의를 행하다'는 행위, 30:33 צִדְקָתִי는 '나의 정직함'. 시편 106:31도 행위와 연결된다.",
+      "against": "'공로'는 교리적 함의가 강하고, '올바른 관계'는 해석적 확장이다. '의'가 범위를 가장 넓게 보존한다.",
+      "verdict": "본문 '의/righteousness/justicia', 각주에서 의미 범위 제시."
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.15.6 וַיַּחְשְׁבֶהָ의 주어 = 야훼 (세 언어 모두 '야훼/YHWH'를 보충 주어로 명시)",
+    "objection_ko": "이 단원에서 내 선택에 대한 가장 강한 반론은 히브리어가 15:6b에서 새 주어를 전혀 표시하지 않는다는 점이다. 6a의 주어는 아브람이고 6b는 같은 3인칭 남성 단수 바이익톨로 이어진다. 가장 단순한 통사 독법은 주어 연속, 곧 '아브람이 그것(5절 약속)을 그분(야훼)께 의(신실하심·공의)로 여겼다'이다. 여성 목적 접미사는 앞의 동사 '믿었다'보다 약속 내용 같은 추상물을 가리킬 수도 있다. 이 독법을 택하면 이 절은 하나님의 평가가 아니라 아브람의 신앙 고백이 된다. 내 번역은 세 언어에 '야훼'를 써 넣어 이 가능성을 독자에게서 지운다.",
+    "response_ko": "반론을 인정하되 본문은 야훼 주어를 유지한다. 이유: (1) 시편 32:2는 야훼가 명시 주어인 같은 구문(חשב + לוֹ + 평가 명사)이다. 사람이 하나님께 '의를 여기다/돌리다'라는 같은 구문의 용례는 이 실행에서 확인한 자료에 없다. (2) 시편 106:31은 사람의 행위가 '그에게 의로 여겨졌다'는 평행이다. (3) 같은 단원 5절 וַיּוֹצֵא도 4절 주어(דְבַר יְהוָה)에서 표시 없이 야훼로 바뀐다. 따라서 주어 무표시 전환은 이 본문에서 이례적이지 않다. (4) 칠십인역과 신약 세 인용은 아브람을 수혜자로 이해한다(수용사이며 히브리어 증거는 아니다). 남는 불확실성: 창세기 내부에는 이 구문의 하나님 주어 용례가 없고, 근거는 시편과 수용사다. 그래서 주어 '야훼'를 보충 표시하고 아브람 주어 독법을 각주에 반드시 남기기를 권고한다."
+  },
+  "preferred_wording": {
+    "Gen.15.1": {
+      "ko": "이 일들 뒤에 야훼의 말씀이 환상 가운데 아브람에게 임하였다. “아브람아, 두려워하지 마라. 나는 너의 방패다. 너의 보상이 매우 클 것이다.”",
+      "en": "After these things the word of YHWH came to Abram in a vision: “Do not be afraid, Abram. I am a shield for you; your reward will be very great.”",
+      "es": "Después de estas cosas, la palabra de YHWH vino a Abram en una visión: «No temas, Abram. Yo soy un escudo para ti; tu recompensa será muy grande».",
+      "supplied_ko": [
+        "'클 것이다/will be/será': 명사절의 시제는 문맥(약속)으로 정함"
+      ]
+    },
+    "Gen.15.2": {
+      "ko": "아브람이 말하였다. “주 야훼여, 제게 무엇을 주시겠습니까? 저는 자식 없이 가고 있는데, 제 집의 상속자는 다메섹의 엘리에셀입니다.”",
+      "en": "Abram said, “Lord YHWH, what will you give me, as I go childless, and the heir of my house is Eliezer of Damascus?”",
+      "es": "Abram dijo: «Señor YHWH, ¿qué me darás, si yo me voy sin hijos, y el heredero de mi casa es Eliezer de Damasco?».",
+      "supplied_ko": [
+        "'상속자/heir/heredero': בֶן־מֶשֶׁק의 문맥 추론(3절 יוֹרֵשׁ)",
+        "'-의/of/de': 두 고유명사 병치의 관계 보충"
+      ]
+    },
+    "Gen.15.3": {
+      "ko": "아브람이 또 말하였다. “보십시오, 주께서 제게는 자손을 주지 않으셨으니, 이제 제 집안의 종이 저를 상속할 것입니다.”",
+      "en": "And Abram said, “Look, to me you have given no offspring; so a servant of my household will be my heir.”",
+      "es": "Y Abram dijo: «Mira, a mí no me has dado descendencia; así que un siervo de mi casa será mi heredero».",
+      "supplied_ko": [
+        "'또': 반복된 화자 표지의 담화 기능",
+        "'주께서': 2인칭 남성 단수 동사 주어를 한국어 경어로",
+        "'종/servant/siervo': בֶּן־בַּיִת 해석(전 2:7)",
+        "'이제/so/así que': וְהִנֵּה의 결과적 연결 해석"
+      ]
+    },
+    "Gen.15.4": {
+      "ko": "바로 그때 야훼의 말씀이 그에게 임하였다. “이 사람이 너를 상속하지 않을 것이다. 오직 네 몸에서 나올 자, 그가 너를 상속할 것이다.”",
+      "en": "Then the word of YHWH came to him: “This one will not be your heir; rather, one who will come out of your own body—he will be your heir.”",
+      "es": "Entonces la palabra de YHWH vino a él: «Este no será tu heredero, sino uno que saldrá de tus entrañas; ese será tu heredero».",
+      "supplied_ko": [
+        "'임하였다/came/vino': 동사 없는 서술의 보충",
+        "'바로 그때/Then/Entonces': וְהִנֵּה"
+      ]
+    },
+    "Gen.15.5": {
+      "ko": "그분이 그를 밖으로 데리고 나가 말씀하셨다. “하늘을 바라보아라. 별들을 셀 수 있거든 세어 보아라.” 또 그에게 말씀하셨다. “네 자손이 이와 같을 것이다.”",
+      "en": "He brought him outside and said, “Look up at the sky and count the stars, if you are able to count them.” Then he said to him, “So shall your offspring be.”",
+      "es": "Lo sacó afuera y le dijo: «Mira ahora al cielo y cuenta las estrellas, si es que puedes contarlas». Y le dijo: «Así será tu descendencia».",
+      "supplied_ko": [
+        "'그분이/He/(Él)': 주어 미표시, 문맥상 야훼"
+      ]
+    },
+    "Gen.15.6": {
+      "ko": "아브람이 야훼를 믿었고, 야훼께서는 그것을 그에게 의로 여기셨다.",
+      "en": "Abram trusted in YHWH, and YHWH counted it to him as righteousness.",
+      "es": "Abram creyó en YHWH, y YHWH se lo contó como justicia.",
+      "supplied_ko": [
+        "'아브람이/Abram': 6a 주어 미표시",
+        "'야훼께서는/YHWH': 6b 주어 미표시, 해석적 보충(대안: 아브람 주어)"
+      ]
+    }
+  },
+  "speech_boundaries_ko": "모든 인용이 절 안에서 열고 닫힌다. 15:1 하나의 신적 발화. 15:2와 15:3은 각각 별개의 아브람 발화(화자 표지 반복). 15:4 하나의 신적 발화. 15:5 두 발화(명령, 선언). 15:6 인용 없음(서술자 진술).",
+  "proposed_notes_ko": {
+    "Gen.15.1": "'방패'(מָגֵן)는 14:20 '넘겨주신'(מִגֵּן)과 자음이 같다. 일부 해석은 15:1을 '주는 자'로 다시 읽자고 제안하나, 이는 증언된 모음이 아닌 추정이다. '너의 보상이 매우 클 것이다'는 '나는 너의 방패요, 너의 지극히 큰 보상이다'로도 읽혀 왔으나 악센트 구분은 두 절 독법을 지지한다. '보상'(שָׂכָר)은 30-31장에서 '품삯'이며, 14:21-24에서 소돔 왕의 재물을 거절한 일에 대한 응답으로 읽힌다.",
+    "Gen.15.2": "'자식 없이 가고 있는데'(הוֹלֵךְ עֲרִירִי)의 '가다'는 '살아가다'와 '세상을 떠나다'(시 39:14 참조) 둘 다 가능하다. 칠십인역은 '떠나간다'(ἀπολύομαι)로 옮겼다. '상속자'로 옮긴 בֶן־מֶשֶׁק의 מֶשֶׁק은 성경에서 뜻이 분명하지 않은 낱말로, 3절의 '상속자'(יוֹרֵשׁ)에 비추어 옮긴 문맥 번역이다. 히브리어 מֶשֶׁק(메셰크)과 דַּמֶּשֶׂק(다메섹)은 소리 놀이를 이룬다. '다메섹의 엘리에셀'은 두 고유명사가 나란히 놓인 표현이다. 히브리어 '주 야훼'(אֲדֹנָי יֱהוִה)는 신명을 '엘로힘' 모음으로 적는 낭독 관례를 따른다.",
+    "Gen.15.3": "'집안의 종'(בֶן־בֵּיתִי, 직역 '내 집의 아들')은 아브람의 친아들이 아니라 집안에 속한 사람이다. 전 2:7에서 같은 표현이 종들과 함께 나온다. 칠십인역은 '집에서 난 자'(οἰκογενής)로 옮겼으나, 창 14:14는 '집에서 난 자'를 다른 표현(יְלִידֵי בֵיתוֹ)으로 쓴다.",
+    "Gen.15.4": "'네 몸에서'(מִמֵּעֶיךָ)는 직역하면 '네 속(내장)에서'이며, 창 25:23에서는 같은 낱말이 리브가의 태를 가리킨다. 히브리어는 '그가'(הוּא)를 다시 써서 친자 상속을 강조한다.",
+    "Gen.15.5": "'이와 같을 것이다'(כֹּה)는 낱말 자체로는 방식만 가리킨다. 앞의 '셀 수 있거든'이 수의 많음을 함의한다(16:10 참조). 1절 '환상'과 '밖으로 데리고 나감', 12절 해 질 무렵의 시간 관계는 본문이 설명하지 않는다.",
+    "Gen.15.6": "'믿었다'(וְהֶאֱמִן)는 앞뒤 서사 동사와 다른 형태(웨카탈)로, 서술자의 평가 진술이나 지속적 신뢰로 읽기도 한다. '야훼께서는 그것을 그에게 의로 여기셨다'에서 히브리어는 주어를 밝히지 않는다. 다수 해석은 야훼를 주어로 보며(시 32:2의 같은 구문 참조), 소수 해석은 '아브람이 그것(약속)을 그분께 의로 여겼다'로 읽는다. 칠십인역과 신약 인용(롬 4:3, 갈 3:6, 약 2:23)은 '그것이 그에게 의로 여겨졌다'는 수동형이다. '의'(צְדָקָה)는 '올바름, 의로운 행위, 신실함'의 범위를 가진다."
+  },
+  "editorial_consistency_findings": [
+    "신명 표기가 채택본 안에서 단일하지 않다(Gen.2.7 Yahweh/Yahvé, Gen.4.1 ko 야훼/en·es YHWH, 시편·민수기 ko YHWH). 이 제안은 Gen.4.1 및 14장 검토 관례를 따랐다. 편집 정책 확정 필요.",
+    "15:2 אֲדֹנָי יֱהוִה의 번역 관례('주 야훼' 대 '주 하나님')가 프로젝트에 아직 결정 기록이 없다.",
+    "OSHB 형태 태그 15:1 לָךְ = HR/Sp2fs. 휴지형 2인칭 남성과 형태가 같아 생긴 태그로 보인다. 자동 처리(성별 일치 검사 등)에서 여성 대명사로 번역되지 않도록 주의. OSHB 데이터 오류라고 단정하지 않으며 상류 보고 여부는 편집자 판단.",
+    "Sonnet 초안 15:3 reason 필드처럼 자기 수정 기록만 남고 해석 근거가 빠진 기록은 채택 비교 시 근거 자료로 쓰기 어렵다.",
+    "15:6 보충 주어 표기 방식: 세 언어 모두 명시(이 제안) 대 영어·스페인어 대명사 유지(원문 모호성 보존) 중 편집 정책 결정이 필요하다."
+  ],
+  "final_opinion_ko": "여섯 절 모두 고정 WLC 본문을 그대로 번역하며 본문 이문 주장은 없다. 핵심 판단: (1) 15:1은 악센트와 41:49 용례에 따라 '나는 너의 방패다. 너의 보상이 매우 클 것이다'의 두 절 독법. (2) 15:2 בֶן־מֶשֶׁק은 미해결 어휘로, '상속자'는 3절에 기댄 문맥 번역임을 각주에 반드시 밝힌다. הוֹלֵךְ는 '가다'로 두어 '죽어 가다' 함의를 열어 둔다. (3) 15:3 בֶן־בֵּיתִי는 '집안의 종'(전 2:7)이며 '집에서 난'은 보충으로 각주 처리. (4) 15:6은 야훼를 평가 주체로 보충해 세 언어에 일관되게 표시하되, 아브람 주어 독법과 칠십인역·신약 수동형을 각주로 남긴다. 기존 Sonnet 초안과 실질적 차이는 신명 관례, 15:1 세 언어 시제 일치, 15:3 '난' 보충 제거, 15:6 세 언어 주어 표시 일관성이다. 이 결과는 미채택 모델 검토이며 GPT·Gemini 독립 검토와 버전별 편집 채택이 필요하다.",
+  "confidence_limits": [
+    "15:2 מֶשֶׁק의 의미는 사전(BDB/HALOT/DCH)과 비교 셈어 자료를 이 실행에서 확인하지 못했다. 번역 신뢰도 낮음.",
+    "15:6 주어 판단은 시편 평행과 수용사에 기댄다. 창세기 내부에 같은 구문의 하나님 주어 용례는 없다.",
+    "칠십인역은 제3자 OCR(손상 있음)이고 사마리아 오경·쿰란·타르굼·불가타는 확인하지 않았다. 이 단원에 대한 사본 대조는 수행하지 않았다.",
+    "'הוֹלֵךְ = 계속 지내다' 용례의 전수 조사, 웨카탈 וְהֶאֱמִן의 상 문제에 관한 문법서 확인은 하지 않았다(일반 문법 지식 수준).",
+    "고대 근동 가내 상속·입양 관습 비교는 이차 문헌에서 흔히 거론되지만 이 실행에서 어떤 자료도 확인하지 않았으므로 주장하지 않는다."
+  ],
+  "reconsider_if": [
+    "검증된 사전 항목이나 비교 셈어 증거가 מֶשֶׁק의 의미를 '상속자' 이외(관리인, 소유 등)로 분명히 하면 15:2 본문 수정.",
+    "사람이 하나님께 '의를 여기다'라는 חשב + לְ 구문의 성경 용례가 확인되면 15:6 아브람 주어 독법을 본문 후보로 재검토.",
+    "편집 정책이 원문 주어 모호성 보존(대명사 유지)을 우선하기로 정하면 15:6 en/es를 'and he counted it to him'으로 되돌림.",
+    "사마리아 오경·쿰란 등 검증된 사본 증거가 15:1-6에 의미 있는 이문을 보이면 해당 절 재검토.",
+    "편집 정책이 신명 표기를 다른 형태(Yahweh/Yahvé 등)로 통일하면 표기만 일괄 수정.",
+    "GPT·Gemini 독립 검토가 15:3 '집에서 난 종'을 근거와 함께 강하게 지지하면 본문 승격 여부 재논의."
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.15.2",
+      "issue": "בֶן־מֶשֶׁק meaning (heir/possessor vs steward vs LXX personal name Masek)",
+      "status": "unresolved_lexical",
+      "needed_evidence": "verified lexicon entries (BDB/HALOT/DCH) and comparative Semitic evidence; editorial decision on footnote wording"
+    },
+    {
+      "id": "Gen.15.2",
+      "issue": "syntax of דַּמֶּשֶׂק אֱלִיעֶזֶר (origin 'of Damascus' vs compound name vs damaged text)",
+      "status": "unresolved_syntactic",
+      "needed_evidence": "verified ancient versions (Samaritan Pentateuch, Qumran, Targum, Vulgate) for this clause; any manuscript evidence; no textual corruption is asserted"
+    },
+    {
+      "id": "Gen.15.2",
+      "issue": "הוֹלֵךְ: 'go on living' vs 'depart/die'",
+      "status": "unresolved_lexical",
+      "needed_evidence": "full concordance check of participial הלך with predicate adjectives; kept ambiguous in wording"
+    },
+    {
+      "id": "Gen.15.6",
+      "issue": "subject of וַיַּחְשְׁבֶהָ (YHWH vs Abram) and referent of the feminine object suffix",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "complete biblical usage of חשב + לְ-person + predicate noun; GPT/Gemini independent review; editorial policy on supplied subjects"
+    },
+    {
+      "id": "Gen.15.6",
+      "issue": "aspect/discourse function of weqatal וְהֶאֱמִן",
+      "status": "unresolved_syntactic",
+      "needed_evidence": "verified Hebrew grammar references on weqatal in narrative; editorial decision whether to footnote"
+    },
+    {
+      "id": "Gen.15.5",
+      "issue": "timing of the night-sky scene vs 15:1 vision and 15:12 sunset",
+      "status": "unresolved_discourse",
+      "needed_evidence": "not a translation blocker; note only"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py into private/upstream_cache during claim preparation (2026-10-30T13:08:57Z)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and parallels Gen 14:14, 14:20, 16:10, 18:19, 25:23, 30:33, 31:15, 38:15, 41:49, 45:26, 50:20; lemma searches 2803, 6666, 539, 4043, 7939, 6185, 4943, 4578, 4236, 5027 and Hiphil inf abs of 7235."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T13:11:21Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Psalms; Ps 32:2, 39:14, 106:31."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+      "accessed_utc": "2026-10-30T13:11:22Z",
+      "file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "what_it_is": "Pinned WLC/OSHB Leviticus; Lev 20:20-21."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-10-30T13:11:22Z",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "what_it_is": "Pinned WLC/OSHB Jeremiah; Jer 22:30."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Eccl.xml",
+      "accessed_utc": "2026-10-30T13:11:48Z",
+      "file_sha256": "2dfc858d19048f6479eca33b9fe781c2d7e9059e9ae3ab0b37b802d3afec02bb",
+      "what_it_is": "Pinned WLC/OSHB Ecclesiastes; Eccl 2:7."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T13:11:22Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); reception evidence only; rights of the OCR repository not assessed, only short excerpts quoted."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/66-Ro-morphgnt.txt",
+      "accessed_utc": "2026-10-30T13:11:22Z",
+      "file_sha256": "364b3b57c70e731920c7fa8a61f09ecd53eed858f7f3590596066484d0638cc6",
+      "what_it_is": "MorphGNT SBLGNT Romans token file (master branch, unpinned; hash recorded). Rom 4:3."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/69-Ga-morphgnt.txt",
+      "accessed_utc": "2026-10-30T13:11:23Z",
+      "file_sha256": "ec249897464e8e8992e4869645471d6f3372e7373ba3a5d429516946d8cffada",
+      "what_it_is": "MorphGNT SBLGNT Galatians token file (master branch, unpinned). Gal 3:6."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/80-Jas-morphgnt.txt",
+      "accessed_utc": "2026-10-30T13:11:23Z",
+      "file_sha256": "205d4cdbb4c89aabd51ebf599fcfa622001af6e64dcd4e5ad487298ee4b7a204",
+      "what_it_is": "MorphGNT SBLGNT James token file (master branch, unpinned). Jas 2:23."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where the project requires it",
+    "current best editorial selection with versioned adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or textual variant for Gen 15:1-6 is asserted; Samaritan, Qumran, Targum and Vulgate were not checked.",
+    "No GPT, Gemini, Antigravity or human reviewer response is represented or simulated.",
+    "No lexicon (BDB/HALOT/DCH) was consulted; lexical judgments rest on pinned WLC concordance evidence and general knowledge labelled as such.",
+    "No credit balance, deduction or dollar amount is asserted; only the service's rate-limit metadata labels are recorded.",
+    "This is not an adopted, certified or published translation.",
+    "The Sonnet 5.5 draft is compared as recorded; its model identity is its own record's statement, not verified here."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T130857Z-40cf9972.json",
+    "packet_sha256": "37c13582c4823e853c4e883345dcaae0d9ccc0c98fde050da041d2e7a5430f06",
+    "verses": [
+      {
+        "id": "Gen.15.1",
+        "raw_xml": "<verse osisID=\"Gen.15.1\">\n          <w lemma=\"310 a\" n=\"1.1.1.0\" morph=\"HR\" id=\"01Tt9\">אַחַ֣ר</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"d/1697\" morph=\"HTd/Ncmpa\" id=\"01yQh\">הַ/דְּבָרִ֣ים</w>\n          <w lemma=\"d/428\" n=\"1.1.1\" morph=\"HTd/Pdxcp\" id=\"01CAN\">הָ/אֵ֗לֶּה</w>\n          <w lemma=\"1961\" morph=\"HVqp3ms\" id=\"01Xva\">הָיָ֤ה</w>\n          <w lemma=\"1697\" morph=\"HNcmsc\" id=\"01ef9\">דְבַר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3068\" n=\"1.1.0\" morph=\"HNp\" id=\"01JnZ\">יְהוָה֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01qg7\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"87\" n=\"1.1\" morph=\"HNp\" id=\"01cSo\">אַבְרָ֔ם</w>\n          <w lemma=\"b/4236\" n=\"1.0\" morph=\"HRd/Ncmsa\" id=\"01Yyj\">בַּֽ/מַּחֲזֶ֖ה</w>\n          <w lemma=\"l/559\" n=\"1\" morph=\"HR/Vqc\" id=\"01opb\">לֵ/אמֹ֑ר</w>\n          <w lemma=\"408\" morph=\"HTn\" id=\"013dA\">אַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3372\" morph=\"HVqj2ms\" id=\"01m49\">תִּירָ֣א</w>\n          <w lemma=\"87\" n=\"0.1.1\" morph=\"HNp\" id=\"01HAZ\">אַבְרָ֗ם</w>\n          <w lemma=\"595\" n=\"0.1.0\" morph=\"HPp1cs\" id=\"0118S\">אָנֹכִי֙</w>\n          <w lemma=\"4043\" morph=\"HNcbsa\" id=\"01pvu\">מָגֵ֣ן</w>\n          <w lemma=\"l\" n=\"0.1\" morph=\"HR/Sp2fs\" id=\"01RzD\">לָ֔/ךְ</w>\n          <w lemma=\"7939\" n=\"0.0\" morph=\"HNcmsc/Sp2ms\" id=\"01b9d\">שְׂכָרְ/ךָ֖</w>\n          <w lemma=\"7235 a\" morph=\"HVha\" id=\"01yKt\">הַרְבֵּ֥ה</w>\n          <w lemma=\"3966\" n=\"0\" morph=\"HD\" id=\"01kTv\">מְאֹֽד</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "a2d2cfe7dd1af1631d7256707928385a016fbae9adf689a9eb0ee6e0ab462566",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.15.2",
+        "raw_xml": "<verse osisID=\"Gen.15.2\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"013Zu\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"87\" n=\"1.1.1\" morph=\"HNp\" id=\"01cNU\">אַבְרָ֗ם</w>\n          <w lemma=\"136\" morph=\"HNcmpc/Sp1cs\" id=\"01w93\">אֲדֹנָ֤/י</w>\n          <w lemma=\"3069\" n=\"1.1.0\" morph=\"HNp\" id=\"01hRC\">יֱהוִה֙</w>\n          <w lemma=\"4100\" morph=\"HTi\" id=\"01y8q\">מַה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5414\" morph=\"HVqi2ms\" id=\"016Us\">תִּתֶּן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"1.1\" morph=\"HR/Sp1cs\" id=\"017EH\">לִ֔/י</w>\n          <w lemma=\"c/595\" n=\"1.0\" morph=\"HC/Pp1cs\" id=\"01xEy\">וְ/אָנֹכִ֖י</w>\n          <w lemma=\"1980\" morph=\"HVqrmsa\" id=\"01dYW\">הוֹלֵ֣ךְ</w>\n          <w lemma=\"6185\" n=\"1\" morph=\"HAamsa\" id=\"01Dbu\">עֲרִירִ֑י</w>\n          <w lemma=\"c/1121 a\" morph=\"HC/Ncmsc\" id=\"01biE\">וּ/בֶן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4943\" morph=\"HNcmsc\" id=\"011oc\">מֶ֣שֶׁק</w>\n          <w lemma=\"1004 b\" n=\"0.1\" morph=\"HNcmsc/Sp1cs\" id=\"01X8S\">בֵּיתִ֔/י</w>\n          <w lemma=\"1931\" n=\"0.0\" morph=\"HPp3ms\" id=\"01spk\">ה֖וּא</w>\n          <w lemma=\"1834\" morph=\"HNp\" id=\"01tvc\">דַּמֶּ֥שֶׂק</w>\n          <w lemma=\"461\" n=\"0\" morph=\"HNp\" id=\"01Xj8\">אֱלִיעֶֽזֶר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "1f24461b9171e4600a1ce36a9b4d7652cfbf11d6274b76d26f817b08d7f4ccfa",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.15.3",
+        "raw_xml": "<verse osisID=\"Gen.15.3\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"013ho\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"87\" n=\"1.2\" morph=\"HNp\" id=\"01u8J\">אַבְרָ֔ם</w>\n          <w lemma=\"2005\" morph=\"HTm\" id=\"01pVY\">הֵ֣ן</w>\n          <w lemma=\"l\" n=\"1.1\" morph=\"HR/Sp1cs\" id=\"01biG\">לִ֔/י</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01pZy\">לֹ֥א</w>\n          <w lemma=\"5414\" n=\"1.0\" morph=\"HVqp2ms\" id=\"01q48\">נָתַ֖תָּה</w>\n          <w lemma=\"2233\" n=\"1\" morph=\"HNcmsa\" id=\"01s4E\">זָ֑רַע</w>\n          <w lemma=\"c/2009\" morph=\"HC/Tm\" id=\"01h3h\">וְ/הִנֵּ֥ה</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc\" id=\"01918\">בֶן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1004 b\" n=\"0.0\" morph=\"HNcmsc/Sp1cs\" id=\"01oD9\">בֵּיתִ֖/י</w>\n          <w lemma=\"3423\" morph=\"HVqrmsa\" id=\"01iih\">יוֹרֵ֥שׁ</w>\n          <w lemma=\"853\" n=\"0\" morph=\"HTo/Sp1cs\" id=\"01vUK\">אֹתִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "25b68b567dc429f640980b692f6f9b6e7a3f8785c9d418fe636a7ded920c3b50",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.15.4",
+        "raw_xml": "<verse osisID=\"Gen.15.4\">\n          <w lemma=\"c/2009\" morph=\"HC/Tm\" id=\"01ZDx\">וְ/הִנֵּ֨ה</w>\n          <w lemma=\"1697\" morph=\"HNcmsc\" id=\"01YCX\">דְבַר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3068\" morph=\"HNp\" id=\"01YWB\">יְהוָ֤ה</w>\n          <w lemma=\"413\" n=\"1.1.0\" morph=\"HR/Sp3ms\" id=\"01tQU\">אֵלָי/ו֙</w>\n          <w lemma=\"l/559\" n=\"1.1\" morph=\"HR/Vqc\" id=\"01CJW\">לֵ/אמֹ֔ר</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01Y86\">לֹ֥א</w>\n          <w lemma=\"3423\" n=\"1.0\" morph=\"HVqi3ms/Sp2ms\" id=\"019vU\">יִֽירָשְׁ/ךָ֖</w>\n          <w lemma=\"2088\" n=\"1\" morph=\"HPdxms\" id=\"019R8\">זֶ֑ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01moo\">כִּי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"518 a\" n=\"0.1.0\" morph=\"HC\" id=\"01gAE\">אִם֙</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01ZAq\">אֲשֶׁ֣ר</w>\n          <w lemma=\"3318\" morph=\"HVqi3ms\" id=\"01ubx\">יֵצֵ֣א</w>\n          <w lemma=\"m/4578\" n=\"0.1\" morph=\"HR/Ncmpc/Sp2ms\" id=\"01cLd\">מִ/מֵּעֶ֔י/ךָ</w>\n          <w lemma=\"1931\" n=\"0.0\" morph=\"HPp3ms\" id=\"01fc7\">ה֖וּא</w>\n          <w lemma=\"3423\" n=\"0\" morph=\"HVqi3ms/Sp2ms\" id=\"01zLa\">יִֽירָשֶֽׁ/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "5adee9b7d545867369e44aef2670f2c9b7a0b741151908d6ebf953d4f07d3d80",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.15.5",
+        "raw_xml": "<verse osisID=\"Gen.15.5\">\n          <w lemma=\"c/3318\" morph=\"HC/Vhw3ms\" id=\"01Dcd\">וַ/יּוֹצֵ֨א</w>\n          <w lemma=\"853\" n=\"1.1.3.0\" morph=\"HTo/Sp3ms\" id=\"01sHq\">אֹת֜/וֹ</w>\n          <w lemma=\"d/2351\" n=\"1.1.3\" morph=\"HTd/Ncmsa/Sd\" id=\"01Z4P\">הַ/ח֗וּצָ/ה</w>\n          <w lemma=\"c/559\" n=\"1.1.2\" morph=\"HC/Vqw3ms\" id=\"01n76\">וַ/יֹּ֨אמֶר֙</w>\n          <w lemma=\"5027\" morph=\"HVhv2ms\" id=\"01bD6\">הַבֶּט</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4994\" morph=\"HTe\" id=\"01wcG\">נָ֣א</w>\n          <w lemma=\"d/8064\" n=\"1.1.1\" morph=\"HTd/Ncmpa/Sd\" id=\"01S4Y\">הַ/שָּׁמַ֗יְמָ/ה</w>\n          <w lemma=\"c/5608 a\" n=\"1.1.0\" morph=\"HC/Vqv2ms\" id=\"01pJA\">וּ/סְפֹר֙</w>\n          <w lemma=\"d/3556\" n=\"1.1\" morph=\"HTd/Ncmpa\" id=\"01T7j\">הַ/כּ֣וֹכָבִ֔ים</w>\n          <w lemma=\"518 a\" morph=\"HC\" id=\"01fBv\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3201\" n=\"1.0\" morph=\"HVqi2ms\" id=\"01mGL\">תּוּכַ֖ל</w>\n          <w lemma=\"l/5608 a\" morph=\"HR/Vqc\" id=\"01m4P\">לִ/סְפֹּ֣ר</w>\n          <w lemma=\"853\" n=\"1\" morph=\"HTo/Sp3mp\" id=\"01YX6\">אֹתָ֑/ם</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01aYb\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"l\" n=\"0.1\" morph=\"HR/Sp3ms\" id=\"01M4g\">ל֔/וֹ</w>\n          <w lemma=\"3541\" morph=\"HD\" id=\"01WUC\">כֹּ֥ה</w>\n          <w lemma=\"1961\" n=\"0.0\" morph=\"HVqi3ms\" id=\"01pov\">יִהְיֶ֖ה</w>\n          <w lemma=\"2233\" n=\"0\" morph=\"HNcmsc/Sp2ms\" id=\"013VU\">זַרְעֶֽ/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "00f7478b8111d9ea0af24af079b89f707fe13fb52f48be6df9816eb1c95b13e2",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.15.6",
+        "raw_xml": "<verse osisID=\"Gen.15.6\">\n          <w lemma=\"c/539\" n=\"1.0\" morph=\"HC/Vhp3ms\" id=\"018qr\">וְ/הֶאֱמִ֖ן</w>\n          <w lemma=\"b/3068\" n=\"1\" morph=\"HR/Np\" id=\"01Sag\">בַּֽ/יהוָ֑ה</w>\n          <w lemma=\"c/2803\" morph=\"HC/Vqw3ms/Sp3fs\" id=\"01awo\">וַ/יַּחְשְׁבֶ֥/הָ</w>\n          <w lemma=\"l\" n=\"0.0\" morph=\"HR/Sp3ms\" id=\"01FpW\">לּ֖/וֹ</w>\n          <w lemma=\"6666\" n=\"0\" morph=\"HNcfsa\" id=\"01Q3M\">צְדָקָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "48e148701c72a38424bd95d1d508558c7cca6d7d6a73fe3cbb9389e62eb6e9ee",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected": []
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T130857Z-40cf9972.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "independent_reading_per_verse": true,
+    "initial_proposals_per_verse": true,
+    "notes_per_verse": true,
+    "clause_coverage": {
+      "Gen.15.1": 5,
+      "Gen.15.2": 5,
+      "Gen.15.3": 3,
+      "Gen.15.4": 3,
+      "Gen.15.5": 4,
+      "Gen.15.6": 2
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "duplicate_word_assignments": {},
+    "clauses_follow_source_word_order": true,
+    "current_selected_in_packet": 0,
+    "current_selected_changed": false,
+    "quote_balance_per_verse": {
+      "ko": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "en": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "es": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "quotes_balanced_within_each_verse": true,
+    "network_excerpts_verified_against_fetched_files": true,
+    "original_vs_interpretation_separated": "Clause notes carry a category (lexical/syntactic/discourse/textual/historical/reception). LXX and NT lines are labelled reception, never Hebrew witnesses. The magen repointing is labelled conjecture. No variant is asserted for these verses; Samaritan/Qumran witnesses were not checked.",
+    "authentic_attribution": "Only actual saved records are compared (one Claude Sonnet 5.5 cloud draft). No GPT, Gemini, Antigravity or human response is represented.",
+    "all_required_checks_pass": true
+  }
+}
