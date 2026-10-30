@@ -1,0 +1,658 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T090524Z-179e2d93",
+  "unit_id": "gen-8-20-22",
+  "verse_ids": [
+    "Gen.8.20",
+    "Gen.8.21",
+    "Gen.8.22"
+  ],
+  "unit_issue_ko": "향기·마음속 발화·사람의 마음/심판 인과",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.8.20-22 = 전통 장절 창세기 8:20-22(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 디지털 본문(Swete 원시 OCR)도 1.8.20-1.8.22를 쓴다. 세 절 모두 Qere/Ketiv와 중첩 마크업이 없다. 8:20의 <seg type=\"x-paseq\">׀</seg>, <seg type=\"x-maqqef\">־</seg>, <seg type=\"x-sof-pasuq\">׃</seg>는 source.verses[].raw_xml에 그대로 보존했다. 8:22 다음 절(9:1) 앞의 단락 표시는 이 단위 범위 밖이다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml, independent_initial_reading.clauses[].raw_span/plain, and network_access_log[].excerpts. Hebrew inside commentary fields is either a byte-exact source span (with cantillation) or a vocalized citation form without cantillation used for discussion; citation forms are not claimed to be verbatim source text. Pointed quotes with cantillation were re-matched to exact pinned-source byte order (mark order) after drafting.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; session metadata shows no Routine or Project origin)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) response around 2026-10-30T09:09Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. These are session metadata values, not a verified dated snapshot. The serving model can differ per turn; no fallback notice was observed during this run.",
+    "session": "https://claude.ai/code/session_01UknqVGKHqMoBshdjXtKFsp",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Session metadata only; no balance, dollar amount or credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters / remaining bonus balance",
+      "sampling parameters"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T09:05:14Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; no active hard-review claim on any fetched claude/ branch; 11 earlier hard-review claims all completed)",
+    "claim_created": "2026-10-30T09:05:24Z",
+    "claim_pushed": "2026-10-30T09:05Z (push of claim commit to claude/original-bible-difficult-passages-5dzlq2 succeeded)",
+    "independent_reading_saved": "2026-10-30T09:06:49Z (written to the session scratchpad from packet raw XML only, before any earlier draft or review record was opened; embedded verbatim below as independent_initial_reading.as_first_written)",
+    "earlier_records_compared": "2026-10-30T09:06:50Z-09:09Z",
+    "parallel_evidence_fetched": "2026-10-30T09:07:47Z-09:07:49Z",
+    "review_saved": "2026-10-30T09:13:22Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "아래 독해는 패킷의 raw XML과 OSHB 형태 태그만 보고 먼저 세웠고, 기존 초안·다른 모델 기록을 열기 전에 스크래치 파일로 저장했다(as_first_written). 스페인어 초안은 그 시점에 악센트 없이 입력되었으며 원형 그대로 보존한다. 그 뒤 같은 고정 커밋 WLC 파일에서 병행 구절과 lemma 용례(7043 קלל, 779 ארר, 3336 יצר, 5207 ניחח)를 검색해 보강했다.",
+    "as_first_written": {
+      "written_before_reading_other_records_utc": "2026-10-30T09:06:49+00:00",
+      "Gen.8.20": {
+        "ko": "노아가 여호와께 제단을 쌓고, 모든 정결한 짐승과 모든 정결한 새 가운데서 얼마를 가져다가 그 제단 위에 번제물들을 바쳤다.",
+        "en": "Then Noah built an altar to YHWH, took some of every clean animal and of every clean bird, and offered burnt offerings on the altar.",
+        "es": "Entonces Noe edifico un altar a YHWH, tomo de todo animal limpio y de toda ave limpia, y ofrecio holocaustos sobre el altar."
+      },
+      "Gen.8.21": {
+        "ko": "여호와께서 그 달래는 향기를 맡으시고 마음속으로 말씀하셨다. '내가 사람 때문에 다시는 땅을 저주하지 않겠다. 사람의 마음이 빚어내는 성향은 어려서부터 악하니, 내가 한 것처럼 모든 생물을 다시는 치지 않겠다.'",
+        "en": "When YHWH smelled the soothing aroma, YHWH said in his heart, 'I will never again curse the ground because of humankind, for the inclination of the human heart is evil from youth; nor will I ever again strike down every living thing as I have done.'",
+        "es": "YHWH percibio el aroma apaciguador, y dijo YHWH en su corazon: 'No volvere a maldecir la tierra a causa del ser humano, porque la inclinacion del corazon humano es mala desde su juventud; ni volvere a herir a todo ser viviente como lo he hecho.'"
+      },
+      "Gen.8.22": {
+        "ko": "땅이 있는 모든 날 동안, 씨뿌림과 거둠, 추위와 더위, 여름과 겨울, 낮과 밤이 그치지 않을 것이다.",
+        "en": "As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night shall not cease.",
+        "es": "Mientras dure la tierra, la siembra y la siega, el frio y el calor, el verano y el invierno, el dia y la noche no cesaran."
+      },
+      "key_judgments": [
+        "ki in 8:21b: causal 'for' preferred over concessive 'even though' (both grammatical; keep paradox with 6:5)",
+        "keep heart in both 'said in his heart' and 'heart of man' (6:5-6 echo)",
+        "qalal piel distinct from arar of 3:17; translate curse but note",
+        "nichoach ~ Noach pun, soothing/pacifying aroma",
+        "yetser not technical rabbinic yetser hara",
+        "min-ne'urav = from youth, not from birth",
+        "od defective in 8:22 vs plene in 8:21; no variant evidence in packet"
+      ]
+    },
+    "clauses": {
+      "Gen.8.20": [
+        {
+          "word_ids": [
+            "01LXw",
+            "01157"
+          ],
+          "category": "lexical/discourse",
+          "reading_ko": "וַיִּבֶן נֹחַ מִזְבֵּחַ לַיהוָה: 노아가 야훼께(ל 수혜·방향) 제단을 쌓았다. 성경에서 '제단'이 처음 명시적으로 나오는 장면이다. 노아가 방주에서 나온 뒤(8:18-19) 첫 행동이며 신적 명령 없이 주도한 행위로 서술된다.",
+          "raw_span": "<w lemma=\"c/1129\" morph=\"HC/Vqw3ms\" id=\"01LXw\">וַ/יִּ֥בֶן</w>\n          <w lemma=\"5146\" n=\"1.0.0\" morph=\"HNp\" id=\"01una\">נֹ֛חַ</w>\n          <w lemma=\"4196\" n=\"1.0\" morph=\"HNcmsa\" id=\"01em6\">מִזְבֵּ֖חַ</w>\n          <w lemma=\"l/3068\" n=\"1\" morph=\"HR/Np\" id=\"01157\">לַֽ/יהוָ֑ה</w>",
+          "plain": "וַיִּ֥בֶן נֹ֛חַ מִזְבֵּ֖חַ לַֽיהוָ֑ה"
+        },
+        {
+          "word_ids": [
+            "01quT",
+            "013Cf"
+          ],
+          "category": "lexical/syntax",
+          "reading_ko": "וַיִּקַּח מִכֹּל ׀ הַבְּהֵמָה הַטְּהוֹרָה: מִן은 부분격('…가운데서 얼마를'). בְּהֵמָה는 집합 단수로 가축 범주. 같은 어구와 paseq가 7:2 מִכֹּל ׀ הַבְּהֵמָה הַטְּהוֹרָה에 이미 나와 7:2의 '정결한 짐승 일곱씩' 명령과 연결된다. paseq는 낭독 휴지 표지로 의미 단위를 바꾸지 않는다.",
+          "raw_span": "<w lemma=\"c/3947\" n=\"0.1.1.1\" morph=\"HC/Vqw3ms\" id=\"01quT\">וַ/יִּקַּ֞ח</w>\n          <w lemma=\"m/3605\" n=\"0.1.1.0\" morph=\"HR/Ncmsc\" id=\"016Vo\">מִ/כֹּ֣ל</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"d/929\" morph=\"HTd/Ncfsa\" id=\"01E91\">הַ/בְּהֵמָ֣ה</w>\n          <w lemma=\"d/2889\" n=\"0.1.1\" morph=\"HTd/Aafsa\" id=\"013Cf\">הַ/טְּהוֹרָ֗ה</w>",
+          "plain": "וַיִּקַּ֞ח מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה"
+        },
+        {
+          "word_ids": [
+            "01bsi",
+            "0134f"
+          ],
+          "category": "lexical",
+          "reading_ko": "וּמִכֹּל הָעוֹף הַטָּהֹר: 정결한 새 가운데서도. '정결'은 제의적 범주(레위기 체계를 앞당겨 전제)이며 위생 개념이 아니다.",
+          "raw_span": "<w lemma=\"c/m/3605\" n=\"0.1.0\" morph=\"HC/R/Ncmsc\" id=\"01bsi\">וּ/מִ/כֹּל֙</w>\n          <w lemma=\"d/5775\" morph=\"HTd/Ncmsa\" id=\"01MWq\">הָ/ע֣וֹף</w>\n          <w lemma=\"d/2889\" n=\"0.1\" morph=\"HTd/Aamsa\" id=\"0134f\">הַ/טָּהֹ֔ר</w>",
+          "plain": "וּמִכֹּל֙ הָע֣וֹף הַטָּהֹ֔ר"
+        },
+        {
+          "word_ids": [
+            "01aVY",
+            "01G8o"
+          ],
+          "category": "lexical",
+          "reading_ko": "וַיַּעַל עֹלֹת בַּמִּזְבֵּחַ: 히필 '올리다'와 동족 명사 עֹלָה('올라가는 제물'=번제)의 어근 반복. עֹלֹת는 복수(결여 철자). ב는 처소('제단 위에').",
+          "raw_span": "<w lemma=\"c/5927\" morph=\"HC/Vhw3ms\" id=\"01aVY\">וַ/יַּ֥עַל</w>\n          <w lemma=\"5930 a\" n=\"0.0\" morph=\"HNcfpa\" id=\"01hNg\">עֹלֹ֖ת</w>\n          <w lemma=\"b/4196\" n=\"0\" morph=\"HRd/Ncmsa\" id=\"01G8o\">בַּ/מִּזְבֵּֽחַ</w>",
+          "plain": "וַיַּ֥עַל עֹלֹ֖ת בַּמִּזְבֵּֽחַ"
+        }
+      ],
+      "Gen.8.21": [
+        {
+          "word_ids": [
+            "013Gd",
+            "01V3N"
+          ],
+          "category": "lexical/discourse",
+          "reading_ko": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ: 히필 רוח '냄새 맡다'와 명사 רֵיחַ의 소리 반복. נִיחֹחַ는 נוח('쉬다, 가라앉다')와 연결되어 '달래는/진정시키는' 향기이며, 이름 נֹחַ(5:29 이름 풀이)와 말놀이를 이룬다. 레위기 제의 공식 רֵיחַ נִיחוֹחַ(레 1:9 등)의 첫 용례이다. 의인화 표현은 본문 그대로 유지한다.",
+          "raw_span": "<w lemma=\"c/7306\" morph=\"HC/Vhw3ms\" id=\"013Gd\">וַ/יָּ֣רַח</w>\n          <w lemma=\"3068\" n=\"1.2.0\" morph=\"HNp\" id=\"01iWk\">יְהוָה֮</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01mCg\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7381\" morph=\"HNcmsc\" id=\"01tq2\">רֵ֣יחַ</w>\n          <w lemma=\"d/5207\" n=\"1.2\" morph=\"HTd/Ncmsa\" id=\"01V3N\">הַ/נִּיחֹחַ֒</w>",
+          "plain": "וַיָּ֣רַח יְהוָה֮ אֶת־רֵ֣יחַ הַנִּיחֹחַ֒"
+        },
+        {
+          "word_ids": [
+            "01hKH",
+            "01D5E"
+          ],
+          "category": "lexical/discourse",
+          "reading_ko": "וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ: '자기 마음에 말했다' = 속으로 결심했다(창 24:45 לְדַבֵּר אֶל־לִבִּי 참조). 6:6 וַיִּתְעַצֵּב אֶל־לִבּוֹ와 같은 전치사구이고, 같은 절 안의 לֵב הָאָדָם과 '신의 마음 대 사람의 마음' 대조를 이루므로 '마음'을 번역에 남긴다. 이 발화는 사람에게 공표된 말이 아니라 내적 결심이다(공표는 9:8-17 언약).",
+          "raw_span": "<w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01hKH\">וַ/יֹּ֨אמֶר</w>\n          <w lemma=\"3068\" n=\"1.1.1.0\" morph=\"HNp\" id=\"01NHj\">יְהוָ֜ה</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01Pym\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3820 a\" n=\"1.1.1\" morph=\"HNcmsc/Sp3ms\" id=\"01D5E\">לִבּ֗/וֹ</w>",
+          "plain": "וַיֹּ֨אמֶר יְהוָ֜ה אֶל־לִבּ֗וֹ"
+        },
+        {
+          "word_ids": [
+            "01rsU",
+            "01159"
+          ],
+          "category": "lexical/discourse/reception",
+          "reading_ko": "לֹא־אֹסִף לְקַלֵּל עוֹד אֶת־הָאֲדָמָה בַּעֲבוּר הָאָדָם: יסף 히필 + עוֹד = '다시는 …하지 않겠다'(강조). 동사는 피엘 קלל('가볍게 여기다→저주하다')로 3:17·5:29의 ארר와 어근이 다르다. 그러나 בַּעֲבוּר + 사람 + הָאֲדָמָה 조합은 3:17 אֲרוּרָה הָאֲדָמָה בַּעֲבוּרֶךָ를 분명히 되울린다. 같은 장 8:8·8:11에서 קלל의 칼형이 '물이 줄어들었다(가벼워졌다)'로 쓰여 소리·어근 놀이가 있다. '다시는'의 범위(홍수 같은 추가 저주 금지인지, 3:17 저주의 종결인지)는 해석 문제로 남긴다.",
+          "raw_span": "<w lemma=\"3808\" morph=\"HTn\" id=\"01rsU\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3254\" n=\"1.1.0.0\" morph=\"HVhi1cs\" id=\"01nrb\">אֹ֠סִף</w>\n          <w lemma=\"l/7043\" morph=\"HR/Vpc\" id=\"01hgT\">לְ/קַלֵּ֨ל</w>\n          <w lemma=\"5750\" morph=\"HD\" id=\"01ycN\">ע֤וֹד</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"018Zr\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/127\" n=\"1.1.0\" morph=\"HTd/Ncfsa\" id=\"01Lrg\">הָֽ/אֲדָמָה֙</w>\n          <w lemma=\"b/5668\" morph=\"HR/Ncmsc\" id=\"011L6\">בַּ/עֲב֣וּר</w>\n          <w lemma=\"d/120\" n=\"1.1\" morph=\"HTd/Ncmsa\" id=\"01159\">הָֽ/אָדָ֔ם</w>",
+          "plain": "לֹֽא־אֹ֠סִף לְקַלֵּ֨ל ע֤וֹד אֶת־הָֽאֲדָמָה֙ בַּעֲב֣וּר הָֽאָדָ֔ם"
+        },
+        {
+          "word_ids": [
+            "01yeC",
+            "01RCv"
+          ],
+          "category": "syntax/lexical/reception",
+          "reading_ko": "כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו: 핵심 난제. כִּי는 이유('…이기 때문이다')와 양보('비록 …일지라도', 출 13:17 כִּי קָרוֹב הוּא 유형) 모두 문법적으로 가능하다. 마소라 액센트상 atnach가 מִנְּעֻרָיו에 있어 이 절은 앞 반절(땅 저주 포기)에 속한다. יֵצֶר는 יצר('빚다', 2:7 וַיִּיצֶר)의 명사로 '빚어진 것/빚어내는 것/성향' 범위(신 31:21, 시 103:14). 6:5 וְכָל־יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כָּל־הַיּוֹם과 비교하면 כָּל·מַחְשְׁבֹת·רַק·כָּל־הַיּוֹם이 빠지고 מִנְּעֻרָיו가 더해졌다. מִנְּעֻרָיו는 '어려서부터/젊어서부터'이지 '태어날 때부터'가 아니다. 후대 랍비 문헌의 יֵצֶר הָרָע 개념이나 원죄론은 수용사이며 본문 역어에 넣지 않는다. 처음 독해에서는 이유절 + '성향/inclination'을 택했다.",
+          "raw_span": "<w lemma=\"3588 a\" n=\"1.0.0.0\" morph=\"HC\" id=\"01yeC\">כִּ֠י</w>\n          <w lemma=\"3336\" morph=\"HNcmsc\" id=\"01Wj8\">יֵ֣צֶר</w>\n          <w lemma=\"3820 a\" morph=\"HNcmsc\" id=\"01reX\">לֵ֧ב</w>\n          <w lemma=\"d/120\" n=\"1.0.0\" morph=\"HTd/Ncmsa\" id=\"01Lng\">הָ/אָדָ֛ם</w>\n          <w lemma=\"7451 a\" n=\"1.0\" morph=\"HAamsa\" id=\"01CzS\">רַ֖ע</w>\n          <w lemma=\"m/5271 a\" n=\"1\" morph=\"HR/Ncbpc/Sp3ms\" id=\"01RCv\">מִ/נְּעֻרָ֑י/ו</w>",
+          "plain": "כִּ֠י יֵ֣צֶר לֵ֧ב הָאָדָ֛ם רַ֖ע מִנְּעֻרָ֑יו"
+        },
+        {
+          "word_ids": [
+            "01x1h",
+            "01K4a"
+          ],
+          "category": "lexical/discourse",
+          "reading_ko": "וְלֹא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּאֲשֶׁר עָשִׂיתִי: 두 번째 '다시는 않겠다'. 동사는 נכה 히필 '치다/쳐 죽이다'로 6:7·7:23의 מחה('지워 버리다')와 다르다. כָּל־חַי '모든 살아 있는 것'. כַּאֲשֶׁר עָשִׂיתִי는 방금 끝난 홍수를 가리키는 완료형. 범위는 전체 생명의 일괄 멸절이며 모든 개별 심판의 포기가 아니다.",
+          "raw_span": "<w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"01x1h\">וְ/לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3254\" morph=\"HVhi1cs\" id=\"01YBK\">אֹסִ֥ף</w>\n          <w lemma=\"5750\" n=\"0.0.0\" morph=\"HD\" id=\"01GL3\">ע֛וֹד</w>\n          <w lemma=\"l/5221\" morph=\"HR/Vhc\" id=\"01r2t\">לְ/הַכּ֥וֹת</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01rWe\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3605\" morph=\"HNcmsc\" id=\"01zto\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2416 a\" n=\"0.0\" morph=\"HAamsa\" id=\"01pCR\">חַ֖י</w>\n          <w lemma=\"k/834 d\" morph=\"HR/Tr\" id=\"017YV\">כַּֽ/אֲשֶׁ֥ר</w>\n          <w lemma=\"6213 a\" n=\"0\" morph=\"HVqp1cs\" id=\"01K4a\">עָשִֽׂיתִי</w>",
+          "plain": "וְלֹֽא־אֹסִ֥ף ע֛וֹד לְהַכּ֥וֹת אֶת־כָּל־חַ֖י כַּֽאֲשֶׁ֥ר עָשִֽׂיתִי"
+        }
+      ],
+      "Gen.8.22": [
+        {
+          "word_ids": [
+            "01N17",
+            "01hh3"
+          ],
+          "category": "syntax/textual",
+          "reading_ko": "עֹד כָּל־יְמֵי הָאָרֶץ: עֹד(8:21의 ע֤וֹד와 달리 결여 철자)는 '아직/여전히'. 직역은 '아직 땅의 모든 날 동안' = '땅이 남아 있는 한'. 패킷에는 이 어구의 이문 증거가 없다.",
+          "raw_span": "<w lemma=\"5750\" n=\"1.0\" morph=\"HD\" id=\"01N17\">עֹ֖ד</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"013Nb\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3117\" morph=\"HNcmpc\" id=\"01AES\">יְמֵ֣י</w>\n          <w lemma=\"d/776\" n=\"1\" morph=\"HTd/Ncbsa\" id=\"01hh3\">הָ/אָ֑רֶץ</w>",
+          "plain": "עֹ֖ד כָּל־יְמֵ֣י הָאָ֑רֶץ"
+        },
+        {
+          "word_ids": [
+            "018xp",
+            "01wfD"
+          ],
+          "category": "lexical",
+          "reading_ko": "זֶרַע וְקָצִיר: '씨'가 아니라 계절 짝 안에서 '씨 뿌림(파종기)'과 '거둠(추수기)'. 네 쌍의 대구(메리즘)로 시간 전체를 가리킨다. pazer·telisha 액센트는 낭독 표지.",
+          "raw_span": "<w lemma=\"2233\" n=\"0.0.0.2\" morph=\"HNcmsa\" id=\"018xp\">זֶ֡רַע</w>\n          <w lemma=\"c/7105 a\" n=\"0.0.0.1\" morph=\"HC/Ncmsa\" id=\"01wfD\">וְ֠/קָצִיר</w>",
+          "plain": "זֶ֡רַע וְ֠קָצִיר"
+        },
+        {
+          "word_ids": [
+            "01Lka",
+            "01irT"
+          ],
+          "category": "lexical",
+          "reading_ko": "וְקֹר וָחֹם: 추위와 더위.",
+          "raw_span": "<w lemma=\"c/7120\" morph=\"HC/Ncmsa\" id=\"01Lka\">וְ/קֹ֨ר</w>\n          <w lemma=\"c/2527\" n=\"0.0.0.0\" morph=\"HC/Ncmsa\" id=\"01irT\">וָ/חֹ֜ם</w>",
+          "plain": "וְקֹ֨ר וָחֹ֜ם"
+        },
+        {
+          "word_ids": [
+            "0122j",
+            "012eE"
+          ],
+          "category": "lexical/historical",
+          "reading_ko": "וְקַיִץ וָחֹרֶף: 여름(건기, 여름 과일 철)과 겨울(우기·추운 철; 잠 20:4처럼 밭갈이 철과도 연결). 두 계절 체계의 묘사이며 현대 사계절 구분을 전제하지 않는다.",
+          "raw_span": "<w lemma=\"c/7019\" morph=\"HC/Ncmsa\" id=\"0122j\">וְ/קַ֧יִץ</w>\n          <w lemma=\"c/2779\" n=\"0.0.0\" morph=\"HC/Ncmsa\" id=\"012eE\">וָ/חֹ֛רֶף</w>",
+          "plain": "וְקַ֧יִץ וָחֹ֛רֶף"
+        },
+        {
+          "word_ids": [
+            "01sGR",
+            "01FKm"
+          ],
+          "category": "lexical",
+          "reading_ko": "וְיוֹם וָלַיְלָה: 낮과 밤. 1:5·1:14-18 창조 질서의 회복을 되울린다.",
+          "raw_span": "<w lemma=\"c/3117\" morph=\"HC/Ncmsa\" id=\"01sGR\">וְ/י֥וֹם</w>\n          <w lemma=\"c/3915\" n=\"0.0\" morph=\"HC/Ncmsa\" id=\"01FKm\">וָ/לַ֖יְלָה</w>",
+          "plain": "וְי֥וֹם וָלַ֖יְלָה"
+        },
+        {
+          "word_ids": [
+            "01eb4",
+            "01fqb"
+          ],
+          "category": "lexical/discourse",
+          "reading_ko": "לֹא יִשְׁבֹּתוּ: '그치지 않을 것이다'. שבת는 2:2-3에서 하나님이 일을 '그치신' 동사와 같은 어근이다. 새 발화 도입구가 없으므로 8:21b의 내적 발화가 8:22 끝까지 이어진다(인용부호를 8:22 끝에서 닫는다).",
+          "raw_span": "<w lemma=\"3808\" morph=\"HTn\" id=\"01eb4\">לֹ֥א</w>\n          <w lemma=\"7673 a\" n=\"0\" morph=\"HVqi3mp\" id=\"01fqb\">יִשְׁבֹּֽתוּ</w>",
+          "plain": "לֹ֥א יִשְׁבֹּֽתוּ"
+        }
+      ]
+    }
+  },
+  "initial_proposals": {
+    "Gen.8.20": {
+      "ko": "노아가 여호와께 제단을 쌓고, 모든 정결한 짐승과 모든 정결한 새 가운데서 얼마를 가져다가 그 제단 위에 번제물들을 바쳤다.",
+      "en": "Then Noah built an altar to YHWH, took some of every clean animal and of every clean bird, and offered burnt offerings on the altar.",
+      "es": "Entonces Noe edifico un altar a YHWH, tomo de todo animal limpio y de toda ave limpia, y ofrecio holocaustos sobre el altar."
+    },
+    "Gen.8.21": {
+      "ko": "여호와께서 그 달래는 향기를 맡으시고 마음속으로 말씀하셨다. '내가 사람 때문에 다시는 땅을 저주하지 않겠다. 사람의 마음이 빚어내는 성향은 어려서부터 악하니, 내가 한 것처럼 모든 생물을 다시는 치지 않겠다.'",
+      "en": "When YHWH smelled the soothing aroma, YHWH said in his heart, 'I will never again curse the ground because of humankind, for the inclination of the human heart is evil from youth; nor will I ever again strike down every living thing as I have done.'",
+      "es": "YHWH percibio el aroma apaciguador, y dijo YHWH en su corazon: 'No volvere a maldecir la tierra a causa del ser humano, porque la inclinacion del corazon humano es mala desde su juventud; ni volvere a herir a todo ser viviente como lo he hecho.'"
+    },
+    "Gen.8.22": {
+      "ko": "땅이 있는 모든 날 동안, 씨뿌림과 거둠, 추위와 더위, 여름과 겨울, 낮과 밤이 그치지 않을 것이다.",
+      "en": "As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night shall not cease.",
+      "es": "Mientras dure la tierra, la siembra y la siega, el frio y el calor, el verano y el invierno, el dia y la noche no cesaran."
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbc; selection_version 0.4.13)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.8.20-22에는 현행 채택문이 없다(패킷 current_selected 빈 목록). 이 검토는 미래 채택용 연구 자료다. 인접 채택문 관례를 확인했다: 신명 ko '야훼'·en/es 'YHWH'(4:1·4:3·4:4·4:6), 주어 조사 '야훼는/야훼가 …하셨다'(4:4·4:6), 여격 '야훼께'(4:3), בְּהֵמָה '가축/livestock/ganado'(1:25·2:20), 3:17 '너 때문에 땅이 저주받았다 / cursed is the ground because of you / maldita es la tierra por tu causa', 2:2 שבת en 'ceased'·es 'cesó'·ko '손을 떼셨다', 인용부호 ko/en “ ”·es « »."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-2qtwr9: automation/cloud-drafts/20261024T031738Z-50317bf8.json (verses Gen.8.20-22)",
+      "model_label": "Claude Code native cloud draft; requested/configured model recorded in that file as claude-sonnet-5-5 (served model not exposed); state unadopted_model_draft; independent_review not performed",
+      "finding_ko": "실제 저장된 초안 문구를 대조했다. (1) 신명을 en 'the LORD'·es 'el SEÑOR'·ko '여호와'로 옮겨 현행 4장 채택 관례(야훼/YHWH)와 다르다. (2) 8:21 ko '마음이 생각하는 것', en 'inclination', es 'inclinación'으로 세 언어의 יֵצֶר 의미 축이 서로 다르다. (3) 8:21 en 'the human heart … from his youth'는 대명사 일치가 어색하다. (4) 8:21 es 'destruir'는 נכה('치다')보다 넓어 6:7 מחה 역어와 구별이 약해진다. (5) 8:20 ko '번제를 드렸다'·en 'offered burnt offerings'는 무난하다. (6) 8:22에서 인용을 닫아 발화가 8:22까지 이어짐을 반영한 것은 정확하며, 이 검토의 처음 독해(인용부호 미처리)보다 낫다 — 이 점은 비교 후 채택했다. (7) 초안 자체가 כִּי 양보 해석과 יצר '성향' 대안을 반론으로 기록했다. 초안은 비교 증거일 뿐 이 검토를 건너뛸 이유가 아니다."
+    },
+    {
+      "record": "origin/claude/original-bible-hard-review-wbop5q: automation/cloud-reviews/20261030T080156Z-d8df31da.json (unit gen-6-5-8)",
+      "model_label": "Claude Code native cloud hard review; requested/configured model recorded as claude-opus-5-5; state unadopted_model_review (another run's record; not modified)",
+      "finding_ko": "이 기록은 6:5 יֵצֶר를 '빚어내는 것 / devised / forjaban'으로 옮기고 '성향/inclination'을 대안으로 주석에 두며, editorial_consistency_findings에서 '6:5와 8:21(대기열 gen-8-20-22)은 같은 역어를 써야 한다'고 명시했다. 또 6:6 אֶל־לִבּוֹ를 '마음 깊이 / to his heart / en su corazón'으로 옮겼다. 이 검토는 처음 독해에서 8:21 יֵצֶר를 '성향/inclination'으로 잡았으나, 비교 후 6:5와 같은 '빚어내다' 축으로 바꾸었다(사유는 alternatives 참조). 같은 기록의 LXX OCR 발췌(1.8.21 일부)는 이 검토가 별도로 받아 확인한 파일 내용과 일치한다."
+    },
+    {
+      "record": "data/model-reviews/ (v0.2.0-v0.4.13 directories on main)",
+      "model_label": "saved GPT/Gemini/Claude review records",
+      "finding_ko": "저장소 전체에서 'Gen.8.20'·'Gen.8.21'·'Gen.8.22'를 검색했으나 data/model-reviews와 reviews/에 이 절들에 대한 GPT·Gemini·Claude 검토 기록은 없었다(검색 결과는 대기열 파일과 위 초안·패킷뿐). 따라서 GPT/Gemini 의견은 비교하지 않았고 만들어 내지도 않았다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "8:21의 인용 범위: 처음 독해는 8:22를 발화 안에 넣는다는 점을 번역문 부호로 처리하지 않았다. Sonnet 초안이 8:22 끝에서 인용을 닫은 것이 옳아 이를 채택했다.",
+    "8:21 יֵצֶר: 처음 독해의 'inclination/성향'과 6:5 검토의 'devised/빚어내는 것'이 충돌했다. 두 절이 같은 진단을 정반대 결과(심판 대 유예)로 잇는 문학적 대조가 핵심이므로 역어 통일이 더 중요하다고 판단해 6:5 축으로 맞췄다.",
+    "8:21 신명·대명사: Sonnet 초안의 'the LORD/el SEÑOR/여호와'와 'from his youth'는 채택 관례·문법상 수정 대상이다.",
+    "8:20 בְּהֵמָה: 처음 독해의 '짐승/animal'을 1:25·2:20 채택문과 6:7 검토의 '가축/livestock/ganado'로 맞췄다. 제물로 바친 정결한 동물은 가축 범주라는 점도 이 역어를 지지한다.",
+    "8:21 אֲדָמָה: en 'ground'는 3:17 채택문과 일치한다. es는 3:17 채택문이 'la tierra'인데, 8:22 הָאָרֶץ도 'la tierra'가 되어 두 어휘가 합쳐진다. 이 검토는 8:21 es를 'el suelo'(1:25 채택문 הָאֲדָמָה 'el suelo'와 6:7 검토 관례)로 제안하고 3:17과의 불일치를 편집 결정 사항으로 남긴다."
+  ],
+  "lxx_reception_evidence": {
+    "source": "Swete Septuagint, First1KGreek raw OCR text in a third-party repository (see network_access_log). OCR text with visible OCR errors (e.g. 'πόντων' for πάντων, 'ὠσΦρἀνθη', merged words); printed edition not checked; Göttingen edition (Wevers) and manuscripts not consulted.",
+    "excerpts": {
+      "1.8.20": "Καὶ ᾠκοδόμησεν Νῶε θυσιαστήριον τῷ θεῷ, καὶ ἔλαβεν ἀπὸ πόντων τῶν κτηνῶν τῶν καθαρῶν καὶ ἀπὸ πάντωντῶν πετεινῶν τῶν καθαρῶν, καὶ ἀνήνεγκεν ὁλοκάρπωσιν ἐπὶ τὸ θυσιαστήριον.",
+      "1.8.21": "καὶ ὠσΦρἀνθη κύριος ὁ θεὸς ὀσμἠν εὐωδίας, καὶΚύριος ὁ θεὸς διανοηθείς Οὐ προσθήσω ἔτι τοῦ καταράσασθαι τὴν γῆνδιὰ τὰ ἔργα τῶν ἀνθρώπων, ὅτι ἔγκειται ἡ διάνοια τοῦ ἀνθρώπου ἐπιμελῶςἐπὶ τὰ πονηρὰ ἐκ νεότητος· § οὐ προσθήσω οὖν ἔτι πατάξαι πᾶσαν  σάρκα ζῶσαν καθὼς ἐποίησα.",
+      "1.8.22": "πάσας τὰς ἡμέρας τῆς γῆς σπέρμαθερισμός, ψῦχος καὶ καῦμα, θέρος καὶ ἔαρ ἡμέραν καὶ νύκτα οὐ κατα-IX"
+    },
+    "assessment_ko": "이 OCR 본문에서 칠십인역은 (1) 8:20 לַיהוָה를 τῷ θεῷ('하나님께')로, 복수 עֹלֹת를 단수 ὁλοκάρπωσιν으로 옮긴다. (2) 8:21 בַּעֲבוּר הָאָדָם을 διὰ τὰ ἔργα τῶν ἀνθρώπων('사람들의 행위 때문에')으로 풀고, וַיֹּאמֶר … אֶל־לִבּוֹ를 εἶπεν … διανοηθείς('숙고하여 말했다')로 옮기며(OCR에는 εἶπεν이 보이지 않는다 — OCR 누락인지 판본 차이인지 미확인), כִּי를 ὅτι(이유)로 받고 '악에 골똘히 기울어 있다(ἔγκειται … ἐπιμελῶς ἐπὶ τὰ πονηρά)'로 확장한 뒤, 두 번째 결심 앞에 οὖν('그러므로')을 넣어 사람의 악한 마음을 '다시 치지 않음'의 근거로 연결한다. כָּל־חַי는 πᾶσαν σάρκα ζῶσαν('모든 살아 있는 육체'). (3) 8:22 קַיִץ וָחֹרֶף를 θέρος καὶ ἔαρ('여름과 봄')으로 옮기고, 문두 עֹד에 해당하는 ἔτι가 OCR 본문에 보이지 않는다. 절 끝은 쪽 넘김으로 'κατα-'에서 잘렸다. 이것들은 번역 기법·수용사 증거이며, 칠십인역 원본(Vorlage)이 MT와 달랐다는 주장으로 쓰지 않는다. οὖν은 이유절 해석(כִּי causal)의 고대 수용 사례로만 인용한다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.8.20",
+      "clause": "מִכֹּל ׀ הַבְּהֵמָה הַטְּהוֹרָה",
+      "option": "(A) 모든 정결한 가축 / all the clean livestock / todo el ganado limpio (선호)",
+      "for": "1:25·2:20 채택문과 6:7 검토의 בְּהֵמָה 역어와 일치. 제물이 가축 범주임을 드러낸다.",
+      "against": "'가축'은 7:2-3 문맥의 '정결한 짐승' 관용 표현보다 덜 익숙하다.",
+      "verdict": "본문 채택안."
+    },
+    {
+      "verse": "Gen.8.20",
+      "clause": "מִכֹּל ׀ הַבְּהֵמָה הַטְּהוֹרָה",
+      "option": "(B) 모든 정결한 짐승 / every clean animal / todo animal limpio",
+      "for": "전통 역본 관용 표현에 가깝다고 알려져 있고(이 실행에서 역본 문구 미확인) 처음 독해에서 택했다.",
+      "against": "1:25·2:20 채택문에서 '짐승/animal'은 חַיָּה(들짐승)에 쓰여 범주가 섞인다.",
+      "verdict": "대안."
+    },
+    {
+      "verse": "Gen.8.20",
+      "clause": "וַיַּעַל עֹלֹת",
+      "option": "(A) 번제를 올려 드렸다 / offered up burnt offerings / ofreció holocaustos (선호)",
+      "for": "히필 '올리다'와 עֹלָה의 어근 연결을 ko '올려'·en 'up'으로 일부 살린다.",
+      "against": "es 'holocaustos'는 현대 일반 용법에서 다른 의미가 먼저 연상될 수 있다. ko는 복수 표시를 하지 않는다.",
+      "verdict": "본문 채택안. es 대안 'ofrendas quemadas'와 복수 עֹלֹת는 주석."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "רֵיחַ הַנִּיחֹחַ",
+      "option": "(A) 달래는 향기 / soothing aroma / aroma apaciguador (선호)",
+      "for": "נוח('쉬다, 가라앉다') 어원과 노아 이름 말놀이(5:29)를 반영한다. 의인화를 약화하지 않는다.",
+      "against": "레위기 제의 공식의 관용 역어는 '향기로운 냄새 / pleasing aroma / olor grato'이며, '달래다'는 신을 달래야 한다는 신학적 함의로 읽힐 수 있다.",
+      "verdict": "본문 채택안. 레위기·민수기 전체 공식 역어와 함께 최종 통일 필요."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "רֵיחַ הַנִּיחֹחַ",
+      "option": "(B) 기쁘게 하는 향기 / pleasing aroma / aroma agradable",
+      "for": "널리 쓰이는 관용 역어로 알려져 있으며(이 실행에서 역본 문구 미확인) 제의 공식으로 읽기 쉽다.",
+      "against": "어근 נוח와 노아 말놀이가 사라진다.",
+      "verdict": "강한 대안."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ",
+      "option": "(A) 마음속으로 말씀하셨다 / said in his heart / dijo en su corazón (선호)",
+      "for": "같은 절 לֵב הָאָדָם과 6:6 אֶל־לִבּוֹ와의 '마음' 연결을 유지한다.",
+      "against": "'to himself / 혼잣말로 / para sí'가 관용 의미(내적 결심)를 더 자연스럽게 전한다.",
+      "verdict": "본문 채택안."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "לְקַלֵּל … אֶת־הָאֲדָמָה",
+      "option": "(A) 저주하다 / curse / maldecir (선호)",
+      "for": "피엘 קלל의 일반 의미이고 12:3에서도 ארר와 나란히 '저주' 영역에 쓰인다.",
+      "against": "3:17·5:29의 ארר와 어근이 달라 독자가 같은 행위로 오인할 수 있다. 기본 의미 '가볍게 여기다'(16:4-5)와 8:8·8:11 '물이 줄다' 말놀이가 사라진다.",
+      "verdict": "본문 채택안. 어근 차이와 말놀이는 주석."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו",
+      "option": "(A) 이유: '…악하기 때문이다 / for … / porque …' (선호)",
+      "for": "כִּי의 가장 흔한 기능이다. 마소라 액센트(atnach)로 앞 반절에 묶인다. 같은 진단(6:5)이 이제는 심판이 아니라 유예의 근거가 되는 역설을 그대로 보존한다: 심판으로 사람의 마음이 고쳐지지 않으므로 하나님이 땅을 다시 치는 길을 택하지 않는다. 확인한 칠십인역 OCR도 ὅτι … οὖν으로 이유 관계를 읽는다.",
+      "against": "6:5-7에서 같은 악이 심판의 이유였으므로 이유절은 논리가 뒤집힌 것처럼 읽힌다.",
+      "verdict": "본문 채택안. 역설은 주석에서 설명."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו",
+      "option": "(B) 양보: '비록 …악할지라도 / even though … / aunque …'",
+      "for": "출 13:17 וְלֹא־נָחָם אֱלֹהִים … כִּי קָרוֹב הוּא('가까웠지만 그 길로 인도하지 않으셨다')처럼 부정된 행위 뒤의 양보 כִּי가 확인된다. 6:5와의 논리 긴장을 해소하고 낭독 이해가 쉽다.",
+      "against": "출 13:17은 바로 뒤에 실제 이유를 밝히는 두 번째 כִּי가 있어 양보 해석이 강제되지만, 8:21에는 다른 이유가 제시되지 않는다. 양보 해석은 본문의 역설을 번역자가 미리 해소한다.",
+      "verdict": "가장 강한 대안. 편집이 낭독 명료성을 우선하면 채택 가능."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו",
+      "option": "(C) 설명: 'בַּעֲבוּר הָאָדָם'만 설명 — '사람 때문에(사람의 마음이 악하기에 받을) 저주'",
+      "for": "כִּי 절이 직전 '사람 때문에'를 설명하는 것으로 볼 수 있다.",
+      "against": "번역문에서 구별해 표현하기 어렵고 (A)와 실질적 차이가 작다.",
+      "verdict": "주석에서만 언급."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "יֵצֶר לֵב הָאָדָם",
+      "option": "(A) 사람의 마음이 빚어내는 것 / what the human heart devises / lo que forja el corazón humano (선호)",
+      "for": "어근 יצר '빚다'(2:7)를 살리고, 6:5 검토의 역어 축과 일치해 두 절의 문학적 대조를 보존한다.",
+      "against": "מִנְּעֻרָיו('어려서부터')와 함께 쓰이면 '지속적 기울기(성향)'가 더 자연스러운 뜻일 수 있다. '빚어내다'는 한국어에서 낯설다. 이 검토의 처음 독해도 '성향'이었다.",
+      "verdict": "본문 채택안(6:5와 연동). 6:5 채택 결정이 '성향'이면 함께 바꾼다."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "יֵצֶר לֵב הָאָדָם",
+      "option": "(B) 사람 마음의 성향 / the inclination of the human heart / la inclinación del corazón humano",
+      "for": "영어권에서 흔한 역어로 알려져 있고(이 실행에서 역본 문구 미확인) '어려서부터'와 잘 어울린다. 처음 독해의 선택.",
+      "against": "후대 יֵצֶר הָרָע 개념과 원죄론 논의로 독자를 미리 이끈다. 6:5와 따로 정하면 대조가 흐려진다.",
+      "verdict": "강한 대안."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "מִנְּעֻרָיו",
+      "option": "(A) 어려서부터 / from youth / desde su juventud (선호) vs (B) 태어날 때부터 / from birth",
+      "for": "(A) נְעוּרִים의 의미(유년·청년기)에 맞다.",
+      "against": "(B)는 교리적 해석(원죄 전가)을 본문에 넣는다.",
+      "verdict": "(A) 채택, (B) 기각."
+    },
+    {
+      "verse": "Gen.8.21",
+      "clause": "לְהַכּוֹת אֶת־כָּל־חַי",
+      "option": "(A) 모든 생물을 치다 / strike down every living thing / herir a todo ser viviente (선호)",
+      "for": "נכה 히필의 기본 의미이고 6:7·7:23 מחה('지워 버리다')와 구별된다.",
+      "against": "'destroy / 멸하다 / destruir'가 문맥상 결과를 더 분명히 하지만 동사 구별이 사라진다.",
+      "verdict": "본문 채택안."
+    },
+    {
+      "verse": "Gen.8.22",
+      "clause": "עֹד כָּל־יְמֵי הָאָרֶץ",
+      "option": "(A) 땅이 남아 있는 모든 날 동안 / as long as the earth endures / mientras dure la tierra (선호)",
+      "for": "עֹד('아직')의 '지속' 의미와 כָּל־יְמֵי를 함께 반영한다.",
+      "against": "직역 '아직 땅의 모든 날 동안'이 더 문자적이지만 부자연스럽다. 칠십인역 OCR에는 עֹד 대응어가 보이지 않는다.",
+      "verdict": "본문 채택안. 칠십인역 차이는 미해결 항목."
+    },
+    {
+      "verse": "Gen.8.22",
+      "clause": "זֶרַע … וָחֹרֶף",
+      "option": "(A) 씨 뿌리는 때와 거두는 때 … 여름과 겨울 / seedtime and harvest … summer and winter / la siembra y la siega … el verano y el invierno (선호)",
+      "for": "계절 짝 메리즘을 유지하고 חֹרֶף의 일반 역어 '겨울'을 쓴다.",
+      "against": "חֹרֶף는 가을 밭갈이·우기 시작을 포함할 수 있고, 칠십인역 OCR은 ἔαρ('봄')로 옮겼다.",
+      "verdict": "본문 채택안. 계절 체계는 주석."
+    }
+  ],
+  "strongest_objection_to_own_reading": "가장 강한 반론은 8:21 כִּי를 이유절로 옮기는 선택이다. (1) 6:5-7에서 '사람 마음의 악'은 홍수 심판의 이유였는데 8:21에서 같은 진단이 '다시는 저주하지 않음'의 이유가 되면 독자는 논리가 뒤집혔다고 느낀다. (2) 출 13:17은 부정된 신적 행위 뒤에 양보 כִּי가 오는 같은 구조를 보여 준다. 일부 현대 역본이 8:21을 양보로 옮긴다고 알려져 있으나 이 실행에서 역본 문구를 직접 확인하지 않았다. (3) 양보 해석은 공적 낭독에서 오해를 줄인다. 이 반론을 절별로 시험했다: 마소라 액센트상 כִּי 절은 '땅을 저주하지 않음'과 한 반절을 이루며, 출 13:17과 달리 다른 이유가 따로 제시되지 않는다. 이유절은 '심판이 사람의 마음을 고치지 못하므로 하나님이 세상을 유지하는 쪽을 택한다'는 일관된 읽기를 주고, 확인한 칠십인역 OCR도 ὅτι … οὖν으로 이유 관계를 읽는다. 그래서 이유절을 유지하되, 양보 해석을 가장 강한 대안으로 주석에 반드시 남길 것을 제안한다. 두 번째로 강한 반론은 יֵצֶר를 6:5와 맞춰 '빚어내는 것'으로 바꾼 결정이다: 이 검토의 처음 독해가 '성향'이었고 מִנְּעֻרָיו와는 '성향'이 더 자연스럽다. 이 선택은 6:5 채택 결정에 종속된다.",
+  "preferred_wording": {
+    "Gen.8.20": {
+      "ko": "노아는 야훼께 제단을 쌓고, 모든 정결한 가축과 모든 정결한 새 가운데서 얼마를 가져다가 그 제단 위에 번제를 올려 드렸다.",
+      "en": "Then Noah built an altar to YHWH. He took some of all the clean livestock and of all the clean birds, and offered up burnt offerings on the altar.",
+      "es": "Entonces Noé edificó un altar a YHWH, tomó de todo el ganado limpio y de todas las aves limpias, y ofreció holocaustos sobre el altar."
+    },
+    "Gen.8.21": {
+      "ko": "야훼는 그 달래는 향기를 맡으시고, 마음속으로 말씀하셨다. “내가 다시는 사람 때문에 땅을 저주하지 않겠다. 사람의 마음이 빚어내는 것은 어려서부터 악하기 때문이다. 내가 한 것처럼 모든 생물을 다시는 치지 않겠다.",
+      "en": "YHWH smelled the soothing aroma, and YHWH said in his heart, “Never again will I curse the ground because of humankind, for what the human heart devises is evil from youth. Never again will I strike down every living thing as I have done.",
+      "es": "YHWH percibió el aroma apaciguador, y YHWH dijo en su corazón: «No volveré a maldecir el suelo por causa del ser humano, porque lo que forja el corazón humano es malo desde su juventud. Tampoco volveré a herir a todo ser viviente, como lo he hecho."
+    },
+    "Gen.8.22": {
+      "ko": "땅이 남아 있는 모든 날 동안, 씨 뿌리는 때와 거두는 때, 추위와 더위, 여름과 겨울, 낮과 밤이 그치지 않을 것이다.”",
+      "en": "As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night shall not cease.”",
+      "es": "Mientras dure la tierra, la siembra y la siega, el frío y el calor, el verano y el invierno, el día y la noche no cesarán»."
+    }
+  },
+  "proposed_notes_ko": {
+    "Gen.8.20": [
+      "성경에서 '제단'(מִזְבֵּחַ)이 처음 명시되는 곳이다. 노아는 명령 없이 제단을 쌓는다.",
+      "'정결한 가축/새'는 7:2-3의 구분을 잇는 제의적 범주이며, 같은 어구와 낭독 휴지 표지(paseq ׀)가 7:2에도 있다.",
+      "'번제를 올려 드렸다'는 동사 '올리다'(히필 עלה)와 명사 עֹלָה('올라가는 제물')의 어근 반복을 반영한다. 원문은 복수 '번제들'이다. 스페인어 'holocaustos' 대신 'ofrendas quemadas'도 가능하다. 칠십인역은 '하나님께'(τῷ θεῷ)와 단수 '번제'로 옮긴다."
+    ],
+    "Gen.8.21": [
+      "'달래는 향기'(רֵיחַ הַנִּיחֹחַ): נִיחֹחַ는 '쉬다/가라앉다'(נוח)와 연결되며 노아(נֹחַ, 5:29) 이름과 말놀이를 이룬다. 레위기 제의 공식 '기쁘게 하는 향기'(레 1:9 등)의 첫 용례다.",
+      "'마음속으로 말씀하셨다'(אֶל־לִבּוֹ)는 공표가 아닌 내적 결심이며, 6:6 '마음 깊이 아파하셨다'와 같은 표현, 같은 절의 '사람의 마음'과 대조된다.",
+      "'저주하다'(קלל 피엘)는 3:17·5:29의 '저주받다'(ארר)와 다른 어근이지만 '사람 때문에 … 땅'이라는 조합으로 3:17을 되울린다. 같은 어근이 8:8·8:11에서 '물이 줄었다(가벼워졌다)'로 쓰였다. '다시는'이 홍수 같은 추가 저주를 가리키는지 3:17 저주의 종결을 가리키는지는 해석이 갈린다.",
+      "'…때문이다'(כִּי)는 '비록 …일지라도'(양보)로도 읽을 수 있다. 6:5에서 심판의 이유였던 같은 진단이 여기서는 다시 심판하지 않는 결심과 이어진다. 이유로 읽으면 '심판이 사람의 마음을 고치지 못한다'는 뜻이 되고, 양보로 읽으면 '그럼에도 불구하고'의 은혜가 강조된다. 칠십인역은 '그러므로'(οὖν)를 넣어 이유 관계로 읽는다.",
+      "'마음이 빚어내는 것'(יֵצֶר)은 '빚다'(2:7)에서 온 말로 6:5와 같은 단어다. '성향'으로도 옮길 수 있다. 후대 유대교의 '악한 성향' 개념이나 원죄 교리는 이 본문의 수용사이며 역어에 넣지 않았다. '어려서부터'(מִנְּעֻרָיו)는 '태어날 때부터'가 아니다.",
+      "'치다'(נכה 히필)는 6:7·7:23의 '지워 버리다'(מחה)와 다른 동사다."
+    ],
+    "Gen.8.22": [
+      "8:21의 내적 발화는 8:22 끝까지 이어진다.",
+      "네 쌍(씨 뿌림·거둠, 추위·더위, 여름·겨울, 낮·밤)은 시간 전체를 가리키는 대구 표현이다. 히브리 농경 기후는 건기(קַיִץ)와 우기(חֹרֶף)의 두 계절 체계이며, 칠십인역은 חֹרֶף를 '봄'(ἔαρ)으로 옮겼다.",
+      "'그치다'(שבת)는 2:2-3에서 하나님이 일을 그치신 동사와 같은 어근이다. 문두 עֹד는 8:21과 달리 결여 철자로 쓰였고, 칠십인역 OCR 본문에는 대응어가 보이지 않는다."
+    ]
+  },
+  "editorial_consistency_findings": [
+    "신명: ko '야훼'·en/es 'YHWH'(창 4장 채택 관례)를 따랐다. 채택문 2:4·2:7 en 'Yahweh'/es 'Yahvé'와 4장 'YHWH' 사이 내부 불일치는 이미 있으며 편집 결정 사항이다(6:5-8 검토도 같은 지적).",
+    "יֵצֶר: 6:5(gen-6-5-8 검토, '빚어내는 것/devised/forjaban')와 8:21을 같은 의미 축으로 맞췄다. 둘 중 하나의 채택 결정이 바뀌면 다른 쪽도 함께 바꿔야 한다.",
+    "אֶל־לִבּוֹ: 6:6 검토 'to his heart / en su corazón / 마음 깊이'와 8:21 'in his heart / en su corazón / 마음속으로'는 동사(아파하다 대 말하다)에 맞춘 차이다.",
+    "אֲדָמָה: en 'ground'는 3:17 채택문과 일치. es 3:17 채택문 'la tierra'와 이 검토의 8:21 'el suelo'가 다르다 — 1:25 채택문 'el suelo', 6:7 검토 'la faz del suelo'와 함께 아다마/에레츠 구별 정책을 정해야 한다.",
+    "רֵיחַ נִיחֹחַ: 이 검토의 '달래는 향기 / soothing aroma / aroma apaciguador'는 레위기·민수기 수십 회 반복 공식의 역어를 미리 정하는 효과가 있으므로 오경 전체 결정과 연동해야 한다.",
+    "שבת: 2:2 채택문 en 'ceased'·es 'cesó'와 8:22 'shall not cease / no cesarán'은 어근 연결이 보인다. ko 2:2 '손을 떼셨다'와 8:22 '그치지 않을 것이다'는 연결이 보이지 않으므로 주석으로 보완한다.",
+    "인용부호: 채택문 4:7 es 끝이 '”'로 되어 있어 다른 es 채택문의 '»'와 다르다(이 단위 범위 밖, 참고 사항)."
+  ],
+  "final_opinion_ko": "Gen.8.20-22에는 현행 채택문이 없다. 이 검토는 미래 채택을 위한 연구 자료이며 preferred_wording은 잠정 의견이다. 핵심 원칙: (1) 8:21 כִּי는 이유절로 옮겨 6:5와의 역설(같은 진단, 반대 결과)을 보존하고, 양보 해석을 가장 강한 대안으로 반드시 주석에 둔다. (2) יֵצֶר는 6:5와 같은 '빚어내는 것/devises/forja' 축을 쓰되, 6:5 채택 결정에 따라 함께 '성향/inclination'으로 바꿀 수 있다. (3) אֶל־לִבּוֹ는 '마음'을 살려 신의 마음과 사람의 마음 대조를 유지한다. (4) קלל은 '저주하다'로 옮기되 3:17 ארר와 어근이 다름을 주석에 둔다. (5) רֵיחַ הַנִּיחֹחַ는 노아 말놀이를 살리는 '달래는 향기'를 제안하나 오경 제의 공식 전체와 함께 정한다. (6) 내적 발화는 8:22 끝까지 이어지며 인용부호를 거기서 닫는다. 기존 2026-10-24 Sonnet 초안과 비교하면 신명 표기, יֵצֶר 세 언어 불일치, en 'from his youth' 대명사, es 'destruir'가 구체적 수정 대상이고, 8:22 인용 종결은 초안이 옳아 채택했다.",
+  "confidence_limits": [
+    "본문 판단은 고정 커밋 WLC/OSHB 표시본 하나에 근거한다. 레닌그라드 사본 영인본, BHS/BHQ 비평 장치, 사마리아 오경, 사해 사본, 타르굼, 페쉬타, 불가타는 이 실행에서 확인하지 않았다.",
+    "칠십인역 증거는 제3자 저장소의 Swete OCR 원시 텍스트이며 OCR 오류가 보인다. 인쇄본·괴팅겐판·사본과 대조하지 않았다.",
+    "כִּי 이유/양보 판단은 문법적으로 둘 다 가능한 상황에서의 해석 선택이며 확신도는 중간이다.",
+    "고대 근동 홍수 이야기와의 병행(제물 냄새 모티프)은 널리 논의되지만 이 실행에서 원문을 확인하지 않았으므로 근거로 쓰지 않았다.",
+    "이 검토는 한 모델(요청·설정 모델 claude-opus-5-5)의 의견이다. GPT/Gemini 독립 검토, 인간 전문가 검토, 편집 채택이 없었다."
+  ],
+  "reconsider_if": [
+    "편집이 낭독 명료성을 우선해 8:21 כִּי 양보 해석을 택하면: ko '사람의 마음이 빚어내는 것이 어려서부터 악할지라도', en 'even though what the human heart devises is evil from youth', es 'aunque lo que forja el corazón humano sea malo desde su juventud'로 바꾼다.",
+    "6:5 יֵצֶר 채택 역어가 '성향/inclination/inclinación'으로 정해지면 8:21도 'the inclination of the human heart / 사람 마음의 성향 / la inclinación del corazón humano'로 맞춘다.",
+    "오경 전체의 רֵיחַ נִיחֹחַ 역어가 '기쁘게 하는 향기/pleasing aroma/aroma agradable'로 정해지면 8:21도 따른다.",
+    "신명 표기 정책(야훼/YHWH/Yahweh)이 통일되면 그 결정을 따른다.",
+    "아다마/에레츠 스페인어 구별 정책이 'la tierra' 통일로 정해지면 8:21 es를 'la tierra'로 바꾼다.",
+    "비평 장치(BHQ 창세기, 괴팅겐 칠십인역 Wevers판)나 사마리아 오경·쿰란 자료에서 8:21 בַּעֲבוּר הָאָדָם, 8:22 עֹד, 8:20 לַיהוָה에 실제 이문이 확인되면 본문 근거 표기를 갱신한다.",
+    "GPT/Gemini 독립 검토가 이 검토의 이유절 판단이나 '달래는 향기' 역어에 구체적 반증을 제시하면 재검토한다."
+  ],
+  "unresolved": [
+    "8:21 '다시는 땅을 저주하지 않겠다'의 범위: 홍수 같은 추가 저주의 포기인가, 3:17(5:29 라멕의 기대) 저주의 종결인가. 번역문은 '다시는'으로 두 해석을 모두 열어 둔다.",
+    "8:21 כִּי 이유/양보 해석 — 편집 결정 필요.",
+    "칠십인역 8:21 διὰ τὰ ἔργα τῶν ἀνθρώπων과 οὖν, εἶπεν의 OCR 부재가 판본 차이인지 OCR 누락인지 미확인.",
+    "칠십인역 8:22 OCR에서 עֹד 대응어 부재와 절 끝 절단(κατα-) — 인쇄본 확인 필요.",
+    "칠십인역 8:20 τῷ θεῷ 대 MT לַיהוָה — 번역 기법인지 다른 원본인지 판단할 증거가 패킷과 확인 자료에 없다.",
+    "사마리아 오경·쿰란·타르굼·불가타 미확인. 완전한 사본 대조는 주장하지 않는다.",
+    "רֵיחַ נִיחֹחַ·אֲדָמָה·신명 역어의 오경 전체 통일 정책 미정."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T09:05:24Z) into private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and parallels Gen 3:17, 5:29, 6:5, 6:6, 7:2, 9:11, 9:15, 24:45, 27:41, 12:3; lemma searches 7043, 779, 3336, 5207.",
+      "excerpts": {
+        "Gen.3.17": "וּלְאָדָ֣ם אָמַ֗ר כִּֽי־שָׁמַעְתָּ֮ לְק֣וֹל אִשְׁתֶּךָ֒ וַתֹּ֨אכַל֙ מִן־הָעֵ֔ץ אֲשֶׁ֤ר צִוִּיתִ֨יךָ֙ לֵאמֹ֔ר לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ אֲרוּרָ֤ה הָֽאֲדָמָה֙ בַּֽעֲבוּרֶ֔ךָ בְּעִצָּבוֹן֙ תֹּֽאכֲלֶ֔נָּה כֹּ֖ל יְמֵ֥י חַיֶּֽיךָ ׃",
+        "Gen.5.29": "וַיִּקְרָ֧א אֶת־שְׁמ֛וֹ נֹ֖חַ לֵאמֹ֑ר זֶ֞֠ה יְנַחֲמֵ֤נוּ מִֽמַּעֲשֵׂ֨נוּ֙ וּמֵעִצְּב֣וֹן יָדֵ֔ינוּ מִן־הָ֣אֲדָמָ֔ה אֲשֶׁ֥ר אֵֽרְרָ֖הּ יְהוָֽה ׃",
+        "Gen.6.5": "וַיַּ֣רְא יְהוָ֔ה כִּ֥י רַבָּ֛ה רָעַ֥ת הָאָדָ֖ם בָּאָ֑רֶץ וְכָל־יֵ֨צֶר֙ מַחְשְׁבֹ֣ת לִבּ֔וֹ רַ֥ק רַ֖ע כָּל־הַיּֽוֹם ׃",
+        "Gen.6.6": "וַיִּנָּ֣חֶם יְהוָ֔ה כִּֽי־עָשָׂ֥ה אֶת־הָֽאָדָ֖ם בָּאָ֑רֶץ וַיִּתְעַצֵּ֖ב אֶל־לִבּֽוֹ ׃",
+        "Gen.7.2": "מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה תִּֽקַּח־לְךָ֛ שִׁבְעָ֥ה שִׁבְעָ֖ה אִ֣ישׁ וְאִשְׁתּ֑וֹ וּמִן־הַבְּהֵמָ֡ה אֲ֠שֶׁר לֹ֣א טְהֹרָ֥ה הִ֛וא שְׁנַ֖יִם אִ֥ישׁ וְאִשְׁתּֽוֹ ׃",
+        "Gen.24.45": "אֲנִי֩ טֶ֨רֶם אֲכַלֶּ֜ה לְדַבֵּ֣ר אֶל־לִבִּ֗י וְהִנֵּ֨ה רִבְקָ֤ה יֹצֵאת֙ וְכַדָּ֣הּ עַל־שִׁכְמָ֔הּ וַתֵּ֥רֶד הָעַ֖יְנָה וַתִּשְׁאָ֑ב וָאֹמַ֥ר אֵלֶ֖יהָ הַשְׁקִ֥ינִי נָֽא ׃"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T09:07:47Z-09:07:49Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exod (same rights as above); parallel usage only.",
+      "excerpts": {
+        "Exod.13.17": "וַיְהִ֗י בְּשַׁלַּ֣ח פַּרְעֹה֮ אֶת־הָעָם֒ וְלֹא־נָחָ֣ם אֱלֹהִ֗ים דֶּ֚רֶךְ אֶ֣רֶץ פְּלִשְׁתִּ֔ים כִּ֥י קָר֖וֹב ה֑וּא כִּ֣י ׀ אָמַ֣ר אֱלֹהִ֗ים פֶּֽן־יִנָּחֵ֥ם הָעָ֛ם בִּרְאֹתָ֥ם מִלְחָמָ֖ה וְשָׁ֥בוּ מִצְרָֽיְמָה ׃"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+      "accessed_utc": "2026-10-30T09:07:47Z-09:07:49Z",
+      "file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "what_it_is": "Pinned WLC/OSHB Lev (same rights as above); parallel usage only.",
+      "excerpts": {
+        "Lev.1.9": "וְקִרְבּ֥וֹ וּכְרָעָ֖יו יִרְחַ֣ץ בַּמָּ֑יִם וְהִקְטִ֨יר הַכֹּהֵ֤ן אֶת־הַכֹּל֙ הַמִּזְבֵּ֔חָה עֹלָ֛ה אִשֵּׁ֥ה רֵֽיחַ־נִיח֖וֹחַ לַֽיהוָֽה ׃ ס"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-30T09:07:47Z-09:07:49Z",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "what_it_is": "Pinned WLC/OSHB Deut (same rights as above); parallel usage only.",
+      "excerpts": {
+        "Deut.31.21": "וְ֠הָיָה כִּֽי־תִמְצֶ֨אןָ אֹת֜וֹ רָע֣וֹת רַבּוֹת֮ וְצָרוֹת֒ וְ֠עָנְתָה הַשִּׁירָ֨ה הַזֹּ֤את לְפָנָיו֙ לְעֵ֔ד כִּ֛י לֹ֥א תִשָּׁכַ֖ח מִפִּ֣י זַרְע֑וֹ כִּ֧י יָדַ֣עְתִּי אֶת־יִצְר֗וֹ אֲשֶׁ֨ר ה֤וּא עֹשֶׂה֙ הַיּ֔וֹם בְּטֶ֣רֶם אֲבִיאֶ֔נּוּ אֶל־הָאָ֖רֶץ אֲשֶׁ֥ר נִשְׁבָּֽעְתִּי ׃"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T09:07:47Z-09:07:49Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Ps (same rights as above); parallel usage only.",
+      "excerpts": {
+        "Ps.103.14": "כִּי־ה֖וּא יָדַ֣ע יִצְרֵ֑נוּ זָ֝כ֗וּר כִּי־עָפָ֥ר אֲנָֽחְנוּ ׃"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-10-30T09:07:48Z",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "what_it_is": "Pinned WLC/OSHB Numbers; fetched but not cited.",
+      "excerpts": {}
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T09:07:49Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); reception evidence only; rights of the OCR repository not assessed, only short excerpts quoted.",
+      "excerpts": {
+        "1.8.20": "Καὶ ᾠκοδόμησεν Νῶε θυσιαστήριον τῷ θεῷ, καὶ ἔλαβεν ἀπὸ πόντων τῶν κτηνῶν τῶν καθαρῶν καὶ ἀπὸ πάντωντῶν πετεινῶν τῶν καθαρῶν, καὶ ἀνήνεγκεν ὁλοκάρπωσιν ἐπὶ τὸ θυσιαστήριον.",
+        "1.8.21": "καὶ ὠσΦρἀνθη κύριος ὁ θεὸς ὀσμἠν εὐωδίας, καὶΚύριος ὁ θεὸς διανοηθείς Οὐ προσθήσω ἔτι τοῦ καταράσασθαι τὴν γῆνδιὰ τὰ ἔργα τῶν ἀνθρώπων, ὅτι ἔγκειται ἡ διάνοια τοῦ ἀνθρώπου ἐπιμελῶςἐπὶ τὰ πονηρὰ ἐκ νεότητος· § οὐ προσθήσω οὖν ἔτι πατάξαι πᾶσαν  σάρκα ζῶσαν καθὼς ἐποίησα.",
+        "1.8.22": "πάσας τὰς ἡμέρας τῆς γῆς σπέρμαθερισμός, ψῦχος καὶ καῦμα, θέρος καὶ ἔαρ ἡμέραν καὶ νύκτα οὐ κατα-IX"
+      }
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or critical-apparatus verification was performed.",
+    "No GPT, Gemini, Antigravity or human specialist response is represented or simulated.",
+    "No unanimous agreement or editorial adoption is claimed.",
+    "No credit balance, dollar amount or credit deduction is asserted.",
+    "Current selected translations, immutable releases, dist/ and main were not modified."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T090524Z-179e2d93.json",
+    "packet_sha256": "9078f9642c9983e15f515254fa8417e28929ee12084fa688da36b954673ce30b",
+    "verses": [
+      {
+        "id": "Gen.8.20",
+        "raw_xml": "<verse osisID=\"Gen.8.20\">\n          <w lemma=\"c/1129\" morph=\"HC/Vqw3ms\" id=\"01LXw\">וַ/יִּ֥בֶן</w>\n          <w lemma=\"5146\" n=\"1.0.0\" morph=\"HNp\" id=\"01una\">נֹ֛חַ</w>\n          <w lemma=\"4196\" n=\"1.0\" morph=\"HNcmsa\" id=\"01em6\">מִזְבֵּ֖חַ</w>\n          <w lemma=\"l/3068\" n=\"1\" morph=\"HR/Np\" id=\"01157\">לַֽ/יהוָ֑ה</w>\n          <w lemma=\"c/3947\" n=\"0.1.1.1\" morph=\"HC/Vqw3ms\" id=\"01quT\">וַ/יִּקַּ֞ח</w>\n          <w lemma=\"m/3605\" n=\"0.1.1.0\" morph=\"HR/Ncmsc\" id=\"016Vo\">מִ/כֹּ֣ל</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"d/929\" morph=\"HTd/Ncfsa\" id=\"01E91\">הַ/בְּהֵמָ֣ה</w>\n          <w lemma=\"d/2889\" n=\"0.1.1\" morph=\"HTd/Aafsa\" id=\"013Cf\">הַ/טְּהוֹרָ֗ה</w>\n          <w lemma=\"c/m/3605\" n=\"0.1.0\" morph=\"HC/R/Ncmsc\" id=\"01bsi\">וּ/מִ/כֹּל֙</w>\n          <w lemma=\"d/5775\" morph=\"HTd/Ncmsa\" id=\"01MWq\">הָ/ע֣וֹף</w>\n          <w lemma=\"d/2889\" n=\"0.1\" morph=\"HTd/Aamsa\" id=\"0134f\">הַ/טָּהֹ֔ר</w>\n          <w lemma=\"c/5927\" morph=\"HC/Vhw3ms\" id=\"01aVY\">וַ/יַּ֥עַל</w>\n          <w lemma=\"5930 a\" n=\"0.0\" morph=\"HNcfpa\" id=\"01hNg\">עֹלֹ֖ת</w>\n          <w lemma=\"b/4196\" n=\"0\" morph=\"HRd/Ncmsa\" id=\"01G8o\">בַּ/מִּזְבֵּֽחַ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "a81c1ec1a063ef28944a03411d2c1389e1fde5ce512b136b3b295fb45413053f",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.8.21",
+        "raw_xml": "<verse osisID=\"Gen.8.21\">\n          <w lemma=\"c/7306\" morph=\"HC/Vhw3ms\" id=\"013Gd\">וַ/יָּ֣רַח</w>\n          <w lemma=\"3068\" n=\"1.2.0\" morph=\"HNp\" id=\"01iWk\">יְהוָה֮</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01mCg\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7381\" morph=\"HNcmsc\" id=\"01tq2\">רֵ֣יחַ</w>\n          <w lemma=\"d/5207\" n=\"1.2\" morph=\"HTd/Ncmsa\" id=\"01V3N\">הַ/נִּיחֹחַ֒</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01hKH\">וַ/יֹּ֨אמֶר</w>\n          <w lemma=\"3068\" n=\"1.1.1.0\" morph=\"HNp\" id=\"01NHj\">יְהוָ֜ה</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01Pym\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3820 a\" n=\"1.1.1\" morph=\"HNcmsc/Sp3ms\" id=\"01D5E\">לִבּ֗/וֹ</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01rsU\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3254\" n=\"1.1.0.0\" morph=\"HVhi1cs\" id=\"01nrb\">אֹ֠סִף</w>\n          <w lemma=\"l/7043\" morph=\"HR/Vpc\" id=\"01hgT\">לְ/קַלֵּ֨ל</w>\n          <w lemma=\"5750\" morph=\"HD\" id=\"01ycN\">ע֤וֹד</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"018Zr\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/127\" n=\"1.1.0\" morph=\"HTd/Ncfsa\" id=\"01Lrg\">הָֽ/אֲדָמָה֙</w>\n          <w lemma=\"b/5668\" morph=\"HR/Ncmsc\" id=\"011L6\">בַּ/עֲב֣וּר</w>\n          <w lemma=\"d/120\" n=\"1.1\" morph=\"HTd/Ncmsa\" id=\"01159\">הָֽ/אָדָ֔ם</w>\n          <w lemma=\"3588 a\" n=\"1.0.0.0\" morph=\"HC\" id=\"01yeC\">כִּ֠י</w>\n          <w lemma=\"3336\" morph=\"HNcmsc\" id=\"01Wj8\">יֵ֣צֶר</w>\n          <w lemma=\"3820 a\" morph=\"HNcmsc\" id=\"01reX\">לֵ֧ב</w>\n          <w lemma=\"d/120\" n=\"1.0.0\" morph=\"HTd/Ncmsa\" id=\"01Lng\">הָ/אָדָ֛ם</w>\n          <w lemma=\"7451 a\" n=\"1.0\" morph=\"HAamsa\" id=\"01CzS\">רַ֖ע</w>\n          <w lemma=\"m/5271 a\" n=\"1\" morph=\"HR/Ncbpc/Sp3ms\" id=\"01RCv\">מִ/נְּעֻרָ֑י/ו</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"01x1h\">וְ/לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3254\" morph=\"HVhi1cs\" id=\"01YBK\">אֹסִ֥ף</w>\n          <w lemma=\"5750\" n=\"0.0.0\" morph=\"HD\" id=\"01GL3\">ע֛וֹד</w>\n          <w lemma=\"l/5221\" morph=\"HR/Vhc\" id=\"01r2t\">לְ/הַכּ֥וֹת</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01rWe\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3605\" morph=\"HNcmsc\" id=\"01zto\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2416 a\" n=\"0.0\" morph=\"HAamsa\" id=\"01pCR\">חַ֖י</w>\n          <w lemma=\"k/834 d\" morph=\"HR/Tr\" id=\"017YV\">כַּֽ/אֲשֶׁ֥ר</w>\n          <w lemma=\"6213 a\" n=\"0\" morph=\"HVqp1cs\" id=\"01K4a\">עָשִֽׂיתִי</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "36d4204ceb4ae37cd4e16f00a6bbc38245d754ec855107ce8bd08b6c645a9800",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.8.22",
+        "raw_xml": "<verse osisID=\"Gen.8.22\">\n          <w lemma=\"5750\" n=\"1.0\" morph=\"HD\" id=\"01N17\">עֹ֖ד</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"013Nb\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3117\" morph=\"HNcmpc\" id=\"01AES\">יְמֵ֣י</w>\n          <w lemma=\"d/776\" n=\"1\" morph=\"HTd/Ncbsa\" id=\"01hh3\">הָ/אָ֑רֶץ</w>\n          <w lemma=\"2233\" n=\"0.0.0.2\" morph=\"HNcmsa\" id=\"018xp\">זֶ֡רַע</w>\n          <w lemma=\"c/7105 a\" n=\"0.0.0.1\" morph=\"HC/Ncmsa\" id=\"01wfD\">וְ֠/קָצִיר</w>\n          <w lemma=\"c/7120\" morph=\"HC/Ncmsa\" id=\"01Lka\">וְ/קֹ֨ר</w>\n          <w lemma=\"c/2527\" n=\"0.0.0.0\" morph=\"HC/Ncmsa\" id=\"01irT\">וָ/חֹ֜ם</w>\n          <w lemma=\"c/7019\" morph=\"HC/Ncmsa\" id=\"0122j\">וְ/קַ֧יִץ</w>\n          <w lemma=\"c/2779\" n=\"0.0.0\" morph=\"HC/Ncmsa\" id=\"012eE\">וָ/חֹ֛רֶף</w>\n          <w lemma=\"c/3117\" morph=\"HC/Ncmsa\" id=\"01sGR\">וְ/י֥וֹם</w>\n          <w lemma=\"c/3915\" n=\"0.0\" morph=\"HC/Ncmsa\" id=\"01FKm\">וָ/לַ֖יְלָה</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01eb4\">לֹ֥א</w>\n          <w lemma=\"7673 a\" n=\"0\" morph=\"HVqi3mp\" id=\"01fqb\">יִשְׁבֹּֽתוּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "026dc3da3322a3d7522db359506cc8e5a37e957103e38be5b086faf69284a57e",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "author_project": "Hansam Yang (founder and original creator); this file is a model review, not an editorial selection"
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T090524Z-179e2d93.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "qere_ketiv_present": false,
+    "paseq_preserved_in_raw": true,
+    "network_excerpts_verified_against_fetched_files": true,
+    "nonempty_ko_en_es": true,
+    "independent_reading_per_verse": true,
+    "clause_coverage": {
+      "Gen.8.20": 4,
+      "Gen.8.21": 5,
+      "Gen.8.22": 6
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "current_selected_changed": false,
+    "current_selected_in_packet": 0,
+    "original_vs_interpretation_separated": "clause notes carry a category (lexical/syntax/discourse/textual/historical/reception); LXX is labelled reception/translation technique, not Vorlage; editorial-layer choices are in alternatives/editorial_consistency_findings",
+    "authentic_attribution": "Only actual saved records are compared and quoted; no GPT/Gemini/human response is represented.",
+    "target_ids_exactly_once": true,
+    "notes_per_verse": true,
+    "quote_balance_across_unit": {
+      "ko": [
+        1,
+        1
+      ],
+      "en": [
+        1,
+        1
+      ],
+      "es": [
+        1,
+        1
+      ]
+    },
+    "all_required_checks_pass": true,
+    "pointed_quotes_with_cantillation_verbatim": true
+  }
+}
