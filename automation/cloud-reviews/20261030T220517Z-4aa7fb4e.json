@@ -1,0 +1,1077 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T220517Z-4aa7fb4e",
+  "unit_id": "gen-49-8-12",
+  "verse_ids": [
+    "Gen.49.8",
+    "Gen.49.9",
+    "Gen.49.10",
+    "Gen.49.11",
+    "Gen.49.12"
+  ],
+  "unit_issue_ko": "실로/그에게 속한 것·홀·발 사이·포도주와 왕권",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.49.8-12 = 전통 장절 창세기 49:8-12 (한국어 KRV, 영어 ASV, 스페인어 RV1909 라이브러리 파일 같은 번호 확인; 칠십인역 OCR 1.49.8-1.49.12). 인용 평행 중 Ezek.21.32 = 개역/영어 21:27, Ps.68.30 = 영어 68:29, Ps.76.12 = 영어 76:11 (히브리어 번호 기준).",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml (copied byte-for-byte from the claim packet by script). Hebrew in clause labels and excerpts is a derived display (see excerpt_form) and is not source text.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T22:05Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The system prompt of this session also names claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVJNf3XL9jAJAnwu5ND",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is service metadata only; no balance, dollar amount or per-run credit deduction was exposed or is asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ],
+    "identity_rechecked": "2026-10-30T22:12:32Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional allowed, isUsingOverage false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Gen.49.8",
+      "clauses": [
+        {
+          "hebrew_display": "יְהוּדָה אַתָּה יוֹדוּךָ אַחֶיךָ",
+          "kind": "syntactic/lexical",
+          "reading_ko": "호격 유다 + 강조 대명사 אַתָּה(전치 주제) + 히필 미완료 יוֹדוּךָ(찬양하다/인정하다). 문자적으로 ‘유다야, 너 — 네 형제들이 너를 찬양하리라’. 이름 יְהוּדָה와 어근 ידה의 소리 연결은 29:35 이름 설명과 이어지는 언어유희(문학 관찰이며 어원 확정 아님)."
+        },
+        {
+          "hebrew_display": "יָדְךָ בְּעֹרֶף אֹיְבֶיךָ",
+          "kind": "syntactic/lexical",
+          "reading_ko": "동사 없는 명사문. 시제는 문맥(앞뒤 미완료)에서 미래로 읽는다. עֹרֶף = 목덜미(등을 보이고 도망치는 원수의 목). ‘손을 목에 둔다’는 제압 이미지."
+        },
+        {
+          "hebrew_display": "יִשְׁתַּחֲוּוּ לְךָ בְּנֵי אָבִיךָ",
+          "kind": "lexical/textual-form",
+          "reading_ko": "‘네 아버지의 아들들’(이복형제 포함 전체)이 네게 엎드려 절하리라. 원시 XML의 WLC note n=1(“BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form…”)은 이 동사 형태의 철자/모음 타당성에 대한 WLC 편집 메모이며, 다른 읽기(이문)를 제시하지 않는다. 의미에는 영향이 없다."
+        }
+      ]
+    },
+    {
+      "id": "Gen.49.9",
+      "clauses": [
+        {
+          "hebrew_display": "גּוּר אַרְיֵה יְהוּדָה",
+          "kind": "lexical",
+          "reading_ko": "명사문: 유다는 사자 새끼다(3인칭)."
+        },
+        {
+          "hebrew_display": "מִטֶּרֶף בְּנִי עָלִיתָ",
+          "kind": "syntactic/lexical",
+          "reading_ko": "2인칭 전환. בְּנִי(OSHB: 연계형+1인칭 접미)는 호격 ‘내 아들아’가 자연스럽다. 대안: ‘내 아들의 먹이에서’(연계 구)는 문맥상 약하다. מִטֶּרֶף + עָלָה = 사냥한 먹이에서 (굴로) 올라왔다 / 먹이를 먹고 자라났다. 37:33(טָרֹף טֹרַף יוֹסֵף)과의 낱말 반향은 문학 관찰일 뿐이다."
+        },
+        {
+          "hebrew_display": "כָּרַע רָבַץ כְּאַרְיֵה וּכְלָבִיא",
+          "kind": "lexical",
+          "reading_ko": "다시 3인칭. 두 완료 동사 나열(몸을 굽혔다, 엎드렸다)은 시적 묘사로 현재처럼 옮길 수 있다. לָבִיא는 OSHB 성 표시 b(양성) — 암사자/사자(다른 사자 낱말) 사이 불확실."
+        },
+        {
+          "hebrew_display": "מִי יְקִימֶנּוּ",
+          "kind": "lexical",
+          "reading_ko": "קום 히필 + 3남단 접미: 누가 그를 일으키랴(건드려 깨우랴). 수사 의문."
+        }
+      ]
+    },
+    {
+      "id": "Gen.49.10",
+      "clauses": [
+        {
+          "hebrew_display": "לֹא יָסוּר שֵׁבֶט מִיהוּדָה",
+          "kind": "lexical",
+          "reading_ko": "שֵׁבֶט = 홀(왕권 막대). ‘지파’ 뜻도 있으나 ‘떠나지 않다’와 짝이므로 홀."
+        },
+        {
+          "hebrew_display": "וּמְחֹקֵק מִבֵּין רַגְלָיו",
+          "kind": "lexical/syntactic",
+          "reading_ko": "מְחֹקֵק는 폴렐 분사(OSHB Vmrmsa: ‘정하는 자’). 평행 שֵׁבֶט 때문에 사물 ‘통치 지팡이’로 읽는다(대안: ‘입법자/통치자’). ‘그의 발 사이에서’ = 앉은 통치자 발 사이에 세운 지팡이 그림. 후손 완곡어 해석은 수용사 주제이며 이 패킷으로 검증되지 않는다."
+        },
+        {
+          "hebrew_display": "עַד כִּי יָבֹא שילה (Ketiv) / שִׁילוֹ (Qere)",
+          "kind": "textual(Ketiv/Qere)/lexical/syntactic/reception",
+          "reading_ko": "원시 XML: Ketiv שילה, Qere שִׁילוֹ; OSHB는 둘 다 lemma 7886, 품사 HNp(고유명사)로 표시(형태소 DB의 해석 결정). 주어/방향 모두 미정: (a) ‘실로가 올 때까지’(고유명/칭호를 주어로), (b) ‘그가 실로(지명)에 올 때까지’, (c) שֶׁלּוֹ ‘그에게 속한 이/것이 올 때까지’, (d) שַׁי לוֹ ‘그에게 공물이 올 때까지’(재모음화). (c)(d)는 재구성/재분석이며 고정본에 쓰인 읽기가 아니다. עַד כִּי는 반드시 종결(그때 홀이 떠남)을 뜻하지 않고 절정 도달을 뜻할 수 있다."
+        },
+        {
+          "hebrew_display": "וְלוֹ יִקְּהַת עַמִּים",
+          "kind": "lexical",
+          "reading_ko": "יִקְּהַת는 잠 30:17(לִיקֲּהַת אֵם)과 함께 드문 낱말: 순종/복종. לוֹ의 지시 대상은 (a)(c)(d)에서는 오는 자/유다, (b)에서는 유다. עַמִּים = 민족들/백성들(이스라엘 지파 집단일 가능성도 있음, 28:3 קְהַל עַמִּים)."
+        }
+      ]
+    },
+    {
+      "id": "Gen.49.11",
+      "clauses": [
+        {
+          "hebrew_display": "אֹסְרִי לַגֶּפֶן עירה (Ketiv) / עִירוֹ (Qere)",
+          "kind": "syntactic/textual-orthography",
+          "reading_ko": "אֹסְרִי = 칼 분사 연계형(옛 연결 모음 -ī). 주어는 3남단 ‘그’(유다 또는 10절의 오는 자 — 모호). Ketiv עירה의 끝 ה는 고형 3남단 접미 철자, Qere עִירוֹ는 표준 철자. 의미 차이 없음. עַיִר = 어린 수나귀(슥 9:9 עַיִר בֶּן אֲתֹנוֹת과 같은 낱말 짝)."
+        },
+        {
+          "hebrew_display": "וְלַשֹּׂרֵקָה בְּנִי אֲתֹנוֹ",
+          "kind": "lexical",
+          "reading_ko": "שֹׂרֵקָה = 좋은(붉은 품종) 포도나무. 자기 암나귀의 새끼."
+        },
+        {
+          "hebrew_display": "כִּבֵּס בַּיַּיִן לְבֻשׁוֹ",
+          "kind": "lexical/syntactic",
+          "reading_ko": "피엘 완료 ‘빨다’. 예언적/묘사적 완료로 현재 또는 미래로 옮김 가능."
+        },
+        {
+          "hebrew_display": "וּבְדַם עֲנָבִים סותה (Ketiv) / סוּתוֹ (Qere)",
+          "kind": "lexical/textual-orthography",
+          "reading_ko": "‘포도의 피’ 은유 보존. סוּת는 성경 단 1회 — 평행에서 ‘옷/겉옷’으로 추정(불확실). Ketiv סותה도 고형 3남단 철자이며 의미 차이 없음. 전체 그림: 포도나무가 나귀 매는 말뚝이 되고 포도주가 빨래물이 될 만큼 풍요."
+        }
+      ]
+    },
+    {
+      "id": "Gen.49.12",
+      "clauses": [
+        {
+          "hebrew_display": "חַכְלִילִי עֵינַיִם מִיָּיִן",
+          "kind": "lexical/syntactic",
+          "reading_ko": "חַכְלִילִי(OSHB 형용사 연계형) — 성경 단 1회, 명사 חַכְלִלוּת(잠 23:29)과 관련. 색(검붉다/짙다/흐리다/반짝이다) 불확실. מִן은 비교(포도주보다) 또는 원인(포도주로 인해) 둘 다 문법상 가능."
+        },
+        {
+          "hebrew_display": "וּלְבֶן שִׁנַּיִם מֵחָלָב",
+          "kind": "syntactic",
+          "reading_ko": "희다 + מִן: 비교(우유보다 흰 이) 또는 원인(우유로 흰 이). 독립 단계에서는 결정하지 않고 비교 쪽으로 기울었다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Gen.49.8",
+      "ko": "유다야, 너는 네 형제들이 너를 찬양하리라. 네 손은 네 원수들의 목덜미에 있고, 네 아버지의 아들들이 네게 엎드려 절하리라.",
+      "en": "Judah, you are the one your brothers shall praise; your hand shall be on the neck of your enemies; your father's sons shall bow down to you.",
+      "es": "Judá, a ti te alabarán tus hermanos; tu mano estará sobre la nuca de tus enemigos; los hijos de tu padre se postrarán ante ti."
+    },
+    {
+      "id": "Gen.49.9",
+      "ko": "유다는 사자 새끼다. 내 아들아, 너는 먹이를 잡고 올라왔다. 그가 수사자처럼, 암사자처럼 몸을 굽히고 엎드리니, 누가 그를 일으키랴?",
+      "en": "Judah is a lion's cub; from the prey, my son, you have gone up. He crouches, he lies down like a lion, like a lioness; who will rouse him?",
+      "es": "Cachorro de león es Judá; de la presa, hijo mío, has subido. Se agazapa, se echa como león, como leona; ¿quién lo hará levantar?"
+    },
+    {
+      "id": "Gen.49.10",
+      "ko": "홀이 유다에게서 떠나지 않고, 통치자의 지팡이가 그의 발 사이에서 떠나지 않으리니, 실로[Ketiv 쉴라 / Qere 실로; 또는 '그에게 속한 이/것'] 가 올 때까지이다. 그에게 민족들의 순종이 있으리라.",
+      "en": "The scepter shall not turn aside from Judah, nor the ruler's staff from between his feet, until Shiloh comes [or: until he comes to whom it belongs / until tribute comes to him]; and to him shall be the obedience of the peoples.",
+      "es": "No se apartará el cetro de Judá, ni el bastón de mando de entre sus pies, hasta que venga Siló [o: hasta que venga aquel a quien pertenece / hasta que le llegue tributo]; y a él será la obediencia de los pueblos."
+    },
+    {
+      "id": "Gen.49.11",
+      "ko": "그는 자기 나귀 새끼를 포도나무에, 자기 암나귀의 새끼를 좋은 포도나무에 매고, 자기 옷을 포도주에, 자기 겉옷을 포도의 피에 빤다.",
+      "en": "Binding his foal to the vine and his donkey's colt to the choice vine, he washes his garment in wine and his robe in the blood of grapes.",
+      "es": "Ata a la vid su pollino, y a la cepa escogida el hijo de su asna; lava en vino su vestido, y en sangre de uvas su manto."
+    },
+    {
+      "id": "Gen.49.12",
+      "ko": "그의 눈은 포도주로 검붉고, 그의 이는 우유로 희다.",
+      "en": "His eyes are darker than wine, and his teeth whiter than milk.",
+      "es": "Sus ojos, más oscuros que el vino; sus dientes, más blancos que la leche."
+    }
+  ],
+  "initial_proposals_note": "Initial proposals were written from the packet before opening any earlier model record for Gen.49.8-12 (scratch file written about 2026-10-30T22:06Z; only a truncated preview of the Gen.49.1 entry of the Sonnet cloud draft was visible at that time). The initial Gen.49.10 wording carried bracketed alternatives inline, and the initial Gen.49.12 Korean (causal) disagreed with its en/es (comparative); both were settled in preferred_wording.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 4197e00) has no Gen.49 verse; packet current_selected is empty."
+    },
+    {
+      "kind": "saved_cloud_draft",
+      "result": "found_partial",
+      "path": "origin/claude/friendly-heisenberg-d343dy:automation/cloud-drafts/20261027T031827Z-3b54dc9c.json",
+      "model_label_as_saved": "requested_or_configured_model claude-sonnet-5-5 (identity basis: session system context; not endpoint-verified, as recorded in that file)",
+      "state_as_saved": "unadopted_model_draft",
+      "covers": [
+        "Gen.49.9",
+        "Gen.49.12"
+      ],
+      "not_covered": [
+        "Gen.49.8",
+        "Gen.49.10",
+        "Gen.49.11"
+      ],
+      "note": "That draft skipped Gen.49.8, 49.10 and 49.11 (deferred Ketiv/Qere or note markup; listed in automation/source-queue-report.json deferred_unsupported_readings). Its source_hebrew_sha256 values hash a plain Hebrew string, not the raw XML fragment, so they differ from this packet fragment hashes; its source_file_sha256 0526e5c9... equals this packet, so there is no source mismatch."
+    },
+    {
+      "kind": "saved_gpt_or_gemini_record",
+      "result": "none_found",
+      "note": "git grep over data/ and automation/ on main and every fetched origin/claude/* ref found no GPT, Gemini or other model record for Gen.49.8-12 besides the Sonnet cloud draft."
+    },
+    {
+      "kind": "other_cloud_review",
+      "result": "none_found",
+      "note": "No hard-review packet or cloud-review on any fetched claude/ branch targets Gen.49.8-12 except this run."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Gen.49.8/10/11",
+      "severity": "high",
+      "finding_ko": "기존 일괄 초안에 이 세 절이 없다. 이 검토가 유다 축복 핵심 절(실로 포함)의 첫 초안이다. Ketiv/Qere와 WLC note는 원시 XML에 그대로 보존했다."
+    },
+    {
+      "id": "Gen.49.12",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안은 en/es ‘darker/más oscuros’, ko ‘붉고’로 세 언어 색채어가 다르다. 이 검토는 ‘짙고/darker/más oscuros’로 통일하고 색 불확실성을 각주로 둔다. 비교 독해 자체는 Sonnet 초안과 같다."
+    },
+    {
+      "id": "Gen.49.9",
+      "severity": "low",
+      "finding_ko": "Sonnet 초안 ko ‘그는 웅크려 사자처럼, 암사자처럼 누웠으니’와 이 검토는 실질적으로 같다. en ‘who dares rouse him’의 ‘dares’는 원문에 없는 양태 보충; 이 검토는 ‘who will rouse him’. es ‘despertará’ vs ‘hará levantarse’는 히필 קום의 문자성 차이(둘 다 가능)."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "49:8 ko를 ‘네 형제들이 찬양할 이는 바로 너다 … 목덜미를 잡고’로 다듬었다(초기안 문장이 비문에 가까웠음). 49:10은 본문 안 괄호 대안을 각주로 옮겼다. 49:12 ko를 원인(‘포도주로 검붉고’)에서 비교(‘포도주보다 짙고’)로 바꿔 en/es와 통일했다 — 근거는 애 4:7과 칠십인역 OCR이며, Sonnet 초안을 본 것 때문이 아니다. 49:11은 en ‘garment’→‘garments’, ko ‘나귀 새끼’→‘어린 나귀’ 정도의 표현 조정.",
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from a third-party raw OCR of Swete LXX (not a critical edition). KRV/ASV/RV1909 lines come from this repository library and are translation reception, not manuscript evidence.",
+    "excerpts": [
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.29.35",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַתַּהַר עוֹד וַתֵּלֶד בֵּן וַתֹּאמֶר הַפַּעַם אוֹדֶה אֶת יְהוָה עַל כֵּן קָרְאָה שְׁמוֹ יְהוּדָה וַתַּעֲמֹד מִלֶּדֶת",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "유다 이름 설명의 אוֹדֶה(ידה). 49:8 יוֹדוּךָ와 소리 연결(문학 관찰).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.37.33",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיַּכִּירָהּ וַיֹּאמֶר כְּתֹנֶת בְּנִי חַיָּה רָעָה אֲכָלָתְהוּ טָרֹף טֹרַף יוֹסֵף",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "טָרֹף טֹרַף — 49:9 טֶרֶף와 같은 어근(낱말 반향일 뿐).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.8.11",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַתָּבֹא אֵלָיו הַיּוֹנָה לְעֵת עֶרֶב וְהִנֵּה עֲלֵה זַיִת טָרָף בְּפִיהָ וַיֵּדַע נֹחַ כִּי קַלּוּ הַמַּיִם מֵעַל הָאָרֶץ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "טָרָף = 갓 딴 잎. 칠십인역 49:9 ἐκ βλαστοῦ가 이 의미 계열로 읽었을 가능성(추정).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Num.23.24",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "excerpt": "הֶן עָם כְּלָבִיא יָקוּם וְכַאֲרִי יִתְנַשָּׂא לֹא יִשְׁכַּב עַד יֹאכַל טֶרֶף וְדַם חֲלָלִים יִשְׁתֶּה",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "לָבִיא/אֲרִי와 טֶרֶף가 함께 쓰인 사자 그림.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Num.24.9",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "excerpt": "כָּרַע שָׁכַב כַּאֲרִי וּכְלָבִיא מִי יְקִימֶנּוּ מְבָרֲכֶיךָ בָרוּךְ וְאֹרְרֶיךָ אָרוּר",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "49:9 c–d와 거의 같은 행(כָּרַע … כַּאֲרִי וּכְלָבִיא מִי יְקִימֶנּוּ)이 이스라엘에 적용됨.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "1Sam.4.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+        "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+        "excerpt": "וַיָּרָץ אִישׁ בִּנְיָמִן מֵהַמַּעֲרָכָה וַיָּבֹא שִׁלֹה בַּיּוֹם הַהוּא וּמַדָּיו קְרֻעִים וַאֲדָמָה עַל רֹאשׁוֹ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "וַיָּבֹא שִׁלֹה — ‘실로에 왔다’ 방향 목적어 구문(대안 B 근거).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Judg.21.21",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וּרְאִיתֶם וְהִנֵּה אִם יֵצְאוּ בְנוֹת שִׁילוֹ לָחוּל בַּמְּחֹלוֹת וִיצָאתֶם מִן הַכְּרָמִים וַחֲטַפְתֶּם לָכֶם אִישׁ אִשְׁתּוֹ מִבְּנוֹת שִׁילוֹ וַהֲלַכְתֶּם אֶרֶץ בִּנְיָמִן",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "지명 실로 철자 שִׁילוֹ = 49:10 Qere 철자.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Jer.7.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+        "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+        "excerpt": "כִּי לְכוּ נָא אֶל מְקוֹמִי אֲשֶׁר בְּשִׁילוֹ אֲשֶׁר שִׁכַּנְתִּי שְׁמִי שָׁם בָּרִאשׁוֹנָה וּרְאוּ אֵת אֲשֶׁר עָשִׂיתִי לוֹ מִפְּנֵי רָעַת עַמִּי יִשְׂרָאֵל",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "지명 실로 철자 בְּשִׁילוֹ.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Judg.5.7",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "חָדְלוּ פְרָזוֹן בְּיִשְׂרָאֵל חָדֵלּוּ עַד שַׁקַּמְתִּי דְּבוֹרָה שַׁקַּמְתִּי אֵם בְּיִשְׂרָאֵל",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "고대 시문의 관계사 שֶׁ- (שַׁקַּמְתִּי) — 대안 C 문법 가능성.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Ezek.21.32",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezek.xml",
+        "file_sha256": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+        "excerpt": "עַוָּה עַוָּה עַוָּה אֲשִׂימֶנָּה גַּם זֹאת לֹא הָיָה עַד בֹּא אֲשֶׁר לוֹ הַמִּשְׁפָּט וּנְתַתִּיו",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "עַד בֹּא אֲשֶׁר לוֹ הַמִּשְׁפָּט — 대안 C와 같은 생각의 반향(히브리어 번호 21:32 = 영어/한국어 21:27). 수용 관계는 추정.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Isa.18.7",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+        "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+        "excerpt": "בָּעֵת הַהִיא יוּבַל שַׁי לַיהוָה צְבָאוֹת עַם מְמֻשָּׁךְ וּמוֹרָט וּמֵעַם נוֹרָא מִן הוּא וָהָלְאָה גּוֹי קַו קָו וּמְבוּסָה אֲשֶׁר בָּזְאוּ נְהָרִים אַרְצוֹ אֶל מְקוֹם שֵׁם יְהוָה צְבָאוֹת הַר צִיּוֹן",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "שַׁי = 공물 (대안 D 어휘 근거).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Ps.68.30",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "excerpt": "מֵהֵיכָלֶךָ עַל יְרוּשָׁלִָם לְךָ יוֹבִילוּ מְלָכִים שָׁי",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "יוֹבִילוּ מְלָכִים שָׁי — 공물을 바침 (대안 D; 히브리어 번호 68:30 = 영어 68:29).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Ps.76.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+        "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+        "excerpt": "נִדֲרוּ וְשַׁלְּמוּ לַיהוָה אֱלֹהֵיכֶם כָּל סְבִיבָיו יוֹבִילוּ שַׁי לַמּוֹרָא",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "יוֹבִילוּ שַׁי — 공물 (히브리어 번호 76:12 = 영어 76:11).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Prov.30.17",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+        "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+        "excerpt": "עַיִן תִּלְעַג לְאָב וְתָבוּז לִיקֲּהַת אֵם יִקְּרוּהָ עֹרְבֵי נַחַל וְיֹאכְלוּהָ בְנֵי נָשֶׁר",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "לִיקֲּהַת אֵם — יִקְּהַת의 유일한 다른 용례, 순종/공경.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.28.3",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְאֵל שַׁדַּי יְבָרֵךְ אֹתְךָ וְיַפְרְךָ וְיַרְבֶּךָ וְהָיִיתָ לִקְהַל עַמִּים",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "קְהַל עַמִּים — עַמִּים이 야곱 후손 집단에 쓰인 창세기 용례.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Zech.9.9",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Zech.xml",
+        "file_sha256": "2e287c8d0e0abd3bf601eb8ef9b4ee6ca3ae12cf36c0ed1612a7dcca54a2e777",
+        "excerpt": "גִּילִי מְאֹד בַּת צִיּוֹן הָרִיעִי בַּת יְרוּשָׁלִַם הִנֵּה מַלְכֵּךְ יָבוֹא לָךְ צַדִּיק וְנוֹשָׁע הוּא עָנִי וְרֹכֵב עַל חֲמוֹר וְעַל עַיִר בֶּן אֲתֹנוֹת",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "עַיִר בֶּן אֲתֹנוֹת — 49:11 עִירוֹ … בְּנִי אֲתֹנוֹ와 같은 낱말 짝(후대 반향 가능성; 해석 근거로는 쓰지 않음).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Prov.23.29",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+        "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+        "excerpt": "לְמִי אוֹי לְמִי אֲבוֹי לְמִי מדונים מִדְיָנִים לְמִי שִׂיחַ לְמִי פְּצָעִים חִנָּם לְמִי חַכְלִלוּת עֵינָיִם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "חַכְלִלוּת עֵינָיִם — 49:12 חַכְלִילִי 관련 명사; 음주 문맥(원인 독해 근거).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Prov.23.30",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+        "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+        "excerpt": "לַמְאַחֲרִים עַל הַיָּיִן לַבָּאִים לַחְקֹר מִמְסָךְ",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "23:29의 답: 포도주에 늦게까지 머무는 자들.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Lam.4.7",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lam.xml",
+        "file_sha256": "be68fc6a913313367280c2596e28733ee8cf877c12a65227237733b40d0248c4",
+        "excerpt": "זַכּוּ נְזִירֶיהָ מִשֶּׁלֶג צַחוּ מֵחָלָב אָדְמוּ עֶצֶם מִפְּנִינִים סַפִּיר גִּזְרָתָם",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC; Ketiv and Qere tokens both kept where present",
+        "observation_ko": "צַחוּ מֵחָלָב — 우유보다 희다(비교 מִן). 49:12 비교 독해 근거.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.49.8",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "1.49.8 Ἰούδα, σὲ αἰνέσαισαν οἱ ἀδελφοί σου·αἱ χεῖρές σου ἐπὶ νώτου τῶν ἐχθρῶν σου.προσκυνήσουσίν σοι οἱ υἱοὶ τοῦ πατρός σου.",
+        "observation_ko": "원망형 αἰνέσαισαν, 복수 αἱ χεῖρές σου, ἐπὶ νώτου(등). 히브리어 단수 יָדְךָ·미완료와 차이 — 채택 안 함.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition; OCR defects possible"
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.49.9",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "1.49.9 σκύμνος λέοντος, Ἰούδα·ἐκ βλαστοῦ, υἱέ μου, ἀνέβης·ἀναπεσὼν ἐκοιμήθης ὡς λέων καὶ ὡς σκύμνος·τίς ἐγερεῖ αὐτόν ;",
+        "observation_ko": "ἐκ βλαστοῦ(새순에서); לָבִיא를 σκύμνος로.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition; OCR defects possible"
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.49.10",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "1.49.10 οὐκ ἐκλείψει ἄρχων ἑξ Ἰούδα,καὶ ἡγούμενος ἐκ τῶνἕως ἂν ἔλθῃ τὰ ἀποκείμενα αὐτῶ,καὶ αὐτὸς προσδοκία ἐθνῶν.",
+        "observation_ko": "οὐκ ἐκλείψει ἄρχων … ἕως ἂν ἔλθῃ τὰ ἀποκείμενα αὐτῷ … προσδοκία ἐθνῶν. OCR 결손: ‘ἐκ τῶνἕως’에서 ἐκ τῶν 뒤 낱말(들)이 빠져 있음 — 빠진 낱말은 이 세션에서 확인 불가. 고유명사 ‘실로’가 아닌 대안 C 계열, יִקְּהַת를 ‘기대’로.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition; OCR defects possible"
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.49.11",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "1.49.11 δεσμεύων πρὸς ἄμπελον τὸν πῶλον αὐτοῦ,καὶ τῇ ἕλικι τὸν πῶλον τῆς ὄνου αὐτοῦ·πλυνεῖ ἐν οἴνῳ τὴν στολὴν αὐτοῦ,καὶ ἐν σταφυλῆς σταφυλῆς τὴν περιβολὴν αὐτοῦ.",
+        "observation_ko": "πλυνεῖ(미래). OCR 결손: ‘ἐν σταφυλῆς σταφυλῆς’ 중복 — ‘피’에 해당하는 낱말이 OCR에서 손상된 것으로 보이나 이 세션에서 확인 불가.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition; OCR defects possible"
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.49.12",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt": "1.49.12 χαροποιοὶ οἱ ὀφθαλμοὶ αὐτοῦ ὑπὲρ οἶνον,καὶ λευκοὶ οἱ ὀδόντες αὐτοῦ ἢ γάλα.",
+        "observation_ko": "ὑπὲρ οἶνον … ἢ γάλα — 비교 독해.",
+        "excerpt_verified_against_file": true,
+        "status": "third-party raw OCR of Swete LXX; not a critical edition; OCR defects possible"
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Gen.49.9",
+        "path": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "excerpt": "유다는 사자 새끼로다 내 아들아 너는 움킨 것을 찢고 올라 갔도다 그의 엎드리고 웅크림이 수사자 같고 암사자 같으니 누가 그를 범할 수 있으랴",
+        "observation_ko": "‘움킨 것을 찢고 올라 갔도다’ — 동작 보충; ‘누가 그를 범할 수 있으랴’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Gen.49.10",
+        "path": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "excerpt": "홀이 유다를 떠나지 아니하며 치리자의 지팡이가 그 발 사이에서 떠나지 아니하시기를 실로가 오시기까지 미치리니 그에게 모든 백성이 복종하리로다",
+        "observation_ko": "‘실로가 오시기까지’ — 고유명사 + 경칭(메시아 해석 반영).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Gen.49.12",
+        "path": "library/krv/Gen.json",
+        "file_sha256": "469c3ea0323f487d8815642eb99a93dc40e36f440bcdd591672d1d771444bfe7",
+        "excerpt": "그 눈은 포도주로 인하여 붉겠고 그 이는 우유로 인하여 희리로다",
+        "observation_ko": "원인 독해 ‘포도주로 인하여 붉겠고’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Gen.49.10",
+        "path": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "excerpt": "The sceptre shall not depart from Judah, Nor the ruler’s staff from between his feet, Until Shiloh come; And unto him shall the obedience of the peoples be.",
+        "observation_ko": "‘Until Shiloh come … the obedience of the peoples’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Gen.49.12",
+        "path": "library/asv/Gen.json",
+        "file_sha256": "945006dd1aabd94d158d46cf19221888c529bdebb7db36333d856e003ce4beaf",
+        "excerpt": "His eyes shall be red with wine, And his teeth white with milk.",
+        "observation_ko": "원인 독해 ‘red with wine … white with milk’.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Gen.49.10",
+        "path": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "excerpt": "No será quitado el cetro de Judá, y el legislador de entre sus piés, hasta que venga Shiloh; y á él se congregarán los pueblos.",
+        "observation_ko": "‘hasta que venga Shiloh; y á él se congregarán los pueblos’ — יִקְּהַת를 ‘모임’으로 수용.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Gen.49.12",
+        "path": "library/rv1909/Gen.json",
+        "file_sha256": "11d628da8df682798338c0b1e0b48c0da5d4f92f987499a1ce4bc5391b981520",
+        "excerpt": "Sus ojos bermejos del vino, y los dientes blancos de la leche.",
+        "observation_ko": "원인 독해 ‘bermejos del vino … blancos de la leche’.",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "타르굼 옹켈로스가 49:10을 ‘왕권이 그에게 속한 메시아가 올 때까지’ 식으로 옮긴다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Targum text was not accessed."
+    },
+    {
+      "claim_ko": "페쉬타가 49:10을 ‘그것이 속한 이가 올 때까지’로 읽는다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Peshitta text was not accessed."
+    },
+    {
+      "claim_ko": "‘그의 발 사이에서’를 후손(자손) 완곡어로 읽는 고대 해석, 칠십인역 OCR 결손 부분에 ‘넓적다리’ 계열 낱말이 있다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "The OCR line is defective at that point; no printed Swete page or other witness was accessed."
+    },
+    {
+      "claim_ko": "불가타의 ‘qui mittendus est’ 및 ‘expectatio gentium’ 번역.",
+      "status": "not_verified_in_session",
+      "reason": "Vulgate text was not accessed."
+    },
+    {
+      "claim_ko": "사마리아 오경이나 쿰란 사본의 49:8–12 읽기.",
+      "status": "not_verified_in_session",
+      "reason": "No Samaritan Pentateuch or Qumran witness was accessed; no collation is asserted."
+    },
+    {
+      "claim_ko": "아카드어 šēlu/šīlu(통치자) 어원 제안.",
+      "status": "not_verified_in_session",
+      "reason": "No lexicon or scholarly source was accessed; mentioned only as a known proposal and not used."
+    }
+  ],
+  "alternatives": {
+    "Gen.49.8": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "강조 대명사 보존 ‘네 형제들이 찬양할 이는 바로 너다’",
+        "argument_ko": "אַתָּה 전치 강조와 이름 언어유희의 초점을 살림.",
+        "objection_ko": "한국어가 다소 길다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘유다야, 네 형제들이 너를 찬양하리라’",
+        "argument_ko": "간결.",
+        "objection_ko": "강조 אַתָּה가 사라진다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "원망형 ‘네 형제들이 너를 찬양하기를’",
+        "argument_ko": "칠십인역 OCR αἰνέσαισαν; 축복 장르.",
+        "objection_ko": "히브리어는 직설 미완료 형태(OSHB HVhi3mp)이며 뒤 행들도 서술적이다."
+      }
+    ],
+    "Gen.49.9": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘사냥한 먹이에서 올라왔다’ — 사냥 후 굴로 올라감/우위로 올라섬",
+        "argument_ko": "טֶרֶף의 통상 뜻(먹이)과 사자 그림 일치(민 23:24 עַד יֹאכַל טֶרֶף).",
+        "objection_ko": "‘올라왔다’의 장소가 원문에 없다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘먹이를 먹고 자랐다’",
+        "argument_ko": "עָלָה의 ‘성장’ 의미 확장, 새끼사자→성체.",
+        "objection_ko": "עָלָה + מִן이 ‘성장’으로 쓰인 분명한 평행을 이 세션에서 확인하지 못했다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘새순에서’(칠십인역 OCR ἐκ βλαστοῦ)",
+        "argument_ko": "고대 역본 수용.",
+        "objection_ko": "사자 그림과 맞지 않으며 히브리어 טֶרֶף의 주된 뜻이 아니다."
+      }
+    ],
+    "Gen.49.10": [
+      {
+        "label": "A (preferred in text)",
+        "reading_ko": "‘실로가 올 때까지’ — Qere 음역, 주어",
+        "argument_ko": "고정 Masoretic 낱말과 OSHB 고유명사 표시 보존; 다음 행 ‘그에게’의 선행사가 자연스럽다.",
+        "objection_ko": "인명/칭호로 증언되지 않음; 고대 역본 지지 약함(이 세션 확인 범위)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘그가 실로에 올 때까지’ — 지명, 방향 목적어",
+        "argument_ko": "Qere 철자 = 지명 철자(삿 21:21; 렘 7:12), 삼상 4:12 וַיָּבֹא שִׁלֹה 구문.",
+        "objection_ko": "유다 왕권 신탁에서 실로 도착의 의미가 본문 안에서 설명되지 않는다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘그에게 속한 이/것이 올 때까지’ (שֶׁלּוֹ)",
+        "argument_ko": "칠십인역 OCR τὰ ἀποκείμενα αὐτῷ; 겔 21:32 אֲשֶׁר לוֹ הַמִּשְׁפָּט 반향.",
+        "objection_ko": "요드 철자 불일치; 재분석(재구성)이다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "‘그에게 공물이 올 때까지’ (שַׁי לוֹ)",
+        "argument_ko": "자음 전부 설명, 다음 행과 ‘그에게’ 평행, 11절 Ketiv -ה 패턴과 부합.",
+        "objection_ko": "재모음화/재분할에 의존하는 현대 재구성; 고대 증언 미확인."
+      }
+    ],
+    "Gen.49.11": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "독립 현재 서술 ‘그는 … 매고 … 빤다’",
+        "argument_ko": "세 언어 문장 자연스러움; 시적 그림.",
+        "objection_ko": "분사 구문의 종속성 약화."
+      },
+      {
+        "label": "B",
+        "reading_ko": "분사 구문 유지 ‘매면서 … 빨았다’",
+        "argument_ko": "형태 보존(ASV Binding … He hath washed).",
+        "objection_ko": "한국어/스페인어에서 주절이 흐려진다."
+      }
+    ],
+    "Gen.49.12": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "비교 ‘포도주보다 짙고, 우유보다 희다’",
+        "argument_ko": "애 4:7, 칠십인역 OCR.",
+        "objection_ko": "잠 23:29–30."
+      },
+      {
+        "label": "B",
+        "reading_ko": "원인 ‘포도주로 짙고/붉고, 우유로 희다’",
+        "argument_ko": "잠 23:29–30; KRV/ASV/RV1909.",
+        "objection_ko": "이 행들은 음주 결과보다 풍요의 미적 묘사로 읽힌다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.49.10b: preferred wording keeps Qere שִׁילוֹ as the proper noun/title subject (until Shiloh comes)",
+    "objection_ko": "가장 강한 반론: (1) ‘실로’라는 인물/칭호는 히브리어 성경 다른 곳에 증언되지 않는다. (2) Qere 철자 שִׁילוֹ는 지명 실로의 철자와 같다(삿 21:21, 렘 7:12; 삼상 4:12는 שִׁלֹה이며 וַיָּבֹא שִׁלֹה ‘실로에 왔다’ 구문까지 같다). 그러면 (b) ‘그가 실로에 올 때까지’가 철자·관용구 양면에서 더 증언된 독해다. (3) 고대 역본 중 이 세션에서 실제로 확인한 칠십인역 OCR은 고유명사가 아닌 τὰ ἀποκείμενα αὐτῷ(그를 위해 예비된 것들)로 읽는다 — (c) שֶׁלּוֹ 계열. (4) 같은 신탁 11절의 두 Ketiv(עירה, סותה)는 끝 ה가 고형 3남단 접미 철자다. Ketiv שילה의 끝 ה도 같은 패턴이라면 Ketiv 자체가 ‘…+ 그에게(לֹה)’로 분석될 여지가 있고, 이는 (c)(d)를 지지한다. (5) (d) שַׁי לוֹ ‘그에게 공물이 올 때까지’는 다음 행 וְלוֹ יִקְּהַת עַמִּים과 ‘그에게’ 평행을 이루어 시적으로 가장 매끄럽다(שַׁי ‘공물’: 사 18:7, 시 68:30, 76:12).",
+    "test_ko": "행 단위 시험: (a) 고정본 시험 — Masoretic Qere는 한 낱말 שִׁילוֹ이고 OSHB도 고유명사로 표시한다. (c)(d)는 낱말 분할/모음 변경을 요구하므로 고정본 번역 원칙상 본문이 아닌 각주로 간다. (b)와 (a)는 같은 자음·모음이며 구문(주어 vs 방향 목적어)만 다르다. (b) 시험 — ‘그가 실로에 올 때까지’라면 홀 유지의 종점이 유다의 실로 도착이 되고 וְלוֹ의 ‘그’도 유다가 된다; 문법상 가능하나, 유다 축복 맥락에서 실로(에브라임 땅 성소) 도착이 왕권 절정이라는 연결이 본문 안에서 설명되지 않는다. (c) 시험 — 관계사 שֶׁ-는 고대 시문(삿 5:7 שַׁקַּמְתִּי)에 있으므로 불가능하지 않지만, 요드가 있는 Ketiv/Qere 철자(שילה/שילו)는 שֶׁלּוֹ 표기와 맞지 않는다. 겔 21:32 עַד בֹּא אֲשֶׁר לוֹ הַמִּשְׁפָּט는 (c)와 같은 생각의 후대 반향으로 보일 수 있으나 그것은 수용 관계 추정이지 49:10의 증언이 아니다. (d) 시험 — 자음 שילה/שילו를 שי + לה/לו로 나누면 요드까지 설명되고 (4)의 ה 패턴과도 맞는다. 그러나 이는 현대적 재분석이며, 이 세션에서 이를 지지하는 고대 역본 증언을 확인하지 못했다.",
+    "response_ko": "결론: 반론은 실질적이며 이 검토는 10절 b행 신뢰도를 ‘낮음’으로 둔다. 그럼에도 본문은 고정 Masoretic Qere를 그대로 음역하고(투명성: 독자가 원문 낱말을 본다), 네 독해를 모두 필수 각주로 제시하는 안을 유지한다. 편집이 ‘해석 확정 번역’ 방침을 택하면 (d) 또는 (c)를 본문에, ‘실로’를 각주에 두는 반대 배치를 권한다. 어떤 경우에도 ‘실로’를 메시아 칭호로 확정하는 대문자/경칭 처리(예: KRV ‘오시기까지’)는 원문 증거를 넘는 해석이므로 피한다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.49.12 comparative min",
+      "objection_ko": "잠 23:29–30이 חַכְלִלוּת עֵינָיִם을 음주 결과로 쓰므로 원인 독해가 더 유력할 수 있다.",
+      "response_ko": "잠언 용례는 명사이고 문맥이 명시적으로 음주 결과를 말한다. 49:12는 평행 행의 ‘우유보다 희다’가 애 4:7과 같은 비교 이미지이며 칠십인역 OCR도 비교다. 비교를 택하되 미해결로 표시."
+    },
+    {
+      "target": "Gen.49.8 ko 잡고",
+      "objection_ko": "명사문에 동작 동사를 보충했다.",
+      "response_ko": "한국어에서 ‘손이 목덜미 위에 있으리라’는 의미가 흐려진다. 편집이 문자성을 우선하면 ‘네 손은 네 원수들의 목덜미 위에 있으리라’로 바꾼다."
+    },
+    {
+      "target": "Gen.49.10 עַד כִּי",
+      "objection_ko": "‘까지’가 홀의 종결(그 뒤 떠남)을 함의한다고 읽힐 수 있다.",
+      "response_ko": "세 언어 모두 ‘까지/until/hasta que’가 종결을 강제하지 않는다. 각주에서 עַד כִּי가 절정 도달을 표현할 수 있다고 밝힌다."
+    },
+    {
+      "target": "Gen.49.11 subject",
+      "objection_ko": "‘그는’으로 독립 문장을 만들면 10절의 오는 자인지 유다인지 독자가 한쪽으로 기운다.",
+      "response_ko": "히브리어도 3남단 접미/분사만 있어 모호하다. ‘그’는 같은 모호성을 보존한다. 단정적 주석은 피한다."
+    }
+  ],
+  "preferred_wording": {
+    "Gen.49.8": {
+      "ko": "유다야, 네 형제들이 찬양할 이는 바로 너다. 네 손이 네 원수들의 목덜미를 잡고, 네 아버지의 아들들이 네게 엎드려 절하리라.",
+      "en": "Judah, it is you your brothers shall praise; your hand shall be on the neck of your enemies; your father’s sons shall bow down to you.",
+      "es": "Judá, a ti te alabarán tus hermanos; tu mano estará sobre la nuca de tus enemigos; los hijos de tu padre se postrarán ante ti.",
+      "reason_ko": "강조 대명사 אַתָּה를 ‘바로 너다/it is you/a ti’로 살렸다. 동사 없는 명사문 ‘네 손이 목덜미에’는 en/es에서 be동사 미래로, ko에서는 ‘잡고’로 최소 보충했다(아래 반론 참조). בְּנֵי אָבִיךָ는 ‘네 아버지의 아들들’ 그대로.",
+      "counterargument_ko": "ko ‘잡고’는 원문에 없는 동작 동사다(KRV ‘목을 잡을 것이요’와 같은 방향). 더 문자적인 ‘목덜미 위에 있으리라’도 가능하다. 칠십인역 OCR은 원망형 αἰνέσαισαν(찬양하기를)과 복수 ‘손들’을 가진다 — 히브리어 미완료/단수와 다르며 채택하지 않았다."
+    },
+    "Gen.49.9": {
+      "ko": "유다는 사자 새끼다. 내 아들아, 너는 사냥한 먹이에서 올라왔다. 그가 수사자처럼, 암사자처럼 몸을 굽혀 엎드렸으니, 누가 그를 일으키랴?",
+      "en": "Judah is a lion’s cub; from the prey, my son, you have gone up. He crouches, he lies down like a lion, like a lioness; who will rouse him?",
+      "es": "Cachorro de león es Judá; de la presa, hijo mío, has subido. Se agazapa, se echa como león, como leona; ¿quién lo hará levantarse?",
+      "reason_ko": "3인칭→2인칭→3인칭 전환을 그대로 두었다. בְּנִי는 호격. כָּרַע רָבַץ는 두 동사를 모두 옮겼다(굽혀/엎드렸으니; crouches/lies down; se agazapa/se echa). לָבִיא는 ‘암사자’를 택하되 불확실성은 각주로.",
+      "counterargument_ko": "לָבִיא는 OSHB가 양성(b)으로 표시하며 ‘암사자’가 아닌 또 다른 사자 낱말일 수 있다(RV1909 león viejo, 칠십인역 OCR σκύμνος 새끼사자). 칠십인역 OCR은 מִטֶּרֶף를 ἐκ βλαστοῦ(새순에서)로 옮긴다 — 창 8:11 טָרָף(갓 딴 잎)와 같은 자음 계열로 읽은 것으로 보이나 이 수용사의 동기는 이 세션에서 검증되지 않았다."
+    },
+    "Gen.49.10": {
+      "ko": "홀이 유다에게서 떠나지 않고, 통치자의 지팡이가 그의 발 사이에서 떠나지 않으리니, 실로가 올 때까지이다. 민족들의 순종이 그에게 있으리라.",
+      "en": "The scepter shall not depart from Judah, nor the ruler’s staff from between his feet, until Shiloh comes; and to him shall be the obedience of the peoples.",
+      "es": "No se apartará el cetro de Judá, ni el bastón de mando de entre sus pies, hasta que venga Siló; y a él se rendirá la obediencia de los pueblos.",
+      "reason_ko": "고정 WLC의 Qere שִׁילוֹ(OSHB 고유명사 표시)를 따라 음역 ‘실로/Shiloh/Siló’로 두고, 해석 대안 (b)(c)(d)는 본문이 아닌 필수 각주로 보낸다. מְחֹקֵק는 평행에 따라 ‘통치자의 지팡이/ruler’s staff/bastón de mando’. יִקְּהַת는 잠 30:17 용례에 따라 ‘순종’.",
+      "counterargument_ko": "가장 강한 반론은 strongest_objection_to_own_reading 참조: 인명/칭호 ‘실로’는 다른 곳에 증언되지 않고, 고대 역본(칠십인역 OCR τὰ ἀποκείμενα αὐτῷ)은 (c) 계열로 읽었으며, Qere 철자는 지명 שִׁילוֹ(삿 21:21, 렘 7:12)과 같다. es ‘se rendirá’는 동사 보충이다."
+    },
+    "Gen.49.11": {
+      "ko": "그는 자기 어린 나귀를 포도나무에, 자기 암나귀의 새끼를 좋은 포도나무에 매고, 자기 옷을 포도주에, 자기 겉옷을 포도의 피에 빤다.",
+      "en": "He binds his foal to the vine, his donkey’s colt to the choice vine; he washes his garments in wine, his robe in the blood of grapes.",
+      "es": "Ata a la vid su pollino, y a la cepa escogida el hijo de su asna; lava en vino su vestido, y en sangre de uvas su manto.",
+      "reason_ko": "분사 אֹסְרִי와 완료 כִּבֵּס를 모두 현재 묘사로 통일했다(시적 그림). ‘포도의 피’ 은유를 보존. Ketiv/Qere 두 곳(עירה/עִירוֹ, סותה/סוּתוֹ)은 고형 3남단 철자 차이로 번역에 영향이 없다. 주어 ‘그’의 대상(유다/오는 자)은 정하지 않았다.",
+      "counterargument_ko": "분사를 독립 문장 ‘He binds’로 바꾸면 10절과의 연결(그 ‘그’에 대한 묘사)이 약해진다. ASV ‘Binding his foal…’처럼 분사 구문을 유지할 수 있다. 완료 כִּבֵּס를 과거(‘빨았다’)로 볼 수도 있다. en ‘garments’는 단수 לְבֻשׁוֹ를 집합적으로 옮긴 것이다."
+    },
+    "Gen.49.12": {
+      "ko": "그의 눈은 포도주보다 짙고, 그의 이는 우유보다 희다.",
+      "en": "His eyes are darker than wine, and his teeth whiter than milk.",
+      "es": "Sus ojos son más oscuros que el vino, y sus dientes más blancos que la leche.",
+      "reason_ko": "מִן을 비교로 읽어 세 언어를 통일했다. 근거: 형용사+מִן 비교 구문, 같은 이미지의 애 4:7 צַחוּ מֵחָלָב(우유보다 희다), 칠십인역 OCR ὑπὲρ οἶνον … ἢ γάλα. ko ‘짙다’는 חַכְלִילִי의 색이 불확실하므로 붉음/검음을 정하지 않는 낱말로 골랐다.",
+      "counterargument_ko": "원인 독해(포도주로 인해 붉은 눈, 우유로 흰 이)도 강하다: 잠 23:29–30은 חַכְלִלוּת עֵינָיִם을 포도주에 오래 머무는 자와 연결하며, KRV·ASV·RV1909 모두 원인으로 옮겼다. 기존 Sonnet 초안은 en/es 비교, ko ‘붉고’로 세 언어 색채어가 서로 달랐다."
+    }
+  },
+  "speech_boundaries_ko": "49:8–12 전체가 야곱의 축복 발화(49:2에서 시작해 49:27까지 이어지는 직접 화법)의 일부다. 49:8과 49:9b는 2인칭(유다에게), 49:9a·c–d, 49:10–12는 3인칭.",
+  "proposed_notes_ko": [
+    {
+      "id": "Gen.49.8",
+      "note_ko": "‘찬양하다’(요두카)는 이름 ‘유다’(예후다)와 소리가 이어진다(29:35 참조)."
+    },
+    {
+      "id": "Gen.49.9",
+      "note_ko": "‘암사자’(라비): 또 다른 사자 낱말일 수도 있다. 거의 같은 행이 민 24:9에서 이스라엘에게 쓰인다."
+    },
+    {
+      "id": "Gen.49.10",
+      "note_ko": "‘실로’: 쓰기(Ketiv) שילה, 읽기(Qere) שִׁילוֹ. 해석은 네 갈래다. (1) ‘실로가 올 때까지’(이름/칭호), (2) ‘그가 실로에 올 때까지’(지명), (3) ‘그에게 속한 이(것)가 올 때까지’(칠십인역 등 고대 역본 방향), (4) ‘그에게 공물이 올 때까지’(현대 재해석). 이 번역은 원문 낱말을 음역했고 어느 해석도 확정하지 않는다. ‘까지’는 홀이 그때 떠난다는 뜻을 반드시 포함하지 않는다. ‘순종’(이크하트)은 잠 30:17에만 다시 나오는 드문 낱말이다."
+    },
+    {
+      "id": "Gen.49.11",
+      "note_ko": "‘겉옷’(수트)은 성경에서 여기만 나오는 낱말로 뜻은 문맥 추정이다. ‘어린 나귀’와 ‘암나귀의 새끼’는 슥 9:9에도 같은 짝으로 나온다."
+    },
+    {
+      "id": "Gen.49.12",
+      "note_ko": "‘짙고’(하클릴리): 색이 붉음/검음/흐림 중 어느 것인지 불확실하다. ‘포도주보다/우유보다’는 ‘포도주로/우유로’(원인)로도 읽힌다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "Ketiv/Qere policy",
+      "finding_ko": "49:10–11의 Ketiv/Qere 3곳을 Qere 번역 + 원시 XML 보존으로 처리했다. 49:11 두 곳은 철자 차이뿐이지만 49:10은 해석 쟁점이다. 프로젝트 Ketiv/Qere 방침(보류 목록)과 맞는지 편집 확인 필요."
+    },
+    {
+      "topic": "messianic capitalization/honorific",
+      "finding_ko": "‘실로’에 경칭/대문자 메시아 처리를 하지 않았다. 편집 방침이 신약 수용사(기독교 장로교 전통 포함)를 본문에 반영할지, 각주 수용사로만 둘지 결정 필요."
+    },
+    {
+      "topic": "register",
+      "finding_ko": "축복 시문 ko 어미는 ‘-리라/-다’ 혼용. 49장 전체 축복 문체와 통일 필요."
+    }
+  ],
+  "final_opinion_ko": "다섯 절 모두 고정 WLC 본문(Qere 포함)을 번역하고 이문이나 재구성을 본문에 채택하지 않았다. 핵심 판단: (1) 49:10 ‘실로’는 Qere를 음역하되 신뢰도 낮음으로 두고, 지명·‘그에게 속한 이’·‘공물’ 독해를 필수 각주로 둔다; 가장 강한 반론(지명 철자 일치, 칠십인역 OCR, 11절 Ketiv -ה 패턴)은 실질적이다. (2) 49:12는 비교 독해로 세 언어를 통일하고 색채어는 ‘짙다/dark/oscuro’로 열어 둔다. (3) 49:8·10·11은 기존 일괄 초안에 없던 첫 초안이다. (4) 49:9·11의 주어 ‘그’의 정체(유다/오는 자)는 본문이 정하지 않으므로 번역도 정하지 않는다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.49.8",
+      "level": "high",
+      "note_ko": "ko ‘잡고’ 보충만 중간."
+    },
+    {
+      "id": "Gen.49.9",
+      "level": "medium-high",
+      "note_ko": "מִטֶּרֶף עָלִיתָ 의미와 לָבִיא 성별."
+    },
+    {
+      "id": "Gen.49.10",
+      "level": "low (10b) / high (10a)",
+      "note_ko": "실로 구문과 의미는 미해결; 홀/지팡이 행은 높음."
+    },
+    {
+      "id": "Gen.49.11",
+      "level": "medium-high",
+      "note_ko": "סוּת 뜻과 시제."
+    },
+    {
+      "id": "Gen.49.12",
+      "level": "medium",
+      "note_ko": "חַכְלִילִי 색과 מִן 비교/원인."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.49.10",
+      "condition_ko": "타르굼·페쉬타·불가타·사마리아 오경·쿰란의 49:10 실제 본문을 URL과 발췌로 확인하면 대안 B–D 근거와 각주를 다시 쓴다. 인쇄본 Swete 또는 비평판 칠십인역으로 OCR 결손(ἐκ τῶν 뒤)을 확인하면 ‘발 사이’ 각주를 보강한다."
+    },
+    {
+      "id": "Gen.49.10",
+      "condition_ko": "편집이 해석 확정 번역 방침을 정하면 D(공물) 또는 C(속한 이)를 본문으로, 실로를 각주로 바꾸는 배치를 다시 평가한다."
+    },
+    {
+      "id": "Gen.49.12",
+      "condition_ko": "חַכְלִילִי의 동족어(아람어/아카드어) 근거가 실제 문헌으로 제시되면 색채어를 확정한다. 원인 독해를 지지하는 고대 역본이 확인되면 비교/원인 선택을 재평가한다."
+    },
+    {
+      "id": "Gen.49.8",
+      "condition_ko": "편집이 문자성 우선이면 ko ‘목덜미를 잡고’를 ‘목덜미 위에 있고’로 바꾼다."
+    },
+    {
+      "id": "Gen.49.8-12",
+      "condition_ko": "GPT/Gemini 독립 검토가 49:10 본문 배치나 49:12 비교/원인에 대해 반대 근거를 제시하면 재검토한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.49.10",
+      "issue": "Ketiv shylh / Qere shylw: proper noun subject vs place destination vs she+lo vs shay lo",
+      "status": "unresolved_textual_interpretive",
+      "needed_evidence": "Targum Onqelos, Peshitta, Vulgate, Samaritan Pentateuch and any Qumran witness for 49:10 with URLs and excerpts; a critical LXX edition for the OCR-defective clause."
+    },
+    {
+      "id": "Gen.49.10",
+      "issue": "mibbein raglav: placement of staff vs descendant euphemism",
+      "status": "resolved_for_draft_with_note",
+      "needed_evidence": "Verified ancient version texts for the clause."
+    },
+    {
+      "id": "Gen.49.10",
+      "issue": "yiqqehat: obedience (Prov 30:17) vs expectation/gathering (LXX OCR, RV1909)",
+      "status": "resolved_for_draft_with_note",
+      "needed_evidence": "Lexical study beyond the two Hebrew occurrences."
+    },
+    {
+      "id": "Gen.49.9",
+      "issue": "labi: lioness vs other lion term; mitterep alita sense",
+      "status": "resolved_for_draft_with_note",
+      "needed_evidence": "Lexical evidence for labi gender."
+    },
+    {
+      "id": "Gen.49.11",
+      "issue": "sut hapax meaning; tense of kibbes",
+      "status": "resolved_for_draft_with_note",
+      "needed_evidence": "Verified cognate evidence."
+    },
+    {
+      "id": "Gen.49.12",
+      "issue": "chakhlili color and comparative vs causal min",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Cognate lexical evidence; ancient versions beyond LXX OCR."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T22:05:17Z) or reused from private/upstream_cache",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-10-30T22:07:21Z",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "what_it_is": "Pinned WLC/OSHB Num (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezek.xml",
+      "accessed_utc": "2026-10-30T22:07:21Z",
+      "file_sha256": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+      "what_it_is": "Pinned WLC/OSHB Ezek (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+      "accessed_utc": "2026-10-30T22:07:22Z",
+      "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+      "what_it_is": "Pinned WLC/OSHB 1Sam (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+      "accessed_utc": "2026-10-30T22:07:22Z",
+      "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+      "what_it_is": "Pinned WLC/OSHB Prov (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "accessed_utc": "2026-10-30T22:07:22Z",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "what_it_is": "Pinned WLC/OSHB Isa (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T22:07:22Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Ps (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Zech.xml",
+      "accessed_utc": "2026-10-30T22:07:23Z",
+      "file_sha256": "2e287c8d0e0abd3bf601eb8ef9b4ee6ca3ae12cf36c0ed1612a7dcca54a2e777",
+      "what_it_is": "Pinned WLC/OSHB Zech (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-10-30T22:07:58Z",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "what_it_is": "Pinned WLC/OSHB Judg (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-10-30T22:07:58Z",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "what_it_is": "Pinned WLC/OSHB Jer (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lam.xml",
+      "accessed_utc": "2026-10-30T22:09:01Z",
+      "file_sha256": "be68fc6a913313367280c2596e28733ee8cf877c12a65227237733b40d0248c4",
+      "what_it_is": "Pinned WLC/OSHB Lam (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T22:07:23Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete LXX Genesis; same pinned file and hash as earlier runs. OCR defects visible in 1.49.10 and 1.49.11."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "Readings C and D for Gen.49.10 are reconstructions/reanalyses, not readings attested in the pinned text.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "The self-checks below are by the same model and are not an independent review."
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-30T22:05:17.552143+00:00",
+    "claim_pushed": "2026-10-30T22:05Z (commit on claude/original-bible-hard-review-jdh13k before any model review)",
+    "independent_reading_from_packet": "2026-10-30T22:05:30Z-22:06:30Z (scratch file before opening any Gen.49.8-12 model record)",
+    "earlier_records_inspected": "2026-10-30T22:06:30Z-22:07:00Z",
+    "reception_checks": "2026-10-30T22:07:00Z-22:09:10Z",
+    "review_written": "2026-10-30T22:09:30Z-2026-10-30T22:12:42Z",
+    "identity_rechecked": "2026-10-30T22:12:32Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional allowed, isUsingOverage false)"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "packet": "automation/hard-review-packets/20261030T220517Z-4aa7fb4e.json",
+    "claim_manifest": "automation/hard-review-runs/20261030T220517Z-4aa7fb4e.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Gen.49.8",
+        "raw_xml": "<verse osisID=\"Gen.49.8\">\n          <w lemma=\"3063\" n=\"1.1.1\" morph=\"HNp\" id=\"01gS5\">יְהוּדָ֗ה</w>\n          <w lemma=\"859 a\" n=\"1.1.0\" morph=\"HPp2ms\" id=\"01zcc\">אַתָּה֙</w>\n          <w lemma=\"3034\" morph=\"HVhi3mp/Sp2ms\" id=\"01fDY\">יוֹד֣וּ/ךָ</w>\n          <w lemma=\"251\" n=\"1.1\" morph=\"HNcmpc/Sp2ms\" id=\"01QzE\">אַחֶ֔י/ךָ</w>\n          <w lemma=\"3027\" n=\"1.0\" morph=\"HNcbsc/Sp2ms\" id=\"01425\">יָדְ/ךָ֖</w>\n          <w lemma=\"b/6203\" morph=\"HR/Ncmsc\" id=\"01bLh\">בְּ/עֹ֣רֶף</w>\n          <w lemma=\"341\" n=\"1\" morph=\"HVqrmpc/Sp2ms\" id=\"01wAb\">אֹיְבֶ֑י/ךָ</w>\n          <w lemma=\"7812\" morph=\"HVvi3mp\" id=\"01xuL\">יִשְׁתַּחֲוּ֥וּ</w>\n          <note n=\"1\">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>\n          <w lemma=\"l\" n=\"0.0\" morph=\"HR/Sp2ms\" id=\"01Pdb\">לְ/ךָ֖</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"01wvA\">בְּנֵ֥י</w>\n          <w lemma=\"1\" n=\"0\" morph=\"HNcmsc/Sp2ms\" id=\"019cJ\">אָבִֽי/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "fbf495e5b64b98c9479b172595db9505fc09c510f19c9b7600e4d0c890a0b127"
+      },
+      {
+        "id": "Gen.49.9",
+        "raw_xml": "<verse osisID=\"Gen.49.9\">\n          <w lemma=\"1482\" morph=\"HNcmsc\" id=\"01Tum\">גּ֤וּר</w>\n          <w lemma=\"738 b\" n=\"1.1.0\" morph=\"HNcmsa\" id=\"01JUs\">אַרְיֵה֙</w>\n          <w lemma=\"3063\" n=\"1.1\" morph=\"HNp\" id=\"01VCf\">יְהוּדָ֔ה</w>\n          <w lemma=\"m/2964\" n=\"1.0\" morph=\"HR/Ncmsa\" id=\"015B5\">מִ/טֶּ֖רֶף</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc/Sp1cs\" id=\"017M5\">בְּנִ֣/י</w>\n          <w lemma=\"5927\" n=\"1\" morph=\"HVqp2ms\" id=\"01zT5\">עָלִ֑יתָ</w>\n          <w lemma=\"3766\" morph=\"HVqp3ms\" id=\"01nXF\">כָּרַ֨ע</w>\n          <w lemma=\"7257\" morph=\"HVqp3ms\" id=\"01LH1\">רָבַ֧ץ</w>\n          <w lemma=\"k/738 b\" n=\"0.0.0\" morph=\"HR/Ncmsa\" id=\"014tT\">כְּ/אַרְיֵ֛ה</w>\n          <w lemma=\"c/k/3833 c\" n=\"0.0\" morph=\"HC/R/Ncbsa\" id=\"01EJj\">וּ/כְ/לָבִ֖יא</w>\n          <w lemma=\"4310\" morph=\"HTi\" id=\"01JQq\">מִ֥י</w>\n          <w lemma=\"6965 b\" n=\"0\" morph=\"HVhi3ms/Sp3ms\" id=\"01fTp\">יְקִימֶֽ/נּוּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "4558a37a3d4bceb481b989d0c61cc20000b4befe0ee0ce79cf0a1d8dfbd056b8"
+      },
+      {
+        "id": "Gen.49.10",
+        "raw_xml": "<verse osisID=\"Gen.49.10\">\n          <w lemma=\"3808\" morph=\"HTn\" id=\"01TNL\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5493\" morph=\"HVqi3ms\" id=\"01Gzy\">יָס֥וּר</w>\n          <w lemma=\"7626\" n=\"1.1.0\" morph=\"HNcmsa\" id=\"01ZcT\">שֵׁ֨בֶט֙</w>\n          <w lemma=\"m/3063\" n=\"1.1\" morph=\"HR/Np\" id=\"01drx\">מִֽ/יהוּדָ֔ה</w>\n          <w lemma=\"c/2710\" n=\"1.0\" morph=\"HC/Vmrmsa\" id=\"01b97\">וּ/מְחֹקֵ֖ק</w>\n          <w lemma=\"m/996\" morph=\"HR/R\" id=\"01pff\">מִ/בֵּ֣ין</w>\n          <w lemma=\"7272\" n=\"1\" morph=\"HNcfdc/Sp3ms\" id=\"01em9\">רַגְלָ֑י/ו</w>\n          <w lemma=\"5704\" n=\"0.1.0\" morph=\"HR\" id=\"01imD\">עַ֚ד</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01c1e\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"935\" morph=\"HVqi3ms\" id=\"01Vo9\">יָבֹ֣א</w>\n          <w type=\"x-ketiv\" lemma=\"7886\" morph=\"HNp\" id=\"01qXR\">שילה</w><note type=\"variant\"><catchWord>שילה</catchWord><rdg type=\"x-qere\"><w lemma=\"7886\" n=\"0.1\" morph=\"HNp\" id=\"01KU3\">שִׁיל֔וֹ</w></rdg></note>\n          <w lemma=\"c/l\" n=\"0.0\" morph=\"HC/R/Sp3ms\" id=\"01N5Q\">וְ/ל֖/וֹ</w>\n          <w lemma=\"3349\" morph=\"HNcfsc\" id=\"01ym1\">יִקְּהַ֥ת</w>\n          <w lemma=\"5971 a\" n=\"0\" morph=\"HNcmpa\" id=\"01uEd\">עַמִּֽים</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "1c27f31d114d7a4815c87f62bb80996a3ee82ccf9c7f4217c007d2067fd62ab6"
+      },
+      {
+        "id": "Gen.49.11",
+        "raw_xml": "<verse osisID=\"Gen.49.11\">\n          <w lemma=\"631\" morph=\"HVqrmsc\" id=\"01T8f\">אֹסְרִ֤י</w>\n          <w lemma=\"l/1612\" n=\"1.1.0\" morph=\"HRd/Ncbsa\" id=\"01eo1\">לַ/גֶּ֨פֶן֙</w>\n          <w type=\"x-ketiv\" lemma=\"5895\" morph=\"HNcmsc/Sp3ms\" id=\"017zp\">עיר/ה</w><note type=\"variant\"><catchWord>עיר/ה</catchWord><rdg type=\"x-qere\"><w lemma=\"5895\" n=\"1.1\" morph=\"HNcmsc/Sp3ms\" id=\"01BN1\">עִיר֔/וֹ</w></rdg></note>\n          <w lemma=\"c/l/8321 b\" n=\"1.0\" morph=\"HC/Rd/Ncfsa\" id=\"016wH\">וְ/לַ/שֹּׂרֵקָ֖ה</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc\" id=\"01RJX\">בְּנִ֣י</w>\n          <w lemma=\"860\" n=\"1\" morph=\"HNcfsc/Sp3ms\" id=\"01BGh\">אֲתֹנ֑/וֹ</w>\n          <w lemma=\"3526\" morph=\"HVpp3ms\" id=\"018qj\">כִּבֵּ֤ס</w>\n          <w lemma=\"b/3196\" n=\"0.1.0\" morph=\"HRd/Ncmsa\" id=\"01Ep9\">בַּ/יַּ֨יִן֙</w>\n          <w lemma=\"3830\" n=\"0.1\" morph=\"HNcmsc/Sp3ms\" id=\"011xm\">לְבֻשׁ֔/וֹ</w>\n          <w lemma=\"c/b/1818\" morph=\"HC/R/Ncmsc\" id=\"01hdA\">וּ/בְ/דַם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6025\" n=\"0.0\" morph=\"HNcmpa\" id=\"01AMs\">עֲנָבִ֖ים</w>\n          <w type=\"x-ketiv\" lemma=\"5497\" morph=\"HNcmsc/Sp3ms\" id=\"0186h\">סות/ה</w><note type=\"variant\"><catchWord>סות/ה</catchWord><rdg type=\"x-qere\"><w lemma=\"5497\" n=\"0\" morph=\"HNcmsc/Sp3ms\" id=\"01Chx\">סוּתֽ/וֹ</w></rdg></note><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "9445f41f2607dbc92b5702b124c54f30637022a4dd4db72dfd63c57089d9418b"
+      },
+      {
+        "id": "Gen.49.12",
+        "raw_xml": "<verse osisID=\"Gen.49.12\">\n          <w lemma=\"2447\" morph=\"HAamsc\" id=\"01cxW\">חַכְלִילִ֥י</w>\n          <w lemma=\"5869 a\" n=\"1.0\" morph=\"HNcbda\" id=\"011nc\">עֵינַ֖יִם</w>\n          <w lemma=\"m/3196\" n=\"1\" morph=\"HR/Ncmsa\" id=\"01pqK\">מִ/יָּ֑יִן</w>\n          <w lemma=\"c/3836\" morph=\"HC/Aamsc\" id=\"01Trg\">וּ/לְבֶן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8127\" n=\"0.0\" morph=\"HNcbda\" id=\"01Edf\">שִׁנַּ֖יִם</w>\n          <w lemma=\"m/2461\" n=\"0\" morph=\"HR/Ncmsa\" id=\"01y65\">מֵ/חָלָֽב</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "dd43d672ae3045b3cdc4103e83e9a8b33ad05a082e5ceccdc6b0c6b727e3f117"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T220517Z-4aa7fb4e.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "catchWord",
+      "note",
+      "rdg",
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-pe",
+      "x-sof-pasuq"
+    ],
+    "notes_present_in": [
+      "Gen.49.8",
+      "Gen.49.10",
+      "Gen.49.11"
+    ],
+    "ketiv_count_by_verse": {
+      "Gen.49.8": 0,
+      "Gen.49.9": 0,
+      "Gen.49.10": 1,
+      "Gen.49.11": 2,
+      "Gen.49.12": 0
+    },
+    "ketiv_qere_preserved_in_raw_xml": true,
+    "clause_coverage": {
+      "Gen.49.8": 3,
+      "Gen.49.9": 4,
+      "Gen.49.10": 4,
+      "Gen.49.11": 4,
+      "Gen.49.12": 2
+    },
+    "all_source_words_covered_by_clauses": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "library_excerpts_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "no_ascii_double_quote_in_wording": true,
+    "gen_49_8_10_11_first_draft_previous_draft_absent": true,
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
