@@ -1,0 +1,1199 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T141004Z-e2026743",
+  "unit_id": "gen-16-7-14",
+  "verse_ids": [
+    "Gen.16.7",
+    "Gen.16.8",
+    "Gen.16.9",
+    "Gen.16.10",
+    "Gen.16.11",
+    "Gen.16.12",
+    "Gen.16.13",
+    "Gen.16.14"
+  ],
+  "unit_issue_ko": "야훼의 사자·보시는 하나님·보았음/살아남음",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.16.7-14 = 전통 장절 창세기 16:7-14(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 OCR도 1.16.7-1.16.14를 쓴다. 이 범위에서 장절 차이는 없다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml. Clause hebrew_display strings are derived by removing morpheme slashes and joining maqqef; parallel excerpts additionally drop accents and meteg.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T14:11Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. The system prompt also names claude-opus-5-5. Rechecked before commit (see timestamps_utc.identity_rechecked).",
+    "session": "https://claude.ai/code/session_01UknqVKZGJDtaF9vv4L4hjy",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false at about 2026-10-30T14:11Z and 14:18Z. This is a service label only; no balance or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot/build beyond the model id",
+      "per-turn served model for every individual turn (only last_served_model at the time of each check)",
+      "token counts, cost and credit deduction for this run",
+      "remaining promotional credit balance"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T14:09:47Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; main revision 4fbdcbcadea73cca32b2febcc8f3e4fb214ccb83)",
+    "claim_created": "2026-10-30T14:10:04.718197+00:00",
+    "claim_pushed": "2026-10-30T14:10:11+00:00 commit 8ef4b1d7bdcb5e2a13f13ef1e4eb230fc4c39ea5 pushed to claude/bible-difficult-passages-bn9knm before review",
+    "independent_reading_saved": "2026-10-30T14:10:54Z (scratch file mtime)",
+    "earlier_records_compared": "2026-10-30T14:11:00Z-14:11:40Z",
+    "parallel_evidence_fetched": "2026-10-30T14:11:55Z-14:11:56Z",
+    "identity_rechecked": "2026-10-30T14:18Z: get_session again reported configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, last_served_model=claude-opus-5-5; unchanged.",
+    "review_built": "2026-10-30T14:19:29Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "Reading built from packet raw XML and OSHB morphology only, before opening any saved model record; clause notes were later expanded with pinned WLC parallels and LXX OCR evidence, labelled as such. as_first_written is the unedited first note.",
+    "written_before_reading_other_records_utc": "2026-10-30T14:10:54Z",
+    "clauses": {
+      "Gen.16.7": [
+        {
+          "word_ids": [
+            "01Cts",
+            "01yqG",
+            "016ev"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'야훼의 사자가 그녀를 발견하였다'. מַלְאַךְ은 연계형이고 뒤가 고유명사(יְהוָה)이므로 문법상 한정('그 사자'). '어떤 천사'로 비한정 번역할 형태 근거는 약하다. 사자와 야훼의 관계(13절 '그녀에게 말씀하신 야훼')는 수용사 문제로 따로 둔다. מצא는 '찾아내다/마주치다'.",
+          "hebrew_display": "וַֽיִּמְצָאָ֞הּ מַלְאַ֧ךְ יְהוָ֛ה"
+        },
+        {
+          "word_ids": [
+            "01MDh",
+            "01gZp",
+            "01dmq",
+            "01RFy"
+          ],
+          "category": "lexical",
+          "reading_ko": "'광야의 물 샘 곁에서'. עַיִן은 '눈/샘' 동음이의어이나 הַמַּיִם(물)과 결합해 '샘'. 연계 사슬 끝의 관사로 '그 물 샘'(한정).",
+          "hebrew_display": "עַל־עֵ֥ין הַמַּ֖יִם בַּמִּדְבָּ֑ר"
+        },
+        {
+          "word_ids": [
+            "01U5A",
+            "01YEo",
+            "01WW5",
+            "01xB1"
+          ],
+          "category": "discourse",
+          "reading_ko": "'술로 가는 길의 그 샘 곁에서'. 같은 전치사 עַל의 반복은 동격적 재규정으로, 앞의 샘을 위치로 다시 특정한다. 술(שׁוּר)은 이집트 동쪽 경계 지역(25:18 '이집트 앞쪽 술'). 하갈이 이집트 방향으로 가고 있었다는 추론은 본문이 명시하지 않는다.",
+          "hebrew_display": "עַל־הָעַ֖יִן בְּדֶ֥רֶךְ שֽׁוּר"
+        }
+      ],
+      "Gen.16.8": [
+        {
+          "word_ids": [
+            "01Dut",
+            "01aAs",
+            "01iR4",
+            "01WD5"
+          ],
+          "category": "discourse",
+          "reading_ko": "'그가 말하였다. 사래의 여종 하갈아'. 주어는 표시되지 않았다(문맥상 사자). 칠십인역 OCR은 '그녀에게 주의 천사가'를 보충한다(번역상 명시화일 가능성; 본문 이문으로 단정하지 않음). שִׁפְחָה는 여주인에게 속한 여종(16:6 '네 여종이 네 손에 있다')으로 소유 관계가 서사의 축이다.",
+          "hebrew_display": "וַיֹּאמַ֗ר הָגָ֞ר שִׁפְחַ֥ת שָׂרַ֛י"
+        },
+        {
+          "word_ids": [
+            "01QVS",
+            "01Byp",
+            "01WT7"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'어디에서 왔느냐'. אֵי־מִזֶּה + 완료 בָאת.",
+          "hebrew_display": "אֵֽי־מִזֶּ֥ה בָ֖את"
+        },
+        {
+          "word_ids": [
+            "01mgg",
+            "01FtA"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'어디로 가느냐'. 미완료 2여단. 두 질문 중 하갈은 첫째(출발점)만 답한다. 목적지 질문이 미답으로 남는 것은 서사적 특징.",
+          "hebrew_display": "וְאָ֣נָה תֵלֵ֑כִי"
+        },
+        {
+          "word_ids": [
+            "01Wy2",
+            "01LWF",
+            "0143f",
+            "01DKG",
+            "01Zqk",
+            "01JHu"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'제 여주인 사래 앞에서(피하여) 저는 도망하고 있습니다'. מִפְּנֵי는 '~의 낯을 피해'. 독립 대명사 אָנֹכִי + 분사 בֹּרַחַת로 진행·현재 상황 강조. 16:6 וַתִּבְרַח מִפָּנֶיהָ의 반복.",
+          "hebrew_display": "וַתֹּ֕אמֶר מִפְּנֵי֙ שָׂרַ֣י גְּבִרְתִּ֔י אָנֹכִ֖י בֹּרַֽחַת"
+        }
+      ],
+      "Gen.16.9": [
+        {
+          "word_ids": [
+            "01TX2",
+            "01BVw",
+            "01As7",
+            "015kf"
+          ],
+          "category": "discourse",
+          "reading_ko": "'야훼의 사자가 그녀에게 말하였다'. 9·10·11절 모두 같은 도입구로 시작한다. 같은 화자의 세 연속 발화를 표시하는 반복이며 '또'를 넣으면 보충이다.",
+          "hebrew_display": "וַיֹּ֤אמֶר לָהּ֙ מַלְאַ֣ךְ יְהוָ֔ה"
+        },
+        {
+          "word_ids": [
+            "01nnm",
+            "01Skh",
+            "01hML"
+          ],
+          "category": "lexical",
+          "reading_ko": "'네 여주인에게 돌아가라'. 명령 שׁוּבִי.",
+          "hebrew_display": "שׁ֖וּבִי אֶל־גְּבִרְתֵּ֑ךְ"
+        },
+        {
+          "word_ids": [
+            "01brS",
+            "01wJM",
+            "01H8d"
+          ],
+          "category": "lexical",
+          "reading_ko": "'그녀의 손 아래에서 자신을 낮추어라/괴로움을 감수하라'. הִתְעַנִּי는 ענה II 히트파엘 명령. 16:6 וַתְּעַנֶּהָ(피엘, 사래가 그녀를 학대함)와 11절 עָנְיֵךְ(너의 고난)과 같은 어근이다. 히트파엘은 '자신을 낮추다/복종하다'와 '괴롭힘을 당하는 처지에 자신을 두다' 양쪽 다 가능. יָדֶיהָ는 복수(쌍수) '손들'이며 칠십인역도 복수 χεῖρας. 권한의 관용구.",
+          "hebrew_display": "וְהִתְעַנִּ֖י תַּ֥חַת יָדֶֽיהָ"
+        }
+      ],
+      "Gen.16.10": [
+        {
+          "word_ids": [
+            "0148z",
+            "01M8d",
+            "01WKe",
+            "012KH"
+          ],
+          "category": "discourse",
+          "reading_ko": "'야훼의 사자가 그녀에게 말하였다'. 바로 이어서 사자가 1인칭 '내가 늘리겠다'로 하나님만의 약속(13:16, 15:5 참조)을 말한다. 사자와 야훼의 관계 문제가 여기서 처음 드러난다.",
+          "hebrew_display": "וַיֹּ֤אמֶר לָהּ֙ מַלְאַ֣ךְ יְהוָ֔ה"
+        },
+        {
+          "word_ids": [
+            "01HGY",
+            "01NxF",
+            "0162X",
+            "01hQZ"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'내가 네 자손을 크게 늘리겠다'. 부정사 절대형 הַרְבָּה + 히필 미완료 1인칭 강조 구문.",
+          "hebrew_display": "הַרְבָּ֥ה אַרְבֶּ֖ה אֶת־זַרְעֵ֑ךְ"
+        },
+        {
+          "word_ids": [
+            "011B3",
+            "01imA",
+            "01eZb"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'많아서 셀 수 없을 것이다'. 니팔 יִסָּפֵר + מֵרֹב(많음 때문에).",
+          "hebrew_display": "וְלֹ֥א יִסָּפֵ֖ר מֵרֹֽב"
+        }
+      ],
+      "Gen.16.11": [
+        {
+          "word_ids": [
+            "01Kg3",
+            "01L37",
+            "01Dbh",
+            "01GXn"
+          ],
+          "category": "discourse",
+          "reading_ko": "'야훼의 사자가 그녀에게 말하였다'. 세 번째 같은 도입구.",
+          "hebrew_display": "וַיֹּ֤אמֶר לָהּ֙ מַלְאַ֣ךְ יְהוָ֔ה"
+        },
+        {
+          "word_ids": [
+            "01mmj",
+            "01vT5",
+            "01ia1",
+            "01Lgd"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'보아라, 너는 임신하였고 아들을 낳을 것이다'. הָרָה는 형용사 '임신한'(16:4에서 이미 임신). וְיֹלַדְתְּ는 OSHB가 분사로 분석한다. 삿 13:5 הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן과 동일한 수태 고지 공식.",
+          "hebrew_display": "הִנָּ֥ךְ הָרָ֖ה וְיֹלַ֣דְתְּ בֵּ֑ן"
+        },
+        {
+          "word_ids": [
+            "01GhB",
+            "015PW",
+            "013FW"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'너는 그의 이름을 이스마엘이라 부를 것이다/불러라'. 웨카탈 2여단. 어머니가 이름을 짓는다.",
+          "hebrew_display": "וְקָרָ֤את שְׁמוֹ֙ יִשְׁמָעֵ֔אל"
+        },
+        {
+          "word_ids": [
+            "01jwC",
+            "01GmR",
+            "01xun",
+            "01zAv",
+            "011c2"
+          ],
+          "category": "lexical",
+          "reading_ko": "'야훼께서 너의 고난을 들으셨기 때문이다'. 이스마엘(하나님이 들으신다)과 שָׁמַע의 말놀이. שָׁמַע אֶל은 '~에 귀 기울이다'. עֳנִי는 9절 הִתְעַנִּי, 6절 וַתְּעַנֶּהָ와 같은 어근. 칠십인역 OCR은 ταπείνωσις(낮아짐/비천함)로 9절 ταπεινώθητι와 연결을 유지한다.",
+          "hebrew_display": "כִּֽי־שָׁמַ֥ע יְהוָ֖ה אֶל־עָנְיֵֽךְ"
+        }
+      ],
+      "Gen.16.12": [
+        {
+          "word_ids": [
+            "01q28",
+            "018oG",
+            "012L1",
+            "01e3V"
+          ],
+          "category": "lexical",
+          "reading_ko": "'그는 들나귀 같은 사람이 될 것이다'. פֶּרֶא אָדָם은 연계형 '사람 들나귀'. 욥 39:5에서 פֶּרֶא는 '자유로운(חָפְשִׁי)' 광야 짐승이다. 경멸인지 자유·독립의 묘사인지 형태만으로 정해지지 않는다. 칠십인역 OCR은 ἄγροικος ἄνθρωπος('들사람/거친 사람')로 나귀를 언급하지 않는다.",
+          "hebrew_display": "וְה֤וּא יִהְיֶה֙ פֶּ֣רֶא אָדָ֔ם"
+        },
+        {
+          "word_ids": [
+            "01Ae1",
+            "01PFr"
+          ],
+          "category": "lexical",
+          "reading_ko": "'그의 손은 모두에게(맞서고)'. יָד + בְּ는 적대적 '손을 대다'의 관용. 동사가 없으므로 '치다'를 넣으면 보충.",
+          "hebrew_display": "יָד֣וֹ בַכֹּ֔ל"
+        },
+        {
+          "word_ids": [
+            "01YKm",
+            "01WHq",
+            "01KxQ"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'모두의 손은 그에게(맞설 것이다)'. 앞 구절과 교차 대칭.",
+          "hebrew_display": "וְיַ֥ד כֹּ֖ל בּ֑וֹ"
+        },
+        {
+          "word_ids": [
+            "01NKr",
+            "01LsJ",
+            "01bhZ",
+            "018nK",
+            "01tSz"
+          ],
+          "category": "lexical",
+          "reading_ko": "'그는 자기 모든 형제 맞은편에 거할 것이다'. עַל־פְּנֵי는 '~앞에/맞은편에/~의 동쪽에/~에 맞서' 다의적. 25:18 עַל פְּנֵי כָל אֶחָיו נָפָל(이스마엘 자손의 정착 보고)에서 같은 구가 다시 나오고, 같은 절에서 עַל פְּנֵי מִצְרַיִם는 지리적 '앞쪽(동쪽)'이다. 적대와 지리 둘 다 열어 둔다. 칠십인역 OCR κατὰ πρόσωπον도 공간적 대면.",
+          "hebrew_display": "וְעַל־פְּנֵ֥י כָל־אֶחָ֖יו יִשְׁכֹּֽן"
+        }
+      ],
+      "Gen.16.13": [
+        {
+          "word_ids": [
+            "01FE5",
+            "01Hxz",
+            "01B3z",
+            "01XLq",
+            "01nB1"
+          ],
+          "category": "reception",
+          "reading_ko": "'그녀는 자기에게 말씀하신 야훼의 이름을 불렀다'. 서술자가 7-11절의 '야훼의 사자'인 화자를 '야훼'로 지칭한다. 사자와 야훼의 동일시 여부는 해석 문제이며 본문은 이 지칭만 제공한다. 인간(여성, 이방 여종)이 하나님께 이름을 붙이는 유일한 장면.",
+          "hebrew_display": "וַתִּקְרָ֤א שֵׁם־יְהוָה֙ הַדֹּבֵ֣ר אֵלֶ֔יהָ"
+        },
+        {
+          "word_ids": [
+            "01h14",
+            "01vMU",
+            "01112"
+          ],
+          "category": "lexical",
+          "reading_ko": "'당신은 엘 로이이십니다'. MT 모음 רֳאִי는 OSHB가 명사 절대형('봄/보임')으로 분석한다. '보시는 하나님'(능동)과 '보이시는/나타나시는 하나님'(시각적 현현) 둘 다 가능. 칠십인역 OCR ὁ ἐφιδών με('나를 굽어보신 분')는 능동+목적어로, 13b의 רֹאִי(분사+1공단 '나를 보시는 분')와 같은 방향.",
+          "hebrew_display": "אַתָּ֖ה אֵ֣ל רֳאִ֑י"
+        },
+        {
+          "word_ids": [
+            "013fE",
+            "01zMp"
+          ],
+          "category": "syntactic",
+          "reading_ko": "'그녀가 말하였기 때문이다'. 이름의 근거절. 완료 3여단.",
+          "hebrew_display": "כִּ֣י אָֽמְרָ֗ה"
+        },
+        {
+          "word_ids": [
+            "01mxd",
+            "014ir",
+            "016mr",
+            "01bXr",
+            "01CCa"
+          ],
+          "category": "textual",
+          "reading_ko": "'내가 정말 여기서도 나를 보시는 분의 뒤에/뒤에도 보았는가?'. הֲגַם 의문(+'정말/~조차'), הֲלֹם '이리로/여기', רָאִיתִי '내가 보았다', אַחֲרֵי '~뒤에(공간/시간)', רֹאִי '나를 보시는 분'. 가능한 읽기: (a) 공간 '나를 보시는 분의 뒤(모습)를 보았는가' — 단 출 33:23은 다른 낱말 אֲחֹרָי(나의 등)를 쓴다; (b) 시간 '나를 보시는 분(을 뵌) 뒤에도 여전히 보고(살아) 있는가' — 출 33:20, 삿 13:22, 창 32:31의 '하나님을 보고 살아남음' 모티프 및 14절 לַחַי와 연결; (c) 학자들의 추정 수정 '내가 하나님을 보고도 그 봄 뒤에 살았는가'는 증언된 본문이 아닌 재구성이다. 이 패킷(WLC)에는 이문 표시가 없다. 칠십인역 OCR καὶ γὰρ ἐνώπιον ἴδον ὀφθέντα μοι('나는 내게 나타나신 분을 대면하여 보았다')는 '뒤'와 '살아남음' 어느 쪽도 반영하지 않는다.",
+          "hebrew_display": "הֲגַ֥ם הֲלֹ֛ם רָאִ֖יתִי אַחֲרֵ֥י רֹאִֽי"
+        }
+      ],
+      "Gen.16.14": [
+        {
+          "word_ids": [
+            "01XzH",
+            "01DHa",
+            "01B8t",
+            "01SYU",
+            "01YnQ",
+            "01Z2g",
+            "016oJ"
+          ],
+          "category": "lexical",
+          "reading_ko": "'그러므로 그 우물을 브엘라해로이라 불렀다'. קָרָא 3남단 비인칭('사람들이 불렀다' = '불렸다'). OSHB는 בְּאֵר לַחַי רֹאִי를 하나의 지명(lemma 883)으로 처리한다. '나를 보시는 살아 계신 분의 우물'은 민간 어원으로 흔하지만 לַחַי의 모음(לַ+חַי)은 정상 구문이 아니며 '턱뼈'(לְחִי, 삿 15:17,19 라맛 레히·엔학고레)와의 관련도 제안된다. 칠십인역 OCR Φρέαρ οὗ ἐνώπιον ἴδον('내가 대면하여 본 우물')은 לַחַי를 '살아 계신 분'으로 옮기지 않는다. 24:62, 25:11에 같은 지명이 이삭과 함께 나온다.",
+          "hebrew_display": "עַל־כֵּן֙ קָרָ֣א לַבְּאֵ֔ר בְּאֵ֥ר לַחַ֖י רֹאִ֑י"
+        },
+        {
+          "word_ids": [
+            "01mxb",
+            "01cxS",
+            "01YtD",
+            "01uia",
+            "01B8N"
+          ],
+          "category": "historical",
+          "reading_ko": "'보아라, 그것은 가데스와 베렛 사이에 있다'. 서술자의 위치 해설. 베렛의 위치는 미상. 칠십인역 OCR Βάραδ.",
+          "hebrew_display": "הִנֵּ֥ה בֵין־קָדֵ֖שׁ וּבֵ֥ין בָּֽרֶד"
+        }
+      ]
+    },
+    "as_first_written": "Independent reading written before consulting any saved records. UTC: see file mtime.\nv7 malak YHWH construct with proper name -> grammatically definite 'the messenger of YHWH'; identity question deferred to v13 (reception). ayin = spring (with ha-mayim). second 'al-ha-ayin' appositional: 'the spring on the way to Shur'.\nv8 shifchah = slave-woman/maidservant; two questions, only first answered; participle borachat = 'I am fleeing'.\nv9 hit'anni Hitpael of anah II: 'submit yourself / humble yourself under her hands'; deliberate echo of v6 watte'anneha (Piel, Sarai afflicted her) and v11 onyekh. Keep lexical link visible.\nv10 angel speaks in first person 'I will greatly multiply' -> speaker-identity issue; inf.abs emphasis.\nv11 hinnakh harah = 'you are pregnant' (already, v4); yoladt parsed participle by OSHB = 'and are about to bear'; weqarat = 'you shall call'. 'YHWH has heard (shama el) your affliction' -> Ishmael pun.\nv12 pere adam 'a wild donkey of a man' - not necessarily pejorative (Job 39:5-8 freedom); al-pene kol-echav: 'over against / east of / in the face of / alongside' all his brothers; cf Gen 25:18. Keep ambiguous.\nv13 'el roi': MT ro'i noun 'seeing' (OSHB Ncmsa) -> 'God of seeing' (who sees / is seen ambiguous). Second clause hagam halom ra'iti achare ro'i: literal 'Have I even here seen after the one who sees me?' Options: (a) seen the back of him who sees me (cf Ex 33:23); (b) kept seeing / remained after he saw me; (c) emendation 'have I seen God and lived after seeing' = reconstruction, NOT attested in WLC.\nv14 qara 3ms impersonal 'therefore one called / the well was called'; Beer-lahai-roi: 'well of the Living One who sees me' is a popular etymology; alternative 'well of lahai-roi' unexplained name; location Kadesh-Bered (Bered unknown).\n"
+  },
+  "initial_proposals": {
+    "Gen.16.7": {
+      "ko": "야훼의 사자가 광야에 있는 물 샘 곁, 곧 술로 가는 길의 샘 곁에서 그녀를 발견하였다.",
+      "en": "The messenger of YHWH found her by the spring of water in the wilderness, by the spring on the way to Shur.",
+      "es": "El mensajero de YHWH la encontró junto al manantial de agua en el desierto, junto al manantial del camino de Shur."
+    },
+    "Gen.16.8": {
+      "ko": "그가 말하였다. “사래의 여종 하갈아, 어디에서 왔으며 어디로 가느냐?” 그녀가 말하였다. “저는 제 여주인 사래를 피해 도망하는 중입니다.”",
+      "en": "He said, “Hagar, slave woman of Sarai, where have you come from, and where are you going?” She said, “I am fleeing from my mistress Sarai.”",
+      "es": "Él dijo: «Agar, esclava de Sarai, ¿de dónde vienes y adónde vas?». Ella respondió: «Estoy huyendo de Sarai, mi señora»."
+    },
+    "Gen.16.9": {
+      "ko": "야훼의 사자가 그녀에게 말하였다. “네 여주인에게 돌아가서 그녀의 손 아래에서 자신을 낮추어라.”",
+      "en": "The messenger of YHWH said to her, “Return to your mistress, and submit yourself under her hands.”",
+      "es": "El mensajero de YHWH le dijo: «Vuelve a tu señora y sométete bajo sus manos»."
+    },
+    "Gen.16.10": {
+      "ko": "야훼의 사자가 그녀에게 말하였다. “내가 너의 자손을 크게 불어나게 하여, 너무 많아서 셀 수 없게 하겠다.”",
+      "en": "The messenger of YHWH said to her, “I will greatly multiply your offspring, so that they cannot be counted for multitude.”",
+      "es": "El mensajero de YHWH le dijo: «Multiplicaré en gran manera tu descendencia, y por su multitud no podrá ser contada»."
+    },
+    "Gen.16.11": {
+      "ko": "야훼의 사자가 그녀에게 말하였다. “보아라, 너는 임신하였으니 아들을 낳을 것이다. 너는 그의 이름을 이스마엘이라 하여라. 야훼께서 너의 고난을 들으셨기 때문이다.”",
+      "en": "The messenger of YHWH said to her, “Look, you are pregnant and will bear a son, and you shall call his name Ishmael, for YHWH has heard your affliction.”",
+      "es": "El mensajero de YHWH le dijo: «Mira, estás encinta y darás a luz un hijo, y lo llamarás Ismael, porque YHWH ha escuchado tu aflicción»."
+    },
+    "Gen.16.12": {
+      "ko": "그는 들나귀 같은 사람이 될 것이다. 그의 손은 모두를 거스르고, 모두의 손은 그를 거스를 것이다. 그는 자기 모든 형제들 맞은편에 거할 것이다.",
+      "en": "He will be a wild donkey of a man, his hand against everyone and everyone's hand against him; and he will dwell over against all his brothers.",
+      "es": "Él será un hombre como asno montés; su mano contra todos y la mano de todos contra él; y habitará frente a todos sus hermanos."
+    },
+    "Gen.16.13": {
+      "ko": "그녀는 자기에게 말씀하신 야훼의 이름을 “당신은 엘 로이이십니다”라고 불렀다. 그녀가 “내가 정말 여기서, 나를 보시는 분을 뵌 뒤에도 보고 있단 말인가?”라고 말하였기 때문이다.",
+      "en": "She called the name of YHWH who spoke to her, “You are El-roi,” for she said, “Have I really gone on seeing here, after the One who sees me?”",
+      "es": "Ella llamó el nombre de YHWH que le hablaba: «Tú eres El-roí», porque dijo: «¿De veras he seguido viendo aquí, después de Aquel que me ve?»."
+    },
+    "Gen.16.14": {
+      "ko": "그러므로 그 우물을 브엘라해로이라 불렀다. 보아라, 그것은 가데스와 베렛 사이에 있다.",
+      "en": "Therefore the well was called Beer-lahai-roi; look, it is between Kadesh and Bered.",
+      "es": "Por eso al pozo se le llamó Beer-lahai-roí; mira, está entre Cades y Bered."
+    }
+  },
+  "initial_proposals_note": "Written before comparing earlier records; unchanged after comparison (see changes_from_initial_proposal_ko).",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbcadea73cca32b2febcc8f3e4fb214ccb83)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.16.7-14에는 현행 채택문이 없다(패킷 current_selected 빈 목록; editorial.json 111절 중 없음). 이 검토는 미래 채택용 연구 자료다. 표기 관례(한국어 '야훼', 영어·스페인어 'YHWH', 한국어·영어 “ ”, 스페인어 « », הִנֵּה=보아라/Look/Mira)는 Gen.1.29, 1.31, 3.22, 4.14, 4.15 채택문에서 확인하여 따랐다."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-05g9sz:automation/cloud-drafts/20261024T151820Z-3e687f64.json (commit 01a61ec7739800f3b622593fe718b75ec1239cb1)",
+      "model_label": "Claude Sonnet 5.5 (claude-sonnet-5-5), as stated in that record's requested_model; Claude Code native cloud draft, unadopted_model_draft",
+      "finding_ko": "Gen.15.7-19.15 100절 일괄 초안 중 16:7-14 여덟 절을 이 검토의 독립 읽기를 저장한 뒤 비교했다. 그 기록의 source_file_sha256는 이 패킷과 동일(0526e5c9…)하다. 그 기록의 source_hebrew_sha256 값은 이 패킷의 fragment_sha256과 다르나, 그 초안이 다른 표현(결합 텍스트 등)을 해시한 것으로 보이며 원천 파일 불일치가 아니다(그 초안의 해시 대상은 이 실행에서 재현하지 않았다)."
+    },
+    {
+      "record": "data/model-reviews/, data/decisions.json, data/genesis-guides.json (main)",
+      "model_label": "none found",
+      "finding_ko": "Gen.16에 대한 GPT/Gemini/Antigravity/Claude 저장 검토 기록을 찾지 못했다(문자열 검색 'Gen.16'). 따라서 GPT·Gemini 비교는 이 실행에서 불가능하며 하지 않았다."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Gen.16.13",
+      "severity": "high",
+      "finding": "Sonnet 5.5 초안은 언어 간 불일치가 있다. 한국어는 '당신은 나를 보시는 하나님이십니다'(רֳאִי에 1인칭 접미를 읽음)와 평서 감탄 '내가 여기서도 나를 보신 분의 뒤를 보았구나'(공간 '뒤' 읽기)인데, 영어는 'You are a God of seeing'(명사 읽기)와 의문 'Have I really seen here the one who sees me?', 스페인어도 의문이다. 영어·스페인어는 אַחֲרֵי를 번역하지 않아 낱말이 빠졌고, 한국어는 의문사 הֲ를 평서로 바꾸었다. 세 언어가 서로 다른 히브리어 해석을 반영하므로 채택 전에 반드시 통일해야 한다."
+    },
+    {
+      "id": "Gen.16.7-14",
+      "severity": "medium",
+      "finding": "Sonnet 5.5 초안 한국어는 '여호와'를 쓰나 현행 채택문 관례는 '야훼'다. 채택 시 표기 통일 필요."
+    },
+    {
+      "id": "Gen.16.12",
+      "severity": "medium",
+      "finding": "Sonnet 5.5 초안 한국어 '그의 손은 모두를 치고 모두의 손은 그를 치며'는 히브리어에 없는 동사 '치다'를 보충했고 영어·스페인어 'against'보다 강하다. 또 한국어 '앞에서 살 것이다'와 영어 'over against'의 뉘앙스가 다르다. 이 검토는 '거스르다'와 '맞은편에'로 세 언어를 맞추었다."
+    },
+    {
+      "id": "Gen.16.7",
+      "severity": "low",
+      "finding": "Sonnet 5.5 초안 영어 'a spring of water', 스페인어 'una fuente'는 비한정이나 עֵין הַמַּיִם은 관사로 한정된 연계 사슬이다. 의미 차이는 작다."
+    },
+    {
+      "id": "Gen.16.9",
+      "severity": "low",
+      "finding": "Sonnet 5.5 초안 'under her hand'(단수)는 관용으로는 자연스러우나 יָדֶיהָ는 복수(쌍수)이고 칠십인역도 복수다. 초안이 반론으로 든 16:6 동일 어근 연결은 이 검토도 중요하게 본다."
+    },
+    {
+      "id": "Gen.16.8, 16.10, 16.11, 16.14",
+      "severity": "agreement",
+      "finding": "분사 진행, 강조 구문, 형용사 הָרָה, 지명 음역 '브엘라해로이' 판단은 이 검토와 일치한다. 16:10 '화자 정체성 논의는 번역 밖'이라는 초안 의견에 동의하되, 각주로 문제를 표시하자고 제안한다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": [
+    "비교 후 본문 변경 없음. 초안 비교에서 새로 확인한 것은 Sonnet 초안의 결함(16:13 언어 간 불일치, 16:12 보충 동사, '여호와' 표기)이며, 이 검토의 처음 제안에 이미 반영된 방향이다.",
+    "16:13 '엘 로이' 뒤에 의미 풀이를 본문에 넣을지 검토했으나, 이름의 의미가 능동/수동으로 열려 있어 본문에는 음역만 두고 각주(proposed_notes_ko)로 '보시는 하나님 / 보이시는 하나님'을 설명하기로 처음 제안을 유지했다."
+  ],
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). LXX lines come from a third-party raw OCR of Swete (First1KGreek) at a pinned commit; reception evidence only, OCR errors preserved, rights of the OCR repository not asserted.",
+    "excerpts": [
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.16.4",
+        "tag": "harah",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיָּבֹא אֶל הָגָר וַתַּהַר וַתֵּרֶא כִּי הָרָתָה וַתֵּקַל גְּבִרְתָּהּ בְּעֵינֶיהָ",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.16.6",
+        "tag": "anah_piel_and_flight",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיֹּאמֶר אַבְרָם אֶל שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶיהָ",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.21.17",
+        "tag": "malak_elohim_to_hagar",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּשְׁמַע אֱלֹהִים אֶת קוֹל הַנַּעַר וַיִּקְרָא מַלְאַךְ אֱלֹהִים אֶל הָגָר מִן הַשָּׁמַיִם וַיֹּאמֶר לָהּ מַה לָּךְ הָגָר אַל תִּירְאִי כִּי שָׁמַע אֱלֹהִים אֶל קוֹל הַנַּעַר בַּאֲשֶׁר הוּא שָׁם",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.22.11",
+        "tag": "malak_yhwh",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּקְרָא אֵלָיו מַלְאַךְ יְהוָה מִן הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּנִי",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.32.4",
+        "tag": "human_malakim",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים לְפָנָיו אֶל עֵשָׂו אָחִיו אַרְצָה שֵׂעִיר שְׂדֵה אֱדוֹם",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.13.16",
+        "tag": "seed_uncountable",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְשַׂמְתִּי אֶת זַרְעֲךָ כַּעֲפַר הָאָרֶץ אֲשֶׁר אִם יוּכַל אִישׁ לִמְנוֹת אֶת עֲפַר הָאָרֶץ גַּם זַרְעֲךָ יִמָּנֶה",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.37.27",
+        "tag": "yad_be_hostile",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "לְכוּ וְנִמְכְּרֶנּוּ לַיִּשְׁמְעֵאלִים וְיָדֵנוּ אַל תְּהִי בוֹ כִּי אָחִינוּ בְשָׂרֵנוּ הוּא וַיִּשְׁמְעוּ אֶחָיו",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.25.11",
+        "tag": "achare_temporal_and_place_name",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיְהִי אַחֲרֵי מוֹת אַבְרָהָם וַיְבָרֶךְ אֱלֹהִים אֶת יִצְחָק בְּנוֹ וַיֵּשֶׁב יִצְחָק עִם בְּאֵר לַחַי רֹאִי",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.24.62",
+        "tag": "place_name",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וְיִצְחָק בָּא מִבּוֹא בְּאֵר לַחַי רֹאִי וְהוּא יוֹשֵׁב בְּאֶרֶץ הַנֶּגֶב",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.25.18",
+        "tag": "al_pene",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּשְׁכְּנוּ מֵחֲוִילָה עַד שׁוּר אֲשֶׁר עַל פְּנֵי מִצְרַיִם בֹּאֲכָה אַשּׁוּרָה עַל פְּנֵי כָל אֶחָיו נָפָל",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Gen.32.31",
+        "tag": "saw_god_and_survived",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "excerpt": "וַיִּקְרָא יַעֲקֹב שֵׁם הַמָּקוֹם פְּנִיאֵל כִּי רָאִיתִי אֱלֹהִים פָּנִים אֶל פָּנִים וַתִּנָּצֵל נַפְשִׁי",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Exod.33.20",
+        "tag": "no_one_sees_and_lives",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וַיֹּאמֶר לֹא תוּכַל לִרְאֹת אֶת פָּנָי כִּי לֹא יִרְאַנִי הָאָדָם וָחָי",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Exod.33.23",
+        "tag": "achorai_noun",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "excerpt": "וַהֲסִרֹתִי אֶת כַּפִּי וְרָאִיתָ אֶת אֲחֹרָי וּפָנַי לֹא יֵרָאוּ",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Job.39.5",
+        "tag": "pere_free",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Job.xml",
+        "file_sha256": "7db3311184122f37a8fd52f3c7c0c4a6d2da7b77ee82f4fdb26bcba9171d297f",
+        "excerpt": "מִי שִׁלַּח פֶּרֶא חָפְשִׁי וּמֹסְרוֹת עָרוֹד מִי פִתֵּחַ",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Judg.13.5",
+        "tag": "annunciation_formula",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "כִּי הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וּמוֹרָה לֹא יַעֲלֶה עַל רֹאשׁוֹ כִּי נְזִיר אֱלֹהִים יִהְיֶה הַנַּעַר מִן הַבָּטֶן וְהוּא יָחֵל לְהוֹשִׁיעַ אֶת יִשְׂרָאֵל מִיַּד פְּלִשְׁתִּים",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Judg.13.22",
+        "tag": "saw_god_fear_death",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וַיֹּאמֶר מָנוֹחַ אֶל אִשְׁתּוֹ מוֹת נָמוּת כִּי אֱלֹהִים רָאִינוּ",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Judg.18.3",
+        "tag": "halom_with_motion",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "הֵמָּה עִם בֵּית מִיכָה וְהֵמָּה הִכִּירוּ אֶת קוֹל הַנַּעַר הַלֵּוִי וַיָּסוּרוּ שָׁם וַיֹּאמְרוּ לוֹ מִי הֱבִיאֲךָ הֲלֹם וּמָה אַתָּה עֹשֶׂה בָּזֶה וּמַה לְּךָ פֹה",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "hebrew_osis",
+        "ref": "Judg.15.19",
+        "tag": "lehi_place",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+        "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+        "excerpt": "וַיִּבְקַע אֱלֹהִים אֶת הַמַּכְתֵּשׁ אֲשֶׁר בַּלֶּחִי וַיֵּצְאוּ מִמֶּנּוּ מַיִם וַיֵּשְׁתְּ וַתָּשָׁב רוּחוֹ וַיֶּחִי עַל כֵּן קָרָא שְׁמָהּ עֵין הַקּוֹרֵא אֲשֶׁר בַּלֶּחִי עַד הַיּוֹם הַזֶּה",
+        "excerpt_form": "joined OSHB tokens, accents and meteg removed; not the verbatim source",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.7",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 384,
+        "excerpt": "1.16.7 εὗρεν δὲ αὐτὴν ἄἡλος κυρίου τοῦ θεοῦ ἐπὶ τῆς πηγῆς τοῦ ὕδατος ἐν τῇ ἐρήμῳ, ἐπὶτῆς πηγῆς ἐν τῇ ὁδῷ Σούρ.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.8",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 385,
+        "excerpt": "1.16.8 καὶ εἶπεν αὐτῇ ὁ ἄγγελος κυρίου Ἅγαρ παιδίσκη Σάρας, πόθεν ἔρχῃ; καὶ ποῦ πορεύῃ; καὶ εἶπεν Ἀπὸ προσώπουΣάραςτῆς κυρίας μου ἐγὼ ἀποδιδράσκω.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.9",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 386,
+        "excerpt": "1.16.9 εἶπεν δὲ αὐτῇ ὁ ἄγγελος κυρίου Ἀποστράφηθι πρὸς τὴν κυρίαν σου καὶ ταπεινώθητι ὑπὸ τὰς§ Α χεῖρας αὐτῆς. §",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.10",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 387,
+        "excerpt": "1.16.10 καὶ εἶπεν αὐτῇ ὁ ἄγγελος κυρίου πληθύνων πληθυνῶ τὸ σπέρμα σου, καὶ οὐκ ἀριθμήσεται ἀπὸ τοῦ πλήθους.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.11",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 388,
+        "excerpt": "1.16.11 καὶ εἶπεν αὐτῇ ὁ ἄγγελος κυρίου ἰδοὺ σὺ ἐν γαστρὶ ἔχεις, καὶ τέξῃ υἱόν,καὶ κολέσεις τὸ ὄνομα αὐτοῦ Ἰσμαήλ, ὅτι ἐπήκουσεν κύριος τῆ ταπει- νώσει σου.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.12",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 389,
+        "excerpt": "1.16.12 οὗτος ἔσται ἄγροικος ἄνθρωρος αἱ χεφες αὐτοῦ ἐπὶ Απάντας καὶ αἱ χεῖπες πάντων ἐπ’ αὐτόν, καὶ κατὰ πρόσωπον πόντων τῶν ἀδελφῶν αὐτοῦ κατοικήσει.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.13",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 390,
+        "excerpt": "1.16.13 καὶ ἐκάλεσεν Ἀγἀρ τὸ ὄνοματοῦ τοῦ λαλοῦντος πρὸς αὐτήν Σὺ ὁ θεὸς ὁ ἐφιδών με· ὅτι εἶπεν καὶ γὰρ ἐνώπιον ἴδον ὀφθέντα μοι.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "Gen.16.14",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "line": 391,
+        "excerpt": "1.16.14 ἕνεκεν τούτου ἐκάλεσεν τὸΦρέαρ οὗ ἐνώπιον ἴδον· ἰδοὺ ἀνὰ μέσον Καδἠς καὶ ἀνὰ μέσον Βάραδ.",
+        "excerpt_form": "verbatim OCR line including OCR errors",
+        "excerpt_verified_against_file": true
+      }
+    ],
+    "assessment_ko": "(1) 칠십인역 OCR(스웨테판, 제3자 OCR)은 16:13a를 '당신은 나를 굽어보신 하나님'(능동+목적어), 16:13b를 '나는 내게 나타나신 분을 대면하여 보았다', 16:14를 '내가 대면하여 본 우물'로 옮긴다. '뒤'(אַחֲרֵי)도 '살아 계신'(לַחַי)도 반영되지 않으므로, MT와 다른 대본을 반영하는지 의역인지는 이 증거만으로 정할 수 없다. (2) 16:7 OCR은 '주 하나님의 천사'(κυρίου τοῦ θεοῦ)로 MT보다 τοῦ θεοῦ가 많다. OCR 오류('ἄἡλος')가 있어 인쇄판 확인 전에는 플러스로 단정하지 않는다. (3) 16:8 OCR은 화자 '그녀에게 주의 천사가'를 명시하고, 16:13 OCR은 주어 '하갈'을 명시하며 '야훼의 이름' 자리가 'τὸ ὄνοματοῦ τοῦ λαλοῦντος'로 OCR이 손상되어 κυρίου 유무를 판단할 수 없다. (4) 칠십인역은 16:12 '들나귀'를 ἄγροικος('들사람')로 옮긴다. 이 모두는 수용 증거이며 히브리어 본문 이문 확정이 아니다. 사마리아 오경, 쿰란, 타르굼, 불가타는 이 실행에서 확인하지 않았다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.16.7",
+      "clause": "מַלְאַךְ יְהוָה",
+      "option": "'천사' (en the angel of YHWH; es el ángel de YHWH; ko 야훼의 천사)",
+      "for": "칠십인역 ἄγγελος 이후 전통 용어이며 독자에게 익숙하다.",
+      "against": "'천사'는 후대의 존재 범주(날개 달린 천상 존재)를 들여올 수 있다. 히브리어 מַלְאָךְ는 인간 사자에게도 쓰이며(32:4) 기능어다. 한국어 '사자'와 맞추려면 영어·스페인어도 messenger/mensajero가 일관된다.",
+      "verdict": "본문은 '사자/messenger/mensajero'. 채택 정책으로 '천사'를 정하면 세 언어를 함께 바꾼다."
+    },
+    {
+      "verse": "Gen.16.7-11",
+      "clause": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה (한국어 높임)",
+      "option": "사자의 발화를 '말씀하셨다'(신적 높임)로 옮김",
+      "for": "13절이 화자를 야훼로 지칭한다.",
+      "against": "히브리어에는 높임 체계가 없고, 7-11절에서 높임을 쓰면 13절의 동일시 문제를 번역자가 앞서 해결하는 셈이 된다. 13절은 서술자가 '말씀하신 야훼'라고 하므로 거기서 높임을 쓴다.",
+      "verdict": "7-11절 '말하였다', 13절 '말씀하신'. 편집 정책 결정 필요."
+    },
+    {
+      "verse": "Gen.16.9",
+      "clause": "וְהִתְעַנִּי תַּחַת יָדֶיהָ",
+      "option": "'그녀의 손 아래에서 괴로움을 감수하여라' (en submit to her harsh treatment; es sopórtala bajo sus manos)",
+      "for": "16:6 '학대하다'(피엘)와의 같은 어근 연결이 표면에 드러나 사자의 명령이 학대 상황으로 돌아가라는 것임을 숨기지 않는다.",
+      "against": "히트파엘의 1차 의미는 재귀 '자신을 낮추다/복종하다'이고, '괴로움'은 학대를 명령의 내용으로 만들어 해석을 더한다.",
+      "verdict": "본문 '자신을 낮추어라/submit yourself/sométete', 각주에서 6·9·11절 같은 어근 연결 명시."
+    },
+    {
+      "verse": "Gen.16.12",
+      "clause": "פֶּרֶא אָדָם",
+      "option": "'들나귀처럼 자유로운 사람' 또는 칠십인역식 '거친 들사람'",
+      "for": "욥 39:5-8의 들나귀는 자유와 광야 생활의 상징이며 순수 경멸로 읽을 근거가 약하다.",
+      "against": "'자유로운'은 히브리어에 없는 평가어 보충이다. 이어지는 '그의 손은 모두에게'는 갈등도 묘사한다.",
+      "verdict": "직역 '들나귀 같은 사람' 유지, 평가는 각주로."
+    },
+    {
+      "verse": "Gen.16.12",
+      "clause": "וְעַל־פְּנֵי כָל־אֶחָיו יִשְׁכֹּן",
+      "option": "(a) '모든 형제들에게 맞서며 살 것이다' (b) '모든 형제들의 동쪽에 살 것이다' (c) '모든 형제들 곁에 살 것이다'",
+      "for": "(a) 앞의 적대 구절과 이어진다. (b) 25:18의 같은 절에서 עַל פְּנֵי מִצְרַיִם가 지리적이다. (c) '얼굴 앞'의 기본 공간 의미.",
+      "against": "각각 하나의 의미를 확정한다. '맞은편에'는 공간과 대치를 둘 다 담는다.",
+      "verdict": "본문 '맞은편에/over against/frente a'. 각주에 세 해석."
+    },
+    {
+      "verse": "Gen.16.13",
+      "clause": "אַתָּה אֵל רֳאִי",
+      "option": "본문에 뜻풀이 포함: '당신은 나를 보시는 하나님이십니다'",
+      "for": "독자가 13b, 14절의 말놀이를 즉시 이해한다. 칠십인역 ὁ ἐφιδών με도 이 방향.",
+      "against": "MT 모음은 접미 없는 명사(OSHB Ncmsa)라 '나를'은 13b의 רֹאִי에서 끌어온 보충이며, '보이시는/나타나시는 하나님'(시각적 현현) 가능성을 닫는다. Sonnet 초안 한국어가 이 길을 택해 영어·스페인어와 어긋났다.",
+      "verdict": "본문 음역 '엘 로이', 각주에서 '보시는 하나님 / 보이시는 하나님' 설명."
+    },
+    {
+      "verse": "Gen.16.13",
+      "clause": "הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי",
+      "option": "(a) 공간: '내가 여기서 나를 보시는 분의 뒷모습을 보았는가?'",
+      "for": "אַחֲרֵי의 공간 의미, 출 33:23 모세가 하나님의 '등'을 봄과 주제적 유사.",
+      "against": "출 33:23은 명사 אֲחֹרָי(나의 등)이고 여기는 전치사 אַחֲרֵי다. '뒷모습'은 보충 명사다.",
+      "verdict": "각주 대안."
+    },
+    {
+      "verse": "Gen.16.13",
+      "clause": "הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי",
+      "option": "(c) 추정 수정: '내가 정말 하나님을 보고도 그 봄 뒤에 살아 있는가?'",
+      "for": "14절 לַחַי(살아 있는)와 하나님을 보고 살아남음 모티프(출 33:20, 삿 13:22, 창 32:31)를 설명하고 הֲלֹם의 어색함을 해소한다.",
+      "against": "WLC에 없는 자음 변경(הֲלֹם→אֱלֹהִים, 동사 '살았다' 추가)을 요구하는 재구성이다. 이 실행은 이를 뒷받침하는 사본 증거를 확인하지 않았고 칠십인역 OCR도 지지하지 않는다.",
+      "verdict": "본문 비채택. 각주에서 '증언된 본문이 아닌 학자적 재구성'으로 명시하여 소개 가능."
+    },
+    {
+      "verse": "Gen.16.13",
+      "clause": "הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי",
+      "option": "(d) 칠십인역식: '나는 내게 나타나신 분을 대면하여 보았다'",
+      "for": "오래된 수용 증거이며 '봄'의 상호성을 단순히 표현한다.",
+      "against": "히브리어 의문사 הֲ와 אַחֲרֵי를 반영하지 않는다. 다른 대본인지 의역인지 불명.",
+      "verdict": "각주에서 수용사로만 언급."
+    },
+    {
+      "verse": "Gen.16.14",
+      "clause": "בְּאֵר לַחַי רֹאִי",
+      "option": "의미 번역: '나를 보시는 살아 계신 분의 우물'",
+      "for": "13절과의 말놀이가 드러난다.",
+      "against": "לַחַי의 구문이 정상적 연계형이 아니며(OSHB는 지명 하나로 처리), '살아 계신 분'과 '턱뼈(레히)' 등 어원이 불확실하다. 24:62, 25:11에서 같은 지명이 반복되므로 고유명사로 음역하는 편이 일관된다.",
+      "verdict": "본문 음역, 각주에서 민간 어원과 불확실성 설명."
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.16.13b 본문 '내가 정말 여기서, 나를 보시는 분을 뵌 뒤에도 보고 있단 말인가? / Have I really gone on seeing here, after the One who sees me? / ¿De veras he seguido viendo aquí, después de Aquel que me ve?' (시간적 אַחֲרֵי, '계속/여전히 봄 = 살아 있음' 해석)",
+    "objection_ko": "이 단원에서 내 선택에 대한 가장 강한 반론은 '계속 보고 있다(gone on seeing/he seguido viendo)'와 한국어 '뵌 뒤에도'가 히브리어에 없는 지속·생존 의미를 넣는다는 점이다. רָאִיתִי는 단순히 '내가 보았다'이고, '살아남음' 모티프는 출 33:20, 삿 13:22, 창 32:31과 14절 לַחַי의 민간 어원에서 끌어온 것이다. 또 칠십인역 OCR은 '뒤'와 '생존'을 전혀 반영하지 않으며, הֲלֹם은 보통 이동 동사와 함께 '이리로'를 뜻하므로(예: 삿 18:3 '누가 너를 이리로 데려왔느냐' 유형) '여기서 보았다'라는 위치 용법 자체가 불규칙하다. 이 불규칙성이 바로 학자들이 본문 수정을 제안하는 이유이므로, 내 번역은 MT를 지키는 척하면서 사실상 수정안의 의미를 몰래 들여온다는 비판이 가능하다.",
+    "response_ko": "반론의 상당 부분을 인정한다. 그래도 본문은 시간적 읽기를 유지하되 신뢰도를 낮게 표시한다. 이유: (1) MT 자음과 모음을 바꾸지 않고 אַחֲרֵי의 일반적 시간 용법(25:11 אַחֲרֵי מוֹת אַבְרָהָם 등)으로 읽을 수 있다. (2) 공간적 '뒷모습' 읽기는 출 33:23과 다른 낱말에 기대므로 근거가 더 약하다. (3) 직역 'Have I even here seen after the one seeing me?'는 세 언어 모두 독자에게 의미를 전달하지 못한다. (4) 보충한 요소(ko '뵌', '도'; en 'gone on'; es 'he seguido')를 supplied_ko에 명시하고 각주에 공간 읽기, 수정 재구성, 칠십인역 읽기를 함께 둔다. 채택 편집자가 직역 우선 원칙을 택하면 en 'Have I really seen here, after the One who sees me?'처럼 보충을 뺀 형태로 바꾸는 것이 타당하다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.16.7-11 'messenger/mensajero'",
+      "objection_ko": "같은 프로젝트의 미래 본문(21:17 מַלְאַךְ אֱלֹהִים, 22:11 등)에서 '천사'가 채택되면 여기만 '사자'가 되어 일관성이 깨진다.",
+      "response_ko": "용어 정책을 하나로 정해 일괄 적용하는 것이 맞다. 이 검토는 근거(기능어, 32:4 인간 사자)를 제시할 뿐 정책을 확정하지 않는다."
+    },
+    {
+      "target": "Gen.16.12 '맞은편에'",
+      "objection_ko": "'맞은편에'는 한국어로 지리적 대면만 들리고 25:18과 연결된 '대치/정착' 뉘앙스를 약하게 전달할 수 있다.",
+      "response_ko": "인정한다. 각주에서 적대·동쪽·곁 세 해석을 제시하고 본문은 중립을 유지한다."
+    }
+  ],
+  "preferred_wording": {
+    "Gen.16.7": {
+      "ko": "야훼의 사자가 광야에 있는 물 샘 곁, 곧 술로 가는 길의 샘 곁에서 그녀를 발견하였다.",
+      "en": "The messenger of YHWH found her by the spring of water in the wilderness, by the spring on the way to Shur.",
+      "es": "El mensajero de YHWH la encontró junto al manantial de agua en el desierto, junto al manantial del camino de Shur.",
+      "supplied_ko": [
+        "'곧'은 동격 재규정(두 번째 עַל)을 나타내는 연결어"
+      ]
+    },
+    "Gen.16.8": {
+      "ko": "그가 말하였다. “사래의 여종 하갈아, 어디에서 왔으며 어디로 가느냐?” 그녀가 말하였다. “저는 제 여주인 사래를 피해 도망하는 중입니다.”",
+      "en": "He said, “Hagar, slave woman of Sarai, where have you come from, and where are you going?” She said, “I am fleeing from my mistress Sarai.”",
+      "es": "Él dijo: «Agar, esclava de Sarai, ¿de dónde vienes y adónde vas?». Ella respondió: «Estoy huyendo de Sarai, mi señora».",
+      "supplied_ko": [
+        "'피해'는 מִפְּנֵי('~의 낯으로부터')의 의미 풀이"
+      ]
+    },
+    "Gen.16.9": {
+      "ko": "야훼의 사자가 그녀에게 말하였다. “네 여주인에게 돌아가서 그녀의 손 아래에서 자신을 낮추어라.”",
+      "en": "The messenger of YHWH said to her, “Return to your mistress, and submit yourself under her hands.”",
+      "es": "El mensajero de YHWH le dijo: «Vuelve a tu señora y sométete bajo sus manos».",
+      "supplied_ko": []
+    },
+    "Gen.16.10": {
+      "ko": "야훼의 사자가 그녀에게 말하였다. “내가 너의 자손을 크게 불어나게 하여, 너무 많아서 셀 수 없게 하겠다.”",
+      "en": "The messenger of YHWH said to her, “I will greatly multiply your offspring, so that they cannot be counted for multitude.”",
+      "es": "El mensajero de YHWH le dijo: «Multiplicaré en gran manera tu descendencia, y por su multitud no podrá ser contada».",
+      "supplied_ko": []
+    },
+    "Gen.16.11": {
+      "ko": "야훼의 사자가 그녀에게 말하였다. “보아라, 너는 임신하였으니 아들을 낳을 것이다. 너는 그의 이름을 이스마엘이라 하여라. 야훼께서 너의 고난을 들으셨기 때문이다.”",
+      "en": "The messenger of YHWH said to her, “Look, you are pregnant and will bear a son, and you shall call his name Ishmael, for YHWH has heard your affliction.”",
+      "es": "El mensajero de YHWH le dijo: «Mira, estás encinta y darás a luz un hijo, y lo llamarás Ismael, porque YHWH ha escuchado tu aflicción».",
+      "supplied_ko": []
+    },
+    "Gen.16.12": {
+      "ko": "그는 들나귀 같은 사람이 될 것이다. 그의 손은 모두를 거스르고, 모두의 손은 그를 거스를 것이다. 그는 자기 모든 형제들 맞은편에 거할 것이다.",
+      "en": "He will be a wild donkey of a man, his hand against everyone and everyone's hand against him; and he will dwell over against all his brothers.",
+      "es": "Él será un hombre como asno montés; su mano contra todos y la mano de todos contra él; y habitará frente a todos sus hermanos.",
+      "supplied_ko": [
+        "'거스르다'는 동사 없는 יָדוֹ בַכֹּל의 적대 관용 풀이"
+      ]
+    },
+    "Gen.16.13": {
+      "ko": "그녀는 자기에게 말씀하신 야훼의 이름을 “당신은 엘 로이이십니다”라고 불렀다. 그녀가 “내가 정말 여기서, 나를 보시는 분을 뵌 뒤에도 보고 있단 말인가?”라고 말하였기 때문이다.",
+      "en": "She called the name of YHWH who spoke to her, “You are El-roi,” for she said, “Have I really gone on seeing here, after the One who sees me?”",
+      "es": "Ella llamó el nombre de YHWH que le hablaba: «Tú eres El-roí», porque dijo: «¿De veras he seguido viendo aquí, después de Aquel que me ve?».",
+      "supplied_ko": [
+        "ko '뵌'과 '도', en 'gone on', es 'he seguido'는 시간적 אַחֲרֵי 해석에 따른 보충(직역에는 없음)",
+        "'엘 로이'는 음역; 의미는 각주"
+      ]
+    },
+    "Gen.16.14": {
+      "ko": "그러므로 그 우물을 브엘라해로이라 불렀다. 보아라, 그것은 가데스와 베렛 사이에 있다.",
+      "en": "Therefore the well was called Beer-lahai-roi; look, it is between Kadesh and Bered.",
+      "es": "Por eso al pozo se le llamó Beer-lahai-roí; mira, está entre Cades y Bered.",
+      "supplied_ko": []
+    }
+  },
+  "speech_boundaries_ko": "모든 인용이 절 안에서 열고 닫힌다. 16:8 두 발화(사자 질문, 하갈 응답). 16:9, 16:10, 16:11 각각 별개의 사자 발화(같은 도입구 반복). 16:12에는 도입구가 없고 16:11 발화의 계속이다(인용 부호는 16:11에서 닫았으나, 채택 시 16:11-12를 하나의 발화로 묶을지 편집 결정 필요). 16:13 두 인용(이름, 근거 발화). 16:14 서술.",
+  "proposed_notes_ko": {
+    "Gen.16.7": "'야훼의 사자'(מַלְאַךְ יְהוָה)는 토라에서 처음 나오는 표현이다. 7-11절의 화자가 13절에서는 '그녀에게 말씀하신 야훼'로 지칭되어, 사자와 야훼의 관계가 해석 과제로 남는다. '사자'는 기능을 나타내는 말이며 칠십인역 이후 '천사'로 옮기는 전통이 있다.",
+    "Gen.16.8": "하갈은 '어디에서 왔느냐'에만 답하고 '어디로 가느냐'에는 답하지 않는다. '여종'(שִׁפְחָה)은 사래에게 속한 종이라는 소유 관계를 나타낸다(16:1-6).",
+    "Gen.16.9": "'자신을 낮추어라'(הִתְעַנִּי)는 6절 '학대하다'(וַתְּעַנֶּהָ), 11절 '고난'(עָנְיֵךְ)과 같은 어근이다. 사자는 하갈을 학대받던 자리로 돌려보내면서 동시에 야훼가 그 고난을 들으셨다고 말한다. '손 아래'의 '손'은 히브리어로 복수형이다.",
+    "Gen.16.10": "사자가 1인칭으로 하나님만이 할 수 있는 자손 약속을 말한다(13:16, 15:5 참조).",
+    "Gen.16.11": "'보아라, 너는 임신하였으니 아들을 낳을 것이다'는 삿 13:5과 같은 표현이다. '이스마엘'은 '하나님이 들으신다'는 뜻으로 '야훼께서 들으셨다'와 말놀이를 이룬다. 이름을 짓는 사람은 어머니다.",
+    "Gen.16.12": "'들나귀'(פֶּרֶא)는 욥 39:5-8에서 사람에게 매이지 않고 광야를 다니는 자유로운 짐승이다. '맞은편에'(עַל־פְּנֵי)는 '~에 맞서', '~의 동쪽에', '~곁에'로도 읽힌다(25:18 참조).",
+    "Gen.16.13": "'엘 로이'(אֵל רֳאִי)는 '보시는 하나님' 또는 '보이시는(나타나시는) 하나님'으로 이해된다. 둘째 발화는 히브리어가 매우 어려워 직역하면 '내가 여기서도 나를 보시는 분 뒤에 보았는가?'이다. '뒤에'를 시간으로 읽으면 '하나님을 뵙고도 살아 있다'는 놀라움(출 33:20, 삿 13:22 참조), 공간으로 읽으면 '그분의 뒷모습을 보았다'는 뜻이 된다. 일부 학자는 자음을 고쳐 '내가 하나님을 보고도 살았는가'로 재구성하나, 이는 전해진 본문이 아니다. 칠십인역은 '나는 내게 나타나신 분을 대면하여 보았다'로 옮긴다.",
+    "Gen.16.14": "'브엘라해로이'(בְּאֵר לַחַי רֹאִי)는 흔히 '나를 보시는 살아 계신 분의 우물'로 풀이되나 어원은 불확실하다. 같은 우물이 24:62, 25:11에 이삭과 함께 다시 나온다. 베렛의 위치는 알려져 있지 않다."
+  },
+  "editorial_consistency_findings": [
+    "Sonnet 5.5 초안(friendly-heisenberg-05g9sz)의 16:7-14는 한국어 '여호와' 표기로 현행 채택 관례 '야훼'와 다르다. 같은 초안의 다른 절(15:7-19:15)도 채택 전 일괄 확인이 필요하다(이 실행은 16:7-14만 확인).",
+    "'사자/천사' 용어 정책과 사자 발화의 한국어 높임 정책은 21:17, 22:11, 22:15, 31:11 등 이후 본문 전체에 영향을 주므로 프로젝트 차원의 결정이 필요하다.",
+    "16:11-12가 하나의 발화인데 인용 부호를 절 단위로 닫는 관례가 이어지는 발화를 끊는다. 다절 발화 인용 관례를 정할 필요가 있다."
+  ],
+  "final_opinion_ko": "여덟 절 모두 고정 WLC 본문을 그대로 번역하며 본문 이문 주장은 없다. 핵심 판단: (1) מַלְאַךְ יְהוָה는 한정 '야훼의 사자'로, 사자와 야훼의 관계는 13절 서술자 지칭을 보존하되 번역에서 해결하지 않는다(7-11절 비높임, 13절 높임). (2) 16:9 הִתְעַנִּי는 '자신을 낮추어라'로 옮기고 6·9·11절 같은 어근 연결을 각주로 드러낸다. (3) 16:12는 '들나귀 같은 사람', '맞은편에'로 평가와 의미를 열어 둔다. (4) 16:13a는 음역 '엘 로이'와 각주. (5) 16:13b는 이 단원의 최대 난제로, MT를 수정하지 않는 시간적 읽기를 본문으로 택하되 보충어를 명시하고 신뢰도를 낮게 둔다. (6) 16:14는 지명 음역. 기존 Sonnet 5.5 초안은 16:13에서 세 언어가 서로 다른 해석을 반영하고 영어·스페인어에서 אַחֲרֵי가 빠져 있어, 그대로 채택할 수 없다고 판단한다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.16.13",
+      "level": "low",
+      "note_ko": "13b 의미는 저신뢰. 공간·시간·수정 재구성·칠십인역 읽기 중 무엇도 이 실행의 증거로 확정되지 않는다."
+    },
+    {
+      "id": "Gen.16.14",
+      "level": "medium",
+      "note_ko": "지명 음역은 확실하나 의미 풀이(각주)는 불확실."
+    },
+    {
+      "id": "Gen.16.12",
+      "level": "medium",
+      "note_ko": "עַל־פְּנֵי의 정확한 함의는 불확실. 본문 번역은 중립 선택."
+    },
+    {
+      "id": "Gen.16.7-11",
+      "level": "medium-high",
+      "note_ko": "어휘·구문은 확실하고, '사자/천사'와 높임은 정책 문제."
+    },
+    {
+      "id": "all",
+      "level": "limit",
+      "note_ko": "사전(BDB/HALOT/DCH)과 사마리아 오경·쿰란·타르굼·불가타는 확인하지 않았다. 어휘 판단은 고정 WLC 용례와 표시된 일반 지식에 근거한다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.16.13",
+      "condition_ko": "사마리아 오경, 쿰란(창세기 사본 중 16장 보존분이 있다면), 타르굼, 불가타 등에서 הֲלֹם 또는 אַחֲרֵי 자리에 다른 자음이 실제로 확인되면 수정 재구성을 다시 평가한다. 또는 편집 원칙이 '보충 최소 직역'으로 정해지면 en 'Have I really seen here, after the One who sees me?'처럼 보충을 제거한다."
+    },
+    {
+      "id": "Gen.16.13",
+      "condition_ko": "칠십인역 인쇄판(괴팅겐 또는 스웨테 인쇄본)에서 16:13 '야훼의 이름' 자리(OCR 손상)와 ἐνώπιον의 대본 관계를 확인하면 수용 평가를 갱신한다."
+    },
+    {
+      "id": "Gen.16.7",
+      "condition_ko": "칠십인역 인쇄판에서 κυρίου τοῦ θεοῦ 플러스가 확인되면 수용사 각주에 추가한다(본문은 MT 유지)."
+    },
+    {
+      "id": "Gen.16.7-11",
+      "condition_ko": "프로젝트가 '천사' 용어 또는 사자 발화 높임 정책을 정하면 세 언어를 함께 갱신한다."
+    },
+    {
+      "id": "Gen.16.12",
+      "condition_ko": "검증된 사전·지리 연구가 עַל־פְּנֵי의 '동쪽' 의미를 이 문맥에서 강하게 지지하면 각주를 본문 쪽으로 옮길지 재검토한다."
+    },
+    {
+      "id": "Gen.16.14",
+      "condition_ko": "לַחַי 구문에 대한 검증된 문법 설명이나 베렛 위치에 대한 고고학 근거가 제시되면 각주를 갱신한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.16.13",
+      "issue": "meaning of הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי (spatial vs temporal אַחֲרֵי; irregular locative הֲלֹם; scholarly emendation status)",
+      "status": "unresolved_textual_and_syntactic",
+      "needed_evidence": "Samaritan Pentateuch, any Qumran witness, Targumim, Vulgate and a printed LXX edition, checked directly with URLs; verified lexicon entries for הֲלֹם"
+    },
+    {
+      "id": "Gen.16.13",
+      "issue": "אֵל רֳאִי active ('who sees') vs passive/visual ('who is seen / of vision')",
+      "status": "unresolved_lexical",
+      "needed_evidence": "verified lexicon entries and vocalisation tradition evidence"
+    },
+    {
+      "id": "Gen.16.13",
+      "issue": "LXX OCR line 'τὸ ὄνοματοῦ τοῦ λαλοῦντος' damaged; whether κυρίου is present cannot be read",
+      "status": "unresolved_reception_evidence",
+      "needed_evidence": "printed Swete or Goettingen LXX page image"
+    },
+    {
+      "id": "Gen.16.7",
+      "issue": "LXX OCR plus 'τοῦ θεοῦ' after κυρίου; OCR garbled ('ἄἡλος')",
+      "status": "unresolved_reception_evidence",
+      "needed_evidence": "printed LXX edition"
+    },
+    {
+      "id": "Gen.16.12",
+      "issue": "sense of עַל־פְּנֵי (hostile / east of / beside)",
+      "status": "unresolved_lexical",
+      "needed_evidence": "verified lexicon and geographic studies; editorial decision"
+    },
+    {
+      "id": "Gen.16.14",
+      "issue": "etymology of לַחַי in בְּאֵר לַחַי רֹאִי and location of Bered",
+      "status": "unresolved_lexical_historical",
+      "needed_evidence": "verified onomastic and geographic sources"
+    },
+    {
+      "id": "Gen.16.7-11",
+      "issue": "project policy for מַלְאָךְ ('messenger' vs 'angel') and Korean honorific level for the messenger's speech",
+      "status": "editorial_policy_needed",
+      "needed_evidence": "editor decision applied across Genesis"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T14:10:04.718197+00:00)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T14:11:55Z-14:11:56Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exod; parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Job.xml",
+      "accessed_utc": "2026-10-30T14:11:55Z-14:11:56Z",
+      "file_sha256": "7db3311184122f37a8fd52f3c7c0c4a6d2da7b77ee82f4fdb26bcba9171d297f",
+      "what_it_is": "Pinned WLC/OSHB Job; parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-10-30T14:11:55Z-14:11:56Z",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "what_it_is": "Pinned WLC/OSHB Judg; parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T14:11:55Z-14:11:56Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); lines 1.16.7-1.16.14."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where the project requires it",
+    "current best editorial selection with versioned adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or textual variant for Gen 16:7-14 is asserted; Samaritan, Qumran, Targum and Vulgate were not checked.",
+    "The emended reading of 16:13b is described only as a scholarly reconstruction, not as an attested reading; its attribution to particular scholars is general background knowledge, not verified in this run.",
+    "No GPT, Gemini, Antigravity or human reviewer response is represented or simulated; none was found saved for this unit.",
+    "No lexicon (BDB/HALOT/DCH) was consulted; lexical judgments rest on pinned WLC parallels, OSHB morphology and general knowledge labelled as such.",
+    "The LXX evidence is a third-party OCR of Swete, used as reception evidence only; OCR errors are noted and not corrected silently.",
+    "No credit balance, deduction or dollar amount is asserted; only the service's rate-limit metadata labels are recorded.",
+    "This is not an adopted, certified or published translation.",
+    "The Sonnet 5.5 draft is compared as recorded; its model identity is its own record's statement, not verified here."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T141004Z-e2026743.json",
+    "packet_sha256": "918327f0fd013365b4a16d82833a867359b49500bf6e93aa18d8e87ad7281efa",
+    "verses": [
+      {
+        "id": "Gen.16.7",
+        "raw_xml": "<verse osisID=\"Gen.16.7\">\n          <w lemma=\"c/4672\" n=\"1.0.0.0\" morph=\"HC/Vqw3ms/Sp3fs\" id=\"01Cts\">וַֽ/יִּמְצָאָ֞/הּ</w>\n          <w lemma=\"4397\" morph=\"HNcmsc\" id=\"01yqG\">מַלְאַ֧ךְ</w>\n          <w lemma=\"3068\" n=\"1.0.0\" morph=\"HNp\" id=\"016ev\">יְהוָ֛ה</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01MDh\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5869 b\" morph=\"HNcbsc\" id=\"01gZp\">עֵ֥ין</w>\n          <w lemma=\"d/4325\" n=\"1.0\" morph=\"HTd/Ncmpa\" id=\"01dmq\">הַ/מַּ֖יִם</w>\n          <w lemma=\"b/4057 b\" n=\"1\" morph=\"HRd/Ncmsa\" id=\"01RFy\">בַּ/מִּדְבָּ֑ר</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01U5A\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/5869 b\" n=\"0.0\" morph=\"HTd/Ncbsa\" id=\"01YEo\">הָ/עַ֖יִן</w>\n          <w lemma=\"b/1870\" morph=\"HR/Ncbsc\" id=\"01WW5\">בְּ/דֶ֥רֶךְ</w>\n          <w lemma=\"7793\" n=\"0\" morph=\"HNp\" id=\"01xB1\">שֽׁוּר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "92c36ada398116cd5e9fe34de800687e820034613c87459532e38264113e1916",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.8",
+        "raw_xml": "<verse osisID=\"Gen.16.8\">\n          <w lemma=\"c/559\" n=\"1.0.1\" morph=\"HC/Vqw3ms\" id=\"01Dut\">וַ/יֹּאמַ֗ר</w>\n          <w lemma=\"1904\" n=\"1.0.0.0\" morph=\"HNp\" id=\"01aAs\">הָגָ֞ר</w>\n          <w lemma=\"8198\" morph=\"HNcfsc\" id=\"01iR4\">שִׁפְחַ֥ת</w>\n          <w lemma=\"8297\" n=\"1.0.0\" morph=\"HNp\" id=\"01WD5\">שָׂרַ֛י</w>\n          <w lemma=\"335\" morph=\"HTi\" id=\"01QVS\">אֵֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"m/2088\" morph=\"HR/Pdxms\" id=\"01Byp\">מִ/זֶּ֥ה</w>\n          <w lemma=\"935\" n=\"1.0\" morph=\"HVqp2fs\" id=\"01WT7\">בָ֖את</w>\n          <w lemma=\"c/575\" morph=\"HC/Ti\" id=\"01mgg\">וְ/אָ֣נָה</w>\n          <w lemma=\"3212\" n=\"1\" morph=\"HVqi2fs\" id=\"01FtA\">תֵלֵ֑כִי</w>\n          <w lemma=\"c/559\" n=\"0.2\" morph=\"HC/Vqw3fs\" id=\"01Wy2\">וַ/תֹּ֕אמֶר</w>\n          <w lemma=\"m/6440\" n=\"0.1.0\" morph=\"HR/Ncbpc\" id=\"01LWF\">מִ/פְּנֵי֙</w>\n          <w lemma=\"8297\" morph=\"HNp\" id=\"0143f\">שָׂרַ֣י</w>\n          <w lemma=\"1404\" n=\"0.1\" morph=\"HNcfsc/Sp1cs\" id=\"01DKG\">גְּבִרְתִּ֔/י</w>\n          <w lemma=\"595\" n=\"0.0\" morph=\"HPp1cs\" id=\"01Zqk\">אָנֹכִ֖י</w>\n          <w lemma=\"1272\" n=\"0\" morph=\"HVqrfsa\" id=\"01JHu\">בֹּרַֽחַת</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "6774bf5a897f3b2c8f749c2c6255f936b5c3a70887ac619a5d7a6765b9411b0c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.9",
+        "raw_xml": "<verse osisID=\"Gen.16.9\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01TX2\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"l\" n=\"1.1.0\" morph=\"HR/Sp3fs\" id=\"01BVw\">לָ/הּ֙</w>\n          <w lemma=\"4397\" morph=\"HNcmsc\" id=\"01As7\">מַלְאַ֣ךְ</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"015kf\">יְהוָ֔ה</w>\n          <w lemma=\"7725\" n=\"1.0\" morph=\"HVqv2fs\" id=\"01nnm\">שׁ֖וּבִי</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01Skh\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1404\" n=\"1\" morph=\"HNcfsc/Sp2fs\" id=\"01hML\">גְּבִרְתֵּ֑/ךְ</w>\n          <w lemma=\"c/6031 b\" n=\"0.0\" morph=\"HC/Vtv2fs\" id=\"01brS\">וְ/הִתְעַנִּ֖י</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"01wJM\">תַּ֥חַת</w>\n          <w lemma=\"3027\" n=\"0\" morph=\"HNcbdc/Sp3fs\" id=\"01H8d\">יָדֶֽי/הָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "0ce7037fccec59694f2565ce08308f84e79266473cde8be01c637c204bb0265d",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.10",
+        "raw_xml": "<verse osisID=\"Gen.16.10\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"0148z\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"l\" n=\"1.1.0\" morph=\"HR/Sp3fs\" id=\"01M8d\">לָ/הּ֙</w>\n          <w lemma=\"4397\" morph=\"HNcmsc\" id=\"01WKe\">מַלְאַ֣ךְ</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"012KH\">יְהוָ֔ה</w>\n          <w lemma=\"7235 a\" morph=\"HVha\" id=\"01HGY\">הַרְבָּ֥ה</w>\n          <w lemma=\"7235 a\" n=\"1.0\" morph=\"HVhi1cs\" id=\"01NxF\">אַרְבֶּ֖ה</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"0162X\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2233\" n=\"1\" morph=\"HNcmsc/Sp2fs\" id=\"01hQZ\">זַרְעֵ֑/ךְ</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"011B3\">וְ/לֹ֥א</w>\n          <w lemma=\"5608 a\" n=\"0.0\" morph=\"HVNi3ms\" id=\"01imA\">יִסָּפֵ֖ר</w>\n          <w lemma=\"m/7230\" n=\"0\" morph=\"HR/Ncbsa\" id=\"01eZb\">מֵ/רֹֽב</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "54396b289bd5aa4ca2ead0e54d6bebaca62aaa97f56d0f04e0580d21f4713c9c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.11",
+        "raw_xml": "<verse osisID=\"Gen.16.11\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01Kg3\">וַ/יֹּ֤אמֶר</w>\n          <w lemma=\"l\" n=\"1.1.0\" morph=\"HR/Sp3fs\" id=\"01L37\">לָ/הּ֙</w>\n          <w lemma=\"4397\" morph=\"HNcmsc\" id=\"01Dbh\">מַלְאַ֣ךְ</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"01GXn\">יְהוָ֔ה</w>\n          <w lemma=\"2009\" morph=\"HTm/Sp2fs\" id=\"01mmj\">הִנָּ֥/ךְ</w>\n          <w lemma=\"2030 a\" n=\"1.0\" morph=\"HAafsa\" id=\"01vT5\">הָרָ֖ה</w>\n          <w lemma=\"c/3205\" morph=\"HC/Vqrfsa\" id=\"01ia1\">וְ/יֹלַ֣דְתְּ</w>\n          <w lemma=\"1121 a\" n=\"1\" morph=\"HNcmsa\" id=\"01Lgd\">בֵּ֑ן</w>\n          <w lemma=\"c/7121\" morph=\"HC/Vqq2fs\" id=\"01GhB\">וְ/קָרָ֤את</w>\n          <w lemma=\"8034\" n=\"0.1.0\" morph=\"HNcmsc/Sp3ms\" id=\"015PW\">שְׁמ/וֹ֙</w>\n          <w lemma=\"3458\" n=\"0.1\" morph=\"HNp\" id=\"013FW\">יִשְׁמָעֵ֔אל</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"01jwC\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8085\" morph=\"HVqp3ms\" id=\"01GmR\">שָׁמַ֥ע</w>\n          <w lemma=\"3068\" n=\"0.0\" morph=\"HNp\" id=\"01xun\">יְהוָ֖ה</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01zAv\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6040\" n=\"0\" morph=\"HNcmsc/Sp2fs\" id=\"011c2\">עָנְיֵֽ/ךְ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "03fcdab33ea312142f72d89a507dd23bb192d992afbec8d4f2329b3c1f80a2b2",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.12",
+        "raw_xml": "<verse osisID=\"Gen.16.12\">\n          <w lemma=\"c/1931\" morph=\"HC/Pp3ms\" id=\"01q28\">וְ/ה֤וּא</w>\n          <w lemma=\"1961\" n=\"1.2.0\" morph=\"HVqi3ms\" id=\"018oG\">יִהְיֶה֙</w>\n          <w lemma=\"6501\" morph=\"HNcmsc\" id=\"012L1\">פֶּ֣רֶא</w>\n          <w lemma=\"120\" n=\"1.2\" morph=\"HNcmsa\" id=\"01e3V\">אָדָ֔ם</w>\n          <w lemma=\"3027\" morph=\"HNcbsc/Sp3ms\" id=\"01Ae1\">יָד֣/וֹ</w>\n          <w lemma=\"b/3605\" n=\"1.1\" morph=\"HRd/Ncmsa\" id=\"01PFr\">בַ/כֹּ֔ל</w>\n          <w lemma=\"c/3027\" morph=\"HC/Ncbsc\" id=\"01YKm\">וְ/יַ֥ד</w>\n          <w lemma=\"3605\" n=\"1.0\" morph=\"HNcmsa\" id=\"01WHq\">כֹּ֖ל</w>\n          <w lemma=\"b\" n=\"1\" morph=\"HR/Sp3ms\" id=\"01KxQ\">בּ֑/וֹ</w>\n          <w lemma=\"c/5921 a\" morph=\"HC/R\" id=\"01NKr\">וְ/עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6440\" morph=\"HNcbpc\" id=\"01LsJ\">פְּנֵ֥י</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"01bhZ\">כָל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"251\" n=\"0.0\" morph=\"HNcmpc/Sp3ms\" id=\"018nK\">אֶחָ֖י/ו</w>\n          <w lemma=\"7931\" n=\"0\" morph=\"HVqi3ms\" id=\"01tSz\">יִשְׁכֹּֽן</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "fbc92a8dc834fa372d176b3e66cf2e16e566932c6897afc7fffd3d4db762244f",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.13",
+        "raw_xml": "<verse osisID=\"Gen.16.13\">\n          <w lemma=\"c/7121\" morph=\"HC/Vqw3fs\" id=\"01FE5\">וַ/תִּקְרָ֤א</w>\n          <w lemma=\"8034\" morph=\"HNcmsc\" id=\"01Hxz\">שֵׁם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3068\" n=\"1.1.0\" morph=\"HNp\" id=\"01B3z\">יְהוָה֙</w>\n          <w lemma=\"d/1696\" morph=\"HTd/Vqrmsa\" id=\"01XLq\">הַ/דֹּבֵ֣ר</w>\n          <w lemma=\"413\" n=\"1.1\" morph=\"HR/Sp3fs\" id=\"01nB1\">אֵלֶ֔י/הָ</w>\n          <w lemma=\"859 a\" n=\"1.0\" morph=\"HPp2ms\" id=\"01h14\">אַתָּ֖ה</w>\n          <w lemma=\"410\" morph=\"HNcmsc\" id=\"01vMU\">אֵ֣ל</w>\n          <w lemma=\"7210\" n=\"1\" morph=\"HNcmsa\" id=\"01112\">רֳאִ֑י</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"013fE\">כִּ֣י</w>\n          <w lemma=\"559\" n=\"0.0.1\" morph=\"HVqp3fs\" id=\"01zMp\">אָֽמְרָ֗ה</w>\n          <w lemma=\"i/1571\" morph=\"HTi/D\" id=\"01mxd\">הֲ/גַ֥ם</w>\n          <w lemma=\"1988\" n=\"0.0.0\" morph=\"HD\" id=\"014ir\">הֲלֹ֛ם</w>\n          <w lemma=\"7200\" n=\"0.0\" morph=\"HVqp1cs\" id=\"016mr\">רָאִ֖יתִי</w>\n          <w lemma=\"310 a\" morph=\"HR\" id=\"01bXr\">אַחֲרֵ֥י</w>\n          <w lemma=\"7200\" n=\"0\" morph=\"HVqrmsc/Sp1cs\" id=\"01CCa\">רֹאִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "635e8f15f9a884fd38334b7b934a38c18822157920c71fc54bdf765658fbf7d6",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.16.14",
+        "raw_xml": "<verse osisID=\"Gen.16.14\">\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01XzH\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.1.0\" morph=\"HTm\" id=\"01DHa\">כֵּן֙</w>\n          <w lemma=\"7121\" morph=\"HVqp3ms\" id=\"01B8t\">קָרָ֣א</w>\n          <w lemma=\"l/875\" n=\"1.1\" morph=\"HRd/Ncfsa\" id=\"01SYU\">לַ/בְּאֵ֔ר</w>\n          <w lemma=\"883+\" morph=\"HNp\" id=\"01YnQ\">בְּאֵ֥ר</w>\n          <w lemma=\"883+\" n=\"1.0\" morph=\"HNp\" id=\"01Z2g\">לַחַ֖י</w>\n          <w lemma=\"883\" n=\"1\" morph=\"HNp\" id=\"016oJ\">רֹאִ֑י</w>\n          <w lemma=\"2009\" morph=\"HTm\" id=\"01mxb\">הִנֵּ֥ה</w>\n          <w lemma=\"996\" morph=\"HR\" id=\"01cxS\">בֵין</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6946\" n=\"0.0\" morph=\"HNp\" id=\"01YtD\">קָדֵ֖שׁ</w>\n          <w lemma=\"c/996\" morph=\"HC/R\" id=\"01uia\">וּ/בֵ֥ין</w>\n          <w lemma=\"1260\" n=\"0\" morph=\"HNp\" id=\"01B8N\">בָּֽרֶד</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "00e09d5748635e7a06034b59b8e3326cd4d3ddbdd0b66cb71fd09904bc7408fb",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected": []
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T141004Z-e2026743.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "qere_ketiv_or_notes_present": false,
+    "clause_coverage": {
+      "Gen.16.7": 3,
+      "Gen.16.8": 4,
+      "Gen.16.9": 3,
+      "Gen.16.10": 3,
+      "Gen.16.11": 4,
+      "Gen.16.12": 4,
+      "Gen.16.13": 4,
+      "Gen.16.14": 2
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "clauses_follow_source_word_order": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "independent_reading_per_verse": true,
+    "initial_proposals_per_verse": true,
+    "notes_per_verse": true,
+    "quote_balance_per_verse": {
+      "ko": [],
+      "en": [],
+      "es": []
+    },
+    "quotes_balanced_within_each_verse": true,
+    "no_ascii_double_quote_in_wording": true,
+    "current_selected_in_packet": 0,
+    "current_selected_changed": false,
+    "network_excerpts_verified_against_fetched_files": true,
+    "original_vs_interpretation_separated": "Clause notes carry a category (lexical/syntactic/discourse/textual/historical/reception). LXX OCR is reception evidence only; the 16:13b emendation is labelled a reconstruction; supplied words are listed per verse in preferred_wording.supplied_ko.",
+    "authentic_attribution": "Only actual saved records are compared (one Claude Sonnet 5.5 cloud draft and the editorial selection, which has no entry for this unit). No GPT, Gemini, Antigravity or human response exists or is simulated.",
+    "problems": [],
+    "all_required_checks_pass": true
+  }
+}
