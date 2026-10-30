@@ -1,0 +1,796 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T120350Z-6a01ae68",
+  "unit_id": "gen-14-18-22",
+  "verse_ids": [
+    "Gen.14.18",
+    "Gen.14.19",
+    "Gen.14.20",
+    "Gen.14.21",
+    "Gen.14.22"
+  ],
+  "unit_issue_ko": "멜기세덱·엘 엘리온·창조/소유 동사·야훼 동일시",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.14.18-22 = 전통 장절 창세기 14:18-22(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 OCR도 1.14.18-1.14.22를 쓴다. 이 범위에서 장절 차이는 발견하지 못했다. 14:22의 발화는 14:23(단원 밖)의 맹세 내용으로 이어진다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml. Clause hebrew_display strings are derived displays generated from the raw w elements (OSHB morpheme slashes removed; maqqef and sof pasuq omitted in the display only) and are not a substitute for raw_xml. Hebrew words quoted inside notes are likewise derived displays.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; no trigger or project in session record)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T12:04:10Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. Labels only.",
+    "session": "https://claude.ai/code/session_01UknqVFZkwotE7G74zUHtVL",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata, not a balance or deduction figure.",
+    "not_exposed": [
+      "exact served model snapshot beyond the session metadata label",
+      "token counts",
+      "cost or credit deduction for this run",
+      "remaining promotional credit balance"
+    ],
+    "recheck": "get_session re-checked at about 2026-10-30T12:12:41Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, last_served_model=claude-opus-5-5, rate_limit status=allowed (ccr_promotional, isUsingOverage=false). Labels only; served snapshot not otherwise exposed."
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-30T12:03:28Z (policy enabled; stop_new_translation_at 2026-11-05T16:00:00+09:00 not reached; all 14 earlier hard-review claims on claude/ branches are completed; no active claim)",
+    "claim_created": "2026-10-30T12:03:50Z (run_id timestamp; manifest created_at holds the exact value)",
+    "claim_pushed": "2026-10-30T12:03:58Z (claim commit 24ab3fa0 pushed to claude/bible-hard-review-63tywh; ls-remote confirmed)",
+    "independent_reading_saved": "2026-10-30T12:05:12Z (scratch note from packet raw XML only, before opening any earlier model record)",
+    "earlier_records_compared": "2026-10-30T12:05:20Z-12:08Z",
+    "parallel_evidence_fetched": "2026-10-30T12:06:02Z-12:07:12Z",
+    "review_saved": "2026-10-30T12:13:14Z"
+  },
+  "independent_initial_reading": {
+    "method_note": "Reading built from packet raw XML and OSHB morphology only, then saved to scratch before reading the earlier Sonnet draft, the project editorial records or other reviews. Clause notes below were refined afterwards with parallels from the same pinned WLC files and the reception sources in network_access_log; as_first_written is the unrefined first note (ASCII Spanish without accents, ASCII quotes, as typed).",
+    "written_before_reading_other_records_utc": "2026-10-30T12:05:12Z",
+    "as_first_written": "INDEPENDENT FIRST NOTE (packet raw XML + OSHB morph only; no earlier model record opened)\n14.18 ko: 그때 살렘 왕 멜기세덱이 빵과 포도주를 가지고 나왔다. 그는 지극히 높으신 하나님(엘 엘룐)의 제사장이었다. / en: And Melchizedek king of Salem brought out bread and wine; he was priest of God Most High (El Elyon). / es: Y Melquisedec, rey de Salem, saco pan y vino; el era sacerdote del Dios Altisimo (El Elyon).\n issues: fronted subject + qatal (HVhp3ms) = disjunctive scene insertion interrupting king-of-Sodom thread (v17 -> v21); name Malki-tsedeq split by maqqef (OSHB lemma 4442+ on both parts) - render as name, etymology (my king is righteousness / king of righteousness) only in note; Shalem = place name, Jerusalem identification (Ps 76:3) is reception/historical, not text; bread & wine: hospitality/provisioning for returning troops vs cultic offering (reception); nominal clause wehu kohen = explanatory circumstantial (prepares v19 blessing), not causal by grammar; El Elyon: OSHB tags El Ncmsa + Elyon adjective -> 'God Most High' vs proper name 'El, the Most High' (Ugaritic/Phoenician El, Elyon as separate deity in Philo of Byblos - recalled, unverified).\n14.19 ko: 그가 아브람에게 복을 빌며 말하였다. \"하늘과 땅을 지으신 지극히 높으신 하나님께서 아브람에게 복을 주시기를! / en: He blessed him and said, \"Blessed be Abram by God Most High, Creator of heaven and earth! / es: Lo bendijo y dijo: \"Bendito sea Abram por el Dios Altisimo, creador del cielo y de la tierra.\n issues: subject of wayebarekhehu = Melchizedek (continuity from hu), object = Abram; lamed with passive participle barukh = lamed of agent ('by') vs 'before/to'; qoneh (Qal act ptc cstr, lemma 7069): create/beget/bring forth (Deut 32:6, Ps 139:13, Prov 8:22, Gen 4:1; Phoenician 'l qn 'rs - recalled) vs acquire/own (dominant Hebrew sense: buy, Gen 25:10; 33:19; 47:20); heaven and earth = merism; LXX ektisen / Vg creavit (recalled, need verify); KJV possessor.\n14.20 ko: 너의 적들을 너의 손에 넘겨주신 지극히 높으신 하나님을 찬양하라!\" 아브람이 그에게 모든 것에서 십분의 일을 주었다. / en: And blessed be God Most High, who has handed over your foes into your hand!\" And [Abram] gave him a tenth of everything. / es: Y bendito sea el Dios Altisimo, que entrego a tus enemigos en tu mano.\" Y [Abram] le dio el diezmo de todo.\n issues: barukh for God = praise formula, keep 'blessed' to maintain wordplay with v19; miggen Piel pf (lemma 4042) 'hand over/deliver' - paronomasia with magen (15:1) - note only; wayyitten-lo: subject unexpressed - giver Abram (Heb 7:4; Josephus; 1QapGen - recalled unverified) vs Melchizedek (subject continuity) - supply [Abram] as marked addition and record ambiguity; mi-kol = of everything (the recovered goods, v16), tension with v23 refusal.\n14.21 ko: 소돔 왕이 아브람에게 말하였다. \"사람들은 나에게 주고, 재물은 네가 가져라.\" / en: The king of Sodom said to Abram, \"Give me the people, and take the goods for yourself.\" / es: El rey de Sodoma dijo a Abram: \"Dame las personas, y los bienes tomalos para ti.\"\n issues: ha-nefesh collective singular = persons/people (captives); rekhush = goods (v11,12,16); lakh tagged Sp2fs by OSHB on pausal form לָֽךְ - addressee masculine Abram, so pausal 2ms; morphology tag issue, not variant; terse speech vs Melchizedek greeting - narrative contrast (interpretation).\n14.22 ko: 아브람이 소돔 왕에게 말하였다. \"내가 하늘과 땅을 지으신 지극히 높으신 하나님 야훼께 손을 들어 맹세한다. / en: Abram said to the king of Sodom, \"I raise my hand to YHWH, God Most High, Creator of heaven and earth, / es: Abram dijo al rey de Sodoma: \"Alzo mi mano ante YHWH, el Dios Altisimo, creador del cielo y de la tierra:\n issues: harimoti Hiphil pf 1cs = performative ('I hereby raise/swear') vs past ('I have raised' = earlier vow); oath gesture (Exod 6:8, Deut 32:40 recalled); YHWH + El Elyon identification - MT/WLC has YHWH; reported variants: SP ha-Elohim, LXX ton theon ton hypsiston without kyrios?, 1QapGen lacks YHWH (all recalled, unverified -> must verify or mark reported); verse ends mid-sentence: oath content in 14.23 (outside unit) - translation must stay open (colon/em dash), not close the sentence.\n",
+    "clauses": {
+      "Gen.14.18": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01eBr",
+            "01GCu",
+            "01rbd",
+            "01YG2"
+          ],
+          "hebrew_display": "וּמַלְכִּי צֶ֨דֶק֙ מֶ֣לֶךְ שָׁלֵ֔ם",
+          "category": "syntactic/discourse",
+          "note_ko": "접속사 וּ + 주어(멜기세덱, 살렘 왕) 전치 + 완료(הוֹצִיא, HVhp3ms). 와이크톨 사슬을 끊는 이접절이다. 17절 소돔 왕의 등장(וַיֵּצֵא, 같은 어근 3318) 뒤에 별도 인물을 끼워 넣고, 21절에서 소돔 왕 서사가 재개된다. 이름 מַלְכִּי־צֶדֶק은 OSHB가 마케프로 이은 두 토큰(lemma 4442+/4442)이며 시편 110:4에서도 같은 두 토큰·마케프로 나온다(확인). 어원 '나의 왕은 의'/'의의 왕'은 해석이며 본문에는 고유명사로 옮긴다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01kwy",
+            "013qw",
+            "01iWa"
+          ],
+          "hebrew_display": "הוֹצִ֖יא לֶ֣חֶם וָיָ֑יִן",
+          "category": "lexical/reception",
+          "note_ko": "הוֹצִיא 히필 '가지고 나오다/내오다'. 빵과 포도주는 귀환 병력에 대한 환대·보급으로 읽는 것이 본문 수준의 최소 해석이다. 제의 봉헌이나 성찬 예표 해석은 수용사이며 본문 번역에 넣지 않는다. 아트나흐가 וָיָיִן에 있어 '빵과 포도주'와 '제사장' 진술이 둘로 나뉜다."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01cUQ",
+            "014xN",
+            "01rXs",
+            "01M3R"
+          ],
+          "hebrew_display": "וְה֥וּא כֹהֵ֖ן לְאֵ֥ל עֶלְיֽוֹן",
+          "category": "syntactic/lexical/historical",
+          "note_ko": "명사문 וְהוּא כֹהֵן: 설명적 상황절('그는 ...의 제사장이었다'). 19절 축복의 자격을 미리 알려 주지만 문법상 인과('제사장이었으므로')를 표시하지는 않는다. אֵל עֶלְיוֹן: OSHB는 אֵל을 보통명사(Ncmsa), עֶלְיוֹן을 형용사(Aamsa, lemma 5945b)로 태그한다. 따라서 '지극히 높으신 하나님'이 형태 분석과 맞는다. '엘'을 가나안 최고신 고유명사로, '엘룐'을 별개 신명으로 읽는 역사종교학적 가설은 이 패킷 안의 증거가 아니다(외부 자료 미확인)."
+        }
+      ],
+      "Gen.14.19": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01d8N"
+          ],
+          "hebrew_display": "וַֽיְבָרְכֵ֖הוּ",
+          "category": "syntactic",
+          "note_ko": "וַיְבָרְכֵהוּ 피엘 와이크톨 + 3ms 접미: 주어는 18절의 멜기세덱(הוּא), 목적어 '그'는 아브람이다(이어지는 축복문에서 명시)."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01oTd"
+          ],
+          "hebrew_display": "וַיֹּאמַ֑ר",
+          "category": "syntactic",
+          "note_ko": "וַיֹּאמַר 휴지형(아트나흐). 이어지는 19b-20a가 하나의 축복 발화다."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01owL",
+            "01QQs",
+            "012bu",
+            "01Cj3"
+          ],
+          "hebrew_display": "בָּר֤וּךְ אַבְרָם֙ לְאֵ֣ל עֶלְי֔וֹן",
+          "category": "syntactic/lexical",
+          "note_ko": "בָּרוּךְ 칼 수동분사 + 사람 + לְ + 신명: 룻 2:20, 3:10, 삿 17:2의 'בָּרוּךְ ... לַיהוָה'와 같은 구문(확인). ל은 행위자('...에게서/...께')로 읽는 것이 자연스럽다. '...앞에서/...에게 바쳐진'은 소수 대안이다. 칠십인역 OCR은 여격 τῷ θεῷ τῷ ὑψίστῳ로 옮겨 같은 모호성을 유지한다."
+        },
+        {
+          "clause": 4,
+          "word_ids": [
+            "01SKp",
+            "01yJh",
+            "01RYV"
+          ],
+          "hebrew_display": "קֹנֵ֖ה שָׁמַ֥יִם וָאָֽרֶץ",
+          "category": "lexical/reception",
+          "note_ko": "קֹנֵה 칼 능동분사 연계형(HVqrmsc), lemma 7069. 고정된 핵심 쟁점: '지으신/만드신(maker)' 대 '소유하신/주인(possessor, owner)'. 고정 WLC 창세기에서 קנה는 4:1('얻었다'), 14:19·22(이 구절) 외에 25:10, 33:19, 39:1, 47:19·20·22·23, 49:30, 50:13 모두 '사다' 문맥이다(확인). 반면 신 32:6(קָּנֶךָ // עָשְׂךָ // וַיְכֹנְנֶךָ), 시 139:13(קָנִיתָ כִלְיֹתָי // 모태에서 짜심), 잠 8:22에서는 '짓다/낳다' 쪽 의미가 문맥상 가능하다(확인). 칠십인역 OCR 14:19는 ὃς ἔκτισεν('창조한')이다(확인). 하늘과 땅은 관사 없는 메리즘(שָׁמַיִם וָאָרֶץ)이며 창 1:1의 관사 있는 בָּרָא 구문과 다르다."
+        }
+      ],
+      "Gen.14.20": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01EW6",
+            "01sNB",
+            "01mk1"
+          ],
+          "hebrew_display": "וּבָרוּךְ֙ אֵ֣ל עֶלְי֔וֹן",
+          "category": "lexical/discourse",
+          "note_ko": "같은 בָּרוּךְ가 이번에는 하나님에게 쓰인다: 사람에게는 '복을 받음', 하나님에게는 '찬양/송축'. 두 절의 말놀이(사람이 복을 받고, 하나님은 송축 받음)는 한국어에서 완전히 살리기 어렵다. 창 24:31 בְּרוּךְ יְהוָה(사람에게 쓰인 '야훼께 복 받은 이')는 다른 구문이다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01myk",
+            "01mjE",
+            "01QJA",
+            "01CPB"
+          ],
+          "hebrew_display": "אֲשֶׁר מִגֵּ֥ן צָרֶ֖יךָ בְּיָדֶ֑ךָ",
+          "category": "lexical/literary",
+          "note_ko": "מִגֵּן 피엘 완료(lemma 4042, 고정 WLC에 3회: 창 14:20, 호 11:8, 잠 4:9). 호 11:8에서 אֶתֶּנְךָ('너를 내주다')와 평행하므로 '넘겨주다'가 확인 가능한 의미다. 15:1 אָנֹכִי מָגֵן לָךְ('나는 너의 방패')와의 소리 연결은 문학적 관찰이며 번역문에 넣지 않는다. בְּיָדֶךָ '네 손에'는 관용구이지만 생략하지 않는다."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01113",
+            "01wq8",
+            "01FGW",
+            "01Ld7"
+          ],
+          "hebrew_display": "וַיִּתֶּן ל֥וֹ מַעֲשֵׂ֖ר מִכֹּֽל",
+          "category": "syntactic/reception",
+          "note_ko": "וַיִּתֶּן־לוֹ: 주어·수혜자가 대명사로만 나온다. 문법상 기본값(주어 연속)은 19절의 멜기세덱이지만, 히브리 서사에서 표시 없는 주어 전환은 흔하다. 히 7:2, 7:4(SBLGNT, 확인)는 아브라함이 주었다고 명시하며 7:4는 ἐκ τῶν ἀκροθινίων(전리품에서)이라 한다. 칠십인역 OCR 'καὶ ἔδωκεν αὐτῷ δεκάτην ἀπὸ πάντων'은 주어를 밝히지 않는다(확인). מַעֲשֵׂר מִכֹּל '모든 것의 십분의 일': '모든 것'이 16절 회수 재물(כָּל הָרְכֻשׁ)인지 아브람 자신의 소유인지는 본문이 말하지 않는다. 23절 '네 것은 하나도 갖지 않겠다'와의 긴장은 미해결이다."
+        }
+      ],
+      "Gen.14.21": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01Xo3",
+            "01RHX",
+            "01BCV",
+            "01oTL",
+            "01DoL"
+          ],
+          "hebrew_display": "וַיֹּ֥אמֶר מֶֽלֶךְ סְדֹ֖ם אֶל אַבְרָ֑ם",
+          "category": "discourse",
+          "note_ko": "17절에서 멈췄던 소돔 왕 서사가 재개된다. 멜기세덱의 축복·선물과 달리 소돔 왕은 인사 없이 곧바로 요구한다. 이 대조는 서술상의 관찰이며 동기 해석은 본문 밖이다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "014pE",
+            "01DFj",
+            "01rYe"
+          ],
+          "hebrew_display": "תֶּן לִ֣י הַנֶּ֔פֶשׁ",
+          "category": "lexical",
+          "note_ko": "הַנֶּפֶשׁ 집합 단수: '사람들/사람'(16절의 여인들과 백성, 즉 포로였던 사람들). '목숨/영혼'은 이 문맥에서 부적합. 칠십인역 OCR은 τοὺς ἄνδρας('사람들/남자들')."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01b8e",
+            "01jni",
+            "01Y7m"
+          ],
+          "hebrew_display": "וְהָרְכֻ֖שׁ קַֽח לָֽךְ",
+          "category": "syntactic/lexical/morphology-note",
+          "note_ko": "וְהָרְכֻשׁ קַח־לָךְ: 목적어 전치(대조 초점: '재물은 네가 가져라'). רְכוּשׁ는 11·12·16절과 같은 '재물/소유물'. 칠십인역 OCR은 14:16·21에서 ἵππος('기병/말')로 옮긴다(확인). 이것이 같은 자음 רכש를 다른 낱말('말, 준마')로 읽은 결과인지는 이 실행에서 검증하지 않았으며 히브리어 이문으로 다루지 않는다. 형태 태그: OSHB는 휴지형 לָךְ를 Sp2fs로 태그하지만, 같은 꼴이 14:23·15:1·27:37(모두 남성 청자)에서도 Sp2fs로 태그된다(확인). 형태 기반 태그 관례이며 여성 청자나 이문이 아니다. 청자는 아브람(남성)이다."
+        }
+      ],
+      "Gen.14.22": [
+        {
+          "clause": 1,
+          "word_ids": [
+            "01sPR",
+            "015tD",
+            "01m39",
+            "01ZsB",
+            "01VXi"
+          ],
+          "hebrew_display": "וַיֹּ֥אמֶר אַבְרָ֖ם אֶל מֶ֣לֶךְ סְדֹ֑ם",
+          "category": "discourse",
+          "note_ko": "וַיֹּאמֶר: 대조 접속사가 없다. '그러나 아브람은'은 해석상 추가다."
+        },
+        {
+          "clause": 2,
+          "word_ids": [
+            "01QxV",
+            "01c9a"
+          ],
+          "hebrew_display": "הֲרִימֹ֨תִי יָדִ֤י",
+          "category": "syntactic/lexical",
+          "note_ko": "הֲרִימֹתִי יָדִי 히필 완료 1cs. 맹세 몸짓(신 32:40 אֶשָּׂא אֶל שָׁמַיִם יָדִי, 출 6:8 נָשָׂאתִי אֶת יָדִי — 다른 동사 נשא, 확인). 완료형은 (a) 수행적 '지금 손을 들어 맹세한다' 또는 (b) 과거 '이미 손을 들어 맹세하였다(전투 전 서원)'로 읽을 수 있다. 칠십인역 OCR은 미래 Ἐκτενῶ('뻗겠다')다(확인). 23절에 맹세 내용(אִם ...)이 이어지므로 수행적 독법이 문맥에 가장 자연스럽다. '맹세'라는 낱말은 히브리어에 없고 관용구를 풀어 쓴 것이다."
+        },
+        {
+          "clause": 3,
+          "word_ids": [
+            "01v9b",
+            "01Sw9",
+            "01in2",
+            "01cdx"
+          ],
+          "hebrew_display": "אֶל יְהוָה֙ אֵ֣ל עֶלְי֔וֹן",
+          "category": "textual/lexical",
+          "note_ko": "אֶל־יְהוָה אֵל עֶלְיוֹן: 고정 WLC에는 יְהוָה가 있다(원문 표시). 이 단원에서 '야훼'가 엘 엘룐과 동일시되는 유일한 자리다. 칠십인역 OCR 줄은 πρὸς τὸν θεὸν τὸν ὕψιστον으로 κύριος 대응어가 없다(확인). 그러나 같은 줄에 βασιλέα 누락(πρὸςΣοδόμων)과 ἔκτισεν 누락(ὃς τὸν οὐρανὸν)이라는 눈에 보이는 OCR 손상이 있어, 이 OCR만으로 Swete 본문이나 고대 그리스어 전승의 부재를 확정할 수 없다. 사마리아 오경의 האלהים 독법과 창세기 외경(1QapGen)의 신명 부재는 이 실행에서 확인하지 못한 보고 이문이다."
+        },
+        {
+          "clause": 4,
+          "word_ids": [
+            "016gi",
+            "019nq",
+            "01tmJ"
+          ],
+          "hebrew_display": "קֹנֵ֖ה שָׁמַ֥יִם וָאָֽרֶץ",
+          "category": "lexical",
+          "note_ko": "19절과 같은 קֹנֵה שָׁמַיִם וָאָרֶץ. 아브람이 멜기세덱의 칭호를 그대로 반복하면서 야훼와 동일시한다(MT 기준). 23절의 재물 거절과 이어져 '주인' 의미가 수사적으로 강해진다는 점이 '소유하신' 해석의 가장 강한 문맥 논거다."
+        }
+      ]
+    }
+  },
+  "initial_proposals": {
+    "Gen.14.18": {
+      "ko": "그때 살렘 왕 멜기세덱이 빵과 포도주를 가지고 나왔다. 그는 지극히 높으신 하나님(엘 엘룐)의 제사장이었다.",
+      "en": "And Melchizedek king of Salem brought out bread and wine; he was priest of God Most High (El Elyon).",
+      "es": "Y Melquisedec, rey de Salem, saco pan y vino; el era sacerdote del Dios Altisimo (El Elyon)."
+    },
+    "Gen.14.19": {
+      "ko": "그가 아브람에게 복을 빌며 말하였다. \"하늘과 땅을 지으신 지극히 높으신 하나님께서 아브람에게 복을 주시기를!",
+      "en": "He blessed him and said, \"Blessed be Abram by God Most High, Creator of heaven and earth!",
+      "es": "Lo bendijo y dijo: \"Bendito sea Abram por el Dios Altisimo, creador del cielo y de la tierra."
+    },
+    "Gen.14.20": {
+      "ko": "너의 적들을 너의 손에 넘겨주신 지극히 높으신 하나님을 찬양하라!\" 아브람이 그에게 모든 것에서 십분의 일을 주었다.",
+      "en": "And blessed be God Most High, who has handed over your foes into your hand!\" And [Abram] gave him a tenth of everything.",
+      "es": "Y bendito sea el Dios Altisimo, que entrego a tus enemigos en tu mano.\" Y [Abram] le dio el diezmo de todo."
+    },
+    "Gen.14.21": {
+      "ko": "소돔 왕이 아브람에게 말하였다. \"사람들은 나에게 주고, 재물은 네가 가져라.\"",
+      "en": "The king of Sodom said to Abram, \"Give me the people, and take the goods for yourself.\"",
+      "es": "El rey de Sodoma dijo a Abram: \"Dame las personas, y los bienes tomalos para ti.\""
+    },
+    "Gen.14.22": {
+      "ko": "아브람이 소돔 왕에게 말하였다. \"내가 하늘과 땅을 지으신 지극히 높으신 하나님 야훼께 손을 들어 맹세한다.",
+      "en": "Abram said to the king of Sodom, \"I raise my hand to YHWH, God Most High, Creator of heaven and earth,",
+      "es": "Abram dijo al rey de Sodoma: \"Alzo mi mano ante YHWH, el Dios Altisimo, creador del cielo y de la tierra:"
+    }
+  },
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main revision 4fbdcbcadea73cca32b2febcc8f3e4fb214ccb83)",
+      "model_label": "editorial selection",
+      "finding_ko": "Gen.14.18-22에는 현행 채택문이 없다(패킷 current_selected 빈 목록, editorial.json 111절 중 없음). 이 검토는 미래 채택용 연구 자료다. 인접 관례: 창 4:1 채택문 ko '야훼'·en/es 'YHWH', 창 1:1 채택문 '하늘과 땅을 창조하셨다 / created the heavens and the earth / creó los cielos y la tierra'(בָּרָא, 관사 있음), 신 32:8 채택문 עֶלְיוֹן = '지극히 높으신 이 / the Most High / el Altísimo'. 4:1 채택문은 קנה를 '얻었다/acquired/adquirido'로 옮긴다."
+    },
+    {
+      "record": "origin/claude/friendly-heisenberg-po3u6x:automation/cloud-drafts/20261024T091815Z-bda79429.json (branch head cf43fd5e5d987e81afb03d9da5ecd57ab2e5c7c1; file sha256 ea26c0933c69f57960ce700fc5f3cbe55b2773879004d3549760be190a0675de)",
+      "model_label": "Claude Code native cloud draft; recorded requested_model 'Claude Sonnet 5.5 (claude-sonnet-5-5), as reported by the session system prompt'; exact snapshot recorded as unavailable; state unadopted_model_draft; independent_review 'none; GPT and Gemini reviews still required; self-reread only'",
+      "covered_ids": [
+        "Gen.14.18",
+        "Gen.14.19",
+        "Gen.14.20",
+        "Gen.14.21",
+        "Gen.14.22"
+      ],
+      "missing_ids": [],
+      "finding_ko": "일반 초안(2026-10-24 배치)이 다섯 절을 모두 다룬다. 같은 morphhb 커밋·Gen.xml sha256(0526e5c9…)을 쓰므로 원문 불일치는 없다. 그 초안의 source_hebrew_sha256(예: 14:18 6464bfcf…)은 이 패킷 fragment_sha256(96d77150…)과 다른 해시 기준이라 직접 비교하지 않았다.",
+      "texts": {
+        "Gen.14.18": {
+          "ko": "살렘 왕 멜기세덱이 빵과 포도주를 가지고 나왔다. 그는 지극히 높으신 하나님의 제사장이었다.",
+          "en": "And Melchizedek king of Salem brought out bread and wine. (He was priest of God Most High.)",
+          "es": "Y Melquisedec, rey de Salem, sacó pan y vino; él era sacerdote del Dios Altísimo."
+        },
+        "Gen.14.19": {
+          "ko": "그가 아브람에게 복을 빌며 말했다. \"하늘과 땅을 지으신 지극히 높으신 하나님께 아브람이 복을 받기를 원합니다.",
+          "en": "And he blessed him and said, \"Blessed be Abram by God Most High, maker of heaven and earth;",
+          "es": "Y lo bendijo diciendo: «Bendito sea Abram de parte del Dios Altísimo, hacedor del cielo y de la tierra."
+        },
+        "Gen.14.20": {
+          "ko": "네 원수들을 네 손에 넘기신 지극히 높으신 하나님께 복이 있기를 원합니다.\" 아브람은 모든 것의 십분의 일을 그에게 주었다.",
+          "en": "and blessed be God Most High, who has handed your enemies over to you!\" And he gave him a tenth of everything.",
+          "es": "Y bendito sea el Dios Altísimo, que entregó a tus enemigos en tu mano». Y le dio el diezmo de todo."
+        },
+        "Gen.14.21": {
+          "ko": "소돔 왕이 아브람에게 말했다. \"사람들은 내게 주고 재물은 당신이 가지시오.\"",
+          "en": "And the king of Sodom said to Abram, \"Give me the persons, but take the goods for yourself.\"",
+          "es": "Y el rey de Sodoma dijo a Abram: «Dame las personas y quédate con los bienes»."
+        },
+        "Gen.14.22": {
+          "ko": "아브람이 소돔 왕에게 말했다. \"하늘과 땅을 지으신 지극히 높으신 하나님 주님께 내가 손을 들어 맹세합니다.",
+          "en": "But Abram said to the king of Sodom, \"I raise my hand to the LORD, God Most High, maker of heaven and earth:",
+          "es": "Pero Abram dijo al rey de Sodoma: «Levanto mi mano al SEÑOR, Dios Altísimo, hacedor del cielo y de la tierra:"
+        }
+      }
+    },
+    {
+      "record": "data/model-reviews/v0.4.9/genesis3-end4-1-lexical-evidence.json (sha256 c42be3b88e43606f2b605616120a0f6f9a5a70c96c4e85d10f46484783bee8fb)",
+      "model_label": "saved lexical-evidence record (editor-read digital BDB entries, as recorded in that file)",
+      "finding_ko": "그 기록은 BDB 7069 항목을 'get, acquire'로 인용하고 'Other contexts include creating; lexical breadth is not an exclusive translation rule'이라고 적는다. 이 세션은 biblehub.com 접속이 네트워크 정책으로 거부되어(connect_rejected) BDB를 직접 다시 읽지 못했다. 따라서 14:19·22에 대한 BDB의 구체적 분류는 확인하지 않았다."
+    },
+    {
+      "record": "origin/claude/original-bible-hard-review-jd7u1u:automation/cloud-reviews/20261029T162329Z-0bb938a6.json (gen-4-1 hard review)",
+      "model_label": "Claude Code native cloud hard review (model identity as recorded in that file)",
+      "finding_ko": "그 검토는 4:1 קָנִיתִי를 '얻었다'로 유지하며 '만들다/낳다' 의미가 14:19·22 등에서 논란이라고만 적는다. 이 검토의 14장 '지으신' 선택은 4:1 '얻었다'와 다른 역어다. 두 자리의 קנה를 다르게 옮기는 근거(신명 칭호 + 하늘과 땅 대 출산 발화)를 각주에 남겨야 한다."
+    },
+    {
+      "record": "data/model-reviews/, reviews/, data/decisions.json, data/hebrew.json, data/genesis-guides.json (main 4fbdcbc); all fetched claude/ branches (automation/cloud-drafts, automation/cloud-reviews)",
+      "model_label": "saved GPT/Gemini/agy/editor records",
+      "finding_ko": "Gen.14.18-22 또는 멜기세덱에 대한 GPT·Gemini·agy·사람 검토 기록을 찾지 못했다(grep 'Gen.14.1[89]|Gen.14.2[012]|14:19|14:22|Melchiz|멜기세덱'). 이 단원에서 비교한 실제 저장 모델 번역 기록은 위 Sonnet 일반 초안 하나뿐이다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "14:18 초안 en '(He was priest of God Most High.)'는 괄호로 묶어 여담처럼 만든다. 명사문은 19절 축복의 자격을 알려 주는 핵심 정보이므로 괄호 없이 세미콜론으로 잇는 것을 권한다. ko/es는 이 검토와 사실상 같다.",
+    "14:19 초안 ko '아브람이 복을 받기를 원합니다'는 '원합니다'라는 화자 존대·소망 표현을 덧붙인다. 의미 오류는 아니나 히브리 축복 정식(בָּרוּךְ + 이름)보다 길다. 초안과 이 검토 모두 קנה를 '지으신/maker/hacedor'로 골랐다. 같은 모델 계열의 일치는 독립 확증이 아니다.",
+    "14:20 초안 en 'handed your enemies over to you'는 בְּיָדֶךָ('네 손에')를 빼고 es는 'en tu mano'를 유지한다. 한 언어에서 절 요소가 빠진 언어 간 불일치다.",
+    "14:20 초안 ko '하나님께 복이 있기를 원합니다'는 하나님에게 복을 빌어 주는 말로 들릴 수 있다. 하나님께 쓰인 בָּרוּךְ는 '찬양/송축'으로 옮기는 것이 한국어 독자에게 정확하다.",
+    "14:20 초안은 ko에서만 '아브람은'을 보충하고 en 'he gave him'·es 'le dio'는 대명사를 유지한다. 같은 절의 해석이 언어마다 다르다. 이 검토는 세 언어에 같은 보충을 적용하고 각주를 붙일 것을 제안한다.",
+    "14:22 초안은 יְהוָה를 '주님/the LORD/el SEÑOR'로 옮겨 4:1 채택문의 '야훼/YHWH' 관례와 다르다. en/es 'But/Pero'는 히브리어에 없는 대조 접속이다.",
+    "14:22 초안 reason_ko는 '칠십인역은 יהוה를 빼고 읽는다고 알려졌으나'라고 적었지만 근거를 저장하지 않았다. 이 실행은 Swete OCR 줄에서 κύριος 대응어가 없음을 확인했으나, 같은 줄의 OCR 손상 때문에 결론을 '제3자 OCR에서 부재' 이상으로 넓히지 않는다.",
+    "14:21 초안과 이 검토의 차이는 문체뿐이다(es 'quédate con los bienes' 대 'toma para ti los bienes'). 이 검토는 קַח־לָךְ의 '취하라 + 너를 위해' 구조를 더 가깝게 따랐다. 초안 쪽도 정당하다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "14:18 '그때'와 '(엘 엘룐)' 괄호를 본문에서 빼고 각주로 옮겼다(보충 표시 없는 시간어 추가 회피, 음역은 각주).",
+    "14:19·22 en 'Creator' → 'Maker', es 'creador' → 'Hacedor': 창 1:1 채택문의 בָּרָא 'created/creó'와 구별하기 위해. 이 변경은 초안 비교 뒤에 했으며 Sonnet 초안의 'maker/hacedor'와 일치하게 되었다. 일치가 변경 이유는 아니다.",
+    "14:19 ko 축복문 구조를 '하나님께서 아브람에게 복을 주시기를'(하나님 주어)에서 '하나님께 아브람이 복을 받기를'(아브람 주어, 수동분사 + ל 행위자)로 바꿨다.",
+    "14:20 ko '찬양하라'(명령) → '찬양받으시기를'(בָּרוּךְ 수동 소망 정식 유지). es 'diezmo' → 'la décima parte'(제도 용어 회피). en/es 보충 주어의 대괄호는 본문에서 빼고 supplied 필드로 옮겼다.",
+    "14:21 ko 소돔 왕 말투를 '네가 가져라' → '당신이 가지시오'(왕이 승전 전사에게 하는 말로 대등/하오체). 이 선택은 문체 판단이다.",
+    "14:22 en/es 말미를 열린 콜론으로 통일하고 ko는 '맹세합니다'로 끝내되 따옴표를 닫지 않는다(23절로 이어짐)."
+  ],
+  "reception_evidence": {
+    "source_note": "Septuagint lines are from third-party raw OCR of Swete (First1KGreek) with visible OCR damage; quoted verbatim, not corrected. Hebrews lines are joined MorphGNT SBLGNT tokens (text column) including SBLGNT variant markers. All are reception evidence only, not Hebrew witnesses.",
+    "excerpts": [
+      {
+        "ref": "LXX Gen 14:18",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.14.18 καὶ Μελχισεδὲκ βασιλεὺς Σαλὴμ ἐξήνεγκεω ἄρτους καὶ οἶνον· ἦν δὲ ἱερεὺς τοῦ θεοῦ τοῦ ὑψίστου."
+      },
+      {
+        "ref": "LXX Gen 14:19",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.14.19 καὶ ηὐλόγησεν τὸν Ἀβρὰμ καὶ εἶπεν Εὐλογημένος Ἀβρὰμ τῷ θεῷ τῷ ὑψίστῳ, ὃς ἔκτισεν  τὸν οὐρανὸν καὶ τὴν γῆν·"
+      },
+      {
+        "ref": "LXX Gen 14:20",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.14.20 καὶ εὐλογητὸς ὁ θεὸς ὁ ὕψιστος, ὃς παρέδωκεν τοὺς ἐχθρούς σου ὑποχειρίους σοι. καὶ ἔδωκεν αὐτῷ δεκάτηνἀπὸ πάντων."
+      },
+      {
+        "ref": "LXX Gen 14:21",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.14.21 εἶπεν δὲ βασιλεὺς Σοδόμων πρὸς Ἀβρόμ Δός μοι τοὺςἄνδρας, τὴν δὲ ἵππον λάβε σεαυτῷ."
+      },
+      {
+        "ref": "LXX Gen 14:22",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.14.22 εἶπεν δὲ Ἀβρὰμ πρὸςΣοδόμων Ἐκτενῶ τὴν χεῖρά μου πρὸς τὸν θεὸν τὸν ὕψιστον, ὃς τὸν οὐρανὸν καὶ τὴν γῆν,"
+      },
+      {
+        "ref": "LXX Gen 14:16",
+        "file": "lxx_gen.txt",
+        "excerpt": "1.14.16 καὶ ἀπέστρεψεν πᾶσαν τὴν ἴππον Σοδόμων·"
+      },
+      {
+        "ref": "Heb 7:1 SBLGNT",
+        "file": "heb.txt",
+        "excerpt": "Οὗτος γὰρ ὁ Μελχισέδεκ, βασιλεὺς Σαλήμ, ἱερεὺς τοῦ θεοῦ τοῦ ὑψίστου,"
+      },
+      {
+        "ref": "Heb 7:2 SBLGNT",
+        "file": "heb.txt",
+        "excerpt": "ᾧ καὶ δεκάτην ἀπὸ πάντων ἐμέρισεν Ἀβραάμ, πρῶτον μὲν ἑρμηνευόμενος βασιλεὺς δικαιοσύνης ἔπειτα δὲ καὶ βασιλεὺς Σαλήμ, ὅ ἐστιν βασιλεὺς εἰρήνης,"
+      },
+      {
+        "ref": "Heb 7:4 SBLGNT",
+        "file": "heb.txt",
+        "excerpt": "Θεωρεῖτε δὲ πηλίκος οὗτος ⸀ᾧ δεκάτην Ἀβραὰμ ἔδωκεν ἐκ τῶν ἀκροθινίων ὁ πατριάρχης."
+      }
+    ],
+    "assessment_ko": "(1) 칠십인역 OCR 14:19는 קֹנֵה를 ὃς ἔκτισεν(창조한)으로 옮긴다. 14:22 OCR 줄은 같은 자리에 동사가 없다(ὃς τὸν οὐρανὸν). OCR 누락으로 보이며 Swete 본문으로 단정하지 않는다. (2) 14:22 OCR은 πρὸς τὸν θεὸν τὸν ὕψιστον으로 κύριος 대응어가 없다. 같은 줄에 βασιλέα 누락도 있어 손상 줄이다. 비평판(괴팅겐) 장치는 확인하지 않았다. (3) 14:22 OCR Ἐκτενῶ는 미래형이다. 칠십인역이 הֲרִימֹתִי를 과거 서원으로 읽지 않았다는 증거다. (4) 14:20 OCR 'ἔδωκεν αὐτῷ'는 주어를 밝히지 않는다. 히 7:2·4(SBLGNT)는 아브라함이 십분의 일을 주었다고 명시하며 7:4는 '전리품에서'라고 한다. 이는 신약의 해석이고 히브리어 본문의 문법 증거가 아니다. (5) 14:16·21 OCR은 רְכוּשׁ를 ἵππος('기병/말', 여성 집합)로, 14:21 הַנֶּפֶשׁ를 τοὺς ἄνδρας로 옮긴다. (6) 히 7:2의 '의의 왕', '평화의 왕'은 이름과 지명의 어원 해석이며, 시 76:3(בְשָׁלֵם // בְצִיּוֹן, 고정 WLC 확인)은 살렘과 시온의 평행을 보여 주는 이스라엘 내부 수용이다. 창세기 본문 자체는 살렘의 위치를 말하지 않는다."
+  },
+  "alternatives": [
+    {
+      "verse": "Gen.14.19",
+      "clause": "קֹנֵה שָׁמַיִם וָאָרֶץ",
+      "option": "'소유하신/주인이신' (en Possessor/Owner of heaven and earth; es Dueño/Poseedor del cielo y de la tierra; ko 하늘과 땅의 주인이신)",
+      "for": "고정 WLC 창세기의 다른 קנה 10회 중 9회가 '사다/구입하다'(25:10, 33:19, 39:1, 47:19·20·22·23, 49:30, 50:13)이고 4:1은 '얻다'다. 단원 전체가 재물(רְכוּשׁ)의 소유·분배를 다루므로 '주인'은 21-23절 소돔 왕 제안 거절과 직접 맞물린다.",
+      "against": "신명 칭호 + 하늘과 땅 메리즘은 창조 진술과 어울리며 신 32:6에서 קנה는 עשה·כון과 평행한다. 칠십인역 OCR은 ὃς ἔκτισεν. '만드신 분'은 소유를 함의하므로 21-23절 논리도 유지된다. '구입한' 의미를 하늘과 땅에 적용하면 거래 이미지가 생긴다.",
+      "verdict": "본문 비채택, 강한 대안으로 각주 권고. 이 단원 판단 중 가장 불확실하다."
+    },
+    {
+      "verse": "Gen.14.19",
+      "clause": "קֹנֵה",
+      "option": "'지으시고 소유하신' 이중 번역",
+      "for": "두 의미를 모두 보존한다.",
+      "against": "한 낱말을 두 동사로 옮겨 해석을 본문에 덧붙인다. 22절 반복에도 같은 확장을 고정한다.",
+      "verdict": "비채택"
+    },
+    {
+      "verse": "Gen.14.18",
+      "clause": "אֵל עֶלְיוֹן",
+      "option": "'엘 엘룐' 음역 또는 '엘, 지극히 높으신 이'(고유명사 El + 칭호)",
+      "for": "가나안 신명 전통과의 관계를 독자가 볼 수 있다. 22절에서 야훼와의 동일시가 더 분명해진다.",
+      "against": "OSHB 형태 분석은 보통명사 + 형용사다. 시 78:35 וְאֵל עֶלְיוֹן('구속자'와 평행)처럼 이스라엘 신앙 칭호로도 쓰인다. 외부 비교 자료(우가리트·페니키아)는 이 실행에서 확인하지 못했다.",
+      "verdict": "본문은 '지극히 높으신 하나님', 첫 등장 각주에 음역 병기 권고"
+    },
+    {
+      "verse": "Gen.14.18",
+      "clause": "וּמַלְכִּי־צֶדֶק ... הוֹצִיא",
+      "option": "'한편'/'그때' 같은 연결어 보충",
+      "for": "이접절(주어 전치 + 완료)과 장면 삽입을 한국어 독자에게 드러낸다.",
+      "against": "히브리어 וּ 이상의 시간·대조 관계를 덧붙인다. 독립 첫 메모에서 '그때'를 넣었지만 보충 표시 없이 고정하기에는 근거가 약하다.",
+      "verdict": "비채택(각주로 담화 구조 설명)"
+    },
+    {
+      "verse": "Gen.14.20",
+      "clause": "וַיִּתֶּן־לוֹ",
+      "option": "대명사 유지(ko 그가 그에게, en he gave him, es le dio)",
+      "for": "히브리어의 모호성을 그대로 보존하고 수용 전통(히 7장)을 본문에 들이지 않는다.",
+      "against": "세 언어 모두 직전 화자인 멜기세덱이 주었다고 읽힐 가능성이 크다. 실제 히브리어 독자는 주어 전환에 익숙하지만 번역 독자는 그렇지 않다.",
+      "verdict": "비채택, 단 '보충 주어' 각주 필수"
+    },
+    {
+      "verse": "Gen.14.20",
+      "clause": "וַיִּתֶּן־לוֹ",
+      "option": "멜기세덱이 아브람에게 주었다",
+      "for": "주어 연속이 문법적 기본값이다. 23절에서 아브람이 아무것도 받지 않겠다고 하는 것과의 긴장을 피할 수 있다(단 그 긴장은 소돔 재물에 대한 것이다).",
+      "against": "제사장이 전사에게 십일조를 준다는 관계는 고대 근동·이스라엘 관례에서 어색하다(일반 지식, 출처 미확인). 히 7:4(확인)와 대부분의 수용사는 아브람을 주는 이로 본다.",
+      "verdict": "비채택, 각주에서 언급"
+    },
+    {
+      "verse": "Gen.14.20",
+      "clause": "מַעֲשֵׂר",
+      "option": "'십일조/diezmo/tithe' 제도 용어",
+      "for": "이후 율법(레 27:30 등)과 같은 낱말이다.",
+      "against": "창세기 장면에 후대 제도 개념을 들인다. '십분의 일'은 같은 의미를 중립적으로 전한다.",
+      "verdict": "ko/en/es 모두 '십분의 일 / a tenth / la décima parte' 채택, 표제어 각주에 마아세르 표기"
+    },
+    {
+      "verse": "Gen.14.22",
+      "clause": "הֲרִימֹתִי",
+      "option": "과거 '손을 들어 맹세하였습니다'(이미 한 서원)",
+      "for": "완료형의 일반 과거 의미다. 전투 전에 서원했다는 해석이 가능하다.",
+      "against": "23절 맹세 형식(אִם ...)이 바로 이어져 지금 하는 맹세로 읽힌다. 칠십인역 OCR은 미래형 Ἐκτενῶ로 '지금/앞으로' 쪽이다. 이전 서원을 언급하는 서사가 없다.",
+      "verdict": "비채택, 각주"
+    },
+    {
+      "verse": "Gen.14.22",
+      "clause": "יְהוָה",
+      "option": "יְהוָה 없이 '지극히 높으신 하나님'만 번역(칠십인역 OCR 형태·보고된 사마리아 오경/1QapGen 독법)",
+      "for": "짧은 본문, 18-20절과 같은 칭호 반복, 동일시가 후대 보충일 가능성(학계 논의, 이 실행에서 미확인).",
+      "against": "프로젝트 기준 본문은 MT-WLC 표시다. 칠십인역 증거는 손상된 제3자 OCR 한 줄뿐이고 비평 장치를 확인하지 않았다. 사마리아 오경·1QapGen은 확인하지 못했다.",
+      "verdict": "비채택. WLC 본문을 번역하고 '보고된 이문'으로 각주"
+    },
+    {
+      "verse": "Gen.14.21",
+      "clause": "הָרְכֻשׁ",
+      "option": "'말/기병'(칠십인역 ἵππος)",
+      "for": "칠십인역 OCR 14:16·21의 실제 역어다.",
+      "against": "같은 장 11·12·16절의 רְכוּשׁ는 문맥상 재산 전반이며 WLC 모음도 rekhush다. 다른 낱말 '준마'로 읽은 결과라는 추정은 검증하지 않았다.",
+      "verdict": "비채택(수용사 각주만)"
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.14.19, Gen.14.22 קֹנֵה = '지으신/Maker/Hacedor'",
+    "objection_ko": "이 단원에서 내 선택에 대한 가장 강한 반론은 קנה의 창세기 내부 용례다. 고정 WLC 창세기에서 14장 밖의 קנה 10회 중 9회가 땅·사람·물건을 '사는' 거래 문맥이고(4:1은 '얻다'), 14장 자체가 재물의 소유권(누가 무엇을 가지는가)을 다룬다. 21절 '재물은 당신이 가지시오', 23절 '당신의 것은 실 한 오라기도 갖지 않겠다'와 가장 촘촘히 맞물리는 칭호는 '하늘과 땅의 주인'이다. '지으신'은 창 1장의 창조 신학과 칠십인역 ἔκτισεν에 기대는 선택이며, 칠십인역 자체가 해석이다.",
+    "response_ko": "반론을 인정하되 본문은 '지으신'을 유지한다. 이유: (1) 이 분사는 신명 칭호이며 거래 문맥이 아니다. 창세기 '사다' 용례는 모두 사람의 구매 행위다. (2) 신 32:6에서 קנה는 עשה·כון과 평행하여 하나님이 백성을 '지으심'에 쓰인다(확인). (3) '만드신 분'은 소유권을 함의하므로 21-23절의 수사 논리가 사라지지 않는다. (4) 칠십인역 OCR ἔκτισεν은 고대 해석이지만 같은 쪽을 가리킨다. 다만 en은 창 1:1 בָּרָא('created')와 구별하려고 'Creator' 대신 'Maker'를 썼고, es는 'Hacedor', ko는 '지으신'(창 1:1 채택문 '창조하셨다'와 구별)을 썼다. 편집진이 재물 주제를 본문에서 드러내기로 하면 '주인이신/Possessor/Dueño'로 바꾸는 것이 정당하다."
+  },
+  "preferred_wording": {
+    "Gen.14.18": {
+      "ko": "살렘 왕 멜기세덱이 빵과 포도주를 가지고 나왔다. 그는 지극히 높으신 하나님의 제사장이었다.",
+      "en": "And Melchizedek king of Salem brought out bread and wine; he was priest of God Most High.",
+      "es": "Y Melquisedec, rey de Salem, sacó pan y vino; él era sacerdote del Dios Altísimo.",
+      "supplied_ko": []
+    },
+    "Gen.14.19": {
+      "ko": "그가 아브람을 축복하며 말하였다. “하늘과 땅을 지으신 분, 지극히 높으신 하나님께 아브람이 복을 받기를!",
+      "en": "He blessed him and said, “Blessed be Abram by God Most High, Maker of heaven and earth;",
+      "es": "Y lo bendijo, diciendo: «Bendito sea Abram por el Dios Altísimo, Hacedor del cielo y de la tierra;",
+      "supplied_ko": [
+        "ko '아브람을': 히브리어는 3ms 목적 접미사('그를')뿐이다. 19b에서 아브람이 명시되므로 한국어 가독성을 위해 앞당겨 밝혔다. en/es는 대명사(him/lo)를 유지한다."
+      ]
+    },
+    "Gen.14.20": {
+      "ko": "네 대적들을 네 손에 넘겨주신 지극히 높으신 하나님께서 찬양받으시기를!” 그러자 아브람이 그에게 모든 것의 십분의 일을 주었다.",
+      "en": "and blessed be God Most High, who has handed your foes over into your hand!” And Abram gave him a tenth of everything.",
+      "es": "y bendito sea el Dios Altísimo, que entregó a tus adversarios en tu mano». Y Abram le dio la décima parte de todo.",
+      "supplied_ko": [
+        "ko '아브람이', en 'Abram', es 'Abram': 히브리어 וַיִּתֶּן־לוֹ에는 주어 명사가 없다. 해석상 보충이며(히 7:2·4 수용 전통과 일치) 세 언어에 같은 보충을 적용했다. ko '그러자'는 와이크톨 연결을 풀어 쓴 것이다."
+      ]
+    },
+    "Gen.14.21": {
+      "ko": "소돔 왕이 아브람에게 말하였다. “사람들은 내게 주고, 재물은 당신이 가지시오.”",
+      "en": "The king of Sodom said to Abram, “Give me the persons; take the goods for yourself.”",
+      "es": "El rey de Sodoma dijo a Abram: «Dame las personas, y toma para ti los bienes».",
+      "supplied_ko": []
+    },
+    "Gen.14.22": {
+      "ko": "아브람이 소돔 왕에게 말하였다. “하늘과 땅을 지으신 분, 지극히 높으신 하나님 야훼께 내가 손을 들어 맹세합니다.",
+      "en": "Abram said to the king of Sodom, “I raise my hand to YHWH, God Most High, Maker of heaven and earth:",
+      "es": "Abram dijo al rey de Sodoma: «Alzo mi mano a YHWH, el Dios Altísimo, Hacedor del cielo y de la tierra:",
+      "supplied_ko": [
+        "ko '맹세합니다': הֲרִימֹתִי יָדִי('손을 들었다/든다')의 관용 의미를 드러낸 풀어쓰기다. en/es는 'raise/alzo my hand'만 쓰고 맹세 의미는 23절 맹세 형식(אִם)이 드러낸다."
+      ]
+    }
+  },
+  "speech_boundaries_ko": "19b-20a는 멜기세덱의 한 발화: ko/en “는 19절에서 열고 20절 '...받으시기를!”/...hand!”'에서 닫는다. es «는 19절, »는 20절. 21절은 한 절 안에서 열고 닫는다. 22절의 발화는 23절로 이어지므로 이 단원 안에서 닫히지 않는다(의도된 불균형: 여는 부호 3, 닫는 부호 2).",
+  "proposed_notes_ko": {
+    "Gen.14.18": "멜기세덱(מַלְכִּי־צֶדֶק): 이름의 뜻은 '나의 왕은 의' 또는 '의의 왕'으로 풀이된다(히 7:2 수용). 살렘(שָׁלֵם)은 시 76:3에서 시온과 평행한다. 이 구절은 17절 소돔 왕 장면 사이에 끼워진 이접절(주어 + 완료)로 시작한다. '지극히 높으신 하나님'의 히브리어는 '엘 엘룐'(אֵל עֶלְיוֹן)이다.",
+    "Gen.14.19": "'지으신'(קֹנֵה)은 '소유하신, 주인이신'으로도 옮길 수 있다. 창세기의 다른 용례는 대부분 '사다'이고, 신 32:6·시 139:13은 '짓다' 쪽이다. 칠십인역은 '창조한'(ἔκτισεν)으로 옮겼다.",
+    "Gen.14.20": "'아브람이'는 원문에 없는 보충이다. 히브리어는 '그가 그에게 주었다'고만 하며, 히 7:2·4가 아브라함을 주는 이로 해석한다. '넘겨주신'(מִגֵּן)은 15:1 '방패'(מָגֵן)와 소리가 비슷하다. '십분의 일'은 마아세르(מַעֲשֵׂר)다.",
+    "Gen.14.21": "'사람들'은 집합 단수 הַנֶּפֶשׁ, '재물'은 רְכוּשׁ(11·16절과 같은 낱말)다.",
+    "Gen.14.22": "'손을 들어'는 맹세 몸짓이다. 히브리어 완료형은 '(지금) 듭니다'와 '(이미) 들었습니다'로 모두 읽을 수 있다. 마소라 본문은 '야훼'를 포함하지만, 칠십인역 디지털 OCR과 다른 고대 전승의 일부 보고에는 이 신명이 없다(이 프로젝트에서 사본 대조는 하지 않았다)."
+  },
+  "editorial_consistency_findings": [
+    "신명: ko '야훼'·en/es 'YHWH'(4:1 채택문 관례)를 따랐다. 2:4 채택문 en 'Yahweh'·es 'Yahvé'와의 내부 불일치는 이전 검토들이 이미 지적했으며 편집 결정이 필요하다.",
+    "קנה: 4:1 채택문 '얻었다/acquired/adquirido'와 14:19·22 제안 '지으신/Maker/Hacedor'가 다른 역어다. 신 32:6, 시 139:13, 잠 8:22, 출 15:16, 시 78:54(모두 고정 WLC 확인)의 역어 정책을 함께 정해야 한다.",
+    "하늘과 땅: 창 1:1 채택문은 관사 있는 הַשָּׁמַיִם וְאֵת הָאָרֶץ를 'the heavens and the earth / los cielos y la tierra'로 옮긴다. 14:19·22는 관사 없는 שָׁמַיִם וָאָרֶץ라서 'heaven and earth / del cielo y de la tierra'로 옮겼다. 편집진이 메리즘을 한 형태로 통일할지 결정해야 한다.",
+    "עֶלְיוֹן: 신 32:8 채택문 '지극히 높으신 이/the Most High/el Altísimo'와 맞춰 '지극히 높으신 하나님/God Most High/el Dios Altísimo'을 썼다. 시 78:35 וְאֵל עֶלְיוֹן 등 시편 용례(고정 WLC에서 lemma 5945b 25회)와 같은 정책을 권한다.",
+    "인용부호: ko/en “ ”, es « », 아포스트로피 ’ 관례를 따랐다."
+  ],
+  "final_opinion_ko": "다섯 절 모두 고정 WLC 본문을 그대로 번역한다. 가장 중요한 판단은 세 가지다. (1) 14:19·22 קֹנֵה는 '지으신/Maker/Hacedor'를 본문으로 하되 '주인이신/Possessor'를 동등한 무게의 각주 대안으로 둔다. 이 단원에서 가장 불확실한 판단이다. (2) 14:20 십분의 일을 준 이는 원문에 명시되지 않으므로 세 언어 모두 '아브람'을 보충하고 보충임을 표시한다. (3) 14:22 יְהוָה는 MT-WLC에 따라 번역하고, 칠십인역 OCR의 부재와 보고된 사마리아 오경·1QapGen 독법은 '검증되지 않은 보고 이문'으로 분리해 각주한다. 멜기세덱·살렘·빵과 포도주에 대한 예표·지리 해석은 수용사로 각주에만 둔다.",
+  "confidence_limits": [
+    "קנה 판단은 고정 WLC 내부 용례와 칠십인역 OCR에 근거한다. 우가리트·페니키아 비교 자료와 BDB/HALOT 항목은 이 실행에서 직접 확인하지 못했다(biblehub 접속 거부).",
+    "14:22 칠십인역 증거는 손상된 제3자 OCR 한 줄이다. 괴팅겐 비평판 장치, 사마리아 오경, 사해문서(1QapGen), 페시타, 탈굼, 불가타는 확인하지 않았다.",
+    "14:20 주어 판단에서 '제사장이 전사에게 십일조를 주는 것은 어색하다'는 논거는 일반 지식이며 이 실행에서 고대 근동 자료로 검증하지 않았다.",
+    "한국어 존대 등급(멜기세덱 '네', 소돔 왕 '당신/하오', 아브람 '합니다')은 모델의 문체 판단이다.",
+    "같은 모델 계열(Claude)의 이전 초안과의 일치는 독립 확증이 아니다. GPT·Gemini 독립 검토가 필요하다."
+  ],
+  "reconsider_if": [
+    "편집진이 21-23절 재물 주제를 본문에서 드러내기로 하거나, 검증된 사전·비교 셈어 자료가 신명 칭호 קֹנֵה의 '소유' 의미를 지지하면 14:19·22를 '하늘과 땅의 주인이신/Possessor/Dueño'로 바꾼다.",
+    "프로젝트가 대명사 모호성 보존 정책(보충 주어 금지)을 정하면 14:20을 '그가 그에게/he gave him/le dio'로 되돌리고 각주를 유지한다.",
+    "괴팅겐 칠십인역 장치나 사마리아 오경·1QapGen의 실제 본문이 확인되면 14:22 각주를 '보고된 이문'에서 확인된 증거 진술로 바꾼다. 기준 본문 정책이 MT에서 바뀌지 않는 한 본문은 유지한다.",
+    "편집진이 '엘 엘룐'을 고유명사로 음역하는 정책을 정하면 14:18-22의 네 자리를 함께 바꾼다.",
+    "창 1:1 메리즘 역어(heavens/cielos 복수)를 전역 통일하기로 하면 14:19·22도 따른다.",
+    "한국어 독자 검토에서 '찬양받으시기를'이 19절 '복을 받기를'과의 말놀이를 지나치게 잃는다는 의견이 나오면 '송축받으시기를'을 검토한다."
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.14.19/22",
+      "issue": "קֹנֵה: maker vs possessor",
+      "status": "unresolved_lexical",
+      "needed_evidence": "verified lexicon entries (BDB/HALOT/DCH) and verified Northwest Semitic epigraphic parallels; editorial policy for קנה across Gen 4:1, Deut 32:6, Ps 139:13, Prov 8:22"
+    },
+    {
+      "id": "Gen.14.20",
+      "issue": "giver of the tenth (unexpressed subject) and scope of מִכֹּל relative to v23",
+      "status": "unresolved_syntactic_interpretive",
+      "needed_evidence": "editorial policy on supplied subjects; specialist review"
+    },
+    {
+      "id": "Gen.14.22",
+      "issue": "יְהוָה present in MT but absent in a damaged LXX OCR line; SP/1QapGen readings reported but not verified",
+      "status": "unresolved_textual",
+      "needed_evidence": "Göttingen LXX apparatus, SP edition, 1QapGen col. 22 text checked from accessible primary editions"
+    },
+    {
+      "id": "Gen.14.22",
+      "issue": "הֲרִימֹתִי performative vs past",
+      "status": "interpretive_choice_made_performative",
+      "needed_evidence": "specialist grammar review"
+    },
+    {
+      "id": "Gen.14.21",
+      "issue": "LXX ἵππος for רְכוּשׁ — whether it reflects a different reading of רכש",
+      "status": "reception_question_not_adopted",
+      "needed_evidence": "LXX translation-technique study; not needed for the MT-based rendering"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py into private/upstream_cache during claim preparation (2026-10-30T12:03:50Z)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (WLC public domain; OSHB morphology CC BY 4.0). Target verses and parallels Gen 4:1, 13:15, 14:11, 14:16, 14:17, 14:23, 15:1, 24:31, 25:10, 27:37, 33:19, 39:1, 47:19-23, 49:30, 50:13 read from it."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "what_it_is": "Pinned WLC/OSHB Deut; Deut 32:6, 32:40, 28:68 (קנה; oath gesture with נשא)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "what_it_is": "Pinned WLC/OSHB Ps; Ps 76:3 (Salem // Zion), 110:4 (מַלְכִּי־צֶדֶק two tokens with maqqef), 78:35, 78:54, 139:13; lemma 5945b occurrence list."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+      "what_it_is": "Pinned WLC/OSHB Prov; Prov 4:9 (Piel מגן), 8:22 (קנה)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+      "what_it_is": "Pinned WLC/OSHB Hos; Hos 11:8 (Piel מגן // נתן)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exod; Exod 6:8 (oath gesture נשא יד), 15:16 (קנה)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "what_it_is": "Pinned WLC/OSHB Judg; Judg 17:2 (בָּרוּךְ ... לַיהוָה)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ruth.xml",
+      "accessed_utc": "2026-10-30T12:06:02Z-12:06:24Z",
+      "file_sha256": "fb6a2660383c7176941cb87b2be182ef634b66d49d057635869f4d9cb1f0a11e",
+      "what_it_is": "Pinned WLC/OSHB Ruth; Ruth 2:20, 3:10 (בָּרוּךְ ... לַיהוָה); Ruth 4 קנה."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T12:06:03Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete Septuagint Genesis (First1KGreek); reception evidence only; rights of the OCR repository not assessed, only short excerpts quoted. Same file hash as used by earlier hard reviews."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/79-Heb-morphgnt.txt",
+      "accessed_utc": "2026-10-30T12:06:47Z",
+      "file_sha256": "de7d5c7efe4cdb5e9023c8571c322c3b1a5a817de1d97c3275aef5e154b2756b",
+      "what_it_is": "MorphGNT SBLGNT Hebrews token file (master branch, unpinned; hash recorded). Heb 7:1, 7:2, 7:4 joined text tokens."
+    },
+    {
+      "url": "https://biblehub.com/bdb/7069.htm",
+      "accessed_utc": "2026-10-30T12:07:12Z",
+      "file_sha256": null,
+      "what_it_is": "Attempted BDB lookup for קנה; refused by the environment network policy (CONNECT 403, connect_rejected). Not read; no BDB claim is made from this run."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "사본 대조나 비평 장치 확인을 수행했다고 주장하지 않는다.",
+    "GPT·Gemini·Antigravity·사람 검토 응답을 포함하지 않는다.",
+    "이 문서는 채택·인증·출판된 번역이 아니다.",
+    "남은 크레딧 잔액·차감액을 알지 못한다.",
+    "사마리아 오경·1QapGen·불가타·탈굼·우가리트/페니키아 비문 내용을 확인했다고 주장하지 않는다. 이들에 대한 언급은 보고·기억된 내용이며 미검증으로 표시했다.",
+    "BDB 항목을 이 실행에서 직접 읽었다고 주장하지 않는다."
+  ],
+  "source": {
+    "packet": "automation/hard-review-packets/20261030T120350Z-6a01ae68.json",
+    "packet_sha256": "da0c95052ceab1bdca54b1e6fdbc4f8fe6fc921e334511806ac0d62e4b18f652",
+    "verses": [
+      {
+        "id": "Gen.14.18",
+        "raw_xml": "<verse osisID=\"Gen.14.18\">\n          <w lemma=\"c/4442+\" morph=\"HC/Np\" id=\"01eBr\">וּ/מַלְכִּי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4442\" n=\"1.1.0\" morph=\"HNp\" id=\"01GCu\">צֶ֨דֶק֙</w>\n          <w lemma=\"4428\" morph=\"HNcmsc\" id=\"01rbd\">מֶ֣לֶךְ</w>\n          <w lemma=\"8004\" n=\"1.1\" morph=\"HNp\" id=\"01YG2\">שָׁלֵ֔ם</w>\n          <w lemma=\"3318\" n=\"1.0\" morph=\"HVhp3ms\" id=\"01kwy\">הוֹצִ֖יא</w>\n          <w lemma=\"3899\" morph=\"HNcbsa\" id=\"013qw\">לֶ֣חֶם</w>\n          <w lemma=\"c/3196\" n=\"1\" morph=\"HC/Ncmsa\" id=\"01iWa\">וָ/יָ֑יִן</w>\n          <w lemma=\"c/1931\" morph=\"HC/Pp3ms\" id=\"01cUQ\">וְ/ה֥וּא</w>\n          <w lemma=\"3548\" n=\"0.0\" morph=\"HNcmsa\" id=\"014xN\">כֹהֵ֖ן</w>\n          <w lemma=\"l/410\" morph=\"HR/Ncmsa\" id=\"01rXs\">לְ/אֵ֥ל</w>\n          <w lemma=\"5945 b\" n=\"0\" morph=\"HAamsa\" id=\"01M3R\">עֶלְיֽוֹן</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "96d771503facab9271c5c5a5224d3558eaaff84f7eedc8ffbdd51b1411c64c47",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.14.19",
+        "raw_xml": "<verse osisID=\"Gen.14.19\">\n          <w lemma=\"c/1288\" n=\"1.0\" morph=\"HC/Vpw3ms/Sp3ms\" id=\"01d8N\">וַֽ/יְבָרְכֵ֖/הוּ</w>\n          <w lemma=\"c/559\" n=\"1\" morph=\"HC/Vqw3ms\" id=\"01oTd\">וַ/יֹּאמַ֑ר</w>\n          <w lemma=\"1288\" morph=\"HVqsmsa\" id=\"01owL\">בָּר֤וּךְ</w>\n          <w lemma=\"87\" n=\"0.1.0\" morph=\"HNp\" id=\"01QQs\">אַבְרָם֙</w>\n          <w lemma=\"l/410\" morph=\"HR/Ncmsa\" id=\"012bu\">לְ/אֵ֣ל</w>\n          <w lemma=\"5945 b\" n=\"0.1\" morph=\"HAamsa\" id=\"01Cj3\">עֶלְי֔וֹן</w>\n          <w lemma=\"7069\" n=\"0.0\" morph=\"HVqrmsc\" id=\"01SKp\">קֹנֵ֖ה</w>\n          <w lemma=\"8064\" morph=\"HNcmpa\" id=\"01yJh\">שָׁמַ֥יִם</w>\n          <w lemma=\"c/776\" n=\"0\" morph=\"HC/Ncbsa\" id=\"01RYV\">וָ/אָֽרֶץ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "ae8930420bef41d8b7496ccd322f0b2d961deaf9336142fbafcad59974397271",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.14.20",
+        "raw_xml": "<verse osisID=\"Gen.14.20\">\n          <w lemma=\"c/1288\" n=\"1.1.0\" morph=\"HC/Vqsmsa\" id=\"01EW6\">וּ/בָרוּךְ֙</w>\n          <w lemma=\"410\" morph=\"HNcmsa\" id=\"01sNB\">אֵ֣ל</w>\n          <w lemma=\"5945 b\" n=\"1.1\" morph=\"HAamsa\" id=\"01mk1\">עֶלְי֔וֹן</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"01myk\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4042\" morph=\"HVpp3ms\" id=\"01mjE\">מִגֵּ֥ן</w>\n          <w lemma=\"6862 c\" n=\"1.0\" morph=\"HNcmpc/Sp2ms\" id=\"01QJA\">צָרֶ֖י/ךָ</w>\n          <w lemma=\"b/3027\" n=\"1\" morph=\"HR/Ncbsc/Sp2ms\" id=\"01CPB\">בְּ/יָדֶ֑/ךָ</w>\n          <w lemma=\"c/5414\" morph=\"HC/Vqw3ms\" id=\"01113\">וַ/יִּתֶּן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp3ms\" id=\"01wq8\">ל֥/וֹ</w>\n          <w lemma=\"4643\" n=\"0.0\" morph=\"HNcmsa\" id=\"01FGW\">מַעֲשֵׂ֖ר</w>\n          <w lemma=\"m/3605\" n=\"0\" morph=\"HR/Ncmsa\" id=\"01Ld7\">מִ/כֹּֽל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "e06ccd0f1dfdca60a025f4f0a6ba7bb16ab4220ed6245433a44abb19cd45e3d0",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.14.21",
+        "raw_xml": "<verse osisID=\"Gen.14.21\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01Xo3\">וַ/יֹּ֥אמֶר</w>\n          <w lemma=\"4428\" morph=\"HNcmsc\" id=\"01RHX\">מֶֽלֶךְ</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5467\" n=\"1.0\" morph=\"HNp\" id=\"01BCV\">סְדֹ֖ם</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01oTL\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"87\" n=\"1\" morph=\"HNp\" id=\"01DoL\">אַבְרָ֑ם</w>\n          <w lemma=\"5414\" morph=\"HVqv2ms\" id=\"014pE\">תֶּן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" morph=\"HR/Sp1cs\" id=\"01DFj\">לִ֣/י</w>\n          <w lemma=\"d/5315\" n=\"0.1\" morph=\"HTd/Ncbsa\" id=\"01rYe\">הַ/נֶּ֔פֶשׁ</w>\n          <w lemma=\"c/d/7399\" n=\"0.0\" morph=\"HC/Td/Ncmsa\" id=\"01b8e\">וְ/הָ/רְכֻ֖שׁ</w>\n          <w lemma=\"3947\" morph=\"HVqv2ms\" id=\"01jni\">קַֽח</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"0\" morph=\"HR/Sp2fs\" id=\"01Y7m\">לָֽ/ךְ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "4941adf6896b877ba8f12ee972bdb5397dfaa8353402c35a225ce52c70f6c283",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.14.22",
+        "raw_xml": "<verse osisID=\"Gen.14.22\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"01sPR\">וַ/יֹּ֥אמֶר</w>\n          <w lemma=\"87\" n=\"1.0\" morph=\"HNp\" id=\"015tD\">אַבְרָ֖ם</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01m39\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4428\" morph=\"HNcmsc\" id=\"01ZsB\">מֶ֣לֶךְ</w>\n          <w lemma=\"5467\" n=\"1\" morph=\"HNp\" id=\"01VXi\">סְדֹ֑ם</w>\n          <w lemma=\"7311 a\" morph=\"HVhp1cs\" id=\"01QxV\">הֲרִימֹ֨תִי</w>\n          <w lemma=\"3027\" morph=\"HNcbsc/Sp1cs\" id=\"01c9a\">יָדִ֤/י</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"01v9b\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3068\" n=\"0.1.0\" morph=\"HNp\" id=\"01Sw9\">יְהוָה֙</w>\n          <w lemma=\"410\" morph=\"HNcmsa\" id=\"01in2\">אֵ֣ל</w>\n          <w lemma=\"5945 b\" n=\"0.1\" morph=\"HAamsa\" id=\"01cdx\">עֶלְי֔וֹן</w>\n          <w lemma=\"7069\" n=\"0.0\" morph=\"HVqrmsc\" id=\"016gi\">קֹנֵ֖ה</w>\n          <w lemma=\"8064\" morph=\"HNcmpa\" id=\"019nq\">שָׁמַ֥יִם</w>\n          <w lemma=\"c/776\" n=\"0\" morph=\"HC/Ncbsa\" id=\"01tmJ\">וָ/אָֽרֶץ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "b408b8e4fdc144c02691d2c4d652d971ad1273c1ccc80e7866da1119a909a8e7",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ],
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected": []
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T120350Z-6a01ae68.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "independent_reading_per_verse": true,
+    "initial_proposals_per_verse": true,
+    "notes_per_verse": true,
+    "clause_coverage": {
+      "Gen.14.18": 3,
+      "Gen.14.19": 4,
+      "Gen.14.20": 3,
+      "Gen.14.21": 3,
+      "Gen.14.22": 4
+    },
+    "all_source_words_covered_by_clauses": true,
+    "uncovered_words": {},
+    "duplicate_word_assignments": {},
+    "hebrew_display_matches_raw_words": true,
+    "current_selected_in_packet": 0,
+    "current_selected_changed": false,
+    "quote_balance_across_unit": {
+      "ko": [
+        3,
+        2
+      ],
+      "en": [
+        3,
+        2
+      ],
+      "es": [
+        3,
+        2
+      ]
+    },
+    "quotes_as_expected_open_into_14_23": true,
+    "network_excerpts_verified_against_fetched_files": true,
+    "original_vs_interpretation_separated": "clause notes carry a category; LXX/NT are labelled reception; reported variants (SP, 1QapGen) and unverified comparative claims are labelled as such and kept out of preferred wording; supplied words listed per verse",
+    "authentic_attribution": "Only actual saved records are compared; no GPT/Gemini/human response is represented.",
+    "all_required_checks_pass": true
+  }
+}
