@@ -1,0 +1,1006 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261030T170705Z-d5f3fdf7",
+  "unit_id": "gen-19-23-26",
+  "verse_ids": [
+    "Gen.19.23",
+    "Gen.19.24",
+    "Gen.19.25",
+    "Gen.19.26"
+  ],
+  "unit_issue_ko": "야훼에게서/야훼가·유황불·뒤를 봄",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Gen.19.23-26 = 전통 장절 창세기 19:23-26(한국어·영어·스페인어 성경 공통). 확인한 칠십인역 OCR(스웨테판)도 1.19.23-1.19.26이다. 이 범위에서 장절 차이는 없다. 다만 비교에 인용한 Deut.29.22(OSIS·히브리어 장절)는 고정 WLC 파일의 note가 KJV:Deut.29.23으로 표시하듯 영어 전통 장절로는 신명기 29:23이다. 히브리어 문단 구분(페투하/세투마)은 패킷 마크업에 없어 확인하지 않았다.",
+  "hebrew_quotation_policy": "Verbatim source Hebrew appears only in source.verses[].raw_xml (copied byte-for-byte from the claim packet). Clause hebrew_display strings and WLC parallel excerpts are derived by the build script from pinned OSHB XML (slashes removed, maqqef joined, segs omitted); they are not the verbatim source. The derived display of Deut.29.22 contains both the unpointed Ketiv word and the pointed Qere word as two tokens, exactly as the pinned file lists them; this record does not resolve or flatten that Ketiv/Qere pair.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; no Routine or Project)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-30T17:06:50Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The session system prompt also names claude-opus-5-5. The model serving any individual turn is not independently verifiable from inside the session; self-report is not source evidence.",
+    "session": "https://claude.ai/code/session_01UknqVKJwpco8LAZm4ybbQ4",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false at about 2026-10-30T17:06:50Z. This is session metadata only; it is not a credit balance, deduction amount or billing proof.",
+    "not_exposed": [
+      "exact model snapshot behind the alias",
+      "token counts",
+      "cost or credit deduction for this run",
+      "remaining promotional bonus balance"
+    ],
+    "identity_rechecked": "2026-10-30T17:16:46Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Gen.19.23",
+      "clauses": [
+        {
+          "word_ids": [
+            "01H4B",
+            "01yhE",
+            "01TCJ",
+            "01HLL"
+          ],
+          "gloss_ko": "해가 땅 위로 나왔다(떠올랐다)",
+          "category": "syntactic/discourse",
+          "note_ko": "주어 선행 + 완료형(X-qatal). 서사 연쇄(와익톨)가 아니라 배경절이다. יָצָא + 해 = ‘떠오르다’. 19:15의 ‘새벽(שַׁחַר)이 올라올 때’에서 시간이 진행되었음을 표시한다. 아트나흐가 הָאָרֶץ에 있어 두 절을 나눈다.",
+          "hebrew_display": "הַשֶּׁ֖מֶשׁ יָצָ֣א עַל הָאָ֑רֶץ",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01VMR",
+            "01nHt",
+            "01uVh"
+          ],
+          "gloss_ko": "그리고 롯은 소알로 들어왔다(이르렀다)",
+          "category": "syntactic/discourse",
+          "note_ko": "와우 + 주어 + 완료형(waw-X-qatal). 앞 절과 같은 형식으로 나란히 놓여 동시성을 나타낸다(창 44:3-4 ‘아침이 밝자 사람들이 보내졌다’와 같은 구조). 방향의 ה(צֹעֲרָה). 어느 절을 주절로 삼을지는 원문이 정하지 않는다.",
+          "hebrew_display": "וְל֖וֹט בָּ֥א צֹֽעֲרָה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    },
+    {
+      "id": "Gen.19.24",
+      "clauses": [
+        {
+          "word_ids": [
+            "01j46",
+            "01tWx"
+          ],
+          "gloss_ko": "그리고 야훼는 비 오듯 내리셨다",
+          "category": "syntactic/discourse",
+          "note_ko": "역시 와우 + 주어 + 완료형이다(와익톨 아님). 23절의 두 배경절과 같은 층위에서 ‘바로 그때 야훼는’이라는 대조·동시 묘사가 된다. 서사 연쇄는 25절 וַיַּהֲפֹךְ에서 다시 시작된다. 사역형 הִמְטִיר는 타동사 ‘비처럼 쏟다’.",
+          "hebrew_display": "וַֽיהוָ֗ה הִמְטִ֧יר",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "013VF",
+            "01a9R",
+            "01BUv",
+            "016Ay"
+          ],
+          "gloss_ko": "소돔 위에, 그리고 고모라 위에",
+          "category": "lexical",
+          "note_ko": "전치사 עַל이 두 번 반복된다. 한국어에서는 ‘소돔과 고모라 위에’로 합쳐도 의미 손실은 작다.",
+          "hebrew_display": "עַל סְדֹ֛ם וְעַל עֲמֹרָ֖ה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01buH",
+            "01s74"
+          ],
+          "gloss_ko": "유황과 불",
+          "category": "lexical",
+          "note_ko": "두 명사의 등위. ‘타는 유황’식 이사일의(hendiadys)로 합치는 것은 해석이며 원문은 두 낱말을 그대로 둔다. 신 29:22(영어 29:23)의 ‘유황과 소금’과 연결된다.",
+          "hebrew_display": "גָּפְרִ֣ית וָאֵ֑שׁ",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01Qem",
+            "01okp"
+          ],
+          "gloss_ko": "야훼에게서(야훼께로부터)",
+          "category": "lexical/syntactic/reception",
+          "note_ko": "주어 야훼가 다시 이름으로 반복된다. 히브리어에서 화자·행위자가 대명사 대신 자기 이름을 쓰는 표현은 고정 WLC 안에서도 확인된다(창 4:23 라멕의 ‘라멕의 아내들아’, 창 9:16 하나님의 말 속 ‘하나님과… 사이’, 호 1:7 야훼의 말 속 ‘야훼 그들의 하나님으로 구원하겠다’). 따라서 이 반복은 문법적으로 두 행위자를 요구하지 않는다. 그러나 반복 자체를 지우거나 ‘자기에게서’로 줄이면 원문의 표현과 수용사 논점이 사라지므로 그대로 보존해야 한다.",
+          "hebrew_display": "מֵאֵ֥ת יְהוָ֖ה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "015Q5",
+            "01qJK"
+          ],
+          "gloss_ko": "하늘로부터",
+          "category": "lexical",
+          "note_ko": "출처를 한 번 더 구체화한다. 악센트상 מֵאֵת יְהוָה מִן־הַשָּׁמָיִם은 아트나흐 뒤 후반절에 함께 묶여 있다. 두 전치사구는 같은 출처를 두 번 말하는 병렬로 읽는 것이 가장 자연스럽다.",
+          "hebrew_display": "מִן הַשָּׁמָֽיִם",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    },
+    {
+      "id": "Gen.19.25",
+      "clauses": [
+        {
+          "word_ids": [
+            "01QZB"
+          ],
+          "gloss_ko": "그리고 그가 뒤엎었다",
+          "category": "lexical/discourse",
+          "note_ko": "와익톨로 서사 연쇄 재개. 주어는 24절의 야훼. הָפַךְ는 소돔 멸망에 쓰이는 고정 어휘(19:21 הָפְכִּי, 19:29 הַהֲפֵכָה/בַּהֲפֹךְ, 신 29:22 מַהְפֵּכַת סְדֹם). 19:13·14·29의 שׁחת(멸하다), 19:15·17의 סָפָה(쓸려 없어지다)와 구별되는 어휘이므로 세 언어 모두 별도 동사를 써야 한다.",
+          "hebrew_display": "וַֽיַּהֲפֹךְ֙",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01Br9",
+            "01CaP",
+            "012Jq"
+          ],
+          "gloss_ko": "이 성읍들을",
+          "category": "lexical",
+          "note_ko": "הָאֵל은 하나님(אֵל)이 아니라 오경에 나타나는 고어형 지시사 ‘이(것들)’이다(OSHB 형태 HTd/Pdxcp; 고정 WLC에서 창 19:8, 26:3-4, 신 4:42, 7:22, 19:11에 같은 형태). 이것을 신명(神名)으로 읽어서는 안 된다.",
+          "hebrew_display": "אֶת הֶעָרִ֣ים הָאֵ֔ל",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01UQf",
+            "01koC",
+            "01xyV"
+          ],
+          "gloss_ko": "그리고 온 평지(키카르)를",
+          "category": "lexical/historical",
+          "note_ko": "הַכִּכָּר는 13:10-12의 ‘요단의 둥근 들(כִּכַּר הַיַּרְדֵּן)’ 지역이다. 지명처럼 쓰이는 정관사 명사.",
+          "hebrew_display": "וְאֵ֖ת כָּל הַכִּכָּ֑ר",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01Leq",
+            "01RrD",
+            "01Kv1",
+            "01S8w"
+          ],
+          "gloss_ko": "그리고 그 성읍들에 사는 모든 이를",
+          "category": "lexical",
+          "note_ko": "분사 연계형 יֹשְׁבֵי ‘거주하는 자들’.",
+          "hebrew_display": "וְאֵת֙ כָּל יֹשְׁבֵ֣י הֶעָרִ֔ים",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01hEe",
+            "01PTn"
+          ],
+          "gloss_ko": "그리고 땅(אֲדָמָה)에서 돋아난 것을",
+          "category": "lexical",
+          "note_ko": "צֶמַח ‘싹/돋아난 것’, 식물 전체. 23절은 אֶרֶץ, 여기는 אֲדָמָה(경작지·흙)로 다르다. 한 동사 ‘뒤엎다’가 성읍·평지·주민·식물 네 목적어를 모두 지배하는 액어법이다.",
+          "hebrew_display": "וְצֶ֖מַח הָאֲדָמָֽה",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    },
+    {
+      "id": "Gen.19.26",
+      "clauses": [
+        {
+          "word_ids": [
+            "01T7k",
+            "01vKW"
+          ],
+          "gloss_ko": "그리고 그의(롯의) 아내가 바라보았다",
+          "category": "lexical/discourse",
+          "note_ko": "הִבִּיט ‘바라보다, 눈여겨보다’. 19:17 금지 אַל־תַּבִּיט אַחֲרֶיךָ와 같은 동사. ‘그의’는 문맥상 롯. 25절 주어가 야훼이므로 번역에서는 ‘롯의’를 보충해야 지시 혼동이 없다. 와익톨이지만 사건은 도주 중(23절 소알 도착 이전)일 수 있어 엄격한 시간 순서를 뜻하지 않는다.",
+          "hebrew_display": "וַתַּבֵּ֥ט אִשְׁתּ֖וֹ",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01quk"
+          ],
+          "gloss_ko": "그의 뒤에서(롯 뒤에 있으면서)",
+          "category": "lexical/syntactic",
+          "note_ko": "19:17은 전치사 없이 אַחֲרֶיךָ(네 뒤를)인데 여기는 מִן이 붙은 מֵאַחֲרָיו이다. 3인칭 남성 접미사는 여성 주어 자신일 수 없으므로 롯(또는 다른 남성)이다. 고정 WLC에서 מֵאַחֲרֵי는 위치 ‘~의 뒤에’(출 14:19, 가다·서다)와 이탈 ‘~를 따르던 데서 떠나’(신 7:4, 호 1:2, 돌이키다·음행하다)로 쓰인다. 바라보다와 결합한 다른 예는 확인한 범위(창·출·신·호)에 없다. 나의 첫 판단: 위치(그녀가 롯 뒤에 있었다).",
+          "hebrew_display": "מֵאַחֲרָ֑יו",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        },
+        {
+          "word_ids": [
+            "01Qsp",
+            "01q5z",
+            "01rTe"
+          ],
+          "gloss_ko": "그리고 그녀는 소금 기둥이 되었다",
+          "category": "lexical/reception",
+          "note_ko": "נְצִיב ‘세워진 것, 기둥’(창세기 안 유일 용례). 신 29:22의 ‘유황과 소금’과 같은 장면 어휘. 이후 유대·기독교 문헌의 롯의 아내 전승은 수용사이며 원문 의미와 구별한다.",
+          "hebrew_display": "וַתְּהִ֖י נְצִ֥יב מֶֽלַח",
+          "hebrew_display_form": "derived from OSHB word ids: slashes removed, accents kept, maqqef and sof pasuq segs omitted (see raw_xml); not the verbatim source"
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Gen.19.23",
+      "ko": "해가 땅 위로 떠올랐고, 롯은 소알에 이르렀다.",
+      "en": "The sun had risen over the land, and Lot had come into Zoar.",
+      "es": "El sol había salido sobre la tierra, y Lot había llegado a Zoar."
+    },
+    {
+      "id": "Gen.19.24",
+      "ko": "야훼께서는 소돔과 고모라 위에 유황과 불을 야훼께로부터 하늘에서 비처럼 내리셨다.",
+      "en": "And Yahweh rained sulfur and fire on Sodom and on Gomorrah from Yahweh, out of the heavens.",
+      "es": "Y Yahvé hizo llover sobre Sodoma y sobre Gomorra azufre y fuego de parte de Yahvé, desde los cielos."
+    },
+    {
+      "id": "Gen.19.25",
+      "ko": "그리고 이 성읍들과 온 평지와, 그 성읍들에 사는 모든 사람과 땅에서 돋아난 것을 뒤엎으셨다.",
+      "en": "He overthrew these cities and all the plain, and all who lived in the cities, and what grew from the ground.",
+      "es": "Arrasó estas ciudades y toda la llanura, a todos los habitantes de las ciudades y lo que brotaba del suelo."
+    },
+    {
+      "id": "Gen.19.26",
+      "ko": "그러나 롯의 아내는 그의 뒤에서 돌아보았고, 소금 기둥이 되었다.",
+      "en": "But Lot's wife, behind him, looked back, and she became a pillar of salt.",
+      "es": "Pero la mujer de Lot, detrás de él, miró hacia atrás y se convirtió en una columna de sal."
+    }
+  ],
+  "initial_proposals_note": "The interpretive decisions (clause syntax, divine-name repetition, ha-el demonstrative, hafakh, me-acharav as position) were recorded in a scratch note timestamped 2026-10-30T17:08:41Z before opening the existing Sonnet draft. The full ko/en/es sentences below were composed afterwards, so the wording is not strictly blind to that draft. Unchanged in preferred_wording except where changes_from_initial_proposal_ko says so.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json (selection_version 0.4.13) has no Gen.19 verses; packet current_selected is []. Nothing selected was changed or reviewed as published text. Selected house conventions consulted: divine name 야훼/Yahweh/Yahvé (Gen.2.4), city 성읍/city/ciudad (Gen.4.17)."
+    },
+    {
+      "kind": "saved_gpt_gemini_or_other_model_reviews",
+      "result": "none found",
+      "note": "git grep for Gen.19.23-26 over the working tree and all fetched origin/claude/* refs found only queue files and the one Sonnet cloud draft below. data/model-reviews/ and data/decisions.json contain no Gen.19 entries. No GPT, Gemini or Antigravity record for this unit exists to compare; none is invented."
+    },
+    {
+      "kind": "cloud_draft",
+      "branch": "origin/claude/friendly-heisenberg-wz4q0x",
+      "path": "automation/cloud-drafts/20261024T211812Z-c3f3d68c.json",
+      "model_label_as_saved": "Claude Sonnet 5.5 (claude-sonnet-5-5), as reported by the session system prompt",
+      "state_as_saved": "unadopted_model_draft",
+      "translations_verbatim": {
+        "Gen.19.23": {
+          "ko": "해가 땅 위에 떠올랐을 때 롯은 소알에 들어갔다.",
+          "en": "The sun had risen over the earth when Lot came to Zoar.",
+          "es": "El sol había salido sobre la tierra cuando Lot llegó a Zoar."
+        },
+        "Gen.19.24": {
+          "ko": "여호와께서 소돔과 고모라 위에 유황과 불을 비처럼 내리셨다. 여호와께로부터, 하늘에서.",
+          "en": "Then YHWH rained on Sodom and on Gomorrah sulfur and fire from YHWH out of the heavens.",
+          "es": "Entonces YHWH hizo llover sobre Sodoma y sobre Gomorra azufre y fuego, de parte de YHWH desde los cielos."
+        },
+        "Gen.19.25": {
+          "ko": "그가 이 성들과 온 들판과 그 성들의 모든 주민과 땅에 돋은 것을 뒤엎으셨다.",
+          "en": "And he overthrew those cities, and all the plain, and all the inhabitants of the cities, and what grew on the ground.",
+          "es": "Y destruyó aquellas ciudades, y toda la llanura, y a todos los habitantes de las ciudades, y lo que crecía en la tierra."
+        },
+        "Gen.19.26": {
+          "ko": "그의 아내가 그의 뒤에서 돌아보았고, 소금 기둥이 되었다.",
+          "en": "But his wife looked back from behind him, and she became a pillar of salt.",
+          "es": "Pero la mujer de él miró hacia atrás, desde detrás de él, y se convirtió en una columna de sal."
+        }
+      },
+      "note": "A different Claude model (Sonnet label) in an earlier native cloud session. It is not GPT or Gemini and not an independent review of this record. Its own reason/counterargument fields were also read.",
+      "branch_commit": "29fd3916e4cb7a0cf3f740fbe035950d75250b88"
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Gen.19.24",
+      "severity": "medium",
+      "finding_ko": "Sonnet 초안 한국어는 ‘여호와께로부터, 하늘에서.’를 동사 없는 별도 조각문으로 떼어 놓았다. 반복을 보존하려는 의도는 옳지만 한국어 문장으로 성립하지 않고, 마치 덧붙인 주석처럼 읽혀 원문의 한 문장 구조(악센트상 후반절)를 깨뜨린다. 또 여호와/YHWH 표기는 채택문 관례(야훼/Yahweh/Yahvé, Gen.2.4)와 다르다."
+    },
+    {
+      "id": "Gen.19.24",
+      "severity": "low",
+      "finding_ko": "Sonnet 영어·스페인어의 ‘Then/Entonces’는 순차를 함의한다. 원문은 와익톨이 아니라 와우+주어+완료형으로 23절과 동시적 묘사이므로 ‘And/Y’ 또는 접속사 없음이 더 가깝다. 중대한 오류는 아니다."
+    },
+    {
+      "id": "Gen.19.25",
+      "severity": "medium",
+      "finding_ko": "Sonnet 스페인어 ‘destruyó’는 자기 근거(‘הפך를 뒤엎다로 일관되게’)와 어긋나며, 같은 장 19:13·14·29의 שׁחת(destruir)와 어휘가 겹친다. 19:29에는 שׁחת와 הפך가 한 절에 함께 나오므로 스페인어에서 두 동사가 같아지면 원문의 구별이 사라진다."
+    },
+    {
+      "id": "Gen.19.25",
+      "severity": "low",
+      "finding_ko": "지시사 הָאֵל(이)을 Sonnet은 한국어 ‘이’, 영어 ‘those’, 스페인어 ‘aquellas’로 세 언어가 서로 다르게 옮겼다. 또 ‘그가 … 뒤엎으셨다’는 주어 높임과 동사 높임이 어긋난다. ‘성’은 채택문 관례 ‘성읍’(Gen.4.17)과 다르다."
+    },
+    {
+      "id": "Gen.19.26",
+      "severity": "medium",
+      "finding_ko": "Sonnet 한국어 ‘그의 아내가 그의 뒤에서’는 바로 앞 25절 주어가 야훼이므로 ‘그의’가 하나님을 가리키는 것처럼 읽힐 수 있고, 두 번째 ‘그의’는 아내 자신(‘자기 뒤’)으로도 읽힌다. 스페인어 ‘la mujer de él … hacia atrás, desde detrás de él’은 어색하고 ‘뒤’가 두 번 겹친다. Sonnet은 반론으로 ‘대명사를 천사로 보는 견해’를 들었으나 출처를 제시하지 않았다. 19:16-17에서 천사들은 롯 일행을 성 밖에 두고 말하므로 문법상 불가능하지는 않지만, 이 실행에서 그 견해의 출처를 확인하지 못했다."
+    },
+    {
+      "id": "Gen.19.23",
+      "severity": "low",
+      "finding_ko": "의미는 일치한다. 차이는 종속 구조다. Sonnet은 롯 절을 주절로(한국어) 또는 해 절을 주절로(영어·스페인어) 삼아 언어마다 주절이 다르다. 원문은 두 독립절의 병렬이므로 나는 세 언어 모두 등위 구조를 택했다."
+    },
+    {
+      "id": "Gen.19.25",
+      "severity": "info",
+      "finding_ko": "Sonnet 근거에서 ‘19:21 뒤엎지 않겠다’와의 어휘 연결 주장은 고정 WLC 19:21 לְבִלְתִּי הָפְכִּי로 확인되었다(정확함)."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "Gen.19.25 스페인어만 바꿨다: 초안 ‘Arrasó’ → ‘Derribó’. 비교 중에 이전 클라우드 검토(gen-18-20-23, 다른 실행)가 18:23 סָפָה를 스페인어 ‘arrasar’로 제안했고 19:15·17에도 같은 סָפָה가 나온다는 점을 확인했다. ‘arrasar’를 הפך에도 쓰면 סָפָה와 הפך가 스페인어에서 겹친다. ‘derribar’는 ‘(정권을) 전복하다’에도 쓰여 overthrow와 대응하고 destruir(שׁחת)·arrasar(סָפָה)와 구별된다. 다른 문장은 비교 뒤에도 바꾸지 않았다.",
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). LXX lines come from a third-party raw OCR of Swete (First1KGreek) at a pinned commit, used by an earlier run as well; OCR errors are visible (e.g. a stray D in 1.19.26, κοὶ in 1.19.25) and the file is not a critical edition. LXX readings are translation evidence, not proof of a Hebrew variant. Rabbinic, Targum, patristic and Josephus claims could not be checked in this session (see network_access_log) and are listed only under unverified_reception.",
+    "excerpts": [
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.19.15",
+        "key_consonants": "וכמו השחר עלה",
+        "observation_ko": "새벽(שַׁחַר)이 올라올 때 천사들이 재촉함 → 23절에서 해가 떠오름: 시간 경과 표지.",
+        "excerpt": "וּכְמוֹ֙ הַשַּׁ֣חַר עָלָ֔ה וַיָּאִ֥יצוּ הַמַּלְאָכִ֖ים בְּל֣וֹט לֵאמֹ֑ר קוּם֩ קַ֨ח אֶֽת־אִשְׁתְּךָ֜ וְאֶת־שְׁתֵּ֤י בְנֹתֶ֨יךָ֙ הַנִּמְצָאֹ֔ת פֶּן־תִּסָּפֶ֖ה בַּעֲוֺ֥ן הָעִֽיר",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.19.17",
+        "key_consonants": "אל־תביט אחריך",
+        "observation_ko": "같은 동사 נבט, 전치사 מן 없는 אַחֲרֶיךָ(네 뒤를). 26절 מֵאַחֲרָיו와 형태 차이.",
+        "excerpt": "וַיְהִי֩ כְהוֹצִיאָ֨ם אֹתָ֜ם הַח֗וּצָה וַיֹּ֨אמֶר֙ הִמָּלֵ֣ט עַל־נַפְשֶׁ֔ךָ אַל־תַּבִּ֣יט אַחֲרֶ֔יךָ וְאַֽל־תַּעֲמֹ֖ד בְּכָל־הַכִּכָּ֑ר הָהָ֥רָה הִמָּלֵ֖ט פֶּן־תִּסָּפֶֽה",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.19.21",
+        "key_consonants": "לבלתי הפכי את־העיר",
+        "observation_ko": "הפך 어휘 연결(소알은 뒤엎지 않음).",
+        "excerpt": "וַיֹּ֣אמֶר אֵלָ֔יו הִנֵּה֙ נָשָׂ֣אתִי פָנֶ֔יךָ גַּ֖ם לַדָּבָ֣ר הַזֶּ֑ה לְבִלְתִּ֛י הָפְכִּ֥י אֶת־הָעִ֖יר אֲשֶׁ֥ר דִּבַּֽרְתָּ",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.19.29",
+        "key_consonants": "בהפך את־הערים אשר־ישב בהן לוט",
+        "observation_ko": "שׁחת와 הפך가 한 절에 함께 나옴 → 번역 어휘 구별 필요. ‘롯이 살던 성읍들’ 구는 칠십인역 19:25의 플러스와 같다.",
+        "excerpt": "וַיְהִ֗י בְּשַׁחֵ֤ת אֱלֹהִים֙ אֶת־עָרֵ֣י הַכִּכָּ֔ר וַיִּזְכֹּ֥ר אֱלֹהִ֖ים אֶת־אַבְרָהָ֑ם וַיְשַׁלַּ֤ח אֶת־לוֹט֙ מִתּ֣וֹךְ הַהֲפֵכָ֔ה בַּהֲפֹךְ֙ אֶת־הֶ֣עָרִ֔ים אֲשֶׁר־יָשַׁ֥ב בָּהֵ֖ן לֽוֹט",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.13.10",
+        "key_consonants": "כל־ככר הירדן",
+        "observation_ko": "הַכִּכָּר = 요단 둥근 들.",
+        "excerpt": "וַיִּשָּׂא־ל֣וֹט אֶת־עֵינָ֗יו וַיַּרְא֙ אֶת־כָּל־כִּכַּ֣ר הַיַּרְדֵּ֔ן כִּ֥י כֻלָּ֖הּ מַשְׁקֶ֑ה לִפְנֵ֣י שַׁחֵ֣ת יְהוָ֗ה אֶת־סְדֹם֙ וְאֶת־עֲמֹרָ֔ה כְּגַן־יְהוָה֙ כְּאֶ֣רֶץ מִצְרַ֔יִם בֹּאֲכָ֖ה צֹֽעַר",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.19.28",
+        "key_consonants": "קיטר הכבשן",
+        "observation_ko": "멸망 후 장면(아브라함 시점). 25절 범위와 같은 평지 땅.",
+        "excerpt": "וַיַּשְׁקֵ֗ף עַל־פְּנֵ֤י סְדֹם֙ וַעֲמֹרָ֔ה וְעַֽל־כָּל־פְּנֵ֖י אֶ֣רֶץ הַכִּכָּ֑ר וַיַּ֗רְא וְהִנֵּ֤ה עָלָה֙ קִיטֹ֣ר הָאָ֔רֶץ כְּקִיטֹ֖ר הַכִּבְשָֽׁן",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.44.3",
+        "key_consonants": "הבקר אור והאנשים שלחו",
+        "observation_ko": "X-qatal + waw-X-qatal 병렬이 동시적 배경을 나타내는 예. 23절 구문의 유비.",
+        "excerpt": "הַבֹּ֖קֶר א֑וֹר וְהָאֲנָשִׁ֣ים שֻׁלְּח֔וּ הֵ֖מָּה וַחֲמֹרֵיהֶֽם",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.4.23",
+        "key_consonants": "נשי למך",
+        "observation_ko": "화자가 자기 이름을 3인칭으로 쓰는 예.",
+        "excerpt": "וַיֹּ֨אמֶר לֶ֜מֶךְ לְנָשָׁ֗יו עָדָ֤ה וְצִלָּה֙ שְׁמַ֣עַן קוֹלִ֔י נְשֵׁ֣י לֶ֔מֶךְ הַאְזֵ֖נָּה אִמְרָתִ֑י כִּ֣י אִ֤ישׁ הָרַ֨גְתִּי֙ לְפִצְעִ֔י וְיֶ֖לֶד לְחַבֻּרָתִֽי",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Gen.9.16",
+        "key_consonants": "בין אלהים",
+        "observation_ko": "하나님의 말 속에서 ‘하나님’을 3인칭으로 씀(9:12, 9:17 도입문 확인 범위 안에서).",
+        "excerpt": "וְהָיְתָ֥ה הַקֶּ֖שֶׁת בֶּֽעָנָ֑ן וּרְאִיתִ֗יהָ לִזְכֹּר֙ בְּרִ֣ית עוֹלָ֔ם בֵּ֣ין אֱלֹהִ֔ים וּבֵין֙ כָּל־נֶ֣פֶשׁ חַיָּ֔ה בְּכָל־בָּשָׂ֖ר אֲשֶׁ֥ר עַל־הָאָֽרֶץ",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Hos.1.7",
+        "key_consonants": "והושעתים ביהוה אלהיהם",
+        "observation_ko": "야훼의 1인칭 말 속에서 ‘야훼’로 자기를 3인칭 지칭. 24절 반복이 두 행위자를 요구하지 않는다는 문법 유비.",
+        "excerpt": "וְאֶת־בֵּ֤ית יְהוּדָה֙ אֲרַחֵ֔ם וְהֽוֹשַׁעְתִּ֖ים בַּיהוָ֣ה אֱלֹֽהֵיהֶ֑ם וְלֹ֣א אֽוֹשִׁיעֵ֗ם בְּקֶ֤שֶׁת וּבְחֶ֨רֶב֙ וּבְמִלְחָמָ֔ה בְּסוּסִ֖ים וּבְפָרָשִֽׁים",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Exod.14.19",
+        "key_consonants": "וילך מאחריהם",
+        "observation_ko": "מֵאַחֲרֵי + 대명접미사 = 위치 ‘그들 뒤로/뒤에’(가다, 서다).",
+        "excerpt": "וַיִּסַּ֞ע מַלְאַ֣ךְ הָאֱלֹהִ֗ים הַהֹלֵךְ֙ לִפְנֵי֙ מַחֲנֵ֣ה יִשְׂרָאֵ֔ל וַיֵּ֖לֶךְ מֵאַחֲרֵיהֶ֑ם וַיִּסַּ֞ע עַמּ֤וּד הֶֽעָנָן֙ מִפְּנֵיהֶ֔ם וַיַּֽעֲמֹ֖ד מֵאַחֲרֵיהֶֽם",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Deut.7.4",
+        "key_consonants": "יסיר את־בנך מאחרי",
+        "observation_ko": "מֵאַחֲרַי = ‘나를 따르던 데서(떠나)’ 이탈 의미.",
+        "excerpt": "כִּֽי־יָסִ֤יר אֶת־בִּנְךָ֙ מֵֽאַחֲרַ֔י וְעָבְד֖וּ אֱלֹהִ֣ים אֲחֵרִ֑ים וְחָרָ֤ה אַף־יְהוָה֙ בָּכֶ֔ם וְהִשְׁמִידְךָ֖ מַהֵֽר",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Hos.1.2",
+        "key_consonants": "מאחרי יהוה",
+        "observation_ko": "מֵאַחֲרֵי יְהוָה = ‘야훼를 따르던 데서(떠나)’.",
+        "excerpt": "תְּחִלַּ֥ת דִּבֶּר־יְהוָ֖ה בְּהוֹשֵׁ֑עַ וַיֹּ֨אמֶר יְהוָ֜ה אֶל־הוֹשֵׁ֗עַ לֵ֣ךְ קַח־לְךָ֞ אֵ֤שֶׁת זְנוּנִים֙ וְיַלְדֵ֣י זְנוּנִ֔ים כִּֽי־זָנֹ֤ה תִזְנֶה֙ הָאָ֔רֶץ מֵֽאַחֲרֵ֖י יְהוָֽה",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "wlc_parallel",
+        "ref": "Deut.29.22",
+        "key_consonants": "גפרית ומלח",
+        "observation_ko": "‘유황과 소금’ + ‘소돔과 고모라… 의 뒤엎음(מַהְפֵּכַת)’ + ‘야훼께서 뒤엎으신’. 24·25·26절 어휘(유황, 뒤엎다, 소금)가 한 절에 모임. 영어 전통 장절 29:23. 이 절에는 Ketiv/Qere 쌍이 있어 파생 표시에 두 낱말이 모두 남아 있다.",
+        "excerpt": "גָּפְרִ֣ית וָמֶלַח֮ שְׂרֵפָ֣ה כָל־אַרְצָהּ֒ לֹ֤א תִזָּרַע֙ וְלֹ֣א תַצְמִ֔חַ וְלֹֽא־יַעֲלֶ֥ה בָ֖הּ כָּל־עֵ֑שֶׂב כְּֽמַהְפֵּכַ֞ת סְדֹ֤ם וַעֲמֹרָה֙ אַדְמָ֣ה וצביים וּצְבוֹיִ֔ם אֲשֶׁר֙ הָפַ֣ךְ יְהוָ֔ה בְּאַפּ֖וֹ וּבַחֲמָתֽוֹ",
+        "excerpt_form": "derived display of whole pinned WLC verse (slashes removed, maqqef joined, segs omitted)",
+        "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.19.23",
+        "key_phrase": "ἐξῆλθεν ἐπὶ τὴν γῆν",
+        "observation_ko": "두 절 병렬을 그대로 반영. 스웨테 구두점은 쉼표로 24절과 이어지나 이것은 현대 편집자의 구두점이다.",
+        "excerpt": "ὁ ἥλιος ἐξῆλθεν ἐπὶ τὴν γῆν, καὶ Λὼτ εἰσῆλθεν εἰς Σήγωρ,",
+        "excerpt_form": "whole OCR line copied verbatim, including OCR artifacts",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.19.24",
+        "key_phrase": "ἐκ τοῦ οὐρανοῦ",
+        "observation_ko": "παρὰ κυρίου로 두 번째 신명을 그대로 유지(OCR 줄 확인). 이 범위에서 반복을 생략한 증거는 확인되지 않았다.",
+        "excerpt": "καὶ κύριος ἔβρεξεν ἐπὶ Σόδομα καὶ Γόμορρα θεῖον καὶ πῦρ παρὰ κυρίου ἐκ τοῦ οὐρανοῦ,",
+        "excerpt_form": "whole OCR line copied verbatim, including OCR artifacts",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.19.25",
+        "key_phrase": "Λὼτ",
+        "observation_ko": "‘롯이 살던(ἐν αἷς κατῴκει ἐν αὐταῖς Λώτ)’ 플러스가 있다. MT 19:29 אֲשֶׁר־יָשַׁב בָּהֵן לוֹט와 같은 내용이어서 동화(assimilation)일 가능성이 있으나 대본 차이일 가능성도 배제할 수 없다. ‘κοὶ περίοικον’은 OCR 손상이어서 ‘온(πᾶσαν)’ 유무를 이 파일로 판정할 수 없다. 고정 WLC 본문을 바꿀 근거는 아니다.",
+        "excerpt": "καὶ κατέστρεψεν τὰς πόλεις ταύτας ἐν αἷς κατῴκει ἐν αὐταῖς Λὼτ κοὶ περίοικον καὶ πάντας τοὺς κατοικοῦντας ἐν ταῖς πόλεσιν καὶτὰ ἀνατέλλοντα ἐκ τῆς γῆς.",
+        "excerpt_form": "whole OCR line copied verbatim, including OCR artifacts",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "lxx_ocr",
+        "ref": "1.19.26",
+        "key_phrase": "ὀπίσω",
+        "observation_ko": "εἰς τὰ ὀπίσω ‘뒤쪽을’: 방향으로 이해했고 מֵאַחֲרָיו의 접미사(그의)는 옮기지 않았다(αὐτοῦ는 ‘그의 아내’에 붙음). 번역상의 선택일 수 있으며 히브리어 이문으로 주장하지 않는다. ‘D’는 OCR 잡음.",
+        "excerpt": "καὶ ἐπέβλεψεν ἡ γυνὴ αὐτοῦ εἰς D τὰ ὀπίσω, καὶ ἐγένετο στήλη ἁλός.’",
+        "excerpt_form": "whole OCR line copied verbatim, including OCR artifacts",
+        "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+        "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "바빌론 탈무드 산헤드린 38b에서 이 절의 두 번째 ‘야훼’가 ‘두 권세’ 논쟁의 근거로 제기되고, 성경의 문체(라멕의 예)로 답했다는 전승.",
+      "status": "not_verified_in_session",
+      "reason": "www.sefaria.org blocked by network policy (proxy 403); a guessed Sefaria-Export raw path returned 404 and was not pursued further."
+    },
+    {
+      "claim_ko": "초기 기독교 저자(예: 유스티누스 『트리폰과의 대화』)가 이 절을 성부와 성자의 구별을 뒷받침하는 본문으로 읽었다는 전승.",
+      "status": "not_verified_in_session",
+      "reason": "No primary text accessed in this session."
+    },
+    {
+      "claim_ko": "타르굼 옹켈로스의 24절 표현(신명 반복 처리)과 26절 ‘그의 뒤에서’ 처리.",
+      "status": "not_verified_in_session",
+      "reason": "Sefaria blocked; no other pinned source accessed."
+    },
+    {
+      "claim_ko": "지혜서 10:7, 요세푸스 『유대 고대사』 1권, 누가복음 17:32의 롯의 아내 언급.",
+      "status": "not_verified_in_session",
+      "reason": "Not accessed; listed only as reception topics for later checking. Reception does not determine the Hebrew meaning."
+    }
+  ],
+  "alternatives": {
+    "Gen.19.23": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "등위: ‘해가 땅 위로 떠올랐고, 롯은 소알에 이르렀다.’ / en·es 과거완료 배경",
+        "argument_ko": "원문은 두 독립 X-qatal 절의 병렬이며 어느 쪽도 종속시키지 않는다(창 44:3 유비). 세 언어에서 같은 구조를 유지하고, 과거완료(en/es)가 24절 행동의 배경임을 보여 준다.",
+        "objection_ko": "한국어 ‘-고’ 등위는 시간 관계를 흐리게 하여 ‘해가 뜬 뒤 롯이 도착했다’는 순차로 읽힐 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘해가 땅 위로 떠오를 때 롯이 소알에 이르렀다’(해 절 종속)",
+        "argument_ko": "동시성을 가장 분명히 한다. 칠십인역 스웨테판 구두점과 Sonnet 한국어가 이 방향이다.",
+        "objection_ko": "원문에 없는 종속 관계를 만들며, 어느 절을 종속시킬지는 번역자 선택이다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "23절을 24절의 시간 부사절로 이어 ‘해가 … 떠오르고 롯이 소알에 이르렀을 때, 야훼께서…’",
+        "argument_ko": "23-24절 세 배경절이 모두 qatal이라는 점을 가장 강하게 반영한다.",
+        "objection_ko": "마소라 소프 파숙이 23절을 끝내며, 절 경계를 넘는 종속은 독립 절 번역 원칙과 맞지 않는다."
+      }
+    ],
+    "Gen.19.24": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "두 번째 신명 그대로: ‘야훼께서는 … 야훼께로부터 하늘에서 비처럼 내리셨다’",
+        "argument_ko": "원문 반복을 보존하면서 한 문장으로 유지한다. 문법상 자기 이름 지칭(창 4:23, 9:16, 호 1:7)으로 읽을 수 있고, 수용사의 다른 읽기도 본문에서 차단하지 않는다. 칠십인역 OCR도 반복을 유지한다.",
+        "objection_ko": "아래 secondary_objections 참조: 한국어에서 같은 이름을 주어와 출처에 두 번 쓰면 어색하고 두 인물처럼 읽힐 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘자기에게서/그분에게서, 곧 하늘에서’로 대명사화",
+        "argument_ko": "한국어·스페인어가 매끄러워지고 문법적 자기 지칭 해석을 명확히 한다.",
+        "objection_ko": "원문의 고유명사 반복을 지워 버리고, 수용사에서 중요한 논점을 번역이 일방적으로 결정한다. 편집 원칙상 거부."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘야훼께서… 야훼에게서’를 두 위격의 구별로 명시(예: ‘하늘에 계신 야훼께로부터’)",
+        "argument_ko": "기독교 수용사의 한 읽기를 반영한다.",
+        "objection_ko": "원문에 없는 ‘계신’을 보충해 신학적 해석을 본문에 넣는다. 원문과 해석 분리 원칙 위반. 각주에서 수용사로만 다룬다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "מֵאֵת יְהוָה를 후대 첨가로 보고 괄호 처리",
+        "argument_ko": "반복을 편집층으로 설명하는 비평적 재구성이 가능하다.",
+        "objection_ko": "이 실행에서 확인한 증거(고정 WLC, 칠십인역 OCR)는 모두 반복을 가진다. 증언 없는 재구성이므로 본문에 반영할 근거가 없다."
+      }
+    ],
+    "Gen.19.25": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "הפך = ‘뒤엎다/overthrow/derribar’ 고정 대응, הָאֵל = ‘이’",
+        "argument_ko": "19:21·19:29·신 29:22와 어휘를 맞추고 שׁחת(멸하다/destroy/destruir), סָפָה(쓸어버리다/sweep away/arrasar)와 구별한다.",
+        "objection_ko": "스페인어 ‘derribar’는 ‘무너뜨리다’에 가까워 주민·식물 목적어와는 어색하다(원문도 액어법이다)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "스페인어 ‘trastornó’(RAE 1의 ‘위아래를 뒤집다’)",
+        "argument_ko": "어원적으로 ‘뒤엎다’에 가장 가깝다.",
+        "objection_ko": "현대 독자에게는 주로 ‘정신을 어지럽히다’로 읽혀 오해 위험이 크다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "세 언어 모두 ‘멸망시키다/destroy/destruir’",
+        "argument_ko": "가장 쉽게 읽힌다.",
+        "objection_ko": "שׁחת와 구별이 사라져 19:29에서 두 동사가 같아진다. 거부."
+      }
+    ],
+    "Gen.19.26": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "위치 + 돌아봄: ‘롯의 아내는 그의 뒤에서 돌아보았고’",
+        "argument_ko": "מִן이 붙은 형태(19:17과 다름)와 출 14:19의 위치 용법을 반영하여 아내가 롯 뒤에 있었음을 보존하고, ‘돌아보다’로 19:17 금지와의 연결을 살린다. ‘롯의’는 25절 주어(야훼)와의 혼동을 막는 보충.",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "방향만: ‘롯의 아내는 뒤를 돌아보았고’(칠십인역 εἰς τὰ ὀπίσω)",
+        "argument_ko": "간결하고, מֵאַחֲרָיו를 ‘그(롯)의 뒤쪽, 곧 소돔 쪽을’ 바라보는 방향 표현으로 본다.",
+        "objection_ko": "접미사 ‘그의’를 번역하지 않으며, 19:17과 달리 굳이 מִן을 쓴 형태 차이를 무시한다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "이탈: ‘롯을 따르던 데서 벗어나 바라보았고’(신 7:4, 호 1:2 유형)",
+        "argument_ko": "מֵאַחֲרֵי의 흔한 ‘따르던 데서 떠나’ 의미를 살려, 그녀가 따라가기를 멈춘 행동으로 읽는다.",
+        "objection_ko": "이 의미는 주로 ‘돌이키다/떠나다’ 동사와 결합하며, 바라보다(נבט)와의 결합 예는 확인한 범위에 없다. 해석적 부담이 크다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "접미사를 천사(19:17 화자)로 봄: ‘그(천사)의 뒤에서’",
+        "argument_ko": "Sonnet 초안이 반론으로 언급한 견해. 19:17에서 단수 화자가 명령한다.",
+        "objection_ko": "19:16-17에서 천사들은 일행을 성 밖에 두고 말하며, 이후 동행 서술이 없다. 출처도 확인되지 않았다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Gen.19.26 me-acharav as position (preferred A)",
+    "objection_ko": "가장 강한 반론은 26절이다. (1) 원문에는 ‘돌아보다’의 ‘뒤로’가 따로 없다. 내가 A에서 ‘그의 뒤에서(위치)’와 ‘돌아보았다(방향)’를 함께 쓴 것은, מֵאַחֲרָיו가 실제로는 방향 표현(B)이라면 한 낱말을 두 번 번역하는 셈이고, 위치 표현이라면 ‘돌아’는 19:17 문맥에서 보충한 것이다. (2) 칠십인역 OCR은 방향(εἰς τὰ ὀπίσω)으로 이해하고 접미사를 옮기지 않았다. (3) 히브리어에서 מִן은 시점(視點)의 출발점을 나타낼 수 있어, ‘그(롯)의 뒤쪽으로부터’라는 방향/시점 표현도 가능하다.",
+    "test_ko": "절 단위로 다시 시험했다. (a) 위치: ‘그의 아내가, 그의 뒤에서, 바라보았다’ — 동사 הִבִּיט 자체가 ‘눈길을 두다’여서 무엇을 보았는지가 비어 있고, 19:17 금지(뒤를 보지 말라) 문맥이 대상을 채운다. ‘돌아보다’의 ‘돌아’는 이 문맥 보충이다. (b) 방향: ‘그의 아내가 그(롯)의 뒤쪽을 바라보았다’ — 19:17 אַחֲרֶיךָ(전치사 없이)와 형태를 다르게 쓴 이유가 설명되지 않는다. (c) 출 14:19의 מֵאַחֲרֵיהֶם(위치)은 이동·서 있음 동사와 결합한 예로, 바라보다와의 결합 예는 없다. 결론: A를 유지하되, ‘돌아보았다’의 ‘돌아’가 문맥 보충임과 B 독해를 각주로 밝힌다.",
+    "residual_risk_ko": "히브리 성경 전체의 מֵאַחֲרֵי + 시각 동사 용례 조사와 타르굼·중세 주석 원문 확인을 하지 못했으므로 신뢰도는 중간이다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Gen.19.24 repeated divine name (preferred A)",
+      "objection_ko": "한국어 ‘야훼께서는 … 야훼께로부터’는 같은 이름을 주어와 출처에 두 번 써서 두 인물이 있는 것처럼 강하게 읽힌다. 번역이 결과적으로 C(두 위격) 독해를 유도할 수 있다.",
+      "response_ko": "원문이 정확히 그 반복을 가지고 있고 칠십인역 OCR도 같다. 번역이 반복을 지우는 것(B)이나 강화하는 것(C)보다 원문 수준의 모호성을 그대로 두는 것이 원칙에 맞다. 각주에서 문법적 자기 지칭 유비(창 4:23, 9:16, 호 1:7)와 수용사(유대·기독교)를 구별해 밝힌다."
+    },
+    {
+      "target": "Gen.19.23 coordination (preferred A)",
+      "objection_ko": "한국어 등위 ‘-고’는 동시성을 잃는다.",
+      "response_ko": "영어·스페인어 과거완료가 배경성을 보여 주고, 한국어는 24절 ‘야훼께서는’의 보조사 ‘는’이 대조·전환을 표시한다. 편집자가 동시성을 더 드러내기 원하면 B로 바꿀 수 있다(reconsider_if)."
+    },
+    {
+      "target": "Gen.19.25 Spanish derribar",
+      "objection_ko": "derribar는 건물·정권 대상 동사여서 주민과 식물에는 어색하다.",
+      "response_ko": "원문도 한 동사가 네 목적어를 지배하는 액어법이다. 스페인어 동사 선택은 19:21, 19:29 초안 작성 시 함께 정해야 한다."
+    }
+  ],
+  "preferred_wording": {
+    "Gen.19.23": {
+      "ko": "해가 땅 위로 떠올랐고, 롯은 소알에 이르렀다.",
+      "en": "The sun had risen over the land, and Lot had come into Zoar.",
+      "es": "El sol había salido sobre la tierra, y Lot había llegado a Zoar.",
+      "reason_ko": "두 독립 X-qatal 절의 병렬(아트나흐로 구분)을 세 언어에서 같은 등위 구조로 보존. en/es 과거완료는 24절 행동의 배경을 표시. הָאָרֶץ는 해 뜨는 장면이므로 ‘땅/land/tierra’(대안 ‘earth’). 방향의 ה는 ‘이르렀다/come into/llegado a’.",
+      "counterargument_ko": "alternatives Gen.19.23 B·C 참조. 동시성을 종속절로 드러내야 한다는 반론.",
+      "current_opinion_ko": "A 유지(중상 신뢰도).",
+      "reconsider_if_ko": "편집 방침이 동시적 배경절을 종속절로 옮기기로 정하거나 채택문에서 같은 X-qatal 병렬(예: 창 44:3)이 종속절로 채택되면 B로 맞춘다."
+    },
+    "Gen.19.24": {
+      "ko": "야훼께서는 소돔과 고모라 위에 유황과 불을 야훼께로부터 하늘에서 비처럼 내리셨다.",
+      "en": "And Yahweh rained sulfur and fire on Sodom and on Gomorrah from Yahweh, out of the heavens.",
+      "es": "Y Yahvé hizo llover sobre Sodoma y sobre Gomorra azufre y fuego de parte de Yahvé, desde los cielos.",
+      "reason_ko": "와우+주어+완료형(와익톨 아님)을 ‘야훼께서는’(대조 보조사)·‘And/Y’로 반영하고 순차 접속사(Then/그러자)는 피함. 두 번째 신명을 지우거나 강화하지 않고 한 문장 안에 보존. 유황과 불은 두 명사 등위 유지. 채택문 신명 표기 관례(야훼/Yahweh/Yahvé) 적용. 한국어는 동사 말미 어순 때문에 출처구를 동사 앞으로 옮겼으나 ‘야훼께로부터 하늘에서’ 순서는 원문대로.",
+      "counterargument_ko": "secondary_objections Gen.19.24 및 alternatives B·C·D 참조.",
+      "current_opinion_ko": "A 유지(높은 신뢰도: 본문 / 낮은 확인도: 수용사 세부). 각주 1 권고.",
+      "reconsider_if_ko": "반복 없는 히브리어 사본·사마리아 오경·고대 역본 읽기가 URL과 함께 실제로 확인되면 본문 이문 각주로 승격하고 재평가. 편집 방침이 한국어 가독성을 이유로 대명사화를 허용하더라도 이 절은 예외로 둘 것을 권한다."
+    },
+    "Gen.19.25": {
+      "ko": "그리고 이 성읍들과 온 평지와, 그 성읍들에 사는 모든 사람과 땅에서 돋아난 것을 뒤엎으셨다.",
+      "en": "He overthrew these cities and all the plain, and all who lived in the cities, and what grew from the ground.",
+      "es": "Derribó estas ciudades y toda la llanura, a todos los habitantes de las ciudades y lo que brotaba del suelo.",
+      "reason_ko": "와익톨 재개(‘그리고’). 주어(야훼)는 문맥으로 넘어오며 한국어는 높임 동사로 표시. הפך = 뒤엎다/overthrow/derribar로 שׁחת·סָפָה와 구별. הָאֵל = 이/these/estas(신명 아님). הַכִּכָּר = 온 평지/all the plain/toda la llanura. צֶמַח הָאֲדָמָה = 땅에서 돋아난 것/what grew from the ground/lo que brotaba del suelo. 네 목적어와 접속사 구조 보존(스페인어는 자연스러움을 위해 접속사 일부 생략).",
+      "counterargument_ko": "secondary_objections Gen.19.25 및 alternatives B·C 참조.",
+      "current_opinion_ko": "A 유지. 스페인어 동사는 중간 신뢰도.",
+      "reconsider_if_ko": "19:21, 19:29, 신 29:22 초안에서 스페인어 הפך 대응어가 다르게 정해지면 그에 맞춘다. 채택문이 ‘키카르’를 고유 지명으로 표기하기로 하면 ‘온 평지’를 그 표기로 바꾼다."
+    },
+    "Gen.19.26": {
+      "ko": "그러나 롯의 아내는 그의 뒤에서 돌아보았고, 소금 기둥이 되었다.",
+      "en": "But Lot's wife, behind him, looked back, and she became a pillar of salt.",
+      "es": "Pero la mujer de Lot, detrás de él, miró hacia atrás y se convirtió en una columna de sal.",
+      "reason_ko": "‘그의 아내’를 ‘롯의 아내/Lot's wife/la mujer de Lot’로 보충(25절 주어 야훼와 혼동 방지; 원문에 이름 없음). מֵאַחֲרָיו = 위치 ‘그의 뒤에서/behind him/detrás de él’. ‘돌아보다/looked back/miró hacia atrás’의 ‘뒤로’는 19:17 금지 문맥에서 보충. ‘그러나/But/Pero’는 19:17 금지와의 대조를 반영한 접속 해석. 단순 과거 유지(과거완료로 바꾸지 않음).",
+      "counterargument_ko": "strongest_objection_to_own_reading 참조(방향 독해 B, 이탈 독해 C).",
+      "current_opinion_ko": "A 유지(중간 신뢰도). 각주 2 권고.",
+      "reconsider_if_ko": "히브리 성경 전체에서 מֵאַחֲרֵי + 시각 동사(נבט/ראה) 용례가 방향 의미로 확인되거나, 타르굼·중세 주석 원문 확인에서 방향 독해가 지배적이고 문법 근거가 제시되면 B(‘롯의 아내는 뒤를 돌아보았고’)로 바꾼다."
+    }
+  },
+  "speech_boundaries_ko": "이 단위(19:23-26)에는 직접 화법이 없다. 따옴표를 쓰지 않는다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Gen.19.24",
+      "note_ko": "‘야훼께로부터’: 히브리어 원문은 주어 ‘야훼’를 출처로 한 번 더 이름으로 부른다. 히브리어에서는 말하는 이나 행하는 이가 자기를 이름으로 부르는 표현이 쓰인다(창 4:23; 9:16; 호 1:7). 유대교 해석은 이 반복을 문체로 설명해 왔고, 기독교 해석사에서는 이 반복을 성부와 성자의 구별과 연결해 읽기도 했다고 전한다. 이 번역은 원문의 반복을 그대로 둔다. (수용사 세부 출처는 미확인 — 편집 단계에서 확인 필요)"
+    },
+    {
+      "id": "Gen.19.25",
+      "note_ko": "‘뒤엎다’(하파크)는 소돔과 고모라의 멸망을 가리킬 때 고정적으로 쓰이는 말이다(창 19:21, 29; 신 29:23). ‘이 성읍들’의 ‘이’(하엘)는 옛 지시어이며 ‘하나님(엘)’이 아니다."
+    },
+    {
+      "id": "Gen.19.26",
+      "note_ko": "‘그의 뒤에서’(메아하라우)는 롯의 아내가 롯 뒤에서 따라가고 있었음을 나타내는 것으로 보인다. ‘뒤를 바라보았다’는 방향 표현으로 이해할 수도 있다(칠십인역). 19:17의 ‘뒤를 돌아보지 말라’와 같은 동사가 쓰였다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "divine name",
+      "finding_ko": "이전 클라우드 검토 일부(예: gen-18-20-23)는 YHWH 표기를 썼으나 채택문(Gen.2.4)은 야훼/Yahweh/Yahvé이다. 이 검토는 채택문 관례를 따른다. 편집 단계에서 클라우드 검토 간 표기를 통일할 필요가 있다."
+    },
+    {
+      "topic": "Spanish verb concordance",
+      "finding_ko": "סָפָה(18:23, 19:15, 19:17) = arrasar(이전 검토 제안), שׁחת(19:13, 19:14, 19:29) = destruir, הפך(19:21, 19:25, 19:29) = derribar로 세 동사를 구별해 소돔 단락 전체에 일관되게 적용할 것을 권한다. 한국어: 쓸어버리다/멸하다/뒤엎다, 영어: sweep away/destroy/overthrow."
+    },
+    {
+      "topic": "city",
+      "finding_ko": "עִיר = 성읍/city/ciudad (채택문 Gen.4.17)."
+    }
+  ],
+  "final_opinion_ko": "네 절 모두 고정 WLC 본문을 그대로 번역하며 본문 이문 주장은 없다. 핵심 판단: (1) 23-24절은 와익톨이 아닌 세 개의 주어 선행 완료형 절로, 해돋이·롯의 도착·야훼의 행동이 동시적 장면으로 제시되고 25절에서 서사 연쇄가 재개된다. (2) 24절 두 번째 ‘야훼’(מֵאֵת יְהוָה)는 문법상 자기 이름 지칭으로 설명 가능하나 번역에서는 지우지도 강화하지도 않고 보존한다. 고정 WLC와 칠십인역 OCR 모두 반복을 가진다. (3) 25절 הָאֵל은 신명이 아니라 지시사이며, הפך는 שׁחת·סָפָה와 구별되는 소돔 고정 어휘이므로 세 언어 모두 별도 동사로 옮긴다. (4) 26절 מֵאַחֲרָיו는 19:17과 형태가 달라 위치(롯 뒤에서)로 읽는 것이 우선이나 방향 독해(칠십인역)가 강한 대안이다. Sonnet 초안과 의미상 큰 충돌은 없고, 24절 한국어 조각문, 25절 스페인어 동사, 26절 한국어 지시 혼동을 개선했다.",
+  "confidence_limits": [
+    {
+      "id": "Gen.19.23",
+      "level": "medium-high",
+      "note_ko": "등위/종속은 번역 선택이며 의미 차이는 작다."
+    },
+    {
+      "id": "Gen.19.24",
+      "level": "high (text) / low (reception detail)",
+      "note_ko": "본문 반복은 확인됨. 탈무드·교부·타르굼 세부는 이 실행에서 확인하지 못했다."
+    },
+    {
+      "id": "Gen.19.25",
+      "level": "medium-high",
+      "note_ko": "스페인어 동사 선택은 중간 신뢰도. 칠십인역 플러스의 성격(동화/대본)은 판정하지 못했다."
+    },
+    {
+      "id": "Gen.19.26",
+      "level": "medium",
+      "note_ko": "מֵאַחֲרֵי + 시각 동사 용례 전수 조사 없이 판단했다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Gen.19.26",
+      "condition_ko": "고정 WLC 전체에서 מֵאַחֲרֵי/מֵאַחֲרָיו + נבט/ראה 용례를 조사해 방향 의미가 확인되면 B로 변경."
+    },
+    {
+      "id": "Gen.19.24",
+      "condition_ko": "반복이 없는 고대 증언이 실제로 확인되면 이문 각주 추가."
+    },
+    {
+      "id": "Gen.19.24",
+      "condition_ko": "b. Sanhedrin 38b, 유스티누스, 타르굼 원문을 URL과 함께 확인한 뒤 각주 1의 수용사 문장을 확정하거나 삭제."
+    },
+    {
+      "id": "Gen.19.25",
+      "condition_ko": "칠십인역 비평판(괴팅겐 등)에서 19:25 플러스와 ‘πᾶσαν’ 유무를 확인하면 이문 각주 여부 재평가."
+    },
+    {
+      "id": "Gen.19.25",
+      "condition_ko": "19:21, 19:29의 스페인어 초안에서 הפך 대응어가 정해지면 25절도 맞춤."
+    },
+    {
+      "id": "Gen.19.23",
+      "condition_ko": "편집 방침이 X-qatal 병렬 배경절을 종속절로 옮기기로 하면 B로 변경."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Gen.19.26",
+      "issue": "me-acharav: position (behind Lot) vs direction (looked behind) vs ablative (from following him)",
+      "status": "unresolved_syntactic",
+      "needed_evidence": "Concordance of me-achare with verbs of seeing in pinned WLC; Targum Onkelos wording; medieval commentators (Rashi, Ibn Ezra) primary text"
+    },
+    {
+      "id": "Gen.19.24",
+      "issue": "Reception history of the repeated divine name (rabbinic two-powers debate; patristic readings)",
+      "status": "unverified_reception",
+      "needed_evidence": "Primary texts with URL and accessed time (b. Sanh. 38b; Justin, Dialogue; Targumim)"
+    },
+    {
+      "id": "Gen.19.25",
+      "issue": "LXX plus 'in which Lot dwelt' and OCR-damaged 'κοὶ περίοικον'",
+      "status": "unresolved_textual_reception",
+      "needed_evidence": "Critical LXX edition (Göttingen Genesis) apparatus; Samaritan Pentateuch reading"
+    },
+    {
+      "id": "Gen.19.24",
+      "issue": "Samaritan Pentateuch, Qumran and other ancient witnesses for this verse not checked",
+      "status": "not_checked",
+      "needed_evidence": "Accessible pinned transcriptions"
+    },
+    {
+      "id": "Gen.19.25",
+      "issue": "Spanish lexical choice for hafakh across the Sodom narrative",
+      "status": "editorial_open",
+      "needed_evidence": "Editorial decision when drafting 19:21, 19:29"
+    },
+    {
+      "id": "Gen.19.26",
+      "issue": "Narrative sequence: whether the look-back occurred before arrival at Zoar (v23)",
+      "status": "interpretive_open",
+      "needed_evidence": "Not decidable from the packet; translation keeps simple past and does not assert pluperfect"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-30T17:07:05Z)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis; target verses and Genesis parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-30T17:09Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus (Exod.14.19 parallel)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-30T17:09Z",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "what_it_is": "Pinned WLC/OSHB Deuteronomy (Deut.7.4, Deut.29.22 parallels)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "accessed_utc": "2026-10-30T17:09Z",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+      "what_it_is": "Pinned WLC/OSHB Hosea (Hos.1.2, Hos.1.7 parallels)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/1.Genesis.txt",
+      "accessed_utc": "2026-10-30T17:09:23Z",
+      "file_sha256": "1af41704b5db136aaa1d6683f6081480b4c22d5eb481b09e75921d373279b78f",
+      "what_it_is": "Third-party raw OCR of Swete LXX Genesis; same pinned file and hash as an earlier run."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Sanhedrin.38b?version=primary",
+      "accessed_utc": "2026-10-30T17:09:33Z",
+      "result": "blocked: proxy CONNECT 403 (network policy)",
+      "what_it_is": "Attempted rabbinic reception check; not verified."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Onkelos_Genesis.19.23-26",
+      "accessed_utc": "2026-10-30T17:09:33Z",
+      "result": "blocked: proxy CONNECT 403 (network policy)",
+      "what_it_is": "Attempted Targum check; not verified."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/master/txt/Talmud/Bavli/Seder%20Nezikin/Sanhedrin/Hebrew/merged.txt",
+      "accessed_utc": "2026-10-30T17:09:40Z",
+      "result": "404 Not Found (guessed path); not pursued",
+      "what_it_is": "Attempted mirror; not verified."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran or critical LXX apparatus was consulted.",
+    "No GPT, Gemini, Antigravity or human specialist response exists in or was produced for this record.",
+    "No unanimity or editorial adoption is claimed.",
+    "Reception-history claims listed under unverified_reception were not verified.",
+    "LXX OCR lines are third-party OCR, not a critical edition, and are not treated as Hebrew variants.",
+    "No credit balance, deduction amount or billing proof is claimed.",
+    "Current selected translations, releases and dist/ were not modified.",
+    "The served model for each turn is not independently verifiable from inside the session."
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-30T17:07:05Z",
+    "claim_pushed": "2026-10-30T17:07Z (commit on claude/original-bible-hard-review-jbzq02 before any model review)",
+    "independent_reading_from_packet": "2026-10-30T17:07Z-17:08:41Z (scratch note timestamped 17:08:41Z before opening any model record)",
+    "earlier_records_inspected": "2026-10-30T17:08:50Z-17:09Z",
+    "reception_checks": "2026-10-30T17:09:23Z-17:12Z",
+    "review_written": "2026-10-30T17:12Z-17:17Z",
+    "identity_rechecked": "2026-10-30T17:16:46Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false)"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "packet": "automation/hard-review-packets/20261030T170705Z-d5f3fdf7.json",
+    "claim_manifest": "automation/hard-review-runs/20261030T170705Z-d5f3fdf7.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Gen.19.23",
+        "raw_xml": "<verse osisID=\"Gen.19.23\">\n          <w lemma=\"d/8121\" n=\"1.0\" morph=\"HTd/Ncbsa\" id=\"01H4B\">הַ/שֶּׁ֖מֶשׁ</w>\n          <w lemma=\"3318\" morph=\"HVqp3ms\" id=\"01yhE\">יָצָ֣א</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"01TCJ\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/776\" n=\"1\" morph=\"HTd/Ncbsa\" id=\"01HLL\">הָ/אָ֑רֶץ</w>\n          <w lemma=\"c/3876\" n=\"0.0\" morph=\"HC/Np\" id=\"01VMR\">וְ/ל֖וֹט</w>\n          <w lemma=\"935\" morph=\"HVqp3ms\" id=\"01nHt\">בָּ֥א</w>\n          <w lemma=\"6820\" n=\"0\" morph=\"HNp/Sd\" id=\"01uVh\">צֹֽעֲרָ/ה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "dbc36ee456c16958a021e75ab6126ab83ab811721c0bb88a7f8f63e43256150c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.19.24",
+        "raw_xml": "<verse osisID=\"Gen.19.24\">\n          <w lemma=\"c/3068\" n=\"1.0.1\" morph=\"HC/Np\" id=\"01j46\">וַֽ/יהוָ֗ה</w>\n          <w lemma=\"4305\" morph=\"HVhp3ms\" id=\"01tWx\">הִמְטִ֧יר</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"013VF\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5467\" n=\"1.0.0\" morph=\"HNp\" id=\"01a9R\">סְדֹ֛ם</w>\n          <w lemma=\"c/5921 a\" morph=\"HC/R\" id=\"01BUv\">וְ/עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6017\" n=\"1.0\" morph=\"HNp\" id=\"016Ay\">עֲמֹרָ֖ה</w>\n          <w lemma=\"1614\" morph=\"HNcfsa\" id=\"01buH\">גָּפְרִ֣ית</w>\n          <w lemma=\"c/784\" n=\"1\" morph=\"HC/Ncbsa\" id=\"01s74\">וָ/אֵ֑שׁ</w>\n          <w lemma=\"m/854\" morph=\"HR/R\" id=\"01Qem\">מֵ/אֵ֥ת</w>\n          <w lemma=\"3068\" n=\"0.0\" morph=\"HNp\" id=\"01okp\">יְהוָ֖ה</w>\n          <w lemma=\"4480 a\" morph=\"HR\" id=\"015Q5\">מִן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/8064\" n=\"0\" morph=\"HTd/Ncmpa\" id=\"01qJK\">הַ/שָּׁמָֽיִם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "83287f283a22be5f7269113e31ace6b81062c8eafb0ad9cbb46a7623d153a6f8",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.19.25",
+        "raw_xml": "<verse osisID=\"Gen.19.25\">\n          <w lemma=\"c/2015\" n=\"1.1.0\" morph=\"HC/Vqw3ms\" id=\"01QZB\">וַֽ/יַּהֲפֹךְ֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"01Br9\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/5892 b\" morph=\"HTd/Ncfpa\" id=\"01CaP\">הֶ/עָרִ֣ים</w>\n          <w lemma=\"d/411\" n=\"1.1\" morph=\"HTd/Pdxcp\" id=\"012Jq\">הָ/אֵ֔ל</w>\n          <w lemma=\"c/853\" n=\"1.0\" morph=\"HC/To\" id=\"01UQf\">וְ/אֵ֖ת</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"01koC\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/3603\" n=\"1\" morph=\"HTd/Ncbsa\" id=\"01xyV\">הַ/כִּכָּ֑ר</w>\n          <w lemma=\"c/853\" n=\"0.1.0\" morph=\"HC/To\" id=\"01Leq\">וְ/אֵת֙</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"01RrD\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3427\" morph=\"HVqrmpc\" id=\"01Kv1\">יֹשְׁבֵ֣י</w>\n          <w lemma=\"d/5892 b\" n=\"0.1\" morph=\"HTd/Ncfpa\" id=\"01S8w\">הֶ/עָרִ֔ים</w>\n          <w lemma=\"c/6780\" n=\"0.0\" morph=\"HC/Ncmsc\" id=\"01hEe\">וְ/צֶ֖מַח</w>\n          <w lemma=\"d/127\" n=\"0\" morph=\"HTd/Ncfsa\" id=\"01PTn\">הָ/אֲדָמָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "0d334b1b91063babfa026a7e85395bcccdcfa9dd1f068145d26245fd03ddd089",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      },
+      {
+        "id": "Gen.19.26",
+        "raw_xml": "<verse osisID=\"Gen.19.26\">\n          <w lemma=\"c/5027\" morph=\"HC/Vhw3fs\" id=\"01T7k\">וַ/תַּבֵּ֥ט</w>\n          <w lemma=\"802\" n=\"1.0\" morph=\"HNcfsc/Sp3ms\" id=\"01vKW\">אִשְׁתּ֖/וֹ</w>\n          <w lemma=\"m/310 a\" n=\"1\" morph=\"HR/R/Sp3ms\" id=\"01quk\">מֵ/אַחֲרָ֑י/ו</w>\n          <w lemma=\"c/1961\" n=\"0.0\" morph=\"HC/Vqw3fs\" id=\"01Qsp\">וַ/תְּהִ֖י</w>\n          <w lemma=\"5333\" morph=\"HNcmsc\" id=\"01q5z\">נְצִ֥יב</w>\n          <w lemma=\"4417\" n=\"0\" morph=\"HNcmsa\" id=\"01rTe\">מֶֽלַח</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "6c48fc0f939ebb5bc0ee6a7c4ce765bceef496bc7fa0b13198085a36fd1168e7",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261030T170705Z-d5f3fdf7.ko.md",
+  "checks": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-sof-pasuq"
+    ],
+    "qere_ketiv_or_notes_present": false,
+    "clause_coverage": {
+      "Gen.19.23": 2,
+      "Gen.19.24": 5,
+      "Gen.19.25": 5,
+      "Gen.19.26": 3
+    },
+    "all_source_words_covered_by_clauses": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "earlier_draft_copied_verbatim": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_repetition_preserved_gen_19_24": true,
+    "no_direct_speech_in_unit": true,
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
