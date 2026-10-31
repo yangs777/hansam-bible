@@ -1,12 +1,12 @@
-# Genesis5:1–10
+# Genesis5:1–15
 
-Hansam Yang · Original Bible · v0.4.16
+Hansam Yang · Original Bible · v0.4.17
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-Current selections for the first10 verses of Genesis5 preserve actual independent GPT/Gemini proposals,official agy final review,and existing Claude Code drafts with their original self-opinions. Human specialist review and full manuscript collation remain pending.
+Current selections for the first15 verses of Genesis5 preserve actual independent GPT/Gemini proposals,official agy final review,and existing Claude Code drafts with their original self-opinions. Human specialist review and full manuscript collation remain pending.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -48,6 +48,10 @@ Previous v0.4.15
 
 This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
 
+Previous v0.4.16
+
+This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
+
 ## 2 · HYB.GEN.005.002
 
 Hebrew display (MT/WLC): זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם בְּי֖וֹם הִבָּֽרְאָֽם׃
@@ -81,6 +85,10 @@ Final opinion (Korean original): 남자와 여자 모두에게 붙인 집합 명
 Counterargument (Korean): 히브리어 이름 adam과 고유명 아담의 소리·철자 연결은 주석에 남긴다. 남자만의 명칭으로 한정하지 않는다. 축복과 명명은 별개 동작이다.
 
 Previous v0.4.15
+
+Male and female he created them, and he blessed them and named them Humankind when they were created.
+
+Previous v0.4.16
 
 Male and female he created them, and he blessed them and named them Humankind when they were created.
 
@@ -120,6 +128,10 @@ Previous v0.4.15
 
 Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
 
+Previous v0.4.16
+
+Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
+
 ## 4 · HYB.GEN.005.004
 
 Hebrew display (MT/WLC): וַיִּֽהְי֣וּ יְמֵי־אָדָ֗ם אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֵׁ֔ת שְׁמֹנֶ֥ה מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -153,6 +165,10 @@ Final opinion (Korean original): 셋 이후 팔백 년과 아들·딸의 출생�
 Counterargument (Korean): 다른 자녀의 출생 시점·수·이름 및 계보의 완전성을 확정하지 않는다.
 
 Previous v0.4.15
+
+After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
+
+Previous v0.4.16
 
 After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
 
@@ -192,6 +208,10 @@ Previous v0.4.15
 
 All the days Adam lived were nine hundred thirty years, and he died.
 
+Previous v0.4.16
+
+All the days Adam lived were nine hundred thirty years, and he died.
+
 ## 6 · HYB.GEN.005.006
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
@@ -223,6 +243,10 @@ When Seth had lived one hundred five years, he fathered Enosh.
 Final opinion (Korean original): 105년과 에노스의 출생을 옮긴다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
 
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+Previous v0.4.16
+
+When Seth had lived one hundred five years, he fathered Enosh.
 
 ## 7 · HYB.GEN.005.007
 
@@ -256,6 +280,10 @@ Final opinion (Korean original): 에노스 출생 이후807년과 아들·딸을
 
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
 
+Previous v0.4.16
+
+After fathering Enosh, Seth lived eight hundred seven years and fathered sons and daughters.
+
 ## 8 · HYB.GEN.005.008
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -287,6 +315,10 @@ All the days of Seth were nine hundred twelve years, and he died.
 Final opinion (Korean original): 셋의912년과 죽었다는 마침을 보존한다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
 
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+Previous v0.4.16
+
+All the days of Seth were nine hundred twelve years, and he died.
 
 ## 9 · HYB.GEN.005.009
 
@@ -320,6 +352,10 @@ Final opinion (Korean original): 에노스90년과 게난 출생을 옮긴다. �
 
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다. 게난/Kenan/Quenán은 편집 음역이며 가인과 동일시하지 않는다.
 
+Previous v0.4.16
+
+When Enosh had lived ninety years, he fathered Kenan.
+
 ## 10 · HYB.GEN.005.010
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -352,6 +388,170 @@ Final opinion (Korean original): 게난 출생 이후815년과 아들·딸을 �
 
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다. 게난/Kenan/Quenán은 편집 음역이며 가인과 동일시하지 않는다.
 
+Previous v0.4.16
+
+After fathering Kenan, Enosh lived eight hundred fifteen years and fathered sons and daughters.
+
+## 11 · HYB.GEN.005.011
+
+Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י אֱנ֔וֹשׁ חָמֵ֣שׁ שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
+
+All the days of Enosh were nine hundred five years, and he died.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.11
+
+### Current best selected translation
+
+에노스의 총 구백오 년과 죽었다는 마침을 보존한다.
+
+#### claude-sonnet-5-5
+
+All the days of Enosh were 905 years, and he died.
+
+Final opinion (Korean original): MT를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+And all the days of Enosh were nine hundred and five years, and he died.
+
+Final opinion (Korean original): 에노스의 총 향수 구백오 년(905년)과 사망 마침을 정확히 반영한 한·영·스페인어 채택안을 승인합니다.
+
+#### gpt-6.1-sol
+
+All the days of Enosh were nine hundred five years, and he died.
+
+Final opinion (Korean original): 에노스의 총 구백오 년과 죽었다는 마침을 보존한다. 앞서 채택한 90+815=905와의 산술 일치는 본문 내부 확인이며 실제 연대나 생물학적 수명 검증이 아니다.
+
+Counterargument (Korean): 앞서 채택한 90+815=905와의 산술 일치는 본문 내부 확인이며 실제 연대나 생물학적 수명 검증이 아니다.
+
+## 12 · HYB.GEN.005.012
+
+Hebrew display (MT/WLC): וַֽיְחִ֥י קֵינָ֖ן שִׁבְעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מַֽהֲלַלְאֵֽל׃
+
+When Kenan had lived seventy years, he fathered Mahalalel.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.12
+
+### Current best selected translation
+
+게난의 칠십 년과 마할랄렐 출생을 보존한다.
+
+#### claude-sonnet-5-5
+
+When Kenan had lived 70 years, he fathered Mahalalel.
+
+Final opinion (Korean original): 수치는 MT를 번역한 것이며 대안은 주석 사항이다.
+
+#### gemini-3.8-flash-medium
+
+And Kenan lived seventy years, and fathered Mahalalel.
+
+Final opinion (Korean original): 게난의 70세 때 마할랄렐 출생 기록을 충실히 옮긴 채택안을 승인하며, 이전 답변의 '첫 아들' 규정 및 '역사적 직접 출산 입증' 주장은 본문 명시 근거가 아니므로 공식 철회합니다.
+
+#### gpt-6.1-sol
+
+When Kenan had lived seventy years, he fathered Mahalalel.
+
+Final opinion (Korean original): 게난의 칠십 년과 마할랄렐 출생을 보존한다. 낳다는 히필 형태를 문맥상 부친의 출생 관계로 옮긴다. 첫 자녀·계보의 완전성·이름의 어원은 추가하지 않는다.
+
+Counterargument (Korean): 낳다는 히필 형태를 문맥상 부친의 출생 관계로 옮긴다. 첫 자녀·계보의 완전성·이름의 어원은 추가하지 않는다.
+
+## 13 · HYB.GEN.005.013
+
+Hebrew display (MT/WLC): וַיְחִ֣י קֵינָ֗ן אַחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מַֽהֲלַלְאֵ֔ל אַרְבָּעִ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+
+After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.13
+
+### Current best selected translation
+
+마할랄렐 출생 이후 팔백사십 년과 아들들과 딸들을 빠짐없이 옮긴다.
+
+#### claude-sonnet-5-5
+
+After he fathered Mahalalel, Kenan lived 840 years and had other sons and daughters.
+
+Final opinion (Korean original): MT 수치를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+And Kenan lived after he fathered Mahalalel eight hundred and forty years, and fathered sons and daughters.
+
+Final opinion (Korean original): 마할랄렐 출생 후 840년의 잔여 생애와 아들들과 딸들의 병렬 출생을 온전히 살린 채택안을 승인합니다.
+
+#### gpt-6.1-sol
+
+After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
+
+Final opinion (Korean original): 마할랄렐 출생 이후 팔백사십 년과 아들들과 딸들을 빠짐없이 옮긴다. 다른 자녀들의 수·이름·출생 시점은 원문에 없으므로 확정하지 않는다.
+
+Counterargument (Korean): 다른 자녀들의 수·이름·출생 시점은 원문에 없으므로 확정하지 않는다.
+
+## 14 · HYB.GEN.005.014
+
+Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י קֵינָ֔ן עֶ֣שֶׂר שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
+
+All the days of Kenan were nine hundred ten years, and he died.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.14
+
+### Current best selected translation
+
+게난의 총 구백십 년과 죽었다를 보존한다.
+
+#### claude-sonnet-5-5
+
+All the days of Kenan were 910 years, and he died.
+
+Final opinion (Korean original): MT를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+And all the days of Kenan were nine hundred and ten years, and he died.
+
+Final opinion (Korean original): 게난의 총 생애 910년과 사망 공식을 확정한 채택안을 승인하며, 이전 근거에서 거론했던 사메크(ס) 단락 표식 주장은 본문 근거가 아니므로 철회합니다.
+
+#### gpt-6.1-sol
+
+All the days of Kenan were nine hundred ten years, and he died.
+
+Final opinion (Korean original): 게난의 총 구백십 년과 죽었다를 보존한다. 70+840=910은 본문 내부 산술 확인이다. 다른 사본·역본의 숫자나 역사적 수명을 확인했다고 주장하지 않는다.
+
+Counterargument (Korean): 70+840=910은 본문 내부 산술 확인이다. 다른 사본·역본의 숫자나 역사적 수명을 확인했다고 주장하지 않는다.
+
+## 15 · HYB.GEN.005.015
+
+Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֔ל חָמֵ֥שׁ שָׁנִ֖ים וְשִׁשִּׁ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־יָֽרֶד׃
+
+When Mahalalel had lived sixty-five years, he fathered Jared.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.15
+
+### Current best selected translation
+
+마할랄렐의 육십오 년과 야렛 출생을 보존한다.
+
+#### claude-sonnet-5-5
+
+When Mahalalel had lived 65 years, he fathered Jared.
+
+Final opinion (Korean original): 수치는 MT를 번역한 것이며 대안은 주석 사항이다.
+
+#### gemini-3.8-flash-medium
+
+And Mahalalel lived sixty-five years, and fathered Jared.
+
+Final opinion (Korean original): 마할랄렐의 65세 때 야렛 출생 서술을 명확히 옮긴 채택안을 승인하며, 이전 인용 시 히브리어에 잘못 삽입된 한글 '드' 오기 및 역사성 추정 주장을 철회·정정합니다.
+
+#### gpt-6.1-sol
+
+When Mahalalel had lived sixty-five years, he fathered Jared.
+
+Final opinion (Korean original): 마할랄렐의 육십오 년과 야렛 출생을 보존한다. 마할랄렐/Mahalalel/Mahalaleel과 야렛/Jared는 편집 음역이다. 이 절에 없는 사망·총수명·이름 어원은 보충하지 않는다.
+
+Counterargument (Korean): 마할랄렐/Mahalalel/Mahalaleel과 야렛/Jared는 편집 음역이다. 이 절에 없는 사망·총수명·이름 어원은 보충하지 않는다.
+
 ## Notes
 
 The first Adam in v.1 is read as the genealogical figure; adam in the creation clause is rendered as humankind. BDB120 includes men and women at5:1 and collective naming at5:2. English collective them interprets a singular Hebrew object. The collective name Humankind in v.2 shares its Hebrew spelling and sound with Adam; it is not restricted to males.
@@ -362,9 +562,11 @@ Verses3–5 retain the pinned WLC numbers130,800 after Seth,and930 total,and he 
 
 Verses6–8 retain105 years before Seth fathered Enosh,807 afterward,and912 total.105+807=912 checks textual arithmetic,not historical lifespan. Verses9–10 retain Enosh’s90 years and815 after fathering Kenan,without adding a death notice absent from this batch. Kenan is a translation spelling of the Hebrew name and is not identified with Cain.
 
+Verses11–15 retain Enosh’s905 total years,Kenan’s70 years before Mahalalel and840 afterward,910 total,and Mahalalel’s65 years before Jared.90+815=905 and70+840=910 check textual arithmetic,not historical lifespans. First-born status,genealogical completeness and death notices absent from these verses are not added. Name spellings are editorial transliterations,not etymological claims.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis5:1–10 (en), research pilot v0.4.16. https://yangs777.github.io/hansam-bible/en/genesis-5/
+Hansam Yang. Original Bible: Genesis5:1–15 (en), research pilot v0.4.17. https://yangs777.github.io/hansam-bible/en/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

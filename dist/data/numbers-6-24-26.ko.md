@@ -1,6 +1,6 @@
 # 민수기 6:24–26
 
-Hansam Yang · Original Bible · v0.4.16
+Hansam Yang · Original Bible · v0.4.17
 
 AI 보조 번역 초안 · 원어·모국어 전문가 검수 전
 
@@ -79,6 +79,10 @@ Previous v0.4.14
 YHWH께서 네게 복을 주시고 너를 지키시기를.
 
 Previous v0.4.15
+
+YHWH께서 네게 복을 주시고 너를 지키시기를.
+
+Previous v0.4.16
 
 YHWH께서 네게 복을 주시고 너를 지키시기를.
 
@@ -184,6 +188,10 @@ Previous v0.4.15
 
 YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.
 
+Previous v0.4.16
+
+YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.
+
 Previous v0.4.2
 
 YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.
@@ -286,6 +294,10 @@ Previous v0.4.15
 
 YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.
 
+Previous v0.4.16
+
+YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.
+
 Previous v0.4.2
 
 YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.
@@ -328,7 +340,7 @@ YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를
 
 ## Citation
 
-Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.16. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/
+Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.17. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
