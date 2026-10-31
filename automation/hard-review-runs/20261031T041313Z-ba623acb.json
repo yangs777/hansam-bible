@@ -8,9 +8,21 @@
     "Exod.21.25"
   ],
   "created_at": "2026-10-31T04:13:13.873775+00:00",
-  "status": "claimed_pending_review",
+  "status": "completed_unadopted_review",
   "source_packet": "automation/hard-review-packets/20261031T041313Z-ba623acb.json",
   "state": "unadopted_model_review",
   "execution_path_declared": "standalone_cloud",
-  "execution_marker_is_billing_proof": false
+  "execution_marker_is_billing_proof": false,
+  "output": "automation/cloud-reviews/20261031T041313Z-ba623acb.json",
+  "memo_ko": "automation/cloud-reviews/20261031T041313Z-ba623acb.ko.md",
+  "completed_at": "2026-10-31T04:20:51Z",
+  "branch": "claude/original-bible-hard-passages-5ti780",
+  "requested_model": "claude-opus-5-5",
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ]
 }

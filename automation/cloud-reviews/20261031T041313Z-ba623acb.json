@@ -1,0 +1,966 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T041313Z-ba623acb",
+  "unit_id": "exod-21-22-25",
+  "verse_ids": [
+    "Exod.21.22",
+    "Exod.21.23",
+    "Exod.21.24",
+    "Exod.21.25"
+  ],
+  "unit_issue_ko": "임신한 이의 아이 나옴·상해 대상·벌금과 동해보복",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.21.22-25는 고정 WLC 파일의 절 구분이며, 한국어·영어·스페인어 전통 장절 출애굽기 21:22-25와 같은 내용 범위다. 이 네 절에서 OSIS와 전통 장절 번호의 차이는 확인되지 않았다.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어(마켑 seg, sof pasuq seg, 21:25 끝 samekh 단락 표지, OSHB lemma/morph/n/id 속성 포함)는 source.verses[].raw_xml에 패킷과 바이트 단위로 같게 보존했다. 이 네 절의 고정 WLC 조각에는 note, rdg, Ketiv/Qere 표시가 없다(조각 전체 검사). 본문 해설 속 히브리어 인용은 읽기 편의를 위한 발췌이며 원문 표시는 raw_xml이 기준이다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud, outside Projects and Routines as declared by the launch prompt)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T04:14Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, session_context.effort_level=high, external_metadata.last_served_model=claude-opus-5-5.",
+    "served_model_uncertainty": "last_served_model is a session API field reported by the service, not a cryptographic proof of the model that generated every token of this record. A fallback inside a turn would only be visible through that field or fallback notices; none was observed.",
+    "rate_limit_info_observed": "get_session reported rate_limit_info rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is a service status field only; no remaining balance, dollar amount or credit deduction is exposed or asserted here.",
+    "unavailable": [
+      "exact model snapshot hash",
+      "token counts and cost of this session",
+      "remaining promotional bonus balance",
+      "proof that billing used the promotional bonus rather than plan quota"
+    ],
+    "note": "A model self-report is not source evidence. This record was written by Claude in Claude Code; it is not a GPT, Gemini, Antigravity, manuscript-collator or human-specialist review.",
+    "recheck_at_completion": "get_session at about 2026-10-31T04:21:39Z: configured_model, session_context.model and external_metadata.last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional/allowed/isUsingOverage=false. No fallback notice observed."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.21.22",
+      "clauses": [
+        {
+          "words": [
+            "02gtv",
+            "02nHJ",
+            "028D6"
+          ],
+          "hebrew": "וְכִֽי־יִנָּצ֣וּ אֲנָשִׁ֗ים",
+          "kind": "syntactic",
+          "reading_ko": "결의법(casuistic) 조건절의 시작 '그리고 만일 ... 하면'. נצה 니팔 미완료 3mp '서로 싸우다'(고정 WLC 용례: 출 2:13, 레 24:10, 신 25:11, 삼하 14:6)."
+        },
+        {
+          "words": [
+            "02LCy",
+            "02KvZ",
+            "0236n"
+          ],
+          "hebrew": "וְנָ֨גְפ֜וּ אִשָּׁ֤ה הָרָה֙",
+          "kind": "lexical/syntactic",
+          "reading_ko": "weqatal 3cp '(그들이) 치다/부딪치다'. 주어는 복수(싸우는 남자들). נגף는 출 21:35(소가 소를 받음)에도 쓰여 '치다, 들이받다'를 포괄한다. אִשָּׁה הָרָה는 비한정 '임신한 여자'."
+        },
+        {
+          "words": [
+            "025Yk",
+            "026As"
+          ],
+          "hebrew": "וְיָצְא֣וּ יְלָדֶ֔יהָ",
+          "kind": "lexical",
+          "reading_ko": "weqatal 3cp + 복수 יְלָדִים + 3fs 접미 '그 여자의 아이들이 나오다'. יצא는 출생 관용(창 25:25, 38:28-29; 민 12:12; 욥 3:11). 복수는 출 21:4 וִילָדֶיהָ처럼 범주적 복수로 볼 수 있다. 낱말은 '아이(יֶלֶד)'이며 사산아·유산을 가리키는 별도 어휘는 쓰이지 않았다. 살아서 조산했는지 유산했는지는 낱말 자체로 결정되지 않는다."
+        },
+        {
+          "words": [
+            "02egP",
+            "02NbF",
+            "02krR"
+          ],
+          "hebrew": "וְלֹ֥א יִהְיֶ֖ה אָס֑וֹן",
+          "kind": "lexical/discourse",
+          "reading_ko": "'그리고 אָסוֹן이 없으면'. 고정 WLC 안의 다른 용례는 창 42:4, 42:38, 44:29뿐이며 모두 베냐민에게 닥칠 치명적 재난을 두려워하는 문맥이다. 따라서 '중대한 해, 참변'. 누구에게(여자/아이/둘 다) 일어나는 해인지 전치사구가 없어 지시 대상은 미결."
+        },
+        {
+          "words": [
+            "02Mee",
+            "02VBQ"
+          ],
+          "hebrew": "עָנ֣וֹשׁ יֵעָנֵ֗שׁ",
+          "kind": "syntactic",
+          "reading_ko": "부정사 절대형 + 니팔 미완료 3ms '반드시 벌금을 물어야 한다'. 앞의 복수 행위자에서 단수 책임자로 바뀐다(신 22:19 וְעָנְשׁוּ ... מֵאָה כֶסֶף처럼 금전 벌)."
+        },
+        {
+          "words": [
+            "02yb7",
+            "02qX2",
+            "02ePf",
+            "02yfj",
+            "02YM9"
+          ],
+          "hebrew": "כַּֽאֲשֶׁ֨ר יָשִׁ֤ית עָלָיו֙ בַּ֣עַל הָֽאִשָּׁ֔ה",
+          "kind": "lexical/syntactic",
+          "reading_ko": "'그 여자의 בַּעַל(남편)이 그에게 부과하는 대로'. שִׁית עַל은 출 21:30 כֹּפֶר יוּשַׁת עָלָיו(속전이 부과되다)와 같은 법적 부과 표현."
+        },
+        {
+          "words": [
+            "02R56",
+            "02wHB"
+          ],
+          "hebrew": "וְנָתַ֖ן בִּפְלִלִֽים",
+          "kind": "lexical (difficult)",
+          "reading_ko": "'그리고 그는 בִּפְלִלִים 내야 한다'. פְּלִילִים은 고정 WLC에서 신 32:31, 욥 31:11(그리고 형용사 פְּלִילִי 욥 31:28, 동사 פלל 피엘 삼상 2:25)에 나오며 판단·심판 영역이다. 후보: (a) 재판관(중재자)들을 통해/그들의 판정에 따라, (b) 사정(査定)에 따라. 패킷에 이문 근거는 없다. 다른 낱말로 고치는 추측적 교정은 재구성일 뿐 증언된 독법이 아니다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.21.23",
+      "clauses": [
+        {
+          "words": [
+            "02qAN",
+            "02KVq",
+            "02S4L"
+          ],
+          "hebrew": "וְאִם־אָס֖וֹן יִהְיֶ֑ה",
+          "kind": "syntactic",
+          "reading_ko": "'그러나 אָסוֹן이 있으면'. 21:22의 부정 조건과 대조."
+        },
+        {
+          "words": [
+            "02rwC",
+            "02MHW",
+            "026Qv",
+            "02pjb"
+          ],
+          "hebrew": "וְנָתַתָּ֥ה נֶ֖פֶשׁ תַּ֥חַת נָֽפֶשׁ",
+          "kind": "syntactic/discourse",
+          "reading_ko": "weqatal 2ms '너는 목숨 대신 목숨을 주어야 한다'. 3인칭 가해자 규정에서 2인칭 법 수신자(공동체/재판 주체)로 바뀐다. 가해자가 '너'라고 단정할 근거는 없으므로 수동문으로 평탄화하지 않고 '너'를 유지하며 각주로 알린다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.21.24",
+      "clauses": [
+        {
+          "words": [
+            "02Jy1",
+            "02eQ5",
+            "02jEY"
+          ],
+          "hebrew": "עַ֚יִן תַּ֣חַת עַ֔יִן",
+          "kind": "lexical",
+          "reading_ko": "'눈 대신 눈'. 21:23의 동사 וְנָתַתָּה에 계속 걸리는 동사 없는 목록."
+        },
+        {
+          "words": [
+            "02ew3",
+            "02y2D",
+            "02T4z"
+          ],
+          "hebrew": "שֵׁ֖ן תַּ֣חַת שֵׁ֑ן",
+          "kind": "lexical",
+          "reading_ko": "'이 대신 이'."
+        },
+        {
+          "words": [
+            "02Q7m",
+            "02E1U",
+            "02kbD"
+          ],
+          "hebrew": "יָ֚ד תַּ֣חַת יָ֔ד",
+          "kind": "lexical",
+          "reading_ko": "'손 대신 손'."
+        },
+        {
+          "words": [
+            "028qD",
+            "02Zxt",
+            "02uHA"
+          ],
+          "hebrew": "רֶ֖גֶל תַּ֥חַת רָֽגֶל",
+          "kind": "lexical",
+          "reading_ko": "'발 대신 발'."
+        }
+      ]
+    },
+    {
+      "id": "Exod.21.25",
+      "clauses": [
+        {
+          "words": [
+            "022kF",
+            "02mSY",
+            "022Fo"
+          ],
+          "hebrew": "כְּוִיָּה֙ תַּ֣חַת כְּוִיָּ֔ה",
+          "kind": "lexical",
+          "reading_ko": "'화상 대신 화상'(כְּוִיָּה, 불에 덴 상처)."
+        },
+        {
+          "words": [
+            "02ac8",
+            "0252Z",
+            "02UX4"
+          ],
+          "hebrew": "פֶּ֖צַע תַּ֣חַת פָּ֑צַע",
+          "kind": "lexical",
+          "reading_ko": "'상처 대신 상처'(פֶּצַע, 터진/벤 상처; 창 4:23 선정본 '다치게 한'과 같은 어근)."
+        },
+        {
+          "words": [
+            "02EnX",
+            "02NXR",
+            "0225M"
+          ],
+          "hebrew": "חַבּוּרָ֕ה תַּ֖חַת חַבּוּרָֽה",
+          "kind": "lexical",
+          "reading_ko": "'멍 대신 멍'(חַבּוּרָה, 맞은 자국·멍; 창 4:23 선정본 '멍을 입힌'과 같은 낱말). 절 뒤 samekh(ס) 단락 표지."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Exod.21.22",
+      "ko": "사람들이 서로 싸우다가 임신한 여자를 쳐서 그 여자의 아이가 나왔으나 다른 큰 해가 없으면, 그 친 자는 그 여자의 남편이 그에게 부과하는 대로 반드시 벌금을 물어야 한다. 그는 재판관들의 판정에 따라 물어야 한다.",
+      "en": "When men fight and strike a pregnant woman so that her children come out, but there is no serious harm, he must surely be fined as the woman's husband imposes on him, and he shall pay as the judges assess.",
+      "es": "Si unos hombres riñen y golpean a una mujer embarazada, de modo que sus hijos salen, pero no hay dano grave, el culpable sera multado segun lo que le imponga el marido de la mujer, y pagara segun la estimacion de los jueces."
+    },
+    {
+      "id": "Exod.21.23",
+      "ko": "그러나 큰 해가 있으면, 너는 목숨에는 목숨으로 갚아야 한다.",
+      "en": "But if there is serious harm, you shall give life for life,",
+      "es": "Pero si hay dano grave, daras vida por vida,"
+    },
+    {
+      "id": "Exod.21.24",
+      "ko": "눈에는 눈, 이에는 이, 손에는 손, 발에는 발,",
+      "en": "eye for eye, tooth for tooth, hand for hand, foot for foot,",
+      "es": "ojo por ojo, diente por diente, mano por mano, pie por pie,"
+    },
+    {
+      "id": "Exod.21.25",
+      "ko": "화상에는 화상, 상처에는 상처, 멍에는 멍으로 갚아야 한다.",
+      "en": "burn for burn, wound for wound, bruise for bruise.",
+      "es": "quemadura por quemadura, herida por herida, golpe por golpe."
+    }
+  ],
+  "initial_proposals_note": "Initial proposals were saved to /tmp/hr/independent.json (mtime 2026-10-31T04:15:16Z) from the claim packet raw_xml and pinned WLC concordance only, before the earlier Sonnet cloud draft was opened. They are copied here verbatim, including the unaccented Spanish typed in that scratch file; the preferred wording below restores standard Spanish orthography.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "Packet current_selected is empty. data/editorial.json on this branch (based on main 10983fc) has 126 selected verses and no Exodus verse."
+    },
+    {
+      "kind": "claude_cloud_draft",
+      "result": "found",
+      "path": "automation/cloud-drafts/20261029T031814Z-b65b0572.json",
+      "branch": "claude/friendly-heisenberg-j4sxu5",
+      "branch_commit": "345da1016809e936e5c8aa96e7684b16eb10b023",
+      "file_sha256_as_shown_by_git_show": "f952f06954dbd47b20be55e8ae25788c8702228563644b2a4ec6463518474edb",
+      "model_label_in_record": "Sonnet 5.5 (claude-sonnet-5-5)",
+      "model_identity_basis_in_record": "Self-reported from session system prompt; exact snapshot, token and cost counters not exposed (unavailable)",
+      "state_in_record": "unadopted_model_draft",
+      "note": "Bulk draft of Exod.18.6-23.3 (100 verses). Its source_hash and source_commit match this packet."
+    },
+    {
+      "kind": "gpt_record",
+      "result": "none_found",
+      "note": "No GPT record for Exod.21.22-25 found on main or any fetched origin/claude/* branch (git grep for the OSIS IDs). No GPT response is quoted or simulated here."
+    },
+    {
+      "kind": "gemini_record",
+      "result": "none_found",
+      "note": "No Gemini record for Exod.21.22-25 found on main or any fetched origin/claude/* branch. No Gemini response is quoted or simulated here."
+    },
+    {
+      "kind": "other_hard_review",
+      "result": "none",
+      "note": "No other hard-review claim or cloud-review for unit exod-21-22-25 on any fetched branch; tools/claude_hard_review.py selected it as the first unclaimed unit."
+    }
+  ],
+  "earlier_record_texts": {
+    "sonnet_cloud_draft_20261029T031814Z-b65b0572": {
+      "Exod.21.22": {
+        "ko": "사람들이 싸우다가 임신한 여자를 밀쳐 아이가 나오게 되었으나 다른 해가 없으면, 그 여자의 남편이 요구하는 대로 벌금을 물고 재판관의 판단에 따라 내야 한다.",
+        "en": "When men strive together and hit a pregnant woman, so that her children come out, but there is no harm, the one who hit her shall surely be fined, as the woman’s husband shall impose on him, and he shall pay as the judges determine.",
+        "es": "Si unos hombres riñen y golpean a una mujer embarazada, y salen sus hijos, pero no hay otro daño, el culpable será multado según lo que le imponga el marido de la mujer, y pagará conforme a los jueces.",
+        "reason_ko": "יָצְאוּ יְלָדֶיהָ는 ‘조산·유산’ 해석 갈림. 본문 그대로 ‘나오게 되어’. אָסוֹן은 ‘해(피해)’.",
+        "counterargument_ko": "‘유산’ 또는 ‘조산’으로 단정.",
+        "current_opinion_ko": "중립 번역 유지, 각주 필요.",
+        "reconsider_if_ko": "주석·사본 대조에서 새로운 쟁점이 확인될 경우."
+      },
+      "Exod.21.23": {
+        "ko": "그러나 해가 있으면 생명은 생명으로 갚아야 한다.",
+        "en": "But if there is harm, then you shall pay life for life,",
+        "es": "Pero si hay daño, pagarás vida por vida,",
+        "reason_ko": "נֶפֶשׁ은 ‘생명’.",
+        "counterargument_ko": "뚜렷한 대안 읽기 없음(직역·의역 선택 차이 정도).",
+        "current_opinion_ko": "현재 번역 유지.",
+        "reconsider_if_ko": "주석·사본 대조에서 새로운 쟁점이 확인될 경우."
+      },
+      "Exod.21.24": {
+        "ko": "눈은 눈으로, 이는 이로, 손은 손으로, 발은 발로,",
+        "en": "eye for eye, tooth for tooth, hand for hand, foot for foot,",
+        "es": "ojo por ojo, diente por diente, mano por mano, pie por pie,",
+        "reason_ko": "특별한 어휘·구문 쟁점 없이 원문 순서를 따라 직역함.",
+        "counterargument_ko": "뚜렷한 대안 읽기 없음(직역·의역 선택 차이 정도).",
+        "current_opinion_ko": "현재 번역 유지.",
+        "reconsider_if_ko": "주석·사본 대조에서 새로운 쟁점이 확인될 경우."
+      },
+      "Exod.21.25": {
+        "ko": "데운 것은 데운 것으로, 상처는 상처로, 멍은 멍으로 갚아야 한다.",
+        "en": "burn for burn, wound for wound, stripe for stripe.",
+        "es": "quemadura por quemadura, herida por herida, golpe por golpe.",
+        "reason_ko": "특별한 어휘·구문 쟁점 없이 원문 순서를 따라 직역함.",
+        "counterargument_ko": "뚜렷한 대안 읽기 없음(직역·의역 선택 차이 정도).",
+        "current_opinion_ko": "현재 번역 유지.",
+        "reconsider_if_ko": "주석·사본 대조에서 새로운 쟁점이 확인될 경우."
+      }
+    }
+  },
+  "comparison_findings_ko": [
+    {
+      "id": "Exod.21.22",
+      "severity": "high",
+      "finding_ko": "기존 Sonnet 초안 ko는 עָנוֹשׁ יֵעָנֵשׁ의 3ms 주어(벌금을 무는 사람)를 빼고 '벌금을 물고 ... 내야 한다'로만 써서, 한국어로는 누가 벌금을 무는지(남편? 싸운 사람들?)가 드러나지 않는다. 같은 초안 en은 'the one who hit her'로 보충했으므로 언어 간 불일치다. 강조 부정사 절대형도 ko에서 빠졌다. 제안: ko '친 자는 ... 반드시 벌금을 물어야 한다'(보충 표시)."
+    },
+    {
+      "id": "Exod.21.22",
+      "severity": "medium",
+      "finding_ko": "기존 초안 ko '다른 해', es 'otro daño'의 '다른/otro'는 히브리어에 없는 보충이며, '아이가 나온 것 자체는 해가 아니다(=여자 이외의 해)'라는 특정 해석으로 기운다. 리사의 독립 초기안 ko에도 '다른 큰 해'로 같은 보충이 들어가 있었음을 확인해 최종안에서 뺐다. en 초안 'no harm'은 보충이 없다."
+    },
+    {
+      "id": "Exod.21.22",
+      "severity": "medium",
+      "finding_ko": "기존 초안 ko '밀쳐'는 נגף를 '밀다'로 좁힌다. 출 21:35(소가 소를 들이받음) 용례로 보아 '치다/부딪치다'가 더 넓고 en 'hit', es 'golpean'과도 맞는다. '아이가 나오게 되었으나'의 사동 '-게 되다'와 접미 '그 여자의'가 빠진 점도 원문 구조와 다르다."
+    },
+    {
+      "id": "Exod.21.22",
+      "severity": "low",
+      "finding_ko": "기존 초안 es 'pagará conforme a los jueces'는 무엇에 따르는지(판정/사정)가 불완전하다. 제안 es 'según lo que determinen los jueces'."
+    },
+    {
+      "id": "Exod.21.23",
+      "severity": "medium",
+      "finding_ko": "기존 초안 ko '생명은 생명으로 갚아야 한다'는 2ms וְנָתַתָּה의 '너'를 생략해 3인칭 가해자 규정처럼 읽힌다. en/es 초안은 'you shall pay / pagarás'로 2인칭을 유지해 언어 간 불일치. 이 인칭 전환은 해석상 중요하므로(가해자 개인이 아니라 법 수신자 공동체가 집행 주체일 가능성) ko에 '너는'을 살려야 한다."
+    },
+    {
+      "id": "Exod.21.25",
+      "severity": "medium",
+      "finding_ko": "기존 초안 ko '데운 것은 데운 것으로'는 כְּוִיָּה(화상)를 어색하게 옮긴다. en 'stripe'는 חַבּוּרָה를 옛 영어식으로 옮긴 것인데, 현재 선정본 창 4:23은 같은 낱말을 en 'bruising', ko '멍'으로 옮겼으므로 en 'bruise'가 일관된다. es 'golpe'(타격)는 결과(멍)보다 행위를 가리켜 'moretón'이 더 정확하다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "독립 초기안(/tmp/hr/independent.json, 2026-10-31T04:15:16Z 저장) 이후 바꾼 점: (1) 21:22 ko의 '다른 큰 해'에서 히브리어에 없는 '다른'을 삭제(기존 초안과 같은 보충을 리사도 넣었음을 비교 과정에서 발견). (2) 21:22 es에 강조 부정사 절대형을 'sin falta'로 반영(선정본 창 2:17 es 'morirás sin falta'와 일관), 'riñen entre sí', 'según lo que determinen los jueces'로 다듬고 스페인어 정서법(ñ, 강세)을 복원. en 'assess'를 'determine'으로 바꿈(판정 주체를 분명히 함). (3) 21:23-25 ko를 '목숨에는 목숨으로 갚아야 한다. / 눈에는 눈 ...'의 두 문장 구조에서, 21:23 동사를 '갚고'로 이어 21:24-25 목록이 같은 동사 아래 있음을 보이는 한 문장 구조로 바꿈('갚아야 한다'는 21:25에서 보충 반복). (4) 21:25 es 'golpe'를 'moretón'으로 바꿈. 의미 판단(아이 나옴의 중립 번역, אָסוֹן='큰 해', פְּלִלִים='재판관들의 판정', 2인칭 유지)은 바꾸지 않았다.",
+  "external_evidence_verified": [
+    {
+      "witness_kind": "ancient translation (reception), digital edition; not a manuscript",
+      "edition": "Rahlfs 1935 Septuagint, digital word list text_accented.csv from eliranwong/LXX-Rahlfs-1935 (repository license CC BY-NC-SA 4.0; only a short excerpt is quoted for research comparison)",
+      "url": "https://raw.githubusercontent.com/eliranwong/LXX-Rahlfs-1935/master/01_wordlist_unicode/text_accented.csv",
+      "accessed_utc": "2026-10-31T04:16:29Z",
+      "file_sha256": "6c6c50ff37cc8f0b5266be6de240bfbdb9706346aa9113dfb5fb755adf4ac09a",
+      "excerpt": "ἐὰν δὲ μάχωνται δύο ἄνδρες καὶ πατάξωσιν γυναῖκα ἐν γαστρὶ ἔχουσαν καὶ ἐξέλθῃ τὸ παιδίον αὐτῆς μὴ ἐξεικονισμένον ἐπιζήμιον ζημιωθήσεται καθότι ἂν ἐπιβάλῃ ὁ ἀνὴρ τῆς γυναικός δώσει μετὰ ἀξιώματος ἐὰν δὲ ἐξεικονισμένον ἦν δώσει ψυχὴν ἀντὶ ψυχῆς",
+      "observations_ko": "이 디지털 칠십인역 본문은 (1) '두 남자(δύο ἄνδρες)', (2) 단수 '그 여자의 아이(τὸ παιδίον αὐτῆς)', (3) MT의 'אָסוֹן이 없으면/있으면' 자리에 '형태가 갖추어지지 않은(μὴ ἐξεικονισμένον) / 형태가 갖추어졌으면(ἐξεικονισμένον ἦν)'이라는 태아 상태 조건, (4) בִּפְלִלִים 자리에 'μετὰ ἀξιώματος'(평가/사정에 따라), (5) 2ms וְנָתַתָּה 자리에 3sg 'δώσει(그가 줄 것이다)'를 가진다. 21:24-25 목록은 MT와 같은 순서·항목이다(κατάκαυμα, τραῦμα, μώλωπα).",
+      "status": "verified_excerpt_only",
+      "interpretation_limit_ko": "이것은 고대 번역의 독법이며 히브리어 이문의 증거로 바로 쓸 수 없다. (1),(5)가 다른 히브리어 대본을 반영하는지, 번역자의 해석·조화인지는 이 세션에서 판단할 근거가 없다(사해사본, 사마리아 오경, 타르굼, 불가타는 열지 않았다). 사본 대조를 수행했다고 주장하지 않는다. 번역은 고정 WLC(MT 표시문)를 따른다."
+    }
+  ],
+  "alternatives": {
+    "Exod.21.22": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "'그 여자의 아이가 나왔으나 큰 해가 없으면' — 출생/유산을 결정하지 않는 중립 번역, אָסוֹן의 대상 미지정",
+        "argument_ko": "יָצָא는 출생 일반 동사이고 낱말은 '아이(יֶלֶד)'다. אָסוֹן에 전치사구가 없어 대상을 정할 문법 근거가 없다. 21:23-25가 비치명적 상해까지 나열하므로 אָסוֹן은 사망만이 아니라 중대한 상해를 포괄한다.",
+        "objection_ko": "중립을 표방해도 한국어 '아이가 나왔으나 큰 해가 없으면'은 '아이도 무사히 태어났다'(조산)로 읽히기 쉬워 실제로는 B 쪽으로 기운다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "'조산하였으나(아이가 일찍 나왔으나) 여자나 아이에게 큰 해가 없으면' — 조산 해석을 본문에 반영",
+        "argument_ko": "יֶלֶד는 살아 있는 아이에 쓰이는 일반어이고, 사산을 뜻하는 다른 표현(예: 민 12:12의 '죽은 자처럼 나오는')을 쓰지 않았다. אָסוֹן의 대상을 둘 다로 보면 21:23 '목숨에는 목숨'이 태아의 죽음에도 적용된다.",
+        "objection_ko": "'일찍', '여자나 아이에게'는 히브리어에 없는 보충이다. 고대 이래 유산 해석도 강력하며, 번역문에 한 해석을 넣으면 각주로 되돌릴 수 없다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "'유산하였으나 (여자에게) 다른 해가 없으면' — 유산 해석을 본문에 반영",
+        "argument_ko": "아이가 '나오는' 사건 자체가 이미 결과로 상정되고 금전 배상만 남는 구조는 태아 손실에 대한 배상으로 읽기 자연스럽다는 주장. 고대 근동 법 전통에도 낙태 유발에 대한 벌금 규정이 있다고 흔히 보고된다(이 세션에서 원문 미확인).",
+        "objection_ko": "'유산', '여자에게', '다른'은 모두 보충이다. 칠십인역은 이 둘을 '형태가 갖추어졌는지'로 나누어 C를 그대로 지지하지도 않는다."
+      },
+      {
+        "label": "D (בִּפְלִלִים)",
+        "reading_ko": "'재판관들의 판정에 따라' vs '사정(평가)에 따라' vs 추측적 교정",
+        "argument_ko": "פְּלִילִים의 다른 용례(신 32:31, 욥 31:11)가 판단·재판 영역이고, 문맥상 남편의 일방적 요구를 공적 판정이 제한하는 구조가 자연스럽다. 칠십인역 'μετὰ ἀξιώματος'는 '평가에 따라' 쪽이다.",
+        "objection_ko": "신 32:31 'וְאֹיְבֵינוּ פְּלִילִים'은 뜻이 불분명해 '재판관'이라는 의미를 확정해 주지 못한다. 교정안은 증언되지 않은 재구성이라 본문에 채택하지 않는다."
+      }
+    ],
+    "Exod.21.23": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "'너는 목숨에는 목숨으로 갚고' — 2ms 유지",
+        "argument_ko": "וְנָתַתָּה는 분명한 2ms이며, 3ms וְנָתַן(21:22)과 의도적으로 대조된다. 인칭을 보존해야 집행 주체 해석(공동체/재판)이 독자에게 열린다.",
+        "objection_ko": "한국어 독자는 '너'를 가해자로 오해할 수 있다(칠십인역도 3sg δώσει로 옮겨 가해자 주어로 이해)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "'목숨에는 목숨으로 갚아야 한다' — 인칭 생략(기존 초안 ko)",
+        "argument_ko": "한국어 법조문 문체에서 자연스럽고 오해가 적다.",
+        "objection_ko": "원문 인칭 정보가 사라지고, 같은 초안의 en/es와 불일치한다."
+      }
+    ],
+    "Exod.21.24": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "'눈에는 눈으로, 이에는 이로, ...' — 문자적 동해보복 정식 그대로",
+        "argument_ko": "תַּחַת은 '대신에'이며, 원문은 같은 지체를 대응시키는 목록이다. 번역은 정식을 보존하고, 실제 집행 방식은 해석 문제로 각주에 둔다.",
+        "objection_ko": "같은 장 21:26-27(종의 눈/이 → 자유, תַּחַת 사용)과 21:30(속전 כֹּפֶר)은 신체 대 신체가 아닌 대체 배상을 보여 주므로, '눈에는 눈'을 문자 그대로 옮기면 법의 실제 기능(비례 배상 원칙)을 오도할 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "'눈의 값에는 눈의 값으로'처럼 배상 원칙으로 풀어 옮김",
+        "argument_ko": "21:26-27, 21:30과의 문맥 정합.",
+        "objection_ko": "해석을 본문에 넣는 의역이다. 레 24:19-20과 신 19:21의 같은 정식(신 19:21은 בְּ 사용)도 문자 그대로의 형식을 유지한다."
+      }
+    ],
+    "Exod.21.25": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "'화상 / 상처 / 멍'(ko), 'burn / wound / bruise'(en), 'quemadura / herida / moretón'(es)",
+        "argument_ko": "선정본 창 4:23의 פֶּצַע·חַבּוּרָה 번역(ko '다치게 한/멍을 입힌', en 'wounding/bruising')과 어휘가 일관된다.",
+        "objection_ko": "חַבּוּרָה는 채찍 자국 같은 '줄무늬 상처(stripe)'일 수 있어 '멍'이 너무 좁을 수 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "'데인 것 / 터진 상처 / 맞은 자국'처럼 행위 결과를 풀어 옮김",
+        "argument_ko": "각 낱말의 구체 의미를 더 드러낸다.",
+        "objection_ko": "목록의 간결한 대칭 리듬을 잃는다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.21.22-23 preferred 'her child came out but there is no serious harm' as a neutral rendering",
+    "objection_ko": "가장 강한 반론: (1) '큰(serious, grave)'은 히브리어 אָסוֹן 한 낱말에 대한 해석적 강화이며, 21:24-25의 화상·멍 같은 가벼운 상해까지 '큰 해'의 결과로 나열되는 것과 긴장한다. (2) 한국어 '아이가 나왔으나 큰 해가 없으면'은 사실상 '아이가 살아 태어났다'로 읽혀 조산 해석(B)을 몰래 채택한다. 아이가 죽어 나왔다면 '해가 없다'고 말하기 어렵기 때문이다. (3) 칠십인역은 이 조건 전체를 아이의 '형태 갖춤' 여부로 읽어, 고대 독자에게도 אָסוֹן의 대상이 태아였을 수 있음을 보여 준다. 그렇다면 대상을 비워 둔 번역은 원문보다 덜 모호한 것이 아니라 다르게 모호하다.",
+    "response_ko": "(1) 고정 WLC의 다른 세 용례(창 42:4, 42:38, 44:29)가 모두 치명적 재난이므로 '해' 단독보다 '큰 해'가 어휘 용례에 더 가깝다. 21:24-25 목록은 '동해(同害) 정식'의 전형 목록으로 레 24:20, 신 19:21에도 비슷하게 나오므로 이 사건에서 생길 수 있는 해의 세밀한 범위표라기보다 원칙의 인용일 수 있다. (2) 이 지적은 옳다. 다만 B나 C를 본문에 넣으면 보충이 더 많아진다. 한국어 '아이가 나왔으나'는 출산(살아서)과 유산(죽어서) 모두에 쓸 수 있는 표현이라 판단해 유지하고, 각주로 두 해석과 칠십인역 독법을 밝힌다. (3) 칠십인역 독법은 확인했으나(04:16:29Z 발췌) MT와 다른 조건 체계이며, 이를 근거로 MT 번역의 대상을 정하는 것은 번역과 수용사를 섞는 일이다.",
+    "remaining_doubt_ko": "한국어로 אָסוֹן의 대상 모호성과 '아이가 나옴'의 결과 모호성을 동시에 완전히 보존하는 표현은 찾지 못했다. 미해결로 남긴다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.21.22 '그 친 자는'",
+      "objection_ko": "히브리어는 3ms 동사뿐이며 '친 자'는 보충이다. 앞의 주어가 복수(싸우는 사람들)이므로 '친 자'로 단수 가해자를 특정하면 '여럿이 함께 친 경우'의 책임 배분 문제를 감춘다.",
+      "response_ko": "보충 없이 '그는'이라고 쓰면 한국어에서 선행사가 없어 남편으로 오독된다. 보충 낱말 목록에 올리고 각주로 3ms 전환을 알린다."
+    },
+    {
+      "target": "Exod.21.22 '남편'",
+      "objection_ko": "בַּעַל은 '주인, 소유자'이기도 하며(21:28-29 בַּעַל הַשּׁוֹר), 이 법이 여자를 남편의 소유처럼 다룬다는 사회사적 함의가 '남편'으로는 드러나지 않는다.",
+      "response_ko": "בַּעַל הָאִשָּׁה는 관용적으로 '여자의 남편'이며, '소유자'로 옮기는 것은 사회사적 해석을 본문에 넣는 일이다. 번역은 '남편'으로 두고 해석 문제는 각주 후보로 둔다."
+    },
+    {
+      "target": "Exod.21.22 '재판관들의 판정에 따라'",
+      "objection_ko": "פְּלִלִים의 의미가 확정되지 않았는데 '재판관들'이라는 기관을 본문에 넣는 것은 과신이다.",
+      "response_ko": "의미 범주(판단·재판)는 다른 용례로 지지되고, 칠십인역 '평가에 따라'도 같은 영역이다. 확신도를 medium으로 낮추고 대안을 각주에 둔다."
+    },
+    {
+      "target": "Exod.21.24 문자적 '눈에는 눈'",
+      "objection_ko": "21:26-27·21:30이 대체 배상을 보여 주므로 문자적 번역이 오도한다.",
+      "response_ko": "번역은 정식의 문자 형식을 보존하고, 집행이 문자적이었는지 배상 원칙이었는지는 해석·수용사 문제로 각주에 둔다. 이 세션은 랍비 전통 등의 원문을 열지 않았다."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.21.22": {
+      "ko": "사람들이 서로 싸우다가 임신한 여자를 쳐서 그 여자의 아이가 나왔으나 큰 해가 없으면, 친 자는 그 여자의 남편이 그에게 부과하는 대로 반드시 벌금을 물어야 한다. 그는 재판관들의 판정에 따라 내야 한다.",
+      "en": "When men fight with each other and strike a pregnant woman so that her children come out, but there is no serious harm, he must surely be fined as the woman’s husband imposes on him, and he shall pay as the judges determine.",
+      "es": "Si unos hombres riñen entre sí y golpean a una mujer embarazada, de modo que sus hijos salen, pero no hay daño grave, el culpable será multado sin falta según lo que le imponga el marido de la mujer, y pagará según lo que determinen los jueces."
+    },
+    "Exod.21.23": {
+      "ko": "그러나 큰 해가 있으면, 너는 목숨에는 목숨으로 갚고,",
+      "en": "But if there is serious harm, you shall give life for life,",
+      "es": "Pero si hay daño grave, darás vida por vida,"
+    },
+    "Exod.21.24": {
+      "ko": "눈에는 눈으로, 이에는 이로, 손에는 손으로, 발에는 발로,",
+      "en": "eye for eye, tooth for tooth, hand for hand, foot for foot,",
+      "es": "ojo por ojo, diente por diente, mano por mano, pie por pie,"
+    },
+    "Exod.21.25": {
+      "ko": "화상에는 화상으로, 상처에는 상처로, 멍에는 멍으로 갚아야 한다.",
+      "en": "burn for burn, wound for wound, bruise for bruise.",
+      "es": "quemadura por quemadura, herida por herida, moretón por moretón."
+    }
+  },
+  "clause_coverage_check": {
+    "Exod.21.22": [
+      {
+        "words": [
+          "02gtv",
+          "02nHJ",
+          "028D6"
+        ],
+        "ko": "사람들이 서로 싸우다가",
+        "en": "When men fight with each other",
+        "es": "Si unos hombres riñen entre sí"
+      },
+      {
+        "words": [
+          "02LCy",
+          "02KvZ",
+          "0236n"
+        ],
+        "ko": "임신한 여자를 쳐서",
+        "en": "and strike a pregnant woman",
+        "es": "y golpean a una mujer embarazada"
+      },
+      {
+        "words": [
+          "025Yk",
+          "026As"
+        ],
+        "ko": "그 여자의 아이가 나왔으나",
+        "en": "so that her children come out",
+        "es": "de modo que sus hijos salen"
+      },
+      {
+        "words": [
+          "02egP",
+          "02NbF",
+          "02krR"
+        ],
+        "ko": "큰 해가 없으면",
+        "en": "but there is no serious harm",
+        "es": "pero no hay daño grave"
+      },
+      {
+        "words": [
+          "02Mee",
+          "02VBQ"
+        ],
+        "ko": "친 자는 ... 반드시 벌금을 물어야 한다",
+        "en": "he must surely be fined",
+        "es": "el culpable será multado sin falta"
+      },
+      {
+        "words": [
+          "02yb7",
+          "02qX2",
+          "02ePf",
+          "02yfj",
+          "02YM9"
+        ],
+        "ko": "그 여자의 남편이 그에게 부과하는 대로",
+        "en": "as the woman’s husband imposes on him",
+        "es": "según lo que le imponga el marido de la mujer"
+      },
+      {
+        "words": [
+          "02R56",
+          "02wHB"
+        ],
+        "ko": "그는 재판관들의 판정에 따라 내야 한다",
+        "en": "and he shall pay as the judges determine",
+        "es": "y pagará según lo que determinen los jueces"
+      }
+    ],
+    "Exod.21.23": [
+      {
+        "words": [
+          "02qAN",
+          "02KVq",
+          "02S4L"
+        ],
+        "ko": "그러나 큰 해가 있으면",
+        "en": "But if there is serious harm",
+        "es": "Pero si hay daño grave"
+      },
+      {
+        "words": [
+          "02rwC",
+          "02MHW",
+          "026Qv",
+          "02pjb"
+        ],
+        "ko": "너는 목숨에는 목숨으로 갚고",
+        "en": "you shall give life for life",
+        "es": "darás vida por vida"
+      }
+    ],
+    "Exod.21.24": [
+      {
+        "words": [
+          "02Jy1",
+          "02eQ5",
+          "02jEY"
+        ],
+        "ko": "눈에는 눈으로",
+        "en": "eye for eye",
+        "es": "ojo por ojo"
+      },
+      {
+        "words": [
+          "02ew3",
+          "02y2D",
+          "02T4z"
+        ],
+        "ko": "이에는 이로",
+        "en": "tooth for tooth",
+        "es": "diente por diente"
+      },
+      {
+        "words": [
+          "02Q7m",
+          "02E1U",
+          "02kbD"
+        ],
+        "ko": "손에는 손으로",
+        "en": "hand for hand",
+        "es": "mano por mano"
+      },
+      {
+        "words": [
+          "028qD",
+          "02Zxt",
+          "02uHA"
+        ],
+        "ko": "발에는 발로",
+        "en": "foot for foot",
+        "es": "pie por pie"
+      }
+    ],
+    "Exod.21.25": [
+      {
+        "words": [
+          "022kF",
+          "02mSY",
+          "022Fo"
+        ],
+        "ko": "화상에는 화상으로",
+        "en": "burn for burn",
+        "es": "quemadura por quemadura"
+      },
+      {
+        "words": [
+          "02ac8",
+          "0252Z",
+          "02UX4"
+        ],
+        "ko": "상처에는 상처로",
+        "en": "wound for wound",
+        "es": "herida por herida"
+      },
+      {
+        "words": [
+          "02EnX",
+          "02NXR",
+          "0225M"
+        ],
+        "ko": "멍에는 멍으로 갚아야 한다",
+        "en": "bruise for bruise",
+        "es": "moretón por moretón"
+      }
+    ]
+  },
+  "supplied_words_ko": [
+    {
+      "id": "Exod.21.22",
+      "supplied": "ko '친 자는', es 'el culpable': 히브리어 3ms 동사 יֵעָנֵשׁ의 주어를 풀어 쓴 보충. en은 'he'로 보충 없이 둔다."
+    },
+    {
+      "id": "Exod.21.22",
+      "supplied": "ko '큰', en 'serious', es 'grave': אָסוֹן의 어휘 용례(창 42:4, 42:38, 44:29)에 근거한 의미 보충. 별도 히브리어 낱말은 없다."
+    },
+    {
+      "id": "Exod.21.22",
+      "supplied": "ko '서로', en 'with each other', es 'entre sí': 니팔 נצה의 상호 의미를 드러낸 것(낱말 보충이 아닌 태의 반영)."
+    },
+    {
+      "id": "Exod.21.25",
+      "supplied": "ko '갚아야 한다': 21:23 וְנָתַתָּה가 21:24-25 목록 전체를 지배함을 보이려고 목록 끝에 되풀이한 보충. 히브리어 21:25에는 동사가 없다. en/es는 되풀이하지 않는다."
+    }
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.21.22",
+      "note_ko": "'아이가 나왔으나'(וְיָצְאוּ יְלָדֶיהָ, 직역 '그 여자의 아이들이 나왔으나')는 살아서 일찍 태어난 경우(조산)로도, 죽어서 나온 경우(유산)로도 읽힌다. 원문은 어느 쪽인지 밝히지 않는다."
+    },
+    {
+      "id": "Exod.21.22",
+      "note_ko": "'큰 해'(אָסוֹן)가 여자에게 일어나는 해인지, 아이에게 일어나는 해인지, 둘 다인지 원문은 밝히지 않는다. 이 낱말은 창 42:4, 38; 44:29에서 치명적 재난을 뜻한다."
+    },
+    {
+      "id": "Exod.21.22",
+      "note_ko": "'재판관들의 판정에 따라'(בִּפְלִלִים)는 뜻이 확실하지 않은 표현이다. '평가(사정)에 따라'로도 옮길 수 있다. 칠십인역은 '평가에 따라(μετὰ ἀξιώματος)'로 옮겼다."
+    },
+    {
+      "id": "Exod.21.22",
+      "note_ko": "칠십인역은 이 법을 '두 남자'가 싸우는 경우로 쓰고, '해가 없으면/있으면' 대신 아이가 '아직 형태가 갖추어지지 않았으면/갖추어졌으면'으로 조건을 나눈다. 이는 고대 번역의 독법이며 히브리어 마소라 본문과 다르다."
+    },
+    {
+      "id": "Exod.21.23",
+      "note_ko": "'너는'(וְנָתַתָּה)은 원문의 2인칭이다. 앞 절의 3인칭(그는 ... 내야 한다)과 달리 법을 받는 공동체(또는 재판 주체)에게 하는 말일 수 있다. 칠십인역은 3인칭 '그가 줄 것이다'로 옮겼다."
+    },
+    {
+      "id": "Exod.21.24",
+      "note_ko": "이 동해(同害) 정식은 레 24:19-20, 신 19:21에도 나온다. 같은 장 21:26-27(종의 눈이나 이를 상하게 하면 자유를 줌)과 21:30(속전)은 대체 배상의 예를 보여 주어, 이 정식이 실제로 문자 그대로 집행되었는지 비례 배상의 원칙이었는지는 해석이 갈린다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "Emphatic infinitive absolute",
+      "finding_ko": "선정본 창 2:17 מוֹת תָּמוּת은 ko '반드시', en 'surely', es 'sin falta'. 21:22 עָנוֹשׁ יֵעָנֵשׁ도 같은 방식(ko '반드시', en 'must surely', es 'sin falta')으로 옮겼다."
+    },
+    {
+      "topic": "Gen 4:23 vocabulary",
+      "finding_ko": "선정본 창 4:23은 פֶּצַע/חַבּוּרָה를 ko '다치게 한/멍을 입힌', en 'wounding/bruising', es 'herirme/golpearme'로 옮겼다. 21:25 en 'wound/bruise'는 일관되고, es는 명사 결과형이 필요해 'herida/moretón'을 택했다(창 4:23 es 'golpearme'와 어근 대응은 다르다). 편집자가 es 어휘 통일 여부를 결정해야 한다."
+    },
+    {
+      "topic": "Casuistic law register",
+      "finding_ko": "현재 선정본에는 출애굽기 법조문이 없어 결의법 문체(ko '-면 ... -야 한다', en 'When ... he must', es 'Si ...')의 기준이 아직 없다. 이 리뷰의 문체는 21장 전체 채택 시 다시 맞춰야 한다."
+    }
+  ],
+  "unverified_reception": [
+    {
+      "claim_ko": "고대 근동 법전(함무라비 법전 등)에 임신부를 쳐서 유산하게 한 경우의 벌금 규정이 있다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "No primary text of any ancient Near Eastern law collection was opened in this session."
+    },
+    {
+      "claim_ko": "랍비 전통(미쉬나·탈무드)과 필론, 요세푸스 등이 이 본문과 동해보복을 금전 배상으로 해석했다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "No rabbinic, Philo or Josephus text was opened."
+    },
+    {
+      "claim_ko": "사마리아 오경, 쿰란 사본, 타르굼, 페쉬타, 불가타의 이 절 독법.",
+      "status": "not_verified_in_session",
+      "reason": "Not opened; no witness collation is claimed."
+    },
+    {
+      "claim_ko": "בִּפְלִלִים을 다른 낱말로 고치는 현대 학자의 교정 제안.",
+      "status": "not_verified_in_session",
+      "reason": "Reported conjectures were not checked against a published source; any such emendation is a reconstruction, not an attested reading."
+    }
+  ],
+  "final_opinion_ko": "네 절 모두 고정 WLC(MT 표시문)를 번역했고, 칠십인역 독법이나 추측적 교정을 본문에 채택하지 않았다. 핵심 판단: (1) 21:22 '그 여자의 아이가 나왔으나'는 조산/유산을 결정하지 않는 번역으로 두고 각주로 두 해석을 밝힌다. (2) אָסוֹן은 어휘 용례에 따라 '큰 해/serious harm/daño grave'로 옮기되 대상(여자/아이/둘 다)은 비워 둔다. 기존 초안과 리사 초기안의 '다른 해/otro daño'는 히브리어에 없는 보충이라 뺀다. (3) 벌금을 무는 3ms 주어를 ko에 '친 자는'으로 보충하고, 강조 부정사 절대형을 세 언어 모두 반영한다. (4) בִּפְלִלִים은 '재판관들의 판정에 따라'로 두되 확신도를 낮추고 대안을 각주에 둔다. (5) 21:23의 2인칭 '너는'을 ko에도 살린다(기존 초안 ko는 생략). (6) 21:24-25는 문자적 동해 정식을 보존하고, 실제 집행 해석은 각주로 둔다. 화상/상처/멍 어휘는 선정본 창 4:23과 맞춘다. 이 결과는 채택되지 않은 모델 리뷰이며 GPT·Gemini 독립 검토와 편집 채택이 필요하다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.21.22",
+      "level": "medium",
+      "note_ko": "구문과 어휘는 고정 WLC에서 확인했다. 조산/유산과 אָסוֹן의 대상은 원문이 결정하지 않으며, בִּפְלִלִים의 정확한 의미는 불확실하다."
+    },
+    {
+      "id": "Exod.21.23",
+      "level": "medium-high",
+      "note_ko": "2ms 형태는 확실하다. 2인칭의 지시 대상(공동체/재판 주체)은 해석 문제다."
+    },
+    {
+      "id": "Exod.21.24",
+      "level": "high",
+      "note_ko": "어휘와 구조는 단순하다. 집행 방식(문자적/배상)은 번역이 아닌 해석 문제다."
+    },
+    {
+      "id": "Exod.21.25",
+      "level": "high",
+      "note_ko": "세 낱말의 기본 의미는 분명하다. חַבּוּרָה의 '멍/줄무늬 상처' 범위만 다소 열려 있다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.21.22",
+      "condition_ko": "(a) 편집 방침이 해석을 본문에 넣는 쪽(조산 B 또는 유산 C)으로 정해지면 해당 대안으로 다시 쓴다. (b) 사마리아 오경·쿰란 사본에서 이 절의 히브리어 이문(예: '두 사람', אָסוֹן 자리의 다른 낱말)이 실제로 확인되면 본문 비평 각주를 추가하고 번역을 다시 검토한다. (c) 확인 가능한 히브리어 사전·주석에서 פְּלִלִים이 '재판관'이 아닌 '평가/사정'이라는 근거가 우세하면 '사정에 따라'로 바꾼다. (d) GPT/Gemini 독립 검토가 '큰'의 보충이 과도하다고 구체 근거로 지적하면 '해'로 줄이는 안을 검토한다."
+    },
+    {
+      "id": "Exod.21.23",
+      "condition_ko": "편집 방침이 법조문의 2인칭 수신자를 한국어에서 생략하기로 하거나, 21장 전체 문체 통일 과정에서 2인칭 처리 기준이 정해지면 다시 맞춘다."
+    },
+    {
+      "id": "Exod.21.24",
+      "condition_ko": "레 24:19-20, 신 19:21 번역이 채택될 때 같은 정식의 번역을 통일한다(신 19:21은 תַּחַת 대신 בְּ). 편집 방침이 정식을 배상 원칙으로 풀어 쓰기로 하면 대안 B를 검토한다."
+    },
+    {
+      "id": "Exod.21.25",
+      "condition_ko": "창 4:23의 es 어휘(golpe/moretón) 통일 결정, 또는 חַבּוּרָה를 '줄무늬 상처'로 보는 근거가 확인되면 다시 검토한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.21.22",
+      "issue": "Whether yatse'u yeladeha denotes premature live birth or miscarriage",
+      "status": "unresolved_lexical_discourse",
+      "needed_evidence": "Editorial policy on neutral rendering; specialist judgment; checked reception sources (ANE laws, rabbinic, Philo) not opened here."
+    },
+    {
+      "id": "Exod.21.22",
+      "issue": "Referent of ason (woman, child(ren), or both) in 21:22 and 21:23",
+      "status": "unresolved_syntactic",
+      "needed_evidence": "No prepositional phrase in MT; LXX reads a different condition (fetal formation), which is reception, not a Hebrew variant."
+    },
+    {
+      "id": "Exod.21.22",
+      "issue": "Meaning of biflilim (by judges / by assessment)",
+      "status": "unresolved_lexical",
+      "needed_evidence": "Verified lexicon entry and commentary; only Deut 32:31, Job 31:11, 31:28, 1Sam 2:25 checked in pinned WLC; LXX meta axiomatos verified."
+    },
+    {
+      "id": "Exod.21.22",
+      "issue": "LXX 'two men' and singular paidion vs MT anashim and plural yeladeha",
+      "status": "unresolved_textual_reception",
+      "needed_evidence": "Samaritan Pentateuch, Qumran Exodus fragments and LXX manuscript apparatus; none collated in this session."
+    },
+    {
+      "id": "Exod.21.23",
+      "issue": "Addressee of 2ms wenatattah vs LXX 3sg dosei",
+      "status": "unresolved_discourse_textual",
+      "needed_evidence": "Whether LXX reflects a different Vorlage or harmonization; editorial policy on second-person legal addressee."
+    },
+    {
+      "id": "Exod.21.24",
+      "issue": "Scope of talion list (applies to this case only or cited general principle) and literal vs compensatory execution",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Commentary and reception history; not a translation-wording question."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-31T04:13:13Z) into private/upstream_cache",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "result": "200",
+      "used_for": "Exod.2.13, 21.4, 21.6, 21.12, 21.18-32, 21.35, 22.7-8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Gen,Lev,Num,Deut,1Sam,2Sam,Job,Isa,Prov}.xml",
+      "accessed_utc": "2026-10-31T04:14:18Z (batch completed)",
+      "file_sha256": {
+        "Gen": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "Lev": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+        "Num": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "Deut": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "1Sam": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+        "2Sam": "e7793e141ed94eadbd2dfb23936abbb4062e81a7dcd41114a6e36644f50b8333",
+        "Job": "7db3311184122f37a8fd52f3c7c0c4a6d2da7b77ee82f4fdb26bcba9171d297f",
+        "Isa": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+        "Prov": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161"
+      },
+      "result": "200 each",
+      "used_for": "Concordance of lemmas 611 (ason), 6414/6415/6416 (pelilim), 5327 (natsah), 6064 (anash), 3206 (yeled); parallels Gen 25:25, 38:28-29, 42:4, 42:38, 44:29; Lev 24:10, 24:17-21; Num 12:12; Deut 19:21, 22:19, 25:11-12, 32:31; 1Sam 2:25; 2Sam 14:6; Job 1:21, 3:11, 31:11, 31:28"
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/",
+      "accessed_utc": "2026-10-31T04:16Z",
+      "result": "proxy CONNECT 403; not accessed",
+      "used_for": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/eliranwong/LXX-Rahlfs-1935/git/trees/master?recursive=1",
+      "accessed_utc": "2026-10-31T04:16Z",
+      "result": "403; not used",
+      "used_for": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/eliranwong/LXX-Rahlfs-1935/master/01_wordlist_unicode/text_accented.csv",
+      "accessed_utc": "2026-10-31T04:16:29Z",
+      "file_sha256": "6c6c50ff37cc8f0b5266be6de240bfbdb9706346aa9113dfb5fb755adf4ac09a",
+      "result": "200",
+      "used_for": "Short LXX excerpt for Exod 21:22-25 (reception comparison only)"
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation (Leningrad Codex images, Aleppo, DSS, Samaritan Pentateuch) was performed.",
+    "The LXX excerpt is from a digital Rahlfs 1935 word list, not from manuscripts or a critical apparatus.",
+    "No GPT, Gemini, Antigravity or human-specialist response exists for this unit in the repository; none is quoted or simulated.",
+    "No unanimous agreement or certification is claimed.",
+    "No remaining credit balance, dollar cap or credit deduction is asserted.",
+    "No current selected translation, immutable release, dist/ file or main branch was modified."
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/original-bible-hard-passages-5ti780",
+  "memo_ko": "automation/cloud-reviews/20261031T041313Z-ba623acb.ko.md",
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261031T041313Z-ba623acb.json",
+    "packet_sha256": "b393798ddccc07ecac9b8a103d8e60ad36ec8ff73076dc085be9b72041f193c9",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.21.22",
+        "raw_xml": "<verse osisID=\"Exod.21.22\">\n          <w lemma=\"c/3588 a\" morph=\"HC/C\" id=\"02gtv\">וְ/כִֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5327 a\" morph=\"HVNi3mp\" id=\"02nHJ\">יִנָּצ֣וּ</w>\n          <w lemma=\"376\" n=\"1.1.1\" morph=\"HNcmpa\" id=\"028D6\">אֲנָשִׁ֗ים</w>\n          <w lemma=\"c/5062\" n=\"1.1.0.0\" morph=\"HC/Vqq3cp\" id=\"02LCy\">וְ/נָ֨גְפ֜וּ</w>\n          <w lemma=\"802\" morph=\"HNcfsa\" id=\"02KvZ\">אִשָּׁ֤ה</w>\n          <w lemma=\"2030 a\" n=\"1.1.0\" morph=\"HAafsa\" id=\"0236n\">הָרָה֙</w>\n          <w lemma=\"c/3318\" morph=\"HC/Vqq3cp\" id=\"025Yk\">וְ/יָצְא֣וּ</w>\n          <w lemma=\"3206\" n=\"1.1\" morph=\"HNcmpc/Sp3fs\" id=\"026As\">יְלָדֶ֔י/הָ</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"02egP\">וְ/לֹ֥א</w>\n          <w lemma=\"1961\" n=\"1.0\" morph=\"HVqi3ms\" id=\"02NbF\">יִהְיֶ֖ה</w>\n          <w lemma=\"611\" n=\"1\" morph=\"HNcmsa\" id=\"02krR\">אָס֑וֹן</w>\n          <w lemma=\"6064\" morph=\"HVqa\" id=\"02Mee\">עָנ֣וֹשׁ</w>\n          <w lemma=\"6064\" n=\"0.1.1\" morph=\"HVNi3ms\" id=\"02VBQ\">יֵעָנֵ֗שׁ</w>\n          <w lemma=\"k/834 d\" morph=\"HR/Tr\" id=\"02yb7\">כַּֽ/אֲשֶׁ֨ר</w>\n          <w lemma=\"7896\" morph=\"HVqi3ms\" id=\"02qX2\">יָשִׁ֤ית</w>\n          <w lemma=\"5921 a\" n=\"0.1.0\" morph=\"HR/Sp3ms\" id=\"02ePf\">עָלָי/ו֙</w>\n          <w lemma=\"1167\" morph=\"HNcmsc\" id=\"02yfj\">בַּ֣עַל</w>\n          <w lemma=\"d/802\" n=\"0.1\" morph=\"HTd/Ncfsa\" id=\"02YM9\">הָֽ/אִשָּׁ֔ה</w>\n          <w lemma=\"c/5414\" n=\"0.0\" morph=\"HC/Vqq3ms\" id=\"02R56\">וְ/נָתַ֖ן</w>\n          <w lemma=\"b/6414\" n=\"0\" morph=\"HR/Ncmpa\" id=\"02wHB\">בִּ/פְלִלִֽים</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "5d54898520e313d4f1fa30001c25a0c378c4acdd0731f16de33527b23553cc05",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.21.23",
+        "raw_xml": "<verse osisID=\"Exod.21.23\">\n          <w lemma=\"c/518 a\" morph=\"HC/C\" id=\"02qAN\">וְ/אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"611\" n=\"1.0\" morph=\"HNcmsa\" id=\"02KVq\">אָס֖וֹן</w>\n          <w lemma=\"1961\" n=\"1\" morph=\"HVqi3ms\" id=\"02S4L\">יִהְיֶ֑ה</w>\n          <w lemma=\"c/5414\" morph=\"HC/Vqq2ms\" id=\"02rwC\">וְ/נָתַתָּ֥ה</w>\n          <w lemma=\"5315\" n=\"0.0\" morph=\"HNcbsa\" id=\"02MHW\">נֶ֖פֶשׁ</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"026Qv\">תַּ֥חַת</w>\n          <w lemma=\"5315\" n=\"0\" morph=\"HNcbsa\" id=\"02pjb\">נָֽפֶשׁ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "fdedec97fb541f5537950418ac3e7baeba65eba2d9a0f8d9eb5ef17a847f0b8a",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.21.24",
+        "raw_xml": "<verse osisID=\"Exod.21.24\">\n          <w lemma=\"5869 a\" n=\"1.1.0\" morph=\"HNcbsa\" id=\"02Jy1\">עַ֚יִן</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"02eQ5\">תַּ֣חַת</w>\n          <w lemma=\"5869 a\" n=\"1.1\" morph=\"HNcbsa\" id=\"02jEY\">עַ֔יִן</w>\n          <w lemma=\"8127\" n=\"1.0\" morph=\"HNcbsa\" id=\"02ew3\">שֵׁ֖ן</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"02y2D\">תַּ֣חַת</w>\n          <w lemma=\"8127\" n=\"1\" morph=\"HNcbsa\" id=\"02T4z\">שֵׁ֑ן</w>\n          <w lemma=\"3027\" n=\"0.1.0\" morph=\"HNcbsa\" id=\"02Q7m\">יָ֚ד</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"02E1U\">תַּ֣חַת</w>\n          <w lemma=\"3027\" n=\"0.1\" morph=\"HNcbsa\" id=\"02kbD\">יָ֔ד</w>\n          <w lemma=\"7272\" n=\"0.0\" morph=\"HNcfsa\" id=\"028qD\">רֶ֖גֶל</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"02Zxt\">תַּ֥חַת</w>\n          <w lemma=\"7272\" n=\"0\" morph=\"HNcfsa\" id=\"02uHA\">רָֽגֶל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "a4c4a38bdcbc793bc7588673c2c1af31514ed35bcdc1a80e75755a877bec2301",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.21.25",
+        "raw_xml": "<verse osisID=\"Exod.21.25\">\n          <w lemma=\"3555\" n=\"1.1.0\" morph=\"HNcfsa\" id=\"022kF\">כְּוִיָּה֙</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"02mSY\">תַּ֣חַת</w>\n          <w lemma=\"3555\" n=\"1.1\" morph=\"HNcfsa\" id=\"022Fo\">כְּוִיָּ֔ה</w>\n          <w lemma=\"6482\" n=\"1.0\" morph=\"HNcmsa\" id=\"02ac8\">פֶּ֖צַע</w>\n          <w lemma=\"8478\" morph=\"HR\" id=\"0252Z\">תַּ֣חַת</w>\n          <w lemma=\"6482\" n=\"1\" morph=\"HNcmsa\" id=\"02UX4\">פָּ֑צַע</w>\n          <w lemma=\"2250\" n=\"0.1\" morph=\"HNcfsa\" id=\"02EnX\">חַבּוּרָ֕ה</w>\n          <w lemma=\"8478\" n=\"0.0\" morph=\"HR\" id=\"02NXR\">תַּ֖חַת</w>\n          <w lemma=\"2250\" n=\"0\" morph=\"HNcfsa\" id=\"0225M\">חַבּוּרָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-samekh\">ס</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "ec970845b602da0c0eec870506aaa432df8b906a1fe6092e30a56d9be9bc21c1",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      }
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T04:13:13.873775+00:00",
+    "claim_pushed": "2026-10-31T04:13:20Z (commit b7c8d5b on claude/original-bible-hard-passages-5ti780 before any model review)",
+    "independent_reading_saved": "2026-10-31T04:15:16Z (/tmp/hr/independent.json mtime)",
+    "earlier_draft_opened": "about 2026-10-31T04:15:40Z, after the independent reading was saved",
+    "lxx_excerpt_accessed": "2026-10-31T04:16:29Z",
+    "completed": "2026-10-31T04:20:51Z"
+  },
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "raw_xml_has_no_note_rdg_or_qere": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "unit_id_matches_claim": true,
+    "clause_word_ranges_valid_and_cover_every_word": true,
+    "preferred_wording_ids_exactly_once": true,
+    "ko_en_es_nonempty": true,
+    "independent_initial_reading_ids_exactly_once": true,
+    "initial_proposals_ids_exactly_once": true,
+    "alternatives_cover_all_ids": true,
+    "clause_coverage_cover_all_ids": true,
+    "reconsider_if_cover_all_ids": true,
+    "confidence_cover_all_ids": true,
+    "no_lord_or_yeohowa_in_preferred": true,
+    "state_is_unadopted_model_review": true,
+    "selected_texts_modified": false,
+    "no_human_certification_claim": true,
+    "rights_recorded": true,
+    "self_check_is_not_independent_review": true
+  }
+}
