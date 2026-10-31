@@ -1,12 +1,12 @@
-# Génesis5:1–5
+# Génesis5:1–10
 
-Hansam Yang · Original Bible · v0.4.15
+Hansam Yang · Original Bible · v0.4.16
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Las selecciones de Génesis5:1–5 conservan propuestas independientes GPT/Gemini,revisión final oficial agy y borradores Claude Code con sus opiniones originales. Siguen pendientes la revisión humana y el cotejo completo.
+Las selecciones de los primeros10 versículos de Génesis5 conservan propuestas independientes GPT/Gemini,revisión final oficial agy y borradores Claude Code con sus opiniones originales. Siguen pendientes la revisión humana y el cotejo completo.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -44,6 +44,10 @@ Final opinion (Korean original): 계보 기록과 창조 회고를 구별하고 
 
 Counterargument (Korean): 아담/인류의 중첩은 주석에 보존한다. 영어 them은 집합적 의미를 옮긴 것이며 히브리어 목적어는 단수다. 기록은 현존 자필 문서나 저자 신원 증명이 아니다.
 
+Previous v0.4.15
+
+Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
+
 ## 2 · HYB.GEN.005.002
 
 Hebrew display (MT/WLC): זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם בְּי֖וֹם הִבָּֽרְאָֽם׃
@@ -75,6 +79,10 @@ Varón y mujer los creó, los bendijo y los llamó Ser humano cuando fueron crea
 Final opinion (Korean original): 남자와 여자 모두에게 붙인 집합 명칭 사람을 옮긴다. 히브리어 이름 adam과 고유명 아담의 소리·철자 연결은 주석에 남긴다. 남자만의 명칭으로 한정하지 않는다. 축복과 명명은 별개 동작이다.
 
 Counterargument (Korean): 히브리어 이름 adam과 고유명 아담의 소리·철자 연결은 주석에 남긴다. 남자만의 명칭으로 한정하지 않는다. 축복과 명명은 별개 동작이다.
+
+Previous v0.4.15
+
+Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
 
 ## 3 · HYB.GEN.005.003
 
@@ -108,6 +116,10 @@ Final opinion (Korean original): 백삼십과 모습/형상 병렬 및 셋 명�
 
 Counterargument (Korean): 아들은 문맥상 목적어를 보충한 것이다. 모습/형상의 차이를 독립된 교리로 확정하지 않으며 셋이 첫 자녀라고 추가하지 않는다.
 
+Previous v0.4.15
+
+Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
+
 ## 4 · HYB.GEN.005.004
 
 Hebrew display (MT/WLC): וַיִּֽהְי֣וּ יְמֵי־אָדָ֗ם אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֵׁ֔ת שְׁמֹנֶ֥ה מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -139,6 +151,10 @@ Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e 
 Final opinion (Korean original): 셋 이후 팔백 년과 아들·딸의 출생을 보존한다. 다른 자녀의 출생 시점·수·이름 및 계보의 완전성을 확정하지 않는다.
 
 Counterargument (Korean): 다른 자녀의 출생 시점·수·이름 및 계보의 완전성을 확정하지 않는다.
+
+Previous v0.4.15
+
+Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
 
 ## 5 · HYB.GEN.005.005
 
@@ -172,6 +188,170 @@ Final opinion (Korean original): 구백삼십 년과 죽었다의 마침을 옮�
 
 Counterargument (Korean): WLC의 숫자를 번역한 것이며 실제 연대·생물학적 수명 검증은 아니다. 다른 역본의 수치를 확인하지 않고 인용하지 않는다.
 
+Previous v0.4.15
+
+Todos los días que vivió Adán fueron novecientos treinta años, y murió.
+
+## 6 · HYB.GEN.005.006
+
+Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
+
+Set vivió ciento cinco años y engendró a Enós.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.6
+
+### Traducción seleccionada: mejor opción actual
+
+105년과 에노스의 출생을 옮긴다.
+
+#### claude-sonnet-5-5
+
+Set vivió 105 años y engendró a Enós.
+
+Final opinion (Korean original): 수치는 MT를 번역한 것이며 대안은 주석 사항이다.
+
+#### gemini-3.8-flash-medium
+
+Set vivió ciento cinco años, y engendró a Enós.
+
+Final opinion (Korean original): 주인님, 셋의 105년 생존과 에노스 출생을 정확히 반영한 selected 번역을 확정합니다. 이전 언급된 사마리아오경 수치(105/707/812)는 사본 대조 검증을 거치지 않은 미검증 항목이므로 증언 증거로 채택하지 않고 완전히 제외합니다.
+
+#### gpt-6.1-sol
+
+Set vivió ciento cinco años y engendró a Enós.
+
+Final opinion (Korean original): 105년과 에노스의 출생을 옮긴다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+## 7 · HYB.GEN.005.007
+
+Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֗ת אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־אֱנ֔וֹשׁ שֶׁ֣בַע שָׁנִ֔ים וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+
+Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.7
+
+### Traducción seleccionada: mejor opción actual
+
+에노스 출생 이후807년과 아들·딸을 모두 보존한다.
+
+#### claude-sonnet-5-5
+
+Después de engendrar a Enós, Set vivió 807 años y engendró hijos e hijas.
+
+Final opinion (Korean original): MT 수치를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y vivió Set, después de engendrar a Enós, ochocientos siete años, y engendró hijos e hijas.
+
+Final opinion (Korean original): 주인님, 에노스 출생 후 807년과 '아들들과 딸들'의 출산 관계가 충실히 반영되었습니다. 클로드 초안의 'other'와 같은 자녀 수 임의 한정이나 사망 언급이 배제된 원문 형태를 정확히 따릅니다.
+
+#### gpt-6.1-sol
+
+Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
+
+Final opinion (Korean original): 에노스 출생 이후807년과 아들·딸을 모두 보존한다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+## 8 · HYB.GEN.005.008
+
+Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
+
+Todos los días de Set fueron novecientos doce años, y murió.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.8
+
+### Traducción seleccionada: mejor opción actual
+
+셋의912년과 죽었다는 마침을 보존한다.
+
+#### claude-sonnet-5-5
+
+Todos los días de Set fueron 912 años, y murió.
+
+Final opinion (Korean original): MT를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y fueron todos los días de Set novecientos doce años; y murió.
+
+Final opinion (Korean original): 주인님, 셋의 총 향수 912년(105+807 산술 일치)과 본 배치 5개 구절 중 유일한 사망 후렴구(וַיָּמֹת)를 정확히 명시한 selected 번역을 채택합니다.
+
+#### gpt-6.1-sol
+
+Todos los días de Set fueron novecientos doce años, y murió.
+
+Final opinion (Korean original): 셋의912년과 죽었다는 마침을 보존한다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
+
+## 9 · HYB.GEN.005.009
+
+Hebrew display (MT/WLC): וַֽיְחִ֥י אֱנ֖וֹשׁ תִּשְׁעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־קֵינָֽן׃
+
+Enós vivió noventa años y engendró a Quenán.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.9
+
+### Traducción seleccionada: mejor opción actual
+
+에노스90년과 게난 출생을 옮긴다.
+
+#### claude-sonnet-5-5
+
+Enós vivió 90 años y engendró a Cainán.
+
+Final opinion (Korean original): 수치는 MT를 번역한 것이며 대안은 주석 사항이다.
+
+#### gemini-3.8-flash-medium
+
+Enós vivió noventa años, y engendró a Cainán.
+
+Final opinion (Korean original): 주인님, 에노스 90년과 게난 출생을 확정합니다. 스페인어 Quenán은 히브리어 קֵ이נָן(Qênān)의 스페인어 정서법에 따른 음역(e 앞의 k음을 qu-로 표기)일 뿐 가인(קַיִן, Caín)과의 동일시가 전혀 아닙니다.
+
+#### gpt-6.1-sol
+
+Enós vivió noventa años y engendró a Quenán.
+
+Final opinion (Korean original): 에노스90년과 게난 출생을 옮긴다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다. 게난/Kenan/Quenán은 편집 음역이며 가인과 동일시하지 않는다.
+
+Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다. 게난/Kenan/Quenán은 편집 음역이며 가인과 동일시하지 않는다.
+
+## 10 · HYB.GEN.005.010
+
+Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+
+Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.10
+
+### Traducción seleccionada: mejor opción actual
+
+게난 출생 이후815년과 아들·딸을 보존한다.
+
+#### claude-sonnet-5-5
+
+Después de engendrar a Cainán, Enós vivió 815 años y engendró hijos e hijas.
+
+Final opinion (Korean original): MT 수치를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y vivió Enós, después de engendrar a Cainán, ochocientos quince años, y engendró hijos e hijas.
+
+Final opinion (Korean original): 주인님, 게난 출생 후 815년 생존과 '아들들과 딸들' 출산 관계를 보존하고, 본문에 없는 사망 서술을 일절 추가하지 않은 selected 번역을 확정합니다.
+
+#### gpt-6.1-sol
+
+Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
+
+Final opinion (Korean original): 게난 출생 이후815년과 아들·딸을 보존한다. 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다. 게난/Kenan/Quenán은 편집 음역이며 가인과 동일시하지 않는다.
+
+Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다. 게난/Kenan/Quenán은 편집 음역이며 가인과 동일시하지 않는다.
+
 ## Notes
 
 El primer Adán del v.1 se entiende como figura genealógica; adam en la creación se vierte ser humano. BDB120 incluye varones y mujeres en5:1 y la denominación colectiva de5:2. El nombre colectivo Ser humano comparte grafía y sonido hebreos con Adán; no se restringe a los varones.
@@ -180,9 +360,11 @@ BDB8435 trata toledot como relato genealógico de una persona y sus descendiente
 
 Los vv.3–5 conservan las cifras del WLC fijado:130,800 después de Set y930 en total,y murió. La suma concuerda,sin verificar de forma independiente cronología histórica ni longevidad biológica. No se fijan número o fechas de los demás hijos ni la integridad de la genealogía. No se cotejaron cifras de otras versiones antiguas.
 
+Los vv.6–8 conservan105 años antes de que Set engendrara a Enós,807 después y912 en total. La suma verifica la aritmética textual,no una longevidad histórica. Los vv.9–10 conservan90 años de Enós y815 después de engendrar a Quenán,sin añadir la noticia de su muerte ausente en este grupo. Quenán transcribe el nombre hebreo y no se identifica con Caín.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis5:1–5 (es), research pilot v0.4.15. https://yangs777.github.io/hansam-bible/es/genesis-5/
+Hansam Yang. Original Bible: Genesis5:1–10 (es), research pilot v0.4.16. https://yangs777.github.io/hansam-bible/es/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
