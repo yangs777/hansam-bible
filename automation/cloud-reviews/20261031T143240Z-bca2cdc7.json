@@ -1,0 +1,524 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T143240Z-bca2cdc7",
+  "unit_id": "lev-17-10-14",
+  "verse_ids": [
+    "Lev.17.10",
+    "Lev.17.11",
+    "Lev.17.12",
+    "Lev.17.13",
+    "Lev.17.14"
+  ],
+  "unit_issue_ko": "피/생명·속죄를 위한 줌·베/인과 구문",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Lev.17.10-14 equals traditional Hebrew and English Leviticus 17:10-14; no numbering difference in this unit.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet (automation/hard-review-packets/20261031T143240Z-bca2cdc7.json); this record does not re-serialize them. Hebrew quoted here with cantillation marks was checked by script against the pinned source text (morpheme slashes removed, maqqef joined). Unaccented pointed or consonantal forms are lexical citations (roots, dictionary forms) or reported/reconstructed readings, not quotations of the source.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T14:33Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, session_context.effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The session system prompt also names claude-opus-5-5. The model's self-report is not independent evidence of the serving snapshot.",
+    "session": "https://claude.ai/code/session_01UknqVGBK7MPKb6DjwrALtf",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata only; no balance, dollar amount or credit deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact serving snapshot beyond the last_served_model label",
+      "token counts",
+      "cost or credit deduction",
+      "remaining promotional balance",
+      "whether last_served_model stayed constant for every turn of this run"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T14:32:40Z",
+    "claim_pushed": "2026-10-31T14:33Z (approximate)",
+    "identity_checked": "2026-10-31T14:33Z (approximate)",
+    "network_checks": "2026-10-31T14:34:04Z to 14:34:30Z (approximate end)",
+    "review_written": "2026-10-31T14:37Z to 14:45Z (approximate)",
+    "checks_run": "2026-10-31T14:43:30Z"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile, critical apparatus, LXX edition, Samaritan Pentateuch edition or Qumran edition consulted",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+    "fragment_sha256": {
+      "Lev.17.10": "14149ecb51b9a19249b614839289b39638752e2a011eca1b6671ca9d60838f18",
+      "Lev.17.11": "da6e00e5e16e9b3c4d68332c73174ba52ffce2aa311b536c73a70d4aa0862dc8",
+      "Lev.17.12": "ddcadbf62dc7d970a10bd44680e12037c4fca7521163da2ee2c1c712859784c4",
+      "Lev.17.13": "f5db4d951034145dfb3459661dfc96fad6810ee3d6204aa0182a200f8ef9a033",
+      "Lev.17.14": "102332744449bde39980e8fce1180fe107d785ea816ee12cc206bb3485283935"
+    },
+    "packet": "automation/hard-review-packets/20261031T143240Z-bca2cdc7.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected_in_packet": "none (upcoming passage; no selected Leviticus text exists in data/editorial.json at main 10983fc)",
+    "context_verses_read_from_same_pinned_commit": "Lev.1.4, Lev.3.17, Lev.5.16, Lev.6.23, Lev.7.26, Lev.7.27, Lev.16.17, Lev.16.27, Lev.17.3, Lev.17.4, Lev.17.6, Lev.17.7, Lev.17.8, Lev.17.15, Lev.19.22, Lev.19.26, Lev.24.18; Gen.9.4, Gen.9.5; Exod.30.12, Exod.30.15, Exod.30.16; Num.31.50, Num.35.33; Deut.12.16, Deut.12.23, Deut.12.24 (plain token text extracted locally for context only; not targets; Gen/Exod/Num/Deut files fetched from the same pinned commit into the git-ignored private cache; not saved as raw fragments)"
+  },
+  "source_encoding_observations": [
+    {
+      "id": "Lev.17.10-14",
+      "observation_ko": "다섯 절 모두 <note>, Qere/Ketiv, 대체 읽기 표지가 없다. 각 절은 <seg type=\"x-sof-pasuq\">׃</seg>로 닫히고 마켑은 <seg type=\"x-maqqef\">־</seg>로 표시된다.",
+      "status": "no_encoded_variant_in_pinned_source",
+      "what_is_not_known_ko": "고정 WLC/OSHB 인코딩에 변이 표지가 없다는 뜻일 뿐, 레닌그라드 사본 사진이나 다른 사본과 대조했다는 뜻이 아니다."
+    },
+    {
+      "id": "Lev.17.12",
+      "observation_ko": "17:12 끝의 소프 파수크 뒤에 <seg type=\"x-samekh\">ס</seg>(세투마, 닫힌 단락 표지)가 있다. 따라서 마소라 단락은 17:12에서 끝나고 17:13-14(사냥한 짐승의 피)가 새 단락이다. 출판 시 단락 구분으로 반영해야 하며, 이 표지를 본문 글자로 평탄화하면 안 된다.",
+      "status": "paragraph_marker_preserved_in_packet"
+    },
+    {
+      "id": "Lev.17.11, Lev.17.14",
+      "observation_ko": "OSHB 형태 분석은 대명사의 성을 구분한다: 17:11a הִוא֒ = HPp3fs(여성, נֶפֶשׁ와 일치), 17:11b ה֖וּא = HPp3ms(남성, הַדָּם과 일치), 17:14a הוּא֒ = HPp3ms(남성, דָּמוֹ와 일치), 17:14b הִ֔וא = HPp3fs(여성, נֶפֶשׁ와 일치). 17:11 נְתַתִּ֤יו의 접미사는 Sp3ms(남성 ‘그것’ = 피). 이 성 일치가 구문 해석의 핵심 근거다.",
+      "status": "morphology_evidence"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml",
+      "accessed_utc": "2026-10-31T14:34:04Z",
+      "result": "200; file SHA-256 e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191, byte-identical to the pinned cached file for commit 3d15126fb1ef74867fc1434be1942e837932691f",
+      "excerpt": "<w lemma=\"3722 a\" n=\"0\" morph=\"HVpi3ms\" id=\"03p3z\">יְכַפֵּֽר</w>"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Gen,Exod,Num,Deut}.xml",
+      "accessed_utc": "2026-10-31T14:34:03Z",
+      "result": "200 for all four; saved to git-ignored private/upstream_cache for context reading only",
+      "excerpt": "Gen.9.4: אַךְ־בָּשָׂ֕ר בְּנַפְשׁ֥וֹ דָמ֖וֹ לֹ֥א תֹאכֵֽלוּ"
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Leviticus.17.11",
+      "accessed_utc": "2026-10-31T14:34:15Z",
+      "result": "not accessible: curl returned HTTP 000 (connection not established through the agent proxy within 15 s). No text obtained; all rabbinic reception statements below remain unverified in this session.",
+      "excerpt": null
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/03.Lev.mlxx",
+      "accessed_utc": "2026-10-31T14:34:15Z",
+      "result": "not accessible: HTTP 000 (connection not established). No LXX text obtained.",
+      "excerpt": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/eliranwong/LXX-Rahlfs-1935/master/README.md",
+      "accessed_utc": "2026-10-31T14:34:20Z (approximate)",
+      "result": "200 for README only. The README states the data is a CCAT derivative under CC BY-NC-SA 4.0 and asks readers to send the CCAT user declaration before downloading any data. This session did not agree to or send that declaration, so no LXX data file was downloaded. LXX readings below remain unverified.",
+      "excerpt": "readers have to agree sending CCAT user declaration before downloading any data from this repository."
+    }
+  ],
+  "independent_initial_reading": {
+    "method_ko": "아래는 원천 패킷(원시 XML·형태 분석·강세)과 같은 고정 커밋의 문맥 절만 보고, 다른 AI 제안이나 기존 기록을 보기 전에 작성했다. 이후 검색에서도 이 단위를 대상으로 한 기존 초안·검토 기록은 없었다(earlier_records_compared 참조).",
+    "discourse_frame_ko": "17:1-2 ‘야훼께서 모세에게 말씀하셨다. 아론과 그의 아들들과 모든 이스라엘 자손에게 말하라’로 시작한 신적 발화 안에 있다. 17:3-9는 가축 도살·제사를 회막으로 가져오라는 규정(위반 시 3인칭 수동 וְנִכְרַת), 17:10-12는 피 먹기 금지와 그 근거, 17:13-14는 제단으로 가져올 수 없는 사냥 짐승의 피 처리다. 17:10에서 처음으로 야훼가 1인칭 능동으로 직접 처벌 주체가 된다(וְנָתַתִּי פָנַי … וְהִכְרַתִּי). 17:11과 17:14는 각각 כִּי로 시작하는 근거절이고, 17:12(עַל־כֵּן אָמַרְתִּי)와 17:14b(וָאֹמַר)는 이미 내린 명령을 인용하는 구조다. 17:12 뒤 세투마(ס)가 단락을 나눈다.",
+    "Lev.17.10": {
+      "lexical_ko": "אִישׁ אִישׁ ‘누구든지 각 사람’(배분 반복). מִבֵּית יִשְׂרָאֵל ‘이스라엘 집안에서’ — 17:3, 17:8과 같고 17:13의 מִבְּנֵי יִשְׂרָאֵל과 다르다(MT 자체 내 차이). הַגֵּר הַגָּר בְּתוֹכָם ‘그들 가운데 머무는 나그네’(동족 분사; 총칭 단수). כָּל־דָּם ‘어떤 피든’. נָתַן פָּנִים בְּ ‘~에게 얼굴을 두다’ = 적대적으로 향하다(관용구). הִכְרִית(כרת 히필 1인칭) ‘내가 끊어 버리겠다’.",
+      "syntactic_ko": "וְאִישׁ … אֲשֶׁר יֹאכַל כָּל־דָּם은 주제 전치(casus pendens)이고, 귀결절 וְנָתַתִּי에서 지시 대상이 남성 אִישׁ에서 여성 명사 הַנֶּפֶשׁ הָאֹכֶלֶת אֶת־הַדָּם으로 바뀐다. 이후 אֹתָהּ와 עַמָּהּ의 여성 접미사는 모두 נֶפֶשׁ를 받는다. 여기서 נֶפֶשׁ는 ‘사람/자’다.",
+      "discourse_ko": "‘피를 먹는 נֶפֶשׁ’와 17:11 ‘육체의 נֶפֶשׁ가 피에 있다’ 사이에 같은 낱말의 의미 전환(사람 → 생명)이 수사적으로 맞물린다: 생명(נֶפֶשׁ)이 담긴 피를 먹는 사람(נֶפֶשׁ)은 그 생명을 잃는다.",
+      "open_question_ko": "17:10 מִבֵּית와 17:13 מִבְּנֵי의 차이가 다른 증거(사마리아 오경·칠십인역 등)에서 서로 맞춰져 있다는 보고가 있으나 이 세션에서 미확인. 번역은 MT 차이를 그대로 보존한다(‘이스라엘 집안’ 대 ‘이스라엘 자손’)."
+    },
+    "Lev.17.11": {
+      "lexical_ko": "נֶפֶשׁ הַבָּשָׂר ‘육체의 생명’. בַּדָּם ‘피 안에/피에’(장소의 베). נָתַן … עַל־הַמִּזְבֵּחַ ‘제단 위에 주다/두다’ — 선물·지정의 뜻을 겸한다. כִּפֶּר עַל־נַפְשֹׁתֵיכֶם ‘너희 생명을 위하여 속죄하다’: 같은 구절이 고정 원천의 출 30:15, 30:16(인구조사 때 바치는 속전 כֹּ֧פֶר נַפְשׁ֛וֹ, 출 30:12와 연결), 민 31:50에 나온다. 이 문맥들은 ‘속전/대속물(כֹּפֶר)’ 개념과 이어진다.",
+      "syntactic_ko": "(a) 첫 절 נֶ֣פֶשׁ הַבָּשָׂר֮ בַּדָּ֣ם הִוא֒: 여성 대명사 הִוא가 נֶפֶשׁ를 받는 명사문 — ‘육체의 생명은 피에 있다’. (b) וַאֲנִ֞י נְתַתִּ֤יו: 독립 인칭대명사 אֲנִי가 앞에 나온 강조 — ‘바로 내가’. 목적 접미사는 남성 단수이므로 남성 הַדָּם을 받는다(여성 נֶפֶשׁ가 아님). 완료형은 ‘내가 주었다’ 또는 수행적 ‘이제 준다’ 모두 가능하다. (c) כִּֽי־הַדָּ֥ם ה֖וּא בַּנֶּ֥פֶשׁ יְכַפֵּֽר: 남성 대명사 הוּא는 הַדָּם을 다시 받는 강조 주어(‘바로 피가’)이며, 강세 tipcha가 הוּא 뒤에서 끊어 ‘피, 바로 그것이 | 그 생명으로 속죄한다’로 나눈다. 따라서 ‘피는 생명 안에 있다’(계사) 해석은 강세·어순상 약하다.",
+      "bet_analysis_ko": "בַּנֶּפֶשׁ의 베: (1) 수단(instrumenti) ‘그 생명으로써’ — 고정 레위기에서 כפר + בְּ + 제물은 수단이다: 5:16 בְּאֵ֥יל הָאָשָׁ֖ם, 19:22 같은 구절(‘속건제 숫양으로’). (2) 대가(pretii) ‘그 생명을 대신하여/값으로’ — 출 30:12-16의 속전 문맥, 민 35:33 ‘피 흘린 자의 피로써만 땅이 속죄된다’(בְּדַ֥ם שֹׁפְכֽוֹ)가 생명-대-생명 논리를 뒷받침한다고 주장된다. 다만 레위기 고정 원천에서 ‘대신하여’를 명시하는 표현은 24:18 נֶ֖פֶשׁ תַּ֥חַת נָֽפֶשׁ처럼 תַּחַת이다. (3) 본질(essentiae) ‘생명으로서’. (4) 대상 ‘생명을 위하여’ — כפר의 대상은 이 절 앞부분처럼 עַל로 표시되므로 문법상 가장 약하다. 6:23, 16:17, 16:27의 לְכַפֵּר בַּקֹּדֶשׁ는 장소의 베(성소에서)이고 여기서는 맞지 않는다. 정관사 הַנֶּפֶשׁ는 앞에 말한 ‘피 안에 있는 그 생명’을 가리키는 것이 가장 자연스럽다.",
+      "open_question_ko": "수단과 대가 중 무엇을 번역에 반영할지. 수단 해석을 택하더라도 ‘너희 생명을 위하여(עַל־נַפְשֹׁתֵיכֶם)’가 속전 문맥의 낱말이므로 대속적 함의는 앞 구절에 이미 보존된다."
+    },
+    "Lev.17.12": {
+      "lexical_ko": "עַל־כֵּן ‘그러므로’. אָמַרְתִּי(완료 1인칭) ‘내가 말하였다/말한다’. כָּל־נֶפֶשׁ מִכֶּם לֹא־תֹאכַל ‘너희 가운데 어떤 사람도 먹어서는 안 된다’ — 동사는 여성 3인칭으로 נֶפֶשׁ와 일치.",
+      "syntactic_ko": "인용 안에서 인칭이 바뀐다: 17:10, 17:13의 בְּתוֹכָם(그들 가운데) 대신 17:12는 מִכֶּם, בְּתוֹכְכֶם(너희 가운데)이다. 이는 이스라엘에게 직접 한 말을 인용한다는 표지다. 두 금지문은 평행(이스라엘 사람/나그네).",
+      "discourse_ko": "17:11의 근거에서 결론을 끌어낸다. 그 뒤 세투마로 단락이 닫힌다.",
+      "open_question_ko": "אָמַרְתִּי가 이전의 명령(3:17, 7:26-27)을 가리키는 과거인지, 지금 선포하는 수행적 완료인지. 번역 ‘말하였다/have said’는 둘 다 수용한다."
+    },
+    "Lev.17.13": {
+      "lexical_ko": "יָצוּד צֵיד ‘사냥감을 사냥하다’(동족 목적어). חַיָּה אוֹ־עוֹף ‘짐승이나 새’ — צֵיד와 동격. אֲשֶׁר יֵאָכֵל(닙알 미완료) ‘먹을 수 있는/먹는’. שָׁפַךְ ‘쏟다’. כִּסָּהוּ ‘그것을 덮다’(접미사 남성 = 피). בֶּעָפָר ‘흙으로’.",
+      "syntactic_ko": "17:10과 같은 주제 전치 + 관계절 구조. 귀결 וְשָׁפַךְ … וְכִסָּהוּ는 wəqatal 지시(‘~해야 한다’). 미완료 닙알 יֵאָכֵל은 허용 양태(‘먹을 수 있는’, 곧 정결한 짐승)로 읽는 것이 11장 정결법 문맥에 맞는다.",
+      "discourse_ko": "사냥 짐승은 제단에 바칠 수 없으므로 17:3-6의 가축 규정과 달리 피를 땅에 쏟고 덮는다. 신 12:16, 12:24 ‘물처럼 땅에 쏟으라’와 비교 가능.",
+      "open_question_ko": "‘흙으로 덮다’의 목적(존중·노출 방지·피의 외침 방지 등)은 원문이 설명하지 않는다. 번역에 해석을 넣지 않는다."
+    },
+    "Lev.17.14": {
+      "lexical_ko": "כִּי־נֶפֶשׁ כָּל־בָּשָׂר ‘모든 육체의 생명은’. דָּמוֹ בְנַפְשׁוֹ הוּא: 직역 ‘그 피가 그 생명 안에/과 함께 그것이다’. וָאֹמַר(와이크톨 1인칭) ‘그래서 내가 말하였다’. כָּל־אֹכְלָ֖יו יִכָּרֵֽת ‘그것을 먹는 자는 누구나 끊어질 것이다’ — 복수 분사 + 단수 동사의 배분 구문; 접미사 남성 = 피.",
+      "syntactic_ko": "17:14a의 הוּא는 남성(HPp3ms)이므로 דָּמוֹ가 주어다: ‘그 피는 בְנַפְשׁוֹ이다’. 17:14b의 הִ֔וא는 여성(HPp3fs)이므로 נֶפֶשׁ가 주어다: ‘모든 육체의 생명은 그 피다’. 즉 14a는 피를 주어로, 14b는 생명을 주어로 하는 거울 구조다. 14a의 בְּ는 (1) 본질의 베 ‘그 피가 곧 그 생명이다’, (2) 동반의 베 ‘그 피는 그 생명과 함께(묶여) 있다’ — 창 9:4 בָּשָׂ֕ר בְּנַפְשׁ֥וֹ דָמ֖וֹ(‘그 생명 곧 피가 있는 채로의 고기’)와 같은 표현, (3) 장소 ‘그 피는 그 생명 안에 있다’ — 17:11a(생명이 피 안에)와 방향이 반대라서 의미상 가장 어색하다.",
+      "discourse_ko": "17:14는 17:11-12의 근거-결론 구조를 사냥 짐승에 대해 축소 반복한다. 인용 경계: 2인칭 복수 금지 דַּם כָּל־בָּשָׂר לֹא תֹאכֵלוּ는 분명히 인용이고, 이어지는 근거절과 3인칭 처벌문이 인용 안인지 밖인지는 원문 표지로 결정되지 않는다.",
+      "open_question_ko": "14a בְנַפְשׁוֹ의 기능과 본문 형태. 칠십인역이 14a에서 בְנַפְשׁוֹ에 해당하는 말을 갖지 않는다는 보고가 있고, 비평 판본이 이를 삭제 후보로 표시한다는 기억이 있으나 이 세션에서 미확인이다. 그런 삭제는 재구성 제안일 뿐 고정 MT에서 입증된 읽기가 아니다."
+    },
+    "textual_variant_questions_ko": "고정 원천에는 변이 표지가 없다. 다음은 학계 보고로 기억되는 것으로 이 세션이 원문을 보지 못한 항목이다: (1) 17:14a בְנַפְשׁוֹ — 칠십인역에 대응어가 없다는 보고; (2) 17:10 מִבֵּית / 17:13 מִבְּנֵי — 일부 히브리어 사본·사마리아 오경·역본에서 서로 다른 쪽으로 맞춰져 있다는 보고. 둘 다 미확인이며, 번역은 MT를 따른다.",
+    "historical_and_reception_questions_ko": "(1) 랍비 해석: 라쉬의 레 17:11 주석이 ‘생명이 와서 생명을 속죄한다’는 취지로 대가/대속 해석을 한다고 알려져 있음 — 세파리아 접속 실패로 미확인. (2) 신약 수용: 히브리서 9:22(피 흘림 없이는 사함이 없다)와 사도행전 15:20, 29(피를 멀리하라)가 이 본문의 수용사로 자주 거론된다 — 신약 본문은 이 세션의 원천 범위 밖이며 해석·수용 층위로만 기록한다. (3) 개혁파(장로교) 전통은 17:11을 대속 교리의 구약 근거로 자주 인용한다 — 이는 수용사이며 번역 판단의 근거로 쓰지 않았다."
+  },
+  "initial_proposals": {
+    "Lev.17.10": {
+      "ko": "이스라엘 집안의 어떤 사람이든, 그들 가운데 머무는 나그네 가운데 누구든, 어떤 피든 먹으면, 나는 피를 먹는 그 사람을 향하여 내 얼굴을 대적하고, 그를 그의 백성 가운데서 끊어 버리겠다.",
+      "en": "Any man of the house of Israel, or of the sojourners who sojourn among them, who eats any blood—I will set my face against that person who eats the blood and will cut that person off from among their people.",
+      "es": "Cualquier hombre de la casa de Israel, o de los forasteros que residen entre ellos, que coma cualquier sangre, yo pondré mi rostro contra la persona que coma la sangre y la cortaré de en medio de su pueblo."
+    },
+    "Lev.17.11": {
+      "ko": "육체의 생명은 피에 있기 때문이다. 바로 내가 그 피를 너희에게 주어, 제단 위에서 너희의 생명을 위하여 속죄하게 하였다. 피가 바로 그 생명으로써 속죄하기 때문이다.",
+      "en": "For the life of the flesh is in the blood, and I myself have given it to you on the altar to make atonement for your lives; for it is the blood that makes atonement by means of the life.",
+      "es": "Porque la vida de la carne está en la sangre, y yo mismo se la he dado a ustedes sobre el altar para hacer expiación por sus vidas; porque es la sangre la que hace expiación por medio de la vida."
+    },
+    "Lev.17.12": {
+      "ko": "그러므로 내가 이스라엘 자손에게 말하였다. ‘너희 가운데 누구도 피를 먹어서는 안 된다. 너희 가운데 머무는 나그네도 피를 먹어서는 안 된다.’",
+      "en": "Therefore I have said to the sons of Israel, ‘No person among you shall eat blood, and the sojourner who sojourns among you shall not eat blood.’",
+      "es": "Por eso he dicho a los hijos de Israel: “Ninguna persona de ustedes comerá sangre, y el forastero que reside entre ustedes no comerá sangre”."
+    },
+    "Lev.17.13": {
+      "ko": "이스라엘 자손 가운데 어떤 사람이든, 그들 가운데 머무는 나그네 가운데 누구든, 먹을 수 있는 짐승이나 새를 사냥하여 잡으면, 그 피를 쏟고 흙으로 덮어야 한다.",
+      "en": "Any man of the sons of Israel, or of the sojourners who sojourn among them, who hunts game—an animal or a bird that may be eaten—shall pour out its blood and cover it with dust.",
+      "es": "Cualquier hombre de los hijos de Israel, o de los forasteros que residen entre ellos, que cace una presa, animal o ave que se pueda comer, derramará su sangre y la cubrirá con tierra."
+    },
+    "Lev.17.14": {
+      "ko": "모든 육체의 생명으로 말하면, 그 피가 곧 그 생명이기 때문이다. 그래서 내가 이스라엘 자손에게 말하였다. ‘너희는 어떤 육체의 피도 먹지 마라.’ 모든 육체의 생명은 그 피이기 때문이다. 그것을 먹는 자는 누구나 끊어질 것이다.",
+      "en": "For the life of all flesh—its blood is its life. So I said to the sons of Israel, ‘You shall not eat the blood of any flesh,’ for the life of all flesh is its blood; whoever eats it shall be cut off.",
+      "es": "Porque, en cuanto a la vida de toda carne, su sangre es su vida. Por eso dije a los hijos de Israel: “No comerán la sangre de ninguna carne”, porque la vida de toda carne es su sangre; todo el que la coma será cortado."
+    }
+  },
+  "initial_proposals_note": "Written from the source packet and pinned context verses only, before searching saved records. Speech-quotation marks assume the whole unit sits inside YHWH's speech opened at Lev.17.2, so embedded quotations use single quotes in ko/en and double quotes in es (outer guillemets).",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main 10983fc)",
+      "label": "current selected text (Genesis 1:1-5:10 and a few other selected verses)",
+      "relevance_ko": "레위기 선정본은 없다. 관례만 확인: 스페인어 2인칭 복수는 ustedes(Gen.1.29 ‘Miren, les he dado’), 신의 1인칭은 ko ‘내가’, en ‘I have given’(Gen.1.29). 금지 명령 ko ‘먹지 마라’(Gen.2.17). 이 단위에는 신명(YHWH)이 나오지 않으므로 신명 표기 문제는 없다."
+    },
+    {
+      "record": "origin/claude/bible-hard-review-9ldiu7: automation/cloud-reviews/20261031T133054Z-a0fe4eaa.json (run 20261031T133054Z-a0fe4eaa, unit lev-16-6-10)",
+      "label": "Claude hard-review record (same model family; unadopted)",
+      "relevance_ko": "이 기록의 editorial_consistency_findings가 이 단위를 직접 지목한다: ‘כִּפֶּר의 번역(속죄하다/make atonement/hacer expiación)과 전치사 구분(בְּעַד ‘~을 위하여’, עַל ‘~위에/~에 대하여’)을 두 단위에서 일관되게 처리해야 한다’. 또 ‘속죄제(חַטָּאת)’와 ‘속죄하다(כִּפֶּר)’의 우리말 중복을 지적했다. 이 검토는 같은 용어(속죄하다/make atonement/hacer expiación)를 썼고, 17:11의 두 עַל을 공간(제단 위에)과 수혜·대상(너희 생명을 위하여)으로 구분했다. 그 기록의 reconsider_if 항목(‘lev-17-10-14 검토가 כִּפֶּר + 전치사 용법에 대해 다른 체계를 제안할 때’)에 대한 응답: 이 검토는 다른 체계를 제안하지 않는다. 다만 כִּפֶּר + בְּ는 레위기 고정 원천에서 수단(5:16, 19:22)과 장소(6:23, 16:17, 16:27)로 나뉜다는 점을 추가로 확인했다. 레 16 기록의 1:4 등 עַל 용례 논의와 충돌하지 않는다."
+    },
+    {
+      "record": "all remote claude/ branches: automation/cloud-drafts/, automation/cloud-reviews/, automation/hard-review-runs/ (fetched 2026-10-31T14:32Z); repository reviews/, data/, library/ on main",
+      "label": "Claude cloud drafts and Claude hard-review records; any saved GPT/Gemini records",
+      "relevance_ko": "Lev.17.10-14를 대상으로 한 초안이나 검토 기록은 없다. git grep ‘Lev.17.1[0-4]’로 걸린 유일한 기록은 위의 레 16 검토의 일관성 메모다. 저장된 GPT/Gemini 레위기 기록도 저장소에서 발견되지 않았다."
+    }
+  ],
+  "no_gpt_gemini_records_ko": "이 단위에 대한 GPT·Gemini·Antigravity·사람 검토 기록은 존재하지 않으며, 이 기록은 그런 검토를 가정하거나 흉내 내지 않는다.",
+  "comparison_findings_ko": "선정본 대조로 es 한 낱말(tierra → polvo)을 바꿨다. 레 16 검토와 용어를 맞췄다(속죄하다/make atonement/hacer expiación; 나그네/sojourner/forastero는 창세기 클라우드 검토들의 גֵּר 처리와 일치).",
+  "changes_from_initial_proposal_ko": "한 곳 변경: Lev.17.13 es ‘la cubrirá con tierra’ → ‘la cubrirá con polvo’(선정본 창세기 es의 עָפָר = polvo와 일치). 나머지는 초기 제안을 유지하고 17:11·17:14 각주(대안 해석)를 보강했다.",
+  "alternatives": [
+    {
+      "id": "Lev.17.11",
+      "question_ko": "בַּנֶּפֶשׁ יְכַפֵּר의 베",
+      "options": [
+        {
+          "reading_ko": "(1) 수단: ‘피가 바로 그 생명으로써 속죄한다’ / by means of the life / por medio de la vida (선택)",
+          "argument_ko": "레위기 고정 원천에서 כפר + בְּ + 제물은 수단이다(5:16, 19:22 בְּאֵ֥יל הָאָשָׁ֖ם). 정관사는 앞의 ‘피 안의 생명’을 받는다. 강세가 ‘바로 피가 | 그 생명으로 속죄한다’로 나눈다. 대가 해석을 배제하지 않으면서 원문이 명시한 것만 말한다.",
+          "objection_ko": "‘~으로써’는 생명이 단지 도구인 듯 들려, 출 30장 속전(כֹּפֶר) 문맥과 같은 구절 עַל־נַפְשֹׁתֵיכֶם이 암시하는 ‘생명 대신 생명’ 논리를 약화한다."
+        },
+        {
+          "reading_ko": "(2) 대가: ‘피가 생명을 대신하여(값으로) 속죄한다’ / in exchange for the life / a cambio de la vida",
+          "argument_ko": "출 30:12-16 כֹּ֧פֶר נַפְשׁ֛וֹ와 לְכַפֵּ֖ר עַל־נַפְשֹׁתֵיכֶֽם, 민 35:33 בְּדַ֥ם שֹׁפְכֽוֹ가 생명-대-생명 논리를 보여 준다고 주장된다. 라쉬로 알려진 해석과 대속 신학 수용사(미확인)가 이 방향이다.",
+          "objection_ko": "레위기는 ‘대신하여’를 명시할 때 תַּחַת를 쓴다(24:18 נֶ֖פֶשׁ תַּ֥חַת נָֽפֶשׁ). 레위기 안에서 כפר + בְּ가 대가로 쓰인 분명한 예가 고정 원천에 없다. 번역에 넣으면 해석이 원문보다 앞선다."
+        },
+        {
+          "reading_ko": "(3) 본질: ‘생명으로서 속죄한다’ / as life (NRSV 계열로 알려짐; 미확인)",
+          "argument_ko": "피가 곧 생명이라는 17:14와 맞는다.",
+          "objection_ko": "정관사 הַנֶּפֶשׁ와 본질의 베는 잘 어울리지 않는다는 문법적 반론이 있다; 의미상 (1)과 크게 다르지 않다."
+        },
+        {
+          "reading_ko": "(4) 대상: ‘생명을 위하여 속죄한다’ / for the soul (KJV 계열로 알려짐; 미확인)",
+          "argument_ko": "이해하기 쉽고 앞 절과 매끄럽다.",
+          "objection_ko": "이 절 안에서 כפר의 대상·수혜는 이미 עַל로 표시된다(עַל־נַפְשֹׁתֵיכֶם). 같은 절에서 대상 표지를 바꿀 이유가 없다. 가장 약하다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.17.11",
+      "question_ko": "נְתַתִּיו ‘그것을 주었다’의 대상과 시상",
+      "options": [
+        {
+          "reading_ko": "(1) 대상 = 피(남성 접미사), 과거/결과 완료 ‘주었다/have given’ (선택; ko는 ‘그 피를’로 명시)",
+          "argument_ko": "형태 분석 Sp3ms가 남성 הַדָּם과 일치한다. 우리말 ‘그것’은 주제인 ‘생명’으로 읽히기 쉬워 명시했다. en/es는 원문처럼 대명사(it/la)를 유지했다.",
+          "objection_ko": "ko만 명시하면 세 언어 사이에 해석 수준 차이가 생긴다. 또 생명(נֶפֶשׁ)이 피 안에 있으므로 ‘피를 줌 = 생명을 줌’이라는 연결이 원문 의도일 수 있다."
+        },
+        {
+          "reading_ko": "(2) 수행적 완료 ‘이제 준다/I hereby give’",
+          "argument_ko": "율법 선포 문맥에서 수행적 완료가 가능하다.",
+          "objection_ko": "속죄 제의는 이미 1-16장에서 제정되었다. ‘주었다’가 그 앞선 제정을 가리키는 것으로 자연스럽다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.17.14",
+      "question_ko": "דָּמוֹ בְנַפְשׁוֹ הוּא",
+      "options": [
+        {
+          "reading_ko": "(1) 본질의 베: ‘그 피가 곧 그 생명이다’ / its blood is its life / su sangre es su vida (선택)",
+          "argument_ko": "남성 הוּא가 דָּמוֹ를 주어로 확정한다. 14b ‘모든 육체의 생명은 그 피다’와 거울 구조를 이루며, 신 12:23 כִּ֥י הַדָּ֖ם ה֣וּא הַנָּ֑פֶשׁ(‘피가 곧 생명이다’)와 같은 내용이다. 자연스러운 번역.",
+          "objection_ko": "17:11a의 장소 베(생명이 피 안에)와 같은 전치사를 다른 기능으로 읽는다. 원문의 베를 지워 14a와 14b를 거의 같은 문장으로 만든다."
+        },
+        {
+          "reading_ko": "(2) 동반의 베: ‘그 피는 그 생명과 함께 있다/하나로 묶여 있다’ (창 9:4 반향)",
+          "argument_ko": "창 9:4 בָּשָׂ֕ר בְּנַפְשׁ֥וֹ דָמ֖וֹ에서 같은 בְּנַפְשׁוֹ가 ‘생명이 있는 채로’의 뜻이다. 피 금지의 원래 근거(노아 언약)를 반향한다.",
+          "objection_ko": "창 9:4는 고기(בָּשָׂר)를 수식하는 상황어이고 17:14a는 명사문 술어다. 구문이 다르다."
+        },
+        {
+          "reading_ko": "(3) 장소의 베 직역: ‘그 피는 그 생명 안에 있다’",
+          "argument_ko": "가장 문자적이다.",
+          "objection_ko": "17:11a와 방향이 반대(생명이 피 안 ↔ 피가 생명 안)라서 의미상 어색하다."
+        },
+        {
+          "reading_ko": "(4) 본문 재구성: בְנַפְשׁוֹ 삭제 ‘모든 육체의 생명은 그 피다’",
+          "argument_ko": "칠십인역에 대응어가 없다는 보고(미확인), 14b와 같은 문장이 된다.",
+          "objection_ko": "고정 MT에서 입증되지 않은 재구성이다. 이 세션은 칠십인역을 확인하지 못했다. 번역 대상 본문은 MT이므로 채택하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.17.10, Lev.17.12",
+      "question_ko": "נֶפֶשׁ ‘사람’ 대 ‘생명’ — 낱말 연쇄 보존",
+      "options": [
+        {
+          "reading_ko": "(1) 문맥별 번역: 17:10, 12 ‘사람/person/persona’, 17:11, 14 ‘생명/life/vida’ (선택) + 각주",
+          "argument_ko": "각 언어에서 자연스럽고 정확하다. 스페인어 persona/vida는 히브리어처럼 여성이라 17:10의 ‘la cortaré’가 נֶפֶשׁ의 여성 일치를 그대로 살린다.",
+          "objection_ko": "원문의 낱말 놀이(생명이 담긴 피를 먹는 ‘생명/자’가 끊어진다)가 번역에서 사라진다."
+        },
+        {
+          "reading_ko": "(2) 일관 번역: 모두 ‘목숨’ 또는 ‘생명’",
+          "argument_ko": "낱말 연쇄를 보존한다.",
+          "objection_ko": "‘피를 먹는 그 생명에게 내 얼굴을…’은 우리말·영어·스페인어 모두 부자연스럽고 오해를 낳는다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.17.14",
+      "question_ko": "인용 경계",
+      "options": [
+        {
+          "reading_ko": "(1) 금지문만 인용: ‘너희는 어떤 육체의 피도 먹지 마라’ + 근거·처벌은 화자(야훼)의 말 (선택)",
+          "argument_ko": "2인칭 복수는 금지문에만 있다. 17:12의 인용(금지문만)과 같은 범위다.",
+          "objection_ko": "율법 인용에서 근거절과 3인칭 처벌 정식이 함께 인용되는 경우가 흔하다. 17:10의 1인칭 처벌(הִכְרַתִּי)과 달리 14의 처벌은 3인칭 수동이라 인용된 율법 정식일 수 있다."
+        },
+        {
+          "reading_ko": "(2) 절 끝까지 인용",
+          "argument_ko": "위 반론.",
+          "objection_ko": "원문 표지로 결정되지 않는다; 따옴표 위치는 편집 결정 사항."
+        }
+      ]
+    },
+    {
+      "id": "Lev.17.13",
+      "question_ko": "אֲשֶׁר יֵאָכֵל",
+      "options": [
+        {
+          "reading_ko": "(1) 허용: ‘먹을 수 있는’ / that may be eaten / que se pueda comer (선택)",
+          "argument_ko": "닙알 미완료의 양태 용법; 11장 정결법과 맞는다.",
+          "objection_ko": "단순 ‘먹는(먹으려는)’으로 읽으면 정결 규정 함의를 덧붙이지 않는다."
+        },
+        {
+          "reading_ko": "(2) 사실: ‘먹는/먹으려는’",
+          "argument_ko": "해석을 덜 덧붙인다.",
+          "objection_ko": "부정한 짐승의 피도 처리 대상인지 독자가 혼동할 수 있다; 원문 의미 차이는 작다."
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Lev.17.11b: rendering בַּנֶּפֶשׁ as instrumental ‘by means of the life / 그 생명으로써 / por medio de la vida’",
+    "objection_ko": "수단 번역은 이 절의 중심 논리를 놓친다. 17:11a ‘너희 생명을 위하여 속죄하다(לְכַפֵּר עַל־נַפְשֹׁתֵיכֶם)’는 고정 원천에서 출 30:12-16의 속전(כֹּפֶר נַפְשׁוֹ, 생명 몸값) 문맥과 민 31:50에만 나오는 구절이다. 그렇다면 17:11은 ‘피 안의 짐승 생명이 너희 생명의 몸값이 된다’는 교환 논리이고, 마지막 절의 베는 대가(pretii) ‘그 생명을 대신하여’가 맞다. 민 35:33(살인자의 피로써만 땅이 속죄된다)도 생명-대-생명이다. ‘~으로써’는 이 교환을 도구 관계로 축소하며, 대속 신학의 핵심 구약 본문을 평평하게 만든다.",
+    "response_ko": "(1) 레위기 고정 원천에서 כפר + בְּ의 분명한 용례는 수단(5:16, 19:22)과 장소(6:23, 16:17, 16:27)뿐이고, 대가를 명시할 때는 תַּחַת(24:18)를 쓴다. 따라서 문법상 1차 선택은 수단이다. (2) 교환·몸값 함의는 이미 17:11a의 ‘너희 생명을 위하여’가 출 30장과 같은 구절로 보존한다. 번역이 이 구절을 그대로 옮기므로 대속 해석은 독자에게 열려 있다. (3) ‘그 생명으로써’는 생명이 속죄의 효력 근거라는 점(왜 하필 피인가에 대한 답)을 정확히 말하며, 대가 해석을 배제하지 않는다. (4) 그러므로 본문은 수단으로 두고, 대가 해석을 각주로 명시한다. 편집이 레위기 속죄 용어 전체에서 몸값(כֹּפֶר) 계열을 강조하기로 하면 재검토한다.",
+    "test_by_clause_ko": "11a1(육체의 생명은 피에): 영향 없음. 11a2(바로 내가 그 피를 너희에게 줌): 영향 없음. 11a3(제단 위에서): 영향 없음. 11a4(너희 생명을 위하여 속죄하게): 두 해석 모두 같은 번역; 몸값 함의 보존. 11b1(바로 피가): 영향 없음. 11b2(그 생명으로써 / 그 생명을 대신하여 속죄): 여기서만 갈림 — 수단은 레위기 내 용법, 대가는 출 30장·민 35장 신학 연결. 결론: 수단 유지, 대가 각주."
+  },
+  "secondary_objections": [
+    {
+      "target": "Lev.17.14a ‘그 피가 곧 그 생명이다’",
+      "objection_ko": "원문의 בְּ를 지워 14a와 14b가 거의 같은 문장이 된다. 칠십인역이 בְנַפְשׁוֹ를 갖지 않는다는 보고가 맞다면, 번역은 사실상 짧은 본문을 따른 것과 같은 결과가 된다.",
+      "response_ko": "MT 단어를 삭제하지 않았다: ‘그 생명’이 בְנַפְשׁוֹ를 번역한다(베를 본질로 처리). 다만 문자적 ‘생명 안에/생명과 함께’를 각주로 제시한다. 남성 הוּא와 여성 הִוא의 주어 차이(14a 피 주어, 14b 생명 주어)는 우리말 어순(‘그 피가 … 생명이다’ 대 ‘생명은 그 피이다’)으로 보존했다."
+    },
+    {
+      "target": "Lev.17.11 ko ‘그 피를’ 명시",
+      "objection_ko": "en/es는 대명사를 유지하면서 ko만 명시하면 세 언어 사이 해석 수준이 다르다.",
+      "response_ko": "남성 접미사는 원문에서 문법적으로 확정된 사실이다. 우리말 ‘그것’은 주제어 ‘생명’으로 오독될 위험이 크고, 영어 it·스페인어 la는 바로 앞 명사 blood/sangre로 읽히는 경향이 있어 같은 정보를 전달한다. 편집이 세 언어 모두 명시하기로 하면 en ‘given it—the blood—’ 대신 ‘given the blood’로 바꿀 수 있다."
+    },
+    {
+      "target": "Lev.17.10 ‘이스라엘 집안’ 대 17:13 ‘이스라엘 자손’",
+      "objection_ko": "독자에게는 불필요한 변화로 보일 수 있고, 다른 증거가 이를 맞춘다는 보고가 있다.",
+      "response_ko": "MT 자체의 차이(17:3, 8, 10 מִבֵּית; 17:13 מִבְּנֵי)를 보존하는 것이 원칙이다. 변이 보고는 미확인."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Lev.17.10",
+      "ko": "이스라엘 집안의 어떤 사람이든, 그들 가운데 머무는 나그네 가운데 누구든, 어떤 피든 먹으면, 나는 피를 먹는 그 사람을 향하여 내 얼굴을 대적하고, 그를 그의 백성 가운데서 끊어 버리겠다.",
+      "en": "Any man of the house of Israel, or of the sojourners who sojourn among them, who eats any blood—I will set my face against that person who eats the blood and will cut that person off from among their people.",
+      "es": "Cualquier hombre de la casa de Israel, o de los forasteros que residen entre ellos, que coma cualquier sangre, yo pondré mi rostro contra la persona que coma la sangre y la cortaré de en medio de su pueblo.",
+      "reason_ko": "주제 전치 구문을 ko는 조건절(‘~먹으면’), en은 대시, es는 관계절 뒤 쉼표로 옮겼다. 지시 대상 전환(אִישׁ → נֶפֶשׁ)을 ‘그 사람/that person/la persona’로 보존. 1인칭 능동 처벌(내가 끊어 버리겠다)을 살려 17:4, 9의 3인칭 수동과 구별. 총칭 단수 הַגֵּר는 세 언어에서 복수 ‘나그네(들)/sojourners/forasteros’로 처리.",
+      "counterargument_ko": "‘내 얼굴을 대적하고’는 우리말로 어색하다는 반론(‘내가 그 사람을 대적하여’로 의역 가능). en ‘their people’은 단수 대명사 성 중립 처리로 원문 여성 접미사(נֶפֶשׁ 일치)와 다르다.",
+      "current_opinion_ko": "유지. 관용구 ‘얼굴을 두다’의 직역성을 남긴다.",
+      "reconsider_if_ko": "편집이 ‘얼굴을 두다’ 관용구(고정 원천 확인: נתן 레 20:3, 20:6, 26:17; 같은 뜻의 שׂים 레 20:5)를 일괄 의역하기로 하면 ‘내가 그 사람을 대적하여’로 바꾼다. en 대명사 정책(his/their)이 정해지면 따른다."
+    },
+    {
+      "id": "Lev.17.11",
+      "ko": "육체의 생명은 피에 있기 때문이다. 바로 내가 그 피를 너희에게 주어, 제단 위에서 너희의 생명을 위하여 속죄하게 하였다. 피가 바로 그 생명으로써 속죄하기 때문이다.",
+      "en": "For the life of the flesh is in the blood, and I myself have given it to you on the altar to make atonement for your lives; for it is the blood that makes atonement by means of the life.",
+      "es": "Porque la vida de la carne está en la sangre, y yo mismo se la he dado a ustedes sobre el altar para hacer expiación por sus vidas; porque es la sangre la que hace expiación por medio de la vida.",
+      "reason_ko": "두 כִּי 근거절을 ‘~때문이다/For…for/Porque…porque’로 보존. 강조 대명사 וַאֲנִי를 ‘바로 내가/I myself/yo mismo’로. 남성 접미사(피)를 ko에서 명시. 두 עַל을 공간(제단 위에서)과 수혜(너희 생명을 위하여)로 구분. 마지막 절 הוּא의 강조(분열문)를 ‘피가 바로/it is the blood that/es la sangre la que’로. 베는 수단.",
+      "counterargument_ko": "대가 해석(‘그 생명을 대신하여’)이 출 30장 몸값 문맥과 더 맞는다는 반론 — strongest_objection_to_own_reading 참조.",
+      "current_opinion_ko": "유지, 대가 해석 각주.",
+      "reconsider_if_ko": "편집이 레위기 כִּפֶּר/כֹּפֶר 용어표에서 몸값 계열을 번역에 반영하기로 할 때; 독립 GPT/Gemini 검토가 레위기 내 כפר + בְּ 대가 용례를 고정 원천에서 제시할 때."
+    },
+    {
+      "id": "Lev.17.12",
+      "ko": "그러므로 내가 이스라엘 자손에게 말하였다. ‘너희 가운데 누구도 피를 먹어서는 안 된다. 너희 가운데 머무는 나그네도 피를 먹어서는 안 된다.’",
+      "en": "Therefore I have said to the sons of Israel, ‘No person among you shall eat blood, and the sojourner who sojourns among you shall not eat blood.’",
+      "es": "Por eso he dicho a los hijos de Israel: “Ninguna persona de ustedes comerá sangre, y el forastero que reside entre ustedes no comerá sangre”.",
+      "reason_ko": "인용 안의 2인칭(מִכֶּם, בְּתוֹכְכֶם)을 ‘너희/you/ustedes’로 보존하고 따옴표로 인용을 표시. 두 평행 금지문을 모두 유지(축약하지 않음). 이 단위 전체가 17:2에서 열린 야훼 발화 안이므로 내부 인용은 ko/en 홑따옴표, es 영어식 겹따옴표(바깥은 « »).",
+      "counterargument_ko": "‘이스라엘 자손/sons of Israel’ 대 ‘이스라엘 백성/people of Israel’ — 성 중립 요구. 우리말 개신교 전통 표현은 ‘이스라엘 자손’.",
+      "current_opinion_ko": "유지. 17:12 뒤 세투마 단락 구분을 반영할 것.",
+      "reconsider_if_ko": "프로젝트가 בְּנֵי יִשְׂרָאֵל 표기 정책(sons/people/children)을 정할 때; 레위기 17장 전체 따옴표 체계를 정할 때."
+    },
+    {
+      "id": "Lev.17.13",
+      "ko": "이스라엘 자손 가운데 어떤 사람이든, 그들 가운데 머무는 나그네 가운데 누구든, 먹을 수 있는 짐승이나 새를 사냥하여 잡으면, 그 피를 쏟고 흙으로 덮어야 한다.",
+      "en": "Any man of the sons of Israel, or of the sojourners who sojourn among them, who hunts game—an animal or a bird that may be eaten—shall pour out its blood and cover it with dust.",
+      "es": "Cualquier hombre de los hijos de Israel, o de los forasteros que residen entre ellos, que cace una presa, animal o ave que se pueda comer, derramará su sangre y la cubrirá con polvo.",
+      "reason_ko": "MT의 מִבְּנֵי(자손)를 17:10 מִבֵּית(집안)와 구별해 보존. 동족 목적어 צֵיד를 en ‘game’, es ‘una presa’, ko ‘사냥하여 잡으면’으로. 허용 양태 יֵאָכֵל. 두 wəqatal 지시를 ‘~해야 한다/shall/futuro’로.",
+      "counterargument_ko": "ko ‘사냥하여 잡으면’은 צֵיד 명사를 동사구로 녹였다는 반론. ko ‘흙’ 대신 ‘티끌’(선정본 창 3:19) — עָפָר는 마른 흙·먼지. es ‘polvo’는 ‘cubrir con tierra’보다 덜 관용적이다.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 עָפָר 번역어를 레위기에서 별도로 정할 때. 현재 선정본 대조: ko 창 2:7 ‘흙먼지’, 3:14 ‘흙’, 3:19 ‘티끌’ / en 모두 ‘dust’ / es 모두 ‘polvo’. 이에 맞춰 en ‘dust’, es ‘polvo’, ko ‘흙’(창 3:14)을 택했다."
+    },
+    {
+      "id": "Lev.17.14",
+      "ko": "모든 육체의 생명으로 말하면, 그 피가 곧 그 생명이기 때문이다. 그래서 내가 이스라엘 자손에게 말하였다. ‘너희는 어떤 육체의 피도 먹지 마라.’ 모든 육체의 생명은 그 피이기 때문이다. 그것을 먹는 자는 누구나 끊어질 것이다.",
+      "en": "For the life of all flesh—its blood is its life. So I said to the sons of Israel, ‘You shall not eat the blood of any flesh,’ for the life of all flesh is its blood; whoever eats it shall be cut off.",
+      "es": "Porque, en cuanto a la vida de toda carne, su sangre es su vida. Por eso dije a los hijos de Israel: “No comerán la sangre de ninguna carne”, porque la vida de toda carne es su sangre; todo el que la coma será cortado.",
+      "reason_ko": "14a는 남성 הוּא(피 주어)에 맞춰 ‘그 피가 곧 그 생명’, 14b는 여성 הִוא(생명 주어)에 맞춰 ‘생명은 그 피’로 거울 구조를 보존. 14a의 주제 ‘모든 육체의 생명’을 ‘~으로 말하면/—/en cuanto a’로. 와이크톨 וָאֹמַר를 17:12의 완료 אָמַרְתִּי와 구별해 ‘그래서 내가 말하였다/So I said/dije’. 금지문만 인용. 배분 구문 כָּל־אֹכְלָיו יִכָּרֵת를 ‘누구나/whoever/todo el que’ + 단수 수동으로.",
+      "counterargument_ko": "본질 베 처리가 원문 בְּ를 지운다는 반론, 인용 경계 반론 — alternatives 참조. ko ‘그 피이기 때문이다’ 뒤 문장 분리가 원문의 한 문장 흐름을 끊는다.",
+      "current_opinion_ko": "유지. 14a 확신은 중간 이하.",
+      "reconsider_if_ko": "칠십인역·사마리아 오경·쿰란 판본을 실제로 확인해 14a 본문 형태에 대한 근거가 생길 때; 편집이 따옴표 범위를 절 끝까지로 정할 때."
+    }
+  ],
+  "speech_boundaries_ko": "17:10-14 전체는 17:2에서 시작된 야훼의 발화(모세에게 전하라고 명한 말) 안에 있다. 내부 인용: 17:12 ‘너희 가운데 누구도 … 먹어서는 안 된다’ 전체(두 금지문), 17:14 ‘너희는 어떤 육체의 피도 먹지 마라’(금지문; 범위 미정). 17장 끝 또는 17:9-16 전체 선정 시 바깥 따옴표를 확정해야 한다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Lev.17.10",
+      "note_ko": "‘그 사람’으로 옮긴 말(네페쉬)은 17:11, 14에서 ‘생명’으로 옮긴 말과 같다. 생명이 담긴 피를 먹는 ‘네페쉬’가 끊어진다는 말놀이가 있다. ‘내 얼굴을 대적하고’는 직역하면 ‘내 얼굴을 두고’이다."
+    },
+    {
+      "id": "Lev.17.11",
+      "note_ko": "‘그 생명으로써’는 ‘그 생명을 대신하여(값으로)’로 읽을 수도 있다. ‘너희의 생명을 위하여 속죄하다’는 출 30:12-16의 속전(생명 몸값) 문맥에 쓰인 구절과 같다. ‘그 피를’: 원문은 남성 대명사 ‘그것’으로, 문법상 피를 가리킨다."
+    },
+    {
+      "id": "Lev.17.12",
+      "note_ko": "마소라 본문은 이 절 뒤에서 단락을 닫는다(세투마)."
+    },
+    {
+      "id": "Lev.17.13",
+      "note_ko": "10절은 ‘이스라엘 집안’, 13절은 ‘이스라엘 자손’이다(히브리어 본문 그대로)."
+    },
+    {
+      "id": "Lev.17.14",
+      "note_ko": "첫 문장은 직역하면 ‘그 피는 그 생명 안에(또는 생명과 함께) 있다’이다. 창 9:4의 ‘생명 곧 피가 있는 채로의 고기’와 같은 표현이 쓰였다. 일부 고대 역본에는 ‘그 생명’에 해당하는 말이 없다고 보고된다(미확인)."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "scope": "Lev.16 vs Lev.17.10-14",
+      "finding_ko": "כִּפֶּר = 속죄하다/make atonement/hacer expiación으로 레 16 검토(run 20261031T133054Z-a0fe4eaa)와 일치. 우리말 ‘속죄제(חַטָּאת)’와의 중복 문제는 이 단위에 חַטָּאת가 없어 해당 없음."
+    },
+    {
+      "scope": "Lev.17.10-14 vs Gen.2.7, Gen.3.19 (selected) and Gen.9.4 (upcoming)",
+      "finding_ko": "עָפָר: 선정본 대조 결과 ko 창 2:7 ‘흙먼지’, 3:14 ‘흙’, 3:19 ‘티끌’; en ‘dust’; es ‘polvo’(main 10983fc). 이 검토는 en dust, es polvo, ko 흙으로 맞췄다(초기 제안 es ‘tierra’에서 변경). ko 선정본 자체가 세 낱말로 나뉘어 있어 편집 결정이 필요하다. 창 9:4(בְּנַפְשׁוֹ דָמוֹ) 번역 시 레 17:14a와 같은 전치사 처리를 함께 결정해야 한다."
+    },
+    {
+      "scope": "Leviticus formula ‘set my face against’ and ‘cut off’",
+      "finding_ko": "נָתַן פָּנִים בְּ(레 17:10; 20:3; 20:6; 26:17 — 고정 원천 확인; 20:5는 같은 뜻의 שׂים)와 כרת 처벌 정식(닙알 3인칭: 7:27; 17:4; 17:9; 17:14 / 히필 1인칭: 17:10; 20:3; 20:5; 20:6)을 레위기 전체에서 일관되게 번역해야 한다. 이 검토는 ‘내 얼굴을 대적하고 / set my face against / pondré mi rostro contra’와 ‘끊어 버리다·끊어지다 / cut off / cortar’를 썼다."
+    }
+  ],
+  "reception_evidence": [
+    {
+      "item_ko": "칠십인역 17:14a의 בְנַפְשׁוֹ 대응어 부재",
+      "status": "reported in scholarship as recalled; not verified in this session; no LXX edition accessed (CCAT host unreachable; GitHub derivative requires a user declaration that was not made)"
+    },
+    {
+      "item_ko": "17:10 מִבֵּית / 17:13 מִבְּנֵי의 사본·역본 차이",
+      "status": "recalled report only; not verified"
+    },
+    {
+      "item_ko": "라쉬 레 17:11 주석의 ‘생명이 생명을 속죄한다’ 취지",
+      "status": "general knowledge, not verified in this session; Sefaria not reachable"
+    },
+    {
+      "item_ko": "히 9:22, 행 15:20, 29의 신약 수용",
+      "status": "reception layer only; NT text outside this project's source scope; not used as translation evidence"
+    }
+  ],
+  "final_opinion_ko": "이 단위의 핵심 판단은 형태 분석이 주는 성 일치에서 나온다: 17:11의 ‘그것을 주었다’는 피, 17:11b와 17:14a의 남성 הוּא는 피를 주어로, 17:11a와 17:14b의 여성 הִוא는 생명을 주어로 한다. 이를 따르면 17:11b는 ‘바로 피가 그 생명으로써 속죄한다’(분열문 + 수단의 베)가 1차 읽기이고, 대가(‘생명을 대신하여’) 해석은 출 30장 속전 구절과의 연결 때문에 강력한 대안으로 각주에 둔다. 17:14a는 ‘그 피가 곧 그 생명이다’로 옮기되 문자적 ‘생명 안에/과 함께’와 보고된 짧은 본문을 각주로 연다. 17:10/13의 ‘집안/자손’ 차이와 17:12 뒤 세투마는 MT 그대로 보존해야 한다. 기존 선정본은 없으므로 이것은 향후 채택을 위한 검토 자료이며 출판본이 아니다.",
+  "confidence_limits": [
+    "17:11b 수단 대 대가: 수단 1차 선택에 대한 확신은 중간. 문법(레위기 내 용례)은 수단 쪽이 강하고 신학적 연결(출 30장)은 대가 쪽이 강하다.",
+    "17:14a: 본질 베 번역 확신은 중간 이하. 칠십인역 대조 없이 본문 형태 문제를 판단하지 않았다.",
+    "칠십인역·사마리아 오경·쿰란·라쉬 관련 진술은 이 세션에서 원문 미확인이다.",
+    "레닌그라드 사본 사진이나 BHS/BHQ 비평 장치는 보지 않았다.",
+    "선정본 창세기의 נֶפֶשׁ 번역어 체계(창 2:7 ‘살아 있는 존재’ 등)와는 부분적으로만 대조했다.",
+    "이 검토는 같은 모델 계열의 자기 검토이며 독립 GPT/Gemini 검토나 사람 검토를 대신하지 않는다."
+  ],
+  "reconsider_if": [
+    "실제 접근 가능한 칠십인역·사마리아 오경·쿰란 판본 대조에서 17:14a 또는 17:10/13의 본문 형태에 대한 근거가 확인될 때.",
+    "편집이 레위기 속죄 용어표(כִּפֶּר, כֹּפֶר, נֶפֶשׁ)를 확정하고 몸값 계열을 번역에 반영하기로 할 때.",
+    "GPT/Gemini 독립 검토가 레위기 내 כפר + בְּ의 대가 용례나 17:11b의 다른 구문 분석을 고정 원천에 근거해 제시할 때.",
+    "편집이 ‘얼굴을 두다’ 관용구, בְּנֵי יִשְׂרָאֵל, 영어 대명사 정책을 정할 때.",
+    "창 9:4 검토가 בְּנַפְשׁוֹ에 대해 다른 처리를 제안할 때."
+  ],
+  "unresolved": [
+    {
+      "id": "Lev.17.11",
+      "issue_ko": "בַּנֶּפֶשׁ의 베: 수단 대 대가. 번역은 수단, 각주로 대가."
+    },
+    {
+      "id": "Lev.17.14",
+      "issue_ko": "דָּמוֹ בְנַפְשׁוֹ הוּא의 베 기능과 본문 형태(보고된 칠십인역 단축). 실제 판본 대조 필요."
+    },
+    {
+      "id": "Lev.17.14",
+      "issue_ko": "인용 경계(금지문만 / 절 끝까지)."
+    },
+    {
+      "id": "Lev.17.10, Lev.17.13",
+      "issue_ko": "מִבֵּית / מִבְּנֵי 차이의 다른 증거 상황 미확인."
+    },
+    {
+      "id": "Lev.17.13",
+      "issue_ko": "עָפָר 우리말 번역어: 선정본 창세기 안에서도 흙먼지/흙/티끌로 나뉜다. 레위기 용어 결정 필요."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "no manuscript collation or facsimile check",
+    "no LXX, Samaritan Pentateuch, Qumran, Rashi or other rabbinic text verified in this session",
+    "no GPT, Gemini, Antigravity or human review exists or is implied",
+    "no editorial adoption, certification or publication",
+    "no balance, dollar amount or credit deduction observed"
+  ],
+  "memo_ko": "automation/cloud-reviews/20261031T143240Z-bca2cdc7.ko.md",
+  "branch": "claude/original-bible-hard-review-kyh2qn",
+  "checks": {
+    "script": "session-local validation script /tmp/chk/validate.py (not committed); results below",
+    "run_at": "2026-10-31T14:43:30Z",
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "rights_match_packet": true,
+    "accented_hebrew_quotes_match_source_codepoints": true,
+    "accented_quotes_checked": 38,
+    "changed_paths_only_own_run_files": true,
+    "no_changes_to_data_dist_releases_main": true,
+    "accented_quote_note": "Initial drafting produced NFC-normalized Hebrew (vowel before dagesh); all accented quotes were replaced by script with the exact non-normalized code-point sequences of the pinned source and rechecked. Two mixed citations were replaced with full source forms.",
+    "other_hebrew_forms_classified": "roots, lexical forms, unaccented citations, reported or reconstructed readings (unverified, not attested in pinned MT)",
+    "packet_unchanged_since_claim_commit": true,
+    "clauses_covered": "checked by hand against every clause: 10 (any man of house of Israel; or sojourner among them; who eats any blood; I set my face against the person eating the blood; I cut it off from its people), 11 (life of flesh in blood; I myself gave it to you; on the altar; to atone for your lives; for the blood itself; by the life atones), 12 (therefore I said to sons of Israel; no person of you shall eat blood; sojourner among you shall not eat blood), 13 (any man of sons of Israel; or sojourner among them; who hunts game; animal or bird; that may be eaten; shall pour out its blood; cover it with dust), 14 (for the life of all flesh; its blood is its life; and I said to sons of Israel; blood of any flesh you shall not eat; for life of all flesh is its blood; all who eat it shall be cut off)",
+    "original_vs_interpretation_separated": true,
+    "attribution_authentic": "only Claude records exist for comparison; no GPT/Gemini/human records found or simulated",
+    "changed_paths": [
+      "automation/cloud-reviews/20261031T143240Z-bca2cdc7.json",
+      "automation/cloud-reviews/20261031T143240Z-bca2cdc7.ko.md",
+      "automation/hard-review-packets/20261031T143240Z-bca2cdc7.json",
+      "automation/hard-review-runs/20261031T143240Z-bca2cdc7.json"
+    ]
+  }
+}
