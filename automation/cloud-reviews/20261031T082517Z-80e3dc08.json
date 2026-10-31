@@ -1,0 +1,1569 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T082517Z-80e3dc08",
+  "unit_id": "exod-32-9-14",
+  "verse_ids": [
+    "Exod.32.9",
+    "Exod.32.10",
+    "Exod.32.11",
+    "Exod.32.12",
+    "Exod.32.13",
+    "Exod.32.14"
+  ],
+  "unit_issue_ko": "진노·돌이킴/후회·모세의 청원과 서사적 관점",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.32.9-14 = 전통 장절 출애굽기 32:9-14 (MT 기준). 다만 이번에 확인한 Swete 칠십인역 디지털 본문(First1KGreek TEI)은 MT 32:9 내용이 없고, 그 파일의 verse n=\"9\" 구획에는 실제로 MT 32:8 끝 인용문(Οὗτοι οἱ θεοί σου, Ἰσραήλ ...)이 들어 있다. 디지털 파일의 절 구획을 MT 절 번호와 동일시하면 안 된다.",
+  "hebrew_quotation_policy": "Exact raw Hebrew (Masoretic pointing, accents, morpheme separators, maqqef/sof pasuq/pe segments) is only in source.verses[].raw_xml, copied by script from the claim packet. Hebrew elsewhere (context items) is accent-stripped and marked as such.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone; get_session origin=claude_code_cli, environment_kind=anthropic_cloud). Launched outside Projects and Routines per the user instruction; the --standalone-cloud marker is a caller declaration, not billing proof.",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session (session_id omitted) at about 2026-10-31T08:27Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5.",
+    "served_model_uncertainty": "last_served_model is a service-reported session field, not cryptographic proof of the model that generated each token; turn-scoped fallbacks would appear there and in session events. No model snapshot ID beyond this string is exposed.",
+    "rate_limit_info_observed": "get_session reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is not a balance, dollar amount, or proof of a credit deduction; no remaining balance is exposed.",
+    "unavailable": [
+      "token counts",
+      "cost per run",
+      "remaining promotional balance",
+      "model snapshot hash",
+      "per-turn served model proof"
+    ],
+    "note": "A model self-report is not source evidence. This record was written by Claude in Claude Code. It is not GPT, Gemini, Antigravity, a manuscript collator, or a human specialist.",
+    "recheck_at_completion": "get_session at about 2026-10-31T08:36Z: configured_model, session_context.model and external_metadata.last_served_model all claude-opus-5-5; rateLimitType ccr_promotional, status allowed, isUsingOverage false."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.32.9",
+      "clauses": [
+        {
+          "words": [
+            "02yfG",
+            "02Tfh",
+            "02AzH",
+            "02JvB"
+          ],
+          "gloss": "And [YHWH] said to Moses",
+          "type": "narrative wayyiqtol speech frame"
+        },
+        {
+          "words": [
+            "02WTH",
+            "02LRw",
+            "02Z9W",
+            "024WA"
+          ],
+          "gloss": "I have seen this people",
+          "type": "qatal 1cs perceptive; ha-am ha-zeh distancing demonstrative"
+        },
+        {
+          "words": [
+            "02Xmm",
+            "02P4w",
+            "02sLZ",
+            "02deJ",
+            "02d24"
+          ],
+          "gloss": "and look, a stiff-necked people it is",
+          "type": "hinneh discovery clause; nominal clause with resumptive hu"
+        }
+      ],
+      "question_types_ko": {
+        "lexical": "qeshe-oref(목이 굳은)는 관용구로 '고집 센/완고한'. 소를 멍에에 비유한 이미지 해석은 해석이지 원문 자체 주장이 아니다.",
+        "syntactic": "wehinneh + 명사절 + 3ms 대명사 hu: '보라, 그것은 목이 굳은 백성이다'. 판단을 '발견'으로 제시한다.",
+        "discourse": "'이 백성'(ha-am ha-zeh): 32:7의 '네 백성' 발언과 이어지는 거리두기. 32:9는 새 발화 도입(wayyomer)이므로 7-8절과 같은 장면 안의 두 번째 발화다.",
+        "textual_variant": "독립 판독 단계 기억: 그리스어 역본 일부(구 LXX 계열)에 32:9가 없다는 보고가 있다. 패킷에는 이문 증거가 없으므로 미확인으로 둔다.",
+        "historical": "해당 없음(특별한 역사 실재 문제 없음).",
+        "reception": "보고 또는 검증 대상 아님."
+      }
+    },
+    {
+      "id": "Exod.32.10",
+      "clauses": [
+        {
+          "words": [
+            "02TPJ",
+            "02Gjo",
+            "02FrP"
+          ],
+          "gloss": "And now, let me be / leave me alone",
+          "type": "we-attah transition + hiphil impv 2ms of nwh (hinniah 'leave, let alone') with paragogic he + li"
+        },
+        {
+          "words": [
+            "029Jc",
+            "02uCZ",
+            "02XAT"
+          ],
+          "gloss": "that my anger may burn against them",
+          "type": "waw + jussive 3ms: purpose/result after imperative"
+        },
+        {
+          "words": [
+            "021DF"
+          ],
+          "gloss": "and I may consume them",
+          "type": "waw + piel 1cs (tagged Vph1cs cohortative) with 3mp suffix: purpose chain"
+        },
+        {
+          "words": [
+            "02Bh3",
+            "02eTr",
+            "02ks2",
+            "02uA4"
+          ],
+          "gloss": "and I will make you into a great nation",
+          "type": "waw + yiqtol 1cs; et-kha separate object; echo of Gen 12:2 goy gadol"
+        }
+      ],
+      "question_types_ko": {
+        "lexical": "hanniha li: '나를 내버려 두라/나를 막지 말라'. 하나님이 모세에게 '허락'을 구하는 듯한 표현이 신학적 난점.",
+        "syntactic": "명령형 뒤 지시형(weyichar)과 청유형(waakhallem)은 목적/결과 연쇄로 읽는 것이 자연스럽다: '내버려 두면 ... 하겠다' 또는 '...하도록 내버려 두라'.",
+        "discourse": "'너를 큰 민족으로 만들겠다'는 창 12:2 약속을 모세에게 재적용하는 제안 — 모세에게 시험/선택지로 작동.",
+        "textual_variant": "패킷에 이문 증거 없음.",
+        "historical": "해당 없음.",
+        "reception": "'나를 내버려 두라'가 오히려 중보의 여지를 열었다는 랍비 전통 해석(라시 등)이 있다고 알려져 있으나 이 단계에서는 미확인."
+      }
+    },
+    {
+      "id": "Exod.32.11",
+      "clauses": [
+        {
+          "words": [
+            "02ShW",
+            "02k88",
+            "02PiS",
+            "02xJN",
+            "02Y2n",
+            "02Jmy"
+          ],
+          "gloss": "But Moses sought to soften the face of [YHWH] his God / implored",
+          "type": "wayyiqtol piel of hlh II 'appease, entreat' + et-pene idiom"
+        },
+        {
+          "words": [
+            "02GbY"
+          ],
+          "gloss": "and he said",
+          "type": "speech frame"
+        },
+        {
+          "words": [
+            "02Zwd",
+            "02FTW",
+            "02WPw",
+            "02s8U",
+            "029jH"
+          ],
+          "gloss": "Why, [YHWH], should your anger burn against your people",
+          "type": "lamah + vocative + modal yiqtol"
+        },
+        {
+          "words": [
+            "02ZJk",
+            "02aaq",
+            "02D9J",
+            "02At4"
+          ],
+          "gloss": "whom you brought out from the land of Egypt",
+          "type": "relative clause, hiphil qatal 2ms"
+        },
+        {
+          "words": [
+            "02pFw",
+            "02pAn",
+            "02V8L",
+            "02SFr"
+          ],
+          "gloss": "with great power and with a strong hand",
+          "type": "instrumental pair"
+        }
+      ],
+      "question_types_ko": {
+        "lexical": "wayechal et-pene: '얼굴을 누그러뜨리다'(hlh II piel). '간구하다/은총을 구하다'로 옮기되 관용 이미지 보존 여부가 선택지.",
+        "syntactic": "lamah + yiqtol: 수사 의문 '어찌하여 ... 하시려 합니까'.",
+        "discourse": "'당신의 백성, 당신이 이끌어 내신' — 32:7에서 하나님이 '네(모세의) 백성, 네가 이끌어 올린'이라 한 것을 모세가 되돌린다(32:7 원문 대조 필요).",
+        "textual_variant": "패킷에 증거 없음.",
+        "historical": "해당 없음.",
+        "reception": "해당 없음."
+      }
+    },
+    {
+      "id": "Exod.32.12",
+      "clauses": [
+        {
+          "words": [
+            "02pAx",
+            "026L8",
+            "02EuB",
+            "02Eip"
+          ],
+          "gloss": "Why should Egypt/the Egyptians say",
+          "type": "lamah + modal yiqtol 3mp; misrayim with plural verb (tag lemma 4713 gentilic)"
+        },
+        {
+          "words": [
+            "02G8i",
+            "02yLr"
+          ],
+          "gloss": "With evil intent / for harm he brought them out",
+          "type": "quoted speech; be-raah fronted"
+        },
+        {
+          "words": [
+            "02D3Q",
+            "02gLX",
+            "02Rmf"
+          ],
+          "gloss": "to kill them in the mountains",
+          "type": "infinitive of purpose"
+        },
+        {
+          "words": [
+            "02tit",
+            "02hSB",
+            "02tFY",
+            "02Rr1"
+          ],
+          "gloss": "and to finish them off from the face of the ground",
+          "type": "infinitive of purpose, piel klh"
+        },
+        {
+          "words": [
+            "02Hbx",
+            "02etn",
+            "02JAN"
+          ],
+          "gloss": "Turn from your burning anger",
+          "type": "qal impv shuv + min-charon af"
+        },
+        {
+          "words": [
+            "02R6s",
+            "02Wy4",
+            "02869",
+            "02954"
+          ],
+          "gloss": "and relent concerning the harm against your people",
+          "type": "niphal impv nhm + al-haraah + le-ammekha"
+        }
+      ],
+      "question_types_ko": {
+        "lexical": "raah: 도덕적 '악'이 아니라 '해/재앙/화'. be-raah는 '악한 뜻으로' 또는 '해치려고'. hinnachem: '뜻을 돌이키다/누그러지다/마음을 바꾸다'.",
+        "syntactic": "인용문 경계: lemor 뒤 be-raah ... min-pene haadamah까지가 이집트인의 말. shuv부터 다시 모세의 직접 청원.",
+        "discourse": "모세의 두 번째 논거: 하나님의 평판(열방 앞의 이름).",
+        "textual_variant": "패킷에 증거 없음.",
+        "historical": "'산에서 죽이려고'는 시내 광야 지형에 맞는 이집트인의 가상 발언.",
+        "reception": "하나님의 '후회/돌이킴' 문제(민 23:19, 삼상 15:29와 긴장)는 수용사/교리 문제로 분리."
+      }
+    },
+    {
+      "id": "Exod.32.13",
+      "clauses": [
+        {
+          "words": [
+            "02wLC",
+            "02ZBr",
+            "02zbk",
+            "02o1G",
+            "02DM7"
+          ],
+          "gloss": "Remember Abraham, Isaac and Israel, your servants",
+          "type": "qal impv zekhor + le-objects; 'Israel' for Jacob"
+        },
+        {
+          "words": [
+            "02D7s",
+            "02exS",
+            "02xpZ",
+            "02x95"
+          ],
+          "gloss": "to whom you swore by yourself",
+          "type": "relative; niphal qatal 2ms; bakh pausal form (tag Sp2fs; context requires 2ms addressee)"
+        },
+        {
+          "words": [
+            "02qX6",
+            "02eNN"
+          ],
+          "gloss": "and said to them",
+          "type": "wayyiqtol 2ms piel dbr"
+        },
+        {
+          "words": [
+            "02PWp",
+            "023LH",
+            "02ecq",
+            "02hUd",
+            "0252X"
+          ],
+          "gloss": "I will multiply your offspring like the stars of the heavens",
+          "type": "embedded divine quotation 1cs, 2mp suffix"
+        },
+        {
+          "words": [
+            "027WR",
+            "029yL",
+            "02nZ2",
+            "02sk9",
+            "02FK9",
+            "026dr",
+            "02UCY"
+          ],
+          "gloss": "and all this land of which I have said, I will give to your offspring",
+          "type": "fronted object; relative with amarti; yiqtol 1cs"
+        },
+        {
+          "words": [
+            "02fgw",
+            "02nVy"
+          ],
+          "gloss": "and they shall inherit (it) forever",
+          "type": "weqatal 3cp, implied object"
+        }
+      ],
+      "question_types_ko": {
+        "lexical": "nishbata lahem bakh: '당신 자신을 두고 맹세하신'.",
+        "syntactic": "인용 안의 1인칭은 하나님, 2인칭 복수는 족장들(과 후손). '내가 말한 이 온 땅'의 amarti는 하나님 화자 시점. '이 땅'(hazzot)은 약속 시점 또는 모세 시점의 지시 — 지시어 기준점 모호.",
+        "discourse": "세 번째 논거: 족장 맹세. 창 22:16-17, 15:5 등 반향. 야곱 대신 '이스라엘'을 써서 민족 이름과 연결.",
+        "textual_variant": "패킷에 증거 없음. bakh의 OSHB 형태 태그 Sp2fs는 휴지형 2ms를 2fs로 태깅한 것으로 보이며 이것은 본문 이문이 아니라 주석(태깅) 문제다.",
+        "historical": "해당 없음.",
+        "reception": "해당 없음."
+      }
+    },
+    {
+      "id": "Exod.32.14",
+      "clauses": [
+        {
+          "words": [
+            "02KPw",
+            "02pjN"
+          ],
+          "gloss": "And [YHWH] relented",
+          "type": "niphal wayyiqtol nhm, narrator voice"
+        },
+        {
+          "words": [
+            "02DLD",
+            "02Jf1"
+          ],
+          "gloss": "concerning the harm",
+          "type": "al + article raah, echoing v12"
+        },
+        {
+          "words": [
+            "023YY",
+            "025np",
+            "02kyD",
+            "02cTB"
+          ],
+          "gloss": "that he had spoken of doing to his people",
+          "type": "relative; piel qatal dbr (pluperfect sense); 'his people'"
+        }
+      ],
+      "question_types_ko": {
+        "lexical": "wayyinnachem: 12절 hinnachem의 정확한 응답. '뜻을 돌이키셨다/누그러지셨다/거두셨다' 중 선택. 영어 'repented'는 죄의 회개를 연상시켜 오해 소지.",
+        "syntactic": "dibber la'asot: '하겠다고 말씀하신'. 앞선 발화를 가리키므로 과거완료로 옮긴다.",
+        "discourse": "서술자 목소리: '그의 백성' — 7절 '네 백성', 11절 '당신의 백성' 논쟁을 서술자가 하나님 쪽으로 정리. 서사 시간: 모세는 15-19절에서 여전히 진노하고 30절에서 '혹시 속죄할 수 있을까' 하므로 14절이 즉시 상황 보고인지 32:30-34:10 결과의 선취 요약인지 문제.",
+        "textual_variant": "패킷에 증거 없음. 끝의 setumah가 아니라 petuha(pe) 문단 표지.",
+        "historical": "해당 없음.",
+        "reception": "하나님의 불변성(민 23:19, 삼상 15:29)과의 긴장: 신인동감적 표현, 조정(accommodation) 해석 등은 교리적 수용이며 번역 근거가 아님."
+      }
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Exod.32.9",
+      "ko": "[YHWH]께서 모세에게 말씀하셨다. \"내가 이 백성을 보았다. 보라, 이들은 목이 굳은 백성이다.",
+      "en": "And [YHWH] said to Moses, \"I have seen this people, and look, it is a stiff-necked people.",
+      "es": "Y [YHWH] dijo a Moisés: \"He visto a este pueblo, y mira, es un pueblo de dura cerviz."
+    },
+    {
+      "id": "Exod.32.10",
+      "ko": "이제 나를 말리지 마라. 내 분노가 그들을 향해 타올라 내가 그들을 멸하겠다. 그리고 너를 큰 민족으로 만들겠다.\"",
+      "en": "Now then, leave me alone, so that my anger may burn against them and I may consume them; and I will make you into a great nation.\"",
+      "es": "Ahora, pues, déjame, para que mi ira se encienda contra ellos y los consuma; y de ti haré una gran nación.\""
+    },
+    {
+      "id": "Exod.32.11",
+      "ko": "그러나 모세는 그의 하나님 [YHWH]께 은총을 간구하며 말하였다. \"[YHWH]여, 어찌하여 당신께서 큰 힘과 강한 손으로 이집트 땅에서 이끌어 내신 당신의 백성에게 진노를 불태우십니까?",
+      "en": "But Moses implored the favor of [YHWH] his God and said, \"Why, [YHWH], should your anger burn against your people, whom you brought out of the land of Egypt with great power and with a strong hand?",
+      "es": "Pero Moisés imploró el favor de [YHWH] su Dios, y dijo: \"¿Por qué, [YHWH], ha de encenderse tu ira contra tu pueblo, al que sacaste de la tierra de Egipto con gran poder y con mano fuerte?"
+    },
+    {
+      "id": "Exod.32.12",
+      "ko": "어찌하여 이집트 사람들이 '그가 해치려고 그들을 이끌어 내어, 산에서 죽이고 땅 위에서 없애 버리려 했다'고 말하게 하시겠습니까? 당신의 타오르는 진노를 거두시고, 당신의 백성에게 내리려던 재앙에 대해 뜻을 돌이키십시오.",
+      "en": "Why should the Egyptians say, 'With evil intent he brought them out, to kill them in the mountains and to wipe them off the face of the earth'? Turn from your burning anger, and relent concerning the harm against your people.",
+      "es": "¿Por qué han de decir los egipcios: 'Con mala intención los sacó, para matarlos en los montes y exterminarlos de sobre la faz de la tierra'? Vuélvete del ardor de tu ira y desiste del mal contra tu pueblo."
+    },
+    {
+      "id": "Exod.32.13",
+      "ko": "당신의 종 아브라함과 이삭과 이스라엘을 기억하십시오. 당신께서 당신 자신을 두고 그들에게 맹세하시며 '내가 너희 자손을 하늘의 별처럼 많게 하고, 내가 말한 이 온 땅을 너희 자손에게 주어 그들이 영원히 차지하게 하겠다'고 말씀하셨습니다.\"",
+      "en": "Remember Abraham, Isaac, and Israel, your servants, to whom you swore by yourself and said to them, 'I will multiply your offspring like the stars of the heavens, and all this land of which I have spoken I will give to your offspring, and they shall inherit it forever.'\"",
+      "es": "Acuérdate de Abraham, de Isaac y de Israel, tus siervos, a quienes juraste por ti mismo y les dijiste: 'Multiplicaré su descendencia como las estrellas del cielo, y toda esta tierra de la que he hablado la daré a su descendencia, y la heredarán para siempre.'\""
+    },
+    {
+      "id": "Exod.32.14",
+      "ko": "그러자 [YHWH]께서 자기 백성에게 내리겠다고 말씀하신 재앙에 대해 뜻을 돌이키셨다.",
+      "en": "And [YHWH] relented concerning the harm that he had spoken of doing to his people.",
+      "es": "Y [YHWH] desistió del mal que había dicho que haría a su pueblo."
+    }
+  ],
+  "initial_proposals_note": "Initial reading and proposals were saved to /tmp/hr/independent.json (mtime 2026-10-31T08:28:00Z) from the claim packet only, with [YHWH] placeholder. The file self-reported written_utc 08:31Z was a manual estimate and is superseded by the mtime. Disclosure: before writing it, the reviewer had seen the schema of a prior review (exod-24-9-11) and the nhm cross-reference list in the Gen 6:5-8 review; no translation of Exod 32 from any record was seen. LXX, BDB and project conventions were opened afterwards.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (main 10983fc) has 126 selected verses and no Exodus 32 verse; packet current_selected is empty."
+    },
+    {
+      "kind": "saved GPT/Gemini/agy model responses",
+      "result": "none found",
+      "note": "git grep for Exod.32. over all fetched origin refs in automation/cloud-drafts, automation/cloud-reviews, data, reviews, library found no proposal for these verses."
+    },
+    {
+      "kind": "existing Claude cloud draft",
+      "result": "none",
+      "note": "No automation/cloud-drafts record contains Exod.32.9-14."
+    },
+    {
+      "kind": "other Claude hard review",
+      "result": "citation only",
+      "note": "claude/original-bible-hard-review-wbop5q 20261030T080156Z-d8df31da (unit gen-6-5-8) quotes Exod.32.14 Hebrew as an nhm parallel; it gives no translation of this verse."
+    },
+    {
+      "kind": "project conventions",
+      "result": "applied",
+      "note": "Selected Gen 2-4 and prior Exodus hard reviews: ko yahwe, en/es YHWH; ko/en curly quotes, es angle quotes; zera rendered ko jason/hooson, en offspring, es descendencia."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Exod.32.9-14",
+      "severity": "info",
+      "finding_ko": "현재 선정본(data/editorial.json, main 10983fc 기준 126절)에는 출애굽기 32장이 없다. 저장된 GPT/Gemini/Claude 모델 응답·클라우드 초안 중 이 6절을 대상으로 한 기록은 모든 claude/ 원격 브랜치와 main에서 찾지 못했다(검색: automation/cloud-drafts, automation/cloud-reviews, data, reviews, library). 따라서 실제 비교 대상은 '없음'이며 비교를 지어내지 않는다."
+    },
+    {
+      "id": "Exod.32.14",
+      "severity": "low",
+      "finding_ko": "유일한 관련 기존 기록은 창 6:5-8 하드 리뷰(claude/original-bible-hard-review-wbop5q, 20261030T080156Z-d8df31da)가 נחם 용례로 출 32:14 원문을 인용한 것뿐이다. 그 기록은 32:14 번역을 제시하지 않으므로 번역 비교 대상이 아니다. 그 리뷰가 창 6:6-7의 נחם을 어떻게 옮겼는지는 이 단위의 결론에 사용하지 않았고, 일관성 점검 과제로만 남긴다."
+    },
+    {
+      "id": "Exod.32.10",
+      "severity": "medium",
+      "finding_ko": "독립 초안은 hanniha li를 ko '나를 말리지 마라'로 옮겼다. 이는 모세가 이미 하나님을 '말리고' 있다는 해석을 덧붙인다. 원문은 '나를 내버려 두라/가만두라'이며, 모세에게 개입 여지를 주는지는 해석(수용사) 문제다. 최종안은 '나를 내버려 두어라'로 바꾼다."
+    },
+    {
+      "id": "Exod.32.12",
+      "severity": "medium",
+      "finding_ko": "독립 초안은 shuv(돌아서다)와 hinnachem(뜻을 돌이키다)을 각각 '거두다/뜻을 돌이키다'로 옮겼고 es에서 raah를 'mal'로 옮겼다. 스페인어 mal은 도덕적 악으로 읽히기 쉬워 '해/재앙' 의미를 흐린다. 최종안은 es 'daño', ko '재앙', en 'harm'으로 통일하고, ko shuv는 '돌아서시고'로 nhm과 구분한다. 또 독립 초안의 ko '해치려고'는 be-raah를 목적으로만 읽었는데, LXX Μετὰ πονηρίας와 en/es 초안('evil intent/mala intención')과 맞추어 ko '악한 뜻을 품고'로 정렬한다."
+    },
+    {
+      "id": "Exod.32.10-12",
+      "severity": "low",
+      "finding_ko": "독립 초안은 klh piel(10절 waakhallem, 12절 ulekhallotam)을 ko '멸하다/없애 버리다', en 'consume/wipe off'로 달리 옮겼다. 같은 어근의 반복(하나님의 위협 → 이집트인의 조롱 속 같은 말)을 보존하려고 최종안은 ko '멸하다', en 'consume', es 'consumir'로 통일한다."
+    },
+    {
+      "id": "Exod.32.9-14",
+      "severity": "low",
+      "finding_ko": "프로젝트 관례 적용: 신명 ko '야훼', en/es 'YHWH'(선정본 다수 관례 및 이전 출애굽기 하드 리뷰). 인용부호 ko/en “ ” 및 내부 ‘ ’, es « » 및 내부 “ ”. 32:9-10 하나님 발화는 9절에서 열고 10절 끝에서 닫는다. 모세의 발화는 11절에서 열고 13절 끝에서 닫는다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "10절 ko '나를 말리지 마라'를 '나를 내버려 두어라'로 바꾸고 결과 연쇄를 '그러면 ...'으로 풀었다. 10·12절 klh 어근을 세 언어 모두 한 단어로 통일했다. 12절 es 'mal'을 'daño'로, ko '해치려고'를 '악한 뜻을 품고'로, ko shuv를 '돌아서시고'로 바꾸었다. 14절 es를 'desistió del daño'로 바꾸었다. 신명 자리 표시자를 프로젝트 관례(야훼/YHWH)로 채웠다. 9·13절은 어휘('목이 뻣뻣한', '유업으로 차지')만 다듬었다.",
+  "reception_evidence": {
+    "source_note": "Greek from the Swete edition digital TEI (First1KGreek, master branch, not pinned). Swete prints Codex Vaticanus (B) with an apparatus for A and F; this record did not inspect any manuscript. Hebrew context from the pinned morphhb commit.",
+    "items": [
+      {
+        "ref": "LXX Exod 32:8-10 (Swete, First1KGreek tlg0527.tlg002)",
+        "excerpt": "ἑαυτοῖς μόσχον, καὶ προσκεκυνήκασιν αὐτῷ καὶ εἶπαν Οὗτοι οἱ θεοί σου, Ἰσραήλ, οἵτινες ἀνεβίβασάν σε ἐκ γῆς Αἰγύπτου. καὶ νῦν ἔασόν",
+        "finding_ko": "MT 32:8 끝 인용문 바로 다음에 MT 32:10의 '이제 나를 내버려 두라'(καὶ νῦν ἔασόν με)가 온다. MT 32:9('내가 이 백성을 보았다 ... 목이 뻣뻣한 백성이다')에 해당하는 그리스어가 이 판본 본문에 없다. 같은 쪽 비평 각주(이 파일의 footnote 텍스트)는 32:8의 A 사본 추가(καὶ τεθύκασιν αὐτῷ)와 11절 이하 차이를 적지만 32:9 상당 구절을 A나 F가 보충한다는 기록은 보이지 않는다. 각주에 기록이 없다는 사실은 A·F를 직접 대조한 것이 아니므로 그 사본들의 독법을 확정하지 않는다.",
+        "excerpt_form": "words copied from the downloaded TEI file with markup removed and whitespace collapsed; the file's verse divisions n=8/n=9 are joined here because the digital file places MT 32:8's final quotation in a div labelled 9"
+      },
+      {
+        "ref": "LXX Exod 32:10 (Swete)",
+        "excerpt": "καὶ νῦν ἔασόν με καὶ θυμωθεὶς ὀργῇ εἰς αὐτοὺς ἐκτρίψω αὐτούς. καὶ ποιήσω σε εἰς ἔθνος μέγα.",
+        "finding_ko": "hanniha li를 ἔασόν με('나를 내버려 두라')로 옮긴다. 지시형+청유형 연쇄를 분사구문 '진노하여 ... 쓸어버리겠다'로 풀었다. 의미상 MT와 같다."
+      },
+      {
+        "ref": "LXX Exod 32:11 (Swete)",
+        "excerpt": "καὶ ἐδεήθη Μωυσῆς ἔναντι κυρίου τοῦ θεοῦ καὶ εἶπεν Ἵνα τί, Κύριε, θυμοῖ ὀργᾖ εἰς τὸν λαόν σου, οὑς ἐξήγαγες ἐκ γῆς Αἰγύπτου ἐν ἰσχύι μεγάλῃ καὶ ἐν τῷ βραχίονι σου τῷ ὑψηλῷ;",
+        "finding_ko": "wayechal et-pene를 ἐδεήθη ... ἔναντι('앞에서 간구했다')로 옮겨 '얼굴을 누그러뜨리다' 이미지를 쓰지 않는다. MT '강한 손'(beyad chazaqah) 자리에 '당신의 높이 든 팔'(τῷ βραχίονί σου τῷ ὑψηλῷ)이 있다. 이 차이가 히브리 저본 차이인지 상투 표현 동화인지는 이번 세션 자료로 판단할 수 없다.",
+        "excerpt_form": "copied from downloaded file; markup removed, whitespace collapsed"
+      },
+      {
+        "ref": "LXX Exod 32:12 (Swete)",
+        "excerpt": "μή ποτε εἴπωσιν οἱ Αἰγύπτιοι λέγοντες Μετὰ πονηρίας ἐξήγαγεν αὐτοὺς ἀποκτεῖναι ἐν τοῖς ὄρεσιν καὶ ἐξαναλῶσαι αὐτοὺς ἀπὸ τῆς γῆς. παῦσαι τῆς ὀργῆς τοῦ θυμοῦ σου, καὶ ἵλεως γενοῦ ἔπι τἠ̣ κακίᾳ τοῦ λαοῦ σου,",
+        "finding_ko": "(1) lamah('어찌하여')를 μή ποτε('행여 ... 하지 않도록')로 옮겼다. (2) be-raah를 Μετὰ πονηρίας('악의를 품고')로 읽어 '악한 의도' 해석을 지지한다. (3) 가장 중요한 차이: hinnachem al-haraah le-ammekha('당신 백성에게 [내릴] 재앙에 대해 뜻을 돌이키소서')를 ἵλεως γενοῦ ἐπὶ τῇ κακίᾳ τοῦ λαοῦ σου('당신 백성의 악함에 대해 자비를 베푸소서')로 옮겨, 재앙을 백성의 악으로 바꾸고 하나님이 '뜻을 돌이킨다'는 표현을 피했다. 이것은 번역 전승의 해석이며 MT 본문 이문의 증거로 확정할 수 없다. 파일 텍스트의 'ἔπι τἠ̣'는 디지털 OCR 오류로 보이며 ἐπὶ τῇ로 읽었다.",
+        "excerpt_form": "copied from downloaded file, OCR artifacts left as in file"
+      },
+      {
+        "ref": "LXX Exod 32:13 (Swete)",
+        "excerpt": "μνησθεὶς Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακὼβ τῶν σῶν οἰκετῶν, οἷς ὤμοσας κατὰ σεαυτοῦ καὶ ἐλάλησας πρὸς αὐτούς λέγων Πολυπληθυνῶ τὸ σπέρμα ὑμῶν ὡσεὶ τὰ ἄστρα τοῦ οὐρανοῦ τῷ πλήθει, καὶ πᾶσαν τὴν γῆν ταύτην ἢν εἶπας δοῦναι αὐτοῖς, καὶ καθέξουσιν αὐτὴν εἰς τὸν αἰῶνα.",
+        "finding_ko": "(1) MT '이스라엘' 자리에 Ἰακώβ('야곱'). MT 신 9:27과 출 33:1도 '야곱'이므로 동화 가능성이 있다. (2) MT의 인용 속 1인칭 '내가 말한'(amarti)과 '너희 자손에게'(lezar'akhem)를 '당신이 주겠다고 말씀하신'(ἣν εἶπας δοῦναι)과 '그들에게'(αὐτοῖς)로 바꾸어 인용 경계의 인칭 전환을 매끄럽게 했다. 각주는 αὐτοῖς 대신 τῷ σπέρματι αὐτῶν(A F)을 보고한다. (3) MT의 직접 인용 구조가 더 어려운 독법(lectio difficilior)이다. 파일의 '§' 기호는 판본 표지로 보아 인용에서 제외했다.",
+        "excerpt_form": "copied from downloaded file; a section mark § in the file is omitted"
+      },
+      {
+        "ref": "LXX Exod 32:14 (Swete) and its footnote",
+        "excerpt": "καὶ ἱλάσθη Κύριος περιποιῆσαι τὸν λαὸν αὐτοῦ. | footnote: 14 περιποίησαι] πέρι τῆς κακίας ἦς εἶπεν ποίησαι AF",
+        "finding_ko": "B 계열 본문(Swete 본문): '주께서 자비를 베푸시어 그의 백성을 보존하셨다'(περιποιῆσαι). 각주에 따르면 A·F는 '그가 하겠다고 말씀하신 악(재앙)에 대하여'(περὶ τῆς κακίας ἧς εἶπεν ποιῆσαι)를 가져 MT의 'al-haraah asher dibber la'asot'에 가깝다. 둘 다 nhm을 ἱλάσθη('자비로워지다/누그러지다')로 옮겨 '뜻을 바꾸다' 표현을 피한다. 제안 설명(재구성, 증명 아님): B의 περιποιῆσαι는 περὶ [τῆς κακίας ἧς εἶπεν] ποιῆσαι에서 중간이 빠진 그리스어 내부 전승 사고일 가능성이 있다. 이 가설은 사본을 직접 보지 않았으므로 미확정이다.",
+        "excerpt_form": "copied from downloaded file; footnote accents are OCR-garbled in the file and quoted as is; the normalized Greek in finding_ko is this reviewer's reading"
+      },
+      {
+        "ref": "BDB (Open Scriptures digitization) entry n.cr.aa [נחם]",
+        "excerpt": "Niph. be sorry, moved to pity, have compassion, for others be sorry, rue, suffer grief, repent, of one’s own doings",
+        "finding_ko": "Niphal 의미 폭: '불쌍히 여기다/누그러지다'(타인에 대해)부터 '자기 행위를 뉘우치다'까지. 출 32:12·14는 '재앙에 대해'(al-haraah)라는 대상이 있어 '자기 죄의 회개'가 아니라 '하려던 일을 거두다/누그러지다' 쪽이다. 디지털본은 절 참조가 생략된 축약본이라 BDB가 32:14를 어느 의미에 분류했는지는 확인하지 못했다."
+      },
+      {
+        "ref": "BDB entry h.co.aa [חָלָה]",
+        "excerpt": "[חָלָה] vb. only Pi. mollify, appease, entreat the favour",
+        "finding_ko": "wayechal et-pene = '얼굴을 누그러뜨리다 → 은총을 간구하다'. 번역안 '은총을 간구하며/implored the favor/imploró el favor'의 근거."
+      },
+      {
+        "ref": "BDB entry n.by.aa נוּחַ",
+        "excerpt": "Hiph. ... let remain, leave (in present condition) leave = depart from abandon let alone",
+        "finding_ko": "hanniha li의 Hiphil 의미 'let alone(내버려 두다)' 확인. '말리지 마라'는 해석적 확장이다."
+      },
+      {
+        "ref": "BDB entry b.ab.aa בְּ",
+        "excerpt": "בְּךָ (Ex 7:29 2 S 22:30 ψ 141:8 בְּכָה) in pause and fem. בָּךְ",
+        "finding_ko": "בָּךְ가 휴지형 2인칭 남성(및 여성) 형태임을 확인. 32:13 OSHB 태그 Sp2fs는 형태 표기 관례/오류이며, 청자는 문맥상(nishbata 2ms) 남성 단수(하나님)다. 같은 파일의 32:34 'dibbarti lakh'(모세에게)와 33:5 'e'eseh lakh'(백성에게)도 Sp2fs로 태깅되어 있어 체계적 태깅 관례로 보인다. 본문 이문이 아니다."
+      }
+    ],
+    "wlc_context_note_ko": "모두 고정 morphhb 커밋 3d15126 WLC에서 스크립트로 추출. 악센트(칸틸레이션)를 제거하고 형태소 구분자 '/'를 지웠으며 마깨프는 공백으로 바꾸었다. 원형 마크업은 target 절의 raw_xml에만 있다.",
+    "wlc_context": [
+      {
+        "ref": "Exod.32.7",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיְדַבֵּר יְהוָה אֶל מֹשֶׁה לֶךְ רֵד כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הֶעֱלֵיתָ מֵאֶרֶץ מִצְרָיִם",
+        "used_for_ko": "하나님이 '네(모세의) 백성, 네가 이끌어 올린'(ammekha asher he'eleita)이라 말함 → 11절 모세의 '당신의 백성, 당신이 이끌어 내신'(ammekha asher hotseta)과 14절 서술자의 '그의 백성'(le'ammo)으로 이어지는 소유 논쟁의 출발점. 동사도 '올리다(he'elah)'에서 '이끌어 내다(hotsi)'로 바뀐다."
+      },
+      {
+        "ref": "Exod.32.8",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "סָרוּ מַהֵר מִן הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם עֵגֶל מַסֵּכָה וַיִּשְׁתַּחֲווּ לוֹ וַיִּזְבְּחוּ לוֹ וַיֹּאמְרוּ אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָיִם",
+        "used_for_ko": "LXX 32:9 부재 판단의 경계 확인용."
+      },
+      {
+        "ref": "Exod.32.30",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיְהִי מִמָּחֳרָת וַיֹּאמֶר מֹשֶׁה אֶל הָעָם אַתֶּם חֲטָאתֶם חֲטָאָה גְדֹלָה וְעַתָּה אֶעֱלֶה אֶל יְהוָה אוּלַי אֲכַפְּרָה בְּעַד חַטַּאתְכֶם",
+        "used_for_ko": "모세가 다음 날 '혹시 내가 속죄할 수 있을까'(ulai akhapperah) — 14절 이후에도 결과가 확정되지 않은 것처럼 서술됨."
+      },
+      {
+        "ref": "Exod.32.34",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וְעַתָּה לֵךְ נְחֵה אֶת הָעָם אֶל אֲשֶׁר דִּבַּרְתִּי לָךְ הִנֵּה מַלְאָכִי יֵלֵךְ לְפָנֶיךָ וּבְיוֹם פָּקְדִי וּפָקַדְתִּי עֲלֵיהֶם חַטָּאתָם",
+        "used_for_ko": "'내가 벌할 날에 그들의 죄를 벌하겠다' — 14절의 돌이킴이 처벌 전체 철회가 아님."
+      },
+      {
+        "ref": "Exod.32.35",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיִּגֹּף יְהוָה אֶת הָעָם עַל אֲשֶׁר עָשׂוּ אֶת הָעֵגֶל אֲשֶׁר עָשָׂה אַהֲרֹן",
+        "used_for_ko": "'야훼께서 백성을 치셨다' — 14절 이후 실제 징벌."
+      },
+      {
+        "ref": "Exod.33.3",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "אֶל אֶרֶץ זָבַת חָלָב וּדְבָשׁ כִּי לֹא אֶעֱלֶה בְּקִרְבְּךָ כִּי עַם קְשֵׁה עֹרֶף אַתָּה פֶּן אֲכֶלְךָ בַּדָּרֶךְ",
+        "used_for_ko": "'목이 뻣뻣한 백성' 반복 + '도중에 너를 멸할까 하여'(pen akhelkha) — 32:9-10의 판단·위협 재등장."
+      },
+      {
+        "ref": "Exod.33.5",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיֹּאמֶר יְהוָה אֶל מֹשֶׁה אֱמֹר אֶל בְּנֵי יִשְׂרָאֵל אַתֶּם עַם קְשֵׁה עֹרֶף רֶגַע אֶחָד אֶעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵעָלֶיךָ וְאֵדְעָה מָה אֶעֱשֶׂה לָּךְ",
+        "used_for_ko": "'목이 뻣뻣한 백성' 반복 + '한순간이라도 ... 너를 멸하리라'(vekhillitikha, klh piel) — 32:10·12와 같은 어근."
+      },
+      {
+        "ref": "Exod.34.9",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיֹּאמֶר אִם נָא מָצָאתִי חֵן בְּעֵינֶיךָ אֲדֹנָי יֵלֶךְ נָא אֲדֹנָי בְּקִרְבֵּנוּ כִּי עַם קְשֵׁה עֹרֶף הוּא וְסָלַחְתָּ לַעֲוֺנֵנוּ וּלְחַטָּאתֵנוּ וּנְחַלְתָּנוּ",
+        "used_for_ko": "모세가 '목이 뻣뻣한 백성이니(ki)' 함께 가 달라고 청함 — 32:9의 판단을 중보 근거로 뒤집음."
+      },
+      {
+        "ref": "Gen.12.2",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fetched_utc": "2026-10-31T08:29:26Z",
+        "text_accents_stripped": "וְאֶעֶשְׂךָ לְגוֹי גָּדוֹל וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וֶהְיֵה בְּרָכָה",
+        "used_for_ko": "'너를 큰 민족(goy gadol)으로 만들겠다' — 32:10이 아브라함 약속을 모세에게 재적용."
+      },
+      {
+        "ref": "Gen.22.16",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיֹּאמֶר בִּי נִשְׁבַּעְתִּי נְאֻם יְהוָה כִּי יַעַן אֲשֶׁר עָשִׂיתָ אֶת הַדָּבָר הַזֶּה וְלֹא חָשַׂכְתָּ אֶת בִּנְךָ אֶת יְחִידֶךָ",
+        "used_for_ko": "'내가 나를 두고 맹세하노니'(bi nishba'ti) — 32:13 '당신 자신을 두고 맹세하신'(nishba'ta ... bakh)의 반향."
+      },
+      {
+        "ref": "Gen.22.17",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "כִּי בָרֵךְ אֲבָרֶכְךָ וְהַרְבָּה אַרְבֶּה אֶת זַרְעֲךָ כְּכוֹכְבֵי הַשָּׁמַיִם וְכַחוֹל אֲשֶׁר עַל שְׂפַת הַיָּם וְיִרַשׁ זַרְעֲךָ אֵת שַׁעַר אֹיְבָיו",
+        "used_for_ko": "'네 자손을 하늘의 별처럼 크게 늘리겠다'(harbah arbeh ... kekhokhve hashamayim) — 32:13 인용과 같은 어휘."
+      },
+      {
+        "ref": "Gen.26.4",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וְהִרְבֵּיתִי אֶת זַרְעֲךָ כְּכוֹכְבֵי הַשָּׁמַיִם וְנָתַתִּי לְזַרְעֲךָ אֵת כָּל הָאֲרָצֹת הָאֵל וְהִתְבָּרֲכוּ בְזַרְעֲךָ כֹּל גּוֹיֵי הָאָרֶץ",
+        "used_for_ko": "같은 별 비유와 '땅을 너의 자손에게 주리라'."
+      },
+      {
+        "ref": "Gen.35.10",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיֹּאמֶר לוֹ אֱלֹהִים שִׁמְךָ יַעֲקֹב לֹא יִקָּרֵא שִׁמְךָ עוֹד יַעֲקֹב כִּי אִם יִשְׂרָאֵל יִהְיֶה שְׁמֶךָ וַיִּקְרָא אֶת שְׁמוֹ יִשְׂרָאֵל",
+        "used_for_ko": "야곱의 이름이 이스라엘로 바뀜 — 32:13 '이스라엘' 사용의 근거."
+      },
+      {
+        "ref": "Num.14.12",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "fetched_utc": "2026-10-31T08:29:27Z",
+        "text_accents_stripped": "אַכֶּנּוּ בַדֶּבֶר וְאוֹרִשֶׁנּוּ וְאֶעֱשֶׂה אֹתְךָ לְגוֹי גָּדוֹל וְעָצוּם מִמֶּנּוּ",
+        "used_for_ko": "'너를 그들보다 크고 강한 민족으로 만들겠다'(ve'e'eseh otkha legoy gadol) — 32:10과 같은 구조의 병행 제안."
+      },
+      {
+        "ref": "Num.14.19",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "סְלַח נָא לַעֲוֺן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד הֵנָּה",
+        "used_for_ko": "모세의 중보와 '네 말대로 용서하였다' — 병행 장면."
+      },
+      {
+        "ref": "Num.14.20",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶךָ",
+        "used_for_ko": "모세의 중보와 '네 말대로 용서하였다' — 병행 장면."
+      },
+      {
+        "ref": "Num.23.19",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+        "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "לֹא אִישׁ אֵל וִיכַזֵּב וּבֶן אָדָם וְיִתְנֶחָם הַהוּא אָמַר וְלֹא יַעֲשֶׂה וְדִבֶּר וְלֹא יְקִימֶנָּה",
+        "used_for_ko": "'하나님은 사람이 아니시니 ... 뉘우치지(veyitnecham) 않으신다' — 32:12·14와의 신학적 긴장."
+      },
+      {
+        "ref": "Deut.9.14",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "fetched_utc": "2026-10-31T08:29:27Z",
+        "text_accents_stripped": "הֶרֶף מִמֶּנִּי וְאַשְׁמִידֵם וְאֶמְחֶה אֶת שְׁמָם מִתַּחַת הַשָּׁמָיִם וְאֶעֱשֶׂה אוֹתְךָ לְגוֹי עָצוּם וָרָב מִמֶּנּוּ",
+        "used_for_ko": "회고 병행: '나를 놓아라'(heref mimmenni) — 32:10 hanniha li와 다른 동사이지만 같은 장면 회고."
+      },
+      {
+        "ref": "Deut.9.26",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וָאֶתְפַּלֵּל אֶל יְהוָה וָאֹמַר אֲדֹנָי יְהוִה אַל תַּשְׁחֵת עַמְּךָ וְנַחֲלָתְךָ אֲשֶׁר פָּדִיתָ בְּגָדְלֶךָ אֲשֶׁר הוֹצֵאתָ מִמִּצְרַיִם בְּיָד חֲזָקָה",
+        "used_for_ko": "회고 병행: 모세 기도에서 '아브라함·이삭·야곱'(야곱!)과 '이 백성의 완악함'(qeshi ha'am hazzeh), 열방의 비방 논거('미워하여 광야에서 죽이려고 이끌어 냈다')."
+      },
+      {
+        "ref": "Deut.9.27",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "זְכֹר לַעֲבָדֶיךָ לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב אַל תֵּפֶן אֶל קְשִׁי הָעָם הַזֶּה וְאֶל רִשְׁעוֹ וְאֶל חַטָּאתוֹ",
+        "used_for_ko": "회고 병행: 모세 기도에서 '아브라함·이삭·야곱'(야곱!)과 '이 백성의 완악함'(qeshi ha'am hazzeh), 열방의 비방 논거('미워하여 광야에서 죽이려고 이끌어 냈다')."
+      },
+      {
+        "ref": "Deut.9.28",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "פֶּן יֹאמְרוּ הָאָרֶץ אֲשֶׁר הוֹצֵאתָנוּ מִשָּׁם מִבְּלִי יְכֹלֶת יְהוָה לַהֲבִיאָם אֶל הָאָרֶץ אֲשֶׁר דִּבֶּר לָהֶם וּמִשִּׂנְאָתוֹ אוֹתָם הוֹצִיאָם לַהֲמִתָם בַּמִּדְבָּר",
+        "used_for_ko": "회고 병행: 모세 기도에서 '아브라함·이삭·야곱'(야곱!)과 '이 백성의 완악함'(qeshi ha'am hazzeh), 열방의 비방 논거('미워하여 광야에서 죽이려고 이끌어 냈다')."
+      },
+      {
+        "ref": "1Sam.15.29",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+        "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+        "fetched_utc": "2026-10-31T08:29:27Z",
+        "text_accents_stripped": "וְגַם נֵצַח יִשְׂרָאֵל לֹא יְשַׁקֵּר וְלֹא יִנָּחֵם כִּי לֹא אָדָם הוּא לְהִנָּחֵם",
+        "used_for_ko": "'그는 사람이 아니시므로 뉘우치지(lehinnachem) 않으신다' — 같은 긴장."
+      },
+      {
+        "ref": "Jonah.3.10",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jonah.xml",
+        "file_sha256": "1e1afcc3aaba1399d5c884ee106894c6bfca87c8c81fa57783ab75a923eee17d",
+        "fetched_utc": "2026-10-31T08:29:28Z",
+        "text_accents_stripped": "וַיַּרְא הָאֱלֹהִים אֶת מַעֲשֵׂיהֶם כִּי שָׁבוּ מִדַּרְכָּם הָרָעָה וַיִּנָּחֶם הָאֱלֹהִים עַל הָרָעָה אֲשֶׁר דִּבֶּר לַעֲשׂוֹת לָהֶם וְלֹא עָשָׂה",
+        "used_for_ko": "'하나님이 하겠다고 말씀하신 재앙에 대해 뜻을 돌이키셨다'(vayyinnachem ... al-haraah asher dibber la'asot) — 32:14와 거의 같은 문구."
+      },
+      {
+        "ref": "Jonah.4.2",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jonah.xml",
+        "file_sha256": "1e1afcc3aaba1399d5c884ee106894c6bfca87c8c81fa57783ab75a923eee17d",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיִּתְפַּלֵּל אֶל יְהוָה וַיֹּאמַר אָנָּה יְהוָה הֲלוֹא זֶה דְבָרִי עַד הֱיוֹתִי עַל אַדְמָתִי עַל כֵּן קִדַּמְתִּי לִבְרֹחַ תַּרְשִׁישָׁה כִּי יָדַעְתִּי כִּי אַתָּה אֵל חַנּוּן וְרַחוּם אֶרֶךְ אַפַּיִם וְרַב חֶסֶד וְנִחָם עַל הָרָעָה",
+        "used_for_ko": "'재앙에 대해 뜻을 돌이키시는'(venicham al-haraah) 하나님 성품 고백."
+      },
+      {
+        "ref": "Jer.18.8",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+        "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+        "fetched_utc": "2026-10-31T08:29:28Z",
+        "text_accents_stripped": "וְשָׁב הַגּוֹי הַהוּא מֵרָעָתוֹ אֲשֶׁר דִּבַּרְתִּי עָלָיו וְנִחַמְתִּי עַל הָרָעָה אֲשֶׁר חָשַׁבְתִּי לַעֲשׂוֹת לוֹ",
+        "used_for_ko": "'내가 하려고 생각한 재앙에 대해 뜻을 돌이키겠다'(venichamti al-haraah) — 조건부 신탁 원리."
+      },
+      {
+        "ref": "Exod.33.1",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "fetched_utc": "private/upstream_cache (fetched earlier in this session or claim prep)",
+        "text_accents_stripped": "וַיְדַבֵּר יְהוָה אֶל מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה",
+        "used_for_ko": null
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "라시(출 32:10 주석)와 출애굽기 랍바가 '나를 내버려 두라'를 하나님이 모세에게 중보의 문을 열어 주신 말로 해석했다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "www.sefaria.org 접속이 세션 네트워크 정책으로 차단됨(curl 결과 코드 000, 2026-10-31T08:29:59Z). 원문을 읽지 않았으므로 번역 근거로 쓰지 않는다."
+    },
+    {
+      "claim_ko": "타르굼 옹켈로스가 32:12·14의 '뜻을 돌이키다'를 '되돌아오다/재앙을 거두다' 식으로 완화했다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "같은 이유로 타르굼 본문을 보지 못했다."
+    },
+    {
+      "claim_ko": "칼뱅이 하나님의 '후회'를 인간 이해에 맞춘 조정(accommodation) 표현으로 설명하고, 웨스트민스터 신앙고백 2장이 하나님의 불변성을 고백한다는 개혁(장로교) 전통의 이해.",
+      "status": "not_verified_in_session",
+      "reason": "1차 문헌을 이번 세션에서 열지 않았다. 교리적 수용으로만 메모하며 번역 결정 근거로 쓰지 않는다."
+    },
+    {
+      "claim_ko": "사마리아 오경, 사해문서(예: 4QpaleoExod^m 등)의 32:9-14 독법.",
+      "status": "not_verified_in_session",
+      "reason": "자료에 접근하지 않았다. 특히 LXX의 32:9 부재가 히브리 저본 차이인지(추가/생략) 판단하려면 이 자료가 필요하다."
+    }
+  ],
+  "alternatives": {
+    "Exod.32.9": [
+      {
+        "option": "ko '목이 뻣뻣한' / en 'stiff-necked' / es 'de dura cerviz'",
+        "argument_ko": "관용 이미지를 보존하고 33:3·33:5·34:9에서 같은 표현이 반복될 때 연결이 보인다.",
+        "objection_ko": "현대 독자에게 '목이 뻣뻣하다'는 신체 증상으로 들릴 수 있다.",
+        "status": "preferred"
+      },
+      {
+        "option": "ko '고집 센' / en 'obstinate' / es 'terco'",
+        "argument_ko": "뜻이 즉시 전달된다.",
+        "objection_ko": "34:9에서 모세가 같은 말을 중보 근거로 되받는 수사적 반복이 흐려진다.",
+        "status": "alternative"
+      },
+      {
+        "option": "LXX처럼 9절을 빼는 독법",
+        "argument_ko": "Swete(B 계열) 그리스어 본문에 이 절이 없다.",
+        "objection_ko": "고정 저본은 MT(WLC)이고 MT 9절은 33:3·5와 신 9:13 회고(이번에 미추출)와 맞물린다. 그리스어 부재만으로 히브리 저본 부재를 확정할 수 없다. 번역에서 빼지 않고 각주로 보고한다.",
+        "status": "rejected_for_text_note_only"
+      }
+    ],
+    "Exod.32.10": [
+      {
+        "option": "'나를 내버려 두어라 / leave me alone / déjame'",
+        "argument_ko": "Hiphil nwh의 'let alone'(BDB)과 LXX ἔασόν με에 맞는다. 모세의 개입 여지 해석은 독자에게 열어 둔다.",
+        "objection_ko": "하나님이 인간에게 '허락'을 구하는 듯한 인상을 그대로 남긴다.",
+        "status": "preferred"
+      },
+      {
+        "option": "'나를 말리지 마라 / do not try to stop me / no me detengas'",
+        "argument_ko": "문맥상 모세의 중보를 예상하는 말로 자연스럽다.",
+        "objection_ko": "원문에 없는 '막다' 개념을 더한다. 수용사 해석(중보의 문을 엶)을 본문에 미리 넣는다.",
+        "status": "alternative"
+      },
+      {
+        "option": "목적 연쇄를 명령으로: '... 그들을 멸하게 하라'",
+        "argument_ko": "지시형 weyichar를 직역한다.",
+        "objection_ko": "한국어로 '내 분노가 타오르게 하라'는 모세에게 분노 발화를 명령하는 듯 오해된다. 결과 연쇄('그러면 ... ')가 더 정확하다.",
+        "status": "rejected"
+      },
+      {
+        "option": "ve'e'eseh를 '그리고/그러나 너는'으로 대조",
+        "argument_ko": "멸망과 새 민족 약속의 대조를 강조한다.",
+        "objection_ko": "원문은 단순 waw 연결이다. 대조는 문맥 추론이다.",
+        "status": "alternative"
+      }
+    ],
+    "Exod.32.11": [
+      {
+        "option": "'은총을 간구하며 / implored the favor of / imploró el favor de'",
+        "argument_ko": "BDB 'entreat the favour'에 맞는다.",
+        "objection_ko": "'얼굴을 누그러뜨리다'라는 신체적·인격적 이미지를 잃는다.",
+        "status": "preferred"
+      },
+      {
+        "option": "'얼굴을 누그러뜨리려 하며 / sought to soften the face of'",
+        "argument_ko": "직역 이미지 보존.",
+        "objection_ko": "세 언어 모두 어색하고, 하나님을 달래는 조작적 뉘앙스가 과장될 수 있다.",
+        "status": "alternative_note"
+      },
+      {
+        "option": "ko 2인칭 '주님께서' (선정본 창 4:14 선례)",
+        "argument_ko": "기도문에서 '당신'보다 공손하게 들린다.",
+        "objection_ko": "'주님'은 adonai 번역어와 혼동될 수 있다. 선정본 창 3:10은 '당신'을 쓴다. 출애굽기 진입 시 통일 기준이 필요하다.",
+        "status": "alternative"
+      }
+    ],
+    "Exod.32.12": [
+      {
+        "option": "be-raah = '악한 뜻을 품고 / with evil intent / con mala intención'",
+        "argument_ko": "전치된 be-raah가 동기(태도)를 말하고 LXX Μετὰ πονηρίας가 같은 이해를 보인다. 신 9:28 회고의 '미워하여'(missin'ato)와도 통한다.",
+        "objection_ko": "be-raah는 '재앙을 위해(해치려고)'로도 읽히며, 뒤의 부정사 '죽이려고'와 겹친다.",
+        "status": "preferred"
+      },
+      {
+        "option": "be-raah = '해치려고 / to harm them / para mal'",
+        "argument_ko": "12절 끝과 14절 haraah('재앙')와 같은 단어를 같은 뜻으로 읽게 한다.",
+        "objection_ko": "전치 be-raah와 뒤의 목적 부정사가 중복된다.",
+        "status": "alternative"
+      },
+      {
+        "option": "nhm = '뜻을 돌이키다 / relent / desistir'",
+        "argument_ko": "al-haraah 대상과 결합해 '하려던 일을 거둠'을 나타내며, 죄의 회개 뉘앙스를 피한다.",
+        "objection_ko": "nhm에 담긴 감정(마음 아파함, 불쌍히 여김)이 약해진다(BDB 'be sorry, moved to pity').",
+        "status": "preferred"
+      },
+      {
+        "option": "nhm = '후회하다/뉘우치다 / repent / arrepentirse'",
+        "argument_ko": "어휘 폭(BDB 'rue, repent')과 전통 번역 일부에 맞는다.",
+        "objection_ko": "한국어·영어·스페인어 모두 도덕적 회개로 들려 민 23:19, 삼상 15:29와 불필요한 충돌을 만든다.",
+        "status": "alternative"
+      },
+      {
+        "option": "LXX식 '당신 백성의 악함에 자비를'",
+        "argument_ko": "그리스어 전승의 해석.",
+        "objection_ko": "MT le'ammekha는 '당신 백성에게(향한)'이며 소유격이 아니다. MT 번역에 넣지 않는다.",
+        "status": "rejected"
+      }
+    ],
+    "Exod.32.13": [
+      {
+        "option": "MT대로 '이스라엘'",
+        "argument_ko": "저본 그대로. 민족 이름과 족장 이름을 겹쳐 '이스라엘'을 멸하면 약속 수혜자 자신을 멸하는 것이 된다는 수사.",
+        "objection_ko": "LXX·신 9:27·출 33:1은 '야곱'이라 독자가 혼동할 수 있다.",
+        "status": "preferred_with_note"
+      },
+      {
+        "option": "인용 속 인칭을 LXX처럼 간접화: '당신께서 주겠다고 말씀하신 땅을 그들에게'",
+        "argument_ko": "인칭 전환이 매끄럽다.",
+        "objection_ko": "MT의 직접 인용(1인칭 하나님, 2인칭 복수 족장)을 지운다. 더 어려운 독법을 보존해야 한다.",
+        "status": "rejected"
+      },
+      {
+        "option": "venachalu = '영원히 상속하리라 / inherit / heredarán'",
+        "argument_ko": "nchl의 '유산/상속' 의미 보존.",
+        "objection_ko": "목적어 '그것(땅)'은 원문에 없다(보충).",
+        "status": "preferred_with_supplied_object"
+      }
+    ],
+    "Exod.32.14": [
+      {
+        "option": "'뜻을 돌이키셨다 / relented / desistió'",
+        "argument_ko": "12절 청원 hinnachem과 정확히 대응하도록 같은 말로 옮긴다. 욘 3:10과 같은 문구.",
+        "objection_ko": "아래 가장 강한 반론 참조(서사 시간·징벌의 지속).",
+        "status": "preferred"
+      },
+      {
+        "option": "'재앙을 거두셨다 / withdrew the disaster'",
+        "argument_ko": "결과를 분명히 한다.",
+        "objection_ko": "nhm의 인격적 측면과 12절과의 어휘 대응을 잃고, 32:34-35 징벌과 충돌하는 '완전 철회'로 읽힌다.",
+        "status": "rejected"
+      },
+      {
+        "option": "connector ko '그러자' / en 'And' / es 'Y'",
+        "argument_ko": "wayyiqtol 서사 연속을 표시하되 en/es는 인과를 강요하지 않는다.",
+        "objection_ko": "ko '그러자'는 즉각적 결과로 읽힐 수 있다.",
+        "status": "preferred_with_objection"
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.32.14 rendered as an immediate narrative result ('그러자 ... 뜻을 돌이키셨다 / And YHWH relented')",
+    "objection_ko": "가장 강한 반론: 14절을 즉시 결과로 옮기면 서사 흐름과 충돌한다. 모세는 15-19절에서 이 응답을 모르는 듯 진노하고, 30절에서 '혹시 속죄할 수 있을까'라며 다시 올라가며, 34절은 '벌할 날에 벌하겠다', 35절은 '야훼께서 백성을 치셨다'고 한다. 따라서 14절은 32:30-34:10 전체 결과를 미리 알려 주는 서술자 요약(선취)일 수 있고, 이 경우 '그러자'는 너무 즉각적이며 '뜻을 돌이키다'는 모든 징벌의 철회로 오해된다. 또 신 9:18-20, 25-26 회고는 사십 주야 엎드림 뒤에 응답을 놓는다(이번 세션은 신 9:14, 26-28만 추출).",
+    "response_ko": "(1) 원문 범위: 14절이 돌이킨 대상은 '그가 하겠다고 말씀하신 재앙', 곧 10절의 멸절 위협(그리고 모세에게서 새 민족을 만드는 계획)이며, 32:34-35의 개별 징벌이나 33:3의 동행 거절과는 범위가 다르다. 번역은 '재앙에 대해'를 유지해 범위를 제한한다. (2) 서사 시간: wayyiqtol은 요약/선취에도 쓰이므로 번역 단어로 확정하지 않고 각주로 '서술자 시점: 모세는 이 사실을 아직 모른다'를 제안한다. (3) en 'And', es 'Y'는 인과·즉시성을 강요하지 않는다. ko는 접속어 없이 쓰면 문장이 끊겨 '그러자'를 유지하되, 편집자가 '이에'나 무접속 '야훼께서는 ...'을 택할 수 있도록 대안으로 기록한다. 이 반론은 완전히 해소되지 않았다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.32.12/14 nhm = 'relent' rather than 'repent'",
+      "objection_ko": "'뜻을 돌이키다/relent'는 민 23:19·삼상 15:29와의 긴장을 번역으로 미리 완화하는 신학적 선택일 수 있다. 원문 독자는 같은 동사 nhm을 들었다.",
+      "response_ko": "출 32장 용례는 al-haraah(재앙에 대해) 결합으로 자기 잘못의 뉘우침이 아니라 계획한 일의 철회를 말하므로 '돌이키다/relent'가 어휘상 더 정확하다. 민 23:19·삼상 15:29와의 긴장은 지우지 않고, 같은 동사임을 각주로 알린다. 영어 'repent'는 대안으로 보존."
+    },
+    {
+      "target": "Exod.32.9 kept despite LXX absence",
+      "objection_ko": "LXX(B)가 9절을 갖지 않는다면 MT 9절은 33:3·5나 신 9:13의 영향으로 들어온 확장일 수도 있다.",
+      "response_ko": "이 세션은 사마리아 오경·사해문서·LXX 다른 사본을 확인하지 못했다. 고정 저본 원칙에 따라 MT를 번역하고, '일부 그리스어 역본에 이 절이 없다'는 각주를 제안하며, 방향(추가 대 생략)은 미해결로 둔다."
+    },
+    {
+      "target": "Exod.32.13 MT '이스라엘' vs '야곱'",
+      "objection_ko": "독자 편의를 위해 '야곱(이스라엘)'로 풀어 쓰자는 주장.",
+      "response_ko": "원문에 없는 이름을 넣지 않는다. 창 35:10 개명을 근거로 한 각주로 해결한다."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.32.9": {
+      "ko": "야훼께서 모세에게 말씀하셨다. “내가 이 백성을 보았다. 보아라, 이들은 목이 뻣뻣한 백성이다.",
+      "en": "YHWH said to Moses, “I have seen this people, and look, it is a stiff-necked people.",
+      "es": "YHWH dijo a Moisés: «He visto a este pueblo, y mira, es un pueblo de dura cerviz."
+    },
+    "Exod.32.10": {
+      "ko": "이제 나를 내버려 두어라. 그러면 내 분노가 그들을 향해 타올라 내가 그들을 멸하겠고, 너를 큰 민족으로 만들겠다.”",
+      "en": "Now then, leave me alone, so that my anger may burn against them and I may consume them; and I will make you into a great nation.”",
+      "es": "Ahora, pues, déjame, para que mi ira arda contra ellos y los consuma; y de ti haré una gran nación»."
+    },
+    "Exod.32.11": {
+      "ko": "그러나 모세는 자기 하나님 야훼께 은총을 간구하며 말하였다. “야훼여, 어찌하여 당신께서 큰 힘과 강한 손으로 이집트 땅에서 이끌어 내신 당신의 백성에게 진노를 불태우십니까?",
+      "en": "But Moses implored the favor of YHWH his God and said, “Why, YHWH, should your anger burn against your people, whom you brought out of the land of Egypt with great power and with a strong hand?",
+      "es": "Pero Moisés imploró el favor de YHWH su Dios y dijo: «¿Por qué, YHWH, ha de arder tu ira contra tu pueblo, al que sacaste de la tierra de Egipto con gran poder y con mano fuerte?"
+    },
+    "Exod.32.12": {
+      "ko": "어찌하여 이집트 사람들이 ‘그가 악한 뜻을 품고 그들을 이끌어 내었다. 산에서 그들을 죽이고 땅 위에서 멸하려고 그리했다’ 하고 말하게 하시렵니까? 당신의 타오르는 진노에서 돌아서시고, 당신의 백성에게 내리려던 재앙에 대해 뜻을 돌이키십시오.",
+      "en": "Why should the Egyptians say, ‘With evil intent he brought them out, to kill them in the mountains and to consume them from the face of the earth’? Turn from your burning anger, and relent concerning the harm against your people.",
+      "es": "¿Por qué han de decir los egipcios: “Con mala intención los sacó, para matarlos en los montes y consumirlos de sobre la faz de la tierra”? Vuélvete del ardor de tu ira y desiste del daño contra tu pueblo."
+    },
+    "Exod.32.13": {
+      "ko": "당신의 종들인 아브라함과 이삭과 이스라엘을 기억하십시오. 당신께서는 당신 자신을 두고 그들에게 맹세하시며 이렇게 말씀하셨습니다. ‘내가 너희 자손을 하늘의 별들처럼 많게 하겠다. 내가 말한 이 온 땅을 너희 자손에게 주겠으니, 그들이 그 땅을 영원히 유업으로 차지할 것이다.’”",
+      "en": "Remember Abraham, Isaac, and Israel, your servants, to whom you swore by yourself and said to them, ‘I will multiply your offspring like the stars of the heavens, and all this land of which I have spoken I will give to your offspring, and they shall inherit it forever.’”",
+      "es": "Acuérdate de Abraham, de Isaac y de Israel, tus siervos, a quienes juraste por ti mismo y les dijiste: “Multiplicaré su descendencia como las estrellas del cielo, y toda esta tierra de la que he hablado la daré a su descendencia, y la heredarán para siempre”»."
+    },
+    "Exod.32.14": {
+      "ko": "그러자 야훼께서는 자기 백성에게 하겠다고 말씀하셨던 재앙에 대해 뜻을 돌이키셨다.",
+      "en": "And YHWH relented concerning the harm that he had spoken of doing to his people.",
+      "es": "Y YHWH desistió del daño que había dicho que haría a su pueblo."
+    }
+  },
+  "clause_coverage_check": {
+    "Exod.32.9": [
+      {
+        "words": [
+          "02yfG",
+          "02Tfh",
+          "02AzH",
+          "02JvB"
+        ],
+        "ko": "야훼께서 모세에게 말씀하셨다",
+        "en": "YHWH said to Moses",
+        "es": "YHWH dijo a Moisés"
+      },
+      {
+        "words": [
+          "02WTH",
+          "02LRw",
+          "02Z9W",
+          "024WA"
+        ],
+        "ko": "내가 이 백성을 보았다",
+        "en": "I have seen this people",
+        "es": "He visto a este pueblo"
+      },
+      {
+        "words": [
+          "02Xmm",
+          "02P4w",
+          "02sLZ",
+          "02deJ",
+          "02d24"
+        ],
+        "ko": "보아라, 이들은 목이 뻣뻣한 백성이다",
+        "en": "and look, it is a stiff-necked people",
+        "es": "y mira, es un pueblo de dura cerviz"
+      }
+    ],
+    "Exod.32.10": [
+      {
+        "words": [
+          "02TPJ",
+          "02Gjo",
+          "02FrP"
+        ],
+        "ko": "이제 나를 내버려 두어라",
+        "en": "Now then, leave me alone",
+        "es": "Ahora, pues, déjame"
+      },
+      {
+        "words": [
+          "029Jc",
+          "02uCZ",
+          "02XAT"
+        ],
+        "ko": "그러면 내 분노가 그들을 향해 타올라",
+        "en": "so that my anger may burn against them",
+        "es": "para que mi ira arda contra ellos"
+      },
+      {
+        "words": [
+          "021DF"
+        ],
+        "ko": "내가 그들을 멸하겠고",
+        "en": "and I may consume them",
+        "es": "y los consuma"
+      },
+      {
+        "words": [
+          "02Bh3",
+          "02eTr",
+          "02ks2",
+          "02uA4"
+        ],
+        "ko": "너를 큰 민족으로 만들겠다",
+        "en": "and I will make you into a great nation",
+        "es": "y de ti haré una gran nación"
+      }
+    ],
+    "Exod.32.11": [
+      {
+        "words": [
+          "02ShW",
+          "02k88",
+          "02PiS",
+          "02xJN",
+          "02Y2n",
+          "02Jmy"
+        ],
+        "ko": "그러나 모세는 자기 하나님 야훼께 은총을 간구하며",
+        "en": "But Moses implored the favor of YHWH his God",
+        "es": "Pero Moisés imploró el favor de YHWH su Dios"
+      },
+      {
+        "words": [
+          "02GbY"
+        ],
+        "ko": "말하였다",
+        "en": "and said",
+        "es": "y dijo"
+      },
+      {
+        "words": [
+          "02Zwd",
+          "02FTW",
+          "02WPw",
+          "02s8U",
+          "029jH"
+        ],
+        "ko": "야훼여, 어찌하여 ... 당신의 백성에게 진노를 불태우십니까",
+        "en": "Why, YHWH, should your anger burn against your people",
+        "es": "¿Por qué, YHWH, ha de arder tu ira contra tu pueblo"
+      },
+      {
+        "words": [
+          "02ZJk",
+          "02aaq",
+          "02D9J",
+          "02At4"
+        ],
+        "ko": "당신께서 ... 이집트 땅에서 이끌어 내신",
+        "en": "whom you brought out of the land of Egypt",
+        "es": "al que sacaste de la tierra de Egipto"
+      },
+      {
+        "words": [
+          "02pFw",
+          "02pAn",
+          "02V8L",
+          "02SFr"
+        ],
+        "ko": "큰 힘과 강한 손으로",
+        "en": "with great power and with a strong hand",
+        "es": "con gran poder y con mano fuerte"
+      }
+    ],
+    "Exod.32.12": [
+      {
+        "words": [
+          "02pAx",
+          "026L8",
+          "02EuB",
+          "02Eip"
+        ],
+        "ko": "어찌하여 이집트 사람들이 ... 하고 말하게 하시렵니까",
+        "en": "Why should the Egyptians say",
+        "es": "¿Por qué han de decir los egipcios"
+      },
+      {
+        "words": [
+          "02G8i",
+          "02yLr"
+        ],
+        "ko": "그가 악한 뜻을 품고 그들을 이끌어 내었다",
+        "en": "With evil intent he brought them out",
+        "es": "Con mala intención los sacó"
+      },
+      {
+        "words": [
+          "02D3Q",
+          "02gLX",
+          "02Rmf"
+        ],
+        "ko": "산에서 그들을 죽이고",
+        "en": "to kill them in the mountains",
+        "es": "para matarlos en los montes"
+      },
+      {
+        "words": [
+          "02tit",
+          "02hSB",
+          "02tFY",
+          "02Rr1"
+        ],
+        "ko": "땅 위에서 멸하려고 그리했다",
+        "en": "and to consume them from the face of the earth",
+        "es": "y consumirlos de sobre la faz de la tierra"
+      },
+      {
+        "words": [
+          "02Hbx",
+          "02etn",
+          "02JAN"
+        ],
+        "ko": "당신의 타오르는 진노에서 돌아서시고",
+        "en": "Turn from your burning anger",
+        "es": "Vuélvete del ardor de tu ira"
+      },
+      {
+        "words": [
+          "02R6s",
+          "02Wy4",
+          "02869",
+          "02954"
+        ],
+        "ko": "당신의 백성에게 내리려던 재앙에 대해 뜻을 돌이키십시오",
+        "en": "and relent concerning the harm against your people",
+        "es": "y desiste del daño contra tu pueblo"
+      }
+    ],
+    "Exod.32.13": [
+      {
+        "words": [
+          "02wLC",
+          "02ZBr",
+          "02zbk",
+          "02o1G",
+          "02DM7"
+        ],
+        "ko": "당신의 종들인 아브라함과 이삭과 이스라엘을 기억하십시오",
+        "en": "Remember Abraham, Isaac, and Israel, your servants",
+        "es": "Acuérdate de Abraham, de Isaac y de Israel, tus siervos"
+      },
+      {
+        "words": [
+          "02D7s",
+          "02exS",
+          "02xpZ",
+          "02x95"
+        ],
+        "ko": "당신께서는 당신 자신을 두고 그들에게 맹세하시며",
+        "en": "to whom you swore by yourself",
+        "es": "a quienes juraste por ti mismo"
+      },
+      {
+        "words": [
+          "02qX6",
+          "02eNN"
+        ],
+        "ko": "이렇게 말씀하셨습니다",
+        "en": "and said to them",
+        "es": "y les dijiste"
+      },
+      {
+        "words": [
+          "02PWp",
+          "023LH",
+          "02ecq",
+          "02hUd",
+          "0252X"
+        ],
+        "ko": "내가 너희 자손을 하늘의 별들처럼 많게 하겠다",
+        "en": "I will multiply your offspring like the stars of the heavens",
+        "es": "Multiplicaré su descendencia como las estrellas del cielo"
+      },
+      {
+        "words": [
+          "027WR",
+          "029yL",
+          "02nZ2",
+          "02sk9",
+          "02FK9",
+          "026dr",
+          "02UCY"
+        ],
+        "ko": "내가 말한 이 온 땅을 너희 자손에게 주겠으니",
+        "en": "and all this land of which I have spoken I will give to your offspring",
+        "es": "y toda esta tierra de la que he hablado la daré a su descendencia"
+      },
+      {
+        "words": [
+          "02fgw",
+          "02nVy"
+        ],
+        "ko": "그들이 그 땅을 영원히 유업으로 차지할 것이다",
+        "en": "and they shall inherit it forever",
+        "es": "y la heredarán para siempre"
+      }
+    ],
+    "Exod.32.14": [
+      {
+        "words": [
+          "02KPw",
+          "02pjN"
+        ],
+        "ko": "그러자 야훼께서는 ... 뜻을 돌이키셨다",
+        "en": "And YHWH relented",
+        "es": "Y YHWH desistió"
+      },
+      {
+        "words": [
+          "02DLD",
+          "02Jf1"
+        ],
+        "ko": "재앙에 대해",
+        "en": "concerning the harm",
+        "es": "del daño"
+      },
+      {
+        "words": [
+          "023YY",
+          "025np",
+          "02kyD",
+          "02cTB"
+        ],
+        "ko": "자기 백성에게 하겠다고 말씀하셨던",
+        "en": "that he had spoken of doing to his people",
+        "es": "que había dicho que haría a su pueblo"
+      }
+    ]
+  },
+  "supplied_words_ko": [
+    {
+      "id": "Exod.32.10",
+      "supplied": "ko '그러면', en/es 'so that/para que'는 명령형 뒤 지시형·청유형 연쇄의 결과/목적 의미를 푼 것이다."
+    },
+    {
+      "id": "Exod.32.12",
+      "supplied": "ko '내리려던'은 동사 없는 haraah le'ammekha('당신 백성에게 [향한] 재앙')를 풀어 쓴 것이다. ko '그리했다'는 인용 안의 부정사 목적절을 한국어 문장으로 끝맺기 위한 보충이다. es 'su descendencia'(13절)는 2인칭 복수 zar'akhem을 중남미 일반 용법 'ustedes' 소유격 su로 옮긴 것이다."
+    },
+    {
+      "id": "Exod.32.13",
+      "supplied": "ko '그 땅을', en 'it', es 'la'는 venachalu의 생략된 목적어 보충이다. ko '이렇게'는 인용 도입을 위한 보충이다."
+    },
+    {
+      "id": "Exod.32.14",
+      "supplied": "ko '그러자', en 'And', es 'Y'는 wayyiqtol 접속 waw를 옮긴 것이다(인과 강요 아님)."
+    }
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.32.9",
+      "note_ko": "본문 각주 제안: 일부 그리스어 역본(Swete가 편집한 B 계열 칠십인역 본문)에는 이 절이 없다. 히브리 본문(MT)에서 이 절의 '목이 뻣뻣한 백성'은 33:3, 33:5, 34:9에서 되풀이된다. 이 절이 원래 없었는지 그리스어 전승에서 빠졌는지는 이 검토가 판단하지 않는다."
+    },
+    {
+      "id": "Exod.32.10",
+      "note_ko": "'나를 내버려 두어라'(hanniha li)는 하나님이 모세의 반응을 예상하는 말로 읽혀 왔다. 이는 수용사의 해석이며 원문은 '내버려 두라'만 말한다."
+    },
+    {
+      "id": "Exod.32.11",
+      "note_ko": "'은총을 간구하다'로 옮긴 히브리어는 직역하면 '얼굴을 누그러뜨리다'이다. 7절에서 하나님은 '네(모세의) 백성'이라 하셨고, 모세는 '당신의 백성'으로 되돌린다."
+    },
+    {
+      "id": "Exod.32.12",
+      "note_ko": "'재앙'(haraah)은 도덕적 악이 아니라 해·화를 뜻한다. '뜻을 돌이키다'(nhm)는 14절, 욘 3:10, 렘 18:8에도 같은 동사로 나오고, 민 23:19·삼상 15:29의 '뉘우치지 않으신다'도 같은 동사다."
+    },
+    {
+      "id": "Exod.32.13",
+      "note_ko": "'이스라엘'은 야곱의 다른 이름이다(창 35:10). 칠십인역과 이 장면을 회고하는 신 9:27은 '야곱'이라고 한다. 인용 안의 '나/너희'는 하나님과 족장들이다."
+    },
+    {
+      "id": "Exod.32.14",
+      "note_ko": "서술자가 미리 알려 주는 결과다. 모세는 아직 이를 모르는 듯 30절에서 다시 속죄를 시도하며, 34-35절의 징벌은 남아 있다. 하나님이 거두신 것은 10절의 멸절 계획이다. 서술자는 이 백성을 '그(야훼)의 백성'이라 부른다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "nhm across Genesis/Exodus/Jonah",
+      "finding_ko": "창 6:6-7(niphal nhm)이 채택될 때 출 32:12·14, 욘 3:10, 4:2, 렘 18:8과 같은 기준을 정해야 한다. 이 검토는 '재앙에 대해(al-haraah)' 결합에서 ko '뜻을 돌이키다', en 'relent', es 'desistir'를 제안한다. 창 6:6 '마음 아파함' 문맥은 다른 번역어가 필요할 수 있다."
+    },
+    {
+      "topic": "Second-person address to God in Korean",
+      "finding_ko": "선정본 창 3:10은 '당신', 창 4:14는 '주님'을 2인칭 대명사로 쓴다. 모세의 기도(32:11-13)는 '당신'을 썼다. 출애굽기 진입 시 통일 기준이 필요하다."
+    },
+    {
+      "topic": "Spanish 2pl",
+      "finding_ko": "13절 하나님 인용 속 2인칭 복수(너희)를 es 'su descendencia'(ustedes)로 옮겼다. 선정본에서 2인칭 복수 관례(vosotros 대 ustedes)를 확인하지 못했다. 'vuestra descendencia'를 택할지 편집 결정이 필요하다."
+    },
+    {
+      "topic": "Stiff-necked",
+      "finding_ko": "32:9, 33:3, 33:5, 34:9, 신 9:6, 9:13에서 같은 번역어(목이 뻣뻣한/stiff-necked/de dura cerviz)를 유지하기를 권한다."
+    }
+  ],
+  "final_opinion_ko": "여섯 절 모두 고정 WLC(MT 표시문)를 번역했고, 칠십인역의 차이(9절 부재, 12절 '당신 백성의 악함에 자비를', 13절 '야곱'과 인칭 간접화, 14절 B 본문 '그의 백성을 보존하셨다')는 본문에 넣지 않고 각주·수용사 증거로 분리했다. 핵심 판단: (1) 10절 hanniha li는 '나를 내버려 두어라'로 직역하고 중보 초대 해석은 각주로만 둔다. (2) 12·14절 nhm al-haraah는 도덕적 회개가 아니라 계획한 재앙의 철회이므로 ko '뜻을 돌이키다', en 'relent', es 'desistir'로 같은 말을 쓰고, raah는 '재앙/harm/daño'로 옮긴다. (3) 7·11·14절의 '네 백성 → 당신의 백성 → 그의 백성' 소유 대명사 전환을 세 언어 모두 보존한다. (4) 13절 '이스라엘'과 인용 속 직접 화법(1인칭 하나님, 2인칭 복수 족장)을 MT대로 보존한다. (5) 14절은 서술자 시점의 결과 보고로, 32:30-35의 계속되는 속죄 시도·징벌과의 관계를 각주로 밝힌다. 9절 LXX 부재의 원인과 14절 접속어의 즉시성은 미해결이다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.32.9",
+      "level": "medium",
+      "note_ko": "번역 자체는 쉽다. LXX(B) 부재가 히브리 저본 차이인지 확인하지 못해 본문 상태 평가는 중간 신뢰도."
+    },
+    {
+      "id": "Exod.32.10",
+      "level": "high",
+      "note_ko": "어휘·구문이 분명하다. 결과 연쇄를 ko '그러면'으로 푼 것은 해석 선택."
+    },
+    {
+      "id": "Exod.32.11",
+      "level": "high",
+      "note_ko": "LXX '높이 든 팔' 차이는 번역에 영향 없음."
+    },
+    {
+      "id": "Exod.32.12",
+      "level": "medium",
+      "note_ko": "be-raah의 '악한 뜻' 대 '해치려고'는 둘 다 가능. nhm 번역어는 신학적 함의가 있어 편집 결정이 필요."
+    },
+    {
+      "id": "Exod.32.13",
+      "level": "high",
+      "note_ko": "'이 온 땅'의 지시 기준점(약속 시점 대 모세 시점)은 열어 둔다."
+    },
+    {
+      "id": "Exod.32.14",
+      "level": "medium",
+      "note_ko": "어휘는 분명하나 서사 시간(즉시 결과 대 선취 요약)은 미해결."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.32.9",
+      "condition_ko": "사마리아 오경·사해문서·LXX 다른 사본(A, F 직접 대조)이나 괴팅겐 비평판 자료에서 9절 유무가 확인되면 각주 문구를 고친다. 히브리 증거에서도 9절이 없다면 본문 상태 각주를 강화한다."
+    },
+    {
+      "id": "Exod.32.10",
+      "condition_ko": "편집 기준이 '하나님 발화의 수용사 해석을 본문에 반영'으로 정해지면 '나를 말리지 마라'를 재검토한다."
+    },
+    {
+      "id": "Exod.32.11",
+      "condition_ko": "한국어 기도문 2인칭(당신/주님) 기준이 정해지면 맞춘다."
+    },
+    {
+      "id": "Exod.32.12",
+      "condition_ko": "창 6:6-7, 욘 3:10, 4:2와 nhm 통일 기준이 정해지면 맞춘다. 전문 사전(HALOT 등)이나 히브리어 전문가가 be-raah를 목적('해치려고')으로 판정하면 ko/en/es를 바꾼다."
+    },
+    {
+      "id": "Exod.32.13",
+      "condition_ko": "히브리 사본 증거에서 '야곱' 독법이 확인되면 각주에 추가한다. 스페인어 2인칭 복수 관례가 vosotros로 정해지면 'vuestra descendencia'로 바꾼다."
+    },
+    {
+      "id": "Exod.32.14",
+      "condition_ko": "편집자가 14절을 선취 요약으로 판단하면 ko '그러자'를 '이에' 또는 무접속으로 바꾸고 각주를 본문 해설에 반영한다. 라시·타르굼 등 수용사 원문을 실제로 확인하면 수용사 각주를 추가한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.32.9",
+      "issue": "LXX (Swete/B) lacks MT 32:9; direction (MT expansion vs Greek omission) unknown",
+      "status": "unresolved_textual",
+      "needed_evidence": "Samaritan Pentateuch, Qumran Exodus fragments, Goettingen LXX apparatus, direct A/F collation"
+    },
+    {
+      "id": "Exod.32.14",
+      "issue": "Narrative timing: immediate response vs proleptic narrator summary; relation to 32:30-35 and Deut 9:18-26",
+      "status": "unresolved_discourse",
+      "needed_evidence": "Editorial decision; full Deut 9 parallel comparison; discourse-linguistic study of summary wayyiqtol"
+    },
+    {
+      "id": "Exod.32.12",
+      "issue": "be-raah as manner (evil intent) vs purpose (to harm)",
+      "status": "unresolved_lexical_syntactic",
+      "needed_evidence": "Full lexicon entries (HALOT/full BDB with verse refs), specialist review"
+    },
+    {
+      "id": "Exod.32.14",
+      "issue": "LXX B 'perip oiesai' vs A/F 'peri tes kakias hes eipen poiesai'; proposed inner-Greek haplography is only a hypothesis",
+      "status": "unresolved_reception_textual",
+      "needed_evidence": "Direct manuscript images or Goettingen apparatus"
+    },
+    {
+      "id": "Exod.32.10-14",
+      "issue": "Rabbinic, Targumic and Reformed (Calvin, Westminster Confession) reception not read in session",
+      "status": "unverified_reception",
+      "needed_evidence": "Accessible primary texts (Sefaria blocked by network policy)"
+    }
+  ],
+  "publication_requires": [
+    "independent GPT review",
+    "independent Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive and publication checks"
+  ],
+  "not_claimed": [
+    "manuscript collation",
+    "human specialist review",
+    "GPT or Gemini responses",
+    "unanimous agreement",
+    "remaining credit balance or credit deduction",
+    "adoption or publication"
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/original-bible-hard-review-sh5i0a",
+  "memo_ko": "automation/cloud-reviews/20261031T082517Z-80e3dc08.ko.md",
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261031T082517Z-80e3dc08.json",
+    "packet_sha256": "240beffc9a4bf6fa0ba3bf63ef165cc22c4e9f3454fa0b76ca07a35d63547be3",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.32.9",
+        "raw_xml": "<verse osisID=\"Exod.32.9\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"02yfG\">וַ/יֹּ֥אמֶר</w>\n          <w lemma=\"3068\" n=\"1.0\" morph=\"HNp\" id=\"02Tfh\">יְהוָ֖ה</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02AzH\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4872\" n=\"1\" morph=\"HNp\" id=\"02JvB\">מֹשֶׁ֑ה</w>\n          <w lemma=\"7200\" n=\"0.1.0\" morph=\"HVqp1cs\" id=\"02WTH\">רָאִ֨יתִי֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02LRw\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/5971 a\" morph=\"HTd/Ncmsa\" id=\"02Z9W\">הָ/עָ֣ם</w>\n          <w lemma=\"d/2088\" n=\"0.1\" morph=\"HTd/Pdxms\" id=\"024WA\">הַ/זֶּ֔ה</w>\n          <w lemma=\"c/2009\" morph=\"HC/Tm\" id=\"02Xmm\">וְ/הִנֵּ֥ה</w>\n          <w lemma=\"5971 a\" morph=\"HNcmsa\" id=\"02P4w\">עַם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7186\" morph=\"HAamsc\" id=\"02sLZ\">קְשֵׁה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6203\" n=\"0.0\" morph=\"HNcmsa\" id=\"02deJ\">עֹ֖רֶף</w>\n          <w lemma=\"1931\" n=\"0\" morph=\"HPp3ms\" id=\"02d24\">הֽוּא</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "c539414e39c42f2e83b828b7424dc76c8d7df676440a1eb984a00ad0758e1134"
+      },
+      {
+        "id": "Exod.32.10",
+        "raw_xml": "<verse osisID=\"Exod.32.10\">\n          <w lemma=\"c/6258\" n=\"1.1.0\" morph=\"HC/D\" id=\"02TPJ\">וְ/עַתָּה֙</w>\n          <w lemma=\"3240\" morph=\"HVhv2ms/Sh\" id=\"02Gjo\">הַנִּ֣יחָ/ה</w>\n          <w lemma=\"l\" n=\"1.1\" morph=\"HR/Sp1cs\" id=\"02FrP\">לִּ֔/י</w>\n          <w lemma=\"c/2734\" morph=\"HC/Vqj3ms\" id=\"029Jc\">וְ/יִֽחַר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"639\" morph=\"HNcmsc/Sp1cs\" id=\"02uCZ\">אַפִּ֥/י</w>\n          <w lemma=\"b\" n=\"1.0\" morph=\"HR/Sp3mp\" id=\"02XAT\">בָ/הֶ֖ם</w>\n          <w lemma=\"c/3615\" n=\"1\" morph=\"HC/Vph1cs/Sp3mp\" id=\"021DF\">וַ/אֲכַלֵּ֑/ם</w>\n          <w lemma=\"c/6213 a\" morph=\"HC/Vqi1cs\" id=\"02Bh3\">וְ/אֶֽעֱשֶׂ֥ה</w>\n          <w lemma=\"853\" n=\"0.0\" morph=\"HTo/Sp2ms\" id=\"02eTr\">אוֹתְ/ךָ֖</w>\n          <w lemma=\"l/1471 a\" morph=\"HR/Ncmsa\" id=\"02ks2\">לְ/ג֥וֹי</w>\n          <w lemma=\"1419 a\" n=\"0\" morph=\"HAamsa\" id=\"02uA4\">גָּדֽוֹל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "89756beac8ec8fc56458a3edd874ceb714320d4f0bdd1c00cec67ceab8b40354"
+      },
+      {
+        "id": "Exod.32.11",
+        "raw_xml": "<verse osisID=\"Exod.32.11\">\n          <w lemma=\"c/2470 b\" morph=\"HC/Vpw3ms\" id=\"02ShW\">וַ/יְחַ֣ל</w>\n          <w lemma=\"4872\" n=\"1.1\" morph=\"HNp\" id=\"02k88\">מֹשֶׁ֔ה</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02PiS\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6440\" n=\"1.0\" morph=\"HNcbpc\" id=\"02xJN\">פְּנֵ֖י</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"02Y2n\">יְהוָ֣ה</w>\n          <w lemma=\"430\" n=\"1\" morph=\"HNcmpc/Sp3ms\" id=\"02Jmy\">אֱלֹהָ֑י/ו</w>\n          <w lemma=\"c/559\" n=\"0.2.2\" morph=\"HC/Vqw3ms\" id=\"02GbY\">וַ/יֹּ֗אמֶר</w>\n          <w lemma=\"l/4100\" morph=\"HR/Ti\" id=\"02Zwd\">לָ/מָ֤ה</w>\n          <w lemma=\"3068\" n=\"0.2.1\" morph=\"HNp\" id=\"02FTW\">יְהוָה֙</w>\n          <w lemma=\"2734\" morph=\"HVqi3ms\" id=\"02WPw\">יֶחֱרֶ֤ה</w>\n          <w lemma=\"639\" n=\"0.2.0\" morph=\"HNcmsc/Sp2ms\" id=\"02s8U\">אַפְּ/ךָ֙</w>\n          <w lemma=\"b/5971 a\" n=\"0.2\" morph=\"HR/Ncmsc/Sp2ms\" id=\"029jH\">בְּ/עַמֶּ֔/ךָ</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02ZJk\">אֲשֶׁ֤ר</w>\n          <w lemma=\"3318\" n=\"0.1.0\" morph=\"HVhp2ms\" id=\"02aaq\">הוֹצֵ֨אתָ֙</w>\n          <w lemma=\"m/776\" morph=\"HR/Ncbsc\" id=\"02D9J\">מֵ/אֶ֣רֶץ</w>\n          <w lemma=\"4714\" n=\"0.1\" morph=\"HNp\" id=\"02At4\">מִצְרַ֔יִם</w>\n          <w lemma=\"b/3581 b\" morph=\"HR/Ncmsa\" id=\"02pFw\">בְּ/כֹ֥חַ</w>\n          <w lemma=\"1419 a\" n=\"0.0\" morph=\"HAamsa\" id=\"02pAn\">גָּד֖וֹל</w>\n          <w lemma=\"c/b/3027\" morph=\"HC/R/Ncbsa\" id=\"02V8L\">וּ/בְ/יָ֥ד</w>\n          <w lemma=\"2389\" n=\"0\" morph=\"HAafsa\" id=\"02SFr\">חֲזָקָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "6bb83bbc3aeb001528d023b68dec1aa5831ea8f254ac936f73a27613c657a5c6"
+      },
+      {
+        "id": "Exod.32.12",
+        "raw_xml": "<verse osisID=\"Exod.32.12\">\n          <w lemma=\"l/4100\" morph=\"HR/Ti\" id=\"02pAx\">לָ/מָּה֩</w>\n          <w lemma=\"559\" morph=\"HVqi3mp\" id=\"026L8\">יֹאמְר֨וּ</w>\n          <w lemma=\"4713\" n=\"1.2.2.0\" morph=\"HNp\" id=\"02EuB\">מִצְרַ֜יִם</w>\n          <w lemma=\"l/559\" n=\"1.2.2\" morph=\"HR/Vqc\" id=\"02Eip\">לֵ/אמֹ֗ר</w>\n          <w lemma=\"b/7451 c\" morph=\"HR/Ncfsa\" id=\"02G8i\">בְּ/רָעָ֤ה</w>\n          <w lemma=\"3318\" n=\"1.2.1\" morph=\"HVhp3ms/Sp3mp\" id=\"02yLr\">הֽוֹצִיאָ/ם֙</w>\n          <w lemma=\"l/2026\" morph=\"HR/Vqc\" id=\"02D3Q\">לַ/הֲרֹ֤ג</w>\n          <w lemma=\"853\" n=\"1.2.0\" morph=\"HTo/Sp3mp\" id=\"02gLX\">אֹתָ/ם֙</w>\n          <w lemma=\"b/2022\" n=\"1.2\" morph=\"HRd/Ncmpa\" id=\"02Rmf\">בֶּֽ/הָרִ֔ים</w>\n          <w lemma=\"c/l/3615\" n=\"1.1\" morph=\"HC/R/Vpc/Sp3mp\" id=\"02tit\">וּ֨/לְ/כַלֹּתָ֔/ם</w>\n          <w lemma=\"m/5921 a\" n=\"1.0\" morph=\"HR/R\" id=\"02hSB\">מֵ/עַ֖ל</w>\n          <w lemma=\"6440\" morph=\"HNcbpc\" id=\"02tFY\">פְּנֵ֣י</w>\n          <w lemma=\"d/127\" n=\"1\" morph=\"HTd/Ncfsa\" id=\"02Rr1\">הָֽ/אֲדָמָ֑ה</w>\n          <w lemma=\"7725\" n=\"0.1.0\" morph=\"HVqv2ms\" id=\"02Hbx\">שׁ֚וּב</w>\n          <w lemma=\"m/2740\" morph=\"HR/Ncmsc\" id=\"02etn\">מֵ/חֲר֣וֹן</w>\n          <w lemma=\"639\" n=\"0.1\" morph=\"HNcmsc/Sp2ms\" id=\"02JAN\">אַפֶּ֔/ךָ</w>\n          <w lemma=\"c/5162\" morph=\"HC/VNv2ms\" id=\"02R6s\">וְ/הִנָּחֵ֥ם</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"02Wy4\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/7451 c\" n=\"0.0\" morph=\"HTd/Ncfsa\" id=\"02869\">הָ/רָעָ֖ה</w>\n          <w lemma=\"l/5971 a\" n=\"0\" morph=\"HR/Ncmsc/Sp2ms\" id=\"02954\">לְ/עַמֶּֽ/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "dced07b22c0efc6da263304398984f057a5be8fa4ef6e41b66c54a124ba367ff"
+      },
+      {
+        "id": "Exod.32.13",
+        "raw_xml": "<verse osisID=\"Exod.32.13\">\n          <w lemma=\"2142\" n=\"1.3.1.1\" morph=\"HVqv2ms\" id=\"02wLC\">זְכֹ֡ר</w>\n          <w lemma=\"l/85\" morph=\"HR/Np\" id=\"02ZBr\">לְ/אַבְרָהָם֩</w>\n          <w lemma=\"l/3327\" morph=\"HR/Np\" id=\"02zbk\">לְ/יִצְחָ֨ק</w>\n          <w lemma=\"c/l/3478\" n=\"1.3.1.0\" morph=\"HC/R/Np\" id=\"02o1G\">וּ/לְ/יִשְׂרָאֵ֜ל</w>\n          <w lemma=\"5650\" n=\"1.3.1\" morph=\"HNcmpc/Sp2ms\" id=\"02DM7\">עֲבָדֶ֗י/ךָ</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02D7s\">אֲשֶׁ֨ר</w>\n          <w lemma=\"7650\" morph=\"HVNp2ms\" id=\"02exS\">נִשְׁבַּ֣עְתָּ</w>\n          <w lemma=\"l\" n=\"1.3.0\" morph=\"HR/Sp3mp\" id=\"02xpZ\">לָ/הֶם֮</w>\n          <w lemma=\"b\" n=\"1.3\" morph=\"HR/Sp2fs\" id=\"02x95\">בָּ/ךְ֒</w>\n          <w lemma=\"c/1696\" morph=\"HC/Vpw2ms\" id=\"02qX6\">וַ/תְּדַבֵּ֣ר</w>\n          <w lemma=\"413\" n=\"1.2\" morph=\"HR/Sp3mp\" id=\"02eNN\">אֲלֵ/הֶ֔ם</w>\n          <w lemma=\"7235 a\" n=\"1.1.0\" morph=\"HVhi1cs\" id=\"02PWp\">אַרְבֶּה֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"023LH\">אֶֽת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2233\" n=\"1.1\" morph=\"HNcmsc/Sp2mp\" id=\"02ecq\">זַרְעֲ/כֶ֔ם</w>\n          <w lemma=\"k/3556\" n=\"1.0\" morph=\"HR/Ncmpc\" id=\"02hUd\">כְּ/כוֹכְבֵ֖י</w>\n          <w lemma=\"d/8064\" n=\"1\" morph=\"HTd/Ncmpa\" id=\"0252X\">הַ/שָּׁמָ֑יִם</w>\n          <w lemma=\"c/3605\" morph=\"HC/Ncmsc\" id=\"027WR\">וְ/כָל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/776\" morph=\"HTd/Ncbsa\" id=\"029yL\">הָ/אָ֨רֶץ</w>\n          <w lemma=\"d/2063\" n=\"0.1.1.0\" morph=\"HTd/Pdxfs\" id=\"02nZ2\">הַ/זֹּ֜את</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02sk9\">אֲשֶׁ֣ר</w>\n          <w lemma=\"559\" n=\"0.1.1\" morph=\"HVqp1cs\" id=\"02FK9\">אָמַ֗רְתִּי</w>\n          <w lemma=\"5414\" n=\"0.1.0\" morph=\"HVqi1cs\" id=\"026dr\">אֶתֵּן֙</w>\n          <w lemma=\"l/2233\" n=\"0.1\" morph=\"HR/Ncmsc/Sp2mp\" id=\"02UCY\">לְ/זַרְעֲ/כֶ֔ם</w>\n          <w lemma=\"c/5157\" n=\"0.0\" morph=\"HC/Vqq3cp\" id=\"02fgw\">וְ/נָחֲל֖וּ</w>\n          <w lemma=\"l/5769\" n=\"0\" morph=\"HR/Ncmsa\" id=\"02nVy\">לְ/עֹלָֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "34de9426355b6e3c69feb8ef3b8cf1aa28d0ab84fe4fbc43e061809b0bbd423c"
+      },
+      {
+        "id": "Exod.32.14",
+        "raw_xml": "<verse osisID=\"Exod.32.14\">\n          <w lemma=\"c/5162\" n=\"1.0\" morph=\"HC/VNw3ms\" id=\"02KPw\">וַ/יִּנָּ֖חֶם</w>\n          <w lemma=\"3068\" n=\"1\" morph=\"HNp\" id=\"02pjN\">יְהוָ֑ה</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"02DLD\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/7451 c\" n=\"0.1\" morph=\"HTd/Ncfsa\" id=\"02Jf1\">הָ֣/רָעָ֔ה</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"023YY\">אֲשֶׁ֥ר</w>\n          <w lemma=\"1696\" n=\"0.0\" morph=\"HVpp3ms\" id=\"025np\">דִּבֶּ֖ר</w>\n          <w lemma=\"l/6213 a\" morph=\"HR/Vqc\" id=\"02kyD\">לַ/עֲשׂ֥וֹת</w>\n          <w lemma=\"l/5971 a\" n=\"0\" morph=\"HR/Ncmsc/Sp3ms\" id=\"02cTB\">לְ/עַמּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "cd237d56cdf091b341eddcf5e4e729cb297a899a72a110f8adfabfb34846b987"
+      }
+    ]
+  },
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-31T08:25:17Z) into private/upstream_cache",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "result": "200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg002/tlg0527.tlg002.1st1K-grc1.xml",
+      "accessed_utc": "2026-10-31T08:28:42Z",
+      "file_sha256": "cdfe6210c48a54f38415f01d8ca4fd6a56cd78615c1c385243c5a6a7ac930aa7",
+      "result": "200",
+      "note": "Swete digital TEI; master branch, not pinned; same hash as the copy used by run 20261031T052253Z-3570108e."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+      "accessed_utc": "2026-10-31T08:28:42Z",
+      "file_sha256": "2b52658a4323d91674cda4090ab8b3ebddfff640f4f18143c28300e80b2c38f8",
+      "result": "200",
+      "note": "Open Scriptures abridged BDB digitization; master branch, not pinned."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Gen,Num,Deut,1Sam,Jonah,Jer}.xml",
+      "accessed_utc": "2026-10-31T08:29:26Z to 08:29:28Z (or existing cache)",
+      "result": "200",
+      "note": "Pinned context books; hashes per wlc_context item."
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Rashi_on_Exodus.32.10",
+      "accessed_utc": "2026-10-31T08:29:59Z",
+      "result": "no connection (curl http_code 000; network policy)",
+      "note": "No rabbinic text read."
+    }
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T08:25:17.059576+00:00",
+    "claim_pushed": "2026-10-31T08:25Z (commit on claude/original-bible-hard-review-sh5i0a before any model review)",
+    "independent_reading_saved": "2026-10-31T08:28:00Z (/tmp/hr/independent.json mtime)",
+    "conventions_lxx_bdb_opened": "2026-10-31T08:28-08:31Z, after the independent reading was saved",
+    "completed": "2026-10-31T08:36:42Z"
+  },
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "unit_id_matches_claim": true,
+    "preferred_wording_ids_exactly_once": true,
+    "ko_en_es_nonempty": true,
+    "independent_initial_reading_ids_exactly_once": true,
+    "initial_proposals_ids_exactly_once": true,
+    "alternatives_cover_all_ids": true,
+    "clause_coverage_cover_all_ids": true,
+    "reconsider_if_cover_all_ids": true,
+    "confidence_cover_all_ids": true,
+    "proposed_notes_cover_all_ids": true,
+    "final_clause_word_ids_cover_every_word_in_order": true,
+    "independent_clause_word_ids_cover_every_word_in_order": true,
+    "no_lord_senor_or_yeohowa_in_preferred": true,
+    "divine_name_convention_applied": true,
+    "lxx_excerpts_found_in_downloaded_text": true,
+    "bdb_excerpts_found_in_downloaded_text": true,
+    "wlc_context_excerpts_from_pinned_commit": true,
+    "no_qere_ketiv_or_note_markup_in_targets": true,
+    "state_is_unadopted_model_review": true,
+    "selected_texts_modified": false,
+    "no_human_certification_claim": true,
+    "rights_recorded": true,
+    "self_check_is_not_independent_review": true
+  }
+}
