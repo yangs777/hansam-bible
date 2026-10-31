@@ -1,0 +1,566 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T122714Z-58cd630e",
+  "unit_id": "exod-34-5-9",
+  "verse_ids": [
+    "Exod.34.5",
+    "Exod.34.6",
+    "Exod.34.7",
+    "Exod.34.8",
+    "Exod.34.9"
+  ],
+  "unit_issue_ko": "성품 선언·죄를 짐·벌 면제 부정·세대 책임",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.34.5-9 equals traditional Hebrew and English Exodus 34:5-9; no numbering difference in this unit.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet (automation/hard-review-packets/20261031T122714Z-58cd630e.json). Hebrew cited in this record is a quotation for discussion, with OSHB morpheme slashes removed only where noted; it is not a replacement source text. Accented token quotations were rewritten to the exact source codepoint order (the pinned source stores e.g. dagesh before vowel, not NFC order). Unaccented forms, roots, slash-joined pairs and out-of-unit citations (Exod.33.19, 34.2, 20.5-6, Deut.7.9, Gen.15.2) are discussion forms, not source text.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T12:29Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The runtime system prompt also names the configured model as claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVHQCY9QPB4nYKzkpWg",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Service metadata only; no balance, cost or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred after the identity check"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T12:27:14Z",
+    "claim_pushed": "2026-10-31T12:27:30Z (approximate)",
+    "identity_checked": "2026-10-31T12:29Z (approximate)",
+    "review_written": "2026-10-31T12:40Z (approximate)",
+    "checks_run": "2026-10-31T12:36:55Z"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile or critical apparatus consulted",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "fragment_sha256": {
+      "Exod.34.5": "8be9a2510f502334a7bdf33e527552d17cffe957fce746edf6dbf6076e41e5b3",
+      "Exod.34.6": "8a15e3651f6ffc7db637d20046d7e53b052dd4cb47287aa809eced36dee9be52",
+      "Exod.34.7": "8ca2d73359dd216985c3482e3cd7c964dc1f5f34eccadbe5512a692f423ad31c",
+      "Exod.34.8": "843646c75186663706feca2a8d305e0e5c8b13ff8b0cfb989c6b303a39f7ac9b",
+      "Exod.34.9": "e8c9b0f42aef71ba2fcd477fbf6cc80dce2647b5656e9ebeb162d133f8910f93"
+    },
+    "packet": "automation/hard-review-packets/20261031T122714Z-58cd630e.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected_in_packet": "none (upcoming passage; no selected Exodus 34 text exists in data/editorial.json)"
+  },
+  "source_encoding_observations": [
+    {
+      "id": "Exod.34.6",
+      "observation_ko": "고정 원천에서 이 절은 마지막 낱말 וֶ/אֱמֶֽת 뒤에 <seg type=\"x-sof-pasuq\">׃</seg>가 없고 대신 <seg type=\"x-paseq\">׀</seg>가 오며, 이어 <note n=\"c\">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>가 있다. 고정 Exod.xml 전체 1213절 가운데 sof-pasuq seg가 없는 절은 Exod.2.5, Exod.14.25, Exod.14.29, Exod.34.6 네 곳뿐이다(이 세션에서 스크립트로 셈).",
+      "status": "unresolved_encoding_question",
+      "what_is_not_known_ko": "note c는 어떤 강세가 BHS와 다른지 밝히지 않는다. 이것이 레닌그라드 사본(L)의 실제 표기인지, WLC/OSHB 인코딩 방식인지 이 세션은 사본 사진이나 BHS를 보지 못해 판단하지 않는다. 절 경계 자체(34:6이 ואמת로 끝남)는 OSIS ID와 전통 절 번호가 일치한다.",
+      "translation_effect_ko": "번역에는 영향이 없다고 본다. 6절과 7절은 어차피 하나의 선포 문장으로 이어진다."
+    },
+    {
+      "id": "Exod.34.7",
+      "observation_ko": "인쇄본 전통에서 נֹצֵר의 נ을 크게 쓴다는 보고가 있다(이 세션의 일반 지식이며 검증하지 않음). 고정 원천의 이 낱말은 일반 글자로 인코딩되어 있고 큰 글자 표지가 없다. 고정 Exod.xml 전체에 'large' 류 seg 표지가 하나도 없으므로, 원천 인코딩이 이런 표지를 담지 않는 방식일 수 있다.",
+      "status": "reported_not_verified"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml",
+      "accessed_utc": "2026-10-31T12:29:53Z",
+      "result": "200; file SHA-256 04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f, byte-identical to the pinned file. Exod.34.6 in master also lacks x-sof-pasuq and carries the same note c.",
+      "excerpt": "<w lemma=\"c/571\" n=\"0\" morph=\"HC/Ncfsa\" id=\"02DHb\">וֶ/אֱמֶֽת</w> / <seg type=\"x-paseq\">׀</seg> / <note n=\"c\">We read one or more accents in L differently than BHS. ...</note>"
+    },
+    {
+      "url": "https://tanach.us/Server.txt?Exodus34:6-7*&content=Accents",
+      "accessed_utc": "2026-10-31T12:29:47Z",
+      "result": "blocked: CONNECT tunnel failed, response 403 (environment network policy). Nothing from this source is claimed."
+    }
+  ],
+  "independent_initial_reading": {
+    "method_ko": "아래는 원천 패킷(원시 XML·형태 분석·강세)만 보고 다른 AI 제안을 보기 전에 작성했다. 히브리어 강세 이름은 패킷 문자의 유니코드 이름으로 확인했다(예: פָּנָיו֮ = HEBREW ACCENT ZINOR, וַיִּקְרָא֒ = HEBREW ACCENT SEGOL).",
+    "Exod.34.5": {
+      "lexical_ko": "וַיִּתְיַצֵּב는 יצב 히트파엘 ‘자리를 잡고 서다’. 34:2 ‘너는 거기서 내 앞에 서라’(נִצַּבְתָּ, נצב 니팔)와 어근이 다르다. בֶּעָנָן ‘구름 안에/구름을 타고’.",
+      "syntactic_ko": "세 와예익톨(וַיֵּרֶד, וַיִּתְיַצֵּב, וַיִּקְרָא)의 명시 주어는 첫 동사 뒤 יְהוָה 하나뿐이다. 주어 연속 원칙상 셋 다 야훼가 주어다. עִמּוֹ의 ‘그’는 모세. בְשֵׁם יְהוָה는 ‘야훼의 이름을/야훼라는 이름으로’.",
+      "discourse_ko": "33:19 ‘내가 네 앞에서 야훼의 이름을 선포하리라’(וְקָרָאתִי בְשֵׁם יְהוָה)의 성취로 읽힌다. 같은 관용구가 창 4:26, 12:8에서는 사람 주어로 ‘야훼의 이름을 부르다(예배하다)’이다.",
+      "open_question_ko": "וַיִּקְרָא의 주어를 모세로 보아 ‘모세가 야훼의 이름을 불렀다’로 읽는 해석이 있다. 히브리어 표층은 주어를 바꾸는 표지를 주지 않는다."
+    },
+    "Exod.34.6": {
+      "accent_ko": "강세 분절: וַיַּעֲבֹ֨ר יְהוָ֥ה ׀ עַל־פָּנָיו֮(zarqa) וַיִּקְרָא֒(segolta) | יְהוָ֣ה ׀(legarmeh 성격) יְהוָ֔ה(zaqef) אֵ֥ל רַח֖וּם וְחַנּ֑וּן(atnach) | ... וֶאֱמֶֽת. segolta가 וַיִּקְרָא 뒤에서 첫 큰 휴지를 만들므로, 마소라 강세는 ‘야훼가 그 앞으로 지나가며 선포했다’를 한 덩어리로, ‘야훼, 야훼’를 선포 내용의 시작으로 묶는다.",
+      "syntactic_ko": "선포 내용은 동사 없는 명사·형용사 사슬이다: 이름 둘 + אֵל + 형용사 둘(רַחוּם, חַנּוּן) + 연계 형용사구 둘(אֶרֶךְ אַפַּיִם, רַב־חֶסֶד וֶאֱמֶת). ‘야훼, 야훼는 ~한 하나님이다’라는 서술문, 또는 ‘야훼, 야훼, ~한 하나님’이라는 동격 나열 모두 문법적으로 가능하다.",
+      "lexical_ko": "רַחוּם(רחם, 긍휼), חַנּוּן(חנן, 은혜), אֶרֶךְ אַפַּיִם ‘코(분노)가 길다’ = 노하기를 더디 함, חֶסֶד(언약적 충성·인애), אֱמֶת(신실함·믿을 만함·진실). רַב־는 חֶסֶד와 אֱמֶת 둘 다에 걸린다. 이사일의(‘신실한 인애’)로 읽을 수도 있으나 접속사로 이어진 두 명사를 그대로 둔다.",
+      "open_question_ko": "첫 יְהוָה(지나간 주어)와 선포 속 두 יְהוָה의 관계: (a) 야훼가 선포: ‘야훼, 야훼…’ (b) 그가(야훼가) 선포: ‘야훼, 야훼…’ (c) 야훼가 지나가셨고, (모세가) ‘야훼!’라고 외쳤다 — (c)는 segolta 분절 및 33:19와 맞지 않는다."
+    },
+    "Exod.34.7": {
+      "syntactic_ko": "분사 사슬이 이어진다: נֹצֵר חֶסֶד לָאֲלָפִים, נֹשֵׂא עָוֺן וָפֶשַׁע וְחַטָּאָה(atnach). 후반부는 부정사 절대형 + 부정 + 정동사 וְנַקֵּה לֹא יְנַקֶּה(강조 부정: ‘결코 ~하지 않는다’)와 분사 פֹּקֵד 구로 이루어진다. 강세는 וְנַקֵּה֙(pashta) לֹ֣א(munach) יְנַקֶּ֔ה(zaqef)로 세 낱말을 한 단위로 묶는다.",
+      "lexical_ko": "נשא עון ‘죄악을 들어 올리다/지다’ — 하나님이 주어일 때 ‘용서하다(치워 주다)’. 세 죄어 עָוֺן(비뚤어짐·죄책), פֶּשַׁע(반역·위반), חַטָּאָה(빗나감·죄). נקה 피엘 ‘무죄로 하다, 벌하지 않고 두다’; 목적어가 없다. פקד עון על ‘죄악을 ~에게 찾아오다/셈하다/묻다’. לָאֲלָפִים ‘수천에게/수천 (대)에게’; שִׁלֵּשִׁים/רִבֵּעִים ‘셋째 것들/넷째 것들’, 곧 셋째·넷째 세대(דּוֹר라는 낱말은 없다).",
+      "discourse_ko": "atnach가 ‘용서’까지를 전반부로, ‘결코 벌을 면해 주지 않음 + 세대에 걸친 죄악 추궁’을 후반부로 나눈다. 전반부 ‘수천’과 후반부 ‘삼대·사대’가 비대칭으로 대조된다. 출 20:5와 달리 ‘나를 미워하는 자들의’(לְשֹׂנְאָי)가 없다.",
+      "reception_ko": "유대 전례의 ‘열세 속성’ 낭송은 וְנַקֵּה에서 멈추는 관습이 있고, 랍비 해석(바빌론 탈무드 요마 86a로 알려짐 — 이 세션에서 원문 미확인)은 ‘회개하는 자는 죄 없다 하시고 회개하지 않는 자는 죄 없다 하지 않으신다’로 나누어 읽는다. 이는 강세 분절(세 낱말 한 단위) 및 부정사 절대형 + 정동사 강조 구문(렘 30:11, 46:28, 나 1:3과 같은 구문)과 맞지 않는 수용사적 읽기로 분류한다."
+    },
+    "Exod.34.8": {
+      "lexical_ko": "וַיְמַהֵר ‘서두르다’(뒤 동사와 함께 ‘급히 ~하다’). קדד ‘머리를 숙이다’; אַרְצָה ‘땅을 향해’. וַיִּשְׁתָּחוּ(OSHB 형태 Vtw3ms)는 ‘엎드려 절하다/경배하다’. 이 동사의 어근·어간 분석(히쉬타펠 חוה 대 히트팔렐 שׁחה)은 문법학적 논쟁이지만 번역 의미에는 영향이 적다.",
+      "syntactic_ko": "모세가 명시 주어. 발화 없음."
+    },
+    "Exod.34.9": {
+      "syntactic_ko": "조건절 אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ + 호격 אֲדֹנָי + 3인칭 지시형 יֵלֶךְ־נָא אֲדֹנָי בְּקִרְבֵּנוּ(atnach). 후반부: כִּי עַם־קְשֵׁה־עֹרֶף הוּא(zaqef) + 와우 완료 둘(וְסָלַחְתָּ, וּנְחַלְתָּנוּ). 와우 완료는 앞 지시형을 이어받아 요청 기능을 한다. הוּא는 עַם을 받는 대명사(‘그것은/이 백성은’).",
+      "lexical_ko": "אֲדֹנָי(OSHB lemma 136, 형태 HNcmpc/Sp1cs) 신적 칭호 ‘내 주/주님’. 기록된 자음은 אדני이며, 이 절이 소페림 목록 등에서 다루어지는지는 이 세션이 확인하지 않았다. סלח ל ‘~을 용서하다’. נחל 칼 + 목적 접미사 ‘우리를 유업으로 차지하다/소유로 삼다’(히필 ‘상속하게 하다’가 아님).",
+      "discourse_ko": "‘목이 곧은 백성’은 32:9, 33:3, 33:5에서 야훼가 백성 가운데로 함께 가지 않을 이유(‘…때문에, 길에서 너를 진멸하지 않도록’)로 쓰였다. 모세는 같은 말을 같은 접속사 כִּי로 받아 ‘함께 가 달라’와 ‘용서해 달라’의 근거로 뒤집는다. 강세상 כִּי절은 atnach 뒤 후반부에 있어, 앞 요청(함께 감)뿐 아니라 뒤 요청(용서)과도 묶인다. 또 ‘그것(백성)’에서 ‘우리의 죄악’으로 바뀌어 모세가 자신을 백성에 포함한다.",
+      "open_question_ko": "כִּי가 이유(‘~이므로/for’)인가 양보(‘~이지만/although’)인가. 양보 כִּי는 드물고 논쟁적이다."
+    }
+  },
+  "initial_proposals": {
+    "Exod.34.5": {
+      "ko": "야훼가 구름 가운데 내려오셔서 거기서 그와 함께 서시고, 야훼의 이름을 선포하셨다.",
+      "en": "YHWH came down in the cloud, stood with him there, and proclaimed the name of YHWH.",
+      "es": "YHWH descendió en la nube, se puso allí con él y proclamó el nombre de YHWH."
+    },
+    "Exod.34.6": {
+      "ko": "야훼가 그의 앞으로 지나가시며 선포하셨다. “야훼, 야훼, 긍휼이 많고 은혜로운 하나님, 노하기를 더디 하고 인애와 진실이 풍성하며,",
+      "en": "YHWH passed before him and proclaimed, “YHWH, YHWH, a God compassionate and gracious, slow to anger, and abounding in steadfast love and faithfulness,",
+      "es": "YHWH pasó delante de él y proclamó: «YHWH, YHWH, Dios compasivo y clemente, lento para la ira y rico en amor y fidelidad,"
+    },
+    "Exod.34.7": {
+      "ko": "천 대까지 인애를 지키며, 죄악과 반역과 죄를 용서하나, 결코 벌하지 않고 두지는 않으며, 아버지들의 죄악을 자녀들과 손자들에게, 삼대와 사대에게까지 갚는 이다.”",
+      "en": "keeping steadfast love for thousands, forgiving iniquity and transgression and sin, yet by no means clearing the guilty, visiting the iniquity of the fathers on the children and on the children’s children, on the third and on the fourth generation.”",
+      "es": "que guarda el amor por millares, que perdona la iniquidad, la rebelión y el pecado, pero que de ningún modo tendrá por inocente al culpable, y castiga la iniquidad de los padres sobre los hijos y sobre los hijos de los hijos, hasta la tercera y la cuarta generación»."
+    },
+    "Exod.34.8": {
+      "ko": "모세가 급히 땅에 머리를 숙이고 엎드려 경배하였다.",
+      "en": "Moses quickly bowed his head to the ground and worshiped.",
+      "es": "Moisés se apresuró a inclinar la cabeza hasta el suelo y adoró."
+    },
+    "Exod.34.9": {
+      "ko": "그가 말했다. “주님, 제가 정말 당신의 눈에 은혜를 입었다면, 주님께서 부디 저희 가운데서 함께 가 주십시오. 이 백성은 목이 곧은 백성이오니, 저희의 죄악과 저희의 죄를 용서하시고, 저희를 당신의 소유로 삼아 주십시오.”",
+      "en": "He said, “If now I have found favor in your eyes, Lord, please let the Lord go in our midst, for it is a stiff-necked people; and pardon our iniquity and our sin, and take us for your inheritance.”",
+      "es": "Él dijo: «Si ahora he hallado gracia ante tus ojos, Señor, que vaya ahora el Señor en medio de nosotros, porque es un pueblo de dura cerviz; y perdona nuestra iniquidad y nuestro pecado, y tómanos por heredad tuya»."
+    }
+  },
+  "initial_proposals_note": "Initial proposals were written from the source packet before opening any other review record. Changes after comparison are listed in changes_from_initial_proposal_ko.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main 10983fc9879003b24ef73ee3fb66ad2d1b56ebc5)",
+      "label": "current selected text, Genesis 1-5:10, Psalm 1, Numbers 6:24-26, Deuteronomy 32:8",
+      "relevance_ko": "Exodus 34 선정본은 없다. 신명 관례 확인: Gen.4.1/4.6/4.26 ko ‘야훼’, en/es ‘YHWH’; Gen.2.4 en ‘Yahweh’, es ‘Yahvé’; Num.6.24-26 ko ‘YHWH께서’. Num.6.25 חנן 동사를 en ‘be gracious’, es ‘te conceda su favor’로 옮겼다. 선정본에 חֶסֶד 번역 관례 없음."
+    },
+    {
+      "record": "automation/cloud-queue.json Exod.34.batch1 / Exod.34.batch2 (main)",
+      "label": "source input only",
+      "relevance_ko": "대량 초안 대기열의 원천 입력일 뿐 번역 제안은 없다. 모든 claude/ 원격 브랜치의 automation/cloud-runs 초안은 Exod.18.7까지만 있고 Exod 34 초안은 없다(이 세션에서 확인)."
+    },
+    {
+      "record": "origin/claude/bible-hard-review-beg93g: automation/cloud-reviews/20261031T092536Z-13d8f621.json",
+      "label": "Claude Code cloud review, unit exod-33-18-23, requested model claude-opus-5-5 per that record (unadopted)",
+      "relevance_ko": "33:19 ‘네 앞에서 야훼의 이름을 선포하겠다’(en ‘proclaim the name of YHWH’, es ‘proclamaré el nombre de YHWH’), חנן=은혜/gracious/clemente, רחם=긍휼/compassion/compasión 대응, 모세→하나님 호칭 ‘당신’, es ‘tú’. 그 기록의 editorial_consistency_findings는 34:5 단위에 신적 주어 קרא בשם을 ‘선포하다’로 쓰는 원칙과 34:6 רַחוּם וְחַנּוּן에 같은 대응을 적용할 것을 요구했다."
+    },
+    {
+      "record": "origin/claude/original-bible-hard-review-ahvz14: automation/cloud-reviews/20261031T031331Z-07b6ea6b.json",
+      "label": "Claude Code cloud review, unit exod-20-3-7 (unadopted)",
+      "relevance_ko": "20:5 ‘아버지들의 죄악을 자녀들에게, 삼대와 사대에게까지 묻고’ / ‘bringing the iniquity of the fathers upon the children, upon the third and upon the fourth generation’ / ‘hago recaer la iniquidad de los padres sobre los hijos’. 20:6 חֶסֶד=인애/loyal love/amor leal, לַאֲלָפִים=‘수천 대’/‘thousands of generations’/‘millares de generaciones’. 20:7 נקה 피엘=‘죄 없다 하지 않으실’/‘will not acquit’/‘no dejará sin castigo’. 그 기록은 חֶסֶד를 출 20:6, 34:6-7, 신 5:10, 7:9에서 함께 정해야 한다고 지적했다."
+    },
+    {
+      "record": "origin/claude/original-bible-hard-review-3pkh5z: automation/cloud-reviews (unit gen-18-1-5, unadopted)",
+      "label": "Claude Code cloud review",
+      "relevance_ko": "Gen.18.3 אֲדֹנָי + מצא חן 대응: ko ‘내 주님, 제가 주님 보시기에 은혜를 입었다면’, en ‘My Lord, if I have found favor in your eyes’, es ‘Señor mío, si he hallado gracia ante tus ojos’."
+    },
+    {
+      "record": "origin/claude/original-bible-hard-review-voh8a3: automation/cloud-reviews (unit gen-15-1-6, unadopted)",
+      "label": "Claude Code cloud review",
+      "relevance_ko": "Gen.15.2 אֲדֹנָי יְהוִה = ‘주 야훼여/Lord YHWH/Señor YHWH’. 34:9에는 יהוה가 붙지 않은 אֲדֹנָי만 두 번 나온다."
+    }
+  ],
+  "no_gpt_gemini_records_ko": "이 단위(Exod.34.5-9)에 대한 저장된 GPT, Gemini, Antigravity 기록은 main과 모든 claude/ 원격 브랜치에서 찾지 못했다. 그러한 응답은 인용하거나 추정하지 않았다.",
+  "comparison_findings_ko": [
+    "34:5 קרא בשם을 신적 주어로 ‘선포하다’로 옮긴 독립 판단이 33:19 검토 기록과 일치한다. 그 기록의 일관성 요구를 그대로 충족한다.",
+    "34:6 רַחוּם/חַנּוּן 대응은 33:19 검토의 긍휼/은혜, compassion/gracious, compasión/clemente와 일치시켰다(초안에서 이미 같았다).",
+    "חֶסֶד: 초안은 en ‘steadfast love’, es ‘amor’, ko ‘인애’였다. 출 20:6 검토 기록(인애/loyal love/amor leal)과 맞추어 en ‘loyal love’, es ‘amor leal’로 바꾸었다. 34:6-7은 출 20:6과 함께 정해야 할 바로 그 자리다.",
+    "לָאֲלָפִים: 초안 ‘천 대까지/for thousands/por millares’ → 출 20:6 기록의 ‘수천 대에 이르기까지/thousands of generations/millares de generaciones’로 맞추었다. 이유는 아래 alternatives 참조.",
+    "פקד עון: 초안 ‘갚는/visiting/castiga’ → 출 20:5 기록의 ‘묻다/bringing … upon/hacer recaer’로 맞추었다. 34:7과 20:5가 같은 공식이므로 같은 말을 쓰는 것이 독자가 차이(34:7에는 ‘나를 미워하는 자들’이 없음)를 볼 수 있게 한다.",
+    "נקה 피엘: 출 20:7 기록은 목적어가 있어 ‘acquit/죄 없다 하다’를 썼다. 34:7에는 목적어가 없다. 초안 ‘clearing the guilty’는 목적어를 보충한다. 비교 후 목적어를 보충하지 않는 ‘결코 벌을 면해 주지는 않고/by no means granting impunity/en modo alguno concede impunidad’로 바꾸었다. 20:7과 낱말이 달라지는 것은 목적어 유무 때문이며 각주로 연결한다.",
+    "34:9 אֲדֹנָי: Gen.18.3 검토 관례(‘내 주님/My Lord/Señor mío’)를 따라 초안의 ‘주님/Lord/Señor’를 바꾸었다. 접미사 1인칭 단수(HNcmpc/Sp1cs)가 형태 분석에 있다. 둘째 אֲדֹנָי(3인칭 지시형의 주어)도 같은 낱말로 둔다.",
+    "34:9 מצא חן: Gen.18.3 검토의 en ‘found favor’, es ‘hallado gracia’를 따랐다. ko는 Gen.18.3의 ‘주님 보시기에’를 따랐다. 33장 검토는 ‘당신’ 호칭을 썼으나, 34:9는 אֲדֹנָי 호격이 명시되어 Gen.18.3과 더 가깝다. 이로써 같은 단원(33-34장) 안 모세 발화 호칭이 ‘당신’과 ‘주님’으로 갈린다 — 편집 결정 필요(editorial_consistency_findings)."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "34:6 ko ‘진실’ → ‘신실함’: אֱמֶת는 여기서 말의 참됨보다 믿을 만함·신실함이 중심이다. en ‘faithfulness’, es ‘fidelidad’와 맞춘다.",
+    "34:6-7 חֶסֶד en ‘steadfast love’ → ‘loyal love’, es ‘amor’ → ‘amor leal’ (출 20:6 기록과 일치).",
+    "34:7 לָאֲלָפִים ‘천 대까지/for thousands/por millares’ → ‘수천 대에 이르기까지/to thousands of generations/por millares de generaciones’.",
+    "34:7 נקה: ‘결코 벌하지 않고 두지는 않으며/clearing the guilty/tendrá por inocente al culpable’ → 목적어를 보충하지 않는 ‘결코 벌을 면해 주지는 않고/by no means granting impunity/en modo alguno concede impunidad’.",
+    "34:7 atnach에 맞춰 ko는 ‘용서하는 이다.’에서 문장을 끊고 ‘그러나 …’로 후반부를 시작했다. en/es는 세미콜론으로 같은 분절을 보인다.",
+    "34:7 ‘손자들’ → ‘자녀들의 자녀들’: בְּנֵי בָנִים의 반복 구조와 ‘삼대·사대’ 셈을 보존한다.",
+    "34:7 פקד ‘갚는/visiting/castiga’ → ‘묻는다/bringing … upon/hace recaer’ (출 20:5 기록과 일치).",
+    "34:9 ‘주님/Lord/Señor’ → ‘내 주님/my Lord/Señor mío’, 둘째는 ‘내 주님께서/my Lord/mi Señor’; ‘당신의 눈에’ → ‘주님 보시기에’; en ‘take us for your inheritance’ → ‘take us as your own possession’; es ‘tómanos por heredad tuya’ → ‘tómanos como posesión tuya’; es ‘porque’ → ‘pues’."
+  ],
+  "alternatives": [
+    {
+      "id": "Exod.34.5",
+      "question_ko": "וַיִּקְרָא בְשֵׁם יְהוָה의 주어",
+      "options": [
+        {
+          "reading_ko": "야훼가 야훼의 이름을 선포했다 (선택)",
+          "argument_ko": "명시 주어 하나가 세 와예익톨에 이어진다; 33:19 약속의 성취; 34:6에서 같은 동사 וַיִּקְרָא의 주어가 다시 야훼로 명시된다.",
+          "objection_ko": "קרא בשם יהוה는 성경 다른 곳에서 대부분 사람 주어의 예배 관용구다. 그리고 34:6에서 주어 יְהוָה를 굳이 다시 명시한 것은 5절 끝의 주어가 달랐음(모세)을 암시할 수 있다."
+        },
+        {
+          "reading_ko": "모세가 야훼의 이름을 불렀다",
+          "argument_ko": "관용구의 통상 의미; 34:2의 ‘거기서 내 앞에 서라’에 이어 모세가 예배로 응답.",
+          "objection_ko": "히브리어에 주어 전환 표지가 없다; 6절 첫 휴지 앞 ‘야훼가 … 선포했다’와 중복된다; 33:19와 연결이 약해진다."
+        }
+      ],
+      "also_noted_ko": "וַיִּתְיַצֵּב의 주어를 모세로 보아 ‘모세가 거기서 그(야훼)와 함께 섰다’로 읽는 해석도 있다. 같은 이유(주어 전환 표지 없음)로 택하지 않는다."
+    },
+    {
+      "id": "Exod.34.6",
+      "question_ko": "‘야훼 ׀ 야훼’의 구문",
+      "options": [
+        {
+          "reading_ko": "‘야훼가 지나가며 선포했다. “야훼, 야훼, … 하나님 …”’ (선택)",
+          "argument_ko": "segolta 분절이 וַיִּקְרָא 뒤에서 끊는다; 두 이름이 legarmeh(paseq)와 zaqef로 선포 첫머리에 묶인다; 3:14-15, 33:19의 이름 계시와 이어진다.",
+          "objection_ko": "선포 내용에 동사가 없어 ‘누가 무엇을 말했는지’가 번역에서 다소 단정된다. 첫 יְהוָה도 paseq를 가지므로 강세만으로 확정되지 않는다."
+        },
+        {
+          "reading_ko": "‘선포했다. “야훼, 야훼는 긍휼이 많고 … 하나님이다”’ (서술문)",
+          "argument_ko": "명사문 서술로 읽으면 신학적 선언이 분명하다.",
+          "objection_ko": "zaqef(두 번째 יְהוָה)와 merkha(אֵל) 연결이 서술 경계를 보이지 않으며, 동격 사슬보다 문법적으로 강하지 않다."
+        },
+        {
+          "reading_ko": "‘야훼가 지나가셨다. 그리고 (모세가) “야훼, 야훼!” 하고 불렀다’",
+          "argument_ko": "5절 ‘불렀다’를 모세의 기도로 보는 해석과 일관.",
+          "objection_ko": "segolta 앞 ‘야훼가 지나가며 불렀다’는 한 동작군이다; 7절 내용(죄를 묻는 이)은 하나님의 자기 선언이지 모세의 호칭이 아니다; 33:19 약속과 맞지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.34.6",
+      "question_ko": "חֶסֶד וֶאֱמֶת 번역",
+      "options": [
+        {
+          "reading_ko": "인애와 신실함 / loyal love and faithfulness / amor leal y fidelidad (선택)",
+          "argument_ko": "두 명사를 그대로 둔다; 출 20:6 검토와 일치.",
+          "objection_ko": "이사일의(‘신실한 사랑’)일 가능성; ko ‘인애’는 고어감이 있다; en ‘loyal love’는 ‘steadfast love’(NRSV/ESV 전통)보다 덜 익숙하다."
+        },
+        {
+          "reading_ko": "변함없는 사랑과 진실 / steadfast love and truth",
+          "argument_ko": "익숙한 현대 역본 전통.",
+          "objection_ko": "‘진실/truth’는 אֱמֶת의 관계적 신실성을 말의 참됨으로 좁힌다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.34.7",
+      "question_ko": "לָאֲלָפִים",
+      "options": [
+        {
+          "reading_ko": "수천 대에 이르기까지 (선택)",
+          "argument_ko": "שִׁלֵּשִׁים/רִבֵּעִים 역시 דּוֹר 없이 ‘세대’를 뜻하므로 대조 구조상 ‘수천’도 세대로 읽힌다; 신 7:9 לְאֶלֶף דּוֹר; 출 20:6 검토와 일치.",
+          "objection_ko": "히브리어에 ‘대/세대’가 없다; ‘수천 명에게’로 읽으면 수의 대조(수천 명 대 몇 세대)가 되며, ‘세대’는 해석적 보충이다."
+        },
+        {
+          "reading_ko": "수천에게 / for thousands",
+          "argument_ko": "가장 문자적.",
+          "objection_ko": "후반부와의 세대 대조가 흐려진다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.34.7",
+      "question_ko": "נֹשֵׂא עָוֺן",
+      "options": [
+        {
+          "reading_ko": "용서하다 (선택)",
+          "argument_ko": "하나님 주어 + 죄 목적어의 נשא는 ‘치워 주다’(시 32:5, 미 7:18); 9절 모세의 סלח 요청과 이어진다.",
+          "objection_ko": "‘지다/짊어지다’는 대속 신학(하나님이 죄를 떠안음)과 연결되는 문자적 상을 지운다; 레 16:22 숫염소가 죄를 ‘지고’ 가는 같은 동사."
+        },
+        {
+          "reading_ko": "죄를 짊어지다 / bearing",
+          "argument_ko": "어근의 구체적 상 보존.",
+          "objection_ko": "한국어 ‘죄를 지다’는 ‘죄를 저지르다’로 오독된다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.34.7",
+      "question_ko": "וְנַקֵּה לֹא יְנַקֶּה (목적어 없음)",
+      "options": [
+        {
+          "reading_ko": "결코 벌을 면해 주지는 않는다 / by no means granting impunity / en modo alguno concede impunidad (선택)",
+          "argument_ko": "목적어를 보충하지 않으면서 부정사 절대형 강조(‘결코’)를 살린다; 렘 30:11, 46:28 ‘결코 너를 벌하지 않은 채로 두지 않겠다’(징계는 하되 멸절하지 않음)의 의미장을 담는다.",
+          "objection_ko": "피엘 נקה의 법정적 의미(‘무죄 선언/acquit’)가 ‘impunity’라는 추상명사로 약해진다; 출 20:7(‘acquit’)과 낱말이 달라 연결이 흐려진다."
+        },
+        {
+          "reading_ko": "죄 있는 자를 결코 죄 없다 하지 않는다 / by no means clearing the guilty",
+          "argument_ko": "익숙한 전통(KJV 등, ‘the guilty’는 보충어로 표시); 법정적 의미 유지.",
+          "objection_ko": "‘죄 있는 자’는 원문에 없다; 바로 앞 ‘용서받은 자’와 별개 집단을 상정하는 해석을 본문에 넣는다."
+        },
+        {
+          "reading_ko": "‘죄 없다 하시되(회개하는 자), 죄 없다 하지 않으신다(회개 않는 자)’",
+          "argument_ko": "랍비 수용사(요마 86a로 알려짐, 미확인).",
+          "objection_ko": "강세(세 낱말 한 단위)와 강조 구문 문법에 반한다; 수용사로만 각주에 둔다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.34.7",
+      "question_ko": "פֹּקֵד עֲוֺן אָבוֹת עַל־בָּנִים — 세대 책임",
+      "options": [
+        {
+          "reading_ko": "아버지들의 죄악을 자녀들 … 에게 묻는다 (선택)",
+          "argument_ko": "פקד의 ‘찾아와 셈하다’ 뜻을 담고 출 20:5 검토와 일치; 가족 연대(동시에 살아 있는 3-4대 가구)라는 해석도 배제하지 않는다.",
+          "objection_ko": "‘묻다’는 책임 추궁인지 처벌 집행인지 모호하다; 신 24:16, 겔 18:20의 개인 책임과 긴장을 독자가 해소 없이 받는다."
+        },
+        {
+          "reading_ko": "벌하다 / punishing",
+          "argument_ko": "결과 의미가 분명.",
+          "objection_ko": "פקד의 폭(돌봄·방문·점검)을 좁히고 출 20:5와의 일관성을 깬다."
+        }
+      ],
+      "also_noted_ko": "אָבוֹת/בָּנִים은 문법상 남성 복수지만 일반적으로 ‘조상/후손’ 전체를 가리킬 수 있다. 선정본 관례와 출 20:5 검토를 따라 ‘아버지들/자녀들’, en ‘fathers/children’, es ‘padres/hijos’로 둔다."
+    },
+    {
+      "id": "Exod.34.9",
+      "question_ko": "כִּי עַם־קְשֵׁה־עֹרֶף הוּא",
+      "options": [
+        {
+          "reading_ko": "이유 ‘~이오니/for/pues’ (선택)",
+          "argument_ko": "כִּי의 기본 기능; 33:3, 33:5의 같은 근거를 모세가 뒤집는 대담한 논증이 보인다; 강세상 이 절은 후반부에 있어 용서 요청의 근거로도 읽힌다. ko ‘-이오니’는 이유와 배경을 함께 담아 연결 범위를 열어 둔다.",
+          "objection_ko": "‘목이 곧으니 함께 가 달라’는 논리가 어색하게 들릴 수 있다; NRSV/NJPS 등은 양보로 옮긴다; ‘for’가 앞 요청에만 걸리는 것으로 읽힐 수 있다."
+        },
+        {
+          "reading_ko": "양보 ‘~이지만/although’",
+          "argument_ko": "문맥 논리가 매끄럽다.",
+          "objection_ko": "양보 כִּי는 드물고 논쟁적이다; 33:3, 5와의 의도된 반향(같은 낱말 같은 접속사)을 지운다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.34.9",
+      "question_ko": "וּנְחַלְתָּנוּ",
+      "options": [
+        {
+          "reading_ko": "저희를 주님의 소유로 삼아 주십시오 / take us as your own possession (선택)",
+          "argument_ko": "칼 + 목적 접미사 = 우리를 유업으로 차지함; 현대 독자에게 분명.",
+          "objection_ko": "‘유업/기업(נַחֲלָה)’이라는 상속 땅 은유가 사라지고 ‘your’가 보충된다."
+        },
+        {
+          "reading_ko": "저희를 주님의 기업으로 삼으소서 / take us for your inheritance",
+          "argument_ko": "전통 용어 보존(신 4:20, 9:26, 29 ‘기업의 백성’과 연결).",
+          "objection_ko": "ko ‘기업’은 현대 독자에게 ‘회사’로 오독된다."
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.34.7 וְנַקֵּה לֹא יְנַקֶּה rendered without supplied object as ‘결코 벌을 면해 주지는 않고 / by no means granting impunity / en modo alguno concede impunidad’",
+    "objection_ko": "피엘 נקה는 법정 용어로서 ‘(사람을) 무죄로 하다’이며 대부분의 용례에 사람 목적어가 있다(민 14:18, 나 1:3의 같은 공식에는 목적어가 없지만, 출 20:7에는 ‘자기 이름을 헛되이 드는 자를’, 렘 30:11·46:28에는 ‘너를’이 있다). ‘impunity/벌을 면해 줌’은 행위·죄를 목적어로 상정하여, 사람을 무죄 선언하지 않는다는 법정 그림을 ‘죄를 처벌하지 않은 채 두지 않는다’는 결과 그림으로 바꾼다. 또 출 20:7(‘acquit’)과 영어 낱말이 달라져 두 공식의 연결이 독자에게 보이지 않는다. 가장 강한 대안은 en ‘yet he will by no means acquit’처럼 목적어 없는 동사를 그대로 두는 것이다.",
+    "response_ko": "영어 ‘acquit’는 목적어 없이 쓰면 비문에 가깝고, 목적어 ‘the guilty’를 보충하면 바로 앞 ‘용서’ 대상과 다른 집단을 상정하는 해석이 들어간다. ‘impunity’는 원문처럼 대상(사람/죄)을 열어 두면서 강조 부정을 살린다. 20:7 연결은 각주로 보완한다. 그러나 이 선택은 원문 문법의 보존이 아니라 번역 전략이므로, 편집이 ‘보충어 표시(괄호·이탤릭)’ 방침을 도입하면 ‘acquit [the guilty]’ 계열이 더 정확할 수 있다.",
+    "test_by_clause_ko": "7a(נֹצֵר … לָאֲלָפִים): 영향 없음. 7b(נֹשֵׂא …): ‘용서’와 ‘벌 면제 부정’의 긴장을 그대로 남긴다 — 어느 대안도 이 긴장을 없애지 않는다. 7c(וְנַקֵּה …): 위 쟁점. 7d(פֹּקֵד …): ‘impunity’ 뒤에 ‘bringing the iniquity … upon’이 이어져, 벌 면제 부정의 내용이 세대 추궁임을 보인다 — 선택 번역과 문맥이 맞는다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.34.9 כִּי = ‘for/pues/-이오니’",
+      "objection_ko": "양보로 읽어야 모세의 겸손한 간구가 자연스럽다는 반론. 이유로 읽으면 백성의 완고함이 하나님 동행의 ‘자격’처럼 들린다."
+    },
+    {
+      "target": "Exod.34.6 ko ‘인애’",
+      "objection_ko": "‘인애’는 개역 전통의 익숙한 말이지만 현대 독자에게 막연하다; ‘한결같은 사랑’(새번역 계열)이 더 쉽다. 출 20:6 검토와 함께 결정해야 한다."
+    },
+    {
+      "target": "Exod.34.5 YHWH as subject of וַיִּקְרָא",
+      "objection_ko": "34:6에서 יְהוָה를 다시 명시한 것이 5절 끝 주어가 모세였다는 신호일 수 있다."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Exod.34.5",
+      "ko": "야훼가 구름 가운데 내려오셔서 거기서 그와 함께 서시고, 야훼의 이름을 선포하셨다.",
+      "en": "YHWH came down in the cloud, stood with him there, and proclaimed the name of YHWH.",
+      "es": "YHWH descendió en la nube, se puso allí junto a él y proclamó el nombre de YHWH.",
+      "reason_ko": "명시 주어 야훼가 세 동사에 이어진다. 신적 주어 קרא בשם은 ‘선포하다/proclaim/proclamar’(33:19 검토와 일치). ‘그’는 모세. 3인칭 자기 지칭 ‘야훼의 이름’을 보존.",
+      "counterargument_ko": "‘선포한’ 주어를 모세로 보는 해석(‘모세가 야훼의 이름을 불렀다’).",
+      "current_opinion_ko": "야훼 주어 유지, 대안은 각주.",
+      "reconsider_if_ko": "편집이 5절 끝 주어 전환 해석을 채택하거나 34:6 주어 재명시에 대한 더 강한 담화 근거가 제시되면 en ‘and he called on the name of YHWH’ 계열로 바꾼다."
+    },
+    {
+      "id": "Exod.34.6",
+      "ko": "야훼가 그의 앞으로 지나가시며 선포하셨다. “야훼, 야훼, 긍휼이 많고 은혜로운 하나님, 노하기를 더디 하고 인애와 신실함이 풍성하며,",
+      "en": "YHWH passed by before him and proclaimed, “YHWH, YHWH, a God compassionate and gracious, slow to anger, and abounding in loyal love and faithfulness,",
+      "es": "YHWH pasó delante de él y proclamó: «YHWH, YHWH, Dios compasivo y clemente, lento para la ira y rico en amor leal y fidelidad,",
+      "reason_ko": "segolta 분절에 따라 ‘지나가며 선포했다’를 한 덩어리로 두고 두 이름을 선포 내용 첫머리에 둔다. רחם/חנן = 긍휼/은혜, compassionate/gracious, compasivo/clemente(33:19 검토 대응). חֶסֶד = 인애/loyal love/amor leal(20:6 검토). 발화는 7절 끝까지 이어지므로 여기서 닫지 않는다. עַל־פָּנָיו는 ‘그의 앞으로/before him/delante de él’.",
+      "counterargument_ko": "‘야훼, 야훼는 … 하나님이다’ 서술문 읽기; ‘변함없는 사랑과 진실’ 전통 번역; עַל־פָּנָיו의 문자적 ‘그의 얼굴 위로/앞을 지나’를 33:20-23 얼굴 사슬과 연결해 보존하자는 반론.",
+      "current_opinion_ko": "본문 유지.",
+      "reconsider_if_ko": "편집이 חֶסֶד 통일어를 ‘한결같은 사랑/steadfast love/misericordia’ 등으로 정하면 20:6과 함께 바꾼다. 33장 ‘얼굴’ 사슬 보존 방침이 정해지면 עַל־פָּנָיו 각주를 본문으로 올릴지 다시 본다."
+    },
+    {
+      "id": "Exod.34.7",
+      "ko": "수천 대에 이르기까지 인애를 지키며, 죄악과 반역과 죄를 용서하는 이다. 그러나 결코 벌을 면해 주지는 않고, 아버지들의 죄악을 자녀들과 자녀들의 자녀들에게, 삼대와 사대에게까지 묻는다.”",
+      "en": "maintaining loyal love to thousands of generations, forgiving iniquity, transgression, and sin; yet by no means granting impunity, bringing the iniquity of the fathers upon the children and upon the children’s children, upon the third and upon the fourth generation.”",
+      "es": "que mantiene el amor leal por millares de generaciones, que perdona la iniquidad, la rebelión y el pecado; pero que en modo alguno concede impunidad, y hace recaer la iniquidad de los padres sobre los hijos y sobre los hijos de los hijos, sobre la tercera y sobre la cuarta generación».",
+      "reason_ko": "atnach(וְחַטָּאָה) 분절을 ko 문장 끊기, en/es 세미콜론으로 보인다. 세 죄어를 각각 다른 말로 보존(죄악/반역/죄; iniquity/transgression/sin; iniquidad/rebelión/pecado). 부정사 절대형 강조를 ‘결코/by no means/en modo alguno’로. 목적어를 보충하지 않는다. פקד 공식은 20:5 검토와 같은 말. בְּנֵי בָנִים 반복을 보존. 선포 발화는 여기서 닫힌다.",
+      "counterargument_ko": "가장 강한 반론은 strongest_objection_to_own_reading 참조(‘acquit/죄 없다 하다’ 법정 의미). 또 ‘용서하는 이다. 그러나’로 끊으면 원문의 분사 사슬 연속성이 약해진다.",
+      "current_opinion_ko": "본문 유지. 랍비식 분절과 ‘the guilty’ 보충은 각주.",
+      "reconsider_if_ko": "편집이 보충어 표시 방침을 도입하면 en ‘yet by no means acquitting [the guilty]’, ko ‘결코 [죄 있는 자를] 죄 없다 하지 않고’를 다시 검토한다. 민 14:18, 나 1:3의 같은 공식 번역이 정해지면 그와 맞춘다."
+    },
+    {
+      "id": "Exod.34.8",
+      "ko": "모세가 급히 땅에 머리를 숙이고 엎드려 경배했다.",
+      "en": "Moses hastened to bow his head to the ground and worshiped.",
+      "es": "Moisés se apresuró a inclinar la cabeza hasta el suelo y adoró.",
+      "reason_ko": "וַיְמַהֵר + 와예익톨은 ‘급히 ~하다’. קדד의 고유 의미 ‘머리를 숙이다’에서 ‘머리’를 낱말 뜻으로 풀었다. השתחוה는 목적어 없이 쓰여 예배 행위로 ‘경배하다/worshiped/adoró’.",
+      "counterargument_ko": "출 20:5 검토는 같은 동사를 ‘절하다/bow down’으로 옮겼다; 여기서도 ‘엎드려 절했다/prostrated himself’로 몸동작만 옮기자는 반론.",
+      "current_opinion_ko": "목적어가 없고 신현 앞이므로 ‘경배’를 유지하되 몸동작은 ko ‘엎드려’로 보존.",
+      "reconsider_if_ko": "편집이 השתחוה를 문맥과 무관하게 한 낱말로 통일하기로 하면 ‘bowed down/se postró’로 바꾼다."
+    },
+    {
+      "id": "Exod.34.9",
+      "ko": "그가 말했다. “내 주님, 제가 정말 주님 보시기에 은혜를 입었다면, 부디 내 주님께서 저희 가운데서 함께 가 주십시오. 이 백성은 목이 곧은 백성이오니, 저희의 죄악과 저희의 죄를 용서하시고, 저희를 주님의 소유로 삼아 주십시오.”",
+      "en": "He said, “If now I have found favor in your eyes, my Lord, please let my Lord go in our midst, for it is a stiff-necked people; and pardon our iniquity and our sin, and take us as your own possession.”",
+      "es": "Él dijo: «Si ahora he hallado gracia ante tus ojos, Señor mío, te ruego que mi Señor vaya en medio de nosotros, pues es un pueblo de dura cerviz; y perdona nuestra iniquidad y nuestro pecado, y tómanos como posesión tuya».",
+      "reason_ko": "אֲדֹנָי 두 번을 모두 보존(‘내 주님’, Gen.18.3 검토 관례). 3인칭 지시형 ‘내 주님께서 … 가 주십시오/let my Lord go/que mi Señor vaya’. כִּי는 이유로 두되 ko ‘-이오니’로 앞뒤 요청 모두에 걸리게 했다. ‘그것(백성)’에서 ‘저희’로 바뀌는 인칭 전환 보존. נחל 칼 ‘소유로 삼다’.",
+      "counterargument_ko": "양보 ‘비록 … 이지만’; ‘기업/inheritance/heredad’ 전통 용어; en ‘favor’ 대신 ‘grace’로 하여 6절 ‘gracious’(חַנּוּן)와 어근 연결(חֵן/חַנּוּן)을 보이자는 반론.",
+      "current_opinion_ko": "본문 유지. 어근 연결은 각주로.",
+      "reconsider_if_ko": "편집이 33-34장 모세 발화 호칭을 ‘당신’으로 통일하면 ko ‘당신 보시기에’로 바꾼다. 양보 כִּי의 더 확실한 문법 근거가 제시되면 ‘though/aunque/비록’을 다시 본다."
+    }
+  ],
+  "speech_boundaries_ko": "34:6 ‘야훼, 야훼’에서 7절 끝 ‘사대에게까지 묻는다’까지 하나의 신적 선포. 34:9는 모세의 독립 발화로 9절 안에서 닫힌다. 34:10에서 야훼 발화가 새로 시작된다(이 단위 밖).",
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.34.5",
+      "note_ko": "‘야훼의 이름을 선포하다’는 창 4:26 ‘야훼의 이름을 부르다’와 같은 히브리어 관용구다. 여기서는 33:19 약속대로 야훼가 주어로 읽히지만, ‘모세가 야훼의 이름을 불렀다’로 읽는 해석도 있다."
+    },
+    {
+      "id": "Exod.34.6",
+      "note_ko": "‘그의 앞으로’(עַל־פָּנָיו)는 직역하면 ‘그의 얼굴 위로/앞으로’이며 33:20-23 ‘얼굴’과 ‘등’ 대화에 이어진다. 마소라 강세는 ‘야훼가 지나가며 선포했다’ 뒤에서 끊어 두 번의 ‘야훼’를 선포의 첫머리로 둔다."
+    },
+    {
+      "id": "Exod.34.6",
+      "note_ko": "‘인애’(חֶסֶד)는 관계에 대한 충성스러운 사랑, ‘신실함’(אֱמֶת)은 믿을 만함을 뜻한다. 이 선언은 민 14:18, 시 86:15, 103:8, 145:8, 욜 2:13, 욘 4:2, 느 9:17 등에서 다시 인용된다."
+    },
+    {
+      "id": "Exod.34.7",
+      "note_ko": "‘수천 대’는 히브리어로 ‘수천’이다. 뒤의 ‘삼대·사대’(히브리어 ‘셋째들·넷째들’)와 대조되므로 세대로 옮겼다(신 7:9 ‘천 대까지’ 참조)."
+    },
+    {
+      "id": "Exod.34.7",
+      "note_ko": "‘결코 벌을 면해 주지는 않는다’는 직역하면 ‘죄 없다 함에 있어서 죄 없다 하지 않는다’이며 목적어가 없다. 흔히 ‘죄 있는 자를’을 보충한다. 같은 동사가 출 20:7에서는 ‘죄 없다 하다’로 옮겨진다. 유대 전통의 일부 해석은 이 구를 둘로 나누어 읽지만, 마소라 강세는 세 낱말을 한 단위로 묶는다."
+    },
+    {
+      "id": "Exod.34.7",
+      "note_ko": "출 20:5와 달리 여기에는 ‘나를 미워하는 자들의’가 없다. 세대에 걸친 죄악 추궁과 신 24:16, 겔 18:20의 개인 책임 원칙 사이의 관계는 해석의 문제로 남긴다."
+    },
+    {
+      "id": "Exod.34.9",
+      "note_ko": "‘목이 곧은 백성이오니’는 32:9, 33:3, 33:5에서 야훼가 함께 가지 않을 이유로 쓰인 말을 모세가 같은 접속사(כִּי)로 받아 간구의 근거로 삼은 것이다. ‘비록 목이 곧은 백성이지만’으로 옮기는 역본도 있다."
+    },
+    {
+      "id": "Exod.34.9",
+      "note_ko": "‘은혜를 입다’의 ‘은혜’(חֵן)는 6절 ‘은혜로운’(חַנּוּן)과 같은 어근이다. ‘소유로 삼다’(נחל)는 ‘기업/유업으로 차지하다’를 뜻한다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "scope": "Exod.33.12-23 (Claude review) vs Exod.34.9",
+      "finding_ko": "33장 검토는 모세가 하나님께 ‘당신’을 썼고, 이 검토는 אֲדֹנָי 호격이 있는 34:9에서 Gen.18.3 관례 ‘주님’을 썼다. 같은 장면 안 호칭 통일 결정이 필요하다."
+    },
+    {
+      "scope": "חֶסֶד: Exod.20.6, 34.6, 34.7 (+ Num.14.18, Deut.5.10, 7.9)",
+      "finding_ko": "두 검토(20장, 이 검토)가 ‘인애/loyal love/amor leal’로 일치한다. 선정본에는 아직 관례가 없으므로 채택 시 한 번에 결정해야 한다."
+    },
+    {
+      "scope": "נקה Piel: Exod.20.7 vs Exod.34.7",
+      "finding_ko": "목적어 유무 때문에 20:7 ‘acquit/죄 없다 하다’, 34:7 ‘granting impunity/벌을 면해 주다’로 갈렸다. 보충어 표시 방침이 정해지면 하나로 맞출 수 있다."
+    },
+    {
+      "scope": "divine name",
+      "finding_ko": "프로젝트 최근 관례(ko ‘야훼’, en/es ‘YHWH’)를 따랐다. Gen.2.4(en Yahweh, es Yahvé), Num.6.24-26(ko ‘YHWH께서’)과는 아직 통일되지 않았다."
+    },
+    {
+      "scope": "השתחוה: Exod.20.5 vs Exod.34.8",
+      "finding_ko": "20:5 ‘절하다/bow down’, 34:8 ‘경배하다/worshiped’. 목적어 유무와 문맥에 따른 구분이지만 편집이 통일 여부를 정해야 한다."
+    }
+  ],
+  "reception_evidence": [
+    {
+      "item_ko": "유대 전례의 ‘열세 속성’(שלוש עשרה מידות) 낭송과 וְנַקֵּה에서 멈추는 관습",
+      "status": "general knowledge, not verified in this session; no source accessed"
+    },
+    {
+      "item_ko": "바빌론 탈무드 요마 86a로 알려진 분절 해석",
+      "status": "general knowledge, not verified in this session; no source accessed"
+    },
+    {
+      "item_ko": "구약 내부 재인용(민 14:18, 시 86:15, 103:8, 145:8, 욜 2:13, 욘 4:2, 나 1:3, 느 9:17)",
+      "status": "cross-references from general knowledge; their Hebrew wording was not checked against the pinned source in this session"
+    }
+  ],
+  "final_opinion_ko": "34:5-9는 이름 계시의 성취(33:19)와 시내산 언약 갱신의 근거다. 원문 핵심 난점은 (1) 5절 ‘선포’ 주어, (2) 6절 두 ‘야훼’의 구문, (3) 7절 ‘용서’와 ‘결코 벌을 면제하지 않음’의 긴장 및 목적어 없는 נקה, (4) 세대 책임, (5) 9절 כִּי의 기능이다. 마소라 강세(segolta, atnach, pashta-munach-zaqef 묶음)가 (2), (3)에서 일관된 근거를 주며, 이 검토는 그 분절을 번역에 반영했다. 긴장 (3)-(4)는 번역으로 해소하지 않고 그대로 둔다. 원문 이문 문제로 볼 근거는 이 패킷에 없다; 34:6 절 끝 sof pasuq 부재는 인코딩 관찰로만 남긴다.",
+  "confidence_limits": [
+    "Pinned WLC/OSHB encoding only; no Leningrad Codex facsimile, BHS/BHQ apparatus, LXX, Samaritan Pentateuch or Qumran witnesses were consulted for this unit. No variant is asserted or denied.",
+    "Accent names were identified from Unicode character names in the packet; accent hierarchy reasoning is the model's analysis, not a cited authority.",
+    "Reception and cross-reference claims (Yoma 86a, liturgical thirteen attributes, large nun in printed editions, Hebrew Bible re-citations) are from general model knowledge and unverified in this session.",
+    "Comparison is limited to actual saved Claude cloud review records and current selected text; no GPT, Gemini, Antigravity or human specialist record exists for this unit."
+  ],
+  "reconsider_if": [
+    "A facsimile or apparatus check explains the Exod.34.6 note c and missing sof pasuq in the pinned encoding.",
+    "Editorial policy adopts bracketed/italic supplied words (then reconsider ‘acquit [the guilty]’ in 34:7).",
+    "Editorial policy fixes a single חֶסֶד rendering across Exod.20.6, 34.6-7, Num.14.18, Deut.5.10, 7.9.",
+    "Editorial policy unifies Moses' address to God in Exod.33-34 (‘당신’ vs ‘주님’).",
+    "Independent GPT/Gemini review argues convincingly for concessive כִּי in 34:9 or a Moses subject in 34:5."
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.34.6",
+      "issue_ko": "고정 원천의 절 끝 sof pasuq 부재 및 note c(어떤 강세가 BHS와 다른지 미상). 사본 확인 필요."
+    },
+    {
+      "id": "Exod.34.7",
+      "issue_ko": "נֹצֵר 큰 נ 전승 보고 여부 및 원천 인코딩 방식 미확인."
+    },
+    {
+      "id": "Exod.34.5",
+      "issue_ko": "וַיִּקְרָא 주어(야훼/모세) — 문법상 야훼가 우세하나 확정 근거 없음."
+    },
+    {
+      "id": "Exod.34.7",
+      "issue_ko": "נקה 피엘 목적어 없음의 번역 전략(‘impunity’ 대 ‘acquit [the guilty]’)은 편집 방침 의존."
+    },
+    {
+      "id": "Exod.34.9",
+      "issue_ko": "כִּי 이유/양보; אֲדֹנָי 가 소페림 전승 목록과 관련되는지 미확인."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, facsimile inspection or critical apparatus verification.",
+    "No GPT, Gemini, Antigravity or human specialist response exists or is implied.",
+    "No unanimous agreement or adoption; this is an unadopted model review.",
+    "No credit balance, cost or deduction is known or asserted.",
+    "Current selected translations, releases, dist/ and main were not modified."
+  ],
+  "memo_ko": "automation/cloud-reviews/20261031T122714Z-58cd630e.ko.md",
+  "branch": "claude/bible-hard-review-p8yd90",
+  "checks": {
+    "script": "session-local validation script (not committed); results below",
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "rights_match_packet": true,
+    "accented_hebrew_quotes_match_source_codepoints": true,
+    "other_hebrew_forms_classified": "roots, lexical forms, slash-joined pairs, out-of-unit citations",
+    "changed_paths_only_own_run_files": true,
+    "no_changes_to_data_dist_releases_main": true,
+    "clauses_covered": "each preferred wording checked by hand against every clause of its verse: 5 (3 clauses), 6 (passing, proclaiming, name pair, 4 attributes), 7 (2 participial clauses, emphatic negation, visiting clause with 4 generation phrases), 8 (3 verbs), 9 (condition, jussive request, ki clause, 2 weqatal requests)",
+    "attribution": "only actual saved Claude records compared; no GPT/Gemini/human record exists for this unit"
+  }
+}
