@@ -1,0 +1,748 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T203858Z-7a32c5d7",
+  "unit_id": "num-6-22-27",
+  "verse_ids": [
+    "Num.6.22",
+    "Num.6.23",
+    "Num.6.24",
+    "Num.6.25",
+    "Num.6.26",
+    "Num.6.27"
+  ],
+  "unit_issue_ko": "축복·얼굴빛·은혜·평화·이름을 둠",
+  "classification": "upcoming_difficult_review",
+  "partially_published_unit_note": "Num.6.24-26 already have current_best_provisional selected text (v0.4.17). Num.6.22, 6.23 and 6.27 have no selected text. This review does not modify any selected text.",
+  "traditional_numbering_note": "Source OSIS IDs Num.6.22-27 are used. No divergence between this MT/OSIS numbering and common Korean/English/Spanish chapter-verse numbering is known to this review. A reported Greek ordering difference (see textual_variant) concerns verse order, not numbering, and was not verified.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet; this record does not re-serialize them. Prose fields cite Hebrew in consonantal form without vowels or cantillation; source_words_cited quotes the exact pointed token text from the pinned file.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T20:40Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, session_context.effort_level=high, external_metadata.last_served_model=claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVHegRA2PHFK1eFyXyj",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Session metadata only; no balance, dollar amount or per-run deduction was exposed or is asserted.",
+    "not_exposed": [
+      "exact served model snapshot beyond the label claude-opus-5-5",
+      "token counts for this run",
+      "cost or credit deducted by this run",
+      "remaining promotional balance",
+      "whether every individual turn was served by the same model (last_served_model reports only the latest turn)"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T20:38:58.076750+00:00",
+    "claim_pushed": "2026-10-31T20:39:07Z (commit 9b0a9880ff7b12e80b0b9bef75f3a10ca906008f on claude/original-bible-hard-review-us6xv1)",
+    "independent_reading_formed": "2026-10-31T20:39Z to 20:40Z (approximate; before opening data/model-reviews or data/decisions.json)",
+    "earlier_records_opened": "2026-10-31T20:40Z (approximate)",
+    "network_checks": "2026-10-31T20:41:01Z to 20:41:20Z",
+    "identity_checked": "2026-10-31T20:40Z (approximate)",
+    "review_written": "2026-10-31T20:43Z to 20:50Z (approximate)"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile, critical apparatus, LXX edition, Samaritan Pentateuch edition, Targum, Qumran edition or inscription edition was consulted.",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+    "fragment_sha256": {
+      "Num.6.22": "306d20160caff325c769a63d117b4b4b2581ce46222cfbd1678074ef5baeb05d",
+      "Num.6.23": "29896e7161c94d99c308b7768eafba646ccc46b0f9e67e1673bfa9ededbc638e",
+      "Num.6.24": "a48aed20f37db63806bf5c4328d5fea78ee8c16373a54587f50c5e8991d6dbce",
+      "Num.6.25": "658c689b1831473627fd20143672c71530253113aacb0decb76e5a124216fb6a",
+      "Num.6.26": "b4b2f3f14c6f9d98c9d0831c01454ebae2f3c90d1d5a3f264481edcf7c4c6b04",
+      "Num.6.27": "d5c00ea405841a914ff1d04ab94ec16d64da01facaf0eb7cbc457af7978c0628"
+    },
+    "packet": "automation/hard-review-packets/20261031T203858Z-7a32c5d7.json",
+    "packet_sha256": "95c15cdf12e323537f0d01d9658a902df69f647d493977c206e8d380ab8e6113",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "context_files_same_pinned_commit": {
+      "Lev.xml": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "Deut.xml": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "Ps.xml": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2"
+    },
+    "context_verses_read_from_pinned_files": [
+      "Lev.9.22",
+      "Lev.9.23",
+      "Lev.19.15",
+      "Deut.10.8",
+      "Deut.10.17",
+      "Deut.12.5",
+      "Deut.12.21",
+      "Deut.21.5",
+      "Deut.28.10",
+      "Deut.28.50",
+      "Ps.4.7",
+      "Ps.31.17",
+      "Ps.67.2",
+      "Ps.80.4",
+      "Ps.119.135"
+    ]
+  },
+  "source_encoding_observations": [
+    {
+      "id": "Num.6.23-27",
+      "observation_ko": "원문 파일은 6:23, 6:24, 6:25, 6:26 끝에 각각 x-samekh(세투마) 표지를, 6:27 끝에 x-pe(페투하) 표지를 둔다. 즉 축복의 세 줄이 마소라 단락 구분으로 각각 분리되어 있다. 번역 화면에서 줄바꿈으로 반영할지는 편집 결정이며, 원문 표지는 패킷에 그대로 보존되어 있다."
+    },
+    {
+      "id": "Num.6.25, Num.6.26",
+      "observation_ko": "두 절 모두 신명 바로 뒤에 x-paseq(파세크, 세로선) 표지가 있다. 6:24에는 없다. 번역 의미에는 영향을 주지 않는 낭독/억양 표지로 보고 본문에 반영하지 않는다. 평탄화하지 않고 패킷 원문에 보존."
+    },
+    {
+      "id": "Num.6.25",
+      "observation_ko": "마지막 낱말(OSHB id 04UYM)은 접미사 카프에 다게쉬가 찍힌 형태로 표기된다. OSHB는 lemma 2603 a, morph HC/Vqj3ms/Sp2ms(칼 단축형 + 2인칭 남성 단수 접미사)로 분석한다. 이 점 표기의 형태론적 설명(에너직 눈 동화 여부 등)은 이 검토에서 문법서로 확인하지 않았으며 번역에는 영향이 없다."
+    },
+    {
+      "id": "Num.6.22-27",
+      "observation_ko": "대상 절에 Qere/Ketiv 표지나 중첩 note 마크업은 없다. (문맥 절 Lev.9.22에는 Ketiv/Qere 쌍이 있으나 대상 밖이다.)"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+      "accessed_utc": "2026-10-31T20:41:18Z",
+      "result": "200; 1085066 bytes; SHA-256 e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-31T20:41:19Z",
+      "result": "200; 1315399 bytes; SHA-256 04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+      "accessed_utc": "2026-10-31T20:41:20Z",
+      "result": "200; 1925086 bytes; SHA-256 fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ketef_Hinnom",
+      "accessed_utc": "2026-10-31T20:41:01Z",
+      "result": "blocked by session egress proxy (CONNECT 403). No content obtained; nothing about the inscriptions is asserted as verified."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Priestly_Blessing",
+      "accessed_utc": "2026-10-31T20:41:01Z",
+      "result": "blocked by session egress proxy (CONNECT 403). No content obtained."
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/05.NumbersA.mlxx",
+      "accessed_utc": "2026-10-31T20:41:08Z",
+      "result": "no connection (proxy refused / unreachable). No LXX text obtained; LXX claims below remain unverified."
+    },
+    {
+      "url": "https://api.github.com/repos/eliranwong/LXX-Rahlfs-1935/contents",
+      "accessed_utc": "2026-10-31T20:41:08Z",
+      "result": "HTTP 403. No LXX text obtained."
+    }
+  ],
+  "independent_initial_reading": {
+    "exposure_note": "Formed from the source packet before opening data/model-reviews, data/decisions.json or the editorial notes. The packet itself (by design of tools/claude_hard_review.py) includes the current selected wording of Num.6.24-26, which was therefore visible; this is not a blinded reading of those three verses.",
+    "lexical": [
+      "6:22 lemma 1696 Piel wayyiqtol + l/559 infinitive: standard speech introduction 'YHWH spoke to Moses, saying'.",
+      "6:23 lemma 3541 adverb (kh) 'thus/in this way' points forward to the wording of 6:24-26.",
+      "6:23 lemma 1288 Piel imperfect 2mp (morph HVpi2mp) addressed to Aaron and his sons: an instruction 'you shall bless'.",
+      "6:23 lemma 559 infinitive absolute (morph HVqa) followed by l + 3mp suffix: 'saying to them' / 'say to them'; the infinitive absolute here functions as a directive or adverbial complement.",
+      "6:24 lemma 1288 Piel (bless) and 8104 Qal (keep/guard), both with 2ms suffix.",
+      "6:25 lemma 215 Hiphil 'cause to shine'; object 6440 'his face'; preposition 413 'to/toward' with 2ms suffix; lemma 2603 a Qal 'be gracious to'.",
+      "6:26 lemma 5375 Qal 'lift up' with object 'his face' and 413 'toward you'; lemma 7760 a Qal 'set/place' + l + 2ms + 7965 'peace/well-being'.",
+      "6:27 lemma 7760 a Qal weqatal 3cp 'and they shall put'; object 8034 'my name'; preposition 5921 a 'on/upon'; then 589 independent pronoun 'I' + 1288 Piel imperfect 1cs with 3mp suffix 'I will bless them'.",
+      "shlwm (7965) covers peace, safety, wholeness and well-being; a single target word cannot carry the whole range."
+    ],
+    "syntactic": [
+      "Mood of 6:24-26: four of the six verbs are formally ambiguous between imperfect and jussive, but two are distinctively short forms: 6:25 first verb (consonantal yod-aleph-resh without the second yod of the long Hiphil imperfect) and 6:26 second verb (consonantal yod-shin-mem without the yod of the long Qal imperfect of 7760). OSHB tags all six as jussive (j). The short forms make the jussive (wish/blessing) reading of the whole series the best-supported reading internal to the MT.",
+      "The blessing addresses a singular 'you' (2ms throughout 6:24-26) while the frame refers to Israel in the plural (6:23 'them', 6:27 'them'). The singular should be preserved; it addresses Israel as one addressee or each member individually.",
+      "6:27 opens with a weqatal (continuing the instruction of 6:23) and then breaks the chain with waw + independent pronoun + yiqtol. The fronted pronoun most naturally marks contrast: the priests put the name, but YHWH himself does the blessing.",
+      "The 3mp suffix of the last verb of 6:27 is grammatically ambiguous: nearest plural antecedent is the Israelites (bny ysrl), but the subject of the preceding verb is the priests (Aaron and his sons, implied 3cp). Context (6:23 'you shall bless the Israelites') favors Israel."
+    ],
+    "discourse": [
+      "6:22-23 frame (YHWH to Moses, Moses to the priests), 6:24-26 the three-line blessing, 6:27 a divine comment on what the blessing does. The Masoretic setumah markers after 6:23, 6:24, 6:25 and 6:26 and petucha after 6:27 isolate each line.",
+      "The three lines grow in length (3, 5, 7 words in the pinned text) and each names YHWH as subject; each second half specifies the effect (keep, be gracious, give peace). This structure should not be flattened into one sentence."
+    ],
+    "textual_variant": [
+      "No variant is encoded in the pinned WLC/OSHB fragments for 6:22-27.",
+      "Reported but NOT verified in this session (sources blocked): some Greek witnesses are reported to place 6:27 directly after 6:23, and the Greek of 6:27 is reported to differ in wording. This review cannot confirm either report and does not use it.",
+      "Reported but NOT verified: late Iron Age silver amulets from Ketef Hinnom (Jerusalem) are reported to contain wording close to 6:24-26 in shortened form. These are inscriptions, not manuscripts of Numbers; the editorial note already states they are not used to delete or reconstruct MT words. Nothing about their exact text is asserted here."
+    ],
+    "historical_and_reception": [
+      "Priestly blessing of the people is narrated in Lev.9.22-23 (Aaron lifts his hands toward the people and blesses them) and prescribed in Deut.10.8 and Deut.21.5 ('to bless in the name of YHWH'); these were read from pinned files and support the cultic setting.",
+      "The 'name' idiom in Deut.28.10 (the name of YHWH called over you) and Deut.12.5/12.21 (to put his name there) was read in pinned files; 6:27 'put my name upon the Israelites' belongs to this name-theology field and need not be read as a physical inscription, though later amulet use is a reported reception.",
+      "Later Jewish liturgical use (the priestly blessing in synagogue) and Christian liturgical use as a closing benediction (including in Reformed and Presbyterian worship) are well-known reception facts; no specific source was consulted in this session, and reception does not decide the translation."
+    ]
+  },
+  "initial_proposals": [
+    {
+      "id": "Num.6.22",
+      "ko": "YHWH께서 모세에게 말씀하셨다.",
+      "en": "YHWH spoke to Moses, saying,",
+      "es": "YHWH habló a Moisés, diciendo:"
+    },
+    {
+      "id": "Num.6.23",
+      "ko": "아론과 그의 아들들에게 말하여라. 너희는 이스라엘 자손을 이렇게 축복하며 그들에게 말하여라.",
+      "en": "Speak to Aaron and his sons, saying: This is how you shall bless the Israelites. Say to them:",
+      "es": "Habla a Aarón y a sus hijos y diles: Así bendecirán a los hijos de Israel; díganles:"
+    },
+    {
+      "id": "Num.6.24",
+      "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+      "en": "May YHWH bless you and keep you.",
+      "es": "Que YHWH te bendiga y te guarde."
+    },
+    {
+      "id": "Num.6.25",
+      "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+      "en": "May YHWH make his face shine toward you and be gracious to you.",
+      "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+    },
+    {
+      "id": "Num.6.26",
+      "ko": "YHWH께서 그분의 얼굴을 들어 너를 향하시고 네게 평안을 주시기를.",
+      "en": "May YHWH lift up his face toward you and give you peace.",
+      "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+    },
+    {
+      "id": "Num.6.27",
+      "ko": "그들은 내 이름을 이스라엘 자손 위에 둘 것이요, 나는 그들에게 복을 주겠다.",
+      "en": "So they shall put my name on the Israelites, and I myself will bless them.",
+      "es": "Así pondrán mi nombre sobre los hijos de Israel, y yo los bendeciré."
+    }
+  ],
+  "initial_proposals_note": "Initial proposals for 6:24-26 were formed with the packet's selected wording visible (see exposure_note); they coincide with it except 6:24 en 'keep' and 6:26 ko/en wording. Changes from initial proposals are listed in changes_from_initial_proposal_ko.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json passage numbers-6-24-26 and data/decisions.json on main c9ae49add5002667020417bd492d3d046e468aa4",
+      "finding": "Selected (v0.4.17, current_best_provisional) for Num.6.24-26 only, selected_from gpt-6.1-sol, considered_models gpt-6.1-sol and gemini-3.8-flash-medium, date 2026-10-23, 'no personal human approval claimed'. Notes: wish mood; singular 'you' kept; face images kept; YHWH = four consonants, not a recovered pronunciation; Ketef Hinnom comparison pending separate evidence review and not used to delete/reconstruct. No selected text for 6:22, 6:23, 6:27."
+    },
+    {
+      "record": "data/model-reviews/v0.2.0/gpt.round1.json and gpt.round2.json (model label gpt-6.1-sol)",
+      "finding": "Round 1 wording is identical to the current selection for 6:24-26. Round 2 'selected_current_best' after Gemini cross-review; counterargument records 'declarative function of blessing can be explained but not turned into simple future prophecy' (6:24), 'favorable gaze paraphrase kept outside the text' (6:25), 'set peace is a more formal option; shalom not exhausted by one sense' (6:26)."
+    },
+    {
+      "record": "data/model-reviews/v0.2.0/gemini.round1.json and gemini.round2.json (model label gemini-3.8-flash-medium)",
+      "finding": "Round 1 used 'the LORD'/'Yahveh', ko 'yahwe' and 2nd person 'geudae', en 'protect you', 'lift up His countenance', es 'ponga en ti paz'. Round 2 verdict 'agree' for all three selected verses and withdrew its own es 'tenga de ti gracia' and 'en ti' wording. Gemini round 1 explicitly names the jussive reading of both 6:24 verbs and the alternative declarative-future reading (6:24) and the risk that 'lift face' may be misheard as haughtiness (6:26)."
+    },
+    {
+      "record": "data/model-reviews/v0.2.0/claude.round1.json (model label claude-opus-4-6-thinking)",
+      "finding": "Contains no Numbers 6 entry (searched by id); nothing to compare."
+    },
+    {
+      "record": "Other claude/ branches (fetched 2026-10-31T20:38Z)",
+      "finding": "No hard-review claim or cloud draft for Num.6.22-27 exists on any fetched claude/ branch; files mentioning these IDs there are cross-references inside other units' dossiers and the unit queue. No existing cloud draft to compare."
+    }
+  ],
+  "comparison_findings_ko": [
+    "6:24-26 현재 채택안은 이 검토의 독립 판독과 핵심 판단(기원법, 단수 '너', 얼굴 이미지 직역, 평안의 수혜자 '네게')에서 일치한다. 채택안 기원법의 가장 강한 문법 근거(6:25 첫 동사와 6:26 둘째 동사가 형태상 단축형이라는 점)는 기존 GPT/Gemini 기록에 명시되어 있지 않아 이 검토가 근거로 보충한다(Gemini 1라운드는 'יאר 히필 단축형'을 언급했으나 단축형이 장형과 구별된다는 논증은 하지 않음).",
+    "6:26 ko '얼굴을 네게로 드시고'의 '드시다'는 '들다'의 높임말로 문법상 맞지만 '먹다/마시다'의 높임말 '드시다'와 동음이라 낭독 시 걸림돌이 될 수 있다. 의미 변경이 아닌 가독성 문제이며 선택적 수정으로 제안한다.",
+    "Gemini 1라운드가 지적한 '얼굴을 들다'의 고압적 태도 오해 위험은 한국어에서 실제로 작다고 본다. 오히려 고정 파일 용례(Lev.19.15, Deut.10.17, Deut.28.50)에서 '얼굴을 들다'는 다른 사람의 얼굴을 들어 주는 '편들다/돌아보다' 관용구이고, 6:26은 주어가 '자기 얼굴'을 상대에게 드는 형태라 구별된다. 번역은 직역 이미지를 유지하고 각주로 구별하는 것이 낫다.",
+    "6:22, 6:23, 6:27은 채택안이 없어 비교할 기존 모델 기록이 없다. 이 검토의 제안은 다른 모델의 교차 검토를 아직 받지 않았다.",
+    "GPT 기록의 reconsider_if_ko 문구는 세 절 모두 동일한 일반 문구로, 절별 재검토 조건이 구체적이지 않다. 아래 reconsider_if에 구체 조건을 보충한다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "6:22 en 'saying,'을 'saying:'으로 통일(다음 절 직접 화법 도입).",
+    "6:23 en 'Speak to Aaron and his sons'를 원문의 반복 전치사(אל ... ואל)를 살려 'to Aaron and to his sons'로.",
+    "6:24 en 'keep you'를 현재 채택안 'guard you'로 되돌림: 의미 차이가 작고, 채택안을 바꿀 충분한 근거가 없다. 'keep'은 대안으로 기록.",
+    "6:27 en 'So they shall put'의 'So'는 원문 접속사 waw를 결과 의미로 해석한 첨가라 'And they shall put'으로 바꿈. es 'Así pondrán'의 'Así'도 같은 이유로 'Y pondrán'으로 바꿈. 단 ko는 접속 표현 없이 '그들은 ... 둘 것이요'로 둠."
+  ],
+  "alternatives": [
+    {
+      "id": "Num.6.23",
+      "question_ko": "부정사 절대형 אמור + להם의 처리: '그들에게 말하여라'(명령) 대 '그들에게 말하면서'(부사적).",
+      "options": [
+        {
+          "option": "imperative-like: 'Say to them:' / 'díganles:' / '그들에게 말하여라'",
+          "argument_ko": "부정사 절대형이 지시 문맥에서 명령을 대신하는 용법과 맞고, 이어지는 6:24-26 인용을 자연스럽게 연다.",
+          "objection_ko": "원문은 2인칭 명령형이 아니어서 의무감을 약간 강화한다."
+        },
+        {
+          "option": "adverbial: 'saying to them:' / 'diciéndoles:' / '그들에게 말하기를'",
+          "argument_ko": "형태에 더 가깝다.",
+          "objection_ko": "앞의 'לאמר'(saying)와 영어/스페인어에서 같은 낱말이 겹쳐 문장이 늘어진다."
+        }
+      ],
+      "preferred": "imperative-like"
+    },
+    {
+      "id": "Num.6.24",
+      "question_ko": "6:24-26 동사의 서법: 기원(…하시기를) 대 선포 미래(…하실 것이다).",
+      "options": [
+        {
+          "option": "jussive/wish",
+          "argument_ko": "6:25 첫 동사와 6:26 둘째 동사가 장형 미완료와 구별되는 단축형이며, 같은 연쇄의 나머지 동사도 같은 서법으로 읽는 것이 자연스럽다. OSHB도 여섯 동사 모두 단축형(j)으로 분석.",
+          "objection_ko": "6:27 '내가 그들에게 복을 주겠다'는 약속이 축복의 효력을 보장하므로, 축복문을 선포로 옮겨도 문맥과 충돌하지 않는다."
+        },
+        {
+          "option": "declarative future",
+          "argument_ko": "축복의 수행적 효력을 강조.",
+          "objection_ko": "형태상 단축형 두 개를 설명하지 못한다. 6:27의 약속은 기원문의 응답으로 읽을 수 있다."
+        }
+      ],
+      "preferred": "jussive/wish"
+    },
+    {
+      "id": "Num.6.24",
+      "question_ko": "שמר: 'guard' 대 'keep' / 'protect'.",
+      "options": [
+        {
+          "option": "guard / guarde / 지키시기를",
+          "argument_ko": "현재 채택안. 보호의 의미가 분명.",
+          "objection_ko": "영어 전통 축복문의 'keep'과 다르다."
+        },
+        {
+          "option": "keep",
+          "argument_ko": "보호와 보존(돌봄)을 모두 포괄하는 넓은 영어 낱말.",
+          "objection_ko": "현대 영어에서 '보관하다/붙잡아 두다'로 오해될 여지가 있다."
+        }
+      ],
+      "preferred": "guard (keep current selection)"
+    },
+    {
+      "id": "Num.6.25",
+      "question_ko": "פניו אליך: 'toward you' 대 'upon you'.",
+      "options": [
+        {
+          "option": "toward you / hacia ti / 네게",
+          "argument_ko": "전치사 אל(향하여)의 직역. 같은 관용구가 고정 파일 Ps.31.17에서는 על(위에), Ps.67.2에서는 את(함께), Ps.119.135에서는 ב로 나오므로 6:25의 אל은 방향을 나타내는 선택으로 볼 수 있다.",
+          "objection_ko": "영어 'shine toward'는 'shine upon'보다 덜 관용적이다."
+        },
+        {
+          "option": "upon you / sobre ti",
+          "argument_ko": "영어·스페인어 전통 표현으로 자연스럽다.",
+          "objection_ko": "다른 시편 용례의 על과 구별이 사라진다."
+        }
+      ],
+      "preferred": "toward you (keep current selection)"
+    },
+    {
+      "id": "Num.6.26",
+      "question_ko": "ישא פניו אליך의 ko 표현: '얼굴을 네게로 드시고'(현재) 대 '얼굴을 들어 너를 향하시고'(제안) 대 의역 '자애롭게 바라보시고'.",
+      "options": [
+        {
+          "option": "현재 채택안 '그분의 얼굴을 네게로 드시고'",
+          "argument_ko": "간결하고 원문 순서(얼굴-너에게)를 따른다.",
+          "objection_ko": "'드시다'가 '먹다'의 높임말과 동음이라 낭독 시 오해 소지가 있다."
+        },
+        {
+          "option": "제안 '그분의 얼굴을 들어 너를 향하시고'",
+          "argument_ko": "'들다'의 뜻이 분명하고 אליך의 방향성을 '향하다'로 살린다.",
+          "objection_ko": "동사가 둘(들다+향하다)로 늘어나 6:25와의 형태 대응이 약간 느슨해진다."
+        },
+        {
+          "option": "의역 '자애로운 얼굴로 너를 바라보시고'",
+          "argument_ko": "관용구의 뜻(호의적 관심)을 직접 전달.",
+          "objection_ko": "얼굴을 드는 이미지를 지우고 해석을 본문에 넣는다. 현재 편집 원칙(이미지 유지)에 어긋난다."
+        }
+      ],
+      "preferred": "제안 (optional; 현재 채택안도 허용 가능)"
+    },
+    {
+      "id": "Num.6.26",
+      "question_ko": "וישם לך שלום: '평안' 대 '평화' 대 '샬롬', '주다' 대 '두다'.",
+      "options": [
+        {
+          "option": "평안을 주시기를 / give you peace / te dé paz",
+          "argument_ko": "현재 채택안. 개인 수혜자(단수 너)에게 내적·외적 안녕을 포괄하는 '평안'이 맞다.",
+          "objection_ko": "שים의 '두다/세우다' 뉘앙스가 약해진다."
+        },
+        {
+          "option": "평화를 두시기를 / set peace for you",
+          "argument_ko": "형태적 직역.",
+          "objection_ko": "한국어 '평화를 두다'는 부자연스럽고 '평화'는 국가·집단 간 관계에 기운다."
+        }
+      ],
+      "preferred": "평안을 주시기를 (keep current selection)"
+    },
+    {
+      "id": "Num.6.27",
+      "question_ko": "6:27의 관계: 결과/목적('그러면 내가 복을 주리라') 대 병렬+대조('그들은 …두고, 나는 …주겠다') 대 조건('…두면 …주겠다').",
+      "options": [
+        {
+          "option": "병렬+대조",
+          "argument_ko": "weqatal 연쇄를 끊는 '와우+독립대명사+미완료' 구조에 가장 가깝고, 축복의 주체가 YHWH임을 드러낸다.",
+          "objection_ko": "두 행위의 인과 관계를 명시하지 않는다."
+        },
+        {
+          "option": "조건/결과",
+          "argument_ko": "한국어로 매끄럽고 두 행위의 연결을 분명히 한다.",
+          "objection_ko": "원문에 조건 표지가 없어 해석을 첨가한다."
+        }
+      ],
+      "preferred": "병렬+대조"
+    },
+    {
+      "id": "Num.6.27",
+      "question_ko": "אברכם의 '그들'은 누구인가: 이스라엘 자손 대 제사장.",
+      "options": [
+        {
+          "option": "이스라엘 자손(다수 해석)",
+          "argument_ko": "가장 가까운 복수 명사이며 6:23 '너희는 이스라엘 자손을 축복하라'와 맞물린다.",
+          "objection_ko": "직전 동사의 주어는 제사장이다."
+        },
+        {
+          "option": "제사장(소수 해석, 랍비 문헌에 이런 논의가 있다고 보고됨; 미확인)",
+          "argument_ko": "문법적으로 가능.",
+          "objection_ko": "문맥 초점은 백성에게 내리는 복이다."
+        }
+      ],
+      "preferred": "번역은 '그들/them/los'로 원문 모호성을 유지; 각주에서 이스라엘 자손이 더 자연스러운 선행사라고 밝힘"
+    },
+    {
+      "id": "Num.6.27",
+      "question_ko": "'내 이름을 …위에 두다'(שמו את שמי על): '위에 두다' 대 '…에게 두다' 대 '내 이름으로 축복하다'(의역).",
+      "options": [
+        {
+          "option": "위에 두다 / put my name on / pondrán mi nombre sobre",
+          "argument_ko": "על의 직역이며 Deut.28.10의 '이름이 네 위에 불린다' 관용과 연결된다.",
+          "objection_ko": "물리적 각인으로 오해될 수 있다."
+        },
+        {
+          "option": "내 이름으로 축복하다(의역)",
+          "argument_ko": "Deut.10.8, 21.5의 '이름으로 축복하다'와 뜻이 통한다.",
+          "objection_ko": "원문 동사 שים(두다)과 전치사 על을 지운다."
+        }
+      ],
+      "preferred": "위에 두다"
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Num.6.24-26 rendered as wishes (May .../...시기를/Que ...) rather than as divine declarations",
+    "objection_ko": "6:23 '이렇게 너희가 축복하라'와 6:27 '내가 그들에게 복을 주겠다'는 이 말씀이 단순한 소원이 아니라 YHWH가 제정한 효력 있는 선언임을 보여 준다. 고대 히브리어의 3인칭 단축형도 반드시 '소원'만이 아니라 명령·허가·선언적 기능을 가질 수 있다. 그렇다면 '…하시기를'은 축복을 인간의 기원으로 약화시키고, 원문의 수행적 성격(말하는 순간 복이 선포됨)을 놓칠 수 있다.",
+    "response_ko": "(1) 6:25 첫 동사와 6:26 둘째 동사는 장형 미완료와 자음 철자부터 다른 단축형이므로, 단순 미래 선언(직설 미완료)로 옮기는 것은 형태와 어긋난다. (2) 단축형 3인칭은 화자의 바람/지시를 나타내며, '수행적' 성격은 '…하시기를'이라는 공식 축복 문체로도 전달된다. 한국어 '-시기를', 영어 'May …', 스페인어 'Que …' 는 모두 예식적 축복 양식으로 통용된다. (3) 6:27은 축복의 효력 근거를 YHWH 자신에게 두므로, 축복문을 기원형으로 두어도 효력이 약해지지 않는다. 오히려 제사장이 아니라 YHWH가 복을 준다는 6:27의 대조가 더 선명해진다.",
+    "residual_risk_ko": "고대 번역(칠십인역의 희구법/미래형 사용 여부, 타르굼)과 히브리어 문법서의 3인칭 단축형 기능 분류를 이 세션에서 확인하지 못했다. 고대 번역이 일관되게 직설 미래로 옮겼다면 각주에서 그 사실을 밝혀야 한다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Num.6.27 en 'I myself'",
+      "objection_ko": "'myself'는 원문에 없는 강조어를 더한다.",
+      "response_ko": "원문은 동사 앞에 독립 대명사 אני를 둔다. 동사에 이미 1인칭이 표시되어 있으므로 대명사 노출 자체가 대조/강조 표지이다. 영어는 대명사 노출만으로는 이를 드러낼 수 없어 'myself'로 보충하고, 스페인어는 'yo' 노출, 한국어는 대조 조사 '는'으로 처리했다. supplied_words_ko에 기록."
+    },
+    {
+      "target": "Num.6.23 '이스라엘 자손' / 'the Israelites' / 'los hijos de Israel'",
+      "objection_ko": "세 언어 표현의 직역 정도가 다르다(en은 민족명, ko/es는 '자손/hijos').",
+      "response_ko": "인접 검토(num-5-11-22 dossier, branch claude/original-bible-hard-review-xzjku4)의 같은 표현 처리와 맞추었다. 편집 단계에서 통일 규칙 결정 필요."
+    },
+    {
+      "target": "Num.6.23 es 2인칭 복수",
+      "objection_ko": "스페인어 2인칭 복수가 프로젝트 안에서 ustedes(Gen 1:28-29, 3:1-5 채택안)와 vosotros(Gen 4:23 채택안, 일부 레위기 검토안)로 섞여 있다.",
+      "response_ko": "채택안 다수(창세기 대화체)를 따라 ustedes 형태(bendecirán, díganles)를 택했다. 편집 통일 규칙이 vosotros로 정해지면 'bendeciréis', 'decidles'로 바꾼다."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Num.6.22",
+      "ko": "YHWH께서 모세에게 말씀하셨다.",
+      "en": "YHWH spoke to Moses, saying:",
+      "es": "YHWH habló a Moisés, diciendo:",
+      "reason_ko": "וידבר ... לאמר 표준 도입 공식. ko는 '이르시기를' 없이 다음 절 직접 화법으로 연결.",
+      "counterargument_ko": "ko에서 לאמר를 반영하지 않았다.",
+      "current_opinion_ko": "제안(새 절).",
+      "reconsider_if_ko": "편집이 민수기 전체에서 לאמר를 ko '이르셨다/말씀하시기를'로 통일하면 그에 따른다."
+    },
+    {
+      "id": "Num.6.23",
+      "ko": "아론과 그의 아들들에게 말하여라. 너희는 이스라엘 자손을 이렇게 축복하며 그들에게 말하여라.",
+      "en": "Speak to Aaron and to his sons, saying: This is how you shall bless the Israelites. Say to them:",
+      "es": "Habla a Aarón y a sus hijos, diciendo: Así bendecirán a los hijos de Israel; díganles:",
+      "reason_ko": "명령형 דבר, 2mp 미완료 지시 תברכו, 앞을 가리키는 כה, 부정사 절대형 אמור + להם을 모두 옮겼다. 6:24-26이 이어지는 인용임을 콜론으로 표시.",
+      "counterargument_ko": "ko에서 첫 '말하여라' 뒤 לאמר를 따로 옮기지 않았다. ko '이렇게'의 위치가 원문(כה 앞)과 다르다(한국어 어순상 동사 앞).",
+      "current_opinion_ko": "제안(새 절).",
+      "reconsider_if_ko": "편집이 6:23-27 전체를 인용 부호로 묶는 화면 규칙을 정하면 부호를 더한다(현재 채택안 6:24-26에 인용 부호가 없어 이 검토도 넣지 않음)."
+    },
+    {
+      "id": "Num.6.24",
+      "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+      "en": "May YHWH bless you and guard you.",
+      "es": "Que YHWH te bendiga y te guarde.",
+      "reason_ko": "현재 채택안 유지. 기원법·단수 '너'·복 주기와 지키기 구분.",
+      "counterargument_ko": "en 'keep'이 보존·돌봄의 넓은 뜻을 담는다.",
+      "current_opinion_ko": "현재 채택안 유지.",
+      "reconsider_if_ko": "영어 편집 원칙이 전통 예식문과의 연속성을 우선하면 'keep'을 고려."
+    },
+    {
+      "id": "Num.6.25",
+      "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+      "en": "May YHWH make his face shine toward you and be gracious to you.",
+      "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor.",
+      "reason_ko": "현재 채택안 유지. 히필 사역 '빛나게 하다', 방향 전치사 אל, חנן '은혜를 베풀다'를 모두 반영.",
+      "counterargument_ko": "es 'su favor'의 소유사는 원문에 없는 보충이다. en 'toward'는 'upon'보다 덜 관용적이다.",
+      "current_opinion_ko": "현재 채택안 유지.",
+      "reconsider_if_ko": "편집이 다른 시편 용례(Ps.31.17 על, Ps.67.2 את)와의 전치사 구별을 번역에서 드러내지 않기로 하면 en 'upon you'를 고려."
+    },
+    {
+      "id": "Num.6.26",
+      "ko": "YHWH께서 그분의 얼굴을 들어 너를 향하시고 네게 평안을 주시기를.",
+      "en": "May YHWH lift up his face toward you and give you peace.",
+      "es": "Que YHWH alce su rostro hacia ti y te dé paz.",
+      "reason_ko": "ko: '드시고'(먹다의 높임말과 동음)를 피하고 אליך의 방향성을 '향하시고'로 드러냄. en: 'lift up'은 'lift'보다 '얼굴을 드는' 동작이 분명하다. es: 현재 채택안 유지.",
+      "counterargument_ko": "ko에서 동사가 둘로 늘었다. 현재 채택안 '얼굴을 네게로 드시고'도 문법상 정확하다. en 'lift up'과 'lift'의 차이는 작다.",
+      "current_opinion_ko": "선택적 소폭 수정 제안(ko, en). 의미 변경 아님. 편집자가 현재 채택안 유지를 택해도 오류는 아니다.",
+      "reconsider_if_ko": "낭독 검토에서 '드시고'가 실제로 오해되지 않는다는 판단이 나오면 현재 채택안 유지."
+    },
+    {
+      "id": "Num.6.27",
+      "ko": "그들은 내 이름을 이스라엘 자손 위에 둘 것이요, 나는 그들에게 복을 주겠다.",
+      "en": "And they shall put my name on the Israelites, and I myself will bless them.",
+      "es": "Y pondrán mi nombre sobre los hijos de Israel, y yo los bendeciré.",
+      "reason_ko": "weqatal '그들이 둘 것이다'(지시의 계속)와, 연쇄를 끊는 '와우+독립대명사 אני+미완료'의 대조를 ko 대조 조사 '는', en 'I myself', es 'yo' 노출로 옮겼다. '그들'의 선행사 모호성은 유지.",
+      "counterargument_ko": "en 'myself'는 보충어이다. ko '둘 것이요'는 약간 문어적이다. 조건 구문('두면 …주겠다')이 한국어로 더 매끄러울 수 있다.",
+      "current_opinion_ko": "제안(새 절).",
+      "reconsider_if_ko": "고대 역본에서 6:27의 위치나 문구가 다르다는 보고가 실물 판본으로 확인되면 각주를 추가하고 위치 문제를 별도로 검토. 본문 순서는 MT 유지."
+    }
+  ],
+  "supplied_words_ko": [
+    {
+      "id": "Num.6.23",
+      "supplied": "en 'This is how' (for kh), en/es colon introducing quotation",
+      "note_ko": "כה의 전방 지시를 영어 관용으로."
+    },
+    {
+      "id": "Num.6.25",
+      "supplied": "es 'su' in 'su favor'",
+      "note_ko": "חנן을 'conceder favor'로 옮기며 소유사 보충(현재 채택안)."
+    },
+    {
+      "id": "Num.6.26",
+      "supplied": "ko '향하시고'",
+      "note_ko": "전치사 אליך의 방향성을 동사로 보충."
+    },
+    {
+      "id": "Num.6.27",
+      "supplied": "en 'myself'; ko contrastive '는'",
+      "note_ko": "독립 대명사 אני의 대조 기능 표시."
+    }
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Num.6.24-26",
+      "note_ko": "6:25의 첫 동사와 6:26의 둘째 동사는 형태상 단축형(기원·지시형)으로, 일반 미완료(미래)와 철자가 다르다. 그래서 세 줄 전체를 축복을 비는 말(…하시기를)로 옮긴다. 6:27이 복을 주는 이를 YHWH로 밝히므로, 이 기원은 제사장의 바람이 아니라 YHWH가 정한 축복의 말이다."
+    },
+    {
+      "id": "Num.6.26",
+      "note_ko": "'얼굴을 들다'는 구약의 다른 곳(레 19:15, 신 10:17, 28:50)에서 '남의 얼굴을 들어 주다=편들다/돌아보다'라는 관용구로 쓰인다. 여기서는 YHWH가 자기 얼굴을 너를 향해 드는 모습으로, 호의 어린 관심과 돌봄을 나타낸다. '편파적으로 대한다'는 뜻이 아니다."
+    },
+    {
+      "id": "Num.6.27",
+      "note_ko": "'그들에게 복을 주겠다'의 '그들'은 바로 앞의 이스라엘 자손을 가리키는 것이 가장 자연스럽다. 문법상 제사장을 가리킬 가능성도 논의되어 왔다고 알려져 있다(이 검토에서 원전 미확인)."
+    },
+    {
+      "id": "Num.6.23-27",
+      "note_ko": "마소라 본문은 축복의 각 줄 뒤에 단락 표지를 두어 세 줄을 서로 구분한다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    "Divine name: Numbers 6 selected text uses 'YHWH' in ko, while some Genesis selections use ko '야훼' (e.g. Gen.3.1). This review follows the Numbers 6 convention (YHWH in all three languages). Editorial rule needed.",
+    "Spanish 2nd person plural: ustedes forms in Gen.1.28-29 and Gen.3.1-5 selections; vosotros in Gen.4.23 selection and in some cloud review dossiers. This review uses ustedes.",
+    "Quotation marks: selected Num.6.24-26 carry no quotation marks; this review adds none to 6:22-27 so the selected verses need not change for punctuation.",
+    "'bny ysrl': follows the adjacent num-5-11-22 dossier (ko '이스라엘 자손', en 'the Israelites', es 'los hijos de Israel'); this is not a fixed editorial rule.",
+    "Num 6:24-26 are already published as a pilot passage page (numbers-6-24-26); if 6:22-23 and 6:27 are adopted later, the passage frame (who speaks to whom) should be shown so the blessing is not displayed without its divine-instruction context."
+  ],
+  "unverified_reception": [
+    "Greek (LXX) verse order and wording of 6:27: reported in secondary literature known to the model, not verified (source access blocked).",
+    "Ketef Hinnom silver amulets: reported to contain a shortened form close to 6:24-26; not verified; not used for the text.",
+    "Rabbinic discussion of the referent of 'them' in 6:27 (priests vs Israel): reported, not verified; no tractate or page is cited as verified."
+  ],
+  "final_opinion_ko": "Num 6:22-27은 도입(6:22-23), 세 줄 축복(6:24-26), YHWH의 설명(6:27)으로 이루어진다. (1) 6:24-26 현재 채택안은 정확하며 유지를 권한다. 기원법은 두 개의 형태상 단축형(6:25 첫 동사, 6:26 둘째 동사)이라는 원문 내부 근거로 뒷받침된다. 유일한 수정 제안은 6:26 ko '드시고'의 동음 문제(선택적)와 en 'lift'→'lift up'(선택적)이다. (2) 아직 채택안이 없는 6:22, 6:23, 6:27에 대해 새 제안을 낸다. 6:27의 핵심은 '와우+독립대명사 אני'의 대조로, 이름을 두는 것은 제사장이고 복을 주는 이는 YHWH 자신임을 드러내야 한다. '그들'의 선행사 모호성은 번역에서 유지하고 각주로 처리한다. (3) 칠십인역 순서, 케테프 힌놈 비문, 랍비 해석은 이 세션에서 확인하지 못했으므로 본문 결정에 쓰지 않았다.",
+  "confidence_limits": [
+    "Single model label (claude-opus-5-5); not independent of training-data familiarity with traditional translations.",
+    "No ancient version, inscription edition or grammar reference was accessible; textual and reception statements are reported, not verified.",
+    "Ko/es naturalness judged by the model only; no native-speaker review.",
+    "The 6:24-26 independent reading was formed with the selected wording visible in the packet."
+  ],
+  "reconsider_if": [
+    "A verified LXX/Qumran/Samaritan edition shows 6:27 in a different position or wording: add a textual note; keep MT order unless the editorial textual policy changes.",
+    "A verified edition of the Ketef Hinnom inscriptions is consulted: the existing pending note can be completed; it should still not be used to delete MT words.",
+    "A grammar reference demonstrates that the short forms in 6:25-26 regularly carry a declarative-future sense in liturgical texts: reconsider the wish rendering.",
+    "Korean read-aloud review finds '얼굴을 네게로 드시고' unproblematic: keep the current 6:26 ko selection."
+  ],
+  "unresolved": [
+    {
+      "id": "Num.6.27",
+      "issue_ko": "LXX에서 6:27이 6:23 뒤에 온다는 보고와 그 문구 차이: 미확인."
+    },
+    {
+      "id": "Num.6.24-26",
+      "issue_ko": "케테프 힌놈 은박 부적의 실제 판독문과 MT의 차이: 미확인(기존 편집 각주도 대기 상태)."
+    },
+    {
+      "id": "Num.6.27",
+      "issue_ko": "'그들'(אברכם)의 선행사에 대한 고대 해석사: 미확인."
+    },
+    {
+      "id": "Num.6.25",
+      "issue_ko": "마지막 낱말 접미사 카프의 다게쉬 형태론적 설명: 문법서 미확인(번역 영향 없음)."
+    },
+    {
+      "id": "Num.6.23",
+      "issue_ko": "스페인어 2인칭 복수(ustedes/vosotros)와 신명 표기(ko YHWH/야훼)의 프로젝트 통일 규칙: 편집 결정 대기."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation or facsimile verification",
+    "No GPT, Gemini, Antigravity or human review was performed or simulated in this session; earlier GPT/Gemini records are quoted only from saved files",
+    "No adoption, certification or publication of this wording",
+    "No balance, dollar cost or credit deduction is known for this run",
+    "No unanimous agreement among reviewers",
+    "No verified LXX, Ketef Hinnom or rabbinic source"
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/original-bible-hard-review-us6xv1",
+  "memo_ko": "automation/cloud-reviews/20261031T203858Z-7a32c5d7.ko.md",
+  "source_words_cited": [
+    {
+      "verse": "Num.6.23",
+      "oshb_id": "04vHP",
+      "lemma": "3541",
+      "morph": "HD",
+      "text": "כֹּ֥ה"
+    },
+    {
+      "verse": "Num.6.23",
+      "oshb_id": "04CmX",
+      "lemma": "1288",
+      "morph": "HVpi2mp",
+      "text": "תְבָרֲכ֖וּ"
+    },
+    {
+      "verse": "Num.6.23",
+      "oshb_id": "04WH5",
+      "lemma": "559",
+      "morph": "HVqa",
+      "text": "אָמ֖וֹר"
+    },
+    {
+      "verse": "Num.6.24",
+      "oshb_id": "04Wfj",
+      "lemma": "1288",
+      "morph": "HVpj3ms/Sp2ms",
+      "text": "יְבָרֶכְ/ךָ֥"
+    },
+    {
+      "verse": "Num.6.24",
+      "oshb_id": "04d46",
+      "lemma": "c/8104",
+      "morph": "HC/Vqj3ms/Sp2ms",
+      "text": "וְ/יִשְׁמְרֶֽ/ךָ"
+    },
+    {
+      "verse": "Num.6.25",
+      "oshb_id": "04vGY",
+      "lemma": "215",
+      "morph": "HVhj3ms",
+      "text": "יָאֵ֨ר"
+    },
+    {
+      "verse": "Num.6.25",
+      "oshb_id": "04cAA",
+      "lemma": "413",
+      "morph": "HR/Sp2ms",
+      "text": "אֵלֶ֖י/ךָ"
+    },
+    {
+      "verse": "Num.6.25",
+      "oshb_id": "04UYM",
+      "lemma": "c/2603 a",
+      "morph": "HC/Vqj3ms/Sp2ms",
+      "text": "וִֽ/יחֻנֶּֽ/ךָּ"
+    },
+    {
+      "verse": "Num.6.26",
+      "oshb_id": "04NZQ",
+      "lemma": "5375",
+      "morph": "HVqj3ms",
+      "text": "יִשָּׂ֨א"
+    },
+    {
+      "verse": "Num.6.26",
+      "oshb_id": "04jFT",
+      "lemma": "6440",
+      "morph": "HNcbpc/Sp3ms",
+      "text": "פָּנָי/ו֙"
+    },
+    {
+      "verse": "Num.6.26",
+      "oshb_id": "04dWK",
+      "lemma": "c/7760 a",
+      "morph": "HC/Vqj3ms",
+      "text": "וְ/יָשֵׂ֥ם"
+    },
+    {
+      "verse": "Num.6.26",
+      "oshb_id": "04kAx",
+      "lemma": "7965",
+      "morph": "HNcmsa",
+      "text": "שָׁלֽוֹם"
+    },
+    {
+      "verse": "Num.6.27",
+      "oshb_id": "04cC6",
+      "lemma": "c/7760 a",
+      "morph": "HC/Vqq3cp",
+      "text": "וְ/שָׂמ֥וּ"
+    },
+    {
+      "verse": "Num.6.27",
+      "oshb_id": "04TQ4",
+      "lemma": "8034",
+      "morph": "HNcmsc/Sp1cs",
+      "text": "שְׁמִ֖/י"
+    },
+    {
+      "verse": "Num.6.27",
+      "oshb_id": "043b7",
+      "lemma": "c/589",
+      "morph": "HC/Pp1cs",
+      "text": "וַ/אֲנִ֖י"
+    },
+    {
+      "verse": "Num.6.27",
+      "oshb_id": "0462B",
+      "lemma": "1288",
+      "morph": "HVpi1cs/Sp3mp",
+      "text": "אֲבָרֲכֵֽ/ם"
+    }
+  ],
+  "checks": {
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "packet_sha256_matches": true,
+    "rights_match_packet": true,
+    "cited_words_found": true,
+    "no_cantillation_in_prose_fields": true,
+    "memo_has_no_cantillation": true,
+    "setumah_markers_in_targets": [
+      "Num.6.23",
+      "Num.6.24",
+      "Num.6.25",
+      "Num.6.26"
+    ],
+    "petucha_markers_in_targets": [
+      "Num.6.27"
+    ],
+    "paseq_markers_in_targets": [
+      "Num.6.25",
+      "Num.6.26"
+    ],
+    "qere_ketiv_markup_in_targets": false,
+    "kept_selected_verses_identical": true,
+    "changed_paths_only_own_run_files": true,
+    "no_changes_to_data_dist_releases_main": true,
+    "packet_unchanged_since_claim_commit": true,
+    "script": "session-local validation script /tmp/rv/check.py (not committed); results above",
+    "run_at": "2026-10-31T20:46:53Z",
+    "clauses_covered": "checked by hand in ko/en/es for all 6 verses (22: speech intro; 23: imperative, 2mp instruction, kh, inf. abs. + lhm; 24: bless/guard; 25: shine face toward/be gracious; 26: lift face toward/set peace for; 27: put name on Israelites / contrastive I will bless them)",
+    "self_check_is_not_independent_review": true
+  }
+}
