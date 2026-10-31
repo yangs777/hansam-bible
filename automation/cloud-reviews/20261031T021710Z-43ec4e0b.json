@@ -1,0 +1,688 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T021710Z-43ec4e0b",
+  "unit_id": "exod-12-40-42",
+  "verse_ids": [
+    "Exod.12.40",
+    "Exod.12.41",
+    "Exod.12.42"
+  ],
+  "unit_issue_ko": "430년의 거주 범위·MT와 실제 확인 가능한 이문 분리",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.12.40-42 = 전통 장절 출애굽기 12:40-42. 저장소 라이브러리 KRV/ASV/RV1909의 12:40-42가 같은 내용 범위로 대응함을 확인했다. 단, 이번에 열람한 Swete 칠십인역 디지털판(First1KGreek)은 ‘νυκτός(밤에)’를 41절 끝에 두고 42절을 ‘προφυλακή’로 시작한다. 이것이 Swete 인쇄본의 절 구분인지 디지털화 과정의 구분인지는 인쇄면 이미지로 확인하지 않았다.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어 표기는 source.verses[].raw_xml에만 있다(클레임 패킷에서 스크립트로 바이트 단위 복사). 아래 절(clause) 분석의 히브리어는 OSHB 낱말 id로 범위를 표시한 읽기 편의용 인용이며, 원문 표기를 대체하지 않는다. 이 단위에는 Qere/Ketiv나 중첩 표기가 없고, 42절 끝의 <seg type=\"x-pe\">פ</seg>(열린 단락 표시)는 raw_xml에 보존했다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; no Routine trigger, no Project)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T02:17Z: configured_model, session_context.model and external_metadata.last_served_model all read claude-opus-5-5; effort_level high. Re-checked at completion (see timestamps_utc).",
+    "served_model_uncertainty": "last_served_model is a session API field reported by the service, not a cryptographic proof of the model that produced each token. The runtime can fall back or switch mid-session.",
+    "rate_limit_info_observed": "get_session reported rateLimitType ccr_promotional, status allowed, isUsingOverage false. This is a service status label only; no remaining balance, dollar amount or credit deduction is exposed or asserted.",
+    "unavailable": [
+      "dated model snapshot identifier",
+      "per-request token counts",
+      "cost or credit consumption counters",
+      "remaining promotional balance",
+      "sampling parameters"
+    ],
+    "note": "A model self-report is not source evidence. This record was written by Claude in Claude Code; it is not a GPT, Gemini, Antigravity, manuscript-collator or human-specialist review.",
+    "recheck_at_completion": "get_session at about 2026-10-31T02:24Z: configured_model, session_context.model and external_metadata.last_served_model all claude-opus-5-5; rateLimitType ccr_promotional status allowed (no balance exposed)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.12.40",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02EMQ",
+            "02sHh"
+          ],
+          "quote": "וּמוֹשַׁב בְּנֵי יִשְׂרָאֵל",
+          "kind": "lexical/syntactic",
+          "reading_ko": "מוֹשָׁב(어근 ישב ‘앉다/살다’)의 연계형. ‘거주(지/기간)’. 술어가 ‘…년’이므로 여기서는 기간을 뜻한다. גור(나그네살이)에서 온 낱말이 아니므로 ‘우거/나그네살이’보다 ‘거주/살았던 기간’이 낱말에 가깝다."
+        },
+        {
+          "word_id_range": [
+            "02nw3",
+            "02qKh"
+          ],
+          "quote": "אֲשֶׁר יָשְׁבוּ בְּמִצְרָיִם",
+          "kind": "syntactic (key issue)",
+          "reading_ko": "관계절의 선행사가 (a) 머리 명사 מוֹשַׁב(‘그들이 이집트에서 산 그 거주’; 같은 어근 명사+동사 반복)인지, (b) 연계 사슬의 끝 בְּנֵי יִשְׂרָאֵל(‘이집트에 산 이스라엘 자손들의 거주’)인지가 문법적으로 열려 있다. (a)가 같은 어근 반복 구조상 더 자연스럽고, (a)에서는 430년이 이집트 체류 기간이 된다. (b)는 ‘이스라엘 자손(과 그 조상)의 전체 거주’를 허용하는 조화 해석의 문법적 근거로 쓰인다."
+        },
+        {
+          "word_id_range": [
+            "02K3s",
+            "02rqa"
+          ],
+          "quote": "שְׁלֹשִׁים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה",
+          "kind": "lexical/numeral",
+          "reading_ko": "작은 수가 먼저 오는 히브리어 수 배열(‘삼십 년과 사백 년’). 뜻은 430년. 아트나(분절 강세)는 בְּמִצְרָיִם에 있어 ‘주어 | 술어(430년)’로 나뉜다. 명사문이며 동사 없음."
+        }
+      ]
+    },
+    {
+      "id": "Exod.12.41",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02ZRa",
+            "02fBz"
+          ],
+          "quote": "וַיְהִי מִקֵּץ שְׁלֹשִׁים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה",
+          "kind": "discourse",
+          "reading_ko": "첫 וַיְהִי는 시간 틀(‘430년이 끝났을 때’)을 연다. מִקֵּץ = ‘…의 끝에/…이 지나서’. 아트나가 여기 있다."
+        },
+        {
+          "word_id_range": [
+            "02yf4",
+            "02vAd"
+          ],
+          "quote": "וַיְהִי בְּעֶצֶם הַיּוֹם הַזֶּה",
+          "kind": "discourse/idiom",
+          "reading_ko": "둘째 וַיְהִי는 같은 시점을 다시 짚어 강조한다. בְּעֶצֶם הַיּוֹם הַזֶּה(직역 ‘이 날의 뼈/본체에’) = ‘바로 이날/바로 그날’. 같은 표현이 12:17(야훼의 말)과 12:51(서술)에 있다. 지시사는 ‘이(this)’이지만 과거 서술에서는 ‘그날’로 옮기는 것이 자연스럽다; 직역 ‘이날’은 대안."
+        },
+        {
+          "word_id_range": [
+            "02hNu",
+            "02rDA"
+          ],
+          "quote": "יָצְאוּ כָּל־צִבְאוֹת יְהוָה מֵאֶרֶץ מִצְרָיִם",
+          "kind": "lexical",
+          "reading_ko": "צְבָאוֹת = 군사적 ‘대오/군대/무리’. 이스라엘을 질서 있는 대열로 그리는 출애굽기 표현(6:26, 7:4, 12:17, 12:51 ‘그들의 대오대로’). 아이(12:37 טַף)와 섞인 무리(12:38 עֵרֶב רַב)까지 포함한 이동 집단이므로 순수 군사 용어로 좁히면 과하고, ‘무리’로 넓히면 대열 이미지가 사라진다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.12.42",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02Z3T",
+            "029p2"
+          ],
+          "quote": "לֵיל שִׁמֻּרִים הוּא לַיהוָה",
+          "kind": "lexical/syntactic (key issue)",
+          "reading_ko": "לֵיל은 לַיְלָה의 연계형. שִׁמֻּרִים은 히브리 성경에서 이 절에만 두 번 나오는 복수 추상명사(어근 שמר ‘지키다·파수하다·준수하다’) = ‘지킴/파수/철야’. לַיהוָה는 ‘야훼에게 속한/야훼의’(소유·관여) 또는 ‘야훼께(드리는)’(수혜) 둘 다 가능하다. 명사문이라 시제 표지가 없다."
+        },
+        {
+          "word_id_range": [
+            "025Sr",
+            "02au6"
+          ],
+          "quote": "לְהוֹצִיאָם מֵאֶרֶץ מִצְרָיִם",
+          "kind": "syntactic",
+          "reading_ko": "히필 부정사 + 3복 접미어, 주어는 문맥상 야훼. ל+부정사는 목적(‘그들을 이끌어 내시려고’)이 가장 흔하고, 때(‘이끌어 내실 때’)나 동기(‘이끌어 내셨으므로’)로도 읽힌다. 목적으로 읽으면 앞 구절의 ‘지킴’의 주체가 야훼가 된다(야훼께서 이끌어 내려고 지켜 보신 밤)."
+        },
+        {
+          "word_id_range": [
+            "02Yj4",
+            "02MMh"
+          ],
+          "quote": "הוּא־הַלַּיְלָה הַזֶּה לַיהוָה",
+          "kind": "syntactic",
+          "reading_ko": "‘그것이 곧 이 밤이다, 야훼의 것’ = ‘바로 이 밤은 야훼의 것’. הוּא는 앞의 ‘그 밤’을 받아 현재의 ‘이 밤’과 동일시한다(과거 사건 → 현재 의례로 전환)."
+        },
+        {
+          "word_id_range": [
+            "02C6R",
+            "02b1D"
+          ],
+          "quote": "שִׁמֻּרִים לְכָל־בְּנֵי יִשְׂרָאֵל לְדֹרֹתָם",
+          "kind": "lexical/discourse",
+          "reading_ko": "‘모든 이스라엘 자손들에게 대대로 지킴(의 밤)’. 동사가 없어 의무(‘지켜야 할’)는 명시되지 않지만 לְדֹרֹתָם은 규례 문맥(12:14, 12:17)에서 쓰이는 표현이라 규정적 함의가 있다. 12:17과 12:24-25의 וּשְׁמַרְתֶּם(너희는 지켜라)과 어근이 같아 ‘지키다’로 낱말 고리를 살릴 수 있다. 한국어 ‘지키다’는 ‘파수하다’와 ‘준수하다’를 모두 덮으므로 שמר의 겹뜻을 한 낱말로 옮길 수 있다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Exod.12.40",
+      "ko": "이스라엘 자손이 이집트에서 거주한 기간은 사백삼십 년이었다.",
+      "en": "The time that the Israelites lived in Egypt was four hundred thirty years.",
+      "es": "El tiempo que los israelitas habitaron en Egipto fue de cuatrocientos treinta años."
+    },
+    {
+      "id": "Exod.12.41",
+      "ko": "사백삼십 년이 끝나던 때, 바로 그날에 여호와의 모든 군대가 이집트 땅에서 나왔다.",
+      "en": "At the end of four hundred thirty years, on that very day, all the hosts of the LORD went out from the land of Egypt.",
+      "es": "Al cabo de cuatrocientos treinta años, en ese mismo día, salieron de la tierra de Egipto todos los ejércitos del SEÑOR."
+    },
+    {
+      "id": "Exod.12.42",
+      "ko": "그것은 여호와께서 그들을 이집트 땅에서 이끌어 내시려고 지켜 보신 밤이다. 이 밤은 여호와께 속한 밤, 모든 이스라엘 자손이 대대로 지켜야 할 밤이다.",
+      "en": "It was a night of watching for the LORD, to bring them out of the land of Egypt; this same night is the LORD's, a night of watching for all the Israelites throughout their generations.",
+      "es": "Fue una noche de vigilia para el SEÑOR, para sacarlos de la tierra de Egipto; esta misma noche es del SEÑOR, noche de vigilia para todos los israelitas por todas sus generaciones."
+    }
+  ],
+  "initial_proposals_note": "초기 제안은 클레임 패킷(raw_xml)만 보고 /tmp/hr/independent.json(파일 mtime 2026-10-31T02:18:50Z)에 먼저 저장했다. 스크래치 파일에는 스페인어 악센트를 ASCII로 임시 표기했으며 여기서는 정상 철자로 옮겼다(낱말 변경 없음). 기존 Sonnet 5.5 일괄 초안, 프로젝트 신명 관례, KRV/ASV/RV1909, 칠십인역, 갈라디아서, 병행구 조회는 모두 그 뒤에 했다. 초기 제안의 ‘여호와/the LORD/el SEÑOR’는 관례 확인 전 임시 표기였다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 10983fc) has no Exodus verse; packet current_selected is empty."
+    },
+    {
+      "kind": "decisions_and_model_reviews",
+      "result": "none",
+      "note": "git grep on main for Exod.12.40-42 / Exodus 12 in data/decisions.json, data/model-reviews, data/source-note-decisions.json and data/genesis-guides.json found no entry for these verses (hits for '430' were Strong's lemma numbers for elohim)."
+    },
+    {
+      "kind": "other_hard_reviews",
+      "result": "none",
+      "note": "No automation/hard-review-runs manifest on any fetched claude/ branch names unit exod-12-40-42 before this claim."
+    },
+    {
+      "kind": "cloud_draft",
+      "result": "found",
+      "path": "automation/cloud-drafts/20261027T211801Z-12391c68.json",
+      "branch": "claude/friendly-heisenberg-4tlfte",
+      "branch_commit": "334c43616375335211a461628f37157edf823236",
+      "file_sha256": "d3840373004485ac61a6b96dfaece0be46268457fa8adbdcf22814cf1100c130",
+      "model_label_in_record": "requested_or_configured_model claude-sonnet-5-5 (served model 'not independently exposed in this scheduled session')",
+      "state_in_record": "unadopted_model_draft",
+      "source_match": "same source_url, commit 3d15126 and source_file_sha256 04868367...ac5b847f as this packet",
+      "opened_utc": "about 2026-10-31T02:19Z, after the initial proposal file was saved"
+    },
+    {
+      "kind": "reception_library",
+      "result": "found",
+      "paths": [
+        "library/krv/Exod.json",
+        "library/asv/Exod.json",
+        "library/rv1909/Exod.json"
+      ],
+      "note": "Public-domain reading editions stored in this repository; later translation reception, not textual evidence."
+    }
+  ],
+  "earlier_record_texts": {
+    "sonnet_cloud_draft_20261027T211801Z-12391c68": {
+      "Exod.12.40": {
+        "ko": "이스라엘 자손이 이집트에서 산 기간은 사백삼십 년이었다.",
+        "en": "The time that the people of Israel lived in Egypt was 430 years.",
+        "es": "El tiempo que los hijos de Israel habitaron en Egipto fue de cuatrocientos treinta años."
+      },
+      "Exod.12.41": {
+        "ko": "사백삼십 년이 끝나는 바로 그날에 여호와의 모든 군대가 이집트 땅에서 나왔다.",
+        "en": "At the end of 430 years, on that very day, all the hosts of the LORD went out from the land of Egypt.",
+        "es": "Al cabo de cuatrocientos treinta años, ese mismo día, todos los ejércitos del SEÑOR salieron de la tierra de Egipto."
+      },
+      "Exod.12.42": {
+        "ko": "이것은 여호와께서 그들을 이집트 땅에서 인도해 내신 일 때문에 지키는 밤이다. 이 밤은 여호와를 위하여 이스라엘 모든 자손이 대대로 지켜야 할 밤이다.",
+        "en": "It was a night of watching by the LORD, to bring them out of the land of Egypt; so this same night is a night of watching kept to the LORD by all the people of Israel throughout their generations.",
+        "es": "Noche de vigilia fue para el SEÑOR, para sacarlos de la tierra de Egipto; esa misma noche es de vigilia para el SEÑOR, para todos los hijos de Israel por sus generaciones."
+      }
+    }
+  },
+  "comparison_findings_ko": [
+    {
+      "id": "Exod.12.40-42",
+      "severity": "high",
+      "finding_ko": "기존 Sonnet 5.5 초안은 יְהוָה를 ko ‘여호와’, en ‘the LORD’, es ‘el SEÑOR’로 옮겼다. 현재 선정본 관례(최근 선정분 Gen 3-4·Ps 1·Num 6: ko 야훼 또는 YHWH, en YHWH, es YHWH)와 다르다. 이 검토의 선호 문구는 ko 야훼, en YHWH, es YHWH로 맞췄다. 표기 통일 결정은 편집 사항으로 남는다."
+    },
+    {
+      "id": "Exod.12.42",
+      "severity": "high",
+      "finding_ko": "기존 초안 안에서 세 언어가 서로 다른 해석을 택했다. en은 첫 반절을 ‘a night of watching by the LORD’(야훼가 지킴의 주체)로, ko는 ‘여호와께서 … 인도해 내신 일 때문에 지키는 밤’(이스라엘이 지킴의 주체, ל+부정사를 원인으로)으로 옮겼다. 같은 절을 언어마다 다른 독법으로 번역하면 프로젝트의 ‘언어별 동일 독법 표시’ 원칙(STRATEGY.ko.md)과 어긋난다. 이 검토는 세 언어 모두 ‘야훼께 속한 지킴의 밤(목적 부정사)’ 독법으로 통일했다."
+    },
+    {
+      "id": "Exod.12.42",
+      "severity": "medium",
+      "finding_ko": "기존 en의 ‘so’(결과 접속)와 ‘kept … by all the people of Israel’(행위자 보충)은 원문에 없는 연결·행위자 표시를 더한다. es ‘esa misma noche’는 원문 지시사 הַזֶּה(this)를 ‘그(that)’로 바꿨다. 이 검토는 ‘This very night / Esta misma noche’로 옮겼다."
+    },
+    {
+      "id": "Exod.12.40",
+      "severity": "medium",
+      "finding_ko": "기존 초안의 reason_ko는 ‘칠십인역·사마리아 오경의 다른 읽기는 이 실행에서 대조하지 않았다’고 정직하게 밝혔다. 이번 검토는 Swete 칠십인역 디지털판을 실제로 열어 ‘이집트 땅과 가나안 땅에서’ 및 ‘435년’ 독법을 확인했다(아래 reception_evidence). 사마리아 오경은 여전히 열람하지 못했다."
+    },
+    {
+      "id": "Exod.12.40-41",
+      "severity": "low",
+      "finding_ko": "기존 en의 숫자 표기 ‘430 years’는 선정본 창세기 5장의 철자식 수 표기(‘one hundred thirty years’)와 다르다. 이 검토는 ‘four hundred thirty years’로 맞췄다."
+    },
+    {
+      "id": "Exod.12.40",
+      "severity": "info",
+      "finding_ko": "독립 제안 en ‘The time that the Israelites lived in Egypt was …’와 es ‘El tiempo que los … habitaron en Egipto fue …’는 ASV·RV1909의 문형과 비슷하다. 원문 명사문(주어 ‘거주’ + 관계절 + 술어 ‘430년’)을 직역하면 거의 필연적으로 나오는 문형이며 독립 초안 작성 뒤에 라이브러리를 열었다. 그래도 표절 우려를 줄이려면 편집 단계에서 다시 확인할 수 있다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "신명 표기를 프로젝트 관례(ko 야훼, en/es YHWH)로 바꿨다. ‘이스라엘 자손’을 신명기 32:8 결정문 관례에 맞춰 ‘이스라엘 자손들’로 바꿨다. 41절 es ‘ejércitos’를 대열·무리 이미지를 함께 담는 ‘huestes’로 바꿨다. 42절 ko를 다듬었다: 첫 반절은 ‘지켜 보신 밤이다’를 ‘지키신 밤이었다’로(שמר 겹뜻을 ‘지키다’ 하나로 유지, 과거 사건), 둘째 반절의 ‘지켜야 할’을 원문에 의무 동사가 없으므로 ‘지키는’으로 바꿨다. 42절 en/es 둘째 반절의 지시사를 ‘This very night / Esta misma noche’로 정리하고 두 반절을 마침표로 나눴다.",
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). The Greek LXX lines come from the First1KGreek digital encoding of Swete's edition (CC BY-SA 4.0 per the lxx-swete README); Swete prints one main manuscript text and is not an eclectic critical edition; no page image was checked. KRV/ASV/RV1909 lines come from this repository's library (upstream marked public domain) and are translation reception, not textual evidence. Short excerpts only.",
+    "items": [
+      {
+        "ref": "LXX Exod 12:40 (Swete, First1KGreek tlg0527.tlg002)",
+        "excerpt": "Ἡ δὲ κατοίκησις τῶν υἱῶν Ἰσραὴλ ἣν κατῴκησαν ἐν γῇ Αἰγύπτῳ καὶ ἐν γῇ Χανάαν ἔτη τετρακόσια τριάκοντα πέντε·",
+        "finding_ko": "이 디지털판은 (1) ‘이집트 땅과 가나안 땅에서’를 더하고 (2) 연수를 ‘435’로 적는다. MT는 ‘이집트에서’와 ‘430’. 즉 거주 범위와 연수가 모두 다르다. 다른 칠십인역 사본·판본의 수치(430 여부)는 이번에 확인하지 않았다."
+      },
+      {
+        "ref": "LXX Exod 12:41 (same file)",
+        "excerpt": "καὶ ἐγένετο μετὰ τὰ τετρακόσια τριάκοντα πέντε ἣ ἐξῆλθεν πᾶσα ἡ δύναμις κυρίου ἐκ γῆς Αἰγύπτου νυκτός.",
+        "finding_ko": "‘435’가 반복되고, MT의 ‘바로 이날에(בְּעֶצֶם הַיּוֹם הַזֶּה)’에 해당하는 구가 보이지 않으며 끝에 ‘밤에(νυκτός)’가 있다. ‘πέντε ἣ ἐξῆλθεν’의 ‘ἣ’는 문법상 어색해 디지털화 오류(예: ἔτη)일 가능성이 있으나 확인하지 않았다."
+      },
+      {
+        "ref": "LXX Exod 12:42 (same file)",
+        "excerpt": "προφυλακή ἐστιν τῷ κυρίῳ ὥστε ἐξαγαγεῖν αὐτοὺς ἐκ γῆς Αἰγύπτου· ἐκείνη ἡ νὺξ αὕτη προφυλακὴ Κυρίῳ, ὥστε πᾶσι τοῖς υἱοῖς Ἰσραὴλ εἶναι εἰς γενεὰς αὐτῶν.",
+        "finding_ko": "שִׁמֻּרִים을 προφυλακή(‘미리 지킴/파수’)로 옮기고 לְהוֹצִיאָם을 ὥστε ἐξαγαγεῖν(결과·목적 부정사)으로 옮겼다. 고대 번역자도 ל+부정사를 원인(‘…하셨으므로’)이 아니라 목적·결과로 읽었다는 증거로 쓸 수 있다(번역 해석이지 히브리어 이문 증거는 아님)."
+      },
+      {
+        "ref": "Gal 3:17 (SBLGNT)",
+        "excerpt": "διαθήκην προκεκυρωμένην ὑπὸ τοῦ ⸀θεοῦ ὁ μετὰ ⸂τετρακόσια καὶ τριάκοντα ἔτη⸃ γεγονὼς νόμος οὐκ ἀκυροῖ",
+        "finding_ko": "바울은 ‘언약(약속) 뒤 430년에 생긴 율법’이라고 셈한다. 출발점이 이집트 이주가 아니라 아브라함에게 한 약속이라는 점에서 LXX형 ‘이집트+가나안’ 계산과 맞물린다. 신약 수용사이지 출 12:40 히브리어 본문의 증거는 아니다. ⸀·⸂⸃는 SBLGNT 자체의 이문 표시다."
+      },
+      {
+        "ref": "Gen.15.13 (WLC, pinned)",
+        "excerpt": "כִּי־גֵר יִהְיֶה זַרְעֲךָ בְּאֶרֶץ לֹא לָהֶם וַעֲבָדוּם וְעִנּוּ אֹתָם אַרְבַּע מֵאוֹת שָׁנָה",
+        "finding_ko": "‘네 자손이 자기 것이 아닌 땅에서 나그네가 되어 … 사백 년’. 어림수 400과 출 12:40의 430은 정경 내부 비교 대상이다. 여기서는 גֵר(나그네)가 쓰였고 출 12:40은 מוֹשָׁב(거주)가 쓰였다."
+      },
+      {
+        "ref": "Gen.15.16 (WLC, pinned)",
+        "excerpt": "וְדוֹר רְבִיעִי יָשׁוּבוּ הֵנָּה",
+        "finding_ko": "‘넷째 세대에 그들이 이리로 돌아올 것이다’. 세대 수와 430년의 관계는 해석 문제로 남는다(דּוֹר의 길이 정의는 확인하지 않음)."
+      },
+      {
+        "ref": "Exod.6.16, 6.18, 6.20 (WLC, pinned)",
+        "excerpt": "לֵוִי … שֶׁבַע וּשְׁלֹשִׁים וּמְאַת שָׁנָה / קְהָת שָׁלֹשׁ וּשְׁלֹשִׁים וּמְאַת שָׁנָה / עַמְרָם שֶׁבַע וּשְׁלֹשִׁים וּמְאַת שָׁנָה",
+        "finding_ko": "레위 137, 고핫 133, 아므람 137년. 고핫은 이집트로 내려간 사람 명단(창 46:11, 이번에 확인하지 않음)에 있으므로, 족보를 연속 세대로 보면 이집트 체류가 430년이 되기 어렵다는 고전적 연대 문제가 생긴다. 이는 번역 문제가 아니라 역사·연대 해석 문제이며, 족보 생략 가능성 등 여러 설명이 있다. 번역에서 조화시키지 않는다."
+      },
+      {
+        "ref": "Exod.12.17, 12.51 (WLC, pinned)",
+        "excerpt": "כִּי בְּעֶצֶם הַיּוֹם הַזֶּה הוֹצֵאתִי אֶת־צִבְאוֹתֵיכֶם … וּשְׁמַרְתֶּם אֶת־הַיּוֹם הַזֶּה לְדֹרֹתֵיכֶם / וַיְהִי בְּעֶצֶם הַיּוֹם הַזֶּה הוֹצִיא יְהוָה אֶת־בְּנֵי יִשְׂרָאֵל … עַל־צִבְאֹתָם",
+        "finding_ko": "‘바로 이날’, ‘대오(צבאות)’, ‘지키다(שמר)’, ‘대대로’가 12:17-51 단락 안에서 반복된다. 41-42절 번역 낱말을 이 병행구와 맞춰야 한다."
+      },
+      {
+        "ref": "KRV / ASV / RV1909 Exod 12:42 (repository library)",
+        "excerpt": "KRV ‘이 밤은 그들을 애굽 땅에서 인도하여 내심을 인하여 여호와 앞에 지킬 것이니’; ASV ‘It is a night to be much observed unto Jehovah for bringing them out’; RV1909 ‘Es noche de guardar á Jehová, por haberlos sacado en ella’",
+        "finding_ko": "세 고전 번역 모두 42절 첫 반절을 ‘(이스라엘이) 야훼께 지킬 밤, 이끌어 내셨기 때문에’로 읽는다(ל+부정사를 원인으로). 이 검토의 선호 독법과 다르며 가장 강한 반론의 근거다(번역 수용사이지 본문 증거 아님)."
+      },
+      {
+        "ref": "KRV / ASV / RV1909 Exod 12:40 (repository library)",
+        "excerpt": "KRV ‘이스라엘 자손이 애굽에 거주한지 사백삼십 년이라’; ASV ‘the time that the children of Israel dwelt in Egypt was four hundred and thirty years’; RV1909 ‘El tiempo que los hijos de Israel habitaron en Egipto, fué cuatrocientos treinta años’",
+        "finding_ko": "세 번역 모두 관계절을 거주 기간에 붙여(독법 a) 430년을 이집트 체류로 읽는다."
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "사마리아 오경은 40절에 ‘가나안 땅과 이집트 땅에서’(LXX와 순서 반대)를 더한다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "No Samaritan Pentateuch text was accessed; reported here only so that a later editor knows to check it."
+    },
+    {
+      "claim_ko": "칠십인역 알렉산드리아 사본 등은 40절에 ‘그들과 그들의 조상들이’를 더하고 연수를 430으로 적는다는 보고, 그리고 라흘프스판 본문은 430을 택한다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Only the Swete digital encoding was opened; Rahlfs and Göttingen editions and manuscript apparatus were not accessed (ellopos.net and ccat.sas.upenn.edu returned proxy 403)."
+    },
+    {
+      "claim_ko": "요세푸스 『유대 고대사』 2권이 ‘아브라함이 가나안에 온 지 430년, 야곱이 이집트로 내려간 지 215년’이라고 셈한다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "gutenberg.org returned proxy 403."
+    },
+    {
+      "claim_ko": "쿰란 출애굽기 사본(예: 4QExod 계열)에 40절 관련 독법이 남아 있다는 보고 여부.",
+      "status": "not_verified_in_session",
+      "reason": "No Qumran edition was accessed; no claim is made either way."
+    },
+    {
+      "claim_ko": "랍비 전통(예: 라시, 메힐타)이 430년을 이삭 출생 또는 ‘쪼갠 고기 사이의 언약’부터 세고, ‘레일 쉬무림’을 ‘보호받는 밤’으로 풀이한다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "No rabbinic source text was accessed."
+    },
+    {
+      "claim_ko": "타르굼 네오피티 등의 ‘네 밤’ 전승이 42절에 붙어 있다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "No Targum text was accessed."
+    }
+  ],
+  "alternatives": {
+    "Exod.12.40": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "관계절이 ‘거주(מוֹשַׁב)’를 꾸밈 → ‘이스라엘 자손들이 이집트에 거주한 기간은 430년’",
+        "argument_ko": "같은 어근 명사-동사 반복(מוֹשַׁב … אֲשֶׁר יָשְׁבוּ)이 관계절을 머리 명사에 묶는다. 41절 ‘430년이 끝날 때 … 이집트 땅에서 나왔다’가 시간 끝점을 이집트 탈출로 맞춘다. 고정 MT가 ‘이집트에서’만 적는다.",
+        "objection_ko": "족보(출 6장)와 창 15:16 ‘넷째 세대’로는 이집트 체류 430년이 빡빡하다. 갈 3:17과 LXX형 본문은 더 긴 기간(가나안 포함)을 전제한다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "관계절이 ‘이스라엘 자손들’을 꾸밈 → ‘이집트에 살았던 이스라엘 자손들의 거주(전체)는 430년’",
+        "argument_ko": "문법적으로 가능하며 KJV류 쉼표 번역이 이 모호성을 남긴다. 조상(족장) 시기의 가나안 거주까지 ‘이스라엘 자손들의 거주’에 넣으면 LXX·갈 3:17과 조화된다.",
+        "objection_ko": "‘이스라엘 자손들’을 ‘이집트에 산’으로 굳이 한정할 이유가 약하고, 아브라함·이삭은 ‘이스라엘 자손’이 아니다. 조화 목적의 문법 선택이라는 비판을 받는다."
+      },
+      {
+        "label": "C (textual variant, not adopted)",
+        "reading_ko": "LXX(Swete 디지털판)형 ‘이집트 땅과 가나안 땅에서 … 435년’ 또는 보고된 사마리아 오경형 ‘가나안 땅과 이집트 땅에서’",
+        "argument_ko": "족보 연대 문제를 해소하고 갈 3:17 셈법과 맞는다.",
+        "objection_ko": "고정 MT와 다르고, 연대 조화를 위한 확장일 가능성(난해 독법 원칙상 MT가 더 어려운 독법)이 있다. Swete의 435는 다른 그리스어 증거와 수치가 엇갈리는 것으로 보고되어(이번에 미확인) 그대로 재구성 근거로 쓰기 어렵다. 이 프로젝트는 원문 표시(MT)와 이문·재구성을 분리하므로 본문에는 채택하지 않고 주석으로 둔다."
+      }
+    ],
+    "Exod.12.41": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘바로 그날에’ + ‘야훼의 모든 군대(대오)’",
+        "argument_ko": "과거 서술에서 자연스럽고 12:17·12:51의 대오 이미지와 연결된다.",
+        "objection_ko": "지시사 הַזֶּה(이)를 ‘그’로 바꾸면 12:17(야훼의 말 ‘바로 이날에’)과 낱말 고리가 약해진다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘바로 이날에’(직역)",
+        "argument_ko": "원문 지시사 보존, 12:17·12:51과 동일 표현 유지, 기념일(독자 현재) 관점 반영.",
+        "objection_ko": "과거 사건 서술 안에서 ‘이날’은 한국어·스페인어에서 어색할 수 있다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "צִבְאוֹת를 ‘무리/백성 전체’로 풀어 옮김",
+        "argument_ko": "실제로는 아이(12:37)와 섞인 무리(12:38)까지 포함한 이동 집단이다.",
+        "objection_ko": "출애굽기의 의도적 군사 대오 은유가 사라지고 12:17·12:51(‘대오대로’)과의 연결이 흐려진다."
+      }
+    ],
+    "Exod.12.42": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "첫 반절: 야훼께서 (그들을 이끌어 내시려고) 지키신 밤 / 둘째 반절: 이 밤은 야훼의 것, 이스라엘이 대대로 지키는 밤 — 상호 대응(야훼가 지키심 → 이스라엘이 지킴)",
+        "argument_ko": "ל+부정사의 가장 흔한 용법은 목적이며 주어가 야훼다. LXX ὥστε ἐξαγαγεῖν도 목적·결과로 읽었다. 두 반절의 לַיהוָה를 모두 ‘야훼의/야훼께 속한’으로 같은 뜻으로 옮길 수 있다. 두 번 나오는 שִׁמֻּרִים의 주체가 반절마다 바뀌는 대구가 절의 수사 구조를 설명한다.",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "두 반절 모두 이스라엘이 야훼께 지키는 밤; 첫 반절 ל+부정사는 원인(‘이끌어 내셨으므로’)",
+        "argument_ko": "KRV·ASV·RV1909 전통 독법. 두 반절의 לַיהוָה를 똑같이 ‘야훼께’(수혜)로 읽어 일관된다. 절 전체가 의례 규정 문맥(12:14-20, 12:24-27)에 있다.",
+        "objection_ko": "ל+부정사를 원인으로 읽는 것은 덜 흔하다. 첫 반절과 둘째 반절이 같은 말을 되풀이하게 되어 ‘הוּא־הַלַּיְלָה הַזֶּה’(그것이 곧 이 밤)의 동일시 기능이 약해진다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "첫 반절 시간 해석: ‘야훼께서 그들을 이끌어 내실 때 (이스라엘이/야훼께서) 지킨 밤’",
+        "argument_ko": "ל+부정사의 시간 용법도 가능하다.",
+        "objection_ko": "주체를 열어 두는 장점이 있으나 한국어로는 문장이 모호해진다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.12.42a: preferred wording makes YHWH the one who kept watch ('a night of watching for YHWH, to bring them out' / '야훼께서 … 지키신 밤').",
+    "objection_ko": "가장 강한 반론: (1) 두 반절에 똑같이 לַיהוָה와 שִׁמֻּרִים이 나오므로 같은 뜻(‘야훼께 드리는 지킴’)으로 읽는 것이 가장 단순하다. 첫 반절만 야훼를 지킴의 주체로 만들면 같은 낱말을 다르게 해석하는 셈이다. (2) 이 절은 12:14-20, 12:24-27의 의례 규정 한가운데 있으므로 첫 반절도 ‘이스라엘이 지킬 밤’을 규정하는 말로 읽힌다. (3) KRV·ASV·RV1909가 모두 B를 택했고, 한국 독자에게 ‘여호와 앞에 지킬 밤’이 익숙하다. (4) 하나님이 ‘깨어 지켜야’ 하는 존재처럼 읽힐 수 있다는 신학적 거부감이 있다(시 121:4 ‘졸지도 주무시지도 않는’과 비교되나, 이는 반론의 정서이지 문법 근거는 아니다).",
+    "response_ko": "(1) en/es 선호 문구는 두 반절 모두 ‘for YHWH / para YHWH’, ‘YHWH’s / de YHWH’로 같은 전치사 뜻을 유지하고 주체를 문법적으로 강제하지 않는다. 다만 ko는 한국어에서 소유·수혜를 동시에 담는 표현이 어려워 ‘야훼께서 … 지키신’으로 주체를 명시했다 — 이는 해석 선택이며 각주 필요. (2) ל+부정사의 목적 용법과 LXX ὥστε ἐξαγαγεῖν이 A를 지지한다. (3) 수용 전통은 본문 증거가 아니다. (4) ‘지키다’는 ‘깨어 보호하다’로도 읽히므로 신인동형적 문제는 크지 않다. 결론: A를 유지하되 신뢰도는 ‘중간’, 대안 B를 필수 각주로 둔다. 편집자가 세 언어의 주체 중립성을 우선하면 ko를 ‘야훼를 위한 지킴의 밤이었다’로 바꾸는 것이 합리적 대안이다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.12.40 preferred A (Egypt-only 430 years)",
+      "objection_ko": "출 6장 족보 연수(레위 137, 고핫 133, 아므람 137)와 모세 80세(출 7:7, 고정 WLC에서 확인)를 연속 세대로 더하면 이집트 체류 430년이 산술적으로 어렵다. LXX형 독법이 더 ‘원래’일 수 있다.",
+      "response_ko": "이는 역사·연대 재구성 문제다. 프로젝트 원칙상 고정 MT 표시문을 번역하고, 이문과 연대 문제는 주석으로 분리한다. 족보 생략·대표 세대 해석 등 MT 내부 설명도 존재한다(구체 문헌은 이번 미확인). 본문 조화는 하지 않는다."
+    },
+    {
+      "target": "Exod.12.41 ‘군대/hosts/huestes’",
+      "objection_ko": "‘군대’는 무장 병력을 연상시켜 실제 이동 집단(아이와 섞인 무리, 12:37-38)과 맞지 않는다.",
+      "response_ko": "출애굽기의 의도적 대오 은유를 보존하기 위해 유지하고, 12:37-38과의 관계는 주석으로 설명한다. es ‘huestes’, en ‘hosts’는 군대와 큰 무리를 모두 뜻해 완충 역할을 한다. ko ‘군대’ 대신 ‘대오’도 편집 대안."
+    },
+    {
+      "target": "Exod.12.42b tense/modality",
+      "objection_ko": "‘지키는 밤’은 규정성이 약하다; ‘지켜야 할 밤’이 문맥(규례)에 맞다.",
+      "response_ko": "원문에 의무 동사가 없어 서술형을 택했다. 문맥상 규정성은 ‘대대로’로 충분히 드러난다. 편집이 규정성을 명시하기로 하면 ‘지켜야 할’로 바꿀 수 있다(대안)."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.12.40": {
+      "ko": "이스라엘 자손들이 이집트에 거주한 기간은 사백삼십 년이었다.",
+      "en": "The time that the Israelites lived in Egypt was four hundred thirty years.",
+      "es": "El tiempo que los israelitas habitaron en Egipto fue de cuatrocientos treinta años."
+    },
+    "Exod.12.41": {
+      "ko": "사백삼십 년이 끝나던 때, 바로 그날에 야훼의 모든 군대가 이집트 땅에서 나왔다.",
+      "en": "At the end of four hundred thirty years, on that very day, all the hosts of YHWH went out from the land of Egypt.",
+      "es": "Al cabo de cuatrocientos treinta años, en ese mismo día, salieron de la tierra de Egipto todas las huestes de YHWH."
+    },
+    "Exod.12.42": {
+      "ko": "그 밤은 야훼께서 그들을 이집트 땅에서 이끌어 내시려고 지키신 밤이었다. 바로 이 밤은 야훼의 것이니, 모든 이스라엘 자손들이 대대로 지키는 밤이다.",
+      "en": "It was a night of watching for YHWH, to bring them out of the land of Egypt. This very night belongs to YHWH, a night of watching for all the Israelites throughout their generations.",
+      "es": "Fue noche de vigilia para YHWH, para sacarlos de la tierra de Egipto. Esta misma noche es de YHWH, noche de vigilia para todos los israelitas por sus generaciones."
+    }
+  },
+  "clause_coverage_check": {
+    "Exod.12.40": [
+      "מוֹשַׁב (time/dwelling) -> 기간 / time / tiempo",
+      "בְּנֵי יִשְׂרָאֵל -> 이스라엘 자손들 / the Israelites / los israelitas",
+      "אֲשֶׁר יָשְׁבוּ בְּמִצְרָיִם -> 이집트에 거주한 / lived in Egypt / habitaron en Egipto",
+      "430 שָׁנָה -> 사백삼십 년 / four hundred thirty years / cuatrocientos treinta años"
+    ],
+    "Exod.12.41": [
+      "וַיְהִי מִקֵּץ 430 -> 사백삼십 년이 끝나던 때 / At the end of ... / Al cabo de ...",
+      "וַיְהִי בְּעֶצֶם הַיּוֹם הַזֶּה -> 바로 그날에 / on that very day / en ese mismo día",
+      "יָצְאוּ -> 나왔다 / went out / salieron",
+      "כָּל־צִבְאוֹת יְהוָה -> 야훼의 모든 군대 / all the hosts of YHWH / todas las huestes de YHWH",
+      "מֵאֶרֶץ מִצְרָיִם -> 이집트 땅에서 / from the land of Egypt / de la tierra de Egipto"
+    ],
+    "Exod.12.42": [
+      "לֵיל שִׁמֻּרִים הוּא לַיהוָה -> 야훼께서 … 지키신 밤이었다 / a night of watching for YHWH / noche de vigilia para YHWH",
+      "לְהוֹצִיאָם מֵאֶרֶץ מִצְרָיִם -> 그들을 이집트 땅에서 이끌어 내시려고 / to bring them out of the land of Egypt / para sacarlos de la tierra de Egipto",
+      "הוּא־הַלַּיְלָה הַזֶּה לַיהוָה -> 바로 이 밤은 야훼의 것 / This very night belongs to YHWH / Esta misma noche es de YHWH",
+      "שִׁמֻּרִים לְכָל־בְּנֵי יִשְׂרָאֵל -> 모든 이스라엘 자손들이 … 지키는 밤 / a night of watching for all the Israelites / noche de vigilia para todos los israelitas",
+      "לְדֹרֹתָם -> 대대로 / throughout their generations / por sus generaciones"
+    ]
+  },
+  "supplied_words_ko": [
+    {
+      "id": "Exod.12.40",
+      "supplied": "‘기간/time/tiempo’는 מוֹשָׁב의 문맥 의미(술어가 연수)를 풀어 쓴 것이다."
+    },
+    {
+      "id": "Exod.12.42",
+      "supplied": "ko ‘지키신’의 주어 ‘야훼께서’는 해석적 명시다(원문은 ‘야훼께 속한 지킴의 밤’). ko 둘째 반절 ‘지키는’의 주어 ‘이스라엘 자손들이’도 원문의 ‘이스라엘 자손들에게(ל)’를 행위자로 풀어 쓴 것이다. en ‘belongs to’, es ‘es de’는 לַיהוָה의 소유 해석."
+    }
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.12.40",
+      "note_ko": "마소라 본문은 ‘이집트에’ 거주한 기간을 430년으로 적는다. 칠십인역(이번에 확인한 Swete판 디지털 본문)은 ‘이집트 땅과 가나안 땅에서’로 범위를 넓히고 연수를 435년으로 적으며, 사마리아 오경도 가나안을 포함한다고 보고된다(미확인). 갈라디아서 3:17은 약속에서 율법까지를 430년으로 센다. 이 번역은 원문 표시(MT)를 따르며 이문을 본문에 섞지 않는다."
+    },
+    {
+      "id": "Exod.12.41",
+      "note_ko": "‘군대’는 이스라엘을 질서 있는 대오로 그리는 출애굽기 표현이다(12:17, 12:51). 실제로는 백성 전체가 포함된다(12:37-38). ‘바로 그날’은 원문에서 ‘바로 이날’이다."
+    },
+    {
+      "id": "Exod.12.42",
+      "note_ko": "‘지킴(שִׁמֻּרִים)’은 이 절에만 두 번 나오는 낱말로 ‘파수·철야·준수’를 함께 뜻한다. 첫 문장은 ‘이스라엘이 야훼께 지킬 밤, 그분이 그들을 이끌어 내셨기 때문에’로도 읽을 수 있다(전통 번역들의 독법). 이 번역은 야훼께서 지키신 밤과 이스라엘이 지키는 밤의 대응으로 읽었다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "Divine name spelling",
+      "finding_ko": "선정본에서 en/es는 Gen 2:4-2:19 구간만 Yahweh/Yahvé이고 나머지는 YHWH이며, ko는 창세기 야훼·시편 1편 YHWH가 섞여 있다. 출애굽기 진입 전에 표기 통일 결정이 필요하다(앞선 exod-3-12-15 검토와 같은 지적)."
+    },
+    {
+      "topic": "צבאות across Exodus 6:26, 7:4, 12:17, 12:41, 12:51",
+      "finding_ko": "같은 낱말을 출애굽기 전체에서 ‘군대/대오’ 중 하나로 통일하는 결정이 필요하다."
+    },
+    {
+      "topic": "שמר in Exod 12:17, 12:24-25, 12:42",
+      "finding_ko": "‘지키다’ 낱말 고리를 세 언어에서 유지할지(en keep/observe/watch, es guardar/vigilia) 결정이 필요하다. 이번 en/es는 שִׁמֻּרִים을 watching/vigilia로 옮겨 12:17 ‘keep/guardar’와의 고리가 약하다."
+    }
+  ],
+  "final_opinion_ko": "세 절 모두 고정 WLC(MT 표시문)를 번역했고 이문이나 재구성을 본문에 채택하지 않았다. 핵심 판단: (1) 40절 관계절은 같은 어근 반복 구조에 따라 ‘거주 기간’을 꾸미는 것으로 읽어 430년을 이집트 거주 기간으로 옮긴다(신뢰도 높음). 거주 범위·연수 문제는 번역이 아니라 본문·연대 문제이며, 이번에 실제로 확인한 Swete 칠십인역 디지털판의 ‘이집트 땅과 가나안 땅에서 … 435년’과 갈 3:17을 필수 각주로 분리 제시한다. (2) 41절은 ‘바로 그날’과 ‘야훼의 모든 군대(hosts/huestes)’를 택한다(신뢰도 중상). (3) 42절 שִׁמֻּרִים은 야훼가 지키신 밤 → 이스라엘이 지키는 밤의 대응으로 읽는다. 전통 번역(KRV/ASV/RV1909)과 다른 선택이므로 신뢰도 중간이고 대안 B를 필수 각주로 둔다. 기존 Sonnet 초안은 42절에서 언어마다 다른 독법을 택했으므로 그대로 채택하면 안 된다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.12.40",
+      "level": "high (translation of MT); unresolved (historical duration)",
+      "note_ko": "번역 자체는 분명하다. 실제 체류 기간과 원래 본문 형태는 이 검토가 판단하지 않는다."
+    },
+    {
+      "id": "Exod.12.41",
+      "level": "medium-high",
+      "note_ko": "‘그날/이날’, ‘군대/대오/huestes’는 편집 선택."
+    },
+    {
+      "id": "Exod.12.42",
+      "level": "medium",
+      "note_ko": "첫 반절의 지킴 주체와 ל+부정사 용법이 해석 선택."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.12.40",
+      "condition_ko": "사마리아 오경·라흘프스/괴팅겐 칠십인역·쿰란 출애굽기 사본의 실제 본문을 URL·발췌로 확인해 보고된 독법이 달라지면 이문 각주를 고친다. 편집이 KJV형 모호성(대안 B)을 보존하기로 정하면 ko를 ‘이집트에 살았던 이스라엘 자손들의 거주 기간은’으로 바꾼다."
+    },
+    {
+      "id": "Exod.12.41",
+      "condition_ko": "출애굽기 전체의 צבאות·‘바로 이날’ 통일 방침이 정해질 때. Swete 인쇄면에서 41절 끝 νυκτός와 ‘ἣ’ 표기를 확인했을 때 각주를 보정한다."
+    },
+    {
+      "id": "Exod.12.42",
+      "condition_ko": "독립 GPT/Gemini 검토나 히브리어 문법 전문가 검토가 첫 반절을 원인·수혜 독법(B)으로 지지하는 구체적 문법 근거(ל+부정사 원인 용례 등)를 제시하거나, 편집이 세 언어의 주체 중립 표현을 우선하기로 할 때 ko를 ‘야훼를 위한 지킴의 밤’ 계열로 바꾼다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.12.40",
+      "issue": "Scope (Egypt only vs Egypt and Canaan) and figure (430 vs 435) across MT, LXX witnesses and the reported Samaritan Pentateuch reading",
+      "status": "unresolved_textual_and_historical",
+      "needed_evidence": "Actual Samaritan Pentateuch text, Rahlfs/Göttingen LXX with apparatus, Qumran Exodus evidence, checked Swete page image; editorial note policy"
+    },
+    {
+      "id": "Exod.12.40",
+      "issue": "Chronological tension with Exod 6 genealogy and Gen 15:16 'fourth generation'",
+      "status": "unresolved_historical_out_of_translation_scope",
+      "needed_evidence": "Scholarly chronology discussion; not a translation decision"
+    },
+    {
+      "id": "Exod.12.41",
+      "issue": "Swete digital text lacks an equivalent of 'on this very day' and ends with νυκτός; possible digitization issue 'ἣ'",
+      "status": "unverified_digital_text",
+      "needed_evidence": "Swete printed page image or another edition"
+    },
+    {
+      "id": "Exod.12.42",
+      "issue": "Agent of shimmurim in the first half (YHWH vs Israel) and function of l+infinitive (purpose vs cause)",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Independent GPT/Gemini review; specialist grammar check; editorial decision"
+    },
+    {
+      "id": "Exod.12.41-42",
+      "issue": "Project-wide rendering of divine name and tsevaot/shamar consistency in Exodus",
+      "status": "editorial_decision_pending",
+      "needed_evidence": "Versioned editorial convention decision"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-31T02:17:10Z) into private/upstream_cache",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "result": "200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-10-31T02:19:30Z (approx.)",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "result": "200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LogosBible/SBLGNT/master/data/sblgnt/text/Gal.txt",
+      "accessed_utc": "2026-10-31T02:19:10Z (approx.)",
+      "result": "200",
+      "note": "master branch, not commit-pinned"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg002/tlg0527.tlg002.1st1K-grc1.xml",
+      "accessed_utc": "2026-10-31T02:19:36Z",
+      "file_sha256": "cdfe6210c48a54f38415f01d8ca4fd6a56cd78615c1c385243c5a6a7ac930aa7",
+      "repository_head_at_access": "ed91552c52530c8f5a3ddf2dd767e899372a804c (git ls-remote refs/heads/master shortly after fetch)",
+      "result": "200",
+      "rights": "Swete text encoding CC BY-SA 4.0 (per nathans/lxx-swete README derived from this source); short excerpts only"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nathans/lxx-swete/master/README.md",
+      "accessed_utc": "2026-10-31T02:19:20Z (approx.)",
+      "result": "200",
+      "note": "used only for provenance/licence statement"
+    },
+    {
+      "url": "https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=2&page=12",
+      "result": "proxy 403, not accessed"
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/02.ExodI.mlxx",
+      "result": "proxy 403, not accessed"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+      "result": "proxy 403, not accessed"
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran, Peshitta, Targum, Vulgate or Josephus check was performed.",
+    "LXX lines are a digital encoding of Swete's diplomatic edition opened at an unpinned branch head; no page image or critical apparatus was checked.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "No GPT, Gemini, Antigravity or human review is represented here; no unanimity is claimed.",
+    "No remaining credit balance, cost or credit deduction is known or asserted.",
+    "The preferred wording is an unadopted model proposal, not a selected translation."
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/bible-hard-review-mu57q5",
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261031T021710Z-43ec4e0b.json",
+    "packet_sha256": "1238b0700c9e2656ad70eb7d98ee4ec58112a9e1d03868cbf57af2a407e91f80",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.12.40",
+        "raw_xml": "<verse osisID=\"Exod.12.40\">\n          <w lemma=\"c/4186\" n=\"1.1.0\" morph=\"HC/Ncmsc\" id=\"02EMQ\">וּ/מוֹשַׁב֙</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"021qL\">בְּנֵ֣י</w>\n          <w lemma=\"3478\" n=\"1.1\" morph=\"HNp\" id=\"02sHh\">יִשְׂרָאֵ֔ל</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02nw3\">אֲשֶׁ֥ר</w>\n          <w lemma=\"3427\" n=\"1.0\" morph=\"HVqp3cp\" id=\"02hip\">יָשְׁב֖וּ</w>\n          <w lemma=\"b/4714\" n=\"1\" morph=\"HR/Np\" id=\"02qKh\">בְּ/מִצְרָ֑יִם</w>\n          <w lemma=\"7970\" morph=\"HAcbpa\" id=\"02K3s\">שְׁלֹשִׁ֣ים</w>\n          <w lemma=\"8141\" n=\"0.1\" morph=\"HNcfsa\" id=\"02Udm\">שָׁנָ֔ה</w>\n          <w lemma=\"c/702\" morph=\"HC/Acfsa\" id=\"02pSF\">וְ/אַרְבַּ֥ע</w>\n          <w lemma=\"3967\" n=\"0.0\" morph=\"HAcbpa\" id=\"02wfx\">מֵא֖וֹת</w>\n          <w lemma=\"8141\" n=\"0\" morph=\"HNcfsa\" id=\"02rqa\">שָׁנָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "bcf206148388655c397aa12440c5aaacd79f716d8455e6641d8c3f230c210c3f"
+      },
+      {
+        "id": "Exod.12.41",
+        "raw_xml": "<verse osisID=\"Exod.12.41\">\n          <w lemma=\"c/1961\" n=\"1.1.1\" morph=\"HC/Vqw3ms\" id=\"02ZRa\">וַ/יְהִ֗י</w>\n          <w lemma=\"m/7093\" n=\"1.1.0\" morph=\"HR/Ncmsc\" id=\"02XtJ\">מִ/קֵּץ֙</w>\n          <w lemma=\"7970\" morph=\"HAcbpa\" id=\"02D2e\">שְׁלֹשִׁ֣ים</w>\n          <w lemma=\"8141\" n=\"1.1\" morph=\"HNcfsa\" id=\"02Mu5\">שָׁנָ֔ה</w>\n          <w lemma=\"c/702\" morph=\"HC/Acfsa\" id=\"02nSW\">וְ/אַרְבַּ֥ע</w>\n          <w lemma=\"3967\" n=\"1.0\" morph=\"HAcbpa\" id=\"028m3\">מֵא֖וֹת</w>\n          <w lemma=\"8141\" n=\"1\" morph=\"HNcfsa\" id=\"02fBz\">שָׁנָ֑ה</w>\n          <w lemma=\"c/1961\" n=\"0.1.1\" morph=\"HC/Vqw3ms\" id=\"02yf4\">וַ/יְהִ֗י</w>\n          <w lemma=\"b/6106\" n=\"0.1.0\" morph=\"HR/Ncfsc\" id=\"02kib\">בְּ/עֶ֨צֶם֙</w>\n          <w lemma=\"d/3117\" morph=\"HTd/Ncmsa\" id=\"02yQw\">הַ/יּ֣וֹם</w>\n          <w lemma=\"d/2088\" n=\"0.1\" morph=\"HTd/Pdxms\" id=\"02vAd\">הַ/זֶּ֔ה</w>\n          <w lemma=\"3318\" n=\"0.0.0\" morph=\"HVqp3cp\" id=\"02hNu\">יָֽצְא֛וּ</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"0293D\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6635 a\" morph=\"HNcbpc\" id=\"02Evy\">צִבְא֥וֹת</w>\n          <w lemma=\"3068\" n=\"0.0\" morph=\"HNp\" id=\"02qSH\">יְהוָ֖ה</w>\n          <w lemma=\"m/776\" morph=\"HR/Ncbsc\" id=\"02vYV\">מֵ/אֶ֥רֶץ</w>\n          <w lemma=\"4714\" n=\"0\" morph=\"HNp\" id=\"02rDA\">מִצְרָֽיִם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "741ef2743b77f78d5a7cefebbc00ca9e183da38028af2051a26d8d7b33432aba"
+      },
+      {
+        "id": "Exod.12.42",
+        "raw_xml": "<verse osisID=\"Exod.12.42\">\n          <w lemma=\"3915\" morph=\"HNcmsc\" id=\"02Z3T\">לֵ֣יל</w>\n          <w lemma=\"8107\" morph=\"HNcmpa\" id=\"02fn2\">שִׁמֻּרִ֥ים</w>\n          <w lemma=\"1931\" n=\"1.1.0\" morph=\"HPp3ms\" id=\"024nS\">הוּא֙</w>\n          <w lemma=\"l/3068\" n=\"1.1\" morph=\"HR/Np\" id=\"029p2\">לַֽ/יהוָ֔ה</w>\n          <w lemma=\"l/3318\" n=\"1.0\" morph=\"HR/Vhc/Sp3mp\" id=\"025Sr\">לְ/הוֹצִיאָ֖/ם</w>\n          <w lemma=\"m/776\" morph=\"HR/Ncbsc\" id=\"02np9\">מֵ/אֶ֣רֶץ</w>\n          <w lemma=\"4714\" n=\"1\" morph=\"HNp\" id=\"02au6\">מִצְרָ֑יִם</w>\n          <w lemma=\"1931\" morph=\"HPp3ms\" id=\"02Yj4\">הֽוּא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/3915\" morph=\"HTd/Ncmsa\" id=\"02P4Y\">הַ/לַּ֤יְלָה</w>\n          <w lemma=\"d/2088\" n=\"0.1.0\" morph=\"HTd/Pdxms\" id=\"023AT\">הַ/זֶּה֙</w>\n          <w lemma=\"l/3068\" n=\"0.1\" morph=\"HR/Np\" id=\"02MMh\">לַֽ/יהוָ֔ה</w>\n          <w lemma=\"8107\" n=\"0.0.0\" morph=\"HNcmpa\" id=\"02C6R\">שִׁמֻּרִ֛ים</w>\n          <w lemma=\"l/3605\" morph=\"HR/Ncmsc\" id=\"02Tsm\">לְ/כָל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"02C4T\">בְּנֵ֥י</w>\n          <w lemma=\"3478\" n=\"0.0\" morph=\"HNp\" id=\"02ErU\">יִשְׂרָאֵ֖ל</w>\n          <w lemma=\"l/1755\" n=\"0\" morph=\"HR/Ncmpc/Sp3mp\" id=\"02b1D\">לְ/דֹרֹתָֽ/ם</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "cdf4d0116993dbb7f9aeedc6232051933d59dbf08e1c70ce389f9b110fd65c15"
+      }
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T02:17:10.793545+00:00",
+    "claim_pushed": "2026-10-31T02:17Z (commit on claude/bible-hard-review-mu57q5 before any model review)",
+    "independent_reading_saved": "2026-10-31T02:18:50Z (/tmp/hr/independent.json mtime)",
+    "earlier_draft_opened": "about 2026-10-31T02:19Z, after the independent reading was saved",
+    "completed": "2026-10-31T02:25:17Z"
+  },
+  "memo_ko": "automation/cloud-reviews/20261031T021710Z-43ec4e0b.ko.md",
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "unit_id_matches_claim": true,
+    "preferred_wording_ids_exactly_once": true,
+    "ko_en_es_nonempty": true,
+    "independent_initial_reading_ids_exactly_once": true,
+    "initial_proposals_ids_exactly_once": true,
+    "alternatives_cover_all_ids": true,
+    "clause_coverage_cover_all_ids": true,
+    "reconsider_if_cover_all_ids": true,
+    "confidence_cover_all_ids": true,
+    "clause_word_ranges_valid_and_cover_every_word": true,
+    "no_lord_or_yeohowa_in_preferred": true,
+    "state_is_unadopted_model_review": true,
+    "selected_texts_modified": false,
+    "no_human_certification_claim": true,
+    "rights_recorded": true,
+    "self_check_is_not_independent_review": true
+  }
+}
