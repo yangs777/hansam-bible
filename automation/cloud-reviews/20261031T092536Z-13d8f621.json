@@ -1,0 +1,1492 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T092536Z-13d8f621",
+  "unit_id": "exod-33-18-23",
+  "verse_ids": [
+    "Exod.33.18",
+    "Exod.33.19",
+    "Exod.33.20",
+    "Exod.33.21",
+    "Exod.33.22",
+    "Exod.33.23"
+  ],
+  "unit_issue_ko": "영광/선함·얼굴/등·볼 수 없음과 다른 현현 본문",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.33.18-23 = 전통 장절 출애굽기 33:18-23(저장소 KRV/ASV/RV1909의 33:18-23 내용이 같은 범위로 대응함을 확인). 칠십인역 OCR 파일 번호 2.33.18-2.33.23. 병행구 Gen.32.31(WLC/OSIS) = 개역·영어 창세기 32:30(ASV 32:30 내용으로 확인). Deut.5.24, Num.12.8, Judg.6.22, Judg.13.22, 1Kgs.19.11, Isa.6.5는 ASV 같은 장절 내용과 대응(Deut.5.24, Num.12.8만 실제 대조).",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어는 source.verses[].raw_xml에만 있다(클레임 패킷에서 스크립트로 복사, 고정 WLC 파일 안 1회 출현 확인). 절(clause) 표시 히브리어와 병행구 발췌는 OSHB 낱말 토큰에서 스크립트로 파생한 표기(슬래시 제거, 칸틸레이션·메텍·파섹·소프 파숙 제거, 마케프와 seg 생략, NFC)이며 원문 표기가 아니다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T09:27Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. Rechecked before commit (see timestamps_utc.identity_rechecked). The runtime system prompt also names the configured model as claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVJAczYRZ82VmKzNgSu",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Service metadata only; no balance, cost or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T09:25:36Z",
+    "claim_pushed": "about 2026-10-31T09:26Z (commit on claude/bible-hard-review-beg93g before any model review)",
+    "independent_reading_from_packet": "2026-10-31T09:26Z-09:28:25Z (scratch file of initial proposals and notes written outside the repository; completion time recorded 09:28:25Z)",
+    "earlier_records_search": "2026-10-31T09:26Z-09:27Z (search across main and all fetched claude/ branches; only cross-references in other units found)",
+    "reception_checks": "2026-10-31T09:28:42Z-09:31Z (library, LXX OCR and pinned WLC parallels read after the initial proposals were saved at 09:28:25Z)",
+    "review_written": "2026-10-31T09:31Z-09:37Z (builder and spec scratch files mtimes 09:31:37Z-09:35:57Z, outside the repository)",
+    "identity_rechecked": "2026-10-31T09:35:57Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; effort_level high; rate_limit_info ccr_promotional allowed, isUsingOverage false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.33.18",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02Gxh",
+            "02Gxh"
+          ],
+          "derived_hebrew": "וַיֹּאמַר",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "kind": "discourse",
+          "reading_ko": "‘그가 말했다’. 명시 주어가 없으나 33:17에서 야훼가 모세에게 말한 직후이므로 화자는 모세다. 프로젝트 선정본 관례(Gen.3.10, Gen.4.9: 암시된 사람 화자 → ‘그가/He/Él’)를 따르고, KRV처럼 ‘모세가’를 보충하는 안은 대안으로 둔다. 관찰: 첫 낱말 וַיֹּאמַר에 아트나흐(U+0591)가 있고 휴지형(파타흐) 모음이다 — 짧은 절에서 ‘그가 말했다’ 뒤에 절의 주 분할이 온다(33:14 וַיֹּאמַר도 같은 휴지형). 번역에 영향은 없다."
+        },
+        {
+          "word_id_range": [
+            "02cah",
+            "02Wyh"
+          ],
+          "derived_hebrew": "הַרְאֵנִי נָא אֶת כְּבֹדֶךָ",
+          "morph": [
+            "HVhv2ms/Sp1cs",
+            "HTe",
+            "HTo",
+            "HNcbsc/Sp2ms"
+          ],
+          "kind": "lexical/syntactic",
+          "reading_ko": "הַרְאֵנִי: ראה 히필 명령 2남단 + 1공단 목적 접미 ‘내게 보여 주십시오’. נָא는 공손한 청원 첨사(‘부디/please/te ruego’). אֶת־כְּבֹדֶךָ ‘당신의 영광’. כָּבוֹד는 무게·위엄에서 나온 낱말로, 출애굽기에서 구름·불로 나타나는 가시적 현현(16:10; 24:16-17)과 연결된다. 모세가 무엇을 구했는지(가시적 현현인가, 하나님 자신인가)는 열려 있으며, 본문은 낱말 그대로 ‘영광’으로 둔다. 같은 장 33:13의 요청(‘당신의 길을 알게 해 주십시오’)과 구분된다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.33.19",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02wZ3",
+            "02wZ3"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "kind": "discourse",
+          "reading_ko": "명시 주어 없는 וַיֹּאמֶר; 화자는 야훼(18절 요청의 상대). ko ‘그분이 말씀하셨다’, en ‘He said’, es ‘Él dijo’."
+        },
+        {
+          "word_id_range": [
+            "023jP",
+            "02AkW"
+          ],
+          "derived_hebrew": "אֲנִי אַעֲבִיר כָּל טוּבִי עַל פָּנֶיךָ",
+          "morph": [
+            "HPp1cs",
+            "HVhi1cs",
+            "HNcmsc",
+            "HNcmsc/Sp1cs",
+            "HR",
+            "HNcbpc/Sp2ms"
+          ],
+          "kind": "lexical",
+          "reading_ko": "독립 대명사 אֲנִי + 히필 미완료 אַעֲבִיר ‘내가 (친히) 지나가게 하겠다’ — 강조. כָּל־טוּבִי ‘나의 모든 טוּב’: טוּב는 선함·좋은 것·아름다움/화려함·좋은 물건(창 45:18 טוּב אֶרֶץ מִצְרַיִם ‘이집트 땅의 좋은 것’)까지 범위가 넓다. 18절 ‘영광’ 요청에 ‘선함’으로 답하는 낱말 교체가 의도적인지(성품 계시 34:6-7 예고) 동의적 교체인지 결정할 수 없다 → 본문 ‘선함’, 각주에 범위 명시. עַל־פָּנֶיךָ ‘네 얼굴 위로/앞으로’: 관용적으로 ‘네 앞으로’. 34:6 וַיַּעֲבֹר יְהוָה עַל־פָּנָיו가 같은 표현으로 성취를 보도한다."
+        },
+        {
+          "word_id_range": [
+            "02uiE",
+            "02ws2"
+          ],
+          "derived_hebrew": "וְקָרָאתִי בְשֵׁם יְהוָה לְפָנֶיךָ",
+          "morph": [
+            "HC/Vqq1cs",
+            "HR/Ncmsc",
+            "HNp",
+            "HR/Ncbpc/Sp2ms"
+          ],
+          "kind": "lexical/discourse",
+          "reading_ko": "וְקָרָאתִי בְשֵׁם יְהוָה לְפָנֶיךָ: 와우 완료(미래 연속) ‘선포하겠다’. קרא ב+שֵׁם는 사람 주어일 때 ‘이름을 부르다(예배·기원)’(Gen.4.26, 12:8)이지만 여기서는 화자가 야훼 자신이고 34:5-6에서 ‘야훼, 야훼…’ 선언으로 성취되므로 ‘선포하다’가 맞다. 화자가 자신을 3인칭 ‘야훼의 이름’으로 가리킨다 — 번역에서 이 3인칭을 보존한다. ב의 기능(목적어 표지 ‘이름을’ / 도구 ‘이름으로’)은 열려 있다."
+        },
+        {
+          "word_id_range": [
+            "02DSK",
+            "02EBz"
+          ],
+          "derived_hebrew": "וְחַנֹּתִי אֶת אֲשֶׁר אָחֹן",
+          "morph": [
+            "HC/Vqq1cs",
+            "HTo",
+            "HTr",
+            "HVqi1cs"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן: 칼 와우 완료 1공단(חנן) + 관계절 안 칼 미완료 1공단. 같은 동사를 주절과 관계절에 반복하는 idem per idem 구문(3:14 אֶהְיֶה אֲשֶׁר אֶהְיֶה와 같은 유형). 기능: (a) 대상 선택의 주권적 자유(‘내가 은혜 베풀기로 한 자에게’), (b) 실재·강조(‘나는 참으로 은혜를 베푼다’), (c) 미규정·회피(이유를 밝히지 않음). 와우 완료는 앞의 미래 약속 사슬(אַעֲבִיר, וְקָרָאתִי)을 이어 미래로 읽는 것이 가장 자연스럽지만, 일반 원칙 선언(현재)으로 읽는 수용(KRV ‘주고…베푸느니라’)도 가능하다."
+        },
+        {
+          "word_id_range": [
+            "028r7",
+            "026DN"
+          ],
+          "derived_hebrew": "וְרִחַמְתִּי אֶת אֲשֶׁר אֲרַחֵם",
+          "morph": [
+            "HC/Vpq1cs",
+            "HTo",
+            "HTr",
+            "HVpi1cs"
+          ],
+          "kind": "syntactic/lexical",
+          "reading_ko": "וְרִחַמְתִּי אֶת־אֲשֶׁר אֲרַחֵם: 피엘 와우 완료 + 피엘 미완료(רחם ‘긍휼히 여기다’, 명사 רֶחֶם ‘태’와 같은 어근). 앞 절과 평행. 34:6 רַחוּם וְחַנּוּן에서 두 어근이 순서를 바꿔 다시 나온다 — 34장 번역과 용어 일치가 필요하다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.33.20",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02Au6",
+            "02Au6"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "kind": "discourse",
+          "reading_ko": "같은 화자(야훼)의 두 번째 도입 וַיֹּאמֶר — 화자 교체 없이 새 논점(제한)을 여는 표지. ko ‘또 말씀하셨다’, en ‘He also said’, es ‘Y añadió’. 원문에 역접 접속사는 없다."
+        },
+        {
+          "word_id_range": [
+            "02AdW",
+            "02KWZ"
+          ],
+          "derived_hebrew": "לֹא תוּכַל לִרְאֹת אֶת פָּנָי",
+          "morph": [
+            "HTn",
+            "HVqi2ms",
+            "HR/Vqc",
+            "HTo",
+            "HNcbpc/Sp1cs"
+          ],
+          "kind": "lexical",
+          "reading_ko": "לֹא תוּכַל לִרְאֹת אֶת־פָּנָי: יכל 미완료 2남단 부정 ‘너는 … 볼 수 없다’ — 능력 부정(금지 명령형 אַל이 아님). 목적어는 ‘내 얼굴’."
+        },
+        {
+          "word_id_range": [
+            "02GxF",
+            "02CHY"
+          ],
+          "derived_hebrew": "כִּי לֹא יִרְאַנִי הָאָדָם וָחָי",
+          "morph": [
+            "HC",
+            "HTn",
+            "HVqi3ms/Sp1cs",
+            "HTd/Ncmsa",
+            "HC/Vqq3ms"
+          ],
+          "kind": "syntactic/reception",
+          "reading_ko": "כִּי 이유절. לֹא־יִרְאַנִי הָאָדָם וָחָי: 단순 미완료 3남단 + 1공단 목적 접미 ‘(사람이) 나를 보지 못할/않을 것이다’ — 목적어가 ‘내 얼굴’에서 ‘나’로 바뀐다(칠십인역 OCR은 ‘내 얼굴’). 관사 있는 הָאָדָם은 총칭 ‘사람’. וָחָי 와우 완료 ‘그리고 살다’ = 결과(‘보고 살 사람은 없다’). 정확히 같은 결구 הָאָדָם וָחָי가 Deut.5.24(‘하나님이 사람과 말씀하셔도 사람이 살아 있음’)에 있다. 33:11 ‘얼굴과 얼굴을 마주하여’ 말씀하심, Gen.32.31, Num.12.8, Exod.24.10-11, Judg.6.22, 13:22와의 긴장은 번역에서 조화시키지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.33.21",
+      "clauses": [
+        {
+          "word_id_range": [
+            "024Nf",
+            "025L5"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר יְהוָה",
+          "morph": [
+            "HC/Vqw3ms",
+            "HNp"
+          ],
+          "kind": "discourse",
+          "reading_ko": "세 번째 도입 וַיֹּאמֶר יְהוָה — 이번에는 주어 명시. 18-23절의 연속된 야훼 발화 세 번(19, 20, 21) 가운데 마지막 단락(장소 지시) 시작."
+        },
+        {
+          "word_id_range": [
+            "02enK",
+            "02efE"
+          ],
+          "derived_hebrew": "הִנֵּה מָקוֹם אִתִּי",
+          "morph": [
+            "HTm",
+            "HNcmsa",
+            "HR/Sp1cs"
+          ],
+          "kind": "lexical",
+          "reading_ko": "הִנֵּה מָקוֹם אִתִּי: 동사 없는 제시문 ‘보아라, 내 곁에 한 곳이 있다’. מָקוֹם 무관사(‘한 곳’). מָקוֹם이 제의적 ‘성소 자리’ 함의를 가질 수 있으나(창 28:11 등) 본문에서 확정되지 않는다. אִתִּי ‘나와 함께/내 곁에’."
+        },
+        {
+          "word_id_range": [
+            "02KYn",
+            "02rjU"
+          ],
+          "derived_hebrew": "וְנִצַּבְתָּ עַל הַצּוּר",
+          "morph": [
+            "HC/VNq2ms",
+            "HR",
+            "HTd/Ncmsa"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וְנִצַּבְתָּ עַל־הַצּוּר: 니팔 와우 완료 2남단 נצב ‘자리 잡고 서다’ — 지시(미래 명령 기능). הַצּוּר 정관사 ‘그 바위’ — 이미 알려진 바위(17:6 호렙의 그 바위)를 가리키는지, 현장의 바위를 가리키는지 열려 있다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.33.22",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02J3e",
+            "02kg7"
+          ],
+          "derived_hebrew": "וְהָיָה בַּעֲבֹר כְּבֹדִי",
+          "morph": [
+            "HC/Vqq3ms",
+            "HR/Vqc",
+            "HNcbsc/Sp1cs"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "וְהָיָה בַּעֲבֹר כְּבֹדִי: 미래 시간절 도입 וְהָיָה + ב + 부정사 연계형 ‘내 영광이 지나갈 때에’."
+        },
+        {
+          "word_id_range": [
+            "02AFg",
+            "02GfB"
+          ],
+          "derived_hebrew": "וְשַׂמְתִּיךָ בְּנִקְרַת הַצּוּר",
+          "morph": [
+            "HC/Vqq1cs/Sp2ms",
+            "HR/Ncfsc",
+            "HTd/Ncmsa"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וְשַׂמְתִּיךָ בְּנִקְרַת הַצּוּר ‘내가 너를 그 바위 틈에 두겠다’. נִקְרָה ‘틈/갈라진 곳’(Isa.2.21 נִקְרוֹת הַצֻּרִים). 연계 구문의 뒷 명사가 한정이므로 문법상 ‘그 바위의 틈’이지만, 연계형 한정은 ‘바위의 한 틈’으로도 읽힌다(ASV ‘a cleft’, RV1909 ‘una hendidura’)."
+        },
+        {
+          "word_id_range": [
+            "024je",
+            "02aow"
+          ],
+          "derived_hebrew": "וְשַׂכֹּתִי כַפִּי עָלֶיךָ",
+          "morph": [
+            "HC/Vqq1cs",
+            "HNcfsc/Sp1cs",
+            "HR/Sp2ms"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וְשַׂכֹּתִי כַפִּי עָלֶיךָ: סכך(신 철자 שׂ, OSHB lemma 5526 e) 칼 와우 완료 ‘덮다/가리다/막아 보호하다’. כַּף는 ‘손바닥/손’(יָד가 아님). 의인적 표현을 그대로 옮긴다."
+        },
+        {
+          "word_id_range": [
+            "029bQ",
+            "02Yq9"
+          ],
+          "derived_hebrew": "עַד עָבְרִי",
+          "morph": [
+            "HR",
+            "HVqc/Sp1cs"
+          ],
+          "kind": "discourse",
+          "reading_ko": "עַד־עָבְרִי ‘내가 지나갈 때까지’. 같은 절 안에서 주어가 ‘내 영광’(בַּעֲבֹר כְּבֹדִי)에서 ‘나’(עָבְרִי)로 바뀐다 — 영광과 화자 자신이 동일시된다. 번역에서 두 주어를 모두 보존한다."
+        }
+      ]
+    },
+    {
+      "id": "Exod.33.23",
+      "clauses": [
+        {
+          "word_id_range": [
+            "02uGN",
+            "02BG9"
+          ],
+          "derived_hebrew": "וַהֲסִרֹתִי אֶת כַּפִּי",
+          "morph": [
+            "HC/Vhq1cs",
+            "HTo",
+            "HNcfsc/Sp1cs"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וַהֲסִרֹתִי אֶת־כַּפִּי: סור 히필 와우 완료 ‘내 손을 거두겠다’ — 시간 순서 계속."
+        },
+        {
+          "word_id_range": [
+            "02x4e",
+            "02NTm"
+          ],
+          "derived_hebrew": "וְרָאִיתָ אֶת אֲחֹרָי",
+          "morph": [
+            "HC/Vqq2ms",
+            "HTo",
+            "HNcmpc/Sp1cs"
+          ],
+          "kind": "lexical",
+          "reading_ko": "וְרָאִיתָ אֶת־אֲחֹרָי: 와우 완료 2남단 ‘네가 볼 것이다’. אָחוֹר 복수 + 1공단 접미 ‘나의 뒤쪽(들)/등’. 공간적 ‘등·뒷면’이 일차 의미이고, אַחַר(뒤에)와 연결해 ‘내가 지나간 뒤(의 자취)’로 읽는 시간적 해석은 문맥상 가능하나 낱말 자체가 요구하지는 않는다. 칠십인역 OCR τὰ ὀπίσω μου(‘내 뒤의 것들’)도 공간·시간 양쪽으로 열려 있다."
+        },
+        {
+          "word_id_range": [
+            "02hm4",
+            "02P9p"
+          ],
+          "derived_hebrew": "וּפָנַי לֹא יֵרָאוּ",
+          "morph": [
+            "HC/Ncbpc/Sp1cs",
+            "HTn",
+            "HVNi3mp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "וּפָנַי לֹא יֵרָאוּ: 명사 선행 이접 와우(대조 ‘그러나 내 얼굴은’) + 니팔 미완료 3남복(פָּנִים 복수 일치) ‘보이지 않을 것이다’ — 예측과 금지 모두 가능. 절 뒤 원문 표지 <seg type=\"x-samekh\">ס</seg>(세투마 단락 구분)는 raw_xml에 그대로 보존되며 34:1에서 새 단락이 시작됨을 보인다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Exod.33.18",
+      "ko": "그가 말했다. “제발 당신의 영광을 제게 보여 주십시오.”",
+      "en": "He said, “Please show me your glory.”",
+      "es": "Él dijo: «Muéstrame, te ruego, tu gloria»."
+    },
+    {
+      "id": "Exod.33.19",
+      "ko": "그분이 말씀하셨다. “내가 나의 모든 선함을 네 앞으로 지나가게 하고, 네 앞에서 ‘야훼’라는 이름을 선포하겠다. 나는 은혜를 베풀 자에게 은혜를 베풀고, 긍휼히 여길 자를 긍휼히 여긴다.”",
+      "en": "He said, “I will make all my goodness pass before you, and I will proclaim before you the name ‘YHWH.’ I will be gracious to whom I will be gracious, and I will show compassion to whom I will show compassion.”",
+      "es": "Él dijo: «Yo haré pasar toda mi bondad delante de ti, y proclamaré delante de ti el nombre “YHWH”. Seré clemente con quien sea clemente, y tendré compasión de quien tenga compasión»."
+    },
+    {
+      "id": "Exod.33.20",
+      "ko": "또 말씀하셨다. “그러나 너는 내 얼굴을 볼 수 없다. 사람이 나를 보고 살 수는 없기 때문이다.”",
+      "en": "He also said, “But you cannot see my face, for no human can see me and live.”",
+      "es": "Y añadió: «Pero no puedes ver mi rostro, porque nadie puede verme y seguir con vida»."
+    },
+    {
+      "id": "Exod.33.21",
+      "ko": "야훼가 말씀하셨다. “보아라, 내 곁에 한 자리가 있다. 너는 그 바위 위에 서 있어라.”",
+      "en": "YHWH said, “Look, there is a place beside me. You shall stand on the rock.”",
+      "es": "YHWH dijo: «Mira, hay un lugar junto a mí. Tú te pondrás de pie sobre la roca»."
+    },
+    {
+      "id": "Exod.33.22",
+      "ko": "“내 영광이 지나갈 때, 내가 너를 그 바위 틈에 두고, 내가 다 지나갈 때까지 내 손바닥으로 너를 덮어 가리겠다.”",
+      "en": "“When my glory passes by, I will put you in the cleft of the rock and cover you with my hand until I have passed by.”",
+      "es": "«Cuando pase mi gloria, te pondré en la hendidura de la roca y te cubriré con mi mano hasta que yo haya pasado»."
+    },
+    {
+      "id": "Exod.33.23",
+      "ko": "“그다음에 내가 손바닥을 거두면, 너는 내 뒷모습을 볼 것이다. 그러나 내 얼굴은 보이지 않을 것이다.”",
+      "en": "“Then I will take away my hand, and you will see my back; but my face shall not be seen.”",
+      "es": "«Luego retiraré mi mano, y verás mis espaldas; pero mi rostro no se verá»."
+    }
+  ],
+  "initial_proposals_note": "초기 제안은 패킷의 원문만 보고 작성했다(09:28:25Z 기록). 그 전에 열람한 다른 자료는 프로젝트 문서(CLAUDE.md, 정책, 과업 문서), 형식 참고용으로 다른 단위(exod-3-12-15)의 완료 리뷰 구조와 그 안의 Exod.33.19 교차참조 한 줄(KRV/ASV/RV1909 발췌 일부)뿐이다. 이 교차참조 노출은 독립성에 대한 제한으로 기록한다. 이 단위 자체에 대한 다른 AI 제안은 존재하지 않았다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json(main 10983fc 기반)에 출애굽기 절이 없다. 패킷 current_selected가 빈 배열."
+    },
+    {
+      "kind": "decisions_and_model_reviews",
+      "result": "none",
+      "note": "main의 data/decisions.json, data/model-reviews/, reviews/에 Exod.33.18-23 항목 없음(git grep 'Exod\\.33\\.(1[89]|2[0-3])' 전체 ref 대상)."
+    },
+    {
+      "kind": "gpt_gemini_records",
+      "result": "none",
+      "note": "main과 가져온 모든 claude/ 브랜치(55개)에서 이 절들에 대한 GPT 또는 Gemini 저장 기록을 찾지 못했다. 인용·모사하지 않는다."
+    },
+    {
+      "kind": "earlier_cloud_hard_reviews",
+      "result": "none for this unit",
+      "note": "다른 단위 리뷰 두 건이 이 절을 병행구로만 인용한다: origin/claude/bible-difficult-passages-bn9knm automation/cloud-reviews/20261030T141004Z-e2026743.json(gen-16-7-14, Exod.33.20 발췌), origin/claude/bible-hard-review-vqib2m automation/cloud-reviews/20261030T230956Z-6886267e.json(exod-3-12-15, Exod.33.19 원문·수용 발췌). 이 단위에 대한 번역 제안은 아니다."
+    },
+    {
+      "kind": "earlier_cloud_draft",
+      "result": "none",
+      "note": "automation/cloud-queue.json의 Exod.33.batch4(33:18-22)·batch5(33:23)는 원문 토큰만 있는 대기열 항목이다. 어떤 claude/ 브랜치의 automation/cloud-drafts에도 Exod.33.18-23 초안이 없다."
+    },
+    {
+      "kind": "related_selected_text",
+      "result": "found",
+      "path": "data/editorial.json, data/decisions.json",
+      "note": "같은 관용구 קרא בשם יהוה를 쓰는 Gen.4.26 선정본(‘야훼의 이름을 부르기 시작했다/call on the name of YHWH/invocar el nombre de YHWH’)과 그 결정 기록을 비교했다. 선정본은 변경하지 않는다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "이 단위에는 비교할 기존 GPT/Gemini/Claude 번역 기록이나 선정본이 없다. 따라서 비교는 (1) 저장소의 공개 도메인 수용 번역(KRV, ASV, RV1909), (2) 칠십인역 OCR, (3) 같은 관용구를 쓰는 선정본 Gen.4.26으로 한정된다. 어떤 모델 간 합의도 주장하지 않는다.",
+    "Gen.4.26 선정본은 사람 주어의 קרא בשם יהוה를 ‘이름을 부르다(call on/invocar)’로 옮겼다. 33:19와 34:5는 같은 관용구지만 주어가 야훼 자신이므로 ‘부르다’를 그대로 쓰면 ‘야훼가 야훼께 기도한다’는 오독이 생긴다. KRV·ASV·RV1909 모두 33:19를 ‘반포하다/proclaim/proclamar’로 옮겼다. 어휘 일치보다 주어에 따른 화행 차이를 우선해야 한다는 판단을 기록한다.",
+    "RV1909는 33:19b에서 חנן과 רחם의 순서를 바꾸어(‘tendré misericordia … seré clemente’) 옮겼다. KRV는 히브리어 순서(은혜→긍휼)를 지켰다. KRV 로마서 9:15는 칠십인역 ἐλεέω/οἰκτίρω를 ‘긍휼/불쌍히’로 옮겨, 한국어 독자에게 출 33:19의 ‘긍휼’(רחם)과 롬 9:15의 ‘긍휼’(ἐλεέω, 여기서는 חנן 대응)이 서로 다른 히브리어에 걸린다. 이 검토는 히브리어 어근 기준(חנן=은혜, רחם=긍휼)을 유지한다.",
+    "KRV 33:19 ‘나의 모든 선한 형상’은 טוּב에 ‘형상’을 보충한 해석이다. 원문에는 ‘형상’에 해당하는 낱말이 없다.",
+    "KRV 33:14는 פָּנַי יֵלֵכוּ를 ‘내가 친히 가리라’로, ASV는 ‘My presence’로 옮겨 33:11·14·15·19·20·23의 ‘얼굴(פָּנִים)’ 낱말 사슬이 번역에서 보이지 않는다. 이 단위 본문은 20·23절에서 ‘얼굴’을 유지하고, 19절 관용구(עַל־פָּנֶיךָ, לְפָנֶיךָ)는 ‘네 앞’으로 옮기며 각주로 사슬을 밝힌다.",
+    "칠십인역 OCR은 33:18 ‘네 영광’ 대신 ‘너 자신을 내게 나타내 보이라’(ἐμφάνισόν μοι σεαυτόν), 33:19 ‘내 모든 선함을 지나가게’ 대신 ‘내 영광으로 네 앞을 지나가겠다’, 33:20 ‘나를’ 대신 ‘내 얼굴을’로 읽힌다. OCR 품질이 낮고 비평판이 아니므로 이문 근거가 아니라 수용 관찰로만 기록한다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "33:18 ko ‘제발’→‘부디’(נָא의 공손한 청원 어감, ‘제발’은 절박함이 과함). es ‘Muéstrame, te ruego, tu gloria’→‘Te ruego que me muestres tu gloria’(자연스러운 어순).",
+    "33:19 ko·en·es: ‘‘야훼’라는 이름을 선포’(인용 부호로 이름 자체를 내용으로 확정)→‘야훼의 이름을 선포’. 원문 בְשֵׁם יְהוָה의 모호성(이름 자체 선언인지, 이름으로/이름에 걸고 선포인지)과 화자의 3인칭 자기 지칭을 그대로 둔다. 34:6 성취 각주로 내용을 보인다.",
+    "33:19b ko 시제 불일치 수정: 초기 ko ‘긍휼히 여긴다’(현재/일반)와 en ‘will’(미래)이 어긋났다 → ko ‘긍휼히 여기겠다’로 통일. es ‘con quien sea clemente’는 3인칭(‘자비로운 사람에게’)으로 오독될 수 있어 ‘con quien yo sea clemente’, ‘de quien yo tenga compasión’으로 주어를 명시.",
+    "33:20: 초기 ko·en·es에 넣은 ‘그러나/But/Pero’를 뺐다. 원문에 접속사가 없고 대조는 두 번째 וַיֹּאמֶר가 이미 표시한다. 둘째 절 לֹא־יִרְאַנִי는 앞의 לֹא תוּכַל(능력 부정)과 다른 단순 미완료이므로 en ‘can’→‘shall’, es ‘puede verme’→‘me verá’로 구분했다.",
+    "33:21 ko ‘한 자리’→‘한 곳’, en ‘You shall stand’ 유지, es ‘Tú te pondrás de pie’→‘tú te colocarás’(נצב 니팔 ‘자리 잡다’). 33:21-23 발화를 한 인용으로 묶어 Gen.4.6-7 선정본 관례(첫 절에서 열고 마지막 절에서 닫음)를 따랐다.",
+    "33:23 ko ‘뒷모습’→‘등’. ‘뒷모습’은 의인적 표현을 완화하는 해석이 될 수 있어, 20·22·23절의 ‘얼굴/손’과 같은 수준의 문자 번역 ‘등’을 본문에 두고 ‘뒷모습/지나간 뒤’는 대안으로 남겼다."
+  ],
+  "reception_evidence": [
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.33.11",
+      "tag": "face_to_face",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וְדִבֶּר יְהוָה אֶל מֹשֶׁה פָּנִים אֶל פָּנִים כַּאֲשֶׁר יְדַבֵּר אִישׁ אֶל רֵעֵהוּ וְשָׁב אֶל הַמַּחֲנֶה וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן נוּן נַעַר לֹא יָמִישׁ מִתּוֹךְ הָאֹהֶל",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "פָּנִים אֶל־פָּנִים ‘얼굴과 얼굴을 마주하여’ 말씀하심 — 같은 장 안의 긴장. 33:11은 말하기(דבר), 33:20은 보기(ראה)라는 차이가 있다.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.33.14",
+      "tag": "face_goes",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וַיֹּאמַר פָּנַי יֵלֵכוּ וַהֲנִחֹתִי לָךְ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "פָּנַי יֵלֵכוּ ‘내 얼굴이 가리라’ — 얼굴 낱말 사슬; KRV ‘친히’, ASV ‘presence’.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.33.17",
+      "tag": "know_by_name",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וַיֹּאמֶר יְהוָה אֶל מֹשֶׁה גַּם אֶת הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶעֱשֶׂה כִּי מָצָאתָ חֵן בְּעֵינַי וָאֵדָעֲךָ בְּשֵׁם",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "וָאֵדָעֲךָ בְּשֵׁם ‘너를 이름으로 안다’ — 33:19 בְשֵׁם과 이름 사슬.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.34.5",
+      "tag": "fulfilment_name",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וַיֵּרֶד יְהוָה בֶּעָנָן וַיִּתְיַצֵּב עִמּוֹ שָׁם וַיִּקְרָא בְשֵׁם יְהוָה",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "וַיִּקְרָא בְשֵׁם יְהוָה — 33:19 약속의 성취 보도, 같은 관용구.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.34.6",
+      "tag": "fulfilment_pass",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא יְהוָה יְהוָה אֵל רַחוּם וְחַנּוּן אֶרֶךְ אַפַּיִם וְרַב חֶסֶד וֶאֱמֶת",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "וַיַּעֲבֹר יְהוָה עַל־פָּנָיו … רַחוּם וְחַנּוּן — 33:19의 עבר, עַל־פָּנִים, רחם/חנן 성취.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.24.10",
+      "tag": "saw_god",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וַיִּרְאוּ אֵת אֱלֹהֵי יִשְׂרָאֵל וְתַחַת רַגְלָיו כְּמַעֲשֵׂה לִבְנַת הַסַּפִּיר וּכְעֶצֶם הַשָּׁמַיִם לָטֹהַר",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "장로들이 ‘이스라엘의 하나님을 보았다’ — 시각 현현 본문.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.24.11",
+      "tag": "saw_and_lived",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וְאֶל אֲצִילֵי בְּנֵי יִשְׂרָאֵל לֹא שָׁלַח יָדוֹ וַיֶּחֱזוּ אֶת הָאֱלֹהִים וַיֹּאכְלוּ וַיִּשְׁתּוּ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "‘손을 대지 않으셨다… 하나님을 보고(חזה) 먹고 마셨다’ — 보고도 죽지 않음.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.17.6",
+      "tag": "the_rock",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "הִנְנִי עֹמֵד לְפָנֶיךָ שָּׁם עַל הַצּוּר בְּחֹרֵב וְהִכִּיתָ בַצּוּר וְיָצְאוּ מִמֶּנּוּ מַיִם וְשָׁתָה הָעָם וַיַּעַשׂ כֵּן מֹשֶׁה לְעֵינֵי זִקְנֵי יִשְׂרָאֵל",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "עַל־הַצּוּר בְּחֹרֵב ‘호렙의 그 바위 위에’ — 33:21 הַצּוּר의 가능한 선행 지시.",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Num.12.8",
+      "tag": "form_of_yhwh",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "excerpt": "פֶּה אֶל פֶּה אֲדַבֶּר בּוֹ וּמַרְאֶה וְלֹא בְחִידֹת וּתְמֻנַת יְהוָה יַבִּיט וּמַדּוּעַ לֹא יְרֵאתֶם לְדַבֵּר בְּעַבְדִּי בְמֹשֶׁה",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "פֶּה אֶל־פֶּה … וּתְמֻנַת יְהוָה יַבִּיט ‘야훼의 형상을 본다’ — 모세의 특권적 봄.",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Gen.32.31",
+      "tag": "peniel",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "excerpt": "וַיִּקְרָא יַעֲקֹב שֵׁם הַמָּקוֹם פְּנִיאֵל כִּי רָאִיתִי אֱלֹהִים פָּנִים אֶל פָּנִים וַתִּנָּצֵל נַפְשִׁי",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "‘하나님을 얼굴과 얼굴을 마주하여 보았는데도 내 목숨이 건져졌다’ — 영어 32:30.",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.5.24",
+      "tag": "adam_vachai",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "excerpt": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת כְּבֹדוֹ וְאֶת גָּדְלוֹ וְאֶת קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּי יְדַבֵּר אֱלֹהִים אֶת הָאָדָם וָחָי",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "הֶרְאָנוּ … אֶת־כְּבֹדוֹ … הָאָדָם וָחָי — 같은 결구와 같은 동사(ראה 히필)+כָּבוֹד, 여기서는 ‘사람이 살아 있었다’.",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Judg.6.22",
+      "tag": "gideon",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "excerpt": "וַיַּרְא גִּדְעוֹן כִּי מַלְאַךְ יְהוָה הוּא וַיֹּאמֶר גִּדְעוֹן אֲהָהּ אֲדֹנָי יְהוִה כִּי עַל כֵּן רָאִיתִי מַלְאַךְ יְהוָה פָּנִים אֶל פָּנִים",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "‘야훼의 사자를 얼굴과 얼굴을 마주하여 보았다’ — 죽음의 두려움(6:23 응답).",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Judg.13.22",
+      "tag": "manoah",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "excerpt": "וַיֹּאמֶר מָנוֹחַ אֶל אִשְׁתּוֹ מוֹת נָמוּת כִּי אֱלֹהִים רָאִינוּ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "מוֹת נָמוּת כִּי אֱלֹהִים רָאִינוּ ‘하나님을 보았으니 우리가 반드시 죽겠다’ — 33:20 전제의 수용.",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "1Kgs.19.11",
+      "tag": "elijah_horeb",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+      "excerpt": "וַיֹּאמֶר צֵא וְעָמַדְתָּ בָהָר לִפְנֵי יְהוָה וְהִנֵּה יְהוָה עֹבֵר וְרוּחַ גְּדוֹלָה וְחָזָק מְפָרֵק הָרִים וּמְשַׁבֵּר סְלָעִים לִפְנֵי יְהוָה לֹא בָרוּחַ יְהוָה וְאַחַר הָרוּחַ רַעַשׁ לֹא בָרַעַשׁ יְהוָה",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "וְהִנֵּה יְהוָה עֹבֵר — 호렙의 산·동굴에서 야훼가 ‘지나감’. 서사 병행.",
+      "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "1Kgs.19.13",
+      "tag": "elijah_face_covered",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+      "excerpt": "וַיְהִי כִּשְׁמֹעַ אֵלִיָּהוּ וַיָּלֶט פָּנָיו בְּאַדַּרְתּוֹ וַיֵּצֵא וַיַּעֲמֹד פֶּתַח הַמְּעָרָה וְהִנֵּה אֵלָיו קוֹל וַיֹּאמֶר מַה לְּךָ פֹה אֵלִיָּהוּ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "וַיָּלֶט פָּנָיו בְּאַדַּרְתּוֹ ‘겉옷으로 얼굴을 감쌌다’ — 가림 모티프 병행.",
+      "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Isa.6.5",
+      "tag": "isaiah",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "excerpt": "וָאֹמַר אוֹי לִי כִי נִדְמֵיתִי כִּי אִישׁ טְמֵא שְׂפָתַיִם אָנֹכִי וּבְתוֹךְ עַם טְמֵא שְׂפָתַיִם אָנֹכִי יוֹשֵׁב כִּי אֶת הַמֶּלֶךְ יְהוָה צְבָאוֹת רָאוּ עֵינָי",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "‘내 눈이 만군의 야훼 왕을 보았다… 나는 망했다’ — 봄과 위험.",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Isa.2.21",
+      "tag": "nikrot",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "excerpt": "לָבוֹא בְּנִקְרוֹת הַצֻּרִים וּבִסְעִפֵי הַסְּלָעִים מִפְּנֵי פַּחַד יְהוָה וּמֵהֲדַר גְּאוֹנוֹ בְּקוּמוֹ לַעֲרֹץ הָאָרֶץ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "נִקְרוֹת הַצֻּרִים ‘바위 틈들’ — נִקְרָה 어휘 병행.",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Gen.45.18",
+      "tag": "tuv",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "excerpt": "וּקְחוּ אֶת אֲבִיכֶם וְאֶת בָּתֵּיכֶם וּבֹאוּ אֵלָי וְאֶתְּנָה לָכֶם אֶת טוּב אֶרֶץ מִצְרַיִם וְאִכְלוּ אֶת חֵלֶב הָאָרֶץ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef/segs omitted, NFC",
+      "observation_ko": "טוּב אֶרֶץ מִצְרַיִם ‘이집트 땅의 좋은 것’ — טוּב의 ‘좋은 것/재물’ 의미 범위.",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "2.33.18",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "excerpt": "καὶ λέγει ἐμφάνισόν μοι σεαυτόν.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "ἐμφάνισόν μοι σεαυτόν ‘너 자신을 내게 나타내 보이라’ — MT ‘네 영광을 내게 보이라’와 다름(33:13 OCR과 같은 표현).",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "2.33.19",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "excerpt": "καὶ εἶπεν Ἐγὼ παρελεύσομαι πρότερός σου τῇ δόξῃ μου, καὶ λαλήσω ἐπὶ τῷ ὀνόματί μου κύριος ἐναντίον σου· καὶ ἐλεήσω ὅν ἄν ἐλεῶ, καὶὃν ἀν’ οἰκτείρω.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "παρελεύσομαι πρότερός σου τῇ δόξῃ μου ‘내 영광으로 네 앞을 지나가겠다’(MT ‘내 모든 선함을 지나가게’); λαλήσω ἐπὶ τῷ ὀνόματί μου κύριος; ἐλεήσω ὅν ἄν ἐλεῶ(ἄν+가정법 ‘누구든지’). 둘째 평행구는 OCR 손상(동사 누락).",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "2.33.20",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "excerpt": "καὶ εἶπεν Οὐ δυνήσῃ ἰδεῖν μου τὸ πρόσ- οὐ γὰρ μὴ ἴδῃ ἄνθρωπος τὸ πρόσωπόν μου καὶ ζήσεται.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "ἴδῃ ἄνθρωπος τὸ πρόσωπόν μου ‘사람이 내 얼굴을 보고’(MT ‘나를’). ‘τὸ πρόσ-’ 이하 OCR 절단.",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "2.33.21",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "excerpt": "καὶ Κύριος ’ιδοὺ τόπος παρ’ ἐμοί, στήσῃ ἐπὶ τῆς πέτρας·",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "‘εἶπεν’ 누락은 OCR 결함으로 보임. τόπος παρ’ ἐμοί, ἐπὶ τῆς πέτρας.",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "2.33.22",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "excerpt": "ἡνίκα δ' ἄν παρέλθῃ μου ἡ δόξα, καὶ θήσω σε εἰς ὀπὴν τῆς πέτρας, καὶ σκεπάσω τῇ χειρί μου ἐπὶ σὲ ἕως ὃν παρέλθω·",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "εἰς ὀπὴν τῆς πέτρας ‘바위의 구멍에’; σκεπάσω τῇ χειρί μου.",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "2.33.23",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "excerpt": "καὶ ἀφελῶ τὴν , καὶ τότε ὄψῃ τὰ ὀπίσω μου, τὸ δὲ πρόσωπόν μου οὐκ ὀφθή-σοι.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "τὰ ὀπίσω μου ‘내 뒤의 것들’; 목적어 χεῖρα 누락, ὀφθή-σοι 병합은 OCR 결함.",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.18",
+      "path": "library/krv/Exod.json",
+      "excerpt": "모세가 가로되 원컨대 주의 영광을 내게 보이소서",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.19",
+      "path": "library/krv/Exod.json",
+      "excerpt": "여호와께서 가라사대 내가 나의 모든 선한 형상을 네 앞으로 지나게 하고 여호와의 이름을 네 앞에 반포하리라 나는 은혜 줄 자에게 은혜를 주고 긍휼히 여길 자에게 긍휼을 베푸느니라",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.20",
+      "path": "library/krv/Exod.json",
+      "excerpt": "또 가라사대 네가 내 얼굴을 보지 못하리니 나를 보고 살 자가 없음이니라",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.21",
+      "path": "library/krv/Exod.json",
+      "excerpt": "여호와께서 가라사대 보라 내 곁에 한 곳이 있으니 너는 그 반석 위에 섰으라",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.22",
+      "path": "library/krv/Exod.json",
+      "excerpt": "내 영광이 지날 때에 내가 너를 반석 틈에 두고 내가 지나도록 내 손으로 너를 덮었다가",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.23",
+      "path": "library/krv/Exod.json",
+      "excerpt": "손을 거두리니 네가 내 등을 볼 것이요 얼굴은 보지 못하리라",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.34.6",
+      "path": "library/krv/Exod.json",
+      "excerpt": "여호와께서 그의 앞으로 지나시며 반포하시되 여호와로라 여호와로라 자비롭고 은혜롭고 노하기를 더디하고 인자와 진실이 많은 하나님이로라",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Rom.9.15",
+      "path": "library/krv/Rom.json",
+      "excerpt": "모세에게 이르시되 내가 긍휼히 여길 자를 긍휼히 여기고 불쌍히 여길 자를 불쌍히 여기리라 하셨으니",
+      "file_sha256": "0fc22fc19b2a31c6c01c6de4e397c5349c0399a91e50937054514611e0f25649",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "John.1.18",
+      "path": "library/krv/John.json",
+      "excerpt": "본래 하나님을 본 사람이 없으되 아버지 품 속에 있는 독생하신 하나님이 나타내셨느니라",
+      "file_sha256": "12aa77894e911835d4c2a56bc3d1e15cf58f84e296fdc865c67af73a45b9fac4",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.18",
+      "path": "library/asv/Exod.json",
+      "excerpt": "And he said, Show me, I pray thee, thy glory.",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.19",
+      "path": "library/asv/Exod.json",
+      "excerpt": "And he said, I will make all my goodness pass before thee, and will proclaim the name of Jehovah before thee; and I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.20",
+      "path": "library/asv/Exod.json",
+      "excerpt": "And he said, Thou canst not see my face; for man shall not see me and live.",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.21",
+      "path": "library/asv/Exod.json",
+      "excerpt": "And Jehovah said, Behold, there is a place by me, and thou shalt stand upon the rock:",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.22",
+      "path": "library/asv/Exod.json",
+      "excerpt": "and it shall come to pass, while my glory passeth by, that I will put thee in a cleft of the rock, and will cover thee with my hand until I have passed by:",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.23",
+      "path": "library/asv/Exod.json",
+      "excerpt": "and I will take away my hand, and thou shalt see my back; but my face shall not be seen.",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.34.6",
+      "path": "library/asv/Exod.json",
+      "excerpt": "And Jehovah passed by before him, and proclaimed, Jehovah, Jehovah, a God merciful and gracious, slow to anger, and abundant in lovingkindness and truth;",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Rom.9.15",
+      "path": "library/asv/Rom.json",
+      "excerpt": "For he saith to Moses, I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.",
+      "file_sha256": "930e7d03d8bfdeff5003b9171ca80095c9976c847ccdfd05539d72941632c09c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "John.1.18",
+      "path": "library/asv/John.json",
+      "excerpt": "No man hath seen God at any time; the only begotten Son, who is in the bosom of the Father, he hath declared him.",
+      "file_sha256": "3505de02649685eeaa3294728d4547156402580bc30f975e5e86f83a70e21128",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.18",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "El entonces dijo: Ruégote que me muestres tu gloria.",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.19",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Y respondióle: Yo haré pasar todo mi bien delante de tu rostro, y proclamaré el nombre de Jehová delante de ti; y tendré misericordia del que tendré misericordia, y seré clemente para con el que seré clemente.",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.20",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Dijo más: No podrás ver mi rostro: porque no me verá hombre, y vivirá.",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.21",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Y dijo aún Jehová: He aquí lugar junto á mí, y tú estarás sobre la peña:",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.22",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Y será que, cuando pasare mi gloria, yo te pondré en una hendidura de la peña, y te cubriré con mi mano hasta que haya pasado:",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.23",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Después apartaré mi mano, y verás mis espaldas; mas no se verá mi rostro.",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.34.6",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Y pasando Jehová por delante de él, proclamó: Jehová, Jehová, fuerte, misericordioso, y piadoso; tardo para la ira, y grande en benignidad y verdad;",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Rom.9.15",
+      "path": "library/rv1909/Rom.json",
+      "excerpt": "Mas á Moisés dice: Tendré misericordia del que tendré misericordia, y me compadeceré del que me compadeceré.",
+      "file_sha256": "6b3ebdce649176030d17353672c576fa1d652e59742c9b50da6056b9ac537080",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "John.1.18",
+      "path": "library/rv1909/John.json",
+      "excerpt": "A Dios nadie le vió jamás: el unigénito Hijo, que está en el seno del Padre, él le declaró.",
+      "file_sha256": "5f6bca24803cb477ae2d83e4740fa3b7c37f6655935081f398b19a369b3a571b",
+      "excerpt_verified_against_file": true
+    }
+  ],
+  "alternatives": {
+    "Exod.33.18": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘그가 말했다… 당신의 영광을’",
+        "argument_ko": "원문 그대로, 선정본 관례.",
+        "objection_ko": "화자 식별이 덜 분명하다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘모세가 말했다’ 보충",
+        "argument_ko": "KRV 수용, 낭독 명확성.",
+        "objection_ko": "원문에 없는 보충."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘당신 자신을 제게 보여 주십시오’",
+        "argument_ko": "칠십인역 OCR 독법; 영광=하나님 자신이라는 22절 동일시와 맞음.",
+        "objection_ko": "MT에 없는 독법이며 OCR 비평판 미확인. 이문으로 다루려면 비평판 확인 필요."
+      }
+    ],
+    "Exod.33.19": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘모든 선함’ + ‘야훼의 이름을 선포’ + 미래/의지 idem per idem",
+        "argument_ko": "어휘 그대로, 앞의 미래 사슬과 시제 일치, 34:5-7 성취와 연결.",
+        "objection_ko": "원칙 선언 독해를 가린다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "일반 원칙 현재 ‘나는 … 은혜를 베푼다’",
+        "argument_ko": "KRV ‘주고…베푸느니라’, 로마서 9:15 수용의 원리적 독해.",
+        "objection_ko": "와우 완료가 앞의 미래 약속 사슬을 잇는 형태 사실과 덜 맞는다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘아름다움/찬란함’(טוּב)",
+        "argument_ko": "18절 ‘영광’ 요청과 시각 현현 문맥에 맞음(호 10:11, 슥 9:17 용례가 거론됨 — 이 검토에서 원문 미확인).",
+        "objection_ko": "34:6-7의 성품 선언이 ‘선함’ 독해를 지지한다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "‘야훼라는 이름으로/이름에 걸고 선포’",
+        "argument_ko": "ב 도구 용법; 칠십인역 OCR ἐπὶ τῷ ὀνόματί μου.",
+        "objection_ko": "34:5-6에서 실제 내용이 ‘야훼, 야훼’ 선언이므로 목적어 독해가 더 단순하다."
+      }
+    ],
+    "Exod.33.20": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "능력 부정 + 단순 미완료 구분, 접속사 보충 없음",
+        "argument_ko": "형태에 충실.",
+        "objection_ko": "독자에게 19절과의 대조가 덜 보인다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘그러나’ 보충",
+        "argument_ko": "담화 대조를 분명히 한다(초기 제안).",
+        "objection_ko": "원문에 없는 접속사."
+      },
+      {
+        "label": "C",
+        "reading_ko": "금지 ‘보아서는 안 된다’",
+        "argument_ko": "위험 경고로서의 기능.",
+        "objection_ko": "יכל(할 수 있다)이 능력 부정을 명시한다."
+      }
+    ],
+    "Exod.33.21": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘한 곳… 그 바위 위에 서 있어라’",
+        "argument_ko": "무관사/정관사 구분 보존.",
+        "objection_ko": "es 동사 선택은 대안 가능."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘호렙의 그 바위’ 명시",
+        "argument_ko": "17:6 정관사 연결.",
+        "objection_ko": "본문에 없는 지명 보충."
+      }
+    ],
+    "Exod.33.22": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘그 바위 틈’, ‘손으로 덮어 가리겠다’",
+        "argument_ko": "연계 한정, 보호 함의.",
+        "objection_ko": "ASV/RV1909 비한정."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘바위의 한 틈’, ‘손바닥으로 가리겠다’",
+        "argument_ko": "연계 한정의 모호성, כַּף 문자 의미.",
+        "objection_ko": "한국어 문체가 무거워진다."
+      }
+    ],
+    "Exod.33.23": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘내 등’",
+        "argument_ko": "공간적 일차 의미, ‘얼굴’과 대조, KRV/ASV/RV1909 일치.",
+        "objection_ko": "의인적 표현의 구체화."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘내 뒷모습’",
+        "argument_ko": "같은 공간 의미를 덜 신체적으로.",
+        "objection_ko": "완화 해석."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘내가 지나간 뒤(의 자취)’",
+        "argument_ko": "אַחַר와 연결한 시간 해석, 22절 ‘지나감’ 문맥.",
+        "objection_ko": "אָחוֹר 낱말은 공간 의미가 일차적; 해석을 본문에 넣게 됨."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.33.19b: preferred wording renders the idem-per-idem clauses as future/volitional (I will be gracious to whom I will be gracious) in all three languages",
+    "objection_ko": "가장 강한 반론: (1) 19b는 앞의 약속(지나가게 함, 이름 선포)에 이어지는 또 하나의 미래 행위가 아니라, 그 약속이 권리가 아니라 은혜임을 밝히는 원칙 선언일 수 있다 — 그렇다면 현재·일반형(‘나는 … 은혜를 베푼다’)이 의미를 더 잘 전달한다. (2) KRV는 일반형으로 읽었고, 칠십인역 OCR ἐλεήσω ὅν ἄν ἐλεῶ는 미래 주절이지만 ἄν+가정법 관계절로 ‘누구든지’를 강조해 ‘선택의 자유’를 전면화했다. 로마서 9:15 수용도 원칙 독해다. (3) ‘-겠다/will’ 미래·의지 번역은 ‘아직 은혜를 베풀지 않았다’ 또는 ‘나중에 결정하겠다’는 함의를 줄 수 있다. (4) es 접속법 ‘quien yo sea clemente’는 문법적으로 맞지만 독자에게 다소 낯설다.",
+    "test_ko": "절 단위 시험: (a) 형태 — וְחַנֹּתִי(칼 qatal 1공단)·וְרִחַמְתִּי(피엘 qatal 1공단)는 와우 완료로, 같은 절의 אַעֲבִיר(미완료)·וְקָרָאתִי(와우 완료)와 같은 사슬에 놓인다(고정 OSHB morph 확인). (b) 문맥 — 33:19-23 전체가 미래 행위 서술이고 34:6-7에서 실제 선언으로 성취된다. 성취 본문의 רַחוּם וְחַנּוּן은 성품 형용사로, 19b의 행위 동사가 미래에 드러날 성품을 예고한다. (c) 구문 유형 — 3:14 אֶהְיֶה אֲשֶׁר אֶהְיֶה처럼 같은 동사 반복은 이유를 밝히지 않는 주권적 결정 표현이며, 미래·의지형이 3:14 검토(exod-3-12-15) 본문 선택과도 맞는다. (d) 한국어 — ‘-겠다’는 예측보다 화자 의지·약속을 표시해 주권적 결정의 화행과 맞는다.",
+    "response_ko": "반론 (1)(2)는 실질적이고 신뢰도는 중간이다. 본문은 A(미래·의지)를 유지하되, 원칙 선언 독해(B)와 로마서 9:15 수용을 각주로 반드시 보인다. 편집이 KRV 친숙도나 원칙 독해를 우선하면 ko ‘베풀고…긍휼히 여긴다’, en ‘I am gracious to whom I am gracious’, es ‘tengo clemencia de quien tengo clemencia’로 바꿀 수 있으며, 그때도 세 언어 시제를 함께 바꿔야 한다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.33.20 vs 33:11",
+      "objection_ko": "번역이 긴장을 그대로 두면 독자가 본문 모순으로 오해할 수 있다.",
+      "response_ko": "33:11은 ‘말하다’, 33:20은 ‘보다’라는 동사 차이가 원문에 있으므로 각주로 보이되, 본문 조화는 해석이므로 하지 않는다."
+    },
+    {
+      "target": "Exod.33.19 ‘야훼의 이름’",
+      "objection_ko": "화자의 3인칭 자기 지칭이 한국어에서 어색하다(‘내가 … 야훼의 이름을 선포하겠다’).",
+      "response_ko": "원문 현상이며 34:5에서 같은 표현이 서술문으로 되풀이되므로 보존한다."
+    },
+    {
+      "target": "Exod.33.23 ‘등’",
+      "objection_ko": "신체적 구체화.",
+      "response_ko": "20·22·23절의 ‘얼굴·손’과 같은 수준으로 문자 보존, 대안 B·C 각주."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.33.18": {
+      "ko": "그가 말했다. “부디 당신의 영광을 제게 보여 주십시오.”",
+      "en": "He said, “Please show me your glory.”",
+      "es": "Él dijo: «Te ruego que me muestres tu gloria».",
+      "reason_ko": "암시 주어는 선정본 관례대로 ‘그가/He/Él’. נָא를 ‘부디/Please/Te ruego’로 살렸다. 모세가 하나님께 쓰는 높임(합쇼체, ‘당신’)은 Gen.3.10·4.13 선정본 관례를 따른다. es의 tú 호칭도 Gen.3.10 관례.",
+      "counterargument_ko": "KRV처럼 ‘모세가’를 보충하면 18-21절의 화자 교대가 더 분명하다. ‘영광’ 대신 ‘당신 자신’(칠십인역 OCR)으로 읽는 수용도 있다.",
+      "current_opinion_ko": "원문 그대로 주어를 보충하지 않고 ‘영광’을 유지한다.",
+      "reconsider_if_ko": "편집이 낭독·화자 식별을 위해 암시 주어 보충 방침을 정하면 ‘모세가/Moses/Moisés’로 바꾼다."
+    },
+    "Exod.33.19": {
+      "ko": "그분이 말씀하셨다. “내가 나의 모든 선함을 네 앞으로 지나가게 하고, 네 앞에서 야훼의 이름을 선포하겠다. 나는 은혜를 베풀 자에게 은혜를 베풀고, 긍휼히 여길 자를 긍휼히 여기겠다.”",
+      "en": "He said, “I will make all my goodness pass before you, and I will proclaim the name of YHWH before you. I will be gracious to whom I will be gracious, and I will show compassion to whom I will show compassion.”",
+      "es": "Él dijo: «Yo haré pasar toda mi bondad delante de ti, y proclamaré el nombre de YHWH delante de ti. Seré clemente con quien yo sea clemente, y tendré compasión de quien yo tenga compasión».",
+      "reason_ko": "אֲנִי 강조를 ‘내가/I/Yo’로 두었다. טוּב는 ‘선함/goodness/bondad’(범위는 각주). 신적 주어의 קרא בשם을 ‘선포하다’로, 3인칭 자기 지칭 ‘야훼의 이름’을 보존. idem per idem은 두 동사를 같은 낱말로 반복해 구조를 보이고, 앞 미래 사슬에 맞춰 미래·의지형으로 옮겼다. es는 미정 관계절에 접속법을 쓰고 1인칭 주어 yo를 넣어 ‘자비로운 사람에게’라는 3인칭 오독을 막았다.",
+      "counterargument_ko": "(1) 19b는 미래 약속이 아니라 일반 원칙(현재) 선언일 수 있다(KRV). (2) טוּב를 ‘아름다움/찬란함’으로 읽으면 18절 ‘영광’ 요청과 더 직접 이어진다. (3) בְשֵׁם을 ‘이름으로(이름에 걸고)’ 읽을 수도 있다. (4) en ‘to whom’은 의고체이며 현대 영어로는 ‘to whomever’가 더 자연스럽지만 ‘누구든지’ 의미를 강화한다.",
+      "current_opinion_ko": "본문 유지, 각주로 (1)(2)(3)을 보인다. 34:6 רַחוּם וְחַנּוּן 번역과 용어(은혜/긍휼, gracious/compassion, clemente/compasión)를 일치시켜야 한다.",
+      "reconsider_if_ko": "편집이 19b를 일반 원칙 선언으로 읽기로 하거나, 34:6 용어가 다르게 확정되면 같은 어근 대응을 다시 맞춘다."
+    },
+    "Exod.33.20": {
+      "ko": "또 말씀하셨다. “너는 내 얼굴을 볼 수 없다. 나를 보고 살 사람은 없기 때문이다.”",
+      "en": "He also said, “You cannot see my face, for no human shall see me and live.”",
+      "es": "Y añadió: «No puedes ver mi rostro, porque ningún ser humano me verá y seguirá con vida».",
+      "reason_ko": "두 번째 וַיֹּאמֶר는 같은 화자의 새 논점이므로 ‘또/also/añadió’. 원문에 없는 ‘그러나’를 넣지 않았다. 능력 부정 לֹא תוּכַל(‘볼 수 없다/cannot/No puedes’)과 단순 미완료 לֹא־יִרְאַנִי(‘shall not/verá’)를 구분했다. 목적어 ‘내 얼굴’→‘나’ 변화를 보존. וָחָי는 결과 ‘살다/live/seguirá con vida’.",
+      "counterargument_ko": "33:11 ‘얼굴과 얼굴을 마주하여’와 정면 충돌하는 것처럼 읽혀 독자가 혼란할 수 있다. 일부는 20절을 ‘보아서는 안 된다’(금지)로 읽는다. ko ‘살 사람은 없다’는 KRV 식 단언으로, ‘볼 수 없다’의 능력 부정과 둘째 절의 미완료 구분이 한국어에서는 약하다.",
+      "current_opinion_ko": "긴장을 번역으로 조화시키지 않는다(예: 33:11을 ‘친밀하게’로 바꾸지 않는다). 각주에서 말하기/보기 구분과 병행 본문을 보인다.",
+      "reconsider_if_ko": "편집이 33:11과 20절 사이의 해석 방침(비유적 ‘대면’ 등)을 각주가 아니라 본문에 반영하기로 하면 다시 쓴다."
+    },
+    "Exod.33.21": {
+      "ko": "야훼가 말씀하셨다. “보아라, 내 곁에 한 곳이 있다. 너는 그 바위 위에 서 있어라.",
+      "en": "YHWH said, “Look, there is a place beside me. You shall stand on the rock.",
+      "es": "YHWH dijo: «Mira, hay un lugar junto a mí. Tú te colocarás sobre la roca.",
+      "reason_ko": "명시 주어 ‘야훼’. הִנֵּה를 Gen.1.29 선정본처럼 ‘보아라/Look/Mira’로. נצב 니팔 와우 완료는 지시 기능 → ko 명령 ‘서 있어라’, en ‘You shall stand’, es 미래 ‘te colocarás’. הַצּוּר 정관사 ‘그 바위/the rock/la roca’. 발화는 23절 끝까지 이어지므로 여기서 닫지 않는다(Gen.4.6-7 관례).",
+      "counterargument_ko": "es ‘te colocarás’보다 ‘estarás de pie’(RV1909 ‘estarás’)가 더 단순하다. ‘그 바위’가 17:6 호렙 바위라는 해석을 본문에 넣지 않는 것이 맞는지는 편집 판단이다.",
+      "current_opinion_ko": "본문 유지.",
+      "reconsider_if_ko": "편집이 21-23절을 절마다 인용 부호로 닫는 방식으로 정하면 부호만 조정한다."
+    },
+    "Exod.33.22": {
+      "ko": "내 영광이 지나갈 때에, 내가 너를 그 바위 틈에 두고, 내가 지나갈 때까지 내 손으로 너를 덮어 가리겠다.",
+      "en": "When my glory passes by, I will put you in the cleft of the rock and cover you with my hand until I have passed by.",
+      "es": "Cuando pase mi gloria, te pondré en la hendidura de la roca y te cubriré con mi mano hasta que yo haya pasado.",
+      "reason_ko": "וְהָיָה + ב+부정사는 미래 시간절. ‘내 영광이 지나감’과 ‘내가 지나감’ 두 주어를 모두 보존했다. נִקְרַת הַצּוּר는 연계 한정으로 ‘그 바위 틈/the cleft of the rock/la hendidura de la roca’. סכך ‘덮어 가리다’는 보호 함의를 살렸다. כַּף는 자연스러운 ‘손/hand/mano’.",
+      "counterargument_ko": "ASV·RV1909는 ‘a cleft/una hendidura’(비한정)로 옮겼다. כַּף를 ‘손바닥’으로 옮기면 더 문자적이다. ‘덮어 가리겠다’는 ‘가려 주겠다’보다 무겁다.",
+      "current_opinion_ko": "본문 유지.",
+      "reconsider_if_ko": "편집이 כַּף/יָד 구분을 일관되게 표시하기로 하면 ‘손바닥/palm’으로 바꾼다."
+    },
+    "Exod.33.23": {
+      "ko": "그런 다음 내가 손을 거두면, 너는 내 등을 볼 것이다. 그러나 내 얼굴은 보이지 않을 것이다.”",
+      "en": "Then I will take away my hand, and you will see my back; but my face shall not be seen.”",
+      "es": "Luego retiraré mi mano, y verás mis espaldas; pero mi rostro no se verá».",
+      "reason_ko": "וַהֲסִרֹתִי는 순서 계속(‘그런 다음/Then/Luego’). אֲחֹרָי는 공간적 일차 의미 ‘등/back/espaldas’로, 20절 ‘얼굴’과 대조가 그대로 보이게 했다. 이접 와우 ‘그러나/but/pero’는 명사 선행 대조 구문에 근거한다. 니팔 미완료는 ‘보이지 않을 것이다/shall not be seen/no se verá’.",
+      "counterargument_ko": "‘등’은 하나님의 신체를 지나치게 구체화한다는 반론이 있다; ‘뒷모습’ 또는 ‘내가 지나간 뒤(의 자취)’가 시간적 해석을 살린다. 니팔 미완료를 금지(‘보여서는 안 된다’)로 읽을 수도 있다.",
+      "current_opinion_ko": "본문 유지, 대안은 각주.",
+      "reconsider_if_ko": "편집이 신인동형 표현 처리 방침(문자 보존 대 완화)을 정하면 ‘등/뒷모습’을 다시 판단한다."
+    }
+  },
+  "speech_boundaries_ko": [
+    "18절: 모세 발화(인용 1개, 절 안에서 닫힘).",
+    "19절: 야훼 발화(절 안에서 닫힘).",
+    "20절: 같은 화자의 두 번째 도입, 절 안에서 닫힘.",
+    "21-23절: 세 번째 도입 후 한 발화가 23절 끝까지 이어진다. 21절에서 열고 23절에서 닫는다(Gen.4.6-7 선정본 관례). 22절에는 인용 부호가 없다."
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.33.19",
+      "note_ko": "‘선함’(טוּב)은 선함·좋은 것·아름다움까지 포함하는 낱말이다. 칠십인역은 이 자리를 ‘내 영광’으로 옮겼다(OCR 확인, 비평판 미확인)."
+    },
+    {
+      "id": "Exod.33.19",
+      "note_ko": "‘야훼의 이름을 선포하다’는 창 4:26 ‘야훼의 이름을 부르다’와 같은 히브리어 관용구이지만, 여기서는 야훼 자신이 주어다. 성취는 34:5-6."
+    },
+    {
+      "id": "Exod.33.19",
+      "note_ko": "‘은혜를 베풀 자에게 은혜를 베풀고’는 3:14 ‘나는 나일 자로 있겠다’와 같은 반복 구문이다. 로마서 9:15가 칠십인역 형태로 인용한다."
+    },
+    {
+      "id": "Exod.33.20",
+      "note_ko": "33:11은 야훼가 모세와 ‘얼굴과 얼굴을 마주하여’ 말씀하셨다고 한다. 창 32:30(히브리어 32:31), 출 24:10-11, 민 12:8, 삿 6:22, 13:22, 사 6:5와 함께 하나님을 봄에 관한 본문들이 긴장 속에 있다. 번역은 이 긴장을 조화시키지 않는다."
+    },
+    {
+      "id": "Exod.33.22",
+      "note_ko": "‘내 영광이 지나갈 때’와 ‘내가 지나갈 때까지’ — 같은 절에서 영광과 화자가 같은 주어 자리에 놓인다."
+    },
+    {
+      "id": "Exod.33.23",
+      "note_ko": "‘등’(אֲחֹרָי)은 ‘뒤쪽/뒷모습’ 또는 ‘지나간 뒤’로도 읽힌다. 이 절 뒤에 원문 단락 표지(ס)가 있다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "scope": "Gen.4.26 (current selected, unchanged) vs Exod.33.19, Exod.34.5",
+      "finding_ko": "같은 관용구 קרא בשם יהוה를 사람 주어에서는 ‘부르다/call on/invocar’, 신적 주어에서는 ‘선포하다/proclaim/proclamar’로 옮기는 원칙을 결정 기록에 명시할 필요가 있다. 34:5 단위(exod-34-5-9)도 같은 원칙이 필요하다."
+    },
+    {
+      "scope": "Exod.33.11-23 face chain",
+      "finding_ko": "פָּנִים이 33:11, 14, 15, 19(두 번), 20, 23에 나온다. 33:14-15를 ‘presence/친히’로 옮기면 사슬이 사라진다. 33:14-15 채택 시 ‘얼굴’ 유지 또는 각주 연결을 결정해야 한다."
+    },
+    {
+      "scope": "Exod.33.19 vs Exod.34.6 terms",
+      "finding_ko": "חנן=은혜/gracious/clemente, רחם=긍휼/compassion/compasión 대응을 34:6 רַחוּם וְחַנּוּן에도 적용해야 한다."
+    },
+    {
+      "scope": "data/editorial.json Gen.4.7 es (current selected, unchanged)",
+      "finding_ko": "관찰: Gen.4.6 es는 «로 발화를 열고 Gen.4.7 es는 ”(U+201D)로 닫는다. 다른 es 발화(예: Gen.3.15)는 »로 닫는다. 인용 부호 불일치로 보이며 선정본은 수정하지 않았다 — 편집 확인 필요."
+    },
+    {
+      "scope": "divine name",
+      "finding_ko": "프로젝트 최근 관례(ko 야훼, en/es YHWH)를 따랐다. Gen.2.4 선정본은 en Yahweh, es Yahvé를 써서 아직 통일되지 않았다(기존 리뷰들도 지적)."
+    }
+  ],
+  "final_opinion_ko": "이 단위의 핵심은 번역 어휘보다 담화 구조다: 모세의 ‘영광’ 요청(18)에 야훼는 ‘선함·이름·은혜/긍휼’로 답하고(19), 얼굴 봄을 거절하며(20), 바위·틈·손·등이라는 보호된 부분적 봄을 약속한다(21-23). 본문 번역은 (1) 영광→선함 낱말 교체, (2) 신적 주어 ‘선포’와 3인칭 자기 지칭, (3) idem per idem 반복 구조, (4) 능력 부정과 단순 미완료 구분, (5) ‘내 영광’과 ‘나’의 주어 동일시, (6) 얼굴/등 대조를 모두 보이도록 했다. 33:11 등 다른 현현 본문과의 긴장은 번역으로 해소하지 않고 각주로 밝힌다. 원문 쪽 이문 근거는 이 패킷과 칠십인역 OCR 외에는 확인하지 않았으며, 칠십인역 OCR 차이(18 ‘너 자신’, 19 ‘영광’, 20 ‘내 얼굴’)는 수용 관찰로만 남긴다. 이 결과는 채택되지 않은 모델 검토이며 GPT·Gemini 독립 검토와 편집 채택이 필요하다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.33.18",
+      "level": "high",
+      "note_ko": "주어 보충 여부만 편집 관례 문제."
+    },
+    {
+      "id": "Exod.33.19",
+      "level": "medium",
+      "note_ko": "טוּב 의미 범위, בְשֵׁם 기능, idem per idem 시제·기능이 해석 선택."
+    },
+    {
+      "id": "Exod.33.20",
+      "level": "medium-high",
+      "note_ko": "번역 자체는 분명하나 다른 현현 본문과의 관계는 해석 문제."
+    },
+    {
+      "id": "Exod.33.21",
+      "level": "high",
+      "note_ko": "‘그 바위’ 지시 대상만 열림."
+    },
+    {
+      "id": "Exod.33.22",
+      "level": "high",
+      "note_ko": "연계 한정 표현과 כַּף 처리만 낮은 쟁점."
+    },
+    {
+      "id": "Exod.33.23",
+      "level": "medium-high",
+      "note_ko": "אֲחֹרָי 공간/시간 해석과 의인적 표현 방침."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.33.18",
+      "condition_ko": "비평판 칠십인역에서 ‘σεαυτόν’ 독법이 확인되거나, 편집이 암시 주어 보충 방침을 정할 때."
+    },
+    {
+      "id": "Exod.33.19",
+      "condition_ko": "편집이 idem per idem을 원칙 선언으로 읽기로 하거나, 34:6 용어가 확정되거나, 호 10:11·슥 9:17 등 טוּב ‘아름다움’ 용례를 원문으로 확인해 C 독법 근거가 강해질 때. 비평판 칠십인역·사마리아 오경·쿰란 출애굽기 사본의 실제 본문을 URL과 발췌로 확인하면 이문 각주를 다시 쓴다."
+    },
+    {
+      "id": "Exod.33.20",
+      "condition_ko": "편집이 현현 본문 간 해석 방침을 정하거나, 비평판 칠십인역에서 ‘τὸ πρόσωπόν μου’ 독법을 확인할 때(이문 각주 여부)."
+    },
+    {
+      "id": "Exod.33.21",
+      "condition_ko": "편집이 21-23 연속 발화의 인용 부호 방식을 다르게 정할 때."
+    },
+    {
+      "id": "Exod.33.22",
+      "condition_ko": "כַּף/יָד 구분 표시 방침이 정해질 때."
+    },
+    {
+      "id": "Exod.33.23",
+      "condition_ko": "신인동형 표현 처리 방침(문자 보존 대 완화)이 정해질 때."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.33.19",
+      "issue": "Tense and function of the idem-per-idem clauses (future/volitional act vs general principle; sovereign choice vs emphasis)",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial decision; independent GPT/Gemini review; consistency decision with Exod.34.6 and Exod.3.14."
+    },
+    {
+      "id": "Exod.33.19",
+      "issue": "Semantic range of tuv (goodness vs beauty/splendor vs good things) after the request for kavod",
+      "status": "unresolved_lexical",
+      "needed_evidence": "Verified lexicon entry and checked parallels (Hos 10:11, Zech 9:17 not checked in this run)."
+    },
+    {
+      "id": "Exod.33.18",
+      "issue": "LXX OCR reads show me yourself (seauton) where MT has your glory",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition (e.g. Goettingen) or printed Swete page image."
+    },
+    {
+      "id": "Exod.33.19",
+      "issue": "LXX OCR reads I will pass before you in my glory where MT has I will make all my goodness pass; second idem clause damaged in OCR",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition."
+    },
+    {
+      "id": "Exod.33.20",
+      "issue": "LXX OCR reads my face where MT has me in the second clause",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition."
+    },
+    {
+      "id": "Exod.33.20",
+      "issue": "Relation to Exod 33:11, Gen 32:31, Exod 24:10-11, Num 12:8 and other theophany texts",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial note policy; not a textual question in the pinned text."
+    },
+    {
+      "id": "Exod.33.21",
+      "issue": "Referent of definite ha-tsur (Horeb rock of 17:6 or local rock)",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial interpretive policy."
+    },
+    {
+      "id": "Exod.33.23",
+      "issue": "ahorai spatial (back) vs temporal (after I have passed) reading; handling of anthropomorphism",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial policy on anthropomorphic language; independent review."
+    },
+    {
+      "id": "Exod.33.18",
+      "issue": "Samaritan Pentateuch, Qumran, Vulgate, Targum and Peshitta readings for 33:18-23 not checked",
+      "status": "not_checked",
+      "needed_evidence": "Actual texts with URLs and excerpts."
+    },
+    {
+      "id": "Gen.4.7",
+      "issue": "Selected es text closes speech with U+201D after opening with angle quote in Gen.4.6 (observation outside this unit; selected text not changed)",
+      "status": "editorial_check_required",
+      "needed_evidence": "Editor confirmation in a versioned edit."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py at claim preparation (2026-10-31T09:25:36Z) and again for parallels at 2026-10-31T09:28:42Z",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus; target verses and Exodus parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-10-31T09:28:43Z",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "what_it_is": "Pinned WLC/OSHB Num (parallel only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-31T09:28:43Z",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "what_it_is": "Pinned WLC/OSHB Deut (parallel only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-10-31T09:28:43Z",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "what_it_is": "Pinned WLC/OSHB Judg (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+      "accessed_utc": "2026-10-31T09:28:44Z",
+      "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+      "what_it_is": "Pinned WLC/OSHB 1Kgs (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-10-31T09:28:44Z",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Gen (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "accessed_utc": "2026-10-31T09:28:44Z",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "what_it_is": "Pinned WLC/OSHB Isa (parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "accessed_utc": "2026-10-31T09:28:45Z",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "what_it_is": "Third-party raw OCR of Swete LXX Exodus (same pinned commit used by earlier runs); OCR defects visible (merged words, missing tokens)."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition; differences from MT are reception observations, not established variants.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "Hos 10:11 and Zech 9:17 usages of tuv are mentioned as commonly cited, but were not checked in this run.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated; none exists for this unit in the repository.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication. Current selected text (including Gen.4.7 and Gen.4.26) was not modified.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "The self-checks below are by the same model and are not an independent review."
+  ],
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261031T092536Z-13d8f621.json",
+    "claim_manifest": "automation/hard-review-runs/20261031T092536Z-13d8f621.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.33.18",
+        "raw_xml": "<verse osisID=\"Exod.33.18\">\n          <w lemma=\"c/559\" n=\"1\" morph=\"HC/Vqw3ms\" id=\"02Gxh\">וַ/יֹּאמַ֑ר</w>\n          <w lemma=\"7200\" morph=\"HVhv2ms/Sp1cs\" id=\"02cah\">הַרְאֵ֥/נִי</w>\n          <w lemma=\"4994\" n=\"0.0\" morph=\"HTe\" id=\"02toK\">נָ֖א</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02tSn\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3519\" n=\"0\" morph=\"HNcbsc/Sp2ms\" id=\"02Wyh\">כְּבֹדֶֽ/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "61e1f8a844329d1d85df5e92236a1f21a2fa4029780c6d229e9263456d4a6e47",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.33.19",
+        "raw_xml": "<verse osisID=\"Exod.33.19\">\n          <w lemma=\"c/559\" n=\"1.1.1\" morph=\"HC/Vqw3ms\" id=\"02wZ3\">וַ/יֹּ֗אמֶר</w>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"023jP\">אֲנִ֨י</w>\n          <w lemma=\"5674 a\" morph=\"HVhi1cs\" id=\"025LU\">אַעֲבִ֤יר</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"029xN\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2898\" n=\"1.1.0\" morph=\"HNcmsc/Sp1cs\" id=\"02FDY\">טוּבִ/י֙</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"02Aj4\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6440\" n=\"1.1\" morph=\"HNcbpc/Sp2ms\" id=\"02AkW\">פָּנֶ֔י/ךָ</w>\n          <w lemma=\"c/7121\" morph=\"HC/Vqq1cs\" id=\"02uiE\">וְ/קָרָ֧אתִֽי</w>\n          <w lemma=\"b/8034\" n=\"1.0.0\" morph=\"HR/Ncmsc\" id=\"02PYM\">בְ/שֵׁ֛ם</w>\n          <w lemma=\"3068\" n=\"1.0\" morph=\"HNp\" id=\"02STV\">יְהוָ֖ה</w>\n          <w lemma=\"l/6440\" n=\"1\" morph=\"HR/Ncbpc/Sp2ms\" id=\"02ws2\">לְ/פָנֶ֑י/ךָ</w>\n          <w lemma=\"c/2603 a\" n=\"0.1.0\" morph=\"HC/Vqq1cs\" id=\"02DSK\">וְ/חַנֹּתִי֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02CPR\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"834 a\" morph=\"HTr\" id=\"02X1u\">אֲשֶׁ֣ר</w>\n          <w lemma=\"2603 a\" n=\"0.1\" morph=\"HVqi1cs\" id=\"02EBz\">אָחֹ֔ן</w>\n          <w lemma=\"c/7355\" n=\"0.0\" morph=\"HC/Vpq1cs\" id=\"028r7\">וְ/רִחַמְתִּ֖י</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02Dgw\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"834 a\" morph=\"HTr\" id=\"0277t\">אֲשֶׁ֥ר</w>\n          <w lemma=\"7355\" n=\"0\" morph=\"HVpi1cs\" id=\"026DN\">אֲרַחֵֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "0e8ca9c90ab6926d592f603c40a377ba724317c285c9f997724916eb43ff0e51",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.33.20",
+        "raw_xml": "<verse osisID=\"Exod.33.20\">\n          <w lemma=\"c/559\" n=\"1.1\" morph=\"HC/Vqw3ms\" id=\"02Au6\">וַ/יֹּ֕אמֶר</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"02AdW\">לֹ֥א</w>\n          <w lemma=\"3201\" n=\"1.0\" morph=\"HVqi2ms\" id=\"02URP\">תוּכַ֖ל</w>\n          <w lemma=\"l/7200\" morph=\"HR/Vqc\" id=\"02KcE\">לִ/רְאֹ֣ת</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02fck\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6440\" n=\"1\" morph=\"HNcbpc/Sp1cs\" id=\"02KWZ\">פָּנָ֑/י</w>\n          <w lemma=\"3588 a\" n=\"0.0.0\" morph=\"HC\" id=\"02GxF\">כִּ֛י</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"02heY\">לֹֽא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7200\" morph=\"HVqi3ms/Sp1cs\" id=\"02Qp8\">יִרְאַ֥/נִי</w>\n          <w lemma=\"d/120\" n=\"0.0\" morph=\"HTd/Ncmsa\" id=\"02i3M\">הָ/אָדָ֖ם</w>\n          <w lemma=\"c/2425\" n=\"0\" morph=\"HC/Vqq3ms\" id=\"02CHY\">וָ/חָֽי</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "a1eca1c4ffd33013b172e7271209d0a49efacd5848da9a053f24afc8391c136b",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.33.21",
+        "raw_xml": "<verse osisID=\"Exod.33.21\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"024Nf\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"3068\" n=\"1.1\" morph=\"HNp\" id=\"025L5\">יְהוָ֔ה</w>\n          <w lemma=\"2009\" morph=\"HTm\" id=\"02enK\">הִנֵּ֥ה</w>\n          <w lemma=\"4725\" n=\"1.0\" morph=\"HNcmsa\" id=\"02K5U\">מָק֖וֹם</w>\n          <w lemma=\"854\" n=\"1\" morph=\"HR/Sp1cs\" id=\"02efE\">אִתִּ֑/י</w>\n          <w lemma=\"c/5324\" n=\"0.0\" morph=\"HC/VNq2ms\" id=\"02KYn\">וְ/נִצַּבְתָּ֖</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"02BXC\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/6697\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"02rjU\">הַ/צּֽוּר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "f3a1881dd3938d8b3b58777cc725f7985cebfd35edc37bcdebcda05d4407b426",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.33.22",
+        "raw_xml": "<verse osisID=\"Exod.33.22\">\n          <w lemma=\"c/1961\" n=\"1.1.0\" morph=\"HC/Vqq3ms\" id=\"02J3e\">וְ/הָיָה֙</w>\n          <w lemma=\"b/5674 a\" morph=\"HR/Vqc\" id=\"021sE\">בַּ/עֲבֹ֣ר</w>\n          <w lemma=\"3519\" n=\"1.1\" morph=\"HNcbsc/Sp1cs\" id=\"02kg7\">כְּבֹדִ֔/י</w>\n          <w lemma=\"c/7760 a\" n=\"1.0\" morph=\"HC/Vqq1cs/Sp2ms\" id=\"02AFg\">וְ/שַׂמְתִּ֖י/ךָ</w>\n          <w lemma=\"b/5366\" morph=\"HR/Ncfsc\" id=\"02bvx\">בְּ/נִקְרַ֣ת</w>\n          <w lemma=\"d/6697\" n=\"1\" morph=\"HTd/Ncmsa\" id=\"02GfB\">הַ/צּ֑וּר</w>\n          <w lemma=\"c/5526 e\" morph=\"HC/Vqq1cs\" id=\"024je\">וְ/שַׂכֹּתִ֥י</w>\n          <w lemma=\"3709\" n=\"0.0.0\" morph=\"HNcfsc/Sp1cs\" id=\"02i7S\">כַפִּ֛/י</w>\n          <w lemma=\"5921 a\" n=\"0.0\" morph=\"HR/Sp2ms\" id=\"02aow\">עָלֶ֖י/ךָ</w>\n          <w lemma=\"5704\" morph=\"HR\" id=\"029bQ\">עַד</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5674 a\" n=\"0\" morph=\"HVqc/Sp1cs\" id=\"02Yq9\">עָבְרִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "6d9df299999a66c7644c274944b380a52daef6ceecd5d9d0e19947fcdacb5228",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      },
+      {
+        "id": "Exod.33.23",
+        "raw_xml": "<verse osisID=\"Exod.33.23\">\n          <w lemma=\"c/5493\" n=\"1.1.0\" morph=\"HC/Vhq1cs\" id=\"02uGN\">וַ/הֲסִרֹתִי֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02FAy\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3709\" n=\"1.1\" morph=\"HNcfsc/Sp1cs\" id=\"02BG9\">כַּפִּ֔/י</w>\n          <w lemma=\"c/7200\" n=\"1.0\" morph=\"HC/Vqq2ms\" id=\"02x4e\">וְ/רָאִ֖יתָ</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02Yqj\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"268\" n=\"1\" morph=\"HNcmpc/Sp1cs\" id=\"02NTm\">אֲחֹרָ֑/י</w>\n          <w lemma=\"c/6440\" n=\"0.0\" morph=\"HC/Ncbpc/Sp1cs\" id=\"02hm4\">וּ/פָנַ֖/י</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"02xHs\">לֹ֥א</w>\n          <w lemma=\"7200\" n=\"0\" morph=\"HVNi3mp\" id=\"02P9p\">יֵרָאֽוּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-samekh\">ס</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "cca9bd085c36e77e2578b3550df1fb1ed8dc35c24585b9c9d16c661b0c61217e",
+        "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261031T092536Z-13d8f621.ko.md",
+  "branch": "claude/bible-hard-review-beg93g",
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-samekh",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_or_note_markup_present": false,
+    "samekh_setumah_after_Exod_33_23_preserved_in_raw": true,
+    "clause_coverage": {
+      "Exod.33.18": 2,
+      "Exod.33.19": 5,
+      "Exod.33.20": 3,
+      "Exod.33.21": 3,
+      "Exod.33.22": 4,
+      "Exod.33.23": 3
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "library_excerpts_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_convention": {
+      "ko_yahwe_in_19_21": true,
+      "en_YHWH_in_19_21": true,
+      "es_YHWH_in_19_21": true,
+      "no_LORD_or_Jehovah": true
+    },
+    "curly_and_angle_quotes_balanced_across_unit": true,
+    "earlier_records_found": [],
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
