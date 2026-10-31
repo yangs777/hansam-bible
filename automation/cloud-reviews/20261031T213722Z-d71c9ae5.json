@@ -1,0 +1,1163 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T213722Z-d71c9ae5",
+  "unit_id": "num-12-6-8",
+  "verse_ids": [
+    "Num.12.6",
+    "Num.12.7",
+    "Num.12.8"
+  ],
+  "unit_issue_ko": "입과 입·형상·꿈/수수께끼·모세의 지위",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Num.12.6-8 = 전통 장절 민수기 12:6-8. 저장소 library의 KRV/ASV/RV1909 Num 12:6-8 내용이 같은 범위로 대응함을 실제 대조로 확인했다. 칠십인역 OCR 파일 번호 4.12.6-4.12.8도 같은 범위다. 병행구 Deut.4.12, 4.15, 34.10, Exod.33.11, Exod.20.4, 1Sam.3.20, 2Sam.23.2, 1Kgs.22.28, Hos.1.2는 WLC/OSIS 번호이며, 이 중 KRV/ASV/RV1909와 실제 대조한 것은 Deut.4.12, 4.15, 34.10, Exod.33.11뿐이다(같은 장절 내용 확인).",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어는 source.verses[].raw_xml에만 있다(클레임 패킷에서 스크립트로 복사, 고정 WLC 파일 안 1회 출현과 해시를 검사). 절(clause) 표시 히브리어와 병행구 발췌는 OSHB 낱말 토큰에서 스크립트로 파생한 표기(슬래시 제거, 칸틸레이션·메텍/실룩 제거, 마케프와 seg 생략, NFC)이며 원문 표기가 아니다. 악센트 이름은 원문 코드포인트를 유니코드 이름으로 읽은 결과다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T21:38Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. Rechecked before commit (timestamps_utc.identity_rechecked). The runtime system prompt also names the configured model as claude-opus-5-5.",
+    "session": "https://claude.ai/code/session_01UknqVGP9zgiqNzNrqxuWFs",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Service metadata only; no balance, cost or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T21:37:22.252476+00:00",
+    "claim_pushed": "about 2026-10-31T21:37:40Z (commit on claude/original-bible-hard-review-8ynzie before any model review)",
+    "independent_reading_from_packet": "2026-10-31T21:38Z-21:39:30Z (scratch file of initial proposals written outside the repository; recorded 21:39:30Z)",
+    "reception_checks": "2026-10-31T21:39:40Z-21:41Z (library, LXX OCR fetched 21:40:09Z, pinned WLC parallels fetched 21:40:25Z, after initial proposals were saved)",
+    "earlier_records_search": "2026-10-31T21:37:30Z-21:41Z (claim-time cross-branch search, then editorial/decisions comparison after initial proposals)",
+    "review_written": "2026-10-31T21:42Z-2026-10-31T21:45:56Z (spec and builder scratch files outside the repository)",
+    "identity_rechecked": "2026-10-31T21:45:56Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; effort_level high; rate_limit_info ccr_promotional allowed, isUsingOverage false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Num.12.6",
+      "clauses": [
+        {
+          "word_id_range": [
+            "043fd",
+            "043fd"
+          ],
+          "derived_hebrew": "וַיֹּאמֶר",
+          "morph": [
+            "HC/Vqw3ms"
+          ],
+          "kind": "discourse",
+          "reading_ko": "‘그분이 말씀하셨다’. 명시 주어가 없으나 12:5에서 야훼가 구름 기둥으로 내려와 아론과 미리암을 불렀으므로 화자는 야훼다. 선정본 관례(Gen.4.10 ‘그분이 말씀하셨다/He said/Él dijo’)를 따른다. 청자는 아론과 미리암(복수)."
+        },
+        {
+          "word_id_range": [
+            "04CvK",
+            "04pZB"
+          ],
+          "derived_hebrew": "שִׁמְעוּ נָא דְבָרָי",
+          "morph": [
+            "HVqv2mp",
+            "HTe",
+            "HNcmpc/Sp1cs"
+          ],
+          "kind": "lexical/discourse",
+          "reading_ko": "칼 명령 2남복 ‘들어라’ + 첨사 נָא + ‘내 말들’. 윗사람이 아랫사람에게 쓰는 נָא이므로 청원(‘부디’)이 아니라 주의 환기(‘이제/자’)로 본다. 아트나흐(ETNAHTA)가 דְבָרָי에 있어 절의 앞 반쪽은 발화 도입과 명령뿐이다."
+        },
+        {
+          "word_id_range": [
+            "04S2M",
+            "04W4S"
+          ],
+          "derived_hebrew": "אִם יִהְיֶה נְבִיאֲכֶם",
+          "morph": [
+            "HC",
+            "HVqi3ms",
+            "HNcmsc/Sp2mp"
+          ],
+          "kind": "syntactic/textual",
+          "reading_ko": "조건절 ‘너희의 예언자가 있으면’. נְבִיאֲכֶם은 2남복 소유 접미가 붙은 명사라 ‘너희 가운데 예언자가 있으면’으로 옮긴다. 이 낱말에 ZAQEF QATAN이 있어 조건절이 여기서 끊긴다."
+        },
+        {
+          "word_id_range": [
+            "04Gbr",
+            "04cqT"
+          ],
+          "derived_hebrew": "יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע",
+          "morph": [
+            "HNp",
+            "HRd/Ncfsa",
+            "HR/Sp3ms",
+            "HVti1cs"
+          ],
+          "kind": "syntactic/textual/lexical",
+          "reading_ko": "가장 어려운 자리. 표면 어순 ‘너희의 예언자 — 야훼’는 어색하다. 마소라 악센트는 יְהוָה에 REVIA를 주어 앞의 ZAQEF 구분 뒤에서 새 단락을 시작하게 하므로, 야훼를 귀결절 앞에 나온 주어(1공단 동사 אֶתְוַדָּע의 주체를 이름으로 밝힌 것)로 읽는다: ‘야훼, 곧 내가 환상 속에서 그에게 나를 알린다’ → ‘나 야훼가’. 원문에 אֲנִי는 없고 ‘나’는 1인칭 동사에서 나온 것임을 기록한다. 대안: (B) ‘야훼의 예언자’로 묶음 — 접미 붙은 명사는 연계형이 될 수 없어 원문 그대로는 어렵다. (C) נָבִיא בָּכֶם ‘너희 가운데 예언자’로 고치는 추정 — 이 패킷에는 그런 독법의 증거가 없으므로 재구성 추정일 뿐 증거된 독법이 아니다. 판단: 미해결 표시. בַּמַּרְאָה(여성 מַרְאָה, 관사)는 총칭 ‘환상 속에서’. אֶתְוַדָּע는 ידע 히트파엘 미완료 1공단 ‘나를 알게 하다/나타내다’, 일반·반복 현재."
+        },
+        {
+          "word_id_range": [
+            "04pWC",
+            "04YXn"
+          ],
+          "derived_hebrew": "בַּחֲלוֹם אֲדַבֶּר בּוֹ",
+          "morph": [
+            "HR/Ncmsa",
+            "HVpi1cs",
+            "HR/Sp3ms"
+          ],
+          "kind": "lexical/discourse",
+          "reading_ko": "‘꿈속에서 그와 말한다’. דִּבֶּר בְּ는 문맥에 따라 ‘~와 말하다’, ‘~를 통해 말하다’(2Sam.23.2, 1Kgs.22.28, Hos.1.2), ‘~를 거슬러 말하다’(12:1, 12:8 끝)가 모두 가능하다. 이 장은 같은 구문을 12:1(거슬러), 12:2(통해/와), 12:6·8(와), 12:8 끝(거슬러)에 연쇄로 쓴다. 이 연쇄는 번역 하나로 다 보존할 수 없으므로 각주로 보인다. 여기서는 ‘~와’를 택한다(12:8 ‘입과 입을 마주하여’와 짝)."
+        }
+      ]
+    },
+    {
+      "id": "Num.12.7",
+      "clauses": [
+        {
+          "word_id_range": [
+            "04XT1",
+            "0467g"
+          ],
+          "derived_hebrew": "לֹא כֵן עַבְדִּי מֹשֶׁה",
+          "morph": [
+            "HTn",
+            "HD",
+            "HNcmsc/Sp1cs",
+            "HNp"
+          ],
+          "kind": "syntactic",
+          "reading_ko": "생략 구문 ‘그렇지 않다, 내 종 모세는’. ‘내 종 모세는 그렇지 않다’(또는 ‘내 종 모세와는 그렇지 않다’) — 6절의 환상·꿈 방식이 모세에게 적용되지 않는다는 대조. 아트나흐가 מֹשֶׁה에 있다."
+        },
+        {
+          "word_id_range": [
+            "04C2M",
+            "04SEN"
+          ],
+          "derived_hebrew": "בְּכָל בֵּיתִי נֶאֱמָן הוּא",
+          "morph": [
+            "HR/Ncmsc",
+            "HNcmsc/Sp1cs",
+            "HVNrmsa",
+            "HPp3ms"
+          ],
+          "kind": "lexical",
+          "reading_ko": "נֶאֱמָן은 אמן 니팔 분사: ‘믿을 만하다/신실하다’(성품)와 ‘신임받다/맡겨지다’(지위) 사이. ‘내 온 집에서’는 영역(관할). 초기 판단은 ‘신실하다’였고, 지위 해석을 대안으로 둠(이후 변경 기록 참조)."
+        }
+      ]
+    },
+    {
+      "id": "Num.12.8",
+      "clauses": [
+        {
+          "word_id_range": [
+            "04JQg",
+            "043zJ"
+          ],
+          "derived_hebrew": "פֶּה אֶל פֶּה אֲדַבֶּר בּוֹ",
+          "morph": [
+            "HNcmsa",
+            "HR",
+            "HNcmsa",
+            "HVpi1cs",
+            "HR/Sp3ms"
+          ],
+          "kind": "lexical/discourse",
+          "reading_ko": "앞에 나온 방식어 ‘입에서 입으로’ — ‘그와는 입과 입을 마주하여 말한다’. 다른 본문의 פָּנִים אֶל־פָּנִים(얼굴과 얼굴)과 낱말이 다르므로 ‘대면하여’로 합치지 않는다. 미완료는 6절과 같은 일반 현재."
+        },
+        {
+          "word_id_range": [
+            "04odd",
+            "04t8y"
+          ],
+          "derived_hebrew": "וּמַרְאֶה וְלֹא בְחִידֹת",
+          "morph": [
+            "HC/Ncmsa",
+            "HC/Tn",
+            "HR/Ncfpa"
+          ],
+          "kind": "lexical/syntactic/textual",
+          "reading_ko": "מַרְאֶה(남성 ‘보임/모습’)가 전치사 없이 부사적으로 쓰여 ‘환히 드러나게’, 그리고 ‘수수께끼로 하지 않고’. 6절 בַּמַּרְאָה(여성, ‘환상’)와 같은 어근의 대조다. 악센트상 וּמַרְאֶה(PASHTA)부터 בְחִידֹת(ZAQEF)까지 한 단락. ‘בְּמַרְאֶה’로 전치사를 보충하는 읽기는 추정일 뿐이다."
+        },
+        {
+          "word_id_range": [
+            "047q4",
+            "04gth"
+          ],
+          "derived_hebrew": "וּתְמֻנַת יְהוָה יַבִּיט",
+          "morph": [
+            "HC/Ncfsc",
+            "HNp",
+            "HVhi3ms"
+          ],
+          "kind": "lexical/theological-tension",
+          "reading_ko": "목적어 전치 ‘야훼의 형상을 그가 바라본다’. תְּמוּנָה는 Deut.4.12·15(시내산에서 백성은 형상을 보지 못함), Exod.20.4(형상 금지)와 같은 낱말이다. 이 긴장을 번역에서 조화시키지 않는다. נבט 히필 미완료 3남단, 일반 현재 ‘바라본다’. 아트나흐."
+        },
+        {
+          "word_id_range": [
+            "04qe3",
+            "04udG"
+          ],
+          "derived_hebrew": "וּמַדּוּעַ לֹא יְרֵאתֶם לְדַבֵּר בְּעַבְדִּי בְמֹשֶׁה",
+          "morph": [
+            "HC/Ti",
+            "HTn",
+            "HVqp2mp",
+            "HR/Vpc",
+            "HR/Ncmsc/Sp1cs",
+            "HR/Np"
+          ],
+          "kind": "discourse/syntactic",
+          "reading_ko": "‘그런데 어찌하여 너희는 내 종을, 곧 모세를 거슬러 말하기를 두려워하지 않았느냐?’ יְרֵאתֶם 칼 완료 2남복. 전치사 בְּ를 두 번 반복한 동격(‘내 종을 거슬러, 모세를 거슬러’)이 강조다. לְדַבֵּר בְּ는 12:1 וַתְּדַבֵּר ... בְּמֹשֶׁה ‘모세를 거슬러 말했다’로 수미상관. 발화는 여기서 닫힌다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": {
+    "Num.12.6": {
+      "ko": "그분이 말씀하셨다. “이제 내 말을 들어라. 너희 가운데 예언자가 있으면, 나 야훼가 환상 속에서 그에게 나를 알리고 꿈속에서 그와 말한다.",
+      "en": "He said, “Hear my words now. If there is a prophet among you, I, YHWH, make myself known to him in a vision; I speak with him in a dream.",
+      "es": "Él dijo: «Escuchen ahora mis palabras. Si hay entre ustedes un profeta, yo, YHWH, me doy a conocer a él en visión; en sueños hablo con él."
+    },
+    "Num.12.7": {
+      "ko": "내 종 모세는 그렇지 않다. 그는 내 온 집에서 신실하다.",
+      "en": "Not so with my servant Moses: he is faithful in all my house.",
+      "es": "No es así con mi siervo Moisés: él es fiel en toda mi casa."
+    },
+    "Num.12.8": {
+      "ko": "그와는 내가 입과 입을 마주하여 말하고, 환히 드러내어 말하며 수수께끼로 말하지 않는다. 그는 야훼의 형상을 바라본다. 그런데 어찌하여 너희는 내 종, 곧 모세를 거슬러 말하기를 두려워하지 않았느냐?”",
+      "en": "With him I speak mouth to mouth, plainly and not in riddles, and he beholds the form of YHWH. Why then were you not afraid to speak against my servant, against Moses?”",
+      "es": "Con él hablo boca a boca, claramente y no en enigmas, y él contempla la forma de YHWH. ¿Por qué, pues, no tuvieron temor de hablar contra mi siervo, contra Moisés?»"
+    }
+  },
+  "initial_proposals_note": "초기 제안은 패킷의 원문만 보고 작성해 저장소 밖 임시 파일에 21:39:30Z로 기록했다(그 파일은 셸 따옴표 문제를 피하려고 따옴표를 ASCII로, es 물음표를 '?'로 적었고, 여기에는 같은 낱말을 정상 문장부호로 옮겨 적었다). 그 전에 열람한 것은 프로젝트 문서(CLAUDE.md, 정책, 과업 문서), 클레임 도구 소스, 그리고 다른 단위 리뷰(exod-33-18-23, origin/claude/bible-hard-review-beg93g)의 구조와 그 안에서 Num.12.8을 언급한 줄 세 곳(파생 히브리어 발췌 1개, 현현 본문 긴장 목록에 이름만 나온 것)이다. 그 리뷰는 Num 12:6-8 번역을 제안하지 않았다. 이 노출은 독립성의 제한으로 기록한다. 이 단위 자체에 대한 다른 AI 제안이나 초안은 존재하지 않았다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "패킷 current_selected가 빈 배열이다. data/editorial.json(main c9ae49a)에 Num 12 절이 없다."
+    },
+    {
+      "kind": "decisions_and_model_reviews",
+      "result": "none",
+      "note": "main의 data/decisions.json, data/model-reviews/, reviews/에 Num.12.6-8 항목이 없다(모든 원격 ref 대상으로 'Num\\.12\\.(6|7|8)' 검색)."
+    },
+    {
+      "kind": "gpt_gemini_records",
+      "result": "none",
+      "note": "main과 가져온 모든 claude/ 브랜치에서 이 절에 대한 GPT 또는 Gemini 저장 기록을 찾지 못했다. 인용하거나 모사하지 않는다."
+    },
+    {
+      "kind": "earlier_cloud_hard_reviews",
+      "result": "none for this unit",
+      "note": "origin/claude/bible-hard-review-beg93g automation/cloud-reviews/20261031T092536Z-13d8f621.json(exod-33-18-23)이 Num.12.8을 병행구로만 인용한다(파생 히브리어 발췌, 같은 고정 Num.xml 해시 02e4febf...). 번역 제안은 아니다."
+    },
+    {
+      "kind": "earlier_cloud_draft",
+      "result": "none",
+      "note": "automation/cloud-queue.json에는 원문 대기열 항목뿐이고, 어떤 claude/ 브랜치에도 Num.12.6-8 초안이 없다."
+    },
+    {
+      "kind": "related_selected_text",
+      "result": "found",
+      "path": "data/editorial.json, data/decisions.json",
+      "note": "같은 책의 선정본 Num.6.24-26(v0.4.17)과 Genesis 선정본(v0.4.17)의 신명·인용부호·2인칭 복수 관례를 비교했다(아래 editorial_consistency_findings). 선정본은 변경하지 않는다."
+    }
+  ],
+  "comparison_findings_ko": [
+    "세 번역 수용(KRV·ASV·RV1909)은 12:6의 어려운 어순을 서로 다르게 풀었다: KRV ‘나 여호와가’·ASV ‘I Jehovah’는 마소라 악센트와 같은 묶음(야훼를 귀결절 주어로), RV1909 ‘si tuviereis profeta de Jehová’는 ‘야훼의 예언자’로 묶었다. 칠십인역 OCR은 ‘κυρίῳ’(여격)로 예언자 쪽에 붙인 것으로 보이나 그 줄은 OCR 손상(‘πὑμῶν’)이 있다. 내 선호 A는 악센트 증거에 근거한 것이지 KRV/ASV에서 온 것이 아니다(초기 제안이 먼저 기록됨).",
+    "12:7 נֶאֱמָן: 세 수용과 칠십인역 OCR(πιστός)이 모두 ‘신실/충성/fiel’ 계열이다. 반면 고정 WLC 1Sam.3.20 נֶאֱמָן שְׁמוּאֵל לְנָבִיא는 지위 확인(‘예언자로 인정되었다’) 용례다. 이 비교 뒤 선호안을 ‘신실하다’에서 ‘신임받다/trusted/de confianza’로 바꿨다(변경 기록).",
+    "12:8 פֶּה אֶל־פֶּה: KRV ‘대면하여’는 Exod.33.11·Deut.34.10의 פָּנִים אֶל־פָּנִים(KRV도 ‘대면하여’)과 같은 낱말로 합친다. 원문은 ‘입’과 ‘얼굴’을 구별하므로 ‘입과 입을 마주하여’를 유지한다.",
+    "12:8 תְּמֻנַת יְהוָה: KRV ‘형상’, ASV ‘form’, RV1909 ‘la apariencia’; 칠십인역 OCR은 ‘τὴν δόξαν Κυρίου εἶδεν’(주의 영광을 보았다). 칠십인역 OCR은 낱말(영광)과 시제(부정과거)가 다르다. 비평판 미확인이므로 수용 관찰로만 기록한다. KRV Deut.4.12·15도 ‘형상’, ASV ‘form’, RV1909 ‘figura’로 같은 낱말 사슬을 보존한다(RV1909는 Num 12:8에서만 ‘apariencia’).",
+    "12:8 끝 בְּעַבְדִּי בְמֹשֶׁה: ASV는 반복을 보존(‘against my servant, against Moses’), KRV(‘내 종 모세 비방하기를’)와 RV1909(‘contra mi siervo Moisés’)와 칠십인역 OCR(κατὰ τοῦ θεράποντός μου Μωυσῆ)은 하나로 합쳤다. 반복 보존을 선호한다.",
+    "12:6·8 בּוֹ와 12:2 בָּנוּ: ASV는 12:2를 ‘spoken with Moses/with us’, RV1909는 ‘por Moisés/por nosotros’(통해)로 옮겨 수용이 갈린다. 이 장의 דבר ב 연쇄를 각주로 보여 줄 필요가 있다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "12:7 ko ‘신실하다’ → ‘신임받는 자다’, en ‘faithful’ → ‘trusted’, es ‘fiel’ → ‘de confianza’. 근거: 니팔 분사의 수동·상태 형태, ‘내 온 집에서’라는 관할 표현, 1Sam.3.20 지위 용례, 그리고 12:6-8 논지가 모세의 성품보다 계시 방식의 차이와 지위에 있다는 문맥. ‘trusted/de confianza’는 성품(믿을 만함)과 지위(맡겨짐)를 함께 담는다. 약점은 ‘strongest_objection_to_own_reading’에 기록했다.",
+    "12:8 ko 반복 축소: ‘말하고, 환히 드러내어 말하며 수수께끼로 말하지 않는다’ → ‘입과 입을 마주하여, 환히 드러내어 말하고 수수께끼로 말하지 않는다’. 원문 동사는 אֲדַבֶּר 하나다.",
+    "12:8 ko ‘내 종, 곧 모세를’ → ‘내 종을, 곧 모세를’(두 번 반복된 בְּ를 목적격 조사 두 번으로 반영).",
+    "12:6 en ‘Hear my words now.’ → ‘Listen now to my words.’(어순 자연화, נָא의 주의 환기 유지). es ‘me doy a conocer a él en visión’ → ‘en visión me doy a conocer a él’(원문 어순 ‘환상 속에서 그에게’ 반영).",
+    "12:8 es ‘no tuvieron temor de hablar’ → ‘no temieron hablar’(간결화)."
+  ],
+  "reception_evidence": [
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Num.12.1",
+      "tag": "dibber_be_against",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "excerpt": "וַתְּדַבֵּר מִרְיָם וְאַהֲרֹן בְּמֹשֶׁה עַל אֹדוֹת הָאִשָּׁה הַכֻּשִׁית אֲשֶׁר לָקָח כִּי אִשָּׁה כֻשִׁית לָקָח",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Num.12.2",
+      "tag": "dibber_be_through_or_with",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "excerpt": "וַיֹּאמְרוּ הֲרַק אַךְ בְּמֹשֶׁה דִּבֶּר יְהוָה הֲלֹא גַּם בָּנוּ דִבֵּר וַיִּשְׁמַע יְהוָה",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Num.12.5",
+      "tag": "speaker_context",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "excerpt": "וַיֵּרֶד יְהוָה בְּעַמּוּד עָנָן וַיַּעֲמֹד פֶּתַח הָאֹהֶל וַיִּקְרָא אַהֲרֹן וּמִרְיָם וַיֵּצְאוּ שְׁנֵיהֶם",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.4.12",
+      "tag": "temunah_not_seen",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "excerpt": "וַיְדַבֵּר יְהוָה אֲלֵיכֶם מִתּוֹךְ הָאֵשׁ קוֹל דְּבָרִים אַתֶּם שֹׁמְעִים וּתְמוּנָה אֵינְכֶם רֹאִים זוּלָתִי קוֹל",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.4.15",
+      "tag": "temunah_not_seen",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "excerpt": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם כִּי לֹא רְאִיתֶם כָּל תְּמוּנָה בְּיוֹם דִּבֶּר יְהוָה אֲלֵיכֶם בְּחֹרֵב מִתּוֹךְ הָאֵשׁ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.34.10",
+      "tag": "panim_el_panim",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "excerpt": "וְלֹא קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה אֲשֶׁר יְדָעוֹ יְהוָה פָּנִים אֶל פָּנִים",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.33.11",
+      "tag": "panim_el_panim",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "וְדִבֶּר יְהוָה אֶל מֹשֶׁה פָּנִים אֶל פָּנִים כַּאֲשֶׁר יְדַבֵּר אִישׁ אֶל רֵעֵהוּ וְשָׁב אֶל הַמַּחֲנֶה וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן נוּן נַעַר לֹא יָמִישׁ מִתּוֹךְ הָאֹהֶל",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.20.4",
+      "tag": "temunah_prohibition",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "excerpt": "לֹא תַעֲשֶׂה לְךָ פֶסֶל וְכָל תְּמוּנָה אֲשֶׁר בַּשָּׁמַיִם מִמַּעַל וַאֲשֶׁר בָּאָרֶץ מִתָּחַת וַאֲשֶׁר בַּמַּיִם מִתַּחַת לָאָרֶץ",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "2Sam.23.2",
+      "tag": "dibber_be_through",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Sam.xml",
+      "excerpt": "רוּחַ יְהוָה דִּבֶּר בִּי וּמִלָּתוֹ עַל לְשׁוֹנִי",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "e7793e141ed94eadbd2dfb23936abbb4062e81a7dcd41114a6e36644f50b8333",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "1Kgs.22.28",
+      "tag": "dibber_be_through",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+      "excerpt": "וַיֹּאמֶר מִיכָיְהוּ אִם שׁוֹב תָּשׁוּב בְּשָׁלוֹם לֹא דִבֶּר יְהוָה בִּי וַיֹּאמֶר שִׁמְעוּ עַמִּים כֻּלָּם",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Hos.1.2",
+      "tag": "dibber_be_through",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "excerpt": "תְּחִלַּת דִּבֶּר יְהוָה בְּהוֹשֵׁעַ וַיֹּאמֶר יְהוָה אֶל הוֹשֵׁעַ לֵךְ קַח לְךָ אֵשֶׁת זְנוּנִים וְיַלְדֵי זְנוּנִים כִּי זָנֹה תִזְנֶה הָאָרֶץ מֵאַחֲרֵי יְהוָה",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "1Sam.3.20",
+      "tag": "niphal_neeman_status",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+      "excerpt": "וַיֵּדַע כָּל יִשְׂרָאֵל מִדָּן וְעַד בְּאֵר שָׁבַע כִּי נֶאֱמָן שְׁמוּאֵל לְנָבִיא לַיהוָה",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg/silluq removed, maqqef/segs omitted, NFC",
+      "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "4.12.1",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/4.Numeri.txt",
+      "excerpt": "Καὶ ἐλάλησεν Μαριὰμ καὶ Ἀαρὼν κατὰ Μωυσῆ ἕνεκεν τῆς γυναικὸςτῆς Αἰθιοπίσσης ἣν ἔλαβεν Μωυσῆς, ὅτι γυναῖκα Αἰθιόπισσαν ἔλαβεν.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "",
+      "file_sha256": "6d81259fc0c0b4bc5da7099c5c6b14faba0f93daaed93c7996a8b110ecef2498",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "4.12.2",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/4.Numeri.txt",
+      "excerpt": "καὶ εἶπαν Μὴ Μωυσῇ μόνῳ λελάληκεν Κύριος; οὐχὶ καὶ ἡμῖν ἐλάλησεν ; καὶ ἤκουσεν κύριος.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "",
+      "file_sha256": "6d81259fc0c0b4bc5da7099c5c6b14faba0f93daaed93c7996a8b110ecef2498",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "4.12.6",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/4.Numeri.txt",
+      "excerpt": "καὶεἶπεν πρὸς αὐτούς Ἀκούσατε τῶν λόγων μου· ἐὰν γένηται πὑμῶν κυρίῳ, ἐν ὁράματι αὐτῷ γνωσθήσομαι καὶ ἐν ὕπνῳ αὐτῷ.",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "‘ἐὰν γένηται πὑμῶν κυρίῳ’ — ‘προφήτης’ 자리가 OCR에서 ‘π’만 남았다. κυρίῳ(여격)가 예언자 쪽에 붙은 것으로 보인다(‘너희의 예언자가 주께 있으면’). 둘째 절 ‘καὶ ἐν ὕπνῳ αὐτῷ’에는 동사(MT אֲדַבֶּר)가 OCR에 없다 — OCR 결함인지 실제 독법인지 이 파일로는 판단할 수 없다.",
+      "file_sha256": "6d81259fc0c0b4bc5da7099c5c6b14faba0f93daaed93c7996a8b110ecef2498",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "4.12.7",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/4.Numeri.txt",
+      "excerpt": "οὐχ οὕτως ὁ θεράπων μου Μωυσῆς· ἐν ὅλῳ τ πιστός ἐστιν·",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "‘ἐν ὅλῳ τ πιστός ἐστιν’ — ‘τῷ οἴκῳ μου’ 부분이 OCR에서 잘렸다. πιστός ‘신실한/믿을 만한’.",
+      "file_sha256": "6d81259fc0c0b4bc5da7099c5c6b14faba0f93daaed93c7996a8b110ecef2498",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "4.12.8",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/4.Numeri.txt",
+      "excerpt": "στόμα κατὰ στόμα λαλήσω αὐτῷ, ἐν εἴδει καὶ οὐδι’ αἰνιγμάτων, καὶ τὴν δόξαν Κυρίου εἶδεν· καὶ διὰ τί οὐκ ἐφοβήθητε καταλαλῆσαι κατὰ τοῦ θεράποντός μου Μωυσῆ;",
+      "excerpt_form": "verbatim OCR line text after the verse number (third-party raw OCR of Swete; not a critical edition)",
+      "observation_ko": "‘ἐν εἴδει’(보이는 모습으로) = MT וּמַרְאֶה; ‘τὴν δόξαν Κυρίου εἶδεν’ = MT וּתְמֻנַת יְהוָה יַבִּיט(낱말·시제 다름); ‘καταλαλῆσαι κατὰ τοῦ θεράποντός μου Μωυσῆ’는 전치사 하나.",
+      "file_sha256": "6d81259fc0c0b4bc5da7099c5c6b14faba0f93daaed93c7996a8b110ecef2498",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Num.12.1",
+      "path": "library/krv/Num.json",
+      "excerpt": "모세가 구스 여자를 취하였더니 그 구스 여자를 취하였으므로 미리암과 아론이 모세를 비방하니라",
+      "file_sha256": "8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Num.12.2",
+      "path": "library/krv/Num.json",
+      "excerpt": "그들이 이르되 여호와께서 모세와만 말씀하셨느냐 우리와도 말씀하지 아니하셨느냐 하매 여호와께서 이 말을 들으셨더라",
+      "file_sha256": "8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Num.12.6",
+      "path": "library/krv/Num.json",
+      "excerpt": "이르시되 내 말을 들으라 너희 중에 선지자가 있으면 나 여호와가 이상으로 나를 그에게 알리기도 하고 꿈으로 그와 말하기도 하거니와",
+      "file_sha256": "8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Num.12.7",
+      "path": "library/krv/Num.json",
+      "excerpt": "내 종 모세와는 그렇지 아니하니 그는 나의 온 집에 충성됨이라",
+      "file_sha256": "8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Num.12.8",
+      "path": "library/krv/Num.json",
+      "excerpt": "그와는 내가 대면하여 명백히 말하고 은밀한 말로 아니하며 그는 또 여호와의 형상을 보겠거늘 너희가 어찌하여 내 종 모세 비방하기를 두려워 아니하느냐",
+      "file_sha256": "8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Deut.4.12",
+      "path": "library/krv/Deut.json",
+      "excerpt": "여호와께서 화염 중에서 너희에게 말씀하시되 음성뿐이므로 너희가 그 말소리만 듣고 형상은 보지 못하였느니라",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Deut.4.15",
+      "path": "library/krv/Deut.json",
+      "excerpt": "여호와께서 호렙 산 화염 중에서 너희에게 말씀하시던 날에 너희가 아무 형상도 보지 못하였은즉 너희는 깊이 삼가라",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Deut.34.10",
+      "path": "library/krv/Deut.json",
+      "excerpt": "그 후에는 이스라엘에 모세와 같은 선지자가 일어나지 못하였나니 모세는 여호와께서 대면하여 아시던 자요",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Exod.33.11",
+      "path": "library/krv/Exod.json",
+      "excerpt": "사람이 그 친구와 이야기함 같이 여호와께서는 모세와 대면하여 말씀하시며 모세는 진으로 돌아오나 그 수종자 눈의 아들 청년 여호수아는 회막을 떠나지 아니하니라",
+      "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Heb.3.2",
+      "path": "library/krv/Heb.json",
+      "excerpt": "저가 자기를 세우신 이에게 충성하시기를 모세가 하나님의 온 집에서 한 것과 같으니",
+      "file_sha256": "0c486f5850dcd205c0121d3d83440de48b15101ae3628e95622ffecffe58bfd4",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "krv",
+      "ref": "Heb.3.5",
+      "path": "library/krv/Heb.json",
+      "excerpt": "또한 모세는 장래의 말할 것을 증거하기 위하여 하나님의 온 집에서 사환으로 충성하였고",
+      "file_sha256": "0c486f5850dcd205c0121d3d83440de48b15101ae3628e95622ffecffe58bfd4",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Num.12.1",
+      "path": "library/asv/Num.json",
+      "excerpt": "And Miriam and Aaron spake against Moses because of the Cushite woman whom he had married; for he had married a Cushite woman.",
+      "file_sha256": "ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Num.12.2",
+      "path": "library/asv/Num.json",
+      "excerpt": "And they said, Hath Jehovah indeed spoken only with Moses? hath he not spoken also with us? And Jehovah heard it.",
+      "file_sha256": "ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Num.12.6",
+      "path": "library/asv/Num.json",
+      "excerpt": "And he said, Hear now my words: if there be a prophet among you, I Jehovah will make myself known unto him in a vision, I will speak with him in a dream.",
+      "file_sha256": "ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Num.12.7",
+      "path": "library/asv/Num.json",
+      "excerpt": "My servant Moses is not so; he is faithful in all my house:",
+      "file_sha256": "ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Num.12.8",
+      "path": "library/asv/Num.json",
+      "excerpt": "with him will I speak mouth to mouth, even manifestly, and not in dark speeches; and the form of Jehovah shall he behold: wherefore then were ye not afraid to speak against my servant, against Moses?",
+      "file_sha256": "ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Deut.4.12",
+      "path": "library/asv/Deut.json",
+      "excerpt": "And Jehovah spake unto you out of the midst of the fire: ye heard the voice of words, but ye saw no form; only ye heard a voice.",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Deut.4.15",
+      "path": "library/asv/Deut.json",
+      "excerpt": "Take ye therefore good heed unto yourselves; for ye saw no manner of form on the day that Jehovah spake unto you in Horeb out of the midst of the fire;",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Deut.34.10",
+      "path": "library/asv/Deut.json",
+      "excerpt": "And there hath not arisen a prophet since in Israel like unto Moses, whom Jehovah knew face to face,",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Exod.33.11",
+      "path": "library/asv/Exod.json",
+      "excerpt": "And Jehovah spake unto Moses face to face, as a man speaketh unto his friend. And he turned again into the camp: but his minister Joshua, the son of Nun, a young man, departed not out of the Tent.",
+      "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Heb.3.2",
+      "path": "library/asv/Heb.json",
+      "excerpt": "who was faithful to him that appointed him, as also was Moses in all his house.",
+      "file_sha256": "d4640223ffecb855513ee8631d02c0207f8000e2e9ce9d06a0c187ab6479ca72",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "asv",
+      "ref": "Heb.3.5",
+      "path": "library/asv/Heb.json",
+      "excerpt": "And Moses indeed was faithful in all his house as a servant, for a testimony of those things which were afterward to be spoken;",
+      "file_sha256": "d4640223ffecb855513ee8631d02c0207f8000e2e9ce9d06a0c187ab6479ca72",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Num.12.1",
+      "path": "library/rv1909/Num.json",
+      "excerpt": "Y HABLARON María y Aarón contra Moisés á causa de la mujer Ethiope que había tomado: porque él había tomado mujer Ethiope.",
+      "file_sha256": "f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Num.12.2",
+      "path": "library/rv1909/Num.json",
+      "excerpt": "Y dijeron: ¿Solamente por Moisés ha hablado Jehová? ¿no ha hablado también por nosotros? Y oyólo Jehová.",
+      "file_sha256": "f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Num.12.6",
+      "path": "library/rv1909/Num.json",
+      "excerpt": "Y él les dijo: Oid ahora mis palabras: si tuviereis profeta de Jehová, le apareceré en visión, en sueños hablaré con él.",
+      "file_sha256": "f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Num.12.7",
+      "path": "library/rv1909/Num.json",
+      "excerpt": "No así á mi siervo Moisés, que es fiel en toda mi casa:",
+      "file_sha256": "f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Num.12.8",
+      "path": "library/rv1909/Num.json",
+      "excerpt": "Boca á boca hablaré con él, y á las claras, y no por figuras; y verá la apariencia de Jehová: ¿por qué pues no tuvisteis temor de hablar contra mi siervo Moisés?",
+      "file_sha256": "f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Deut.4.12",
+      "path": "library/rv1909/Deut.json",
+      "excerpt": "Y habló Jehová con vosotros de en medio del fuego: oisteis la voz de sus palabras, mas á excepción de oir la voz, ninguna figura visteis:",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Deut.4.15",
+      "path": "library/rv1909/Deut.json",
+      "excerpt": "Guardad pues mucho vuestras almas: pues ninguna figura visteis el día que Jehová habló con vosotros de en medio del fuego:",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Deut.34.10",
+      "path": "library/rv1909/Deut.json",
+      "excerpt": "Y nunca más se levantó profeta en Israel como Moisés, á quien haya conocido Jehová cara á cara;",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Exod.33.11",
+      "path": "library/rv1909/Exod.json",
+      "excerpt": "Y hablaba Jehová á Moisés cara á cara, como habla cualquiera á su compañero. Y volvíase al campo; mas el joven Josué, su criado, hijo de Nun, nunca se apartaba de en medio del tabernáculo.",
+      "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Heb.3.2",
+      "path": "library/rv1909/Heb.json",
+      "excerpt": "El cual es fiel al que le constituyó, como también lo fué Moisés sobre toda su casa.",
+      "file_sha256": "75457ab94dfe0d5f29cf8a4734ad043b47004808b55958c0dfc4856e50600fd5",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "translation_reception",
+      "translation": "rv1909",
+      "ref": "Heb.3.5",
+      "path": "library/rv1909/Heb.json",
+      "excerpt": "Y Moisés á la verdad fué fiel sobre toda su casa, como siervo, para testificar lo que se había de decir;",
+      "file_sha256": "75457ab94dfe0d5f29cf8a4734ad043b47004808b55958c0dfc4856e50600fd5",
+      "excerpt_verified_against_file": true
+    }
+  ],
+  "alternatives": {
+    "Num.12.6": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘너희 가운데 예언자가 있으면, 나 야훼가 환상 속에서 그에게 나를 알리고’",
+        "argument_ko": "마소라 악센트 묶음(נְבִיאֲכֶם ZAQEF로 조건절 종결, יְהוָה REVIA로 귀결절 시작). 신적 화자의 3인칭 자기 이름 지칭은 흔하다. 원문 수정 없음.",
+        "objection_ko": "‘나’는 원문 낱말이 아니라 동사 인칭에서 보충한 것이고, 어순의 어색함을 매끄럽게 감춘다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘너희에게 야훼의 예언자가 있으면, 내가 환상 속에서…’",
+        "argument_ko": "RV1909 수용, 칠십인역 OCR κυρίῳ와 방향이 비슷하다. 낱말 순서를 그대로 따른다.",
+        "objection_ko": "접미가 붙은 נְבִיאֲכֶם은 연계형이 아니어서 ‘야훼의’로 묶을 문법 근거가 약하고, 악센트 구분과 어긋난다."
+      },
+      {
+        "label": "C (conjectural reconstruction)",
+        "reading_ko": "נָבִיא בָּכֶם으로 고쳐 ‘너희 가운데 예언자가 있으면, 야훼인 내가…’",
+        "argument_ko": "글자 경계 하나를 바꾸면 어순 문제가 풀린다는 추정 수정안으로 흔히 언급된다고 알고 있으나, 이번 런에서 특정 출판물을 확인하지 않았다.",
+        "objection_ko": "이번 런에서 어떤 사본·판본 근거도 확인하지 못했다. 증거된 독법이 아니며, 번역 결과는 A와 사실상 같아 본문 수정의 실익이 작다."
+      },
+      {
+        "label": "D (dabber be-)",
+        "reading_ko": "‘꿈속에서 그를 통해 말한다’",
+        "argument_ko": "12:2 ‘우리를 통해서도 말씀하지 않으셨느냐’(RV1909 por nosotros)와 2Sam.23.2 용례.",
+        "objection_ko": "12:8 ‘입과 입을 마주하여 그와 말한다’와의 짝이 무너지고, 예언자를 ‘통로’로만 만든다."
+      }
+    ],
+    "Num.12.7": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘그는 내 온 집에서 신임받는 자다’ / trusted / de confianza",
+        "argument_ko": "니팔 분사 수동·상태, 관할 영역 ‘내 온 집에서’, 1Sam.3.20 지위 용례, 문맥상 계시 방식의 근거로서의 지위.",
+        "objection_ko": "모든 확인 수용(KRV·ASV·RV1909·칠십인역 OCR)과 히브리서 3:2·5 수용이 ‘신실’로 읽는다. ‘신임받는’은 성품을 약화시킨다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘그는 내 온 집에서 신실하다’ / faithful / fiel",
+        "argument_ko": "가장 오래되고 널리 퍼진 수용, 히브리서 본문과 연결, 한국 독자에게 익숙.",
+        "objection_ko": "모세의 덕목 칭찬으로 읽혀 지위·관할의 함의가 약해진다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘그는 내 온 집을 맡은 자다’ / entrusted with all my house",
+        "argument_ko": "청지기 지위를 가장 분명히 한다.",
+        "objection_ko": "בְּכָל־בֵּיתִי를 맡겨진 대상으로 바꾸는 해석적 번역이다."
+      }
+    ],
+    "Num.12.8": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘입과 입을 마주하여, 환히 드러내어 말하고 수수께끼로 말하지 않는다. 그는 야훼의 형상을 바라본다.’",
+        "argument_ko": "פֶּה/פָּנִים 구별 보존, מַרְאֶה를 악센트 단락대로 ‘수수께끼’와 대조되는 방식어로, 미완료 일반 현재 유지, תְּמוּנָה를 Deut.4 사슬과 같은 ‘형상’으로.",
+        "objection_ko": "‘환히 드러내어’는 시각 어근 מַרְאֶה를 말하기 방식으로 바꾼 해석이며 6절 ‘환상’(מַרְאָה)과의 말놀이가 한국어에서 보이지 않는다. ‘형상’은 한국어에서 우상 문맥을 떠올린다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘대면하여 명백히 말하고’(KRV형)",
+        "argument_ko": "익숙하고 매끄럽다.",
+        "objection_ko": "‘입’과 ‘얼굴’ 구분을 지운다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘보이는 모습으로’(칠십인역 ἐν εἴδει형) / ‘in plain sight’",
+        "argument_ko": "מַרְאֶה의 시각성과 6절과의 대조를 살린다.",
+        "objection_ko": "동사 ‘말한다’와 결합하면 어색하고, 전치사 보충이 필요하다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "‘야훼의 모습을 볼 것이다/보았다’",
+        "argument_ko": "KRV·ASV 미래, 칠십인역 OCR 부정과거.",
+        "objection_ko": "같은 절 앞 미완료 אֲדַבֶּר와 6절 미완료들이 일반 현재이므로 시제를 나눌 근거가 약하다. ‘모습’은 Deut.4 ‘형상’ 사슬을 끊는다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Num.12.7: preferred wording changes the traditional faithful (KRV/ASV/RV1909, LXX OCR pistos) to trusted / 신임받는 / de confianza",
+    "objection_ko": "가장 강한 반론: (1) 확인한 모든 수용이 ‘신실’로 읽고, 히브리서 3:2·5가 이 구절을 모세의 ‘신실함’ 증거로 쓴다. (2) 니팔 נֶאֱמָן은 ‘믿을 만하다/확고하다’(성품·신뢰성)가 중심 의미이고, 1Sam.3.20의 ‘지위 확인’은 לְנָבִיא라는 보어가 있어서 생긴 의미다. 이 절에는 그런 보어가 없다. (3) ‘신임받는’은 하나님의 평가(수동)를 앞세워 모세 자신의 신뢰성을 가린다. (4) 한국어 ‘신임’은 행정적 어감이 강하다.",
+    "test_ko": "절 단위 시험: (a) 형태 — 니팔 분사는 수동/상태 어느 쪽도 가능하다(형태만으로 결정 불가). (b) 구문 — בְּכָל־בֵּיתִי는 ‘내 온 집 안에서’ 영역이며 ‘맡겨진 대상’ 표지가 아니므로 C(entrusted with)는 기각, A와 B만 남는다. (c) 문맥 — 7a ‘내 종 모세는 그렇지 않다’ 직후의 7b는 왜 계시 방식이 다른지의 근거다. 근거로는 ‘집 전체에서 신뢰받는 종’(지위+신뢰성)이 ‘덕목’보다 직접적이다. (d) 영어 ‘trusted’와 스페인어 ‘de confianza’는 ‘믿을 만한’과 ‘신뢰를 받는’을 둘 다 포함한다. 한국어 ‘신임받는’만 지위 쪽으로 기운다.",
+    "result_ko": "en/es는 A 유지. ko는 A를 유지하되, 편집이 성품 의미를 우선하면 ‘그는 내 온 집에서 믿음직한 자다’ 또는 B ‘신실하다’로 바꿀 수 있다. 확신도는 중간(medium)으로 둔다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Num.12.6 ‘나 야훼가’",
+      "objection_ko": "‘나’ 보충이 원문의 어색함을 숨긴다. 직역 ‘너희의 예언자가 있으면 — 야훼, 환상 속에서 그에게 내가 나를 알린다’가 더 정직할 수 있다.",
+      "response_ko": "직역은 독자가 구문을 이해하기 어렵다. 각주로 어순과 B/C 대안을 보이고 본문은 A를 쓴다."
+    },
+    {
+      "target": "Num.12.8 ‘형상’",
+      "objection_ko": "한국어 ‘형상’은 우상의 ‘형상’을 떠올려 모세가 우상 같은 것을 보았다는 오해를 줄 수 있다. ‘모습’이 중립적이다.",
+      "response_ko": "Deut.4.12·15와 Exod.20.4가 같은 낱말 תְּמוּנָה를 쓰고, 그 긴장 자체가 본문의 요점이다. 사슬 보존이 더 중요하다고 판단한다. 편집이 신명기 4장을 ‘모습’으로 정하면 함께 바꾼다."
+    },
+    {
+      "target": "Num.12.6-8 2인칭 복수 es ustedes",
+      "objection_ko": "선정본 Gen.4.23 es는 vosotros(oíd, escuchad)를 썼다.",
+      "response_ko": "Gen.3.1-5 es는 ustedes형(coman, mueran)이다. 산문 대화 관례를 따라 ustedes형을 택하고 일관성 결정을 요청한다."
+    }
+  ],
+  "preferred_wording": {
+    "Num.12.6": {
+      "ko": "그분이 말씀하셨다. “이제 내 말을 들어라. 너희 가운데 예언자가 있으면, 나 야훼가 환상 속에서 그에게 나를 알리고 꿈속에서 그와 말한다.",
+      "en": "He said, “Listen now to my words. If there is a prophet among you, I, YHWH, make myself known to him in a vision; I speak with him in a dream.",
+      "es": "Él dijo: «Escuchen ahora mis palabras. Si hay entre ustedes un profeta, yo, YHWH, en visión me doy a conocer a él; en sueños hablo con él.",
+      "reason_ko": "암시 주어는 선정본 관례대로 ‘그분이/He/Él’. נָא는 윗사람의 주의 환기로 ‘이제/now/ahora’. 마소라 악센트에 따라 야훼를 귀결절 주어로 읽어 ‘나 야훼가/I, YHWH,/yo, YHWH,’. 미완료는 일반 현재. בּוֹ는 12:8과 짝을 이루도록 ‘그와/with him/con él’.",
+      "counterargument_ko": "‘나’ 보충, B ‘야훼의 예언자’(RV1909), C 추정 본문 수정, D ‘그를 통해’.",
+      "current_opinion_ko": "A를 본문으로, 어순 문제와 B/C를 각주로.",
+      "reconsider_if_ko": "비평판 칠십인역(괴팅겐 민수기), 사마리아 오경, 쿰란 민수기 사본의 실제 본문을 URL과 발췌로 확인해 נביא בכם 같은 다른 독법이 증거로 드러나면 다시 쓴다. 편집이 신명 표기를 ‘YHWH’(Num.6.24-26 선정본)로 통일하면 ‘나 YHWH가’로 바꾼다."
+    },
+    "Num.12.7": {
+      "ko": "내 종 모세는 그렇지 않다. 그는 내 온 집에서 신임받는 자다.",
+      "en": "Not so with my servant Moses; he is trusted in all my house.",
+      "es": "No es así con mi siervo Moisés; en toda mi casa él es de confianza.",
+      "reason_ko": "생략 구문 לֹא־כֵן을 ‘그렇지 않다/Not so/No es así’로. נֶאֱמָן은 니팔 분사의 수동·상태성과 관할 영역을 살려 ‘신임받는/trusted/de confianza’.",
+      "counterargument_ko": "전통 수용과 히브리서 3장은 ‘신실’로 읽는다(strongest_objection_to_own_reading).",
+      "current_opinion_ko": "en/es는 ‘trusted/de confianza’, ko는 ‘신임받는’을 현재 선택하되 확신도 중간.",
+      "reconsider_if_ko": "편집이 성품 의미를 우선하거나, 독립 GPT/Gemini 검토가 니팔 נֶאֱמָן 용례 조사(1Sam.2.35, 1Sam.3.20, 1Sam.22.14, Isa.8.2 등 — 이번 런에서는 1Sam.3.20만 원문 확인)로 더 강한 근거를 내면 ‘신실하다/faithful/fiel’로 되돌린다."
+    },
+    "Num.12.8": {
+      "ko": "그와는 내가 입과 입을 마주하여, 환히 드러내어 말하고 수수께끼로 말하지 않는다. 그는 야훼의 형상을 바라본다. 그런데 어찌하여 너희는 내 종을, 곧 모세를 거슬러 말하기를 두려워하지 않았느냐?”",
+      "en": "With him I speak mouth to mouth, plainly and not in riddles, and he beholds the form of YHWH. Why then were you not afraid to speak against my servant, against Moses?”",
+      "es": "Con él hablo boca a boca, claramente y no en enigmas, y él contempla la forma de YHWH. ¿Por qué, pues, no temieron hablar contra mi siervo, contra Moisés?»",
+      "reason_ko": "‘입’과 ‘얼굴’ 구별 보존, 악센트 단락대로 ‘환히 드러내어 … 수수께끼로 하지 않고’를 한 덩어리로, תְּמוּנָה를 Deut.4 사슬과 같은 ‘형상/form/forma’로, 미완료 일반 현재. 두 번 반복된 בְּ를 보존. 발화는 여기서 닫는다.",
+      "counterargument_ko": "‘환히 드러내어’는 시각 어근의 해석적 번역이다. ‘형상’의 우상 어감. 칠십인역 OCR의 ‘영광을 보았다’.",
+      "current_opinion_ko": "A 유지.",
+      "reconsider_if_ko": "편집이 신명기 4장·출애굽기 20:4의 תְּמוּנָה 번역을 다르게 정하거나, 비평판 칠십인역에서 δόξαν 독법과 그 근거가 확인되어 이문 각주가 필요해질 때. מַרְאֶה의 모음·전치사에 대한 사본 증거가 확인되면 다시 쓴다."
+    }
+  },
+  "speech_boundaries_ko": [
+    "6절: 도입 ‘그분이 말씀하셨다’ 뒤에 야훼 발화를 연다. 닫지 않는다.",
+    "7절: 인용 부호 없음(발화 계속).",
+    "8절: 발화 끝에서 닫는다. Gen.3.14-15, Gen.4.6-7 선정본 관례(첫 절에서 열고 마지막 절에서 닫음)."
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Num.12.6",
+      "note_ko": "히브리어 어순은 ‘너희의 예언자가 있으면 — 야훼, 환상 속에서 그에게 내가 나를 알린다’로 어색하다. 마소라 악센트는 ‘야훼’를 뒤 절에 붙인다. ‘야훼의 예언자’로 묶은 번역(RV1909)과 본문 수정 추정도 있으나 이번 검토에서 사본 근거는 확인하지 못했다."
+    },
+    {
+      "id": "Num.12.6",
+      "note_ko": "‘말하다’ + 전치사 בְּ가 이 장에서 ‘모세를 거슬러 말하다’(12:1), ‘모세와만/모세를 통해서만 말씀하셨느냐’(12:2), ‘그와 말한다’(12:6, 8), ‘내 종을 거슬러 말하다’(12:8)로 되풀이된다."
+    },
+    {
+      "id": "Num.12.8",
+      "note_ko": "‘입과 입을 마주하여’는 출 33:11, 신 34:10의 ‘얼굴과 얼굴을 마주하여’와 다른 낱말이다."
+    },
+    {
+      "id": "Num.12.8",
+      "note_ko": "‘환히 드러내어’(מַרְאֶה)와 6절 ‘환상’(מַרְאָה)은 같은 어근에서 온 대조어다."
+    },
+    {
+      "id": "Num.12.8",
+      "note_ko": "‘형상’(תְּמוּנָה)은 신 4:12, 15(시내산에서 백성은 형상을 보지 못했다)와 출 20:4와 같은 낱말이다. 칠십인역(OCR 확인, 비평판 미확인)은 ‘주의 영광을 보았다’로 옮겼다. 번역은 두 본문의 긴장을 조화시키지 않는다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "scope": "data/editorial.json v0.4.17 Korean divine name (current selected, unchanged)",
+      "finding_ko": "Genesis 선정본 ko 28절은 ‘야훼’, Num.6.24-26과 Ps 1 선정본 ko 5절은 ‘YHWH께서’를 쓴다(같은 v0.4.17). 이 리뷰는 Genesis 관례 ‘야훼’를 쓰되, 같은 민수기의 Num.6.24-26 관례(‘YHWH’)와 충돌한다. 한국어 신명 표기 통일 결정이 필요하다. decisions.json HYB.PS.001.002(v0.4.17) 결정 사유에 ‘신명을 YHWH로 통일한다’는 문구가 있다."
+    },
+    {
+      "scope": "data/editorial.json es 2nd person plural (current selected, unchanged)",
+      "finding_ko": "Gen.3.1-5 es는 ustedes형(coman, mueran), Gen.4.23 es는 vosotros형(oíd, escuchad)이다. 이 리뷰는 ustedes형(Escuchen, temieron)을 쓴다. 통일 결정 필요."
+    },
+    {
+      "scope": "data/editorial.json Gen.4.7 es (current selected, unchanged)",
+      "finding_ko": "관찰: Gen.4.6 es는 «로 발화를 열고 Gen.4.7 es는 ”로 닫는다. 이전 리뷰(exod-33-18-23)도 같은 관찰을 기록했다. 이 리뷰는 수정하지 않는다."
+    },
+    {
+      "scope": "Num.12.8, Deut.4.12, Deut.4.15, Exod.20.4 temunah chain",
+      "finding_ko": "תְּמוּנָה를 같은 번역어로 묶을지 결정해야 한다. 이 리뷰는 ‘형상/form/forma’를 제안한다(RV1909는 Num 12:8 apariencia, Deut 4 figura로 갈림)."
+    },
+    {
+      "scope": "Num.12.8 vs Exod.33.11, Deut.34.10 (peh/panim)",
+      "finding_ko": "‘입과 입’과 ‘얼굴과 얼굴’을 구별해 옮기는 원칙을 결정 기록에 남길 필요가 있다."
+    }
+  ],
+  "final_opinion_ko": "세 절 모두 마소라 본문을 고치지 않고 옮길 수 있다. 가장 큰 쟁점은 12:6 ‘너희의 예언자 — 야훼’ 어순으로, 악센트를 따라 ‘나 야훼가’로 읽되 미해결 본문·구문 문제로 남긴다. 12:7 נֶאֱמָן은 en/es ‘trusted/de confianza’, ko ‘신임받는’을 현재 선택하되 전통 ‘신실’로 되돌릴 조건을 명시한다. 12:8은 ‘입과 입’·‘형상’을 낱말 그대로 보존해 출 33장·신 4장과의 긴장을 독자가 볼 수 있게 한다. 이 리뷰는 채택되지 않은 모델 검토이며 공개 번역이 아니다.",
+  "confidence_limits": [
+    {
+      "id": "Num.12.6",
+      "level": "medium",
+      "note_ko": "어순 문제(본문·구문)와 בּוֹ 기능이 열려 있다. 사본 대조 없음."
+    },
+    {
+      "id": "Num.12.7",
+      "level": "medium",
+      "note_ko": "נֶאֱמָן 성품/지위 선택이 해석 문제."
+    },
+    {
+      "id": "Num.12.8",
+      "level": "medium-high",
+      "note_ko": "번역은 분명하나 מַרְאֶה 처리, תְּמוּנָה 번역어, 칠십인역 차이가 열려 있다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Num.12.6",
+      "condition_ko": "비평판 칠십인역·사마리아 오경·쿰란 민수기 본문이 URL·발췌로 확인되어 다른 독법이 증거로 드러날 때; 한국어 신명 표기 통일 결정이 날 때."
+    },
+    {
+      "id": "Num.12.7",
+      "condition_ko": "니팔 נֶאֱמָן 용례 전수 조사 또는 독립 GPT/Gemini 검토가 성품 의미를 더 강하게 지지할 때."
+    },
+    {
+      "id": "Num.12.8",
+      "condition_ko": "תְּמוּנָה·פֶּה/פָּנִים 번역 원칙이 결정되거나, 칠십인역 δόξαν 독법이 비평판으로 확인될 때."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Num.12.6",
+      "issue": "Syntax/text of neviakhem YHWH (your prophet - YHWH): MT accents attach YHWH to the apodosis; RV1909 reads prophet of YHWH; LXX OCR has kyrio (dative) with damaged prophetes; conjectural emendation navi bakhem not verified",
+      "status": "unresolved_textual_syntactic",
+      "needed_evidence": "Critical LXX (Goettingen Numeri), Samaritan Pentateuch, Qumran Numbers witnesses with URL and excerpt; editorial decision."
+    },
+    {
+      "id": "Num.12.6",
+      "issue": "LXX OCR second clause kai en hypno auto lacks a verb corresponding to MT adabber",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition or printed Swete page image."
+    },
+    {
+      "id": "Num.12.6",
+      "issue": "Function of dibber be- (with / through) in 12:6 and 12:8 relative to 12:1-2",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial decision and note policy."
+    },
+    {
+      "id": "Num.12.7",
+      "issue": "neeman: trustworthy/faithful (character) vs trusted/entrusted (status)",
+      "status": "unresolved_lexical",
+      "needed_evidence": "Checked Niphal neeman usages beyond 1Sam.3.20 (1Sam.2.35, 1Sam.22.14, Isa.8.2 not checked in this run); independent GPT/Gemini review."
+    },
+    {
+      "id": "Num.12.7",
+      "issue": "LXX OCR line truncated (en holo t pistos estin)",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition."
+    },
+    {
+      "id": "Num.12.8",
+      "issue": "umareh without preposition: adverbial plainly vs in (visible) form; LXX OCR en eidei",
+      "status": "unresolved_lexical_syntactic",
+      "needed_evidence": "Manuscript or critical edition evidence for vocalization/preposition; editorial decision."
+    },
+    {
+      "id": "Num.12.8",
+      "issue": "LXX OCR reads ten doxan kyriou eiden (saw the glory of the Lord) where MT has utemunat YHWH yabbit (beholds the form of YHWH)",
+      "status": "unverified_reception_observation",
+      "needed_evidence": "Critical LXX edition."
+    },
+    {
+      "id": "Num.12.8",
+      "issue": "Relation to Deut.4.12, Deut.4.15, Exod.33.20 (no form seen / no one sees God and lives)",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial note policy across the theophany chain; not a textual question in the pinned MT."
+    },
+    {
+      "id": "Num.12.6-8",
+      "issue": "Korean divine name (야훼 vs YHWH) and Spanish 2pl (ustedes vs vosotros) inconsistent in current selected data",
+      "status": "editorial_policy_needed",
+      "needed_evidence": "Versioned editorial decision."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py at claim preparation (2026-10-31T21:37:22.252476+00:00)",
+      "what_it_is": "Pinned WLC/OSHB Numbers; target verses and Num 12 context.",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-10-31T21:40:25Z",
+      "what_it_is": "Pinned WLC/OSHB file",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-10-31T21:40:25Z",
+      "what_it_is": "Pinned WLC/OSHB file",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Sam.xml",
+      "accessed_utc": "2026-10-31T21:40:25Z",
+      "what_it_is": "Pinned WLC/OSHB file",
+      "file_sha256": "e7793e141ed94eadbd2dfb23936abbb4062e81a7dcd41114a6e36644f50b8333"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Kgs.xml",
+      "accessed_utc": "2026-10-31T21:40:25Z",
+      "what_it_is": "Pinned WLC/OSHB file",
+      "file_sha256": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Hos.xml",
+      "accessed_utc": "2026-10-31T21:40:26Z",
+      "what_it_is": "Pinned WLC/OSHB file",
+      "file_sha256": "f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/1Sam.xml",
+      "accessed_utc": "2026-10-31T21:40:26Z",
+      "what_it_is": "Pinned WLC/OSHB file",
+      "file_sha256": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/4.Numeri.txt",
+      "accessed_utc": "2026-10-31T21:40:09Z",
+      "file_sha256": "6d81259fc0c0b4bc5da7099c5c6b14faba0f93daaed93c7996a8b110ecef2498",
+      "what_it_is": "Third-party raw OCR of Swete LXX Numbers; OCR defects visible (merged words, truncated lines). 4.Numbers.txt at the same commit returned 404."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition; differences from MT are reception observations, not established variants.",
+    "The emendation navi bakhem is mentioned only as a conjectural reconstruction said to exist in scholarship; no specific publication was checked in this run.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "Niphal neeman usages other than 1Sam.3.20 were not checked in this run.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated; none exists for this unit in the repository.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication. Current selected text (including Num.6.24-26 and Genesis) was not modified.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "The self-checks below are by the same model and are not an independent review."
+  ],
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+    "packet": "automation/hard-review-packets/20261031T213722Z-d71c9ae5.json",
+    "claim_manifest": "automation/hard-review-runs/20261031T213722Z-d71c9ae5.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Num.12.6",
+        "raw_xml": "<verse osisID=\"Num.12.6\">\n          <w lemma=\"c/559\" n=\"1.0\" morph=\"HC/Vqw3ms\" id=\"043fd\">וַ/יֹּ֖אמֶר</w>\n          <w lemma=\"8085\" morph=\"HVqv2mp\" id=\"04CvK\">שִׁמְעוּ</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4994\" morph=\"HTe\" id=\"04Vio\">נָ֣א</w>\n          <w lemma=\"1697\" n=\"1\" morph=\"HNcmpc/Sp1cs\" id=\"04pZB\">דְבָרָ֑/י</w>\n          <w lemma=\"518 a\" morph=\"HC\" id=\"04S2M\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1961\" n=\"0.2.0\" morph=\"HVqi3ms\" id=\"04eZE\">יִֽהְיֶה֙</w>\n          <w lemma=\"5030\" n=\"0.2\" morph=\"HNcmsc/Sp2mp\" id=\"04W4S\">נְבִ֣יאֲ/כֶ֔ם</w>\n          <w lemma=\"3068\" n=\"0.1.1\" morph=\"HNp\" id=\"04Gbr\">יְהוָ֗ה</w>\n          <w lemma=\"b/4759 a\" n=\"0.1.0\" morph=\"HRd/Ncfsa\" id=\"04v99\">בַּ/מַּרְאָה֙</w>\n          <w lemma=\"413\" morph=\"HR/Sp3ms\" id=\"04djw\">אֵלָ֣י/ו</w>\n          <w lemma=\"3045\" n=\"0.1\" morph=\"HVti1cs\" id=\"04cqT\">אֶתְוַדָּ֔ע</w>\n          <w lemma=\"b/2472\" n=\"0.0\" morph=\"HR/Ncmsa\" id=\"04pWC\">בַּ/חֲל֖וֹם</w>\n          <w lemma=\"1696\" morph=\"HVpi1cs\" id=\"04RLz\">אֲדַבֶּר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"b\" n=\"0\" morph=\"HR/Sp3ms\" id=\"04YXn\">בּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "af41b41a0d0e35f63adbc21ab84ef84b707795e3f29a9eedfc55d0902b514c4f",
+        "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896"
+      },
+      {
+        "id": "Num.12.7",
+        "raw_xml": "<verse osisID=\"Num.12.7\">\n          <w lemma=\"3808\" morph=\"HTn\" id=\"04XT1\">לֹא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3651 c\" n=\"1.0\" morph=\"HD\" id=\"043Mm\">כֵ֖ן</w>\n          <w lemma=\"5650\" morph=\"HNcmsc/Sp1cs\" id=\"04zXt\">עַבְדִּ֣/י</w>\n          <w lemma=\"4872\" n=\"1\" morph=\"HNp\" id=\"0467g\">מֹשֶׁ֑ה</w>\n          <w lemma=\"b/3605\" morph=\"HR/Ncmsc\" id=\"04C2M\">בְּ/כָל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1004 b\" n=\"0.0\" morph=\"HNcmsc/Sp1cs\" id=\"04Nec\">בֵּיתִ֖/י</w>\n          <w lemma=\"539\" morph=\"HVNrmsa\" id=\"0445R\">נֶאֱמָ֥ן</w>\n          <w lemma=\"1931\" n=\"0\" morph=\"HPp3ms\" id=\"04SEN\">הֽוּא</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "5bade57e15032f655edacf14d7f1af05b0b79b995636bb93c2186503b65c0985",
+        "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896"
+      },
+      {
+        "id": "Num.12.8",
+        "raw_xml": "<verse osisID=\"Num.12.8\">\n          <w lemma=\"6310\" morph=\"HNcmsa\" id=\"04JQg\">פֶּ֣ה</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"04TGg\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6310\" n=\"1.1.1.0\" morph=\"HNcmsa\" id=\"04HrY\">פֶּ֞ה</w>\n          <w lemma=\"1696\" morph=\"HVpi1cs\" id=\"048tv\">אֲדַבֶּר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"b\" n=\"1.1.1\" morph=\"HR/Sp3ms\" id=\"043zJ\">בּ֗/וֹ</w>\n          <w lemma=\"c/4758\" n=\"1.1.0\" morph=\"HC/Ncmsa\" id=\"04odd\">וּ/מַרְאֶה֙</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"04eJm\">וְ/לֹ֣א</w>\n          <w lemma=\"b/2420\" n=\"1.1\" morph=\"HR/Ncfpa\" id=\"04t8y\">בְ/חִידֹ֔ת</w>\n          <w lemma=\"c/8544\" morph=\"HC/Ncfsc\" id=\"047q4\">וּ/תְמֻנַ֥ת</w>\n          <w lemma=\"3068\" n=\"1.0\" morph=\"HNp\" id=\"04c2v\">יְהוָ֖ה</w>\n          <w lemma=\"5027\" n=\"1\" morph=\"HVhi3ms\" id=\"04gth\">יַבִּ֑יט</w>\n          <w lemma=\"c/4069\" n=\"0.1.0\" morph=\"HC/Ti\" id=\"04qe3\">וּ/מַדּ֨וּעַ֙</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"04vvb\">לֹ֣א</w>\n          <w lemma=\"3372\" n=\"0.1\" morph=\"HVqp2mp\" id=\"04HZL\">יְרֵאתֶ֔ם</w>\n          <w lemma=\"l/1696\" n=\"0.0\" morph=\"HR/Vpc\" id=\"04JP4\">לְ/דַבֵּ֖ר</w>\n          <w lemma=\"b/5650\" morph=\"HR/Ncmsc/Sp1cs\" id=\"04Lke\">בְּ/עַבְדִּ֥/י</w>\n          <w lemma=\"b/4872\" n=\"0\" morph=\"HR/Np\" id=\"04udG\">בְ/מֹשֶֽׁה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "dc40c65f09897650e96569de5cd4100b09bf4ff96524c9e4b5c9c82a23c76a40",
+        "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261031T213722Z-d71c9ae5.ko.md",
+  "branch": "claude/original-bible-hard-review-8ynzie",
+  "checks": {
+    "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_or_note_markup_present": false,
+    "clause_coverage": {
+      "Num.12.6": 5,
+      "Num.12.7": 2,
+      "Num.12.8": 4
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpts_verified": true,
+    "library_excerpts_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "speech_opens_in_first_and_closes_in_last_verse": true,
+    "curly_and_angle_quotes_balanced_across_unit": true,
+    "divine_name_convention": {
+      "ko_yahwe": true,
+      "en_es_YHWH": true,
+      "no_LORD_or_Jehovah": true
+    },
+    "earlier_records_found_for_unit": [],
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
