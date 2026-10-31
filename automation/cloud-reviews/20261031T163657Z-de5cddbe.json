@@ -1,0 +1,804 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T163657Z-de5cddbe",
+  "unit_id": "lev-19-15-18",
+  "verse_ids": [
+    "Lev.19.15",
+    "Lev.19.16",
+    "Lev.19.17",
+    "Lev.19.18"
+  ],
+  "unit_issue_ko": "공정 판단·중상·이웃 생명·네 몸같이/너와 같은",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Lev.19.15-18 equals traditional Hebrew and English Leviticus 19:15-18; no numbering difference.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet (automation/hard-review-packets/20261031T163657Z-de5cddbe.json). Hebrew quoted in prose fields below has cantillation removed for readability and is NOT a substitute for the raw fragment; source_words_cited keeps codepoint-exact OSHB word text with id, lemma and morph.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session (session_id omitted) at about 2026-10-31T16:38Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high.",
+    "session": "https://claude.ai/code/session_01UknqVGJaRLhkNdfxSisrvF",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false at about 2026-10-31T16:38Z. This is session metadata only; no dollar balance, remaining credit or per-run deduction was exposed or is asserted.",
+    "not_exposed": [
+      "exact backend model snapshot/build",
+      "whether every turn was served by the same backend snapshot (last_served_model is a label, not a snapshot hash)",
+      "remaining promotional credit balance or amount deducted by this run",
+      "token counts for this run"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T16:36:57Z",
+    "claim_committed": "2026-10-31T16:37:00Z (commit 4f9b92289c801b711eebe9876bcbad8531d37348)",
+    "claim_pushed": "2026-10-31T16:37Z (approximate; push succeeded before any review work)",
+    "identity_checked": "2026-10-31T16:38Z (approximate)",
+    "network_checks": "2026-10-31T16:39:24Z to 16:39:45Z (pinned OSHB context books)",
+    "review_written": "2026-10-31T16:41Z onward",
+    "checks_run": "2026-10-31T16:46:53Z"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile, critical apparatus, LXX edition, Samaritan Pentateuch edition or Qumran edition was consulted in this session.",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+    "fragment_sha256": {
+      "Lev.19.15": "3491610d8314d8836a1883ce15c3225bfe02d0582a52d6712ea89df39ddf02d5",
+      "Lev.19.16": "53c537532d78f3005880ecfa75db35045d29a2ffc5439c2a6ba355b99560facf",
+      "Lev.19.17": "d6ecda5dd36dd4f25a4e5afb82841a6142c3f6a04c31a37a77fcfd61d146a63a",
+      "Lev.19.18": "223009220d1648740e43384945ba0e7bf1b491b18e1ca4b415fe1767386c257e"
+    },
+    "packet": "automation/hard-review-packets/20261031T163657Z-de5cddbe.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected_in_packet": "none (upcoming passage; no selected Leviticus text exists in data/editorial.json at main 10983fc)",
+    "context_files_same_pinned_commit": {
+      "Lev.xml": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "Gen.xml": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "Exod.xml": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "Num.xml": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "Deut.xml": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "Ezek.xml": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+      "Esth.xml": "f9b5b8adaf504dcac409bb6a27c9328967f47eeb4e920070cd53ef5301299019",
+      "Dan.xml": "bc69d0fa9708dacb11ea6d587509250bf1bcc1b4343eac2d6e97f8b41518fc0d",
+      "Zech.xml": "2e287c8d0e0abd3bf601eb8ef9b4ee6ca3ae12cf36c0ed1612a7dcca54a2e777",
+      "Prov.xml": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+      "Nah.xml": "5993b28bdbee3c922e3e93002d343a655493e8bd45e3472f3b62d77beadcb62c",
+      "Jer.xml": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "Ps.xml": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "1Kgs.xml": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+      "2Chr.xml": "507294e8ca0fcf31ec25fe62fa24a7f2581f53116519bf08cfe96ff85e9c99fb"
+    },
+    "context_verses_read_from_same_pinned_commit": "Lev.19.2, Lev.19.3, Lev.19.11-14, Lev.19.32-34, Lev.5.1, Lev.5.21, Lev.21.1, Lev.21.4, Lev.22.9, Lev.24.17, Lev.24.19, Lev.25.14, Lev.25.17, Lev.26.25, Lev.27.8, Gen.18.8, Gen.24.30, Gen.25.8, Gen.44.18, Exod.18.13, Exod.18.14, Exod.23.1-6, Num.18.32, Num.35.12, Deut.1.17, Deut.5.14, Deut.16.19, Deut.19.15, Deut.19.16, Deut.19.18, Ezek.22.9, Ezek.24.8, Ezek.33.26, Esth.8.11, Esth.9.16, Dan.8.25, Dan.11.14, Zech.13.7, Prov.11.13, Prov.20.19, Nah.1.2, Jer.3.5, Jer.3.12, Jer.6.28, Jer.9.3, Ps.15.3, Ps.103.9, 1Kgs.5.15, 2Chr.19.2"
+  },
+  "source_encoding_observations": [
+    {
+      "id": "Lev.19.15-18",
+      "observation_ko": "네 절 모두 <note>, <rdg type=\"x-qere\">, 대체 읽기 표지가 없다. 각 절은 <seg type=\"x-sof-pasuq\">׃</seg>로 닫히고, 마켑은 <seg type=\"x-maqqef\">־</seg>로 따로 인코딩된다. 형태소 경계는 '/'로 표시된다(예: OSHB id 03SUy בַּ/מִּשְׁפָּט, 03x8G עֲמִיתֶ/ךָ, 03AHo לְ/רֵעֲ/ךָ; 여기서는 강세 기호를 뺐다). 19:15 עָוֶל(OSHB id 03RVq)에는 U+05A8(HEBREW ACCENT QADMA)이 첫 음절에, U+0599(HEBREW ACCENT PASHTA)가 끝 글자에 함께 인코딩되어 있다: 강세가 끝음절이 아닐 때 파쉬타를 두 번 쓰는 관례를 앞의 것을 카드마 코드포인트로 인코딩한 것으로 보이나, 이 해석은 인코딩 관례에 대한 추정이다. 이 기록은 원시 문자열을 바꾸지 않았다.",
+      "status": "no_encoded_variant_in_pinned_source",
+      "what_is_not_known_ko": "고정 WLC/OSHB 인코딩에 변이 표지가 없다는 뜻일 뿐, 레닌그라드 사본 사진이나 다른 사본·역본과 대조했다는 뜻이 아니다."
+    },
+    {
+      "id": "Lev.19.18",
+      "observation_ko": "OSHB n 속성(강세 분절 트리): 03AHo לְרֵעֲךָ n=1.0(팁하), 03PYm כָּמוֹךָ n=1(아트나흐). 즉 낭독 강세는 [וְאָהַבְתָּ לְרֵעֲךָ] | [כָּמוֹךָ]로 작은 분절을 둔다. 이것은 아트나흐 앞 3어 구절에서 흔한 배치이므로 ‘너 자신처럼’(부사) 대 ‘너와 같은 이’(동격) 논쟁을 결정하지 못한다; 약한 정보로만 기록한다.",
+      "status": "accent_data_observed_not_decisive",
+      "what_is_not_known_ko": "마소라 강세는 중세 낭독 전통이며 원저자의 구문 의도를 직접 증언하지 않는다."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Gen,Exod,Num,Deut,Ezek,Esth,Dan,Zech,Prov,Nah,Jer,Ps,1Kgs,2Chr}.xml",
+      "accessed_utc": "2026-10-31T16:39:24Z to 2026-10-31T16:39:45Z",
+      "result": "HTTP 200 for all 14 files; SHA-256 values recorded in source.context_files_same_pinned_commit. Lev.xml was already fetched by tools/claude_hard_review.py at claim time (same pinned commit).",
+      "excerpt": "Ezek.33.26 (cantillation stripped): עֲמַדְתֶּם עַל-חַרְבְּכֶם"
+    }
+  ],
+  "independent_initial_reading": {
+    "method_ko": "아래는 원천 패킷(원시 XML·형태 분석·강세)과 같은 고정 커밋의 문맥 절만 보고, 기존 기록을 보기 전에 작성했다. 이후 확인 결과 이 네 절에 대한 기존 초안·GPT·Gemini·Claude 기록은 없었다(earlier_records_compared 참조).",
+    "discourse_frame_ko": "19:2 ‘이스라엘 자손의 온 회중에게 말하라: 너희는 거룩하라, 나 야훼 너희 하나님이 거룩하기 때문이다’로 시작한 신적 발화 안이다. 19:11-18은 이웃 관계 금지의 연속 단락이며, ‘나는 야훼이다’(19:12, 14, 16, 18)가 소단락을 닫는다. 19:15-16과 19:17-18이 각각 ‘나는 야훼이다’로 끝나는 두 짝을 이룬다. 대상어가 단계적으로 바뀐다: 19:15 עֲמִיתֶךָ(동족) → 19:16 עַמֶּיךָ(복수, 네 백성들) · רֵעֶךָ(이웃) → 19:17 אָחִיךָ(형제) · עֲמִיתֶךָ(동족) → 19:18 בְּנֵי עַמֶּךָ(네 백성의 자손들) · רֵעֲךָ(이웃). 이 사다리를 번역에서 구별해 보존하는 것이 이 단위의 첫째 과제다.",
+    "Lev.19.15": {
+      "lexical_ko": "עָוֶל ‘불의/부정’. בַּמִּשְׁפָּט ‘재판에서’(관사 포함). נָשָׂא פְנֵי־ ‘~의 얼굴을 들어 주다’ = 편들다/두둔하다. הָדַר פְּנֵי ‘~의 얼굴을 높이다/영예롭게 하다’ — 고정 원천에서 lemma 1921은 출 23:3, 레 19:15, 19:32, 잠 25:6에만 있다(15권 검색). 레 19:32 וְהָדַרְתָּ פְּנֵי זָקֵן ‘노인의 얼굴을 높여라(공경하라)’는 같은 장에서 같은 표현을 긍정 명령으로 쓴다. 출 23:3 וְדָל לֹא תֶהְדַּר בְּרִיבוֹ는 ‘가난한 자를 그의 소송에서 두둔하지 마라’로 동사를 דָּל에 쓴다; 레 19:15는 נָשָׂא를 דָּל에, הָדַר를 גָּדוֹל에 배분한다. בְּצֶדֶק ‘의로/공의로’. עָמִית ‘동족/동료’.",
+      "syntactic_ko": "첫 금지만 2인칭 남성 복수(תַעֲשׂוּ), 나머지는 2인칭 남성 단수. 19:11-12도 복수→단수 전환을 보인다(19:11 복수, 19:12 וְחִלַּלְתָּ 단수). 세 단수 문장은 첫 복수 일반 금지를 구체화하는 짜임으로 읽힌다(‘재판에서 불의하지 말라: 즉 …’). 마지막 절 בְּצֶדֶק가 앞에 나와 강조된다.",
+      "discourse_ko": "재판 맥락(בַּמִּשְׁפָּט, תִּשְׁפֹּט)이 19:16 중상·피, 19:17 책망으로 이어지며 법정·공동체 분쟁의 장면을 이룬다. 신 1:17, 16:19의 ‘얼굴을 알아보지 마라’(הִכִּיר פָּנִים)는 다른 관용구로 같은 원칙을 말한다.",
+      "open_question_ko": "(1) 이 명령이 재판관에게만인지 모든 공동체 구성원(증인·당사자 포함)에게인지: 2인칭은 19:2의 ‘온 회중’ 전체다. 번역은 대상을 좁히지 않는다. (2) גָּדוֹל을 ‘큰 사람/권세자/부자’ 중 무엇으로 옮길지: 원문은 형용사 명사 ‘큰 이’뿐이다."
+    },
+    "Lev.19.16": {
+      "lexical_ko": "רָכִיל — 고정 원천 15권에서 레 19:16, 겔 22:9, 잠 11:13, 20:19, 렘 6:28, 9:3. 잠 11:13·20:19는 הוֹלֵךְ רָכִיל ‘말을 퍼뜨리며 다니는 자’를 ‘비밀을 드러내는 자’(גּוֹלֶה סּוֹד / מְגַלֶּה סּוֹד)와 짝짓는다 → 참이라도 퍼뜨리는 고자질·뒷말. 렘 9:3은 속임과 짝짓고, 겔 22:9 אַנְשֵׁי רָכִיל ... לְמַעַן שְׁפָךְ־דָּם ‘피를 흘리려고 중상하는 사람들’은 중상과 피를 직접 연결한다. 어근 רכל ‘장사하다/돌아다니며 팔다’와의 연관은 흔히 제시되나 이 세션에서 어원 자료를 확인하지 않았다. בְּעַמֶּיךָ는 복수(HNcmpc) ‘네 백성들’: 레 21:1, 4 בְּעַמָּיו, 창 25:8 אֶל־עַמָּיו처럼 친족·동족 구성원을 가리키는 복수 용법. עָמַד עַל — 고정 원천에서 (a) 곁에/위에 서다: 창 18:8(시중들며 곁에 섬), 창 24:30(낙타 곁에 섬), 출 18:13-14(모세 곁에 둘러 섬), (b) 대적하여 일어서다: 단 8:25, 11:14, (c) 의지하다/그것으로 살다: 겔 33:26 עֲמַדְתֶּם עַל־חַרְבְּכֶם ‘너희가 칼을 의지하여 산다’, (d) 지키다/방어하다: 에 8:11, 9:16 לַעֲמֹד עַל־נַפְשָׁם(생명을 위해 일어서다; 단 נֶפֶשׁ이지 דָּם이 아니다).",
+      "syntactic_ko": "두 부정 명령의 무접속 병렬 + ‘나는 야훼이다’. רָכִיל은 무관사 명사로 동사 הָלַךְ 뒤에서 방식/상태(‘중상꾼으로/뒷말로’)를 나타낸다. 둘째 금지 עַל־דַּם רֵעֶךָ: 전치사 עַל의 기능이 위 (a)-(d) 중 무엇인지가 해석의 핵심이다.",
+      "discourse_ko": "19:15 재판 → 19:16a 뒷말·중상 → 19:16b 이웃의 피. 겔 22:9가 같은 낱말 רָכִיל과 피 흘림을 묶고, 신 19:15-18은 거짓 증인이 ‘형제를 대적하여 일어나는(קוּם בְּ)’ 경우를 다룬다. 따라서 이 문맥에서 ‘피’는 재판·고발을 통해 위태로워진 생명으로 읽힐 수 있다.",
+      "open_question_ko": "16b의 세 독법: (A) 적대: ‘이웃의 피(생명)를 대적하여 일어서지 마라’ — 고발·증언 등으로 이웃의 죽음을 꾀하지 마라; 문맥(재판·중상)과 단 8:25/11:14 용법. (B) 방관: ‘이웃의 피 곁에 (가만히) 서 있지 마라’ — 생명이 위험할 때 방관하지 마라; 창 18:8, 24:30의 공간 용법과 후대 유대 전통(아래 reception_evidence, 이 세션 미확인). (C) 이득: ‘이웃의 피를 의지해 살지/이득을 보지 마라’ — 겔 33:26 용법. 원문만으로 하나를 확정할 수 없다."
+    },
+    "Lev.19.17": {
+      "lexical_ko": "שָׂנֵא ‘미워하다’, בִּלְבָבֶךָ ‘네 마음속으로’. הוֹכֵחַ תּוֹכִיחַ — 히필 부정사 절대형 + 미완료: 강조 ‘반드시/분명히 책망하라’. יכח 히필은 ‘꾸짖다·바로잡다·시비를 가리다’로 법정 어휘이기도 하다. נָשָׂא עָלָיו חֵטְא — 고정 원천에서 정확히 같은 연어가 민 18:32 וְלֹא־תִשְׂאוּ עָלָיו חֵטְא ‘그것 때문에 너희가 죄를 지지(짊어지지) 않을 것이다’와 레 22:9 וְלֹא־יִשְׂאוּ עָלָיו חֵטְא וּמֵתוּ בוֹ ‘그 때문에 죄를 짊어져 죽지 않도록’에 나온다. 두 곳 모두 עָלָיו = ‘그것 때문에/그 일로’, 주어가 죄를 짊어진다. 레 5:1은 알면서 증언하지 않는 자가 ‘자기 죄를 짊어진다’(וְנָשָׂא עֲוֹנוֹ).",
+      "syntactic_ko": "17a 금지, 17b 강조 명령, 17c וְלֹא + 미완료. 17c는 (i) 둘째 금지(‘그에게 죄를 지우지 마라’ / ‘그 때문에 죄를 지지 마라’) 또는 (ii) 결과·목적(‘그러면 그 때문에 네가 죄를 짊어지지 않는다’)이 될 수 있다. 민 18:32와 레 22:9의 같은 연어가 결과/목적으로 쓰이므로 (ii)를 우선한다.",
+      "discourse_ko": "마음속 미움(숨긴 적대) 대 드러낸 책망이 대조된다. 책망하지 않고 미움을 품는 것이 19:18의 보복·원한으로 이어진다는 흐름이다. 19:16b의 ‘피’와 19:17c의 ‘죄를 짊어짐’은 공동체 안의 책임 연대를 말한다.",
+      "open_question_ko": "עָלָיו의 지시: ‘그(동족) 때문에’ 대 ‘그 위에(그에게) 죄를 지우다’. 후자는 ‘책망할 때 그에게 죄를 덧씌우지(모욕하지) 마라’로 읽는 후대 해석(이 세션 미확인)을 낳는다. 민 18:32, 레 22:9 연어가 전자를 지지한다."
+    },
+    "Lev.19.18": {
+      "lexical_ko": "נָקַם ‘보복하다/원수를 갚다’ — 고정 원천 오경에서 창 4:15, 24, 출 21:20-21, 레 19:18, 26:25, 민 31:2, 신 32:43. נָטַר ‘(노여움을) 간직하다, 앙심을 품다’ — 15권에서 레 19:18, 나 1:2, 렘 3:5, 3:12, 시 103:9; 다른 네 곳의 주어는 모두 하나님이다: 나 1:2는 하나님이 대적에게 노를 ‘품으신다’고 하고, 렘 3:5, 3:12, 시 103:9는 영원히 품지 않으신다고 한다. 이 절만 사람에게 금한다. אֶת־בְּנֵי עַמֶּךָ: OSHB는 אֶת를 목적 표지(lemma 853)로 분석한다; 두 동사의 공동 대상/대상 표시로 ‘~에게/~을 향해’. אָהַב + לְ: 고정 원천에서 레 19:18, 19:34(וְאָהַבְתָּ לוֹ), 대하 19:2(וּלְשֹׂנְאֵי יְהוָה תֶּאֱהָב), 왕상 5:15(אֹהֵב הָיָה חִירָם לְדָוִד, 분사)가 확인된다; 보통은 직접 목적어(אֶת)를 쓴다. כָּמוֹךָ ‘너처럼/너와 같은’: 신 5:14 לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמוֹךָ ‘네 종과 여종도 너처럼 쉬게 하려고’는 동사 뒤 부사적 비교, 창 44:18 כִּי כָמוֹךָ כְּפַרְעֹה ‘당신은 바로와 같다’는 서술.",
+      "syntactic_ko": "18a 두 부정 명령 + 공동 대상. 18b וְאָהַבְתָּ(와우 + 완료 2ms)는 명령적 연속형. כָּמוֹךָ는 (i) 동사를 꾸미는 부사적 비교 ‘너 자신을 사랑하듯’ 또는 (ii) רֵעֲךָ와 동격 ‘너와 같은 (사람인) 네 이웃’. 신 5:14의 부사 용법과 19:34의 이유절(‘너희도 나그네였기 때문이다’)은 두 독법 모두에 쓰인다.",
+      "discourse_ko": "18a의 ‘네 백성의 자손들’과 18b의 ‘이웃’이 평행하여, 보복·원한 대신 사랑을 명한다. 19:33-34는 같은 문구(וְאָהַבְתָּ לוֹ כָּמוֹךָ)를 나그네(גֵּר)에게 확장한다; 따라서 19:18의 רֵעַ를 번역에서 민족 범주로 좁히면 19:34와 어긋난다.",
+      "open_question_ko": "(1) כָּמוֹךָ: ‘너 자신처럼(같은 정도/방식으로)’ 대 ‘너와 같은 이(다르지 않은 동등한 사람)’. (2) לְ의 뉘앙스: 감정 ‘사랑하다’ 대 실천 ‘사랑을 베풀다/잘 대하다’. (3) 18a의 범위(동족)와 18b רֵעַ의 범위가 같은지."
+    },
+    "textual_variant_questions_ko": "고정 원천에는 이 네 절에 변이 표지가 없다. 다음은 기억에 의한 보고일 뿐 이 세션에서 원문을 보지 못했다: (1) 칠십인역 19:16b가 ‘피를 대적하여 일어서지(ἐπισυστήσῃ) 마라’에 해당하는 동사를 쓴다는 보고 — 사실이라면 독법 (A)를 지지하는 초기 수용사 증거이지만, 미확인이다. (2) 19:18 칠십인역 ὡς σεαυτόν은 신약 인용(마 22:39 등)의 형태로 널리 알려져 있으나 이 세션에서 칠십인역 판본을 열지 않았다. (3) 사마리아 오경·쿰란 레위기 사본의 이 절 차이 여부는 확인하지 않았다. 모두 unresolved로 둔다.",
+    "historical_and_reception_questions_ko": "(1) 19:16b ‘이웃의 피 곁에 서 있지 마라’를 생명 구조 의무로 읽는 랍비 전통(시프라, 바벨 탈무드 산헤드린 73a로 알려짐)과 ‘이득을 보지 마라’ 번역(일부 현대 유대 영역본으로 알려짐) — 모두 이 세션 미확인. (2) 19:17c를 ‘책망하되 그를 부끄럽게 하여 죄를 짓지 마라’로 읽는 전통(바벨 탈무드 아라킨 16b로 알려짐) — 미확인. (3) 19:18b ‘너와 같은 이’ 독법은 20세기 유대 독일어 번역 전통(부버-로젠츠바이크로 알려짐)에서 대표적으로 거론된다 — 미확인. (4) 19:18b는 신약에서 반복 인용되며 기독교 수용에서 핵심 본문이다; 번역은 그 수용을 존중하되 원문의 범위(동족·이웃·나그네 19:34)를 수용사로 덧씌우지 않는다."
+  },
+  "initial_proposals": {
+    "Lev.19.15": {
+      "ko": "너희는 재판에서 불의를 행하지 마라. 너는 가난한 사람이라고 얼굴을 보아주지 말고, 큰 사람이라고 얼굴을 높여 주지도 마라. 너는 공의로 네 동족을 재판해야 한다.",
+      "en": "You must not do injustice in judgment. You must not show favor to the poor or defer to the great; in righteousness you must judge your fellow.",
+      "es": "No cometan injusticia en el juicio. No favorecerás al pobre ni honrarás al grande; con justicia juzgarás a tu compañero."
+    },
+    "Lev.19.16": {
+      "ko": "너는 네 백성들 가운데 남의 말을 물어 나르며 돌아다니지 마라. 네 이웃의 피를 노리고 나서지 마라. 나는 야훼이다.",
+      "en": "You must not go about as a talebearer among your people. You must not stand against the blood of your neighbor. I am YHWH.",
+      "es": "No andarás llevando chismes entre tu gente. No te levantarás contra la sangre de tu prójimo. Yo soy YHWH."
+    },
+    "Lev.19.17": {
+      "ko": "너는 네 마음속으로 네 형제를 미워하지 마라. 네 동족을 분명히 책망해야 한다. 그래야 그 일로 네가 죄를 짊어지지 않는다.",
+      "en": "You must not hate your brother in your heart. You must surely reprove your fellow, so that you do not bear sin because of him.",
+      "es": "No aborrecerás a tu hermano en tu corazón. Reprenderás sin falta a tu compañero, para que no cargues con pecado por causa de él."
+    },
+    "Lev.19.18": {
+      "ko": "너는 네 백성의 자손들에게 원수를 갚지 말고 앙심을 품지도 마라. 네 이웃을 너 자신처럼 사랑하라. 나는 야훼이다.",
+      "en": "You must not take vengeance or bear a grudge against the sons of your people, but you shall love your neighbor as yourself. I am YHWH.",
+      "es": "No te vengarás ni guardarás rencor contra los hijos de tu pueblo, sino que amarás a tu prójimo como a ti mismo. Yo soy YHWH."
+    }
+  },
+  "initial_proposals_note": "Written from the source packet and pinned context verses only, before inspecting saved records. Conventions (ko 야훼; en/es YHWH; es ustedes for 2mp; ko prohibition ending ‘마라’) were taken from the majority pattern in data/decisions.json and earlier Leviticus cloud reviews AFTER the readings were formed; only the divine-name and second-person conventions were applied, no wording was copied.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json and data/decisions.json (main 10983fc)",
+      "label": "current selected text",
+      "relevance_ko": "레위기 선정본은 없다. 관례만 대조: decisions.json 번역에서 ko ‘야훼’ 28회 대 ‘YHWH’ 5회, en ‘YHWH’ 24회 대 ‘Yahweh’ 9회, es ‘YHWH’ 24회 대 ‘Yahvé’ 9회 — 다수 관례를 따랐다. 2인칭 복수 금지는 es 선정본 창 3:3 ‘No coman … ni lo toquen’처럼 ustedes 접속법을 쓴다 → 19:15a ‘No cometan’에 적용. 형제(אָח)는 창 4:2 선정본에서 ko ‘아우’, en ‘brother’, es ‘hermano’로 옮겨졌다(나이 관계가 명확한 서사 맥락); 법 조문인 19:17은 ko ‘형제’를 택했다."
+    },
+    {
+      "record": "automation/cloud-reviews/20261031T153333Z-574df045.json (branch claude/original-bible-hard-review-k2mfdd)",
+      "label": "Claude cloud hard-review, unit lev-18-20-23, requested model claude-opus-5-5 (as recorded in that file)",
+      "relevance_ko": "레 18:20에서 עָמִית을 ko ‘동족’, en ‘fellow’, es ‘prójimo’로 옮기고 ‘레 19:11-18 검토에서 עָמִית/רֵעַ 번역 규칙이 정해지면 그에 맞춘다’고 재검토 조건을 남겼다. 이 검토는 19:15-18에 두 낱말이 함께 나오므로 es 충돌을 해소해야 한다: es ‘prójimo’를 רֵעַ에 남기고 עָמִית은 ‘compañero’로 바꾸는 규칙을 제안한다(아래 editorial_consistency_findings). 이것은 다른 실행의 기록을 수정하지 않으며 편집자 결정을 위한 제안일 뿐이다."
+    },
+    {
+      "record": "automation/cloud-reviews/20261031T143240Z-bca2cdc7.json (claude/original-bible-hard-review-kyh2qn, lev-17-10-14) and 20261031T133054Z-a0fe4eaa.json (claude/bible-hard-review-9ldiu7, lev-16-6-10)",
+      "label": "Claude cloud hard-reviews, requested model claude-opus-5-5 (as recorded in those files)",
+      "relevance_ko": "관례만 대조: en ‘You must not’/‘shall’, es 미래형 금지·명령, ko ‘야훼’, en/es ‘YHWH’, es ustedes. lev-17-10-14가 נֶפֶשׁ을 ‘생명’, דָּם을 ‘피’로 구별했으므로 19:16b의 דָּם도 ko ‘피’, en ‘blood’, es ‘sangre’로 두어 낱말 일치를 지켰다(‘생명’으로 풀지 않음)."
+    },
+    {
+      "record": "all remote claude/* branches fetched 2026-10-31T16:36Z: automation/cloud-drafts, automation/cloud-reviews, data/model-reviews",
+      "label": "search for Lev.19.15-18",
+      "relevance_ko": "Lev.19.15-18을 담은 초안·검토 기록은 큐 파일(automation/cloud-queue.json, hard-review-queue.json) 말고는 없었다. data/model-reviews는 출판 버전별 디렉터리이며 레위기 항목이 없다."
+    }
+  ],
+  "no_gpt_gemini_records_ko": "이 단위에 대한 GPT·Gemini·Antigravity·사람 검토 기록은 존재하지 않으며, 이 기록은 그런 검토를 가정하거나 흉내 내지 않는다.",
+  "comparison_findings_ko": "대조할 선정본·초안이 없으므로 본문 변경은 관례 적용(신명 표기, es 복수 2인칭)뿐이다. 주요 발견은 레 18:20 검토가 남긴 עָמִית/רֵעַ 규칙 문제를 이 단위가 실제로 해결해야 한다는 점이다: 19:15-18 안에 עָמִית 2회, רֵעַ 2회, אָח 1회, עַם 2회(단·복)가 함께 나오므로, es에서 ‘prójimo’를 두 낱말에 함께 쓰면 원문의 사다리가 사라진다.",
+  "changes_from_initial_proposal_ko": "본문 변경 없음. 각주·대안·재검토 조건만 보강했다.",
+  "alternatives": [
+    {
+      "id": "Lev.19.15",
+      "question_ko": "נָשָׂא פְנֵי / הָדַר פְּנֵי 처리",
+      "options": [
+        {
+          "reading_ko": "ko ‘얼굴을 보아주다 / 얼굴을 높여 주다’, en ‘show favor / defer to’, es ‘favorecer / honrar’ (선택)",
+          "argument_ko": "ko는 ‘얼굴’을 두 번 보존하며 ‘얼굴을 보아주다’는 한국어 관용구로 편파를 뜻한다. 레 19:32 ‘노인의 얼굴을 높여라’와 낱말 일치.",
+          "objection_ko": "en·es는 ‘얼굴’을 잃는다; ‘얼굴을 높여 주다’는 한국어로 다소 어색하다."
+        },
+        {
+          "reading_ko": "ko ‘편들다 / 떠받들다’",
+          "argument_ko": "자연스럽다.",
+          "objection_ko": "두 다른 히브리어 관용구의 구조(얼굴)가 사라지고 19:32와의 연결도 끊긴다."
+        },
+        {
+          "reading_ko": "en ‘lift the face of the poor / honor the face of the great’ (직역)",
+          "argument_ko": "원문 구조 보존.",
+          "objection_ko": "영어 독자에게 뜻이 불명확; 각주로 돌린다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.19.15",
+      "question_ko": "첫 금지의 복수(תַעֲשׂוּ) 표시",
+      "options": [
+        {
+          "reading_ko": "ko ‘너희는’, es ‘No cometan’(ustedes), en 표시 불가 (선택)",
+          "argument_ko": "원문 수 전환 보존; 19:11-12와 일관.",
+          "objection_ko": "독자가 어색한 전환으로 볼 수 있다."
+        },
+        {
+          "reading_ko": "모두 단수로 통일",
+          "argument_ko": "매끄럽다.",
+          "objection_ko": "원문 수 표시를 지운다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.19.16",
+      "question_ko": "עָמַד עַל־דַּם רֵעֶךָ",
+      "options": [
+        {
+          "reading_ko": "(A) 적대: ko ‘네 이웃의 피를 노리고 나서지 마라’, en ‘stand against the blood of your neighbor’, es ‘te levantarás contra la sangre de tu prójimo’ (선택)",
+          "argument_ko": "문맥: 19:15 재판, 19:16a 중상; 겔 22:9가 רָכִיל과 피 흘림을 직접 묶음; 단 8:25, 11:14의 עָמַד עַל ‘대적하여 일어서다’; 신 19:16 거짓 증인이 형제를 ‘대적하여 일어남’(קוּם בְּ)과 개념 평행.",
+          "objection_ko": "단 8:25, 11:14는 후기 히브리어; 오경 안의 עָמַד עַל은 ‘곁에 서다’(창 18:8, 24:30, 출 18:13)가 더 많다. ko ‘노리고’는 의도를 덧붙인다."
+        },
+        {
+          "reading_ko": "(B) 방관: ko ‘네 이웃의 피 곁에 가만히 서 있지 마라’, en ‘stand idly by the blood of your neighbor’, es ‘no te quedarás de brazos cruzados ante la sangre de tu prójimo’",
+          "argument_ko": "오경 내부 공간 용법(창 18:8, 24:30, 출 18:13-14); 19:17c(책망하지 않으면 죄를 짊어짐)·레 5:1(증언하지 않으면 죄를 짊어짐)과 같은 ‘하지 않음의 책임’ 논리; 강한 유대 수용 전통(미확인).",
+          "objection_ko": "‘가만히/idly’는 원문에 없는 부사를 넣는다; ‘곁에 서다’ 자체에는 부정적 함의가 없어 금지의 뜻이 되려면 보충이 필요하다."
+        },
+        {
+          "reading_ko": "(C) 이득: ko ‘네 이웃의 피를 딛고 살지 마라’, en ‘profit by the blood of your neighbor’",
+          "argument_ko": "겔 33:26 עֲמַדְתֶּם עַל־חַרְבְּכֶם ‘칼을 의지해 산다’ 용법.",
+          "objection_ko": "겔 33:26은 ‘칼’(수단)이지 피해자의 피가 아니다; 레위기에 같은 용법 없음."
+        },
+        {
+          "reading_ko": "(D) 중립 직역: ko ‘네 이웃의 피 위에 서지 마라’, en ‘stand over the blood of your neighbor’",
+          "argument_ko": "세 독법을 모두 열어 둔다.",
+          "objection_ko": "목표 언어에서 뜻이 거의 전달되지 않는다; 각주 없이는 쓸 수 없다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.19.16",
+      "question_ko": "רָכִיל과 복수 בְּעַמֶּיךָ",
+      "options": [
+        {
+          "reading_ko": "ko ‘남의 말을 물어 나르며’, en ‘talebearer’, es ‘llevando chismes’; ‘네 백성들/your people/tu gente’ (선택)",
+          "argument_ko": "잠 11:13, 20:19(비밀 누설)과 겔 22:9(피 흘리는 중상)를 둘 다 포괄; ‘물어 나르다’는 הָלַךְ의 이동성을 살린다. ko ‘들’로 복수를 표시.",
+          "objection_ko": "겔 22:9 쪽 의미(중상·무고)가 약해진다; en/es는 복수를 잃는다."
+        },
+        {
+          "reading_ko": "ko ‘중상하며’, en ‘slanderer’, es ‘calumniando’",
+          "argument_ko": "19:16b·겔 22:9와 직결.",
+          "objection_ko": "‘중상/calumnia’는 거짓을 전제; 잠언 용례는 참인 비밀 누설도 포함한다."
+        },
+        {
+          "reading_ko": "‘네 친족들 가운데/among your kin’",
+          "argument_ko": "복수 עַמִּים의 친족 용법(레 21:1, 4; 창 25:8).",
+          "objection_ko": "19:18 ‘네 백성의 자손들’과 범위 차이를 과장할 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.19.17",
+      "question_ko": "וְלֹא־תִשָּׂא עָלָיו חֵטְא",
+      "options": [
+        {
+          "reading_ko": "결과/목적: ‘그래야 그 일로 네가 죄를 짊어지지 않는다 / so that you do not bear sin because of him’ (선택)",
+          "argument_ko": "민 18:32, 레 22:9에서 같은 연어가 ‘그것 때문에 죄를 짊어지다’로 쓰인다; 레 5:1과 같은 침묵의 책임.",
+          "objection_ko": "형식상 וְלֹא + 미완료는 독립 금지일 수 있다."
+        },
+        {
+          "reading_ko": "독립 금지: ‘그 때문에 죄를 짓지 마라’",
+          "argument_ko": "앞 두 문장이 금지·명령이므로 셋째도 명령으로 읽을 수 있다.",
+          "objection_ko": "결과 독법과 실제 뜻 차이가 작다; en/es 자연스러움이 떨어진다."
+        },
+        {
+          "reading_ko": "‘그에게 죄를 지우지 마라’(책망할 때 모욕하지 마라)",
+          "argument_ko": "עָלָיו를 ‘그 위에’로 읽는 후대 해석(미확인).",
+          "objection_ko": "같은 연어 두 곳(민 18:32, 레 22:9)에서 주어가 죄를 짊어지는 뜻이다."
+        }
+      ]
+    },
+    {
+      "id": "Lev.19.18",
+      "question_ko": "כָּמוֹךָ",
+      "options": [
+        {
+          "reading_ko": "‘너 자신처럼 / as yourself / como a ti mismo’ (선택)",
+          "argument_ko": "신 5:14 동사 뒤 부사적 כָּמוֹךָ; 가장 단순한 구문; 오랜 번역·인용 전통.",
+          "objection_ko": "‘자기애를 기준으로 삼는다’는 현대 심리학적 덧읽기를 부를 수 있다."
+        },
+        {
+          "reading_ko": "‘너와 같은 네 이웃을 사랑하라 / love your neighbor, who is like you’",
+          "argument_ko": "19:34 이유절 ‘너희도 나그네였다’는 동일시를 말한다; 강세 분절이 כָּמוֹךָ를 따로 둔다(약한 근거).",
+          "objection_ko": "כָּמוֹךָ가 관계절 없이 명사 뒤 동격 수식어로 쓰이는 확실한 예를 이 세션에서 찾지 못했다; 신 5:14는 부사 용법."
+        }
+      ]
+    },
+    {
+      "id": "Lev.19.18",
+      "question_ko": "אָהַב + לְ",
+      "options": [
+        {
+          "reading_ko": "‘사랑하라 / love / amarás’ (선택)",
+          "argument_ko": "대하 19:2에서도 אָהַב + לְ는 단순히 ‘사랑하다’; 의미 차이를 번역에 넣을 근거가 약하다.",
+          "objection_ko": "드문 구문이 주는 ‘실천적 선대’ 뉘앙스를 잃을 수 있다."
+        },
+        {
+          "reading_ko": "‘사랑을 베풀라 / show love to’",
+          "argument_ko": "לְ의 수혜 대상 표시를 살린다.",
+          "objection_ko": "19:34와 함께 일관되게 바꿔야 하며 근거는 해석적이다."
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Lev.19.16b: rendering לֹא תַעֲמֹד עַל־דַּם רֵעֶךָ as hostile ‘stand against’ (reading A).",
+    "objection_ko": "오경 안에서 עָמַד עַל + 사람/사물은 ‘곁에(위에) 서다’가 표준이다(창 18:8, 24:30, 출 18:13). ‘대적하다’ 용례(단 8:25, 11:14)는 후기 문헌이다. 또한 바로 다음 절 19:17c와 레 5:1은 ‘하지 않음’(책망하지 않음, 증언하지 않음)으로 죄를 짊어지는 논리를 보여 준다; 그렇다면 19:16b도 ‘위험한 이웃 곁에서 아무것도 하지 않음’을 금하는 (B)가 이 단락의 논리와 더 잘 맞는다. (A)는 19:16a 중상과 사실상 중복되며, (B)는 새로운 의무를 더한다.",
+    "response_ko": "(1) (B)는 금지의 뜻을 만들려면 ‘가만히/idly’를 보태야 한다; 원문 ‘곁에 서다’ 자체는 시중·참여(창 18:8)일 수 있으므로 오히려 ‘살인 현장에 가담해 서 있다’는 (A)에 가까운 뜻도 가능하다. (2) 겔 22:9가 같은 희귀어 רָכִיל을 피 흘림과 직접 묶는 것은 19:16a-b를 하나의 장면(중상 → 피)으로 읽을 실질 근거다. (3) 19:15 재판 맥락에서 ‘피’는 사형 판결로 위태로워진 생명을 가리키기 쉽다. 그러나 (B)의 반론은 강하며 이 검토는 (A)를 낮은-중간 확신으로만 택한다. 각주에 (B)와 (C)를 반드시 함께 싣는다.",
+    "test_by_clause_ko": "16b1 ‘서지 마라’(לֹא תַעֲמֹד): 세 독법 모두 같다. 16b2 ‘~에 대해/곁에/위에’(עַל): 결정적 불확실 지점. 16b3 ‘피’(דַּם): (A) 흘려질 피=생명, (B) 흘려지는 피=위험, (C) 이득의 수단 — 셋 다 가능. 16b4 ‘네 이웃의’(רֵעֶךָ): 영향 없음. 16c ‘나는 야훼이다’: 단락 종결; 독법 판정에 영향 없음."
+  },
+  "secondary_objections": [
+    {
+      "target": "Lev.19.18b ‘너 자신처럼’",
+      "objection_ko": "‘너와 같은 이’ 독법은 19:34(나그네)와 함께 읽을 때 동일시의 근거를 직접 제공하고, ‘자기 사랑’을 전제하는 해석 문제를 피한다.",
+      "response_ko": "구문상 부사 독법이 더 단순하고(신 5:14), 동격 독법의 확실한 평행을 찾지 못했다. 두 독법 모두 결과적으로 이웃을 자신과 동등하게 대하라는 뜻에 수렴하므로 본문은 전통 표현을 유지하고 각주에 동격 독법을 싣는다."
+    },
+    {
+      "target": "Lev.19.17c 결과 독법 ‘그래야’",
+      "objection_ko": "ko ‘그래야’, en ‘so that’, es ‘para que’는 접속사 וְ에 목적 의미를 확정해 넣는다.",
+      "response_ko": "민 18:32, 레 22:9의 같은 연어가 결과/목적으로 기능하므로 수용 가능한 해석적 선택이다; 각주에 ‘그리고 … 지지 마라’ 직역을 남긴다."
+    },
+    {
+      "target": "Lev.19.15/17 עָמִית ‘동족/fellow/compañero’",
+      "objection_ko": "ko ‘동족’은 혈연·민족 뉘앙스가 강하다; es ‘compañero’는 직장 동료처럼 들릴 수 있다.",
+      "response_ko": "레 25:14-17에서 עָמִית은 서로 땅을 사고파는 이스라엘 공동체 구성원이며 같은 문맥에서 אָח와 교체된다; ‘동족’은 그 범위를 표시한다. es ‘compañero’는 슥 13:7 גֶּבֶר עֲמִיתִי의 스페인어 전통 번역에서 쓰인다고 기억되나 이 세션에서 확인하지 않았다. 대안 ‘conciudadano/compatriota’는 근대 국가 개념을 들인다."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Lev.19.15",
+      "ko": "너희는 재판에서 불의를 행하지 마라. 너는 가난한 사람이라고 얼굴을 보아주지 말고, 큰 사람이라고 얼굴을 높여 주지도 마라. 너는 공의로 네 동족을 재판해야 한다.",
+      "en": "You must not do injustice in judgment. You must not show favor to the poor or defer to the great; in righteousness you must judge your fellow.",
+      "es": "No cometan injusticia en el juicio. No favorecerás al pobre ni honrarás al grande; con justicia juzgarás a tu compañero.",
+      "reason_ko": "복수→단수 전환 보존(ko·es), 두 ‘얼굴’ 관용구를 ko에서 보존, 19:32와 הָדַר 낱말 일치, 강조된 בְּצֶדֶק을 앞쪽에 둠(en·es).",
+      "counterargument_ko": "en은 복수를 표시하지 못한다; ‘큰 사람/the great/el grande’는 사회적 지위가 모호하다.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 en에서 2인칭 복수를 각주로 표시하는 일관 규칙을 정하면 그에 맞춘다; 19:32 번역이 정해지면 הָדַר 대응어를 맞춘다."
+    },
+    {
+      "id": "Lev.19.16",
+      "ko": "너는 네 백성들 가운데 남의 말을 물어 나르며 돌아다니지 마라. 네 이웃의 피를 노리고 나서지 마라. 나는 야훼이다.",
+      "en": "You must not go about as a talebearer among your people. You must not stand against the blood of your neighbor. I am YHWH.",
+      "es": "No andarás llevando chismes entre tu gente. No te levantarás contra la sangre de tu prójimo. Yo soy YHWH.",
+      "reason_ko": "רָכִיל의 범위(뒷말·고자질·중상)를 넓게 덮는 ‘물어 나르다/talebearer/llevando chismes’; 16b는 문맥(재판·중상·겔 22:9)에 따른 독법 (A); דָּם은 ‘피’로 낱말 일치.",
+      "counterargument_ko": "(B) ‘방관하지 마라’가 강한 대안이며, ko ‘노리고’는 의도를 덧붙인다.",
+      "current_opinion_ko": "낮은-중간 확신으로 유지. 각주에 (B)·(C) 필수.",
+      "reconsider_if_ko": "칠십인역·탈굼 등 초기 역본을 실제 원문으로 확인하여 (B)를 지지하면, 또는 편집이 ‘중립 직역 + 각주’ 원칙을 택하면 (D) ‘네 이웃의 피 곁에/위에 서지 마라’로 바꾼다."
+    },
+    {
+      "id": "Lev.19.17",
+      "ko": "너는 네 마음속으로 네 형제를 미워하지 마라. 네 동족을 분명히 책망해야 한다. 그래야 그 일로 네가 죄를 짊어지지 않는다.",
+      "en": "You must not hate your brother in your heart. You must surely reprove your fellow, so that you do not bear sin because of him.",
+      "es": "No aborrecerás a tu hermano en tu corazón. Reprenderás sin falta a tu compañero, para que no cargues con pecado por causa de él.",
+      "reason_ko": "부정사 절대형 강조를 ‘분명히/surely/sin falta’로; 민 18:32·레 22:9 연어에 따라 17c를 결과로; ‘짊어지다/bear/cargar con’으로 נָשָׂא 보존.",
+      "counterargument_ko": "‘그래야/so that/para que’는 해석적 접속; ko ‘그 일로’는 עָלָיו를 사물로, en/es ‘because of him’은 사람으로 읽어 미세하게 다르다.",
+      "current_opinion_ko": "유지. ko ‘그 일로’를 ‘그 때문에’로 바꾸어 en/es와 맞추는 것도 허용(편집 선택).",
+      "reconsider_if_ko": "편집이 법 조문에서 וְלֹא + 미완료를 일관되게 독립 금지로 옮기기로 하면 ‘그 때문에 죄를 짊어지지 마라’로 바꾼다."
+    },
+    {
+      "id": "Lev.19.18",
+      "ko": "너는 네 백성의 자손들에게 원수를 갚지 말고 앙심을 품지도 마라. 네 이웃을 너 자신처럼 사랑하라. 나는 야훼이다.",
+      "en": "You must not take vengeance or bear a grudge against the sons of your people, but you shall love your neighbor as yourself. I am YHWH.",
+      "es": "No te vengarás ni guardarás rencor contra los hijos de tu pueblo, sino que amarás a tu prójimo como a ti mismo. Yo soy YHWH.",
+      "reason_ko": "18a 공동 대상 보존, 18b 전통 구문(부사 כָּמוֹךָ), רֵעַ = 이웃/neighbor/prójimo로 19:34와 같은 구문 연결 유지.",
+      "counterargument_ko": "en ‘but’, es ‘sino que’는 וְ에 대조를 넣는다; en ‘sons’는 성별 포괄 대안 ‘children’ 가능; ‘너와 같은 이’ 독법이 각주로만 남는다.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "19:34 번역에서 편집이 동격 독법을 택하면 두 절을 함께 바꾼다; 편집이 en ‘sons of Israel’ 관례(레 17:12 검토의 ‘sons of Israel’)를 ‘children’으로 바꾸면 ‘sons of your people’도 함께 바꾼다."
+    }
+  ],
+  "speech_boundaries_ko": "19:15-18 전체는 19:1-2에서 시작된 야훼의 발화(모세에게 이스라엘 자손의 온 회중에게 전하라고 명한 말) 안에 있다. 내부 인용은 없다. 19:16, 19:18 끝 ‘나는 야훼이다’는 발화 안의 신적 자기 선언이며 별도 인용부호를 쓰지 않는다(이전 레위기 검토와 같은 처리).",
+  "proposed_notes_ko": [
+    {
+      "id": "Lev.19.15",
+      "note_ko": "직역: ‘가난한 자의 얼굴을 들어 주지 말고, 큰 자의 얼굴을 영예롭게 하지 마라.’ 같은 ‘얼굴을 영예롭게 하다’가 19:32에서는 ‘노인을 공경하라’는 긍정 명령으로 쓰인다. 첫 문장만 ‘너희’(복수)이고 나머지는 ‘너’(단수)이다."
+    },
+    {
+      "id": "Lev.19.16",
+      "note_ko": "‘네 백성들’은 복수형이다(21:1, 4의 친족 용법 참조). ‘네 이웃의 피를 노리고 나서지 마라’의 원문은 ‘네 이웃의 피에 대하여/곁에/위에 서지 마라’로, (가) 이웃의 생명을 대적하여(고발·증언 등) 일어서지 마라, (나) 이웃의 생명이 위험할 때 곁에서 가만히 있지 마라, (다) 이웃의 피로 이득을 보지 마라(겔 33:26 ‘칼을 의지해 살다’ 참조)로 읽을 수 있다. 이 번역은 (가)를 따랐다."
+    },
+    {
+      "id": "Lev.19.17",
+      "note_ko": "‘분명히 책망하라’는 같은 동사를 겹쳐 쓴 강조형이다. 마지막 문장의 직역은 ‘그리고 그 때문에 죄를 짊어지지 마라’이며, 같은 표현이 민 18:32, 레 22:9에서 ‘그 일로 죄를 짊어지다’로 쓰인다."
+    },
+    {
+      "id": "Lev.19.18",
+      "note_ko": "‘사랑하라’ 뒤에 대상 표지 대신 전치사(‘~에게’)가 쓰였다(19:34도 같다). ‘너 자신처럼’은 ‘너와 같은 (사람인) 네 이웃’으로도 읽힐 수 있다. 같은 문구가 19:34에서 나그네에게도 적용된다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "scope": "Lev.18.20, Lev.19.11, Lev.19.15, Lev.19.17, Lev.24.19, Lev.25.14-17, Lev.5.21 (עָמִית) vs Lev.19.13, 19.16, 19.18, 20.10 (רֵעַ)",
+      "finding_ko": "제안 규칙: עָמִית = ko ‘동족’, en ‘fellow’, es ‘compañero’; רֵעַ = ko ‘이웃’, en ‘neighbor’, es ‘prójimo’; אָח(법 조문) = ko ‘형제’, en ‘brother’, es ‘hermano’; בְּנֵי עַמְּךָ = ko ‘네 백성의 자손들’, en ‘the sons of your people’, es ‘los hijos de tu pueblo’. 레 18:20 검토(다른 실행)의 es ‘prójimo’(עָמִית)는 이 규칙이 채택되면 ‘compañero’로 바꿔야 한다. 이 기록은 그 파일을 수정하지 않는다."
+    },
+    {
+      "scope": "Lev.19.15 vs Lev.19.32 (הָדַר פְּנֵי)",
+      "finding_ko": "같은 표현을 ko ‘얼굴을 높이다’ 계열, en ‘defer to / honor’, es ‘honrar’로 맞출 것. 19:32 ko는 ‘노인의 얼굴을 높여라’ 또는 ‘노인을 공경하라’ + 각주."
+    },
+    {
+      "scope": "Lev.19.18 vs Lev.19.34 (וְאָהַבְתָּ לְ… כָּמוֹךָ)",
+      "finding_ko": "두 절의 ‘사랑하라 … 너 자신처럼’은 같은 문구로 번역해야 한다(ko ‘너 자신처럼 사랑하라’, en ‘love … as yourself’, es ‘amarás … como a ti mismo’)."
+    },
+    {
+      "scope": "Lev.19.17 נָשָׂא חֵטְא vs Lev.5.1 נָשָׂא עָוֹן, Lev.22.9, Num.18.32",
+      "finding_ko": "נָשָׂא + 죄 어휘는 ko ‘짊어지다’, en ‘bear’, es ‘cargar con’으로 통일할 것을 제안한다."
+    }
+  ],
+  "reception_evidence": [
+    {
+      "item_ko": "칠십인역 19:16b 동사(ἐπισυστήσῃ로 기억됨)",
+      "status": "reported in scholarship as recalled; not verified in this session; no LXX edition accessed"
+    },
+    {
+      "item_ko": "시프라·바벨 탈무드 산헤드린 73a의 ‘이웃의 피 곁에 서 있지 마라’ 구조 의무 해석",
+      "status": "recalled; not verified in this session"
+    },
+    {
+      "item_ko": "바벨 탈무드 아라킨 16b의 19:17 책망 해석",
+      "status": "recalled; not verified in this session"
+    },
+    {
+      "item_ko": "부버-로젠츠바이크의 19:18 ‘너와 같은’ 독법",
+      "status": "recalled; not verified in this session"
+    },
+    {
+      "item_ko": "신약의 19:18 인용(마 22:39, 막 12:31, 롬 13:9, 갈 5:14, 약 2:8 등)",
+      "status": "well known; Greek NT text not opened in this session; reception only, not evidence for the Hebrew meaning"
+    }
+  ],
+  "final_opinion_ko": "이 단위의 번역 핵심은 세 가지다. (1) 대상어 사다리(동족·백성들·이웃·형제·백성의 자손들)를 세 언어에서 구별해 보존하고, 특히 es에서 עָמִית ‘compañero’와 רֵעַ ‘prójimo’를 나누어 레 18:20 검토가 남긴 규칙 문제를 해결한다. (2) 19:16b는 원문이 실제로 모호하다: 이 검토는 문맥(재판·중상, 겔 22:9)에 근거해 ‘대적하여 나서지 마라’를 택하지만 확신은 낮은-중간이며, ‘방관하지 마라’ 독법을 각주로 반드시 함께 실어야 한다. (3) 19:17c는 민 18:32·레 22:9의 같은 연어에 근거해 ‘그 때문에 죄를 짊어지지 않도록’으로 옮기는 것이 가장 근거가 단단하다. 19:18b는 전통 표현 ‘네 이웃을 너 자신처럼 사랑하라’를 유지하고, 동격 독법과 19:34 연결을 각주에 둔다.",
+  "confidence_limits": [
+    "No manuscript, LXX, Targum, Samaritan, Qumran or rabbinic primary text was opened; all reception claims are recalled and unverified.",
+    "Lemma and collocation searches covered only 15 downloaded pinned books (Gen, Exod, Lev, Num, Deut, Ezek, Esth, Dan, Zech, Prov, Nah, Jer, Ps, 1Kgs, 2Chr), not the whole Hebrew Bible.",
+    "Korean, English and Spanish wording is a single-model proposal; no native-speaker or specialist review exists.",
+    "19:16b preferred reading (A) is held with low-to-moderate confidence."
+  ],
+  "reconsider_if": [
+    "Primary LXX/Targum/Samaritan/Qumran evidence for Lev 19:16b is actually consulted and supports reading (B) or (C).",
+    "An editor adopts a neutral-literal-plus-footnote policy for ambiguous idioms (switch 19:16b to option D).",
+    "An editor fixes Leviticus-wide renderings for עָמִית/רֵעַ/אָח/עַם that differ from the rule proposed here.",
+    "The 19:32 or 19:34 translations are decided first and require matching wording for הָדַר פְּנֵי or כָּמוֹךָ.",
+    "A whole-Bible search finds an unambiguous appositional use of כָּמוֹךָ after a noun, strengthening ‘who is like you’."
+  ],
+  "unresolved": [
+    {
+      "id": "Lev.19.16",
+      "issue_ko": "עָמַד עַל־דַּם: 대적(A) 대 방관(B) 대 이득(C). 원문만으로 결정 불가; 초기 역본 미확인."
+    },
+    {
+      "id": "Lev.19.16",
+      "issue_ko": "רָכִיל의 진위 범위(참인 뒷말 포함 여부)와 어근 רכל 연관 — 어원 자료 미확인."
+    },
+    {
+      "id": "Lev.19.17",
+      "issue_ko": "עָלָיו의 지시(그 사람/그 일)와 17c의 법적 성격(결과 대 독립 금지)."
+    },
+    {
+      "id": "Lev.19.18",
+      "issue_ko": "כָּמוֹךָ 부사 대 동격; אָהַב + לְ의 뉘앙스; 18a(동족)와 18b(이웃)의 범위 관계."
+    },
+    {
+      "id": "Lev.19.15",
+      "issue_ko": "명령 대상(재판관 한정 여부)과 גָּדוֹל의 사회적 범위."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, facsimile inspection or critical apparatus consultation.",
+    "No GPT, Gemini, Antigravity or human review was performed or simulated.",
+    "No unanimous or multi-model agreement.",
+    "No remaining credit balance, dollar amount or credit deduction.",
+    "No adoption, certification or publication of this wording."
+  ],
+  "memo_ko": "automation/cloud-reviews/20261031T163657Z-de5cddbe.ko.md",
+  "branch": "claude/original-bible-hard-review-pcacah",
+  "source_words_cited": [
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03RVq",
+      "lemma": "5766 a",
+      "morph": "HNcbsa",
+      "text": "עָ֨וֶל֙"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03SUy",
+      "lemma": "b/4941",
+      "morph": "HRd/Ncmsa",
+      "text": "בַּ/מִּשְׁפָּ֔ט"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03zem",
+      "lemma": "5375",
+      "morph": "HVqi2ms",
+      "text": "תִשָּׂ֣א"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03ULr",
+      "lemma": "6440",
+      "morph": "HNcbpc",
+      "text": "פְנֵי"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03RgZ",
+      "lemma": "1800",
+      "morph": "HAamsa",
+      "text": "דָ֔ל"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03Cxh",
+      "lemma": "1921",
+      "morph": "HVqi2ms",
+      "text": "תֶהְדַּ֖ר"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03CNj",
+      "lemma": "1419 a",
+      "morph": "HAamsa",
+      "text": "גָד֑וֹל"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03X8a",
+      "lemma": "b/6664",
+      "morph": "HR/Ncmsa",
+      "text": "בְּ/צֶ֖דֶק"
+    },
+    {
+      "verse": "Lev.19.15",
+      "oshb_id": "03x8G",
+      "lemma": "5997",
+      "morph": "HNcmsc/Sp2ms",
+      "text": "עֲמִיתֶֽ/ךָ"
+    },
+    {
+      "verse": "Lev.19.16",
+      "oshb_id": "03PN9",
+      "lemma": "7400",
+      "morph": "HNcmsa",
+      "text": "רָכִיל֙"
+    },
+    {
+      "verse": "Lev.19.16",
+      "oshb_id": "03QQH",
+      "lemma": "b/5971 a",
+      "morph": "HR/Ncmpc/Sp2ms",
+      "text": "בְּ/עַמֶּ֔י/ךָ"
+    },
+    {
+      "verse": "Lev.19.16",
+      "oshb_id": "03bqe",
+      "lemma": "5975",
+      "morph": "HVqi2ms",
+      "text": "תַעֲמֹ֖ד"
+    },
+    {
+      "verse": "Lev.19.16",
+      "oshb_id": "03Lo7",
+      "lemma": "5921 a",
+      "morph": "HR",
+      "text": "עַל"
+    },
+    {
+      "verse": "Lev.19.16",
+      "oshb_id": "03XkF",
+      "lemma": "1818",
+      "morph": "HNcmsc",
+      "text": "דַּ֣ם"
+    },
+    {
+      "verse": "Lev.19.16",
+      "oshb_id": "03fzP",
+      "lemma": "7453",
+      "morph": "HNcmsc/Sp2ms",
+      "text": "רֵעֶ֑/ךָ"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "03BW3",
+      "lemma": "251",
+      "morph": "HNcmsc/Sp2ms",
+      "text": "אָחִ֖י/ךָ"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "03fHF",
+      "lemma": "b/3824",
+      "morph": "HR/Ncmsc/Sp2ms",
+      "text": "בִּ/לְבָבֶ֑/ךָ"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "03RME",
+      "lemma": "3198",
+      "morph": "HVha",
+      "text": "הוֹכֵ֤חַ"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "039JG",
+      "lemma": "3198",
+      "morph": "HVhi2ms",
+      "text": "תּוֹכִ֨יחַ֙"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "03H48",
+      "lemma": "5997",
+      "morph": "HNcmsc/Sp2ms",
+      "text": "עֲמִיתֶ֔/ךָ"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "03AkN",
+      "lemma": "5375",
+      "morph": "HVqi2ms",
+      "text": "תִשָּׂ֥א"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "0344o",
+      "lemma": "5921 a",
+      "morph": "HR/Sp3ms",
+      "text": "עָלָ֖י/ו"
+    },
+    {
+      "verse": "Lev.19.17",
+      "oshb_id": "03FRQ",
+      "lemma": "2399",
+      "morph": "HNcmsa",
+      "text": "חֵֽטְא"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "03HX9",
+      "lemma": "5358",
+      "morph": "HVqi2ms",
+      "text": "תִקֹּ֤ם"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "03HRn",
+      "lemma": "5201",
+      "morph": "HVqi2ms",
+      "text": "תִטֹּר֙"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "03pmD",
+      "lemma": "853",
+      "morph": "HTo",
+      "text": "אֶת"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "033Kj",
+      "lemma": "1121 a",
+      "morph": "HNcmpc",
+      "text": "בְּנֵ֣י"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "03YyV",
+      "lemma": "5971 a",
+      "morph": "HNcmsc/Sp2ms",
+      "text": "עַמֶּ֔/ךָ"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "032m6",
+      "lemma": "c/157",
+      "morph": "HC/Vqq2ms",
+      "text": "וְ/אָֽהַבְתָּ֥"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "03AHo",
+      "lemma": "l/7453",
+      "morph": "HR/Ncmsc/Sp2ms",
+      "text": "לְ/רֵעֲ/ךָ֖"
+    },
+    {
+      "verse": "Lev.19.18",
+      "oshb_id": "03PYm",
+      "lemma": "3644",
+      "morph": "HR/Sp2ms",
+      "text": "כָּמ֑וֹ/ךָ"
+    }
+  ],
+  "checks": {
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "rights_match_packet": true,
+    "context_file_hashes_match": true,
+    "cited_words_found": true,
+    "no_cantillation_in_prose_fields": true,
+    "memo_has_no_cantillation": true,
+    "memo_mentions_all_targets": true,
+    "lemma_distribution_in_15_downloaded_books": {
+      "7400": [
+        "Lev.19.16",
+        "Ezek.22.9",
+        "Prov.11.13",
+        "Prov.20.19",
+        "Jer.6.28",
+        "Jer.9.3"
+      ],
+      "5201": [
+        "Lev.19.18",
+        "Nah.1.2",
+        "Jer.3.5",
+        "Jer.3.12",
+        "Ps.103.9"
+      ],
+      "1921": [
+        "Lev.19.15",
+        "Lev.19.32",
+        "Exod.23.3",
+        "Prov.25.6"
+      ],
+      "5997": [
+        "Lev.5.21",
+        "Lev.18.20",
+        "Lev.19.11",
+        "Lev.19.15",
+        "Lev.19.17",
+        "Lev.24.19",
+        "Lev.25.14",
+        "Lev.25.15",
+        "Lev.25.17",
+        "Zech.13.7"
+      ],
+      "5358": [
+        "Lev.19.18",
+        "Lev.26.25",
+        "Gen.4.15",
+        "Gen.4.24",
+        "Exod.21.20",
+        "Exod.21.21",
+        "Num.31.2",
+        "Deut.32.43",
+        "Ezek.24.8",
+        "Ezek.25.12",
+        "Ezek.25.15",
+        "Esth.8.13",
+        "Nah.1.2",
+        "Jer.5.9",
+        "Jer.5.29",
+        "Jer.9.8",
+        "Jer.15.15",
+        "Jer.46.10",
+        "Jer.50.15",
+        "Jer.51.36",
+        "Ps.8.3",
+        "Ps.44.17",
+        "Ps.99.8"
+      ]
+    },
+    "alav_chet_collocation_hits": [
+      "Lev.19.17",
+      "Lev.22.9",
+      "Num.18.32"
+    ],
+    "changed_paths": [
+      "automation/cloud-reviews/20261031T163657Z-de5cddbe.json",
+      "automation/cloud-reviews/20261031T163657Z-de5cddbe.ko.md",
+      "automation/hard-review-packets/20261031T163657Z-de5cddbe.json",
+      "automation/hard-review-runs/20261031T163657Z-de5cddbe.json"
+    ],
+    "changed_paths_only_own_run_files": true,
+    "no_changes_to_data_dist_releases_main": true,
+    "packet_unchanged_since_claim_commit": true,
+    "original_vs_interpretation_separated": true,
+    "attribution_authentic": "only Claude records exist for comparison; no GPT/Gemini/human records found or simulated",
+    "clauses_covered": "checked by hand: 15 (2mp injustice in judgment; lift face of poor; honor face of great; in righteousness judge fellow), 16 (go as talebearer among your peoples; stand against/by blood of neighbor; I am YHWH), 17 (hate brother in heart; surely reprove fellow; not bear sin because of him), 18 (not avenge; not keep grudge against sons of your people; love to neighbor as yourself; I am YHWH)",
+    "script": "session-local validation script /tmp/chk/validate.py (not committed); results above",
+    "run_at": "2026-10-31T16:46:53Z"
+  }
+}
