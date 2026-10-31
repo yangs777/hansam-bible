@@ -1,0 +1,620 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T224236Z-42d7a0ac",
+  "unit_id": "num-21-4-9",
+  "verse_ids": [
+    "Num.21.4",
+    "Num.21.5",
+    "Num.21.6",
+    "Num.21.7",
+    "Num.21.8",
+    "Num.21.9"
+  ],
+  "unit_issue_ko": "불뱀/사랍·놋뱀 언어유희·봄과 삶",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Num.21.4-9 equals traditional Hebrew, Korean (KRV), English (ASV) and Spanish (RV1909) Numbers 21:4-9; no numbering difference in this unit.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet (automation/hard-review-packets/20261031T224236Z-42d7a0ac.json); this record does not re-serialize them. Accented Hebrew quoted here was checked against the pinned source token text with OSHB morpheme slashes removed. Unaccented or consonantal forms are lexical citations (roots, dictionary forms), not quotations of the source.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T22:45Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, session_context.effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The session system prompt also names claude-opus-5-5. The model's self-report is not independent evidence of the serving snapshot.",
+    "session": "https://claude.ai/code/session_01UknqVGfdx3ohvCpxip8NAa",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata only; no balance, dollar amount or credit deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact serving snapshot beyond the last_served_model label",
+      "token counts",
+      "cost or credit deduction",
+      "remaining promotional balance",
+      "whether last_served_model stayed constant for every turn of this run"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-10-31T22:42:12Z (policy enabled; before stop_new_translation_at 2026-11-05T16:00:00+09:00)",
+    "claim_created": "2026-10-31T22:42:36Z",
+    "claim_pushed": "2026-10-31T22:43Z (approximate)",
+    "identity_checked": "2026-10-31T22:45Z (approximate)",
+    "network_checks": "2026-10-31T22:45:44Z to 22:48:10Z",
+    "review_written": "2026-10-31T22:52Z (approximate)",
+    "checks_run": "2026-10-31T22:54:00Z"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile, critical apparatus, LXX edition, Samaritan Pentateuch edition or Qumran edition consulted",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+    "fragment_sha256": {
+      "Num.21.4": "c303437914043fbe26cce2d9e01192fb030c80468bb4f4b74eef1ff49088c3a1",
+      "Num.21.5": "b7015de2ff7b3f6865804b69073e1029421a5cb4cb675f8883e51cb31de6d654",
+      "Num.21.6": "a616584fdf2902240cc437e98cfa4f5f331d7e09ff43f5d84fb7c34a33b15db4",
+      "Num.21.7": "e7ed99fb51c6ad642e87b7b8b5709b53ca71ddb317f57e4d533d1fd5e3bbcb28",
+      "Num.21.8": "492df032f04cc9e25354b6581c3221cfc5bd3746027a5408295090b4ae3acc0a",
+      "Num.21.9": "637446f3fa2cd949ce3993d598905a0c21f7e5155a657422faca48ce18e1b249"
+    },
+    "packet": "automation/hard-review-packets/20261031T224236Z-42d7a0ac.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "current_selected_in_packet": "none (upcoming passage; no selected Numbers 21 text exists in data/editorial.json at main c9ae49add5002667020417bd492d3d046e468aa4)",
+    "context_verses_read_from_same_pinned_commit": "Num.11.6, Num.14.25, Num.20.21, Num.20.22, Num.21.1, Num.21.3, Num.21.10, Num.21.11, Num.26.10, Num.33.41, Num.33.42 (Num.xml); Deut.2.1, Deut.2.8, Deut.8.15; Isa.6.2, Isa.6.6, Isa.11.12, Isa.14.29, Isa.30.6; 1Kgs.9.26; 2Kgs.18.4; Judg.10.16, Judg.16.16; Zech.11.8; Gen.3.1, Gen.3.13, Gen.3.16, Gen.4.22, Gen.20.7, Gen.27.29, Gen.27.46, Gen.33.11 (plain token text extracted locally; files fetched from the same pinned OSHB commit)",
+    "markup_observations": [
+      "No Qere/Ketiv, no note element, no textual-variant markup and no paseq occur in Num.21.4-9 in the pinned file. Only w elements, x-maqqef segs and x-sof-pasuq segs are present.",
+      "Num.21.9 ends the unit inside the same paragraph: Num.21.10 follows without a setumah/petuhah seg in the pinned file (unit boundary is editorial, not a source paragraph boundary). Num.21.3 ends with a petuhah (פ) seg, so 21:4 opens a new source paragraph.",
+      "OSHB morphology tags the pausal suffix in וָבָ֔ךְ (Num.21.7, id 0411V) as Sp2fs. The addressee is Moses (masculine). The same form-based tagging appears for masculine addressees in the pinned Gen.xml (Gen.20.7 לָֽ/ךְ to Abimelech; Gen.33.11 לָ֔/ךְ to Esau). This is read as a morphology-annotation convention for the pausal form, not as a textual feminine reading; translation is unaffected. Reported to editors as a morphology-display caution only.",
+      "OSHB lemma for שָׂרָף in Num.21.6 and Num.21.8 is 8314 a; the same 8314 a appears in Deut.8.15, Isa.14.29 and Isa.30.6, while Isa.6.2 and Isa.6.6 (seraphim around the throne) carry 8314 b. This lexical split is an OSHB analysis, not a property of the consonantal text."
+    ]
+  },
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml",
+      "accessed_utc": "2026-10-31T22:45:44Z",
+      "result": "200; SHA-256 02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896, byte-identical to the pinned cached file for commit 3d15126fb1ef74867fc1434be1942e837932691f",
+      "excerpt": "<w lemma=\"d/8314 a\" n=\"1.1\" morph=\"HTd/Ncmpa\" id=\"04GNx\">הַ/שְּׂרָפִ֔ים</w>"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Deut,Isa,2Kgs,Gen,1Kgs,Judg,Zech}.xml",
+      "accessed_utc": "2026-10-31T22:45:44Z to 22:48:10Z",
+      "result": "200 for each file; used only for context-verse token text listed in source.context_verses_read_from_same_pinned_commit; not committed",
+      "excerpt": "Judg.10.16: וַתִּקְצַ֥ר נַפְשׁ֖וֹ בַּעֲמַ֥ל יִשְׂרָאֵֽל"
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Rashi_on_Numbers.21.8",
+      "accessed_utc": "2026-10-31T22:45:45Z",
+      "result": "not accessible: curl (56) CONNECT tunnel failed, response 403 from the agent proxy (host not allowed by this environment's network policy). No rabbinic text obtained; all rabbinic reception statements below remain unverified in this session.",
+      "excerpt": null
+    },
+    {
+      "url": "https://www.biblegateway.com/",
+      "accessed_utc": "2026-10-31T22:45:45Z",
+      "result": "not accessible: CONNECT tunnel failed, response 403. No modern translation or LXX text obtained from the web.",
+      "excerpt": null
+    }
+  ],
+  "independent_initial_reading": {
+    "note_ko": "아래 판독은 원천 패킷(핀 고정 WLC/OSHB)만으로 먼저 작성했다. 다른 AI 제안이나 저장소 내 대조 역본은 이 단계 뒤에 열었다.",
+    "lexical": [
+      {
+        "id": "Num.21.4",
+        "ko": "וַתִּקְצַ֥ר נֶֽפֶשׁ־הָעָ֖ם: 직역 ‘백성의 네페쉬(목숨/기운)가 짧아졌다’ = 참을성을 잃다, 견디지 못하다. ‘마음이 상하다(개역)’보다는 인내의 고갈이 중심이다."
+      },
+      {
+        "id": "Num.21.5",
+        "ko": "קָ֔צָה (어근 קוּץ, Gen.27.46 קַ֣צְתִּי와 같은 동사): 혐오·진저리. הַקְּלֹקֵֽל: 핀 고정 파일 범위 안에서 이 절에만 나오는 형태(lemma 7052). 어근 קלל(가볍다/하찮다)과 연결되는 경멸형으로 보는 것이 일반적이나, 정확한 뉘앙스(‘하찮은’, ‘형편없는’, ‘맛없는’, ‘가벼운’)는 결정되지 않는다."
+      },
+      {
+        "id": "Num.21.6, Num.21.8",
+        "ko": "שָׂרָף: 어근 שׂרף(태우다)와 같은 자음. ‘불타는(독의 작열감?)’ 뱀, 또는 이사야 14:29·30:6의 שָׂרָ֥ף מְעוֹפֵֽף(날아다니는 사랍)처럼 광야/남방의 위험한 존재의 이름. 이사야 6장의 천상 존재 שְׂרָפִ֨ים과 같은 단어인지는 원천 텍스트만으로 판정할 수 없다."
+      },
+      {
+        "id": "Num.21.8, Num.21.9",
+        "ko": "נֵס: 깃대·장대·신호 표지(Isa.11.12 ‘민족들을 향해 נֵס를 들다’). Num.26.10 וַיִּהְי֖וּ לְנֵֽס에서는 ‘경고의 표징’. 여기서는 물리적 장대가 일차 의미이고 ‘표징’ 함의는 열어 둔다."
+      },
+      {
+        "id": "Num.21.9",
+        "ko": "נְחַ֣שׁ נְחֹ֔שֶׁת: 자음 נחשׁ을 공유하는 소리놀이(뱀 nāḥāš / 구리·청동 nəḥōšet). 금속이 구리인지 청동인지는 본문만으로 결정되지 않는다."
+      },
+      {
+        "id": "Num.21.8, Num.21.9",
+        "ko": "וְרָאָ֥ה(21:8, 보다)와 וְהִבִּ֛יט(21:9, 히필 נבט: 주목하여 바라보다)는 서로 다른 동사다. 명령 단계의 ‘보면’과 실행 보고의 ‘바라보면’을 번역에서 구별할 가치가 있다."
+      },
+      {
+        "id": "Num.21.8, Num.21.9",
+        "ko": "וָחָֽי(두 번): ‘살다/살아남다’. 부활이 아니라 물린 뒤 죽지 않고 생존함."
+      }
+    ],
+    "syntactic": [
+      {
+        "id": "Num.21.4",
+        "ko": "לִסְבֹ֖ב אֶת־אֶ֣רֶץ אֱד֑וֹם은 목적 부정사(에돔을 돌아가려고). 처음 판독에서는 בַּדָּֽרֶךְ을 장소(‘길에서’)로 보았으나, 아래 비교 단계에서 수정함(changes_from_initial_proposal_ko 참조)."
+      },
+      {
+        "id": "Num.21.5",
+        "ko": "הֶֽעֱלִיתֻ֨נוּ֙는 2인칭 남성 복수(OSHB HVhp2mp/Sp1cp). 하나님과 모세를 함께 ‘너희’로 묶어 항의한다. 복수 정보를 번역에서 보존할지가 쟁점."
+      },
+      {
+        "id": "Num.21.5",
+        "ko": "כִּ֣י אֵ֥ין לֶ֨חֶם֙ ... בַּלֶּ֖חֶם הַקְּלֹקֵֽל: 같은 단어 לֶחֶם이 ‘양식이 없다’와 ‘이 하찮은 양식’에 반복된다. 논리적 모순처럼 보이는 불평의 수사(먹을 것이 없다면서 있는 양식을 혐오함)를 번역이 평탄화하지 않아야 한다."
+      },
+      {
+        "id": "Num.21.7",
+        "ko": "חָטָ֗אנוּ כִּֽי־דִבַּ֤רְנוּ: 고백 + 이유(כִּי). הִתְפַּלֵּל֙ ... וְיָסֵ֥ר: 명령 + 지시형(jussive, HVhj3ms) = 목적/결과 ‘그분이 없애 주시도록’. הַנָּחָ֑שׁ은 단수(집합적)."
+      },
+      {
+        "id": "Num.21.8",
+        "ko": "עֲשֵׂ֤ה לְךָ֙ שָׂרָ֔ף: ‘너를 위해/네가 스스로’ 사랍 하나를 만들라. 명령문에는 נָחָשׁ(뱀)이라는 단어가 없고 שָׂרָף만 있다. וְהָיָה֙ כָּל־הַנָּשׁ֔וּךְ וְרָאָ֥ה אֹת֖וֹ וָחָֽי: 약속 구조(물린 자마다 그것을 보면 살리라)."
+      },
+      {
+        "id": "Num.21.9",
+        "ko": "וְהָיָ֗ה אִם־נָשַׁ֤ךְ ... וְהִבִּ֛יט ... וָחָֽי: 과거 서사 속 weqatal 연쇄 = 반복·습관(‘뱀이 누구를 물 때마다, 그가 바라보면 살았다’). 한 번의 사건이 아니라 반복된 규칙."
+      }
+    ],
+    "discourse": [
+      {
+        "ko": "백성은 기도로 ‘뱀을 없애 달라’(21:7)고 요청하지만, 야훼의 응답(21:8)은 뱀 제거가 아니라 물린 자를 위한 생존 수단이다. 번역은 이 간극을 메워 ‘뱀이 떠나갔다’ 같은 내용을 더하지 말아야 한다."
+      },
+      {
+        "ko": "명령(21:8 ‘사랍을 만들라’)과 실행(21:9 ‘모세가 청동 뱀을 만들었다’)의 어휘 차이: 21:6 הַנְּחָשִׁ֣ים הַשְּׂרָפִ֔ים이 두 단어를 함께 묶었으므로, 사랍 = 뱀의 한 종류라는 동일시가 본문 안에서 성립한다."
+      },
+      {
+        "ko": "21:5 ‘하나님과 모세를 거슬러’ → 21:7 ‘야훼와 당신을 거슬러’: 백성의 고백이 서술자의 고발을 그대로 반복하며 신명만 אֱלֹהִים에서 יְהוָה로 바뀐다. 두 신명을 각각 보존한다."
+      }
+    ],
+    "textual_variant": [
+      {
+        "ko": "핀 고정 원천에는 이 단위의 Qere/Ketiv나 이문 표시가 없다. 칠십인역·사마리아 오경·쿰란 사본에서 21:5의 2인칭 복수 동사나 21:6·8의 שׂרף 처리가 어떻게 되어 있는지는 이 세션에서 확인하지 못했다(네트워크 정책상 접근 불가). 따라서 이문 주장은 하지 않으며 미해결로 남긴다."
+      }
+    ],
+    "historical": [
+      {
+        "ko": "‘에돔 땅을 돌아서’와 דֶּ֣רֶךְ יַם־ס֔וּף: 1Kgs.9.26은 에시온게벨을 ‘에돔 땅 יַם־ס֖וּף 해변’에 둔다(핀 고정 원천). 이는 이 구절의 יַם־סוּף가 아카바만 방향을 가리킬 수 있음을 보여 주지만, 정확한 경로와 호르산 위치는 본문만으로 확정되지 않는다(역사지리 문제는 미해결)."
+      },
+      {
+        "ko": "‘불뱀’의 동물학적 정체(특정 독사 종)는 본문이 말하지 않는다. 독의 작열감에서 이름이 왔다는 설명은 어원 추론이다."
+      }
+    ],
+    "reception": [
+      {
+        "ko": "2Kgs.18.4(핀 고정 원천): 히스기야가 ‘모세가 만든 נְחַ֨שׁ הַנְּחֹ֜שֶׁת’을 부수었고 그것을 נְחֻשְׁתָּֽן이라 불렀다. 이는 후대 이스라엘의 수용(분향 대상화)과 그에 대한 개혁 기록이며, 민수기 21장 번역에 의미를 역투영하지 않는다."
+      },
+      {
+        "ko": "요한복음 3:14(인자가 들려야 함)와 지혜서 16:5-7(구원의 표징) 같은 후대 해석은 이 세션에서 원문을 확인하지 않은 수용사 정보다. 개신교(장로교) 독자에게 중요한 연결이지만 번역문이 아니라 각주/해설 층에 둔다."
+      }
+    ]
+  },
+  "initial_proposals": {
+    "Num.21.4": {
+      "ko": "그들은 호르산을 떠나 에돔 땅을 돌아가려고 홍해 길로 나아갔다. 그 길을 가는 동안 백성은 참을성을 잃었다.",
+      "en": "They set out from Mount Hor by the Red Sea road to go around the land of Edom, and the people grew impatient on the way.",
+      "es": "Partieron del monte Hor por el camino del mar Rojo para rodear la tierra de Edom, y el pueblo se impacientó en el camino."
+    },
+    "Num.21.5": {
+      "ko": "백성이 하나님과 모세를 거슬러 말했다. “어찌하여 우리를 이집트에서 이끌어 올려 광야에서 죽게 하십니까? 양식도 없고 물도 없습니다. 우리는 이 형편없는 양식에 진저리가 납니다.”",
+      "en": "The people spoke against God and against Moses: “Why have you brought us up from Egypt to die in the wilderness? For there is no food and no water, and we loathe this miserable food.”",
+      "es": "El pueblo habló contra Dios y contra Moisés: «¿Por qué nos han hecho subir de Egipto para morir en el desierto? Pues no hay pan ni agua, y estamos hartos de este pan miserable»."
+    },
+    "Num.21.6": {
+      "ko": "그러자 야훼께서 백성 가운데 불뱀들을 보내셨다. 뱀들이 백성을 물어, 이스라엘 가운데 많은 사람이 죽었다.",
+      "en": "Then YHWH sent fiery serpents among the people; they bit the people, and many people of Israel died.",
+      "es": "Entonces YHWH envió entre el pueblo serpientes abrasadoras, que mordieron al pueblo, y murió mucha gente de Israel."
+    },
+    "Num.21.7": {
+      "ko": "백성이 모세에게 와서 말했다. “우리가 죄를 지었습니다. 야훼와 당신을 거슬러 말했습니다. 야훼께 기도하여 그분이 우리에게서 뱀을 거두어 가시게 해 주십시오.” 그래서 모세가 백성을 위하여 기도했다.",
+      "en": "The people came to Moses and said, “We have sinned, for we spoke against YHWH and against you. Pray to YHWH that he take the serpents away from us.” So Moses prayed for the people.",
+      "es": "El pueblo vino a Moisés y dijo: «Hemos pecado, porque hemos hablado contra YHWH y contra ti. Ruega a YHWH que aparte de nosotros las serpientes». Y Moisés oró por el pueblo."
+    },
+    "Num.21.8": {
+      "ko": "야훼께서 모세에게 말씀하셨다. “너는 불뱀을 하나 만들어 장대 위에 두어라. 물린 사람은 누구든지 그것을 보면 살 것이다.”",
+      "en": "YHWH said to Moses, “Make a fiery serpent and set it on a pole; everyone who is bitten and sees it will live.”",
+      "es": "YHWH dijo a Moisés: «Hazte una serpiente abrasadora y ponla sobre un asta; todo el que haya sido mordido y la vea, vivirá»."
+    },
+    "Num.21.9": {
+      "ko": "모세가 청동 뱀을 만들어 그 장대 위에 두었다. 뱀이 누구를 물든지, 그가 청동 뱀을 바라보면 살았다.",
+      "en": "So Moses made a bronze serpent and set it on the pole; and whenever a serpent bit someone, and he looked to the bronze serpent, he lived.",
+      "es": "Moisés hizo una serpiente de bronce y la puso sobre el asta; y cuando una serpiente mordía a alguien, y este miraba a la serpiente de bronce, vivía."
+    }
+  },
+  "initial_proposals_note": "Written from the source packet before opening the repository's public-domain reading editions or any saved review record. The only revision made after comparison is Num.21.4 (see changes_from_initial_proposal_ko).",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main c9ae49add5002667020417bd492d3d046e468aa4)",
+      "label": "current selected text (Genesis 1-5:15, Psalm 1, Numbers 6:24-26, Deuteronomy 32:8)",
+      "relevance_ko": "민수기 21장 선정본은 없다. 관례 확인: Gen.4.22에서 נְחֹ֖שֶׁת은 ko ‘청동’, en ‘bronze’, es ‘bronce’로 선정됨. Gen.3.1·3.13의 נָחָשׁ은 ‘뱀/serpent/serpiente’. 신명 표기는 선정본 안에서도 통일되지 않음: Gen.4.26 ko ‘야훼’, en/es ‘YHWH’; Gen.2.4 en ‘Yahweh’, es ‘Yahvé’; Num.6.24 ko ‘YHWH께서’. 이 검토는 최근 클라우드 검토들처럼 ko ‘야훼’, en/es ‘YHWH’를 따른다."
+    },
+    {
+      "record": "all remote claude/ branches and main: automation/cloud-drafts/, automation/cloud-reviews/, automation/hard-review-runs/, reviews/, data/ (fetched 2026-10-31T22:42Z)",
+      "label": "Claude cloud drafts, Claude hard-review records, saved model-review records",
+      "relevance_ko": "Num.21.4-9를 대상으로 한 초안·검토·GPT/Gemini 기록은 하나도 없다(문자열 \"Num.21.4\"~\"Num.21.9\" 검색 결과 이 실행의 청구 매니페스트만 일치). data/model-reviews/에도 민수기 21장 기록이 없다. 따라서 비교할 실제 GPT/Gemini/Claude 저장 응답이 없다."
+    },
+    {
+      "record": "automation/cloud-drafts on origin/claude/friendly-heisenberg-4tlfte (20261027T211801Z-12391c68) and origin/claude/friendly-heisenberg-gnpuu8 (20261028T091806Z-bb46c297)",
+      "label": "Claude cloud drafts of other (Exodus) passages; terminology evidence only",
+      "relevance_ko": "יַם־סוּף 처리가 클라우드 초안 사이에서 통일되지 않음: 한 초안은 en ‘Red Sea’, es ‘Mar Rojo’를 쓰고, 다른 초안은 ‘갈대바다/Sea of Reeds’를 선택했다고 기록한다. 이 단위의 결정은 프로젝트 전체 용어 결정이 아니며 편집 통일이 필요하다."
+    },
+    {
+      "record": "origin/claude/bible-hard-review-mu57q5 (exod-12-40-42), origin/claude/bible-hard-review-vqib2m (exod-3-12-15) cloud-reviews",
+      "label": "Claude hard-review records; naming convention evidence only",
+      "relevance_ko": "선호 번역에서 מִצְרַיִם을 ko ‘이집트’로 옮김. 이 검토도 ‘이집트’를 따른다(개역 ‘애굽’은 대안)."
+    },
+    {
+      "record": "library/krv/Num.json, library/asv/Num.json, library/rv1909/Num.json (SHA-256 8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27, ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c, f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96)",
+      "label": "Public-domain reading editions (KorRV 개역, ASV 1901, Reina-Valera 1909) as separately sourced in library/catalog.json; reception evidence, not model records and not source evidence",
+      "relevance_ko": "실제 비교 결과: (1) 21:4 בַּדָּֽרֶךְ — 개역 ‘길로 인하여’, ASV ‘because of the way’로 원인/대상 해석, RV1909 ‘por el camino’(중의). (2) 21:5 — 개역·ASV는 2인칭을 각각 생략/‘ye’(복수)로, RV1909는 ‘nos hiciste’(단수)로 옮겨 복수 정보를 잃는다. 개역 ‘이 광야’, RV1909 ‘este desierto’는 지시사를 더함. קְלֹקֵל: 개역 ‘박한’, ASV ‘light’, RV1909 ‘tan liviano’ — 모두 קלל(가볍다) 계열 해석. (3) 21:6 — ‘불뱀들/fiery serpents/serpientes ardientes’. (4) 21:7 — 세 역본 모두 단수 הַנָּחָשׁ을 복수(‘이 뱀들/the serpents/estas serpientes’)로 처리. (5) 21:8 — 개역 ‘불뱀을 만들어’, ASV ‘a fiery serpent’, RV1909 ‘una serpiente ardiente’: 명령문에 없는 ‘뱀’이 세 역본 모두에 추가됨. נֵס: ‘장대/standard/bandera’. (6) 21:9 — 개역 ‘놋뱀’, ASV ‘serpent of brass’, RV1909 ‘serpiente de metal’; 개역은 ‘뱀에게 물린 자마다 놋뱀을 쳐다본즉’으로 조건 반복 구조를 단순화하고 הִבִּיט을 ‘쳐다보다’로 21:8 ‘보면’과 구별함."
+    }
+  ],
+  "no_gpt_gemini_records_ko": "이 단위에 대해 저장된 GPT, Gemini, Antigravity 응답이나 인간 검토 기록은 존재하지 않는다. 이 문서는 어떤 모델의 의견도 대신하거나 추정하지 않는다.",
+  "comparison_findings_ko": [
+    "21:4 בַּדָּֽרֶךְ의 원인/대상 해석은 공개 역본 전통만이 근거가 아니다. 핀 고정 원천의 같은 관용구 용례가 ב을 견딤의 대상/원인으로 쓴다: Judg.10.16 וַתִּקְצַ֥ר נַפְשׁ֖וֹ בַּעֲמַ֥ל יִשְׂרָאֵֽל(이스라엘의 고통 때문에/에 대해 그의 네페쉬가 짧아짐), Zech.11.8 וַתִּקְצַ֤ר נַפְשִׁי֙ בָּהֶ֔ם(내가 그들에게 참을성을 잃었다). 이 관용구 패턴이 장소 해석보다 강하다.",
+    "21:5의 2인칭 복수는 세 공개 역본 중 ASV만 ‘ye’로 보존했다. 원문 정보 보존 원칙상 en/es에서 복수가 드러나게 하는 것이 낫다(es ‘han hecho subir’). en ‘you’는 형태상 중의이므로 각주로 보완.",
+    "21:8 ‘사랍’ 단독 명령은 세 공개 역본 모두 ‘불뱀’으로 보충했다. 이 검토의 초안도 같은 보충을 했다. 이는 의미상 정당하나(21:6의 동일시) 원문 표면에 없는 ‘뱀’을 더한 것이므로 각주가 필요하다.",
+    "21:7 단수 הַנָּחָ֑שׁ: 공개 역본은 모두 복수화했다. ko는 수 표지 없이 ‘뱀을’로 원문의 단수/집합 중의를 자연스럽게 보존할 수 있다. en/es는 복수로 하되 각주.",
+    "21:9 ‘놋뱀’(개역)은 한국 개신교 독자에게 확립된 표현이지만, 이 프로젝트의 Gen.4.22 선정본이 נְחֹשֶׁת을 ‘청동’으로 옮겼으므로 용어 일관성 문제가 생긴다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    {
+      "id": "Num.21.4",
+      "from": "en ‘grew impatient on the way’, ko ‘그 길을 가는 동안 백성은 참을성을 잃었다’",
+      "to": "en ‘grew impatient with the journey’, ko ‘백성은 그 길 때문에 참을성을 잃었다’",
+      "reason_ko": "Judg.10.16·Zech.11.8의 קצר נפשׁ + ב 구문이 ב을 견디지 못하는 대상/원인으로 쓰는 것을 핀 고정 원천에서 확인했다. es ‘se impacientó por el camino’는 장소·원인 모두를 허용하므로 그쪽으로 조정."
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "Num.21.4",
+      "question_ko": "בַּדָּֽרֶךְ: 장소(길에서) 대 원인/대상(길 때문에, 그 여정에 지쳐)",
+      "options": [
+        {
+          "reading_ko": "(1) 원인/대상: ‘그 길 때문에 참을성을 잃었다’ / ‘grew impatient with the journey’ (선택)",
+          "argument_ko": "같은 관용구 Judg.10.16, Zech.11.8에서 ב이 대상/원인을 표시한다. 에돔을 ‘돌아가는’ 우회로라는 앞 절의 정보(Num.20.21 에돔의 통과 거절)와도 연결된다.",
+          "objection_ko": "Judg.16.16은 같은 관용구를 ל+부정사(לָמֽוּת)와 쓰고, 단순 장소 ‘בַּדֶּרֶךְ’(길에서)는 매우 흔한 표현이다. 원인 해석은 관용구 패턴에 근거한 개연성이지 문법적 강제는 아니다."
+        },
+        {
+          "reading_ko": "(2) 장소: ‘길에서/도중에 참을성을 잃었다’ / ‘on the way’",
+          "argument_ko": "가장 평범한 ב 용법. 원인을 단정하지 않는다.",
+          "objection_ko": "관용구 용례에서 벗어나며, 백성의 불만이 길 자체(우회)와 관련된다는 문맥 연결을 약화한다."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.4",
+      "question_ko": "יַם־סוּף: ‘홍해’ 대 ‘갈대 바다’",
+      "options": [
+        {
+          "reading_ko": "(1) 홍해 / Red Sea / mar Rojo (선택)",
+          "argument_ko": "1Kgs.9.26이 יַם־ס֖וּף를 ‘에돔 땅’ 에시온게벨 해안에 둔다. 에돔을 남쪽으로 돌아가는 이 문맥에서는 아카바만을 포함하는 관례적 이름 ‘홍해’가 지리적으로 덜 오해된다. 개역·ASV 전통과도 일치(RV1909는 ‘mar Bermejo’).",
+          "objection_ko": "‘홍해’는 히브리어 סוּף(갈대/끝?)의 뜻을 반영하지 않는 칠십인역 계열 전통 이름이며, 출애굽기 단위에서 ‘갈대바다’를 고른 초안이 있어 프로젝트 내 용어가 갈린다."
+        },
+        {
+          "reading_ko": "(2) 갈대 바다 / Sea of Reeds / mar de los Juncos",
+          "argument_ko": "סוּף의 어원(Exod 2:3·5의 갈대로 알려짐 — 이 세션에서 해당 절 미확인)을 반영한다.",
+          "objection_ko": "이 절에서는 어원보다 지명 식별이 중요하며, ‘갈대 바다’는 이집트 국경 호수 해석과 결합되어 아카바만 방향 문맥에서 혼동을 줄 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.5",
+      "question_ko": "הֶֽעֱלִיתֻ֨נוּ֙의 2인칭 복수 처리",
+      "options": [
+        {
+          "reading_ko": "(1) ko 주어 생략, en ‘you’, es ‘han hecho subir’(복수) (선택)",
+          "argument_ko": "한국어는 주어를 생략해도 바로 앞 ‘하나님과 모세를 거슬러’가 대상을 밝히므로 복수 정보가 문맥에 남는다. 스페인어는 동사 형태로 복수를 보존할 수 있다.",
+          "objection_ko": "ko에서 복수 정보가 형태상 사라진다. ‘당신들은’을 넣으면 하나님을 사람과 같은 층위로 묶는 불경한 어조가 원문의 반항적 발화와 오히려 맞는다는 반론이 가능하다."
+        },
+        {
+          "reading_ko": "(2) ko ‘어찌하여 당신들은 우리를…’",
+          "argument_ko": "원문의 복수와 항의 어조를 가장 직접 보존한다.",
+          "objection_ko": "한국어 독자에게 ‘당신들’은 하나님에 대한 지칭으로 매우 거칠어 서술자가 의도한 것 이상의 어감을 만들 수 있다. 각주로 대체 가능."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.5",
+      "question_ko": "הַקְּלֹקֵֽל의 뉘앙스",
+      "options": [
+        {
+          "reading_ko": "(1) ‘형편없는/miserable/miserable’ (선택)",
+          "argument_ko": "어근 קלל(가볍다, 하찮게 여기다)의 경멸형으로 보는 일반 해석을 현대어로 옮김. 불평의 감정 어조를 보존한다.",
+          "objection_ko": "단일 용례 단어라 뜻이 불확실하다. ‘가벼운(light)’은 영양이 없다는 물리적 의미일 수 있고, ‘형편없는’은 감정적 판단을 더 강하게 만든다."
+        },
+        {
+          "reading_ko": "(2) ‘하찮은/worthless’ 또는 직역 ‘가벼운/light’",
+          "argument_ko": "‘가벼운’은 어근 의미에 가장 가깝고 공개 역본(ASV ‘light’, RV1909 ‘liviano’, 개역 ‘박한’) 전통.",
+          "objection_ko": "현대 독자에게 ‘가벼운 양식’은 칭찬(소화가 잘 되는)으로 읽힐 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.6, Num.21.8",
+      "question_ko": "שָׂרָף / הַנְּחָשִׁ֣ים הַשְּׂרָפִ֔ים의 번역",
+      "options": [
+        {
+          "reading_ko": "(1) ‘불뱀/fiery serpents/serpientes abrasadoras’ (선택)",
+          "argument_ko": "שׂרף(태우다) 어근의 연상을 보존하고, 한국 개신교 독자에게 익숙한 ‘불뱀’과 일치한다. 21:8의 단독 שָׂרָף도 21:6의 동격 구문에 근거해 ‘불뱀’으로 옮길 수 있다.",
+          "objection_ko": "‘불’은 어원 해석이고, 실제로 불을 뿜는 뱀으로 오해될 수 있다. 21:8에서는 원문에 없는 ‘뱀’을 더한다."
+        },
+        {
+          "reading_ko": "(2) 음역 ‘사랍 뱀/seraph serpents/serpientes serafín’",
+          "argument_ko": "단어 자체를 보존하고 이사야 14:29·30:6 ‘날아다니는 사랍’과의 연결을 독자가 볼 수 있게 한다. 21:8 ‘사랍을 만들라’를 그대로 옮길 수 있다.",
+          "objection_ko": "en ‘seraph’는 이사야 6장의 천상 존재를 강하게 연상시켜 오해를 만든다. OSHB도 Num/Deut/Isa 14·30(8314 a)과 Isa 6(8314 b)을 다른 표제어로 분석한다(분석일 뿐 원문 증거는 아님)."
+        },
+        {
+          "reading_ko": "(3) 의미 번역 ‘독사/venomous snakes/serpientes venenosas’",
+          "argument_ko": "현대 독자가 위험의 성격(독)을 즉시 이해한다.",
+          "objection_ko": "שׂרף의 어휘 연상과 21:8 ‘사랍을 만들라’의 특수성을 지운다. ‘독’은 원문에 명시되지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.6",
+      "question_ko": "וַיְשַׁלַּ֨ח(피엘): ‘보내다’ 대 ‘풀어놓다’",
+      "options": [
+        {
+          "reading_ko": "(1) ‘보내셨다/sent/envió’ (선택)",
+          "argument_ko": "בָּעָ֗ם(백성 가운데) + 대상 표지 구문의 가장 단순한 의미. 공개 역본 전통도 같다.",
+          "objection_ko": "피엘 שׁלח는 ‘풀어놓다, 놓아 보내다’도 가능해, 이미 광야에 있던 뱀을 ‘풀어놓았다’(Deut.8.15의 광야 위험과 연결)는 해석을 닫는다."
+        },
+        {
+          "reading_ko": "(2) ‘풀어놓으셨다/let loose/soltó’",
+          "argument_ko": "Deut.8.15가 נָחָ֤שׁ שָׂרָף֙을 광야의 상존 위험으로 묘사한다.",
+          "objection_ko": "이는 해석적 선택이며, 이 절의 구문은 ‘보내다’로도 충분하다. 각주로 둔다."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.9",
+      "question_ko": "נְחַ֣שׁ נְחֹ֔שֶׁת: ‘청동 뱀’ 대 ‘놋뱀’ 대 ‘구리 뱀’",
+      "options": [
+        {
+          "reading_ko": "(1) ‘청동 뱀/bronze serpent/serpiente de bronce’ (선택)",
+          "argument_ko": "이 프로젝트의 Gen.4.22 선정본이 נְחֹשֶׁת을 ‘청동/bronze/bronce’로 옮겼으므로 용어 일관성이 유지된다. 현대 독자에게 금속 종류가 분명하다.",
+          "objection_ko": "개역 ‘놋뱀’은 2Kgs 18:4, 요한복음 3:14 해설을 통해 한국 개신교(장로교) 독자에게 고정된 표현이며, ‘청동 뱀’은 친숙성을 잃는다. 또 נְחֹשֶׁת이 순수 구리인지 합금인지는 본문이 결정하지 않는다."
+        },
+        {
+          "reading_ko": "(2) ‘놋뱀’",
+          "argument_ko": "전통 표현, 독자 인지도, ‘놋’이 구리 합금 일반을 포괄해 금속을 덜 단정한다.",
+          "objection_ko": "Gen.4.22 ‘청동’과 불일치. 프로젝트 차원에서 נְחֹשֶׁת 용어를 함께 바꾸지 않으면 같은 단어가 책마다 달라진다."
+        }
+      ],
+      "wordplay_note_ko": "נָחָשׁ/נְחֹשֶׁת 소리놀이는 ko/en/es 어느 쪽으로도 재현되지 않는다. 각주에 원문 소리놀이를 명시하는 것이 유일한 보존 방법이다."
+    },
+    {
+      "id": "Num.21.8, Num.21.9",
+      "question_ko": "רָאָה(21:8) 대 הִבִּיט(21:9)의 구별",
+      "options": [
+        {
+          "reading_ko": "(1) ‘보면/sees/la vea’ 대 ‘바라보면/looked to/miraba a’ (선택)",
+          "argument_ko": "원문의 동사 차이를 보존한다. 21:9의 히필 נבט은 시선을 향하는 의도적 행위를 함의한다.",
+          "objection_ko": "차이를 과대 해석해 ‘믿음의 응시’ 같은 신학적 의미를 번역에 실을 위험이 있다. 두 동사는 서사에서 거의 같은 기능을 할 수 있다."
+        },
+        {
+          "reading_ko": "(2) 둘 다 ‘보다/look’로 통일",
+          "argument_ko": "기능적 동일성.",
+          "objection_ko": "원문 어휘 차이 정보가 사라진다."
+        }
+      ]
+    },
+    {
+      "id": "Num.21.8",
+      "question_ko": "נֵס: ‘장대’ 대 ‘깃대/기치’ 대 ‘표징’",
+      "options": [
+        {
+          "reading_ko": "(1) ‘장대/pole/asta’ (선택)",
+          "argument_ko": "물체 위에 무언가를 ‘두는(שִׂים)’ 구체적 상황에 맞는 물리적 의미. 개역 ‘장대’와 일치.",
+          "objection_ko": "Isa.11.12, Num.26.10의 ‘신호/표징’ 의미를 놓친다. ASV ‘standard’, RV1909 ‘bandera’는 군기·표지 의미를 살렸다."
+        },
+        {
+          "reading_ko": "(2) ‘깃대/standard/estandarte’",
+          "argument_ko": "공적 신호물이라는 성격을 보존.",
+          "objection_ko": "‘깃발’ 연상 때문에 뱀이 깃발에 그려진 것처럼 오해될 수 있다."
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Num.21.8 and Num.21.6: rendering שָׂרָף as ‘불뱀/fiery serpent/serpiente abrasadora’",
+    "objection_ko": "21:8의 명령은 원문에서 ‘사랍을 하나 만들라’일 뿐 ‘뱀’이 없다. 그리고 21:9의 실행 보고가 ‘모세가 נְחַשׁ(뱀)을 만들었다’로 단어를 바꾸는 것은 서사적으로 의미 있는 변화(명령의 ‘사랍’ → 실행의 ‘청동 뱀’, 그리고 נָחָשׁ/נְחֹשֶׁת 소리놀이)일 수 있다. ‘불뱀을 만들라’로 보충하면 이 어휘 이동이 번역에서 완전히 사라지고, ‘불(火)’이라는 어원 해석이 고정된다. 음역 ‘사랍’을 쓰면 이 이동과 이사야 14:29·30:6 연결이 보존된다.",
+    "test_ko": "절별 시험: (a) 21:6 הַנְּחָשִׁ֣ים הַשְּׂרָפִ֔ים은 정관사가 붙은 동격으로, 사랍이 뱀의 한 종류임을 본문 안에서 확정한다. 그러므로 21:8의 ‘사랍’을 ‘불뱀’으로 옮겨도 의미 범위를 넘지 않는다. (b) 그러나 ‘불’ 자체는 어원 연상이지 확정 의미가 아니다. (c) 음역 ‘사랍’은 ko에서 생소하고 en ‘seraph’는 천상 존재 오해가 크다. 결론: 본문 번역은 ‘불뱀’을 유지하되, 각주에 ‘원문 21:8은 שָׂרָף(사랍) 한 단어; 21:9에서 נְחַשׁ נְחֹשֶׁת로 바뀜; 어근 שׂרף 태우다; Isa 14:29·30:6 날아다니는 사랍’을 반드시 넣는다. 이 각주 없이는 선호 번역을 채택하지 말 것.",
+    "status": "objection partly accepted: wording kept, mandatory note added"
+  },
+  "secondary_objections": [
+    {
+      "id": "Num.21.9",
+      "objection_ko": "‘청동 뱀’은 프로젝트 일관성을 얻는 대신 한국 장로교 독자의 확립된 ‘놋뱀’ 인지도를 잃는다. 편집이 Gen.4.22까지 포함한 נְחֹשֶׁת 정책을 결정해야 한다."
+    },
+    {
+      "id": "Num.21.7",
+      "objection_ko": "en/es 복수화(‘the serpents/las serpientes’)는 단수 הַנָּחָ֑שׁ과 21:9 단수 청동 뱀 사이의 대응을 흐린다. 직역 ‘the serpent’는 집합 단수로 읽힐 수 있으나 영어에서 특정 한 마리로 오해된다."
+    },
+    {
+      "id": "Num.21.9",
+      "objection_ko": "en ‘and he looked to … he lived’의 반복 구조는 영어로 다소 무겁다. ‘whenever … if he looked …’로 재구성하면 매끄럽지만 원문의 weqatal 연쇄 리듬이 약해진다."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Num.21.4",
+      "ko": "그들은 호르산을 떠나 에돔 땅을 돌아가려고 홍해 길로 나아갔다. 그런데 백성은 그 길 때문에 참을성을 잃었다.",
+      "en": "They set out from Mount Hor by the Red Sea road to go around the land of Edom, and the people grew impatient with the journey.",
+      "es": "Partieron del monte Hor por el camino del mar Rojo para rodear la tierra de Edom, y el pueblo se impacientó por el camino.",
+      "reason_ko": "וַתִּקְצַ֥ר נֶֽפֶשׁ를 ‘참을성을 잃다’로, בַּדָּֽרֶךְ을 관용구 용례(Judg.10.16, Zech.11.8)에 따라 원인/대상으로 옮겼다. 목적 부정사 לִסְבֹ֖ב 보존. דֶּ֣רֶךְ יַם־ס֔וּף는 경로 표현 ‘홍해 길로’.",
+      "counterargument_ko": "장소 해석 ‘길에서’가 더 평범하다는 반론; יַם־סוּף를 ‘갈대 바다’로 통일해야 한다는 반론.",
+      "current_opinion_ko": "유지. es ‘por el camino’는 두 해석을 모두 허용.",
+      "reconsider_if_ko": "편집이 יַם־סוּף 용어를 프로젝트 전체에서 ‘갈대 바다’로 확정하면 맞춘다. 장소 해석을 지지하는 추가 관용구 용례가 제시되면 en을 ‘on the way’로 되돌린다."
+    },
+    {
+      "id": "Num.21.5",
+      "ko": "백성이 하나님과 모세를 거슬러 말했다. “어찌하여 우리를 이집트에서 이끌어 올려 광야에서 죽게 하십니까? 양식도 없고 물도 없습니다. 우리는 이 형편없는 양식에 진저리가 납니다.”",
+      "en": "The people spoke against God and against Moses: “Why have you brought us up from Egypt to die in the wilderness? For there is no food and no water, and we loathe this miserable food.”",
+      "es": "El pueblo habló contra Dios y contra Moisés: «¿Por qué nos han hecho subir de Egipto para morir en el desierto? Pues no hay pan ni agua, y estamos hartos de este pan miserable».",
+      "reason_ko": "ב + 동사 דבר = ‘거슬러 말하다’. 두 대상(אֱלֹהִים, מֹשֶׁה) 각각 보존. 2인칭 복수는 es 동사로 보존, ko는 앞 절 대상으로 문맥 보존, en은 형태상 중의. לֶחֶם 반복을 ko ‘양식/양식’, en ‘food/food’, es ‘pan/pan’으로 보존해 불평의 모순적 수사를 남겼다. נַפְשֵׁ֣נוּ קָ֔צָה는 ‘우리는 … 진저리가 납니다’.",
+      "counterargument_ko": "ko에서 복수 ‘당신들’을 살려야 한다는 반론; קְלֹקֵל을 ‘가벼운/하찮은’으로 해야 한다는 반론; en ‘bread’가 더 직역이라는 반론.",
+      "current_opinion_ko": "유지. 각주: ‘원문 동사는 2인칭 복수(하나님과 모세를 함께 지칭)’; ‘הַקְּלֹקֵל은 단일 용례로 뜻이 불확실’.",
+      "reconsider_if_ko": "편집이 하나님을 포함한 2인칭 복수 처리 규칙(ko ‘당신들’ 허용 여부)을 정하면 맞춘다. 고대 역본에서 단수 동사 읽기가 확인되면 이문 각주 추가."
+    },
+    {
+      "id": "Num.21.6",
+      "ko": "그러자 야훼께서 백성 가운데 불뱀들을 보내셨다. 뱀들이 백성을 물어, 이스라엘 가운데 많은 사람이 죽었다.",
+      "en": "Then YHWH sent fiery serpents among the people; they bit the people, and many people of Israel died.",
+      "es": "Entonces YHWH envió entre el pueblo serpientes abrasadoras, que mordieron al pueblo, y murió mucha gente de Israel.",
+      "reason_ko": "동격 הַנְּחָשִׁ֣ים הַשְּׂרָפִ֔ים을 한 명사구 ‘불뱀들’로. 정관사는 종류/광야의 알려진 위험(Deut.8.15)을 가리키는 총칭으로 보아 en/es에서 부정 표현을 썼다. עַם־רָ֖ב מִיִּשְׂרָאֵֽל = ‘이스라엘 가운데 많은 사람’.",
+      "counterargument_ko": "‘사랍 뱀’ 음역, ‘독사’ 의미 번역, ‘풀어놓으셨다’ 해석.",
+      "current_opinion_ko": "유지, 사랍 각주 필수.",
+      "reconsider_if_ko": "편집이 이사야 14:29·30:6·신명기 8:15와 함께 שָׂרָף 용어를 통일할 때, 그 결정에 맞춘다."
+    },
+    {
+      "id": "Num.21.7",
+      "ko": "백성이 모세에게 와서 말했다. “우리가 죄를 지었습니다. 야훼와 당신을 거슬러 말했습니다. 야훼께 기도하여 그분이 우리에게서 뱀을 거두어 가시게 해 주십시오.” 그래서 모세가 백성을 위하여 기도했다.",
+      "en": "The people came to Moses and said, “We have sinned, for we spoke against YHWH and against you. Pray to YHWH that he take the serpents away from us.” So Moses prayed for the people.",
+      "es": "El pueblo vino a Moisés y dijo: «Hemos pecado, porque hemos hablado contra YHWH y contra ti. Ruega a YHWH que aparte de nosotros las serpientes». Y Moisés oró por el pueblo.",
+      "reason_ko": "고백 + כִּי 이유 + 명령 + 지시형 목적 구조를 보존. ko ‘뱀을’은 단수 집합 הַנָּחָ֑שׁ의 수 중립을 그대로 보존. 대상 וָבָ֔ךְ은 모세(남성; OSHB의 Sp2fs 태그는 휴지형 표기 관례로 판단).",
+      "counterargument_ko": "en/es에서 단수 ‘the serpent/la serpiente’를 유지해 21:9 단수 청동 뱀과의 대응을 살려야 한다는 반론.",
+      "current_opinion_ko": "유지. 각주: ‘원문 단수(집합) הַנָּחָשׁ’.",
+      "reconsider_if_ko": "편집이 집합 단수 명사의 en/es 처리 규칙을 직역 쪽으로 정하면 ‘the serpent/la serpiente’로 바꾼다."
+    },
+    {
+      "id": "Num.21.8",
+      "ko": "야훼께서 모세에게 말씀하셨다. “너는 불뱀을 하나 만들어 장대 위에 두어라. 물린 사람은 누구든지 그것을 보면 살 것이다.”",
+      "en": "YHWH said to Moses, “Make a fiery serpent and set it on a pole; everyone who is bitten and sees it will live.”",
+      "es": "YHWH dijo a Moisés: «Hazte una serpiente abrasadora y ponla sobre un asta; todo el que haya sido mordido y la vea, vivirá».",
+      "reason_ko": "עֲשֵׂ֤ה לְךָ֙는 es ‘Hazte’로 보존, ko ‘너는’, en 생략(영어 관용상). שָׂרָ֔ף 단독을 21:6 동격에 근거해 ‘불뱀’으로 보충(필수 각주). שִׂ֥ים은 ‘두다/set/poner’로, 개역 ‘달라’의 매달기 함의를 피함. וְרָאָ֥ה = ‘보면/sees/la vea’.",
+      "counterargument_ko": "‘사랍을 만들라’ 직역; ‘깃대/standard’.",
+      "current_opinion_ko": "유지, 단 strongest_objection_to_own_reading의 각주 없이는 채택 불가.",
+      "reconsider_if_ko": "편집이 21:8의 원문 어휘 이동을 본문에 드러내기로(예: ‘사랍 뱀’) 결정하면 21:6과 함께 바꾼다."
+    },
+    {
+      "id": "Num.21.9",
+      "ko": "모세가 청동 뱀을 만들어 그 장대 위에 두었다. 뱀이 누구를 물든지, 그가 청동 뱀을 바라보면 살았다.",
+      "en": "So Moses made a bronze serpent and set it on the pole; and whenever a serpent bit someone, and he looked to the bronze serpent, he lived.",
+      "es": "Moisés hizo una serpiente de bronce y la puso sobre el asta; y cuando una serpiente mordía a alguien, y este miraba a la serpiente de bronce, vivía.",
+      "reason_ko": "정관사 הַנֵּ֑ס(앞 절의 그 장대)를 ‘그 장대/the pole/el asta’로 보존. וְהָיָ֗ה אִם … וְהִבִּ֛יט … וָחָֽי의 반복 조건 구조를 ‘~든지 … ~면 살았다/whenever … he lived/cuando … vivía’로 보존. הִבִּ֛יט = ‘바라보다/looked to/miraba a’로 21:8 רָאָה와 구별. נְחֹשֶׁת은 Gen.4.22 선정본에 맞춰 ‘청동’.",
+      "counterargument_ko": "‘놋뱀’(개역 전통) 선호; 금속을 ‘구리’로 해야 한다는 견해.",
+      "current_opinion_ko": "유지. 각주: ‘נָחָשׁ(뱀)/נְחֹשֶׁת(청동) 소리놀이; 전통 역본 놋뱀; 2Kgs 18:4 느후스단’.",
+      "reconsider_if_ko": "편집이 נְחֹשֶׁת 용어를 프로젝트 전체에서 ‘놋’으로 정하거나 Num 21:9만 전통어 예외로 두기로 하면 ‘놋뱀’으로 바꾼다."
+    }
+  ],
+  "speech_boundaries_ko": "21:5 백성의 발화는 ‘어찌하여’부터 ‘진저리가 납니다’까지 한 단위. 21:7 백성의 발화는 ‘우리가 죄를 지었습니다’부터 ‘해 주십시오’까지; ‘그래서 모세가…’는 서술. 21:8 야훼의 발화는 ‘너는’부터 ‘살 것이다’까지. 21:4, 21:6, 21:9는 서술만 있다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Num.21.5",
+      "note_ko": "‘이끌어 올려’의 원문 동사는 2인칭 복수로, 하나님과 모세를 함께 가리킨다. ‘형편없는’으로 옮긴 הַקְּלֹקֵל은 히브리어 성경에서 이 절에만 나오는 형태로 정확한 뜻이 불확실하다(전통 역본: ‘박한’, ‘light’, ‘liviano’)."
+    },
+    {
+      "id": "Num.21.6, Num.21.8",
+      "note_ko": "‘불뱀’의 원어 שָׂרָף(사랍)은 ‘태우다’와 같은 자음이다. 21:8의 명령은 원문에서 ‘사랍을 하나 만들라’이며 ‘뱀’이라는 단어가 없다. 이사야 14:29·30:6에는 ‘날아다니는 사랍’이 나온다. 이사야 6장의 사랍(스랍)과 같은 단어인지에 대해서는 해석이 갈린다."
+    },
+    {
+      "id": "Num.21.7",
+      "note_ko": "‘뱀’은 원문에서 단수(집합)이다."
+    },
+    {
+      "id": "Num.21.9",
+      "note_ko": "원문은 ‘뱀(나하쉬)’과 ‘청동(네호셰트)’의 소리놀이다. 전통 한국어 역본은 ‘놋뱀’. 후대에 이 뱀은 분향 대상이 되어 히스기야가 부수었고 ‘느후스단’이라 불렸다(열왕기하 18:4). 신약의 수용(요한복음 3:14)은 해설 층에서 다룬다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    "Divine-name rendering is inconsistent inside current selected text (야훼/YHWH/Yahweh/Yahvé/‘YHWH께서’); this review follows recent cloud reviews (ko 야훼, en/es YHWH) and does not resolve the policy.",
+    "יַם־סוּף rendering is inconsistent across existing Claude cloud drafts (Red Sea vs Sea of Reeds); needs one project glossary entry with a context exception policy.",
+    "נְחֹשֶׁת is ‘청동/bronze/bronce’ in selected Gen.4.22; Num.21.9 follows that, against the traditional Korean ‘놋뱀’. Editors should decide whether a traditional-term exception applies.",
+    "OSHB Sp2fs morphology on masculine pausal suffix forms (Num.21.7 וָבָ֔ךְ; Gen.20.7; Gen.33.11) could mislead a reader UI that displays morphology glosses; consider a display caveat rather than altering upstream data."
+  ],
+  "reception_evidence": [
+    {
+      "item": "2Kgs.18.4 (pinned WLC, read in this session)",
+      "status": "verified in pinned source text",
+      "excerpt": "וְכִתַּת֩ נְחַ֨שׁ הַנְּחֹ֜שֶׁת אֲשֶׁר־עָשָׂ֣ה מֹשֶׁ֗ה ... וַיִּקְרָא־ל֖וֹ נְחֻשְׁתָּֽן"
+    },
+    {
+      "item": "KorRV, ASV 1901, RV1909 renderings of Num 21:4-9 (repository library files)",
+      "status": "read in this session from repository files; reception only",
+      "excerpt": "KRV 21:9: 모세가 놋뱀을 만들어 장대 위에 다니 뱀에게 물린 자마다 놋뱀을 쳐다본즉 살더라"
+    },
+    {
+      "item": "John 3:14; Wisdom 16:5-7; Mishnah Rosh Hashanah 3:8; Rashi; LXX Numbers 21",
+      "status": "not verified in this session (no accessible source under the network policy); mentioned only as known reception topics for later editorial checking",
+      "excerpt": null
+    }
+  ],
+  "final_opinion_ko": "이 단위의 핵심 난점은 텍스트 이문이 아니라 어휘·서사 층이다. (1) 21:4 בַּדָּֽרֶךְ은 같은 관용구 용례에 근거해 ‘길 때문에’가 더 낫다. (2) 21:5의 2인칭 복수와 לֶחֶם 반복은 보존해야 할 원문 정보다. (3) שָׂרָף은 본문 번역에서 ‘불뱀’으로 두되, 21:8 명령에 ‘뱀’이 없다는 사실과 21:9의 נָחָשׁ/נְחֹשֶׁת 소리놀이를 각주로 반드시 보존해야 한다. (4) 21:7 기도의 요청(뱀 제거)과 21:8 응답(생존 수단) 사이의 간극을 번역이 메우지 않는다. (5) ‘청동 뱀’ 대 ‘놋뱀’은 Gen.4.22와의 일관성 대 전통 인지도의 편집 결정이다. 이 문서는 채택되지 않은 모델 검토이며, GPT·Gemini 독립 검토와 편집 채택 전에는 출판 근거가 아니다.",
+  "confidence_limits": [
+    "Lexical judgments on הַקְּלֹקֵל and שָׂרָף rest on root associations and in-canon usage visible in the pinned files, not on comparative Semitic evidence verified in this session.",
+    "No ancient version (LXX, Samaritan Pentateuch, Targum, Vulgate, Qumran) was accessible; any claim about their readings is absent by design.",
+    "The causal reading of בַּדָּֽרֶךְ is supported by two idiom parallels (Judg.10.16, Zech.11.8) found in the pinned text; a full concordance of קצר נפשׁ/רוח constructions was not run across all books.",
+    "Geographic identification of Mount Hor and the route is not resolved by the text."
+  ],
+  "reconsider_if": [
+    "실제 접근 가능한 칠십인역·사마리아 오경·쿰란 판본 대조에서 21:5 동사의 수(단수/복수)나 21:6·8 שׂרף 처리에 MT와 다른 읽기가 확인될 때.",
+    "편집이 יַם־סוּף, נְחֹשֶׁת, שָׂרָף, 신명 표기의 프로젝트 용어표를 확정할 때.",
+    "GPT/Gemini 독립 검토가 קצר נפשׁ ב 구문의 장소 해석을 지지하는 용례나, הִבִּיט/רָאָה 구별을 번역하지 말아야 할 근거를 제시할 때.",
+    "편집이 하나님을 포함한 2인칭 복수의 한국어 처리 규칙을 정할 때.",
+    "Isa 14:29·30:6 또는 Deut 8:15 단위가 검토되어 שָׂרָף에 다른 번역 체계를 제안할 때."
+  ],
+  "unresolved": [
+    {
+      "id": "Num.21.5",
+      "issue_ko": "הַקְּלֹקֵל의 정확한 뜻(하찮은/형편없는/가벼운). 단일 용례; 비교 셈어 증거 미확인."
+    },
+    {
+      "id": "Num.21.5",
+      "issue_ko": "2인칭 복수 동사의 고대 역본 처리 미확인(RV1909 단수 번역은 근대 수용일 뿐 원천 증거 아님)."
+    },
+    {
+      "id": "Num.21.6, Num.21.8",
+      "issue_ko": "שָׂרָף: 어원(태우다)·정체(종)·이사야 6장 스랍과의 관계 미결. 번역 체계는 Isa/Deut 단위와 함께 결정해야 함."
+    },
+    {
+      "id": "Num.21.4",
+      "issue_ko": "호르산 위치, ‘홍해 길’ 경로의 역사지리, יַם־סוּף 프로젝트 용어."
+    },
+    {
+      "id": "Num.21.9",
+      "issue_ko": "‘청동 뱀’ 대 ‘놋뱀’ 편집 결정; נְחֹשֶׁת의 금속(구리/청동) 미결."
+    },
+    {
+      "id": "Num.21.7",
+      "issue_ko": "OSHB Sp2fs 태그 표시 방침(UI 형태소 설명에서 오해 방지)."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "no manuscript collation or facsimile check",
+    "no LXX, Samaritan Pentateuch, Qumran, Targum, Vulgate, Mishnah, Rashi, Wisdom of Solomon or Gospel of John text verified in this session",
+    "no GPT, Gemini, Antigravity or human review exists or is implied",
+    "no editorial adoption, certification or publication",
+    "no balance, dollar amount or credit deduction observed"
+  ],
+  "memo_ko": "automation/cloud-reviews/20261031T224236Z-42d7a0ac.ko.md",
+  "branch": "claude/original-bible-hard-review-rqx0dc",
+  "checks": {
+    "script": "session-local validation script /tmp/chk/validate.py (not committed); results below",
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "unit_matches": true,
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "rights_match_packet": true,
+    "accented_tokens_checked": 138,
+    "accented_hebrew_quotes_match_source_codepoints": true,
+    "changed_paths_only_own_run_files": true,
+    "no_changes_to_data_dist_releases_main": true,
+    "run_at": "2026-10-31T22:54:00Z",
+    "changed_paths": [
+      "automation/cloud-reviews/20261031T224236Z-42d7a0ac.json",
+      "automation/cloud-reviews/20261031T224236Z-42d7a0ac.ko.md",
+      "automation/hard-review-packets/20261031T224236Z-42d7a0ac.json",
+      "automation/hard-review-runs/20261031T224236Z-42d7a0ac.json"
+    ],
+    "hebrew_codepoint_note": "Initial hand-typed Hebrew used a different combining-mark order than WLC; every accented form was replaced by the exact source codepoint sequence (NFC-equivalent match) before this check passed.",
+    "clauses_covered": "checked by hand per clause: 21:4 (set out from Mount Hor; Red Sea road; to go around Edom; people grew impatient; because of / on the way), 21:5 (spoke against God and Moses; why brought up from Egypt; to die in wilderness; no bread, no water; loathe this miserable bread), 21:6 (YHWH sent among people; the seraph serpents; they bit the people; many of Israel died), 21:7 (came to Moses and said; we sinned; for we spoke against YHWH and you; pray to YHWH; that he remove the serpent from us; Moses prayed for the people), 21:8 (YHWH said to Moses; make for yourself a saraf [en omits ethical dative]; set it on a pole; every bitten one who sees it will live), 21:9 (Moses made bronze serpent; set it on the pole; whenever a serpent bit someone; he looked to the bronze serpent; he lived)",
+    "attribution": "no earlier saved record of any model or human exists for this unit; nothing attributed to GPT, Gemini, Antigravity or a human; KorRV/ASV/RV1909 cited as public-domain reception editions only"
+  }
+}
