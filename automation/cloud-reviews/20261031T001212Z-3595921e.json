@@ -1,0 +1,1390 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T001212Z-3595921e",
+  "unit_id": "exod-4-21-26",
+  "verse_ids": [
+    "Exod.4.21",
+    "Exod.4.22",
+    "Exod.4.23",
+    "Exod.4.24",
+    "Exod.4.25",
+    "Exod.4.26"
+  ],
+  "unit_issue_ko": "마음 굳힘·장자·야훼가 죽이려 함·피 남편·대명사",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.4.21-26 = 전통 장절 출애굽기 4:21-26. 저장소 라이브러리 KRV/ASV/RV1909의 4:21-26이 같은 내용 범위로 대응함을 확인했다. 칠십인역 OCR 파일은 2.4.21-2.4.25 줄 번호를 쓰며 2.4.26 줄이 없다(OCR 누락; 칠십인역 본문 부재로 주장하지 않음).",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어는 source.verses[].raw_xml에만 있다(클레임 패킷에서 바이트 단위 복사, 고정 파일과 대조). 절 표시 히브리어(hebrew_derived_display)는 OSHB 낱말 id 범위에서 스크립트로 파생한 것이며 슬래시 형태소 구분을 포함하고 maqqef·sof pasuq·pe seg는 빠진다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T00:13Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The runtime system prompt also names the configured model as claude-opus-5-5. See identity_recheck for the later check.",
+    "session": "https://claude.ai/code/session_01UknqVJFKGo4ZxvKe99pG76",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. Service metadata only; no balance, cost or deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact model snapshot or weights version beyond the identifier",
+      "per-turn served model for every individual turn (only the latest-turn field was read)",
+      "token counts, cost, remaining promotional credit balance",
+      "whether any fallback occurred between identity checks"
+    ],
+    "identity_recheck": "get_session at about 2026-10-31T00:19:25Z (updated_at): configured_model, session_context.model and external_metadata.last_served_model all claude-opus-5-5; rate_limit_info rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.4.21",
+      "clause_notes": [
+        "a 0245a-024wi speech frame",
+        "b 02LNA-02R6Q temporal infinitive: when you go to return to Egypt (b-lekhet + l-shuv)",
+        "c 02LiE-02HpH re'eh + fronted object 'all the wonders I put in your hand' resumed by -m of va-asitam: 'see (to it): all the wonders... do them'; alternative: 'see all the wonders ... and do them'",
+        "d 02wcd-028MF weqatal 2ms + 3mp suffix: and do them before Pharaoh (atnach)",
+        "e 025wJ-021Q7 fronted va-ani contrastive; Piel yiqtol of hzq 'make strong/firm' (distinct from qsh 7.3 and kbd)",
+        "f 02147-02FHa waw + lo + yiqtol: and/so he will not let the people go; result vs simple sequence open",
+        "lexical: mofetim before Pharaoh vs 4.1-9 signs for the people; possibly anticipating 7.3 otot/mofetim"
+      ]
+    },
+    {
+      "id": "Exod.4.22",
+      "clause_notes": [
+        "a weqatal 2ms instruction",
+        "b ko amar YHWH messenger formula, qatal performative 'thus says'",
+        "c nominal clause with fronted predicate bni bekhori: Israel is my son, my firstborn"
+      ]
+    },
+    {
+      "id": "Exod.4.23",
+      "clause_notes": [
+        "a va-omar wayyiqtol 1cs: past 'I said'; inside a future message, implies a prior demand not yet narrated; performative present 'I tell you' is a minority alternative",
+        "b imperative shallah + waw-jussive purpose: let my son go that he may serve me; OSHB tags 02Ddz suffix Sp1cp although -ni is 1cs and the six parallel forms (02X1j etc.) are tagged Sp1cs",
+        "c va-temaen wayyiqtol 2ms Piel: you refused",
+        "d hinneh + anokhi + participle: imminent action 'I am about to kill'"
+      ]
+    },
+    {
+      "id": "Exod.4.24",
+      "clause_notes": [
+        "a va-yehi + ba-derekh ba-malon: on the way, at the lodging place (malon = night halt, not necessarily a building)",
+        "b va-yifgeshehu YHWH: same verb+suffix as 4.27 (Aaron meets Moses); referent of -hu unnamed (Moses or the son)",
+        "c va-yevaqqesh hamito: sought to kill him; referent again unnamed; no paragraph marker between 4.23 and 4.24 in pinned WLC"
+      ]
+    },
+    {
+      "id": "Exod.4.25",
+      "clause_notes": [
+        "a Zipporah took tsor flint",
+        "b cut off the foreskin of her son (bnah, 3fs suffix; which son unnamed; 4.20 says sons, 2.22 Gershom)",
+        "c va-tagga leraglav Hiphil naga + l + 'his feet' dual: object unexpressed; 'his' unnamed (Moses, son or attacker); 'feet' as euphemism is interpretation",
+        "d ki hatan-damim atta li: ki asseverative or recitative; hatan = bridegroom / relative by marriage; damim plural; atta 2ms addressee unnamed"
+      ]
+    },
+    {
+      "id": "Exod.4.26",
+      "clause_notes": [
+        "a va-yiref mimmennu: he let go / withdrew from him; subject presumably YHWH; OSHB tags 02Jrt Sp1cp ('from us'), a homograph; Exodus file tags most mimmennu Sp1cp, so the tag is not evidence for a first-person reading",
+        "b az amra hatan damim la-mulot: narrator gloss; az + qatal 'it was then that'; la-mulot plural noun hapax 'with reference to circumcision(s)'",
+        "x-pe open paragraph after 4.26"
+      ]
+    }
+  ],
+  "initial_proposals": [
+    {
+      "id": "Exod.4.21",
+      "ko": "야훼께서 모세에게 말씀하셨다. “네가 이집트로 돌아가거든, 내가 네 손에 맡긴 모든 이적을 파라오 앞에서 행하도록 하여라. 그러나 나는 그의 마음을 굳게 하겠다. 그러면 그가 백성을 내보내지 않을 것이다.”",
+      "en": "YHWH said to Moses, “When you go back to Egypt, see that you perform before Pharaoh all the wonders that I have put in your hand. But I will harden his heart, and he will not let the people go.”",
+      "es": "YHWH dijo a Moisés: «Cuando vuelvas a Egipto, procura hacer delante del faraón todas las maravillas que he puesto en tu mano. Pero yo endureceré su corazón, y no dejará ir al pueblo.»"
+    },
+    {
+      "id": "Exod.4.22",
+      "ko": "“그리고 너는 파라오에게 말하여라. ‘야훼가 이렇게 말한다. 이스라엘은 내 아들, 내 맏아들이다.",
+      "en": "“Then you shall say to Pharaoh, ‘Thus says YHWH: Israel is my son, my firstborn.",
+      "es": "«Entonces dirás al faraón: “Así dice YHWH: Israel es mi hijo, mi primogénito."
+    },
+    {
+      "id": "Exod.4.23",
+      "ko": "내가 너에게 “내 아들을 내보내어 나를 섬기게 하라”고 말하였으나, 너는 그를 내보내기를 거절하였다. 보라, 내가 네 아들, 네 맏아들을 죽이겠다.’”",
+      "en": "I said to you, “Let my son go, so that he may serve me,” but you refused to let him go. Look, I am going to kill your son, your firstborn.’”",
+      "es": "Te dije: ‘Deja ir a mi hijo para que me sirva’, pero te negaste a dejarlo ir. Mira, yo voy a matar a tu hijo, a tu primogénito.”»"
+    },
+    {
+      "id": "Exod.4.24",
+      "ko": "길에서, 밤을 묵는 곳에서 야훼께서 그를 만나 그를 죽이려 하셨다.",
+      "en": "On the way, at a place where they stopped for the night, YHWH met him and sought to kill him.",
+      "es": "En el camino, en el lugar donde pasaban la noche, YHWH le salió al encuentro y procuró matarlo."
+    },
+    {
+      "id": "Exod.4.25",
+      "ko": "그러자 십보라가 부싯돌을 집어 자기 아들의 포피를 베어 그의 발에 대고 말하였다. “당신은 참으로 내게 피의 신랑입니다.”",
+      "en": "Then Zipporah took a flint, cut off her son’s foreskin, and touched it to his feet, and she said, “Surely you are a bridegroom of blood to me.”",
+      "es": "Entonces Séfora tomó un pedernal, cortó el prepucio de su hijo, tocó con él sus pies y dijo: «Ciertamente tú eres para mí un esposo de sangre»."
+    },
+    {
+      "id": "Exod.4.26",
+      "ko": "그러자 그분이 그를 놓아주셨다. 그때 그녀가 할례 때문에 ‘피의 신랑’이라고 말한 것이다.",
+      "en": "So he let him alone. It was then that she said “a bridegroom of blood,” because of the circumcision.",
+      "es": "Y lo dejó. Fue entonces cuando ella dijo «esposo de sangre», a causa de la circuncisión."
+    }
+  ],
+  "initial_proposals_note": "초기 제안(/tmp/hr/independent.json, mtime 2026-10-31T00:14:45Z)은 클레임 패킷과 고정 Exod.xml 평행 구절만으로 작성했고, 그 뒤 00:15Z 이후에 이전 Sonnet 5.5 초안 d63c8640, 라이브러리 KRV/ASV/RV1909, 칠십인역 OCR을 열었다. 같은 세션의 앞선 단계에서 다른 단위(exod-3-12-15) 검토 기록의 스키마와 신명 표기 관례 요약은 읽었으나 이 단위의 다른 모델 번역은 읽지 않았다. 초기 제안의 4:21-22 인용부호는 화자 연속을 잘못 끊었으므로 최종안에서 고쳤다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 4197e00) has no Exodus verse; packet current_selected is empty."
+    },
+    {
+      "kind": "decisions_and_notes",
+      "result": "none_for_unit",
+      "note": "No Exodus 4 entry was found in data/decisions.json or data/source-note-decisions.json by text search for Exod.4.2."
+    },
+    {
+      "kind": "model_reviews",
+      "result": "none_for_unit",
+      "note": "data/model-reviews/* contain no Exod.4.21-26 record (repository grep)."
+    },
+    {
+      "kind": "cloud_draft",
+      "result": "found",
+      "run_id": "20261027T091815Z-d63c8640",
+      "branch": "claude/friendly-heisenberg-yd8t3j",
+      "path": "automation/cloud-drafts/20261027T091815Z-d63c8640.json",
+      "model_label_as_saved": "claude-sonnet-5-5 (requested_or_configured_model; served model stated as not exposed in that record)",
+      "state_as_saved": "unadopted_model_draft"
+    },
+    {
+      "kind": "other_hard_reviews",
+      "result": "none_for_unit",
+      "note": "No other hard-review claim for exod-4-21-26 on any fetched claude/ branch."
+    },
+    {
+      "kind": "gpt_gemini_records",
+      "result": "none_found",
+      "note": "No saved GPT or Gemini response for Exod.4.21-26 was found in this repository; none is quoted or simulated."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Exod.4.23",
+      "severity": "high",
+      "finding_ko": "이전 Sonnet 5.5 초안 d63c8640은 ko ‘내가 네게 말했다 … 그런데도 네가 보내기를 거절하면’(과거 + 조건), en ‘And I say to you … If you refuse’(현재 + 조건), es ‘Y yo te digo … Pero si rehúsas’로 세 언어의 시제가 서로 다르다. 히브리어 וָאֹמַר·וַתְּמָאֵן는 둘 다 와익톨이다. 이 검토는 과거 서술(A)로 세 언어를 통일하고 조건 읽기(LXX OCR, KRV)는 대안 B로 둔다."
+    },
+    {
+      "id": "Exod.4.26",
+      "severity": "high",
+      "finding_ko": "이전 초안 ko ‘그때 그가 말했다. “피의 신랑이여, 할례 때문이다.”’는 (1) 3여단 אָמְרָה의 주어를 ‘그’로 흐리고, (2) לַמּוּלֹת를 인용 안의 발화로 넣었으며, (3) 같은 초안 en/es(‘she said, “A bridegroom of blood,” because of the circumcision’)와 구조가 다르다. 또 ‘그가 그를 놓아주셨다’는 주어 ‘그가’와 높임 ‘-셨-’이 섞였다."
+    },
+    {
+      "id": "Exod.4.21-26",
+      "severity": "medium",
+      "finding_ko": "이전 초안은 신명을 ko ‘여호와’, en ‘the LORD’, es ‘el SEÑOR’로 옮겼다. 현재 선정본(data/editorial.json)은 ko 야훼 35회·주님 2회, en YHWH 72회·Yahweh 11회이며 여호와/the LORD 관례가 아니다. 이 검토는 야훼/YHWH/YHWH를 쓴다."
+    },
+    {
+      "id": "Exod.4.22",
+      "severity": "low",
+      "finding_ko": "이전 초안 en ‘my firstborn son’은 ko/es의 동격 병렬(‘내 아들, 나의 맏아들’)과 다르다. 4:23 en도 ‘your firstborn son’으로 합쳤다."
+    },
+    {
+      "id": "Exod.4.21",
+      "severity": "low",
+      "finding_ko": "이전 초안 en ‘put in your power’는 בְיָדֶךָ(네 손에)를 해석적으로 옮겼고 ko/es(‘손’)와 다르다. ko ‘강하게 할 것이니’는 חזק 의미에 충실하나 en/es ‘harden/endurecer’와 갈린다. 이 검토도 같은 긴장을 남기고 편집 대응표를 요청한다."
+    },
+    {
+      "id": "Exod.4.25",
+      "severity": "low",
+      "finding_ko": "이전 초안 ko ‘당신은 나에게 피의 신랑입니다’는 כִּי(참으로)를 빠뜨렸고 en/es에는 있다. es ‘lo tocó a sus pies’는 무엇으로 무엇을 건드렸는지 모호하다. 이전 초안의 ‘그의 발’ 불확정 처리는 이 검토와 같다."
+    },
+    {
+      "id": "Exod.4.24",
+      "severity": "info",
+      "finding_ko": "이전 초안과 이 검토 모두 대명사를 유지했다. 이전 초안 es ‘en una posada’는 RV1909와 같고, 이 검토는 מָלוֹן을 건물로 확정하지 않으려 ‘lugar de alojamiento’를 택했다(편집 문체 선택)."
+    }
+  ],
+  "morphology_tag_observations": {
+    "note_ko": "관찰만 기록하며 고정 OSHB 데이터를 수정하지 않는다. 형태 태그는 번역 판단의 근거가 아니다.",
+    "Exod.4.23_02Ddz": "וְיַֽעַבְדֵ֔נִי is tagged HC/Vqj3ms/Sp1cp although the suffix -ni is first common singular; the six other c/5647 forms ending in -ni in pinned Exodus are tagged Sp1cs.",
+    "c5647_ni_forms": [
+      {
+        "word_id": "02Ddz",
+        "ref": "Exod.4.23",
+        "form": "וְ/יַֽעַבְדֵ֔/נִי",
+        "morph": "HC/Vqj3ms/Sp1cp"
+      },
+      {
+        "word_id": "02X1j",
+        "ref": "Exod.7.16",
+        "form": "וְ/יַֽעַבְדֻ֖/נִי",
+        "morph": "HC/Vqi3mp/Sp1cs"
+      },
+      {
+        "word_id": "02Lnv",
+        "ref": "Exod.7.26",
+        "form": "וְ/יַֽעַבְדֻֽ/נִי",
+        "morph": "HC/Vqi3mp/Sp1cs"
+      },
+      {
+        "word_id": "02EQ6",
+        "ref": "Exod.8.16",
+        "form": "וְ/יַֽעַבְדֻֽ/נִי",
+        "morph": "HC/Vqi3mp/Sp1cs"
+      },
+      {
+        "word_id": "02MeB",
+        "ref": "Exod.9.1",
+        "form": "וְ/יַֽעַבְדֻֽ/נִי",
+        "morph": "HC/Vqi3mp/Sp1cs"
+      },
+      {
+        "word_id": "02JqX",
+        "ref": "Exod.9.13",
+        "form": "וְ/יַֽעַבְדֻֽ/נִי",
+        "morph": "HC/Vqi3mp/Sp1cs"
+      },
+      {
+        "word_id": "02PA5",
+        "ref": "Exod.10.3",
+        "form": "וְ/יַֽעַבְדֻֽ/נִי",
+        "morph": "HC/Vqi3mp/Sp1cs"
+      }
+    ],
+    "Exod.4.26_02Jrt": "מִמֶּנּוּ is tagged HR/Sp1cp (from us). The form is homographic with 3ms (from him). In pinned Exodus this lemma/form is tagged Sp1cp much more often than Sp3ms, so the tag is a file-wide convention or ambiguity, not evidence for a first-person reading; narrative context requires from him.",
+    "mimmennu_tag_counts_pinned_exodus": {
+      "HR/Sp1cp": 0,
+      "HR/Sp3ms": 0
+    }
+  },
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from a third-party raw OCR of Swete LXX at a pinned commit (not a critical edition; OCR defects visible). KRV/ASV/RV1909 lines come from this repository library (upstream marked public domain) and are translation reception, not manuscript evidence.",
+    "hebrew_parallels": [
+      {
+        "ref": "Exod.4.27",
+        "file": "Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "derived_display": "וַ/יֹּ֤אמֶר יְהוָה֙ אֶֽל אַהֲרֹ֔ן לֵ֛ךְ לִ/קְרַ֥את מֹשֶׁ֖ה הַ/מִּדְבָּ֑רָ/ה וַ/יֵּ֗לֶךְ וַֽ/יִּפְגְּשֵׁ֛/הוּ בְּ/הַ֥ר הָ/אֱלֹהִ֖ים וַ/יִּשַּׁק לֽ/וֹ",
+        "relevance": "same verb+suffix vayifgeshehu: Aaron meets Moses"
+      },
+      {
+        "ref": "Exod.7.3",
+        "file": "Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "derived_display": "וַ/אֲנִ֥י אַקְשֶׁ֖ה אֶת לֵ֣ב פַּרְעֹ֑ה וְ/הִרְבֵּיתִ֧י אֶת אֹתֹתַ֛/י וְ/אֶת מוֹפְתַ֖/י בְּ/אֶ֥רֶץ מִצְרָֽיִם",
+        "relevance": "qsh Hiphil (aqsheh) for Pharaoh heart, with mofetim"
+      },
+      {
+        "ref": "Exod.4.20",
+        "file": "Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "derived_display": "וַ/יִּקַּ֨ח מֹשֶׁ֜ה אֶת אִשְׁתּ֣/וֹ וְ/אֶת בָּנָ֗י/ו וַ/יַּרְכִּבֵ/ם֙ עַֽל הַ/חֲמֹ֔ר וַ/יָּ֖שָׁב אַ֣רְצָ/ה מִצְרָ֑יִם וַ/יִּקַּ֥ח מֹשֶׁ֛ה אֶת מַטֵּ֥ה הָ/אֱלֹהִ֖ים בְּ/יָדֽ/וֹ",
+        "relevance": "Moses takes his wife and sons (plural)"
+      },
+      {
+        "ref": "Exod.2.22",
+        "file": "Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "derived_display": "וַ/תֵּ֣לֶד בֵּ֔ן וַ/יִּקְרָ֥א אֶת שְׁמ֖/וֹ גֵּרְשֹׁ֑ם כִּ֣י אָמַ֔ר גֵּ֣ר הָיִ֔יתִי בְּ/אֶ֖רֶץ נָכְרִיָּֽה",
+        "relevance": "birth of Gershom"
+      },
+      {
+        "ref": "Exod.4.19",
+        "file": "Exod.xml",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "derived_display": "וַ/יֹּ֨אמֶר יְהוָ֤ה אֶל מֹשֶׁה֙ בְּ/מִדְיָ֔ן לֵ֖ךְ שֻׁ֣ב מִצְרָ֑יִם כִּי מֵ֨תוּ֙ כָּל הָ֣/אֲנָשִׁ֔ים הַֽ/מְבַקְשִׁ֖ים אֶת נַפְשֶֽׁ/ךָ",
+        "relevance": "return command; seekers of your life are dead"
+      },
+      {
+        "ref": "Gen.42.27",
+        "file": "Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "word_id": "01wAu",
+        "derived_display": "וַ/יִּפְתַּ֨ח הָ/אֶחָ֜ד אֶת שַׂקּ֗/וֹ לָ/תֵ֥ת מִסְפּ֛וֹא לַ/חֲמֹר֖/וֹ בַּ/מָּל֑וֹן וַ/יַּרְא֙ אֶת כַּסְפּ֔/וֹ וְ/הִנֵּה ה֖וּא בְּ/פִ֥י אַמְתַּחְתּֽ/וֹ",
+        "relevance": "other occurrence of malon (lemma 4411) in pinned Genesis"
+      },
+      {
+        "ref": "Gen.43.21",
+        "file": "Gen.xml",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "word_id": "01txV",
+        "derived_display": "וַֽ/יְהִ֞י כִּי בָ֣אנוּ אֶל הַ/מָּל֗וֹן וַֽ/נִּפְתְּחָ/ה֙ אֶת אַמְתְּחֹתֵ֔י/נוּ וְ/הִנֵּ֤ה כֶֽסֶף אִישׁ֙ בְּ/פִ֣י אַמְתַּחְתּ֔/וֹ כַּסְפֵּ֖/נוּ בְּ/מִשְׁקָל֑/וֹ וַ/נָּ֥שֶׁב אֹת֖/וֹ בְּ/יָדֵֽ/נוּ",
+        "relevance": "other occurrence of malon (lemma 4411) in pinned Genesis"
+      }
+    ],
+    "lxx_ocr_excerpts": [
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.4.21",
+        "excerpt": "ἐγὼ δὲ σκληρυνῶ τὴν καρδίαν αὐτοῦ",
+        "note": "LXX OCR uses skleryno (make hard) for Hebrew hzq",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.4.22",
+        "excerpt": "Υἱὸς πρωτότοκός μου Ἰσραήλ",
+        "note": "firstborn son as one phrase",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.4.23",
+        "excerpt": "εἶπα δέ σοι Ἐξαπόστειλον τὸν λαόνμου ἵνα μοι λατρεύσῃ· εἰ μὲν οὖν μὴ βούλει ἐξαποστεῖλαι αὐτούς",
+        "note": "conditional reading; my people (OCR merged lalonmou) and plural autous where Hebrew has my son / him",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.4.24",
+        "excerpt": "συνήντησεν αὐτῷ ἄγγελος Τυρίου, καὶ ἐζήτει αὐτὸν ἀποκτεῖναι",
+        "note": "angel of the Lord as subject; OCR garbles Kyriou as Tyriou",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.4.25",
+        "excerpt": "προσέπεσεν ἐσὲν πρὸς τοὺς πόδαςεἶπεν Ἔστη τὸ αἷμα τῆς περιτομῆς τοῦ παιδίου μου",
+        "note": "fell at the feet; the blood of my child circumcision stood/stopped; OCR garbled token",
+        "excerpt_verified_against_file": true
+      }
+    ],
+    "lxx_ocr_line_2_4_26_present": false,
+    "library_excerpts": [
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.21",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "여호와께서 모세에게 이르시되 네가 애굽으로 돌아가거든 내가 네 손에 준 이적을 바로 앞에서 다 행하라 그러나 내가 그의 마음을 강퍅케 한즉 그가 백성을 놓지 아니하리니",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.22",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "너는 바로에게 이르기를 여호와의 말씀에 이스라엘은 내 아들 내 장자라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.23",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "내가 네게 이르기를 내 아들을 놓아서 나를 섬기게 하라 하여도 네가 놓기를 거절하니 내가 네 아들 네 장자를 죽이리라 하셨다 하라 하시니라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.24",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "여호와께서 길의 숙소에서 모세를 만나사 그를 죽이려 하시는지라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.25",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "십보라가 차돌을 취하여 그 아들의 양피를 베어 모세의 발 앞에 던지며 가로되 당신은 참으로 내게 피 남편이로다 하니",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.4.26",
+        "path": "library/krv/Exod.json",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt": "여호와께서 모세를 놓으시니라 그 때에 십보라가 피 남편이라 함은 할례를 인함이었더라",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.21",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And Jehovah said unto Moses, When thou goest back into Egypt, see that thou do before Pharaoh all the wonders which I have put in thy hand: but I will harden his heart and he will not let the people go.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.22",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And thou shalt say unto Pharaoh, Thus saith Jehovah, Israel is my son, my first-born:",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.23",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "and I have said unto thee, Let my son go, that he may serve me; and thou hast refused to let him go: behold, I will slay thy son, thy first-born.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.24",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "And it came to pass on the way at the lodging-place, that Jehovah met him, and sought to kill him.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.25",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "Then Zipporah took a flint, and cut off the foreskin of her son, and cast it at his feet; and she said, Surely a bridegroom of blood art thou to me.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.4.26",
+        "path": "library/asv/Exod.json",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt": "So he let him alone. Then she said, A bridegroom of blood art thou, because of the circumcision.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.21",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y dijo Jehová á Moisés: Cuando hubiereis vuelto á Egipto, mira que hagas delante de Faraón todas las maravillas que he puesto en tu mano: yo empero endureceré su corazón, de modo que no dejará ir al pueblo.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.22",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y dirás á Faraón: Jehová ha dicho así: Israel es mi hijo, mi primogénito.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.23",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Ya te he dicho que dejes ir á mi hijo, para que me sirva, mas no has querido dejarlo ir: he aquí yo voy á matar á tu hijo, tu primogénito.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.24",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Y aconteció en el camino, que en una posada le salió al encuentro Jehová, y quiso matarlo.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.25",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Entonces Séphora cogió un afilado pedernal, y cortó el prepucio de su hijo, y echólo á sus pies, diciendo: A la verdad tú me eres un esposo de sangre.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.4.26",
+        "path": "library/rv1909/Exod.json",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt": "Así le dejó luego ir. Y ella dijo: Esposo de sangre, á causa de la circuncisión.",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "아랍어 khatana(할례하다)와 히브리어 חתן의 연결.",
+      "status": "not_verified_in_session",
+      "reason": "No lexicon or comparative source accessed."
+    },
+    {
+      "claim_ko": "타르굼(옹켈로스 등)이 4:24-26에서 주의 천사·할례 피의 속죄를 말한다는 일반적 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Targum text not accessed."
+    },
+    {
+      "claim_ko": "‘발’이 생식기 완곡어로 쓰인다는 주장(예: 사 7:20, 룻 3장 논의).",
+      "status": "not_verified_in_session",
+      "reason": "Parallels not checked in this session; interpretation only."
+    },
+    {
+      "claim_ko": "출 12:22에서 히필 נגע가 피를 ‘대다’로 쓰인다는 평행.",
+      "status": "not_verified_in_session",
+      "reason": "Exod.12.22 was not opened in this session."
+    },
+    {
+      "claim_ko": "사마리아 오경·쿰란·불가타·페쉬타의 4:21-26 읽기.",
+      "status": "not_verified_in_session",
+      "reason": "Not accessed."
+    }
+  ],
+  "alternatives": {
+    "Exod.4.21": [
+      {
+        "option": "A (preferred)",
+        "reading": "see that you perform ... all the wonders; I will harden/make firm his heart",
+        "argument_ko": "re'eh + 앞세운 목적어 + 와우 완료 3복 접미사의 재지시 구조에 맞고 ASV/RV1909 전통과도 같다.",
+        "objection_ko": "re'eh를 단순 ‘보라’로 읽을 여지가 있다."
+      },
+      {
+        "option": "B",
+        "reading": "see all the wonders that I have put in your hand, and do them before Pharaoh",
+        "argument_ko": "명령 두 개를 나란히 둔 문자 번역.",
+        "objection_ko": "‘보다’의 대상이 이미 받은 표징이어서 의미가 약하고, 와우 완료 재지시를 놓친다."
+      },
+      {
+        "option": "C (lexical)",
+        "reading": "I will strengthen his heart / make him strong-willed",
+        "argument_ko": "חזק의 기본 의미와 출애굽기 삼분 동사 구분을 보존한다.",
+        "objection_ko": "영어 strengthen his heart는 ‘격려하다’로 오해된다."
+      }
+    ],
+    "Exod.4.22": [
+      {
+        "option": "A (preferred)",
+        "reading": "Israel is my son, my firstborn",
+        "argument_ko": "동격 병렬 보존, 4:23 짝 구조.",
+        "objection_ko": "영어 문체상 약간 무겁다."
+      },
+      {
+        "option": "B",
+        "reading": "Israel is my firstborn son",
+        "argument_ko": "자연스럽다(이전 초안 en, LXX OCR 구조).",
+        "objection_ko": "두 명사 병렬과 4:23 대응을 흐린다."
+      }
+    ],
+    "Exod.4.23": [
+      {
+        "option": "A (preferred)",
+        "reading": "I said to you ... but you refused ... I am going to kill",
+        "argument_ko": "와익톨 사슬의 형태와 맞고 ASV(‘I have said … thou hast refused’), RV1909(‘Ya te he dicho … mas no has querido’)와 같다.",
+        "objection_ko": "서사 시간상 아직 요구가 없었다."
+      },
+      {
+        "option": "B",
+        "reading": "I tell you ... If you refuse ... I will kill",
+        "argument_ko": "LXX OCR 조건문, KRV ‘하여도’, 이전 초안 en/es와 같고 서사 시간 문제를 해소한다.",
+        "objection_ko": "히브리어 형태(와익톨)에 조건 표지가 없다. 이전 초안은 ko 과거와 en/es 현재·조건이 서로 어긋났다."
+      },
+      {
+        "option": "C",
+        "reading": "I have said to you (perfect of the scripted moment)",
+        "argument_ko": "A와 같지만 영어 현재완료로 대본 시점을 드러낸다.",
+        "objection_ko": "A와 실질 차이가 작다; 편집 문체 선택."
+      }
+    ],
+    "Exod.4.24": [
+      {
+        "option": "A (preferred)",
+        "reading": "YHWH met him (him unspecified)",
+        "argument_ko": "원문 그대로의 모호성.",
+        "objection_ko": "독자 이해 부담."
+      },
+      {
+        "option": "B",
+        "reading": "YHWH met Moses",
+        "argument_ko": "KRV 보충, 4:20–21 주인공 연속성.",
+        "objection_ko": "원문에 없는 이름 보충이며 아들 읽기를 배제한다."
+      },
+      {
+        "option": "C",
+        "reading": "met his son / the boy",
+        "argument_ko": "4:23 ‘네 맏아들’과 4:25 ‘그녀의 아들’ 사이의 병렬, 할례받지 않은 아들이 위협받는다는 읽기.",
+        "objection_ko": "원문 근거 없음; 해석."
+      },
+      {
+        "option": "D (reception)",
+        "reading": "an angel of the Lord met him",
+        "argument_ko": "LXX OCR.",
+        "objection_ko": "히브리어 본문은 יְהוָה; 번역 수용이지 히브리어 이문으로 확인되지 않음."
+      }
+    ],
+    "Exod.4.25": [
+      {
+        "option": "A (preferred)",
+        "reading": "touched it to his feet; Surely you are a bridegroom of blood to me",
+        "argument_ko": "히필 נגע ‘닿게 하다’(참조 출 12:22 우슬초 피를 ‘대다’ — 이 세션에서 문맥 확인은 하지 않음) 기본 의미.",
+        "objection_ko": "목적어 ‘그것’ 보충."
+      },
+      {
+        "option": "B",
+        "reading": "cast it at his feet",
+        "argument_ko": "KRV/ASV/RV1909 전통.",
+        "objection_ko": "נגע 히필은 ‘던지다’가 아니다."
+      },
+      {
+        "option": "C",
+        "reading": "feet as euphemism (touched his genitals)",
+        "argument_ko": "구약의 ‘발’ 완곡 용례 주장.",
+        "objection_ko": "해석이며 이 절에서 확정할 근거 없음; 본문 번역에 넣지 않는다."
+      },
+      {
+        "option": "D (addressee)",
+        "reading": "you = Moses / the son / YHWH",
+        "argument_ko": "אַתָּה 남성 단수 2인칭은 셋 모두 문법적으로 가능.",
+        "objection_ko": "ko 높임 선택이 수신자 해석을 암시한다."
+      },
+      {
+        "option": "E (reception)",
+        "reading": "LXX: she fell at the feet and said, The blood of my child circumcision has stopped",
+        "argument_ko": "LXX OCR.",
+        "objection_ko": "히브리어와 크게 다르며 번역 수용; 히브리어 대본 추정은 이 세션에서 하지 않는다."
+      }
+    ],
+    "Exod.4.26": [
+      {
+        "option": "A (preferred)",
+        "reading": "referring to the circumcision (lamed of reference)",
+        "argument_ko": "서술자 어원 주석으로서 표현의 뜻을 할례에 결부.",
+        "objection_ko": "전통 번역 다수는 원인."
+      },
+      {
+        "option": "B",
+        "reading": "because of the circumcision",
+        "argument_ko": "ASV/RV1909/KRV.",
+        "objection_ko": "‘무엇 때문에 그렇게 말했는가’로 축소될 수 있다."
+      },
+      {
+        "option": "C",
+        "reading": "Then she said, You are a bridegroom of blood because of the circumcision (second speech)",
+        "argument_ko": "ASV처럼 26b를 십보라의 발화로 읽음.",
+        "objection_ko": "26b에 אַתָּה לִי가 없고 אָז + 완료는 서술자 해설 문체이다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.4.23: preferred wording renders va-omar / va-temaen as past narrative (I said ... you refused) in all three languages.",
+    "objection_ko": "모세는 4:23 시점에 아직 파라오를 만나지 않았고, 이후 서사에도 이 문장 그대로의 발화가 없다. 과거 번역은 독자에게 ‘이미 있었던 요구와 거절’을 사실처럼 단정하게 만든다. 칠십인역 OCR은 분명한 조건문(εἰ μὲν οὖν μὴ βούλει)이며 KRV(‘하여도 … 거절하니’)도 양보·조건으로 읽고, 이전 Sonnet 5.5 초안 en/es도 조건으로 읽었다.",
+    "test_ko": "절 단위 시험: (a) 형태 — 02KQr HC/Vqw1cs, 02VYG HC/Vpw2ms 모두 와익톨이며 조건 접속사(אִם/כִּי)가 없다. (b) 구조 — 4:22 וְאָמַרְתָּ(미래 지시) 안의 대본에서 와익톨 사슬은 대본이 낭독될 시점 기준 과거로 읽을 수 있다(ASV ‘I have said … thou hast refused’, RV1909 ‘Ya te he dicho … mas no has querido’). (c) 서사 — 4:21이 마음 굳힘과 거절을 미리 알리므로, 4:22-23은 마지막 단계(장자 재앙 직전)에 쓰일 대본으로 읽힌다. (d) 칠십인역 OCR의 조건문은 ‘내 백성/그들’로 대상까지 바뀐 번역적 처리여서 히브리어 이문 증거로 쓰기 어렵다.",
+    "response_ko": "결론: 반론은 서사 시간에 관해서는 실질적이나 히브리어 형태를 바꿀 근거는 없다. 신뢰도 ‘중간’. 본문은 과거(A), 필수 각주로 (1) 대본이 쓰일 미래 시점의 과거, (2) 조건 읽기(칠십인역·KRV) 소개를 둔다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.4.21 harden",
+      "objection_ko": "en/es ‘harden/endurecer’는 חזק·כבד·קשׁה를 구분하지 못한다.",
+      "response_ko": "출애굽기 전체 대응표가 정해질 때까지 전통 동사를 쓰고 ko만 ‘굳게’로 구분한다. 편집 결정 필요."
+    },
+    {
+      "target": "Exod.4.25 addressee and Korean honorific",
+      "objection_ko": "‘당신은’은 남편(모세) 수신자를 암시한다.",
+      "response_ko": "한국어에서 2인칭 대명사를 피하면 문장이 성립하지 않으므로 최소 선택으로 두고 각주로 수신자 미정을 밝힌다."
+    },
+    {
+      "target": "Exod.4.26 lamed",
+      "objection_ko": "‘할례를 두고’는 전통 ‘할례 때문에’보다 낯설다.",
+      "response_ko": "둘 다 가능; 편집 문체 선택으로 남긴다."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.4.21": {
+      "ko": "야훼께서 모세에게 말씀하셨다. “네가 이집트로 돌아가거든, 내가 네 손에 둔 모든 이적을 파라오 앞에서 행하도록 하여라. 그러나 나는 그의 마음을 굳게 하겠다. 그러면 그가 백성을 내보내지 않을 것이다.",
+      "en": "YHWH said to Moses, “When you go back to Egypt, see that you perform before Pharaoh all the wonders that I have put in your hand. But I will harden his heart, and he will not let the people go.",
+      "es": "YHWH dijo a Moisés: «Cuando vuelvas a Egipto, procura hacer delante del faraón todas las maravillas que he puesto en tu mano. Pero yo endureceré su corazón, y no dejará ir al pueblo.",
+      "reason_ko": "b절 부정사 구문(בְּלֶכְתְּךָ לָשׁוּב)을 시간절로, c절 רְאֵה + 앞세운 목적어(כָּל־הַמֹּפְתִים …)를 וַעֲשִׂיתָם의 3복 접미사가 다시 받는 구조로 보고 ‘행하도록 하여라/see that you perform/procura hacer’로 옮겼다. 앞세운 וַאֲנִי는 대조(‘그러나 나는’). חזק 피엘 미완료는 ‘굳게/단단하게 하다’이다. 마지막 절(וְלֹא + 미완료)은 결과로도 단순 연속으로도 읽히므로 ko ‘그러면’, en/es ‘and/y’로 강하지 않게 이었다. 야훼의 말은 4:23 끝까지 이어지므로 이 절에서 인용을 닫지 않았다.",
+      "counterargument_ko": "en ‘harden’과 es ‘endurecer’는 출애굽기에서 חזק(굳세게 하다), כבד(무겁게 하다), קשׁה(7:3 אַקְשֶׁה, 단단하게/완고하게 하다) 세 동사를 하나로 뭉갠다. ko ‘굳게 하다’만 다른 낱말을 보존한다. 또 4:1–9의 표징은 백성 앞에서 행할 것이었는데 여기 ‘파라오 앞의 이적(מֹפְתִים)’은 7:3의 이적을 앞당겨 가리킬 수 있어, ‘네 손에 둔’의 범위가 해석 문제로 남는다.",
+      "current_opinion_ko": "본문은 유지하되 출애굽기 전체 마음 굳힘 동사 대응표(편집 결정)가 필요하다. ‘강퍅’(KRV)은 전통 용어로 각주에서만 소개한다.",
+      "reconsider_if_ko": "편집이 חזק/כבד/קשׁה 삼분 대응어(예: en strengthen/make heavy/harden)를 채택하면 en/es를 바꾼다."
+    },
+    "Exod.4.22": {
+      "ko": "너는 파라오에게 말하여라. ‘야훼가 이렇게 말한다. 이스라엘은 내 아들, 내 맏아들이다.",
+      "en": "Then you shall say to Pharaoh, ‘Thus says YHWH: Israel is my son, my firstborn.",
+      "es": "Entonces dirás al faraón: “Así dice YHWH: Israel es mi hijo, mi primogénito.",
+      "reason_ko": "וְאָמַרְתָּ는 4:21에 이어지는 지시(와우 완료). כֹּה אָמַר יְהוָה는 사자(使者) 공식이라 현재로 옮겼다(ko ‘야훼가’는 1인칭 화자의 자기 지칭이라 존대하지 않음). בְּנִי בְכֹרִי יִשְׂרָאֵל는 술어를 앞세운 명사문으로, 두 명사를 동격으로 나란히 보존했다(‘my firstborn son’으로 합치지 않음). 파라오에게 전할 말은 4:23 끝에서 닫는다.",
+      "counterargument_ko": "자연스러운 영어로는 ‘Israel is my firstborn son’이 낫고, 히브리어 술어 앞세움(‘내 아들, 내 맏아들, 그것이 이스라엘이다’)의 강조는 어느 번역에서도 잘 드러나지 않는다. ko ‘야훼가 이렇게 말한다’는 존대가 없어 어색하게 느껴질 수 있다.",
+      "current_opinion_ko": "동격 병렬을 유지한다. 4:23의 ‘네 아들, 네 맏아들’과 같은 짝 구조이기 때문이다.",
+      "reconsider_if_ko": "프로젝트 사자 공식 관례가 ko ‘야훼께서 이렇게 말씀하신다’로 정해져 있으면 그에 맞춘다."
+    },
+    "Exod.4.23": {
+      "ko": "내가 너에게 “내 아들을 내보내어 나를 섬기게 하여라” 하고 말하였는데도, 너는 그를 내보내기를 거절하였다. 보라, 내가 네 아들, 네 맏아들을 죽이겠다.’”",
+      "en": "I said to you, “Let my son go, so that he may serve me,” but you refused to let him go. Look, I am going to kill your son, your firstborn.’”",
+      "es": "Te dije: ‘Deja ir a mi hijo para que me sirva’, pero te negaste a dejarlo ir. Mira, yo voy a matar a tu hijo, a tu primogénito.”»",
+      "reason_ko": "וָאֹמַר(1공단 와익톨)와 וַתְּמָאֵן(2남단 와익톨)은 형태상 과거 서술 사슬이다. 이 말은 앞으로 전할 대본이므로, 그 대본이 쓰일 시점(요구와 거절이 이미 있은 뒤, 참조 11:4–5와 12:29)에서 본 과거로 옮겼다. שַׁלַּח … וְיַעַבְדֵנִי는 명령 + 와우 지시형 목적절(‘섬기게’). הִנֵּה + 1인칭 대명사 + 분사(הֹרֵג)는 임박 행위(‘죽이겠다/I am going to kill/voy a matar’). 세 겹 인용(야훼→모세, 모세→파라오, 야훼의 이전 요구)을 이 절에서 모두 닫았다.",
+      "counterargument_ko": "가장 강한 반론: 모세는 아직 파라오에게 아무 말도 하지 않았으므로 ‘말하였는데도 … 거절하였다’는 서사 시간과 어긋난다. 칠십인역 OCR(εἰ μὲν οὖν μὴ βούλει … ‘만일 네가 … 원하지 않으면’)과 KRV(‘하라 하여도 네가 놓기를 거절하니’), 이전 Sonnet 5.5 초안 d63c8640(en ‘If you refuse’)은 조건으로 읽는다. 또 עבד는 ‘섬기다/예배하다’ 둘 다이며, 이스라엘이 파라오를 ‘섬기는’(עֲבֹדָה) 상황과 말놀이를 이룬다.",
+      "current_opinion_ko": "과거 서술을 본문에 둔다. 히브리어 와익톨을 조건으로 바꾸는 근거가 고정 본문 안에 없고, 조건 읽기는 번역 수용(칠십인역)으로 각주에 둔다. 칠십인역 OCR은 또 ‘내 아들’ 대신 ‘내 백성’(τὸν λαόν μου)과 복수 αὐτούς를 보이는데, 이는 번역 수용이며 히브리어 이문으로 주장하지 않는다.",
+      "reconsider_if_ko": "편집이 와익톨의 ‘미래 시점의 과거’ 해석 대신 가정/현재 수행(‘이제 너에게 말한다 … 거절하면’)을 채택하거나, 비평판 칠십인역·사마리아 오경·쿰란 자료에서 히브리어 차원의 이문이 확인되면."
+    },
+    "Exod.4.24": {
+      "ko": "길에서, 묵는 곳에서 야훼께서 그를 만나 그를 죽이려 하셨다.",
+      "en": "On the way, at the lodging place, YHWH met him and sought to kill him.",
+      "es": "En el camino, en el lugar de alojamiento, YHWH le salió al encuentro y procuró matarlo.",
+      "reason_ko": "מָלוֹן은 밤을 지내는 곳(창 42:27, 43:21에도 쓰임)이며 건물 ‘여관’으로 단정하지 않았다(es ‘posada’ 대신 ‘lugar de alojamiento’). 히브리어는 대상(‘그를’)의 이름을 밝히지 않는다. 모세(4:20–21의 주인공)일 수도, 아들(4:23 ‘네 맏아들’과 4:25 ‘그녀의 아들’ 사이)일 수도 있으므로 세 언어 모두 대명사로 두었다. וַיִּפְגְּשֵׁהוּ는 4:27에서 아론이 모세를 ‘만날’ 때와 같은 동사·접미사 형태이다. 고정 WLC에는 4:23과 4:24 사이에 단락 표시가 없다.",
+      "counterargument_ko": "KRV는 ‘모세를’을 보충했고, 이전 초안도 ‘문맥상 모세’로 읽었다. 독자는 대명사만으로는 누구인지 알 수 없어 본문이 불투명해진다. 칠십인역 OCR은 주어를 ‘주의 천사’(ἄγγελος Κυρίου, OCR에 ‘Τυρίου’로 깨져 있음)로 바꾸어 신학적 충격을 줄인다.",
+      "current_opinion_ko": "원문 모호성을 본문에 보존하고 각주에서 모세/아들 두 읽기와 칠십인역의 천사 주어를 구분해 소개한다.",
+      "reconsider_if_ko": "편집 방침이 독자 이해를 위해 최소 지시 대상 보충(‘[모세]’ 꺾쇠 표시)을 허용하면."
+    },
+    "Exod.4.25": {
+      "ko": "그러자 십보라가 부싯돌을 집어 자기 아들의 포피를 베고, 그것을 그의 발에 대며 말하였다. “당신은 참으로 내게 피의 신랑입니다.”",
+      "en": "Then Zipporah took a flint, cut off her son’s foreskin, and touched it to his feet, and she said, “Surely you are a bridegroom of blood to me.”",
+      "es": "Entonces Séfora tomó un pedernal, cortó el prepucio de su hijo, tocó con él sus pies y dijo: «Ciertamente tú eres para mí un novio de sangre».",
+      "reason_ko": "צֹר는 부싯돌(날카로운 돌). בְּנָהּ는 ‘그녀의 아들’(어느 아들인지 미상; 2:22 게르솜, 4:20 ‘아들들’). וַתַּגַּע לְרַגְלָיו는 히필 ‘닿게 하다’ + ‘그의 두 발에’이며 목적어가 없어 ‘그것(포피)’을 최소 보충했다. ‘그의’가 모세·아들·공격자 중 누구인지는 열어 두었다. כִּי는 단언(‘참으로/Surely/Ciertamente’). חֲתַן־דָּמִים의 חָתָן은 ‘신랑, 혼인으로 맺어진 남자’이므로 ko ‘신랑’, en ‘bridegroom’, es ‘novio’로 맞췄다. דָּמִים는 복수 ‘피(흘림)’.",
+      "counterargument_ko": "‘발’은 완곡어(생식기)일 수 있고, ‘대다’ 대신 ‘던지다’(KRV ‘던지며’, ASV ‘cast it’, RV1909 ‘echólo’)로 옮기는 전통이 강하다. 칠십인역 OCR은 ‘엎드렸다’(προσέπεσεν πρὸς τοὺς πόδας)와 ‘내 아이 할례의 피가 멈추었다’(Ἔστη τὸ αἷμα τῆς περιτομῆς τοῦ παιδίου μου)로 전혀 다른 발화를 준다. es ‘novio’는 현대어에서 ‘남자친구’로도 들리고, RV1909 이래 ‘esposo de sangre’가 익숙하다. ‘당신’은 남편(모세)을 전제한 높임이라, 아이에게 하는 말이라면 맞지 않는다.",
+      "current_opinion_ko": "히필 נגע의 기본 의미 ‘닿게 하다’를 유지한다(‘던지다’는 해석적). ‘당신’은 한국어에서 2인칭을 피할 수 없어 택한 최소 선택이며 수신자는 각주로 열어 둔다.",
+      "reconsider_if_ko": "편집이 수신자를 아들로 읽기로 하면 ko ‘너는’으로, ‘esposo’ 전통을 따르기로 하면 es를 바꾼다. 아랍어 khatana(할례하다) 연결 같은 비교 언어학 주장을 문헌으로 확인하면 각주를 보강한다."
+    },
+    "Exod.4.26": {
+      "ko": "그러자 그분이 그를 놓아주셨다. 그때 그녀가 할례를 두고 ‘피의 신랑’이라고 말한 것이다.",
+      "en": "So he let him alone. It was then that she said, “a bridegroom of blood,” referring to the circumcision.",
+      "es": "Y lo dejó. Fue entonces cuando ella dijo «novio de sangre», refiriéndose a la circuncisión.",
+      "reason_ko": "וַיִּרֶף מִמֶּנּוּ ‘그에게서 손을 늦추다/놓다’. 주어는 4:24의 야훼로 이해되나 원문은 ‘그’만 쓴다(ko ‘그분’은 한국어 높임이 강요하는 최소 선택). 둘째 문장 אָז אָמְרָה … לַמּוּלֹת는 서술자의 설명(어원 주석)으로, 25절의 말을 할례와 관련지어 해설한다. 26절 둘째 문장에는 אַתָּה לִי가 없으므로 ASV처럼 ‘art thou’를 보충하지 않았다. לַמּוּלֹת는 단 한 번 나오는 복수 명사 ‘할례(들)에 관하여’이며 세 언어 모두 단수로 옮기고 각주에서 복수를 밝힌다.",
+      "counterargument_ko": "לְ를 원인(‘할례 때문에’, ASV/RV1909/KRV)으로 읽는 전통이 우세하다. 또 이 절의 OSHB 형태 태그는 מִמֶּנּוּ를 1인칭 복수(‘우리에게서’)로 붙였는데, 형태는 3남단 ‘그에게서’와 같고 서사 문맥에는 1인칭 복수 화자가 없다.",
+      "current_opinion_ko": "‘…를 두고/referring to/refiriéndose a’로 관련(reference)의 לְ를 택했다. 원인 읽기는 대안으로 남긴다.",
+      "reconsider_if_ko": "편집이 ‘할례 때문에’ 전통을 택하거나, 26b를 십보라의 두 번째 발화로 보아 인용부호 안에 넣는 읽기를 채택하면."
+    }
+  },
+  "speech_boundaries_ko": "4:21 야훼의 말이 열리고 4:23 끝까지 이어진다(4:22-23에 새 발화 틀 없음). 4:22 둘째 단계 인용(모세가 파라오에게 할 말, ‘야훼가 이렇게 말한다’)이 열리고 4:23 끝에서 닫힌다. 4:23 안에 셋째 단계 인용(야훼의 이전 요구 ‘내 아들을 내보내라’)이 있다. 4:24부터 서술. 4:25 십보라의 짧은 발화. 4:26b는 서술자 해설로 보았고 ‘피의 신랑’만 인용 표시했다. 고정 WLC는 4:23 뒤에 단락 표시가 없고 4:26 뒤에 열린 단락(פ)을 둔다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.4.21",
+      "note_ko": "‘굳게 하다’는 히브리어 חזק(강하게/단단하게 하다)이다. 출애굽기에는 ‘무겁게 하다’(כבד), ‘단단하게 하다’(קשׁה, 7:3)도 쓰인다."
+    },
+    {
+      "id": "Exod.4.23",
+      "note_ko": "‘말하였는데도 … 거절하였다’는 히브리어 서술 형태를 따른 것으로, 이 말을 실제로 전할 미래 시점에서 본 과거로 이해된다. 칠십인역은 ‘만일 … 원하지 않으면’ 조건으로 옮긴다."
+    },
+    {
+      "id": "Exod.4.24",
+      "note_ko": "원문은 ‘그’가 누구인지 밝히지 않는다(모세 또는 아들). 칠십인역은 주어를 ‘주의 천사’로 옮긴다."
+    },
+    {
+      "id": "Exod.4.25",
+      "note_ko": "‘그의 발’의 주인(모세, 아들, 또는 공격자)과 ‘당신’의 수신자는 원문에서 정해지지 않는다. ‘신랑’(חָתָן)은 혼인으로 맺어진 남자를 가리킨다. 칠십인역은 ‘발 앞에 엎드려 “내 아이 할례의 피가 멈추었다”’로 옮긴다."
+    },
+    {
+      "id": "Exod.4.26",
+      "note_ko": "‘할례’는 원문에서 이곳에만 나오는 복수형(מוּלֹת)이다. 이 문장은 25절 표현에 대한 서술자의 설명으로 볼 수 있다."
+    }
+  ],
+  "final_opinion_ko": "여섯 절 모두 고정 WLC 본문을 번역했고 이문이나 재구성을 본문에 채택하지 않았다. 핵심 판단: (1) 4:23 와익톨 사슬은 과거로 통일(이전 초안의 3개 언어 시제 불일치 해소), 조건 읽기는 칠십인역·KRV 수용으로 각주. (2) 4:24-26의 대명사(그를/그의 발/당신/그분)는 원문 모호성을 보존하고 KRV식 ‘모세’ 보충을 피했다. (3) 4:25 히필 נגע는 ‘던지다’가 아닌 ‘닿게 하다’. (4) 4:26b는 서술자 해설이며 인용 안에 ‘할례 때문이다’를 넣은 이전 초안 ko는 고쳐야 한다. (5) 마음 굳힘 동사 대응표, 사자 공식 존대, 신명 표기는 편집 결정이 필요하다. 이 기록은 채택되지 않은 모델 검토이며 GPT/Gemini 독립 검토와 편집 채택 전에는 출판되지 않는다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.4.21",
+      "level": "medium-high",
+      "note_ko": "re'eh 구조는 안정적; 마음 굳힘 en/es 동사 선택은 편집 사안."
+    },
+    {
+      "id": "Exod.4.22",
+      "level": "high",
+      "note_ko": "명사문 동격 구조."
+    },
+    {
+      "id": "Exod.4.23",
+      "level": "medium",
+      "note_ko": "과거 대 조건(서사 시간 문제)."
+    },
+    {
+      "id": "Exod.4.24",
+      "level": "medium-high",
+      "note_ko": "번역은 안정적; 지시 대상은 미해결."
+    },
+    {
+      "id": "Exod.4.25",
+      "level": "medium",
+      "note_ko": "נגע ‘대다’, 발의 주인, 수신자, es novio/esposo."
+    },
+    {
+      "id": "Exod.4.26",
+      "level": "medium",
+      "note_ko": "לְ 관련/원인, 26b 화자 경계."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.4.21",
+      "condition_ko": "편집이 חזק/כבד/קשׁה 삼분 대응어(예: en strengthen/make heavy/harden)를 채택하면 en/es를 바꾼다."
+    },
+    {
+      "id": "Exod.4.22",
+      "condition_ko": "프로젝트 사자 공식 관례가 ko ‘야훼께서 이렇게 말씀하신다’로 정해져 있으면 그에 맞춘다."
+    },
+    {
+      "id": "Exod.4.23",
+      "condition_ko": "편집이 와익톨의 ‘미래 시점의 과거’ 해석 대신 가정/현재 수행(‘이제 너에게 말한다 … 거절하면’)을 채택하거나, 비평판 칠십인역·사마리아 오경·쿰란 자료에서 히브리어 차원의 이문이 확인되면."
+    },
+    {
+      "id": "Exod.4.24",
+      "condition_ko": "편집 방침이 독자 이해를 위해 최소 지시 대상 보충(‘[모세]’ 꺾쇠 표시)을 허용하면."
+    },
+    {
+      "id": "Exod.4.25",
+      "condition_ko": "편집이 수신자를 아들로 읽기로 하면 ko ‘너는’으로, ‘esposo’ 전통을 따르기로 하면 es를 바꾼다. 아랍어 khatana(할례하다) 연결 같은 비교 언어학 주장을 문헌으로 확인하면 각주를 보강한다."
+    },
+    {
+      "id": "Exod.4.26",
+      "condition_ko": "편집이 ‘할례 때문에’ 전통을 택하거나, 26b를 십보라의 두 번째 발화로 보아 인용부호 안에 넣는 읽기를 채택하면."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.4.24",
+      "issue": "Referent of -hu (Moses or son)",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial decision; independent GPT/Gemini review; Targum and other ancient versions not accessed here."
+    },
+    {
+      "id": "Exod.4.25",
+      "issue": "Whose feet; meaning of feet; addressee of atta; what was touched",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Lexical study of Hiphil naga + l; actual Targum/Vulgate/Samaritan text; editorial decision on Korean honorific."
+    },
+    {
+      "id": "Exod.4.25",
+      "issue": "Meaning of hatan damim (bridegroom vs relative by marriage vs circumcision term)",
+      "status": "unresolved_lexical",
+      "needed_evidence": "Verified lexicon (e.g., HALOT/BDB) and comparative Semitic evidence; not accessed."
+    },
+    {
+      "id": "Exod.4.23",
+      "issue": "Past vs conditional reading of wayyiqtol chain inside future message",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial decision; critical LXX edition to confirm OCR wording; independent review."
+    },
+    {
+      "id": "Exod.4.21",
+      "issue": "Exodus-wide rendering key for hzq/kbd/qsh hardening verbs",
+      "status": "editorial_decision_required",
+      "needed_evidence": "Concordance of all hardening verses in pinned Exodus and editorial adoption."
+    },
+    {
+      "id": "Exod.4.26",
+      "issue": "LXX OCR lacks line 2.4.26; Greek of 4:26 not checked",
+      "status": "source_gap",
+      "needed_evidence": "Clean LXX edition."
+    },
+    {
+      "id": "Exod.4.23",
+      "issue": "OSHB tag Sp1cp on 02Ddz appears inconsistent with form; not reported upstream",
+      "status": "observation_only",
+      "needed_evidence": "Maintainer check against OSHB current morphology; this run does not alter pinned data."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-31T00:12:12Z) or reused from private/upstream_cache",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus; target verses and Exodus parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-10-31T00:17:02Z",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (malon parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "accessed_utc": "2026-10-31T00:15:22Z",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "what_it_is": "Third-party raw OCR of Swete LXX Exodus at pinned commit; OCR defects visible; line 2.4.26 absent."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Samaritan Pentateuch, Qumran, Peshitta, Targum or Vulgate check was performed.",
+    "LXX lines are third-party OCR text, not a verified critical edition.",
+    "KRV/ASV/RV1909 lines are later translation reception, not textual evidence.",
+    "No reconstruction of a Hebrew Vorlage behind the LXX is proposed or asserted.",
+    "No GPT, Gemini, Antigravity or human review is quoted, implied or simulated.",
+    "No unanimous agreement among models or reviewers is asserted.",
+    "No editorial adoption, certification or publication.",
+    "No credit balance, dollar cost or credit deduction is asserted.",
+    "Execution marker --standalone-cloud is not billing proof.",
+    "OSHB tag observations are not corrections of the pinned data.",
+    "The self-checks below are by the same model and are not an independent review."
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T00:12:12Z",
+    "claim_pushed": "2026-10-31T00:12Z (commit on claude/original-bible-hard-review-scjaa8 before any model review)",
+    "independent_reading_from_packet": "2026-10-31T00:12Z-00:14:45Z (scratch file mtime)",
+    "earlier_draft_opened": "after 00:14:45Z",
+    "reception_checks": "2026-10-31T00:15:22Z-00:17:02Z",
+    "review_written": "2026-10-31T00:17Z-2026-10-31T00:19:25Z",
+    "record_built": "2026-10-31T00:19:25Z",
+    "identity_rechecked": "2026-10-31T00:19:25Z"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261031T001212Z-3595921e.json",
+    "claim_manifest": "automation/hard-review-runs/20261031T001212Z-3595921e.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.4.21",
+        "traditional_ref": "Exodus 4:21",
+        "raw_xml": "<verse osisID=\"Exod.4.21\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"0245a\">וַ/יֹּ֣אמֶר</w>\n          <w lemma=\"3068\" n=\"1.3.0\" morph=\"HNp\" id=\"02Gby\">יְהוָה֮</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02t6e\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4872\" n=\"1.3\" morph=\"HNp\" id=\"024wi\">מֹשֶׁה֒</w>\n          <w lemma=\"b/3212\" n=\"1.2.0\" morph=\"HR/Vqc/Sp2ms\" id=\"02LNA\">בְּ/לֶכְתְּ/ךָ֙</w>\n          <w lemma=\"l/7725\" morph=\"HR/Vqc\" id=\"02bU4\">לָ/שׁ֣וּב</w>\n          <w lemma=\"4714\" n=\"1.2\" morph=\"HNp/Sd\" id=\"02R6Q\">מִצְרַ֔יְמָ/ה</w>\n          <w lemma=\"7200\" n=\"1.1.1\" morph=\"HVqv2ms\" id=\"02LiE\">רְאֵ֗ה</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"02uCS\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/4159\" n=\"1.1.0\" morph=\"HTd/Ncmpa\" id=\"02taS\">הַ/מֹּֽפְתִים֙</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02Erp\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7760 a\" morph=\"HVqp1cs\" id=\"02azc\">שַׂ֣מְתִּי</w>\n          <w lemma=\"b/3027\" n=\"1.1\" morph=\"HR/Ncbsc/Sp2ms\" id=\"02HpH\">בְ/יָדֶ֔/ךָ</w>\n          <w lemma=\"c/6213 a\" n=\"1.0\" morph=\"HC/Vqp2ms/Sp3mp\" id=\"02wcd\">וַ/עֲשִׂיתָ֖/ם</w>\n          <w lemma=\"l/6440\" morph=\"HR/Ncbpc\" id=\"02DR2\">לִ/פְנֵ֣י</w>\n          <w lemma=\"6547\" n=\"1\" morph=\"HNp\" id=\"028MF\">פַרְעֹ֑ה</w>\n          <w lemma=\"c/589\" n=\"0.1.0\" morph=\"HC/Pp1cs\" id=\"025wJ\">וַ/אֲנִי֙</w>\n          <w lemma=\"2388\" morph=\"HVpi1cs\" id=\"02AuA\">אֲחַזֵּ֣ק</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02pa7\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3820 a\" n=\"0.1\" morph=\"HNcmsc/Sp3ms\" id=\"021Q7\">לִבּ֔/וֹ</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"02147\">וְ/לֹ֥א</w>\n          <w lemma=\"7971\" n=\"0.0\" morph=\"HVpi3ms\" id=\"02qpX\">יְשַׁלַּ֖ח</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02eEg\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/5971 a\" n=\"0\" morph=\"HTd/Ncmsa\" id=\"02FHa\">הָ/עָֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "f95a3aafc55e571b08587dc33a4f0f39f7b9de22dfbb299242955c7ac9fb1eb2",
+        "seg_types": [
+          "x-maqqef",
+          "x-maqqef",
+          "x-maqqef",
+          "x-maqqef",
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "0245a",
+              "024wi"
+            ],
+            "hebrew_derived_display": "וַ/יֹּ֣אמֶר יְהוָה֮ אֶל מֹשֶׁה֒",
+            "morph": [
+              "HC/Vqw3ms",
+              "HNp",
+              "HR",
+              "HNp"
+            ],
+            "gloss_en": "speech frame: YHWH said to Moses"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02LNA",
+              "02R6Q"
+            ],
+            "hebrew_derived_display": "בְּ/לֶכְתְּ/ךָ֙ לָ/שׁ֣וּב מִצְרַ֔יְמָ/ה",
+            "morph": [
+              "HR/Vqc/Sp2ms",
+              "HR/Vqc",
+              "HNp/Sd"
+            ],
+            "gloss_en": "temporal infinitive: when you go to return to Egypt"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02LiE",
+              "02HpH"
+            ],
+            "hebrew_derived_display": "רְאֵ֗ה כָּל הַ/מֹּֽפְתִים֙ אֲשֶׁר שַׂ֣מְתִּי בְ/יָדֶ֔/ךָ",
+            "morph": [
+              "HVqv2ms",
+              "HNcmsc",
+              "HTd/Ncmpa",
+              "HTr",
+              "HVqp1cs",
+              "HR/Ncbsc/Sp2ms"
+            ],
+            "gloss_en": "imperative re'eh with fronted object: all the wonders I have put in your hand"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02wcd",
+              "028MF"
+            ],
+            "hebrew_derived_display": "וַ/עֲשִׂיתָ֖/ם לִ/פְנֵ֣י פַרְעֹ֑ה",
+            "morph": [
+              "HC/Vqp2ms/Sp3mp",
+              "HR/Ncbpc",
+              "HNp"
+            ],
+            "gloss_en": "weqatal 2ms + 3mp suffix resuming the object: and do them before Pharaoh (atnach)"
+          },
+          {
+            "label": "e",
+            "word_ids": [
+              "025wJ",
+              "021Q7"
+            ],
+            "hebrew_derived_display": "וַ/אֲנִי֙ אֲחַזֵּ֣ק אֶת לִבּ֔/וֹ",
+            "morph": [
+              "HC/Pp1cs",
+              "HVpi1cs",
+              "HTo",
+              "HNcmsc/Sp3ms"
+            ],
+            "gloss_en": "fronted contrastive pronoun + Piel yiqtol hzq: but I will make his heart firm"
+          },
+          {
+            "label": "f",
+            "word_ids": [
+              "02147",
+              "02FHa"
+            ],
+            "hebrew_derived_display": "וְ/לֹ֥א יְשַׁלַּ֖ח אֶת הָ/עָֽם",
+            "morph": [
+              "HC/Tn",
+              "HVpi3ms",
+              "HTo",
+              "HTd/Ncmsa"
+            ],
+            "gloss_en": "waw + lo + Piel yiqtol: and he will not let the people go (result or sequence)"
+          }
+        ]
+      },
+      {
+        "id": "Exod.4.22",
+        "traditional_ref": "Exodus 4:22",
+        "raw_xml": "<verse osisID=\"Exod.4.22\">\n          <w lemma=\"c/559\" n=\"1.0\" morph=\"HC/Vqq2ms\" id=\"02ExS\">וְ/אָמַרְתָּ֖</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"0216M\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6547\" n=\"1\" morph=\"HNp\" id=\"02nj6\">פַּרְעֹ֑ה</w>\n          <w lemma=\"3541\" n=\"0.1.0\" morph=\"HD\" id=\"027hm\">כֹּ֚ה</w>\n          <w lemma=\"559\" morph=\"HVqp3ms\" id=\"02yrZ\">אָמַ֣ר</w>\n          <w lemma=\"3068\" n=\"0.1\" morph=\"HNp\" id=\"02cpd\">יְהוָ֔ה</w>\n          <w lemma=\"1121 a\" morph=\"HNcmsc/Sp1cs\" id=\"02QR7\">בְּנִ֥/י</w>\n          <w lemma=\"1060\" n=\"0.0\" morph=\"HNcmsc/Sp1cs\" id=\"02388\">בְכֹרִ֖/י</w>\n          <w lemma=\"3478\" n=\"0\" morph=\"HNp\" id=\"02D9B\">יִשְׂרָאֵֽל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "36daf9a100d8eddab19b4f73d7445c64df605afed27d5a4897e2dfc77749ad2f",
+        "seg_types": [
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02ExS",
+              "02nj6"
+            ],
+            "hebrew_derived_display": "וְ/אָמַרְתָּ֖ אֶל פַּרְעֹ֑ה",
+            "morph": [
+              "HC/Vqq2ms",
+              "HR",
+              "HNp"
+            ],
+            "gloss_en": "weqatal instruction: and you shall say to Pharaoh"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "027hm",
+              "02cpd"
+            ],
+            "hebrew_derived_display": "כֹּ֚ה אָמַ֣ר יְהוָ֔ה",
+            "morph": [
+              "HD",
+              "HVqp3ms",
+              "HNp"
+            ],
+            "gloss_en": "messenger formula: thus says YHWH"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02QR7",
+              "02D9B"
+            ],
+            "hebrew_derived_display": "בְּנִ֥/י בְכֹרִ֖/י יִשְׂרָאֵֽל",
+            "morph": [
+              "HNcmsc/Sp1cs",
+              "HNcmsc/Sp1cs",
+              "HNp"
+            ],
+            "gloss_en": "nominal clause, fronted predicate in apposition: my son, my firstborn, is Israel"
+          }
+        ]
+      },
+      {
+        "id": "Exod.4.23",
+        "traditional_ref": "Exodus 4:23",
+        "raw_xml": "<verse osisID=\"Exod.4.23\">\n          <w lemma=\"c/559\" morph=\"HC/Vqw1cs\" id=\"02KQr\">וָ/אֹמַ֣ר</w>\n          <w lemma=\"413\" n=\"1.1.1\" morph=\"HR/Sp2ms\" id=\"02bRM\">אֵלֶ֗י/ךָ</w>\n          <w lemma=\"7971\" morph=\"HVpv2ms\" id=\"02TPs\">שַׁלַּ֤ח</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02Mef\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" n=\"1.1.0\" morph=\"HNcmsc/Sp1cs\" id=\"02UeD\">בְּנִ/י֙</w>\n          <w lemma=\"c/5647\" n=\"1.1\" morph=\"HC/Vqj3ms/Sp1cp\" id=\"02Ddz\">וְ/יַֽעַבְדֵ֔/נִי</w>\n          <w lemma=\"c/3985\" n=\"1.0\" morph=\"HC/Vpw2ms\" id=\"02VYG\">וַ/תְּמָאֵ֖ן</w>\n          <w lemma=\"l/7971\" n=\"1\" morph=\"HR/Vpc/Sp3ms\" id=\"02zd1\">לְ/שַׁלְּח֑/וֹ</w>\n          <w lemma=\"2009\" n=\"0.1.0\" morph=\"HTm\" id=\"02mw6\">הִנֵּה֙</w>\n          <w lemma=\"595\" morph=\"HPp1cs\" id=\"024AV\">אָנֹכִ֣י</w>\n          <w lemma=\"2026\" n=\"0.1\" morph=\"HVqrmsa\" id=\"02RJM\">הֹרֵ֔ג</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02ZPm\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" n=\"0.0\" morph=\"HNcmsc/Sp2ms\" id=\"02aZX\">בִּנְ/ךָ֖</w>\n          <w lemma=\"1060\" n=\"0\" morph=\"HNcmsc/Sp2ms\" id=\"02QJg\">בְּכֹרֶֽ/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "7725d9afa3a51b7b3e0537044d44def8b7888976dbf9523ac9ffee81b96e6252",
+        "seg_types": [
+          "x-maqqef",
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02KQr",
+              "02bRM"
+            ],
+            "hebrew_derived_display": "וָ/אֹמַ֣ר אֵלֶ֗י/ךָ",
+            "morph": [
+              "HC/Vqw1cs",
+              "HR/Sp2ms"
+            ],
+            "gloss_en": "wayyiqtol 1cs: and I said to you"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02TPs",
+              "02Ddz"
+            ],
+            "hebrew_derived_display": "שַׁלַּ֤ח אֶת בְּנִ/י֙ וְ/יַֽעַבְדֵ֔/נִי",
+            "morph": [
+              "HVpv2ms",
+              "HTo",
+              "HNcmsc/Sp1cs",
+              "HC/Vqj3ms/Sp1cp"
+            ],
+            "gloss_en": "imperative + waw-jussive purpose: let my son go that he may serve me"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02VYG",
+              "02zd1"
+            ],
+            "hebrew_derived_display": "וַ/תְּמָאֵ֖ן לְ/שַׁלְּח֑/וֹ",
+            "morph": [
+              "HC/Vpw2ms",
+              "HR/Vpc/Sp3ms"
+            ],
+            "gloss_en": "wayyiqtol 2ms Piel: and you refused to let him go"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02mw6",
+              "02QJg"
+            ],
+            "hebrew_derived_display": "הִנֵּה֙ אָנֹכִ֣י הֹרֵ֔ג אֶת בִּנְ/ךָ֖ בְּכֹרֶֽ/ךָ",
+            "morph": [
+              "HTm",
+              "HPp1cs",
+              "HVqrmsa",
+              "HTo",
+              "HNcmsc/Sp2ms",
+              "HNcmsc/Sp2ms"
+            ],
+            "gloss_en": "hinneh + pronoun + participle: I am about to kill your son, your firstborn"
+          }
+        ]
+      },
+      {
+        "id": "Exod.4.24",
+        "traditional_ref": "Exodus 4:24",
+        "raw_xml": "<verse osisID=\"Exod.4.24\">\n          <w lemma=\"c/1961\" morph=\"HC/Vqw3ms\" id=\"02P5E\">וַ/יְהִ֥י</w>\n          <w lemma=\"b/1870\" n=\"1.0\" morph=\"HRd/Ncbsa\" id=\"02yrH\">בַ/דֶּ֖רֶךְ</w>\n          <w lemma=\"b/4411\" n=\"1\" morph=\"HRd/Ncmsa\" id=\"02sud\">בַּ/מָּל֑וֹן</w>\n          <w lemma=\"c/6298\" morph=\"HC/Vqw3ms/Sp3ms\" id=\"02id4\">וַ/יִּפְגְּשֵׁ֣/הוּ</w>\n          <w lemma=\"3068\" n=\"0.1\" morph=\"HNp\" id=\"02rbK\">יְהוָ֔ה</w>\n          <w lemma=\"c/1245\" n=\"0.0\" morph=\"HC/Vpw3ms\" id=\"02fQG\">וַ/יְבַקֵּ֖שׁ</w>\n          <w lemma=\"4191\" n=\"0\" morph=\"HVhc/Sp3ms\" id=\"02HAz\">הֲמִיתֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "7fe767582c9aa1f14a0f7a396168167812a2eaa084ce7ff32aa4dce6feec47c5",
+        "seg_types": [
+          "x-sof-pasuq"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02P5E",
+              "02sud"
+            ],
+            "hebrew_derived_display": "וַ/יְהִ֥י בַ/דֶּ֖רֶךְ בַּ/מָּל֑וֹן",
+            "morph": [
+              "HC/Vqw3ms",
+              "HRd/Ncbsa",
+              "HRd/Ncmsa"
+            ],
+            "gloss_en": "circumstantial: on the way, at the lodging place"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02id4",
+              "02rbK"
+            ],
+            "hebrew_derived_display": "וַ/יִּפְגְּשֵׁ֣/הוּ יְהוָ֔ה",
+            "morph": [
+              "HC/Vqw3ms/Sp3ms",
+              "HNp"
+            ],
+            "gloss_en": "wayyiqtol + 3ms suffix: YHWH met him (referent unnamed)"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02fQG",
+              "02HAz"
+            ],
+            "hebrew_derived_display": "וַ/יְבַקֵּ֖שׁ הֲמִיתֽ/וֹ",
+            "morph": [
+              "HC/Vpw3ms",
+              "HVhc/Sp3ms"
+            ],
+            "gloss_en": "Piel wayyiqtol + Hiphil infinitive: and sought to kill him"
+          }
+        ]
+      },
+      {
+        "id": "Exod.4.25",
+        "traditional_ref": "Exodus 4:25",
+        "raw_xml": "<verse osisID=\"Exod.4.25\">\n          <w lemma=\"c/3947\" morph=\"HC/Vqw3fs\" id=\"02J4B\">וַ/תִּקַּ֨ח</w>\n          <w lemma=\"6855\" n=\"1.1.1.0\" morph=\"HNp\" id=\"02cc4\">צִפֹּרָ֜ה</w>\n          <w lemma=\"6864\" n=\"1.1.1\" morph=\"HNcmsa\" id=\"02oRq\">צֹ֗ר</w>\n          <w lemma=\"c/3772\" n=\"1.1.0\" morph=\"HC/Vqw3fs\" id=\"02cUw\">וַ/תִּכְרֹת֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02MVU\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6190\" morph=\"HNcfsc\" id=\"02CE4\">עָרְלַ֣ת</w>\n          <w lemma=\"1121 a\" n=\"1.1\" morph=\"HNcmsc/Sp3fs\" id=\"02Li4\">בְּנָ֔/הּ</w>\n          <w lemma=\"c/5060\" n=\"1.0\" morph=\"HC/Vhw3fs\" id=\"02L6s\">וַ/תַּגַּ֖ע</w>\n          <w lemma=\"l/7272\" n=\"1\" morph=\"HR/Ncfdc/Sp3ms\" id=\"02g5n\">לְ/רַגְלָ֑י/ו</w>\n          <w lemma=\"c/559\" n=\"0.1\" morph=\"HC/Vqw3fs\" id=\"02jmB\">וַ/תֹּ֕אמֶר</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"02kmE\">כִּ֧י</w>\n          <w lemma=\"2860\" morph=\"HNcmsc\" id=\"02hyH\">חֲתַן</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1818\" n=\"0.0.0\" morph=\"HNcmpa\" id=\"02DMx\">דָּמִ֛ים</w>\n          <w lemma=\"859 a\" n=\"0.0\" morph=\"HPp2ms\" id=\"02D1c\">אַתָּ֖ה</w>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp1cs\" id=\"02sgn\">לִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "25b46e69542f1b64055f29bca5d4f68993061444481160cae106ef827c0a76ef",
+        "seg_types": [
+          "x-maqqef",
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02J4B",
+              "02oRq"
+            ],
+            "hebrew_derived_display": "וַ/תִּקַּ֨ח צִפֹּרָ֜ה צֹ֗ר",
+            "morph": [
+              "HC/Vqw3fs",
+              "HNp",
+              "HNcmsa"
+            ],
+            "gloss_en": "Zipporah took a flint"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02cUw",
+              "02Li4"
+            ],
+            "hebrew_derived_display": "וַ/תִּכְרֹת֙ אֶת עָרְלַ֣ת בְּנָ֔/הּ",
+            "morph": [
+              "HC/Vqw3fs",
+              "HTo",
+              "HNcfsc",
+              "HNcmsc/Sp3fs"
+            ],
+            "gloss_en": "and cut off the foreskin of her son"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02L6s",
+              "02g5n"
+            ],
+            "hebrew_derived_display": "וַ/תַּגַּ֖ע לְ/רַגְלָ֑י/ו",
+            "morph": [
+              "HC/Vhw3fs",
+              "HR/Ncfdc/Sp3ms"
+            ],
+            "gloss_en": "Hiphil naga + l + his feet; object unexpressed"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02jmB",
+              "02sgn"
+            ],
+            "hebrew_derived_display": "וַ/תֹּ֕אמֶר כִּ֧י חֲתַן דָּמִ֛ים אַתָּ֖ה לִֽ/י",
+            "morph": [
+              "HC/Vqw3fs",
+              "HC",
+              "HNcmsc",
+              "HNcmpa",
+              "HPp2ms",
+              "HR/Sp1cs"
+            ],
+            "gloss_en": "speech: ki (asseverative) bridegroom of blood you (2ms) are to me"
+          }
+        ]
+      },
+      {
+        "id": "Exod.4.26",
+        "traditional_ref": "Exodus 4:26",
+        "raw_xml": "<verse osisID=\"Exod.4.26\">\n          <w lemma=\"c/7503\" n=\"1.0\" morph=\"HC/Vqw3ms\" id=\"02cLA\">וַ/יִּ֖רֶף</w>\n          <w lemma=\"4480 a\" n=\"1\" morph=\"HR/Sp1cp\" id=\"02Jrt\">מִמֶּ֑/נּוּ</w>\n          <w lemma=\"227 a\" n=\"0.1.0\" morph=\"HD\" id=\"02jwP\">אָ֚ז</w>\n          <w lemma=\"559\" n=\"0.1\" morph=\"HVqp3fs\" id=\"02XZe\">אָֽמְרָ֔ה</w>\n          <w lemma=\"2860\" morph=\"HNcmsc\" id=\"02dip\">חֲתַ֥ן</w>\n          <w lemma=\"1818\" n=\"0.0\" morph=\"HNcmpa\" id=\"02f7v\">דָּמִ֖ים</w>\n          <w lemma=\"l/4139\" n=\"0\" morph=\"HRd/Ncfpa\" id=\"025hr\">לַ/מּוּלֹֽת</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "fragment_sha256": "e389315d7c6f4aad1231e59203456691c023495da6aef23fd984ecaf2a4c3932",
+        "seg_types": [
+          "x-sof-pasuq",
+          "x-pe"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02cLA",
+              "02Jrt"
+            ],
+            "hebrew_derived_display": "וַ/יִּ֖רֶף מִמֶּ֑/נּוּ",
+            "morph": [
+              "HC/Vqw3ms",
+              "HR/Sp1cp"
+            ],
+            "gloss_en": "Qal wayyiqtol rph + min: he let go of him"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02jwP",
+              "025hr"
+            ],
+            "hebrew_derived_display": "אָ֚ז אָֽמְרָ֔ה חֲתַ֥ן דָּמִ֖ים לַ/מּוּלֹֽת",
+            "morph": [
+              "HD",
+              "HVqp3fs",
+              "HNcmsc",
+              "HNcmpa",
+              "HRd/Ncfpa"
+            ],
+            "gloss_en": "narrator gloss: then she said bridegroom of blood with reference to circumcision(s)"
+          }
+        ]
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261031T001212Z-3595921e.ko.md",
+  "branch": "claude/original-bible-hard-review-scjaa8",
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "seg_types": [
+      "x-maqqef",
+      "x-pe",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_markup_present": false,
+    "clause_coverage": {
+      "Exod.4.21": 6,
+      "Exod.4.22": 3,
+      "Exod.4.23": 4,
+      "Exod.4.24": 3,
+      "Exod.4.25": 4,
+      "Exod.4.26": 2
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "lxx_ocr_excerpts_verified": true,
+    "malon_parallel_refs_in_pinned_genesis": [
+      "Gen.42.27",
+      "Gen.43.21"
+    ],
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_convention": {
+      "ko_yahwe": true,
+      "en_YHWH": true,
+      "es_YHWH": true,
+      "no_LORD_or_Jehovah": true
+    },
+    "curly_and_angle_quotes_balanced_across_unit": true,
+    "earlier_records_found": [
+      "20261027T091815Z-d63c8640"
+    ],
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
