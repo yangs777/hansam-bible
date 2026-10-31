@@ -1,0 +1,1527 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261031T010927Z-0b1c1679",
+  "unit_id": "exod-6-2-8",
+  "verse_ids": [
+    "Exod.6.2",
+    "Exod.6.3",
+    "Exod.6.4",
+    "Exod.6.5",
+    "Exod.6.6",
+    "Exod.6.7",
+    "Exod.6.8"
+  ],
+  "unit_issue_ko": "이름을 알리지 않음·엘 샤다이·계약/족장 서사 긴장",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Exod.6.2-8 = 전통 장절 출애굽기 6:2-8. 저장소 라이브러리 KRV/ASV/RV1909의 6:2-8과 칠십인역 OCR 줄 2.6.2-2.6.8이 같은 내용 범위로 대응함을 확인했다. 히브리어 장절과 영어 장절 사이 차이는 이 범위에 없다.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어는 source.verses[].raw_xml에만 있다(클레임 패킷에서 바이트 단위 복사, 고정 파일과 대조). paseq(6:5), maqqef, sof pasuq, 6:6의 WLC note 요소는 raw_xml 안에 그대로 보존했다. 절 표시 히브리어(hebrew_derived_display)는 읽기용 파생형(슬래시 제거, 칸틸레이션·메테그 제거, NFC)이며 원문 인용이 아니다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-10-31T01:10Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, external_metadata.last_served_model=claude-opus-5-5, effort_level=high. These are runtime-reported labels; no per-response API header was observed.",
+    "session": "https://claude.ai/code/session_01UknqVJffyk2wy5JN3oMBZw",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. No balance, dollar amount or per-run deduction was exposed; none is asserted.",
+    "not_exposed": [
+      "dated model snapshot",
+      "per-response served model header",
+      "token usage",
+      "credit balance",
+      "credit deduction for this run"
+    ],
+    "identity_recheck": "get_session at about 2026-10-31T01:17:37Z (updated_at): configured_model, session_context.model and external_metadata.last_served_model all claude-opus-5-5; rate_limit_info rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. No limit or credit exhaustion was reported during the run."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Exod.6.2",
+      "clause_notes": [
+        "lexical: subject is Elohim (common noun tag HNcmpa), while the speech opens with the divine name; no textual question in the packet.",
+        "syntactic: two speech verbs (wayyiqtol dbr Piel + wayyiqtol amr) form one speech frame.",
+        "discourse: ani YHWH is a self-presentation formula and opens a speech that runs to 6:8, where the same formula closes it (inclusio; also 6:6)."
+      ]
+    },
+    {
+      "id": "Exod.6.3",
+      "clause_notes": [
+        "syntactic: va-era is Niphal wayyiqtol 1cs (I appeared / let myself be seen).",
+        "lexical: be-El Shadday with beth essentiae (as El Shadday); etymology of Shadday is uncertain and not decidable from the packet.",
+        "syntactic: u-shemi YHWH is fronted; read as adverbial accusative with be- understood from the parallel phrase (by my name YHWH), or as casus pendens (my name YHWH - [by it] I was not known).",
+        "lexical/syntactic: nodati is Niphal perfect 1cs; reflexive (I made myself known) or passive (I was known).",
+        "reception/historical: the claim stands in tension with Genesis texts where the name is spoken to and by the patriarchs; this is an interpretive and source-historical question, not a textual variant in the packet.",
+        "no interrogative marker; a rhetorical-question reading is a syntactic reconstruction, not an attested reading."
+      ]
+    },
+    {
+      "id": "Exod.6.4",
+      "clause_notes": [
+        "syntactic: ve-gam + Hiphil perfect heqimoti = past act (covenant language as in Genesis 17).",
+        "lateth: purpose/content infinitive (to give).",
+        "second et without maqqef is appositional: land of Canaan = land of their sojournings; megurim abstract plural (sojournings).",
+        "relative clause asher garu bah repeats the root gwr (they sojourned in it)."
+      ]
+    },
+    {
+      "id": "Exod.6.5",
+      "clause_notes": [
+        "discourse: ve-gam | ani (paseq after ve-gam preserved) parallels 6:4 ve-gam and adds an emphatic pronoun.",
+        "syntactic: Mitsrayim takes a plural participle (maavidim) = the Egyptians as a collective, ongoing action.",
+        "va-ezkor wayyiqtol after perfect: and so I remembered."
+      ]
+    },
+    {
+      "id": "Exod.6.6",
+      "clause_notes": [
+        "discourse: lakhen draws the consequence of 6:2-5; Moses is commanded to speak; the embedded message opens with ani YHWH.",
+        "syntactic: three weqatal 1cs verbs (hotseti, hitsalti, gaalti) = future commitments.",
+        "lexical: sivlot = forced burdens/labour (same root as Exod 1:11, 2:11, 5:4-5 contexts); gaal = redeem as a kinsman-redeemer act.",
+        "me-avodatam: 3mp suffix most naturally refers to the Egyptians (their enslavement of you); objective reading (from serving them) gives the same sense.",
+        "WLC note n=1 sits inside the verse after word 02sNS; its text concerns form validity relative to BHS/Leningrad and does not name the form; not used for translation."
+      ]
+    },
+    {
+      "id": "Exod.6.7",
+      "clause_notes": [
+        "two further weqatal (laqachti, hayiti): covenant formula (people/God).",
+        "recognition formula ve-yedatem ki: that I am YHWH your God (alternative: that I, YHWH, am your God).",
+        "ha-motsi: articular Hiphil participle, tense-unmarked (the one who brings out).",
+        "spelling: sivlot is plene here and defective in 6:6; same word."
+      ]
+    },
+    {
+      "id": "Exod.6.8",
+      "clause_notes": [
+        "weqatal heveti continues the series.",
+        "nasati et yadi: oath gesture idiom (lifted my hand = swore), cf. Ezek 20:5.",
+        "morashah: rare noun, possession.",
+        "closing ani YHWH forms an inclusio with 6:2 and 6:6."
+      ]
+    }
+  ],
+  "initial_proposals": {
+    "source": "/tmp/hr/independent.json (scratch, mtime 2026-10-31T01:11:33Z), copied verbatim below",
+    "Exod.6.2": {
+      "ko": "하나님께서 모세에게 말씀하셨다. 그분이 그에게 말씀하셨다. “나는 야훼이다.",
+      "en": "God spoke to Moses and said to him, “I am YHWH.",
+      "es": "Dios habló a Moisés y le dijo: «Yo soy YHWH."
+    },
+    "Exod.6.3": {
+      "ko": "나는 아브라함과 이삭과 야곱에게 엘 샤다이로 나타났으나, 내 이름 야훼로는 그들에게 나를 알리지 않았다.",
+      "en": "I appeared to Abraham, to Isaac, and to Jacob as El Shaddai, but by my name YHWH I did not make myself known to them.",
+      "es": "Me aparecí a Abraham, a Isaac y a Jacob como El Shaddai, pero por mi nombre YHWH no me di a conocer a ellos."
+    },
+    "Exod.6.4": {
+      "ko": "나는 또한 그들과 내 언약을 세워, 그들이 나그네로 살던 땅, 곧 그들이 머물던 가나안 땅을 그들에게 주기로 하였다.",
+      "en": "I also established my covenant with them, to give them the land of Canaan, the land of their sojournings, where they lived as sojourners.",
+      "es": "También establecí mi pacto con ellos, para darles la tierra de Canaán, la tierra de sus peregrinaciones, en la que habitaron como forasteros."
+    },
+    "Exod.6.5": {
+      "ko": "또 나는 이집트 사람들이 종으로 부리고 있는 이스라엘 자손의 신음 소리를 들었고, 내 언약을 기억하였다.",
+      "en": "And I myself have also heard the groaning of the Israelites, whom the Egyptians are holding in slavery, and I have remembered my covenant.",
+      "es": "Y yo también he oído el gemido de los israelitas, a quienes los egipcios tienen en esclavitud, y me he acordado de mi pacto."
+    },
+    "Exod.6.6": {
+      "ko": "그러므로 이스라엘 자손에게 말하여라. ‘나는 야훼이다. 내가 너희를 이집트의 무거운 짐 밑에서 이끌어 내고, 그들의 종살이에서 너희를 건져 내며, 편 팔과 큰 심판으로 너희를 속량하겠다.",
+      "en": "Therefore say to the Israelites, ‘I am YHWH. I will bring you out from under the burdens of Egypt, I will rescue you from their slavery, and I will redeem you with an outstretched arm and with great judgments.",
+      "es": "Por tanto, di a los israelitas: “Yo soy YHWH. Los sacaré de debajo de las cargas de Egipto, los libraré de su esclavitud y los redimiré con brazo extendido y con grandes juicios."
+    },
+    "Exod.6.7": {
+      "ko": "내가 너희를 내 백성으로 삼고 너희의 하나님이 되겠다. 그러면 너희는 내가 너희를 이집트의 무거운 짐 밑에서 이끌어 내는 너희 하나님 야훼임을 알게 될 것이다.",
+      "en": "I will take you as my people, and I will be your God, and you will know that I am YHWH your God, who brings you out from under the burdens of Egypt.",
+      "es": "Los tomaré como mi pueblo y seré su Dios, y sabrán que yo soy YHWH su Dios, que los saca de debajo de las cargas de Egipto."
+    },
+    "Exod.6.8": {
+      "ko": "내가 아브라함과 이삭과 야곱에게 주겠다고 손을 들어 맹세한 그 땅으로 너희를 데리고 들어가, 그 땅을 너희에게 소유로 주겠다. 나는 야훼이다.’”",
+      "en": "I will bring you into the land that I swore with raised hand to give to Abraham, to Isaac, and to Jacob, and I will give it to you as a possession. I am YHWH.’”",
+      "es": "Los llevaré a la tierra que juré con mano alzada dar a Abraham, a Isaac y a Jacob, y se la daré a ustedes en posesión. Yo soy YHWH”»."
+    }
+  },
+  "initial_proposals_note": "초기 제안은 클레임 패킷(raw_xml)과 저장소 선택본의 표기 관례(야훼/YHWH, es ustedes)만 확인한 뒤 2026-10-31T01:11:33Z 이전에 작성했다. 그 뒤 이전 Sonnet 초안, 이전 Claude 검토, 칠십인역 OCR, 고정 WLC 평행 구절, KRV/ASV/RV1909를 열었다. 최종안과의 차이: (1) 6:2 ko 중복 문장 정리, (2) 6:6-7 ‘이집트’를 ‘이집트 사람들’로 바꿈(6:6 3복 접미사의 선행사 문제), (3) 6:6 ‘그들의 종살이’ 모호성 해소, (4) 6:4 ko 어순을 원문 순서(가나안 땅 → 나그네로 머물던 땅)로 정리, (5) 6:5 en/es 강조 대명사 표현 조정.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "data/editorial.json on this branch (based on main 4197e00) contains Gen/Num/Deut/Ps only; packet current_selected is empty. No selected Exodus wording exists to preserve or change."
+    },
+    {
+      "kind": "gpt_or_gemini_saved_record",
+      "result": "none_found",
+      "note": "Searched reviews/, data/, automation/gpt-web-pilot.json, automation/web-pilot.json and all fetched claude/ branches for Exod 6 records; none found. No GPT, Gemini or Antigravity response is quoted or implied."
+    },
+    {
+      "kind": "cloud_draft",
+      "result": "found",
+      "branch": "origin/claude/friendly-heisenberg-nki8jr",
+      "path": "automation/cloud-drafts/20261027T155006Z-b97b7d51.json",
+      "model_label_as_saved": "requested_or_configured_model=claude-sonnet-5-5 (runtime-provided label, per that record)",
+      "coverage": "Exod.6.2, 6.3, 6.4, 6.5, 6.7, 6.8 present; Exod.6.6 absent from that packet"
+    },
+    {
+      "kind": "cloud_review",
+      "result": "found_parallel_only",
+      "branch": "origin/claude/bible-hard-review-vqib2m",
+      "path": "automation/cloud-reviews/20261030T230956Z-6886267e.json",
+      "model_label_as_saved": "requested_model=claude-opus-5-5",
+      "note": "Unit exod-3-12-15; cites Exod.6.2-3 only as WLC parallels and KRV/ASV/RV1909 reception. Its Exod 3:13-15 wording conventions (이스라엘 자손 / the Israelites / los israelitas; YHWH) were adopted here for consistency."
+    }
+  ],
+  "comparison_findings_ko": [
+    {
+      "id": "Exod.6.2-8",
+      "severity": "high",
+      "finding_ko": "이전 Sonnet 5.5 초안 b97b7d51은 6:2 끝에서 인용을 닫았고(“나는 여호와다.”) 6:3-8에는 인용부호가 없다. 히브리어에서 하나님의 말은 6:2 אֲנִי יְהוָה에서 시작해 6:8 אֲנִי יְהוָה까지 새 발화 틀 없이 이어지며, 6:6 לָכֵן אֱמֹר 뒤에 모세가 전할 2단계 인용이 열린다. KRV 6:8도 ‘…나는 여호와로라 하셨다 하라’로 6:8에서 전달 메시지를 닫는다. 본 검토는 6:2에서 바깥 인용을 열고 6:6에서 안쪽 인용을 열어 6:8에서 둘 다 닫았다."
+    },
+    {
+      "id": "Exod.6.6",
+      "severity": "high",
+      "finding_ko": "이전 초안 패킷에 6:6이 빠져 있어 일곱 개의 ‘내가 …하겠다’ 약속 중 셋(이끌어 냄·건져 냄·속량함)과 전달 명령 ‘그러므로 이스라엘 자손에게 말하여라’가 초안에 없다. 이 공백을 본 검토가 채운다."
+    },
+    {
+      "id": "Exod.6.3",
+      "severity": "medium",
+      "finding_ko": "이전 초안은 ko ‘그들에게 알려지지 않았다’(수동)와 en ‘I did not make myself known’(재귀)이 서로 다르다. 고정 에스겔 20:9의 같은 니팔 완료 1공단 נוֹדַעְתִּי אֲלֵיהֶם과 20:5 וָאִוָּדַע לָהֶם은 ‘내가 나를 알렸다’로 읽히는 재귀 용법이다. 본 검토는 세 언어 모두 재귀(‘나를 알리지 않았다 / did not make myself known / no me di a conocer’)로 통일했다."
+    },
+    {
+      "id": "Exod.6.2-8",
+      "severity": "medium",
+      "finding_ko": "이전 초안은 신명을 ‘여호와 / the LORD / el SEÑOR’로 옮겼다. 저장소 선택본(Gen 3:14, 4:1, 4:26 등)과 이전 Claude 검토(출 3:15)는 ‘야훼 / YHWH / YHWH’를 쓴다. 특히 6:3은 이름 자체가 주제이므로 ‘the LORD’처럼 칭호로 바꾸면 ‘내 이름’과의 대조가 흐려진다."
+    },
+    {
+      "id": "Exod.6.7",
+      "severity": "medium",
+      "finding_ko": "이전 초안은 הַמּוֹצִיא를 ko ‘이끌어 낸’(과거)·en ‘who has brought you out’(완료)·es ‘que los saca’(현재)로 세 언어 시제가 다르고, en만 ‘burdens of the Egyptians’, es는 ‘cargas de Egipto’이다. 본 검토는 분사의 시제 미표시를 존중해 세 언어 모두 현재형(이끌어 내는 / who brings / que los saca)으로 통일하고 과거 읽기(칠십인역 OCR ὁ ἐξαγαγών, KRV ‘빼어낸’)를 대안으로 남겼다."
+    },
+    {
+      "id": "Exod.6.3",
+      "severity": "low",
+      "finding_ko": "이전 초안 reason_ko의 ‘소문자 연결 וּשְׁמִי’는 히브리어 문법 용어로 성립하지 않는 표현이다. 실제 구문 쟁점은 וּשְׁמִי יְהוָה의 전치(부사적 대격 또는 독립 주제어)이다."
+    },
+    {
+      "id": "Exod.6.4-5,6.8",
+      "severity": "low",
+      "finding_ko": "6:4·6:5·6:8은 이전 초안과 실질적으로 같은 해석이다. 6:8 en에서 ‘손을 들어’ 이미지가 빠졌으나 의미(맹세)는 보존되었다. 좋은 기존 해석은 바꿀 필요가 없다."
+    }
+  ],
+  "morphology_tag_observations": {
+    "note_ko": "관찰만 기록하며 고정 OSHB 데이터를 수정하지 않는다. 형태 태그는 번역 판단의 근거가 아니다.",
+    "Exod.6.3_02C6S": "בְּ/אֵ֣ל is tagged HR/Ncmsa (El as common noun 'God') with שַׁדָּ֑י tagged HNp (proper noun). The tagging supports 'God Shadday' as well as the name-like 'El Shadday'; it does not decide the rendering.",
+    "Exod.6.3_02HGZ": "נוֹדַ֖עְתִּי tagged HVNp1cs (Niphal perfect 1cs). Niphal allows passive or reflexive; the tag does not decide between them.",
+    "Exod.6.6_note": "WLC <note n=\"1\"> inside Exod.6.6 is preserved verbatim; its text does not identify which form it concerns. It is placed after word 02sNS יִשְׂרָאֵ֘ל and before 02Rij. No inference about the form is made."
+  },
+  "reception_evidence": {
+    "source_note": "Hebrew parallels come from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from a third-party raw OCR of Swete LXX at a pinned commit (not a critical edition; OCR defects visible, e.g. missing spaces and a missing theos in 2.6.7). KRV/ASV/RV1909 lines come from this repository library (upstream marked public domain) and are translation reception, not manuscript evidence.",
+    "hebrew_parallels": [
+      {
+        "ref": "Ezek.20.5",
+        "excerpt": "וָאִוָּדַע לָהֶם בְּאֶרֶץ מִצְרָיִם וָאֶשָּׂא יָדִי לָהֶם לֵאמֹר אֲנִי יְהוָה אֱלֹהֵיכֶם",
+        "relevance": "Niphal of yd' with lahem (I made myself known to them) + lifting the hand (oath) + ani YHWH eloheikhem: combines the vocabulary of Exod 6:3, 6:7 and 6:8",
+        "file_sha256": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezek.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Ezek.20.9",
+        "excerpt": "אֲשֶׁר נוֹדַעְתִּי אֲלֵיהֶם לְעֵינֵיהֶם לְהוֹצִיאָם מֵאֶרֶץ מִצְרָיִם",
+        "relevance": "identical form nodati (Niphal perfect 1cs) in a reflexive sense tied to bringing out of Egypt",
+        "file_sha256": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezek.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.17.1",
+        "excerpt": "וַיֵּרָא יְהוָה אֶל אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי אֵל שַׁדַּי",
+        "relevance": "appearance + self-presentation as El Shadday to Abram; narrator uses YHWH",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.17.7",
+        "excerpt": "וַהֲקִמֹתִי אֶת בְּרִיתִי",
+        "relevance": "same verb + object as Exod 6:4",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.17.8",
+        "excerpt": "אֵת אֶרֶץ מְגֻרֶיךָ אֵת כָּל אֶרֶץ כְּנַעַן",
+        "relevance": "land of sojournings = land of Canaan apposition, as in Exod 6:4",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.35.11",
+        "excerpt": "אֲנִי אֵל שַׁדַּי",
+        "relevance": "El Shadday self-presentation to Jacob",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.48.3",
+        "excerpt": "אֵל שַׁדַּי נִרְאָה אֵלַי בְּלוּז",
+        "relevance": "Niphal of r'h + El Shadday: matches va-era ... be-El Shadday",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.15.7",
+        "excerpt": "וַיֹּאמֶר אֵלָיו אֲנִי יְהוָה אֲשֶׁר הוֹצֵאתִיךָ",
+        "relevance": "God self-presents as YHWH to Abram: main tension with a literal knowledge-of-name reading of Exod 6:3",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.28.13",
+        "excerpt": "אֲנִי יְהוָה אֱלֹהֵי אַבְרָהָם אָבִיךָ",
+        "relevance": "God self-presents as YHWH to Jacob: same tension",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Gen.4.26",
+        "excerpt": "אָז הוּחַל לִקְרֹא בְּשֵׁם יְהוָה",
+        "relevance": "already-published project verse: calling on the name of YHWH before the patriarchs",
+        "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Exod.2.24",
+        "excerpt": "וַיִּשְׁמַע אֱלֹהִים אֶת נַאֲקָתָם וַיִּזְכֹּר אֱלֹהִים אֶת בְּרִיתוֹ",
+        "relevance": "narrative anticipation of Exod 6:5 (heard groaning, remembered covenant)",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "ref": "Exod.3.15",
+        "excerpt": "זֶה שְּׁמִי לְעֹלָם",
+        "relevance": "earlier name revelation; Exod 6:2-8 repeats the commission with different framing",
+        "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+        "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+        "excerpt_form": "derived from pinned WLC w tokens: slashes removed, maqqef/segs omitted, cantillation and meteg removed, Unicode NFC",
+        "excerpt_verified_against_file": true
+      }
+    ],
+    "lxx_ocr_excerpts": [
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.6.3",
+        "excerpt": "θεὸς ὢν αὐτῶν, καὶ τὸ ὄνομά μου κύριος οὐκ ἐδήλωσα αὐτοῖς",
+        "note": "be-El Shadday rendered 'being their God' (no Shadday equivalent); name treated as object of an active verb 'I did not make known'. Reception only; not evidence of a different Hebrew verb form without critical collation.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.6.5",
+        "excerpt": "ἐμνήσθην τῆς διαθήκης ὑμῶν",
+        "note": "'your covenant' where pinned WLC has beriti (my covenant). Could be a Greek reading or an OCR/edition issue; not verified against a critical edition.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.6.6",
+        "excerpt": "βάδιζε εἰπὸν τοῖς υἱοῖς Ἰσραὴλ",
+        "note": "'Go, say' where WLC has lakhen emor (therefore say). Not reconstructed into Hebrew here.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.6.6",
+        "excerpt": "λυτρώσομαι ὑμᾶς ἐν βραχίονι ὑψηλῷ",
+        "note": "'high arm' for zeroa netuyah (outstretched arm).",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.6.7",
+        "excerpt": "ὁ ἐξαγαγὼν ὑμᾶς ἐκ τῆς καταδυναστείας τῶν Αἰγυπτίων",
+        "note": "aorist participle (who brought out) for ha-motsi; 'of the Egyptians' for Mitsrayim.",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception_ocr",
+        "witness": "Swete LXX via third-party raw OCR",
+        "line_id": "2.6.8",
+        "excerpt": "ἐξέτεινα τὴν χεῖρά μου",
+        "note": "'I stretched out my hand' for nasati et yadi.",
+        "excerpt_verified_against_file": true
+      }
+    ],
+    "library_excerpts": [
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.6.3",
+        "path": "library/krv/Exod.json",
+        "excerpt": "전능의 하나님으로 나타났으나 나의 이름을 여호와로는 그들에게 알리지 아니하였고",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.6.7",
+        "path": "library/krv/Exod.json",
+        "excerpt": "너희를 빼어낸 너희 하나님 여호와인줄 너희가 알지라",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "krv",
+        "ref": "Exod.6.8",
+        "path": "library/krv/Exod.json",
+        "excerpt": "나는 여호와로라 하셨다 하라",
+        "file_sha256": "667a44535619fc83db7b844e256f84ab7d2501f0409ea0aca65e6267501c7888",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.6.3",
+        "path": "library/asv/Exod.json",
+        "excerpt": "as God Almighty; but by my name Jehovah I was not known to them.",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.6.6",
+        "path": "library/asv/Exod.json",
+        "excerpt": "from under the burdens of the Egyptians, and I will rid you out of their bondage",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "asv",
+        "ref": "Exod.6.7",
+        "path": "library/asv/Exod.json",
+        "excerpt": "who bringeth you out from under the burdens of the Egyptians.",
+        "file_sha256": "e85c466d0708e2912d15fa2c24ec88b42867a676385e03ed7b5898f46b308a0d",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.6.3",
+        "path": "library/rv1909/Exod.json",
+        "excerpt": "bajo el nombre de Dios Omnipotente, mas en mi nombre JEHOVÁ no me notifiqué á ellos.",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.6.7",
+        "path": "library/rv1909/Exod.json",
+        "excerpt": "que os saco de debajo de las cargas de Egipto",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt_verified_against_file": true
+      },
+      {
+        "kind": "translation_reception",
+        "translation": "rv1909",
+        "ref": "Exod.6.8",
+        "path": "library/rv1909/Exod.json",
+        "excerpt": "por la cual alcé mi mano que la daría á Abraham",
+        "file_sha256": "e7960bf59d0501e16986774286551ee795bdaff9cb3a82e23dd9e506453cdfd1",
+        "excerpt_verified_against_file": true
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "사마리아 오경·쿰란 사본·비평판 칠십인역에서 6:3 נוֹדַעְתִּי 대신 히필 הוֹדַעְתִּי(내가 알렸다)를 읽는지 여부.",
+      "status": "not_verified_in_session",
+      "reason": "No Samaritan, Qumran or critical LXX edition accessed. The Greek active edelosa is reception only."
+    },
+    {
+      "claim_ko": "שַׁדַּי 어원(산, 젖가슴, 자족 ‘שֶׁ+דַּי’ 등) 학설.",
+      "status": "not_verified_in_session",
+      "reason": "No lexicon or scholarly source accessed; mentioned only as the existence of competing proposals, without attribution."
+    },
+    {
+      "claim_ko": "불가타(라틴어 역)의 6:3 번역(이름을 Adonai로 옮겼다는 전승 등).",
+      "status": "not_verified_in_session",
+      "reason": "No Latin text accessed."
+    },
+    {
+      "claim_ko": "6:2-8을 제사장계(P) 자료로, 3:13-15를 다른 자료로 보는 자료비평 설명.",
+      "status": "not_verified_in_session",
+      "reason": "Scholarly reception known only in general terms; no source accessed or cited."
+    }
+  ],
+  "alternatives": {
+    "Exod.6.2": [
+      {
+        "option": "A (preferred)",
+        "reading": "God spoke to Moses and said to him, I am YHWH (speech opens and continues)",
+        "argument_ko": "두 발화 동사를 모두 반영하고, 6:8까지 이어지는 연설의 시작으로 인용을 연다.",
+        "objection_ko": "한국어에서 ‘말씀하시며 … 이르셨다’는 다소 중복적이다."
+      },
+      {
+        "option": "B",
+        "reading": "God spoke to Moses: I am YHWH (one speech verb)",
+        "argument_ko": "자연스러운 문체.",
+        "objection_ko": "וַיֹּאמֶר אֵלָיו 절이 빠져 ‘누락 절 없음’ 원칙과 충돌한다."
+      }
+    ],
+    "Exod.6.3": [
+      {
+        "option": "A (preferred)",
+        "reading": "as El Shaddai, but by my name YHWH I did not make myself known to them",
+        "argument_ko": "beth essentiae와 전치된 이름을 대구로 읽고, 니팔을 에스겔 20:5, 20:9처럼 재귀로 읽는다. 이름의 대조(엘 샤다이 대 야훼)가 번역에 그대로 보인다.",
+        "objection_ko": "창세기 15:7, 28:13에서 하나님이 이미 ‘나는 야훼’라고 말하므로, 문자 그대로 읽으면 창세기와 충돌하는 주장을 독자에게 그대로 전달한다."
+      },
+      {
+        "option": "B",
+        "reading": "as God Almighty (traditional rendering of El Shadday)",
+        "argument_ko": "KRV ‘전능의 하나님’, ASV ‘God Almighty’, RV1909 ‘Dios Omnipotente’ 전통과 친숙성.",
+        "objection_ko": "‘전능’은 어원이 불확실한 שַׁדַּי에 대한 해석적 번역이며, 이름 대 이름의 대조를 칭호 대 이름으로 바꾼다. 칠십인역 OCR은 이 구절에서 ‘전능’이 아니라 ‘그들의 하나님으로서’로 옮겼다."
+      },
+      {
+        "option": "C",
+        "reading": "but my name YHWH I did not make known to them (name as object)",
+        "argument_ko": "칠십인역 OCR(τὸ ὄνομά μου κύριος οὐκ ἐδήλωσα)과 KRV(‘나의 이름을 … 알리지 아니하였고’)의 수용 전통.",
+        "objection_ko": "고정 WLC는 능동 히필이 아니라 니팔 נוֹדַעְתִּי이다. 목적어 읽기는 다른 동사형을 전제하는 재구성이며 이 세션에서 히브리어 이문으로 확인되지 않았다."
+      },
+      {
+        "option": "D",
+        "reading": "Did I not make myself known to them by my name YHWH? (rhetorical question)",
+        "argument_ko": "창세기와의 충돌을 해소한다.",
+        "objection_ko": "의문 표지(הֲ)가 없고, 문맥(6:2 ‘나는 야훼’, 6:7 ‘너희가 알게 될 것’)이 새로운 앎을 강조한다. 조화를 위한 구문 재구성으로 보아 본문에서 채택하지 않는다."
+      },
+      {
+        "option": "E",
+        "reading": "I was not known to them (passive Niphal)",
+        "argument_ko": "ASV ‘I was not known’. 니팔의 수동 용법도 가능하다.",
+        "objection_ko": "‘알려지지 않았다’는 족장들이 이름을 몰랐다는 지식 주장으로 더 강하게 읽힌다. 재귀는 하나님의 자기 계시 행위에 초점을 둔다. 둘 다 문법적으로 가능하므로 각주로 남긴다."
+      }
+    ],
+    "Exod.6.4": [
+      {
+        "option": "A (preferred)",
+        "reading": "established my covenant ... the land of Canaan, the land of their sojournings, where they sojourned",
+        "argument_ko": "동격과 관계절 반복(גור 어근 두 번)을 en/es에서 보존. 창세기 17:7-8과 어휘가 같다.",
+        "objection_ko": "ko는 ‘나그네로 머물던 땅’ 하나로 압축해 어근 반복이 약해졌다."
+      },
+      {
+        "option": "B",
+        "reading": "I made a covenant / I confirmed my covenant",
+        "argument_ko": "KRV ‘언약하였더니’처럼 단순화.",
+        "objection_ko": "הֵקִים은 ‘세우다/유지하다’이며 창 17 ‘세우다’와의 연결이 흐려진다."
+      }
+    ],
+    "Exod.6.5": [
+      {
+        "option": "A (preferred)",
+        "reading": "Moreover, I myself have heard ... whom the Egyptians are holding in slavery, and I have remembered",
+        "argument_ko": "וְגַם과 강조 대명사 אֲנִי를 반영, 분사의 진행성 유지.",
+        "objection_ko": "‘I myself’는 영어에서 과하게 들릴 수 있다."
+      },
+      {
+        "option": "B",
+        "reading": "your covenant (Greek OCR)",
+        "argument_ko": "칠십인역 OCR ‘τῆς διαθήκης ὑμῶν’.",
+        "objection_ko": "고정 WLC는 בְּרִיתִי(내 언약)이며 6:4 ‘내 언약’과 대응한다. 그리스어 판독 확인이 안 되었다."
+      }
+    ],
+    "Exod.6.6": [
+      {
+        "option": "A (preferred)",
+        "reading": "I am YHWH. I will bring you out from under the burdens of the Egyptians, rescue you from slavery to them, and redeem you",
+        "argument_ko": "3복 접미사(עֲבֹדָתָם)의 선행사를 분명히 하려고 מִצְרַיִם을 ‘이집트 사람들’로 옮겼다(6:5에서 복수 분사와 일치하는 같은 단어). ASV도 ‘burdens of the Egyptians … their bondage’.",
+        "objection_ko": "סִבְלֹת מִצְרַיִם의 문자적 의미는 ‘이집트의 짐’이고 RV1909도 ‘cargas de Egipto’이다. ‘slavery to them’은 해석적 명시화이다."
+      },
+      {
+        "option": "B",
+        "reading": "I, YHWH, will bring you out (ani YHWH as subject of the weqatal chain)",
+        "argument_ko": "주어 강조로 자연스럽다.",
+        "objection_ko": "וְהוֹצֵאתִי의 접속 와우는 새 절을 시작하며, 같은 공식이 6:2, 6:8에 독립 문장으로 나온다."
+      },
+      {
+        "option": "C",
+        "reading": "with great plagues / judgments",
+        "argument_ko": "KRV ‘큰 재앙’.",
+        "objection_ko": "שְׁפָטִים은 ‘심판 행위’이며 재앙은 그 내용 해석이다."
+      }
+    ],
+    "Exod.6.7": [
+      {
+        "option": "A (preferred)",
+        "reading": "you will know that I am YHWH your God, who brings you out",
+        "argument_ko": "분사의 시제 미표시를 존중하고 ASV/RV1909와 같다.",
+        "objection_ko": "앎은 구출 이후에 오므로 과거(‘이끌어 낸’)가 더 자연스럽다. 칠십인역 OCR(ὁ ἐξαγαγών)과 KRV(‘빼어낸’)가 그렇게 읽는다."
+      },
+      {
+        "option": "B",
+        "reading": "that I, YHWH, am your God",
+        "argument_ko": "명사문 분석상 가능.",
+        "objection_ko": "출애굽기의 반복 인식 공식은 ‘내가 야훼임을’이 중심이다."
+      }
+    ],
+    "Exod.6.8": [
+      {
+        "option": "A (preferred)",
+        "reading": "swore with uplifted hand ... as a possession. I am YHWH.",
+        "argument_ko": "관용구의 이미지와 의미(맹세)를 함께 보존. 에스겔 20:5와 같은 관용구.",
+        "objection_ko": "en ‘with uplifted hand’는 다소 고풍스럽다."
+      },
+      {
+        "option": "B",
+        "reading": "as an inheritance / heritage",
+        "argument_ko": "KRV ‘기업’, ASV ‘heritage’, RV1909 ‘heredad’.",
+        "objection_ko": "מוֹרָשָׁה는 상속보다 ‘소유로 주어진 것’에 가깝고, 6:4·6:8의 수여(נתן) 문맥과 ‘소유’가 맞는다. 신학적 상속 함의를 각주로 남길 수 있다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Exod.6.3: preferred wording states plainly 'by my name YHWH I did not make myself known to them' and renders El Shadday as a transliterated name",
+    "objection_ko": "창세기 본문(고정 WLC 15:7 ‘나는 야훼’, 28:13 ‘나는 야훼, 네 조상 아브라함의 하나님’)과 이 프로젝트가 이미 공개한 창세기 4:26(‘그때 사람들이 야훼의 이름을 부르기 시작했다’)에서 이름은 이미 알려져 있다. 문자 그대로의 번역은 독자에게 성경 안의 모순을 드러내 보이며, 의문문 읽기(D)나 ‘이름의 의미/성품으로는’ 같은 해석 보충이 독자 보호에 낫다는 반론이다. 또한 ‘엘 샤다이’ 음역은 한국어 독자에게 낯설고 전통 ‘전능의 하나님’을 잃는다.",
+    "test_ko": "절 단위 시험: (a) 6:3c-d 형태 — 전치된 וּשְׁמִי יְהוָה, 부정어 לֹא, 니팔 완료 1공단; 의문 표지 없음. (b) 구조 — 6:3b בְּאֵל שַׁדָּי와 6:3c וּשְׁמִי יְהוָה가 대구를 이루므로 ‘~로서 나타남’ 대 ‘~로서는 알리지 않음’의 대조가 원문 자체의 수사이다. (c) 담화 — 6:7 ‘너희가 알게 될 것이다’가 새로운 앎을 약속하므로 6:3의 부정은 6:7의 긍정과 짝을 이룬다. (d) 평행 — 에스겔 20:5, 20:9의 같은 니팔이 ‘이집트에서 이끌어 냄’과 결합한 자기 계시를 뜻하므로, 6:3의 ‘알리지 않음’은 출애굽 구원 행위를 통한 이름의 자기 계시가 아직 없었다는 뜻으로 읽을 여지가 있다. 이는 해석이지 번역 수정 근거가 아니다. (e) 음역 — 6:3 안에서 두 신명이 대조되므로, 하나만 칭호(전능의 하나님)로 바꾸면 대조가 비대칭이 된다.",
+    "response_ko": "결론: 반론은 독자 이해에 관해 실질적이지만 히브리어 문장을 바꿀 근거는 아니다. 본문은 A를 유지하고, 필수 각주로 (1) 창세기 15:7, 28:13, 4:26과의 긴장, (2) 해석 선택지(이름 지식 대 자기 계시 행위/성품, 자료사적 설명, 의문문 읽기)를 지지하거나 반대하지 않고 구분해 제시, (3) ‘엘 샤다이’의 전통 번역 ‘전능의 하나님’과 어원 불확실성을 둔다. 신뢰도: 구문 ‘중상’, 각주 필요성 ‘높음’, 음역 선택은 편집 결정 사안."
+  },
+  "secondary_objections": [
+    {
+      "target": "Exod.6.6-7 Egyptians vs Egypt",
+      "objection_ko": "סִבְלֹת מִצְרַיִם을 ‘이집트 사람들의 짐’으로 옮기면 문자(‘이집트의 짐’)에서 벗어난다.",
+      "response_ko": "6:5에서 같은 מִצְרַיִם이 복수 분사와 일치해 ‘이집트 사람들’을 가리키고, 6:6의 3복 접미사가 이를 다시 받는다. 의미 손실 없이 지시 관계를 분명히 하는 선택이다. 편집이 지명 ‘이집트’를 유지하기로 하면 6:6d를 ‘그들의 종살이’ 대신 ‘그 종살이’로 바꿔야 한다."
+    },
+    {
+      "target": "Exod.6.6 gaal",
+      "objection_ko": "‘속량하다/redeem/redimir’는 기독교 신학 어휘로 읽혀 친족 구속자(גֹּאֵל) 배경이 가려진다.",
+      "response_ko": "다른 대안(‘되찾다’)은 6:6의 법적·친족 의미를 더 약화한다. 각주로 גאל의 친족 구속 배경을 둔다."
+    },
+    {
+      "target": "Exod.6.2 Elohim",
+      "objection_ko": "6:2 주어 אֱלֹהִים(하나님)과 연설 첫마디 ‘나는 야훼’의 대비가 자료비평 해석을 유도한다는 주장.",
+      "response_ko": "번역은 원문 그대로 ‘하나님’과 ‘야훼’를 구분해 보존할 뿐, 자료비평 판단을 본문에 넣지 않는다."
+    }
+  ],
+  "preferred_wording": {
+    "Exod.6.2": {
+      "ko": "하나님이 모세에게 말씀하시며 그에게 이르셨다. “나는 야훼이다.",
+      "en": "God spoke to Moses and said to him, “I am YHWH.",
+      "es": "Dios habló a Moisés y le dijo: «Yo soy YHWH.",
+      "reason_ko": "וַיְדַבֵּר와 וַיֹּאמֶר אֵלָיו 두 발화 틀을 모두 반영했다. 주어는 원문대로 ‘하나님’(אֱלֹהִים)이고 연설 첫마디는 신명 ‘야훼’이다. 인용은 6:8 끝까지 이어지므로 여기서 닫지 않는다.",
+      "counterargument_ko": "한국어 ‘말씀하시며 … 이르셨다’는 중복적으로 들린다.",
+      "current_opinion_ko": "누락 절을 피하려고 두 동사를 유지한다.",
+      "reconsider_if_ko": "편집 관례가 이중 발화 틀을 한 동사로 줄이는 것을 허용하면 ‘하나님이 모세에게 말씀하셨다’로 줄인다."
+    },
+    "Exod.6.3": {
+      "ko": "나는 아브라함과 이삭과 야곱에게 엘 샤다이로 나타났으나, 내 이름 야훼로는 그들에게 나를 알리지 않았다.",
+      "en": "I appeared to Abraham, to Isaac, and to Jacob as El Shaddai, but by my name YHWH I did not make myself known to them.",
+      "es": "Me aparecí a Abraham, a Isaac y a Jacob como El Shaddai, pero por mi nombre YHWH no me di a conocer a ellos.",
+      "reason_ko": "בְּאֵל שַׁדָּי의 בְּ를 자격(‘~로서’)으로, 전치된 וּשְׁמִי יְהוָה를 같은 자격의 대구(‘내 이름 야훼로는’)로 읽었다. נוֹדַעְתִּי는 니팔 완료이며 에스겔 20:9의 같은 형태처럼 재귀(‘나를 알리다’)로 옮겼다. 두 신명의 대조를 살리려고 엘 샤다이를 음역했다.",
+      "counterargument_ko": "가장 강한 반론: 창세기 15:7, 28:13에서 하나님이 이미 ‘나는 야훼’라고 말하므로 이 번역은 창세기와 충돌하는 주장을 그대로 노출한다. 전통 번역 ‘전능의 하나님’(KRV)·‘God Almighty’(ASV)·‘Dios Omnipotente’(RV1909)를 버리는 것도 독자에게 낯설다.",
+      "current_opinion_ko": "원문 주장을 조화시키지 않고 그대로 옮기며, 긴장과 해석 선택지는 각주로 분리한다. 음역은 편집 결정 사안으로 표시한다.",
+      "reconsider_if_ko": "편집이 엘 샤다이 대신 전통 번역(전능의 하나님/God Almighty/Dios Todopoderoso)을 채택하거나, 사마리아 오경·쿰란·비평판 칠십인역에서 히필(הוֹדַעְתִּי) 같은 히브리어 차원의 이문이 확인되면."
+    },
+    "Exod.6.4": {
+      "ko": "또 나는 그들과 내 언약을 세워, 가나안 땅, 곧 그들이 나그네로 머물던 땅을 그들에게 주기로 하였다.",
+      "en": "I also established my covenant with them, to give them the land of Canaan, the land of their sojournings, where they sojourned.",
+      "es": "También establecí mi pacto con ellos, para darles la tierra de Canaán, la tierra de sus peregrinaciones, en la que residieron como forasteros.",
+      "reason_ko": "הֲקִמֹתִי(히필 완료)는 창세기 17:7 וַהֲקִמֹתִי אֶת בְּרִיתִי와 같은 어휘이다. 두 번째 אֵת는 동격(가나안 땅 = 나그네 살이 땅)이며 창세기 17:8도 같은 동격을 쓴다.",
+      "counterargument_ko": "ko는 ‘나그네로 머물던 땅’으로 압축해 גור 어근의 반복(מְגֻרֵיהֶם … גָּרוּ)이 한 번만 드러난다.",
+      "current_opinion_ko": "의미 누락은 없고 en/es가 반복을 보존한다.",
+      "reconsider_if_ko": "편집이 ko에서도 어근 반복 보존을 요구하면 ‘그들이 나그네로 살던 땅, 그들이 나그네로 머문 그 땅’ 같은 형태로 늘린다."
+    },
+    "Exod.6.5": {
+      "ko": "또 내가 이집트 사람들이 종으로 부리고 있는 이스라엘 자손의 신음 소리를 들었고, 내 언약을 기억하였다.",
+      "en": "Moreover, I myself have heard the groaning of the Israelites, whom the Egyptians are holding in slavery, and I have remembered my covenant.",
+      "es": "Además, yo mismo he oído el gemido de los israelitas, a quienes los egipcios tienen esclavizados, y me he acordado de mi pacto.",
+      "reason_ko": "וְגַם ׀ אֲנִי는 6:4의 וְגַם과 짝을 이루고 강조 대명사가 붙는다(paseq는 원문에 보존). מִצְרַיִם이 복수 분사 מַעֲבִדִים과 일치하므로 ‘이집트 사람들’이다. 출애굽기 2:24(들음·기억함)와 짝이다.",
+      "counterargument_ko": "‘I myself/yo mismo’는 과하게 들릴 수 있다. 칠십인역 OCR은 ‘너희 언약’(ὑμῶν)으로 읽는다.",
+      "current_opinion_ko": "고정 WLC ‘내 언약’을 유지하고 강조는 가볍게 반영한다.",
+      "reconsider_if_ko": "비평판 칠십인역이나 다른 히브리어 증거에서 ‘너희 언약’ 계열 읽기가 히브리어 차원 이문으로 확인되면 각주를 추가한다(본문 변경은 아님)."
+    },
+    "Exod.6.6": {
+      "ko": "그러므로 이스라엘 자손에게 말하여라. ‘나는 야훼이다. 내가 너희를 이집트 사람들의 무거운 짐 밑에서 이끌어 내고, 그들에게 매인 종살이에서 너희를 건져 내며, 편 팔과 큰 심판으로 너희를 속량하겠다.",
+      "en": "Therefore say to the Israelites, ‘I am YHWH. I will bring you out from under the burdens of the Egyptians, I will rescue you from slavery to them, and I will redeem you with an outstretched arm and with great judgments.",
+      "es": "Por tanto, di a los israelitas: “Yo soy YHWH. Los sacaré de debajo de las cargas de los egipcios, los libraré de la esclavitud que ellos les imponen y los redimiré con brazo extendido y con grandes juicios.",
+      "reason_ko": "לָכֵן은 6:2-5에서 결론을 끌어낸다. 전달 메시지(2단계 인용)는 אֲנִי יְהוָה로 열린다. 와우 완료 세 동사(이끌어 냄·건져 냄·속량함)는 미래 약속이다. מֵעֲבֹדָתָם의 3복 접미사는 이집트 사람들을 가리키므로 ‘그들에게 매인 종살이/slavery to them/la esclavitud que ellos les imponen’으로 지시를 분명히 했다. שְׁפָטִים은 ‘심판(행위)’이다.",
+      "counterargument_ko": "문자적으로는 ‘이집트의 짐’, ‘그들의 종살이’이며 RV1909도 ‘cargas de Egipto … su servidumbre’이다. 명시화는 해석 개입이다. es ‘su esclavitud’는 ustedes 체계에서 ‘너희의 종살이’로도 읽혀 모호하므로 피했다.",
+      "current_opinion_ko": "지시 관계 명시화를 유지한다. 의미는 같고 오독을 줄인다.",
+      "reconsider_if_ko": "편집이 מִצְרַיִם을 일관되게 지명 ‘이집트’로 옮기기로 하면 6:6-7을 ‘이집트의 무거운 짐’으로 바꾸고 6:6d를 ‘그 종살이에서/from that slavery/de esa esclavitud’로 조정한다."
+    },
+    "Exod.6.7": {
+      "ko": "내가 너희를 내 백성으로 삼고 너희의 하나님이 되겠다. 그러면 너희는 내가 너희를 이집트 사람들의 무거운 짐 밑에서 이끌어 내는 너희 하나님 야훼임을 알게 될 것이다.",
+      "en": "I will take you as my people, and I will be your God, and you will know that I am YHWH your God, who brings you out from under the burdens of the Egyptians.",
+      "es": "Los tomaré como mi pueblo y seré su Dios, y sabrán que yo soy YHWH su Dios, que los saca de debajo de las cargas de los egipcios.",
+      "reason_ko": "언약 공식(내 백성/너희 하나님)과 인식 공식(וִידַעְתֶּם כִּי אֲנִי יְהוָה)을 보존했다. 관사 붙은 분사 הַמּוֹצִיא는 시제를 표시하지 않으므로 세 언어 모두 현재형으로 통일했다. 6:3의 ‘알리지 않았다’와 6:7의 ‘알게 될 것이다’는 짝이다.",
+      "counterargument_ko": "앎은 구출 이후의 일이므로 과거 ‘이끌어 낸’이 더 자연스럽고, 칠십인역 OCR(ὁ ἐξαγαγών)과 KRV(‘빼어낸’)도 과거로 읽는다.",
+      "current_opinion_ko": "분사의 열린 시제를 보존하는 현재형을 유지하고 과거 읽기는 대안으로 둔다.",
+      "reconsider_if_ko": "편집이 수용 전통에 맞춰 분사를 과거로 옮기기로 하면 ko ‘이끌어 낸’, en ‘who brought you out’, es ‘que los sacó’로 세 언어를 함께 바꾼다."
+    },
+    "Exod.6.8": {
+      "ko": "내가 아브라함과 이삭과 야곱에게 주겠다고 손을 들어 맹세한 그 땅으로 너희를 데리고 들어가, 그 땅을 너희에게 소유로 주겠다. 나는 야훼이다.’”",
+      "en": "I will bring you into the land that I swore with uplifted hand to give to Abraham, to Isaac, and to Jacob, and I will give it to you as a possession. I am YHWH.’”",
+      "es": "Los llevaré a la tierra que juré con mano alzada dar a Abraham, a Isaac y a Jacob, y se la daré a ustedes en posesión. Yo soy YHWH”».",
+      "reason_ko": "נָשָׂאתִי אֶת־יָדִי는 맹세 관용구이며(에스겔 20:5 וָאֶשָּׂא יָדִי) 이미지와 의미를 함께 살렸다. מוֹרָשָׁה는 ‘소유’. 마지막 אֲנִי יְהוָה는 6:2, 6:6과 수미상관을 이루며 여기서 안쪽·바깥쪽 인용을 모두 닫는다(KRV ‘…하셨다 하라’도 6:8에서 닫음).",
+      "counterargument_ko": "‘기업/heritage/heredad’ 전통이 강하고, en ‘with uplifted hand’는 고풍스럽다.",
+      "current_opinion_ko": "‘소유’와 ‘손을 들어 맹세한’을 유지한다.",
+      "reconsider_if_ko": "편집이 מוֹרָשָׁה와 נַחֲלָה의 대응어 체계를 정해 ‘기업/유산’ 계열을 쓰기로 하면 바꾼다."
+    }
+  },
+  "speech_boundaries_ko": "6:2 וַיֹּאמֶר אֵלָיו 뒤에서 하나님의 말(바깥 인용)이 열리고 6:8 끝까지 새 발화 틀 없이 이어진다. 6:6 לָכֵן אֱמֹר לִבְנֵי־יִשְׂרָאֵל 뒤에서 모세가 전할 말(안쪽 인용)이 אֲנִי יְהוָה로 열려 6:8 끝 אֲנִי יְהוָה에서 닫힌다. 따라서 6:8 끝에서 안쪽과 바깥쪽 인용이 함께 닫힌다(ko ’”, en ’”, es ”»). 6:9는 이 단위 밖이며 서술로 돌아간다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Exod.6.3",
+      "note_ko": "‘엘 샤다이’(אֵל שַׁדַּי)는 창세기 17:1, 28:3, 35:11, 48:3에 나오는 신명이다. 전통적으로 ‘전능의 하나님’으로 번역되지만 שַׁדַּי의 어원은 확정되지 않았다. 칠십인역(스웨트 판 OCR)은 이 구절에서 ‘그들의 하나님으로서’로 옮겼다."
+    },
+    {
+      "id": "Exod.6.3",
+      "note_ko": "창세기에는 하나님이 족장들에게 ‘나는 야훼’라고 말씀하시는 장면(15:7, 28:13)과 사람들이 야훼의 이름을 부르는 장면(4:26)이 있다. 이 절의 ‘알리지 않았다’를 이름 자체를 몰랐다는 뜻으로 볼지, 출애굽의 구원 행위로 그 이름이 드러나지 않았다는 뜻으로 볼지, 서로 다른 전승의 흔적으로 볼지는 해석의 문제이며 번역은 히브리어 문장을 그대로 옮겼다. 니팔 נוֹדַעְתִּי는 ‘알려졌다’(수동)로도 읽을 수 있다."
+    },
+    {
+      "id": "Exod.6.5",
+      "note_ko": "출애굽기 2:24 ‘하나님이 그들의 신음 소리를 들으시고 … 언약을 기억하셨다’와 짝을 이룬다."
+    },
+    {
+      "id": "Exod.6.6",
+      "note_ko": "‘속량하다’(גָּאַל)는 친족이 값을 치르거나 대신 나서서 되찾는 행위를 가리키는 말이다. ‘편 팔’은 힘의 표현이다."
+    },
+    {
+      "id": "Exod.6.7",
+      "note_ko": "‘이끌어 내는’(הַמּוֹצִיא)은 시제가 표시되지 않은 분사이며 ‘이끌어 낸’으로도 옮길 수 있다."
+    },
+    {
+      "id": "Exod.6.8",
+      "note_ko": "‘손을 들어 맹세하다’는 히브리어 관용구 ‘내 손을 들었다’이다(에스겔 20:5 참조)."
+    }
+  ],
+  "published_verse_interactions": [
+    {
+      "id": "Gen.4.26",
+      "selected_text_changed": false,
+      "observation_ko": "이미 공개된 창세기 4:26(‘그때 사람들이 야훼의 이름을 부르기 시작했다’)은 출애굽기 6:3과 긴장 관계에 있다. 공개본은 바꾸지 않으며, 출애굽기 6:3 각주에서 교차 참조하는 것을 제안한다."
+    },
+    {
+      "id": "Gen.2.4",
+      "selected_text_changed": false,
+      "observation_ko": "관찰: 현재 선택본 창세기 2:4는 en ‘Yahweh God’, es ‘Yahvé Dios’를 쓰는데, 다른 공개 절(창 3:14, 4:1, 4:26)은 en/es ‘YHWH’를 쓴다. 본 검토는 YHWH를 따랐다. 신명 표기 통일은 편집 결정 사안이며 이 검토에서 선택본을 수정하지 않았다."
+    }
+  ],
+  "final_opinion_ko": "일곱 절 모두 고정 WLC 본문을 번역했고 이문이나 재구성을 본문에 채택하지 않았다. 핵심 판단: (1) 6:3은 ‘엘 샤다이로 나타났으나 내 이름 야훼로는 나를 알리지 않았다’로 원문 주장을 조화하지 않고 옮기며, 창세기와의 긴장과 해석 선택지는 각주로 분리한다. 니팔은 에스겔 20:5, 20:9 평행에 근거해 재귀로 세 언어를 통일했다. (2) 하나님의 연설은 6:2부터 6:8까지 한 덩어리이고, 6:6에서 모세가 전할 안쪽 인용이 열려 6:8에서 함께 닫힌다(이전 Sonnet 초안의 6:2 인용 닫음 오류 수정). (3) 6:6은 이전 초안에서 빠졌던 절로, 본 검토가 처음으로 세 언어안을 제시한다. (4) מִצְרַיִם은 6:5-7에서 ‘이집트 사람들’로 통일해 6:6 3복 접미사의 지시를 분명히 했다. (5) 6:7 분사는 현재형으로 통일하고 과거 읽기는 대안으로 둔다. 이 기록은 미채택 모델 검토이며 GPT/Gemini 독립 검토, 공식 agy 검토, 버전 편집 채택 전에는 게시되지 않는다.",
+  "confidence_limits": [
+    {
+      "id": "Exod.6.2",
+      "level": "high",
+      "note_ko": "구문 단순; ko 문체만 편집 사안."
+    },
+    {
+      "id": "Exod.6.3",
+      "level": "medium",
+      "note_ko": "구문(대구·재귀 니팔)은 중상; 엘 샤다이 음역과 각주 문안은 편집 결정; 히브리어 이문 확인 안 됨."
+    },
+    {
+      "id": "Exod.6.4",
+      "level": "high",
+      "note_ko": "창세기 17:7-8 어휘 평행이 분명."
+    },
+    {
+      "id": "Exod.6.5",
+      "level": "high",
+      "note_ko": "칠십인역 OCR ‘너희 언약’은 미확인 수용 자료."
+    },
+    {
+      "id": "Exod.6.6",
+      "level": "medium-high",
+      "note_ko": "‘이집트 사람들’ 명시화와 es 지시 해소는 편집 판단."
+    },
+    {
+      "id": "Exod.6.7",
+      "level": "medium-high",
+      "note_ko": "분사 시제는 두 읽기 모두 가능."
+    },
+    {
+      "id": "Exod.6.8",
+      "level": "high",
+      "note_ko": "‘소유/기업’ 대응어 체계는 편집 사안."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Exod.6.2",
+      "condition_ko": "편집 관례가 이중 발화 틀을 한 동사로 줄이는 것을 허용하면 ‘하나님이 모세에게 말씀하셨다’로 줄인다."
+    },
+    {
+      "id": "Exod.6.3",
+      "condition_ko": "편집이 엘 샤다이 대신 전통 번역(전능의 하나님/God Almighty/Dios Todopoderoso)을 채택하거나, 사마리아 오경·쿰란·비평판 칠십인역에서 히필(הוֹדַעְתִּי) 같은 히브리어 차원의 이문이 확인되면."
+    },
+    {
+      "id": "Exod.6.4",
+      "condition_ko": "편집이 ko에서도 어근 반복 보존을 요구하면 ‘그들이 나그네로 살던 땅, 그들이 나그네로 머문 그 땅’ 같은 형태로 늘린다."
+    },
+    {
+      "id": "Exod.6.5",
+      "condition_ko": "비평판 칠십인역이나 다른 히브리어 증거에서 ‘너희 언약’ 계열 읽기가 히브리어 차원 이문으로 확인되면 각주를 추가한다(본문 변경은 아님)."
+    },
+    {
+      "id": "Exod.6.6",
+      "condition_ko": "편집이 מִצְרַיִם을 일관되게 지명 ‘이집트’로 옮기기로 하면 6:6-7을 ‘이집트의 무거운 짐’으로 바꾸고 6:6d를 ‘그 종살이에서/from that slavery/de esa esclavitud’로 조정한다."
+    },
+    {
+      "id": "Exod.6.7",
+      "condition_ko": "편집이 수용 전통에 맞춰 분사를 과거로 옮기기로 하면 ko ‘이끌어 낸’, en ‘who brought you out’, es ‘que los sacó’로 세 언어를 함께 바꾼다."
+    },
+    {
+      "id": "Exod.6.8",
+      "condition_ko": "편집이 מוֹרָשָׁה와 נַחֲלָה의 대응어 체계를 정해 ‘기업/유산’ 계열을 쓰기로 하면 바꾼다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Exod.6.3",
+      "issue": "Meaning of 'not known by my name YHWH' relative to Gen 4:26, 15:7, 28:13",
+      "status": "unresolved_interpretive",
+      "needed_evidence": "Editorial note policy; independent GPT/Gemini review; scholarly literature not accessed in this session."
+    },
+    {
+      "id": "Exod.6.3",
+      "issue": "Rendering of El Shadday (transliteration vs God Almighty)",
+      "status": "editorial_decision_required",
+      "needed_evidence": "Project-wide divine-title policy (also affects Gen 17:1, 28:3, 35:11, 48:3)."
+    },
+    {
+      "id": "Exod.6.3",
+      "issue": "Possible Hebrew-level variant (Hiphil hodati) behind Greek active edelosa",
+      "status": "not_verified",
+      "needed_evidence": "Samaritan Pentateuch, Qumran Exodus fragments, critical LXX (Goettingen) apparatus."
+    },
+    {
+      "id": "Exod.6.5",
+      "issue": "Greek OCR 'your covenant' vs WLC 'my covenant'",
+      "status": "not_verified",
+      "needed_evidence": "Critical LXX edition or reliable Swete scan."
+    },
+    {
+      "id": "Exod.6.6",
+      "issue": "Greek OCR 'Go, say' vs WLC lakhen emor",
+      "status": "not_verified",
+      "needed_evidence": "Critical LXX edition; no Hebrew reconstruction proposed."
+    },
+    {
+      "id": "Exod.6.6",
+      "issue": "Content of WLC note n=1 (which form BHS/Leningrad retained)",
+      "status": "not_resolved",
+      "needed_evidence": "WLC note documentation or Leningrad Codex facsimile; no effect on translation expected."
+    },
+    {
+      "id": "Exod.6.2-8",
+      "issue": "Divine name convention inconsistency in selected Gen 2:4 (Yahweh/Yahve) vs YHWH elsewhere",
+      "status": "editorial_decision_required",
+      "needed_evidence": "Project style decision; selected text not changed here."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-10-31T01:09:27Z) or reused from private/upstream_cache",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "what_it_is": "Pinned WLC/OSHB Exodus; target verses and Exodus parallels."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/2.Exodus.txt",
+      "accessed_utc": "2026-10-31T01:11:59Z",
+      "file_sha256": "2b4362f707b02923e4fdf09594e497a2b97a25102c0b4bc298ce814debe17479",
+      "what_it_is": "Third-party raw OCR of Swete LXX Exodus at pinned commit; OCR defects visible."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezek.xml",
+      "accessed_utc": "2026-10-31T01:11:59Z",
+      "file_sha256": "90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46",
+      "what_it_is": "Pinned WLC/OSHB Ezekiel (20:5, 20:9 parallels only)."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-10-31T01:11:59Z",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "what_it_is": "Pinned WLC/OSHB Genesis (El Shadday, covenant and divine-name parallels)."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript collation, facsimile inspection or critical-apparatus check was performed.",
+    "No GPT, Gemini, Antigravity or human specialist review exists for this unit; none is quoted or implied.",
+    "No credit balance, dollar amount or credit deduction is asserted.",
+    "No editorial adoption, certification or publication; current selected data, dist/, releases and main were not modified.",
+    "Morphology tags were observed only, not corrected."
+  ],
+  "timestamps_utc": {
+    "claim_created": "2026-10-31T01:09:27Z",
+    "claim_pushed": "2026-10-31T01:10Z (commit on claude/original-bible-hard-review-szho2a before any model review)",
+    "identity_checked": "2026-10-31T01:10Z (get_session)",
+    "independent_reading_from_packet": "2026-10-31T01:09:27Z-01:11:33Z (scratch file mtime)",
+    "earlier_draft_opened": "after 01:11:33Z",
+    "reception_checks": "2026-10-31T01:11:59Z onward",
+    "review_written": "2026-10-31T01:16Z onward",
+    "record_built": "2026-10-31T01:17:40Z",
+    "identity_rechecked": "2026-10-31T01:17:37Z"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "packet": "automation/hard-review-packets/20261031T010927Z-0b1c1679.json",
+    "claim_manifest": "automation/hard-review-runs/20261031T010927Z-0b1c1679.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Exod.6.2",
+        "traditional_ref": "Exodus 6:2",
+        "raw_xml": "<verse osisID=\"Exod.6.2\">\n          <w lemma=\"c/1696\" morph=\"HC/Vpw3ms\" id=\"02wpp\">וַ/יְדַבֵּ֥ר</w>\n          <w lemma=\"430\" n=\"1.0\" morph=\"HNcmpa\" id=\"02PeV\">אֱלֹהִ֖ים</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02zGh\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4872\" n=\"1\" morph=\"HNp\" id=\"028sY\">מֹשֶׁ֑ה</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqw3ms\" id=\"02Jdo\">וַ/יֹּ֥אמֶר</w>\n          <w lemma=\"413\" n=\"0.0\" morph=\"HR/Sp3ms\" id=\"026E3\">אֵלָ֖י/ו</w>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"026P5\">אֲנִ֥י</w>\n          <w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"02apQ\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "d540ff26fed771322bb916cc56e4171077f7724f0c24c00e822fa8832c4ca0e2",
+        "seg_types": [
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02wpp",
+              "02PeV",
+              "02zGh",
+              "028sY"
+            ],
+            "hebrew_derived_display": "וַיְדַבֵּר אֱלֹהִים אֶל מֹשֶׁה",
+            "morph": [
+              "HC/Vpw3ms",
+              "HNcmpa",
+              "HR",
+              "HNp"
+            ],
+            "gloss_en": "God spoke to Moses"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02Jdo",
+              "026E3"
+            ],
+            "hebrew_derived_display": "וַיֹּאמֶר אֵלָיו",
+            "morph": [
+              "HC/Vqw3ms",
+              "HR/Sp3ms"
+            ],
+            "gloss_en": "and said to him"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "026P5",
+              "02apQ"
+            ],
+            "hebrew_derived_display": "אֲנִי יְהוָה",
+            "morph": [
+              "HPp1cs",
+              "HNp"
+            ],
+            "gloss_en": "I am YHWH"
+          }
+        ]
+      },
+      {
+        "id": "Exod.6.3",
+        "traditional_ref": "Exodus 6:3",
+        "raw_xml": "<verse osisID=\"Exod.6.3\">\n          <w lemma=\"c/7200\" n=\"1.0.1\" morph=\"HC/VNw1cs\" id=\"02BqY\">וָ/אֵרָ֗א</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"0249o\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"85\" n=\"1.0.0\" morph=\"HNp\" id=\"02fF6\">אַבְרָהָ֛ם</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"0292K\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3327\" morph=\"HNp\" id=\"02tGz\">יִצְחָ֥ק</w>\n          <w lemma=\"c/413\" morph=\"HC/R\" id=\"02YrC\">וְ/אֶֽל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3290\" n=\"1.0\" morph=\"HNp\" id=\"02VrZ\">יַעֲקֹ֖ב</w>\n          <w lemma=\"b/410\" morph=\"HR/Ncmsa\" id=\"02C6S\">בְּ/אֵ֣ל</w>\n          <w lemma=\"7706\" n=\"1\" morph=\"HNp\" id=\"02vxb\">שַׁדָּ֑י</w>\n          <w lemma=\"c/8034\" morph=\"HC/Ncmsc/Sp1cs\" id=\"02kjb\">וּ/שְׁמִ֣/י</w>\n          <w lemma=\"3068\" n=\"0.1\" morph=\"HNp\" id=\"022Vu\">יְהוָ֔ה</w>\n          <w lemma=\"3808\" morph=\"HTn\" id=\"02L3Q\">לֹ֥א</w>\n          <w lemma=\"3045\" n=\"0.0\" morph=\"HVNp1cs\" id=\"02HGZ\">נוֹדַ֖עְתִּי</w>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp3mp\" id=\"0264C\">לָ/הֶֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "8087dee053959cf02a56c2fba418fa1cc443ef18ed9ac9c8d3c6848c5e84166b",
+        "seg_types": [
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02BqY",
+              "0249o",
+              "02fF6",
+              "0292K",
+              "02tGz",
+              "02YrC",
+              "02VrZ"
+            ],
+            "hebrew_derived_display": "וָאֵרָא אֶל אַבְרָהָם אֶל יִצְחָק וְאֶל יַעֲקֹב",
+            "morph": [
+              "HC/VNw1cs",
+              "HR",
+              "HNp",
+              "HR",
+              "HNp",
+              "HC/R",
+              "HNp"
+            ],
+            "gloss_en": "I appeared to Abraham, to Isaac and to Jacob"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02C6S",
+              "02vxb"
+            ],
+            "hebrew_derived_display": "בְּאֵל שַׁדָּי",
+            "morph": [
+              "HR/Ncmsa",
+              "HNp"
+            ],
+            "gloss_en": "as El Shadday (beth essentiae)"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02kjb",
+              "022Vu"
+            ],
+            "hebrew_derived_display": "וּשְׁמִי יְהוָה",
+            "morph": [
+              "HC/Ncmsc/Sp1cs",
+              "HNp"
+            ],
+            "gloss_en": "and (by) my name YHWH (fronted)"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02L3Q",
+              "02HGZ",
+              "0264C"
+            ],
+            "hebrew_derived_display": "לֹא נוֹדַעְתִּי לָהֶם",
+            "morph": [
+              "HTn",
+              "HVNp1cs",
+              "HR/Sp3mp"
+            ],
+            "gloss_en": "I did not make myself known / was not known to them"
+          }
+        ]
+      },
+      {
+        "id": "Exod.6.4",
+        "traditional_ref": "Exodus 6:4",
+        "raw_xml": "<verse osisID=\"Exod.6.4\">\n          <w lemma=\"c/1571\" morph=\"HC/Ta\" id=\"026RY\">וְ/גַ֨ם</w>\n          <w lemma=\"6965 b\" morph=\"HVhp1cs\" id=\"02fA1\">הֲקִמֹ֤תִי</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02pXr\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1285\" n=\"1.1.0\" morph=\"HNcfsc/Sp1cs\" id=\"02WEX\">בְּרִיתִ/י֙</w>\n          <w lemma=\"854\" n=\"1.1\" morph=\"HR/Sp3mp\" id=\"02e9D\">אִתָּ֔/ם</w>\n          <w lemma=\"l/5414\" morph=\"HR/Vqc\" id=\"02peZ\">לָ/תֵ֥ת</w>\n          <w lemma=\"l\" n=\"1.0\" morph=\"HR/Sp3mp\" id=\"02CNe\">לָ/הֶ֖ם</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02nm5\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"776\" morph=\"HNcbsc\" id=\"02orh\">אֶ֣רֶץ</w>\n          <w lemma=\"3667 a\" n=\"1\" morph=\"HNp\" id=\"02Acg\">כְּנָ֑עַן</w>\n          <w lemma=\"853\" n=\"0.0.0\" morph=\"HTo\" id=\"02D85\">אֵ֛ת</w>\n          <w lemma=\"776\" morph=\"HNcbsc\" id=\"02BUn\">אֶ֥רֶץ</w>\n          <w lemma=\"4033\" n=\"0.0\" morph=\"HNcmpc/Sp3mp\" id=\"02UF1\">מְגֻרֵי/הֶ֖ם</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02zco\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1481 a\" morph=\"HVqp3cp\" id=\"02GBT\">גָּ֥רוּ</w>\n          <w lemma=\"b\" n=\"0\" morph=\"HR/Sp3fs\" id=\"02h66\">בָֽ/הּ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "637f0b3ba177808d12ebc99d54d4e48c3e77d0a0904336e2d854d4c918eaef89",
+        "seg_types": [
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "026RY",
+              "02fA1",
+              "02pXr",
+              "02WEX",
+              "02e9D"
+            ],
+            "hebrew_derived_display": "וְגַם הֲקִמֹתִי אֶת בְּרִיתִי אִתָּם",
+            "morph": [
+              "HC/Ta",
+              "HVhp1cs",
+              "HTo",
+              "HNcfsc/Sp1cs",
+              "HR/Sp3mp"
+            ],
+            "gloss_en": "and also I established my covenant with them"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02peZ",
+              "02CNe",
+              "02nm5",
+              "02orh",
+              "02Acg"
+            ],
+            "hebrew_derived_display": "לָתֵת לָהֶם אֶת אֶרֶץ כְּנָעַן",
+            "morph": [
+              "HR/Vqc",
+              "HR/Sp3mp",
+              "HTo",
+              "HNcbsc",
+              "HNp"
+            ],
+            "gloss_en": "to give them the land of Canaan"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02D85",
+              "02BUn",
+              "02UF1"
+            ],
+            "hebrew_derived_display": "אֵת אֶרֶץ מְגֻרֵיהֶם",
+            "morph": [
+              "HTo",
+              "HNcbsc",
+              "HNcmpc/Sp3mp"
+            ],
+            "gloss_en": "the land of their sojournings (apposition)"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02zco",
+              "02GBT",
+              "02h66"
+            ],
+            "hebrew_derived_display": "אֲשֶׁר גָּרוּ בָהּ",
+            "morph": [
+              "HTr",
+              "HVqp3cp",
+              "HR/Sp3fs"
+            ],
+            "gloss_en": "in which they sojourned"
+          }
+        ]
+      },
+      {
+        "id": "Exod.6.5",
+        "traditional_ref": "Exodus 6:5",
+        "raw_xml": "<verse osisID=\"Exod.6.5\">\n          <w lemma=\"c/1571\" n=\"1.1.1.0\" morph=\"HC/Ta\" id=\"026Dk\">וְ/גַ֣ם</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"02r7r\">אֲנִ֣י</w>\n          <w lemma=\"8085\" n=\"1.1.1\" morph=\"HVqp1cs\" id=\"02oJg\">שָׁמַ֗עְתִּי</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02me1\">אֶֽת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5009\" n=\"1.1.0\" morph=\"HNcfsc\" id=\"02oxa\">נַאֲקַת֙</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"02YiJ\">בְּנֵ֣י</w>\n          <w lemma=\"3478\" n=\"1.1\" morph=\"HNp\" id=\"02Ypk\">יִשְׂרָאֵ֔ל</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02C33\">אֲשֶׁ֥ר</w>\n          <w lemma=\"4714\" n=\"1.0\" morph=\"HNp\" id=\"02W8V\">מִצְרַ֖יִם</w>\n          <w lemma=\"5647\" morph=\"HVhrmpa\" id=\"022Z4\">מַעֲבִדִ֣ים</w>\n          <w lemma=\"853\" n=\"1\" morph=\"HTo/Sp3mp\" id=\"02uX2\">אֹתָ֑/ם</w>\n          <w lemma=\"c/2142\" n=\"0.0\" morph=\"HC/Vqw1cs\" id=\"02TPk\">וָ/אֶזְכֹּ֖ר</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02hdw\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1285\" n=\"0\" morph=\"HNcfsc/Sp1cs\" id=\"02LaJ\">בְּרִיתִֽ/י</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "eb53cf305e12bbe4acce611a4ffdca393c415daaa9c106ae0a4232a29b7d6e63",
+        "seg_types": [
+          "x-maqqef",
+          "x-paseq",
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "026Dk",
+              "02r7r",
+              "02oJg",
+              "02me1",
+              "02oxa",
+              "02YiJ",
+              "02Ypk"
+            ],
+            "hebrew_derived_display": "וְגַם אֲנִי שָׁמַעְתִּי אֶת נַאֲקַת בְּנֵי יִשְׂרָאֵל",
+            "morph": [
+              "HC/Ta",
+              "HPp1cs",
+              "HVqp1cs",
+              "HTo",
+              "HNcfsc",
+              "HNcmpc",
+              "HNp"
+            ],
+            "gloss_en": "and also I (emphatic) have heard the groaning of the sons of Israel"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02C33",
+              "02W8V",
+              "022Z4",
+              "02uX2"
+            ],
+            "hebrew_derived_display": "אֲשֶׁר מִצְרַיִם מַעֲבִדִים אֹתָם",
+            "morph": [
+              "HTr",
+              "HNp",
+              "HVhrmpa",
+              "HTo/Sp3mp"
+            ],
+            "gloss_en": "whom Egypt (plural agreement: the Egyptians) are enslaving"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02TPk",
+              "02hdw",
+              "02LaJ"
+            ],
+            "hebrew_derived_display": "וָאֶזְכֹּר אֶת בְּרִיתִי",
+            "morph": [
+              "HC/Vqw1cs",
+              "HTo",
+              "HNcfsc/Sp1cs"
+            ],
+            "gloss_en": "and I remembered my covenant"
+          }
+        ]
+      },
+      {
+        "id": "Exod.6.6",
+        "traditional_ref": "Exodus 6:6",
+        "raw_xml": "<verse osisID=\"Exod.6.6\">\n          <w lemma=\"l/3651 c\" n=\"1.0\" morph=\"HR/D\" id=\"02ZkJ\">לָ/כֵ֞ן</w>\n          <w lemma=\"559\" morph=\"HVqv2ms\" id=\"02rrP\">אֱמֹ֥ר</w>\n          <w lemma=\"l/1121 a\" morph=\"HR/Ncmpc\" id=\"02fqW\">לִ/בְנֵֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3478\" morph=\"HNp\" id=\"02sNS\">יִשְׂרָאֵ֘ל</w>\n          <note n=\"1\">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"02Rij\">אֲנִ֣י</w>\n          <w lemma=\"3068\" n=\"1.2\" morph=\"HNp\" id=\"02rq9\">יְהוָה֒</w>\n          <w lemma=\"c/3318\" morph=\"HC/Vhq1cs\" id=\"022pQ\">וְ/הוֹצֵאתִ֣י</w>\n          <w lemma=\"853\" n=\"1.1.1\" morph=\"HTo/Sp2mp\" id=\"02hDH\">אֶתְ/כֶ֗ם</w>\n          <w lemma=\"m/8478\" n=\"1.1.0\" morph=\"HR/R\" id=\"02zCX\">מִ/תַּ֨חַת֙</w>\n          <w lemma=\"5450\" morph=\"HNcfpc\" id=\"02BTq\">סִבְלֹ֣ת</w>\n          <w lemma=\"4714\" n=\"1.1\" morph=\"HNp\" id=\"02qmD\">מִצְרַ֔יִם</w>\n          <w lemma=\"c/5337\" morph=\"HC/Vhq1cs\" id=\"02T54\">וְ/הִצַּלְתִּ֥י</w>\n          <w lemma=\"853\" n=\"1.0\" morph=\"HTo/Sp2mp\" id=\"02KK7\">אֶתְ/כֶ֖ם</w>\n          <w lemma=\"m/5656\" n=\"1\" morph=\"HR/Ncfsc/Sp3mp\" id=\"02xrB\">מֵ/עֲבֹדָתָ֑/ם</w>\n          <w lemma=\"c/1350 a\" morph=\"HC/Vqq1cs\" id=\"022tb\">וְ/גָאַלְתִּ֤י</w>\n          <w lemma=\"853\" n=\"0.1.0\" morph=\"HTo/Sp2mp\" id=\"02AAU\">אֶתְ/כֶם֙</w>\n          <w lemma=\"b/2220\" morph=\"HR/Ncbsa\" id=\"02fKo\">בִּ/זְר֣וֹעַ</w>\n          <w lemma=\"5186\" n=\"0.1\" morph=\"HVqsfsa\" id=\"02hrP\">נְטוּיָ֔ה</w>\n          <w lemma=\"c/b/8201\" n=\"0.0\" morph=\"HC/R/Ncmpa\" id=\"02NXB\">וּ/בִ/שְׁפָטִ֖ים</w>\n          <w lemma=\"1419 a\" n=\"0\" morph=\"HAampa\" id=\"02cv9\">גְּדֹלִֽים</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "80ddd74b816d79fd38fd52f85447d1e58a4628a31015374ceb33ca4d6a63a06a",
+        "seg_types": [
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [
+          "<note n=\"1\">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>"
+        ],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02ZkJ",
+              "02rrP",
+              "02fqW",
+              "02sNS"
+            ],
+            "hebrew_derived_display": "לָכֵן אֱמֹר לִבְנֵי יִשְׂרָאֵל",
+            "morph": [
+              "HR/D",
+              "HVqv2ms",
+              "HR/Ncmpc",
+              "HNp"
+            ],
+            "gloss_en": "therefore say to the sons of Israel"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02Rij",
+              "02rq9"
+            ],
+            "hebrew_derived_display": "אֲנִי יְהוָה",
+            "morph": [
+              "HPp1cs",
+              "HNp"
+            ],
+            "gloss_en": "I am YHWH"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "022pQ",
+              "02hDH",
+              "02zCX",
+              "02BTq",
+              "02qmD"
+            ],
+            "hebrew_derived_display": "וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם",
+            "morph": [
+              "HC/Vhq1cs",
+              "HTo/Sp2mp",
+              "HR/R",
+              "HNcfpc",
+              "HNp"
+            ],
+            "gloss_en": "and I will bring you out from under the burdens of Egypt"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02T54",
+              "02KK7",
+              "02xrB"
+            ],
+            "hebrew_derived_display": "וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם",
+            "morph": [
+              "HC/Vhq1cs",
+              "HTo/Sp2mp",
+              "HR/Ncfsc/Sp3mp"
+            ],
+            "gloss_en": "and I will rescue you from their slavery"
+          },
+          {
+            "label": "e",
+            "word_ids": [
+              "022tb",
+              "02AAU",
+              "02fKo",
+              "02hrP"
+            ],
+            "hebrew_derived_display": "וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה",
+            "morph": [
+              "HC/Vqq1cs",
+              "HTo/Sp2mp",
+              "HR/Ncbsa",
+              "HVqsfsa"
+            ],
+            "gloss_en": "and I will redeem you with an outstretched arm"
+          },
+          {
+            "label": "f",
+            "word_ids": [
+              "02NXB",
+              "02cv9"
+            ],
+            "hebrew_derived_display": "וּבִשְׁפָטִים גְּדֹלִים",
+            "morph": [
+              "HC/R/Ncmpa",
+              "HAampa"
+            ],
+            "gloss_en": "and with great judgments"
+          }
+        ]
+      },
+      {
+        "id": "Exod.6.7",
+        "traditional_ref": "Exodus 6:7",
+        "raw_xml": "<verse osisID=\"Exod.6.7\">\n          <w lemma=\"c/3947\" morph=\"HC/Vqq1cs\" id=\"028HL\">וְ/לָקַחְתִּ֨י</w>\n          <w lemma=\"853\" morph=\"HTo/Sp2mp\" id=\"02sDr\">אֶתְ/כֶ֥ם</w>\n          <w lemma=\"l\" n=\"1.1.0\" morph=\"HR/Sp1cs\" id=\"02Xyc\">לִ/י֙</w>\n          <w lemma=\"l/5971 a\" n=\"1.1\" morph=\"HR/Ncmsa\" id=\"02nYo\">לְ/עָ֔ם</w>\n          <w lemma=\"c/1961\" morph=\"HC/Vqq1cs\" id=\"02pow\">וְ/הָיִ֥יתִי</w>\n          <w lemma=\"l\" n=\"1.0\" morph=\"HR/Sp2mp\" id=\"02j9W\">לָ/כֶ֖ם</w>\n          <w lemma=\"l/430\" n=\"1\" morph=\"HR/Ncmpa\" id=\"02c3J\">לֵֽ/אלֹהִ֑ים</w>\n          <w lemma=\"c/3045\" n=\"0.2.1\" morph=\"HC/Vqq2mp\" id=\"02a5b\">וִֽ/ידַעְתֶּ֗ם</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"02wEY\">כִּ֣י</w>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"02EQ4\">אֲנִ֤י</w>\n          <w lemma=\"3068\" n=\"0.2.0\" morph=\"HNp\" id=\"02avL\">יְהוָה֙</w>\n          <w lemma=\"430\" n=\"0.2\" morph=\"HNcmpc/Sp2mp\" id=\"027ej\">אֱלֹ֣הֵי/כֶ֔ם</w>\n          <w lemma=\"d/3318\" morph=\"HTd/Vhrmsa\" id=\"02amD\">הַ/מּוֹצִ֣יא</w>\n          <w lemma=\"853\" n=\"0.1\" morph=\"HTo/Sp2mp\" id=\"02VUr\">אֶתְ/כֶ֔ם</w>\n          <w lemma=\"m/8478\" n=\"0.0\" morph=\"HR/R\" id=\"02yB6\">מִ/תַּ֖חַת</w>\n          <w lemma=\"5450\" morph=\"HNcfpc\" id=\"02c5N\">סִבְל֥וֹת</w>\n          <w lemma=\"4714\" n=\"0\" morph=\"HNp\" id=\"02T55\">מִצְרָֽיִם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "81f354123c199b5f31d4d7d7d7199da8a7235d56d99013627913967b0276202b",
+        "seg_types": [
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "028HL",
+              "02sDr",
+              "02Xyc",
+              "02nYo"
+            ],
+            "hebrew_derived_display": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם",
+            "morph": [
+              "HC/Vqq1cs",
+              "HTo/Sp2mp",
+              "HR/Sp1cs",
+              "HR/Ncmsa"
+            ],
+            "gloss_en": "and I will take you to me as a people"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02pow",
+              "02j9W",
+              "02c3J"
+            ],
+            "hebrew_derived_display": "וְהָיִיתִי לָכֶם לֵאלֹהִים",
+            "morph": [
+              "HC/Vqq1cs",
+              "HR/Sp2mp",
+              "HR/Ncmpa"
+            ],
+            "gloss_en": "and I will be to you as God"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02a5b",
+              "02wEY",
+              "02EQ4",
+              "02avL",
+              "027ej"
+            ],
+            "hebrew_derived_display": "וִידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם",
+            "morph": [
+              "HC/Vqq2mp",
+              "HC",
+              "HPp1cs",
+              "HNp",
+              "HNcmpc/Sp2mp"
+            ],
+            "gloss_en": "and you will know that I am YHWH your God"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02amD",
+              "02VUr",
+              "02yB6",
+              "02c5N",
+              "02T55"
+            ],
+            "hebrew_derived_display": "הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָיִם",
+            "morph": [
+              "HTd/Vhrmsa",
+              "HTo/Sp2mp",
+              "HR/R",
+              "HNcfpc",
+              "HNp"
+            ],
+            "gloss_en": "the one bringing you out from under the burdens of Egypt"
+          }
+        ]
+      },
+      {
+        "id": "Exod.6.8",
+        "traditional_ref": "Exodus 6:8",
+        "raw_xml": "<verse osisID=\"Exod.6.8\">\n          <w lemma=\"c/935\" morph=\"HC/Vhq1cs\" id=\"02peT\">וְ/הֵבֵאתִ֤י</w>\n          <w lemma=\"853\" n=\"1.3.0\" morph=\"HTo/Sp2mp\" id=\"02Ksj\">אֶתְ/כֶם֙</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"02Z3e\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/776\" n=\"1.3\" morph=\"HTd/Ncbsa\" id=\"02Kzf\">הָ/אָ֔רֶץ</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"02orc\">אֲשֶׁ֤ר</w>\n          <w lemma=\"5375\" n=\"1.2.0\" morph=\"HVqp1cs\" id=\"0262Y\">נָשָׂ֨אתִי֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"02k5t\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3027\" n=\"1.2\" morph=\"HNcbsc/Sp1cs\" id=\"02KZM\">יָדִ֔/י</w>\n          <w lemma=\"l/5414\" morph=\"HR/Vqc\" id=\"02rez\">לָ/תֵ֣ת</w>\n          <w lemma=\"853\" n=\"1.1\" morph=\"HTo/Sp3fs\" id=\"02HUJ\">אֹתָ֔/הּ</w>\n          <w lemma=\"l/85\" morph=\"HR/Np\" id=\"02psq\">לְ/אַבְרָהָ֥ם</w>\n          <w lemma=\"l/3327\" n=\"1.0\" morph=\"HR/Np\" id=\"02WRG\">לְ/יִצְחָ֖ק</w>\n          <w lemma=\"c/l/3290\" n=\"1\" morph=\"HC/R/Np\" id=\"02wbu\">וּֽ/לְ/יַעֲקֹ֑ב</w>\n          <w lemma=\"c/5414\" morph=\"HC/Vqq1cs\" id=\"02Bav\">וְ/נָתַתִּ֨י</w>\n          <w lemma=\"853\" morph=\"HTo/Sp3fs\" id=\"02GVi\">אֹתָ֥/הּ</w>\n          <w lemma=\"l\" n=\"0.0.0\" morph=\"HR/Sp2mp\" id=\"02Csn\">לָ/כֶ֛ם</w>\n          <w lemma=\"4181\" n=\"0.0\" morph=\"HNcfsa\" id=\"02R9z\">מוֹרָשָׁ֖ה</w>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"02tn3\">אֲנִ֥י</w>\n          <w lemma=\"3068\" n=\"0\" morph=\"HNp\" id=\"02uiF\">יְהוָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "fragment_sha256": "bdd8e882835fbf51879f557e8e19dca22821415197500cde30eddd26951910bb",
+        "seg_types": [
+          "x-maqqef",
+          "x-sof-pasuq"
+        ],
+        "note_elements_verbatim": [],
+        "clauses": [
+          {
+            "label": "a",
+            "word_ids": [
+              "02peT",
+              "02Ksj",
+              "02Z3e",
+              "02Kzf"
+            ],
+            "hebrew_derived_display": "וְהֵבֵאתִי אֶתְכֶם אֶל הָאָרֶץ",
+            "morph": [
+              "HC/Vhq1cs",
+              "HTo/Sp2mp",
+              "HR",
+              "HTd/Ncbsa"
+            ],
+            "gloss_en": "and I will bring you into the land"
+          },
+          {
+            "label": "b",
+            "word_ids": [
+              "02orc",
+              "0262Y",
+              "02k5t",
+              "02KZM"
+            ],
+            "hebrew_derived_display": "אֲשֶׁר נָשָׂאתִי אֶת יָדִי",
+            "morph": [
+              "HTr",
+              "HVqp1cs",
+              "HTo",
+              "HNcbsc/Sp1cs"
+            ],
+            "gloss_en": "that I lifted my hand (oath)"
+          },
+          {
+            "label": "c",
+            "word_ids": [
+              "02rez",
+              "02HUJ",
+              "02psq",
+              "02WRG",
+              "02wbu"
+            ],
+            "hebrew_derived_display": "לָתֵת אֹתָהּ לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב",
+            "morph": [
+              "HR/Vqc",
+              "HTo/Sp3fs",
+              "HR/Np",
+              "HR/Np",
+              "HC/R/Np"
+            ],
+            "gloss_en": "to give it to Abraham, to Isaac and to Jacob"
+          },
+          {
+            "label": "d",
+            "word_ids": [
+              "02Bav",
+              "02GVi",
+              "02Csn",
+              "02R9z"
+            ],
+            "hebrew_derived_display": "וְנָתַתִּי אֹתָהּ לָכֶם מוֹרָשָׁה",
+            "morph": [
+              "HC/Vqq1cs",
+              "HTo/Sp3fs",
+              "HR/Sp2mp",
+              "HNcfsa"
+            ],
+            "gloss_en": "and I will give it to you as a possession"
+          },
+          {
+            "label": "e",
+            "word_ids": [
+              "02tn3",
+              "02uiF"
+            ],
+            "hebrew_derived_display": "אֲנִי יְהוָה",
+            "morph": [
+              "HPp1cs",
+              "HNp"
+            ],
+            "gloss_en": "I am YHWH"
+          }
+        ]
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261031T010927Z-0b1c1679.ko.md",
+  "branch": "claude/original-bible-hard-review-szho2a",
+  "checks": {
+    "source_file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "seg_types": [
+      "x-maqqef",
+      "x-paseq",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_markup_present": false,
+    "note_elements_preserved_verbatim": 1,
+    "clause_coverage": {
+      "Exod.6.2": 3,
+      "Exod.6.3": 4,
+      "Exod.6.4": 4,
+      "Exod.6.5": 3,
+      "Exod.6.6": 6,
+      "Exod.6.7": 4,
+      "Exod.6.8": 5
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "lxx_ocr_excerpts_verified": true,
+    "library_excerpts_verified": true,
+    "hebrew_parallels_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "quote_marks_balanced_across_unit": {
+      "ko_outer": true,
+      "ko_inner": true,
+      "en_outer": true,
+      "es_outer": true,
+      "es_inner": true,
+      "en_inner_open_marks": 1
+    },
+    "divine_name_convention": {
+      "ko_yahwe": true,
+      "no_LORD_Jehovah_SENOR": true
+    },
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
