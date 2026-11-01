@@ -1,0 +1,1071 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T044334Z-ebdec25f",
+  "unit_id": "deut-32-7-12",
+  "verse_ids": [
+    "Deut.32.7",
+    "Deut.32.8",
+    "Deut.32.9",
+    "Deut.32.10",
+    "Deut.32.11",
+    "Deut.32.12"
+  ],
+  "unit_issue_ko": "하나님의 아들/이스라엘 자손·민족 분배·실제 증인 확인",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Deut.32.7-12 = 전통 장절 신명기 32:7-12. 저장소 라이브러리 KRV·ASV·RV1909의 32:7-12가 같은 내용 범위로 대응함을 확인했다. 이번에 열람한 Swete 칠십인역 디지털본(First1KGreek)의 32:7-12도 같은 절 경계였다.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어 표기는 source.verses[].raw_xml에만 있다. 클레임 패킷에서 스크립트로 바이트 단위 복사했고 해시를 대조했다. 아래 절 분석은 OSHB 낱말 id 범위로 위치를 표시하고, 설명문 속 히브리어 낱말은 읽기 편의를 위한 인용이다(악센트 생략). 4Q37 이문 표기 ‘בני אלוהים’는 저장소 data/editorial.json의 보고값을 옮긴 것이며 이번 세션에서 사본을 판독한 결과가 아니다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud). Launched outside Projects/Routines according to the user's instruction; this record cannot prove the billing route.",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-11-01T04:44Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5.",
+    "served_model_uncertainty": "last_served_model is a session API field reported by the service, not a cryptographic proof of the model that produced every token. Turn-level fallback could in principle occur; none was reported in get_session.",
+    "rate_limit_info_observed": "get_session reported rateLimitType ccr_promotional, status allowed, isUsingOverage false. This is a service status label only; no balance, dollar amount or per-run credit deduction was exposed or is asserted.",
+    "unavailable": [
+      "remaining promotional credit balance",
+      "per-run cost or credit deduction",
+      "exact model build/snapshot hash",
+      "billing route proof",
+      "GPT, Gemini or human responses for this run"
+    ],
+    "note": "A model self-report is not source evidence. This record was written by Claude in Claude Code; it is not a GPT, Gemini, Antigravity, manuscript-collator or human-specialist review."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Deut.32.7",
+      "clauses": [
+        {
+          "ids": [
+            "05BAA",
+            "05njA"
+          ],
+          "kind": "lexical",
+          "note": "zekor yemot olam: remember the days of old; yemot rare poetic plural construct of yom (cf Ps 90:15)."
+        },
+        {
+          "ids": [
+            "05tjZ",
+            "05y9S"
+          ],
+          "kind": "syntactic/textual",
+          "note": "binu is 2mp imperative after 2ms zekor; number shift is in the fixed text; any singular reading in versions is unverified in packet. shnot dor-wador: years of generation after generation."
+        },
+        {
+          "ids": [
+            "05V59",
+            "05oZZ"
+          ],
+          "kind": "syntactic",
+          "note": "imperative + waw + yiqtol = result: ask your father and he will tell you."
+        },
+        {
+          "ids": [
+            "05fU2",
+            "05Fm3"
+          ],
+          "kind": "syntactic/morphology",
+          "note": "gapping of shaal; zeqeneka your elders. lakh is pausal; OSHB morph tags Sp2fs but context addressee is 2ms (pausal form); keep raw morph, translate as 2ms."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.8",
+      "clauses": [
+        {
+          "ids": [
+            "05R5E",
+            "05Tjf"
+          ],
+          "kind": "lexical",
+          "note": "behanhel: Hiphil inf cstr of nhl, when (he) gave inheritance; elyon divine title the Most High."
+        },
+        {
+          "ids": [
+            "05PME",
+            "05c8B"
+          ],
+          "kind": "lexical/intertextual",
+          "note": "behaphrido bene adam: when he separated humankind; echo of Gen 10:5,32 / 11 dispersion (prd)."
+        },
+        {
+          "ids": [
+            "05kX5",
+            "05PdY"
+          ],
+          "kind": "syntactic",
+          "note": "yasseb yiqtol with past reference in poetry: he set the boundaries of peoples."
+        },
+        {
+          "ids": [
+            "05MNG",
+            "05hVg"
+          ],
+          "kind": "textual",
+          "note": "MT in packet: lemispar bene yisrael. Reported variants (4QDeutj bny 'lwhym; LXX angelon theou / huion theou) are NOT in the packet; textual choice unresolved from packet alone. Packet-only rendering = MT."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.9",
+      "clauses": [
+        {
+          "ids": [
+            "05PHn",
+            "05gKZ"
+          ],
+          "kind": "syntactic/discourse",
+          "note": "ki: for/but/indeed; heleq YHWH ammo nominal clause: YHWH's portion is his people. WLC spells yhwh here with holem (perpetual qere display variation); preserve raw."
+        },
+        {
+          "ids": [
+            "05Bbm",
+            "05C7W"
+          ],
+          "kind": "lexical",
+          "note": "hebel: measuring cord -> allotted share; Jacob the allotted share of his inheritance."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.10",
+      "clauses": [
+        {
+          "ids": [
+            "05nCz",
+            "05dwG"
+          ],
+          "kind": "lexical/textual",
+          "note": "yimtsaehu: he found him (yiqtol, past ref). Possible versional difference (LXX autarkesen?) unverified in packet."
+        },
+        {
+          "ids": [
+            "05mMJ",
+            "05Swv"
+          ],
+          "kind": "lexical",
+          "note": "tohu (echo Gen 1:2) + yelel hapax 'howling' + yeshimon wasteland: in a waste, a howling wilderness."
+        },
+        {
+          "ids": [
+            "05iud",
+            "05gQV"
+          ],
+          "kind": "lexical",
+          "note": "yesobebenhu Poel: surrounded/encircled (protect) or led around; yebonenehu Polel of byn: attended to / gave understanding (instructed)."
+        },
+        {
+          "ids": [
+            "055Y1",
+            "05LkZ"
+          ],
+          "kind": "lexical",
+          "note": "yitsrenhu: guarded him; ishon 'little man' = pupil of his eye."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.11",
+      "clauses": [
+        {
+          "ids": [
+            "05bHT",
+            "05oPR"
+          ],
+          "kind": "lexical",
+          "note": "kenesher: like an eagle (or griffon vulture); ya'ir Hiphil of 'wr: stirs up / rouses (alt: watches over)."
+        },
+        {
+          "ids": [
+            "05Mh4",
+            "05MaQ"
+          ],
+          "kind": "lexical/intertextual",
+          "note": "al gozalayw yerahef: hovers over its young; Piel rhp as Gen 1:2."
+        },
+        {
+          "ids": [
+            "058tw",
+            "05e2p"
+          ],
+          "kind": "syntactic/discourse",
+          "note": "11b singular object suffix -hu vs plural young: referent bleeds to Israel; subject ambiguous eagle/YHWH; 11 as protasis to 12 or fused metaphor. Render so 11b can be YHWH."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.12",
+      "clauses": [
+        {
+          "ids": [
+            "05oDZ",
+            "05vo5"
+          ],
+          "kind": "lexical",
+          "note": "YHWH badad yanhennu: YHWH alone led him."
+        },
+        {
+          "ids": [
+            "05esg",
+            "054ji"
+          ],
+          "kind": "syntactic/discourse",
+          "note": "we'en immo el nekar: no foreign god with him; immo = with YHWH (no partner) or with Israel; ties back to v8-9."
+        }
+      ]
+    }
+  ],
+  "independent_initial_reading_file": {
+    "path_in_session": "/tmp/hr/independent.json",
+    "mtime_utc": "2026-11-01T04:45:27Z",
+    "sha256": "dab08f5f3f20c25d189aa0bb887b8427ce87d677f687d0dc3a9e68ed2bf8b6db",
+    "note_ko": "독립 읽기는 클레임 패킷만 보고 기존 선정문, 결정문, 모델 기록을 열기 전에 이 파일로 먼저 저장했다. 스크래치 파일의 스페인어는 악센트 없이 ASCII로 적었고, 아래 initial_proposals에는 철자만 복원했다(낱말 선택은 그대로). 신 32:8은 패킷만으로는 MT 번역을 기본안으로 두고 본문 비평 판단은 미결로 표시했다."
+  },
+  "initial_proposals": [
+    {
+      "id": "Deut.32.7",
+      "ko": "옛날을 기억하라. 대대로 이어 온 세월을 깊이 생각하라. 네 아버지에게 물어보라. 그가 네게 알려 줄 것이다. 네 어른들에게 물어보라. 그들이 네게 말해 줄 것이다.",
+      "en": "Remember the days of old; consider the years of generation after generation. Ask your father, and he will tell you; your elders, and they will say it to you.",
+      "es": "Acuérdate de los días antiguos; considerad los años de generación en generación. Pregunta a tu padre, y él te lo contará; a tus ancianos, y ellos te lo dirán."
+    },
+    {
+      "id": "Deut.32.8",
+      "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 사람의 자손들을 갈라 흩으실 때, 이스라엘 자손들의 수에 따라 백성들의 경계를 정하셨다.",
+      "en": "When the Most High gave the nations their inheritance, when he divided humankind, he set the boundaries of the peoples according to the number of the sons of Israel.",
+      "es": "Cuando el Altísimo dio a las naciones su heredad, cuando separó a la humanidad, estableció los límites de los pueblos según el número de los hijos de Israel.",
+      "status_note": "packet-only MT rendering; textual choice marked unresolved because the packet contains no variant evidence"
+    },
+    {
+      "id": "Deut.32.9",
+      "ko": "참으로 야훼의 몫은 그분의 백성이요, 야곱은 그분이 줄로 재어 받으신 기업이다.",
+      "en": "For YHWH's portion is his people, Jacob his allotted inheritance.",
+      "es": "Porque la porción de YHWH es su pueblo; Jacob, la parte medida de su heredad."
+    },
+    {
+      "id": "Deut.32.10",
+      "ko": "그분은 광야 땅에서, 짐승이 울부짖는 텅 빈 황무지에서 그를 찾아내셨다. 그를 감싸 두르시고 돌보시며 자기 눈동자처럼 지키셨다.",
+      "en": "He found him in a desert land, in a barren waste, a howling wilderness; he encircled him, he cared for him, he guarded him as the pupil of his eye.",
+      "es": "Lo halló en tierra desierta, en un yermo vacío de aullante soledad; lo rodeó, lo cuidó, lo guardó como a la niña de su ojo."
+    },
+    {
+      "id": "Deut.32.11",
+      "ko": "독수리가 제 둥지를 흔들어 깨우고 새끼들 위를 맴돌듯이, 그분은 날개를 펴서 그를 받아 올리시고 그 깃 위에 업어 나르셨다.",
+      "en": "Like an eagle that stirs up its nest and hovers over its young, he spread out his wings, took him up, and carried him on his pinions.",
+      "es": "Como el águila que despierta su nido y revolotea sobre sus polluelos, extendió sus alas, lo tomó y lo llevó sobre su plumaje."
+    },
+    {
+      "id": "Deut.32.12",
+      "ko": "야훼께서 홀로 그를 인도하셨으니, 그 곁에 이방 신은 없었다.",
+      "en": "YHWH alone led him; no foreign god was with him.",
+      "es": "YHWH solo lo guio; no hubo con él dios extraño."
+    }
+  ],
+  "initial_proposals_note": "초기 제안은 /tmp/hr/independent.json(mtime 2026-11-01T04:45:27Z)에 먼저 저장했다. 그때까지 열람한 것은 정책 파일, 작업 지시서, 클레임 패킷, 그리고 형식 참고용으로 다른 단위(exod-12-40-42) 검토 기록의 키 구조뿐이다. 패킷에는 current_selected로 신 32:8 선정문이 함께 들어 있었다. 패킷 출력에서 그 문장이 보였으나, 32:8 초기 제안은 의도적으로 MT 기준으로 작성했다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "record": "data/editorial.json passage deuteronomy-32-8 (main c9ae49a, selection_version 0.4.17)",
+      "result": "Deut.32.8 only; Deut.32.7, 32.9-12 have no selected text",
+      "note": "Selected text uses the divine-sons phrase as a labeled editorial reconstruction (basis: 'MT remainder plus reported 4Q37 divine-sons phrase'). Variant and readings blocks cite thetorah.com (Tov 2023, updated 2026-10-09) as a published report; direct image verification is marked pending."
+    },
+    {
+      "kind": "saved_model_review",
+      "record": "data/model-reviews/v0.2.0/claude.round1.json",
+      "model_label": "claude-opus-4-6-thinking",
+      "note": "Proposed the divine-sons reconstruction; rejected conjecture bny 'l for lack of direct attestation; listed MT/SP, 70=70 correspondence, unverified fragment state and Greek angelon/huion split as counterarguments."
+    },
+    {
+      "kind": "saved_model_review",
+      "record": "data/model-reviews/v0.2.0/gemini.round1.json, gemini.round2.json, gemini.round3.json",
+      "model_label": "gemini-3.8-flash-medium",
+      "note": "Round 1 proposed a bracketed 'editorial reconstruction' label inside the verse text and rendered bene adam as 'sons of man'; round 3 accepted the Claude wording as revisable best choice but kept a stylistic reservation that 'humankind/인류' weakens the bene adam / bene elohim echo."
+    },
+    {
+      "kind": "saved_model_review",
+      "record": "data/model-reviews/v0.2.0/gpt.round1.json, gpt.round2.json, gpt.round3.json",
+      "model_label": "gpt-6.1-sol",
+      "note": "Round 3 adopted the Claude three-language wording; kept the provisional divine-sons priority, the editorial-reconstruction label and the MT counterargument."
+    },
+    {
+      "kind": "other_cloud_reviews_mentioning_unit",
+      "record": "claude/original-bible-hard-review-bjxtgv automation/cloud-reviews/20261030T060333Z-f303697f.json (gen-6-1-4, requested claude-opus-5-5)",
+      "note": "Uses Deut.32.8 selected wording as a consistency anchor for bene ha'elohim = 하나님의 아들들 / the sons of God / los hijos de Dios. Preferred Gen.6.2 wording renders benot ha'adam as 사람의 딸들 / daughters of humankind / hijas de los seres humanos."
+    },
+    {
+      "kind": "other_cloud_reviews_mentioning_unit",
+      "record": "nnzlcy (num-23-18-24), wse4lu (num-24-15-19), dtj6lq (deut-6-4-9) cloud reviews",
+      "note": "Mention Deut.32.8 only as a convention source (Elyon = 지극히 높으신 이 / the Most High / el Altísimo). No review of Deut.32.7-12 wording."
+    },
+    {
+      "kind": "cloud_draft",
+      "record": "all fetched origin/claude/* branches, automation/ (fetched 2026-11-01T04:43Z)",
+      "result": "none",
+      "note": "No general cloud draft or hard-review dossier for Deut.32.7-12 exists on any fetched branch."
+    },
+    {
+      "kind": "reception_library",
+      "record": "library/krv, library/asv, library/rv1909 Deut.json",
+      "note": "Public-domain reading editions used for numbering and reception comparison only; they are not model records."
+    }
+  ],
+  "earlier_record_texts": {
+    "selected_Deut.32.8_v0.4.17": {
+      "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+      "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+      "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+    },
+    "gemini.round1_Deut.32.8": {
+      "ko": "[편집 재구성: MT 본문에 보고된 4Q37 이문 적용] 지존하신 분께서 민족들에게 유산을 나누어 주실 때, 아담의 자손들을 흩으실 때, 하나님의 아들들의 수효대로 뭇 백성의 경계들을 세우셨도다.",
+      "en": "[Editorial Reconstruction: MT supplemented with reported 4Q37 variant] When the Most High gave the nations their inheritance, when He divided the sons of man, He set the boundaries of the peoples according to the number of the sons of God."
+    },
+    "gpt.round1_Deut.32.8": {
+      "ko": "지극히 높으신 이께서 민족들에게 기업을 나누실 때, 사람들을 나누실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 세우셨다.",
+      "en": "When the Most High assigned inheritances to the nations, when he divided humankind, he set the boundaries of the peoples according to the number of the sons of God."
+    }
+  },
+  "comparison_findings_ko": [
+    {
+      "id": "Deut.32.8",
+      "severity": "high (textual basis)",
+      "finding_ko": "선정문은 MT의 ‘이스라엘 자손들’ 대신 보고된 4Q37 ‘하나님의 아들들’을 채택하고, 이를 편집 재구성으로 명시한다. 나의 패킷 단독 초기안은 MT였다. 패킷에 이문 증거가 없었기 때문이다. 이번 세션에서 실제로 확인한 추가 증거는 Swete 칠십인역 디지털 본문 하나다. 그 본문은 ‘κατὰ ἀριθμὸν ἀγγέλων θεοῦ’(하나님의 천사들의 수에 따라)로 읽고, MT ‘이스라엘’과 달리 신적 존재 계열을 지지한다. 4Q37은 직접 확인하지 못했다(thetorah.com 접속이 네트워크 정책에 막힘). 따라서 선정 근거 중 그리스어 전승의 한 줄기만 이번에 독립 확인되었다. 결론: 선정문을 유지하는 것을 지지한다. 다만 근거 수준은 ‘B 사본 계열 그리스어 확인 + 4Q37 보고’이며, 사본 판독은 아니다."
+    },
+    {
+      "id": "Deut.32.8",
+      "severity": "medium (new detail)",
+      "finding_ko": "Swete 비평란은 ‘7—8 συνετε … επερωτησον … αγγελων θυ (sup ras) Aa’라고 적는다. 알렉산드리아 사본(A)에서 32:7 중간부터 32:8 ‘ἀγγέλων θεοῦ’까지가 후대 교정자 손으로 지운 자리 위에 다시 쓰였다는 뜻이다. 지워진 원래 글자가 무엇인지는 이 각주만으로 알 수 없다. 기존 기록들은 이 사실을 언급하지 않는다. 그리스어 전승 안에서도 이 구절이 손질된 흔적이 있음을 각주에 반영할 만하다. 다만 원래 A가 ‘υἱῶν’이었다고 추정해서는 안 된다."
+    },
+    {
+      "id": "Deut.32.8",
+      "severity": "low (style, already noted)",
+      "finding_ko": "선정문 ‘인류를 갈라놓으실 때’는 בְּנֵי אָדָם/בְּנֵי (אֱלֹהִים) 대구를 약하게 만든다. 선정문 주석 4와 Gemini 3차 유보가 이미 이 점을 기록했다. Gen.6.2 클라우드 검토가 בנות האדם을 ‘사람의 딸들 / daughters of humankind’로 옮긴 것과 맞추려면 ‘사람의 아들들 / the sons of humankind’가 일관적이다. 새 반론은 아니므로 선정문 교체를 요구하지 않고 대안 B로만 남긴다."
+    },
+    {
+      "id": "Deut.32.7-12",
+      "severity": "medium (convention)",
+      "finding_ko": "32:9과 32:12의 יהוה는 프로젝트 관례가 통일되지 않았다. 선정본 Gen 2:4-19는 Yahweh/Yahvé, Gen 4장·Num 6장은 YHWH, ko는 대부분 ‘야훼’지만 Num 6:24-26은 ko도 ‘YHWH’다. 최근 클라우드 검토들처럼 ko ‘야훼’, en/es ‘YHWH’를 쓰고 편집 통일 대상으로 표시한다. 라이브러리 KRV ‘여호와’, ASV ‘Jehovah’, RV1909 ‘Jehová’는 수용 비교일 뿐 채택하지 않는다."
+    },
+    {
+      "id": "Deut.32.11",
+      "severity": "medium (intertextual consistency)",
+      "finding_ko": "32:11 יְרַחֵף(피엘 רחף)은 창 1:2 מְרַחֶפֶת와 같은 동사다. 선정본 창 1:2가 ‘맴돌고 / hovered / se cernía’로 옮겼으므로 32:11도 ‘맴돌 / hovers / se cierne’로 맞추면 독자가 낱말 고리를 볼 수 있다. 32:10 תֹהוּ도 창 1:2 תֹהוּ와 같은 낱말이지만, 창 1:2는 ‘형체 없이’로 옮겼고 여기서는 장소 명사(황무지)라서 같은 역어를 강제하지 않고 각주로 연결한다. KRV ‘너풀거리며’, RV1909 ‘revolotea’는 이 고리를 드러내지 않는다."
+    },
+    {
+      "id": "Deut.32.10-12",
+      "severity": "medium (versional difference, verified)",
+      "finding_ko": "Swete 칠십인역은 MT와 여러 곳에서 다르다: 10절 ‘αὐτάρκησεν αὐτόν’(그를 넉넉히 채워 주었다) 대 MT ‘יִמְצָאֵהוּ’(그를 찾아냈다), ‘ἐπαίδευσεν αὐτόν’(그를 가르쳤다/훈육했다) 대 MT ‘יְבוֹנְנֵהוּ’; 11절 ‘σκεπάσαι’(덮어 보호하다) 대 MT ‘יָעִיר’(깨우다/흔들다); 11-12절 목적어가 복수 ‘αὐτούς’, 12절 ‘μετ᾽ αὐτῶν’(그들과 함께) 대 MT 단수 ‘הוּ-/עִמּוֹ’. 이 중 ‘가르쳤다’는 יבוננהו의 ‘깨닫게 하다’ 의미 해석을, ‘보호하다’는 יעיר를 ‘지키다(עור/ער)’ 계열로 읽는 해석을 고대 번역이 이미 택했음을 보여 준다. 그리스어 낱말이 다른 히브리어 대본을 반영하는지는 이번에 판단하지 않는다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "(1) 32:8은 초기 MT안 대신 현 선정문을 그대로 선호 문구로 둔다. Swete 칠십인역의 ‘ἀγγέλων θεοῦ’를 직접 확인했고, 9절 대조 문맥과 프로젝트의 기존 3모델 결정 이력이 일치하기 때문이다. 단, 근거 수준과 MT 반론은 그대로 기록한다. (2) 32:9의 접속사를 ‘참으로/For’에서 ‘그러나/But/Pero’로 바꿨다. 8절이 신적 존재 계열로 확정 표시되면 9절 כִּי는 ‘민족들은 신의 아들들 수에 따라 나뉘었으나 야훼 자신의 몫은 그 백성’이라는 대조로 읽는 편이 자연스럽다. MT ‘이스라엘 자손’을 택한다면 ‘참으로/For’가 더 자연스럽다(대안에 명시). (3) 32:10 ko ‘짐승이 울부짖는’에서 ‘짐승이’를 뺐다. 원문 יְלֵל은 주어 없는 ‘울부짖음’이고 바람 소리일 수도 있어 짐승을 보충하면 해석이 하나로 고정된다. (4) 32:11 ‘흔들어 깨우고’를 유지하되, es ‘revolotea’를 ‘se cierne’로 바꿔 창 1:2 선정문과 낱말 고리를 맞췄다. ko는 주어 ‘그분은’을 빼고 존칭 어미로만 야훼를 가리키게 하여 독수리/야훼 융합 비유의 열린 구조를 조금 더 살렸다. (5) 32:12 es ‘dios extraño’를 ‘dios extranjero’로 바꿨다. נֵכָר는 ‘낯선/이상한’보다 ‘외국의/이방의’가 기본 뜻이다.",
+  "reception_evidence": {
+    "source_note": "Hebrew text comes from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from the First1KGreek TEI encoding of Swete's Septuagint (Deuteronomy, tlg0527.tlg005), CC BY-SA 4.0; only short excerpts are quoted. The digital text contains OCR errors (e.g. 'Τυρίου' for Κυρίου in 32:9, 'δρία' for ὅρια in 32:8, and 'ἐν τῇ ἐν δίψει' in 32:10 where the apparatus shows the lemma 'ἐν τῇ ἐρήμῳ'); excerpts below are quoted as encoded, with corrections only flagged, not silently made. Swete's main text follows Codex Vaticanus (B); this is one printed edition, not the Göttingen critical text, and not a manuscript image.",
+    "items": [
+      {
+        "ref": "LXX Deut 32:7 (Swete, First1KGreek)",
+        "excerpt": "μνήσθητε ἡμέρας αἰῶνος, σύνετε ἔτη γενεῶν γενεαῖς. ἐπερώτησον τὸν πατέρα σου",
+        "finding_ko": "그리스어는 첫 명령도 복수(μνήσθητε)로 맞춰 MT의 단수 זְכֹר → 복수 בִּינוּ 전환을 없앤다. 그 뒤 단수 ἐπερώτησον으로 돌아간다. MT의 수 전환은 고정 본문 그대로 유지할 대상이다."
+      },
+      {
+        "ref": "LXX Deut 32:8 (Swete, First1KGreek)",
+        "excerpt": "ὅτε διεμέριζεν ὁ ὕψιστος ἔθνη, ὡς διέσπειρεν υἱοὺς Ἀδάμ, ἔστησεν δρία [read ὅρια] ἐθνῶν κατὰ ἀριθμὸν ἀγγέλων θεοῦ.",
+        "finding_ko": "B 계열 본문은 ‘하나님의 천사들의 수에 따라’. MT ‘이스라엘 자손들’과 다르고, 보고된 4Q37 ‘하나님의 아들들’과는 ‘신적 존재’ 계열로 같은 쪽이다. ‘υἱοὺς Ἀδάμ’은 בְּנֵי אָדָם을 ‘아담의 아들들’로 옮겨 대구를 보존한다."
+      },
+      {
+        "ref": "Swete apparatus at Deut 32:7-8",
+        "excerpt": "7—8 συνετε ετη γενεας γενεων (in mg) επερωτησον...αγγελων θῦ (sup ras) A a 8 διεμερισεν F",
+        "finding_ko": "A 사본에서 7절 일부부터 8절 ‘ἀγγέλων θεοῦ’까지가 지운 자리 위(sup ras)에 교정자 손(Aa)으로 쓰였다. 원래 글자는 각주에서 드러나지 않는다."
+      },
+      {
+        "ref": "LXX Deut 32:9 (Swete, First1KGreek)",
+        "excerpt": "καὶ ἐγενήθη μερὶς Τυρίου [read Κυρίου] λαὸς αὐτοῦ σχοίνισμα κληρονομίας αὐτοῦ Ἰσραήλ.",
+        "finding_ko": "그리스어는 כִּי를 ‘καὶ ἐγενήθη’(그리고 … 되었다)로 옮겨 서사적 연결로 읽었다. ‘σχοίνισμα’(밧줄로 잰 몫)는 חֶבֶל의 ‘측량 줄’ 이미지를 보존한다. 둘째 행에 ‘Ἰσραήλ’이 더해져 ‘야곱 … 이스라엘’ 평행을 이룬다(MT에는 없음)."
+      },
+      {
+        "ref": "LXX Deut 32:10 (Swete, First1KGreek)",
+        "excerpt": "αὐτάρκησεν αὐτὸν ἐν τῇ ἐν δίψει καύματος, ἐν γῇ ἀνύδρῳ· ἐκύκλωσεν αὐτὸν καὶ ἐπαίδευσεν αὐτόν, καὶ διεφύλαξεν αὐτὸν ὡς κόραν ὀφθαλμοῦ.",
+        "finding_ko": "‘찾아냈다’ 대신 ‘넉넉히 채웠다’, ‘울부짖는 황무지’ 대신 ‘타는 갈증 속, 물 없는 땅’, יְבוֹנְנֵהוּ를 ‘가르쳤다(ἐπαίδευσεν)’. 인코딩의 ‘ἐν τῇ ἐν δίψει’는 OCR 누락으로 보인다. 각주 표제어 ‘10 ἐν τῇ ερημω’가 본문에 ‘ἐν τῇ ἐρήμῳ’가 있음을 보여 준다."
+      },
+      {
+        "ref": "LXX Deut 32:11 (Swete, First1KGreek)",
+        "excerpt": "ὡς ἀετὸς σκεπάσαι νοσσιὰν αὐτοῦ, καὶ ἐπὶ τοῖς νοσσοῖς αὐτοῦ ἐπεπόθησεν, διεὶς τὰς πτέρυγας αὐτοῦ ἐδέξατο αὐτούς",
+        "finding_ko": "יָעִיר를 ‘덮어 보호하다(σκεπάσαι)’로, יְרַחֵף를 ‘갈망하다(ἐπεπόθησεν)’로 옮겼다. 목적어는 복수 ‘αὐτούς’로 바꿔 MT 단수 ‘הוּ-’의 지시 전환(새끼 → 이스라엘)을 없앴다."
+      },
+      {
+        "ref": "LXX Deut 32:12 (Swete, First1KGreek)",
+        "excerpt": "Κύριος μόνος ἦγεν αὐτούς, οὐκ ἦν μετ’ αὐτῶν θεὸς ἀλλότριος.",
+        "finding_ko": "עִמּוֹ를 ‘그들과 함께(μετ᾽ αὐτῶν)’, 곧 이스라엘과 함께로 해석했다. MT 단수 ‘그와 함께’는 야훼 곁인지 이스라엘 곁인지 열려 있다."
+      },
+      {
+        "ref": "library KRV/ASV/RV1909 Deut 32:7-12 (public-domain reading editions in repo)",
+        "excerpt": "KRV 32:8 ‘이스라엘 자손의 수효대로’; ASV 32:8 ‘According to the number of the children of Israel’; RV1909 32:10 ‘instruyólo’; KRV/ASV 32:12 ‘그들을/him’",
+        "finding_ko": "세 수용 번역 모두 32:8에서 MT를 따른다. RV1909는 יבוננהו를 ‘가르쳤다’로 옮겼다. KRV 32:12 ‘그들을’은 LXX식 복수로 옮겼고 ASV는 단수 ‘him’을 유지한다."
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "4Q37(4QDeutʲ)이 32:8 끝을 ‘בני אלוהים’로 읽는다는 보고(저장소 선정 기록이 Tov 2023/thetorah.com을 출처로 인용).",
+      "status": "not_verified_in_session",
+      "reason": "https://www.thetorah.com/... returned proxy connect_rejected (403) at 2026-11-01T04:46:51Z; no DJD volume or fragment image was accessed. The repository's own variant block also marks direct image verification as pending."
+    },
+    {
+      "claim_ko": "일부 그리스어 증거(예: 파피루스나 괴팅겐 비평본)가 32:8을 ‘υἱῶν θεοῦ’로 읽는다는 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Only Swete's B-based text was accessed; it reads ἀγγέλων θεοῦ. No papyrus or Göttingen text/apparatus was opened."
+    },
+    {
+      "claim_ko": "사마리아 오경이 32:8에서 MT처럼 ‘이스라엘 자손들’로 읽는다는 보고(선정문 주석 1에 Tov 보고로 기록됨).",
+      "status": "not_verified_in_session",
+      "reason": "No Samaritan Pentateuch text was accessed."
+    },
+    {
+      "claim_ko": "학계 추정 ‘בני אל’(엘의 아들들).",
+      "status": "conjectural_reconstruction_not_attested_in_accessed_evidence",
+      "reason": "No accessed witness reads this; it is a modern proposal. It is not adopted."
+    },
+    {
+      "claim_ko": "32:8 MT ‘이스라엘 자손들의 수’를 창 10장 70민족과 야곱 가족 70명(창 46:27; 출 1:5; 신 10:22)의 대응으로 설명하는 유대 전승.",
+      "status": "intertextual_argument_not_checked_against_sources_in_session",
+      "reason": "The 70-count verses were not re-opened in the pinned WLC during this run; the argument is recorded from earlier project records as a counterargument."
+    }
+  ],
+  "alternatives": {
+    "Deut.32.7": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘옛날을 기억하라 … 깊이 생각하라 … 물어보라 … 알려 줄 것이다’: 명령 + 결과(와우 + 미완료) 구조, 둘째 질문은 동사 생략(gapping)을 풀어 ‘물어보라’를 보충.",
+        "argument_ko": "שְׁאַל … וְיַגֵּדְךָ는 명령 뒤 결과를 나타내는 전형적 구조다. 한국어에서 동사 생략을 그대로 두면 ‘네 어른들에게, 그들이…’가 어색하다.",
+        "objection_ko": "‘물어보라’를 두 번 쓰면 원문의 간결한 생략 시형이 사라진다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "es처럼 단수·복수 명령 전환을 ko/en에서도 표시(예: ‘너는 기억하라 … 너희는 깨달으라’).",
+        "argument_ko": "고정 MT의 זְכֹר(2ms) → בִּינוּ(2mp) 전환을 독자가 볼 수 있다.",
+        "objection_ko": "한국어·영어에서 인칭 대명사를 덧붙이면 시행이 무거워진다. 전환의 기능(개인 → 공동체 호명)은 주석으로 충분하다. 선호안은 es에서만 형태로 보존한다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "בִּינוּ를 ‘깨달으라’로 옮김.",
+        "argument_ko": "בין의 기본 뜻 ‘분별하다/깨닫다’에 더 가깝다(KRV ‘생각하라’, LXX ‘σύνετε’).",
+        "objection_ko": "목적어가 ‘세월(שְׁנוֹת)’이라 ‘깊이 생각하라/살피라’가 자연스럽다. 의미 차이는 작다."
+      }
+    ],
+    "Deut.32.8": [
+      {
+        "label": "A (preferred = current selected, unchanged)",
+        "reading_ko": "‘하나님의 아들들의 수에 따라’ — 보고된 4Q37 + 그리스어 신적 존재 계열, MT 나머지와 결합한 편집 재구성.",
+        "argument_ko": "(1) 이번에 직접 확인한 Swete B 계열 칠십인역 ‘ἀγγέλων θεοῦ’가 신적 존재 계열이다. (2) 보고된 4Q37 ‘בני אלוהים’(미확인). (3) 9절 ‘그러나 야훼의 몫은 그 백성’과 짝을 이루는 분배 구도. (4) 민족 분배(창 10-11장 배경)가 이스라엘 존재 이전이라는 시점 문제. (5) 신학적으로 어려운 독법이 쉬운 독법으로 바뀌었을 개연성(난독 우선).",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B (wording variant of A)",
+        "reading_ko": "‘사람의 아들들을 갈라 흩으실 때 … 하나님의 아들들의 수에 따라’ / ‘when he divided the sons of humankind’ / ‘cuando separó a los hijos de los seres humanos’.",
+        "argument_ko": "בְּנֵי אָדָם과 끝의 ‘아들들’ 대구를 보존한다. LXX ‘υἱοὺς Ἀδάμ’, 선정문 주석 4, Gemini 3차 유보, Gen.6.2 클라우드 검토의 ‘사람의 딸들’과 일관된다.",
+        "objection_ko": "‘사람의 아들들’은 한국어에서 특정 남성 집단으로 오해될 수 있다. 선정문 ‘인류’는 집합적 뜻을 정확히 전달한다. 이미 3모델 비교를 거친 선정문을 문체 이유만으로 바꿀 근거는 약하다."
+      },
+      {
+        "label": "C (MT)",
+        "reading_ko": "‘이스라엘 자손들의 수에 따라’ — 고정 MT 표시문 그대로.",
+        "argument_ko": "패킷에 실제로 들어 있는 유일한 히브리어 본문이다. MT와 (보고된) 사마리아 오경이 일치한다. 70민족 = 야곱 가족 70명 대응으로 내적 논리가 있다. KRV·ASV·RV1909 모두 이 독법을 따른다.",
+        "objection_ko": "9절 ‘야훼의 몫’과의 대조가 약해지고, 이스라엘이 생기기 전 민족 분배를 이스라엘 수로 정했다는 시점 문제가 남는다. 신학적 정정으로 설명 가능한 쉬운 독법이다."
+      },
+      {
+        "label": "D (rejected)",
+        "reading_ko": "‘엘의 아들들 / sons of El’ 또는 ‘하나님의 천사들 / angels of God’.",
+        "argument_ko": "‘엘의 아들들’은 우가릿 신화 배경과 맞는다는 학설이 있다. ‘천사들’은 이번에 확인한 Swete LXX 문구다.",
+        "objection_ko": "‘בני אל’은 접근한 증거에 없는 현대 추정이다. ‘천사들’은 그리스어 번역의 해석적 표현일 수 있어 히브리어 대본 복원 근거로 직접 쓰기 어렵다. 둘 다 본문 채택 대상이 아니라 각주 대상이다."
+      }
+    ],
+    "Deut.32.9": [
+      {
+        "label": "A (preferred, if 32:8 divine sons)",
+        "reading_ko": "כִּי = 대조 ‘그러나’: ‘그러나 야훼의 몫은 그분의 백성이요, 야곱은 그분이 줄로 재어 받으신 기업이다.’",
+        "argument_ko": "8절에서 민족들이 신적 존재들의 수에 따라 나뉜 뒤, 야훼 자신은 이스라엘을 몫으로 삼는다는 대조가 분명하다. כִּי는 앞 내용과 대조되는 긍정(‘오히려’)을 이끌 수 있다.",
+        "objection_ko": "כִּי의 가장 흔한 뜻은 이유(‘왜냐하면/for’)다. ‘그러나’는 해석을 한 단계 더 넣는다. LXX는 ‘καὶ’로 단순 연결했다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "כִּי = 이유/강조 ‘참으로/For’ (초기 독립안).",
+        "argument_ko": "ASV·RV1909 ‘For/Porque’ 전통. MT ‘이스라엘 자손들’ 독법과 특히 잘 맞는다.",
+        "objection_ko": "8절 신적 존재 계열과 함께 읽으면 ‘왜냐하면’의 논리 연결이 흐려진다."
+      },
+      {
+        "label": "C (history-of-religion reading, not adopted in wording)",
+        "reading_ko": "지극히 높으신 이(엘룐)가 민족들을 신의 아들들에게 나누고, 그중 하나인 야훼가 야곱을 받았다는 읽기.",
+        "argument_ko": "8-9절만 떼어 고대 근동 신들의 회의 구도로 읽는 학설이 있다.",
+        "objection_ko": "고정 본문 맥락(32:12 ‘야훼 홀로’, 32:39 ‘나 외에 신이 없다’)은 엘룐과 야훼를 같은 분으로 읽게 한다. 번역 문구는 어느 쪽도 강제하지 않도록 ‘지극히 높으신 이’와 ‘야훼’를 그대로 두고, 이 질문은 역사·수용 주석으로 분리한다."
+      }
+    ],
+    "Deut.32.10": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "יְבוֹנְנֵהוּ = ‘보살피다’; יְלֵל = 주어 없는 ‘울부짖는’.",
+        "argument_ko": "감싸다(סבב)–보살피다(בין)–지키다(נצר) 세 동사가 모두 보호 의미장으로 이어진다. 울부짖음의 주체(짐승/바람)를 원문이 밝히지 않는다.",
+        "objection_ko": "בין 폴렐은 ‘깨닫게 하다/가르치다’로도 쓰인다. LXX ‘ἐπαίδευσεν’, RV1909 ‘instruyólo’가 그 해석을 택했다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "יְבוֹנְנֵהוּ = ‘가르치셨다’.",
+        "argument_ko": "고대 번역 증거(LXX)와 시내산 교훈 문맥(신명기 전체)에 연결된다.",
+        "objection_ko": "광야 보호 이미지 사이에 교훈 동사가 끼면 흐름이 끊긴다. 선호안은 주석으로 이 대안을 밝힌다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "יִמְצָאֵהוּ를 ‘넉넉히 채워 주셨다’로(LXX αὐτάρκησεν).",
+        "argument_ko": "그리스어 증거가 실제로 다르다.",
+        "objection_ko": "고정 MT는 ‘찾아내다(מצא)’이며, 그리스어 표현이 다른 히브리어 대본을 반영하는지 이번에 확인하지 않았다. 각주 대상."
+      }
+    ],
+    "Deut.32.11": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "11a는 독수리 비유, 11b는 주어를 밝히지 않고 존칭 어미로 야훼를 가리킴(융합 비유). 단수 목적어 ‘그를’ 유지.",
+        "argument_ko": "11b의 단수 접미사 ‘הוּ-’는 복수 ‘새끼들’과 맞지 않아 지시 대상이 이스라엘(10절 ‘그를’)로 넘어감을 보여 준다. en/es ‘he … him / lo’는 형태상 독수리와 야훼 양쪽을 허용한다.",
+        "objection_ko": "ko 존칭 ‘-시-’는 11b 주어를 야훼로 확정한다. 히브리어는 독수리 주어로도 읽힌다(KRV·RV1909는 독수리 서술로 끝까지 이어 감)."
+      },
+      {
+        "label": "B",
+        "reading_ko": "11절 전체를 독수리 서술(‘…새끼를 받아 그 깃 위에 업어 나르듯이,’)로 두고 12절을 주절로 연결.",
+        "argument_ko": "비유(כְּ) + 주절(12절 야훼) 구조가 가장 분명하다. KRV 전통과 같다.",
+        "objection_ko": "단수 ‘그를’ 대신 ‘새끼를’로 바꾸면 MT의 지시 전환이 사라지고, ‘그를’을 두면 독수리 서술 안에서 어색하다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "יָעִיר = ‘지키다/보호하다’.",
+        "argument_ko": "LXX ‘σκεπάσαι’가 보호 의미로 읽었다.",
+        "objection_ko": "고정 MT 히필형 עור의 일반 뜻은 ‘깨우다/흔들어 일으키다’다. 보호 해석은 다른 어근 비교에 기댄 제안이다(이번 미확인)."
+      }
+    ],
+    "Deut.32.12": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘그 곁에(עִמּוֹ) 이방 신은 없었다’ — ‘그’가 야훼인지 이스라엘인지 열어 둠.",
+        "argument_ko": "한국어 ‘그 곁에’와 en ‘with him’, es ‘con él’ 모두 두 지시를 허용한다. 32:8-9 신적 존재 분배와 연결해 ‘야훼 곁에 다른 신 동반자가 없었다’는 뜻이 살아난다.",
+        "objection_ko": "LXX ‘μετ᾽ αὐτῶν’(이스라엘과 함께)처럼 백성 쪽으로 읽으면 ‘이스라엘이 다른 신을 따르지 않았다’는 뜻이 된다. 16절 이후 배교 서술과 대조되는 효과를 고려하면 이 해석도 강하다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘그분과 함께한 이방 신은 없었다’(야훼로 확정).",
+        "argument_ko": "‘홀로(בָּדָד)’와 평행이 가장 분명하다.",
+        "objection_ko": "원문의 모호성을 닫는다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Deut.32.8 preferred A (keep divine-sons selection)",
+    "objection_ko": "가장 강한 반론: 나는 4Q37을 직접 보지 못했다. 이번에 확인한 신적 존재 계열 증거는 Swete의 B 계열 그리스어 ‘ἀγγέλων θεοῦ’ 하나뿐이다. 그 그리스어 문구는 히브리어 ‘하나님의 아들들’의 해석적 번역일 수도, 다른 대본(예: ‘엘의 아들들’)의 번역일 수도 있다. A 사본에서는 바로 이 구간이 지워진 자리 위에 다시 쓰였다. 반면 MT와 (보고된) 사마리아 오경은 일치하고, 70민족–70인 대응이라는 독자적 내적 논리를 가진다. 이 상황에서 번역 본문에 ‘하나님의 아들들’을 넣으면 확인 수준보다 앞서 나간 선택이 될 수 있다. 또한 9절 כִּי를 ‘그러나’로 바꾼 것은 8절 선택에 의존하므로, 8절이 흔들리면 9절도 같이 흔들린다.",
+    "response_ko": "(1) 선정문은 이미 ‘편집 재구성’과 ‘직접 판독 보류’를 명시하고, MT 문구를 함께 표시한다. 독자가 두 독법을 모두 본다. (2) 이번 세션의 독립 확인은 기존 근거와 같은 방향이다. 새로 반대 증거가 나오지 않았다. (3) A 사본 수정 흔적은 그리스어 전승 안의 불안정성을 보여 줄 뿐, 원래 글자가 MT 쪽이었다는 증거는 아니다. (4) 그래서 선정문 유지에 동의하되, 확신도는 ‘중간’으로 두고 4Q37 직접 판독을 재검토 조건 1순위로 둔다. 9절은 8절 결정에 연동된다고 명시하고 대안 B(‘참으로/For’)를 함께 남긴다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Deut.32.11 preferred A (honorific marks YHWH as subject in ko)",
+      "objection_ko": "한국어 존칭이 11b 주어를 야훼로 고정한다. en/es는 열어 두는데 ko만 닫으면 세 언어의 해석 폭이 달라진다.",
+      "response_ko": "한국어는 존칭 없이 쓰면 독수리 서술로 읽히고, ‘그를’이 어색해진다. 단수 목적어 보존과 열린 비유 사이에서 존칭 생략 주어가 가장 작은 개입이다. 대안 B를 주석으로 밝힌다."
+    },
+    {
+      "target": "Deut.32.10 preferred '돌보시며/cared for'",
+      "objection_ko": "LXX와 RV1909의 ‘가르쳤다’를 버리면 고대 수용 증거와 어긋난다.",
+      "response_ko": "의미장(보호) 일관성을 우선했다. בין 폴렐의 ‘살피다/주의 깊게 보다’ 용법(예: 욥 31:1 등 일반 보고, 이번 미확인)도 있다. 주석으로 대안을 표시한다."
+    },
+    {
+      "target": "Deut.32.7 es number shift",
+      "objection_ko": "es만 ‘Acuérdate … considerad’로 수 전환을 형태로 보여 주고 ko/en은 그렇지 않아 세 언어가 불균형하다.",
+      "response_ko": "스페인어는 명령형에 수가 드러나므로 원문 형태를 무리 없이 보존할 수 있다. ko/en은 주석으로 보완한다. RV1909도 같은 방식이다."
+    }
+  ],
+  "preferred_wording": {
+    "Deut.32.7": {
+      "ko": "옛날을 기억하라. 대대로 이어 온 세월을 깊이 생각하라. 네 아버지에게 물어보라. 그가 네게 알려 줄 것이다. 네 어른들에게 물어보라. 그들이 네게 말해 줄 것이다.",
+      "en": "Remember the days of old; consider the years of generation after generation. Ask your father, and he will tell you; ask your elders, and they will say it to you.",
+      "es": "Acuérdate de los días antiguos; considerad los años de generación en generación. Pregunta a tu padre, y él te lo contará; a tus ancianos, y ellos te lo dirán."
+    },
+    "Deut.32.8": {
+      "ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때, 인류를 갈라놓으실 때, 백성들의 경계를 하나님의 아들들의 수에 따라 정하셨다.",
+      "en": "When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.",
+      "es": "Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios."
+    },
+    "Deut.32.9": {
+      "ko": "그러나 야훼의 몫은 그분의 백성이요, 야곱은 그분이 줄로 재어 받으신 기업이다.",
+      "en": "But YHWH's own portion is his people, Jacob his allotted inheritance.",
+      "es": "Pero la porción de YHWH es su pueblo; Jacob, la parte medida de su heredad."
+    },
+    "Deut.32.10": {
+      "ko": "그분은 광야 땅에서, 울부짖는 황무지의 텅 빈 곳에서 그를 찾아내셨다. 그를 감싸 두르시고 보살피시며 자기 눈동자처럼 지키셨다.",
+      "en": "He found him in a desert land, in the emptiness of a howling wasteland; he encircled him, he cared for him, he guarded him as the pupil of his eye.",
+      "es": "Lo halló en tierra desierta, en el vacío de un yermo aullante; lo rodeó, lo cuidó, lo guardó como a la niña de su ojo."
+    },
+    "Deut.32.11": {
+      "ko": "독수리가 제 둥지를 흔들어 깨우고 새끼들 위를 맴돌듯이, 날개를 펴서 그를 받아 올리시고 깃 위에 업어 나르셨다.",
+      "en": "Like an eagle that stirs up its nest and hovers over its young, he spread out his wings, took him up, and carried him on his pinions.",
+      "es": "Como el águila que despierta su nido y se cierne sobre sus polluelos, extendió sus alas, lo tomó y lo llevó sobre su plumaje."
+    },
+    "Deut.32.12": {
+      "ko": "야훼께서 홀로 그를 인도하셨으니, 그 곁에 이방 신은 없었다.",
+      "en": "YHWH alone led him; no foreign god was with him.",
+      "es": "Solo YHWH lo guio; no había con él ningún dios extranjero."
+    }
+  },
+  "clause_coverage_check": {
+    "Deut.32.7": [
+      {
+        "word_id_range": [
+          "05BAA",
+          "05njA"
+        ],
+        "rendered_ko": "옛날을 기억하라",
+        "rendered_en": "Remember the days of old",
+        "rendered_es": "Acuérdate de los días antiguos"
+      },
+      {
+        "word_id_range": [
+          "05tjZ",
+          "05y9S"
+        ],
+        "rendered_ko": "대대로 이어 온 세월을 깊이 생각하라",
+        "rendered_en": "consider the years of generation after generation",
+        "rendered_es": "considerad los años de generación en generación"
+      },
+      {
+        "word_id_range": [
+          "05V59",
+          "05oZZ"
+        ],
+        "rendered_ko": "네 아버지에게 물어보라. 그가 네게 알려 줄 것이다",
+        "rendered_en": "Ask your father, and he will tell you",
+        "rendered_es": "Pregunta a tu padre, y él te lo contará"
+      },
+      {
+        "word_id_range": [
+          "05fU2",
+          "05Fm3"
+        ],
+        "rendered_ko": "네 어른들에게 물어보라. 그들이 네게 말해 줄 것이다",
+        "rendered_en": "ask your elders, and they will say it to you",
+        "rendered_es": "a tus ancianos, y ellos te lo dirán"
+      }
+    ],
+    "Deut.32.8": [
+      {
+        "word_id_range": [
+          "05R5E",
+          "05Tjf"
+        ],
+        "rendered_ko": "지극히 높으신 이께서 민족들에게 기업을 나누어 주실 때",
+        "rendered_en": "When the Most High apportioned inheritances to the nations",
+        "rendered_es": "Cuando el Altísimo repartió herencias a las naciones"
+      },
+      {
+        "word_id_range": [
+          "05PME",
+          "05c8B"
+        ],
+        "rendered_ko": "인류를 갈라놓으실 때",
+        "rendered_en": "when he divided humankind",
+        "rendered_es": "cuando separó a la humanidad"
+      },
+      {
+        "word_id_range": [
+          "05kX5",
+          "05PdY"
+        ],
+        "rendered_ko": "백성들의 경계를 … 정하셨다",
+        "rendered_en": "he fixed the boundaries of the peoples",
+        "rendered_es": "fijó los límites de los pueblos"
+      },
+      {
+        "word_id_range": [
+          "05MNG",
+          "05hVg"
+        ],
+        "rendered_ko": "하나님의 아들들의 수에 따라 (MT 05K67-05hVg ‘이스라엘 자손들’을 보고된 4Q37 문구로 대체한 편집 재구성)",
+        "rendered_en": "according to the number of the sons of God (editorial reconstruction replacing MT 'sons of Israel')",
+        "rendered_es": "conforme al número de los hijos de Dios (reconstrucción editorial)"
+      }
+    ],
+    "Deut.32.9": [
+      {
+        "word_id_range": [
+          "05PHn",
+          "05gKZ"
+        ],
+        "rendered_ko": "그러나 야훼의 몫은 그분의 백성이요",
+        "rendered_en": "But YHWH's own portion is his people",
+        "rendered_es": "Pero la porción de YHWH es su pueblo"
+      },
+      {
+        "word_id_range": [
+          "05Bbm",
+          "05C7W"
+        ],
+        "rendered_ko": "야곱은 그분이 줄로 재어 받으신 기업이다",
+        "rendered_en": "Jacob his allotted inheritance",
+        "rendered_es": "Jacob, la parte medida de su heredad"
+      }
+    ],
+    "Deut.32.10": [
+      {
+        "word_id_range": [
+          "05nCz",
+          "05dwG"
+        ],
+        "rendered_ko": "그분은 광야 땅에서 … 그를 찾아내셨다",
+        "rendered_en": "He found him in a desert land",
+        "rendered_es": "Lo halló en tierra desierta"
+      },
+      {
+        "word_id_range": [
+          "05mMJ",
+          "05Swv"
+        ],
+        "rendered_ko": "울부짖는 황무지의 텅 빈 곳에서",
+        "rendered_en": "in the emptiness of a howling wasteland",
+        "rendered_es": "en el vacío de un yermo aullante"
+      },
+      {
+        "word_id_range": [
+          "05iud",
+          "05gQV"
+        ],
+        "rendered_ko": "그를 감싸 두르시고 보살피시며",
+        "rendered_en": "he encircled him, he cared for him",
+        "rendered_es": "lo rodeó, lo cuidó"
+      },
+      {
+        "word_id_range": [
+          "055Y1",
+          "05LkZ"
+        ],
+        "rendered_ko": "자기 눈동자처럼 지키셨다",
+        "rendered_en": "he guarded him as the pupil of his eye",
+        "rendered_es": "lo guardó como a la niña de su ojo"
+      }
+    ],
+    "Deut.32.11": [
+      {
+        "word_id_range": [
+          "05bHT",
+          "05oPR"
+        ],
+        "rendered_ko": "독수리가 제 둥지를 흔들어 깨우고",
+        "rendered_en": "Like an eagle that stirs up its nest",
+        "rendered_es": "Como el águila que despierta su nido"
+      },
+      {
+        "word_id_range": [
+          "05Mh4",
+          "05MaQ"
+        ],
+        "rendered_ko": "새끼들 위를 맴돌듯이",
+        "rendered_en": "and hovers over its young",
+        "rendered_es": "y se cierne sobre sus polluelos"
+      },
+      {
+        "word_id_range": [
+          "058tw",
+          "05e2p"
+        ],
+        "rendered_ko": "날개를 펴서 그를 받아 올리시고 깃 위에 업어 나르셨다",
+        "rendered_en": "he spread out his wings, took him up, and carried him on his pinions",
+        "rendered_es": "extendió sus alas, lo tomó y lo llevó sobre su plumaje"
+      }
+    ],
+    "Deut.32.12": [
+      {
+        "word_id_range": [
+          "05oDZ",
+          "05vo5"
+        ],
+        "rendered_ko": "야훼께서 홀로 그를 인도하셨으니",
+        "rendered_en": "YHWH alone led him",
+        "rendered_es": "Solo YHWH lo guio"
+      },
+      {
+        "word_id_range": [
+          "05esg",
+          "054ji"
+        ],
+        "rendered_ko": "그 곁에 이방 신은 없었다",
+        "rendered_en": "no foreign god was with him",
+        "rendered_es": "no había con él ningún dios extranjero"
+      }
+    ]
+  },
+  "supplied_words_ko": [
+    {
+      "id": "Deut.32.7",
+      "supplied": "둘째 ‘물어보라 / ask’는 원문에서 생략된 동사(שְׁאַל의 gapping)를 보충한 것이다(es는 생략 유지). ‘그것을/it/lo’는 목적어 보충."
+    },
+    {
+      "id": "Deut.32.9",
+      "supplied": "‘줄로 재어 받으신’은 חֶבֶל(측량 줄)의 뜻을 풀어 쓴 것이다. en ‘own’은 대조 강조를 위한 보충이다."
+    },
+    {
+      "id": "Deut.32.10",
+      "supplied": "‘그분은’은 주어 보충(문맥상 야훼)."
+    },
+    {
+      "id": "Deut.32.11",
+      "supplied": "ko 존칭 ‘-시-’는 11b 주어를 야훼로 해석한 표지다. ‘올리시고’의 ‘올리-’는 לקח(받다/취하다)의 방향을 풀어 쓴 것이다."
+    },
+    {
+      "id": "Deut.32.12",
+      "supplied": "es ‘ningún’은 부정 강조 보충."
+    }
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Deut.32.7",
+      "note_ko": "히브리어는 ‘기억하라’(단수)에서 ‘깊이 생각하라’(복수)로 바뀌었다가 다시 단수로 돌아간다. 개인과 공동체를 번갈아 부르는 시적 전환이다. 칠십인역은 첫 명령도 복수로 맞췄다."
+    },
+    {
+      "id": "Deut.32.8",
+      "note_ko": "마소라 본문(MT)은 ‘이스라엘 자손들의 수에 따라’로 읽는다. 이 번역은 보고된 쿰란 사본 4Q37의 ‘하나님의 아들들’을 따르며, 절 전체는 MT 나머지 문장과 이 문구를 결합한 편집 재구성이다. 칠십인역 B 계열(Swete판)은 ‘하나님의 천사들의 수에 따라’로 읽으며, 알렉산드리아 사본은 이 구간이 지운 자리 위에 다시 쓰였다(Swete 비평란)."
+    },
+    {
+      "id": "Deut.32.9",
+      "note_ko": "‘그러나’로 옮긴 히브리어 키(כִּי)는 ‘왜냐하면/참으로’로도 옮길 수 있다. 8절을 MT ‘이스라엘 자손들’로 읽으면 ‘참으로’가 더 자연스럽다. ‘줄로 재어 받은 기업’은 측량 줄로 나눈 몫을 뜻한다."
+    },
+    {
+      "id": "Deut.32.10",
+      "note_ko": "‘텅 빈 곳’의 토후(תֹהוּ)는 창세기 1:2의 ‘형체 없음’과 같은 낱말이다. ‘보살피시며’로 옮긴 동사는 ‘깨닫게 하다/가르치다’로도 이해되며 칠십인역은 ‘가르쳤다’로 옮겼다. 칠십인역은 ‘찾아내셨다’ 대신 ‘넉넉히 채워 주셨다’로 읽는다."
+    },
+    {
+      "id": "Deut.32.11",
+      "note_ko": "‘맴돌다’(라하프)는 창세기 1:2에서 하나님의 바람이 물 위를 ‘맴돌던’ 그 동사다. 히브리어 독수리(네셰르)는 독수리 또는 대머리독수리류를 가리킬 수 있다. 11절 후반의 주어(독수리/야훼)와 단수 목적어 ‘그를’(새끼/이스라엘)은 비유와 실체가 겹쳐지는 표현이다."
+    },
+    {
+      "id": "Deut.32.12",
+      "note_ko": "‘그 곁에’는 야훼 곁(동반 신이 없음) 또는 이스라엘 곁(백성이 다른 신을 따르지 않음)으로 읽을 수 있다. 칠십인역은 ‘그들과 함께’로 백성 쪽 해석을 택했다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "topic": "Divine name spelling",
+      "finding_ko": "선정본 안에서 YHWH 표기가 통일되지 않았다(Gen 2:4-19 en/es Yahweh/Yahvé, Gen 4장 YHWH, Num 6:24-26 ko도 YHWH). 신명기 32장 채택 전 통일 결정이 필요하다. 이 검토는 ko ‘야훼’, en/es ‘YHWH’를 썼다."
+    },
+    {
+      "topic": "Gen 1:2 lexical links",
+      "finding_ko": "32:10 תֹהוּ와 32:11 יְרַחֵף는 창 1:2와 같은 낱말이다. 선정본 창 1:2 ‘맴돌고/hovered/se cernía’와 32:11 ‘맴돌/hovers/se cierne’를 맞췄다. 편집이 창 1:2 역어를 바꾸면 32:11도 같이 검토해야 한다."
+    },
+    {
+      "topic": "bene adam / benot ha'adam",
+      "finding_ko": "선정 32:8 ‘인류 / humankind / la humanidad’와 Gen.6.2 클라우드 검토 ‘사람의 딸들 / daughters of humankind / hijas de los seres humanos’가 서로 다른 전략이다. 창 6장 채택 때 32:8 대안 B와 함께 정리할 필요가 있다."
+    },
+    {
+      "topic": "OSHB morphology tag",
+      "finding_ko": "32:7 마지막 낱말 לָֽ/ךְ의 OSHB 형태 태그는 ‘HR/Sp2fs’(2인칭 여성 단수)다. 문맥의 청자는 남성 단수이고, 휴지 위치(pausal)의 남성형이 לָךְ 꼴이 되는 현상으로 보인다. 원 태그는 바꾸지 않고 보존했으며, 번역은 2인칭 단수로 했다. 태그 의도는 이번 세션에서 확인하지 않았다."
+    },
+    {
+      "topic": "WLC divine name pointing",
+      "finding_ko": "같은 WLC 안에서 32:9는 יְהֹוָה(홀렘 포함), 32:12는 יְהוָה로 모음 부호가 다르다. 레닌그라드 사본 표시를 따른 영구 크레 표기 차이로 보이며, raw_xml에 그대로 보존했다. 번역에는 영향이 없다."
+    }
+  ],
+  "final_opinion_ko": "여섯 절 모두 고정 WLC(MT 표시문)를 기준으로 읽었다. 단 32:8은 프로젝트가 이미 채택한 편집 재구성(‘하나님의 아들들’)을 바꾸지 않고 지지했다. 이번 세션에서 공개 1차 자료로 실제 확인한 것은 Swete판 칠십인역(B 계열)의 ‘κατὰ ἀριθμὸν ἀγγέλων θεοῦ’와 A 사본 해당 구간이 지운 자리 위에 다시 쓰였다는 비평란 기록이다. 4Q37은 확인하지 못했다. 핵심 판단: (1) 32:8 선정문 유지(확신도 중간, 4Q37 직접 판독이 핵심 조건). (2) 32:9 כִּי는 8절 신적 존재 계열과 짝을 이루는 대조 ‘그러나’로 옮기되, 8절 결정에 연동됨을 명시. (3) 32:10 ‘울부짖는’의 주체를 보충하지 않고, יבוננהו는 보호 의미장에 맞춰 ‘보살피다’(대안 ‘가르치다’). (4) 32:11 융합 비유와 단수 목적어 ‘그를’ 보존, 창 1:2와 ‘맴돌다’ 고리 유지. (5) 32:12 ‘그 곁에’의 지시 모호성 보존. 이 기록은 채택되지 않은 모델 검토이며, 출판 전에 독립 GPT·Gemini 검토와 공식 agy 검토, 버전 편집 채택이 필요하다.",
+  "confidence_limits": [
+    {
+      "id": "Deut.32.7",
+      "level": "high",
+      "note_ko": "어휘·구문이 분명하다. 수 전환 표시 방식만 편집 선택이다."
+    },
+    {
+      "id": "Deut.32.8",
+      "level": "medium (textual choice); high (translation of each clause)",
+      "note_ko": "본문 선택은 4Q37 직접 판독 없이 보고와 그리스어 B 계열 확인에 기대고 있다. 원본 확정이 아니다."
+    },
+    {
+      "id": "Deut.32.9",
+      "level": "medium-high",
+      "note_ko": "접속사 ‘그러나/참으로’ 선택은 8절 결정에 연동된다."
+    },
+    {
+      "id": "Deut.32.10",
+      "level": "medium-high",
+      "note_ko": "יבוננהו 의미와 יְלֵל 주체가 열려 있다."
+    },
+    {
+      "id": "Deut.32.11",
+      "level": "medium",
+      "note_ko": "11b 주어와 יָעִיר 의미가 열려 있다. ko 존칭이 해석을 한 단계 고정한다."
+    },
+    {
+      "id": "Deut.32.12",
+      "level": "high (wording); medium (referent of immo)",
+      "note_ko": "번역 문구는 모호성을 보존한다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Deut.32.7",
+      "condition_ko": "편집이 ko/en에서도 단수·복수 명령 전환을 형태로 보이기로 정하면 대안 B로 바꾼다."
+    },
+    {
+      "id": "Deut.32.8",
+      "condition_ko": "4Q37 사진(레온 레비 사해사본 디지털 도서관 등) 또는 DJD XIV 판독을 URL·발췌와 함께 직접 확인해 보고된 ‘בני אלוהים’와 다르면 선정문을 재검토한다. 괴팅겐 칠십인역 본문·비평란과 사마리아 오경 실제 본문을 확인해 기존 보고와 다르면 주석을 고친다. 창 6장 채택 때 בני אדם 역어 전략이 ‘사람의 딸들’ 계열로 정해지면 대안 B 문구를 검토한다."
+    },
+    {
+      "id": "Deut.32.9",
+      "condition_ko": "32:8이 MT ‘이스라엘 자손들’로 바뀌면 כִּי를 ‘참으로/For/Porque’(대안 B)로 되돌린다."
+    },
+    {
+      "id": "Deut.32.10",
+      "condition_ko": "편집이 고대 번역(LXX ‘가르쳤다’)과 신명기 교훈 주제를 우선하기로 하면 ‘가르치시며’로 바꾼다."
+    },
+    {
+      "id": "Deut.32.11",
+      "condition_ko": "편집이 세 언어의 해석 폭을 같게 하려고 ko 존칭을 빼기로 하면 대안 B(독수리 서술 + 12절 주절) 구조로 바꾼다. 창 1:2 ‘맴돌다’ 역어가 바뀌면 함께 바꾼다."
+    },
+    {
+      "id": "Deut.32.12",
+      "condition_ko": "편집이 32:16-21 배교 서술과의 대조를 우선해 עִמּוֹ를 이스라엘 쪽으로 확정하면 ‘그와 함께한/그들이 섬긴’ 계열로 바꾼다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Deut.32.8",
+      "issue": "Exact reading of 4Q37 at 32:8 (and whether it is bny 'lwhym or another spelling), Göttingen LXX text (huion vs angelon theou), SP text, and the erased original of Codex A at this stretch.",
+      "status": "unresolved_textual",
+      "needed_evidence": "Fragment image or DJD XIV transcription with URL and excerpt; Göttingen Deuteronomy text and apparatus; SP edition; a Codex A image or a collation that reports the erased text."
+    },
+    {
+      "id": "Deut.32.8-9",
+      "issue": "Relationship of Elyon and YHWH (identity vs. subordinate deity) in the earliest form of the poem.",
+      "status": "unresolved_historical_reception",
+      "needed_evidence": "History-of-religion scholarship; not a translation decision. Keep in notes only."
+    },
+    {
+      "id": "Deut.32.10",
+      "issue": "Whether LXX autarkesen/epaideusen reflect a different Hebrew Vorlage or interpretation.",
+      "status": "unresolved_textual",
+      "needed_evidence": "LXX translation-technique studies or a Hebrew witness."
+    },
+    {
+      "id": "Deut.32.11",
+      "issue": "Meaning of ya'ir (rouse vs. protect) and the subject of 11b.",
+      "status": "unresolved_lexical_discourse",
+      "needed_evidence": "Lexical study of 'wr Hiphil and cognates; not checked in session."
+    },
+    {
+      "id": "Deut.32.7",
+      "issue": "OSHB morph tag Sp2fs on lakh in a 2ms context.",
+      "status": "unresolved_morphology_tag_intent",
+      "needed_evidence": "OSHB tagging documentation or issue tracker."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-11-01T04:43:34Z) into private/upstream_cache",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "result": "200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg005/tlg0527.tlg005.1st1K-grc1.xml",
+      "accessed_utc": "2026-11-01T04:46:28Z",
+      "file_sha256": "b2e3894c6ca82fa99a851c2ef172247c44c4509e749e1f17a7cae99d3a8dcf71",
+      "result": "200, 474051 bytes; TEI header: Septuaginta, editor Henry Barclay Swete; licence CC BY-SA 4.0",
+      "excerpt": "ὅτε διεμέριζεν ὁ ὕψιστος ἔθνη, ὡς διέσπειρεν υἱοὺς Ἀδάμ, ἔστησεν δρία ἐθνῶν κατὰ ἀριθμὸν ἀγγέλων θεοῦ."
+    },
+    {
+      "url": "https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8",
+      "accessed_utc": "2026-11-01T04:46:51Z",
+      "result": "blocked: agent proxy connect_rejected (CONNECT tunnel failed, 403). Not read; nothing from it is asserted in this record beyond what the repository already cites."
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript image or fragment was read; no 4Q37 verification.",
+    "No GPT, Gemini, Antigravity or human response was produced or simulated for this run; v0.2.0 records are quoted only as saved.",
+    "No unanimous agreement or human review is claimed.",
+    "No credit balance, dollar amount or credit deduction is claimed.",
+    "No change to current selected translations, immutable releases, dist/ or main.",
+    "Not a certified or adopted translation."
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/bible-hard-review-fg63bu",
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "packet": "automation/hard-review-packets/20261101T044334Z-ebdec25f.json",
+    "packet_sha256": "5b14a8bef9481cfd27b6105ab10f7dc8b7cd72b84efa5ab504458eec21d3330d",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Deut.32.7",
+        "raw_xml": "<verse osisID=\"Deut.32.7\">\n          <w lemma=\"2142\" n=\"1.1.0\" morph=\"HVqv2ms\" id=\"05BAA\">זְכֹר֙</w>\n          <w lemma=\"3117\" morph=\"HNcmpc\" id=\"05tBG\">יְמ֣וֹת</w>\n          <w lemma=\"5769\" n=\"1.1\" morph=\"HNcmsa\" id=\"05njA\">עוֹלָ֔ם</w>\n          <w lemma=\"995\" n=\"1.0\" morph=\"HVqv2mp\" id=\"05tjZ\">בִּ֖ינוּ</w>\n          <w lemma=\"8141\" morph=\"HNcfpc\" id=\"05PVB\">שְׁנ֣וֹת</w>\n          <w lemma=\"1755\" morph=\"HNcmsa\" id=\"054jf\">דּוֹר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"c/1755\" n=\"1\" morph=\"HC/Ncmsa\" id=\"05y9S\">וָ/ד֑וֹר</w>\n          <w lemma=\"7592\" morph=\"HVqv2ms\" id=\"05V59\">שְׁאַ֤ל</w>\n          <w lemma=\"1\" n=\"0.1.0\" morph=\"HNcmsc/Sp2ms\" id=\"05cYY\">אָבִ֨י/ךָ֙</w>\n          <w lemma=\"c/5046\" n=\"0.1\" morph=\"HC/Vhi3ms/Sp2ms\" id=\"05oZZ\">וְ/יַגֵּ֔דְ/ךָ</w>\n          <w lemma=\"2205\" n=\"0.0\" morph=\"HAampc/Sp2ms\" id=\"05fU2\">זְקֵנֶ֖י/ךָ</w>\n          <w lemma=\"c/559\" morph=\"HC/Vqi3mp\" id=\"05dCC\">וְ/יֹ֥אמְרוּ</w>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp2fs\" id=\"05Fm3\">לָֽ/ךְ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "9a707c90e6c84cf745dd698eb29118c8e979a7d20a62964fbeeae9f081231d8b"
+      },
+      {
+        "id": "Deut.32.8",
+        "raw_xml": "<verse osisID=\"Deut.32.8\">\n          <w lemma=\"b/5157\" morph=\"HR/Vhc\" id=\"05R5E\">בְּ/הַנְחֵ֤ל</w>\n          <w lemma=\"5945 b\" n=\"1.1.0\" morph=\"HAamsa\" id=\"05pdU\">עֶלְיוֹן֙</w>\n          <w lemma=\"1471 a\" n=\"1.1\" morph=\"HNcmpa\" id=\"05Tjf\">גּוֹיִ֔ם</w>\n          <w lemma=\"b/6504\" n=\"1.0\" morph=\"HR/Vhc/Sp3ms\" id=\"05PME\">בְּ/הַפְרִיד֖/וֹ</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"05tma\">בְּנֵ֣י</w>\n          <w lemma=\"120\" n=\"1\" morph=\"HNcmsa\" id=\"05c8B\">אָדָ֑ם</w>\n          <w lemma=\"5324\" n=\"0.1.0\" morph=\"HVhi3ms\" id=\"05kX5\">יַצֵּב֙</w>\n          <w lemma=\"1367\" morph=\"HNcfpc\" id=\"05fG2\">גְּבֻלֹ֣ת</w>\n          <w lemma=\"5971 a\" n=\"0.1\" morph=\"HNcmpa\" id=\"05PdY\">עַמִּ֔ים</w>\n          <w lemma=\"l/4557\" n=\"0.0\" morph=\"HR/Ncmsc\" id=\"05MNG\">לְ/מִסְפַּ֖ר</w>\n          <w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"05K67\">בְּנֵ֥י</w>\n          <w lemma=\"3478\" n=\"0\" morph=\"HNp\" id=\"05hVg\">יִשְׂרָאֵֽל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "e9c573553629dcfb67d8e60d3a0b098d26db4164161b903581bf580a1c1081c0"
+      },
+      {
+        "id": "Deut.32.9",
+        "raw_xml": "<verse osisID=\"Deut.32.9\">\n          <w lemma=\"3588 a\" n=\"1.0.0\" morph=\"HC\" id=\"05PHn\">כִּ֛י</w>\n          <w lemma=\"2506 a\" morph=\"HNcmsc\" id=\"05ueJ\">חֵ֥לֶק</w>\n          <w lemma=\"3068\" n=\"1.0\" morph=\"HNp\" id=\"058qc\">יְהֹוָ֖ה</w>\n          <w lemma=\"5971 a\" n=\"1\" morph=\"HNcmsc/Sp3ms\" id=\"05gKZ\">עַמּ֑/וֹ</w>\n          <w lemma=\"3290\" n=\"0.0\" morph=\"HNp\" id=\"05Bbm\">יַעֲקֹ֖ב</w>\n          <w lemma=\"2256 a\" morph=\"HNcbsc\" id=\"05X1N\">חֶ֥בֶל</w>\n          <w lemma=\"5159\" n=\"0\" morph=\"HNcfsc/Sp3ms\" id=\"05C7W\">נַחֲלָתֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "dcb70c48123335277ef4745f3afc3d038494ffaa41c89d7a22fc6f0f595b353a"
+      },
+      {
+        "id": "Deut.32.10",
+        "raw_xml": "<verse osisID=\"Deut.32.10\">\n          <w lemma=\"4672\" n=\"1.1.0\" morph=\"HVqi3ms/Sp3ms\" id=\"05nCz\">יִמְצָאֵ֨/הוּ֙</w>\n          <w lemma=\"b/776\" morph=\"HR/Ncbsc\" id=\"054Za\">בְּ/אֶ֣רֶץ</w>\n          <w lemma=\"4057 b\" n=\"1.1\" morph=\"HNcmsa\" id=\"05dwG\">מִדְבָּ֔ר</w>\n          <w lemma=\"c/b/8414\" n=\"1.0\" morph=\"HC/R/Ncmsa\" id=\"05mMJ\">וּ/בְ/תֹ֖הוּ</w>\n          <w lemma=\"3214\" morph=\"HNcmsa\" id=\"05Arh\">יְלֵ֣ל</w>\n          <w lemma=\"3452\" n=\"1\" morph=\"HNcmsa\" id=\"05Swv\">יְשִׁמֹ֑ן</w>\n          <w lemma=\"5437\" n=\"0.1.0\" morph=\"HVmi3ms/Sp3ms\" id=\"05iud\">יְסֹֽבְבֶ֨/נְהוּ֙</w>\n          <w lemma=\"995\" n=\"0.1\" morph=\"HVoi3ms/Sp3ms\" id=\"05gQV\">יְב֣וֹנְנֵ֔/הוּ</w>\n          <w lemma=\"5341\" n=\"0.0\" morph=\"HVqi3ms/Sp3ms\" id=\"055Y1\">יִצְּרֶ֖/נְהוּ</w>\n          <w lemma=\"k/380\" morph=\"HR/Ncmsc\" id=\"05BLB\">כְּ/אִישׁ֥וֹן</w>\n          <w lemma=\"5869 a\" n=\"0\" morph=\"HNcbsc/Sp3ms\" id=\"05LkZ\">עֵינֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "695f1f8b8350e92796b539304dd146fbdc119683187b44593072aeac13c298bc"
+      },
+      {
+        "id": "Deut.32.11",
+        "raw_xml": "<verse osisID=\"Deut.32.11\">\n          <w lemma=\"k/5404\" n=\"1.1.0\" morph=\"HR/Ncmsa\" id=\"05bHT\">כְּ/נֶ֨שֶׁר֙</w>\n          <w lemma=\"5782\" morph=\"HVhi3ms\" id=\"05aVR\">יָעִ֣יר</w>\n          <w lemma=\"7064\" n=\"1.1\" morph=\"HNcmsc/Sp3ms\" id=\"05oPR\">קִנּ֔/וֹ</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"05Mh4\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1469\" n=\"1.0\" morph=\"HNcmpc/Sp3ms\" id=\"05dmL\">גּוֹזָלָ֖י/ו</w>\n          <w lemma=\"7363 b\" n=\"1\" morph=\"HVpi3ms\" id=\"05MaQ\">יְרַחֵ֑ף</w>\n          <w lemma=\"6566\" morph=\"HVqi3ms\" id=\"058tw\">יִפְרֹ֤שׂ</w>\n          <w lemma=\"3671\" n=\"0.1.0\" morph=\"HNcfpc/Sp3ms\" id=\"05R8q\">כְּנָפָי/ו֙</w>\n          <w lemma=\"3947\" n=\"0.1\" morph=\"HVqi3ms/Sp3ms\" id=\"05KWb\">יִקָּחֵ֔/הוּ</w>\n          <w lemma=\"5375\" n=\"0.0\" morph=\"HVqi3ms/Sp3ms\" id=\"05Db1\">יִשָּׂאֵ֖/הוּ</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"05bq9\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"84\" n=\"0\" morph=\"HNcfsc/Sp3ms\" id=\"05e2p\">אֶבְרָתֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "4e832316531b15433efba347a45f510ea760968e3c16b60a43987abd1a4e4631"
+      },
+      {
+        "id": "Deut.32.12",
+        "raw_xml": "<verse osisID=\"Deut.32.12\">\n          <w lemma=\"3068\" n=\"1.0\" morph=\"HNp\" id=\"05oDZ\">יְהוָ֖ה</w>\n          <w lemma=\"910\" morph=\"HNcmsa\" id=\"054YJ\">בָּדָ֣ד</w>\n          <w lemma=\"5148\" n=\"1\" morph=\"HVhi3ms/Sp3ms\" id=\"05vo5\">יַנְחֶ֑/נּוּ</w>\n          <w lemma=\"c/369\" morph=\"HC/Tn\" id=\"05esg\">וְ/אֵ֥ין</w>\n          <w lemma=\"5973 a\" n=\"0.0\" morph=\"HR/Sp3ms\" id=\"05Fsu\">עִמּ֖/וֹ</w>\n          <w lemma=\"410\" morph=\"HNcmsc\" id=\"05nwi\">אֵ֥ל</w>\n          <w lemma=\"5236\" n=\"0\" morph=\"HNcmsa\" id=\"054ji\">נֵכָֽר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "fragment_sha256": "0b6bb4e7b06fc2d9e0a495b66dc0f747c68da0c1470eba30680a4482adfe14d3"
+      }
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-11-01T04:43:34.283710+00:00",
+    "claim_pushed": "2026-11-01T04:44Z (commit 1 on claude/bible-hard-review-fg63bu, before any model review)",
+    "independent_reading_saved": "2026-11-01T04:45:27Z (/tmp/hr/independent.json mtime)",
+    "earlier_records_opened": "about 2026-11-01T04:45:40Z, after the independent reading was saved",
+    "completed": "2026-11-01T04:53:10Z"
+  },
+  "memo_ko": "automation/cloud-reviews/20261101T044334Z-ebdec25f.ko.md",
+  "checks": {
+    "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "unit_id_matches_claim": true,
+    "preferred_wording_ids_exactly_once": true,
+    "ko_en_es_nonempty": true,
+    "independent_initial_reading_ids_exactly_once": true,
+    "initial_proposals_ids_exactly_once": true,
+    "alternatives_cover_all_ids": true,
+    "clause_coverage_cover_all_ids": true,
+    "reconsider_if_cover_all_ids": true,
+    "confidence_cover_all_ids": true,
+    "clause_word_ranges_valid_and_cover_every_word": true,
+    "no_lord_or_yeohowa_in_preferred": true,
+    "deut_32_8_preferred_equals_current_selected": true,
+    "state_is_unadopted_model_review": true,
+    "selected_texts_modified": false,
+    "no_human_certification_claim": true,
+    "rights_recorded": true,
+    "self_check_is_not_independent_review": true
+  }
+}
