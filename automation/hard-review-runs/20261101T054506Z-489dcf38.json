@@ -9,9 +9,21 @@
     "Deut.32.43"
   ],
   "created_at": "2026-11-01T05:45:06.722177+00:00",
-  "status": "claimed_pending_review",
+  "status": "completed_unadopted_review",
   "source_packet": "automation/hard-review-packets/20261101T054506Z-489dcf38.json",
   "state": "unadopted_model_review",
   "execution_path_declared": "standalone_cloud",
-  "execution_marker_is_billing_proof": false
+  "execution_marker_is_billing_proof": false,
+  "output": "automation/cloud-reviews/20261101T054506Z-489dcf38.json",
+  "memo_ko": "automation/cloud-reviews/20261101T054506Z-489dcf38.ko.md",
+  "completed_at": "2026-11-01T05:56:32Z",
+  "branch": "claude/original-bible-hard-review-u1vfye",
+  "requested_model": "claude-opus-5-5",
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks"
+  ]
 }

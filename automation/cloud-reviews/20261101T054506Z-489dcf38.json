@@ -1,0 +1,1225 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T054506Z-489dcf38",
+  "unit_id": "deut-32-39-43",
+  "verse_ids": [
+    "Deut.32.39",
+    "Deut.32.40",
+    "Deut.32.41",
+    "Deut.32.42",
+    "Deut.32.43"
+  ],
+  "unit_issue_ko": "신적 유일성·복수·43절 증인 차이·회복/속죄",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Deut.32.39-43 = 전통 장절 신명기 32:39-43. 저장소 라이브러리 KRV·ASV·RV1909와 Swete 칠십인역도 같은 절 번호 범위로 대응한다. 4Q44 전사는 단 구분 없이 단편·행 번호(f2_5i 6-11, f5ii 1-11)로 위치를 표시한다.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어 표기(XML 마크업 포함)는 source.verses[].raw_xml에만 있다. 클레임 패킷에서 스크립트로 복사했고 해시를 대조했다. 본문 설명 속 히브리어 인용은 모음이 있는 낱말 인용이며 원문 대체가 아니다. 4Q44 인용은 ETCBC 데이터셋 표기(형태소 구분 ׳, [ ]=현대 편집자 재구성, {Un}=불확실도)를 그대로 옮긴 것이다. 이 범위의 WLC에는 Qere/Ketiv 표시가 없다(패킷 확인).",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud, no Routine or Project trigger observed in session metadata)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-11-01T05:47Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. System prompt also names claude-opus-5-5.",
+    "served_model_uncertainty": "last_served_model is a session API field reported by the service, not a cryptographic proof; the serving model can change mid-session through fallback. No fallback notice was observed during this run.",
+    "rate_limit_info_observed": "get_session reported rateLimitType ccr_promotional, status allowed, isUsingOverage false. This is a service status field, not a balance; no dollar amount, remaining credit or deduction was exposed or is asserted.",
+    "unavailable": [
+      "model snapshot hash",
+      "token counts",
+      "cost or credit deduction",
+      "remaining bonus balance",
+      "sampling parameters beyond effort_level"
+    ],
+    "note": "A model self-report is not source evidence. This record was written by Claude in Claude Code; it is not a GPT, Gemini, Antigravity, manuscript-collator or human-specialist review."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Deut.32.39",
+      "clauses": [
+        {
+          "kind": "syntax",
+          "ids": [
+            "05pEW",
+            "05fvs"
+          ],
+          "note": "reu atah: plural imperative see now; paseq after reu."
+        },
+        {
+          "kind": "syntax/discourse",
+          "ids": [
+            "059N5",
+            "05R7n",
+            "05NCi",
+            "05ejZ"
+          ],
+          "note": "ki ani ani hu: emphatic doubled pronoun + 3ms pronoun as predicate: that I, I am he. Cf. Isa 41:4; 43:10,13; 48:12 ani hu (reception, not verified in session)."
+        },
+        {
+          "kind": "lexical/theological",
+          "ids": [
+            "05ntv",
+            "05A17",
+            "05DrV"
+          ],
+          "note": "ve-ein elohim immadi: and there is no god with me / beside me. immadi = with me (alongside); not min-zulati (besides). Exclusive claim of incomparability expressed spatially. Keep literal with me; alternative beside me."
+        },
+        {
+          "kind": "verbal aspect",
+          "ids": [
+            "05tHP",
+            "05pNL",
+            "05K8f"
+          ],
+          "note": "ani amit va-achayeh: hiphil yiqtol + simple waw (patah before hateph-patah aleph; morph Vpi = piel imperfect, not wayyiqtol). Gnomic present: I put to death and I make alive."
+        },
+        {
+          "kind": "verbal aspect",
+          "ids": [
+            "05M2d",
+            "05HUj",
+            "05AkQ"
+          ],
+          "note": "machatsti (qatal) va-ani erpa (yiqtol) with fronted pronoun: I have struck/wounded, and it is I who will heal. Could be gnomic (I wound and I heal), but qatal/yiqtol shift and v36 context (judgment then compassion) favor past wound, future healing."
+        },
+        {
+          "kind": "syntax",
+          "ids": [
+            "05qKA",
+            "05UvS",
+            "05byr"
+          ],
+          "note": "ve-ein mi-yadi matsil: and there is none who delivers from my hand (hiphil participle)."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.40",
+      "clauses": [
+        {
+          "kind": "syntax",
+          "ids": [
+            "05UE2",
+            "05D7w",
+            "05Yz1",
+            "05m9p",
+            "05ih8"
+          ],
+          "note": "ki essa el-shamayim yadi: ki causal (for) or asseverative (indeed); lifting hand = oath gesture (Exod 6:8; Num 14:30; Ezek 20). Yiqtol here performative present: I lift."
+        },
+        {
+          "kind": "syntax",
+          "ids": [
+            "058hZ"
+          ],
+          "note": "ve-amarti weqatal after yiqtol: and I say/declare (performative sequence)."
+        },
+        {
+          "kind": "lexical/formula",
+          "ids": [
+            "05k4b",
+            "05ZXj",
+            "05SRr"
+          ],
+          "note": "chai anokhi le-olam: oath formula as I live (cf. chai ani Num 14:21,28), expanded with forever. Not a mere statement I will live forever; the oath content follows in v41. Verse ends mid-sentence; keep connective punctuation."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.41",
+      "clauses": [
+        {
+          "kind": "syntax",
+          "ids": [
+            "05Vun",
+            "05cyh"
+          ],
+          "note": "im-shanoti: im + qatal = when/if I have whetted (future perfect conditional); within oath context im is not here the negative oath particle because apodosis ashiv follows."
+        },
+        {
+          "kind": "lexical",
+          "ids": [
+            "05AQ3",
+            "05NWB"
+          ],
+          "note": "beraq charbi: the lightning/flash of my sword = my flashing sword (genitive of attribute). Literal alternative: the lightning of my sword."
+        },
+        {
+          "kind": "syntax",
+          "ids": [
+            "051of",
+            "059Sr",
+            "052wD"
+          ],
+          "note": "ve-tochez be-mishpat yadi: and my hand takes hold of judgment (achaz be- = seize). Alternative: grasps [it] in judgment. Prefer object reading."
+        },
+        {
+          "kind": "lexical",
+          "ids": [
+            "059Ms",
+            "05GM9",
+            "05K43"
+          ],
+          "note": "ashiv naqam le-tsaray: I will return vengeance on my adversaries. naqam = retributive punishment by legitimate authority; Korean bokbok risks private-revenge nuance; consider eungjing (punitive retribution)."
+        },
+        {
+          "kind": "syntax",
+          "ids": [
+            "05Nh3",
+            "05Pay"
+          ],
+          "note": "u-li-mesanay ashallem: and those who hate me I will repay (piel). Chiastic: verb-object-indirect / indirect-verb."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.42",
+      "clauses": [
+        {
+          "kind": "syntax",
+          "ids": [
+            "05tpq",
+            "051f1",
+            "05kVM"
+          ],
+          "note": "ashkir chitsay mi-dam: I will make my arrows drunk with blood."
+        },
+        {
+          "kind": "syntax",
+          "ids": [
+            "05bsZ",
+            "05TEL",
+            "05ytb"
+          ],
+          "note": "ve-charbi tokhal basar: and my sword will devour flesh."
+        },
+        {
+          "kind": "discourse",
+          "ids": [
+            "053ey",
+            "05RmL",
+            "05ci2"
+          ],
+          "note": "mi-dam chalal ve-shivyah: from/with the blood of the slain and the captives (shivyah fem abstract collective = captivity, captives). Parallel to mi-dam of 42a: arrows-blood."
+        },
+        {
+          "kind": "lexical crux",
+          "ids": [
+            "05a1E",
+            "059Ga",
+            "05ZVW"
+          ],
+          "note": "me-rosh parot oyev: parot plural of pera (loose/long hair, Num 6:5; Ezek 44:20; cf. Judg 5:2 bi-froa peraot). Options: (a) from the long-haired (wild-haired) head of the enemy; (b) from the head of the enemy leaders (reception reportedly rulers). Ps 68:22 hairy crown of the enemy supports (a). Pairs with sword-flesh (chiasm). Prefer (a), alternative (b). Unresolved."
+        }
+      ]
+    },
+    {
+      "id": "Deut.32.43",
+      "clauses": [
+        {
+          "kind": "syntax crux",
+          "ids": [
+            "05w7w",
+            "059mv",
+            "05nRN"
+          ],
+          "note": "harninu goyim ammo: hiphil impv mp. Options: (A) transitive causative O nations, make his people shout for joy (cf. Ps 65:9; Job 29:13 causative); (B) acclaim/praise his people, O nations; (C) intransitive Shout for joy, O nations, [with/over] his people (requires supplied preposition; reported Greek with his people, Rom 15:10 reception); (D) apposition O nations, [O] his people. Accent: pashta on goyim, zaqef on ammo. Prefer A (no supplied preposition, attested causative)."
+        },
+        {
+          "kind": "textual variant (reported, not verified in packet)",
+          "ids": [
+            "05w7w",
+            "059mv",
+            "05nRN"
+          ],
+          "note": "Packet contains only WLC. Commonly reported: 4QDeut-q reads heavens instead of nations and adds bow down to him all gods; LXX longer (8 cola) incl. sons of God / angels of God; Heb 1:6 reception. None of this is in the packet; must be verified or marked unverified. Translation preferred stays with pinned WLC; variants go to notes."
+        },
+        {
+          "kind": "lexical/textual",
+          "ids": [
+            "05vJe",
+            "05iPK",
+            "05n6v",
+            "05V76"
+          ],
+          "note": "ki dam-avadav yiqqom: for he will avenge the blood of his servants (qal yiqtol naqam). Reported variant sons (4Q, LXX) unverified."
+        },
+        {
+          "kind": "syntax",
+          "ids": [
+            "05g48",
+            "05enX",
+            "059J8"
+          ],
+          "note": "ve-naqam yashiv le-tsarav: and vengeance he will return on his adversaries (echo of v41, 3ms)."
+        },
+        {
+          "kind": "lexical/textual crux",
+          "ids": [
+            "05Gat",
+            "05kwx",
+            "05CFi"
+          ],
+          "note": "ve-khipper admato ammo: weqatal piel: and he will make atonement for / purge his land, his people. MT asyndetic apposition of two suffixed nouns; reported SP/4Q/LXX the land of his people (construct, no suffix on land) unverified. Land-blood purgation (Num 35:33). Keep MT apposition with comma."
+        }
+      ]
+    }
+  ],
+  "independent_initial_reading_file": {
+    "path_in_session": "/tmp/hr/independent.json",
+    "mtime_utc": "2026-11-01T05:48:02Z",
+    "sha256": "f1872938b500f08f884ff6aa13a69c0e01ff0c0d3a8a5c8e8a30b25a927ff122",
+    "note_ko": "독립 읽기와 초기 제안은 클레임 패킷만 보고, 선정문·결정·모델 기록·cloud draft·라이브러리 번역·칠십인역·쿰란 자료를 열기 전에 이 파일로 먼저 저장했다. 스크래치 파일의 스페인어는 악센트 없이 ASCII로 적었고, 이 기록의 initial_proposals에서 악센트만 복원했다(낱말은 동일)."
+  },
+  "initial_proposals": [
+    {
+      "id": "Deut.32.39",
+      "ko": "이제 너희는 보라. 나, 바로 내가 그다. 나와 함께 있는 신은 없다. 내가 죽이고 내가 살린다. 내가 쳐서 상하게 하였으나 내가 낫게 할 것이다. 내 손에서 건져 낼 자는 없다.",
+      "en": "See now that I, I am he, and there is no god with me. I put to death and I make alive; I have wounded, and I will heal; and there is no one who delivers from my hand.",
+      "es": "Ved ahora que yo, yo soy él, y no hay dios conmigo. Yo hago morir y yo hago vivir; yo he herido, y yo sanaré; y no hay quien libre de mi mano."
+    },
+    {
+      "id": "Deut.32.40",
+      "ko": "참으로 내가 하늘을 향해 손을 들고 말한다. 영원히 살아 있는 나를 두고 맹세하노니,",
+      "en": "Indeed, I lift my hand to the heavens and say: As I live forever,",
+      "es": "Ciertamente alzo mi mano hacia los cielos y digo: Tan cierto como que vivo para siempre,"
+    },
+    {
+      "id": "Deut.32.41",
+      "ko": "내가 번쩍이는 내 칼을 갈고 내 손이 심판을 붙잡을 때, 내 대적들에게 응징을 되돌리고 나를 미워하는 자들에게 갚아 주리라.",
+      "en": "when I whet my flashing sword and my hand takes hold of judgment, I will bring vengeance back on my adversaries and repay those who hate me.",
+      "es": "cuando afile mi espada relampagueante y mi mano empuñe el juicio, devolveré venganza a mis adversarios y daré su pago a los que me aborrecen."
+    },
+    {
+      "id": "Deut.32.42",
+      "ko": "내 화살들을 피로 취하게 하고 내 칼이 살을 삼키게 하리라. 죽임당한 자들과 사로잡힌 자들의 피로, 머리털을 길게 늘어뜨린 원수의 머리에서.",
+      "en": "I will make my arrows drunk with blood, and my sword will devour flesh: with the blood of the slain and the captives, from the long-haired head of the enemy.",
+      "es": "Embriagaré de sangre mis flechas, y mi espada devorará carne: con la sangre de los muertos y de los cautivos, de la cabeza melenuda del enemigo."
+    },
+    {
+      "id": "Deut.32.43",
+      "ko": "민족들아, 그분의 백성이 기뻐 외치게 하라. 그분이 자기 종들의 피를 갚으시고 자기 대적들에게 응징을 되돌리시며, 자기 땅, 자기 백성을 위하여 속죄하실 것이기 때문이다.",
+      "en": "O nations, make his people shout for joy, for he will avenge the blood of his servants; he will bring vengeance back on his adversaries and make atonement for his land, his people.",
+      "es": "Naciones, haced que su pueblo grite de júbilo, porque él vengará la sangre de sus siervos; devolverá venganza a sus adversarios y hará expiación por su tierra, su pueblo."
+    }
+  ],
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "record": "data/editorial.json (main c9ae49a, selection 0.4.17)",
+      "result": "No selected text for Deut.32.39-43 (packet current_selected is empty; verified by scanning data/editorial.json).",
+      "note": "Only Deut.32.8 is selected in Deuteronomy. Its basis (MT remainder plus reported 4Q37 divine-sons phrase; editorial reconstruction) is relevant as precedent for 32:43."
+    },
+    {
+      "kind": "decisions",
+      "record": "data/decisions.json",
+      "result": "No decision record for Deut.32.39-43.",
+      "note": "Deut.32.8 decision text read only for the reconstruction precedent."
+    },
+    {
+      "kind": "saved_model_records",
+      "record": "data/model-reviews/* (GPT, Gemini, Claude round files)",
+      "result": "No saved GPT, Gemini or Claude record covers Deut.32.39-43. The v0.2.0 prompts mention Deut 32 only for 32:8.",
+      "note": "No other model response is quoted or paraphrased for this unit."
+    },
+    {
+      "kind": "cloud_drafts_and_reviews",
+      "record": "automation/cloud-drafts and automation/cloud-reviews on all fetched origin/claude/* branches (74 refs)",
+      "result": "No draft or review for Deut.32.39-43. One unrelated review (lev-19-15-18, branch original-bible-hard-review-pcacah) lists Deut.32.43 only as a concordance hit for the lemma naqam.",
+      "note": "Deut 32:7-12 review (bible-hard-review-fg63bu) was opened only for record structure; its content concerns other verses."
+    },
+    {
+      "kind": "public_domain_library",
+      "record": "library/krv, library/asv, library/rv1909 Deut 32:39-43",
+      "result": "Same verse ranges as OSIS IDs; compared for reception only, not copied.",
+      "note": "43a: KRV ‘너희 열방은 주의 백성과 즐거워하라’, ASV ‘Rejoice, O ye nations, with his people’, RV1909 ‘Alabad, gentes, á su pueblo’. 42b: KRV ‘대적의 장관의 머리’, ASV ‘the leaders of the enemy’, RV1909 ‘con venganzas de enemigo’."
+    }
+  ],
+  "earlier_record_texts": {
+    "note": "No selected text or saved GPT/Gemini/Claude record exists for this unit; nothing to quote."
+  },
+  "comparison_findings_ko": [
+    {
+      "id": "Deut.32.39",
+      "severity": "low",
+      "finding_ko": "선정문·모델 기록 없음. 전통 번역(KRV/ASV/RV1909)은 39b를 일반 현재로 옮긴다. 나는 완료/미완료 대조를 살렸다(대안 B 병기). 4Q44는 이 절이 대부분 재구성이라 증거 가치가 낮다."
+    },
+    {
+      "id": "Deut.32.40",
+      "severity": "low",
+      "finding_ko": "LXX의 맹세 플러스(ὀμοῦμαι τὴν δεξιάν μου)는 MT·4Q44에 없다. 번역 본문에 넣지 않았다."
+    },
+    {
+      "id": "Deut.32.41",
+      "severity": "low",
+      "finding_ko": "4Q44 שנתי(결여 철자)는 의미 차이가 없다. LXX가 목적어 독법을 지지한다."
+    },
+    {
+      "id": "Deut.32.42",
+      "severity": "medium (lexical)",
+      "finding_ko": "פַּרְעוֹת 해석이 전통 번역(지도자)과 갈린다. Swete B 본문은 ‘칼이 살을 삼키리라’ 행이 없고(A·F에 있음) 이는 그리스어 내부 문제다. MT와 4Q44는 그 행을 가진다."
+    },
+    {
+      "id": "Deut.32.43",
+      "severity": "high (textual basis)",
+      "finding_ko": "MT 4행, 4Q44 6행, LXX 8행이다. 내 패킷 단독 초기안은 MT였다. 4Q44를 직접 추출한 뒤에도 번역 본문은 MT로 두되, 4Q44 전사형 전체 문구를 대안 D로 마련했다. 첫 행 해석은 전통 번역(‘백성과 함께’)과 다르게 사역형으로 두었다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "초기안 대비 변경: (1) 40절 ko ‘맹세하노니,’를 현대 어미 ‘맹세한다.’로 바꿨다. (2) 41절 ko ‘응징을 되돌리고 … 갚아 주리라’를 ‘응징으로 되갚고 … 갚아 줄 것이다’로 다듬었다. (3) 42절 ko에 주어 ‘내가’를 넣고 ‘내 칼이 살을 삼키게 하리라’를 원문 주어 구조대로 ‘내 칼은 살을 삼킬 것이다’로 고쳤다. es ‘muertos’를 חָלָל에 가까운 ‘caídos’로 바꿨다. (4) 43절 ko 동격 ‘자기 땅, 자기 백성을 위하여’를 ‘그분의 땅, 그분의 백성을’로(레 16장 장소 목적어 관례), 동사도 ‘응징으로 되갚으시며’로 41절과 맞췄다. 의미 판단(사역형 43a, MT 기준, 늘어뜨린 머리털)은 바꾸지 않았다. 4Q44·Swete 확인은 대안 D와 주석을 추가하게 했을 뿐 선호문을 바꾸지 않았다.",
+  "reception_evidence": {
+    "source_note": "Hebrew base: pinned morphhb WLC (public domain; OSHB morphology CC BY 4.0). Greek: First1KGreek TEI of Swete Septuagint (CC BY-SA 4.0), main text after Codex Vaticanus, with OCR losses; quoted as encoded. Qumran: ETCBC/dss Text-Fabric 1.9 (Abegg-Bowley-Cook data, CC BY-NC 4.0) — short excerpts only; the NC licence must be reviewed before any commercial reuse of these quotations. NT: SBLGNT (CC BY 4.0). None of these is a manuscript image or a full collation.",
+    "items": [
+      {
+        "ref": "LXX Deut 32:39 (Swete, First1KGreek TEI)",
+        "excerpt": "ἴδετε ἴδετε ὅτι ἐγώ εἰμι, / καὶ οὐκ ἔστιν θεὸς πλὴν ἐμοῦ· / ἐγὼ ἀποκτέννω καὶ ζῆν ποιήσω·",
+        "finding_ko": "그리스어는 ‘보라’를 두 번 쓰고 MT의 ‘나, 나’는 ἐγώ εἰμι 하나로 옮긴다. עִמָּדִי(나와 함께)를 πλὴν ἐμοῦ(나 외에는)로 풀어 배타적 유일성을 명시한다. 디지털 본문은 ‘πατάξω κἀγὼ ἰάσομαι’ 계열 행을 담고 있지 않으나, 각주의 ‘κἄγω] καὶ ἐγὼ F’는 인쇄본 본문에 그 행이 있음을 시사한다(OCR 누락으로 판단, 행 자체는 이번에 확인하지 못함)."
+      },
+      {
+        "ref": "LXX Deut 32:40 (Swete)",
+        "excerpt": "ὅτι ἀρῶ εἰς τὸν οὐρανὸν τὴν χεῖρά μου, / καὶ ὀμοῦμαι τὴν δεξιάν μου / καὶ ἐρῶ Σῶ ἐγὼ εἰς τὸν αἰῶνα·",
+        "finding_ko": "그리스어에는 ‘내 오른손으로 맹세하리라’는 MT·4Q44에 없는 플러스가 있다. 이는 40절을 맹세 장면으로 읽은 고대 해석의 증거이며, ko 선호문에서 ‘맹세한다’를 보충한 근거 중 하나다(보충어로 표시)."
+      },
+      {
+        "ref": "LXX Deut 32:41 (Swete)",
+        "excerpt": "ὅτι παροξυνῶ ὡς ἀστραπὴν τὴν μάχαιράν μου, / καὶ ἀνθέξεται κρίματος ἡ χείρ μου,",
+        "finding_ko": "אִם을 ὅτι로 옮기고 ‘번개처럼 칼을 갈리라’로 풀었다. ‘손이 심판을 붙잡는다(ἀνθέξεται κρίματος)’는 בְּמִשְׁפָּט를 목적어로 읽는 선호안과 일치한다."
+      },
+      {
+        "ref": "LXX Deut 32:42 (Swete) and apparatus",
+        "excerpt": "μεθύσω τὰ βέλη μου ἀφ’ αἵματος / τραυματιῶν καὶ αἰχμαλωσίας, / ἀπὸ κεφαλῆς ἀρχόντων ἐχθρῶν. | apparatus: 42 αἵματος] + καὶ η μάχαιρα μου καταφάγεται κρέα ἀφ’ αἵματος AF | εχθρων] ἐθνῶν Α",
+        "finding_ko": "Swete 본문(B 계열)에는 ‘내 칼이 살을 삼키리라’ 행이 없고, 각주는 A·F가 그 행을 갖는다고 표시한다. ἀφ’ αἵματος가 두 번 나오는 자리라 동일어미 탈락(homoioteleuton)일 가능성이 크다(이것은 나의 판단). פַּרְעוֹת는 ἀρχόντων(지도자들)으로 옮겨졌다."
+      },
+      {
+        "ref": "LXX Deut 32:43 (Swete) and apparatus",
+        "excerpt": "εὐφράνθητε, οὐρανοί, ἅμα αὐτῶ, / καὶ προσκυνησάτωσαν αὐτώ υἱοὶ / εὐφράνθητε, ἔθνη, μετὰ τοῦ λαοῦ αὐτοῦ, / ὅτι τὸ αἷμα τῶν υἱῶν αὐτοῦ / … / κα ἐκκαθαριεῖ κύριος τὴν γῆν τοῦ λαοῦ αὐτοῦ. | apparatus: 43 ἀυτῶ 1°] + πάντες Α | υἱοὶ] αγγελοι F | ἐκδικᾶται] ἐκδικεῖται Α F | om Κυριος F",
+        "finding_ko": "디지털 본문은 OCR 결손이 있다(‘υἱοὶ’ 뒤 낱말, ‘ἐκδικᾶται’ 행 끝, 둘째 ‘ἄγγελοι’ 행 등이 인코딩에 없고 각주만 그 존재를 시사). 확인된 것만 말하면: 하늘 호격 행, ‘그에게 경배하라 … υἱοὶ’ 행, ‘민족들아 그의 백성과 함께(μετὰ τοῦ λαοῦ αὐτοῦ)’ 행, ‘그의 아들들의 피’, ‘주께서 그의 백성의 땅을 정결하게 하시리라(ἐκκαθαριεῖ … τὴν γῆν τοῦ λαοῦ αὐτοῦ)’. MT보다 길며 4Q44 계열과 MT 계열을 모두 담은 합성형으로 보인다(나의 판단)."
+      },
+      {
+        "ref": "4Q44 (4QDeut-q) frg. 2-5 i lines 6-11; frg. 5 ii lines 1-11, per ETCBC/dss tf 1.9 (Abegg, Bowley, Cook data)",
+        "excerpt": "f5ii 6-11: הרנינו שמים עמ׳ו / ו השתחוו ל׳ו כל אלהים / כי דם בני׳ו יקום / ו נקם ישיב ל צרי׳ו / ו ל משנאי׳ו ישלם / ו יכפר אדמת עמ׳ו ׃",
+        "finding_ko": "이번 세션에서 공개 전사 데이터로 직접 추출했다. 43절 6행은 재구성(rec)·불확실(unc) 표시가 하나도 없이 보존된 글자로 인코딩되어 있다. MT와 달리 (1) 민족들 대신 하늘(שמים), (2) ‘모든 신들아 그에게 엎드리라’ 행 추가, (3) 종들 대신 아들들(בניו), (4) ‘그를 미워하는 자들에게 갚으시리라’ 행 추가, (5) ויכפר(와우+미완료형), (6) אדמת עמו(그의 백성의 땅, 연계형)을 읽는다. 39-41a는 상당 부분이 현대 편집자 재구성([ ])이라 MT 일치 여부를 증거로 쓰기 어렵다. 42절에는 אשכירה(긴 형태), ומראש(접속사 추가), 불확실 표시가 붙은 פרעות·איוב가 있다. 데이터셋의 ׳와 띄어쓰기는 형태소 분절 표시이지 사본 철자가 아니다. 사본 이미지나 DJD XIV 판독과 대조하지 않았다."
+      },
+      {
+        "ref": "Rom 15:10 (SBLGNT)",
+        "excerpt": "καὶ πάλιν λέγει· Εὐφράνθητε, ἔθνη, μετὰ τοῦ λαοῦ αὐτοῦ.",
+        "finding_ko": "바울의 인용은 그리스어 32:43의 ‘민족들아 그의 백성과 함께 기뻐하라’ 행과 낱말이 같다. 개역한글·ASV의 ‘with his people’ 계열 번역이 이 전통과 일치한다."
+      },
+      {
+        "ref": "Heb 1:6 (SBLGNT)",
+        "excerpt": "Καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ.",
+        "finding_ko": "3인칭 복수 명령 προσκυνησάτωσαν αὐτῷ는 Swete 32:43 둘째 행과 같은 형태이며, ‘πάντες’(A)와 ‘ἄγγελοι’(F) 이문을 합친 모양이다. 시편 96:7 LXX(2인칭 명령) 등 다른 후보 출처와의 비교는 이번에 확인하지 않았다. MT 32:43에는 이 행이 없다."
+      }
+    ],
+    "4Q44_transcription_lines": {
+      "Deut.32.39": [
+        {
+          "fragment": "f2_5i",
+          "line": "6",
+          "encoded": "[ר][א][ו] [ע][ת][ה] כי אני{U1} א{U4}[נ][י] [ה][ו][א] [ו] [א][י][ן] [א][ל][ה][י][ם] [ע][מ][ד][׳][י]"
+        },
+        {
+          "fragment": "f2_5i",
+          "line": "7",
+          "encoded": "[א][נ][י] [א][מ][י][ת] [ו] [א][ח][י][ה] [מ][ח][צ][ת][י] [ו] [א][נ][י] [א][ר][פ][א]"
+        },
+        {
+          "fragment": "f2_5i",
+          "line": "8",
+          "encoded": "[ו] [א][י][ן] [מ] [י][ד][׳][י] מצי{U3}[ל] [][׃]"
+        }
+      ],
+      "Deut.32.40": [
+        {
+          "fragment": "f2_5i",
+          "line": "8",
+          "encoded": "[כ][י] [א]ש{U4}א אל{U4} [ש][מ][י][ם] [י]ד{U4}׳י"
+        },
+        {
+          "fragment": "f2_5i",
+          "line": "9",
+          "encoded": "[ו] [א][מ][ר][ת][י] [ח][י] א{U2}נכי [ל] [ע][ו][ל][ם] [][׃]"
+        }
+      ],
+      "Deut.32.41": [
+        {
+          "fragment": "f2_5i",
+          "line": "10",
+          "encoded": "[א]ם{U2} שנתי ב{U4}[ר]ק{U4} ח{U2}ר{U2}ב׳י"
+        },
+        {
+          "fragment": "f2_5i",
+          "line": "11",
+          "encoded": "[ו] [ת][א][ח][ז] ב משפט יד{U4}׳[י] אשיב נ{U1}ק{U2}[ם] ל{U4} צ{U2}ר׳י"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "1",
+          "encoded": "[ו] [ל] [מ][ש][נ]א׳י אשלם ׃"
+        }
+      ],
+      "Deut.32.42": [
+        {
+          "fragment": "f5ii",
+          "line": "2",
+          "encoded": "[א][ש][כ][י][ר]ה חצ׳י מ דם"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "3",
+          "encoded": "[ו] [ח][ר][ב][׳][י] [ת][א]כ{U2}ל בשר"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "4",
+          "encoded": "[מ] [ד][ם] [ח][ל][ל] [ו] שביה"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "5",
+          "encoded": "ו{U3} מ{U2} ר{U4}א{U4}ש{U4} פ{U4}[ר]ע{U4}ו{U1}ת אי{U1}ו{U1}ב ׃"
+        }
+      ],
+      "Deut.32.43": [
+        {
+          "fragment": "f5ii",
+          "line": "6",
+          "encoded": "הרנינו שמים עמ׳ו"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "7",
+          "encoded": "ו השתחוו ל׳ו כל אלהים"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "8",
+          "encoded": "כי דם בני׳ו יקום"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "9",
+          "encoded": "ו נקם ישיב ל צרי׳ו"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "10",
+          "encoded": "ו ל משנאי׳ו ישלם"
+        },
+        {
+          "fragment": "f5ii",
+          "line": "11",
+          "encoded": "ו יכפר אדמת עמ׳ו ׃"
+        }
+      ]
+    },
+    "4Q44_render_legend": "[x] = sign flagged rec (reconstructed by a modern editor); {Un} = unc degree n (higher = less certain); ׳ = dataset morpheme boundary; spaces separate dataset words/morphemes; [] = reconstructed empty/space sign."
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "MT 32:43 짧은 형태가 ‘신들’ 언급을 줄인 후대 개정이라는 학설",
+      "status": "not_verified_in_session",
+      "reason": "No scholarly source was accessed; mentioned only as the strongest objection."
+    },
+    {
+      "claim_ko": "사마리아 오경 32:43 독법",
+      "status": "not_verified_in_session",
+      "reason": "No accessible SP text fetched."
+    },
+    {
+      "claim_ko": "4Q44가 발췌·전례 성격의 사본이라는 평가",
+      "status": "not_verified_in_session",
+      "reason": "Wikipedia blocked (403); no DJD introduction accessed."
+    },
+    {
+      "claim_ko": "이사야 41:4; 43:10의 ‘ani hu’ 연결, 시 65:9; 욥 29:13 사역 히필 용례, 민 6:5; 겔 44:20 פֶּרַע 용례",
+      "status": "from_model_knowledge_not_fetched",
+      "reason": "Cross-references cited from internal knowledge of the Hebrew Bible; not re-fetched from the pinned source in this run."
+    }
+  ],
+  "alternatives": {
+    "Deut.32.39": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘내가 쳐서 상하게 하였으나 내가 낫게 할 것이다’ — 완료(마하츠티)/미완료(에르파) 전환과 앞에 둔 대명사(와아니)를 시간 대조로 살림.",
+        "argument_ko": "36절 이후의 문맥(심판 뒤 긍휼)과 맞고, 대명사 강조 ‘나 자신이 낫게 한다’를 보존한다.",
+        "objection_ko": "찬가식 자기 서술에서 완료형은 일반 진리(gnomic)로도 쓰인다. 삼상 2:6은 분사로 같은 대구를 만든다. KRV·ASV·RV1909는 모두 현재/일반형(상하게도 하며 낫게도 하나니; I wound, and I heal; yo hiero, y yo curo)이다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘내가 상하게 하고 내가 낫게 한다’ — 네 동사를 모두 일반 현재로.",
+        "argument_ko": "죽임/살림(미완료+와우 단순접속)과 균형이 맞고 하나님의 주권적 속성 진술로 읽힌다.",
+        "objection_ko": "완료–미완료 차이를 지운다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘내 곁에 다른 신은 없다’ 또는 LXX식 ‘나 외에는 신이 없다’.",
+        "argument_ko": "유일신 고백을 분명히 한다(LXX πλὴν ἐμοῦ).",
+        "objection_ko": "עִמָּדִי는 ‘나와 함께/곁에’이며 ‘외에’(מִבַּלְעָדַי, זוּלָתִי)가 아니다. ‘다른’은 보충어다. 번역 본문에서는 원문의 공간적 표현을 유지하고 해석은 주석으로 둔다."
+      }
+    ],
+    "Deut.32.40": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "כִּי = 강조 ‘참으로’, 수행적 현재 ‘손을 들고 말한다’, חַי אָנֹכִי = 맹세 정형구(ko는 ‘맹세한다’ 보충).",
+        "argument_ko": "손을 하늘로 드는 몸짓(출 6:8; 민 14:30)과 ‘내가 살아 있는 한’(민 14:21, 28)은 맹세 정형구다. LXX도 ‘내 오른손으로 맹세하리라’를 덧붙여 맹세로 읽었다. 41절이 맹세 내용이다.",
+        "objection_ko": "‘맹세’라는 낱말은 원문에 없다. ko만 보충하면 세 언어의 개입 정도가 달라진다. כִּי는 원인 ‘이는/for’(ASV, LXX ὅτι)로 읽는 쪽이 더 흔하다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘이는 내가 하늘을 향해 손을 들고 말하기 때문이다. 나는 영원히 살아 있다.’",
+        "argument_ko": "39절 ‘건져 낼 자가 없다’의 근거로 이어진다.",
+        "objection_ko": "‘영원히 살아 있다’를 단순 진술로 두면 41절 맹세 내용과의 연결이 약해진다(KRV는 ‘영원히 삶을 두고 맹세하노니’로 맹세를 보충)."
+      }
+    ],
+    "Deut.32.41": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "אִם + 완료 = ‘…할 때’, בְּרַק חַרְבִּי = 번쩍이는 칼, בְּמִשְׁפָּט = 붙잡는 대상(심판), נָקָם = 응징.",
+        "argument_ko": "אחז בְּ는 ‘붙잡다’의 목적 표지다. LXX ἀνθέξεται κρίματος도 같다. 귀결절 אָשִׁיב이 이어지므로 맹세의 부정 불변사 용법은 아니다.",
+        "objection_ko": "맹세 문맥의 אִם은 원래 강한 부정(결코 …않으리라)을 표시하는 경우가 많다. 이 절을 맹세 공식과 별개 조건문으로 읽는 것은 해석이다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘내 칼날의 번개를 갈고’(직역), ‘손이 심판 중에 (칼을) 잡을 때’.",
+        "argument_ko": "בְּרַק을 명사 그대로 보존하고, בְּ를 부사(심판으로/중에)로 본다.",
+        "objection_ko": "‘칼’을 목적어로 보충해야 하고, אחז בְּ 관용을 놓친다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "נָקָם = ‘보복’ 또는 ‘원수 갚음’.",
+        "argument_ko": "전통 번역(KRV ‘보수’)과 가까우며 낱말 뜻이 직접적이다.",
+        "objection_ko": "한국어 ‘보복’은 사적 앙갚음의 뉘앙스가 강하다. 여기서는 정당한 통치자의 심판(41절 מִשְׁפָּט)과 결합되므로 ‘응징’이 문맥에 가깝다고 판단했다. 그러나 이것도 해석적 선택이다."
+      }
+    ],
+    "Deut.32.42": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "פַּרְעוֹת = 늘어뜨린 머리털 → ‘머리털을 길게 늘어뜨린 원수의 머리’.",
+        "argument_ko": "פֶּרַע의 확실한 용례는 ‘풀어 늘어뜨린 머리털’(민 6:5; 겔 44:20)이다. 시 68:22 ‘머리털 있는 정수리’와 같은 전쟁 이미지다.",
+        "objection_ko": "LXX ἀρχόντων, KRV ‘장관’, ASV ‘leaders’가 모두 ‘지도자’로 읽는다. 삿 5:2 בִּפְרֹעַ פְּרָעוֹת도 ‘지도자들이 앞장설 때’로 해석되는 경우가 있다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘원수 지도자들의 머리에서’.",
+        "argument_ko": "고대 그리스어 번역과 다수 전통 번역의 계보를 따른다.",
+        "objection_ko": "‘지도자’ 의미는 히브리어 내부 용례로 확정되지 않으며 삿 5:2 해석에 기대고 있다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "מֵרֹאשׁ = ‘처음부터/첫머리’, פַּרְעוֹת = ‘보복들’(RV1909 ‘con venganzas de enemigo’ 계열).",
+        "argument_ko": "전통 스페인어 번역이 이런 방향을 보인다.",
+        "objection_ko": "42a의 ‘피–살’ 대구와 42b의 ‘피–머리’ 교차 구조를 깨고, פרע ‘보복’ 의미의 근거가 약하다."
+      }
+    ],
+    "Deut.32.43": [
+      {
+        "label": "A (preferred, MT/WLC)",
+        "reading_ko": "הַרְנִינוּ 히필 사역 + 목적어 עַמּוֹ: ‘민족들아, 그분의 백성이 기뻐 외치게 하라’. 4행 구조, 끝 행은 MT의 동격 ‘그분의 땅, 그분의 백성’.",
+        "argument_ko": "고정 WLC 모음 본문을 그대로 번역한다. 히필 רנן가 직접목적어를 가질 때는 사역(시 65:9; 욥 29:13)이다. 전치사를 보충하지 않는다.",
+        "objection_ko": "아래 strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘민족들아, 그의 백성과 함께 기뻐하라’(LXX 셋째 행, 롬 15:10, KRV, ASV).",
+        "argument_ko": "신약 인용과 한국 교회 전통 번역이 이 형태다. 자음 עמו를 전치사 ‘그와 함께’(עִמּוֹ)로도 읽을 수 있다는 점과 연결된다.",
+        "objection_ko": "WLC 모음은 עַמּוֹ(그의 백성)이므로 ‘함께’는 원문에 없는 전치사를 보충하는 것이다. LXX의 μετὰ τοῦ λαοῦ αὐτοῦ는 עמו를 전치사와 명사로 이중 번역한 흔적일 수 있다(재구성 가설, 미확인)."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘민족들아, 그분의 백성을 찬양하라’(RV1909 ‘Alabad, gentes, á su pueblo’).",
+        "argument_ko": "목적어를 그대로 두고 히필을 ‘환호하여 높이다’로 본다.",
+        "objection_ko": "רנן 히필이 ‘누구를 찬양하다’로 쓰인 분명한 용례를 이번에 확인하지 못했다."
+      },
+      {
+        "label": "D (labeled editorial reconstruction from 4Q44 as transcribed)",
+        "reading_ko": "하늘들아, 그분과 함께 기뻐 외치라. 모든 신들아, 그분께 엎드려라. 그분이 자기 아들들의 피를 갚으시고, 자기 대적들에게 응징으로 되갚으시며, 자기를 미워하는 자들에게 갚으시고, 자기 백성의 땅을 속죄하실 것이기 때문이다.",
+        "reading_en": "Shout for joy, O heavens, with him; bow down to him, all gods! For he will avenge the blood of his sons; he will bring vengeance back on his adversaries, repay those who hate him, and make atonement for the land of his people.",
+        "reading_es": "¡Cielos, gritad de júbilo con él; postraos ante él, todos los dioses! Porque él vengará la sangre de sus hijos; devolverá venganza a sus adversarios, dará su pago a los que le aborrecen y hará expiación por la tierra de su pueblo.",
+        "argument_ko": "이번에 직접 추출한 4Q44 전사는 43절 6행을 재구성 표시 없이 보존한다. LXX의 ‘하늘들’, ‘경배하라’, ‘아들들’, ‘미워하는 자들’, ‘그의 백성의 땅’과 맞물린다. 프로젝트가 32:8에서 신적 존재 계열을 편집 재구성으로 이미 채택했으므로 일관성 논거도 있다. 첫 행 עמו는 LXX ἅμα αὐτῷ에 따라 ‘그와 함께’로 읽었다(‘그의 백성’으로도 읽힘).",
+        "objection_ko": "(1) MT의 ‘민족들’ 행은 LXX에도 있으므로 4Q44만 따르면 고대 증거가 있는 행 하나를 버린다. (2) 4Q44는 발췌/전례용 사본으로 소개되는 경우가 있어 본문 성격이 MT와 같다고 단정할 수 없다(이 점은 이번에 확인하지 못함). (3) 사본 이미지·DJD 판독과 대조하지 않았다. (4) 절 전체 교체는 32:8의 낱말 하나 교체보다 개입이 훨씬 크다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Deut.32.43 preferred A (translate MT/WLC; 4Q44/LXX only in notes and alternative D)",
+    "objection_ko": "가장 강한 반론: 이번에 직접 추출한 가장 오래된 히브리어 증인 4Q44가 43절을 6행으로, 재구성 표시 없이 보존하고, 그 내용(하늘, 신들의 경배, 아들들, 그의 백성의 땅)이 그리스어 전통과 독립적으로 맞물린다. MT의 짧은 형태는 ‘신들’ 언급을 꺼린 후대 축약일 수 있다는 학계 주장이 있고(이번에 1차 자료로 확인하지 않음), 프로젝트는 32:8에서 같은 방향(신적 존재 계열)을 이미 편집 재구성으로 채택했다. 그렇다면 43절만 MT로 두는 것은 정책상 비일관적이다. 또한 MT의 동격 ‘אַדְמָתוֹ עַמּוֹ’는 문법적으로 어색해 4Q44·LXX의 ‘그의 백성의 땅’이 더 자연스럽다.",
+    "response_ko": "(1) 32:8은 한 낱말 차이이고 43절은 행 수(MT 4, 4Q44 6, LXX 8)와 행 내용이 함께 달라 하나의 ‘원형’을 재구성하려면 여러 행을 선택·결합해야 한다. LXX는 두 계열을 모두 담은 합성형으로 보이므로, MT의 ‘민족들’ 행도 고대 증거가 있다. (2) 고정 기준 본문은 WLC이고, 이번 기록은 사본 이미지 판독을 하지 않았다. (3) 그래서 선호문은 MT를 번역하고, 4Q44 전사형은 대안 D로 세 언어 문구까지 준비해 편집자가 32:8 정책과의 일관성을 판단하게 했다. 편집 방침이 ‘쿰란 히브리어 증인 + 그리스어 독립 지지 시 채택’이라면 D로 바꾸는 것이 타당하다. 끝 행만은 MT 그대로 두되 동격을 쉼표로 보존했다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Deut.32.40 preferred A (ko supplies 맹세한다)",
+      "objection_ko": "en/es는 정형구(As I live / Tan cierto como que vivo)로 맹세를 암시만 하는데 ko만 ‘맹세한다’라는 동사를 보충한다.",
+      "response_ko": "한국어에는 ‘As I live’에 대응하는 짧은 맹세 정형구가 없어 ‘내가 영원히 살아 있다’로 두면 단순 진술로 읽힌다. 보충어로 명시했다. 편집이 보충을 줄이려면 대안 B를 쓴다."
+    },
+    {
+      "target": "Deut.32.42 preferred A (long-haired)",
+      "objection_ko": "LXX·KRV·ASV 모두 ‘지도자’다. 다수 전통을 뒤집는 근거가 히브리어 내부 용례 몇 개뿐이다.",
+      "response_ko": "그 용례(민 6:5; 겔 44:20)는 같은 낱말의 확실한 의미이고, ‘지도자’는 삿 5:2의 해석에 의존한다. 신뢰도는 낮음으로 표시하고 대안 B를 남겼다."
+    },
+    {
+      "target": "Deut.32.43 ko 속죄하다 vs 정결하게 하다",
+      "objection_ko": "한국어 ‘속죄’는 죄 용서의 신학 용어로 강하게 읽힌다. 땅을 대상으로 한 כִּפֶּר는 피로 더럽혀진 땅의 정화(민 35:33)이며 LXX도 ἐκκαθαριεῖ(정결하게 하다)다.",
+      "response_ko": "KRV 레 16:33 ‘지성소를 속죄하며’처럼 장소 목적어와 함께 ‘속죄하다’를 쓰는 한국어 성경 관례가 있고, en/es의 atonement/expiación과 맞는다. 주석에 정화 의미를 적고, 편집이 원하면 ‘속죄하여 깨끗하게 하실’로 바꿀 수 있다."
+    }
+  ],
+  "preferred_wording": {
+    "Deut.32.39": {
+      "ko": "이제 너희는 보라. 나, 바로 내가 그다. 나와 함께 있는 신은 없다. 내가 죽이고 내가 살린다. 내가 쳐서 상하게 하였으나 내가 낫게 할 것이다. 내 손에서 건져 낼 자는 없다.",
+      "en": "See now that I, I am he, and there is no god with me. I put to death and I make alive; I have wounded, and I will heal; and there is no one who delivers from my hand.",
+      "es": "Ved ahora que yo, yo soy él, y no hay dios conmigo. Yo hago morir y yo hago vivir; yo he herido, y yo sanaré; y no hay quien libre de mi mano."
+    },
+    "Deut.32.40": {
+      "ko": "참으로 내가 하늘을 향해 손을 들고 말한다. 영원히 살아 있는 나를 두고 맹세한다.",
+      "en": "Indeed, I lift my hand to the heavens and say: As I live forever,",
+      "es": "Ciertamente alzo mi mano hacia los cielos y digo: Tan cierto como que vivo para siempre,"
+    },
+    "Deut.32.41": {
+      "ko": "내가 번쩍이는 내 칼을 갈고 내 손이 심판을 붙잡을 때, 내 대적들에게 응징으로 되갚고 나를 미워하는 자들에게 갚아 줄 것이다.",
+      "en": "when I whet my flashing sword and my hand takes hold of judgment, I will bring vengeance back on my adversaries and repay those who hate me.",
+      "es": "cuando afile mi espada relampagueante y mi mano empuñe el juicio, devolveré venganza a mis adversarios y daré su pago a los que me aborrecen."
+    },
+    "Deut.32.42": {
+      "ko": "내가 내 화살들을 피로 취하게 하고, 내 칼은 살을 삼킬 것이다. 죽임당한 자들과 사로잡힌 자들의 피로, 머리털을 길게 늘어뜨린 원수의 머리에서.",
+      "en": "I will make my arrows drunk with blood, and my sword will devour flesh: with the blood of the slain and the captives, from the long-haired head of the enemy.",
+      "es": "Embriagaré de sangre mis flechas, y mi espada devorará carne: con la sangre de los caídos y de los cautivos, de la cabeza melenuda del enemigo."
+    },
+    "Deut.32.43": {
+      "ko": "민족들아, 그분의 백성이 기뻐 외치게 하라. 그분이 자기 종들의 피를 갚으시고, 자기 대적들에게 응징으로 되갚으시며, 그분의 땅, 그분의 백성을 속죄하실 것이기 때문이다.",
+      "en": "O nations, make his people shout for joy, for he will avenge the blood of his servants; he will bring vengeance back on his adversaries and make atonement for his land, his people.",
+      "es": "Naciones, haced que su pueblo grite de júbilo, porque él vengará la sangre de sus siervos; devolverá venganza a sus adversarios y hará expiación por su tierra, su pueblo."
+    }
+  },
+  "clause_coverage_check": {
+    "Deut.32.39": [
+      {
+        "word_id_range": [
+          "05pEW",
+          "05fvs"
+        ],
+        "rendered_ko": "이제 너희는 보라",
+        "rendered_en": "See now",
+        "rendered_es": "Ved ahora"
+      },
+      {
+        "word_id_range": [
+          "059N5",
+          "05R7n",
+          "05NCi",
+          "05ejZ"
+        ],
+        "rendered_ko": "나, 바로 내가 그다",
+        "rendered_en": "that I, I am he",
+        "rendered_es": "que yo, yo soy él"
+      },
+      {
+        "word_id_range": [
+          "05ntv",
+          "05A17",
+          "05DrV"
+        ],
+        "rendered_ko": "나와 함께 있는 신은 없다",
+        "rendered_en": "and there is no god with me",
+        "rendered_es": "y no hay dios conmigo"
+      },
+      {
+        "word_id_range": [
+          "05tHP",
+          "05pNL",
+          "05K8f"
+        ],
+        "rendered_ko": "내가 죽이고 내가 살린다",
+        "rendered_en": "I put to death and I make alive",
+        "rendered_es": "Yo hago morir y yo hago vivir"
+      },
+      {
+        "word_id_range": [
+          "05M2d",
+          "05HUj",
+          "05AkQ"
+        ],
+        "rendered_ko": "내가 쳐서 상하게 하였으나 내가 낫게 할 것이다",
+        "rendered_en": "I have wounded, and I will heal",
+        "rendered_es": "yo he herido, y yo sanaré"
+      },
+      {
+        "word_id_range": [
+          "05qKA",
+          "05UvS",
+          "05byr"
+        ],
+        "rendered_ko": "내 손에서 건져 낼 자는 없다",
+        "rendered_en": "and there is no one who delivers from my hand",
+        "rendered_es": "y no hay quien libre de mi mano"
+      }
+    ],
+    "Deut.32.40": [
+      {
+        "word_id_range": [
+          "05UE2",
+          "05D7w",
+          "05Yz1",
+          "05m9p",
+          "05ih8"
+        ],
+        "rendered_ko": "참으로 내가 하늘을 향해 손을 들고",
+        "rendered_en": "Indeed, I lift my hand to the heavens",
+        "rendered_es": "Ciertamente alzo mi mano hacia los cielos"
+      },
+      {
+        "word_id_range": [
+          "058hZ"
+        ],
+        "rendered_ko": "말한다",
+        "rendered_en": "and say",
+        "rendered_es": "y digo"
+      },
+      {
+        "word_id_range": [
+          "05k4b",
+          "05ZXj",
+          "05SRr"
+        ],
+        "rendered_ko": "영원히 살아 있는 나를 두고 맹세한다",
+        "rendered_en": "As I live forever",
+        "rendered_es": "Tan cierto como que vivo para siempre"
+      }
+    ],
+    "Deut.32.41": [
+      {
+        "word_id_range": [
+          "05Vun",
+          "05cyh",
+          "05AQ3",
+          "05NWB"
+        ],
+        "rendered_ko": "내가 번쩍이는 내 칼을 갈고",
+        "rendered_en": "when I whet my flashing sword",
+        "rendered_es": "cuando afile mi espada relampagueante"
+      },
+      {
+        "word_id_range": [
+          "051of",
+          "059Sr",
+          "052wD"
+        ],
+        "rendered_ko": "내 손이 심판을 붙잡을 때",
+        "rendered_en": "and my hand takes hold of judgment",
+        "rendered_es": "y mi mano empuñe el juicio"
+      },
+      {
+        "word_id_range": [
+          "059Ms",
+          "05GM9",
+          "05K43"
+        ],
+        "rendered_ko": "내 대적들에게 응징으로 되갚고",
+        "rendered_en": "I will bring vengeance back on my adversaries",
+        "rendered_es": "devolveré venganza a mis adversarios"
+      },
+      {
+        "word_id_range": [
+          "05Nh3",
+          "05Pay"
+        ],
+        "rendered_ko": "나를 미워하는 자들에게 갚아 줄 것이다",
+        "rendered_en": "and repay those who hate me",
+        "rendered_es": "y daré su pago a los que me aborrecen"
+      }
+    ],
+    "Deut.32.42": [
+      {
+        "word_id_range": [
+          "05tpq",
+          "051f1",
+          "05kVM"
+        ],
+        "rendered_ko": "내가 내 화살들을 피로 취하게 하고",
+        "rendered_en": "I will make my arrows drunk with blood",
+        "rendered_es": "Embriagaré de sangre mis flechas"
+      },
+      {
+        "word_id_range": [
+          "05bsZ",
+          "05TEL",
+          "05ytb"
+        ],
+        "rendered_ko": "내 칼은 살을 삼킬 것이다",
+        "rendered_en": "and my sword will devour flesh",
+        "rendered_es": "y mi espada devorará carne"
+      },
+      {
+        "word_id_range": [
+          "053ey",
+          "05RmL",
+          "05ci2"
+        ],
+        "rendered_ko": "죽임당한 자들과 사로잡힌 자들의 피로",
+        "rendered_en": "with the blood of the slain and the captives",
+        "rendered_es": "con la sangre de los caídos y de los cautivos"
+      },
+      {
+        "word_id_range": [
+          "05a1E",
+          "059Ga",
+          "05ZVW"
+        ],
+        "rendered_ko": "머리털을 길게 늘어뜨린 원수의 머리에서",
+        "rendered_en": "from the long-haired head of the enemy",
+        "rendered_es": "de la cabeza melenuda del enemigo"
+      }
+    ],
+    "Deut.32.43": [
+      {
+        "word_id_range": [
+          "05w7w",
+          "059mv",
+          "05nRN"
+        ],
+        "rendered_ko": "민족들아, 그분의 백성이 기뻐 외치게 하라",
+        "rendered_en": "O nations, make his people shout for joy",
+        "rendered_es": "Naciones, haced que su pueblo grite de júbilo"
+      },
+      {
+        "word_id_range": [
+          "05vJe",
+          "05iPK",
+          "05n6v",
+          "05V76"
+        ],
+        "rendered_ko": "그분이 자기 종들의 피를 갚으시고 … 때문이다",
+        "rendered_en": "for he will avenge the blood of his servants",
+        "rendered_es": "porque él vengará la sangre de sus siervos"
+      },
+      {
+        "word_id_range": [
+          "05g48",
+          "05enX",
+          "059J8"
+        ],
+        "rendered_ko": "자기 대적들에게 응징으로 되갚으시며",
+        "rendered_en": "he will bring vengeance back on his adversaries",
+        "rendered_es": "devolverá venganza a sus adversarios"
+      },
+      {
+        "word_id_range": [
+          "05Gat",
+          "05kwx",
+          "05CFi"
+        ],
+        "rendered_ko": "그분의 땅, 그분의 백성을 속죄하실 것이기",
+        "rendered_en": "and make atonement for his land, his people",
+        "rendered_es": "y hará expiación por su tierra, su pueblo"
+      }
+    ]
+  },
+  "supplied_words_ko": [
+    {
+      "id": "Deut.32.39",
+      "supplied": "‘너희는’(ko, 복수 명령 רְאוּ 표시). en/es는 보충 없음."
+    },
+    {
+      "id": "Deut.32.40",
+      "supplied": "ko ‘맹세한다’, ‘두고’(맹세 정형구 해석). en/es는 ‘As I live’/‘Tan cierto como que vivo’ 정형구로 처리. 문장이 41절로 이어지므로 en/es는 쉼표로 끝난다."
+    },
+    {
+      "id": "Deut.32.41",
+      "supplied": "‘번쩍이는’은 בְּרַק(번개) 연계형의 형용사적 처리. ‘…으로’(ko 응징으로)는 문법 보충."
+    },
+    {
+      "id": "Deut.32.42",
+      "supplied": "‘길게’(ko), ‘long-’(en), ‘melenuda’는 פֶּרַע의 의미 해석. 42b는 원문대로 동사 없는 전치사구로 남겼다."
+    },
+    {
+      "id": "Deut.32.43",
+      "supplied": "‘이/게 하라’ 사역 표현, ‘때문이다’(כִּי). 끝 행 동격 쉼표는 접속사를 보충하지 않은 것이다."
+    }
+  ],
+  "proposed_notes_ko": [
+    {
+      "id": "Deut.32.39",
+      "note_ko": "‘나, 바로 내가 그다(אֲנִי אֲנִי הוּא)’는 이사야 41:4; 43:10 등의 ‘나는 그다’ 선언과 연결되는 표현이다(연결 자체는 해석 전통). ‘나와 함께 있는 신은 없다’의 עִמָּדִי는 ‘나와 함께/곁에’이며, 그리스어는 ‘나 외에는’으로 옮겼다."
+    },
+    {
+      "id": "Deut.32.40",
+      "note_ko": "하늘을 향해 손을 드는 것은 맹세의 몸짓이고 ‘내가 살아 있다’는 맹세 정형구다. 그리스어 번역에는 ‘내 오른손으로 맹세하리라’가 더 있다(히브리어 본문과 4Q44 전사에는 없음)."
+    },
+    {
+      "id": "Deut.32.41",
+      "note_ko": "‘번쩍이는 칼’은 직역하면 ‘내 칼의 번개’다. ‘응징(נָקָם)’은 정당한 통치자의 처벌을 가리키며 사적 앙갚음과 구별된다(해석)."
+    },
+    {
+      "id": "Deut.32.42",
+      "note_ko": "פַּרְעוֹת는 ‘풀어 늘어뜨린 머리털’(민 6:5) 또는 ‘지도자들’(고대 그리스어 번역, 개역한글)로 해석된다. 화살–피, 칼–살–머리가 교차하는 시적 구조다."
+    },
+    {
+      "id": "Deut.32.43",
+      "note_ko": "본문 증인이 크게 다르다. 마소라 본문(이 번역의 기준)은 4행이다. 쿰란 4Q44(공개 전사 기준)는 ‘하늘들아, 그와 함께 기뻐 외치라 / 모든 신들아, 그에게 엎드려라 / 그가 자기 아들들의 피를 갚으시고 … 그를 미워하는 자들에게 갚으시고 / 자기 백성의 땅을 속죄하시리라’의 6행이다. 그리스어 번역은 두 계열을 모두 담은 8행이다. 로마서 15:10은 ‘민족들아, 그의 백성과 함께 기뻐하라’, 히브리서 1:6은 ‘하나님의 모든 천사는 그에게 경배하라’를 인용한다. 마소라 본문 끝 행은 ‘그의 땅, 그의 백성’의 동격이며 다른 증인은 ‘그의 백성의 땅’이다. כִּפֶּר는 피로 더럽혀진 땅의 정화(민 35:33) 의미를 포함한다."
+    }
+  ],
+  "final_opinion_ko": "다섯 절 모두 고정 WLC(MT 표시문)를 번역 기준으로 읽었다. 39-41절은 어휘·구문상 큰 이견이 없고, 40-41절은 맹세 장면(손을 듦, ‘내가 살아 있는 한’)과 그 내용으로 이어 읽었다. 42절 פַּרְעוֹת는 ‘늘어뜨린 머리털’을 선호하되 ‘지도자’ 대안을 남긴다. 43절은 이 단위의 핵심 난제다. 이번 세션에서 4Q44 공개 전사를 직접 추출해, 43절이 MT 4행·4Q44 6행·Swete LXX 8행으로 갈림을 확인했다. 선호문은 MT를 번역하고(43a는 사역형 ‘백성이 기뻐 외치게 하라’), 4Q44 전사형 전체를 세 언어 대안 D로 준비했다. 32:8에서 이미 신적 존재 계열을 채택한 프로젝트 정책과 일관성을 맞출지는 편집자가 결정해야 한다. 이 기록은 채택되지 않은 모델 검토이며 GPT·Gemini 독립 검토와 버전 편집 채택이 필요하다.",
+  "confidence_limits": [
+    {
+      "id": "Deut.32.39",
+      "level": "high",
+      "note_ko": "어휘·구문이 분명하다. 39b의 시제 표시만 편집 선택이다."
+    },
+    {
+      "id": "Deut.32.40",
+      "level": "medium-high",
+      "note_ko": "맹세 해석은 강하나 כִּי 기능(강조/원인)과 ko 보충어는 선택 사항이다."
+    },
+    {
+      "id": "Deut.32.41",
+      "level": "medium-high",
+      "note_ko": "אִם 기능과 נָקָם 역어(응징/보복)가 선택 사항이다."
+    },
+    {
+      "id": "Deut.32.42",
+      "level": "medium-low",
+      "note_ko": "פַּרְעוֹת는 미해결 어휘 난제다."
+    },
+    {
+      "id": "Deut.32.43",
+      "level": "medium (MT translation) / low (textual priority)",
+      "note_ko": "MT 번역 자체는 근거가 있으나, 어떤 본문 형태를 번역 기준으로 삼을지는 편집 정책 문제이며 이번 기록으로 결정할 수 없다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Deut.32.39",
+      "condition_ko": "편집이 찬가식 자기 서술을 일반 현재로 통일하기로 하거나, 39b의 시간 대조가 36절 문맥과 무관하다는 주석적 근거가 제시되면 대안 B로 바꾼다."
+    },
+    {
+      "id": "Deut.32.40",
+      "condition_ko": "세 언어의 보충어 정도를 맞추는 정책이 정해지면 ko ‘맹세한다’를 빼거나 en/es에도 swear를 넣는다. כִּי를 원인으로 통일하면 대안 B."
+    },
+    {
+      "id": "Deut.32.41",
+      "condition_ko": "편집 용어집이 נָקָם의 고정 역어(보복/원수 갚음 등)를 정하면 그에 맞춘다. 맹세 문맥의 אִם을 부정 맹세로 읽는 강한 문법 근거가 확인되면 재검토한다."
+    },
+    {
+      "id": "Deut.32.42",
+      "condition_ko": "פרע의 ‘지도자’ 의미를 뒷받침하는 히브리어 내부 또는 동족어 증거(출처 URL과 발췌 포함)가 확인되면 대안 B로 바꾼다."
+    },
+    {
+      "id": "Deut.32.43",
+      "condition_ko": "(1) 4Q44 사본 이미지 또는 DJD XIV 판독으로 이번 전사(특히 שמים, השתחוו לו כל אלהים, בניו, אדמת עמו)가 확인되고, (2) 편집 정책이 32:8과 같이 쿰란 히브리어 증인 + 그리스어 독립 지지를 채택 기준으로 삼으면 대안 D(표시된 재구성)로 바꾼다. 4Q44가 발췌·전례 사본이라는 성격 평가가 확인되면 MT 유지 근거가 강해진다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Deut.32.43",
+      "issue": "4Q44 reading verified only from the ETCBC/dss text-fabric transcription (Abegg data), not from fragment images or DJD XIV; scribal character of 4Q44 (excerpt/liturgical?) not checked.",
+      "status": "unresolved_textual",
+      "needed_evidence": "Leon Levy DSS image of 4Q44 frg. 5 ii, DJD XIV edition page, with URL and excerpt."
+    },
+    {
+      "id": "Deut.32.43",
+      "issue": "Samaritan Pentateuch reading of 43 (reported in literature as the land of his people) not checked in this session.",
+      "status": "not_verified_in_session",
+      "needed_evidence": "Accessible SP edition with URL and excerpt."
+    },
+    {
+      "id": "Deut.32.43",
+      "issue": "Full Swete LXX 32:43 text: the digital TEI drops words/lines (after υἱοὶ; ἐκδικᾶται line; second angels line) that the apparatus implies. Göttingen LXX not consulted.",
+      "status": "partially_verified",
+      "needed_evidence": "Printed Swete page image or Göttingen Deuteronomium (Wevers) text with URL."
+    },
+    {
+      "id": "Deut.32.42",
+      "issue": "Meaning of parot (long hair vs leaders vs other); 4Q44 letters in this line carry uncertainty marks, so it gives no independent check.",
+      "status": "unresolved_lexical",
+      "needed_evidence": "Lexical study (HALOT/DCH entry or cognate evidence) with excerpt."
+    },
+    {
+      "id": "Deut.32.39",
+      "issue": "Swete digital text lacks the line corresponding to machatsti va-ani erpa (apparatus mentions kago), so Greek tense of that line was not checked.",
+      "status": "not_verified_in_session",
+      "needed_evidence": "Printed Swete page image or Göttingen text."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-11-01T05:45:06Z) into private/upstream_cache",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "result": "200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg005/tlg0527.tlg005.1st1K-grc1.xml",
+      "accessed_utc": "2026-11-01T05:48:50Z",
+      "file_sha256": "b2e3894c6ca82fa99a851c2ef172247c44c4509e749e1f17a7cae99d3a8dcf71",
+      "result": "200, 474051 bytes; TEI header licence CC BY-SA 4.0; editor H. B. Swete",
+      "excerpt": "εὐφράνθητε, οὐρανοί, ἅμα αὐτῶ,"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LogosBible/SBLGNT/master/data/sblgnt/text/Rom.txt",
+      "accessed_utc": "2026-11-01T05:49:14Z",
+      "file_sha256": "a919e44983ec633d541ec1084da79cfba1c1aa7f0eac6470c1ac7ec66cf774e8",
+      "result": "200, 88508 bytes; SBLGNT README states CC BY 4.0",
+      "excerpt": "Rom 15:10 καὶ πάλιν λέγει· Εὐφράνθητε, ἔθνη, μετὰ τοῦ λαοῦ αὐτοῦ."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LogosBible/SBLGNT/master/data/sblgnt/text/Heb.txt",
+      "accessed_utc": "2026-11-01T05:49:15Z",
+      "file_sha256": "a89fa2a3a8f04e8bf6a9c71404a9c45fa0e32cff5b6942043e663d8c1f40cc93",
+      "result": "200, 66518 bytes",
+      "excerpt": "Heb 1:6 … Καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ."
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Deuteronomy_32&action=raw",
+      "accessed_utc": "2026-11-01T05:49:15Z",
+      "result": "blocked: agent proxy CONNECT tunnel failed (403). Not read."
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=4Q44&action=raw",
+      "accessed_utc": "2026-11-01T05:49:15Z",
+      "result": "blocked: agent proxy CONNECT tunnel failed (403). Not read."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ETCBC/dss/master/tf/1.9/{otype,scroll,book,chapter,verse,glyph,fragment,line}.tf",
+      "accessed_utc": "2026-11-01T05:49:36Z",
+      "result": "200 each; header: createdBy Martin G. Abegg, Jr., James E. Bowley, Edward M. Cook; convertedBy Jarod Jacobs, Martijn Naaijer, Dirk Roorda; license CC BY-NC 4.0",
+      "file_sha256": {
+        "glyph.tf": "b6dc988801e7145791db68c3004c0c39f30544c97bf3a473a3e18ab96e8d2b92",
+        "scroll.tf": "e39d8d38b3f616a4054af682c6191ce1b9acd977f3369fb8f567b6182dbeaf2a",
+        "verse.tf": "d8ad61f1cb0690792b31115c24105d240a4fc5fb0cbea719c1d7a8adc4eab251"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ETCBC/dss/master/tf/1.9/oslots.tf",
+      "accessed_utc": "about 2026-11-01T05:50Z",
+      "result": "200, 14394455 bytes",
+      "file_sha256": "582165e4f8450677d457816b78225a2d35ad1617e9e97fb98abd9d70ebfd3818"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ETCBC/dss/master/tf/1.9/{rec,unc,cor,rem,vac,alt}.tf",
+      "accessed_utc": "about 2026-11-01T05:51Z",
+      "result": "200 each (sign-level: reconstructed by modern editor; uncertain; correction; removed; vacat; alternative)",
+      "file_sha256": {
+        "rec.tf": "6ff8311ff809584081f9dd66c5570e353a552b16583bcb30a6c245b5e6fcf335",
+        "unc.tf": "cc7a591edc46c0b38c3aa279fb23051cf2701bccee46cd1f451f0e0cccbb952e"
+      }
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript image was read and no full witness collation was made.",
+    "No GPT, Gemini, Antigravity or human review is reported or implied.",
+    "No unanimous agreement is asserted.",
+    "No remaining credit balance or deduction is asserted.",
+    "No selected translation, release or dist file was changed.",
+    "The self-check below is not an independent review."
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/original-bible-hard-review-u1vfye",
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "packet": "automation/hard-review-packets/20261101T054506Z-489dcf38.json",
+    "packet_sha256": "dc9f1c791876b26efdd41f92acecc563bb08531c6a7f314386139b6a299d66e3",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Deut.32.39",
+        "raw_xml": "<verse osisID=\"Deut.32.39\">\n          <w lemma=\"7200\" n=\"1.1.1.0\" morph=\"HVqv2mp\" id=\"05pEW\">רְא֣וּ</w>\n          <seg type=\"x-paseq\">׀</seg>\n          <w lemma=\"6258\" n=\"1.1.1\" morph=\"HD\" id=\"05fvs\">עַתָּ֗ה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"059N5\">כִּ֣י</w>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"05R7n\">אֲנִ֤י</w>\n          <w lemma=\"589\" n=\"1.1.0\" morph=\"HPp1cs\" id=\"05NCi\">אֲנִי֙</w>\n          <w lemma=\"1931\" n=\"1.1\" morph=\"HPp3ms\" id=\"05ejZ\">ה֔וּא</w>\n          <w lemma=\"c/369\" morph=\"HC/Tn\" id=\"05ntv\">וְ/אֵ֥ין</w>\n          <w lemma=\"430\" n=\"1.0\" morph=\"HNcmpa\" id=\"05A17\">אֱלֹהִ֖ים</w>\n          <w lemma=\"5978\" n=\"1\" morph=\"HR/Sp1cs\" id=\"05DrV\">עִמָּ/דִ֑י</w>\n          <w lemma=\"589\" morph=\"HPp1cs\" id=\"05tHP\">אֲנִ֧י</w>\n          <w lemma=\"4191\" morph=\"HVhi1cs\" id=\"05pNL\">אָמִ֣ית</w>\n          <w lemma=\"c/2421\" n=\"0.1.1\" morph=\"HC/Vpi1cs\" id=\"05K8f\">וַ/אֲחַיֶּ֗ה</w>\n          <w lemma=\"4272\" n=\"0.1.0\" morph=\"HVqp1cs\" id=\"05M2d\">מָחַ֨צְתִּי֙</w>\n          <w lemma=\"c/589\" morph=\"HC/Pp1cs\" id=\"05HUj\">וַ/אֲנִ֣י</w>\n          <w lemma=\"7495\" n=\"0.1\" morph=\"HVqi1cs\" id=\"05AkQ\">אֶרְפָּ֔א</w>\n          <w lemma=\"c/369\" morph=\"HC/Tn\" id=\"05qKA\">וְ/אֵ֥ין</w>\n          <w lemma=\"m/3027\" n=\"0.0\" morph=\"HR/Ncbsc/Sp1cs\" id=\"05UvS\">מִ/יָּדִ֖/י</w>\n          <w lemma=\"5337\" n=\"0\" morph=\"HVhrmsa\" id=\"05byr\">מַצִּֽיל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "e6afa5142e299417da7c0526e85943bde2aef39b4ef6587ccadcd979e079da8c",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.32.40",
+        "raw_xml": "<verse osisID=\"Deut.32.40\">\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05UE2\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5375\" morph=\"HVqi1cs\" id=\"05D7w\">אֶשָּׂ֥א</w>\n          <w lemma=\"413\" morph=\"HR\" id=\"05Yz1\">אֶל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8064\" n=\"1.0\" morph=\"HNcmpa\" id=\"05m9p\">שָׁמַ֖יִם</w>\n          <w lemma=\"3027\" n=\"1\" morph=\"HNcbsc/Sp1cs\" id=\"05ih8\">יָדִ֑/י</w>\n          <w lemma=\"c/559\" n=\"0.1\" morph=\"HC/Vqq1cs\" id=\"058hZ\">וְ/אָמַ֕רְתִּי</w>\n          <w lemma=\"2416 a\" morph=\"HAamsa\" id=\"05k4b\">חַ֥י</w>\n          <w lemma=\"595\" n=\"0.0\" morph=\"HPp1cs\" id=\"05ZXj\">אָנֹכִ֖י</w>\n          <w lemma=\"l/5769\" n=\"0\" morph=\"HR/Ncmsa\" id=\"05SRr\">לְ/עֹלָֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "95894f156947bae6f89a2747545bf561f4c7a29b1d69b73b4f3d34ee6fb7a6c8",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.32.41",
+        "raw_xml": "<verse osisID=\"Deut.32.41\">\n          <w lemma=\"518 a\" morph=\"HC\" id=\"05Vun\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8150\" n=\"1.1.0\" morph=\"HVqp1cs\" id=\"05cyh\">שַׁנּוֹתִי֙</w>\n          <w lemma=\"1300 b\" morph=\"HNcmsc\" id=\"05AQ3\">בְּרַ֣ק</w>\n          <w lemma=\"2719\" n=\"1.1\" morph=\"HNcfsc/Sp1cs\" id=\"05NWB\">חַרְבִּ֔/י</w>\n          <w lemma=\"c/270\" morph=\"HC/Vqi3fs\" id=\"051of\">וְ/תֹאחֵ֥ז</w>\n          <w lemma=\"b/4941\" n=\"1.0\" morph=\"HR/Ncmsa\" id=\"059Sr\">בְּ/מִשְׁפָּ֖ט</w>\n          <w lemma=\"3027\" n=\"1\" morph=\"HNcbsc/Sp1cs\" id=\"052wD\">יָדִ֑/י</w>\n          <w lemma=\"7725\" morph=\"HVhi1cs\" id=\"059Ms\">אָשִׁ֤יב</w>\n          <w lemma=\"5359\" n=\"0.1.0\" morph=\"HNcmsa\" id=\"05GM9\">נָקָם֙</w>\n          <w lemma=\"l/6862 c\" n=\"0.1\" morph=\"HR/Ncmpc/Sp1cs\" id=\"05K43\">לְ/צָרָ֔/י</w>\n          <w lemma=\"c/l/8130\" n=\"0.0\" morph=\"HC/R/Vprmpc/Sp1cs\" id=\"05Nh3\">וְ/לִ/מְשַׂנְאַ֖/י</w>\n          <w lemma=\"7999 a\" n=\"0\" morph=\"HVpi1cs\" id=\"05Pay\">אֲשַׁלֵּֽם</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "dfda04c4416edacd0536fd64ef5036d89e1e196977eeb32c5963b53e361b187a",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.32.42",
+        "raw_xml": "<verse osisID=\"Deut.32.42\">\n          <w lemma=\"7937\" morph=\"HVhi1cs\" id=\"05tpq\">אַשְׁכִּ֤יר</w>\n          <w lemma=\"2671\" n=\"1.1.0\" morph=\"HNcmpc/Sp1cs\" id=\"051f1\">חִצַּ/י֙</w>\n          <w lemma=\"m/1818\" n=\"1.1\" morph=\"HR/Ncmsa\" id=\"05kVM\">מִ/דָּ֔ם</w>\n          <w lemma=\"c/2719\" n=\"1.0\" morph=\"HC/Ncfsc/Sp1cs\" id=\"05bsZ\">וְ/חַרְבִּ֖/י</w>\n          <w lemma=\"398\" morph=\"HVqi3fs\" id=\"05TEL\">תֹּאכַ֣ל</w>\n          <w lemma=\"1320\" n=\"1\" morph=\"HNcmsa\" id=\"05ytb\">בָּשָׂ֑ר</w>\n          <w lemma=\"m/1818\" morph=\"HR/Ncmsc\" id=\"053ey\">מִ/דַּ֤ם</w>\n          <w lemma=\"2491 a\" n=\"0.1.0\" morph=\"HAamsa\" id=\"05RmL\">חָלָל֙</w>\n          <w lemma=\"c/7633\" n=\"0.1\" morph=\"HC/Ncbsa\" id=\"05ci2\">וְ/שִׁבְיָ֔ה</w>\n          <w lemma=\"m/7218 a\" n=\"0.0\" morph=\"HR/Ncmsc\" id=\"05a1E\">מֵ/רֹ֖אשׁ</w>\n          <w lemma=\"6546\" morph=\"HNcmpc\" id=\"059Ga\">פַּרְע֥וֹת</w>\n          <w lemma=\"341\" n=\"0\" morph=\"HVqrmsa\" id=\"05ZVW\">אוֹיֵֽב</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "8f6a78b3d97ba1ba0b59e4542692dd68391a25d292f0ff12fbf7502078e7c26f",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.32.43",
+        "raw_xml": "<verse osisID=\"Deut.32.43\">\n          <w lemma=\"7442 b\" morph=\"HVhv2mp\" id=\"05w7w\">הַרְנִ֤ינוּ</w>\n          <w lemma=\"1471 a\" n=\"1.1.0\" morph=\"HNcmpa\" id=\"059mv\">גוֹיִם֙</w>\n          <w lemma=\"5971 a\" n=\"1.1\" morph=\"HNcmsc/Sp3ms\" id=\"05nRN\">עַמּ֔/וֹ</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05vJe\">כִּ֥י</w>\n          <w lemma=\"1818\" morph=\"HNcmsc\" id=\"05iPK\">דַם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"5650\" n=\"1.0\" morph=\"HNcmpc/Sp3ms\" id=\"05n6v\">עֲבָדָ֖י/ו</w>\n          <w lemma=\"5358\" n=\"1\" morph=\"HVqi3ms\" id=\"05V76\">יִקּ֑וֹם</w>\n          <w lemma=\"c/5359\" n=\"0.1.0\" morph=\"HC/Ncmsa\" id=\"05g48\">וְ/נָקָם֙</w>\n          <w lemma=\"7725\" morph=\"HVhi3ms\" id=\"05enX\">יָשִׁ֣יב</w>\n          <w lemma=\"l/6862 c\" n=\"0.1\" morph=\"HR/Ncmpc/Sp3ms\" id=\"059J8\">לְ/צָרָ֔י/ו</w>\n          <w lemma=\"c/3722 a\" morph=\"HC/Vpq3ms\" id=\"05Gat\">וְ/כִפֶּ֥ר</w>\n          <w lemma=\"127\" n=\"0.0\" morph=\"HNcfsc/Sp3ms\" id=\"05kwx\">אַדְמָת֖/וֹ</w>\n          <w lemma=\"5971 a\" n=\"0\" morph=\"HNcmsc/Sp3ms\" id=\"05CFi\">עַמּֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-pe\">פ</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "15627e2276663099e8adb8d0be71c250b6027d9e5d64986d59ed0a00d58c2bbb",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      }
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-11-01T05:45:06.722177+00:00",
+    "claim_pushed": "2026-11-01T05:46Z (first commit on claude/original-bible-hard-review-u1vfye, before any model review)",
+    "independent_reading_saved": "2026-11-01T05:48:02Z (/tmp/hr/independent.json mtime)",
+    "earlier_records_opened": "after 2026-11-01T05:48:02Z",
+    "completed": "2026-11-01T05:56:32Z"
+  },
+  "memo_ko": "automation/cloud-reviews/20261101T054506Z-489dcf38.ko.md",
+  "checks": {
+    "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "unit_id_matches_claim": true,
+    "preferred_wording_ids_exactly_once": true,
+    "ko_en_es_nonempty": true,
+    "independent_initial_reading_ids_exactly_once": true,
+    "initial_proposals_ids_exactly_once": true,
+    "alternatives_cover_all_ids": true,
+    "clause_coverage_cover_all_ids": true,
+    "reconsider_if_cover_all_ids": true,
+    "confidence_cover_all_ids": true,
+    "notes_cover_all_ids": true,
+    "clause_word_ranges_valid_and_cover_every_word_in_order": true,
+    "no_lord_or_yeohowa_in_preferred": true,
+    "no_qere_ketiv_markup_in_range": true,
+    "state_is_unadopted_model_review": true,
+    "selected_texts_modified": false,
+    "no_human_certification_claim": true,
+    "rights_recorded": true,
+    "self_check_is_not_independent_review": true
+  }
+}
