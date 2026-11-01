@@ -1,0 +1,893 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T064338Z-50d8e17f",
+  "unit_id": "deut-33-1-5",
+  "verse_ids": [
+    "Deut.33.1",
+    "Deut.33.2",
+    "Deut.33.3",
+    "Deut.33.4",
+    "Deut.33.5"
+  ],
+  "unit_issue_ko": "시내 현현·에쉬다트 분절·성도/백성·왕 주어",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Deut.33.1-5 = 전통 장절 신명기 33:1-5. 저장소 library의 KRV·ASV·RV1909 33:1-5가 같은 내용 범위로 대응하고, 세 역본 모두 32장이 52절로 끝남을 확인했다. 이번에 열람한 Swete 칠십인역 디지털본(First1KGreek)의 33:1-5도 같은 절 경계였다.",
+  "hebrew_quotation_policy": "원문 그대로의 히브리어 표기(악센트, 마카프, 소프 파숙, 케티브/케레 note 구조 포함)는 source.verses[].raw_xml에만 있다. 클레임 패킷에서 스크립트로 바이트 단위 복사하고 해시를 대조했다. 아래 분석은 OSHB 낱말 id 범위로 위치를 표시하고, 설명문 속 히브리어 낱말은 읽기 편의를 위한 인용이다(악센트 생략). 33:2의 케티브 אשדת(id 05QfD, lemma 799)와 케레 אֵשׁ דָּת(id 059bG lemma 784 + id 05UNy lemma 1881)는 raw_xml 안에서 <w type=\"x-ketiv\"> + <note type=\"variant\"><rdg type=\"x-qere\"> 구조 그대로 보존되며, 이 기록은 그 구조를 한 낱말로 합치거나 지우지 않는다.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud). Launched outside Projects/Routines according to the user's instruction; this record cannot prove the billing route.",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-11-01T06:46Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5.",
+    "served_model_uncertainty": "last_served_model is a session API field reported by the service, not a cryptographic proof of the model that produced every token. Turn-level fallback could in principle occur; none was reported in get_session.",
+    "rate_limit_info_observed": "get_session reported rateLimitType ccr_promotional, status allowed, isUsingOverage false. This is a service status label only; no balance, dollar amount or per-run credit deduction was exposed or is asserted.",
+    "unavailable": [
+      "remaining promotional credit balance",
+      "per-run cost or credit deduction",
+      "exact model build/snapshot hash",
+      "billing route proof",
+      "GPT, Gemini or human responses for this unit"
+    ],
+    "note": "A model self-report is not source evidence. This record was written by Claude in Claude Code; it is not a GPT, Gemini, Antigravity, manuscript-collator or human-specialist review."
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Deut.33.1",
+      "clauses": [
+        {
+          "ids": [
+            "05y6V",
+            "058TT"
+          ],
+          "kind": "discourse",
+          "note": "wezot ha-berakha: heading; the waw links the blessing to the ch.32 narrative frame (32:48-52). Korean/English/Spanish may drop or keep 'And'."
+        },
+        {
+          "ids": [
+            "05gt7",
+            "05XHX"
+          ],
+          "kind": "lexical",
+          "note": "ish ha-elohim: honorific title 'the man of God', first applied to Moses here in the Torah; Piel perfect berakh with cognate object (relative clause)."
+        },
+        {
+          "ids": [
+            "05HZ4",
+            "05thj"
+          ],
+          "kind": "syntactic",
+          "note": "et marks the people blessed as direct object."
+        },
+        {
+          "ids": [
+            "05Fgu",
+            "05s59"
+          ],
+          "kind": "lexical",
+          "note": "lifne moto: temporal 'before his death'."
+        }
+      ]
+    },
+    {
+      "id": "Deut.33.2",
+      "clauses": [
+        {
+          "ids": [
+            "05mJ4",
+            "05mJ4"
+          ],
+          "kind": "discourse",
+          "note": "wayyomar: Moses is the implied speaker; poem begins."
+        },
+        {
+          "ids": [
+            "05mq1",
+            "05dRa"
+          ],
+          "kind": "lexical",
+          "note": "YHWH mi-Sinai ba: perfect 'came'; theophany from the south (Sinai/Seir/Paran)."
+        },
+        {
+          "ids": [
+            "055ba",
+            "05QFW"
+          ],
+          "kind": "lexical",
+          "note": "zarah: dawn/rise like the sun; lamo 'to/upon them' = Israel, who is not yet named inside the poem."
+        },
+        {
+          "ids": [
+            "057E1",
+            "05DVy"
+          ],
+          "kind": "lexical",
+          "note": "hofia (Hiphil yp'): shine forth."
+        },
+        {
+          "ids": [
+            "059ax",
+            "05xax"
+          ],
+          "kind": "textual/lexical",
+          "note": "we-atah: poetic/Aramaic-like verb 'came'. me-rivevot qodesh: MT vocalisation 'from myriads of holiness'. The preposition min parallels the place-of-origin min in Sinai/Seir/Paran, which invites the reconstruction 'from Meribath-Kadesh' (cf. Deut 32:51 meribat qadesh). That is a proposed reconstruction, not an attested reading in this packet."
+        },
+        {
+          "ids": [
+            "05UrJ",
+            "05UXz"
+          ],
+          "kind": "textual (Ketiv/Qere)",
+          "note": "Ketiv ashdt written as one word (OSHB lemma 799); Qere esh dat as two words, esh tagged construct (HNcbsc) + dat 'decree/law'. dat is otherwise a Persian loanword in late books (Esther, Ezra, Daniel), which is an objection to the Qere. Ketiv might relate to ashedot 'slopes' (Deut 3:17; 4:49) - a proposal only. Clause is verbless; a verb must be supplied in ko. Meaning unresolved from the packet alone."
+        }
+      ]
+    },
+    {
+      "id": "Deut.33.3",
+      "clauses": [
+        {
+          "ids": [
+            "05xKb",
+            "05dj6"
+          ],
+          "kind": "lexical",
+          "note": "af: emphatic 'indeed'. hovev: hapax participle 'cherish/love'. ammim plural: Israel's tribes (cf. Gen 28:3 qehal ammim) or the nations; left open."
+        },
+        {
+          "ids": [
+            "055ca",
+            "05qvy"
+          ],
+          "kind": "discourse",
+          "note": "kol qedoshav (3ms 'his holy ones') then be-yadekha (2ms 'your hand'): person shift from description to address. Holy ones = Israel, or heavenly beings echoing rivevot qodesh in v2; left open."
+        },
+        {
+          "ids": [
+            "05HKr",
+            "05Z82"
+          ],
+          "kind": "lexical",
+          "note": "tukku: hapax, OSHB Pual (P). Meaning conjectural (bow / sit / follow / be led)."
+        },
+        {
+          "ids": [
+            "05g8w",
+            "05GY8"
+          ],
+          "kind": "syntactic",
+          "note": "yissa: 3ms imperfect, singular after plural hem; distributive 'each' or a single figure (Moses, cf. v4). mi-dabberotekha: partitive min + rare noun form 'your words/utterances'."
+        }
+      ]
+    },
+    {
+      "id": "Deut.33.4",
+      "clauses": [
+        {
+          "ids": [
+            "05Xad",
+            "05CVF"
+          ],
+          "kind": "discourse",
+          "note": "torah tsivvah-lanu Moshe: speaker says 'us' and names Moses in the 3rd person; the voice is the community, so the poem frame is not simply Moses speaking about himself."
+        },
+        {
+          "ids": [
+            "05YFH",
+            "05csc"
+          ],
+          "kind": "syntactic",
+          "note": "morasha is absolute, followed by construct qehillat: apposition 'a possession [for] the assembly of Jacob'. torah rendering law vs instruction is a lexical choice."
+        }
+      ]
+    },
+    {
+      "id": "Deut.33.5",
+      "clauses": [
+        {
+          "ids": [
+            "05HGd",
+            "05hoh"
+          ],
+          "kind": "syntactic/discourse",
+          "note": "wayehi bi-Yeshurun melekh: no explicit subject; YHWH (most likely, continuing vv.2-3 and cf. v.26 'God of Jeshurun'), Moses (nearest 3ms antecedent in v.4) or 'there was a king'. Inceptive 'became' vs stative 'was'."
+        },
+        {
+          "ids": [
+            "05knm",
+            "05kaH"
+          ],
+          "kind": "syntactic",
+          "note": "be-hitassef: temporal infinitive 'when ... gathered'."
+        },
+        {
+          "ids": [
+            "0587n",
+            "05Lq6"
+          ],
+          "kind": "syntactic",
+          "note": "yahad shivte Yisrael: adverb + second subject in apposition/parallel to heads of the people."
+        }
+      ]
+    }
+  ],
+  "independent_initial_reading_file": {
+    "path_in_session": "/tmp/hr/independent.json",
+    "mtime_utc": "2026-11-01T06:45:54Z",
+    "sha256": "422018b52a577e55817cc8485ba204598223c75b6c7ac18dd82180642ccd283a",
+    "note_ko": "독립 읽기는 클레임 패킷만 보고, 이 단위의 기존 선정문·결정문·모델 기록·공개 역본을 열기 전에 이 파일로 먼저 저장했다. 저장 전에 열람한 것은 정책 파일, 작업 지시서, 클레임 패킷, 그리고 형식 참고용으로 다른 단위(deut-32-7-12, 브랜치 claude/bible-hard-review-fg63bu)의 기록 키 구조다. 그 기록은 신 32장 내용이며 이 단위의 구절을 다루지 않는다. 스크래치 파일의 스페인어는 ASCII로 적었고, 아래 initial_proposals에서는 악센트만 복원했다(낱말 선택은 그대로)."
+  },
+  "initial_proposals": [
+    {
+      "id": "Deut.33.1",
+      "ko": "이것은 하나님의 사람 모세가 죽기 전에 이스라엘 자손에게 빌어 준 복이다.",
+      "en": "This is the blessing with which Moses, the man of God, blessed the children of Israel before his death.",
+      "es": "Esta es la bendición con que Moisés, el hombre de Dios, bendijo a los hijos de Israel antes de su muerte."
+    },
+    {
+      "id": "Deut.33.2",
+      "ko": "그가 말하였다. 야훼께서 시내에서 오시고, 세일에서 그들에게 떠오르시고, 바란 산에서 빛을 비추셨다. 그분은 거룩한 수만 무리 가운데서 오셨으니, 그분의 오른편에서 그들을 위한 불의 법이 [나왔다]. [케레 기준; 케티브는 한 낱말, 뜻 불확실]",
+      "en": "He said: YHWH came from Sinai and dawned upon them from Seir; he shone forth from Mount Paran and came from among holy myriads; from his right hand [went] a fiery law for them. [Qere; Ketiv one word, meaning uncertain]",
+      "es": "Dijo: YHWH vino del Sinaí y desde Seir les amaneció; resplandeció desde el monte Parán y vino de entre miríadas santas; de su diestra [salió] para ellos una ley de fuego. [Qere; Ketiv una sola palabra, sentido incierto]"
+    },
+    {
+      "id": "Deut.33.3",
+      "ko": "참으로 그분은 백성들을 사랑하시는 분, 그분의 거룩한 이들은 모두 주의 손안에 있습니다. 그들은 주의 발 앞에 엎드려, 저마다 주의 말씀을 받아 지닙니다.",
+      "en": "Indeed, he loves the peoples; all his holy ones are in your hand. They bow down at your feet; each receives of your words.",
+      "es": "Ciertamente él ama a los pueblos; todos sus santos están en tu mano. Ellos se postran a tus pies; cada uno recibe de tus palabras."
+    },
+    {
+      "id": "Deut.33.4",
+      "ko": "모세가 우리에게 율법을 명령하였으니, 야곱의 회중이 물려받을 유산이다.",
+      "en": "Moses commanded us a law, a possession for the assembly of Jacob.",
+      "es": "Moisés nos ordenó una ley, posesión de la asamblea de Jacob."
+    },
+    {
+      "id": "Deut.33.5",
+      "ko": "백성의 우두머리들이 모이고 이스라엘 지파들이 함께 모였을 때, 그분이 여수룬에서 왕이 되셨다.",
+      "en": "Then he became king in Jeshurun, when the heads of the people gathered, the tribes of Israel together.",
+      "es": "Y él fue rey en Jesurún, cuando se reunieron los jefes del pueblo, juntas las tribus de Israel."
+    }
+  ],
+  "initial_proposals_note": "초기 제안은 /tmp/hr/independent.json(mtime 2026-11-01T06:45:54Z)에 먼저 저장했다. 대괄호 표시는 초기안에서 보충어·케레 선택을 드러내려고 넣은 작업 표시이며, 최종 선호 문구에서는 본문 밖 주석(proposed_notes_ko)과 supplied_words_ko로 옮겼다.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "record": "data/editorial.json (main c9ae49a, selection_version 0.4.17)",
+      "result": "No selected text for Deut.33.1-5. The claim packet's current_selected is an empty list.",
+      "note": "Nothing to preserve or change; this is a future-passage dossier."
+    },
+    {
+      "kind": "decisions_and_model_reviews",
+      "record": "data/decisions.json, data/source-note-decisions.json, data/model-reviews/ (main c9ae49a)",
+      "result": "No record mentions Deut.33.1-5.",
+      "note": "No saved GPT, Gemini, Antigravity or earlier Claude opinion exists for this unit in the repository; none is invented here."
+    },
+    {
+      "kind": "cloud_drafts_and_reviews_on_claude_branches",
+      "record": "automation/cloud-drafts/, automation/cloud-reviews/, automation/hard-review-runs/ on all 81 fetched origin/claude/* refs (fetched 2026-11-01T06:44Z)",
+      "result": "No draft or review contains Deut.33.1-5; the only match is this run's own claim manifest.",
+      "note": "automation/source-queue-report.json lists Deut.33.2 among deferred verses ('require explicit Qere/Ketiv/markup review before translation'), so no bulk draft was ever produced for it."
+    },
+    {
+      "kind": "public_domain_reference_versions",
+      "record": "library/krv/Deut.json, library/asv/Deut.json, library/rv1909/Deut.json (main c9ae49a)",
+      "result": "Opened after the independent reading was saved; used only for numbering and for listing reception choices, not copied.",
+      "note": "All three follow the Qere 'fiery law' in 33:2, take 'myriads/holy ones' (not a place) in 33:2, read 'sat down / se llegaron' for tukku, and leave the king of 33:5 implicit (KRV 'there was a king'; ASV/RV1909 'he was king')."
+    },
+    {
+      "kind": "septuagint_print_edition",
+      "record": "Swete, First1KGreek TEI tlg0527.tlg005 (see network_access_log)",
+      "result": "Fetched and quoted below in reception_evidence.",
+      "note": "One printed edition (main text Codex Vaticanus), not the Göttingen critical text and not a manuscript image."
+    }
+  ],
+  "earlier_record_texts": {
+    "KRV_Deut.33.2": "일렀으되 여호와께서 시내에서 오시고 세일 산에서 일어나시고 바란 산에서 비취시고 일만 성도 가운데서 강림하셨고 그 오른손에는 불 같은 율법이 있도다",
+    "ASV_Deut.33.2": "And he said, Jehovah came from Sinai, And rose from Seir unto them; He shined forth from mount Paran, And he came from the ten thousands of holy ones: At his right hand was a fiery law for them.",
+    "RV1909_Deut.33.2": "Y dijo: Jehová vino de Sinaí, y de Seir les esclareció; resplandeció del monte de Parán, y vino con diez mil santos: á su diestra la ley de fuego para ellos.",
+    "ASV_Deut.33.3": "Yea, he loveth the people; All his saints are in thy hand: And they sat down at thy feet; Every one shall receive of thy words.",
+    "ASV_Deut.33.5": "And he was king in Jeshurun, When the heads of the people were gathered, All the tribes of Israel together.",
+    "note": "Quoted only as public-domain reception data for comparison. The project does not use 'Jehovah/여호와/Jehová' in selected text; the preferred wording below uses YHWH/야훼 per majority editorial practice."
+  },
+  "comparison_findings_ko": [
+    {
+      "id": "Deut.33.1",
+      "severity": "low",
+      "finding_ko": "세 역본과 초기안이 같은 뜻이다. 초기안은 첫 접속사(וְ)를 옮기지 않았다. ASV·RV1909는 'And/Y'를 살렸다. 표제 기능상 생략이 자연스럽다고 보고 유지한다."
+    },
+    {
+      "id": "Deut.33.2",
+      "severity": "high (textual basis)",
+      "finding_ko": "케티브/케레가 있는 이 구절은 프로젝트에 선정 선례가 없다(editorial.json 전체에 Qere/Ketiv 표기 0건). 초기안은 케레 '불의 법'을 따르고 케티브 불확실성을 표시했다. Swete 칠십인역 B 본문은 이 자리를 ‘ἐκ δεξιῶν αὐτοῦ ἄγγελοι μετ’ αὐτοῦ’(그의 오른편에서 천사들이 그와 함께)로 읽어 ‘불/법’에 대응하는 말이 없다. 또 ‘ἐπέφανεν ἐκ Σηεὶρ ἡμῖν’(우리에게), ‘σὺν μυριάσιν’(수만과 함께)으로 MT ‘그들에게’, ‘거룩한 수만 무리에서’와 다르고, קֹדֶשׁ에 대응하는 낱말이 Swete 본문에 없다. 그리스어 대본이 무엇이었는지는 이 증거만으로 판정할 수 없으므로, 고정 MT를 번역하되 케레 선택과 칠십인역 차이를 주석으로 드러내야 한다."
+    },
+    {
+      "id": "Deut.33.3",
+      "severity": "medium",
+      "finding_ko": "Swete B는 ‘καὶ ἐφείσατο τοῦ λαοῦ αὐτοῦ’(그의 백성을 아끼셨다)로 MT ‘백성들을 사랑하는’(복수, 분사)과 다르다. 그러나 ‘ὑπὸ τὰς χεῖράς σου’(네 손 아래)로 MT의 2인칭 전환은 지지한다. 마지막 ‘ἐδέξατο ἀπὸ τῶν λόγων αὐτοῦ’는 동사가 단수다. MT יִשָּׂא의 단수성을 지지하며, 단수 주어를 한 인물(모세)로 읽는 대안을 강화한다. 초기안 ‘저마다’(배분)는 유지하되 이 대안을 가장 강한 반론으로 기록한다. KRV·ASV는 תֻּכּוּ를 ‘앉아서/sat down’, RV1909는 ‘se llegaron’으로 읽었다. 초기안 ‘엎드려’도 같은 수준의 추정이다."
+    },
+    {
+      "id": "Deut.33.4",
+      "severity": "medium (editorial consistency)",
+      "finding_ko": "Swete B는 ‘ἐνετείλατο ὑμῖν Μωυσῆς’(너희에게)이고, Swete 각주에 따르면 A·F는 ‘ἡμῖν’(우리에게)로 MT לָנוּ와 같다. MT를 따른다. 화자가 ‘우리’라고 하며 모세를 3인칭으로 부르는 점은 번역에서 그대로 살렸다. 프로젝트 선정문 Ps.1.2는 תּוֹרָה를 ‘가르침/instruction/instrucción’으로 옮겼다. 이 구절에서 ‘율법’을 택하면 용어 일관성 문제가 생기므로 편집자 판단 사항으로 남긴다."
+    },
+    {
+      "id": "Deut.33.5",
+      "severity": "medium",
+      "finding_ko": "Swete B는 ‘καὶ ἔσται ἐν τῷ ἠγαπημένῳ ἄρχων’(사랑받는 자 안에 통치자가 있을 것이다; 디지털본 표기는 ‘ἀγαπημένῳ ἄρχον’)으로 미래형이며 여수룬을 ‘사랑받는 자’로 풀었다. 각주에 따르면 A는 ἄρχων을 생략한다. MT וַיְהִי는 과거 서술이다. 왕의 주어는 MT에서 명시되지 않는다. 초기안은 야훼를 주어로 한국어 존칭을 썼다. KRV는 ‘여수룬에 왕이 있었으니’로 주어를 열어 두었다."
+    }
+  ],
+  "changes_from_initial_proposal_ko": "(1) 33:2: 초기안의 작업 표시 대괄호를 본문에서 빼고 주석으로 옮겼다. ‘오른편에서’를 ‘오른손에서’로 바꿔 en ‘right hand’, es ‘diestra’와 맞췄다. 보충 동사 ‘나왔다’는 유지하고 supplied_words_ko에 적었다. (2) 33:3: 시 본문 전체의 문체를 맞추려고 ‘-습니다’체를 평서 ‘-다’체로 바꿨다. 낱말 선택은 그대로다. (3) 33:4: ko ‘물려받을 유산’을 ‘소유’로, es ‘posesión’과 en ‘possession’에 맞췄다(מוֹרָשָׁה는 ירשׁ ‘차지하다’ 계열). (4) 33:5: ko 어순을 원문처럼 ‘왕이 되셨다’를 앞에 두는 방식으로 바꾸었다. 나머지는 초기안 그대로다.",
+  "reception_evidence": {
+    "source_note": "Hebrew text comes from the pinned morphhb commit (WLC public domain; OSHB CC BY 4.0). Greek lines come from the First1KGreek TEI encoding of Swete's Septuagint (Deuteronomy, tlg0527.tlg005), CC BY-SA 4.0; only short excerpts are quoted, as encoded. The digital text contains OCR/encoding slips (e.g. 'ἀγαπημένῳ ἄρχον' in 33:5 where ἠγαπημένῳ ἄρχων is expected, 'ἢν' for ἣν in 33:1); these are flagged, not silently corrected. Swete's main text follows Codex Vaticanus (B); this is one printed edition, not the Göttingen critical text and not a manuscript image.",
+    "items": [
+      {
+        "ref": "LXX Deut 33:1 (Swete)",
+        "excerpt": "Καὶ αὕτη ἡ εὐλογία ἢν εὐλόγησεν Μωυσῆς ἄνθρωπος τοῦ θεοῦ τοὺς υἱοὺς Ἰσραὴλ πρὸ τῆς τελευτῆς αὐτοῦ.",
+        "finding_ko": "MT와 같은 뜻. 접속사 Καὶ로 앞 장과 이어진다."
+      },
+      {
+        "ref": "LXX Deut 33:2 (Swete)",
+        "excerpt": "κύριος ἐκ Σεινὰ ἥκει, καὶ ἐπέφανεν ἐκ Σηεὶρ ἡμῖν· καὶ κατέσπευσεν ἐξ ὄρους Φαρᾶν σὺν μυριάσιν ἐκ δεξιῶν αὐτοῦ ἄγγελοι μετ’ αὐτοῦ.",
+        "finding_ko": "‘우리에게’(MT ‘그들에게’), ‘서둘러 오셨다’(MT ‘빛을 비추셨다’), ‘수만과 함께’(MT ‘거룩한 수만 무리에서’, 그리고 קֹדֶשׁ 대응어 없음), ‘천사들이 그와 함께’(MT 케티브/케레 자리). 그리스어는 하늘 수행단 현현으로 읽는 해석 방향을 보여 줄 뿐 히브리어 대본을 증명하지 않는다."
+      },
+      {
+        "ref": "LXX Deut 33:3 (Swete)",
+        "excerpt": "καὶ ἐφείσατο τοῦ λαοῦ αὐτοῦ, καὶ πάντες οἱ ἡγιασμένοι ὑπὸ τὰς χεῖράς σου. καὶ οὗτοι ὑπὸ σέ εἰσιν, καὶ ἐδέξατο ἀπὸ τῶν λόγων αὐτοῦ,",
+        "finding_ko": "단수 백성, ‘아끼셨다’, 2인칭 ‘네 손’, תֻּכּוּ 자리 ‘네 아래에 있다’, 단수 ‘받았다’ + ‘그의 말씀’. Swete 각주: F는 첫 줄을 생략한다."
+      },
+      {
+        "ref": "LXX Deut 33:4 (Swete)",
+        "excerpt": "νόμον ὅν ἐνετείλατο ὑμῖν Μωυσῆς, κληρονομίαν συναγωγαῖς Ἰακώβ,",
+        "finding_ko": "B ‘너희에게’; 복수 ‘회중들’. 각주: ‘νόμον] λόγον F | ὕμιν Μωυσης] M. ἥμιν Α ἥμιν M. F’ 즉 A·F는 ‘우리에게’로 MT와 같다."
+      },
+      {
+        "ref": "LXX Deut 33:5 (Swete)",
+        "excerpt": "καὶ ἔσται ἐν τῷ ἀγαπημένῳ ἄρχον, συναχθέντων ἀρχόντων λαῶν ἅμα φυλαῖς Ἰσραήλ.",
+        "finding_ko": "미래형 ‘있을 것이다’, 여수룬 = ‘사랑받는 자’, 복수 ‘백성들의 통치자들’. 각주 ‘om ἄρχων Α’. 그리스어도 통치자의 정체를 밝히지 않는다."
+      },
+      {
+        "ref": "Swete apparatus, Deut 33:1-5",
+        "excerpt": "XXXIII 1 om καὶ F | ηὐλόγησεν AF Ι τῆς τελευτης] om τῆς Α 2 Σίνα BbAF 3 om καὶ ἐφείσατο του λαοῦ αὐτοῦ F 4 νόμον] λόγον F | ὕμιν Μωυσης] M. ἥμιν Α ἥμιν M. F 5 om ἄρχων Α",
+        "finding_ko": "Swete 각주는 33:2에서 철자(Σίνα) 외의 B/A/F 차이를 적지 않는다. 즉 이 판본 범위에서는 33:2에 ‘Καδης’ 같은 지명 독법이 보이지 않는다."
+      }
+    ]
+  },
+  "unverified_reception": [
+    {
+      "claim_ko": "일부 그리스어 사본·판본이 33:2를 ‘σὺν μυριάσιν Καδης’(가데스의 수만과 함께)로 읽는다는 기억상의 보고.",
+      "status": "not_verified_in_session",
+      "reason": "Swete text and apparatus fetched in this session do not show it; the Göttingen edition was not accessed. Not used as evidence."
+    },
+    {
+      "claim_ko": "רִבְבֹת קֹדֶשׁ를 ‘므리밧 가데스’(신 32:51 מְרִיבַת קָדֵשׁ) 지명으로 고쳐 읽는 학계 재구성.",
+      "status": "proposed_reconstruction_not_attested_in_packet",
+      "reason": "The packet's MT has rivevot qodesh. The parallel with 32:51 and the min of origin is an argument, not a witness."
+    },
+    {
+      "claim_ko": "랍비 전승에서 33:4가 아이에게 처음 가르치는 구절이라는 전승, ‘מוֹרָשָׁה’를 ‘מְאֹרָשָׂה(약혼한 이)’로 읽으라는 설교적 독법, 33:5의 왕을 야훼로 보는 주석과 모세로 보는 주석이 있다는 기억.",
+      "status": "not_verified_in_session",
+      "reason": "No Talmud or commentary text was accessed. Recorded only as a pointer for a later editor; nothing in the preferred wording depends on it."
+    },
+    {
+      "claim_ko": "쿰란 신명기 사본에 33:1-5 해당 부분이 남아 있는지 여부.",
+      "status": "not_checked",
+      "reason": "No DJD volume or fragment image was accessed. No Qumran reading is asserted."
+    }
+  ],
+  "alternatives": {
+    "Deut.33.1": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "표제의 첫 접속사 וְ를 옮기지 않고 ‘이것은 … 복이다’로 시작.",
+        "argument_ko": "장 표제 기능이고 한국어·스페인어에서 ‘그리고’로 시작하면 어색하다.",
+        "objection_ko": "וְ는 32:48-52 서술과 축복을 잇는 장치다. ASV·RV1909·LXX는 접속사를 살렸다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘그리고 이것은 … 복이다’ / ‘And this is …’",
+        "argument_ko": "원문 접속을 보존한다.",
+        "objection_ko": "새 단락 표제로서 가독성이 떨어진다."
+      }
+    ],
+    "Deut.33.2": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "MT 자음·모음을 따르고 마지막 행은 케레 אֵשׁ דָּת ‘불의 법’. ‘거룩한 수만 무리 가운데서 오셨다’. 보충 동사 ‘나왔다’.",
+        "argument_ko": "(1) 케레는 마소라 낭독 전통으로 실제로 전해진 독법이다. (2) 케티브 한 낱말 אשדת는 뜻이 확정되지 않아 번역 문구로 쓸 수 없다. (3) 33:3-4의 ‘주의 말씀’, ‘율법’과 의미가 이어진다. (4) ‘거룩한 수만 무리’는 MT 모음 그대로이며 33:3 ‘거룩한 이들’과 낱말 고리를 이룬다.",
+        "objection_ko": "דָּת는 다른 곳에서 후기 책(에스더·에스라·다니엘)에만 나오는 페르시아 차용어다. 오래된 시로 보이는 이 본문에서 케레가 원래 독법인지 의심스럽다. 칠십인역 B에는 ‘불’도 ‘법’도 없다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "케티브를 한 낱말로 읽어 ‘비탈/산기슭’(אַשְׁדֹּת, 신 3:17; 4:49 참조) 계열로 풀이: ‘그분의 오른편(남쪽)에서 그들을 향해 비탈로 [내려오셨다]’.",
+        "argument_ko": "케티브의 한 낱말 표기를 존중하고, 시내·세일·바란 지명 현현 문맥과 맞는다.",
+        "objection_ko": "형태가 정확히 맞지 않고 보충어가 많다. 이 패킷에는 이 해석을 뒷받침하는 고대 증거가 없다. 재구성 제안이다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "‘타오르는 불’(אֵשׁ + 다른 동사형으로 수정) 또는 ‘천사들이 그와 함께’(칠십인역 B 방향).",
+        "argument_ko": "현현 장면의 불(출 19:18)과 하늘 수행단(‘수만’)과 어울린다.",
+        "objection_ko": "둘 다 MT 자음 수정이거나 다른 대본 추정이다. 이 세션에서 히브리어 증거로 확인되지 않았다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "‘므리밧 가데스에서 오셨다’(지명 재구성).",
+        "argument_ko": "앞의 세 행이 모두 ‘מִן + 지명’이고 신 32:51에 ‘므리밧 가데스’가 바로 나온다.",
+        "objection_ko": "MT와 Swete 칠십인역 어느 쪽도 이번 세션에서 지명 독법을 보여 주지 않았다. 재구성일 뿐이다."
+      }
+    ],
+    "Deut.33.3": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘백성들’ 복수 유지(지시 대상 열어 둠), 인칭 전환(그분의 → 주의) 보존, תֻּכּוּ = ‘엎드려’, יִשָּׂא = 배분 ‘저마다 받는다’.",
+        "argument_ko": "복수 עַמִּים는 지파들(창 28:3 ‘민족들의 무리’)과 민족들 모두를 허용한다. 3인칭→2인칭 전환은 시편 문체에서 흔하므로 고르게 펴지 않는다. 칠십인역 ‘네 아래에 있다’는 복종 의미장을 보여 주어 ‘엎드려’와 통한다. ‘그들’ 다음의 단수 동사는 배분으로 자연스럽게 읽힌다.",
+        "objection_ko": "strongest_objection_to_own_reading 참조."
+      },
+      {
+        "label": "B",
+        "reading_ko": "יִשָּׂא의 주어를 모세로: ‘그가(모세가) 주의 말씀을 받았다’ → 33:4 ‘모세가 우리에게 율법을 명령하였다’로 이어짐.",
+        "argument_ko": "단수 동사, 칠십인역 단수 ‘ἐδέξατο’, 그리고 바로 다음 절의 모세 언급.",
+        "objection_ko": "33:3 안에서 모세는 언급되지 않는다. 동사는 미완료(yiqtol)라 일회 과거 사건 ‘받았다’로 읽으려면 시제 해석이 더 필요하다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "תֻּכּוּ = ‘앉았다’(KRV·ASV) 또는 ‘따라갔다/인도되었다’.",
+        "argument_ko": "‘발 앞에 앉아 말씀을 받는다’는 제자 이미지로 문맥이 매끄럽다.",
+        "objection_ko": "단 한 번 나오는 낱말이라 어느 쪽도 확정되지 않는다. ‘앉다’는 후대 사제 관계 이미지의 영향일 수 있다."
+      },
+      {
+        "label": "D",
+        "reading_ko": "‘거룩한 이들’ = 하늘 존재(33:2 ‘거룩한 수만’)로 보고 ‘백성들’ = 이방 민족들.",
+        "argument_ko": "33:2의 קֹדֶשׁ와 낱말 고리.",
+        "objection_ko": "33:3b-4의 ‘말씀을 받다’, ‘율법’, ‘야곱의 회중’ 흐름은 이스라엘 쪽을 가리킨다. 번역 문구는 두 해석 모두를 허용하므로 문구 변경은 필요 없다."
+      }
+    ],
+    "Deut.33.4": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "‘모세가 우리에게 율법을 명령하였으니, 그것은 야곱의 회중의 소유다.’ מוֹרָשָׁה = 율법과 동격.",
+        "argument_ko": "מוֹרָשָׁה가 절대형이고 뒤의 연계형 קְהִלַּת와 함께 ‘야곱의 회중의 소유’로 율법을 설명한다. ‘우리’와 3인칭 모세를 그대로 둔다.",
+        "objection_ko": "‘율법’은 Ps.1.2 선정문 ‘가르침’과 용어가 다르다. 또 תּוֹרָה의 기본 뜻은 ‘가르침’이다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "‘모세가 우리에게 가르침을 명령하였으니 …’ / ‘instruction’ / ‘instrucción’",
+        "argument_ko": "Ps.1.2 선정문과 일관된다. 낱말 뜻에 가깝다.",
+        "objection_ko": "동사 צִוָּה ‘명령하다’와 결합하면 한국어 ‘가르침을 명령하다’가 어색하다. 신명기에서 ‘이 토라’는 기록된 명령 묶음(31:9)을 가리킨다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "מוֹרָשָׁה를 ‘야곱의 회중’과 동격으로: ‘야곱의 회중은 (하나님의) 소유다’.",
+        "argument_ko": "문법적으로 가능한 분절이다.",
+        "objection_ko": "악센트(티프하 → 메르하 → 실룩)는 ‘소유 + 야곱의 회중’을 한 단위로 묶는다. 이 해석은 앞 절과 끊긴다."
+      }
+    ],
+    "Deut.33.5": [
+      {
+        "label": "A (preferred)",
+        "reading_ko": "주어 = 야훼(한국어 존칭), ‘왕이 되셨다’(시작 의미).",
+        "argument_ko": "33:2-3의 주체가 야훼이고, 시의 결말(33:26 ‘여수룬의 하나님’)과 수미를 이룬다. 백성의 우두머리·지파의 집회(시내 집회) 때 왕권이 시작된다는 흐름이 자연스럽다. en ‘he’와 es ‘él’은 형태상 열려 있다.",
+        "objection_ko": "한국어 존칭이 주어를 야훼로 고정한다. 바로 앞 절의 3인칭 남성 단수 선행사는 모세다."
+      },
+      {
+        "label": "B",
+        "reading_ko": "주어 = 모세: ‘그(모세)가 여수룬에서 왕이었다’.",
+        "argument_ko": "가장 가까운 선행사, 그리고 모세가 백성의 지도자로서 집회를 주재한 서술.",
+        "objection_ko": "모세는 오경에서 ‘왕’으로 불리지 않는다. 신 17:14-20의 왕 규정과도 맞지 않는다."
+      },
+      {
+        "label": "C",
+        "reading_ko": "비인칭 ‘여수룬에 왕이 있었다’(KRV 방식), 또는 칠십인역처럼 미래 인간 통치자.",
+        "argument_ko": "주어를 열어 두는 가장 작은 개입.",
+        "objection_ko": "וַיְהִי + 술어 명사 구문에서 비인칭 존재문은 덜 자연스럽다. 미래 해석은 MT 서술형과 맞지 않는다."
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Deut.33.2 preferred A (Qere 'fiery law' as the translated line)",
+    "objection_ko": "가장 강한 반론: 케레 אֵשׁ דָּת의 둘째 낱말 דָּת는 히브리어 성경의 다른 곳에서 후기 페르시아 시대 책에만 나오는 차용어다. 칠십인역 B는 이 자리에 ‘불’도 ‘법’도 없이 ‘천사들이 그와 함께’를 둔다. 따라서 ‘불의 법’은 원래 본문이라기보다 후대 낭독 전통의 해석일 수 있다. 그 경우 이 행을 확정적인 문장으로 번역하면 불확실성을 감춘다.",
+    "response_ko": "(1) 케레는 실제 마소라 전통이 전하는 낭독이고, 케티브 한 낱말은 뜻을 정할 수 없다. 대안 B·C·D는 모두 재구성이나 다른 대본 추정이다. 번역 문구로는 실제로 전해진 독법이 가장 덜 자의적이다. (2) 대신 이 절은 ‘케레를 따름, 케티브는 한 낱말 אשדת로 뜻 불확실, 칠십인역 B는 다름’이라는 주석 없이 게시하면 안 된다(proposed_notes_ko 1번, 필수). (3) 시 전체 해석에는 영향이 제한적이다. 33:2의 핵심(남쪽 산지에서 야훼가 나타나심)은 어느 독법에서도 같다.",
+    "second_strongest_ko": "33:3 יִשָּׂא를 ‘저마다’로 푼 것은 영어·스페인어·한국어 모두에 배분 의미를 넣는다. 히브리어는 단순 단수이며, 칠십인역 단수 ‘ἐδέξατο’와 33:4 모세 언급은 단수 주어를 모세로 읽을 근거를 준다(대안 B). 응답: 동사 미완료와 33:3 내부 문맥(‘그들은 … 엎드려’)은 집단의 반복 행동을 가리키는 쪽이 조금 더 자연스럽다. 그러나 확신 수준은 낮다(confidence_limits)."
+  },
+  "secondary_objections": [
+    {
+      "target": "Deut.33.5 preferred A (honorific marks YHWH as subject in ko)",
+      "objection_ko": "한국어 존칭이 왕의 주어를 야훼로 고정한다. en/es는 열어 두는데 ko만 닫으면 세 언어의 해석 폭이 달라진다.",
+      "response_ko": "존칭 없이 쓰면 한국어 독자는 모세나 인간 왕으로 읽게 되어 반대 방향으로 닫힌다. 대안 B·C를 주석으로 밝힌다."
+    },
+    {
+      "target": "Deut.33.3 preferred A (tukku = bow down)",
+      "objection_ko": "‘엎드려’는 KRV·ASV ‘앉아’와 다르고, 단 한 번 나오는 낱말이라 근거가 같은 수준이다.",
+      "response_ko": "칠십인역 ‘ὑπὸ σέ εἰσιν’의 복종 의미와 ‘주의 발’이 맞는다. 다만 이 선택은 추정임을 주석에 밝힌다."
+    },
+    {
+      "target": "Deut.33.4 preferred A (torah = 율법)",
+      "objection_ko": "Ps.1.2 선정문 ‘가르침’과 불일치.",
+      "response_ko": "편집 결정 사항으로 넘긴다. 대안 B 문구를 그대로 쓸 수 있게 기록했다."
+    }
+  ],
+  "preferred_wording": {
+    "Deut.33.1": {
+      "ko": "이것은 하나님의 사람 모세가 죽기 전에 이스라엘 자손에게 빌어 준 복이다.",
+      "en": "This is the blessing with which Moses, the man of God, blessed the children of Israel before his death.",
+      "es": "Esta es la bendición con que Moisés, el hombre de Dios, bendijo a los hijos de Israel antes de su muerte."
+    },
+    "Deut.33.2": {
+      "ko": "그가 말하였다. 야훼께서 시내에서 오시고, 세일에서 그들에게 떠오르시고, 바란 산에서 빛을 비추셨다. 그분은 거룩한 수만 무리 가운데서 오셨으니, 그분의 오른손에서 그들을 위한 불의 법이 나왔다.",
+      "en": "He said: YHWH came from Sinai and dawned upon them from Seir; he shone forth from Mount Paran and came from among the holy myriads; from his right hand went a fiery law for them.",
+      "es": "Dijo: YHWH vino del Sinaí y desde Seir les amaneció; resplandeció desde el monte Parán y vino de entre las miríadas santas; de su diestra salió para ellos una ley de fuego."
+    },
+    "Deut.33.3": {
+      "ko": "참으로 그분은 백성들을 사랑하시니, 그분의 거룩한 이들은 모두 주의 손안에 있다. 그들은 주의 발 앞에 엎드려, 저마다 주의 말씀을 받는다.",
+      "en": "Indeed, he loves the peoples; all his holy ones are in your hand. They bow down at your feet; each receives of your words.",
+      "es": "Ciertamente él ama a los pueblos; todos sus santos están en tu mano. Ellos se postran a tus pies; cada uno recibe de tus palabras."
+    },
+    "Deut.33.4": {
+      "ko": "모세가 우리에게 율법을 명령하였으니, 그것은 야곱의 회중의 소유다.",
+      "en": "Moses commanded us a law, a possession for the assembly of Jacob.",
+      "es": "Moisés nos ordenó una ley, posesión de la asamblea de Jacob."
+    },
+    "Deut.33.5": {
+      "ko": "그분이 여수룬에서 왕이 되셨으니, 백성의 우두머리들이 모이고 이스라엘 지파들이 함께 모였을 때였다.",
+      "en": "Then he became king in Jeshurun, when the heads of the people gathered, the tribes of Israel together.",
+      "es": "Y él fue rey en Jesurún, cuando se reunieron los jefes del pueblo, juntas las tribus de Israel."
+    }
+  },
+  "clause_coverage_check": {
+    "Deut.33.1": [
+      {
+        "word_id_range": [
+          "05y6V",
+          "058TT"
+        ],
+        "rendered_ko": "이것은 … 복이다",
+        "rendered_en": "This is the blessing",
+        "rendered_es": "Esta es la bendición"
+      },
+      {
+        "word_id_range": [
+          "05gt7",
+          "05XHX"
+        ],
+        "rendered_ko": "하나님의 사람 모세가 … 빌어 준",
+        "rendered_en": "with which Moses, the man of God, blessed",
+        "rendered_es": "con que Moisés, el hombre de Dios, bendijo"
+      },
+      {
+        "word_id_range": [
+          "05HZ4",
+          "05thj"
+        ],
+        "rendered_ko": "이스라엘 자손에게",
+        "rendered_en": "the children of Israel",
+        "rendered_es": "a los hijos de Israel"
+      },
+      {
+        "word_id_range": [
+          "05Fgu",
+          "05s59"
+        ],
+        "rendered_ko": "죽기 전에",
+        "rendered_en": "before his death",
+        "rendered_es": "antes de su muerte"
+      }
+    ],
+    "Deut.33.2": [
+      {
+        "word_id_range": [
+          "05mJ4",
+          "05mJ4"
+        ],
+        "rendered_ko": "그가 말하였다",
+        "rendered_en": "He said",
+        "rendered_es": "Dijo"
+      },
+      {
+        "word_id_range": [
+          "05mq1",
+          "05dRa"
+        ],
+        "rendered_ko": "야훼께서 시내에서 오시고",
+        "rendered_en": "YHWH came from Sinai",
+        "rendered_es": "YHWH vino del Sinaí"
+      },
+      {
+        "word_id_range": [
+          "055ba",
+          "05QFW"
+        ],
+        "rendered_ko": "세일에서 그들에게 떠오르시고",
+        "rendered_en": "and dawned upon them from Seir",
+        "rendered_es": "y desde Seir les amaneció"
+      },
+      {
+        "word_id_range": [
+          "057E1",
+          "05DVy"
+        ],
+        "rendered_ko": "바란 산에서 빛을 비추셨다",
+        "rendered_en": "he shone forth from Mount Paran",
+        "rendered_es": "resplandeció desde el monte Parán"
+      },
+      {
+        "word_id_range": [
+          "059ax",
+          "05xax"
+        ],
+        "rendered_ko": "그분은 거룩한 수만 무리 가운데서 오셨으니",
+        "rendered_en": "and came from among the holy myriads",
+        "rendered_es": "y vino de entre las miríadas santas"
+      },
+      {
+        "word_id_range": [
+          "05UrJ",
+          "05UXz"
+        ],
+        "rendered_ko": "그분의 오른손에서 그들을 위한 불의 법이 나왔다",
+        "rendered_en": "from his right hand went a fiery law for them",
+        "rendered_es": "de su diestra salió para ellos una ley de fuego",
+        "ketiv_qere": "Ketiv 05QfD not rendered as a word (meaning unresolved); Qere 059bG+05UNy rendered 'fiery law'. Range includes the note/rdg ids in document order."
+      }
+    ],
+    "Deut.33.3": [
+      {
+        "word_id_range": [
+          "05xKb",
+          "05dj6"
+        ],
+        "rendered_ko": "참으로 그분은 백성들을 사랑하시니",
+        "rendered_en": "Indeed, he loves the peoples",
+        "rendered_es": "Ciertamente él ama a los pueblos"
+      },
+      {
+        "word_id_range": [
+          "055ca",
+          "05qvy"
+        ],
+        "rendered_ko": "그분의 거룩한 이들은 모두 주의 손안에 있다",
+        "rendered_en": "all his holy ones are in your hand",
+        "rendered_es": "todos sus santos están en tu mano"
+      },
+      {
+        "word_id_range": [
+          "05HKr",
+          "05Z82"
+        ],
+        "rendered_ko": "그들은 주의 발 앞에 엎드려",
+        "rendered_en": "They bow down at your feet",
+        "rendered_es": "Ellos se postran a tus pies"
+      },
+      {
+        "word_id_range": [
+          "05g8w",
+          "05GY8"
+        ],
+        "rendered_ko": "저마다 주의 말씀을 받는다",
+        "rendered_en": "each receives of your words",
+        "rendered_es": "cada uno recibe de tus palabras"
+      }
+    ],
+    "Deut.33.4": [
+      {
+        "word_id_range": [
+          "05Xad",
+          "05CVF"
+        ],
+        "rendered_ko": "모세가 우리에게 율법을 명령하였으니",
+        "rendered_en": "Moses commanded us a law",
+        "rendered_es": "Moisés nos ordenó una ley"
+      },
+      {
+        "word_id_range": [
+          "05YFH",
+          "05csc"
+        ],
+        "rendered_ko": "그것은 야곱의 회중의 소유다",
+        "rendered_en": "a possession for the assembly of Jacob",
+        "rendered_es": "posesión de la asamblea de Jacob"
+      }
+    ],
+    "Deut.33.5": [
+      {
+        "word_id_range": [
+          "05HGd",
+          "05hoh"
+        ],
+        "rendered_ko": "그분이 여수룬에서 왕이 되셨으니",
+        "rendered_en": "Then he became king in Jeshurun",
+        "rendered_es": "Y él fue rey en Jesurún"
+      },
+      {
+        "word_id_range": [
+          "05knm",
+          "05kaH"
+        ],
+        "rendered_ko": "백성의 우두머리들이 모이고",
+        "rendered_en": "when the heads of the people gathered",
+        "rendered_es": "cuando se reunieron los jefes del pueblo"
+      },
+      {
+        "word_id_range": [
+          "0587n",
+          "05Lq6"
+        ],
+        "rendered_ko": "이스라엘 지파들이 함께 모였을 때였다",
+        "rendered_en": "the tribes of Israel together",
+        "rendered_es": "juntas las tribus de Israel"
+      }
+    ]
+  },
+  "supplied_words_ko": [
+    {
+      "id": "Deut.33.2",
+      "supplied_ko": "나왔다 / went / salió",
+      "reason_ko": "마지막 행은 동사 없는 명사문이다. מִן ‘~에서’에 맞춰 ‘나왔다’를 보충했다. ASV·KRV처럼 ‘있었다/was’로 보충하면 מִן을 위치(‘오른편에’)로 읽는 셈이다."
+    },
+    {
+      "id": "Deut.33.4",
+      "supplied_ko": "그것은 … 이다",
+      "reason_ko": "מוֹרָשָׁה 동격을 한국어 문장으로 풀기 위한 보충. en/es는 동격 그대로 둔다."
+    },
+    {
+      "id": "Deut.33.5",
+      "supplied_ko": "모였을 때였다(반복), 그분 / he / él",
+      "reason_ko": "주어 없는 וַיְהִי에 대명사를 보충했다. 한국어는 두 번째 주어를 위해 동사를 반복했다."
+    }
+  ],
+  "proposed_notes_ko": [
+    "1. (필수, 33:2) 이 행은 마소라 케레 אֵשׁ דָּת(불의 법)를 따른다. 케티브는 한 낱말 אשדת로 적혀 있고 뜻이 확정되지 않았다. דָּת는 다른 곳에서는 후기 책에만 나오는 낱말이다. Swete 칠십인역(B)은 이 자리를 ‘그의 오른편에서 천사들이 그와 함께’로 읽는다.",
+    "2. (33:2) ‘거룩한 수만 무리 가운데서’는 MT 모음을 따른 것이다. 앞 행들의 지명 구조와 32:51 ‘므리밧 가데스’를 근거로 지명으로 읽자는 재구성 제안이 있다. 이번 검토에서 그 독법을 보여 주는 증거는 확인하지 못했다.",
+    "3. (33:3) ‘엎드려’로 옮긴 낱말 תֻּכּוּ는 성경에 한 번만 나오며 뜻이 불확실하다(‘앉아’, ‘따라가’로도 옮긴다). ‘저마다 받는다’의 히브리어 동사는 단수다. 이 단수를 모세 한 사람으로 읽는 해석도 있다.",
+    "4. (33:4) 화자는 ‘우리’라고 말하며 모세를 3인칭으로 부른다. ‘율법’(토라)은 Ps 1:2 선정문에서 ‘가르침’으로 옮긴 낱말이다.",
+    "5. (33:5) 히브리어는 왕의 주어를 밝히지 않는다. 한국어 존칭은 야훼로 읽은 결과이며, 모세나 인간 왕으로 읽는 해석도 있다. 여수룬은 이스라엘의 시적 이름이다(32:15; 33:26)."
+  ],
+  "editorial_consistency_findings": [
+    "divine name: data/editorial.json uses ko 야훼 in 28 verses vs YHWH in 5; en YHWH 24 vs Yahweh 9; es YHWH 24 vs Yahvé 9. Preferred wording uses 야훼 / YHWH / YHWH (majority).",
+    "torah: Ps.1.2 selected = 가르침 / instruction / instrucción; this dossier prefers 율법 / law / ley for Deut.33.4 with alternative B available. Editor should choose one policy.",
+    "Ketiv/Qere: no selected verse in data/editorial.json yet records a Ketiv/Qere choice; Deut.33.2 would be the first, so a reader-visible note format is needed before adoption.",
+    "address to God: Gen.4.14 selected uses 주님 + -습니다 in a human speech to God; this poem uses 주 + plain -다 style inside poetry. Editor may want a poetry register rule."
+  ],
+  "final_opinion_ko": "33:1, 33:4는 문법 난제가 작고 번역이 안정적이다. 33:2 마지막 행은 이 단위의 핵심 난제다. 케레 ‘불의 법’을 번역 문구로 쓰되 케티브·칠십인역 차이를 필수 주석으로 드러내는 것이 실제로 전해진 독법을 따르면서 불확실성도 감추지 않는 가장 정직한 방식이라고 본다. ‘거룩한 수만 무리’는 MT대로 두고, ‘므리밧 가데스’는 증거가 확인될 때까지 재구성 제안으로만 남긴다. 33:3은 낱말 두 개(חֹבֵב, תֻּכּוּ)가 한 번만 나오고 인칭·수가 전환되어 확신이 가장 낮다. 문구는 인칭 전환을 그대로 보존했다. 33:5는 야훼를 왕으로 읽되 한국어 존칭이 해석을 고정한다는 점을 주석으로 알린다. 이 기록은 채택되지 않은 모델 검토이며, GPT·Gemini 독립 검토와 편집 채택 전에는 게시 본문이 아니다.",
+  "confidence_limits": {
+    "Deut.33.1": "high: ordinary prose heading; only the dropped initial waw is a choice.",
+    "Deut.33.2": "low for the last line (Ketiv/Qere unresolved; LXX B divergent); medium for 'holy myriads' vs place-name reconstruction; high for the Sinai/Seir/Paran clauses.",
+    "Deut.33.3": "low: two hapax/rare forms (hovev, tukku), plural/singular and person shifts, LXX B divergent in the first line.",
+    "Deut.33.4": "medium-high for syntax; terminology (law vs instruction) is an editorial policy question.",
+    "Deut.33.5": "medium: subject of 'king' is inferred; honorific in ko closes an open Hebrew reading."
+  },
+  "reconsider_if": {
+    "Deut.33.1": "Editorial policy decides to keep chapter-initial waw consistently.",
+    "Deut.33.2": "A critical LXX (Göttingen) apparatus, a Qumran witness for Deut 33:2, or a verified lexical study shows support for a one-word Ketiv reading or for a place name (Meribath-Kadesh/Kadesh); or the project adopts a policy of translating Ketiv rather than Qere.",
+    "Deut.33.3": "A verified lexical treatment of tukku favours 'sit' or 'follow'; or editors prefer reading yissa as Moses (alternative B) to strengthen the link to 33:4; or the selected Psalms register sets a different form of address to God.",
+    "Deut.33.4": "The editor fixes a project-wide rendering of torah (가르침 vs 율법).",
+    "Deut.33.5": "Editors prefer an open Korean subject (alternative C) or adopt verified commentary evidence for Moses as subject."
+  },
+  "unresolved": [
+    "Deut.33.2: Ketiv אשדת meaning; whether Qere אֵשׁ דָּת is original; Hebrew Vorlage of LXX B 'ἄγγελοι μετ’ αὐτοῦ' and 'σὺν μυριάσιν' (no qodesh equivalent).",
+    "Deut.33.2: rivevot qodesh as 'holy myriads' vs reconstructed place name; no witness for the place name verified.",
+    "Deut.33.3: meaning of tukku; referent of ammim and qedoshav; subject of singular yissa.",
+    "Deut.33.5: subject of melekh (YHWH / Moses / impersonal).",
+    "Göttingen LXX, Qumran, Samaritan Pentateuch, Targum and rabbinic commentary texts were not accessed in this session."
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py during claim preparation (2026-11-01T06:43:38Z) into private/upstream_cache",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "result": "200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg005/tlg0527.tlg005.1st1K-grc1.xml",
+      "accessed_utc": "2026-11-01T06:46:14Z",
+      "file_sha256": "b2e3894c6ca82fa99a851c2ef172247c44c4509e749e1f17a7cae99d3a8dcf71",
+      "result": "200, 474051 bytes; Septuaginta ed. H. B. Swete, CC BY-SA 4.0 (same file hash as recorded by run 20261101T044334Z-ebdec25f)",
+      "excerpt": "κύριος ἐκ Σεινὰ ἥκει, καὶ ἐπέφανεν ἐκ Σηεὶρ ἡμῖν·"
+    }
+  ],
+  "publication_requires": [
+    "Independent GPT review",
+    "Independent Gemini review",
+    "official agy review where required",
+    "versioned editorial adoption",
+    "publication checks",
+    "reader-visible Ketiv/Qere note format for Deut.33.2"
+  ],
+  "not_claimed": [
+    "No manuscript collation, Qumran reading, Göttingen LXX reading or Samaritan reading was verified.",
+    "No GPT, Gemini, Antigravity or human review exists for this unit; none is reported.",
+    "No credit balance, cost or deduction is asserted.",
+    "This is not a certified or adopted translation."
+  ],
+  "selected_texts_modified": false,
+  "branch": "claude/bible-difficult-passages-8onr55",
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "packet": "automation/hard-review-packets/20261101T064338Z-50d8e17f.json",
+    "packet_sha256": "f90561731bf071bff37dd37d7bd8e1c0a9a3eaf20d357c478900373cf9c38e0a",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Deut.33.1",
+        "raw_xml": "<verse osisID=\"Deut.33.1\">\n          <w lemma=\"c/2063\" morph=\"HC/Pdxfs\" id=\"05y6V\">וְ/זֹ֣את</w>\n          <w lemma=\"d/1293\" n=\"1.0.1\" morph=\"HTd/Ncfsa\" id=\"058TT\">הַ/בְּרָכָ֗ה</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"05gt7\">אֲשֶׁ֨ר</w>\n          <w lemma=\"1288\" morph=\"HVpp3ms\" id=\"05dR3\">בֵּרַ֥ךְ</w>\n          <w lemma=\"4872\" n=\"1.0.0\" morph=\"HNp\" id=\"05pmS\">מֹשֶׁ֛ה</w>\n          <w lemma=\"376\" morph=\"HNcmsc\" id=\"05rdU\">אִ֥ישׁ</w>\n          <w lemma=\"d/430\" n=\"1.0\" morph=\"HTd/Ncmpa\" id=\"05XHX\">הָ/אֱלֹהִ֖ים</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"05HZ4\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1121 a\" morph=\"HNcmpc\" id=\"05phf\">בְּנֵ֣י</w>\n          <w lemma=\"3478\" n=\"1\" morph=\"HNp\" id=\"05thj\">יִשְׂרָאֵ֑ל</w>\n          <w lemma=\"l/6440\" n=\"0.0\" morph=\"HR/Ncbpc\" id=\"05Fgu\">לִ/פְנֵ֖י</w>\n          <w lemma=\"4194\" n=\"0\" morph=\"HNcmsc/Sp3ms\" id=\"05s59\">מוֹתֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "2eb85a93e65874b93d95b03e90cb46add2ea34b367e89beffcef640c049655d1"
+      },
+      {
+        "id": "Deut.33.2",
+        "raw_xml": "<verse osisID=\"Deut.33.2\">\n          <w lemma=\"c/559\" n=\"1.2.2\" morph=\"HC/Vqw3ms\" id=\"05mJ4\">וַ/יֹּאמַ֗ר</w>\n          <w lemma=\"3068\" n=\"1.2.1.0\" morph=\"HNp\" id=\"05mq1\">יְהוָ֞ה</w>\n          <w lemma=\"m/5514\" morph=\"HR/Np\" id=\"055wY\">מִ/סִּינַ֥י</w>\n          <w lemma=\"935\" n=\"1.2.1\" morph=\"HVqp3ms\" id=\"05dRa\">בָּא֙</w>\n          <w lemma=\"c/2224\" morph=\"HC/Vqq3ms\" id=\"055ba\">וְ/זָרַ֤ח</w>\n          <w lemma=\"m/8165 a\" n=\"1.2.0\" morph=\"HR/Np\" id=\"05Kez\">מִ/שֵּׂעִיר֙</w>\n          <w lemma=\"l\" n=\"1.2\" morph=\"HR/Sp3mp\" id=\"05QFW\">לָ֔/מוֹ</w>\n          <w lemma=\"3313\" n=\"1.1.0\" morph=\"HVhp3ms\" id=\"057E1\">הוֹפִ֨יעַ֙</w>\n          <w lemma=\"m/2022\" morph=\"HR/Ncmsc\" id=\"05uQs\">מֵ/הַ֣ר</w>\n          <w lemma=\"6290\" n=\"1.1\" morph=\"HNp\" id=\"05DVy\">פָּארָ֔ן</w>\n          <w lemma=\"c/857\" n=\"1.0\" morph=\"HC/Vqq3ms\" id=\"059ax\">וְ/אָתָ֖ה</w>\n          <w lemma=\"m/7233\" morph=\"HR/Ncfpc\" id=\"058xQ\">מֵ/רִבְבֹ֣ת</w>\n          <w lemma=\"6944\" n=\"1\" morph=\"HNcmsa\" id=\"05xax\">קֹ֑דֶשׁ</w>\n          <w lemma=\"m/3225\" n=\"0.1\" morph=\"HR/Ncfsc/Sp3ms\" id=\"05UrJ\">מִֽ/ימִינ֕/וֹ</w>\n          <w type=\"x-ketiv\" lemma=\"799\" morph=\"HNcfsc\" id=\"05QfD\">אשדת</w><note type=\"variant\"><catchWord>אשדת</catchWord><rdg type=\"x-qere\"><w lemma=\"784\" morph=\"HNcbsc\" id=\"059bG\">אֵ֥שׁ</w> <w lemma=\"1881\" n=\"0.0\" morph=\"HNcfsa\" id=\"05UNy\">דָּ֖ת</w></rdg></note>\n          <w lemma=\"l\" n=\"0\" morph=\"HR/Sp3mp\" id=\"05UXz\">לָֽ/מוֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "2c548edd99f050ba23f88ece2aa5fbbfba3b7247e1dc510d09d34cb222e02adc"
+      },
+      {
+        "id": "Deut.33.3",
+        "raw_xml": "<verse osisID=\"Deut.33.3\">\n          <w lemma=\"637\" n=\"1.1.0\" morph=\"HTa\" id=\"05xKb\">אַ֚ף</w>\n          <w lemma=\"2245\" morph=\"HVqrmsa\" id=\"05MJ2\">חֹבֵ֣ב</w>\n          <w lemma=\"5971 a\" n=\"1.1\" morph=\"HNcmpa\" id=\"05dj6\">עַמִּ֔ים</w>\n          <w lemma=\"3605\" morph=\"HNcmsc\" id=\"055ca\">כָּל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6918\" n=\"1.0\" morph=\"HAampc/Sp3ms\" id=\"0567J\">קְדֹשָׁ֖י/ו</w>\n          <w lemma=\"b/3027\" n=\"1\" morph=\"HR/Ncbsc/Sp2ms\" id=\"05qvy\">בְּ/יָדֶ֑/ךָ</w>\n          <w lemma=\"c/1992\" n=\"0.1.0\" morph=\"HC/Pp3mp\" id=\"05HKr\">וְ/הֵם֙</w>\n          <w lemma=\"8497\" morph=\"HVPp3cp\" id=\"05EFM\">תֻּכּ֣וּ</w>\n          <w lemma=\"l/7272\" n=\"0.1\" morph=\"HR/Ncfsc/Sp2ms\" id=\"05Z82\">לְ/רַגְלֶ֔/ךָ</w>\n          <w lemma=\"5375\" n=\"0.0\" morph=\"HVqi3ms\" id=\"05g8w\">יִשָּׂ֖א</w>\n          <w lemma=\"m/1703\" n=\"0\" morph=\"HR/Ncfpc/Sp2ms\" id=\"05GY8\">מִ/דַּבְּרֹתֶֽי/ךָ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "87d8114d3fba2fab0fdd3b4f986571e4229fad032fa52862f75d3e4d9b898cdc"
+      },
+      {
+        "id": "Deut.33.4",
+        "raw_xml": "<verse osisID=\"Deut.33.4\">\n          <w lemma=\"8451\" morph=\"HNcfsa\" id=\"05Xad\">תּוֹרָ֥ה</w>\n          <w lemma=\"6680\" morph=\"HVpp3ms\" id=\"05FkD\">צִוָּה</w><seg type=\"x-maqqef\">־</seg><w lemma=\"l\" n=\"1.0\" morph=\"HR/Sp1cp\" id=\"053kN\">לָ֖/נוּ</w>\n          <w lemma=\"4872\" n=\"1\" morph=\"HNp\" id=\"05CVF\">מֹשֶׁ֑ה</w>\n          <w lemma=\"4181\" n=\"0.0\" morph=\"HNcfsa\" id=\"05YFH\">מוֹרָשָׁ֖ה</w>\n          <w lemma=\"6952\" morph=\"HNcfsc\" id=\"05A6X\">קְהִלַּ֥ת</w>\n          <w lemma=\"3290\" n=\"0\" morph=\"HNp\" id=\"05csc\">יַעֲקֹֽב</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "7473cc07d8e2b033f4fdd882be432da88f4a12ebcfa852ccfc6f8936f427f7c4"
+      },
+      {
+        "id": "Deut.33.5",
+        "raw_xml": "<verse osisID=\"Deut.33.5\">\n          <w lemma=\"c/1961\" morph=\"HC/Vqw3ms\" id=\"05HGd\">וַ/יְהִ֥י</w>\n          <w lemma=\"b/3484\" n=\"1.0\" morph=\"HR/Np\" id=\"05YoL\">בִ/ישֻׁר֖וּן</w>\n          <w lemma=\"4428\" n=\"1\" morph=\"HNcmsa\" id=\"05hoh\">מֶ֑לֶךְ</w>\n          <w lemma=\"b/622\" n=\"0.1.0\" morph=\"HR/Vtc\" id=\"05knm\">בְּ/הִתְאַסֵּף֙</w>\n          <w lemma=\"7218 a\" morph=\"HNcmpc\" id=\"05gaY\">רָ֣אשֵׁי</w>\n          <w lemma=\"5971 a\" n=\"0.1\" morph=\"HNcmsa\" id=\"05kaH\">עָ֔ם</w>\n          <w lemma=\"3162 a\" n=\"0.0\" morph=\"HD\" id=\"0587n\">יַ֖חַד</w>\n          <w lemma=\"7626\" morph=\"HNcmpc\" id=\"05FHv\">שִׁבְטֵ֥י</w>\n          <w lemma=\"3478\" n=\"0\" morph=\"HNp\" id=\"05Lq6\">יִשְׂרָאֵֽל</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "77220eeb466aa7149498a62d6d10bd46e87c0c227d7bdbcffceec92ebc1a5511"
+      }
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-11-01T06:43:38.484829+00:00",
+    "claim_pushed": "2026-11-01T06:44Z (commit 8a3e760 on claude/bible-difficult-passages-8onr55, before any model review)",
+    "independent_reading_saved": "2026-11-01T06:45:54Z (/tmp/hr/independent.json mtime)",
+    "earlier_records_opened": "about 2026-11-01T06:46Z, after the independent reading was saved",
+    "completed": "2026-11-01T06:52:36Z"
+  },
+  "memo_ko": "automation/cloud-reviews/20261101T064338Z-50d8e17f.ko.md",
+  "checks": {
+    "unit_id_matches_claim": true,
+    "packet_ids_equal_unit_refs_and_claim": true,
+    "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source": true,
+    "source_url_and_commit_match": true,
+    "ketiv_qere_markup_preserved": true,
+    "preferred_wording_ids_exactly_once": true,
+    "ko_en_es_nonempty": true,
+    "independent_initial_reading_ids_exactly_once": true,
+    "initial_proposals_ids_exactly_once": true,
+    "alternatives_cover_all_ids": true,
+    "clause_coverage_check_cover_all_ids": true,
+    "reconsider_if_cover_all_ids": true,
+    "confidence_limits_cover_all_ids": true,
+    "clause_word_ranges_valid_and_cover_every_word": true,
+    "no_lord_or_jehovah_in_preferred": true,
+    "no_bracket_markers_in_preferred": true,
+    "current_selected_empty": true,
+    "state_is_unadopted_model_review": true,
+    "selected_texts_modified": false,
+    "no_human_certification_claim": true,
+    "rights_recorded": true,
+    "self_check_is_not_independent_review": true
+  }
+}
