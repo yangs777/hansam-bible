@@ -1,0 +1,834 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T024545Z-d361196a",
+  "unit_id": "deut-21-22-23",
+  "verse_ids": [
+    "Deut.21.22",
+    "Deut.21.23"
+  ],
+  "unit_issue_ko": "나무에 달림·하나님의 저주/모욕·장례",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Deut.21.22-23 = traditional Deuteronomy 21:22-23 in Hebrew and English numbering; repository library KRV/ASV/RV1909 Deut 21:22-23 carry the same content (checked). The Swete LXX OCR line merges 21:21-23 under label 5.21.21.",
+  "hebrew_quotation_policy": "Exact raw Hebrew lives only in source.verses[].raw_xml (copied by script from the claim packet, checked to occur exactly once in the pinned WLC file, hashes verified). Clause hebrew_plain and parallel excerpts are derived display forms and are labelled as such.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-11-01T02:47Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5",
+    "session": "https://claude.ai/code/session_01UknqVJoznT8garCiMngDAp",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info: rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is service metadata, not a balance or a deduction amount.",
+    "not_exposed": [
+      "exact backend snapshot of the served model per turn",
+      "remaining promotional credit balance",
+      "per-run credit deduction",
+      "whether every turn was served by the same model (last_served_model reports only the latest turn)"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-11-01T02:45:45.343461+00:00",
+    "claim_pushed": "about 2026-11-01T02:46Z (commit on claude/bible-difficult-passages-8lhs8o before any model review)",
+    "independent_reading_from_packet": "2026-11-01T02:46:43Z (scratch file outside the repository; recorded verbatim below as initial_proposals)",
+    "reception_checks": "WLC parallels 2026-11-01T02:47:52Z; LXX OCR 2026-11-01T02:48:04Z; SBLGNT 2026-11-01T02:47:52Z; Sefaria/CCAT attempts 2026-11-01T02:47:53Z (blocked)",
+    "earlier_records_search": "about 2026-11-01T02:47Z-02:49Z (cross-branch git grep, data/, reviews/, library/)",
+    "review_written": "2026-11-01T02:53:04Z",
+    "identity_rechecked": "2026-11-01T02:52:48Z (get_session: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional/allowed, isUsingOverage=false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Deut.21.22",
+      "clauses": [
+        {
+          "word_index_range": [
+            0,
+            6
+          ],
+          "label": "protasis: capital offense",
+          "hebrew_plain": "וְכִי יִהְיֶה בְאִישׁ חֵטְא מִשְׁפַּט מָוֶת",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "lexical",
+            "syntactic"
+          ],
+          "analysis_ko": "וְכִי־יִהְיֶה בְאִישׁ: 법 조문 도입 ‘어떤 사람에게 ~이 있으면’. חֵטְא(연계형) מִשְׁפַּט(연계형)־מָוֶת(절대형)은 이중 연계 사슬 ‘죽음의 판결의 죄’, 곧 사형 판결에 해당하는 죄다. 같은 신명기 안에서 19:6 מִשְׁפַּט־מָוֶת(사형 판결 사유), 22:26 חֵטְא מָוֶת(죽을 죄)와 짝을 이룬다."
+        },
+        {
+          "word_index_range": [
+            6,
+            7
+          ],
+          "label": "wehumat",
+          "hebrew_plain": "וְהוּמָת",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "syntactic",
+            "discourse"
+          ],
+          "analysis_ko": "וְהוּמָת: 호팔 완료 3남단 + 와우. 조건절 안에서 ‘그가 사형에 처해지고’(사건의 연속)로 읽는 것이 우선이다. 마소라 악센트의 아트나흐가 이 단어에 있다. RV1909는 ‘por el que haya de morir’(그것 때문에 죽어야 할)로 법적 판결(양태)로 읽었다."
+        },
+        {
+          "word_index_range": [
+            7,
+            11
+          ],
+          "label": "wetalita oto al-ets",
+          "hebrew_plain": "וְתָלִיתָ אֹתוֹ עַל עֵץ",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "lexical",
+            "syntactic",
+            "historical"
+          ],
+          "analysis_ko": "וְתָלִיתָ אֹתוֹ עַל־עֵץ: 칼 와우 완료 2남단 ‘네가 그를 나무에 매단다’. 순서상 처형 뒤의 매달기(시신 전시)로 읽힌다(창 40:19 목을 벤 뒤 매달기, 수 10:26 죽인 뒤 다섯 나무에 매달기). עֵץ는 ‘나무’와 ‘목재·기둥’ 모두를 뜻하며 여기서는 관사 없음, 23절에서는 הָעֵץ(그 나무). 이 절이 조건절의 계속인지(‘매달면’) 귀결절인지(‘매달아야 한다’)는 열린 문제다(unresolved 참조)."
+        }
+      ]
+    },
+    {
+      "id": "Deut.21.23",
+      "clauses": [
+        {
+          "word_index_range": [
+            0,
+            5
+          ],
+          "label": "lo-talin",
+          "hebrew_plain": "לֹא תָלִין נִבְלָתוֹ עַל הָעֵץ",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "lexical",
+            "syntactic"
+          ],
+          "analysis_ko": "לֹא־תָלִין נִבְלָתוֹ עַל־הָעֵץ: 동사 לין 칼 미완료 3여단, 주어는 여성명사 נִבְלָה(시신)에 3남단 접미사. ‘그의 시신이 나무 위에서 밤을 넘겨서는 안 된다’. 수 8:29가 같은 נִבְלָתוֹ와 해 질 때 내림을 보여 준다."
+        },
+        {
+          "word_index_range": [
+            5,
+            10
+          ],
+          "label": "ki qavor tiqberennu",
+          "hebrew_plain": "כִּי קָבוֹר תִּקְבְּרֶנּוּ בַּיּוֹם הַהוּא",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "syntactic"
+          ],
+          "analysis_ko": "כִּי־קָבוֹר תִּקְבְּרֶנּוּ בַּיּוֹם הַהוּא: 부정문 뒤의 כִּי는 ‘오히려/반드시’(대조). 부정사 절대형 + 미완료로 강조 ‘반드시 묻어야 한다’, 에너직 눈 접미사 -ennu. ‘그날에’."
+        },
+        {
+          "word_index_range": [
+            10,
+            14
+          ],
+          "label": "ki qilelat elohim talui",
+          "hebrew_plain": "כִּי קִלְלַת אֱלֹהִים תָּלוּי",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "lexical",
+            "syntactic",
+            "reception"
+          ],
+          "analysis_ko": "כִּי־קִלְלַת אֱלֹהִים תָּלוּי: 명사문. 술어는 연계 명사구 ‘하나님의 저주’(명사이지 분사 ‘저주받은’이 아님), 주어는 칼 수동 분사 ‘매달린 자’. 속격의 기능은 문법만으로 정해지지 않는다: (가) 주격적 속격 ‘하나님이 내린 저주(하나님께 저주받은 자)’, (나) 목적격적 속격 ‘하나님에 대한 모욕/저주’, (다) 최상급 ‘끔찍한 저주’. 저장소 안 고정 WLC 대조: 삿 9:57 קִלְלַת יוֹתָם은 저주를 말한 사람이 속격(주격적), 창 27:13 קִלְלָתְךָ는 저주가 향하는 대상이 접미사(목적격 방향). 따라서 형태는 양쪽을 다 허용한다. 아트나흐가 תָּלוּי에 있어 이유절이 여기서 닫힌다."
+        },
+        {
+          "word_index_range": [
+            14,
+            24
+          ],
+          "label": "velo tetamme",
+          "hebrew_plain": "וְלֹא תְטַמֵּא אֶת אַדְמָתְךָ אֲשֶׁר יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ נַחֲלָה",
+          "hebrew_plain_form": "pinned WLC w tokens; slashes and cantillation/meteg removed; maqqef omitted; raw markup only in source.verses[].raw_xml",
+          "question_types": [
+            "syntactic",
+            "discourse"
+          ],
+          "analysis_ko": "וְלֹא תְטַמֵּא אֶת־אַדְמָתְךָ ...: 피엘 미완료 2남단 금지 ‘네 땅을 더럽혀서는 안 된다’. 민 35:34가 같은 형태 וְלֹא תְטַמֵּא אֶת־הָאָרֶץ를 독립 금지문으로 쓴다. 아트나흐 뒤 후반절이므로 별도 문장으로 옮긴다. ASV는 목적절 ‘that thou defile not’로 읽었다. נֹתֵן 분사 ‘주고 있는/주실’, נַחֲלָה ‘유업(상속 재산)’. 절 끝 ס(세투마 단락 표시)는 원문 표시로 보존하고 번역문에는 넣지 않는다."
+        }
+      ]
+    }
+  ],
+  "initial_proposals": {
+    "Deut.21.22": {
+      "ko": "어떤 사람에게 사형에 해당하는 죄가 있어 그가 사형을 당하고, 네가 그를 나무에 매달면,",
+      "en": "If a man has committed a sin deserving the death sentence and he is put to death, and you hang him on a tree,",
+      "es": "Si un hombre ha cometido un pecado digno de sentencia de muerte, y se le da muerte, y tú lo cuelgas de un madero,"
+    },
+    "Deut.21.23": {
+      "ko": "그의 시신을 나무 위에 밤새 두어서는 안 된다. 너는 반드시 그날에 그를 묻어야 한다. 매달린 자는 하나님의 저주이기 때문이다. 너는 야훼 네 하나님이 네게 유업으로 주시는 네 땅을 더럽히지 말아야 한다.",
+      "en": "his corpse shall not remain all night on the tree; you shall surely bury him that same day, for a hanged man is a curse of God. You shall not defile your land that YHWH your God is giving you as an inheritance.",
+      "es": "su cadáver no pasará la noche sobre el madero; sin falta lo sepultarás ese mismo día, porque el colgado es maldición de Dios. No contaminarás tu tierra, que YHWH tu Dios te da en herencia."
+    }
+  },
+  "initial_notes": [
+    "21:22 het mishpat-mavet: construct chain sin-of-judgment-of-death = capital offense (cf. 19:6 mishpat-mavet).",
+    "21:22 wehumat wetalita: weqatal sequence; plain sense execution precedes hanging (post-mortem exposure), not hanging as method. Reception (Temple Scroll) reported to reverse order; not verified here.",
+    "21:22 ets: tree or wooden pole/stake; indefinite in v22, definite in v23.",
+    "21:23 talin: Qal yiqtol 3fs of lin, subject nivlato (fem) - corpse shall not lodge overnight.",
+    "21:23 ki qavor tiqberennu: ki adversative after negative (rather/but), inf abs emphatic.",
+    "21:23 ki qilelat elohim talui: nominal clause; predicate construct noun phrase curse-of-God, subject Qal passive ptc. Genitive ambiguous: subjective (under God's curse; LXX/Gal 3:13 reception reported) vs objective (an insult/affront to God; Mishnah Sanh 6:4 reception reported). Unresolved; keep literal 'curse of God' with note.",
+    "21:23 velo tetamme: waw+lo+yiqtol Piel 2ms; prohibition or consequence (so that you do not defile).",
+    "21:23 samekh (setumah) after sof pasuq: preserve as paragraph marker."
+  ],
+  "initial_proposals_note": "Written from the packet only, before any earlier-record search for this unit. Disclosure: before writing, the session read the schema and divine-name convention of a completed review on another branch (num-12-6-8); no content about Deut 21 was seen.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "packet current_selected is empty; data/editorial.json (main c9ae49a) has no Deuteronomy verses"
+    },
+    {
+      "kind": "decisions_and_notes",
+      "result": "none",
+      "note": "data/decisions.json, data/source-note-decisions.json, data/model-reviews/ have no Deut.21.22/23 entries"
+    },
+    {
+      "kind": "saved_gpt_gemini_claude_records",
+      "result": "none",
+      "note": "no file on any remote claude/ branch or main mentions Deut.21.22/23 except automation/cloud-queue.json and automation/hard-review-queue.json"
+    },
+    {
+      "kind": "existing_cloud_draft",
+      "result": "none",
+      "note": "no cloud draft for this range found on fetched claude/ branches"
+    },
+    {
+      "kind": "library_reading_editions",
+      "result": "compared",
+      "note": "KRV, ASV, RV1909 (see reception_evidence)"
+    },
+    {
+      "kind": "ancient_reception_verified",
+      "result": "partial",
+      "note": "LXX (third-party Swete OCR) and Gal 3:13 (SBLGNT) verified; Mishnah, Targum, Rashi, Temple Scroll, Vulgate, Peshitta, Samaritan Pentateuch NOT verified"
+    }
+  ],
+  "comparison_findings_ko": [
+    "현재 선정본(data/editorial.json, main c9ae49a)에 신명기 절이 없고 패킷 current_selected가 빈 배열이다. 바꿀 선정 문구가 없다.",
+    "모든 원격 claude/ 브랜치와 data/·reviews/·data/model-reviews/에서 Deut.21.22/23을 다루는 GPT·Gemini·Claude 기록이나 클라우드 초안을 찾지 못했다(큐 파일 언급만 있음). 비교할 실제 모델 기록이 없으므로 모델 간 비교는 하지 않았다.",
+    "KRV(개역성경 라이브러리)는 22절을 조건 ‘달거든’, 23절을 ‘매장하여 … 땅을 더럽히지 말라 나무에 달린 자는 하나님께 저주를 받았음이니라’로 이유절을 끝에 옮겼다(주격적). 이 리뷰는 원문 순서대로 이유절을 매장 명령 바로 뒤에 둔다.",
+    "ASV는 ‘accursed of God’(주격적), ‘that thou defile not’(목적절), ‘Jehovah’.",
+    "RV1909는 ‘maldición de Dios es el colgado’로 명사 직역을 이미 썼고, 22절 ‘por el que haya de morir’로 וְהוּמָת를 양태로 읽었다. 이 리뷰의 23절 es는 RV1909의 명사 구조와 일치하되 문구는 독자적으로 정했다.",
+    "칠십인역(Swete OCR)은 ‘κεκαταραμένος ὑπὸ θεοῦ πᾶς κρεμάμενος ἐπὶ ξύλου’로 주격적 해석과 일반화(πᾶς, ἐπὶ ξύλου)를 보이고 동사를 2인칭 복수로 둔다. 갈 3:13(SBLGNT)은 ‘Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου’로 칠십인역 계열 확장을 따르면서 형용사를 ἐπικατάρατος로 바꾼다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "22절 ko ‘사형에 해당하는 죄’ → ‘사형 판결에 해당하는 죄’: 연계 사슬의 מִשְׁפַּט를 살림(19:6 대조 후).",
+    "22절 en ‘a sin deserving the death sentence’ → ‘a sin that carries a sentence of death’, es ‘digno de’ → ‘que merece’: 의미 같음, 문체 조정.",
+    "23절 ko ‘그의 시신을 나무 위에 밤새 두어서는 안 된다’ → ‘그의 시신이 밤새 나무 위에 남아 있어서는 안 된다’: 3여단 자동사 주어(시신) 보존.",
+    "23절 en에 ‘rather,’ 추가, es ‘sino que’ 추가: 부정 뒤 כִּי 대조 기능.",
+    "23절 ko ‘유업으로 주시는 네 땅’ 어순은 초기와 같음. 마지막 금지문은 초기안처럼 독립 문장 유지(아트나흐·민 35:34 확인 후 근거 보강)."
+  ],
+  "reception_evidence": [
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.19.6",
+      "tag": "mishpat_mavet",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T02:45:45.343461+00:00",
+      "excerpt": "פֶּן־יִרְדֹּף גֹּאֵל הַדָּם אַחֲרֵי הָרֹצֵחַ כִּי־יֵחַם לְבָבוֹ וְהִשִּׂיגוֹ כִּי־יִרְבֶּה הַדֶּרֶךְ וְהִכָּהוּ נָפֶשׁ וְלוֹ אֵין מִשְׁפַּט־מָוֶת כִּי לֹא שֹׂנֵא הוּא לוֹ מִתְּמוֹל שִׁלְשׁוֹם׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.21.21",
+      "tag": "context_preceding_law",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T02:45:45.343461+00:00",
+      "excerpt": "וּרְגָמֻהוּ כָּל־אַנְשֵׁי עִירוֹ בָאֲבָנִים וָמֵת וּבִעַרְתָּ הָרָע מִקִּרְבֶּךָ וְכָל־יִשְׂרָאֵל יִשְׁמְעוּ וְיִרָאוּ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Gen.40.19",
+      "tag": "post_mortem_hanging_on_ets",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "בְּעוֹד שְׁלֹשֶׁת יָמִים יִשָּׂא פַרְעֹה אֶת־רֹאשְׁךָ מֵעָלֶיךָ וְתָלָה אוֹתְךָ עַל־עֵץ וְאָכַל הָעוֹף אֶת־בְּשָׂרְךָ מֵעָלֶיךָ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Josh.8.29",
+      "tag": "nivlato_taken_down_at_sunset",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Josh.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וְאֶת־מֶלֶךְ הָעַי תָּלָה עַל־הָעֵץ עַד־עֵת הָעָרֶב וּכְבוֹא הַשֶּׁמֶשׁ צִוָּה יְהוֹשֻׁעַ וַיֹּרִידוּ אֶת־נִבְלָתוֹ מִן־הָעֵץ וַיַּשְׁלִיכוּ אוֹתָהּ אֶל־פֶּתַח שַׁעַר הָעִיר וַיָּקִימוּ עָלָיו גַּל־אֲבָנִים גָּדוֹל עַד הַיּוֹם הַזֶּה׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "a066200ab2269c0a86a2e9ba119a3d0fce8c5f7ecc44bb53ec134b83dffc6006",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Josh.10.26",
+      "tag": "killed_then_hanged",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Josh.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וַיַּכֵּם יְהוֹשֻׁעַ אַחֲרֵי־כֵן וַיְמִיתֵם וַיִּתְלֵם עַל חֲמִשָּׁה עֵצִים וַיִּהְיוּ תְּלוּיִם עַל־הָעֵצִים עַד־הָעָרֶב׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "a066200ab2269c0a86a2e9ba119a3d0fce8c5f7ecc44bb53ec134b83dffc6006",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Josh.10.27",
+      "tag": "taken_down_at_sunset",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Josh.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וַיְהִי לְעֵת בּוֹא הַשֶּׁמֶשׁ צִוָּה יְהוֹשֻׁעַ וַיֹּרִידוּם מֵעַל הָעֵצִים וַיַּשְׁלִכֻם אֶל־הַמְּעָרָה אֲשֶׁר נֶחְבְּאוּ־שָׁם וַיָּשִׂמוּ אֲבָנִים גְּדֹלוֹת עַל־פִּי הַמְּעָרָה עַד־עֶצֶם הַיּוֹם הַזֶּה׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "a066200ab2269c0a86a2e9ba119a3d0fce8c5f7ecc44bb53ec134b83dffc6006",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Esth.2.23",
+      "tag": "hanged_on_ets",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Esth.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וַיְבֻקַּשׁ הַדָּבָר וַיִּמָּצֵא וַיִּתָּלוּ שְׁנֵיהֶם עַל־עֵץ וַיִּכָּתֵב בְּסֵפֶר דִּבְרֵי הַיָּמִים לִפְנֵי הַמֶּלֶךְ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "f9b5b8adaf504dcac409bb6a27c9328967f47eeb4e920070cd53ef5301299019",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Judg.9.57",
+      "tag": "qilelat_plus_personal_genitive_subjective",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Judg.xml",
+      "accessed_utc": "2026-11-01T02:48:30Z",
+      "excerpt": "וְאֵת כָּל־רָעַת אַנְשֵׁי שְׁכֶם הֵשִׁיב אֱלֹהִים בְּרֹאשָׁם וַתָּבֹא אֲלֵיהֶם קִלֲלַת יוֹתָם בֶּן־יְרֻבָּעַל׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Gen.27.13",
+      "tag": "qelalah_suffix_object_direction",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וַתֹּאמֶר לוֹ אִמּוֹ עָלַי קִלְלָתְךָ בְּנִי אַךְ שְׁמַע בְּקֹלִי וְלֵךְ קַח־לִי׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Exod.22.27",
+      "tag": "qillel_with_elohim_object",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-11-01T02:48:30Z",
+      "excerpt": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹר׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Lev.24.15",
+      "tag": "qillel_with_elohav_object",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+      "accessed_utc": "2026-11-01T02:48:30Z",
+      "excerpt": "וְאֶל־בְּנֵי יִשְׂרָאֵל תְּדַבֵּר לֵאמֹר אִישׁ אִישׁ כִּי־יְקַלֵּל אֱלֹהָיו וְנָשָׂא חֶטְאוֹ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Num.35.34",
+      "tag": "velo_tetamme_independent_prohibition",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וְלֹא תְטַמֵּא אֶת־הָאָרֶץ אֲשֶׁר אַתֶּם יֹשְׁבִים בָּהּ אֲשֶׁר אֲנִי שֹׁכֵן בְּתוֹכָהּ כִּי אֲנִי יְהוָה שֹׁכֵן בְּתוֹךְ בְּנֵי יִשְׂרָאֵל׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Prov.3.33",
+      "tag": "divine_curse_construct_subjective",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Prov.xml",
+      "accessed_utc": "2026-11-01T02:48:30Z",
+      "excerpt": "מְאֵרַת יְהוָה בְּבֵית רָשָׁע וּנְוֵה צַדִּיקִים יְבָרֵךְ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "964f99c00239b53b854c4686c99490c8d1ac7664784a30afdfc23781a3abb161",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "hebrew_osis_parallel",
+      "ref": "Num.25.4",
+      "tag": "distinct_verb_hoqia",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה קַח אֶת־כָּל־רָאשֵׁי הָעָם וְהוֹקַע אוֹתָם לַיהוָה נֶגֶד הַשָּׁמֶשׁ וְיָשֹׁב חֲרוֹן אַף־יְהוָה מִיִּשְׂרָאֵל׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept",
+      "file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "Deut.21.22-23 (OCR line labelled 5.21.21, verses merged)",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T02:48:04Z",
+      "excerpt": "Ἐὰν δὲ γένηται ἔν τινι ἁμαρτία κρίμα θανάτου, καὶ αὐτοῦ ἐπὶ τοῦ ξύλου, ἀλλὰ ταφῇ θάψετε αὐτὸ ἐν τῇ ἡμέρᾳ ἐκείνη, ὅτι κεκαταραμένος ὑπὸ θεοῦ πᾶς κρεμάμενος ἐπὶ ξύλου· καὶ οὐ μιανεῖτε τὴν γῆν ἢν κύριος ὁ θεός σου δίδωσίν σοι ἐν κλήρῳ.",
+      "excerpt_form": "whitespace runs collapsed to one space; OCR spelling kept (e.g. hn for hen); OCR visibly omits text between kai and autou (end of 21:22 and start of 21:23); omitted text is NOT reconstructed here",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Swete LXX edition is public domain; third-party OCR repository, quality not certified"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Gal.3.13",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/69-Ga-morphgnt.txt",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "excerpt": "Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου γενόμενος ὑπὲρ ἡμῶν κατάρα, ⸂ὅτι γέγραπται⸃· Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου,",
+      "excerpt_form": "MorphGNT column 4 (word without punctuation) joined with spaces",
+      "file_sha256": "ec249897464e8e8992e4869645471d6f3372e7373ba3a5d429516946d8cffada",
+      "excerpt_verified_against_file": true,
+      "rights_note": "SBLGNT text under its own upstream license; MorphGNT tagging under upstream license; rights not re-verified in this session; short quotation for research"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.21.22",
+      "edition": "krv",
+      "path": "library/krv/Deut.json",
+      "excerpt": "사람이 만일 죽을 죄를 범하므로 네가 그를 죽여 나무 위에 달거든",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.21.23",
+      "edition": "krv",
+      "path": "library/krv/Deut.json",
+      "excerpt": "그 시체를 나무 위에 밤새도록 두지 말고 당일에 장사하여 네 하나님 여호와께서 네게 기업으로 주시는 땅을 더럽히지 말라 나무에 달린 자는 하나님께 저주를 받았음이니라",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.21.22",
+      "edition": "asv",
+      "path": "library/asv/Deut.json",
+      "excerpt": "And if a man have committed a sin worthy of death, and he be put to death, and thou hang him on a tree;",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.21.23",
+      "edition": "asv",
+      "path": "library/asv/Deut.json",
+      "excerpt": "his body shall not remain all night upon the tree, but thou shalt surely bury him the same day; for he that is hanged is accursed of God; that thou defile not thy land which Jehovah thy God giveth thee for an inheritance.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.21.22",
+      "edition": "rv1909",
+      "path": "library/rv1909/Deut.json",
+      "excerpt": "Cuando en alguno hubiere pecado de sentencia de muerte, por el que haya de morir, y le habrás colgado en un madero,",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.21.23",
+      "edition": "rv1909",
+      "path": "library/rv1909/Deut.json",
+      "excerpt": "No estará su cuerpo por la noche en el madero, mas sin falta lo enterrarás el mismo día, porque maldición de Dios es el colgado: y no contaminarás tu tierra, que Jehová tu Dios te da por heredad.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Gal.3.13",
+      "edition": "krv",
+      "path": "library/krv/Gal.json",
+      "excerpt": "그리스도께서 우리를 위하여 저주를 받은 바 되사 율법의 저주에서 우리를 속량하셨으니 기록된 바 나무에 달린 자마다 저주 아래 있는 자라 하였음이라",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Gal.3.13",
+      "edition": "asv",
+      "path": "library/asv/Gal.json",
+      "excerpt": "Christ redeemed us from the curse of the law, having become a curse for us; for it is written, Cursed is every one that hangeth on a tree:",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Gal.3.13",
+      "edition": "rv1909",
+      "path": "library/rv1909/Gal.json",
+      "excerpt": "Cristo nos redimió de la maldición de la ley, hecho por nosotros maldición; (porque está escrito: Maldito cualquiera que es colgado en madero:)",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    }
+  ],
+  "reception_reported_not_verified": [
+    {
+      "source": "Mishnah Sanhedrin 6:4",
+      "reported_reading": "hanging only after execution and only for certain offenders; qilelat elohim explained as cursing/affronting God",
+      "status": "not verified in this session (www.sefaria.org blocked)"
+    },
+    {
+      "source": "Temple Scroll 11QT col. 64",
+      "reported_reading": "hanging before death for treason, with an expanded curse formula",
+      "status": "not verified in this session"
+    },
+    {
+      "source": "Targum Onqelos, Rashi, Vulgate, Peshitta, Samaritan Pentateuch",
+      "reported_reading": "not stated here",
+      "status": "not consulted; no claim made"
+    }
+  ],
+  "alternatives": {
+    "Deut.21.22": [
+      {
+        "id": "A",
+        "wording_en": "If a man has committed a sin that carries a sentence of death, and he is put to death, and you hang him on a tree,",
+        "argument_ko": "조건절 계속. 23절 금지가 귀결. KRV ‘달거든’, ASV ‘and thou hang him on a tree;’, RV1909 ‘y le habrás colgado’ 모두 이 구조.",
+        "objection_ko": "아트나흐 위치와 2남단 와우 완료(신명기 귀결절의 흔한 형태)가 귀결 독법을 지지할 수 있다.",
+        "status": "preferred"
+      },
+      {
+        "id": "B",
+        "wording_en": "If a man has committed a sin that carries a sentence of death and he is put to death, you shall hang him on a tree.",
+        "argument_ko": "아트나흐에서 조건절이 끝나고 매달기가 명령이 된다. 일부 랍비 전통(보고됨, 미확인)의 의무 매달기와 통한다.",
+        "objection_ko": "그러면 23절이 별도의 두 번째 귀결이 되어 법 구조가 무거워진다. 신 21:10-12처럼 와우 완료가 조건절을 이어 가는 예가 있다. 여호수아 8:29와 10:26-27의 서술은 매달기 의무보다 해 질 때 내림을 강조한다.",
+        "status": "footnote"
+      },
+      {
+        "id": "C",
+        "wording_en": "If a man has a sin deserving death, for which he must die, and you hang him on a tree,",
+        "argument_ko": "RV1909 ‘por el que haya de morir’. וְהוּמָת를 판결(양태)로 읽어 매달기가 처형 방법일 가능성을 연다.",
+        "objection_ko": "칼 수동이 아닌 호팔 완료 사건 표현이며, 창 40:19와 수 10:26의 ‘죽인 뒤 매달기’ 순서와 맞지 않는다.",
+        "status": "rejected_for_text"
+      },
+      {
+        "id": "D",
+        "wording_en": "... and you impale him on a stake,",
+        "argument_ko": "עֵץ의 ‘목재/기둥’ 뜻과 고대 근동 처형 관습.",
+        "objection_ko": "תלה의 기본 뜻은 ‘매달다’이고 ‘꿰다’ 의미는 별도 동사 יקע(민 25:4; 삼하 21:6 הוֹקַע)와 겹치게 된다. 방법의 고고학적 복원을 본문에 넣는 것은 해석이다.",
+        "status": "rejected_for_text"
+      }
+    ],
+    "Deut.21.23": [
+      {
+        "id": "A",
+        "wording_en": "for a hanged man is a curse of God",
+        "argument_ko": "히브리어 명사 구문을 그대로 두어 해석을 열어 둔다. RV1909와 같은 구조. 갈 3:13의 바울도 그리스도가 ‘저주(κατάρα, 명사)가 되셨다’고 말한다(SBLGNT 발췌).",
+        "objection_ko": "독자에게 불투명하다. 주격적 독법의 고대 증거가 이 세션에서 확인된 것 중 가장 강하다.",
+        "status": "preferred"
+      },
+      {
+        "id": "B",
+        "wording_en": "for a hanged man is under God's curse / accursed by God",
+        "argument_ko": "칠십인역 OCR ‘κεκαταραμένος ὑπὸ θεοῦ’(하나님에 의해 저주받은), 갈 3:13 인용 ‘Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου’, KRV ‘하나님께 저주를 받았음이니라’, ASV ‘accursed of God’. 삿 9:57 קִלְלַת יוֹתָם의 주격적 속격 용례.",
+        "objection_ko": "명사를 분사처럼 바꾼다. 칠십인역의 πᾶς·ἐπὶ ξύλου는 마소라 본문에 없는 확장이다. 법의 동기(땅을 더럽히지 않음)가 ‘저주받은 자의 시신이 땅을 더럽힌다’로 좁혀진다.",
+        "status": "strong_alternative"
+      },
+      {
+        "id": "C",
+        "wording_en": "for a hanged body is an affront to God",
+        "argument_ko": "קלל ‘가볍게 여기다/모욕하다’ 어근과 출 22:27 אֱלֹהִים לֹא תְקַלֵּל, 레 24:15 כִּי־יְקַלֵּל אֱלֹהָיו처럼 하나님을 목적어로 하는 저주 용례. 미쉬나 산헤드린 6:4와 라시가 이렇게 읽는다고 보고됨(이 세션에서 원문 미확인).",
+        "objection_ko": "명사 קְלָלָה가 ‘모욕’ 뜻으로 쓰인 분명한 예를 이 세션에서 제시하지 못했다. 신약 수용과 개신교 전통(KRV)과 다르다.",
+        "status": "strong_alternative"
+      },
+      {
+        "id": "D",
+        "wording_en": "for a hanged man is a terrible curse",
+        "argument_ko": "אֱלֹהִים의 최상급 용법 가능성.",
+        "objection_ko": "이 구절에서 그 용법을 지지하는 증거가 패킷에 없고, 고대 수용(칠십인역 OCR)이 하나님을 행위자로 읽는다.",
+        "status": "rejected_for_text"
+      },
+      {
+        "id": "E",
+        "wording_en": "... so that you do not defile your land ...",
+        "argument_ko": "ASV ‘that thou defile not’, KRV ‘더럽히지 말라’를 같은 문장 안 결과/목적으로.",
+        "objection_ko": "아트나흐 뒤 후반절이며 민 35:34의 같은 형태가 독립 금지문이다. 다만 의미 차이는 작다.",
+        "status": "acceptable_variant"
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Deut.21.23 qilelat elohim rendered as ambiguous noun phrase (curse of God) instead of subjective accursed by God",
+    "objection_ko": "가장 강한 반론: (1) 이 세션에서 실제로 확인한 고대 증거 두 개(칠십인역 Swete OCR ‘κεκαταραμένος ὑπὸ θεοῦ’, 갈 3:13 SBLGNT ‘Ἐπικατάρατος’)와 저장소 라이브러리의 KRV·ASV가 모두 주격적 ‘하나님께 저주받은 자’로 읽는다. (2) 삿 9:57 קִלְלַת יוֹתָם은 연계형 + 인명 속격이 ‘그 사람이 말한 저주’임을 보여 주므로 ‘하나님의 저주’도 하나님이 내린 저주가 가장 자연스럽다. (3) 모호한 직역은 해석 책임을 독자에게 미루고, ko ‘매달린 자는 하나님의 저주이다’는 한국어로 어색하다.",
+    "test_ko": "절 단위 시험: (a) 형태 — קִלְלַת는 명사 연계형이며 분사 מְקֻלָּל이 아니다(형태상 ‘저주받은’은 번역자의 변환). (b) 속격 — 삿 9:57은 주격적, 창 27:13 접미사는 대상 방향이므로 형태만으로 결정 불가. (c) 수용 — 칠십인역은 πᾶς와 ἐπὶ ξύλου를 더해 일반화했고, 바울은 인용에서 ἐπικατάρατος(형용사)를 쓰면서 같은 절에서 κατάρα(명사)도 쓴다. 명사 직역은 바울의 ‘저주가 되셨다’와도 맞물린다. (d) 문맥 — 이유절의 기능은 즉시 매장이며, 주격적(저주받은 자의 시신을 땅에 두면 안 됨)·목적격적(시신 방치가 하나님을 모욕함) 모두 동기로 성립한다.",
+    "result_ko": "본문은 A ‘하나님의 저주’ 유지, 주석 1순위에 B(주격적; 칠십인역·갈 3:13·KRV), 2순위에 C(목적격적; 랍비 전통 보고, 미확인)를 둔다. 편집이 독자 명료성을 우선하면 B로 바꾸는 것이 가장 증거가 강한 선택이다. 확신도 중간."
+  },
+  "secondary_objections": [
+    {
+      "target": "Deut.21.22 wetalita as protasis",
+      "objection_ko": "아트나흐가 וְהוּמָת에 있어 후반절 ‘네가 그를 나무에 매단다’를 귀결(명령)로 읽을 수 있다.",
+      "response_ko": "아트나흐는 긴 조건절 안에서도 온다. 23절 לֹא־תָלִין이 명백한 귀결이며, KRV·ASV·RV1909와 칠십인역 OCR의 23절 ἀλλὰ 구조도 22절을 조건으로 둔다. 각주로 B 표시."
+    },
+    {
+      "target": "Deut.21.23 rather (ki) in en",
+      "objection_ko": "en ‘rather’는 히브리어에 없는 낱말을 더한 것처럼 보인다.",
+      "response_ko": "부정 뒤 כִּי의 대조 기능 번역이다. ko는 문장 분리로 생략, es ‘sino que’, ASV ‘but’."
+    },
+    {
+      "target": "divine name",
+      "objection_ko": "선정본이 ko ‘야훼’(창세기)와 ‘YHWH께서’(민 6, 시 1), en ‘YHWH’와 ‘Yahweh’(창 2:4), es ‘YHWH’와 ‘Yahvé’(창 2:4)를 섞어 쓴다.",
+      "response_ko": "이 리뷰는 창세기 다수 관례 ko ‘야훼’, en/es ‘YHWH’를 따랐다. 통일 결정은 편집 몫."
+    }
+  ],
+  "preferred_wording": {
+    "Deut.21.22": {
+      "ko": "어떤 사람에게 사형 판결에 해당하는 죄가 있어 그가 사형에 처해지고, 네가 그를 나무에 매달면,",
+      "en": "If a man has committed a sin that carries a sentence of death, and he is put to death, and you hang him on a tree,",
+      "es": "Si un hombre ha cometido un pecado que merece sentencia de muerte, y se le da muerte, y tú lo cuelgas de un madero,",
+      "reason_ko": "조건절을 23절 앞까지 열어 두어 23절의 금지가 법의 요점이 되게 했다. חֵטְא מִשְׁפַּט־מָוֶת는 ‘사형 판결에 해당하는 죄’로 연계 사슬의 ‘판결’을 살렸다. וְהוּמָת는 사건의 연속으로 ‘사형에 처해지고’. עֵץ는 ko ‘나무’(목재 뜻도 포함), en ‘tree’, es ‘madero’(목재·기둥; RV1909도 madero).",
+      "counterargument_ko": "(1) 아트나흐가 וְהוּמָת에 있으므로 ‘네가 그를 나무에 매달아야 한다’를 귀결절(의무)로 읽을 수 있다(미쉬나 산헤드린 6:4 전통이 일부 사형수의 매달기를 의무로 읽는다고 보고되나 이 세션에서 원문 확인 불가). (2) RV1909식 양태 독법 ‘죽어야 할’. (3) עֵץ를 ‘기둥/말뚝’으로, תלה를 ‘꿰다(impale)’로 옮기는 현대 번역 전통이 있다고 알려져 있으나 이 세션에서 확인하지 않았다.",
+      "current_opinion_ko": "현재 문장 유지. 조건/귀결 경계는 각주.",
+      "reconsider_if_ko": "편집이 신명기 조건법(21:10-12 등) 전체의 조건절·귀결절 경계 방침을 정하거나, 미쉬나·타르굼·성전 두루마리(11QT 64)의 원문을 URL과 발췌로 확인해 귀결절 독법의 근거를 각주가 아닌 본문 결정에 반영해야 할 때."
+    },
+    "Deut.21.23": {
+      "ko": "그의 시신이 밤새 나무 위에 남아 있어서는 안 된다. 너는 반드시 그날에 그를 묻어야 한다. 매달린 자는 하나님의 저주이기 때문이다. 너는 야훼 네 하나님이 네게 유업으로 주시는 네 땅을 더럽혀서는 안 된다.",
+      "en": "his corpse shall not remain all night on the tree; rather, you shall surely bury him that same day, for a hanged man is a curse of God. You shall not defile your land that YHWH your God is giving you as an inheritance.",
+      "es": "su cadáver no pasará la noche sobre el madero, sino que sin falta lo sepultarás ese mismo día, porque el colgado es maldición de Dios. No contaminarás tu tierra, que YHWH tu Dios te da en herencia.",
+      "reason_ko": "קִלְלַת אֱלֹהִים을 명사 그대로 ‘하나님의 저주/a curse of God/maldición de Dios’로 옮겨 주격·목적격 해석을 본문에서 미리 닫지 않았다(RV1909가 이미 같은 구조). 아트나흐에 따라 이유절을 תָּלוּי에서 닫고 ‘더럽히지 말라’는 민 35:34처럼 독립 금지문으로 옮겼다. 시신을 문법 주어로 유지했다(ko ‘시신이 … 남아 있어서는 안 된다’).",
+      "counterargument_ko": "strongest_objection_to_own_reading 참조. 덧붙여 ko ‘매달린 자는 하나님의 저주이다’가 어색하고, en ‘a curse of God’가 불투명하다는 반론.",
+      "current_opinion_ko": "현재 문장 유지, 확신도 중간. 주석에 (가)(나)(다) 세 해석과 갈 3:13 수용을 보인다.",
+      "reconsider_if_ko": "편집이 해석을 본문에 반영하기로 하면 ko ‘매달린 자는 하나님께 저주받은 자이기 때문이다’, en ‘for a hanged man is under God’s curse’, es ‘porque el colgado es maldito de Dios’(주격적) 또는 ko ‘하나님을 모욕하는 것이기 때문이다’, en ‘an affront to God’(목적격적) 가운데 하나로 바꾼다. 미쉬나 산헤드린 6:4, 타르굼 옹켈로스, 불가타, 페쉬타, 사마리아 오경, 11QT 64:12를 URL과 발췌로 확인하면 각주를 갱신한다."
+    }
+  },
+  "proposed_notes_ko": [
+    {
+      "id": "Deut.21.22",
+      "note_ko": "‘사형 판결에 해당하는 죄’: 히브리어 חֵטְא מִשְׁפַּט־מָוֶת(신 19:6; 22:26 참조). 원문 순서는 처형 뒤 매달기다(창 40:19; 수 10:26). 마소라 악센트는 ‘사형에 처해지고’ 뒤에서 절을 나누므로 ‘네가 그를 나무에 매달아야 한다’로 읽는 해석도 있다."
+    },
+    {
+      "id": "Deut.21.22",
+      "note_ko": "‘나무’: עֵץ는 살아 있는 나무와 목재·기둥을 모두 뜻한다."
+    },
+    {
+      "id": "Deut.21.23",
+      "note_ko": "‘하나님의 저주’: קִלְלַת אֱלֹהִים. (1) 하나님께 저주받은 자 — 칠십인역 ‘하나님에 의해 저주받은 자, 나무에 달린 모든 자’, 갈 3:13 ‘나무에 달린 자마다 저주받은 자’. (2) 하나님에 대한 모욕 — 후대 유대 전통에서 보고되는 해석(이 기록에서 원문 미확인). (3) 최상급 ‘끔찍한 저주’ 가능성(약함)."
+    },
+    {
+      "id": "Deut.21.23",
+      "note_ko": "칠십인역 OCR은 ‘묻다/더럽히다’를 2인칭 복수로, 마소라 본문은 2인칭 단수로 둔다. 이 차이와 ‘모든·나무에’ 확장은 번역 수용 차이로 기록할 뿐 히브리어 이문으로 단정하지 않는다."
+    }
+  ],
+  "original_vs_interpretation": {
+    "attested_reading": "MT-WLC as pinned (source.verses[].raw_xml); no Hebrew variant asserted",
+    "translation_choices": "preferred_wording",
+    "interpretation": "genitive function, protasis boundary, nature of hanging (see unresolved)",
+    "reconstruction": "none proposed; LXX OCR gap not reconstructed"
+  },
+  "final_opinion_ko": "두 절 모두 마소라 본문을 고치지 않고 옮길 수 있다. 22절은 처형 뒤 시신을 나무에 매다는 경우를 전제하는 조건절로 읽는 것이 문법·서술 병행(창 40:19, 수 8:29, 10:26-27)과 맞는다. 핵심 쟁점은 23절 קִלְלַת אֱלֹהִים의 속격이다. 형태는 주격적·목적격적 모두 허용하므로 본문은 명사 직역 ‘하나님의 저주’로 두고, 이 세션에서 확인한 칠십인역 OCR과 갈라디아서 3:13(주격적, 일반화 확장 포함)을 1순위 각주로, 랍비 전통의 ‘하나님에 대한 모욕’ 독법은 원문 미확인 보고로 표시한다. 개신교(장로교) 수용에서 중요한 갈 3:13과의 연결은 본문 선택과 무관하게 각주에서 분명히 보여야 한다.",
+  "confidence_limits": [
+    {
+      "id": "Deut.21.22",
+      "level": "medium_high",
+      "note_ko": "어휘·형태는 분명하다. 조건/귀결 경계와 매달기의 성격(시신 전시 대 처형 방법)은 열려 있다. 사본 대조 없음."
+    },
+    {
+      "id": "Deut.21.23",
+      "level": "medium",
+      "note_ko": "속격 기능이 핵심 미해결. 랍비·쿰란·타르굼 수용은 이 세션에서 원문 확인 불가(네트워크 차단). 칠십인역은 제3자 OCR이며 22-23절 사이에 OCR 누락이 보인다."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Deut.21.22",
+      "condition_ko": "편집이 신명기 조건법(21:10-12 등) 전체의 조건절·귀결절 경계 방침을 정하거나, 미쉬나·타르굼·성전 두루마리(11QT 64)의 원문을 URL과 발췌로 확인해 귀결절 독법의 근거를 각주가 아닌 본문 결정에 반영해야 할 때."
+    },
+    {
+      "id": "Deut.21.23",
+      "condition_ko": "편집이 해석을 본문에 반영하기로 하면 ko ‘매달린 자는 하나님께 저주받은 자이기 때문이다’, en ‘for a hanged man is under God’s curse’, es ‘porque el colgado es maldito de Dios’(주격적) 또는 ko ‘하나님을 모욕하는 것이기 때문이다’, en ‘an affront to God’(목적격적) 가운데 하나로 바꾼다. 미쉬나 산헤드린 6:4, 타르굼 옹켈로스, 불가타, 페쉬타, 사마리아 오경, 11QT 64:12를 URL과 발췌로 확인하면 각주를 갱신한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Deut.21.23",
+      "issue": "Genitive function of qilelat elohim: subjective (accursed by God), objective (insult/affront to God), or superlative.",
+      "status": "unresolved_lexical_syntactic_reception",
+      "needed_evidence": "Verified texts with URL and excerpt: Mishnah Sanhedrin 6:4, Targum Onqelos Deut 21:23, Rashi, Vulgate, Peshitta, Samaritan Pentateuch, 11QT (Temple Scroll) col. 64; lexical study of noun qelalah with divine genitive."
+    },
+    {
+      "id": "Deut.21.22",
+      "issue": "Protasis/apodosis boundary: MT etnachta on wehumat; wetalita could open the apodosis (mandatory hanging) or continue the protasis (conditional).",
+      "status": "unresolved_syntactic",
+      "needed_evidence": "Editorial policy on Deuteronomic casuistic weqatal chains (e.g. Deut 21:10-12); verified rabbinic and Qumran readings."
+    },
+    {
+      "id": "Deut.21.22",
+      "issue": "Order and nature of hanging: post-mortem exposure (plain MT sequence) versus hanging as method of execution, reportedly reversed in the Temple Scroll for certain crimes.",
+      "status": "unresolved_historical_reception_unverified",
+      "needed_evidence": "11QT 64:6-13 text with URL and excerpt; 4QpNah reception; archaeological or historical studies cited exactly."
+    },
+    {
+      "id": "Deut.21.23",
+      "issue": "LXX (Swete, third-party OCR) shows plural verbs and additions pas / epi xylou; OCR line visibly drops text between 21:22 and 21:23.",
+      "status": "unresolved_textual_evidence_quality",
+      "needed_evidence": "Goettingen Deuteronomium critical text or a clean Swete/Rahlfs edition with verse division; Samaritan Pentateuch and Qumran Deuteronomy witnesses if extant for this verse."
+    },
+    {
+      "id": "Deut.21.22",
+      "issue": "ets as tree versus pole/stake; talah as hang versus impale.",
+      "status": "unresolved_lexical_minor",
+      "needed_evidence": "Editorial glossary decision for ets in execution contexts (Gen 40:19, Josh 8:29, Josh 10:26, Esth 2:23)."
+    },
+    {
+      "id": "Deut.21.22",
+      "issue": "Divine name convention inconsistent in current selected data (ko yahwe vs YHWH; en/es YHWH vs Yahweh/Yahve).",
+      "status": "editorial_policy_pending",
+      "needed_evidence": "Editorial decision; not a source question."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py at claim preparation (2026-11-01T02:45:45.343461+00:00)",
+      "what_it_is": "Pinned WLC/OSHB Deuteronomy",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Gen,Josh,1Sam,2Sam,Esth,Num}.xml",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "what_it_is": "Pinned WLC/OSHB parallels"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Exod,Lev,Judg,Prov,2Kgs}.xml",
+      "accessed_utc": "2026-11-01T02:48:30Z",
+      "what_it_is": "Pinned WLC/OSHB parallels"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T02:48:04Z",
+      "what_it_is": "Third-party raw OCR of Swete LXX Deuteronomy",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/69-Ga-morphgnt.txt",
+      "accessed_utc": "2026-11-01T02:47:52Z",
+      "what_it_is": "MorphGNT SBLGNT Galatians"
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/05.Deut.mlxx",
+      "accessed_utc": "2026-11-01T02:48:04Z",
+      "what_it_is": "blocked: proxy CONNECT 403"
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/{Mishnah_Sanhedrin.6.4,Onkelos_Deuteronomy.21.23,Rashi_on_Deuteronomy.21.23}",
+      "accessed_utc": "2026-11-01T02:47:53Z",
+      "what_it_is": "blocked: proxy CONNECT 403; WebFetch ENOTFOUND (host outside allowed network domains)"
+    }
+  ],
+  "publication_requires": [
+    "independent GPT review",
+    "independent Gemini review",
+    "official agy review",
+    "current best editorial selection",
+    "versioned archive and publication checks"
+  ],
+  "not_claimed": [
+    "no manuscript collation",
+    "no Hebrew textual variant asserted",
+    "no GPT, Gemini or Antigravity response",
+    "no human specialist review",
+    "no unanimous agreement",
+    "no adoption or publication",
+    "no credit balance or deduction",
+    "no verification of rabbinic, Qumran, Targum, Vulgate, Peshitta or Samaritan readings",
+    "LXX evidence is third-party OCR, not a critical edition",
+    "self-checks are not an independent review",
+    "no change to current selected translations"
+  ],
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "packet": "automation/hard-review-packets/20261101T024545Z-d361196a.json",
+    "claim_manifest": "automation/hard-review-runs/20261101T024545Z-d361196a.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Deut.21.22",
+        "raw_xml": "<verse osisID=\"Deut.21.22\">\n          <w lemma=\"c/3588 a\" morph=\"HC/C\" id=\"05iSP\">וְ/כִֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"1961\" morph=\"HVqi3ms\" id=\"05ZfK\">יִהְיֶ֣ה</w>\n          <w lemma=\"b/376\" n=\"1.0.1\" morph=\"HR/Ncmsa\" id=\"05u5B\">בְ/אִ֗ישׁ</w>\n          <w lemma=\"2399\" n=\"1.0.0\" morph=\"HNcmsc\" id=\"05p96\">חֵ֛טְא</w>\n          <w lemma=\"4941\" morph=\"HNcmsc\" id=\"05KKx\">מִשְׁפַּט</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4194\" n=\"1.0\" morph=\"HNcmsa\" id=\"05YfM\">מָ֖וֶת</w>\n          <w lemma=\"c/4191\" n=\"1\" morph=\"HC/VHq3ms\" id=\"055ro\">וְ/הוּמָ֑ת</w>\n          <w lemma=\"c/8518\" morph=\"HC/Vqq2ms\" id=\"055AM\">וְ/תָלִ֥יתָ</w>\n          <w lemma=\"853\" n=\"0.0\" morph=\"HTo/Sp3ms\" id=\"05Rp4\">אֹת֖/וֹ</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"05wKU\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6086\" n=\"0\" morph=\"HNcmsa\" id=\"05dbh\">עֵֽץ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "d4982ce3c8bbc87a4231efaa2e47a574da7059b19e5b266dbd4475c41a43b3d9",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.21.23",
+        "raw_xml": "<verse osisID=\"Deut.21.23\">\n          <w lemma=\"3808\" morph=\"HTn\" id=\"05YA5\">לֹא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3885 a\" morph=\"HVqi3fs\" id=\"05xjv\">תָלִ֨ין</w>\n          <w lemma=\"5038\" n=\"1.1.1.0\" morph=\"HNcfsc/Sp3ms\" id=\"051dS\">נִבְלָת֜/וֹ</w>\n          <w lemma=\"5921 a\" morph=\"HR\" id=\"05E92\">עַל</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/6086\" n=\"1.1.1\" morph=\"HTd/Ncmsa\" id=\"05Fys\">הָ/עֵ֗ץ</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05Xse\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"6912\" morph=\"HVqa\" id=\"05aEj\">קָב֤וֹר</w>\n          <w lemma=\"6912\" n=\"1.1.0\" morph=\"HVqi2ms/Sp3ms\" id=\"05mGS\">תִּקְבְּרֶ֨/נּוּ֙</w>\n          <w lemma=\"b/3117\" morph=\"HRd/Ncmsa\" id=\"053Lv\">בַּ/יּ֣וֹם</w>\n          <w lemma=\"d/1931\" n=\"1.1\" morph=\"HTd/Pp3ms\" id=\"05vrK\">הַ/ה֔וּא</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05k1r\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7045\" morph=\"HNcfsc\" id=\"05CZZ\">קִלְלַ֥ת</w>\n          <w lemma=\"430\" n=\"1.0\" morph=\"HNcmpa\" id=\"05bCc\">אֱלֹהִ֖ים</w>\n          <w lemma=\"8518\" n=\"1\" morph=\"HVqsmsa\" id=\"05Bmn\">תָּל֑וּי</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"05XMv\">וְ/לֹ֤א</w>\n          <w lemma=\"2930 a\" n=\"0.2.0\" morph=\"HVpi2ms\" id=\"05cFV\">תְטַמֵּא֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"05RQq\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"127\" n=\"0.2\" morph=\"HNcfsc/Sp2ms\" id=\"05Ppj\">אַדְמָ֣תְ/ךָ֔</w>\n          <w lemma=\"834 a\" n=\"0.1.0\" morph=\"HTr\" id=\"05PXw\">אֲשֶׁר֙</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"05ZSs\">יְהוָ֣ה</w>\n          <w lemma=\"430\" n=\"0.1\" morph=\"HNcmpc/Sp2ms\" id=\"05kid\">אֱלֹהֶ֔י/ךָ</w>\n          <w lemma=\"5414\" morph=\"HVqrmsa\" id=\"05ECC\">נֹתֵ֥ן</w>\n          <w lemma=\"l\" n=\"0.0\" morph=\"HR/Sp2ms\" id=\"058aX\">לְ/ךָ֖</w>\n          <w lemma=\"5159\" n=\"0\" morph=\"HNcfsa\" id=\"05dCA\">נַחֲלָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-samekh\">ס</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "5b01f71e4ec5fcfcc175087dcbf567ffe2ff4c831d195db3dde4a96a424c8501",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261101T024545Z-d361196a.ko.md",
+  "branch": "claude/bible-difficult-passages-8lhs8o",
+  "checks": {
+    "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source_once": true,
+    "source_url_and_commit_match": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-samekh",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_or_note_markup_present": false,
+    "clause_coverage": {
+      "Deut.21.22": 3,
+      "Deut.21.23": 4
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "hebrew_parallel_excerpts_verified": true,
+    "lxx_ocr_excerpt_verified": true,
+    "gal_excerpt_verified": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_convention": {
+      "ko_yahwe": true,
+      "en_es_YHWH": true,
+      "no_LORD_or_Jehovah": true
+    },
+    "earlier_records_found_for_unit": [],
+    "web_sources_blocked": [
+      "www.sefaria.org (proxy 403 via curl at 2026-11-01T02:47:53Z; WebFetch ENOTFOUND)",
+      "ccat.sas.upenn.edu (proxy 403 via curl)"
+    ],
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
