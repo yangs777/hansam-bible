@@ -1,0 +1,734 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T014500Z-b8786d15",
+  "unit_id": "deut-6-4-9",
+  "verse_ids": [
+    "Deut.6.4",
+    "Deut.6.5",
+    "Deut.6.6",
+    "Deut.6.7",
+    "Deut.6.8",
+    "Deut.6.9"
+  ],
+  "unit_issue_ko": "야훼 한 분/오직 야훼·마음/생명/힘·쉐마",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Deut.6.4-9 equals traditional Hebrew and English Deuteronomy 6:4-9; no numbering difference.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet (automation/hard-review-packets/20261101T014500Z-b8786d15.json) and are verified by SHA-256 below. Prose fields cite Hebrew pointed without cantillation or in transliteration; source_words_cited reproduces the exact OSHB <w> inner markup.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud; not a Routine or Project)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-11-01T01:45Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5.",
+    "served_model_uncertainty": "last_served_model is the service's report for the latest turn at the time of the check; the backend snapshot is not exposed, and later turns in this session could in principle be served differently without this record detecting it.",
+    "session": "https://claude.ai/code/session_01UknqVGWT3hPd7tuGwT85cW",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info at about 2026-11-01T01:45Z: rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false, resetsAt=1793865600 (2026-11-05T08:00:00Z). This is the service's label only; no dollar balance, remaining credit or per-run deduction is exposed or asserted."
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-11-01T01:45:00Z",
+    "claim_committed": "2026-11-01T01:45:01Z (commit 745d304e578311863b916947d60a3656f4f08c58)",
+    "claim_pushed": "2026-11-01T01:45Z (approximate)",
+    "identity_checked": "2026-11-01T01:45Z (approximate)",
+    "initial_proposals_saved": "2026-11-01T01:47:11Z (scratch file written before inspecting any earlier record, selected text or reference edition for these verses)",
+    "network_checks": "2026-11-01T01:48:39Z to 01:48:46Z",
+    "review_written": "2026-11-01T01:53Z onward (approximate)",
+    "checks_run": "see checks.run_at",
+    "completed": "see manifest completed_at"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile, critical apparatus, LXX edition, Samaritan Pentateuch, Nash Papyrus or Qumran phylactery text was accessed.",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "fragment_sha256": {
+      "Deut.6.4": "623a8fa604415879f7638c88f766f1fd5ad7f42d37d64fa6297149b7c79a8e1b",
+      "Deut.6.5": "722b4a62df5a86847269a61cc685e0d6e1852a68e89d9ab695152ae91d2b2d9d",
+      "Deut.6.6": "9bc87e24e9a6124ef5f2272838e44602fcf5264ee88cfe2ea72e059d412580a0",
+      "Deut.6.7": "ef95f645851b6e7de0101454810a0eb1c82560f18c71775c7e4ef0a04668c399",
+      "Deut.6.8": "b9b537fcad8f7eb18071bf08e699b8e8c52161b493a71e0d4436f17c1e4af02a",
+      "Deut.6.9": "bec545ffb3e5878398386b3ac073077ceb28e5b933a5e6af24d72c3cdd514d2e"
+    },
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "context_files_same_pinned_commit": {
+      "Deut": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "Exod": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "2Kgs": "056db5393beaef0a1159d9bcaac7dfd865df9bab2eb240ea90e9fa3f0c0e7449",
+      "Zech": "2e287c8d0e0abd3bf601eb8ef9b4ee6ca3ae12cf36c0ed1612a7dcca54a2e777"
+    }
+  },
+  "source_encoding_observations": [
+    {
+      "id": "Deut.6.4",
+      "observation_ko": "첫 단어 שְׁמַע의 끝 글자 ע와 마지막 단어 אֶחָד의 끝 글자 ד가 각각 <seg type=\"x-large\">로 표시된 큰 글자이며, 각 단어 뒤에 <note n=\"5\">Large letter(s). Shown as large letters without a superscript note number.</note>가 붙는다. 두 번째 יְהוָה와 אֶחָד 사이에 <seg type=\"x-paseq\">׀</seg>(파세크)가 있다. <rdg type=\"x-qere\"> 등 케레/케티브 표지는 없다.",
+      "status": "masoretic_scribal_features_no_encoded_variant",
+      "translation_effect_ko": "큰 글자와 파세크는 자음·모음 읽기를 바꾸지 않는다. 번역 문장에는 반영하지 않고 각주 후보로만 둔다. 큰 글자 ע·ד를 합쳐 ‘증인’(עֵד)으로 읽는 설명은 후대 수용사이며(기억에 의한 보고, 이 세션에서 1차 문헌 미확인) 원문 의미로 제시하지 않는다.",
+      "queue_status_ko": "automation/source-queue-report.json은 Deut.6.4를 deferred_unsupported_readings 목록에 둔다(일반 초안 큐가 명시적 표기 검토 전까지 보류). 이 검토는 위 표기를 원문 그대로 보존하고 읽기에 영향이 없음을 기록하지만, 그 보류를 해제하는 결정은 편집자 권한이다.",
+      "what_is_not_known_ko": "고정 WLC/OSHB 인코딩 기준일 뿐, 레닌그라드 사본 사진이나 다른 사본과 대조했다는 뜻이 아니다."
+    },
+    {
+      "id": "Deut.6.5-8",
+      "observation_ko": "네 절 모두 <note>, <rdg type=\"x-qere\">, 대체 읽기 표지가 없다. 6:8 לְטֹטָפֹת는 결여 철자(토타포트 첫 o가 holam만)이고 11:18·출 13:16은 완전 철자(וֹ)다. 철자 차이일 뿐 의미 차이는 아니다.",
+      "status": "no_encoded_variant_in_pinned_source",
+      "what_is_not_known_ko": "변이 표지가 없다는 것은 고정 인코딩에 대한 진술이며 사본 대조가 아니다."
+    },
+    {
+      "id": "Deut.6.9",
+      "observation_ko": "절 끝 <seg type=\"x-sof-pasuq\">׃</seg> 뒤에 <seg type=\"x-samekh\">ס</seg>(닫힌 단락 표지 세투마)가 있다. 6:4-9가 하나의 단락으로 끝나고 6:10부터 새 단락이 시작됨을 보여 주는 마소라 단락 구분이다.",
+      "status": "paragraph_marker_preserved",
+      "what_is_not_known_ko": "단락 표지는 전승 배열이며 원저자 의도를 증명하지 않는다."
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T01:45:00Z (fetched by tools/claude_hard_review.py into private/upstream_cache)",
+      "result": "file SHA-256 04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f, identical to packet source_file_sha256",
+      "excerpt": "<w lemma=\"259\" n=\"0\" morph=\"HAcmsa\" id=\"05vGY\">"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml",
+      "accessed_utc": "2026-11-01T01:45:31Z",
+      "result": "file SHA-256 04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f; used for Exod 13:9, 13:16 and lemma 2903/4201 checks",
+      "excerpt": "Exod.13.16 lemma c/l/2903 morph HC/R/Ncfpa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/2Kgs.xml",
+      "accessed_utc": "2026-11-01T01:45:31Z",
+      "result": "file SHA-256 056db5393beaef0a1159d9bcaac7dfd865df9bab2eb240ea90e9fa3f0c0e7449; used for 2Kgs 23:25 (only other noun use of lemma 3966 among checked books)",
+      "excerpt": "2Kgs.23.25 lemma b/3605 + 3966 morph HNcmsc/Sp3ms"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Zech.xml",
+      "accessed_utc": "2026-11-01T01:45:31Z",
+      "result": "file SHA-256 2e287c8d0e0abd3bf601eb8ef9b4ee6ca3ae12cf36c0ed1612a7dcca54a2e777; used for Zech 14:9",
+      "excerpt": "Zech.14.9 contains lemma 259 twice (YHWH echad ushmo echad)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/62-Mk-morphgnt.txt",
+      "accessed_utc": "2026-11-01T01:48:39Z",
+      "result": "HTTP 200, file SHA-256 4a2d2365cfe3e8d6c20b7c130c2c46363fa4459c3a6004992eba0a18231b183e (branch 'master', not a pinned commit). SBLGNT text; MorphGNT/SBLGNT license CC BY 4.0 per upstream; used only as quoted reception evidence.",
+      "excerpt": "021229 Ἄκουε, Ἰσραήλ, κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν, | 021230 ... ἐξ ὅλης τῆς καρδίας σου καὶ ἐξ ὅλης τῆς ψυχῆς σου καὶ ἐξ ὅλης τῆς διανοίας σου καὶ ἐξ ὅλης τῆς ἰσχύος σου. | 021232 ... εἷς ἐστιν καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ·"
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/05.DeutNew.mlxx",
+      "accessed_utc": "2026-11-01T01:48:46Z",
+      "result": "FAILED: agent proxy CONNECT tunnel 403 (connect_rejected; host not allowed for this session). Not retried or bypassed. No LXX text was verified.",
+      "excerpt": null
+    }
+  ],
+  "independent_initial_reading": {
+    "method_ko": "원천 패킷(원시 XML·형태 분석·강세)과 같은 고정 커밋의 신명기·출애굽기·열왕기하·스가랴 문맥 절만 보고 초기 제안을 작성해 01:47:11Z에 임시 파일로 저장했다. 그 뒤에야 선정본 관례, 결정 기록, 저장소의 공개 참고 역본(개역한글 KorRV, ASV 1901, RV 1909), 다른 브랜치의 모델 기록을 확인했다.",
+    "disclosure_ko": "정직한 공개: 저장 형식을 익히려고 초기 제안 작성 전에 레 20:10-16 클라우드 검토(run 20261031T173350Z-d4dec099)의 필드 구조와 일부 필드 값의 앞부분(레위기 내용)을 보았다. 신명기 6장에 관한 다른 모델의 제안은 보지 않았다. 그 기록에서 본 관례(스페인어 2인칭 복수 ustedes, 산문 필드에 칸틸레이션 없음)는 이 단위에 적용했다. 이 단위는 모두 2인칭 단수라 ustedes 규칙은 실제로 쓰이지 않았다.",
+    "discourse_frame_ko": "5:1 ‘모세가 온 이스라엘을 불러 말하였다’로 시작한 모세의 연설 안이다. 6:1-3은 ‘이것이 야훼께서 너희에게 가르치라고 명령하신 명령·규례·법도’라고 도입하고, 6:3에 ‘이스라엘아, 듣고 지켜 행하라’가 이미 나온다. 6:4의 ‘쉐마 이스라엘’은 5:1의 같은 호출을 다시 울리며 6:4-9 단락(끝에 세투마 ס)을 연다. 6:6의 ‘내가(אָנֹכִי) 오늘 너에게 명령하는’의 ‘나’는 모세다. 6:10-15는 땅에 들어간 뒤 ‘다른 신들을 따르지 말라… 야훼는 질투하는 하나님’으로 이어져, 6:4의 ‘한 분’을 배타적 충성의 문맥에 둔다.",
+    "genre_ko": "6:4는 명령(호출) + 명사문 고백, 6:5-9는 웨카탈(וְ + 완료) 연쇄로 이어지는 2인칭 단수 명령이다. 6:5 ‘베아하브타’, 6:7 ‘베신난탐… 베디바르타’, 6:8 ‘우케샤르탐’, 6:9 ‘우케타브탐’이 모두 같은 형식이며, 6:6과 6:8b의 ‘베하유’(3인칭 복수 웨카탈)는 ‘이 말씀들이 …이 되게 하라/될 것이다’로 명령 연쇄 안에 있다.",
+    "per_verse_ko": {
+      "Deut.6.4": "강세: שְׁמַע(티프하) יִשְׂרָאֵל(아트나흐) | יְהוָה(메르카) אֱלֹהֵינוּ(티프하) יְהוָה(메르카) ׀ אֶחָד(실루크). 아트나흐가 호출 ‘들어라, 이스라엘아’와 네 단어 명사문을 나눈다. 뒤 절반에서는 티프하가 [야훼 엘로헤누] | [야훼 에하드]로 묶는다. 이 네 단어는 최소 네 가지로 읽힌다: (A) ‘야훼는 우리 하나님이시다, 야훼는 한 분이시다’(두 명사문); (B) ‘야훼 우리 하나님, 야훼는 한 분이시다’(제시어 + 명사문); (C) ‘야훼는 우리 하나님이시다, 야훼만이/야훼 홀로’(에하드 = 유일·홀로); (D) ‘야훼 우리 하나님은 한 분 야훼이시다’(에하드를 한정 형용사로). 강세는 A·B·C·D를 모두 허용하지만 [야훼 엘로헤누]를 한 덩어리로 묶는 점은 B·D 쪽에 약간 유리하다. 강세 자체는 중세 마소라 전승(수용)이다. 문맥상 4:35·4:39 ‘그 밖에 다른 이가 없다’와 6:14-15 ‘다른 신들을 따르지 말라’는 ‘유일성·배타성’을, 슥 14:9 ‘야훼께서 한 분이시고 그 이름도 하나일 것이다’는 같은 어구가 ‘하나됨/유일함’으로 쓰인 예를 보여 준다. 초기 판단: 에하드의 기본 의미 ‘하나’를 살려 ‘야훼는 한 분이시다’로 옮기고, ‘홀로/만’의 배타적 뉘앙스와 D 독법은 각주로 둔다.",
+      "Deut.6.5": "레바브(마음: 생각·의지·결단의 자리, 감정만이 아님), 네페쉬(목숨·생명·자아 전체), 메오드(보통 부사 ‘매우’; 여기서는 접미사가 붙은 명사 ‘너의 많음/힘’). 명사 메오드는 확인한 범위에서 이 절과 왕하 23:25(요시야가 ‘마음·목숨·힘을 다하여’ 돌아옴)에만 나온다. 6:3에는 같은 어근이 부사로 ‘크게(מְאֹד) 번성하다’에 쓰여 말놀이를 이룬다. 세 항목은 서로 다른 ‘기능’ 목록이라기보다 마음 → 존재 전체 → 그 이상(전력)으로 점층되는 총체적 표현으로 읽는다. ‘네페쉬’를 ‘영혼’으로 옮기면 몸과 분리된 영혼 개념을 들여올 위험이 있다.",
+      "Deut.6.6": "‘베하유 하데바림 하엘레… 알-레바베카’: ‘이 말씀들이 네 마음 위에 있을 것이다/있어야 한다’. ‘마음에 새기다’는 렘 31:33류의 새김 이미지를 덧붙이는 해석이므로 피한다. 11:18은 같은 내용을 ‘이 말씀을 너희 마음과 너희 목숨에 두라(שִׂים)’로 말한다.",
+      "Deut.6.7": "‘베신난탐’은 שׁנן의 피엘(강의형) 2ms + 3mp 목적어. 같은 어근이 32:41에서 칼형 ‘내가 칼을 간다(שַׁנּוֹתִי)’로 쓰인다. 피엘은 확인한 범위에서 이 절에만 나오며 ‘날카롭게 되풀이하여 가르치다, 새겨 주다’로 이해된다. 11:19 평행구는 쉬운 동사 ‘가르치다(לִמַּדְתֶּם)’를 쓴다. ‘레바네카’는 남성 복수 ‘아들들’이지만 자녀 전체를 포함할 수 있다. ‘베디바르타 밤’: ‘그것들에 대해/그것들로 말하라’. 앉음·걸음·누움·일어남은 두 쌍의 대조로 모든 때와 장소를 가리키는 메리즘이다.",
+      "Deut.6.8": "‘우케샤르탐 레오트 알-야데카’: 표징(오트)으로 손에 매다. ‘토타포트’는 뜻이 확정되지 않은 단어다(머리띠·이마 장식·표장 등으로 추정). 이 어휘는 출 13:16, 신 6:8, 11:18 세 곳에만 나온다. 출 13:9는 같은 자리에 ‘기념(지카론)’을 쓰고, 출 13:16은 ‘토타포트’를 쓴다. 이 출애굽기 구절들은 유월절·초태생 규례 자체를 ‘손의 표, 눈 사이의 표’로 말하므로 은유적 의미가 분명하다. 신명기에서 문자적 착용(후대 테필린)인지 은유인지는 본문만으로 결정하지 않는다. ‘두 눈 사이’는 이마를 가리키는 관용 표현이다(14:1 참조).",
+      "Deut.6.9": "‘우케타브탐 알-메주조트 베테카 우비셰아레카’: 집의 문설주(알, ‘위에’)와 네 문들(베, ‘안에/에’). 전치사가 바뀐다. ‘비셰아레카’는 신명기에서 ‘네 성들 안에’를 뜻하는 고정 표현(5:14, 12:15, 12:17, 14:21, 14:27-29, 16:11, 16:14 등)이므로 여기서도 성읍의 문으로 읽는 것이 자연스럽지만, 집 울타리의 대문일 가능성도 완전히 배제하지는 않는다."
+    },
+    "questions_by_type_ko": {
+      "lexical": "에하드(하나/유일/홀로), 레바브, 네페쉬, 메오드(명사), 신넨(피엘 하팍스), 토타포트, 메주자, 셰아림.",
+      "syntactic": "6:4 네 단어 명사문의 분절(A/B/C/D); 6:4 파세크의 기능; 6:6·6:8b 웨카탈 ‘베하유’의 명령적 의미; 6:7 시간절이 ‘말하라’만 꾸미는지 ‘가르치라’까지 꾸미는지.",
+      "discourse": "6:4가 5:1의 호출을 되울리는 방식; 6:4-9와 11:13-21의 짝; 6:4의 ‘한 분’과 6:13-15 배타적 예배 명령의 관계; 6:6의 화자(모세).",
+      "textual_variant": "고정 MT에는 케레/케티브가 없다. 칠십인역 6:4 앞의 추가 도입구(보고됨), 나쉬 파피루스·쿰란 성구함 본문 차이는 이 세션에서 확인하지 못했다(CCAT 접근 거부).",
+      "historical": "6:8-9의 문자적 착용·문설주 기록 관행의 기원(테필린·메주자)은 본문 밖의 문제이며 이 기록은 판정하지 않는다.",
+      "reception": "막 12:29-30(확인함), 마 22:37·눅 10:27(미확인), 랍비 전통의 쉐마 낭송과 큰 글자 ‘증인’ 설명(미확인), 웨스트민스터 소요리문답 5문의 ‘한 분 하나님’ 증거 구절 사용(기억에 의한 보고, 미확인)과 삼위일체 교리 안에서의 수용은 모두 수용사이며 원문 번역 판단과 분리한다."
+    }
+  },
+  "initial_proposals": {
+    "Deut.6.4": {
+      "ko": "이스라엘아, 들어라. 야훼는 우리 하나님이시다. 야훼는 한 분이시다.",
+      "en": "Hear, O Israel: The LORD is our God; the LORD is one.",
+      "es": "Escucha, Israel: el SEÑOR es nuestro Dios; el SEÑOR es uno."
+    },
+    "Deut.6.5": {
+      "ko": "너는 마음을 다하고 목숨을 다하고 힘을 다하여 너의 하나님 야훼를 사랑하여라.",
+      "en": "You shall love the LORD your God with all your heart, with all your life, and with all your strength.",
+      "es": "Amarás al SEÑOR tu Dios con todo tu corazón, con toda tu vida y con todas tus fuerzas."
+    },
+    "Deut.6.6": {
+      "ko": "오늘 내가 너에게 명령하는 이 말씀들이 네 마음에 있어야 한다.",
+      "en": "These words that I am commanding you today shall be on your heart.",
+      "es": "Estas palabras que yo te mando hoy estarán sobre tu corazón."
+    },
+    "Deut.6.7": {
+      "ko": "너는 이 말씀들을 네 자녀에게 거듭 새겨 가르치고, 집에 앉아 있을 때나 길을 갈 때나, 누워 있을 때나 일어날 때나 이 말씀들을 이야기하여라.",
+      "en": "Impress them on your children, and talk about them when you sit in your house and when you walk along the road, when you lie down and when you get up.",
+      "es": "Las inculcarás a tus hijos y hablarás de ellas cuando estés sentado en tu casa y cuando vayas por el camino, cuando te acuestes y cuando te levantes."
+    },
+    "Deut.6.8": {
+      "ko": "너는 그것들을 표징으로 삼아 네 손에 매고, 네 두 눈 사이에 두는 표장이 되게 하여라.",
+      "en": "Bind them as a sign on your hand, and let them be an emblem between your eyes.",
+      "es": "Las atarás como señal en tu mano, y serán como insignia entre tus ojos."
+    },
+    "Deut.6.9": {
+      "ko": "또 그것들을 네 집 문설주와 네 성문에 써라.",
+      "en": "Write them on the doorposts of your house and on your gates.",
+      "es": "Las escribirás en los postes de tu casa y en tus puertas."
+    }
+  },
+  "initial_proposals_note": "Copied unchanged from the scratch file saved at 2026-11-01T01:47:11Z, before inspecting any earlier record or reference edition for these verses.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main c9ae49a)",
+      "label": "current selected text (131 verses; Genesis 1:1-5:15, Psalm 1, Deut 32:8 and a few others)",
+      "relevance_ko": "신명기 6장 선정본은 없다(패킷 current_selected = []). 관례만 대조했다. 신명 표기는 v0.4.17 안에서도 혼재한다: ko ‘야훼’ 28절·‘YHWH’ 5절, en ‘YHWH’ 24절·‘Yahweh’ 9절, es ‘YHWH’ 24절·‘Yahvé’ 9절. ‘the LORD/el SEÑOR’는 한 번도 쓰이지 않는다. 2인칭 단수 명령은 Gen.2.17 ko ‘먹지 마라’, es ‘no comerás’(미래형 명령)처럼 처리한다."
+    },
+    {
+      "record": "data/decisions.json (main c9ae49a)",
+      "label": "editorial decisions",
+      "relevance_ko": "신명기 6장 결정은 없다. Deut.32.8 결정은 이 단위와 무관하다."
+    },
+    {
+      "record": "automation/source-queue-report.json (main c9ae49a)",
+      "label": "general drafting queue report",
+      "relevance_ko": "Deut.6.4가 deferred_unsupported_readings(471절)에 포함되어 있다. 정책 문구: ‘Deferred verses require explicit Qere/Ketiv/markup review before translation.’ 6:4의 큰 글자·note·파세크 때문으로 보인다(목록에는 사유가 기록되어 있지 않으므로 추정)."
+    },
+    {
+      "record": "automation/cloud-queue.json (main and claude/ branches)",
+      "label": "general cloud drafting queue",
+      "relevance_ko": "Deut 6:4-9에 대한 완성된 초안 출력은 어느 claude/ 브랜치에도 없다(git grep으로 Deut.6.4-9를 모든 원격 claude/ 브랜치에서 검색; 큐·보고서·이 실행의 패킷만 일치)."
+    },
+    {
+      "record": "library/krv/Deut.json (KorRV 개역성경 public-domain distribution; scrollmapper commit 59b18c5)",
+      "label": "Korean reference edition (not a model record)",
+      "relevance_ko": "6:4 ‘우리 하나님 여호와는 오직 하나인 여호와시니’(D 독법 + ‘오직’ 배타성 추가), 6:5 네페쉬 = ‘성품’, 6:6 ‘마음에 새기고’(새김 이미지 추가), 6:7 ‘부지런히 가르치며… 강론할 것이며’, 6:8 ‘손목… 기호… 미간에 붙여 표’, 6:9 ‘바깥 문’."
+    },
+    {
+      "record": "library/asv/Deut.json (ASV 1901 public domain)",
+      "label": "English reference edition (not a model record)",
+      "relevance_ko": "6:4 ‘Jehovah our God is one Jehovah’(D 독법), 6:5 ‘heart… soul… might’, 6:7 ‘teach them diligently’, 6:8 ‘frontlets’, 6:9 ‘upon thy gates’."
+    },
+    {
+      "record": "library/rv1909/Deut.json (Reina-Valera 1909 public domain)",
+      "label": "Spanish reference edition (not a model record)",
+      "relevance_ko": "6:4 ‘Jehová nuestro Dios, Jehová uno es’(B/D), 6:5 ‘corazón… alma… poder’, 6:7 ‘las repetirás á tus hijos’, 6:8 ‘frontales’, 6:9 ‘portadas’."
+    }
+  ],
+  "no_gpt_gemini_records_ko": "이 단위에 대한 GPT·Gemini·Antigravity·다른 Claude 실행·사람 검토 기록은 저장소(main과 모든 원격 claude/ 브랜치)에서 찾지 못했다. 이 기록은 그런 검토를 가정하거나 흉내 내지 않는다. 대조한 것은 공개 참고 역본 세 가지와 선정본 관례뿐이다.",
+  "comparison_findings_ko": "대조 결과 다음을 바꾼다. (1) en/es 신명 ‘the LORD/el SEÑOR’ → ‘YHWH’: 현행 선정본은 칭호형을 쓰지 않고 YHWH가 다수형이다. 특히 6:4는 이름이 두 번 반복되는 것이 논증의 핵심이어서 칭호형은 ‘이름’ 주어를 흐린다. ko는 다수형 ‘야훼’ 유지. 신명 표기 통일은 편집 결정으로 남긴다. (2) 6:5 en ‘with all your life’, es ‘con toda tu vida’는 ‘평생 동안’(기간)으로 오독될 수 있어 en ‘being’, es ‘ser’로 바꾼다. ko ‘목숨’은 그런 오독이 없어 유지한다. (3) 6:7 ko ‘거듭 새겨 가르치고’에서 ‘새겨’를 빼고, 반복되는 ‘이 말씀들을’을 ‘그것들에 대해’로 줄인다. (4) 6:8 ko ‘두 눈 사이에 두는 표장이 되게 하여라’ → ‘그것들이 네 두 눈 사이의 표장이 되게 하여라’로 원문(주어 = 그것들, 동사 = 되다)에 더 가깝게 한다. (5) 6:5 ko 어순 ‘너의 하나님 야훼를’ 유지(한국어 자연스러움). 개역한글의 ‘오직’(6:4), ‘성품’(6:5), ‘새기고’(6:6)는 각각 해석 추가·고어·이미지 추가로 보아 따르지 않는다.",
+  "changes_from_initial_proposal_ko": "위 (1)-(4)의 표현 조정. 6:4의 해석(A 독법, ‘한 분’) 자체는 바꾸지 않았다.",
+  "alternatives": [
+    {
+      "id": "Deut.6.4",
+      "question_ko": "네 단어 명사문 ‘야훼 엘로헤누 야훼 에하드’의 분절과 ‘에하드’의 의미",
+      "options": [
+        {
+          "label": "A (preferred)",
+          "ko": "야훼는 우리 하나님이시다. 야훼는 한 분이시다.",
+          "en": "YHWH is our God; YHWH is one.",
+          "es": "YHWH es nuestro Dios; YHWH es uno.",
+          "argument_ko": "에하드의 기본 의미 ‘하나’를 유지하고, 두 명사문으로 관계(우리 하나님)와 유일성(한 분)을 모두 드러낸다. 슥 14:9의 같은 어구, 막 12:32의 해설 ‘그는 한 분이시고 그 밖에 다른 이가 없다’와 맞는다.",
+          "objection_ko": "강세(티프하)는 [야훼 엘로헤누]를 한 덩어리로 묶어 B·D에 더 가깝다. 또 ‘한 분’은 형이상학적 ‘하나됨’ 논쟁으로 기울 수 있다."
+        },
+        {
+          "label": "C",
+          "ko": "야훼는 우리 하나님이시다. 오직 야훼뿐이시다.",
+          "en": "YHWH is our God, YHWH alone.",
+          "es": "YHWH es nuestro Dios, solo YHWH.",
+          "argument_ko": "6:13-15 ‘다른 신들을 따르지 말라… 질투하는 하나님’과 6:5 ‘온 마음으로 사랑하라’의 배타적 충성 문맥에 가장 잘 맞는다. 에하드가 ‘홀로/유일한’을 뜻하는 용례가 있다고 보고된다(대상 29:1 등; 이 세션에서 해당 책을 내려받아 확인하지는 않음).",
+          "objection_ko": "에하드의 기본 의미에서 한 걸음 더 나간 해석이며, ‘오직/뿐’은 원문에 없는 강조어를 더한다. 신명기 4:35·4:39는 배타성을 말할 때 ‘에인 오드(다른 이가 없다)’라는 명시적 표현을 쓴다."
+        },
+        {
+          "label": "D",
+          "ko": "야훼 우리 하나님은 한 분 야훼이시다.",
+          "en": "YHWH our God is one YHWH.",
+          "es": "YHWH nuestro Dios es un solo YHWH.",
+          "argument_ko": "강세 분절 [야훼 엘로헤누] | [야훼 에하드]를 가장 그대로 따른다. ASV·개역한글이 이 계열이다. 지역별 야훼 숭배(‘어느 곳의 야훼’)에 맞서 야훼가 하나라고 말하는 것으로 보는 학설이 있다(기억에 의한 보고, 이 세션에서 비문 원문 미확인).",
+          "objection_ko": "고유명사에 수사 ‘한’을 붙인 ‘한 분 야훼’는 한국어·영어에서 ‘여러 야훼 중 하나’라는 낯선 전제를 독자에게 떠올리게 하며, 그 학설적 배경을 본문 번역에 들여오는 셈이 된다."
+        },
+        {
+          "label": "B",
+          "ko": "야훼 우리 하나님, 야훼는 한 분이시다.",
+          "en": "YHWH our God, YHWH is one.",
+          "es": "YHWH nuestro Dios, YHWH es uno.",
+          "argument_ko": "강세 분절을 유지하면서 에하드를 술어로 둔다(제시어 구문).",
+          "objection_ko": "한국어·스페인어에서 제시어가 호격처럼 읽혀 ‘야훼 우리 하나님이시여’라는 기도로 오해될 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "Deut.6.5",
+      "question_ko": "네페쉬·메오드 번역",
+      "options": [
+        {
+          "label": "preferred",
+          "ko": "목숨 / 힘",
+          "en": "being / strength",
+          "es": "ser / fuerzas",
+          "argument_ko": "네페쉬의 ‘살아 있는 자아 전체·생명’과 메오드의 ‘전력’을 살리고 ‘영혼’의 이원론 함의와 ‘평생’ 오독을 피한다.",
+          "objection_ko": "‘soul/alma’는 막 12:30 ψυχή와 전통 독자에게 익숙하다. ko ‘목숨’과 en ‘being’이 서로 정확히 같은 폭은 아니다."
+        },
+        {
+          "label": "traditional",
+          "ko": "영혼(성품) / 힘",
+          "en": "soul / might",
+          "es": "alma / poder",
+          "argument_ko": "전례·암송 전통과 연속성.",
+          "objection_ko": "‘영혼’은 몸과 분리된 영적 실체로 읽히기 쉽고, ‘성품’은 현대 한국어에서 성격(character)을 뜻해 오해를 낳는다."
+        },
+        {
+          "label": "maximal_for_meod",
+          "ko": "가진 모든 것",
+          "en": "all that you have",
+          "es": "todo lo que tienes",
+          "argument_ko": "명사 메오드 ‘많음’과 후대 랍비 해석(재산, 미확인)을 반영.",
+          "objection_ko": "재산 해석은 수용사이며 왕하 23:25의 ‘힘을 다하여 돌아옴’ 용례와 덜 맞는다."
+        }
+      ]
+    },
+    {
+      "id": "Deut.6.7",
+      "question_ko": "‘신넨’(피엘 하팍스) 번역",
+      "options": [
+        {
+          "label": "preferred",
+          "ko": "거듭 가르치다",
+          "en": "impress on",
+          "es": "inculcar",
+          "argument_ko": "‘날카롭게 하다’에서 온 ‘되풀이해 깊이 새겨 주다’의 뜻을 무리 없이 전달.",
+          "objection_ko": "ko ‘거듭’은 반복만 드러내고 ‘날카롭게/깊이’의 강도는 약하다."
+        },
+        {
+          "label": "traditional",
+          "ko": "부지런히 가르치다",
+          "en": "teach diligently",
+          "es": "repetir",
+          "argument_ko": "익숙한 표현.",
+          "objection_ko": "‘부지런히’는 동사 어근(갈다·날카롭게 하다)과 관련이 약하다."
+        }
+      ]
+    },
+    {
+      "id": "Deut.6.8",
+      "question_ko": "‘토타포트’ 번역",
+      "options": [
+        {
+          "label": "preferred",
+          "ko": "표장",
+          "en": "emblem",
+          "es": "insignia",
+          "argument_ko": "뜻이 확정되지 않은 단어를 특정 물건(머리띠·성구함)으로 고정하지 않는다. 출 13:9의 ‘기념’ 자리와도 통한다.",
+          "objection_ko": "‘매다’ 동사와 ‘두 눈 사이’는 착용물(띠)을 강하게 시사한다. ‘표장’은 추상적이다."
+        },
+        {
+          "label": "concrete",
+          "ko": "이마의 띠",
+          "en": "headband / frontlet",
+          "es": "frontal / cinta en la frente",
+          "argument_ko": "구체적 착용물로 보는 고대·후대 이해와 맞는다.",
+          "objection_ko": "단어 뜻의 불확실성과 은유적 독법(출 13:9, 16; 잠 3:3; 7:3 류)을 닫아 버린다."
+        }
+      ]
+    },
+    {
+      "id": "Deut.6.9",
+      "question_ko": "‘비셰아레카’의 지시 대상",
+      "options": [
+        {
+          "label": "preferred",
+          "ko": "네 성문",
+          "en": "your gates",
+          "es": "tus puertas",
+          "argument_ko": "신명기에서 ‘네 성(들) 안’ 고정 표현. 집(문설주) → 성읍(성문)으로 공간이 넓어진다.",
+          "objection_ko": "ko만 성읍으로 확정하고 en/es는 모호함을 남겨 세 언어의 폭이 다르다. 집 대문일 가능성도 남는다."
+        },
+        {
+          "label": "house_gate",
+          "ko": "네 대문",
+          "en": "your gate(s) (of the house)",
+          "es": "tus portones",
+          "argument_ko": "바로 앞 ‘네 집 문설주’와 짝.",
+          "objection_ko": "복수형과 신명기 관용(5:14 등)을 덜 반영한다."
+        }
+      ]
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Deut.6.4 preferred reading A ‘야훼는 한 분이시다 / YHWH is one / YHWH es uno’",
+    "objection_ko": "단원 쟁점 ‘야훼 한 분 / 오직 야훼’ 가운데 A는 ‘한 분’을 택했다. 그러나 (1) 신명기 6장의 직접 문맥(6:5 온 마음의 사랑, 6:13 그만 섬기라, 6:14 다른 신들을 따르지 말라, 6:15 질투하는 하나님)은 하나님의 내적 단일성보다 이스라엘의 배타적 충성을 다룬다. (2) 그러므로 ‘에하드’는 ‘우리에게 야훼만이 하나님’이라는 관계적 배타성(C)일 가능성이 크고, (3) ‘YHWH is one’은 현대 독자에게 수(數)·존재론 주장으로 읽혀 본문의 언약적 초점을 흐리며, 후대 교리 논쟁(유일신론 대 삼위일체)으로 끌려가기 쉽다.",
+    "response_ko": "(1) 에하드의 기본·최다 의미는 ‘하나’이며 ‘홀로/만’은 문맥에 기대는 파생 의미다. (2) 신명기는 배타성을 말할 때 4:35·4:39 ‘에인 오드’, 32:39 ‘나와 함께하는 신이 없다’처럼 명시적 부정 표현을 따로 쓴다. 6:4가 그 표현을 쓰지 않았다는 점은 ‘하나’라는 더 넓은 진술을 남겨 두는 근거가 된다. (3) ‘한 분’은 A가 ‘우리 하나님’이라는 관계 진술과 나란히 놓여 있어 배타적 충성의 뜻을 잃지 않으며, 슥 14:9과 막 12:32(확인함)는 같은 어구를 ‘유일함’으로 이해한 고대 수용을 보여 준다. (4) ‘오직’은 해석적 강조어를 더하는 것이므로 본문보다 각주가 적절하다. 판단: A 유지, C를 각주의 1순위 대안으로 명시. 교리적 수용(웨스트민스터 소요리문답 5문 등)은 번역 근거로 쓰지 않는다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Deut.6.4 divine name ‘YHWH’ in en/es",
+      "objection_ko": "영어·스페인어 독자에게 ‘YHWH’는 발음하기 어렵고, 전례 전통은 ‘the LORD/el SEÑOR’를 쓴다. 신약 인용(막 12:29 κύριος)도 칭호형이다.",
+      "response_ko": "현행 선정본이 칭호형을 쓰지 않으므로 관례 일관성을 따른다. 6:4는 고유명사가 두 번 반복되는 구조여서 칭호형은 ‘이름’의 반복을 숨긴다. 다만 YHWH/Yahweh/Yahvé 혼재는 편집 차원에서 통일해야 한다."
+    },
+    {
+      "target": "Deut.6.5 en ‘being’, es ‘ser’ vs ko ‘목숨’",
+      "objection_ko": "세 언어의 네페쉬 번역이 서로 다르다(ko 생명, en/es 존재). ‘being’은 레바브(마음)와 경계가 흐려진다.",
+      "response_ko": "각 언어에서 ‘기간’ 오독을 피하는 가장 가까운 말을 골랐다. 네페쉬가 ‘목숨·생명’과 ‘자아 전체’를 모두 포괄하므로 두 면을 언어별로 나눠 드러낸 것이며 각주로 보완한다."
+    },
+    {
+      "target": "Deut.6.7 ko ‘자녀’ for בָּנֶיךָ",
+      "objection_ko": "원문은 남성 복수 ‘아들들’이며, 고대 교육 맥락을 현대적 포괄어로 바꾸는 것일 수 있다.",
+      "response_ko": "히브리어 남성 복수는 혼성 집단을 포함하며 6:2 ‘너와 네 아들과 손자’, 6:20-21의 ‘네 아들이 묻거든’과 같은 세대 전승 문맥이다. 선정본·참고역본(개역한글 ‘자녀’, ASV ‘children’, RV ‘hijos’) 모두 포괄적으로 옮긴다."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Deut.6.4",
+      "ko": "이스라엘아, 들어라. 야훼는 우리 하나님이시다. 야훼는 한 분이시다.",
+      "en": "Hear, O Israel: YHWH is our God; YHWH is one.",
+      "es": "Escucha, Israel: YHWH es nuestro Dios; YHWH es uno.",
+      "reason_ko": "에하드의 기본 의미를 살리고 관계 진술(우리 하나님)과 유일성 진술(한 분)을 두 문장으로 분명히 했다. 아트나흐에 따라 호출과 고백을 나눴다. 큰 글자와 파세크는 읽기에 영향이 없어 본문에는 반영하지 않는다.",
+      "counterargument_ko": "C(‘오직 야훼뿐’) — 배타적 충성 문맥; D(‘한 분 야훼’) — 강세 분절.",
+      "current_opinion_ko": "유지, C를 각주 1순위 대안으로.",
+      "reconsider_if_ko": "편집이 이 프로젝트 전체에서 ‘에하드’의 문맥적 의미(‘홀로’)를 우선하기로 하거나, GPT·Gemini 검토가 강세·문맥에 근거해 C 또는 D를 지지하는 구체적 논거를 제시하면 재검토."
+    },
+    {
+      "id": "Deut.6.5",
+      "ko": "너는 마음을 다하고 목숨을 다하고 힘을 다하여 너의 하나님 야훼를 사랑하여라.",
+      "en": "You shall love YHWH your God with all your heart, with all your being, and with all your strength.",
+      "es": "Amarás a YHWH tu Dios con todo tu corazón, con todo tu ser y con todas tus fuerzas.",
+      "reason_ko": "웨카탈 명령(베아하브타)을 ko 명령형, en ‘You shall’, es 미래형 명령(‘Amarás’)으로 옮겼다. 세 ‘베콜’ 구를 모두 유지했다.",
+      "counterargument_ko": "전통적 ‘soul/alma/영혼’; 메오드를 ‘가진 모든 것’으로.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 전례적 친숙성을 우선해 ‘soul/alma’를 택하거나, 프로젝트 차원의 네페쉬 용어 결정이 내려지면 그에 맞춤."
+    },
+    {
+      "id": "Deut.6.6",
+      "ko": "오늘 내가 너에게 명령하는 이 말씀들이 네 마음에 있어야 한다.",
+      "en": "These words that I am commanding you today shall be on your heart.",
+      "es": "Estas palabras que yo te mando hoy estarán sobre tu corazón.",
+      "reason_ko": "‘알-레바베카’를 ‘새기다’ 같은 이미지 없이 옮겼다. 화자 ‘나’는 모세다(분사 메차베카, ‘오늘’).",
+      "counterargument_ko": "‘마음에 새겨라’(개역한글 계열) — 더 생생하지만 이미지 추가.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 한국어 가독성을 위해 ‘마음에 두어라’ 같은 명령형 동사를 선호하면 그 정도는 수용 가능."
+    },
+    {
+      "id": "Deut.6.7",
+      "ko": "너는 이 말씀들을 네 자녀에게 거듭 가르치고, 집에 앉아 있을 때나 길을 갈 때나, 누워 있을 때나 일어날 때나 그것들에 대해 이야기하여라.",
+      "en": "Impress them on your children, and talk about them when you sit in your house and when you walk along the road, when you lie down and when you get up.",
+      "es": "Las inculcarás a tus hijos y hablarás de ellas cuando estés sentado en tu casa y cuando vayas por el camino, cuando te acuestes y cuando te levantes.",
+      "reason_ko": "두 웨카탈 동사(신난탐, 디바르타)와 네 개의 부정사 시간절을 모두 옮겼다. 메리즘 구조(두 쌍)를 쉼표로 드러냈다.",
+      "counterargument_ko": "‘부지런히 가르치다/teach diligently’.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 피엘 신넨의 ‘날카롭게’ 이미지를 본문에 살리기로 하면 ko ‘깊이 새겨 가르치고’ 검토."
+    },
+    {
+      "id": "Deut.6.8",
+      "ko": "너는 그것들을 표징으로 삼아 네 손에 매고, 그것들이 네 두 눈 사이의 표장이 되게 하여라.",
+      "en": "Bind them as a sign on your hand, and let them be an emblem between your eyes.",
+      "es": "Las atarás como señal en tu mano, y serán como insignia entre tus ojos.",
+      "reason_ko": "‘레오트’(표징)와 ‘레토타포트’(표장)를 구별된 낱말로 옮기고, 토타포트를 특정 물건으로 고정하지 않았다. ‘두 눈 사이’는 원문대로 두고 각주에서 ‘이마’임을 밝힌다.",
+      "counterargument_ko": "‘이마의 띠/frontlets/frontales’.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "토타포트 어원·고고학 증거를 실제로 확인한 편집 결정이 구체적 의미(머리띠 등)를 확정하면 반영."
+    },
+    {
+      "id": "Deut.6.9",
+      "ko": "또 그것들을 네 집 문설주와 네 성문에 써라.",
+      "en": "Write them on the doorposts of your house and on your gates.",
+      "es": "Las escribirás en los postes de tu casa y en tus puertas.",
+      "reason_ko": "‘셰아레카’의 신명기 관용(성읍)을 ko에 반영했다. en/es는 원문의 모호함을 남겼다. 세투마(ס)로 단락이 끝난다.",
+      "counterargument_ko": "‘네 대문’(집의 문).",
+      "current_opinion_ko": "유지(ko 확정도는 중간).",
+      "reconsider_if_ko": "편집이 세 언어의 해석 폭을 맞추기로 하면 ko를 ‘네 문들’로 넓히거나 en/es를 ‘city gates/puertas de tus ciudades’로 좁힘."
+    }
+  ],
+  "clause_coverage_manual": {
+    "method": "Manual clause-by-clause comparison of each preferred ko/en/es rendering against the athnach/tipcha/silluq divisions and every finite verb or nominal clause in the pinned fragment.",
+    "Deut.6.4": "imperative shema; vocative Israel; nominal clause YHWH Eloheinu; nominal clause YHWH echad: all rendered in ko/en/es. Large letters, notes and paseq are scribal features recorded separately, not translated.",
+    "Deut.6.5": "weqatal ve'ahavta; object et-YHWH Eloheka; bekhol-levavka; uvekhol-nafsheka; uvekhol-me'odeka: all rendered.",
+    "Deut.6.6": "weqatal vehayu; subject haddevarim ha'elleh; relative clause asher anokhi metsavvekha hayyom; al-levavekha: all rendered.",
+    "Deut.6.7": "weqatal veshinnantam + object suffix; levaneka; weqatal vedibbarta bam; beshivtekha beveitekha; uvelekhtekha vadderekh; uveshokhbekha; uvequmekha: all rendered.",
+    "Deut.6.8": "weqatal uqshartam + object; le'ot; al-yadekha; weqatal vehayu; letotafot; bein einekha: all rendered.",
+    "Deut.6.9": "weqatal ukhtavtam + object; al-mezuzot beitekha; uvish'arekha: all rendered. Closing setumah recorded, not translated."
+  },
+  "speech_boundaries_ko": "6:4-9 전체는 5:1에서 시작된 모세의 연설 안에 있다. 6:4의 ‘우리 하나님’(엘로헤누, 1인칭 복수)은 모세가 이스라엘과 자신을 함께 묶는 고백이고, 6:5부터는 2인칭 단수 ‘너’에게 하는 명령이다. 내부 인용 부호는 필요 없다. 6:9 끝 세투마로 단락이 닫힌다.",
+  "proposed_notes_ko": [
+    {
+      "id": "Deut.6.4",
+      "note_ko": "히브리어 네 단어 ‘야훼 엘로헤누 야훼 에하드’는 ‘야훼는 우리 하나님이시다. 야훼는 한 분이시다’ 외에 ‘야훼는 우리 하나님이시다. 오직 야훼뿐이시다’ 또는 ‘야훼 우리 하나님은 한 분 야훼이시다’로도 읽을 수 있다. ‘에하드’는 ‘하나’가 기본 뜻이며 문맥에 따라 ‘홀로, 유일한’을 뜻하기도 한다."
+    },
+    {
+      "id": "Deut.6.4",
+      "note_ko": "마소라 본문에서 첫 단어의 끝 글자(ע)와 마지막 단어의 끝 글자(ד)는 크게 쓰여 있다. 읽기에는 차이가 없다."
+    },
+    {
+      "id": "Deut.6.5",
+      "note_ko": "‘목숨’으로 옮긴 히브리어 ‘네페쉬’는 생명과 살아 있는 존재 전체를 가리킨다. ‘힘’으로 옮긴 ‘메오드’는 보통 ‘매우’라는 부사로 쓰이며, 명사로는 여기와 왕하 23:25에만 나온다."
+    },
+    {
+      "id": "Deut.6.8",
+      "note_ko": "‘표장’으로 옮긴 히브리어 ‘토타포트’는 정확한 뜻이 알려지지 않은 단어다(출 13:16; 신 11:18). ‘두 눈 사이’는 이마를 가리킨다."
+    },
+    {
+      "id": "Deut.6.9",
+      "note_ko": "‘네 성문’은 직역하면 ‘네 문들’이며, 신명기에서 이 표현은 흔히 ‘네 성읍’을 뜻한다."
+    }
+  ],
+  "editorial_consistency_findings": [
+    {
+      "scope": "divine name in en/es",
+      "finding_ko": "현행 선정본(v0.4.17) 안에서 en ‘YHWH’ 24·‘Yahweh’ 9, es ‘YHWH’ 24·‘Yahvé’ 9, ko ‘야훼’ 28·‘YHWH’ 5로 혼재한다. 이 검토는 en/es ‘YHWH’, ko ‘야훼’를 썼지만, 채택 전에 프로젝트 차원의 신명 표기 결정이 필요하다."
+    },
+    {
+      "scope": "Deut.6.4-9 vs Deut.11.18-20",
+      "finding_ko": "11:18-20은 6:6-9를 2인칭 복수로 되풀이한다(마음과 목숨에 두라, 손에 매어 표징, 두 눈 사이 토타포트, 자녀에게 가르치라, 문설주와 성문에 쓰라). 11장 번역 시 이 검토의 용어(표징·표장·문설주·성문, ko ‘거듭 가르치다’ 대 11:19 ‘가르치다’)를 맞추고, 11장 2인칭 복수 es는 ustedes형을 써야 한다."
+    },
+    {
+      "scope": "Deut.6.5 vs 2Kgs.23.25, Deut.10.12, 11.13, 13.4, 30.6",
+      "finding_ko": "‘마음을 다하고 목숨을 다하여’는 신명기 여러 곳(4:29, 10:12, 11:13, 13:4, 30:6)과 왕하 23:25(+힘)에 반복된다. 레바브=마음, 네페쉬=목숨, 메오드=힘으로 전권에서 고정할 것을 제안한다."
+    },
+    {
+      "scope": "Deut.6.8 vs Exod.13.9, 13.16",
+      "finding_ko": "출 13:9 ‘레오트 알-야데카 우레지카론 베인 에네카’, 13:16 ‘레오트… 우레토타포트 베인 에네카’와 용어(표징·표장·기념)를 맞춰야 한다."
+    }
+  ],
+  "reception_evidence": [
+    {
+      "item_ko": "막 12:29-30, 32 (SBLGNT): 6:4를 ‘κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν’으로 인용하고, 6:5에 ‘διανοίας’(생각)를 더한 네 항목(마음·목숨·생각·힘)을 제시하며, 서기관이 ‘εἷς ἐστιν καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ’로 해설한다.",
+      "status": "verified in this session (SBLGNT via morphgnt/sblgnt master, file SHA-256 4a2d2365...183e, accessed 2026-11-01T01:48:39Z)"
+    },
+    {
+      "item_ko": "칠십인역 6:4 그리스어 본문(κύριος εἷς ἐστιν으로 보고됨)과 6:4 앞 도입구 추가 보고",
+      "status": "recalled report; not verified (CCAT connection rejected by agent proxy)"
+    },
+    {
+      "item_ko": "나쉬 파피루스와 쿰란 성구함(테필린)의 쉐마 본문",
+      "status": "recalled existence; no text accessed; no collation asserted"
+    },
+    {
+      "item_ko": "큰 글자 ע·ד를 ‘증인(עֵד)’으로 읽는 유대 전통 설명; 메오드를 ‘재산’으로 보는 랍비 해석",
+      "status": "recalled report; not verified"
+    },
+    {
+      "item_ko": "웨스트민스터 소요리문답 5문 ‘한 분 하나님’의 증거 구절로 신 6:4 사용(장로교 수용)",
+      "status": "recalled report; not verified; reception only, not used as translation evidence"
+    }
+  ],
+  "final_opinion_ko": "이 단위의 핵심 쟁점은 6:4 ‘에하드’다. 원문 네 단어는 A(야훼는 한 분), C(오직 야훼), D(한 분 야훼) 등으로 읽힐 수 있고 강세·문맥·수용이 서로 다른 방향을 가리킨다. 이 검토는 에하드의 기본 의미와 관계 진술을 함께 드러내는 A를 본문으로, 배타적 충성 문맥을 반영하는 C를 각주 1순위 대안으로 제안한다. 6:5는 레바브·네페쉬·메오드를 마음·목숨·힘으로 옮기되 en/es에서 ‘life/vida’의 기간 오독을 피했다. 6:6-9는 ‘새기다’, ‘이마 띠’, ‘대문’ 같은 해석 추가를 피하고 원문의 낱말 구별(표징/표장, 문설주에/성문에)을 유지했다. 6:4의 큰 글자·파세크는 읽기에 영향이 없음을 기록했으나, 일반 큐의 보류 해제는 편집자 결정이다. 신명 표기 혼재는 채택 전에 프로젝트 차원에서 정해야 한다.",
+  "confidence_limits": [
+    "6:4 A vs C vs D: moderate confidence only; the four-word clause is genuinely ambiguous and this review prefers A on lexical-default grounds against a strong contextual case for C.",
+    "No LXX, Samaritan Pentateuch, Nash Papyrus, Qumran or Masoretic apparatus was accessed; textual-variant questions remain open.",
+    "Claimed rarity of lemmas (3966 as noun, 8150 piel, 2903) was checked only in the downloaded books (Deut, Exod, 2Kgs, Zech), not across the whole Hebrew Bible.",
+    "Usage of echad meaning 'alone' (e.g., 1 Chr 29:1) is a recalled report not checked in this session.",
+    "Reception items other than Mark 12 are recalled and unverified.",
+    "Divine-name rendering follows the current majority convention, which is itself unresolved in the selected data."
+  ],
+  "reconsider_if": [
+    "Editors adopt a project-wide divine-name convention different from ko 야훼 / en-es YHWH.",
+    "GPT or Gemini review presents accent- or context-based arguments for reading C or D in Deut 6:4 that this review has not addressed.",
+    "Whole-Bible lemma checks show echad in a predicate nominal clause with a divine subject meaning 'alone' more often than 'one'.",
+    "An accessible LXX/Qumran/Nash Papyrus text shows a substantive difference in Deut 6:4-9 that affects wording.",
+    "Editors decide a uniform nefesh term (e.g., 목숨/soul/alma) for Deuteronomy's 'heart and soul' formula.",
+    "Editors decide whether bish'arekha should be rendered with the same specificity in all three languages."
+  ],
+  "unresolved": [
+    {
+      "id": "Deut.6.4",
+      "issue_ko": "‘에하드’ 의미(하나/홀로)와 네 단어 분절(A/B/C/D). 역본 대조 미실시. 일반 큐의 deferred 상태 해제 여부는 편집 결정."
+    },
+    {
+      "id": "Deut.6.5",
+      "issue_ko": "네페쉬 번역의 언어 간 차이(ko 목숨, en being, es ser)와 전례적 ‘soul/alma’ 선호 여부."
+    },
+    {
+      "id": "Deut.6.7",
+      "issue_ko": "시간절이 ‘이야기하라’만 꾸미는지 ‘가르치라’까지 꾸미는지(번역은 ‘이야기하라’에 붙임)."
+    },
+    {
+      "id": "Deut.6.8",
+      "issue_ko": "토타포트의 정확한 뜻과 문자적 착용/은유 독법."
+    },
+    {
+      "id": "Deut.6.9",
+      "issue_ko": "셰아림의 지시 대상(성문/대문)과 세 언어 간 확정도 차이."
+    },
+    {
+      "id": "Deut.6.4-9",
+      "issue_ko": "프로젝트 신명 표기 통일(야훼/YHWH/Yahweh/Yahvé)."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "No manuscript, facsimile or critical-apparatus collation was performed.",
+    "No GPT, Gemini, Antigravity or human review of this unit exists or is implied.",
+    "No unanimous or multi-model agreement is claimed.",
+    "No credit balance, dollar cost or per-run credit deduction is known or asserted.",
+    "This record does not adopt, certify or publish any translation and does not change current selected text.",
+    "The standalone-cloud marker is a caller declaration, not billing proof."
+  ],
+  "memo_ko": "automation/cloud-reviews/20261101T014500Z-b8786d15.ko.md",
+  "branch": "claude/original-bible-hard-review-dtj6lq",
+  "source_words_cited": [
+    {
+      "verse": "Deut.6.4",
+      "oshb_id": "05WH5",
+      "lemma": "8085",
+      "morph": "HVqv2ms",
+      "raw_inner_markup": "שְׁמַ֖<seg type=\"x-large\">ע</seg>",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.4",
+      "oshb_id": "05Wu9",
+      "lemma": "3478",
+      "morph": "HNp",
+      "raw_inner_markup": "יִשְׂרָאֵ֑ל",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.4",
+      "oshb_id": "05Wfj",
+      "lemma": "3068",
+      "morph": "HNp",
+      "raw_inner_markup": "יְהוָ֥ה",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.4",
+      "oshb_id": "05MRr",
+      "lemma": "430",
+      "morph": "HNcmpc/Sp1cp",
+      "raw_inner_markup": "אֱלֹהֵ֖י/נוּ",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.4",
+      "oshb_id": "05d46",
+      "lemma": "3068",
+      "morph": "HNp",
+      "raw_inner_markup": "יְהוָ֥ה",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.4",
+      "oshb_id": "05vGY",
+      "lemma": "259",
+      "morph": "HAcmsa",
+      "raw_inner_markup": "אֶחָֽ<seg type=\"x-large\">ד</seg>",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.5",
+      "oshb_id": "05MDm",
+      "lemma": "c/157",
+      "morph": "HC/Vqq2ms",
+      "raw_inner_markup": "וְ/אָ֣הַבְתָּ֔",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.5",
+      "oshb_id": "05afe",
+      "lemma": "3824",
+      "morph": "HNcmsc/Sp2ms",
+      "raw_inner_markup": "לְבָבְ/ךָ֥",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.5",
+      "oshb_id": "05VEv",
+      "lemma": "5315",
+      "morph": "HNcbsc/Sp2ms",
+      "raw_inner_markup": "נַפְשְׁ/ךָ֖",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.5",
+      "oshb_id": "05MeB",
+      "lemma": "3966",
+      "morph": "HNcmsc/Sp2ms",
+      "raw_inner_markup": "מְאֹדֶֽ/ךָ",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.6",
+      "oshb_id": "0562B",
+      "lemma": "3824",
+      "morph": "HNcmsc/Sp2ms",
+      "raw_inner_markup": "לְבָבֶֽ/ךָ",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.7",
+      "oshb_id": "05MnE",
+      "lemma": "c/8150",
+      "morph": "HC/Vpq2ms/Sp3mp",
+      "raw_inner_markup": "וְ/שִׁנַּנְתָּ֣/ם",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.7",
+      "oshb_id": "055dP",
+      "lemma": "l/1121 a",
+      "morph": "HR/Ncmpc/Sp2ms",
+      "raw_inner_markup": "לְ/בָנֶ֔י/ךָ",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.8",
+      "oshb_id": "05riL",
+      "lemma": "c/7194",
+      "morph": "HC/Vqq2ms/Sp3mp",
+      "raw_inner_markup": "וּ/קְשַׁרְתָּ֥/ם",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.8",
+      "oshb_id": "05qeW",
+      "lemma": "l/226",
+      "morph": "HR/Ncbsa",
+      "raw_inner_markup": "לְ/א֖וֹת",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.8",
+      "oshb_id": "05CuU",
+      "lemma": "l/2903",
+      "morph": "HR/Ncfpa",
+      "raw_inner_markup": "לְ/טֹטָפֹ֖ת",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.9",
+      "oshb_id": "05KkZ",
+      "lemma": "4201",
+      "morph": "HNcfpc",
+      "raw_inner_markup": "מְזוּזֹ֥ת",
+      "found": true
+    },
+    {
+      "verse": "Deut.6.9",
+      "oshb_id": "05ZqW",
+      "lemma": "c/b/8179",
+      "morph": "HC/R/Ncmpc/Sp2ms",
+      "raw_inner_markup": "וּ/בִ/שְׁעָרֶֽי/ךָ",
+      "found": true
+    }
+  ],
+  "checks": {
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "rights_match_packet": true,
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "unit_matches_packet": true,
+    "context_file_hashes_match": true,
+    "initial_proposals_identical_to_scratch": true,
+    "cited_words_found_in_targets": true,
+    "no_cantillation_in_prose_fields": true,
+    "spanish_no_vosotros_forms": true,
+    "no_model_identifier_misattribution": true,
+    "all_boolean_checks_pass": true,
+    "run_at": "2026-11-01T01:53:32Z"
+  }
+}
