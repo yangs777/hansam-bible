@@ -1,0 +1,1124 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T034508Z-25b54f58",
+  "unit_id": "deut-24-1-4",
+  "verse_ids": [
+    "Deut.24.1",
+    "Deut.24.2",
+    "Deut.24.3",
+    "Deut.24.4"
+  ],
+  "unit_issue_ko": "조건절 범위·수치스러운 일·이혼서·재혼 금지",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Deut.24.1-4 = traditional Deuteronomy 24:1-4 in Hebrew and English numbering. Cited parallel Deut.23.15 (OSIS/Hebrew) = English Deuteronomy 23:14 and Swete OCR label 5.23.14.",
+  "hebrew_quotation_policy": "Exact raw Hebrew lives only in source.verses[].raw_xml (copied by script from the claim packet, checked against the pinned file). Clause Hebrew in independent_initial_reading is a derived display: slashes, cantillation and meteg removed; it is not a substitute for the raw markup.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session(session_id omitted) at about 2026-11-01T03:46Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, effort_level=high, external_metadata.last_served_model=claude-opus-5-5. Rechecked at write time: see timestamps_utc.identity_rechecked.",
+    "session": "https://claude.ai/code/session_01UknqVGr6VAUYKUUXRVHeGz",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info: rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata only; no balance, dollar amount or per-run deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact served model snapshot beyond the reported identifier",
+      "per-turn served model for every turn (only last_served_model)",
+      "token counts and cost for this run",
+      "remaining promotional credit balance"
+    ]
+  },
+  "timestamps_utc": {
+    "claim_created": "2026-11-01T03:45:08.338530+00:00",
+    "claim_pushed": "about 2026-11-01T03:45:40Z (commit on claude/original-bible-hard-review-22amap before any model review)",
+    "independent_reading_from_packet": "2026-11-01T03:46:53Z (scratch file outside the repository; recorded verbatim below as initial_proposals)",
+    "reception_checks": "LXX OCR and SBLGNT and WLC Isa/Jer 2026-11-01T03:47:29Z-03:47:31Z; WLC Deut parallels 2026-11-01T03:48Z; Sefaria-Export attempt 2026-11-01T03:49:14Z (failed)",
+    "earlier_records_search": "file-name-only cross-branch git grep for Deut.24 records at about 2026-11-01T03:45Z-03:46Z, before the independent reading (it returned only queue/packet files, no translation content); content comparison (data/model-reviews, cloud-reviews/cloud-drafts text grep, library/ KRV ASV RV1909) at about 2026-11-01T03:47Z-03:48Z, after the independent reading",
+    "review_written": "2026-11-01T03:53:35Z",
+    "identity_rechecked": "2026-11-01T03:53:01Z approx (get_session at about 2026-11-01T03:52:50Z: configured_model, session_context.model and last_served_model all claude-opus-5-5; rate_limit_info ccr_promotional/allowed, isUsingOverage=false)"
+  },
+  "independent_initial_reading": [
+    {
+      "id": "Deut.24.1",
+      "clauses": [
+        {
+          "word_index_range": [
+            0,
+            4
+          ],
+          "hebrew": "כִּי יִקַּח אִישׁ אִשָּׁה וּבְעָלָהּ",
+          "role": "protasis_1 (ki + yiqtol, then weqatal)",
+          "gloss_en": "When a man takes a woman and becomes her husband (baal)",
+          "questions": [
+            "lexical: baal as verb = marry, become husband/master; Etnahta on this word ends the first half-verse"
+          ]
+        },
+        {
+          "word_index_range": [
+            5,
+            15
+          ],
+          "hebrew": "וְהָיָה אִם לֹא תִמְצָא חֵן בְּעֵינָיו כִּי מָצָא בָהּ עֶרְוַת דָּבָר",
+          "role": "protasis_1 continued (wehaya im + embedded causal ki)",
+          "gloss_en": "and it comes about that she finds no favor in his eyes because he has found in her erwat davar",
+          "questions": [
+            "syntax: ki-matsa causal (because) vs a second conditional (when he has found)",
+            "lexical: erwat davar lit. nakedness of a matter; meaning not defined in the text",
+            "reception: grounds debate (Matthew 19:3; Mishnah Gittin 9:10 reported only)"
+          ]
+        },
+        {
+          "word_index_range": [
+            16,
+            23
+          ],
+          "hebrew": "וְכָתַב לָהּ סֵפֶר כְּרִיתֻת וְנָתַן בְּיָדָהּ וְשִׁלְּחָהּ מִבֵּיתוֹ",
+          "role": "weqatal chain: continued protasis (preferred) or apodosis (alternative B)",
+          "gloss_en": "and he writes her a document of severance, puts it in her hand and sends her away from his house",
+          "questions": [
+            "syntax: wehaya im + weqatal can introduce an apodosis (Deut 21:14; 28:1)",
+            "lexical: sefer keritut, document of cutting off (Isa 50:1; Jer 3:8)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Deut.24.2",
+      "clauses": [
+        {
+          "word_index_range": [
+            0,
+            5
+          ],
+          "hebrew": "וְיָצְאָה מִבֵּיתוֹ וְהָלְכָה וְהָיְתָה לְאִישׁ אַחֵר",
+          "role": "protasis continued (weqatal x3)",
+          "gloss_en": "and she goes out from his house, goes and becomes another man's (wife)",
+          "questions": [
+            "idiom: haya le-ish = become the wife of; wife is a supplied idiomatic rendering",
+            "syntax: permission (ASV may go) vs narrative condition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Deut.24.3",
+      "clauses": [
+        {
+          "word_index_range": [
+            0,
+            10
+          ],
+          "hebrew": "וּשְׂנֵאָהּ הָאִישׁ הָאַחֲרוֹן וְכָתַב לָהּ סֵפֶר כְּרִיתֻת וְנָתַן בְּיָדָהּ וְשִׁלְּחָהּ מִבֵּיתוֹ",
+          "role": "protasis continued (weqatal x4), first alternative",
+          "gloss_en": "and the latter man dislikes her and writes her a document of severance, puts it in her hand and sends her away from his house",
+          "questions": [
+            "lexical: sane in marriage law = dislike, turn against, reject (Deut 21:15; 22:13), not necessarily emotional hatred",
+            "form: the four-verb sequence is identical to 24:1b"
+          ]
+        },
+        {
+          "word_index_range": [
+            11,
+            19
+          ],
+          "hebrew": "אוֹ כִי יָמוּת הָאִישׁ הָאַחֲרוֹן אֲשֶׁר לְקָחָהּ לוֹ לְאִשָּׁה",
+          "role": "protasis, second alternative (o ki + yiqtol)",
+          "gloss_en": "or if the latter man who took her to himself as wife dies",
+          "questions": [
+            "reception: Swete OCR shows kai for MT o (or); not asserted as a variant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Deut.24.4",
+      "clauses": [
+        {
+          "word_index_range": [
+            0,
+            10
+          ],
+          "hebrew": "לֹא יוּכַל בַּעְלָהּ הָרִאשׁוֹן אֲשֶׁר שִׁלְּחָהּ לָשׁוּב לְקַחְתָּהּ לִהְיוֹת לוֹ לְאִשָּׁה",
+          "role": "apodosis (lo + yiqtol of yakhol + infinitives)",
+          "gloss_en": "her first husband (baal) who sent her away may not again take her to be his wife",
+          "questions": [
+            "lexical: lo yukhal as legal incapacity (Deut 22:19)",
+            "syntax: lashuv + infinitive = again"
+          ]
+        },
+        {
+          "word_index_range": [
+            11,
+            13
+          ],
+          "hebrew": "אַחֲרֵי אֲשֶׁר הֻטַּמָּאָה",
+          "role": "temporal qualification",
+          "gloss_en": "after she has been made unclean",
+          "questions": [
+            "morphology: hutamma-a, OSHB stem code u (hothpaal) of tame; agent unspecified",
+            "interpretation: defiled relative to whom (first husband) and by what (second union) is not stated"
+          ]
+        },
+        {
+          "word_index_range": [
+            14,
+            18
+          ],
+          "hebrew": "כִּי תוֹעֵבָה הִוא לִפְנֵי יְהוָה",
+          "role": "motive clause",
+          "gloss_en": "for that is an abomination before YHWH",
+          "questions": [
+            "pronoun: hi spelled with waw (Torah feminine form), OSHB morph Pp3fs; referent the act (neuter) vs she",
+            "no ketiv/qere markup present in the raw XML for this word"
+          ]
+        },
+        {
+          "word_index_range": [
+            19,
+            28
+          ],
+          "hebrew": "וְלֹא תַחֲטִיא אֶת הָאָרֶץ אֲשֶׁר יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ נַחֲלָה",
+          "role": "second-person exhortation",
+          "gloss_en": "and you shall not cause the land that YHWH your God is giving you as an inheritance to sin",
+          "questions": [
+            "lexical: hiphil hatati with land as object = bring sin/guilt upon; LXX renders defile (plural)",
+            "discourse: shift from third-person casuistic to second-person singular address",
+            "markup: verse closes with a setumah samekh seg"
+          ]
+        }
+      ]
+    }
+  ],
+  "initial_proposals": {
+    "Deut.24.1": {
+      "ko": "어떤 남자가 한 여자를 맞아 그의 남편이 되었는데, 그가 그 여자에게서 수치스러운 어떤 일을 발견하여 그 여자가 그의 눈에 호의를 얻지 못하게 되면, 그는 그 여자에게 이혼 증서를 써서 그 여자의 손에 주고 그 여자를 자기 집에서 내보낼 것이다.",
+      "en": "When a man takes a woman and becomes her husband, and it turns out that she finds no favor in his eyes because he has found in her something indecent, and he writes her a certificate of divorce, puts it in her hand and sends her away from his house,",
+      "es": "Cuando un hombre toma una mujer y se casa con ella, y sucede que ella no halla gracia ante sus ojos porque él ha encontrado en ella algo indecoroso, y le escribe una carta de divorcio, se la pone en la mano y la despide de su casa,"
+    },
+    "Deut.24.2": {
+      "ko": "그 여자가 그의 집에서 나가 다른 남자에게 가서 그의 아내가 되었는데,",
+      "en": "and she goes out from his house and goes and becomes another man's wife,",
+      "es": "y ella sale de su casa y va y se hace mujer de otro hombre,"
+    },
+    "Deut.24.3": {
+      "ko": "뒤의 남자도 그 여자를 싫어하여 그 여자에게 이혼 증서를 써서 그 여자의 손에 주고 그 여자를 자기 집에서 내보내거나, 또는 그 여자를 아내로 맞은 뒤의 남자가 죽으면,",
+      "en": "and the latter man dislikes her and writes her a certificate of divorce, puts it in her hand and sends her away from his house, or if the latter man who took her as his wife dies,",
+      "es": "y el segundo hombre le toma aversion y le escribe una carta de divorcio, se la pone en la mano y la despide de su casa, o si muere el segundo hombre que la tomo por mujer,"
+    },
+    "Deut.24.4": {
+      "ko": "그 여자를 내보냈던 첫 남편은 그 여자가 더럽혀진 뒤에는 다시 그 여자를 맞아 자기 아내로 삼을 수 없다. 그것은 야훼 앞에서 가증한 일이기 때문이다. 너는 야훼 네 하나님이 네게 유업으로 주시는 땅을 죄에 빠뜨려서는 안 된다.",
+      "en": "her first husband, who sent her away, may not take her again to be his wife after she has been made unclean, for that is an abomination before YHWH; and you shall not bring sin upon the land that YHWH your God is giving you as an inheritance.",
+      "es": "su primer marido, que la despidio, no podra volver a tomarla para que sea su mujer despues de que ella ha sido hecha impura, porque eso es abominacion delante de YHWH; y no haras pecar a la tierra que YHWH tu Dios te da en heredad."
+    }
+  },
+  "initial_notes": [
+    "Syntax: ki + yiqtol (v1a) opens a long protasis continued by weqatal chain vv1b-3 (wekatav, wenatan, weshillecha, weyatsea, wehalekha, wehayeta, usenea, ...), plus o ki yamut (v3b) as alternative protasis; v4 lo-yukhal is the apodosis. The law prohibits remarriage to first husband; it does not command divorce.",
+    "v1 wehaya im-lo timtsa-chen: embedded condition; ki-matsa vah is causal (because) explaining loss of favor; could also be read as a second ki-condition (when he has found). Preferred causal.",
+    "erwat davar: lit. nakedness of a matter/thing; same phrase Deut 23:15 (camp latrine context). Meaning undefined in text; not adultery (capital per Deut 22:22). Reception debate (Shammai/Hillel/Akiva, Mt 19, 5) is reception, not text.",
+    "sefer keritut: document of cutting off; Isa 50:1, Jer 3:8.",
+    "v3 usenea: sane in marital setting = dislike/reject; maybe technical divorce language (unverified).",
+    "v4 hutamma'a: hothpaal (OSHB morph u), unique form; passive-reflexive, agent unspecified; translate 'has been made unclean/defiled' without naming who.",
+    "hi (written HWA with hireq in Torah, perpetual qere) fem pronoun: refers to the act (neuter), or possibly to 'she'; preferred 'that'.",
+    "tachati et-haarets: hiphil, cause the land to sin/bring guilt on land; shift to 2ms address.",
+    "Ends with setumah samekh; raw XML shows seg x-samekh."
+  ],
+  "initial_proposals_note": "Written from the packet only, before reading any reception text or earlier record for this unit. Kept verbatim, including two defects found later: the Korean of Deut.24.1 ended as a main clause (contradicting the en/es protasis), and Spanish accents were omitted in the scratch file. Disclosure: before writing it, the format (not the content) of an earlier review for a different unit (deut-21-22-23) was inspected, and the repository Korean convention for divine name and the pronoun for a woman was checked in data/editorial.json.",
+  "earlier_records_compared": [
+    {
+      "kind": "current_selected",
+      "result": "none",
+      "note": "packet current_selected is empty; data/editorial.json at main c9ae49a has no Deuteronomy verses"
+    },
+    {
+      "kind": "data_decisions_and_notes",
+      "result": "none",
+      "note": "git grep of origin/main for Deut.24 / Deut 24 / Korean book name finds only the queue entry and source-queue-report listing other verses (Deut.24.10, Deut.24.16)"
+    },
+    {
+      "kind": "saved_gpt_gemini_claude_model_records",
+      "result": "none",
+      "note": "data/model-reviews contains no record for Deuteronomy 24; no GPT, Gemini or Antigravity response for this unit exists in the repository"
+    },
+    {
+      "kind": "cloud_drafts",
+      "result": "none",
+      "note": "no automation/cloud-drafts file on any fetched claude/ branch contains Deut.24.1-4"
+    },
+    {
+      "kind": "other_cloud_reviews",
+      "result": "incidental only",
+      "note": "origin/claude/original-bible-hard-review-ahvz14 review 20261031T031331Z-07b6ea6b (exod-20-3-7) mentions Deut 24:16 in passing; not this unit. No other review addresses Deut 24:1-4"
+    },
+    {
+      "kind": "repository_library_reading_editions",
+      "result": "compared",
+      "note": "KRV, ASV 1901, RV1909 in library/ (Public Domain upstream). All three structure 24:1-2 as an apodosis/permission (KRV: write ... 내어보낼 것이요; ASV: then it shall be ... that he shall write ... she may go; RV1909: le escribirá carta de repudio ... podrá ir) and 24:3-4 as a second condition with 24:4 apodosis"
+    }
+  ],
+  "comparison_findings_ko": [
+    "이 단위에 대한 현재 선택 번역, 결정 기록, GPT/Gemini/Claude 저장 기록, 기존 클라우드 초안은 모두 없다. 비교는 저장소의 공개 읽기 판본(KRV, ASV, RV1909)과 공개 원문 수용 자료로 제한된다.",
+    "세 읽기 판본은 모두 1절 후반(이혼 증서를 써 줌)과 2절(다른 남자의 아내가 됨)을 귀결 또는 허용으로 짠다. 이는 나의 독립 판독(1-3절 전체가 조건절, 4절만 귀결)과 구조가 다르다. 이것이 이 단위의 핵심 쟁점이다.",
+    "칠십인역 OCR은 1절에서 미래 직설법(γράψει, δώσει, ἐξαποστελεῖ)을 써서 귀결로도 읽히지만, 2절에서는 접속법 γένηται, 3절에서는 μισήσῃ를 써서 조건 아래 둔다. 즉 칠십인역 자체가 두 구조 사이에서 결정적 증거가 되지 않는다.",
+    "마 19:7(바리새인: 모세가 명하였다 ἐνετείλατο)과 19:8(예수: 허락하였다 ἐπέτρεψεν), 막 10:4-5(허락, 그러나 계명 ἐντολή)는 1세기에 이미 이 본문이 명령인가 허용인가가 논쟁되었음을 보여 준다. 이는 수용사이지 히브리어 문법의 판정이 아니다.",
+    "렘 3:1은 이 법의 핵심을 ‘다시 돌아갈 수 있는가’와 ‘땅이 크게 더럽혀지지 않겠는가’로 요약한다. 4절을 법의 요점으로 보는 나의 판독과 맞는다.",
+    "KRV 4절 ‘그 여자가 이미 몸을 더럽혔은즉’은 능동/재귀로 옮겨 여자를 행위자로 만든다. 히브리어 호트파알 הֻטַּמָּאָה는 행위자를 밝히지 않는 수동-재귀형이므로 ‘더럽혀진’이 더 가깝다고 본다. ASV ‘she is defiled’, RV1909 ‘fue amancillada’는 수동이다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "1절 ko 초안의 끝 ‘내보낼 것이다.’는 귀결절(명령/예고)로 읽혀 en/es 초안의 조건절 구조와 모순되었다. ‘내보냈고,’로 고쳐 1-3절을 하나의 조건으로 열어 두었다.",
+    "1절 ko 어순을 ‘아내로 맞아 그 여자의 남편이 되었는데’로 고쳐 ‘그의 남편’의 지시 혼동을 없앴다. ‘쥐여 주고’로 손에 줌(נָתַן בְּיָדָהּ)을 살렸다.",
+    "3절 ko 초안의 ‘뒤의 남자도’에서 ‘도’를 뺐다. 히브리어에 ‘또한’이 없다. ‘나중 남자’로 바꾸어 אִישׁ(남자) 대 4절 בַּעַל(남편)의 어휘 대조를 보존했다.",
+    "4절 en ‘made unclean’을 ‘defiled’로, ko ‘죄에 빠뜨려서는’을 ‘죄를 짓게 해서는’으로 바꾸어 히필 사역형을 직역에 가깝게 했다.",
+    "es 초안의 악센트 누락(aversion, tomo, despidio, podra)을 고쳤고 3절 ‘segundo hombre’를 ‘último hombre’로 바꾸어 הָאַחֲרוֹן(나중/마지막)을 따랐다."
+  ],
+  "reception_evidence": [
+    {
+      "markup_notes_verbatim": [
+        "<note>KJV:Deut.23.14</note>"
+      ],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.23.15",
+      "tag": "erwat_davar_other_occurrence",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "כִּי יְהוָה אֱלֹהֶיךָ מִתְהַלֵּךְ בְּקֶרֶב מַחֲנֶךָ לְהַצִּילְךָ וְלָתֵת אֹיְבֶיךָ לְפָנֶיךָ וְהָיָה מַחֲנֶיךָ קָדוֹשׁ וְלֹא־יִרְאֶה בְךָ עֶרְוַת דָּבָר וְשָׁב מֵאַחֲרֶיךָ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.21.14",
+      "tag": "wehaya_im_lo_plus_weqatal_apodosis",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "וְהָיָה אִם־לֹא חָפַצְתָּ בָּהּ וְשִׁלַּחְתָּהּ לְנַפְשָׁהּ וּמָכֹר לֹא־תִמְכְּרֶנָּה בַּכָּסֶף לֹא־תִתְעַמֵּר בָּהּ תַּחַת אֲשֶׁר עִנִּיתָהּ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.28.1",
+      "tag": "wehaya_im_plus_weqatal_apodosis",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "וְהָיָה אִם־שָׁמוֹעַ תִּשְׁמַע בְּקוֹל יְהוָה אֱלֹהֶיךָ לִשְׁמֹר לַעֲשׂוֹת אֶת־כָּל־מִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם וּנְתָנְךָ יְהוָה אֱלֹהֶיךָ עֶלְיוֹן עַל כָּל־גּוֹיֵי הָאָרֶץ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.22.13",
+      "tag": "sane_in_marriage_law",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "כִּי־יִקַּח אִישׁ אִשָּׁה וּבָא אֵלֶיהָ וּשְׂנֵאָהּ׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.21.15",
+      "tag": "senuah_disfavored_wife",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "כִּי־תִהְיֶיןָ לְאִישׁ שְׁתֵּי נָשִׁים הָאַחַת אֲהוּבָה וְהָאַחַת שְׂנוּאָה וְיָלְדוּ־לוֹ בָנִים הָאֲהוּבָה וְהַשְּׂנוּאָה וְהָיָה הַבֵּן הַבְּכוֹר לַשְּׂנִיאָה׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [
+        "<note n=\"Q\">Marks a place where we agree with BHQ against BHS in reading L. </note>",
+        "<note n=\"n\">Marks an anomalous form. </note>",
+        "<note n=\"p\">We read punctuation in L differently from BHS. </note>"
+      ],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.22.19",
+      "tag": "lo_yukhal_legal_incapacity",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "וְעָנְשׁוּ אֹתוֹ מֵאָה כֶסֶף וְנָתְנוּ לַאֲבִי הַנַּעֲרָה כִּי הוֹצִיא שֵׁם רָע עַל בְּתוּלַת יִשְׂרָאֵל וְלוֹ־תִהְיֶה לְאִשָּׁה לֹא־יוּכַל לְשַּׁלְּחָהּ כָּל־יָמָיו׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Deut.24.5",
+      "tag": "next_unit_same_opening_formula",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "2026-11-01T03:45:08.338530+00:00",
+      "excerpt": "כִּי־יִקַּח אִישׁ אִשָּׁה חֲדָשָׁה לֹא יֵצֵא בַּצָּבָא וְלֹא־יַעֲבֹר עָלָיו לְכָל־דָּבָר נָקִי יִהְיֶה לְבֵיתוֹ שָׁנָה אֶחָת וְשִׂמַּח אֶת־אִשְׁתּוֹ אֲשֶׁר־לָקָח׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Isa.50.1",
+      "tag": "sefer_keritut",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "כֹּה אָמַר יְהוָה אֵי זֶה סֵפֶר כְּרִיתוּת אִמְּכֶם אֲשֶׁר שִׁלַּחְתִּיהָ אוֹ מִי מִנּוֹשַׁי אֲשֶׁר־מָכַרְתִּי אֶתְכֶם לוֹ הֵן בַּעֲוֺנֹתֵיכֶם נִמְכַּרְתֶּם וּבְפִשְׁעֵיכֶם שֻׁלְּחָה אִמְּכֶם׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Jer.3.1",
+      "tag": "inner_biblical_reuse_of_this_law",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "לֵאמֹר הֵן יְשַׁלַּח אִישׁ אֶת־אִשְׁתּוֹ וְהָלְכָה מֵאִתּוֹ וְהָיְתָה לְאִישׁ־אַחֵר הֲיָשׁוּב אֵלֶיהָ עוֹד הֲלוֹא חָנוֹף תֶּחֱנַף הָאָרֶץ הַהִיא וְאַתְּ זָנִית רֵעִים רַבִּים וְשׁוֹב אֵלַי נְאֻם־יְהֹוָה׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "markup_notes_verbatim": [],
+      "kind": "hebrew_osis_parallel",
+      "ref": "Jer.3.8",
+      "tag": "sefer_keritut",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "וָאֵרֶא כִּי עַל־כָּל־אֹדוֹת אֲשֶׁר נִאֲפָה מְשֻׁבָה יִשְׂרָאֵל שִׁלַּחְתִּיהָ וָאֶתֵּן אֶת־סֵפֶר כְּרִיתֻתֶיהָ אֵלֶיהָ וְלֹא יָרְאָה בֹּגֵדָה יְהוּדָה אֲחוֹתָהּ וַתֵּלֶךְ וַתִּזֶן גַּם־הִיא׃",
+      "excerpt_form": "derived from pinned WLC w tokens: slashes removed, cantillation and meteg removed, maqqef and sof pasuq kept; verse has no rdg (ketiv/qere) markup; any OSHB note elements are omitted from the excerpt and listed verbatim in markup_notes_verbatim",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "excerpt_verified_against_file": true
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "Deut.24.1",
+      "ocr_label": "5.24.1",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "Ἐὰν δέ τις λάβῃ γυναῖκα καὶ συνοικήσῃ αὐτῇ, καὶ ἔσται ἐὰν μὴ εὕρῃ χάριν ἐναντίον αὐτοῦ ὅτι εὗρεν ἐν αὐτῇ ἄσχημον πρᾶγμα, καὶ γράψει αὐτῇ βιβλίον ἀποστασίου καὶ δώσει εἰς τὰς χεῖρας αὐτῆς, καὶ ἐξαποστελεῖ αὐτὴν ἐκ τῆς οἰκίας αὐτοῦ·",
+      "excerpt_form": "OCR line with runs of tabs/spaces collapsed to single spaces",
+      "note": "ascheme pragma for erwat davar; future indicatives graphei/dosei/exaposteilei after kai estai ean (ambiguous between continued protasis and apodosis)",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d",
+      "excerpt_verified_against_file": true,
+      "caveat": "Third-party raw OCR of Swete; not a collation and not a critical LXX edition"
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "Deut.24.2",
+      "ocr_label": "5.24.2",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "καὶ ἀπελθούσα γένηται ἀνδρὶ ἑτέρῳ,",
+      "excerpt_form": "OCR line with runs of tabs/spaces collapsed to single spaces",
+      "note": "aorist subjunctive genetai: reads naturally as still under the ean condition",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d",
+      "excerpt_verified_against_file": true,
+      "caveat": "Third-party raw OCR of Swete; not a collation and not a critical LXX edition"
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "Deut.24.3",
+      "ocr_label": "5.24.3",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "καὶ μισήσῃ αὐτὴν ὁ ἀνὴρ ὁ ἔσχατος καὶ γρόψει αὐτῇ βιβλίον ἀποστασίου καὶ δώσει εἰς τὰς χεῖρας αὐτῆς καὶ ἐξαποστελεῖ αὐτὴν ἐκ τῆς οἰκίας αὐτοῦ, καὶ ἀποθάνῃ ὁ ἀνὴρ ὁ ἔσχατος ὃς ἔλαβεν αὐτὴν αὐτῷ γυναῖκα·",
+      "excerpt_form": "OCR line with runs of tabs/spaces collapsed to single spaces",
+      "note": "OCR shows kai apothane where MT has o ki yamut (or if he dies); OCR typo grophei visible; not asserted as an LXX or Hebrew variant",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d",
+      "excerpt_verified_against_file": true,
+      "caveat": "Third-party raw OCR of Swete; not a collation and not a critical LXX edition"
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "Deut.24.4",
+      "ocr_label": "5.24.4",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "οὐ δυνήσεται ὁ ἀνὴρ ὁ πρότερος ἐξαποστείλας αὐτὴν ἐπαναστρέψας λαβεῖν αὐτὴν ἑαυτῷ γυναῖκα μετὰ τὸ μιανθῆναι αὐτήν, ὅτι βδέλημά ἐστιν ἐναντίον κυρίου τοῦ θεοῦ σου· καὶ οὐ μιανεῖτε τὴν γῆν ἢν Κύριος ὁ θεός σου δίδωσίν σοι ἐν κλήρῳ.",
+      "excerpt_form": "OCR line with runs of tabs/spaces collapsed to single spaces",
+      "note": "meta to mianthenai auten for hutamma-a; ou mianeite ten gen (you pl. shall not defile the land) where MT has singular hiphil lo tachati (cause to sin); a rendering difference, no Hebrew variant asserted",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d",
+      "excerpt_verified_against_file": true,
+      "caveat": "Third-party raw OCR of Swete; not a collation and not a critical LXX edition"
+    },
+    {
+      "kind": "lxx_ocr",
+      "ref": "Deut.23.15",
+      "ocr_label": "5.23.14",
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "ὅτι κύριος ὁ θεός σου ἐνπεριπατεῖ ἐν τῇ παρεμβολῇ σου, ἐξελέσθαι σε καὶ παραδοῦναι τὸν ἐχθρόν σου πρὸ προσώπου σου· καὶ ἔσται ἡ σου ἁγία, καὶ οὐκ ὀφθήσεται ἐν σοὶ ἀσχημοσύνη πρόγμοτος",
+      "excerpt_form": "OCR line with runs of tabs/spaces collapsed to single spaces",
+      "note": "LXX 23:14 = MT 23:15; OCR line garbled (pragmatos printed as progmotos)",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d",
+      "excerpt_verified_against_file": true,
+      "caveat": "Third-party raw OCR of Swete; not a collation and not a critical LXX edition"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Matt.5.31",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/61-Mt-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "Ἐρρέθη ⸀δέ· Ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ, δότω αὐτῇ ἀποστάσιον.",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "summarizes the law as a command to give a certificate",
+      "file_sha256": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Matt.5.32",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/61-Mt-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "ἐγὼ δὲ λέγω ὑμῖν ὅτι ⸂πᾶς ὁ ἀπολύων⸃ τὴν γυναῖκα αὐτοῦ παρεκτὸς λόγου πορνείας ποιεῖ αὐτὴν ⸀μοιχευθῆναι, καὶ ὃς ἐὰν ἀπολελυμένην γαμήσῃ μοιχᾶται.",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "parektos logou porneias; reception of the grounds question",
+      "file_sha256": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Matt.19.3",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/61-Mt-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "Καὶ προσῆλθον ⸀αὐτῷ Φαρισαῖοι πειράζοντες αὐτὸν καὶ ⸀λέγοντες· Εἰ ἔξεστιν ⸀ἀνθρώπῳ ἀπολῦσαι τὴν γυναῖκα αὐτοῦ κατὰ πᾶσαν αἰτίαν;",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "kata pasan aitian: debate on grounds",
+      "file_sha256": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Matt.19.7",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/61-Mt-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "λέγουσιν αὐτῷ· Τί οὖν Μωϋσῆς ἐνετείλατο δοῦναι βιβλίον ἀποστασίου καὶ ἀπολῦσαι ⸀αὐτήν;",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "interlocutors: Moses commanded (eneteilato)",
+      "file_sha256": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Matt.19.8",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/61-Mt-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "λέγει αὐτοῖς ὅτι Μωϋσῆς πρὸς τὴν σκληροκαρδίαν ὑμῶν ἐπέτρεψεν ὑμῖν ἀπολῦσαι τὰς γυναῖκας ὑμῶν, ἀπ’ ἀρχῆς δὲ οὐ γέγονεν οὕτως.",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "Jesus: Moses permitted (epetrepsen)",
+      "file_sha256": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Mark.10.4",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/62-Mk-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "οἱ δὲ εἶπαν· ⸂Ἐπέτρεψεν Μωϋσῆς⸃ βιβλίον ἀποστασίου γράψαι καὶ ἀπολῦσαι.",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "Moses permitted to write a certificate",
+      "file_sha256": "4a2d2365cfe3e8d6c20b7c130c2c46363fa4459c3a6004992eba0a18231b183e",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "nt_reception",
+      "ref": "Mark.10.5",
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/62-Mk-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "excerpt": "⸂ὁ δὲ⸃ Ἰησοῦς εἶπεν αὐτοῖς· Πρὸς τὴν σκληροκαρδίαν ὑμῶν ἔγραψεν ὑμῖν τὴν ἐντολὴν ταύτην·",
+      "excerpt_form": "MorphGNT column 4 (text with punctuation and SBLGNT apparatus sigla) joined with spaces",
+      "note": "called a commandment (entole) written for hardness of heart",
+      "file_sha256": "4a2d2365cfe3e8d6c20b7c130c2c46363fa4459c3a6004992eba0a18231b183e",
+      "excerpt_verified_against_file": true,
+      "caveat": "Reception of the law, not evidence for the Hebrew wording"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.1",
+      "edition": "krv",
+      "path": "library/krv/Deut.json",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt": "사람이 아내를 취하여 데려온 후에 수치되는 일이 그에게 있음을 발견하고 그를 기뻐하지 아니하거든 이혼 증서를 써서 그 손에 주고 그를 자기 집에서 내어보낼 것이요",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.2",
+      "edition": "krv",
+      "path": "library/krv/Deut.json",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt": "그 여자는 그 집에서 나가서 다른 사람의 아내가 되려니와",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.3",
+      "edition": "krv",
+      "path": "library/krv/Deut.json",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt": "그 후부도 그를 미워하여 이혼 증서를 써서 그 손에 주고 그를 자기 집에서 내어 보내었거나 혹시 그를 아내로 취한 후부가 죽었다 하자",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.4",
+      "edition": "krv",
+      "path": "library/krv/Deut.json",
+      "file_sha256": "1d56570eaa48ed6160d5b4e2f3f931b663350bcf3fbc2462d1d4a5027b436beb",
+      "excerpt": "그 여자가 이미 몸을 더럽혔은즉 그를 내어 보낸 전부가 그를 다시 아내로 취하지 말지니 이 일은 여호와 앞에 가증한 것이라 네 하나님 여호와께서 네게 기업으로 주시는 땅으로 너는 범죄케 하지 말지니라",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.1",
+      "edition": "asv",
+      "path": "library/asv/Deut.json",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt": "When a man taketh a wife, and marrieth her, then it shall be, if she find no favor in his eyes, because he hath found some unseemly thing in her, that he shall write her a bill of divorcement, and give it in her hand, and send her out of his house.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.2",
+      "edition": "asv",
+      "path": "library/asv/Deut.json",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt": "And when she is departed out of his house, she may go and be another man’s wife.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.3",
+      "edition": "asv",
+      "path": "library/asv/Deut.json",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt": "And if the latter husband hate her, and write her a bill of divorcement, and give it in her hand, and send her out of his house; or if the latter husband die, who took her to be his wife;",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.4",
+      "edition": "asv",
+      "path": "library/asv/Deut.json",
+      "file_sha256": "ce76188ab3206e7210b4c439ddd10c0ff8641bde0445e309488f36154906f78f",
+      "excerpt": "her former husband, who sent her away, may not take her again to be his wife, after that she is defiled; for that is abomination before Jehovah: and thou shalt not cause the land to sin, which Jehovah thy God giveth thee for an inheritance.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.1",
+      "edition": "rv1909",
+      "path": "library/rv1909/Deut.json",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt": "CUANDO alguno tomare mujer y se casare con ella, si no le agradare por haber hallado en ella alguna cosa torpe, le escribirá carta de repudio, y se la entregará en su mano, y despedirála de su casa.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.2",
+      "edition": "rv1909",
+      "path": "library/rv1909/Deut.json",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt": "Y salida de su casa, podrá ir y casarse con otro hombre.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.3",
+      "edition": "rv1909",
+      "path": "library/rv1909/Deut.json",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt": "Y si la aborreciere aqueste último, y le escribiere carta de repudio, y se la entregare en su mano, y la despidiere de su casa; ó si muriere el postrer hombre que la tomó para sí por mujer,",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    },
+    {
+      "kind": "repository_library_reading_edition",
+      "ref": "Deut.24.4",
+      "edition": "rv1909",
+      "path": "library/rv1909/Deut.json",
+      "file_sha256": "2a011722bbfe10267445eff5d8a8df65464148cbc939dc7a037ed9933beda65c",
+      "excerpt": "No podrá su primer marido, que la despidió, volverla á tomar para que sea su mujer, después que fué amancillada; porque es abominación delante de Jehová, y no has de pervertir la tierra que Jehová tu Dios te da por heredad.",
+      "excerpt_verified_against_file": true,
+      "rights_note": "Upstream marks Public Domain; see library/catalog.json; not a manuscript and not an editorial adoption"
+    }
+  ],
+  "reception_reported_not_verified": [
+    {
+      "source": "Mishnah Gittin 9:10",
+      "reported_reading": "House of Shammai: divorce only for a matter of unchastity (reading erwat as decisive); House of Hillel: even if she spoiled his dish (reading davar broadly); Rabbi Akiva: even if he found another more beautiful (from im lo timtsa chen)",
+      "status": "not verified in this session (www.sefaria.org blocked; Sefaria-Export path not found; other repositories outside scope)"
+    },
+    {
+      "source": "Elephantine Aramaic marriage documents",
+      "reported_reading": "a formula with the verb hate (sn-) used for initiating divorce",
+      "status": "not verified; supports only the possibility that sane in 24:3 is technical"
+    },
+    {
+      "source": "Targum Onqelos, Vulgate, Peshitta on 24:1-4",
+      "reported_reading": "not checked",
+      "status": "not accessed"
+    },
+    {
+      "source": "Modern commentary positions (protasis to v3 reading; rationale of the ban as preventing wife-swapping, protecting the woman, or preventing profit from her dowry)",
+      "reported_reading": "known in scholarship in general terms",
+      "status": "not verified and not attributed to named authors in this session"
+    }
+  ],
+  "alternatives": {
+    "Deut.24.1": [
+      {
+        "id": "A",
+        "wording_en": "When a man takes a woman ..., and he writes her a certificate of divorce, puts it in her hand and sends her away from his house, (protasis continues)",
+        "argument_ko": "1절 후반의 네 동사 연쇄(וְכָתַב ... וְנָתַן ... וְשִׁלְּחָהּ)가 3절 전반과 형태상 완전히 같고, 3절의 같은 연쇄는 ‘또는 ... 죽으면’(אוֹ כִי)과 병렬되어 분명히 조건절이다. 같은 형식을 같은 기능으로 읽는 것이 가장 경제적이다. 4절 לֹא־יוּכַל이 처음 나오는 부정·법적 서술이며 동기절이 모두 4절에 붙는다.",
+        "objection_ko": "וְהָיָה אִם + 와우 완료는 신 21:14와 28:1에서 귀결을 연다(고정 WLC 확인). 1절 후반을 ‘그는 써 주어야 한다’로 읽을 문법적 근거가 실재한다.",
+        "status": "preferred"
+      },
+      {
+        "id": "B",
+        "wording_en": "... then he shall write her a certificate of divorce, put it in her hand and send her away from his house.",
+        "argument_ko": "KRV·ASV·RV1909의 구조. 칠십인역 1절의 미래 직설법, 마 19:7의 ‘모세가 명하였다’ 수용과 맞는다. 신 21:14 וְהָיָה אִם־לֹא חָפַצְתָּ בָּהּ וְשִׁלַּחְתָּהּ와 표현이 매우 가깝다.",
+        "objection_ko": "그러면 2절의 와우 완료도 귀결로 이어져 ‘그 여자는 다른 남자의 아내가 될 것이다’가 되는데, 이를 ASV처럼 ‘may’(허용)로 옮기려면 원문에 없는 양태를 넣어야 한다. 4절은 바로 그 재혼을 ‘더럽혀짐’으로 부르므로 2절을 규정된 행위로 읽기 어렵다.",
+        "status": "alternative_note"
+      },
+      {
+        "id": "C",
+        "wording_en": "because he has found in her something indecent",
+        "argument_ko": "כִּי־מָצָא를 원인으로 읽음. 칠십인역 ὅτι, ASV ‘because’.",
+        "objection_ko": "두 번째 조건(‘그가 ... 발견하였을 때’)으로도 읽을 수 있다. 의미 차이는 작다.",
+        "status": "preferred_within_A"
+      }
+    ],
+    "Deut.24.2": [
+      {
+        "id": "A",
+        "wording_en": "and she leaves his house and goes and becomes another man's wife,",
+        "argument_ko": "조건절 계속. 사실 서술이며 허용이나 명령이 아니다.",
+        "objection_ko": "B 독법(1절 귀결)을 택하면 2절은 허용(‘갈 수 있다’)으로 읽힌다.",
+        "status": "preferred"
+      },
+      {
+        "id": "B",
+        "wording_en": "and when she has left his house, she may go and become another man's wife.",
+        "argument_ko": "ASV 구조. 이혼 증서의 기능(재혼 자유의 증명)을 드러낸다.",
+        "objection_ko": "‘may’는 원문에 없는 양태. 와우 완료 연쇄의 기능을 바꾼다.",
+        "status": "alternative_note"
+      }
+    ],
+    "Deut.24.3": [
+      {
+        "id": "A",
+        "wording_en": "and the latter man dislikes her",
+        "argument_ko": "שָׂנֵא는 혼인법 문맥에서 ‘싫어하다, 내치다’(신 21:15 שְׂנוּאָה; 22:13).",
+        "objection_ko": "‘hates’(ASV)가 더 직역이다.",
+        "status": "preferred"
+      },
+      {
+        "id": "B",
+        "wording_en": "and the latter man hates her",
+        "argument_ko": "어근 그대로. 칠십인역 μισήσῃ.",
+        "objection_ko": "현대 독자에게 감정적 증오로 과잉 해석될 수 있다.",
+        "status": "alternative_note"
+      }
+    ],
+    "Deut.24.4": [
+      {
+        "id": "A",
+        "wording_en": "after she has been defiled",
+        "argument_ko": "호트파알의 수동-재귀를 행위자 없이 옮김. ASV·RV1909 수동, 칠십인역 μετὰ τὸ μιανθῆναι αὐτήν(수동 부정사).",
+        "objection_ko": "‘defiled’는 도덕적 비난으로 읽힐 수 있다. 제의적 부정을 살리려면 ‘made unclean’.",
+        "status": "preferred"
+      },
+      {
+        "id": "B",
+        "wording_en": "after she has defiled herself",
+        "argument_ko": "KRV ‘몸을 더럽혔은즉’과 같은 재귀 독법.",
+        "objection_ko": "호트파알은 힛파엘 재귀가 아니라 수동 재귀이며, 여자를 행위 주체로 만드는 것은 해석의 추가다.",
+        "status": "rejected_for_text"
+      },
+      {
+        "id": "C",
+        "wording_en": "for that is an abomination before YHWH",
+        "argument_ko": "הִוא를 행위(첫 남편이 다시 데려옴) 전체를 가리키는 중성적 여성 대명사로 읽음. ASV ‘that’, RV1909 ‘es abominación’, KRV ‘이 일은’.",
+        "objection_ko": "‘그 여자는 가증하다’로도 형태상 가능하다.",
+        "status": "preferred"
+      },
+      {
+        "id": "D",
+        "wording_en": "and you shall not bring sin upon the land",
+        "argument_ko": "히필 תַחֲטִיא ‘죄짓게 하다’를 땅에 대한 죄책 부과로 풀어 옮김.",
+        "objection_ko": "ASV ‘cause the land to sin’이 더 직역. 칠십인역은 ‘더럽히지 말라’(복수)로 옮긴다.",
+        "status": "preferred_en"
+      }
+    ]
+  },
+  "strongest_objection_to_own_reading": {
+    "target": "Deut.24.1-2 read as continued protasis (law does not prescribe divorce; only v4 legislates)",
+    "objection_ko": "가장 강한 반론: (1) 신명기 자체에서 וְהָיָה אִם ... + 와우 완료가 귀결을 여는 예가 있다. 신 21:14 ‘וְהָיָה אִם־לֹא חָפַצְתָּ בָּהּ וְשִׁלַּחְתָּהּ’(네가 그 여자를 기뻐하지 않으면 그 여자를 보내야 한다)는 이 절의 ‘וְהָיָה אִם־לֹא תִמְצָא־חֵן ... וְשִׁלְּחָהּ’와 어휘·구문이 거의 같고, 신 28:1도 같은 형식이다(둘 다 고정 WLC 확인). (2) 이 세션에서 확인한 가장 오래된 수용(칠십인역 1절 미래 직설법, 마 19:7 ‘모세가 명하였다’, 막 10:5 ‘이 계명’)과 KRV·ASV·RV1909 세 판본이 모두 1절 후반을 규정으로 읽는다.",
+    "test_ko": "절 단위 시험: (a) 21:14의 귀결은 2인칭 명령적 와우 완료이고 곧이어 금지(לֹא־תִמְכְּרֶנָּה)가 따르는 반면, 24:1b는 3인칭 서술이며 바로 2절의 여자 주어 와우 완료 3개로 이어진다. 1b를 귀결로 읽으면 2절도 귀결이 되어 ‘다른 남자의 아내가 되어야 한다/된다’가 법의 내용이 되는데, 4절은 그 결과를 הֻטַּמָּאָה로 평가한다. (b) 3절 전반의 네 동사 연쇄는 1절 후반과 글자 그대로 같고(וְכָתַב לָהּ סֵפֶר כְּרִיתֻת וְנָתַן בְּיָדָהּ וְשִׁלְּחָהּ מִבֵּיתוֹ), 3절의 것은 אוֹ כִי 때문에 분명한 조건이다. (c) 칠십인역 2절 γένηται, 3절 μισήσῃ는 접속법으로 조건 아래 있다. (d) 마 19:8과 막 10:4의 ‘허락하였다’는 명령 독법에 대한 1세기 반론을 보여 준다.",
+    "result_ko": "본문은 A(1-3절 조건, 4절 귀결) 유지. 확신도 중간. 1절 후반을 절차 규정으로 읽는 B를 주석 1순위로 표시한다. 두 독법 모두 4절의 재결합 금지에는 차이가 없고, 차이는 이혼 증서가 ‘명령’인가 ‘전제된 관행’인가에 있다. 번역문은 콤마 연쇄로 A를 표현하되 단정적인 해석어(‘허락한다’, ‘명한다’)는 넣지 않는다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Deut.24.1 erwat davar as something indecent",
+      "objection_ko": "‘수치스러운 어떤 일/something indecent’는 성적 함의를 약화시키거나 반대로 강화한다. 직역 ‘벌거벗음의 일’이 더 중립적이다.",
+      "response_ko": "신 23:15(영 23:14)의 같은 구는 진영의 배설물 문제에 쓰여 성적 범죄에 한정되지 않음을 보인다. 간음은 22:22에서 사형이므로 여기서의 근거는 간음일 수 없다. 본문은 ‘수치스러운/indecent/indecoroso’로 두고 직역을 주석에 둔다. 샴마이·힐렐 논쟁(미확인 보고)은 해석사로만 둔다."
+    },
+    {
+      "target": "Deut.24.4 abomination referent",
+      "objection_ko": "הִוא가 여자를 가리켜 ‘그 여자는 가증하다’로 읽힐 수 있다.",
+      "response_ko": "תּוֹעֵבָה가 여성명사라서 대명사가 여성형인 것으로 충분히 설명되며, 맥락상 금지되는 행위(다시 데려옴)가 평가 대상이다. ‘그것은’으로 옮긴다."
+    },
+    {
+      "target": "Deut.24.4 she has been defiled relative to whom",
+      "objection_ko": "재혼이 합법인데 왜 ‘부정’인가. 번역이 이 긴장을 감추면 안 된다.",
+      "response_ko": "본문은 이유를 설명하지 않는다. 번역은 행위자 없는 수동으로 두고, 첫 남편과의 관계에서의 부정이라는 해석(민 5:13-14 소타 문맥의 נִטְמָאָה 유비 등)은 주석에서 해석으로 표시한다. 민 5장 대조는 이 세션에서 원문 발췌를 확보하지 않았으므로 미확인으로 둔다."
+    },
+    {
+      "target": "Deut.24.3 o (or) vs LXX OCR kai",
+      "objection_ko": "칠십인역 OCR의 καὶ ἀποθάνῃ는 다른 히브리어 대본을 시사할 수 있다.",
+      "response_ko": "OCR 오류 가능성이 있고(같은 줄 γρόψει 오타), 비평판 대조가 없다. 변이로 주장하지 않으며 MT ‘또는’을 따른다."
+    }
+  ],
+  "preferred_wording": {
+    "Deut.24.1": {
+      "ko": "어떤 남자가 한 여자를 아내로 맞아 그 여자의 남편이 되었는데, 그가 그 여자에게서 수치스러운 어떤 일을 발견하여 그 여자가 그의 눈에 호의를 얻지 못하게 되자, 그가 그 여자에게 이혼 증서를 써서 그 여자의 손에 쥐여 주고 그 여자를 자기 집에서 내보냈고,",
+      "en": "When a man takes a woman and becomes her husband, and then she finds no favor in his eyes because he has found in her something indecent, and he writes her a certificate of divorce, puts it in her hand and sends her away from his house,",
+      "es": "Cuando un hombre toma a una mujer y se casa con ella, y luego ella no halla gracia ante sus ojos porque él ha encontrado en ella algo indecoroso, y él le escribe una carta de divorcio, se la pone en la mano y la despide de su casa,",
+      "reason_ko": "1-4절을 하나의 사례법 문장으로 읽어 1-3절을 조건, 4절을 귀결로 두었다. 1절 후반의 이혼 증서 절차는 관행의 서술이지 명령이 아니라는 구조를 콤마 연쇄로 보존했다. עֶרְוַת דָּבָר는 ‘수치스러운 어떤 일/something indecent/algo indecoroso’로 옮기고 직역 ‘벌거벗음의 일’은 주석으로 둔다. סֵפֶר כְּרִיתֻת은 관용적으로 ‘이혼 증서’로 옮긴다(직역 ‘끊음의 문서’). וּבְעָלָהּ는 ‘그 여자의 남편이 되다/se casa con ella’. ko 어순은 원인(발견)을 앞세웠으나 원문은 ‘호의를 얻지 못함’이 먼저이고 ‘그가 발견했기 때문’이 뒤따른다.",
+      "counterargument_ko": "strongest_objection_to_own_reading 참조. 1절 후반을 귀결(‘그는 이혼 증서를 써 주어야 한다’)로 읽는 KRV·ASV·RV1909 구조가 신 21:14 병행으로 지지된다. 또한 ko 한 문장이 매우 길고, 절 단위 표시에서 1절이 쉼표로 끝나는 것이 독자에게 낯설다.",
+      "current_opinion_ko": "현재 문장 유지, 확신도 중간. 주석에 B 독법과 마 19:7-8/막 10:4-5 수용을 보인다.",
+      "reconsider_if_ko": "편집이 신명기 사례법의 조건절/귀결절 경계 방침(21:10-14, 22:13-21 등)을 정해 וְהָיָה אִם + 와우 완료를 일관되게 귀결로 처리하기로 하거나, 타르굼·불가타·미쉬나 기틴 9:10 원문을 URL과 발췌로 확인해 고대 해석의 무게를 다시 재야 할 때. 절 단위 독자 표시가 쉼표 끝을 허용하지 않는 경우에도 문장 분할을 재검토한다."
+    },
+    "Deut.24.2": {
+      "ko": "그 여자가 그의 집에서 나와 떠나가서 다른 남자의 아내가 되었는데,",
+      "en": "and she leaves his house and goes and becomes another man's wife,",
+      "es": "y ella sale de su casa, se va y llega a ser mujer de otro hombre,",
+      "reason_ko": "와우 완료 세 개를 조건절 계속으로 옮겼다. וְהָיְתָה לְאִישׁ־אַחֵר는 ‘다른 남자에게 속하게 되다’라는 관용구로, ‘아내’는 관용적 보충이다.",
+      "counterargument_ko": "ASV ‘she may go’, RV1909 ‘podrá ir’처럼 허용으로 읽으면 이혼 증서가 재혼 자유를 보장한다는 기능이 드러난다. 그러나 원문에 양태 표지가 없다.",
+      "current_opinion_ko": "현재 문장 유지.",
+      "reconsider_if_ko": "1절 후반을 귀결로 읽기로 결정하면 2절도 허용/결과 문장으로 바꾸어야 한다(en ‘and when she has left his house, she may go and become another man's wife.’)."
+    },
+    "Deut.24.3": {
+      "ko": "나중 남자가 그 여자를 싫어하여 그 여자에게 이혼 증서를 써서 그 여자의 손에 쥐여 주고 그 여자를 자기 집에서 내보냈거나, 또는 그 여자를 자기 아내로 맞아들인 나중 남자가 죽었다면,",
+      "en": "and the latter man dislikes her and writes her a certificate of divorce, puts it in her hand and sends her away from his house, or if the latter man who took her as his wife dies,",
+      "es": "y el último hombre le toma aversión, le escribe una carta de divorcio, se la pone en la mano y la despide de su casa, o si muere el último hombre que la tomó por mujer,",
+      "reason_ko": "1절 후반과 같은 네 동사 연쇄를 같은 말로 옮겨 형식상 병행을 보였다. שָׂנֵא는 혼인법 문맥에 맞게 ‘싫어하다/dislikes/le toma aversión’으로 옮겼다. הָאִישׁ הָאַחֲרוֹן은 ‘나중 남자/the latter man/el último hombre’로 두어 4절 בַּעְלָהּ הָרִאשׁוֹן(첫 남편)과의 어휘 대조를 지켰다.",
+      "counterargument_ko": "‘hates/미워하여’(ASV·KRV)가 어근에 더 가깝다. ‘the latter husband’(ASV)가 자연스럽다. 이혼과 사별을 같은 결과로 묶는 이유(첫 남편 금지의 근거)는 본문이 설명하지 않는다.",
+      "current_opinion_ko": "현재 문장 유지.",
+      "reconsider_if_ko": "엘레판티네 문서 등 שׂנא의 이혼 기술 용어 용례를 원문 발췌로 확인하면 ‘이혼을 선언하다’ 같은 기술적 번역을 검토한다. 편집 용어집이 אִישׁ를 혼인 문맥에서 ‘남편’으로 통일하기로 하면 ‘나중 남편’으로 바꾼다."
+    },
+    "Deut.24.4": {
+      "ko": "그 여자를 내보냈던 첫 남편은, 그 여자가 더럽혀진 뒤에는, 그 여자를 다시 맞아 자기 아내로 삼을 수 없다. 그것은 야훼 앞에서 가증한 일이기 때문이다. 너는 야훼 네 하나님이 네게 유업으로 주시는 그 땅이 죄를 짓게 해서는 안 된다.",
+      "en": "her first husband, who sent her away, may not take her again to be his wife after she has been defiled, for that is an abomination before YHWH; and you shall not bring sin upon the land that YHWH your God is giving you as an inheritance.",
+      "es": "su primer marido, que la despidió, no podrá volver a tomarla para que sea su mujer después de que ella ha sido hecha impura, porque eso es abominación delante de YHWH; y no harás pecar a la tierra que YHWH tu Dios te da en heredad.",
+      "reason_ko": "이 단위의 유일한 법적 귀결. לֹא־יוּכַל은 신 22:19처럼 법적 불가(‘할 수 없다/may not/no podrá’). לָשׁוּב + 부정사는 ‘다시’. הֻטַּמָּאָה는 행위자 없는 수동(‘더럽혀진/defiled/hecha impura’). הִוא는 여성명사 תּוֹעֵבָה에 맞춘 대명사로 행위 전체를 가리킨다고 보아 ‘그것은/that/eso’. 마지막 절은 2인칭 단수 청자에게로 전환하며, 히필 사역을 ko ‘죄를 짓게 해서는’, es ‘no harás pecar’로 직역하고 en은 ‘bring sin upon’으로 풀었다. 이름은 저장소 관례대로 ko ‘야훼’, en/es ‘YHWH’.",
+      "counterargument_ko": "(1) en을 ‘cause the land to sin’으로 직역해 ko/es와 맞추는 편이 일관된다. (2) ‘더럽혀진’은 도덕적 비난처럼 들릴 수 있고, 왜 합법적 재혼이 부정이 되는지 번역이 설명하지 않는다. (3) 칠십인역은 ‘땅을 더럽히지 말라’(복수)로 옮겨 טמא 주제를 땅까지 확장한다. (4) 귀결 시작에 ‘then/그러면’을 보충하지 않으면 절 단위 표시에서 4절이 앞 절과 끊겨 보인다.",
+      "current_opinion_ko": "현재 문장 유지. 주석에 호트파알 형태, 렘 3:1의 재사용, 칠십인역 번역 차이를 보인다.",
+      "reconsider_if_ko": "편집이 히필 사역을 3개 언어에서 똑같이 직역하기로 하면 en ‘you shall not cause the land ... to sin’. 절 단위 표시를 위해 귀결 표지를 넣기로 하면 en ‘then her first husband’, es ‘entonces su primer marido’, ko ‘그러면 ... 첫 남편은’(보충 표시). 칠십인역 비평판이나 쿰란 사본에서 실제 히브리어 변이(예: 3절 אוֹ 대 וְ, 4절 동사)가 확인되면 다시 검토한다."
+    }
+  },
+  "proposed_notes_ko": [
+    {
+      "id": "Deut.24.1",
+      "note_ko": "1-4절은 한 문장이다. 1-3절은 조건(‘~했는데, ~했거나 ~죽었다면’), 4절이 법의 내용이다. 고대부터 1절 후반을 이혼 증서 작성의 명령으로 읽는 해석도 있었다(마 19:7 ‘모세가 명하였다’; 19:8과 막 10:4 ‘허락하였다’)."
+    },
+    {
+      "id": "Deut.24.1",
+      "note_ko": "‘수치스러운 어떤 일’: 직역 ‘일/말의 벌거벗음’(עֶרְוַת דָּבָר). 같은 구가 신 23:15(우리말 23:14)에서 진영의 불결함에 쓰인다. 간음은 신 22:22에서 사형이므로 여기의 근거와 구별된다. 이 구의 범위는 후대에 크게 논쟁되었다(마 19:3 ‘무슨 이유로든지’)."
+    },
+    {
+      "id": "Deut.24.1",
+      "note_ko": "‘이혼 증서’: 직역 ‘끊음의 문서’(סֵפֶר כְּרִיתֻת). 사 50:1; 렘 3:8에도 나온다."
+    },
+    {
+      "id": "Deut.24.4",
+      "note_ko": "‘더럽혀진’: 드문 호트파알형 הֻטַּמָּאָה로, 누가 더럽혔는지 말하지 않는 수동-재귀형이다. 렘 3:1은 이 법을 근거로 ‘그 땅이 크게 더럽혀지지 않겠느냐’고 묻는다. 칠십인역은 마지막 절을 ‘땅을 더럽히지 말라’로 옮긴다."
+    }
+  ],
+  "original_vs_interpretation": {
+    "attested_reading": "MT-WLC as pinned (source.verses[].raw_xml); no Hebrew variant asserted; the waw-spelled feminine pronoun in 24:4 is the attested Torah spelling, with no ketiv/qere markup in the pinned XML",
+    "translation_choices": "preferred_wording (comma chain for protasis, idiomatic supply of wife in 24:2, certificate of divorce for sefer keritut)",
+    "interpretation": "protasis/apodosis boundary, meaning of erwat davar, rationale for the defilement and the ban (see unresolved)",
+    "reconstruction": "none proposed; LXX OCR kai in 24:3 and plural defile in 24:4 not reconstructed into a Hebrew Vorlage"
+  },
+  "final_opinion_ko": "네 절 모두 마소라 본문을 고치지 않고 옮길 수 있다. 1-3절은 하나의 긴 조건절이고 4절의 재결합 금지만이 법적 귀결이라는 판독을 택한다. 근거는 1절 후반과 3절 전반의 네 동사 연쇄가 글자 그대로 같고 3절의 것은 ‘또는 ... 죽으면’으로 분명히 조건이라는 점, 4절이 처음 나오는 부정 서술이며 동기절이 모두 4절에 붙는다는 점, 렘 3:1이 이 법을 ‘다시 돌아감’의 금지로 요약한다는 점이다. 그러나 신 21:14의 거의 같은 구문이 와우 완료 귀결을 보여 주고, 칠십인역 1절·마 19:7·KRV·ASV·RV1909가 1절 후반을 규정으로 읽으므로 확신도는 중간이다. 번역은 해석어를 넣지 않는 콤마 연쇄로 두고, 이혼의 근거(עֶרְוַת דָּבָר), 부정의 이유(הֻטַּמָּאָה), 금지의 목적은 본문이 열어 둔 해석 문제로 주석에 남긴다. 이 문서는 채택되지 않은 모델 검토이며 GPT/Gemini 독립 검토와 편집 채택이 필요하다.",
+  "confidence_limits": [
+    {
+      "id": "Deut.24.1",
+      "level": "medium",
+      "note_ko": "어휘는 분명하나 1절 후반의 조건/귀결 경계가 핵심 쟁점이다. עֶרְוַת דָּבָר의 범위는 본문만으로 정해지지 않는다."
+    },
+    {
+      "id": "Deut.24.2",
+      "level": "medium",
+      "note_ko": "1절 판단에 종속된다. ‘아내’ 보충은 관용적으로 안전하다."
+    },
+    {
+      "id": "Deut.24.3",
+      "level": "medium_high",
+      "note_ko": "구조는 분명한 조건이다. שָׂנֵא의 기술적 의미는 미확인."
+    },
+    {
+      "id": "Deut.24.4",
+      "level": "medium_high",
+      "note_ko": "귀결 기능과 어휘는 분명하다. 부정의 이유와 대명사 지시는 해석 문제로 남는다. 사본 대조 없음."
+    }
+  ],
+  "reconsider_if": [
+    {
+      "id": "Deut.24.1",
+      "condition_ko": "편집이 신명기 사례법의 조건절/귀결절 경계 방침(21:10-14, 22:13-21 등)을 정해 וְהָיָה אִם + 와우 완료를 일관되게 귀결로 처리하기로 하거나, 타르굼·불가타·미쉬나 기틴 9:10 원문을 URL과 발췌로 확인해 고대 해석의 무게를 다시 재야 할 때. 절 단위 독자 표시가 쉼표 끝을 허용하지 않는 경우에도 문장 분할을 재검토한다."
+    },
+    {
+      "id": "Deut.24.2",
+      "condition_ko": "1절 후반을 귀결로 읽기로 결정하면 2절도 허용/결과 문장으로 바꾸어야 한다(en ‘and when she has left his house, she may go and become another man's wife.’)."
+    },
+    {
+      "id": "Deut.24.3",
+      "condition_ko": "엘레판티네 문서 등 שׂנא의 이혼 기술 용어 용례를 원문 발췌로 확인하면 ‘이혼을 선언하다’ 같은 기술적 번역을 검토한다. 편집 용어집이 אִישׁ를 혼인 문맥에서 ‘남편’으로 통일하기로 하면 ‘나중 남편’으로 바꾼다."
+    },
+    {
+      "id": "Deut.24.4",
+      "condition_ko": "편집이 히필 사역을 3개 언어에서 똑같이 직역하기로 하면 en ‘you shall not cause the land ... to sin’. 절 단위 표시를 위해 귀결 표지를 넣기로 하면 en ‘then her first husband’, es ‘entonces su primer marido’, ko ‘그러면 ... 첫 남편은’(보충 표시). 칠십인역 비평판이나 쿰란 사본에서 실제 히브리어 변이(예: 3절 אוֹ 대 וְ, 4절 동사)가 확인되면 다시 검토한다."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "Deut.24.1",
+      "issue": "Protasis/apodosis boundary: does 24:1b (and 24:2) continue the condition or prescribe/permit divorce and remarriage?",
+      "status": "unresolved_syntactic_reception",
+      "needed_evidence": "An editorial policy for wehaya im + weqatal across Deuteronomic case law; verified Targum Onqelos, Vulgate and Peshitta renderings with URL and excerpt"
+    },
+    {
+      "id": "Deut.24.1",
+      "issue": "Scope of erwat davar (sexual impropriety short of adultery vs any shameful matter)",
+      "status": "unresolved_lexical_reception",
+      "needed_evidence": "Verified Mishnah Gittin 9:10 and related rabbinic texts; Qumran usage if any; more WLC occurrences of erwah in non-sexual senses"
+    },
+    {
+      "id": "Deut.24.3",
+      "issue": "Whether sane is a technical divorce term",
+      "status": "unresolved_lexical",
+      "needed_evidence": "Verified Aramaic legal documents (Elephantine) with edition, URL and excerpt"
+    },
+    {
+      "id": "Deut.24.3",
+      "issue": "Swete OCR kai apothane where MT has o ki yamut",
+      "status": "unresolved_ocr_or_translation",
+      "needed_evidence": "A critical LXX edition (Goettingen) or a checked image of Swete"
+    },
+    {
+      "id": "Deut.24.4",
+      "issue": "Why the woman is called defiled and who the implied agent is; rationale of the ban",
+      "status": "unresolved_interpretation",
+      "needed_evidence": "Close reading with Num 5:13-14, 20 and Lev 18:20 from pinned WLC; verified ancient interpretations"
+    },
+    {
+      "id": "Deut.24.4",
+      "issue": "LXX plural ou mianeite ten gen vs MT singular hiphil lo tachati",
+      "status": "unresolved_translation_technique",
+      "needed_evidence": "Critical LXX apparatus; Samaritan Pentateuch and Qumran Deuteronomy readings for 24:4"
+    }
+  ],
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+      "accessed_utc": "fetched by tools/claude_hard_review.py at claim preparation (2026-11-01T03:45:08.338530+00:00)",
+      "what_it_is": "Pinned WLC/OSHB Deuteronomy",
+      "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Isa.xml",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "what_it_is": "Pinned WLC/OSHB Isaiah",
+      "file_sha256": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Jer.xml",
+      "accessed_utc": "2026-11-01T03:47:30Z",
+      "what_it_is": "Pinned WLC/OSHB Jeremiah",
+      "file_sha256": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sleeptillseven/LXX-Swete/b54817435e4de153d045fd418385843b1bc716fa/src/First1KGreek-LXX-RAW/5.Deuteronomium.txt",
+      "accessed_utc": "2026-11-01T03:47:29Z",
+      "what_it_is": "Third-party raw OCR of Swete LXX Deuteronomy",
+      "file_sha256": "45a4ed690dce7efede1d615b80fd03921082043797ffa99bfb2f51e5e3551a5d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/61-Mt-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:30Z",
+      "what_it_is": "MorphGNT SBLGNT Matthew (unpinned master branch)",
+      "file_sha256": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morphgnt/sblgnt/master/62-Mk-morphgnt.txt",
+      "accessed_utc": "2026-11-01T03:47:31Z",
+      "what_it_is": "MorphGNT SBLGNT Mark (unpinned master branch)",
+      "file_sha256": "4a2d2365cfe3e8d6c20b7c130c2c46363fa4459c3a6004992eba0a18231b183e"
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Mishnah_Gittin.9.10",
+      "accessed_utc": "2026-11-01T03:49:08Z",
+      "what_it_is": "blocked: curl returned no HTTP status (connection refused by network policy)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/master/json/Mishnah/Seder%20Nashim/Mishnah%20Gittin/{Hebrew,English}/merged.json",
+      "accessed_utc": "2026-11-01T03:49:14Z",
+      "what_it_is": "HTTP 404 (path guess wrong); directory listing via api.github.com refused as outside session repository scope"
+    }
+  ],
+  "publication_requires": [
+    "independent GPT review",
+    "independent Gemini review",
+    "official agy review",
+    "current best editorial selection with versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "no manuscript collation (no DSS, Samaritan, Leningrad facsimile or other witness checked)",
+    "no Hebrew textual variant asserted for any target verse",
+    "LXX evidence is third-party OCR, not a critical edition",
+    "no GPT, Gemini, Antigravity or other model response exists or is quoted for this unit",
+    "no human or specialist review",
+    "no unanimity or consensus claim",
+    "no editorial adoption or publication",
+    "no credit balance or deduction",
+    "Mishnah, Talmud, Targum, Rashi, Philo, Josephus, Elephantine and Ancient Near Eastern law positions are reported only, not verified",
+    "no claim about the hothpaal being unique in the whole Hebrew Bible (only the pinned Deuteronomy file was scanned)",
+    "modern scholarly views are not attributed to named authors"
+  ],
+  "source": {
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "packet": "automation/hard-review-packets/20261101T034508Z-25b54f58.json",
+    "claim_manifest": "automation/hard-review-runs/20261101T034508Z-25b54f58.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "verses": [
+      {
+        "id": "Deut.24.1",
+        "raw_xml": "<verse osisID=\"Deut.24.1\">\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05nn6\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3947\" morph=\"HVqi3ms\" id=\"05srQ\">יִקַּ֥ח</w>\n          <w lemma=\"376\" n=\"1.0.0\" morph=\"HNcmsa\" id=\"05gnL\">אִ֛ישׁ</w>\n          <w lemma=\"802\" n=\"1.0\" morph=\"HNcfsa\" id=\"05u2Q\">אִשָּׁ֖ה</w>\n          <w lemma=\"c/1166\" n=\"1\" morph=\"HC/Vqq3ms/Sp3fs\" id=\"05Dcb\">וּ/בְעָלָ֑/הּ</w>\n          <w lemma=\"c/1961\" n=\"0.2.1.0\" morph=\"HC/Vqq3ms\" id=\"05iUb\">וְ/הָיָ֞ה</w>\n          <w lemma=\"518 a\" morph=\"HC\" id=\"05oaE\">אִם</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3808\" morph=\"HTn\" id=\"05obW\">לֹ֧א</w>\n          <w lemma=\"4672\" morph=\"HVqi3fs\" id=\"054zD\">תִמְצָא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"2580\" morph=\"HNcmsa\" id=\"05KUn\">חֵ֣ן</w>\n          <w lemma=\"b/5869 a\" n=\"0.2.1\" morph=\"HR/Ncbdc/Sp3ms\" id=\"05FxF\">בְּ/עֵינָ֗י/ו</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"052Q3\">כִּי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"4672\" morph=\"HVqp3ms\" id=\"05wuo\">מָ֤צָא</w>\n          <w lemma=\"b\" n=\"0.2.0\" morph=\"HR/Sp3fs\" id=\"05yM6\">בָ/הּ֙</w>\n          <w lemma=\"6172\" morph=\"HNcfsc\" id=\"05tm1\">עֶרְוַ֣ת</w>\n          <w lemma=\"1697\" n=\"0.2\" morph=\"HNcmsa\" id=\"05NiH\">דָּבָ֔ר</w>\n          <w lemma=\"c/3789\" morph=\"HC/Vqq3ms\" id=\"05KAR\">וְ/כָ֨תַב</w>\n          <w lemma=\"l\" n=\"0.1.0.0\" morph=\"HR/Sp3fs\" id=\"05nHu\">לָ֜/הּ</w>\n          <w lemma=\"5612 a\" morph=\"HNcmsc\" id=\"05BP8\">סֵ֤פֶר</w>\n          <w lemma=\"3748\" n=\"0.1.0\" morph=\"HNcfsa\" id=\"05cVb\">כְּרִיתֻת֙</w>\n          <w lemma=\"c/5414\" morph=\"HC/Vqq3ms\" id=\"0563a\">וְ/נָתַ֣ן</w>\n          <w lemma=\"b/3027\" n=\"0.1\" morph=\"HR/Ncbsc/Sp3fs\" id=\"05jqf\">בְּ/יָדָ֔/הּ</w>\n          <w lemma=\"c/7971\" n=\"0.0\" morph=\"HC/Vpq3ms/Sp3fs\" id=\"05b3r\">וְ/שִׁלְּחָ֖/הּ</w>\n          <w lemma=\"m/1004 b\" n=\"0\" morph=\"HR/Ncmsc/Sp3ms\" id=\"05GuX\">מִ/בֵּיתֽ/וֹ</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "90d56d306d6b875a96ffa834a3f74580b9a5242facd70020bf02adbb84a6adb5",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.24.2",
+        "raw_xml": "<verse osisID=\"Deut.24.2\">\n          <w lemma=\"c/3318\" n=\"1.0\" morph=\"HC/Vqq3fs\" id=\"05gg9\">וְ/יָצְאָ֖ה</w>\n          <w lemma=\"m/1004 b\" n=\"1\" morph=\"HR/Ncmsc/Sp3ms\" id=\"05oR8\">מִ/בֵּית֑/וֹ</w>\n          <w lemma=\"c/1980\" n=\"0.0\" morph=\"HC/Vqq3fs\" id=\"05j2Y\">וְ/הָלְכָ֖ה</w>\n          <w lemma=\"c/1961\" morph=\"HC/Vqq3fs\" id=\"05dHk\">וְ/הָיְתָ֥ה</w>\n          <w lemma=\"l/376\" morph=\"HR/Ncmsa\" id=\"05ydd\">לְ/אִישׁ</w><seg type=\"x-maqqef\">־</seg><w lemma=\"312\" n=\"0\" morph=\"HAamsa\" id=\"05kL7\">אַחֵֽר</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "ce488688ea3a8a5623eb293d3195634bb075d73b737d8fb1283a0feff057e6c2",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.24.3",
+        "raw_xml": "<verse osisID=\"Deut.24.3\">\n          <w lemma=\"c/8130\" n=\"1.2.0\" morph=\"HC/Vqq3ms/Sp3fs\" id=\"05mHz\">וּ/שְׂנֵאָ/הּ֮</w>\n          <w lemma=\"d/376\" morph=\"HTd/Ncmsa\" id=\"05Eb6\">הָ/אִ֣ישׁ</w>\n          <w lemma=\"d/314\" n=\"1.2\" morph=\"HTd/Aamsa\" id=\"05EtY\">הָ/אַחֲרוֹן֒</w>\n          <w lemma=\"c/3789\" morph=\"HC/Vqq3ms\" id=\"05Q7b\">וְ/כָ֨תַב</w>\n          <w lemma=\"l\" n=\"1.1.0.0\" morph=\"HR/Sp3fs\" id=\"05Cpc\">לָ֜/הּ</w>\n          <w lemma=\"5612 a\" morph=\"HNcmsc\" id=\"05PyF\">סֵ֤פֶר</w>\n          <w lemma=\"3748\" n=\"1.1.0\" morph=\"HNcfsa\" id=\"05h7X\">כְּרִיתֻת֙</w>\n          <w lemma=\"c/5414\" morph=\"HC/Vqq3ms\" id=\"059bc\">וְ/נָתַ֣ן</w>\n          <w lemma=\"b/3027\" n=\"1.1\" morph=\"HR/Ncbsc/Sp3fs\" id=\"05fXq\">בְּ/יָדָ֔/הּ</w>\n          <w lemma=\"c/7971\" n=\"1.0\" morph=\"HC/Vpq3ms/Sp3fs\" id=\"05eqC\">וְ/שִׁלְּחָ֖/הּ</w>\n          <w lemma=\"m/1004 b\" n=\"1\" morph=\"HR/Ncmsc/Sp3ms\" id=\"05ya6\">מִ/בֵּית֑/וֹ</w>\n          <w lemma=\"176 a\" morph=\"HC\" id=\"05vRc\">א֣וֹ</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05kYz\">כִ֤י</w>\n          <w lemma=\"4191\" n=\"0.1.0\" morph=\"HVqi3ms\" id=\"057v5\">יָמוּת֙</w>\n          <w lemma=\"d/376\" morph=\"HTd/Ncmsa\" id=\"05iKp\">הָ/אִ֣ישׁ</w>\n          <w lemma=\"d/314\" n=\"0.1\" morph=\"HTd/Aamsa\" id=\"052WG\">הָ/אַחֲר֔וֹן</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"057mg\">אֲשֶׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3947\" morph=\"HVqp3ms/Sp3fs\" id=\"053Sf\">לְקָחָ֥/הּ</w>\n          <w lemma=\"l\" n=\"0.0\" morph=\"HR/Sp3ms\" id=\"05CwR\">ל֖/וֹ</w>\n          <w lemma=\"l/802\" n=\"0\" morph=\"HR/Ncfsa\" id=\"05S6e\">לְ/אִשָּֽׁה</w><seg type=\"x-sof-pasuq\">׃</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "9bf8134957c9ada02c223b35f6e9f59555878a5b1bd4043d1d41b6b86f26f968",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      },
+      {
+        "id": "Deut.24.4",
+        "raw_xml": "<verse osisID=\"Deut.24.4\">\n          <w lemma=\"3808\" morph=\"HTn\" id=\"05dmo\">לֹא</w><seg type=\"x-maqqef\">־</seg><w lemma=\"3201\" morph=\"HVqi3ms\" id=\"055zx\">יוּכַ֣ל</w>\n          <w lemma=\"1167\" morph=\"HNcmsc/Sp3fs\" id=\"05PLr\">בַּעְלָ֣/הּ</w>\n          <w lemma=\"d/7223\" morph=\"HTd/Aomsa\" id=\"05Ykn\">הָ/רִאשׁ֣וֹן</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"05fNQ\">אֲשֶֽׁר</w><seg type=\"x-maqqef\">־</seg><w lemma=\"7971\" n=\"1.1.1.1\" morph=\"HVpp3ms/Sp3fs\" id=\"05yf8\">שִׁ֠לְּחָ/הּ</w>\n          <w lemma=\"l/7725\" morph=\"HR/Vqc\" id=\"05127\">לָ/שׁ֨וּב</w>\n          <w lemma=\"l/3947\" n=\"1.1.1.0\" morph=\"HR/Vqc/Sp3fs\" id=\"05wA6\">לְ/קַחְתָּ֜/הּ</w>\n          <w lemma=\"l/1961\" morph=\"HR/Vqc\" id=\"051Xd\">לִ/הְי֧וֹת</w>\n          <w lemma=\"l\" morph=\"HR/Sp3ms\" id=\"05t1J\">ל֣/וֹ</w>\n          <w lemma=\"l/802\" n=\"1.1.1\" morph=\"HR/Ncfsa\" id=\"05vAz\">לְ/אִשָּׁ֗ה</w>\n          <w lemma=\"310 a\" n=\"1.1.0\" morph=\"HR\" id=\"0579S\">אַחֲרֵי֙</w>\n          <w lemma=\"834 a\" morph=\"HTr\" id=\"05qij\">אֲשֶׁ֣ר</w>\n          <w lemma=\"2930 a\" n=\"1.1\" morph=\"HVup3fs\" id=\"05nzF\">הֻטַּמָּ֔אָה</w>\n          <w lemma=\"3588 a\" morph=\"HC\" id=\"05bme\">כִּֽי</w><seg type=\"x-maqqef\">־</seg><w lemma=\"8441\" morph=\"HNcfsa\" id=\"058Bh\">תוֹעֵבָ֥ה</w>\n          <w lemma=\"1931\" n=\"1.0\" morph=\"HPp3fs\" id=\"05vZf\">הִ֖וא</w>\n          <w lemma=\"l/6440\" morph=\"HR/Ncbpc\" id=\"05B7r\">לִ/פְנֵ֣י</w>\n          <w lemma=\"3068\" n=\"1\" morph=\"HNp\" id=\"05AD6\">יְהוָ֑ה</w>\n          <w lemma=\"c/3808\" morph=\"HC/Tn\" id=\"0595X\">וְ/לֹ֤א</w>\n          <w lemma=\"2398\" n=\"0.2.0\" morph=\"HVhi2ms\" id=\"05HLu\">תַחֲטִיא֙</w>\n          <w lemma=\"853\" morph=\"HTo\" id=\"05cmp\">אֶת</w><seg type=\"x-maqqef\">־</seg><w lemma=\"d/776\" n=\"0.2\" morph=\"HTd/Ncbsa\" id=\"05zaG\">הָ/אָ֔רֶץ</w>\n          <w lemma=\"834 a\" n=\"0.1.0\" morph=\"HTr\" id=\"05zG6\">אֲשֶׁר֙</w>\n          <w lemma=\"3068\" morph=\"HNp\" id=\"05xpy\">יְהוָ֣ה</w>\n          <w lemma=\"430\" n=\"0.1\" morph=\"HNcmpc/Sp2ms\" id=\"05QQj\">אֱלֹהֶ֔י/ךָ</w>\n          <w lemma=\"5414\" morph=\"HVqrmsa\" id=\"05fPe\">נֹתֵ֥ן</w>\n          <w lemma=\"l\" n=\"0.0\" morph=\"HR/Sp2ms\" id=\"05Rk4\">לְ/ךָ֖</w>\n          <w lemma=\"5159\" n=\"0\" morph=\"HNcfsa\" id=\"05m8F\">נַחֲלָֽה</w><seg type=\"x-sof-pasuq\">׃</seg>\n          <seg type=\"x-samekh\">ס</seg>\n        </verse>",
+        "raw_xml_format": "verbatim UTF-8 fragment from pinned WLC container verse",
+        "namespace_context": {
+          "default": "http://www.bibletechnologies.net/2003/OSIS/namespace"
+        },
+        "fragment_sha256": "a47e4a4b3e3234e2b6fa5690270744e5874fc81d97ed81999d03e2545751c7cc",
+        "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml",
+        "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f"
+      }
+    ]
+  },
+  "memo_ko": "automation/cloud-reviews/20261101T034508Z-25b54f58.ko.md",
+  "branch": "claude/original-bible-hard-review-22amap",
+  "checks": {
+    "source_file_sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+    "source_file_hash_matches_packet": true,
+    "fragment_hash_matches_packet": true,
+    "raw_xml_verbatim_in_pinned_source_once": true,
+    "source_url_and_commit_match": true,
+    "raw_markup_kinds": [
+      "seg",
+      "verse",
+      "w"
+    ],
+    "seg_types": [
+      "x-maqqef",
+      "x-samekh",
+      "x-sof-pasuq"
+    ],
+    "ketiv_qere_or_note_markup_present": false,
+    "torah_feminine_pronoun_spelling_in_Deut.24.4": true,
+    "hothpaal_morph_in_Deut.24.4": true,
+    "clause_coverage": {
+      "Deut.24.1": 3,
+      "Deut.24.2": 1,
+      "Deut.24.3": 2,
+      "Deut.24.4": 4
+    },
+    "all_source_words_covered_by_clauses_in_order": true,
+    "target_ids_exactly_once": true,
+    "nonempty_ko_en_es": true,
+    "no_hangul_in_en_es": true,
+    "hangul_present_in_ko": true,
+    "no_ascii_double_quote_in_wording": true,
+    "divine_name_convention": {
+      "ko_yahwe": true,
+      "en_es_YHWH": true,
+      "no_LORD_or_Jehovah": true
+    },
+    "initial_proposals_preserved_verbatim_from_scratch": true,
+    "earlier_records_found_for_unit": [],
+    "web_sources_blocked": [
+      "Sefaria-Export on GitHub: raw path 404 and GitHub API refused as outside session repository scope (2026-11-01T03:49Z); not retried via add_repo because only yangs777/hansam-bible is authorized"
+    ],
+    "human_certification_claimed": false,
+    "self_check_is_not_independent_review": true,
+    "errors": []
+  }
+}
