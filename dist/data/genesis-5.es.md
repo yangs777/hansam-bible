@@ -1,12 +1,12 @@
-# Génesis5:1–15
+# Génesis5:1–20
 
-Hansam Yang · Original Bible · v0.4.17
+Hansam Yang · Original Bible · v0.4.18
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Las selecciones de los primeros15 versículos de Génesis5 conservan propuestas independientes GPT/Gemini,revisión final oficial agy y borradores Claude Code con sus opiniones originales. Siguen pendientes la revisión humana y el cotejo completo.
+Las selecciones de los primeros20 versículos de Génesis5 conservan propuestas independientes GPT/Gemini,revisión final oficial agy y borradores Claude Code con sus opiniones originales. Siguen pendientes la revisión humana y el cotejo completo.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -52,6 +52,10 @@ Previous v0.4.16
 
 Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
 
+Previous v0.4.17
+
+Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
+
 ## 2 · HYB.GEN.005.002
 
 Hebrew display (MT/WLC): זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם בְּי֖וֹם הִבָּֽרְאָֽם׃
@@ -89,6 +93,10 @@ Previous v0.4.15
 Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
 
 Previous v0.4.16
+
+Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
+
+Previous v0.4.17
 
 Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
 
@@ -132,6 +140,10 @@ Previous v0.4.16
 
 Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
 
+Previous v0.4.17
+
+Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
+
 ## 4 · HYB.GEN.005.004
 
 Hebrew display (MT/WLC): וַיִּֽהְי֣וּ יְמֵי־אָדָ֗ם אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֵׁ֔ת שְׁמֹנֶ֥ה מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -169,6 +181,10 @@ Previous v0.4.15
 Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
 
 Previous v0.4.16
+
+Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
+
+Previous v0.4.17
 
 Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
 
@@ -212,6 +228,10 @@ Previous v0.4.16
 
 Todos los días que vivió Adán fueron novecientos treinta años, y murió.
 
+Previous v0.4.17
+
+Todos los días que vivió Adán fueron novecientos treinta años, y murió.
+
 ## 6 · HYB.GEN.005.006
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
@@ -245,6 +265,10 @@ Final opinion (Korean original): 105년과 에노스의 출생을 옮긴다. 고
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
 
 Previous v0.4.16
+
+Set vivió ciento cinco años y engendró a Enós.
+
+Previous v0.4.17
 
 Set vivió ciento cinco años y engendró a Enós.
 
@@ -284,6 +308,10 @@ Previous v0.4.16
 
 Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
 
+Previous v0.4.17
+
+Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
+
 ## 8 · HYB.GEN.005.008
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -317,6 +345,10 @@ Final opinion (Korean original): 셋의912년과 죽었다는 마침을 보존�
 Counterargument (Korean): 고정 WLC 본문 수치를 번역한 것이며 역사적 연대·생물학적 수명·계보의 완전성을 검증한 것은 아니다. 출생 순서·다른 자녀의 수와 이름을 추가하지 않는다.
 
 Previous v0.4.16
+
+Todos los días de Set fueron novecientos doce años, y murió.
+
+Previous v0.4.17
 
 Todos los días de Set fueron novecientos doce años, y murió.
 
@@ -356,6 +388,10 @@ Previous v0.4.16
 
 Enós vivió noventa años y engendró a Quenán.
 
+Previous v0.4.17
+
+Enós vivió noventa años y engendró a Quenán.
+
 ## 10 · HYB.GEN.005.010
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -392,6 +428,10 @@ Previous v0.4.16
 
 Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
 
+Previous v0.4.17
+
+Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
+
 ## 11 · HYB.GEN.005.011
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י אֱנ֔וֹשׁ חָמֵ֣שׁ שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -423,6 +463,10 @@ Todos los días de Enós fueron novecientos cinco años, y murió.
 Final opinion (Korean original): 에노스의 총 구백오 년과 죽었다는 마침을 보존한다. 앞서 채택한 90+815=905와의 산술 일치는 본문 내부 확인이며 실제 연대나 생물학적 수명 검증이 아니다.
 
 Counterargument (Korean): 앞서 채택한 90+815=905와의 산술 일치는 본문 내부 확인이며 실제 연대나 생물학적 수명 검증이 아니다.
+
+Previous v0.4.17
+
+Todos los días de Enós fueron novecientos cinco años, y murió.
 
 ## 12 · HYB.GEN.005.012
 
@@ -456,6 +500,10 @@ Final opinion (Korean original): 게난의 칠십 년과 마할랄렐 출생을 
 
 Counterargument (Korean): 낳다는 히필 형태를 문맥상 부친의 출생 관계로 옮긴다. 첫 자녀·계보의 완전성·이름의 어원은 추가하지 않는다.
 
+Previous v0.4.17
+
+Quenán vivió setenta años y engendró a Mahalaleel.
+
 ## 13 · HYB.GEN.005.013
 
 Hebrew display (MT/WLC): וַיְחִ֣י קֵינָ֗ן אַחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מַֽהֲלַלְאֵ֔ל אַרְבָּעִ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -487,6 +535,10 @@ Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y 
 Final opinion (Korean original): 마할랄렐 출생 이후 팔백사십 년과 아들들과 딸들을 빠짐없이 옮긴다. 다른 자녀들의 수·이름·출생 시점은 원문에 없으므로 확정하지 않는다.
 
 Counterargument (Korean): 다른 자녀들의 수·이름·출생 시점은 원문에 없으므로 확정하지 않는다.
+
+Previous v0.4.17
+
+Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y engendró hijos e hijas.
 
 ## 14 · HYB.GEN.005.014
 
@@ -520,6 +572,10 @@ Final opinion (Korean original): 게난의 총 구백십 년과 죽었다를 보
 
 Counterargument (Korean): 70+840=910은 본문 내부 산술 확인이다. 다른 사본·역본의 숫자나 역사적 수명을 확인했다고 주장하지 않는다.
 
+Previous v0.4.17
+
+Todos los días de Quenán fueron novecientos diez años, y murió.
+
 ## 15 · HYB.GEN.005.015
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֔ל חָמֵ֥שׁ שָׁנִ֖ים וְשִׁשִּׁ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־יָֽרֶד׃
@@ -552,6 +608,170 @@ Final opinion (Korean original): 마할랄렐의 육십오 년과 야렛 출생�
 
 Counterargument (Korean): 마할랄렐/Mahalalel/Mahalaleel과 야렛/Jared는 편집 음역이다. 이 절에 없는 사망·총수명·이름 어원은 보충하지 않는다.
 
+Previous v0.4.17
+
+Mahalaleel vivió sesenta y cinco años y engendró a Jared.
+
+## 16 · HYB.GEN.005.016
+
+Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֗ל אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־יֶ֔רֶד שְׁלֹשִׁ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+
+Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.16
+
+### Traducción seleccionada: mejor opción actual
+
+야렛 출생 이후 팔백삼십 년과 아들들과 딸들을 보존한다.
+
+#### claude-sonnet-5-5
+
+Después de engendrar a Jered, Mahalalel vivió 830 años y engendró hijos e hijas.
+
+Final opinion (Korean original): MT 수치를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y vivió Mahalalel, después de engendrar a Jared, ochocientos treinta años, y engendró hijos e hijas.
+
+Final opinion (Korean original): 주인님, 16절의 선택본(ko/en/es)은 수치 '830년'(팔백삼십 년 / eight hundred thirty / ochocientos treinta), 출산 후 관계(낳은 뒤 / after fathering / después de engendrar), 그리고 '아들들과 딸들'(בָּנִים וּבָנוֹת) 조항을 누락 없이 충실히 반영하였습니다. 인명 표기 '야렛'은 15절 번역과의 편집적 일관성을 확보한 적절한 음역 결정이며(이전의 '예렛'은 티베리아 모음 부호 독법에 따른 대안적 음역일 뿐 별개의 사본 이문 증거가 아님), וַיּוֹלֶד는 접미 형태가 아닌 연속 바브 접두 활용(wayyiqtol)입니다. 본문 주석이나 외부 형태론 태깅을 사본 증거로 오인하거나 장자권 등을 추정하지 않고 본문 서술 그대로 채택합니다.
+
+#### gpt-6.1-sol
+
+Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
+
+Final opinion (Korean original): 야렛 출생 이후 팔백삼십 년과 아들들과 딸들을 보존한다. 다른 자녀들의 수·이름·출생 시점·계보의 완전성은 확정하지 않는다.
+
+Counterargument (Korean): 다른 자녀들의 수·이름·출생 시점·계보의 완전성은 확정하지 않는다.
+
+## 17 · HYB.GEN.005.017
+
+Hebrew display (MT/WLC): וַיִּהְיוּ֙ כָּל־יְמֵ֣י מַהֲלַלְאֵ֔ל חָמֵ֤שׁ וְתִשְׁעִים֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
+
+Todos los días de Mahalaleel fueron ochocientos noventa y cinco años, y murió.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.17
+
+### Traducción seleccionada: mejor opción actual
+
+마할랄렐의 총 팔백구십오 년과 죽었다를 옮긴다.
+
+#### claude-sonnet-5-5
+
+Todos los días de Mahalalel fueron 895 años, y murió.
+
+Final opinion (Korean original): MT를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y fueron todos los días de Mahalalel ochocientos noventa y cinco años, y murió.
+
+Final opinion (Korean original): 주인님, 17절의 선택본은 마할랄렐의 총향수 '895년'(팔백구십오 년 / eight hundred ninety-five / ochocientos noventa y cinco)과 정형 사망 고지 וַיָּמֹת('그는 죽었다' / and he died / y murió)를 정확히 번역하였습니다. 의역이나 추가적인 생물학적·연대기적 단정을 배제하고 원문의 연대 총계 절 구조를 3개 언어 모두 온전히 전달하므로 채택을 지지합니다.
+
+#### gpt-6.1-sol
+
+Todos los días de Mahalaleel fueron ochocientos noventa y cinco años, y murió.
+
+Final opinion (Korean original): 마할랄렐의 총 팔백구십오 년과 죽었다를 옮긴다. 65+830=895는 본문 내부 산술 확인이며 실제 수명이나 역사 연대의 검증은 아니다.
+
+Counterargument (Korean): 65+830=895는 본문 내부 산술 확인이며 실제 수명이나 역사 연대의 검증은 아니다.
+
+## 18 · HYB.GEN.005.018
+
+Hebrew display (MT/WLC): וַֽיְחִי־יֶ֕רֶד שְׁתַּ֧יִם וְשִׁשִּׁ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־חֲנֽוֹךְ׃
+
+Jared vivió ciento sesenta y dos años y engendró a Enoc.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.18
+
+### Traducción seleccionada: mejor opción actual
+
+야렛의 백육십이 년과 에녹 출생을 보존한다.
+
+#### claude-sonnet-5-5
+
+Jered vivió 162 años y engendró a Henoc.
+
+Final opinion (Korean original): 수치는 MT를 번역한 것이며 대안은 주석 사항이다.
+
+#### gemini-3.8-flash-medium
+
+Y vivió Jared ciento sesenta y dos años, y engendró a Enoc.
+
+Final opinion (Korean original): 주인님, 18절의 선택본은 수치 '162년'(백육십이 년 / one hundred sixty-two / ciento sesenta y dos)과 에녹 출산 사실을 정확히 대응시켰습니다. 인명 '야렛'의 일관된 표기가 유지되었으며, וַיְחִי와 וַיּוֹלֶד 구문은 wayyiqtol(바브 연속 미완료/단축 접두형)의 연속 서법입니다. 이전의 부정확했던 '접미형' 표현을 정정하며, 본문에 명시되지 않은 '장자(첫째)' 규정이나 연대기적 입증 가정을 부가하지 않은 선택본을 확정 채택합니다.
+
+#### gpt-6.1-sol
+
+Jared vivió ciento sesenta y dos años y engendró a Enoc.
+
+Final opinion (Korean original): 야렛의 백육십이 년과 에녹 출생을 보존한다. 히필 낳다를 문맥상 부친 관계로 번역한다. 첫 자녀·이름 어원·이후 에녹 사건을 보충하지 않는다.
+
+Counterargument (Korean): 히필 낳다를 문맥상 부친 관계로 번역한다. 첫 자녀·이름 어원·이후 에녹 사건을 보충하지 않는다.
+
+## 19 · HYB.GEN.005.019
+
+Hebrew display (MT/WLC): וַֽיְחִי־יֶ֗רֶד אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־חֲנ֔וֹךְ שְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+
+Después de engendrar a Enoc, Jared vivió ochocientos años y engendró hijos e hijas.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.19
+
+### Traducción seleccionada: mejor opción actual
+
+에녹 출생 이후 팔백 년과 아들들과 딸들을 옮긴다.
+
+#### claude-sonnet-5-5
+
+Después de engendrar a Henoc, Jered vivió 800 años y engendró hijos e hijas.
+
+Final opinion (Korean original): MT 수치를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y vivió Jared, después de engendrar a Enoc, ochocientos años, y engendró hijos e hijas.
+
+Final opinion (Korean original): 주인님, 19절의 선택본은 에녹 출산 후 잔여 연수 '800년'(팔백 년 / eight hundred / ochocientos)과 '아들들과 딸들'의 출산 관계를 완결된 절로 포괄하고 있습니다. 인명 표기('야렛', '에녹')의 편집적 통일성이 확립되었고, 임의의 수식이나 교리적 단정 없이 MT 본문의 절 구조를 직역으로 충실히 보존하였습니다.
+
+#### gpt-6.1-sol
+
+Después de engendrar a Enoc, Jared vivió ochocientos años y engendró hijos e hijas.
+
+Final opinion (Korean original): 에녹 출생 이후 팔백 년과 아들들과 딸들을 옮긴다. 다른 자녀의 수·출생 순서나 계보의 완전성을 보충하지 않는다.
+
+Counterargument (Korean): 다른 자녀의 수·출생 순서나 계보의 완전성을 보충하지 않는다.
+
+## 20 · HYB.GEN.005.020
+
+Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־יֶ֔רֶד שְׁתַּ֤יִם וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
+
+Todos los días de Jared fueron novecientos sesenta y dos años, y murió.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.5.20
+
+### Traducción seleccionada: mejor opción actual
+
+야렛의 총 구백육십이 년과 사망 마침을 보존한다.
+
+#### claude-sonnet-5-5
+
+Todos los días de Jered fueron 962 años, y murió.
+
+Final opinion (Korean original): MT를 번역한다.
+
+#### gemini-3.8-flash-medium
+
+Y fueron todos los días de Jared novecientos sesenta y dos años, y murió.
+
+Final opinion (Korean original): 주인님, 20절의 선택본은 야렛의 총수명 '962년'(구백육십이 년 / nine hundred sixty-two / novecientos sesenta y dos)과 종결 사망 고지 '그는 죽었다'를 오차 없이 전달합니다. 5장 후렴구(כָּל־יְמֵי ... וַיָּמֹת)의 정형성이 한국어·영어·스페인어에서 균일하게 구현되었으므로 채택을 승인합니다.
+
+#### gpt-6.1-sol
+
+Todos los días de Jared fueron novecientos sesenta y dos años, y murió.
+
+Final opinion (Korean original): 야렛의 총 구백육십이 년과 사망 마침을 보존한다. 162+800=962는 본문 내부 확인이다. 다른 역본 숫자나 실물 사본을 대조했다고 주장하지 않는다.
+
+Counterargument (Korean): 162+800=962는 본문 내부 확인이다. 다른 역본 숫자나 실물 사본을 대조했다고 주장하지 않는다.
+
 ## Notes
 
 El primer Adán del v.1 se entiende como figura genealógica; adam en la creación se vierte ser humano. BDB120 incluye varones y mujeres en5:1 y la denominación colectiva de5:2. El nombre colectivo Ser humano comparte grafía y sonido hebreos con Adán; no se restringe a los varones.
@@ -564,9 +784,11 @@ Los vv.6–8 conservan105 años antes de que Set engendrara a Enós,807 después
 
 Los vv.11–15 conservan905 años de Enós,70 de Quenán antes de Mahalaleel y840 después,910 en total,y65 de Mahalaleel antes de Jared.90+815=905 y70+840=910 verifican la aritmética textual,no una longevidad histórica. No se añaden primogenitura,integridad genealógica ni noticias de muerte ausentes. Las formas de los nombres son decisiones de transliteración,no afirmaciones etimológicas.
 
+Los vv.16–20 conservan830 años de Mahalaleel después de Jared y895 en total,y162 de Jared antes de Enoc,800 después y962 en total.65+830=895 y162+800=962 verifican la aritmética textual,no una cronología o longevidad histórica. No se añaden número,nombres u orden de otros hijos ni integridad genealógica. Los nombres son transliteraciones editoriales,no pronunciaciones originales,etimologías ni variantes verificadas.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis5:1–15 (es), research pilot v0.4.17. https://yangs777.github.io/hansam-bible/es/genesis-5/
+Hansam Yang. Original Bible: Genesis5:1–20 (es), research pilot v0.4.18. https://yangs777.github.io/hansam-bible/es/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
