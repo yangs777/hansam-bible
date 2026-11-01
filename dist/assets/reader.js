@@ -28,7 +28,7 @@ function query(){
   const p=new URLSearchParams({book:state.book,chapter:state.chapter,from:state.from,to:state.to,left:state.left,right:state.right,mode:state.mode});if(state.hebrew)p.set('hebrew','1');
   const u=new URL(location.href);u.search=p.toString();u.hash='';return u;
 }
-function updateURL(){history.replaceState(null,'',query());}
+function updateURL(){history.replaceState(null,'',query());const feedback=new URL('https://original-bible-feedback.yangs7777.chatgpt.site/');feedback.searchParams.set('passage',`${state.book}.${state.chapter}.${state.from}–${state.to}`);$('feedback-link').href=feedback.href;}
 function syncControls(){
   $('book').value=state.book;$('chapter').replaceChildren();for(const c of Object.keys(book().chapters))option($('chapter'),c,c+'장');$('chapter').value=state.chapter;
   $('left-version').value=state.left;$('right-version').value=state.right;$('show-hebrew').checked=state.hebrew;
