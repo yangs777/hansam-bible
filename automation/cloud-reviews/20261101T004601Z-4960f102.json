@@ -1,0 +1,853 @@
+{
+  "state": "unadopted_model_review",
+  "run_id": "20261101T004601Z-4960f102",
+  "unit_id": "num-24-15-19",
+  "verse_ids": [
+    "Num.24.15",
+    "Num.24.16",
+    "Num.24.17",
+    "Num.24.18",
+    "Num.24.19"
+  ],
+  "unit_issue_ko": "눈/계시·별/홀·모압·세트 자손 난구",
+  "classification": "upcoming_difficult_review",
+  "traditional_numbering_note": "OSIS Num.24.15-19 equals traditional Hebrew, Korean (KRV), English (ASV) and Spanish (RV1909) Numbers 24:15-19; the three library reading editions in this repository carry the same verse divisions with matching content. No renumbering issue in this unit.",
+  "hebrew_quotation_policy": "Raw XML fragments are preserved verbatim only in the source packet (automation/hard-review-packets/20261101T004601Z-4960f102.json). Pointed Hebrew quoted in this record and memo was inserted programmatically from the pinned WLC/OSHB files by OSHB word id (see word_ids_quoted), with the OSHB morpheme separator '/' removed and maqqef restored from the source segment; vowels and accents are otherwise exactly as in the source. Unpointed Hebrew strings are root/lemma labels or explicitly marked conjectural forms, not source quotations. Hand-typed pointed citation forms that were not exact source tokens were automatically reduced to unpointed consonantal labels at build time (listed in checks.hand_typed_pointed_forms_reduced_to_unpointed_labels); every remaining pointed token was verified to occur in a pinned source file.",
+  "model_identity": {
+    "provider": "Anthropic, Claude Code native cloud session (standalone session; get_session origin=claude_code_cli, environment_kind=anthropic_cloud)",
+    "requested_model": "claude-opus-5-5",
+    "basis": "get_session (session_id omitted) at about 2026-11-01T00:47Z: configured_model=claude-opus-5-5, session_context.model=claude-opus-5-5, session_context.effort_level=high, external_metadata.last_served_model=claude-opus-5-5. The session system prompt also names claude-opus-5-5. The model's own self-report is not independent evidence of the serving snapshot.",
+    "session": "https://claude.ai/code/session_01UknqVGS8qpTDtRwBxfApJ7",
+    "execution_path_declared": "standalone_cloud (tools/claude_hard_review.py --standalone-cloud)",
+    "execution_marker_is_billing_proof": false,
+    "rate_limit_metadata_observed": "get_session external_metadata.rate_limit_info reported rateLimitType=ccr_promotional, status=allowed, isUsingOverage=false. This is session metadata only; no balance, dollar amount or credit deduction is exposed or asserted.",
+    "not_exposed": [
+      "exact serving snapshot beyond the last_served_model label",
+      "token counts",
+      "cost or credit deduction",
+      "remaining promotional balance",
+      "whether last_served_model stayed constant for every turn of this run"
+    ]
+  },
+  "timestamps_utc": {
+    "policy_checked": "2026-11-01T00:45:43Z (main c9ae49a policy enabled=true; before stop_new_translation_at 2026-11-05T16:00:00+09:00)",
+    "claim_created": "2026-11-01T00:46:01Z",
+    "claim_pushed": "2026-11-01T00:46Z (approximate; commit on claude/original-bible-hard-review-wse4lu)",
+    "identity_checked": "2026-11-01T00:47Z (approximate)",
+    "network_checks": "2026-11-01T00:47:18Z to 00:48:49Z",
+    "review_written": "2026-11-01T00:57:13Z",
+    "checks_run": "2026-11-01T00:57:13Z"
+  },
+  "source": {
+    "basis": "Pinned MT-WLC as encoded by OSHB; no manuscript facsimile, critical apparatus, LXX edition, Samaritan Pentateuch edition, Qumran text, Targum or Vulgate was consulted in this session.",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_file_sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+    "fragment_sha256": {
+      "Num.24.15": "9fb7a309ce22baf432a35f652594a03e2396a8b839f4f268a3051cdb20ae6283",
+      "Num.24.16": "b9d7fdf01800af07b69b9113e5cf9f12f1f1d3619f656b4491b90ad3c01d4d1b",
+      "Num.24.17": "354fd02c9cec2c87e07f4812f28b17389158e9b17a5b0a022a4e9e43d1a21617",
+      "Num.24.18": "3ded12d44900825cf77e81e8122b561e763065fb71b248988143ba0cfdd6af93",
+      "Num.24.19": "f8d8eefdb7d310b729acb6dd4c8be871eacf4ed55c2e1f26cafc8c80cfa15405"
+    },
+    "packet": "automation/hard-review-packets/20261101T004601Z-4960f102.json",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0",
+      "credit": "https://github.com/openscriptures/morphhb"
+    },
+    "markup_note": "The five target fragments contain only <w> and <seg> (x-maqqef, x-sof-pasuq) elements; no Qere/Ketiv, note or nested markup is present in these verses at this commit. Nothing was flattened.",
+    "current_selected_in_packet": "none (upcoming passage; data/editorial.json at main c9ae49add5002667020417bd492d3d046e468aa4 has no Numbers 24 verse)",
+    "context_verses_read_from_same_pinned_commit": "Num.21.28, Num.21.35, Num.22.5, Num.22.36, Num.23.9, Num.23.10, Num.24.1-4, Num.24.7-10, Num.24.14, Num.24.20-25, Gen.4.25, Gen.15.3, Gen.22.17, Gen.25.23, Gen.27.40, Gen.29.1, Gen.36.8, Gen.49.10, Exod (not used), Lev.26.17, Num.20.14, Num.20.21, Deut.1.10, Deut.2.5, Deut.2.9, Deut.8.18, Deut.23.8, Deut.33.11, Deut.33.17, Deut.33.29, Judg.5.13, Judg.5.20, Judg.5.21, Judg.5.26, 2Sam.8.2, 2Sam.8.14, Isa.13.10, Isa.14.12, Isa.22.5, Isa.60.3, Jer.9.25, Jer.25.23, Jer.48.45, Jer.48.46, Jer.49.32, Ezek.25.13, Ezek.29.18, Hos.13.7, Amos.9.12, Obad.1.18, Obad.1.21, Mic.5.4, Ps.7.13, Ps.18.39, Ps.68.22, Ps.72.8, Ps.110.2, Ps.110.5, Ps.110.6, Job.7.8, Job.20.21, Job.24.15, Job.35.5",
+    "context_files_sha256": {
+      "Gen": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "Jer": "1a7ad7bc26a2cae1d3964230e8eb73043bc1f32505cb86cd69a25261dc39f493",
+      "Ps": "fe55eef316a65fb0f46d833d526ca2fd722e86ff7339f1a39f0c5b7f9062ced2",
+      "Isa": "0807678de609bdef284bed5400b94ddab570d101b593c7f59ae1939015572fa2",
+      "Obad": "1e893e552a7ed7e2e6d4048637ff5da8a2853a9e4432f4095cede80b959d850c",
+      "2Sam": "e7793e141ed94eadbd2dfb23936abbb4062e81a7dcd41114a6e36644f50b8333",
+      "Deut": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "Judg": "3b3a909f04041dbd52dc6b7293a96ce75d94db8a90fdeda878943db7b8fac57f",
+      "Mic": "267e111adc1b941e32444816af07aa136ecde02cb315cd42597f78b393e67a01",
+      "Lev": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "Num": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896"
+    },
+    "context_files_fetched_but_not_quoted": "Amos, Job, Hos, Ezek, Neh, 1Kgs were also fetched from the same commit and read for usage only; their hashes are in network_access_log.",
+    "library_files_sha256": {
+      "krv": "8e6ccc27cc0c806c2b1408c8ecee453bb4317944a77da8071b5b9f753199fc27",
+      "asv": "ca780732d935a336a702098bff591adc3dc32a896da92ae408d708312d6c7a0c",
+      "rv1909": "f235e80b693f84b928bd8f801bcc92581f40c4a11c50611edb97bc313bbc9d96"
+    }
+  },
+  "network_access_log": [
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml",
+      "accessed_utc": "2026-11-01T00:46:01Z",
+      "result": "fetched by tools/claude_hard_review.py into private/upstream_cache; SHA-256 02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "excerpt": "דָּרַ֨ךְ כּוֹכָ֜ב מִֽיַּעֲקֹ֗ב וְקָ֥ם שֵׁ֨בֶט֙ מִיִּשְׂרָאֵ֔ל"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{Gen,Jer,Ps,Isa,Amos,Obad,2Sam,Deut,Job,Hos,Judg,Mic,Lev,Ezek,Neh,1Kgs}.xml",
+      "accessed_utc": "2026-11-01T00:47:18Z",
+      "result": "HTTP 200 each. Hashes: Gen 0526e5c9..., Jer 1a7ad7bc..., Ps fe55eef3..., Isa 0807678d..., Amos 6ad94c6a18076762f1a458720c62156d354e5111ee25719b7792b70792d0084d, Obad 1e893e55..., 2Sam e7793e14..., Deut 04f80874..., Job 7db3311184122f37a8fd52f3c7c0c4a6d2da7b77ee82f4fdb26bcba9171d297f, Hos f38ae44a3a97d142768bd5f4d40e77b69265184f9a5aec9e6af1b9b226e8daae, Judg 3b3a909f..., Mic 267e111a..., Lev e21e7026..., Ezek 90bf8adfa66b2f6695c702263fe668755c99c6afc386202c12de4f704f5d4e46, Neh be082e95c206469122455b9849d4dd08da50c817732d8198c1beece90402801a, 1Kgs 832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e (full values for quoted books in source.context_files_sha256)",
+      "excerpt": "Jer.48.45: וַתֹּ֨אכַל֙ פְּאַ֣ת מוֹאָ֔ב וְקָדְקֹ֖ד בְּנֵ֥י שָׁאֽוֹן"
+    },
+    {
+      "url": "https://www.sefaria.org/api/v3/texts/Onkelos_Numbers.24.17 and .../Onkelos_Numbers.24.15",
+      "accessed_utc": "2026-11-01T00:48:49Z",
+      "result": "NOT ACCESSIBLE: proxy CONNECT tunnel failed, HTTP 403 (environment network policy). No Targum text was read; no Targum reading is asserted in this record.",
+      "excerpt": null
+    }
+  ],
+  "independent_initial_reading": {
+    "note_ko": "아래 판독은 원천 패킷(핀 고정 WLC/OSHB)과 같은 커밋의 다른 책 본문만으로 먼저 작성했다. 저장소의 공개 도메인 읽기 역본(개역·ASV·RV1909)과 다른 저장 기록은 이 단계 뒤에 열었다. 이 단위에 대한 다른 AI 제안은 존재하지 않는다(아래 비교 참조).",
+    "lexical": [
+      {
+        "id": "Num.24.15",
+        "ko": "בְּנ֣וֹ בְעֹ֔ר: 23:18 בנו צפר와 같은 옛 연계형 어미(-o). ‘브올의 아들’이며 ‘그의 아들 브올’이 아니다. 24:3과 낱말까지 같다."
+      },
+      {
+        "id": "Num.24.15",
+        "ko": "שְׁתֻ֥ם(lemma 8365): 이 세션에서 가져온 핀 고정 17권(Num, Gen, Jer, Ps, Isa, Amos, Obad, 2Sam, Deut, Job, Hos, Judg, Mic, Lev, Ezek, Neh, 1Kgs) 안에서 OSHB lemma 8365는 24:3(שְׁתֻ֥ם)과 24:15 두 번뿐이다. 구약 전체 검색은 하지 않았다(일반적으로 이 두 곳뿐이라고 알려져 있으나 이 기록에서 검증하지 않음). 의미 후보 셋: (a) ‘열린’(24:16 וּגְל֥וּי עֵינָֽיִם ‘눈이 드러난’과 평행), (b) ‘닫힌’(어근 סתם과 같은 뜻으로 보는 해석; 개역 ‘눈을 감았던’, ASV ‘was closed’), (c) 자음을 ש + תם으로 나누어 ‘눈이 온전한/참된’으로 읽는 재분절(모음 재부여 추정이며 이 패킷에서 입증되지 않음). OSHB는 Qal 수동 분사 연계형(HVqsmsc)으로 태그한다."
+      },
+      {
+        "id": "Num.24.15",
+        "ko": "הָעָֽיִן: 단수 ‘그 눈’. 24:16의 עֵינָֽיִם는 쌍수 ‘두 눈’. 한국어 ‘눈’은 수를 드러내지 않아 문제없으나, 영어·스페인어에서는 단수 eye/ojo를 유지할 수 있다."
+      },
+      {
+        "id": "Num.24.16",
+        "ko": "24:4와 비교하면 24:16은 וְיֹדֵ֖עַ דַּ֣עַת עֶלְי֑וֹן ‘지극히 높으신 이의 지식을 아는 자’를 더하고, 24:4의 אֲשֶׁ֨ר를 갖지 않는다. 그 결과 24:16은 네 개의 분사/명사구가 나란히 놓인 구조다."
+      },
+      {
+        "id": "Num.24.16",
+        "ko": "אֵ֔ל / עֶלְי֑וֹן / שַׁדַּי֙: 세 신명(El, Elyon, Shaddai). 번역(하나님/지극히 높으신 이/전능자)과 음역(엘/엘욘/샤다이) 가운데 정책 결정이 필요하다. 이 저장소 선정본 Deut.32.8은 עליון을 ‘지극히 높으신 이 / the Most High / el Altísimo’로 옮긴다."
+      },
+      {
+        "id": "Num.24.16",
+        "ko": "נֹפֵ֖ל: 분사 ‘엎드러지는/쓰러지는’. 황홀경 속에 쓰러짐인지 경배의 엎드림인지 본문은 말하지 않는다. וּגְל֥וּי עֵינָֽיִם ‘눈이 드러난(열린)’과 접속사 ו로만 이어져, ‘쓰러졌으나 눈은 열린’이라는 대조는 해석이다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "אֶרְאֶ֨נּוּ֙ / אֲשׁוּרֶ֖נּוּ: 3인칭 남성 단수 목적 접미(‘그를/그것을’). 23:9에서 같은 동사 짝 אֶרְאֶ֔נּוּ … אֲשׁוּרֶ֑נּוּ는 이스라엘(백성)을 가리켰다. 24:17에서는 지시 대상이 뒤에 나오는 별·홀이라고 보는 것이 자연스럽다(후방 지시). 미완료는 ‘본다/보리라’ 모두 가능하나 ‘지금은 아니다’와 함께 환상 속 현재 보기로 읽는다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "דָּרַ֨ךְ: 완료형(OSHB HVqp3ms)이 미래 사건에 쓰였다(예언적 완료). 기본 뜻은 ‘밟다/행진하다’(Judg.5.21 ‘내 영혼아, 힘차게 밟고 나아가라’, Deut.33.29 תִדְרֹֽךְ, Mic.5.4 יִדְרֹךְ֙). ‘나오다’로 옮기면 동작의 기세가 약해진다. Judg.5.20 הַכּֽוֹכָבִים֙ מִמְּסִלּוֹתָ֔ם는 별이 전쟁에 참여하는 시적 이미지를 보여 준다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "שֵׁ֨בֶט֙: ‘홀(왕권의 막대)’, ‘지팡이/막대’, ‘지파’. 별과의 평행, Gen.49.10 לֹֽא־יָס֥וּר שֵׁ֨בֶט֙ מִֽיהוּדָ֔ה의 왕권 문맥, 이어지는 ‘쳐부수다’ 동사(막대로 내리침)를 고려하면 ‘홀’이 가장 적합하다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "וּמָחַץ֙: ‘쳐부수다/박살내다’. 같은 동사가 Ps.68.22 יִמְחַץ֮ רֹ֤אשׁ אֹ֫יְבָ֥יו קָדְקֹ֥ד שֵׂעָ֑ר에서 머리·정수리를 치는 데 쓰인다. 목적어 פַּאֲתֵ֣י는 쌍수 연계형(HNcfdc) ‘두 옆/두 모서리’로, 신체(관자놀이·이마)와 지리(경계·변두리) 모두 가능하다. 쌍수와 ‘쳐부수다’의 결합은 머리의 양 옆(관자놀이) 쪽을 지지한다. 평행 Jer.48.45 פְּאַ֣ת מוֹאָ֔ב는 단수다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "וְקַרְקַ֖ר: MT 모음은 동사(OSHB HC/Vlp3ms, 필펠 완료 ‘무너뜨리다/헐다’; 같은 어근 Isa.22.5 מְקַרְקַ֥ר קִ֖ר ‘성벽을 헐다’). 그런데 거의 같은 문장인 Jer.48.45는 וַתֹּ֨אכַל֙ פְּאַ֣ת מוֹאָ֔ב וְקָדְקֹ֖ד בְּנֵ֥י שָׁאֽוֹן로 이 자리에 명사 וְקָדְקֹ֖ד(‘정수리’)를 갖는다. Jer.48.45는 다른 책의 증언된 평행 본문이지 민수기의 사본 이문이 아니다. 사마리아 오경 등의 독법은 이 세션에서 확인하지 못했다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "כָּל־בְּנֵי־שֵֽׁת: ‘셋의 모든 자손’. 자음과 모음이 Gen.4.25의 שֵׁ֑ת(아담의 아들 셋)와 같다. 그러나 평행법상 ‘모압’과 짝을 이루므로 모압과 관련된 집단명일 가능성이 크다. Jer.48.45의 대응어 בְּנֵ֥י שָׁאֽוֹן(‘소란의 자손/요란한 자들’)는 שאת(‘소란’)로 모음을 바꿔 읽는 전통 해석(ASV ‘sons of tumult’, 개역 ‘소동하는 자식들’)의 근거가 된다. 이것은 재해석이지 증언된 민수기 독법이 아니다."
+      },
+      {
+        "id": "Num.24.18",
+        "ko": "יְרֵשָׁ֗ה(Ncfsa, 절대형) ‘차지된 것/소유’. 연계형이 아니므로 אֹיְבָ֑יו를 ‘그의 원수들의 소유’로 묶을 수 없다. 따라서 אֹיְבָ֑יו는 세일(또는 에돔과 세일)과 동격인 ‘그의 원수들’로 읽는 것이 문법에 가장 가깝다. ‘그’는 별/홀의 인물 또는 이스라엘이다. 차지하는 주체는 명시되지 않는다."
+      },
+      {
+        "id": "Num.24.18",
+        "ko": "עֹ֥שֶׂה חָֽיִל: ‘용맹을 떨치다’ 또는 ‘재산/부를 이루다’(Deut.8.18 לַעֲשׂ֣וֹת חָ֑יִל는 ‘재물을 얻다’ 문맥). 정복 문맥에서는 ‘용맹/힘을 떨치다’가 자연스럽지만, 차지(ירשה)와 이어지는 ‘부를 얻다’도 가능하다."
+      },
+      {
+        "id": "Num.24.19",
+        "ko": "וְיֵ֖רְדְּ: OSHB lemma 7287a(רדה ‘다스리다’), 지시형(HC/Vqj3ms). Ps.72.8 וְ֭יֵרְדְּ מִיָּ֣ם עַד־יָ֑ם에 똑같은 형태가 ‘그가 바다에서 바다까지 다스리기를’로 나온다. 주어가 명시되지 않으므로 ‘야곱에게서 (한 사람이) 다스린다’로 보충해야 한다. ירד(내려가다)로 읽으려면 자음·모음이 달라야 하므로 MT의 근거는 없다."
+      },
+      {
+        "id": "Num.24.19",
+        "ko": "שָׂרִ֖יד: ‘살아남은 자/생존자’(집합적 단수 가능; Num.21.35 בִּלְתִּ֥י הִשְׁאִֽיר־ל֖וֹ שָׂרִ֑יד). מֵעִֽיר: 관사 없는 ‘성읍에서’. 일반적인 ‘성읍’일 수도, 특정 지명일 수도 있다. Num.22.36 עִ֣יר מוֹאָ֗ב(‘모압의 성읍’ 또는 ‘이르-모압’)와 Num.21.28 עָ֣ר מוֹאָ֔ב(‘모압의 아르’)이 근처 문맥에 있다."
+      }
+    ],
+    "syntactic": [
+      {
+        "id": "Num.24.15-16",
+        "ko": "נְאֻ֤ם ‘…의 신탁’이 세 번(15절 두 번, 16절 한 번) 반복되는 서두 구조. 화자 소개가 16절 끝까지 이어지고, 신탁 본문은 17절에서 시작한다. 한국어에서는 ‘…의 신탁이다’를 16절 끝에 한 번 맺고 15절은 쉼표/쌍점으로 이어야 절 경계가 자연스럽다."
+      },
+      {
+        "id": "Num.24.17",
+        "ko": "구조: [보다-지금 아님 // 바라보다-가까움 아님] + [별-야곱 // 홀-이스라엘] + [쳐부수다-모압의 관자놀이 // 무너뜨리다(MT)-셋의 자손]. 마지막 짝은 동사 둘이 서로 다른 그림(신체 타격 대 성벽 허물기)을 그린다. 이는 Jer.48.45의 ‘정수리’ 독법이 평행을 더 정연하게 만든다는 반론의 근거다."
+      },
+      {
+        "id": "Num.24.18",
+        "ko": "‘에돔’과 ‘세일’은 같은 땅·백성의 두 이름(Gen.36.8, Deut.2.5). 에돔-소유 // 세일-소유 짝 뒤에 אֹיְבָ֑יו가 붙어 리듬이 3+3+1로 비대칭이다. 일부 주석은 이 낱말을 19절로 옮기는 재배열을 제안하지만, 이는 증언된 독법이 아닌 추정이다."
+      },
+      {
+        "id": "Num.24.19",
+        "ko": "וְיֵ֖רְדְּ 지시형 + וְהֶֽאֱבִ֥יד 와우-완료: ‘다스리고 … 멸할 것이다’. 지시형을 ‘다스리기를’(기원)로 살릴지 미래로 옮길지는 선택이다. 신탁 문맥(17-18절 예언적 완료/와우-완료)과 맞추어 미래로 옮긴다."
+      }
+    ],
+    "discourse": [
+      {
+        "id": "Num.24.15-19",
+        "ko": "24:14에서 발람이 ‘마지막 날에(באחרית הימים) 이 백성이 네 백성에게 행할 일’을 알려 주겠다고 한 뒤 나오는 네 번째 신탁의 첫 부분. 15절 앞 반절은 서술, 15절 ‘브올의 아들 발람의 신탁’부터 19절 끝까지 발람의 말이다. 20절에서 새로운 서술(‘아말렉을 보고’)이 시작되므로 인용은 19절에서 닫는다."
+      },
+      {
+        "id": "Num.24.15",
+        "ko": "15-16절은 24:3-4 서두를 거의 그대로 반복하며 ‘지극히 높으신 이의 지식’을 더해 계시의 권위를 높인다. 번역은 24:3-4와 낱말 단위로 일치시켜야 한다."
+      }
+    ],
+    "textual_variant": [
+      {
+        "id": "Num.24.17",
+        "ko": "MT וְקַרְקַ֖ר 대 Jer.48.45 וְקָדְקֹ֖ד: 증언된 두 본문 사이의 차이(민수기 내부의 이문이 아님). 이 세션에서 사마리아 오경, 칠십인역, 쿰란, 타르굼 독법을 직접 확인하지 못했다(Sefaria 접근 403 차단). 따라서 다른 역본에 대한 어떤 주장도 이 기록에서 입증되지 않았다."
+      },
+      {
+        "id": "Num.24.15",
+        "ko": "שְׁתֻ֥ם의 ‘닫힌’ 해석과 재분절(‘온전한 눈’)은 고대 역본 일부가 반영한다고 흔히 보고되지만, 이 세션에서 확인하지 못했으므로 ‘보고됨/미확인’으로만 남긴다."
+      }
+    ],
+    "historical": [
+      {
+        "id": "Num.24.17-18",
+        "ko": "2Sam.8.2와 2Sam.8.14는 다윗이 모압과 에돔을 복속시켰다고 기록한다. 그래서 17-18절을 다윗 왕조와 연결하는 역사적 해석이 가능하다. 이는 해석이며, 신탁의 형성 시기 문제와 함께 이 기록에서는 판단하지 않는다."
+      }
+    ],
+    "reception": [
+      {
+        "id": "Num.24.17",
+        "ko": "‘야곱에게서 나오는 별’은 후대 유대교·기독교에서 메시아 본문으로 읽혔다(장로교 전통 포함 개신교 주석에서도 그리스도를 가리키는 예언으로 널리 읽는다). 이는 수용사(해석)이며, 번역문은 그 해석을 본문에 덧붙이지 않고 ‘한 별’, ‘홀’로 둔다. 쿰란·바르 코크바 등 개별 수용 증거는 이 세션에서 확인하지 않았다."
+      }
+    ]
+  },
+  "initial_proposals": {
+    "Num.24.15": {
+      "ko": "그가 신탁을 읊어 말하였다. “브올의 아들 발람의 신탁, 눈이 열린 사람의 신탁,",
+      "en": "Then he took up his oracle and said: “The oracle of Balaam son of Beor, the oracle of the man whose eye is opened,",
+      "es": "Entonces pronunció su oráculo y dijo: «Oráculo de Balaam hijo de Beor, oráculo del hombre de ojo abierto,"
+    },
+    "Num.24.16": {
+      "ko": "하나님의 말씀을 듣는 자, 지극히 높으신 이의 지식을 아는 자, 전능자의 환상을 보는 자, 엎드러진 채 눈이 열린 자의 신탁이다.",
+      "en": "the oracle of one who hears the words of God and knows the knowledge of the Most High, who sees the vision of the Almighty, falling down, with eyes uncovered:",
+      "es": "oráculo del que oye las palabras de Dios y conoce el conocimiento del Altísimo, del que ve la visión del Todopoderoso, postrado y con los ojos descubiertos:"
+    },
+    "Num.24.17": {
+      "ko": "내가 그를 보나 지금은 아니며, 내가 그를 바라보나 가까이는 아니다. 야곱에게서 한 별이 나아오고, 이스라엘에게서 한 홀이 일어나, 모압의 양 관자놀이를 쳐부수고 셋의 모든 자손을 무너뜨릴 것이다.",
+      "en": "I see him, but not now; I behold him, but not near. A star will march forth from Jacob, and a scepter will rise from Israel; it will crush the temples of Moab and tear down all the sons of Sheth.",
+      "es": "Lo veo, pero no ahora; lo contemplo, pero no de cerca. Una estrella avanzará desde Jacob, y un cetro se levantará desde Israel; aplastará las sienes de Moab y derribará a todos los hijos de Set."
+    },
+    "Num.24.18": {
+      "ko": "에돔은 차지된 땅이 되고, 그의 원수들인 세일도 차지된 땅이 될 것이나, 이스라엘은 용맹을 떨칠 것이다.",
+      "en": "Edom will become a possession; Seir, his enemies, will become a possession, while Israel acts valiantly.",
+      "es": "Edom será una posesión; Seir, sus enemigos, será una posesión, mientras Israel actúa con valentía."
+    },
+    "Num.24.19": {
+      "ko": "야곱에게서 한 사람이 다스리고, 성읍에서 살아남은 자들을 멸할 것이다.”",
+      "en": "One from Jacob will rule and destroy the survivors from the city.”",
+      "es": "Uno de Jacob dominará y destruirá a los que queden de la ciudad.»"
+    }
+  },
+  "initial_proposals_note": "Written from the source packet and same-commit context before opening the library reading editions or any saved record. Preferred wording below differs from these only where changes_from_initial_proposal_ko says so.",
+  "earlier_records_compared": [
+    {
+      "record": "data/editorial.json (main c9ae49add5002667020417bd492d3d046e468aa4)",
+      "label": "current selected text (Genesis 1:1-5:15, Psalm 1, Numbers 6:24-26, Deuteronomy 32:8)",
+      "relevance_ko": "민수기 24장 선정본은 없다. 관례 확인: Gen.4.25·4.26·5.3 선정본은 שת을 ko ‘셋’, en ‘Seth’, es ‘Set’로 옮긴다. Deut.32.8 선정본은 עליון을 ‘지극히 높으신 이 / the Most High / el Altísimo’로 옮긴다. 이 검토는 두 관례를 따른다(단, en ‘Seth’ 대 ‘Sheth’ 문제는 아래 alternatives 참조)."
+    },
+    {
+      "record": "all remote claude/ branches and main: automation/cloud-drafts/, automation/cloud-reviews/, automation/hard-review-runs/, reviews/, data/ (fetched 2026-11-01T00:45Z)",
+      "label": "Claude cloud drafts, Claude hard-review records, saved model-review records",
+      "relevance_ko": "git grep으로 ‘Num.24.15’~‘Num.24.19’를 모든 원격 claude/ 브랜치와 main에서 검색했다. 일치는 대기열 정의 파일(automation/cloud-queue.json, automation/hard-review-queue.json), 이 실행의 청구 매니페스트·패킷, 그리고 아래의 num-23-18-24 검토 기록(교차 참조로만 언급)뿐이다. 이 단위에 대한 Claude 초안, GPT, Gemini, Antigravity 응답이나 인간 검토 기록은 존재하지 않는다."
+    },
+    {
+      "record": "origin/claude/original-bible-hard-review-nnzlcy automation/cloud-reviews/20261031T234825Z-fb49313b.json (num-23-18-24)",
+      "label": "Claude hard-review record (claude-opus-5-5, another standalone run) of the preceding Balaam oracle; convention evidence only",
+      "relevance_ko": "그 기록은 משלו를 ‘신탁/oracle/oráculo’, בנו צפר를 ‘십볼의 아들’(옛 연계형 어미; 24:3·15와 같다고 명시), אֵל을 ‘하나님/God/Dios’로 옮긴다. 이 검토도 같은 관례를 따른다. 그 기록의 editorial_consistency_findings는 24:8 תועפת·24:9 사자 비유를 다음 단위와 맞추라고 했으나, 24:8-9는 이 단위(24:15-19)에 포함되지 않는다. 그 기록을 수정하지 않았다."
+    },
+    {
+      "record": "library/krv/Num.json, library/asv/Num.json, library/rv1909/Num.json (public-domain reading editions; hashes in source.library_files_sha256)",
+      "label": "KorRV (개역성경), ASV 1901, Reina-Valera 1909 as imported upstream; not project translations, not collated",
+      "relevance_ko": "주요 차이: (1) 24:15 שתם — 개역 ‘눈을 감았던 자’, ASV ‘whose eye was closed’, RV1909 ‘de ojos abiertos’. 전통 역본끼리 정반대로 갈린다. (2) 24:17 פאתי — 개역 ‘모압을 이편에서 저편까지’, ASV ‘the corners of Moab’, RV1909 ‘los cantones de Moab’(셋 다 지리적 해석). (3) 24:17 בני־שת — 개역 ‘소동하는 자식들’, ASV ‘the sons of tumult’(둘 다 Jer.48.45 방식의 재해석), RV1909 ‘los hijos de Seth’(MT 형태 유지). (4) 24:18 איביו — 개역 ‘그 원수 에돔… 그 원수 세일’(동격), ASV ‘who were his enemies’(동격), RV1909 ‘será tomada … por sus enemigos’(행위자; 히브리어 절대형 ירשה와 맞지 않음). (5) 24:16 אֵל — RV1909 ‘Jehová’(히브리어는 YHWH가 아니라 אֵל). (6) 24:19 개역 ‘주권자가 야곱에게서 나서’(주어 보충), ASV ‘shall one have dominion’, RV1909 ‘el de Jacob se enseñoreará’ — 셋 다 רדה ‘다스리다’로 읽는다."
+    }
+  ],
+  "no_gpt_gemini_records_ko": "이 단위에 대해 저장된 GPT, Gemini, Antigravity 응답이나 인간 검토 기록은 존재하지 않는다. 이 문서는 어떤 모델이나 사람의 의견도 대신하거나 추정하지 않는다.",
+  "comparison_findings_ko": [
+    "전통 역본 셋이 24:15 שתם에서 정반대(닫힌/열린)로 갈린다. 이 검토의 ‘열린’은 RV1909와 같고 개역·ASV와 다르다. 따라서 각주가 필수다.",
+    "개역·ASV의 ‘소동하는 자식들/sons of tumult’는 MT 낱말 שת을 Jer.48.45 שאון에 맞춰 재해석한 것으로 보이며, 번역문에 해석을 넣는다. 이 검토는 MT 형태(셋/Seth/Set)를 유지하고 해석을 각주로 옮긴다.",
+    "RV1909 24:18 ‘por sus enemigos’(원수들에 의해 점령됨)는 ירשה가 절대형이라는 OSHB 형태 정보와 맞지 않는다. 이 검토는 동격 해석(개역·ASV와 같은 방향)을 유지한다.",
+    "RV1909 24:16 ‘Jehová’는 אֵל을 YHWH로 옮긴 것이다. 이 검토는 ‘Dios’를 유지한다."
+  ],
+  "changes_from_initial_proposal_ko": [
+    "Num.24.17 en: 초안의 ‘Sheth’를 선정본 Gen.4.25·5.3 관례에 맞춰 ‘Seth’로 바꾸었다. 히브리어 형태가 Gen.4.25와 같으므로 영어에서만 다른 철자를 쓰면 번역이 해석(별개 민족명)을 몰래 선택하게 된다. 해석 문제는 필수 각주로 처리한다. 이 변경에 대한 반론은 strongest_objection_to_own_reading 참조.",
+    "Num.24.18 ko: ‘차지된 땅’을 ‘남의 차지가 되고’로 다듬었다. ירשה는 땅만이 아니라 백성·영역 전체가 ‘차지된 것’이 됨을 말하므로 ‘땅’ 보충을 뺐다.",
+    "Num.24.19 ko: ‘한 사람이’를 ‘한 통치자가’로 바꾸지 않고 유지했다(개역 ‘주권자’는 동사 의미를 명사에 미리 넣음). 변경 없음.",
+    "그 밖의 초안은 비교 뒤에도 유지했다."
+  ],
+  "alternatives": [
+    {
+      "id": "Num.24.15",
+      "question_ko": "שְׁתֻ֥ם הָעָֽיִן: 눈이 열린 / 닫힌 / 온전한",
+      "options": [
+        {
+          "reading_ko": "눈이 열린 / whose eye is opened / de ojo abierto",
+          "argument_ko": "24:16 וּגְל֥וּי עֵינָֽיִם ‘눈이 드러난’과 직접 평행한다. 계시를 받는 자의 자기소개 문맥에 맞는다. RV1909도 이 방향.",
+          "objection_ko": "확인한 범위 안에서 다른 용례가 없어 문맥 추론에 의존한다. ‘열린’을 뜻하는 확실한 히브리어 근거는 이 세션에서 확인하지 못했다."
+        },
+        {
+          "reading_ko": "눈이 감긴(닫힌) / whose eye is closed / de ojo cerrado",
+          "argument_ko": "סתם(막다/닫다)과 같은 어근으로 보는 해석. 개역·ASV 전통. 육신의 눈은 닫혔으나(또는 이전에 닫혀 있었으나) 하나님이 열어 주셨다는 대조, 또는 Num.22.31 이전 발람의 영적 맹목에 대한 아이러니로 읽을 수 있다.",
+          "objection_ko": "자음 ש/ס 교체를 가정해야 한다. 16절 ‘눈이 드러난’과 긴장한다. 개역의 ‘감았던’ 과거시제는 히브리어 분사에 없다."
+        },
+        {
+          "reading_ko": "눈이 온전한/참된 (재분절 ש+תם) / whose eye is true",
+          "argument_ko": "관계사 ש + ‘온전하다’로 나누면 의미가 매끄럽다. 일부 고대 역본이 이렇게 읽는다고 보고된다.",
+          "objection_ko": "자음 분절을 바꾸는 재구성이다. 오경에서 관계사 ש는 드물다. 고대 역본 독법은 이 세션에서 확인하지 못했다."
+        }
+      ],
+      "preferred": "눈이 열린 / whose eye is opened / de ojo abierto (필수 각주로 ‘닫힌’ 해석 병기)"
+    },
+    {
+      "id": "Num.24.16",
+      "question_ko": "אֵ֔ל / עֶלְי֑וֹן / שַׁדַּי֙: 번역 대 음역",
+      "options": [
+        {
+          "reading_ko": "하나님 / 지극히 높으신 이 / 전능자; God / the Most High / the Almighty; Dios / el Altísimo / el Todopoderoso",
+          "argument_ko": "선정본 Deut.32.8(지극히 높으신 이)과 이전 Claude 초안들(전능하신 하나님/God Almighty/Todopoderoso), num-23-18-24 검토(אֵל=하나님/God/Dios)와 일관된다.",
+          "objection_ko": "‘전능자’는 שדי의 어원이 불확실한데도 한 해석(전능)을 고정한다."
+        },
+        {
+          "reading_ko": "엘 / 엘욘 / 샤다이 (음역)",
+          "argument_ko": "어원 불확실성을 숨기지 않는다. 비이스라엘인 발람이 쓰는 고대 신명이라는 점을 드러낸다.",
+          "objection_ko": "독자가 세 개의 다른 신으로 오해할 수 있다. 선정본 관례와 어긋난다."
+        }
+      ],
+      "preferred": "번역(하나님/지극히 높으신 이/전능자) + 각주에 음역"
+    },
+    {
+      "id": "Num.24.16",
+      "question_ko": "נֹפֵ֖ל וּגְל֥וּי עֵינָֽיִם: 연결 방식",
+      "options": [
+        {
+          "reading_ko": "엎드러진 채 눈이 열린 / falling down, with eyes uncovered",
+          "argument_ko": "히브리어의 단순 병치를 유지한다.",
+          "objection_ko": "한국어로는 약간 어색하다."
+        },
+        {
+          "reading_ko": "엎드러졌으나 눈은 열린 (대조)",
+          "argument_ko": "개역 ‘엎드려서 눈을 뜬’보다 계시의 역설을 강조한다.",
+          "objection_ko": "‘그러나’ 대조는 원문에 없는 해석이다."
+        }
+      ],
+      "preferred": "엎드러진 채 눈이 열린"
+    },
+    {
+      "id": "Num.24.17",
+      "question_ko": "דָּרַ֨ךְ: 행진하다 / 나오다",
+      "options": [
+        {
+          "reading_ko": "나아오다(행진하여 나오다) / march forth / avanzar",
+          "argument_ko": "동사의 기본 뜻 ‘밟다/행진하다’를 살린다(Judg.5.21, Deut.33.29, Mic.5.4). Judg.5.20처럼 별이 전쟁에 나서는 그림과 맞는다.",
+          "objection_ko": "별에 ‘행진’은 은유가 강하다."
+        },
+        {
+          "reading_ko": "나오다 / come forth / saldrá",
+          "argument_ko": "전통 역본(개역·ASV·RV1909) 연속성; 자연스럽다.",
+          "objection_ko": "동사의 고유 의미(밟음)를 잃는다."
+        },
+        {
+          "reading_ko": "다스리다 (비교 셈어학 근거의 제안)",
+          "argument_ko": "일부 학자가 우가릿어 등과 비교해 제안한다고 보고된다.",
+          "objection_ko": "이 세션에서 확인하지 못한 비교 언어 증거에 의존한다. 히브리어 용례 안에서는 근거가 약하다."
+        }
+      ],
+      "preferred": "ko ‘나아오다’ / en ‘march forth’ / es ‘avanzar’"
+    },
+    {
+      "id": "Num.24.17",
+      "question_ko": "שֵׁ֨בֶט֙: 홀 / 지팡이 / 지파",
+      "options": [
+        {
+          "reading_ko": "홀 / scepter / cetro",
+          "argument_ko": "별과 평행하는 왕권 상징; Gen.49.10; 뒤따르는 ‘쳐부수다’와 어울린다.",
+          "objection_ko": "왕정 이전 문맥에 ‘홀’이라는 왕권 개념을 미리 넣는다는 반론."
+        },
+        {
+          "reading_ko": "지파 / tribe",
+          "argument_ko": "같은 낱말이 24:2에서는 ‘지파들’(이스라엘이 지파별로 진을 친 모습)을 뜻한다.",
+          "objection_ko": "‘지파가 일어나 모압의 관자놀이를 친다’는 평행(별)과 맞지 않는다."
+        }
+      ],
+      "preferred": "홀 / scepter / cetro"
+    },
+    {
+      "id": "Num.24.17",
+      "question_ko": "פַּאֲתֵ֣י מוֹאָ֔ב: 신체(관자놀이) 대 지리(경계)",
+      "options": [
+        {
+          "reading_ko": "모압의 양 관자놀이 / the temples of Moab / las sienes de Moab",
+          "argument_ko": "쌍수(두 옆), 동사 מחץ의 머리 타격 용례(Ps.68.22, Judg.5.26 시스라의 관자놀이를 꿰뚫는 장면에서 같은 동사 מחץ), 평행 Jer.48.45의 ‘정수리’가 신체 그림을 지지한다.",
+          "objection_ko": "פאה의 흔한 뜻은 ‘모서리/변두리’(Jer.9.25·25.23 ‘변두리를 깎은 자’)이며 전통 역본 셋이 모두 지리적 해석이다."
+        },
+        {
+          "reading_ko": "모압의 경계(이편에서 저편까지) / the borders of Moab",
+          "argument_ko": "전통 역본 연속성; 땅의 정복(18절 ‘차지’)과 이어진다.",
+          "objection_ko": "‘쳐부수다’의 목적어로 국경은 어색하다."
+        }
+      ],
+      "preferred": "신체 해석(관자놀이) + 각주에 ‘경계’"
+    },
+    {
+      "id": "Num.24.17",
+      "question_ko": "וְקַרְקַ֖ר: MT ‘무너뜨리다’ 대 Jer.48.45 ‘정수리’",
+      "options": [
+        {
+          "reading_ko": "MT: 무너뜨리다 / tear down / derribar",
+          "argument_ko": "핀 고정 MT의 모음과 OSHB 분석(필펠 완료)을 그대로 따른다. Isa.22.5 같은 어근 용례가 있다.",
+          "objection_ko": "앞 반절의 신체 그림(관자놀이)과 맞지 않고, Jer.48.45 평행은 명사 ‘정수리’다."
+        },
+        {
+          "reading_ko": "재구성: 정수리 / the skull (crown)",
+          "argument_ko": "평행법이 정연해진다(관자놀이 // 정수리). Jer.48.45와 Ps.68.22가 같은 그림을 쓴다.",
+          "objection_ko": "증언된 민수기 MT 독법이 아니다. 사마리아 오경 등의 독법을 이 세션에서 확인하지 못했다. 예레미야가 민수기를 인용하며 바꾸었을 수도 있다."
+        }
+      ],
+      "preferred": "MT 유지(무너뜨리다), 각주에 Jer.48.45 평행"
+    },
+    {
+      "id": "Num.24.17",
+      "question_ko": "בְּנֵי־שֵֽׁת: 셋의 자손 / 소란의 자손 / 민족명",
+      "options": [
+        {
+          "reading_ko": "셋의 (모든) 자손 / the sons of Seth / los hijos de Set",
+          "argument_ko": "MT 자음·모음이 Gen.4.25와 같다. 선정본 관례(셋/Seth/Set)와 일치한다. 번역이 해석을 고르지 않는다.",
+          "objection_ko": "영어·스페인어 독자는 ‘아담의 아들 셋의 자손 = 온 인류’로 읽게 된다. 평행법(모압)과 18절(에돔)은 지역 민족을 가리킨다."
+        },
+        {
+          "reading_ko": "소란의(요란한) 자손 / sons of tumult (모음 재부여 שאת, Jer.48.45 שאון 평행)",
+          "argument_ko": "Jer.48.45 평행; 개역·ASV 전통; 모압 사람의 별칭으로 평행법이 맞는다.",
+          "objection_ko": "MT 모음을 바꾸는 재해석이다."
+        },
+        {
+          "reading_ko": "셋 족속(별개의 민족명) / Sheth (Shethites)",
+          "argument_ko": "평행법상 모압 근처의 민족 이름일 가능성. 이집트 문헌의 민족명과 연결하는 학설이 보고된다.",
+          "objection_ko": "그 문헌 증거는 이 세션에서 확인하지 못했다. 구약 안에 이 민족명의 다른 용례가 없다."
+        }
+      ],
+      "preferred": "셋 / Seth / Set (MT 형태), 필수 각주"
+    },
+    {
+      "id": "Num.24.18",
+      "question_ko": "אֹיְבָ֑יו: 동격 / 행위자 / 재배열",
+      "options": [
+        {
+          "reading_ko": "동격: ‘그의 원수들인 세일’ / Seir, his enemies",
+          "argument_ko": "יְרֵשָׁ֛ה가 절대형이므로 연계 구문이 불가하다. 개역·ASV 방향.",
+          "objection_ko": "리듬이 비대칭이며, ‘그’가 누구인지 열려 있다."
+        },
+        {
+          "reading_ko": "행위자: ‘그의 원수들에게 차지된다’ (RV1909)",
+          "argument_ko": "에돔·세일이 이스라엘(그)의 원수에게 넘어간다는 독해.",
+          "objection_ko": "전치사(ל)가 없고 절대형 다음이라 문법 근거가 없다. 문맥(이스라엘의 승리)과도 맞지 않는다."
+        },
+        {
+          "reading_ko": "19절로 옮기는 재배열(추정)",
+          "argument_ko": "운율을 정돈한다.",
+          "objection_ko": "증언 근거가 없는 재구성이다."
+        }
+      ],
+      "preferred": "동격"
+    },
+    {
+      "id": "Num.24.18",
+      "question_ko": "עֹ֥שֶׂה חָֽיִל: 용맹 대 부",
+      "options": [
+        {
+          "reading_ko": "용맹을 떨치다 / acts valiantly / actúa con valentía",
+          "argument_ko": "정복 신탁 문맥; 전통 역본 셋 모두 이 방향.",
+          "objection_ko": "Deut.8.18은 같은 표현을 ‘재물을 얻다’로 쓴다."
+        },
+        {
+          "reading_ko": "부를 얻다 / gains wealth",
+          "argument_ko": "‘차지(ירשה)’와 의미 연결; Deut.8.18.",
+          "objection_ko": "전쟁 문맥에서 약하다."
+        }
+      ],
+      "preferred": "용맹을 떨치다"
+    },
+    {
+      "id": "Num.24.19",
+      "question_ko": "וְיֵ֖רְדְּ מִֽיַּעֲקֹ֑ב: 주어 보충과 법",
+      "options": [
+        {
+          "reading_ko": "야곱에게서 한 사람이 다스리고 / One from Jacob will rule",
+          "argument_ko": "OSHB lemma רדה, Ps.72.8 같은 형태. 주어를 최소한으로 보충한다.",
+          "objection_ko": "지시형의 기원 뉘앙스(‘다스리기를’)를 잃는다."
+        },
+        {
+          "reading_ko": "그가 야곱에게서 다스리기를 (기원)",
+          "argument_ko": "지시형을 그대로 살린다; 주어를 17절의 별/홀로 본다.",
+          "objection_ko": "예언적 미래 문맥과 법이 어긋나 보이며 ‘야곱에게서 다스린다’는 어색하다."
+        }
+      ],
+      "preferred": "야곱에게서 한 사람이 다스리고"
+    },
+    {
+      "id": "Num.24.19",
+      "question_ko": "מֵעִֽיר: 성읍 일반 대 지명",
+      "options": [
+        {
+          "reading_ko": "성읍에서 / from the city",
+          "argument_ko": "관사 없는 일반 명사로 읽으면 ‘(각) 성읍’의 생존자. 전통 역본 셋 모두 이 방향.",
+          "objection_ko": "어느 성읍인지 불명확하다."
+        },
+        {
+          "reading_ko": "이르(아르)에서 — 모압의 성읍 지명",
+          "argument_ko": "Num.21.28 ‘모압의 아르’, 22.36 ‘모압의 성읍(이르-모압)’이 가까운 문맥에 있다.",
+          "objection_ko": "모음 차이(עָר 대 עִיר)가 있고, 19절은 이미 에돔(18절) 쪽으로 옮겨 간 문맥일 수 있다."
+        }
+      ],
+      "preferred": "성읍에서 (각주에 지명 가능성)"
+    }
+  ],
+  "strongest_objection_to_own_reading": {
+    "target": "Num.24.17b: keeping MT forms 'tear down' + 'sons of Seth/Set/셋' while rendering פאתי as 'temples'",
+    "objection_ko": "이 검토는 17절 앞 반절에서는 신체 그림(관자놀이)을 택하면서 뒤 반절에서는 MT의 동사 ‘무너뜨리다’와 형태 ‘셋’을 유지한다. 그러면 평행 반절이 서로 다른 그림이 된다. 더 강한 반론은 이렇다: Jer.48.45 וַתֹּ֨אכַל֙ פְּאַ֣ת מוֹאָ֔ב וְקָדְקֹ֖ד בְּנֵ֥י שָׁאֽוֹן는 같은 이미지 묶음(모압의 פאת + 정수리 + ‘…의 자손’)을 보존하는 증언된 본문이며, Ps.68.22 יִמְחַץ֮ רֹ֤אשׁ אֹ֫יְבָ֥יו קָדְקֹ֥ד שֵׂעָ֑ר도 מחץ + 정수리 결합을 보여 준다. 따라서 원래 이미지는 ‘모압의 관자놀이와 (소란의) 자손의 정수리를 부순다’였을 가능성이 크고, 영어·스페인어의 ‘Seth/Set’는 대부분의 독자에게 ‘인류 전체’라는, 평행법이 지지하지 않는 의미를 전달한다.",
+    "test_ko": "절별 시험: (a) 동사: MT וְקַרְקַ֖ר는 OSHB가 동사로 분석하며, 같은 어근 Isa.22.5 מְקַרְקַ֥ר קִ֖ר가 있다. 이 해석은 문법적으로 성립한다. (b) Jer.48.45는 민수기 21:28과 24:17을 함께 섞어 재사용하는 본문(같은 절 안에 אֵ֞שׁ יָצָ֣א מֵחֶשְׁבּ֗וֹן ‘불이 헤스본에서 나와’가 Num.21.28 אֵשׁ֙ יָֽצְאָ֣ה מֵֽחֶשְׁבּ֔וֹן와 대응)이므로, 그 차이가 예레미야의 재사용인지 민수기 본문의 원형인지 이 패킷으로는 결정할 수 없다. (c) 사마리아 오경·칠십인역 등 독립 증거는 이 세션에서 접근하지 못했다. (d) ‘셋’ 철자: 히브리어 형태가 Gen.4.25와 같으므로 한 언어에서만 다른 철자를 쓰는 것은 해석을 숨기는 일이다.",
+    "result_ko": "결론: MT를 번역문에 유지하고, 각주에서 ‘정수리’ 재구성과 ‘소란의 자손’ 재해석, 그리고 ‘셋’이 모압과 평행한 집단명일 가능성을 반드시 밝힌다. 다만 반론의 무게가 크므로 확신은 ‘중하’로 낮추고, 독립 고대 역본 증거가 확인되면 재고한다."
+  },
+  "secondary_objections": [
+    {
+      "target": "Num.24.15 ‘눈이 열린’",
+      "objection_ko": "개역·ASV 전통(닫힌)과 정반대이며, 어휘 근거가 문맥뿐이다. 독자가 기존 성경과 비교하면 혼란을 겪는다.",
+      "response_ko": "필수 각주로 두 해석을 병기한다. 16절 평행이 ‘열린’을 더 잘 지지한다."
+    },
+    {
+      "target": "Num.24.17 ‘나아오다/march forth/avanzar’",
+      "objection_ko": "전통 ‘나오다’가 더 자연스럽고 메시아 본문으로 익숙한 표현이다.",
+      "response_ko": "의미 차이가 크지 않으므로 편집이 연속성을 택하면 ‘나오다/come forth/saldrá’로 바꿔도 무방하다."
+    },
+    {
+      "target": "Num.24.17 ‘그를’",
+      "objection_ko": "‘그를’은 인물(메시아)을 미리 정한다. ‘그것을’(환상/사건)로 둘 수 있다.",
+      "response_ko": "남성 접미이며 뒤의 별·홀이 인격화되므로 ‘그를/him/lo’ 유지. 스페인어 ‘lo’는 양쪽 모두 가능하다."
+    }
+  ],
+  "preferred_wording": [
+    {
+      "id": "Num.24.15",
+      "ko": "그가 신탁을 읊어 말하였다. “브올의 아들 발람의 신탁, 눈이 열린 사람의 신탁,",
+      "en": "Then he took up his oracle and said: “The oracle of Balaam son of Beor, the oracle of the man whose eye is opened,",
+      "es": "Entonces pronunció su oráculo y dijo: «Oráculo de Balaam hijo de Beor, oráculo del hombre de ojo abierto,",
+      "reason_ko": "24:3과 낱말 단위로 같은 문장이므로 24:3 번역과 반드시 일치시켜야 한다. בְּנ֣וֹ בְעֹ֔ר는 ‘브올의 아들’(옛 연계형 어미). 주어는 24:12-14의 화자 발람이므로 ‘그가’로 충분하다. שְׁתֻ֥ם는 16절 평행에 따라 ‘열린’.",
+      "counterargument_ko": "개역·ASV 전통 ‘눈을 감았던/closed’; 재분절 ‘온전한 눈’.",
+      "current_opinion_ko": "유지(필수 각주).",
+      "reconsider_if_ko": "고대 역본 증거나 셈어 비교 증거가 ‘닫힌’ 의미를 분명히 지지하면 ‘눈이 감긴(닫힌) 사람’으로 바꾸고 16절과의 대조를 각주로 설명한다."
+    },
+    {
+      "id": "Num.24.16",
+      "ko": "하나님의 말씀을 듣는 자, 지극히 높으신 이의 지식을 아는 자, 전능자의 환상을 보는 자, 엎드러진 채 눈이 열린 자의 신탁이다.",
+      "en": "the oracle of one who hears the words of God and knows the knowledge of the Most High, who sees the vision of the Almighty, falling down, with eyes uncovered:",
+      "es": "oráculo del que oye las palabras de Dios y conoce el conocimiento del Altísimo, del que ve la visión del Todopoderoso, postrado y con los ojos descubiertos:",
+      "reason_ko": "נְאֻ֗ם ‘…의 신탁’을 ko에서는 절 끝에 한 번 맺었다. וְיֹדֵ֖עַ דַּ֣עַת עֶלְי֑וֹן는 24:4에 없는 추가 구절로 빠뜨리지 않았다. מַחֲזֵ֤ה שַׁדַּי֙ יֶֽחֱזֶ֔ה는 동족 목적어 구문(‘환상을 보다’). נֹפֵ֖ל는 대조 접속 없이 ‘엎드러진 채’.",
+      "counterargument_ko": "신명을 음역해야 한다는 반론; ‘엎드러졌으나’(대조)로 옮겨야 한다는 반론.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 שדי 전 구약 정책을 ‘샤다이’ 음역으로 정하면 ko ‘샤다이’, en ‘Shaddai’, es ‘Shadday’로 바꾼다. 24:4 번역(미검토)과 반드시 맞춘다."
+    },
+    {
+      "id": "Num.24.17",
+      "ko": "내가 그를 보나 지금은 아니며, 내가 그를 바라보나 가까이는 아니다. 야곱에게서 한 별이 나아오고, 이스라엘에게서 한 홀이 일어나, 모압의 양 관자놀이를 쳐부수고 셋의 모든 자손을 무너뜨릴 것이다.",
+      "en": "I see him, but not now; I behold him, but not near. A star will march forth from Jacob, and a scepter will rise from Israel; it will crush the temples of Moab and tear down all the sons of Seth.",
+      "es": "Lo veo, pero no ahora; lo contemplo, pero no de cerca. Una estrella avanzará desde Jacob, y un cetro se levantará desde Israel; aplastará las sienes de Moab y derribará a todos los hijos de Set.",
+      "reason_ko": "예언적 완료(דָּרַ֨ךְ)와 와우-완료(וְקָם, וּמָחַץ, וקרקר)를 미래로 옮겼다. ‘쳐부수고 … 무너뜨릴’의 주어는 홀(과 별). פַּאֲתֵ֣י는 쌍수이므로 ‘양 관자놀이’. וְקַרְקַ֖ר는 MT 동사. שֵֽׁת는 MT 형태를 Gen.4.25 선정본 관례대로.",
+      "counterargument_ko": "strongest_objection_to_own_reading 참조(Jer.48.45 ‘정수리’, ‘소란의 자손’, 지리적 ‘경계’). 메시아 수용사를 번역에 반영해야 한다는 반론(예: ‘그 별’).",
+      "current_opinion_ko": "유지하되 확신 중하; 각주 세 개(관자놀이/경계, 무너뜨리다/정수리, 셋/소란/민족명)를 필수로 붙인다.",
+      "reconsider_if_ko": "(1) 사마리아 오경·칠십인역·쿰란 등 독립 증거가 이 자리의 ‘정수리’ 독법을 확인하고 편집이 재구성 정책을 허용하면 ‘셋의 모든 자손의 정수리를’로 바꾼다. (2) 편집이 민족명 해석을 채택하면 en ‘Sheth’, es ‘Shet’, ko ‘셋 족속’과 각주로 바꾼다. (3) 전통 연속성을 택하면 ‘나아오고→나오고’, ‘march forth→come forth’."
+    },
+    {
+      "id": "Num.24.18",
+      "ko": "에돔은 남의 차지가 되고, 그의 원수들인 세일도 남의 차지가 될 것이나, 이스라엘은 용맹을 떨칠 것이다.",
+      "en": "Edom will become a possession; Seir, his enemies, will become a possession, while Israel acts valiantly.",
+      "es": "Edom será una posesión; Seir, sus enemigos, será una posesión, mientras Israel actúa con valentía.",
+      "reason_ko": "יְרֵשָׁ֗ה·יְרֵשָׁ֛ה는 절대형 명사 ‘차지된 것’; 차지하는 주체는 명시되지 않으나 문맥상 이스라엘/별의 인물. ko ‘남의 차지’는 주체를 명시하지 않으면서 수동적 의미를 살린다. אֹיְבָ֑יו는 세일과 동격. 마지막 ו는 대조(‘…이나/while’).",
+      "counterargument_ko": "RV1909식 행위자 해석; ‘부를 얻다’ 해석(Deut.8.18); ‘그의 원수들’을 19절로 옮기는 재배열.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 Deut.8.18 등과 함께 עשה חיל 정책을 ‘부를 얻다’로 통일하면 ‘이스라엘은 부를 얻을 것이다’로 바꾼다. ko ‘남의 차지’가 ‘원수에게 넘어감’으로 오해된다는 지적이 있으면 ‘정복되어 차지될 것이다’로 바꾼다."
+    },
+    {
+      "id": "Num.24.19",
+      "ko": "야곱에게서 한 사람이 다스리고, 성읍에서 살아남은 자들을 멸할 것이다.”",
+      "en": "One from Jacob will rule and destroy the survivors from the city.”",
+      "es": "Uno de Jacob dominará y destruirá a los que queden de la ciudad.»",
+      "reason_ko": "וְיֵ֖רְדְּ는 רדה ‘다스리다’ 지시형(Ps.72.8과 같은 형태). 주어 ‘한 사람’은 보충(히브리어에 없음). שָׂרִ֖יד는 집합적으로 ‘살아남은 자들’. מֵעִֽיר는 일반 명사 ‘성읍’. 신탁 인용은 여기서 닫힌다(20절은 새 서술).",
+      "counterargument_ko": "기원법 ‘다스리기를’; 지명 ‘이르/아르’; 개역의 ‘주권자’.",
+      "current_opinion_ko": "유지.",
+      "reconsider_if_ko": "편집이 지명 해석(Num.21.28 아르, 22.36 이르-모압)을 채택하면 ‘이르에서’와 각주. 지시형을 살리는 정책이면 ‘다스리게 되어’ 등으로 조정."
+    }
+  ],
+  "speech_boundaries_ko": "24:15 앞 반절 ‘그가 신탁을 읊어 말하였다’만 서술. 24:15 ‘브올의 아들 발람의 신탁’부터 24:19 끝까지 발람의 신탁(네 번째 신탁의 첫 부분). 24:20에서 새 서술이 시작되므로 인용은 19절에서 닫는다. 15-16절은 화자 소개(서두), 17-19절이 신탁 본문.",
+  "proposed_notes_ko": [
+    {
+      "id": "Num.24.15",
+      "note_ko": "‘눈이 열린’: 히브리어 낱말의 뜻이 불확실하다. 다음 절의 ‘눈이 열린’과의 평행에 따라 옮겼다. 전통적으로 ‘눈이 감긴(닫힌)’으로도 옮겨 왔다."
+    },
+    {
+      "id": "Num.24.16",
+      "note_ko": "‘하나님’, ‘지극히 높으신 이’, ‘전능자’는 각각 히브리어 엘, 엘욘, 샤다이다. ‘샤다이’의 어원은 확실하지 않다."
+    },
+    {
+      "id": "Num.24.17",
+      "note_ko": "‘양 관자놀이’: ‘양쪽 끝/경계’로도 읽을 수 있다(‘모압을 이편에서 저편까지’)."
+    },
+    {
+      "id": "Num.24.17",
+      "note_ko": "‘무너뜨릴’: 예레미야 48:45의 비슷한 문장은 이 자리에 ‘정수리’를 갖는다(‘…자손의 정수리를’). 이 번역은 민수기 히브리어 본문을 따랐다."
+    },
+    {
+      "id": "Num.24.17",
+      "note_ko": "‘셋의 모든 자손’: 히브리어 형태는 창세기 4:25의 셋과 같다. 그러나 모압과 짝을 이루므로 모압 쪽 민족을 가리키는 이름일 수 있으며, 예레미야 48:45에 따라 ‘소란한 자들의 자손’으로 옮기기도 한다."
+    },
+    {
+      "id": "Num.24.17",
+      "note_ko": "이 절의 ‘별’과 ‘홀’은 유대교와 기독교에서 메시아를 가리키는 말씀으로 읽혀 왔다. 번역문은 히브리어 표현을 그대로 옮겼다."
+    },
+    {
+      "id": "Num.24.18",
+      "note_ko": "‘그의 원수들인 세일’: 히브리어 낱말 ‘그의 원수들’이 세일 뒤에 붙어 있다. 세일은 에돔의 다른 이름이다."
+    },
+    {
+      "id": "Num.24.19",
+      "note_ko": "‘한 사람이’는 문맥상 보충한 말이다. ‘성읍’은 모압의 성읍 ‘아르/이르’를 가리킬 가능성도 있다(민수기 21:28; 22:36)."
+    }
+  ],
+  "editorial_consistency_findings": [
+    "Num.24.15-16은 Num.24.3-4와 거의 같은 서두다. 24:3-4(현재 대기열 단위 아님)는 이 검토의 문구와 낱말 단위로 맞춰야 한다. 24:4에는 ‘지극히 높으신 이의 지식을 아는 자’가 없고 אשר가 있다.",
+    "שתם 해석은 24:3과 24:15에서 반드시 같게 처리해야 한다.",
+    "שדי(전능자/샤다이)와 עֶלְיוֹן(지극히 높으신 이) 전 구약 정책이 필요하다. 이전 Claude 초안들은 ‘전능하신 하나님 / God Almighty / Dios Todopoderoso’ 계열을 쓴다.",
+    "שת 철자: 선정본 Gen.4.25·4.26·5.3(셋/Seth/Set)과 맞췄다. 민족명 해석을 택하면 여기서만 다른 철자를 써야 하므로 편집 결정이 필요하다.",
+    "Jer.48.45-46(미번역)은 이 절과 Num.21.28-29를 함께 재사용한다. 세 곳의 번역어(관자놀이/경계, 정수리, 소란의 자손)를 함께 결정해야 한다.",
+    "מָחַץ 번역어(쳐부수다/crush/aplastar)는 Num.24.8 끝의 같은 동사(מחץ, ‘부수다’)와 맞춰야 한다(24:8은 이 단위 밖)."
+  ],
+  "final_opinion_ko": "민수기 24:15-19는 어휘 하나(שְׁתֻ֥ם)와 17절 후반의 이미지 묶음(פַּאֲתֵ֣י, וְקַרְקַ֖ר, שֵֽׁת)이 핵심 난점이다. 이 검토는 MT를 번역문에 유지하고(눈이 열린 / 관자놀이 / 무너뜨리다 / 셋), 재구성과 재해석을 각주로 분리할 것을 제안한다. 15-16절과 18-19절은 확신이 비교적 높고, 17절 후반은 확신이 중하이다. 17절의 메시아적 수용은 번역문이 아니라 각주로 다룬다. 이 기록은 채택되지 않은 모델 검토이며, GPT·Gemini 독립 검토와 편집 채택 전에는 출간 본문이 아니다.",
+  "confidence_limits": [
+    "Lexical judgments on שתם, פאתי, קרקר and שת rest on in-canon usage visible in the pinned files read in this session (books listed in source.context_files_sha256 and network_access_log), not on a full-canon concordance or comparative Semitic evidence.",
+    "No ancient version (LXX, Samaritan Pentateuch, Targum, Vulgate, Qumran) was accessed; Sefaria was blocked (HTTP 403). Statements that some ancient versions read 'closed' or 'true' for שתם, or 'skull' for קרקר, are explicitly marked reported/unverified and are not used as evidence.",
+    "Reception-history statements (messianic reading) are general and were not source-verified in this session.",
+    "Confidence by verse: 24:15 medium (lexeme uncertain); 24:16 high; 24:17a high; 24:17b medium-low; 24:18 medium-high; 24:19 medium-high."
+  ],
+  "reconsider_if": [
+    "Independent ancient-version evidence (verified, with URL and excerpt) for Num.24.17 קדקד or for the meaning of שתם becomes available.",
+    "Editors adopt canon-wide policies for שדי, עֶלְיוֹן and עשה חיל.",
+    "Editors decide whether Jer.48.45, Num.21.28 and Num.24.17 share harmonized renderings.",
+    "Num.24.3-4 is reviewed; both openings must be aligned word for word."
+  ],
+  "unresolved": [
+    {
+      "id": "Num.24.15",
+      "issue_ko": "שְׁתֻ֥ם 의미(열린/닫힌/온전한) — 이 패킷의 증거로는 결정 불가."
+    },
+    {
+      "id": "Num.24.17",
+      "issue_ko": "MT וְקַרְקַ֖ר 대 Jer.48.45 וְקָדְקֹ֖ד: 원형 결정 불가; 사마리아 오경 등 독립 증거 미확인."
+    },
+    {
+      "id": "Num.24.17",
+      "issue_ko": "שֵֽׁת의 지시 대상(셋=인류 / 모압 쪽 민족명 / ‘소란’ 재해석) 미결."
+    },
+    {
+      "id": "Num.24.17",
+      "issue_ko": "פַּאֲתֵ֣י 신체 대 지리 해석: 이 검토는 신체를 택했으나 전통 역본 셋은 모두 지리."
+    },
+    {
+      "id": "Num.24.18",
+      "issue_ko": "אֹיְבָ֑יו의 ‘그’가 별의 인물인지 이스라엘인지 미결."
+    },
+    {
+      "id": "Num.24.19",
+      "issue_ko": "מֵעִֽיר가 일반 명사인지 지명(아르/이르)인지 미결."
+    }
+  ],
+  "publication_requires": [
+    "GPT review",
+    "Gemini review",
+    "current best editorial selection",
+    "versioned archive",
+    "publication checks"
+  ],
+  "not_claimed": [
+    "no manuscript collation or facsimile check",
+    "no LXX, Samaritan Pentateuch, Qumran, Targum, Vulgate or comparative Semitic text verified in this session",
+    "no GPT, Gemini, Antigravity or human review exists or is implied",
+    "no editorial adoption, certification or publication",
+    "no balance, dollar amount or credit deduction observed"
+  ],
+  "memo_ko": "automation/cloud-reviews/20261101T004601Z-4960f102.ko.md",
+  "branch": "claude/original-bible-hard-review-wse4lu",
+  "checks": {
+    "clauses_covered": "checked by hand per clause: 24:15 (took up oracle; said; oracle Balaam son of Beor; oracle of the man whose eye opened); 24:16 (oracle; hears words of El; knows knowledge of Elyon; sees vision of Shaddai; falling; eyes uncovered); 24:17 (see him not now; behold him not near; star march from Jacob; scepter rise from Israel; crush temples of Moab; tear down all sons of Sheth); 24:18 (Edom possession; Seir possession; his enemies; Israel does valiantly); 24:19 (rule from Jacob; destroy survivor; from city)",
+    "original_vs_interpretation_separated": "MT readings kept in text; reconstructions (Jer.48.45 skull, tumult repointing, resegmentation of שתם) and reception (messianic) only in alternatives/notes and labeled reported/unverified where not checked",
+    "authentic_attribution": "only Claude (this run, claude-opus-5-5 as requested/served label) and one other saved Claude run (num-23-18-24) are named; library editions are labeled as upstream public-domain texts",
+    "targets_exactly_once": true,
+    "initial_proposals_cover_targets": true,
+    "nonempty_ko_en_es": true,
+    "state_unadopted_model_review": true,
+    "unit_matches": true,
+    "source_file_sha256_matches_cache_and_packet": true,
+    "raw_fragments_verbatim_in_pinned_file_and_hashes_match": true,
+    "rights_match_packet": true,
+    "library_hashes_match_record": true,
+    "context_file_hashes_match": true,
+    "pointed_hebrew_tokens_checked": 90,
+    "pointed_hebrew_tokens_found_in_pinned_sources": true,
+    "unpointed_hebrew_labels": [
+      "איביו",
+      "אשר",
+      "באחרית",
+      "בנו",
+      "בני",
+      "הימים",
+      "ו",
+      "וקרקר",
+      "חיל",
+      "ירד",
+      "ירשה",
+      "ל",
+      "מחץ",
+      "משלו",
+      "ס",
+      "סתם",
+      "עליון",
+      "עשה",
+      "פאה",
+      "פאת",
+      "פאתי",
+      "צפר",
+      "קדקד",
+      "קרקר",
+      "רדה",
+      "ש",
+      "שאון",
+      "שאת",
+      "שדי",
+      "שת",
+      "שתם",
+      "תועפת",
+      "תם"
+    ],
+    "hand_typed_pointed_forms_reduced_to_unpointed_labels": [
+      "איביו",
+      "אשר",
+      "באחרית",
+      "בנו",
+      "בני",
+      "הימים",
+      "וקרקר",
+      "חיל",
+      "ירשה",
+      "משלו",
+      "עשה",
+      "פאה",
+      "פאת",
+      "פאתי",
+      "צפר",
+      "קרקר",
+      "ש",
+      "שאון",
+      "שאת",
+      "שדי",
+      "שת",
+      "שתם",
+      "תועפת",
+      "תם"
+    ],
+    "memo_contains_identical_preferred_wording": true,
+    "no_claimed_external_model_or_human_review": true,
+    "script": "session-local /tmp/chk/build.py + /tmp/chk/content.json + /tmp/chk/memo.md (not committed); results above computed at build time"
+  },
+  "word_ids_quoted": [
+    "01Gzy",
+    "01TNL",
+    "01ZcT",
+    "01aoZ",
+    "01drx",
+    "0411y",
+    "041Tt",
+    "041ZG",
+    "041at",
+    "042cw",
+    "043uc",
+    "044sL",
+    "045w5",
+    "046sB",
+    "047bU",
+    "04Ac3",
+    "04Ay5",
+    "04CNf",
+    "04DT3",
+    "04Evz",
+    "04FXv",
+    "04Fp2",
+    "04GCo",
+    "04GvP",
+    "04H8Q",
+    "04HMK",
+    "04HcT",
+    "04J53",
+    "04Ja4",
+    "04LX5",
+    "04MN9",
+    "04PBr",
+    "04PzU",
+    "04SH8",
+    "04SVR",
+    "04TF9",
+    "04Zpp",
+    "04aQ6",
+    "04b3m",
+    "04bED",
+    "04c4C",
+    "04fKn",
+    "04ffF",
+    "04hTL",
+    "04i1M",
+    "04i8v",
+    "04iVR",
+    "04igD",
+    "04jP6",
+    "04jRX",
+    "04kw4",
+    "04nzh",
+    "04o7G",
+    "04oXy",
+    "04qnJ",
+    "04s7c",
+    "04t8x",
+    "04tEN",
+    "04tFN",
+    "04uAt",
+    "04xb5",
+    "052W4",
+    "05DV1",
+    "05Uzr",
+    "07JCj",
+    "07ZUC",
+    "1914x",
+    "194jJ",
+    "19DwN",
+    "19XSs",
+    "19fGp",
+    "19geR",
+    "19iQj",
+    "19sxM",
+    "19v37",
+    "23Ae1",
+    "23e3V",
+    "24C4R",
+    "24CtL",
+    "24GiA",
+    "24Ksn",
+    "24NY1",
+    "24XhQ",
+    "24i5N",
+    "24otN",
+    "24vQN",
+    "33S83"
+  ]
+}
