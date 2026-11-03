@@ -1,6 +1,6 @@
 # Génesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.18
+Hansam Yang · Original Bible · v0.4.19
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -73,6 +73,10 @@ Previous v0.4.16
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
 Previous v0.4.17
+
+La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
+
+Previous v0.4.18
 
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
@@ -154,6 +158,10 @@ Previous v0.4.17
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
 
+Previous v0.4.18
+
+La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
+
 Previous v0.4.5
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
@@ -229,6 +237,10 @@ Previous v0.4.16
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
 Previous v0.4.17
+
+Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
+
+Previous v0.4.18
 
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
@@ -316,6 +328,10 @@ Previous v0.4.17
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
 
+Previous v0.4.18
+
+La serpiente dijo a la mujer: «Ciertamente no morirán.
+
 Previous v0.4.5
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
@@ -397,6 +413,10 @@ Previous v0.4.16
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
 Previous v0.4.17
+
+Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
+
+Previous v0.4.18
 
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
@@ -484,6 +504,10 @@ Previous v0.4.17
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
 
+Previous v0.4.18
+
+La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
+
 Previous v0.4.6
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
@@ -555,6 +579,10 @@ Previous v0.4.16
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
 Previous v0.4.17
+
+Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
+
+Previous v0.4.18
 
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
@@ -638,6 +666,10 @@ Previous v0.4.17
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
 
+Previous v0.4.18
+
+Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
+
 Previous v0.4.6
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
@@ -709,6 +741,10 @@ Previous v0.4.16
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
 Previous v0.4.17
+
+YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
+
+Previous v0.4.18
 
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
@@ -792,6 +828,10 @@ Previous v0.4.17
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
 
+Previous v0.4.18
+
+Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
+
 Previous v0.4.6
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
@@ -863,6 +903,10 @@ Previous v0.4.16
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
 Previous v0.4.17
+
+Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
+
+Previous v0.4.18
 
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
@@ -942,6 +986,10 @@ Previous v0.4.17
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
 
+Previous v0.4.18
+
+El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
+
 Previous v0.4.7
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
@@ -1009,6 +1057,10 @@ Previous v0.4.16
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
 Previous v0.4.17
+
+YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
+
+Previous v0.4.18
 
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
@@ -1088,6 +1140,10 @@ Previous v0.4.17
 
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
 
+Previous v0.4.18
+
+YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
+
 Previous v0.4.7
 
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
@@ -1161,6 +1217,10 @@ Previous v0.4.16
 Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
 
 Previous v0.4.17
+
+Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
+
+Previous v0.4.18
 
 Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
 
@@ -1240,6 +1300,10 @@ Previous v0.4.17
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
 
+Previous v0.4.18
+
+A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
+
 Previous v0.4.8
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
@@ -1312,6 +1376,10 @@ Previous v0.4.17
 
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
 
+Previous v0.4.18
+
+A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
+
 Previous v0.4.8
 
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
@@ -1375,6 +1443,10 @@ Previous v0.4.16
 Te producirá espinos y cardos, y comerás las plantas del campo.
 
 Previous v0.4.17
+
+Te producirá espinos y cardos, y comerás las plantas del campo.
+
+Previous v0.4.18
 
 Te producirá espinos y cardos, y comerás las plantas del campo.
 
@@ -1450,6 +1522,10 @@ Previous v0.4.17
 
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
 
+Previous v0.4.18
+
+Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
+
 Previous v0.4.8
 
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
@@ -1516,6 +1592,10 @@ Previous v0.4.17
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
 
+Previous v0.4.18
+
+El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
+
 Previous v0.4.8
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
@@ -1579,6 +1659,10 @@ Previous v0.4.16
 YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
 
 Previous v0.4.17
+
+YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
+
+Previous v0.4.18
 
 YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
 
@@ -1650,6 +1734,10 @@ Previous v0.4.17
 
 YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
 
+Previous v0.4.18
+
+YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
+
 Previous v0.4.9
 
 YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
@@ -1709,6 +1797,10 @@ Previous v0.4.16
 Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
 
 Previous v0.4.17
+
+Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
+
+Previous v0.4.18
 
 Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
 
@@ -1780,6 +1872,10 @@ Previous v0.4.17
 
 Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
 
+Previous v0.4.18
+
+Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
+
 Previous v0.4.9
 
 Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
@@ -1828,7 +1924,7 @@ Se distinguen enviar fuera y expulsar sin probar misión, desalojo legal ni viol
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.18. https://yangs777.github.io/hansam-bible/es/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

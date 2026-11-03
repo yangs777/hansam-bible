@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-03T00:40:40.461246+00:00",
+  "state": "textual_basis_review_for_provisional_WLC_selection",
+  "baseline": {
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY4.0"
+    },
+    "raw_fragments_checked": true
+  },
+  "comparison": {
+    "edition": "Henry Barclay Swete, The Old Testament in Greek according to the Septuagint, vol.I, Cambridge1901; third edition per imprint",
+    "source_url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n39/mode/2up",
+    "pdf_url": "https://archive.org/download/oldtestamentingr01swetuoft/oldtestamentingr01swetuoft.pdf",
+    "pdf_sha256": "dd1c57336905bdc66ec5bd101c5e6085489dad300460caa4947e9ed3fff0b57f",
+    "printed_page": 8,
+    "pdf_zero_based_page": 39,
+    "title_page_zero_based": 6,
+    "method": "Downloaded public scanned book; locally rendered printed page and title page visually inspected, not OCR alone.",
+    "rights": "1901 printed work public domain; archival scan supplied by University of Toronto/Internet Archive. No paid acquisition.",
+    "observed_main_text": {
+      "Gen.5.21": {
+        "age": 165,
+        "short_excerpt": "ἑκατὸν καὶ ἑξήκοντα πέντε"
+      },
+      "Gen.5.22": {
+        "years_after": 200,
+        "short_excerpt": "εὐηρέστησεν",
+        "finding": "The Greek printed verb expresses pleasing God; the displayed Hebrew has walking with God."
+      },
+      "Gen.5.23": {
+        "total": 365,
+        "short_excerpt": "τριακόσια ἑξήκοντα πέντε"
+      },
+      "Gen.5.24": {
+        "short_excerpts": [
+          "οὐχ ηὑρίσκετο",
+          "μετέθηκεν"
+        ],
+        "finding": "Printed main text includes not being found and God transferring him; the raw OCR omission of the verb is a digitization defect, not a verified ancient variant."
+      },
+      "Gen.5.25": {
+        "age": 187,
+        "short_excerpt": "ὀγδοήκοντα ἑπτὰ",
+        "finding": "This Swete printed main text has187. Do not describe all Septuagint editions as167."
+      }
+    },
+    "apparatus_limit": "Apparatus is visible but its sigla/corrector history have not been established in this audit. No firsthand manuscript attribution or reconstructed Greek original is claimed."
+  },
+  "selection_rationale_ko": "WLC의65·300·365·187을 현재 잠정 본문으로 유지한다. 실제 읽은 Swete1901 본문은165·200·365·187로,에녹 출생 전후 연수와 함께 걷다/기쁘게 하다에서 차이가 있다. 그리스어 번역·해석과 배후 히브리어 이문을 자동 동일시할 수 없고,이번에 확인한 자료만으로 더 이른 히브리어 읽기를 확정하거나 WLC 수치를 교체할 근거는 부족하다. 그러므로 재현 가능한 직접 히브리어 저본을 잠정 선택하면서 실재하는 대안을 주석에 밝힌다. 이는 WLC가 가장 이르다는 판정이 아니다.",
+  "strongest_objection_ko": "고대 그리스어 전통이 더 이른 다른 히브리어 연대 체계를 보존했을 가능성이 있다. 단일 레닌그라드 계열을 고정하는 것만으로 이를 배제할 수 없으므로 사본·비평장치 대조가 향후 수치 선택을 바꿀 수 있다.",
+  "access_gaps": [
+    "BHQ Genesis apparatus and Göttingen Genesis apparatus not inspected.",
+    "Samaritan Pentateuch and Dead Sea manuscripts not collated.",
+    "Rahlfs/Hanhart passage text not obtained from the publisher page in this run; no claim about its exact numbers.",
+    "Saved Gemini67/167 alternative claims remain unverified for their alleged witness attribution.",
+    "No earliest-manuscript reconstruction, historical chronology or human-specialist certification."
+  ],
+  "editorial_choices": [
+    "Keep 함께 걸었다/walked with/anduvo con rather than replace Hebrew wording with pleased God. 동행하였다 is a legitimate lexical alternative retained in Claude opinion.",
+    "Keep absence and taking without adding heaven,deathlessness,death or manner. Note that the death formula is absent; neutral wording can still be read as a death euphemism.",
+    "65+300=365 checks the selected Hebrew text internally only.",
+    "Keep Enoc/Matusalén/Lamec editorial spellings consistent; no name etymology or firstborn claim."
+  ]
+}

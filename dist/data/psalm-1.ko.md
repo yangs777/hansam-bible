@@ -1,6 +1,6 @@
 # 시편 1편
 
-Hansam Yang · Original Bible · v0.4.18
+Hansam Yang · Original Bible · v0.4.19
 
 AI 보조 번역 초안 · 원어·모국어 전문가 검수 전
 
@@ -87,6 +87,10 @@ Previous v0.4.16
 복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
 
 Previous v0.4.17
+
+복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
+
+Previous v0.4.18
 
 복되다, 그 사람은. 악인들의 조언을 따라 걷지 않고, 죄인들의 길에 서지 않으며, 비웃는 자들의 자리에 앉지 않는 사람.
 
@@ -200,6 +204,10 @@ Previous v0.4.17
 
 오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
 
+Previous v0.4.18
+
+오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
+
 Previous v0.4.2
 
 오히려 그의 기쁨은 YHWH의 가르침에 있고, 그분의 가르침을 밤낮으로 읊조린다.
@@ -307,6 +315,10 @@ Previous v0.4.16
 그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
 
 Previous v0.4.17
+
+그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
+
+Previous v0.4.18
 
 그는 물길들 곁에 심긴 나무와 같아서, 제때 열매를 내고 잎이 시들지 않는다. 그가 하는 모든 일이 잘 이루어진다.
 
@@ -420,6 +432,10 @@ Previous v0.4.17
 
 악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
 
+Previous v0.4.18
+
+악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
+
 Previous v0.4.2
 
 악인들은 그렇지 않다. 오히려 바람이 몰아내는 겨와 같다.
@@ -527,6 +543,10 @@ Previous v0.4.16
 그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
 
 Previous v0.4.17
+
+그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
+
+Previous v0.4.18
 
 그러므로 악인들은 심판에서 서지 못하며, 죄인들은 의인들의 회중 가운데 서지 못한다.
 
@@ -640,6 +660,10 @@ Previous v0.4.17
 
 YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
 
+Previous v0.4.18
+
+YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
+
 Previous v0.4.2
 
 YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 길은 멸망한다.
@@ -682,7 +706,7 @@ YHWH께서 의인들의 길을 아시기 때문이다. 그러나 악인들의 �
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.4.18. https://yangs777.github.io/hansam-bible/ko/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (ko), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/ko/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

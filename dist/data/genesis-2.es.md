@@ -1,6 +1,6 @@
 # Génesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.18
+Hansam Yang · Original Bible · v0.4.19
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -75,6 +75,10 @@ Previous v0.4.16
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
 Previous v0.4.17
+
+Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
+
+Previous v0.4.18
 
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
@@ -182,6 +186,10 @@ Previous v0.4.17
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
+Previous v0.4.18
+
+En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
+
 Previous v0.4.2
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
@@ -283,6 +291,10 @@ Previous v0.4.16
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
 Previous v0.4.17
+
+Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
+
+Previous v0.4.18
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
@@ -390,6 +402,10 @@ Previous v0.4.17
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
 
+Previous v0.4.18
+
+Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
+
 Previous v0.4.2
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
@@ -485,6 +501,10 @@ Previous v0.4.16
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
 Previous v0.4.17
+
+Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
+
+Previous v0.4.18
 
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
@@ -588,6 +608,10 @@ Previous v0.4.17
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
 
+Previous v0.4.18
+
+Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
+
 Previous v0.4.2
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
@@ -685,6 +709,10 @@ Previous v0.4.16
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
 Previous v0.4.17
+
+Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
+
+Previous v0.4.18
 
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
@@ -788,6 +816,10 @@ Previous v0.4.17
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
 
+Previous v0.4.18
+
+Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
+
 Previous v0.4.2
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
@@ -879,6 +911,10 @@ Previous v0.4.16
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
 Previous v0.4.17
+
+Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
+
+Previous v0.4.18
 
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
@@ -976,6 +1012,10 @@ Previous v0.4.17
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
 
+Previous v0.4.18
+
+Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
+
 Previous v0.4.2
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
@@ -1063,6 +1103,10 @@ Previous v0.4.16
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
 Previous v0.4.17
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
+
+Previous v0.4.18
 
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
@@ -1162,6 +1206,10 @@ Previous v0.4.17
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
 
+Previous v0.4.18
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
 Previous v0.4.2
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
@@ -1249,6 +1297,10 @@ Previous v0.4.16
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
 Previous v0.4.17
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
+
+Previous v0.4.18
 
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
@@ -1348,6 +1400,10 @@ Previous v0.4.17
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
 
+Previous v0.4.18
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
 Previous v0.4.2
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
@@ -1444,6 +1500,10 @@ Previous v0.4.17
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
 
+Previous v0.4.18
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
 Previous v0.4.2
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
@@ -1531,6 +1591,10 @@ Previous v0.4.16
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
 Previous v0.4.17
+
+Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
+
+Previous v0.4.18
 
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
@@ -1626,6 +1690,10 @@ Previous v0.4.17
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
 
+Previous v0.4.18
+
+pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
+
 Previous v0.4.3
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
@@ -1715,6 +1783,10 @@ Previous v0.4.16
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
 
 Previous v0.4.17
+
+Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
+
+Previous v0.4.18
 
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
 
@@ -1810,6 +1882,10 @@ Previous v0.4.17
 
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
 
+Previous v0.4.18
+
+Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
+
 Previous v0.4.3
 
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
@@ -1893,6 +1969,10 @@ Previous v0.4.16
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
 
 Previous v0.4.17
+
+El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
+
+Previous v0.4.18
 
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
 
@@ -1988,6 +2068,10 @@ Previous v0.4.17
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
 
+Previous v0.4.18
+
+YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
+
 Previous v0.4.4
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
@@ -2076,6 +2160,10 @@ Previous v0.4.17
 
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
 
+Previous v0.4.18
+
+YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
+
 Previous v0.4.4
 
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
@@ -2155,6 +2243,10 @@ Previous v0.4.16
 El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
 
 Previous v0.4.17
+
+El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
+
+Previous v0.4.18
 
 El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
 
@@ -2246,6 +2338,10 @@ Previous v0.4.17
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
 
+Previous v0.4.18
+
+Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
+
 Previous v0.4.4
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
@@ -2328,6 +2424,10 @@ Previous v0.4.17
 
 El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
 
+Previous v0.4.18
+
+El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
+
 Previous v0.4.4
 
 El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
@@ -2390,7 +2490,7 @@ El v. 25 expresa ausencia de vergüenza sin añadir entre sí. Siguen abiertas l
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.18. https://yangs777.github.io/hansam-bible/es/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

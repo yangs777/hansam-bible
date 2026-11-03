@@ -1,6 +1,6 @@
 # 원문성경 / Original Bible
 
-**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.4.13**
+**최초 기획·제작자: Hansam Yang** · Current best research edition **v0.4.19**
 
 [본문 읽기](https://yangs777.github.io/hansam-bible/) · [공개 데이터](https://yangs777.github.io/hansam-bible/data/) · [운영 전략](STRATEGY.ko.md)
 
@@ -8,7 +8,9 @@
 
 각 언어에서 현재 근거에 따른 최선의 번역을 읽고, 더 좋은 증거가 나오면 갱신하는 공개 성경 연구 프로젝트입니다. 이전 이름은 Hansam Bible이며 기존 주소와 구절 식별자는 유지합니다. Hansam Yang은 현대 프로젝트의 최초 기획자·제작자이며 고대 성경의 저자라는 뜻이 아닙니다.
 
-The pilot contains Genesis 1:1–31, Genesis 2:1–25, Genesis 3:1–24, Genesis 4:1–21, Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: one hundred and eleven unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
+The pilot contains Genesis 1:1–31, Genesis 2:1–25, Genesis 3:1–24, Genesis 4:1–26, Genesis 5:1–25, Psalm 1:1–6, Numbers 6:24–26 and Deuteronomy 32:8: 141 unique verses with selected Korean, English and Spanish translations. Current selections remain revisable AI-assisted research drafts, with specialist and native-language review pending. Original Bible is the project name, not certification that an autograph has been recovered.
+
+Genesis 5:21–25 preserves the provisional WLC reading and a documented comparison with the visually inspected scan of Swete's 1901 Greek edition, volume I, printed page 8. WLC 65/300/365/187 and the printed Greek 165/200/365/187 are distinguished. This is a printed-edition comparison, not ancient-manuscript collation or proof of the earliest Hebrew wording. The edition retains actual GPT/Gemini proposals, final agy review and the earlier Claude Code difficult-passage opinion for 5:21–24.
 
 ## Compare the selected text with actual model proposals
 

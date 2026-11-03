@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.19 — 2026-11-03
+
+- Added Genesis 5:21–25 in three languages: 141 selected verses / 423 translations.
+- Reused saved independent GPT/Gemini proposals and the actual Claude Code difficult-passage review of 5:21–24; preserved the new official agy final comparison and editorial objections.
+- Visually checked Swete 1901 volume I, printed page 8: 165/200/365/187 versus provisional WLC 65/300/365/187. The printed 5:24 verb and 5:23 final five resolve the earlier raw-OCR gaps; apparatus sigla and ancient manuscripts remain uncollated.
+- Preserved Enoch's walking, absence and divine taking without adding destination, manner or death status. Earlier 136 selections, Hebrew layers and 22 release ZIPs remain unchanged.
+
 ## 0.4.13 — 2026-10-28
 
 - Added Genesis4:17–21 in three languages:111 selected verses /333 translations.
