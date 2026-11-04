@@ -112,7 +112,12 @@ for lang in ('ko','en','es'):
         assert 'ORIGINAL BIBLE' in s and 'gemini-' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
-assert len(pages)==13+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3
+chapter_sources=json.loads((R/'data/chapter-sources.json').read_text(encoding='utf-8'))
+source_pages={D/'sources'/'index.html'} | {D/'sources'/c['slug']/suffix for c in chapter_sources['chapters'] for suffix in ('index.html','photos/index.html')}
+assert all(p.resolve() in pages for p in source_pages)
+assert len(pages)==13+len(E)*3+len(json.loads((R/'data/genesis-guides.json').read_text(encoding='utf-8')))*3+len(source_pages)
+for line in (D/'sources/checksums.sha256').read_text().splitlines():
+    digest,name=line.split('  ',1); assert hashlib.sha256((D/name).read_bytes()).hexdigest()==digest
 support_config=json.loads((R/'support.json').read_text(encoding='utf-8'))
 for lang in ('ko','en','es'):
     support_html=(D/lang/'support/index.html').read_text(encoding='utf-8')

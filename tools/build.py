@@ -6,6 +6,7 @@ import search_pages
 import reader
 import updates
 import support
+import chapter_sources
 R=pathlib.Path(__file__).resolve().parents[1]; D=R/'dist'; D.mkdir(exist_ok=True)
 C=json.loads((R/'config.json').read_text(encoding='utf-8'))
 E=json.loads((R/'data/editorial.json').read_text(encoding='utf-8'))['passages']
@@ -26,7 +27,7 @@ def citation(p,lang):return f"Hansam Yang. Original Bible: {p['reference']} ({la
 def header(lang,path=''):
     t=L[lang]
     langs=''.join(f'<a lang="{k}" href="/{k}/{path}"'+(' aria-current="page"' if k==lang else '')+f'>{v["name"]}</a>' for k,v in L.items())
-    return f'''<a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang=='ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a><nav aria-label="Main"><a href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'}</a><a href="/{lang}/#passages">{t['home']}</a><a href="/data/">{t['data']}</a><a href="/updates/">{'업데이트' if lang=='ko' else 'Updates' if lang=='en' else 'Novedades'}</a><a href="/about/">{t['about']}</a><a href="https://original-bible-feedback.yangs7777.chatgpt.site/">{'의견함' if lang=='ko' else 'Feedback' if lang=='en' else 'Comentarios'}</a></nav><div class="languages" aria-label="Languages">{langs}</div></header>'''
+    return f'''<a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang=='ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a><nav aria-label="Main"><a href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'}</a><a href="/{lang}/#passages">{t['home']}</a><a href="/data/">{t['data']}</a><a href="/sources/">{'원문·사진' if lang=='ko' else 'Text / photos' if lang=='en' else 'Texto / fotos'}</a><a href="/updates/">{'업데이트' if lang=='ko' else 'Updates' if lang=='en' else 'Novedades'}</a><a href="/about/">{t['about']}</a><a href="https://original-bible-feedback.yangs7777.chatgpt.site/">{'의견함' if lang=='ko' else 'Feedback' if lang=='en' else 'Comentarios'}</a></nav><div class="languages" aria-label="Languages">{langs}</div></header>'''
 def footer(lang):
     t=L[lang]
     return f'''<footer>{support.footer(lang)}<div class="footer-brand">ORIGINAL BIBLE <span>v{VERSION}</span></div><p>{t['author']}: <a href="/about/">Hansam Yang</a></p><p>{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 · {t['terms']}</a> · <a href="{C['repository']}">GitHub</a> · <a href="/data/">JSON / JSONL / Markdown</a></p><small>{t['privacy']}</small></footer>'''
@@ -58,7 +59,7 @@ def study(p,lang):
     if 'variant' in p:
         a=p['variant']; variant=f'''<section class="variant"><p class="eyebrow">{t['variant']}</p><p class="hebrew" lang="he" dir="rtl">{a['hebrew']}</p><p>{a[lang]}</p><small>{a['witness']} · {t['pending']}</small><p><a href="{a['source']}">Emanuel Tov (2023), TheTorah.com ↗</a></p></section>'''
         md.extend(['## Reported comparison reading — NOT a complete 4Q37 verse',a['hebrew'],a[lang],a['status'],a['source']])
-    chapter_links=search_pages.chapter_navigation(p,lang)
+    chapter_links=search_pages.chapter_navigation(p,lang)+chapter_sources.passage_links(p,lang)
     first_ref=p['verses'][0]['source'].split('.')
     compare_label={'ko':'다른 성경과 대조 · 본문 복사','en':'Compare Bibles / copy text','es':'Comparar Biblias / copiar texto'}[lang]
     chapter_links=f'<p><a class="text-link" href="/read/?book={first_ref[0]}&amp;chapter={first_ref[1]}&amp;left=original-{lang}&amp;right=krv">{compare_label} ↗</a></p>'+chapter_links
@@ -114,6 +115,7 @@ schema={'$schema':'https://json-schema.org/draft/2020-12/schema','$id':url('/dat
 write('data/schema.json',js(schema)+'\n')
 search_pages.build(page,write,C,E,H,TRACES)
 support.build(page)
+chapter_sources.build(page,write,C,E,H)
 reader.build(page,write,C,E,H)
 updates.build(page,write,C,E)
 indexnow=json.loads((R/'automation/indexnow.json').read_text(encoding='utf-8'))

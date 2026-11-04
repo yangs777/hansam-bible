@@ -3,6 +3,7 @@ import hashlib
 import json
 import pathlib
 import shutil
+import chapter_sources
 
 R = pathlib.Path(__file__).resolve().parents[1]
 
@@ -19,7 +20,7 @@ def build(page, write, config, passages, hebrew):
                 'he': hebrew[verse['source']]['hebrew'],
                 'study': {lang: f'/{lang}/{passage["slug"]}/#v{verse["number"]}' for lang in ('ko', 'en', 'es')},
             }
-    write('library/original.json', json.dumps({'version': config['version'], 'author': config['author'], 'records': records}, ensure_ascii=False) + '\n')
+    write('library/original.json', json.dumps({'version': config['version'], 'author': config['author'], 'records': records, 'source_chapters': chapter_sources.reader_index()}, ensure_ascii=False) + '\n')
     for asset in ('reader.js', 'reader.css'):
         write('assets/' + asset, (R / 'tools' / asset).read_text(encoding='utf-8'))
     write('library/checksums.sha256', ''.join(hashlib.sha256(p.read_bytes()).hexdigest() + '  ' + p.relative_to(R / 'dist').as_posix() + '\n' for p in sorted(target.rglob('*.json'))))
@@ -36,7 +37,7 @@ def build(page, write, config, passages, hebrew):
       <details class="range-details"><summary>절 범위 · 이 장에서 찾기</summary><div class="range-controls"><label>시작 절<input id="from-verse" type="number" min="1" value="1"></label><span>—</span><label>끝 절<input id="to-verse" type="number" min="1" value="31"></label><button id="apply-range">범위 적용</button><button id="whole-chapter">장 전체</button><label class="chapter-filter">이 장에서 찾기<input id="chapter-filter" type="search" placeholder="단어 입력"></label></div></details>
     </div>
     <section id="paste-panel" hidden><h2>내 번역본 붙여넣기</h2><p>개역개정·새번역·NIV 등은 직접 보유한 본문을 붙여 넣어 대조할 수 있습니다. 절마다 줄을 바꾸고 <code>1 본문</code>처럼 적어 주세요. 번호가 없으면 시작 절부터 한 줄을 한 절로 읽습니다.</p><p><a href="http://holybible.or.kr/" target="_blank" rel="noopener">HolyBible에서 번역본 찾기 ↗</a> · <a href="https://bible.bskorea.or.kr/" target="_blank" rel="noopener">대한성서공회 ↗</a></p><label>붙여넣을 비교본<select id="paste-target"></select></label><label>이번 장의 본문<textarea id="paste-text" rows="5" placeholder="1 태초에…&#10;2 …"></textarea></label><div class="reader-actions"><button id="apply-paste">본문 적용</button><button id="clear-paste">붙여넣기 지우기</button><span id="paste-status" role="status"></span></div><p class="fine">이 내용은 현재 브라우저 메모리에만 남습니다. 서버 전송·자동 저장·공유 링크 포함을 하지 않으며 새로고침하면 지워집니다.</p></section>
-    <div class="reading-title"><div><p class="eyebrow" id="reference-eyebrow"></p><h2 id="chapter-title"></h2></div><div><button id="share-link">현재 위치 링크 복사</button><a id="feedback-link" href="https://original-bible-feedback.yangs7777.chatgpt.site/">이 구절 의견 남기기 ↗</a><span id="share-status" role="status"></span><input id="share-url" aria-label="현재 위치 공유 주소" readonly hidden></div></div>
+    <div class="reading-title"><div><p class="eyebrow" id="reference-eyebrow"></p><div class="chapter-title-line"><h2 id="chapter-title"></h2><nav id="chapter-source-links" class="chapter-source-links" aria-label="이 장의 사용 원문과 사진"></nav></div></div><div><button id="share-link">현재 위치 링크 복사</button><a id="feedback-link" href="https://original-bible-feedback.yangs7777.chatgpt.site/">이 구절 의견 남기기 ↗</a><span id="share-status" role="status"></span><input id="share-url" aria-label="현재 위치 공유 주소" readonly hidden></div></div>
     <p id="reading-notice" class="reading-notice"></p>
     <div class="selection-tools"><span id="selection-count">선택 없음 · 표시한 범위 복사</span><button id="select-visible">표시된 절 선택</button><button id="clear-selection">선택 해제</button><button id="copy-quick" class="primary">선택·범위 복사</button><a href="#copy-panel">복사 형식 ↓</a><span id="quick-status" role="status"></span></div>
     <div id="verse-head" class="verse-head" aria-hidden="true"></div>

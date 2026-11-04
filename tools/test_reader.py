@@ -64,8 +64,11 @@ class ReaderTests(unittest.TestCase):
 
     @unittest.skipUnless(shutil.which('node'), 'Node.js not installed')
     def test_copy_formats_and_paste_validation(self):
-        script = '''import {parsePasted,formatRows,safeHTTP,missing} from './reader.mjs';
+        script = '''import {parsePasted,formatRows,safeHTTP,missing,chapterSource} from './reader.mjs';
 import assert from 'node:assert/strict';
+assert.equal(chapterSource({'Gen.1':{url:'/sources/gen-1/'}},'Gen',1).url,'/sources/gen-1/');
+assert.equal(chapterSource({'Gen.1':{url:'/sources/gen-1/'}},'Gen',6),null);
+assert.equal(chapterSource(undefined,'Gen',1),null);
 assert.deepEqual(parsePasted('1 First\\ncontinued\\n[3] Third',1,31),{'1':'First continued','3':'Third'});
 assert.deepEqual(parsePasted('First\\nSecond',5,31),{'5':'First','6':'Second'});
 assert.deepEqual(parsePasted('3)Third\\n[4]Fourth\\n5. Fifth',1,31),{'3':'Third','4':'Fourth','5':'Fifth'});

@@ -35,6 +35,7 @@ jobs:
         run: |
           python tools/verify.py
           python tools/test_reader.py
+          python tools/test_chapter_sources.py
       - name: Adapt links to the project subpath
         run: python tools/pages_mirror.py
       - uses: actions/upload-pages-artifact@v4

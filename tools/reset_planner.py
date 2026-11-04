@@ -147,7 +147,7 @@ def plan(current, previous, policy, events, now):
         result['reasons'].append('Policy disabled or ordinary included usage unavailable')
         return result
     minutes = {}
-    for window, reserve in [('primary', policy['primary_reserve_percent']), ('weekly', policy['weekly_reserve_percent'])]:
+    for window, reserve in [('weekly', policy['weekly_reserve_percent']), ('primary', policy['primary_reserve_percent'])]:
         minutes[window] = (timestamp(current[window]['resets_at'])-now).total_seconds()/60
         if minutes[window] <= 0:
             result['reasons'].append('Displayed reset passed; obtain a fresh live snapshot')
@@ -164,6 +164,21 @@ def plan(current, previous, policy, events, now):
         if current[window]['remaining_percent']-estimate-margin < reserve:
             result['reasons'].append(window + ' reserve cannot cover the estimated batch and safety margin')
             return result
+        if window == 'weekly' and policy.get('weekly_pacing_enabled'):
+            # Release the discretionary weekly budget gradually, rather than
+            # spending it every time a shorter 5-hour window approaches reset.
+            # Other account work also counts: this is an account-wide gate.
+            future_fraction = min(1.0, minutes['weekly'] / 10080)
+            paced_reserve = reserve + (100-reserve) * future_fraction
+            result['weekly_budget'] = {
+                'remaining_percent': current['weekly']['remaining_percent'],
+                'days_until_reset': round(minutes['weekly']/1440, 2),
+                'protected_remaining_percent': round(paced_reserve, 2),
+                'estimated_batch_and_margin_points': estimate+margin,
+                'basis': 'Weekly reserve plus time-proportional budget for the remaining week; account-wide, not task cost.'}
+            if current['weekly']['remaining_percent']-estimate-margin < paced_reserve:
+                result['reasons'].append('Weekly pacing budget is reserved for the remaining week; a primary reset alone cannot authorize spending it')
+                return result
     if minutes['primary'] <= policy['start_within_minutes_of_primary_reset'] or minutes['weekly'] <= policy['start_within_minutes_of_weekly_reset']:
         result['reasons'].append('Regular reset window')
     for event in events:

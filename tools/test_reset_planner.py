@@ -32,6 +32,23 @@ class ResetPlannerTests(unittest.TestCase):
         self.raw['rateLimitsByLimitId']['codex']['primary']['resetsAt'] = (self.now+dt.timedelta(minutes=60)).timestamp()
         self.assertTrue(self.decision()['start_batch'])
 
+    def test_weekly_pacing_protects_early_week_despite_primary_reset(self):
+        self.raw['rateLimitsByLimitId']['codex']['primary'].update(usedPercent=0, resetsAt=(self.now+dt.timedelta(minutes=60)).timestamp())
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=0, resetsAt=(self.now+dt.timedelta(days=7)).timestamp())
+        result=self.decision()
+        self.assertFalse(result['start_batch'])
+        self.assertIn('Weekly pacing',result['reasons'][0])
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=20, resetsAt=(self.now+dt.timedelta(days=3)).timestamp())
+        self.assertTrue(self.decision()['start_batch'])
+
+    def test_either_quota_can_veto_even_with_the_other_reset_due(self):
+        self.raw['rateLimitsByLimitId']['codex']['primary'].update(usedPercent=0, resetsAt=(self.now+dt.timedelta(minutes=30)).timestamp())
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=90, resetsAt=(self.now+dt.timedelta(minutes=60)).timestamp())
+        self.assertFalse(self.decision()['start_batch'])
+        self.raw['rateLimitsByLimitId']['codex']['secondary']['usedPercent']=0
+        self.raw['rateLimitsByLimitId']['codex']['primary']['usedPercent']=80
+        self.assertFalse(self.decision()['start_batch'])
+
     def test_verified_exact_upcoming_reset_moves_work(self):
         result = self.decision([self.event()])
         self.assertTrue(result['start_batch']); self.assertFalse(result['redeem_reset']); self.assertFalse(result['spend_cash'])

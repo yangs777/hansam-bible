@@ -17,6 +17,15 @@ const book = () => catalog.books.find(b=>b.id===state.book);
 const maximum = () => book().chapters[String(state.chapter)];
 const ref = () => `${book().name} ${state.chapter}:${state.from}${state.to===state.from?'':'-'+state.to}`;
 const pasteKey = id => `${id}/${state.book}/${state.chapter}`;
+export function chapterSource(index,book,chapter){return index?.[`${book}.${chapter}`]||null;}
+function sourceLinks(){
+  const panel=$('chapter-source-links'),entry=chapterSource(original.source_chapters,state.book,state.chapter);panel.replaceChildren();
+  if(!entry){const a=node('a','사용 원문 미등록 · 목록 ↗');a.href=safeHTTP('sources/');panel.append(a);return;}
+  panel.append(node('span','사용 원문: '+entry.label));
+  for(const [anchor,label] of [['basis','사용 원문·내역 ↗'],['photos',`사본 사진 ${entry.photo_count}면 ↗`]]){
+      const a=node('a',label);a.href=safeHTTP((anchor==='photos'?entry.photo_url:entry.url+'#'+anchor).replace(/^\//,''));panel.append(a);
+  }
+}
 function option(select,value,label){const o=node('option',label);o.value=value;select.append(o);}
 async function getJSON(path){
   // Share an in-flight request; drop failures so an explicit retry can fetch again.
@@ -54,7 +63,7 @@ async function render(){
   syncControls();updateURL();error('');$('reader-loading').hidden=false;$('reader-loading').textContent='본문을 불러오는 중입니다…';
   try{
     const cols=columns(),data=await Promise.all(cols.map(rowsFor));if(ticket!==request)return;
-    $('reference-eyebrow').textContent=`${state.book.toUpperCase()} / ${state.mode==='compare'?'VERSE COMPARISON':'READING'}`;$('chapter-title').textContent=`${book().name} ${state.chapter}장`;
+    $('reference-eyebrow').textContent=`${state.book.toUpperCase()} / ${state.mode==='compare'?'VERSE COMPARISON':'READING'}`;$('chapter-title').textContent=`${book().name} ${state.chapter}장`;sourceLinks();
     $('verse-head').style.setProperty('--columns',cols.length);$('verse-head').replaceChildren(node('span','절'),...cols.map(v=>node('span',v.label)));
     const filter=$('chapter-filter').value.trim().toLocaleLowerCase();const fragment=document.createDocumentFragment();
     for(let n=state.from;n<=state.to;n++){

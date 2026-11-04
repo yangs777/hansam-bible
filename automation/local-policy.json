@@ -3,6 +3,8 @@
   "batch_verses": 5,
   "primary_reserve_percent": 25,
   "weekly_reserve_percent": 35,
+  "quota_priority": ["weekly", "primary"],
+  "weekly_pacing_enabled": true,
   "start_within_minutes_of_primary_reset": 100,
   "start_within_minutes_of_weekly_reset": 180,
   "max_batches_per_wakeup": 1,
