@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "note": "Model-free leftover gate (tools/leftover_gate.py). Spend only weekly quota that would otherwise expire unused. Replaces the hourly model heartbeat check (automation-2 paused 2026-11-05).",
+  "weekly_reset_within_hours": 6,
+  "weekly_owner_reserve_points": 10,
+  "weekly_batch_cost_points": 5,
+  "primary_batch_cost_points": 20,
+  "owner_activity_lookback_minutes": 60,
+  "owner_activity_max_weekly_points": 3,
+  "min_minutes_between_batches": 60,
+  "max_batch_runtime_minutes": 150,
+  "rollout_snapshot_max_age_minutes": 20,
+  "bible_thread_ids": ["01a1682e-19d2-73d0-8052-2a8fc37204be"],
+  "bible_cwd_marker": "hansam-bible-pilot",
+  "launch": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "prompt_file": "automation/LEFTOVER-BATCH-PROMPT.md"
+  }
+}

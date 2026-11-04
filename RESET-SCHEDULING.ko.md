@@ -1,5 +1,22 @@
 # 공지·비정기 리셋에 맞춘 작업 일정
 
+## 2026-11-05 소유자 규칙: 버려질 주간 잔여만 쓴다 (현재 기준)
+
+매시간 모델로 돌던 확인(Codex 자동화 `automation-2`)은 일시중지했다. 대신 모델을 부르지 않는
+`tools/leftover_gate.py`를 Windows 작업 스케줄러 `HansamBible-LeftoverGate`가 30분마다 실행한다.
+사용량은 로컬 `codex app-server`의 `account/rateLimits/read`(모델 호출 없음)로 읽고, 실패하면
+최근 20분 안의 롤아웃 `rate_limits` 기록을 쓴다. 설정은 `automation/leftover-gate.json`.
+
+- 시작 조건: 주간 리셋까지 6시간 이하, 그리고 `주간 잔여 − 소유자 보류 10 ≥ 묶음 예상 5`.
+  주간 리셋 직전에는 35% 보호선을 적용하지 않는다(리셋되면 사라질 양이다).
+- 5시간 창은 속도 제한만: 5시간 잔여가 20 미만이면 건너뛴다. 5시간 리셋 임박만으로는 시작하지 않는다.
+- 최근 60분에 성경 외 스레드가 주간을 3포인트 넘게 올렸으면(소유자 사용 중) 건너뛴다.
+- 묶음이 실행 중이거나 시작 후 60분이 안 지났으면 건너뛴다. 묶음은 150분 뒤 강제 종료한다.
+- GO이면 새 작은 스레드로 `codex exec`를 실행해 `automation/LEFTOVER-BATCH-PROMPT.md`대로 5절 한 묶음만 처리한다.
+- 기록: `private/leftover-gate.log`, `private/leftover-gate-state.json`, `private/leftover-batches/`.
+- 끄기: `automation/leftover-gate.json`의 `enabled`를 false로 하거나 `Disable-ScheduledTask HansamBible-LeftoverGate`.
+- 아래의 `reset_planner.py` 판단(주간 35%·시간 비례 예산)은 기록용으로 남기며 자동 묶음 허가에는 쓰지 않는다.
+
 2026-10-25. 구현: `tools/reset_planner.py`. 설정: `automation/local-policy.json`.
 확인한 날짜·근거: `automation/reset-announcements.json`.
 
