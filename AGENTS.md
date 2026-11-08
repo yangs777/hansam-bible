@@ -1,5 +1,11 @@
 # Public update records
 
+## 한국어 신명 표기
+
+- 한국어 채택 번역과 독자 화면에서 신명은 ‘여호와’로 표기한다. 한국어 본문의 기존 YHWH·야훼·야웨 표기도 같은 규칙을 적용한다.
+- 원어 표기 설명이 필요하면 접힌 주석에서 `YHWH(יהוה)`를 제시한다. 영어·스페인어 번역은 각 언어의 기존 표기 규칙을 유지한다.
+- 과거 판본과 실제 모델 원문 응답은 기록 그대로 보존한다. 현행 한국어 번역 변경은 `tools/adopt.py`의 새 판본 채택 절차로 기록한다.
+
 ## Textual basis and witness selection
 
 - A pinned WLC/OSHB text is the reproducible Hebrew baseline; it is not proof of the earliest recoverable wording. Distinguish a manuscript, a scholarly edition, a digital transcription, a translation, and morphology annotations. Multiple websites reproducing WLC are not independent witnesses.

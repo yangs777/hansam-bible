@@ -1,6 +1,6 @@
 # Genesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.19
+Hansam Yang · Original Bible · v0.4.20
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -79,6 +79,10 @@ Previous v0.4.17
 Thus the heavens and the earth and all their host were completed.
 
 Previous v0.4.18
+
+Thus the heavens and the earth and all their host were completed.
+
+Previous v0.4.19
 
 Thus the heavens and the earth and all their host were completed.
 
@@ -190,6 +194,10 @@ Previous v0.4.18
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
+Previous v0.4.19
+
+On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
+
 Previous v0.4.2
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
@@ -298,6 +306,10 @@ Previous v0.4.18
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
+Previous v0.4.19
+
+God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
+
 Previous v0.4.2
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
@@ -340,7 +352,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-תולדות를 내력으로, ביום을 시간 구문으로 옮기고 마지막의 땅-하늘 순서를 보존한다. 뒤 구문은 다음 절로 이어진다.
+תולדות를 내력으로, ביום을 시간 구문으로 옮기고 마지막의 땅-하늘 순서를 보존한다. 뒤 구문은 다음 절로 이어진다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -406,6 +418,10 @@ Previous v0.4.18
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
 
+Previous v0.4.19
+
+This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
+
 Previous v0.4.2
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
@@ -448,7 +464,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-두 טרם과 이유절을 보존하며 אדם을 아직 고유명으로 확정하지 않는다.
+두 טרם과 이유절을 보존하며 אדם을 아직 고유명으로 확정하지 않는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-high
 
@@ -505,6 +521,10 @@ Previous v0.4.17
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
 Previous v0.4.18
+
+No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
+
+Previous v0.4.19
 
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
@@ -612,6 +632,10 @@ Previous v0.4.18
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
 
+Previous v0.4.19
+
+But a flow of water would rise from the earth and water the whole surface of the ground.
+
 Previous v0.4.2
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
@@ -654,7 +678,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-먼지의 출처와 콧구멍·생명의 숨·살아 있는 존재가 됨을 보존한다. נפש חיה를 살아 있는 존재로 옮긴다.
+먼지의 출처와 콧구멍·생명의 숨·살아 있는 존재가 됨을 보존한다. נפש חיה를 살아 있는 존재로 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -716,6 +740,10 @@ Previous v0.4.18
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
+Previous v0.4.19
+
+Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
+
 Previous v0.4.2
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
@@ -758,7 +786,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-נטע의 동산 식재와 מקדם의 공간 방향을 현재 선택한다. 에덴 안의 동산과 에덴 자체를 같은 이름으로 합치지 않는다.
+נטע의 동산 식재와 מקדם의 공간 방향을 현재 선택한다. 에덴 안의 동산과 에덴 자체를 같은 이름으로 합치지 않는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -820,6 +848,10 @@ Previous v0.4.18
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
 
+Previous v0.4.19
+
+Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
+
 Previous v0.4.2
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
@@ -862,7 +894,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-보기에 좋음과 먹기에 좋음, 두 나무의 이름을 보존한다. 가운데라는 위치는 생명나무에 직접 붙여 옮긴다.
+보기에 좋음과 먹기에 좋음, 두 나무의 이름을 보존한다. 가운데라는 위치는 생명나무에 직접 붙여 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -915,6 +947,10 @@ Previous v0.4.17
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
 Previous v0.4.18
+
+Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
+
+Previous v0.4.19
 
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
@@ -1016,6 +1052,10 @@ Previous v0.4.18
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
 
+Previous v0.4.19
+
+A river flowed out of Eden to water the garden; from there it divided into four branches.
+
 Previous v0.4.2
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
@@ -1107,6 +1147,10 @@ Previous v0.4.17
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
 Previous v0.4.18
+
+The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
+
+Previous v0.4.19
 
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
@@ -1210,6 +1254,10 @@ Previous v0.4.18
 
 The gold of that land is good; bdellium and shoham stone are there.
 
+Previous v0.4.19
+
+The gold of that land is good; bdellium and shoham stone are there.
+
 Previous v0.4.2
 
 The gold of that land is good; bdellium and shoham stone are there.
@@ -1301,6 +1349,10 @@ Previous v0.4.17
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
 Previous v0.4.18
+
+The name of the second river is Gihon; it flows around the whole land of Cush.
+
+Previous v0.4.19
 
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
@@ -1404,6 +1456,10 @@ Previous v0.4.18
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
 
+Previous v0.4.19
+
+The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
+
 Previous v0.4.2
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
@@ -1446,7 +1502,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-데려감·배치·일함과 지킴의 두 목적을 보존한다. 번역의 그것은 현재 동산을 가리키도록 선택한다.
+데려감·배치·일함과 지킴의 두 목적을 보존한다. 번역의 그것은 현재 동산을 가리키도록 선택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1504,6 +1560,10 @@ Previous v0.4.18
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
 
+Previous v0.4.19
+
+Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
+
 Previous v0.4.2
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
@@ -1546,7 +1606,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다.
+명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -1595,6 +1655,10 @@ Previous v0.4.17
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
 Previous v0.4.18
+
+Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
+
+Previous v0.4.19
 
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
@@ -1694,6 +1758,10 @@ Previous v0.4.18
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
 
+Previous v0.4.19
+
+but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
+
 Previous v0.4.3
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
@@ -1732,7 +1800,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다.
+상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1790,6 +1858,10 @@ Previous v0.4.18
 
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
+Previous v0.4.19
+
+Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
+
 Previous v0.4.3
 
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
@@ -1828,7 +1900,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-빚으시고·데려오심·명명의 서술 흐름을 일반 과거로 현재 선택한다. 집합·분배적 대명사를 각 언어에서 자연스럽게 풀어 쓴다.
+빚으시고·데려오심·명명의 서술 흐름을 일반 과거로 현재 선택한다. 집합·분배적 대명사를 각 언어에서 자연스럽게 풀어 쓴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1883,6 +1955,10 @@ Previous v0.4.17
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
 
 Previous v0.4.18
+
+Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
+
+Previous v0.4.19
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
 
@@ -1976,6 +2052,10 @@ Previous v0.4.18
 
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
+Previous v0.4.19
+
+The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
+
 Previous v0.4.3
 
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
@@ -2014,7 +2094,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-신체 문맥과 하나를 취하는 구문 및 BDB의 해당 용례를 참고해 갈빗대를 현재 채택한다.
+신체 문맥과 하나를 취하는 구문 및 BDB의 해당 용례를 참고해 갈빗대를 현재 채택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -2072,6 +2152,10 @@ Previous v0.4.18
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
 
+Previous v0.4.19
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
 Previous v0.4.4
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
@@ -2106,7 +2190,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-21절과 갈빗대 역어를 맞추고 בנה의 짓다 이미지를 지으시고/built/construyó로 보존한다. 한국어·스페인어는 재료 구문으로 자연스럽게 옮긴다.
+21절과 갈빗대 역어를 맞추고 בנה의 짓다 이미지를 지으시고/built/construyó로 보존한다. 한국어·스페인어는 재료 구문으로 자연스럽게 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -2161,6 +2245,10 @@ Previous v0.4.17
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
 
 Previous v0.4.18
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
+Previous v0.4.19
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
 
@@ -2247,6 +2335,10 @@ Previous v0.4.17
 The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
 Previous v0.4.18
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
+
+Previous v0.4.19
 
 The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
@@ -2342,6 +2434,10 @@ Previous v0.4.18
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
 
+Previous v0.4.19
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
 Previous v0.4.4
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
@@ -2428,6 +2524,10 @@ Previous v0.4.18
 
 The human and his wife were both naked, but they were not ashamed.
 
+Previous v0.4.19
+
+The human and his wife were both naked, but they were not ashamed.
+
 Previous v0.4.4
 
 The human and his wife were both naked, but they were not ashamed.
@@ -2490,7 +2590,7 @@ Verse 25 renders absence of shame without adding an explicit toward one another.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/en/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

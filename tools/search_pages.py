@@ -26,7 +26,8 @@ def build(page,write,C,E,H,traces):
             body+='<div class="notice">'+{'ko':'현재 최선의 채택 번역 · AI 보조 연구판 · 새 증거에 따라 갱신','en':'Current best selected translation · AI-assisted research edition · revisable','es':'Mejor traducción actual seleccionada · edición de investigación con IA · revisable'}[lang]+'</div>'
             for number in g['verses']:
                 vid=f'HYB.GEN.001.{number:03}'; trace=traces['records'][vid]
-                body+='<section><h2>Genesis 1:'+str(number)+'</h2><p class="hebrew" lang="he" dir="rtl">'+esc(H[f'Gen.1.{number}']['hebrew'])+'</p><p class="translation">'+esc(trace['selection']['translations'][lang])+'</p>'+review_layers.render(trace,lang)+'</section>'
+                heading={'ko':'창세기 1장 ','en':'Genesis 1:','es':'Génesis 1:'}[lang]+str(number)+('절' if lang=='ko' else '')
+                body+='<section><h2>'+heading+'</h2><p class="hebrew" lang="he" dir="rtl">'+esc(H[f'Gen.1.{number}']['hebrew'])+'</p><p class="translation">'+esc(trace['selection']['translations'][lang])+'</p>'+review_layers.render(trace,lang,C['version'])+'</section>'
             for section in g['sections']:
                 body+='<h2>'+esc(section['heading'][lang])+'</h2><p>'+esc(section['text'][lang])+'</p>'
             body+='<h2>'+{'ko':'출처와 추적','en':'Sources and traceability','es':'Fuentes y trazabilidad'}[lang]+'</h2><ul>'

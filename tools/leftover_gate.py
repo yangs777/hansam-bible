@@ -1,11 +1,10 @@
-"""Model-free gate: start one Bible batch only with weekly Codex quota that would expire unused.
+"""Model-free gate: reserve one daily Bible batch using reset_planner.
 
-Rule (owner, 2026-11-05):
-- GO only if the weekly window resets within N hours AND
-  weekly remaining - owner reserve >= estimated batch cost.
-- The 5-hour window is only a rate limiter (skip if its remaining < batch cost).
+Rule (owner, 2026-11-07):
+- Divide discretionary weekly quota over remaining days, minimum 15-point reserve.
+- Retain the 5-hour reserve and fixed safety margins, including for small batches.
 - Skip if the owner is actively using Codex (non-Bible weekly rise in the last hour).
-- No fixed 35% floor near the weekly reset: that quota disappears at reset anyway.
+- Shared daily ledger and OS lock prevent duplicate spending by timer entry points.
 
 Usage source: `codex app-server` RPC `account/rateLimits/read` (no model call),
 falling back to the newest `rate_limits` event in ~/.codex/sessions rollouts.
@@ -15,6 +14,7 @@ falling back to the newest `rate_limits` event in ~/.codex/sessions rollouts.
   python tools/leftover_gate.py --dry-run --simulate weekly_used=60,weekly_reset_hours=3
 """
 import argparse
+import contextlib
 import ctypes
 import datetime as dt
 import glob
@@ -25,6 +25,7 @@ import queue
 import subprocess
 import sys
 import threading
+from reset_planner import plan, DAILY_LEDGER, reserve_daily_budget
 
 R = pathlib.Path(__file__).resolve().parents[1]
 UTC = dt.timezone.utc
@@ -191,11 +192,11 @@ def pid_alive(pid):
         return False
 
 
-def decide(snap, activity, state, cfg, now):
+def decide(snap, activity, state, cfg, now, ledger=None, policy=None):
     """Pure decision. Returns dict with go (bool), reasons and the numbers used."""
     wk, pr = snap['weekly'], snap['primary']
     weekly_hours = (wk['resets_at'] - now).total_seconds() / 3600
-    primary_used = 0.0 if pr['resets_at'] <= now else pr['used']
+    primary_used = pr['used']
     weekly_remaining = 100 - wk['used']
     leftover = weekly_remaining - cfg['weekly_owner_reserve_points']
     numbers = {
@@ -211,19 +212,23 @@ def decide(snap, activity, state, cfg, now):
         'hours_to_primary_reset': round(max(0.0, (pr['resets_at'] - now).total_seconds() / 3600), 2),
         'non_bible_weekly_points_last_hour': activity['non_bible_weekly_points'],
     }
-    reasons = []
+    policy = policy or json.loads((R/'automation/local-policy.json').read_text(encoding='utf-8'))
+    # Both entry points use exactly the same allocation and reserve rules.
+    current = {'checked_at': snap['observed_at'].isoformat(), 'account_key': 'local-profile',
+               'pool': 'codex', 'ordinary_usage_allowed': snap['allowed'], 'banked': []}
+    for name in ('primary', 'weekly'):
+        current[name] = {'used_percent': snap[name]['used'], 'remaining_percent': 100-snap[name]['used'],
+                         'resets_at': snap[name]['resets_at'].isoformat()}
+    decision = plan(current, None, policy, [], now, ledger)
+    numbers.update(daily_budget=decision.get('daily_budget'), batch_verses=decision['batch_verses'],
+                   estimated_usage_points=decision.get('estimated_usage_points'))
+    numbers['owner_reserve'] = max(15, policy['weekly_reserve_percent'])
+    numbers['spendable_leftover'] = weekly_remaining-numbers['owner_reserve']
+    reasons = [] if decision['start_batch'] else list(decision['reasons'])
     if not cfg.get('enabled'):
         reasons.append('gate disabled in automation/leftover-gate.json')
     if not snap['allowed']:
         reasons.append('ordinary usage not allowed / limit reached')
-    if weekly_hours <= 0:
-        reasons.append('weekly reset already passed; need a fresh snapshot')
-    elif weekly_hours > cfg['weekly_reset_within_hours']:
-        reasons.append('weekly reset in %.1fh > %sh: leftover would not expire yet' % (weekly_hours, cfg['weekly_reset_within_hours']))
-    if leftover < cfg['weekly_batch_cost_points']:
-        reasons.append('weekly leftover %.0f after %s reserve < batch cost %s' % (leftover, cfg['weekly_owner_reserve_points'], cfg['weekly_batch_cost_points']))
-    if 100 - primary_used < cfg['primary_batch_cost_points']:
-        reasons.append('5h remaining %.0f < batch cost %s (rate limit)' % (100 - primary_used, cfg['primary_batch_cost_points']))
     if activity['non_bible_weekly_points'] > cfg['owner_activity_max_weekly_points']:
         reasons.append('owner active: non-Bible weekly +%.1f in last %s min' % (activity['non_bible_weekly_points'], cfg['owner_activity_lookback_minutes']))
     last = state.get('last_launch') or {}
@@ -233,7 +238,7 @@ def decide(snap, activity, state, cfg, now):
         since = (now - dt.datetime.fromisoformat(last['started_at'])).total_seconds() / 60
         if since < cfg['min_minutes_between_batches']:
             reasons.append('last batch started %.0f min ago (< %s)' % (since, cfg['min_minutes_between_batches']))
-    return {'checked_at': now.isoformat(), 'go': not reasons, 'reasons': reasons or ['expiring weekly leftover covers one batch'], 'numbers': numbers}
+    return {'checked_at': now.isoformat(), 'go': not reasons, 'reasons': reasons or decision['reasons'], 'numbers': numbers}
 
 
 def apply_simulation(snap, activity, spec, now):
@@ -293,17 +298,20 @@ def launch(decision, cfg, state, now):
     return code
 
 
-def main():
+def run():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='decide only; never start a batch')
     ap.add_argument('--simulate', default='', help='override numbers, e.g. weekly_used=60,weekly_reset_hours=3,primary_used=95,owner_points=5 (implies --dry-run)')
     ap.add_argument('--no-live', action='store_true', help='skip app-server read; use rollout snapshot only')
+    ap.add_argument('--reserve-only', action='store_true', help='reserve the one allowed batch for work in the current session; never launch another agent')
     args = ap.parse_args()
     cfg = load_json(R / 'automation/leftover-gate.json', None)
     if cfg is None:
         raise SystemExit('missing automation/leftover-gate.json')
     now = dt.datetime.now(UTC)
     state = load_json(STATE, {})
+    # A damaged ledger must stop work, never silently replenish an allowance.
+    ledger = json.loads(DAILY_LEDGER.read_text(encoding='utf-8')) if DAILY_LEDGER.exists() else {}
     events = rollout_events(now, cfg['owner_activity_lookback_minutes'] + 60)
     snap, err = None, None
     if not args.no_live:
@@ -311,6 +319,9 @@ def main():
             snap = live_rate_limits()
         except Exception as exc:  # fall back to rollouts
             err = '%s: %s' % (type(exc).__name__, exc)
+    # The live read stamps its response on completion. Compare against a later
+    # clock reading, including when a slow failed read falls back to rollouts.
+    now = dt.datetime.now(UTC)
     if snap is None:
         try:
             snap = rollout_snapshot(events, now, cfg)
@@ -321,15 +332,57 @@ def main():
     if args.simulate:
         snap, activity = apply_simulation(snap, activity, args.simulate, now)
         args.dry_run = True
-    decision = decide(snap, activity, state, cfg, now)
+    decision = decide(snap, activity, state, cfg, now, ledger)
     decision['dry_run'] = args.dry_run
     if err:
         decision['live_read_error'] = err
     print(json.dumps(decision, ensure_ascii=False, indent=2))
     _log(decision, args)
     if decision['go'] and not args.dry_run:
-        code = launch(decision, cfg, state, now)
-        _log({'checked_at': dt.datetime.now(UTC).isoformat(), 'batch_exit': code}, args)
+        budget = decision['numbers']['daily_budget']
+        charge = decision['numbers']['estimated_usage_points']['weekly']
+        save_json(DAILY_LEDGER, reserve_daily_budget(ledger, budget, charge))
+        if args.reserve_only:
+            state['last_launch'] = {'started_at': now.isoformat(), 'pid': None,
+                                    'mode': 'current_session', 'decision': decision['numbers']}
+            save_json(STATE, state)
+        else:
+            code = launch(decision, cfg, state, now)
+            _log({'checked_at': dt.datetime.now(UTC).isoformat(), 'batch_exit': code}, args)
+
+
+@contextlib.contextmanager
+def gate_lock():
+    """OS lock shared by hourly and legacy timer entry points; crash releases it."""
+    path = R/'private/daily-translation-gate.lock'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, 'a+b') as fh:
+        if fh.tell() == 0:
+            fh.write(b'0'); fh.flush()
+        fh.seek(0)
+        if os.name == 'nt':
+            import msvcrt
+            msvcrt.locking(fh.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(fh.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        try:
+            yield
+        finally:
+            fh.seek(0)
+            if os.name == 'nt':
+                msvcrt.locking(fh.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                fcntl.flock(fh.fileno(), fcntl.LOCK_UN)
+
+
+def main():
+    try:
+        with gate_lock():
+            run()
+    except (OSError, ValueError) as exc:
+        print(json.dumps({'go': False, 'reasons': ['Gate lock/state unavailable: '+str(exc)]}))
+        raise SystemExit(1)
 
 
 def _log(entry, args):

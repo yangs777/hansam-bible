@@ -45,7 +45,7 @@ LABELS={
  'en':('Current best selected translation','Model translations, final opinions and history','Selection rationale','Model','Proposed translation','Final opinion — Korean original','Previous selected wording','Edition data','Translation of the MT display'),
  'es':('Traducción seleccionada: mejor opción actual','Traducciones de modelos, opiniones finales e historial','Motivo de selección','Modelo','Traducción propuesta','Opinión final — original coreano','Redacción anterior','Datos de edición','Traducción del texto del TM')}
 
-def render(trace,lang):
+def render(trace,lang,version=None):
     s=trace['selection']; labels=LABELS[lang]; rows=[]
     for p in trace['model_proposals']:
         opinion=trace['model_final_opinions'].get(p['model'],{})
@@ -62,7 +62,11 @@ def render(trace,lang):
         body+='<p><strong>'+labels[6]+' · v'+esc(previous['version'])+'</strong>: '+esc(previous['translations'][lang])+' <a href="'+previous['archive_path']+'">'+labels[7]+' ↗</a></p>'
     if s.get('additional_review_status'):
         body+='<p class="fine" lang="ko">'+esc(s['additional_review_status'])+'</p>'
-    return '<p class="selection-label">'+labels[0]+' · v'+esc(s['version'])+'</p><details class="model-review"><summary>'+labels[1]+'</summary>'+body+'</details>'
+    summary={'ko':'번역 근거 · 검토 의견 · 이전판','en':'Translation notes, reviews and history','es':'Notas, revisiones e historial'}[lang]
+    label=''
+    if s['version']!=version or s.get('selection_status')!='current_best_provisional':
+        label='<p class="selection-label">'+labels[0]+' · v'+esc(s['version'])+'</p>'
+    return label+'<details class="model-review"><summary>'+summary+'</summary>'+body+'</details>'
 
 def markdown(trace,lang):
     s=trace['selection']; lines=['### '+LABELS[lang][0],s.get('reason',{}).get(lang,s['reason_ko'])]

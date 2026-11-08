@@ -34,7 +34,7 @@ async function getJSON(path){
 }
 function error(message){$('reader-error').hidden=!message;$('reader-error').replaceChildren();if(message){$('reader-error').append(node('span',message+' '));const retry=node('button','다시 불러오기');retry.onclick=()=>catalog?render():location.reload();$('reader-error').append(retry);}}
 function query(){
-  const p=new URLSearchParams({book:state.book,chapter:state.chapter,from:state.from,to:state.to,left:state.left,right:state.right,mode:state.mode});if(state.hebrew)p.set('hebrew','1');
+  const p=new URLSearchParams({book:state.book,chapter:state.chapter,from:state.from,to:state.to,left:state.left,right:state.right,mode:state.mode,hebrew:state.hebrew?'1':'0'});
   const u=new URL(location.href);u.search=p.toString();u.hash='';return u;
 }
 function updateURL(){history.replaceState(null,'',query());const feedback=new URL('https://original-bible-feedback.yangs7777.chatgpt.site/');feedback.searchParams.set('passage',`${state.book}.${state.chapter}.${state.from}–${state.to}`);$('feedback-link').href=feedback.href;}
@@ -50,7 +50,7 @@ function syncControls(){
   $('copy-source').querySelector('[value=right]').disabled=state.mode==='read';$('copy-source').querySelector('[value=both]').disabled=state.mode==='read';if(state.mode==='read')$('copy-source').value='left';
 }
 function loadPaste(){const v=$('paste-target').value;$('paste-text').value=v?(pasted.get(pasteKey(v))?.raw||''):'';$('paste-status').textContent='';}
-function columns(){return [version(state.left),...(state.mode==='compare'?[version(state.right)]:[]),...(state.hebrew?[{id:'he',label:'히브리어 · WLC 표시문',lang:'he',type:'original'}]:[])];}
+function columns(){return [version(state.left),...(state.mode==='compare'?[version(state.right)]:[]),...(state.hebrew?[{id:'he',label:'히브리어 원문',lang:'he',type:'original'}]:[])];}
 async function rowsFor(v){
   if(v.type==='paste')return pasted.get(pasteKey(v.id))?.rows||{};
   if(v.type==='library')return (await getJSON(`${v.id}/${state.book}.json`)).chapters[String(state.chapter)]||{};
@@ -63,7 +63,7 @@ async function render(){
   syncControls();updateURL();error('');$('reader-loading').hidden=false;$('reader-loading').textContent='본문을 불러오는 중입니다…';
   try{
     const cols=columns(),data=await Promise.all(cols.map(rowsFor));if(ticket!==request)return;
-    $('reference-eyebrow').textContent=`${state.book.toUpperCase()} / ${state.mode==='compare'?'VERSE COMPARISON':'READING'}`;$('chapter-title').textContent=`${book().name} ${state.chapter}장`;sourceLinks();
+    $('reference-eyebrow').textContent=state.mode==='compare'?'번역 대조':'본문 읽기';$('chapter-title').textContent=`${book().name} ${state.chapter}장`;sourceLinks();
     $('verse-head').style.setProperty('--columns',cols.length);$('verse-head').replaceChildren(node('span','절'),...cols.map(v=>node('span',v.label)));
     const filter=$('chapter-filter').value.trim().toLocaleLowerCase();const fragment=document.createDocumentFragment();
     for(let n=state.from;n<=state.to;n++){
@@ -76,7 +76,7 @@ async function render(){
     }
     $('verses').replaceChildren(fragment);$('empty-result').hidden=visible.length>0;
     const originalColumn=cols.some(v=>v.type==='original');const ownCount=Object.keys(original.records[state.book]?.[state.chapter]||{}).length;
-    $('reading-notice').textContent=(originalColumn?`원문성경 v${original.version} · 이 장의 공개 범위 ${ownCount}절. AI 보조 연구 초안 · 전문가 검수 전. `:'')+'절 번호 기준 대조입니다. 판본에 따라 절 구분과 본문 계열이 다를 수 있습니다.';
+    $('reading-notice').textContent=originalColumn?`원문성경 v${original.version} · 공개 ${ownCount}절 · AI 보조 초안 · 전문가 검수 전`:'절 번호 기준 대조 · 자세한 출처와 대조 기준은 아래에서 펼쳐 보세요.';
     $('copy-text').disabled=false;$('download-text').disabled=false;preview();
   }catch(e){if(ticket===request){error('본문을 불러오지 못했습니다. 연결을 확인하고 다시 시도해 주세요.');$('selection-count').textContent='본문을 불러오지 못했습니다';}}
   finally{if(ticket===request){$('reader-loading').hidden=true;$('reader').setAttribute('aria-busy','false');}}
@@ -148,7 +148,7 @@ async function init(){
     for(const b of catalog.books)option($('book'),b.id,`${b.testament==='OT'?'구약':'신약'} · ${b.name}`);
     for(const id of ['left-version','right-version'])for(const v of versions)option($(id),v.id,v.label);
     const q=new URLSearchParams(location.search),b=catalog.books.find(b=>b.id===q.get('book'))||catalog.books[0],c=Number(q.get('chapter'))||1,ch=Object.hasOwn(b.chapters,c)?c:1,max=b.chapters[ch],a=Math.max(1,Math.min(max,Number(q.get('from'))||1)),z=Math.max(a,Math.min(max,Number(q.get('to'))||max));
-    state={book:b.id,chapter:ch,from:Math.floor(a),to:Math.floor(z),left:version(q.get('left'))?q.get('left'):'original-ko',right:version(q.get('right'))?q.get('right'):'krv',mode:q.get('mode')==='read'?'read':'compare',hebrew:q.get('hebrew')==='1'};
+    state={book:b.id,chapter:ch,from:Math.floor(a),to:Math.floor(z),left:version(q.get('left'))?q.get('left'):'original-ko',right:version(q.get('right'))?q.get('right'):'krv',mode:q.get('mode')==='compare'||(!q.has('mode')&&q.has('right'))?'compare':'read',hebrew:q.get('hebrew')!=='0'};
     for(const v of catalog.versions){const p=node('p');p.append(node('strong',v.label),' — '+v.upstream_title+' · Public Domain · ');const a=node('a','배포처·권리 표기 ↗');a.href=safeHTTP(v.rights_url);p.append(a);$('source-list').append(p);}
     wire();$('reader-controls').hidden=false;await render();
   }catch(e){$('reader-loading').hidden=true;$('reader').setAttribute('aria-busy','false');error('성경 목록을 불러오지 못했습니다. 연결을 확인하고 다시 시도해 주세요.');}

@@ -2,6 +2,7 @@
 import argparse, copy, json, pathlib, re
 from datetime import timedelta, timezone
 import update_log
+import editorial_text
 
 R = pathlib.Path(__file__).resolve().parents[1]
 def read(path): return json.loads(path.read_text(encoding='utf-8'))
@@ -33,6 +34,8 @@ def adopt(decision_file, version):
         passage['verses'].extend(update.get('verses',[]))
         passage.update({k:v for k,v in update.items() if k not in ('id','verses')})
     verses = [v for p in proposed_passages for v in p['verses']]
+    for passage in proposed_passages:
+        editorial_text.passage_prose(passage)
     if len({v['id'] for v in verses})!=len(verses): raise ValueError('Duplicate existing/new verse IDs')
     if len(selected) != len(verses) or set(selected) != {v['id'] for v in verses}:
         raise ValueError('Supply exactly one selection for every current verse')

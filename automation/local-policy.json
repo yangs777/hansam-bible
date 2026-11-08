@@ -2,8 +2,11 @@
   "enabled": true,
   "batch_verses": 5,
   "primary_reserve_percent": 25,
-  "weekly_reserve_percent": 35,
-  "quota_priority": ["weekly", "primary"],
+  "weekly_reserve_percent": 15,
+  "quota_priority": [
+    "weekly",
+    "primary"
+  ],
   "weekly_pacing_enabled": true,
   "start_within_minutes_of_primary_reset": 100,
   "start_within_minutes_of_weekly_reset": 180,
@@ -14,8 +17,14 @@
     "automatic_reset_lead_minutes": 100,
     "banked_expiry_work_hours": 48,
     "banked_expiry_attention_hours": 24,
-    "estimated_batch_usage_points": {"primary": 20, "weekly": 5},
-    "usage_safety_margin_points": {"primary": 3, "weekly": 2},
+    "estimated_batch_usage_points": {
+      "primary": 20,
+      "weekly": 5
+    },
+    "usage_safety_margin_points": {
+      "primary": 3,
+      "weekly": 2
+    },
     "usage_unit": "percentage_points_of_window",
     "automatic_redemption": false,
     "predictions_authorize_translation": false,
@@ -45,5 +54,12 @@
     "paid upgrade or new terms",
     "missing manuscript source"
   ],
-  "note": "Account quotas are shared. Inspect live limits each wakeup and after a batch; never infer remaining work from a fixed number of tokens. Browser input/output also consumes Codex usage. No artificial activity solely to consume quota."
+  "note": "Account quotas are shared. Inspect live limits each wakeup and after a batch; never infer remaining work from a fixed number of tokens. Browser input/output also consumes Codex usage. No artificial activity solely to consume quota.",
+  "daily_pacing": {
+    "enabled": true,
+    "timezone": "Asia/Seoul",
+    "minimum_weekly_reserve_points": 15,
+    "batch_size": "1-5 verses within daily allowance, fixed safety margin retained",
+    "missed_days": "no catch-up"
+  }
 }

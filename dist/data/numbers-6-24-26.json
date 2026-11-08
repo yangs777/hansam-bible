@@ -1,7 +1,7 @@
 {
   "id": "HYB.NUM.006.024-026",
   "reference": "Numbers 6:24–26",
-  "version": "0.4.19",
+  "version": "0.4.20",
   "project_author": "Hansam Yang",
   "author_role": "Project founder, responsible editor and publisher; ancient authorship not claimed",
   "status": "research-pilot",
@@ -14,7 +14,7 @@
       "es": "Estas líneas se traducen como deseos de bendición. El ‘tú’ hebreo es singular y se mantiene así."
     },
     {
-      "ko": "‘얼굴을 비추다’, ‘얼굴을 들다’라는 이미지를 유지했습니다. YHWH는 신명 네 자음의 표기이며 발음을 복원했다는 뜻이 아닙니다.",
+      "ko": "‘얼굴을 비추다’, ‘얼굴을 들다’라는 이미지를 유지했습니다. 한국어에서는 여호와로 표기합니다. YHWH(יהוה)는 신명 네 자음의 표기이며 발음을 복원했다는 뜻이 아닙니다.",
       "en": "The images ‘make his face shine’ and ‘lift his face’ are retained. YHWH represents the four consonants of the divine name, not a recovered pronunciation.",
       "es": "Se conservan las imágenes ‘hacer brillar su rostro’ y ‘alzar su rostro’. YHWH representa las cuatro consonantes del nombre divino, no una pronunciación recuperada."
     },
@@ -63,7 +63,7 @@
       "id": "HYB.NUM.006.024",
       "reference": "Num.6.24",
       "passage": "Numbers 6:24–26",
-      "version": "0.4.19",
+      "version": "0.4.20",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -107,7 +107,7 @@
         "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
-        "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+        "ko": "여호와께서 네게 복을 주시고 너를 지키시기를.",
         "en": "May YHWH bless you and guard you.",
         "es": "Que YHWH te bendiga y te guarde."
       },
@@ -117,9 +117,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
-        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
-        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v24",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v24",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v24"
       },
       "rights": {
         "editorial": {
@@ -142,15 +142,15 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.NUM.006.024",
-          "version": "0.4.19",
+          "version": "0.4.20",
           "selection_status": "current_best_provisional",
           "translations": {
-            "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+            "ko": "여호와께서 네게 복을 주시고 너를 지키시기를.",
             "en": "May YHWH bless you and guard you.",
             "es": "Que YHWH te bendiga y te guarde."
           },
           "basis": "MT-WLC display",
-          "reason_ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
+          "reason_ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.",
           "reason": {
             "ko": "축복 문맥의 기원법을 세 언어에 일관되게 반영하고 복과 지킴을 구별한다.",
             "en": "The blessing mood and the distinct actions of blessing and guarding are retained.",
@@ -432,6 +432,17 @@
             "archive_path": "/data/releases/v0.4.18.json"
           },
           {
+            "version": "0.4.19",
+            "translations": {
+              "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
+              "en": "May YHWH bless you and guard you.",
+              "es": "Que YHWH te bendiga y te guarde."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.4.19.json"
+          },
+          {
             "version": "0.4.2",
             "translations": {
               "ko": "YHWH께서 네게 복을 주시고 너를 지키시기를.",
@@ -553,7 +564,7 @@
       "id": "HYB.NUM.006.025",
       "reference": "Num.6.25",
       "passage": "Numbers 6:24–26",
-      "version": "0.4.19",
+      "version": "0.4.20",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -609,7 +620,7 @@
         "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
-        "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+        "ko": "여호와께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
         "en": "May YHWH make his face shine toward you and be gracious to you.",
         "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
       },
@@ -619,9 +630,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
-        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
-        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v25",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v25",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v25"
       },
       "rights": {
         "editorial": {
@@ -644,15 +655,15 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.NUM.006.025",
-          "version": "0.4.19",
+          "version": "0.4.20",
           "selection_status": "current_best_provisional",
           "translations": {
-            "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+            "ko": "여호와께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
             "en": "May YHWH make his face shine toward you and be gracious to you.",
             "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
           },
           "basis": "MT-WLC display",
-          "reason_ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
+          "reason_ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.",
           "reason": {
             "ko": "얼굴을 비추는 은유와 은혜를 베푸는 동사를 유지한다. 자연스러운 스페인어 동사구를 선택한다.",
             "en": "The face-and-light image and the act of granting favor are retained in natural target-language wording.",
@@ -934,6 +945,17 @@
             "archive_path": "/data/releases/v0.4.18.json"
           },
           {
+            "version": "0.4.19",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
+              "en": "May YHWH make his face shine toward you and be gracious to you.",
+              "es": "Que YHWH haga brillar su rostro hacia ti y te conceda su favor."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.4.19.json"
+          },
+          {
             "version": "0.4.2",
             "translations": {
               "ko": "YHWH께서 그분의 얼굴을 네게 비추시고 네게 은혜를 베푸시기를.",
@@ -1055,7 +1077,7 @@
       "id": "HYB.NUM.006.026",
       "reference": "Num.6.26",
       "passage": "Numbers 6:24–26",
-      "version": "0.4.19",
+      "version": "0.4.20",
       "project_author": "Hansam Yang",
       "author_role": "Project founder, responsible editor and publisher",
       "translation_origin": "New AI-assisted drafts for this project; no modern Bible translation imported",
@@ -1123,7 +1145,7 @@
         "display_transformation": "Removed OSHB morpheme separators; joined words and punctuation; kept vowel and accent codepoints. Plain upstream accent/punctuation comparison notes are preserved separately. Not a manuscript diplomatic transcription. Unsupported nested or variant markup causes a stop, not silent flattening."
       },
       "translations": {
-        "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+        "ko": "여호와께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
         "en": "May YHWH lift his face toward you and give you peace.",
         "es": "Que YHWH alce su rostro hacia ti y te dé paz."
       },
@@ -1133,9 +1155,9 @@
         "es": "https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
       },
       "citations": {
-        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
-        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
-        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
+        "ko": "Hansam Yang. Original Bible: Numbers 6:24–26 (ko), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/ko/numbers-6-24-26/#v26",
+        "en": "Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/#v26",
+        "es": "Hansam Yang. Original Bible: Numbers 6:24–26 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/numbers-6-24-26/#v26"
       },
       "rights": {
         "editorial": {
@@ -1158,15 +1180,15 @@
       "decision_trace": {
         "selection": {
           "id": "HYB.NUM.006.026",
-          "version": "0.4.19",
+          "version": "0.4.20",
           "selection_status": "current_best_provisional",
           "translations": {
-            "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+            "ko": "여호와께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
             "en": "May YHWH lift his face toward you and give you peace.",
             "es": "Que YHWH alce su rostro hacia ti y te dé paz."
           },
           "basis": "MT-WLC display",
-          "reason_ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
+          "reason_ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.",
           "reason": {
             "ko": "얼굴을 들다의 은유와 לְךָ의 수혜 대상을 보존한다. שים שלום을 자연스럽게 평안을 주다로 옮긴다.",
             "en": "The lifted-face image and the recipient of peace are retained; peace also carries a wider sense of well-being.",
@@ -1446,6 +1468,17 @@
             "basis": "MT-WLC display; no inscription substituted for the biblical text",
             "decision": "Current best selected — revisable with stronger evidence",
             "archive_path": "/data/releases/v0.4.18.json"
+          },
+          {
+            "version": "0.4.19",
+            "translations": {
+              "ko": "YHWH께서 그분의 얼굴을 네게로 드시고 네게 평안을 주시기를.",
+              "en": "May YHWH lift his face toward you and give you peace.",
+              "es": "Que YHWH alce su rostro hacia ti y te dé paz."
+            },
+            "basis": "MT-WLC display; no inscription substituted for the biblical text",
+            "decision": "Current best selected — revisable with stronger evidence",
+            "archive_path": "/data/releases/v0.4.19.json"
           },
           {
             "version": "0.4.2",

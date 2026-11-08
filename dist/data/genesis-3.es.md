@@ -1,6 +1,6 @@
 # Génesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.19
+Hansam Yang · Original Bible · v0.4.20
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -22,7 +22,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-꾀가 많았다는 비교와 복수 너희를 보존하고, 하나님이 정말로라고 묻는 반문 및 어떤 나무에서도라는 전면 금지 인용을 현재 채택한다.
+꾀가 많았다는 비교와 복수 너희를 보존하고, 하나님이 정말로라고 묻는 반문 및 어떤 나무에서도라는 전면 금지 인용을 현재 채택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -77,6 +77,10 @@ Previous v0.4.17
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
 Previous v0.4.18
+
+La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
+
+Previous v0.4.19
 
 La serpiente era más astuta que cualquier animal del campo que YHWH Dios había hecho. Dijo a la mujer: «¿De veras dijo Dios: “No coman de ningún árbol del jardín”?».
 
@@ -162,6 +166,10 @@ Previous v0.4.18
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
 
+Previous v0.4.19
+
+La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
+
 Previous v0.4.5
 
 La mujer dijo a la serpiente: «Podemos comer del fruto de los árboles del jardín.
@@ -241,6 +249,10 @@ Previous v0.4.17
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
 Previous v0.4.18
+
+Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
+
+Previous v0.4.19
 
 Pero del fruto del árbol que está en medio del jardín Dios dijo: “No coman de él ni lo toquen, para que no mueran”».
 
@@ -332,6 +344,10 @@ Previous v0.4.18
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
 
+Previous v0.4.19
+
+La serpiente dijo a la mujer: «Ciertamente no morirán.
+
 Previous v0.4.5
 
 La serpiente dijo a la mujer: «Ciertamente no morirán.
@@ -417,6 +433,10 @@ Previous v0.4.17
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
 Previous v0.4.18
+
+Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
+
+Previous v0.4.19
 
 Porque Dios sabe que el día que coman de él se abrirán sus ojos, y serán como Dios, conocedores del bien y del mal».
 
@@ -508,6 +528,10 @@ Previous v0.4.18
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
 
+Previous v0.4.19
+
+La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
+
 Previous v0.4.6
 
 La mujer vio que el árbol era bueno para comer, un deleite para los ojos y deseable para adquirir sabiduría. Tomó de su fruto y comió; también dio a su marido, que estaba con ella, y él comió.
@@ -586,6 +610,10 @@ Previous v0.4.18
 
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
 
+Previous v0.4.19
+
+Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
+
 Previous v0.4.6
 
 Entonces se abrieron los ojos de ambos y supieron que estaban desnudos. Cosieron hojas de higuera y se hicieron cubiertas para la cintura.
@@ -612,7 +640,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-קול은 소리로, מתהלך는 하나님이 거니심으로, לרוח היום은 그날의 바람이라는 표현으로 현재 선택한다. 나무의 집합 의미를 복수로 풀었다.
+קול은 소리로, מתהלך는 하나님이 거니심으로, לרוח היום은 그날의 바람이라는 표현으로 현재 선택한다. 나무의 집합 의미를 복수로 풀었다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -670,6 +698,10 @@ Previous v0.4.18
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
 
+Previous v0.4.19
+
+Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
+
 Previous v0.4.6
 
 Oyeron el sonido de YHWH Dios, que se paseaba por el jardín con la brisa del día. El hombre y su mujer se escondieron de YHWH Dios entre los árboles del jardín.
@@ -696,7 +728,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-관사 있는 האדם을 그 사람으로, 단수 남성 대상의 질문을 네가 어디 있느냐로 현재 옮긴다.
+관사 있는 האדם을 그 사람으로, 단수 남성 대상의 질문을 네가 어디 있느냐로 현재 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -745,6 +777,10 @@ Previous v0.4.17
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
 Previous v0.4.18
+
+YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
+
+Previous v0.4.19
 
 YHWH Dios llamó al hombre y le dijo: «¿Dónde estás?».
 
@@ -832,6 +868,10 @@ Previous v0.4.18
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
 
+Previous v0.4.19
+
+Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
+
 Previous v0.4.6
 
 Él dijo: «Te oí en el jardín, y tuve miedo porque estaba desnudo, así que me escondí».
@@ -907,6 +947,10 @@ Previous v0.4.17
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
 Previous v0.4.18
+
+Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
+
+Previous v0.4.19
 
 Él dijo: «¿Quién te dijo que estabas desnudo? ¿Has comido del árbol del que te mandé que no comieras?».
 
@@ -990,6 +1034,10 @@ Previous v0.4.18
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
 
+Previous v0.4.19
+
+El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
+
 Previous v0.4.7
 
 El hombre dijo: «La mujer que me diste para que estuviera conmigo, ella me dio del árbol, y comí».
@@ -1012,7 +1060,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-무엇을 했느냐는 질문과 뱀이 속였다는 여자의 진술 및 내가 먹었다를 화자별로 보존한다.
+무엇을 했느냐는 질문과 뱀이 속였다는 여자의 진술 및 내가 먹었다를 화자별로 보존한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -1064,6 +1112,10 @@ Previous v0.4.18
 
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
 
+Previous v0.4.19
+
+YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
+
 Previous v0.4.7
 
 YHWH Dios dijo a la mujer: «¿Qué es esto que has hecho?». La mujer dijo: «La serpiente me engañó, y comí».
@@ -1086,7 +1138,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-מכל의 비교를 현재 선택하여 모든 집짐승과 들짐승보다 더 저주받았다는 선언으로 옮기고, 배로 다님·평생 흙 먹음을 보존한다.
+מכל의 비교를 현재 선택하여 모든 집짐승과 들짐승보다 더 저주받았다는 선언으로 옮기고, 배로 다님·평생 흙 먹음을 보존한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1141,6 +1193,10 @@ Previous v0.4.17
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
 
 Previous v0.4.18
+
+YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
+
+Previous v0.4.19
 
 YHWH Dios dijo a la serpiente: «Por haber hecho esto, maldita eres más que todo el ganado y todos los animales del campo. Sobre tu vientre andarás y polvo comerás todos los días de tu vida.
 
@@ -1224,6 +1280,10 @@ Previous v0.4.18
 
 Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
 
+Previous v0.4.19
+
+Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
+
 Previous v0.4.7
 
 Pondré enemistad entre ti y la mujer, y entre tu descendencia y su descendencia. Esa descendencia te golpeará en la cabeza, y tú la golpearás en el talón».
@@ -1304,6 +1364,10 @@ Previous v0.4.18
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
 
+Previous v0.4.19
+
+A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
+
 Previous v0.4.8
 
 A la mujer le dijo: «Aumentaré mucho tu dolor en el embarazo. Con dolor darás a luz hijos. Tu deseo se dirigirá a tu marido, y él gobernará sobre ti».
@@ -1342,7 +1406,7 @@ A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te 
 
 Final opinion (Korean original): 아담/Adán이라는 현재 선택과 금지 위반의 이유절, 직접 저주의 주어인 땅, 평생 고된 수고를 보존한다. 사람이라는 번역도 가능하다. 땅에서 먹을 것을 얻는다는 것은 먹다의 여성 목적어를 자연스럽게 푼 것이다. ממנו는1cp/3ms 동형이며 수입1cp 분석을 보존하고 문맥상 나무에서로 읽는다. 악센트 비교 주석은 이미 지원되는 별도 메타데이터이며 실물 BHS/L 대조 결과로 사칭하지 않는다.
 
-Counterargument (Korean): 사람이라는 번역도 가능하다. 땅에서 먹을 것을 얻는다는 것은 먹다의 여성 목적어를 자연스럽게 푼 것이다. ממנו는1cp/3ms 동형이며 수입1cp 분석을 보존하고 문맥상 나무에서로 읽는다. 악센트 비교 주석은 이미 지원되는 별도 메타데이터이며 실물 BHS/L 대조 결과로 사칭하지 않는다.
+Counterargument (Korean): 사람이라는 번역도 가능하다. 땅에서 먹을 것을 얻는다는 것은 먹다의 여성 목적어를 자연스럽게 푼 것이다. ממנו는 1cp/3ms 동형이며 수입 1cp 분석을 보존하고 문맥상 나무에서로 읽는다. 악센트 비교 주석은 이미 지원되는 별도 메타데이터이며 실물 BHS/L 대조 결과로 사칭하지 않는다.
 
 Previous v0.4.10
 
@@ -1377,6 +1441,10 @@ Previous v0.4.17
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
 
 Previous v0.4.18
+
+A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
+
+Previous v0.4.19
 
 A Adán le dijo: «Porque escuchaste a tu mujer y comiste del árbol del que te mandé: “No comerás de él”, maldita es la tierra por tu causa. Con penoso trabajo comerás de ella todos los días de tu vida.
 
@@ -1412,7 +1480,7 @@ Te producirá espinos y cardos, y comerás las plantas del campo.
 
 Final opinion (Korean original): 앞 절의 땅을 주어로 명시하고 가시·엉겅퀴 및 들의 식물을 옮긴다. 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
 
-Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
+Counterargument (Korean): 특정 식물 종·농작물에만 한정하거나 식물이 이때 처음 생겼다고 단정하지 않는다. לך의 수입 2fs 태그는 보존하고 GKC103f의 남성 휴지형과 남자 대상 담화에 따라 너로 옮긴다.
 
 Previous v0.4.10
 
@@ -1447,6 +1515,10 @@ Previous v0.4.17
 Te producirá espinos y cardos, y comerás las plantas del campo.
 
 Previous v0.4.18
+
+Te producirá espinos y cardos, y comerás las plantas del campo.
+
+Previous v0.4.19
 
 Te producirá espinos y cardos, y comerás las plantas del campo.
 
@@ -1488,7 +1560,7 @@ Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de el
 
 Final opinion (Korean original): 얼굴의 땀, 빵, 땅으로 돌아감, 티끌로 돌아감의 반복을 살린다. 땅과 티끌의 서로 다른 어휘를 구별한다. 양식/food와 흙먼지/흙도 대안이다. 기존2:7의 흙먼지와 이 절의 티끌은 같은 עפר를 옮긴 표현 차이이며 서로 다른 물질을 주장하지 않는다. 죽음 문맥을 넘어 영혼·부활·물질 구성·과학 이론을 본문에 보충하지 않는다.
 
-Counterargument (Korean): 양식/food와 흙먼지/흙도 대안이다. 기존2:7의 흙먼지와 이 절의 티끌은 같은 עפר를 옮긴 표현 차이이며 서로 다른 물질을 주장하지 않는다. 죽음 문맥을 넘어 영혼·부활·물질 구성·과학 이론을 본문에 보충하지 않는다.
+Counterargument (Korean): 양식/food와 흙먼지/흙도 대안이다. 기존 2:7의 흙먼지와 이 절의 티끌은 같은 עפר를 옮긴 표현 차이이며 서로 다른 물질을 주장하지 않는다. 죽음 문맥을 넘어 영혼·부활·물질 구성·과학 이론을 본문에 보충하지 않는다.
 
 Previous v0.4.10
 
@@ -1523,6 +1595,10 @@ Previous v0.4.17
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
 
 Previous v0.4.18
+
+Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
+
+Previous v0.4.19
 
 Con el sudor de tu rostro comerás pan hasta que vuelvas a la tierra, pues de ella fuiste tomado. Porque eres polvo, y al polvo volverás».
 
@@ -1596,6 +1672,10 @@ Previous v0.4.18
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
 
+Previous v0.4.19
+
+El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
+
 Previous v0.4.8
 
 El hombre llamó Eva a su mujer, porque ella era la madre de todos los vivientes.
@@ -1614,7 +1694,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-가죽으로 된 옷을 만들고 입힌 두 동작을 보존한다. 아담은 앞17절과 이어 현재 선택한다.
+가죽으로 된 옷을 만들고 입힌 두 동작을 보존한다. 아담은 앞 17절과 이어 현재 선택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -1666,6 +1746,10 @@ Previous v0.4.18
 
 YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
 
+Previous v0.4.19
+
+YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
+
 Previous v0.4.9
 
 YHWH Dios hizo túnicas de piel para Adán y su mujer, y los vistió.
@@ -1680,7 +1764,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-선과 악을 아는 데서 우리 가운데 하나처럼 되었다는 비교 범위를 보존한다. 펜의 미완결 구문을 살지 않도록과 말줄임표로 현재 표시한다.
+선과 악을 아는 데서 우리 가운데 하나처럼 되었다는 비교 범위를 보존한다. 펜의 미완결 구문을 살지 않도록과 말줄임표로 현재 표시한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1738,6 +1822,10 @@ Previous v0.4.18
 
 YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
 
+Previous v0.4.19
+
+YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
+
 Previous v0.4.9
 
 YHWH Dios dijo: «Mira, el ser humano ha llegado a ser como uno de nosotros en conocer el bien y el mal. Y ahora, no sea que extienda la mano y tome también del árbol de la vida, coma y viva para siempre…».
@@ -1752,7 +1840,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-에덴동산에서 내보냄과 그가 취해진 땅을 일구는 목적을 보존한다.
+에덴동산에서 내보냄과 그가 취해진 땅을 일구는 목적을 보존한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -1801,6 +1889,10 @@ Previous v0.4.17
 Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
 
 Previous v0.4.18
+
+Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
+
+Previous v0.4.19
 
 Entonces YHWH Dios lo envió fuera del jardín de Edén para trabajar la tierra de la que había sido tomado.
 
@@ -1876,6 +1968,10 @@ Previous v0.4.18
 
 Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
 
+Previous v0.4.19
+
+Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
+
 Previous v0.4.9
 
 Expulsó al ser humano y puso al este del jardín de Edén a los querubines y la llama de la espada que giraba, para guardar el camino al árbol de la vida.
@@ -1924,7 +2020,7 @@ Se distinguen enviar fuera y expulsar sin probar misión, desalojo legal ni viol
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

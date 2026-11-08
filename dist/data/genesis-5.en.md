@@ -1,12 +1,12 @@
-# Genesis5:1–25
+# Genesis 5:1–25
 
-Hansam Yang · Original Bible · v0.4.19
+Hansam Yang · Original Bible · v0.4.20
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-Current provisional selections for Genesis5:1–25 distinguish actual independent GPT/Gemini proposals,final official agy review and saved Claude Code difficult-passage opinions. WLC is a provisional baseline compared with relevant Swete1901 printed readings,not a certified earliest text or completed specialist/manuscript review.
+Current provisional selections for Genesis 5:1–25 distinguish actual independent GPT/Gemini proposals, final official agy review and saved Claude Code difficult-passage opinions. WLC is a provisional baseline compared with relevant Swete1901 printed readings, not a certified earliest text or completed specialist/manuscript review.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -22,7 +22,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-계보 기록과 창조 회고를 구별하고 첫 adam은 아담,창조 대상은 사람으로 옮긴다.
+계보 기록과 창조 회고를 구별하고 첫 adam은 아담, 창조 대상은 사람으로 옮긴다.
 
 #### claude-sonnet-5-5
 
@@ -57,6 +57,10 @@ Previous v0.4.17
 This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
 
 Previous v0.4.18
+
+This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
+
+Previous v0.4.19
 
 This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
 
@@ -108,6 +112,10 @@ Previous v0.4.18
 
 Male and female he created them, and he blessed them and named them Humankind when they were created.
 
+Previous v0.4.19
+
+Male and female he created them, and he blessed them and named them Humankind when they were created.
+
 ## 3 · HYB.GEN.005.003
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אָדָ֗ם שְׁלֹשִׁ֤ים וּמְאַת֙ שָׁנָ֔ה וַיּ֥וֹלֶד בִּדְמוּת֖וֹ כְּצַלְמ֑וֹ וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵֽׁת׃
@@ -153,6 +161,10 @@ Previous v0.4.17
 Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
 
 Previous v0.4.18
+
+Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
+
+Previous v0.4.19
 
 Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
 
@@ -204,6 +216,10 @@ Previous v0.4.18
 
 After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
 
+Previous v0.4.19
+
+After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
+
 ## 5 · HYB.GEN.005.005
 
 Hebrew display (MT/WLC): וַיִּֽהְי֞וּ כָּל־יְמֵ֤י אָדָם֙ אֲשֶׁר־חַ֔י תְּשַׁ֤ע מֵאוֹת֙ שָׁנָ֔ה וּשְׁלֹשִׁ֖ים שָׁנָ֑ה וַיָּמֹֽת׃
@@ -252,6 +268,10 @@ Previous v0.4.18
 
 All the days Adam lived were nine hundred thirty years, and he died.
 
+Previous v0.4.19
+
+All the days Adam lived were nine hundred thirty years, and he died.
+
 ## 6 · HYB.GEN.005.006
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
@@ -296,6 +316,10 @@ Previous v0.4.18
 
 When Seth had lived one hundred five years, he fathered Enosh.
 
+Previous v0.4.19
+
+When Seth had lived one hundred five years, he fathered Enosh.
+
 ## 7 · HYB.GEN.005.007
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֗ת אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־אֱנ֔וֹשׁ שֶׁ֣בַע שָׁנִ֔ים וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -306,7 +330,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-에노스 출생 이후807년과 아들·딸을 모두 보존한다.
+에노스 출생 이후 807년과 아들·딸을 모두 보존한다.
 
 #### claude-sonnet-5-5
 
@@ -340,6 +364,10 @@ Previous v0.4.18
 
 After fathering Enosh, Seth lived eight hundred seven years and fathered sons and daughters.
 
+Previous v0.4.19
+
+After fathering Enosh, Seth lived eight hundred seven years and fathered sons and daughters.
+
 ## 8 · HYB.GEN.005.008
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -350,7 +378,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-셋의912년과 죽었다는 마침을 보존한다.
+셋의 912년과 죽었다는 마침을 보존한다.
 
 #### claude-sonnet-5-5
 
@@ -384,6 +412,10 @@ Previous v0.4.18
 
 All the days of Seth were nine hundred twelve years, and he died.
 
+Previous v0.4.19
+
+All the days of Seth were nine hundred twelve years, and he died.
+
 ## 9 · HYB.GEN.005.009
 
 Hebrew display (MT/WLC): וַֽיְחִ֥י אֱנ֖וֹשׁ תִּשְׁעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־קֵינָֽן׃
@@ -394,7 +426,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-에노스90년과 게난 출생을 옮긴다.
+에노스 90년과 게난 출생을 옮긴다.
 
 #### claude-sonnet-5-5
 
@@ -428,6 +460,10 @@ Previous v0.4.18
 
 When Enosh had lived ninety years, he fathered Kenan.
 
+Previous v0.4.19
+
+When Enosh had lived ninety years, he fathered Kenan.
+
 ## 10 · HYB.GEN.005.010
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -438,7 +474,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-게난 출생 이후815년과 아들·딸을 보존한다.
+게난 출생 이후 815년과 아들·딸을 보존한다.
 
 #### claude-sonnet-5-5
 
@@ -469,6 +505,10 @@ Previous v0.4.17
 After fathering Kenan, Enosh lived eight hundred fifteen years and fathered sons and daughters.
 
 Previous v0.4.18
+
+After fathering Kenan, Enosh lived eight hundred fifteen years and fathered sons and daughters.
+
+Previous v0.4.19
 
 After fathering Kenan, Enosh lived eight hundred fifteen years and fathered sons and daughters.
 
@@ -512,6 +552,10 @@ Previous v0.4.18
 
 All the days of Enosh were nine hundred five years, and he died.
 
+Previous v0.4.19
+
+All the days of Enosh were nine hundred five years, and he died.
+
 ## 12 · HYB.GEN.005.012
 
 Hebrew display (MT/WLC): וַֽיְחִ֥י קֵינָ֖ן שִׁבְעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מַֽהֲלַלְאֵֽל׃
@@ -549,6 +593,10 @@ Previous v0.4.17
 When Kenan had lived seventy years, he fathered Mahalalel.
 
 Previous v0.4.18
+
+When Kenan had lived seventy years, he fathered Mahalalel.
+
+Previous v0.4.19
 
 When Kenan had lived seventy years, he fathered Mahalalel.
 
@@ -592,6 +640,10 @@ Previous v0.4.18
 
 After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
 
+Previous v0.4.19
+
+After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
+
 ## 14 · HYB.GEN.005.014
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י קֵינָ֔ן עֶ֣שֶׂר שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -629,6 +681,10 @@ Previous v0.4.17
 All the days of Kenan were nine hundred ten years, and he died.
 
 Previous v0.4.18
+
+All the days of Kenan were nine hundred ten years, and he died.
+
+Previous v0.4.19
 
 All the days of Kenan were nine hundred ten years, and he died.
 
@@ -672,6 +728,10 @@ Previous v0.4.18
 
 When Mahalalel had lived sixty-five years, he fathered Jared.
 
+Previous v0.4.19
+
+When Mahalalel had lived sixty-five years, he fathered Jared.
+
 ## 16 · HYB.GEN.005.016
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֗ל אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־יֶ֔רֶד שְׁלֹשִׁ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -705,6 +765,10 @@ Final opinion (Korean original): 야렛 출생 이후 팔백삼십 년과 아들
 Counterargument (Korean): 다른 자녀들의 수·이름·출생 시점·계보의 완전성은 확정하지 않는다.
 
 Previous v0.4.18
+
+After fathering Jared, Mahalalel lived eight hundred thirty years and fathered sons and daughters.
+
+Previous v0.4.19
 
 After fathering Jared, Mahalalel lived eight hundred thirty years and fathered sons and daughters.
 
@@ -744,6 +808,10 @@ Previous v0.4.18
 
 All the days of Mahalalel were eight hundred ninety-five years, and he died.
 
+Previous v0.4.19
+
+All the days of Mahalalel were eight hundred ninety-five years, and he died.
+
 ## 18 · HYB.GEN.005.018
 
 Hebrew display (MT/WLC): וַֽיְחִי־יֶ֕רֶד שְׁתַּ֧יִם וְשִׁשִּׁ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־חֲנֽוֹךְ׃
@@ -777,6 +845,10 @@ Final opinion (Korean original): 야렛의 백육십이 년과 에녹 출생을 
 Counterargument (Korean): 히필 낳다를 문맥상 부친 관계로 번역한다. 첫 자녀·이름 어원·이후 에녹 사건을 보충하지 않는다.
 
 Previous v0.4.18
+
+When Jared had lived one hundred sixty-two years, he fathered Enoch.
+
+Previous v0.4.19
 
 When Jared had lived one hundred sixty-two years, he fathered Enoch.
 
@@ -816,6 +888,10 @@ Previous v0.4.18
 
 After fathering Enoch, Jared lived eight hundred years and fathered sons and daughters.
 
+Previous v0.4.19
+
+After fathering Enoch, Jared lived eight hundred years and fathered sons and daughters.
+
 ## 20 · HYB.GEN.005.020
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־יֶ֔רֶד שְׁתַּ֤יִם וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -852,6 +928,10 @@ Previous v0.4.18
 
 All the days of Jared were nine hundred sixty-two years, and he died.
 
+Previous v0.4.19
+
+All the days of Jared were nine hundred sixty-two years, and he died.
+
 ## 21 · HYB.GEN.005.021
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י חֲנ֔וֹךְ חָמֵ֥שׁ וְשִׁשִּׁ֖ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מְתוּשָֽׁלַח׃
@@ -882,7 +962,11 @@ When Enoch had lived sixty-five years, he fathered Methuselah.
 
 Final opinion (Korean original): 육십오 년과 므두셀라 출생을 보존한다. Swete1901 본문의165년은 실제 대안이다. 고대 그리스어가 더 이른 히브리어 수치를 반영할 가능성을 배제하지 않으며 WLC65년은 잠정 저본 선택이다.
 
-Counterargument (Korean): Swete1901 본문의165년은 실제 대안이다. 고대 그리스어가 더 이른 히브리어 수치를 반영할 가능성을 배제하지 않으며 WLC65년은 잠정 저본 선택이다.
+Counterargument (Korean): Swete1901 본문의 165년은 실제 대안이다. 고대 그리스어가 더 이른 히브리어 수치를 반영할 가능성을 배제하지 않으며 WLC65년은 잠정 저본 선택이다.
+
+Previous v0.4.19
+
+When Enoch had lived sixty-five years, he fathered Methuselah.
 
 ## 22 · HYB.GEN.005.022
 
@@ -894,7 +978,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-므두셀라 출생 뒤 삼백 년,함께 걸음과 아들들과 딸들을 보존한다. 초기 걸으며를 걸었고로 바꾸어 두 서술을 명시한다.
+므두셀라 출생 뒤 삼백 년, 함께 걸음과 아들들과 딸들을 보존한다. 초기 걸으며를 걸었고로 바꾸어 두 서술을 명시한다.
 
 #### claude-opus-5-5
 
@@ -914,7 +998,11 @@ After fathering Methuselah, Enoch walked with God for three hundred years and fa
 
 Final opinion (Korean original): 므두셀라 출생 뒤 삼백 년,함께 걸음과 아들들과 딸들을 보존한다. 초기 걸으며를 걸었고로 바꾸어 두 서술을 명시한다. Claude의 동행하였다도 타당한 역어다. 함께 걸었다는 공간적 이동으로만 읽힐 수 있어 삶의 양태라는 해석 가능성을 주석에 남긴다. Swete1901은 기쁘게 함과200년을 보인다. 친교·재귀성 일반화는 원문에 추가하지 않는다.
 
-Counterargument (Korean): Claude의 동행하였다도 타당한 역어다. 함께 걸었다는 공간적 이동으로만 읽힐 수 있어 삶의 양태라는 해석 가능성을 주석에 남긴다. Swete1901은 기쁘게 함과200년을 보인다. 친교·재귀성 일반화는 원문에 추가하지 않는다.
+Counterargument (Korean): Claude의 동행하였다도 타당한 역어다. 함께 걸었다는 공간적 이동으로만 읽힐 수 있어 삶의 양태라는 해석 가능성을 주석에 남긴다. Swete1901은 기쁘게 함과 200년을 보인다. 친교·재귀성 일반화는 원문에 추가하지 않는다.
+
+Previous v0.4.19
+
+After fathering Methuselah, Enoch walked with God for three hundred years and fathered sons and daughters.
 
 ## 23 · HYB.GEN.005.023
 
@@ -926,7 +1014,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-에녹의 모든 날365년을 옮기고 이 절에 없는 죽었다를 덧붙이지 않는다.
+에녹의 모든 날 365년을 옮기고 이 절에 없는 죽었다를 덧붙이지 않는다.
 
 #### claude-opus-5-5
 
@@ -946,7 +1034,11 @@ All the days of Enoch were three hundred sixty-five years.
 
 Final opinion (Korean original): 에녹의 모든 날365년을 옮기고 이 절에 없는 죽었다를 덧붙이지 않는다. WLC65+300과 Swete165+200 모두365이지만 합계 일치만으로 어느 연대가 더 이른지 결정할 수 없다. 역사 수명이나 태양력 상징을 입증하지 않는다.
 
-Counterargument (Korean): WLC65+300과 Swete165+200 모두365이지만 합계 일치만으로 어느 연대가 더 이른지 결정할 수 없다. 역사 수명이나 태양력 상징을 입증하지 않는다.
+Counterargument (Korean): WLC65+300과 Swete165+200 모두 365이지만 합계 일치만으로 어느 연대가 더 이른지 결정할 수 없다. 역사 수명이나 태양력 상징을 입증하지 않는다.
+
+Previous v0.4.19
+
+All the days of Enoch were three hundred sixty-five years.
 
 ## 24 · HYB.GEN.005.024
 
@@ -958,7 +1050,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Current best selected translation
 
-함께 걸음,그의 부재,하나님의 데려가심과 인과를 보존한다. 하늘·방식·죽음 유무를 본문에 보충하지 않는다.
+함께 걸음, 그의 부재, 하나님의 데려가심과 인과를 보존한다. 하늘·방식·죽음 유무를 본문에 보충하지 않는다.
 
 #### claude-opus-5-5
 
@@ -979,6 +1071,10 @@ Enoch walked with God, and he was no more, because God took him.
 Final opinion (Korean original): 함께 걸음,그의 부재,하나님의 데려가심과 인과를 보존한다. 하늘·방식·죽음 유무를 본문에 보충하지 않는다. 더 이상 없었다/was no more는 죽음의 완곡어로도 읽힐 수 있다. 사망 공식의 부재를 주석에 밝히되 죽음도 불사도 확정하지 않는다. 그리스어의 발견되지 않음·옮김을 히브리어에 역투사하지 않는다.
 
 Counterargument (Korean): 더 이상 없었다/was no more는 죽음의 완곡어로도 읽힐 수 있다. 사망 공식의 부재를 주석에 밝히되 죽음도 불사도 확정하지 않는다. 그리스어의 발견되지 않음·옮김을 히브리어에 역투사하지 않는다.
+
+Previous v0.4.19
+
+Enoch walked with God, and he was no more, because God took him.
 
 ## 25 · HYB.GEN.005.025
 
@@ -1004,7 +1100,11 @@ When Methuselah had lived one hundred eighty-seven years, he fathered Lamech.
 
 Final opinion (Korean original): 백팔십칠 년과 라멕 출생을 보존한다. 이번에 눈으로 읽은 Swete1901 인쇄면 본문 역시187이다. 모든 칠십인역=167이라는 일반화는 철회한다. 다른 판본·사마리아 수치와 장치의 교정자 기호는 확인되지 않았으므로 판정하지 않는다.
 
-Counterargument (Korean): 이번에 눈으로 읽은 Swete1901 인쇄면 본문 역시187이다. 모든 칠십인역=167이라는 일반화는 철회한다. 다른 판본·사마리아 수치와 장치의 교정자 기호는 확인되지 않았으므로 판정하지 않는다.
+Counterargument (Korean): 이번에 눈으로 읽은 Swete1901 인쇄면 본문 역시 187이다. 모든 칠십인역=167이라는 일반화는 철회한다. 다른 판본·사마리아 수치와 장치의 교정자 기호는 확인되지 않았으므로 판정하지 않는다.
+
+Previous v0.4.19
+
+When Methuselah had lived one hundred eighty-seven years, he fathered Lamech.
 
 ## Notes
 
@@ -1012,21 +1112,21 @@ The first Adam in v.1 is read as the genealogical figure; adam in the creation c
 
 BDB8435 treats toledot as a genealogical account of a person and descendants. Record does not establish an extant autograph by Adam or identify an ancient author. Likeness and image are translated without imposing separate doctrinal categories. Son in v.3 supplies an object from context; Seth is not identified as Adam’s first child.
 
-Verses3–5 retain the pinned WLC numbers130,800 after Seth,and930 total,and he died. Their arithmetic agrees; historical dating and biological lifespan were not independently verified. The number or birth dates of other children and completeness of the genealogy remain unspecified. Other ancient version numbers were not collated.
+Verses3–5 retain the pinned WLC numbers130,800 after Seth, and930 total, and he died. Their arithmetic agrees; historical dating and biological lifespan were not independently verified. The number or birth dates of other children and completeness of the genealogy remain unspecified. Other ancient version numbers were not collated.
 
-Verses6–8 retain105 years before Seth fathered Enosh,807 afterward,and912 total.105+807=912 checks textual arithmetic,not historical lifespan. Verses9–10 retain Enosh’s90 years and815 after fathering Kenan,without adding a death notice absent from this batch. Kenan is a translation spelling of the Hebrew name and is not identified with Cain.
+Verses6–8 retain105 years before Seth fathered Enosh,807 afterward, and912 total.105+807=912 checks textual arithmetic, not historical lifespan. Verses9–10 retain Enosh’s90 years and815 after fathering Kenan, without adding a death notice absent from this batch. Kenan is a translation spelling of the Hebrew name and is not identified with Cain.
 
-Verses11–15 retain Enosh’s905 total years,Kenan’s70 years before Mahalalel and840 afterward,910 total,and Mahalalel’s65 years before Jared.90+815=905 and70+840=910 check textual arithmetic,not historical lifespans. First-born status,genealogical completeness and death notices absent from these verses are not added. Name spellings are editorial transliterations,not etymological claims.
+Verses11–15 retain Enosh’s905 total years, Kenan’s70 years before Mahalalel and840 afterward,910 total, and Mahalalel’s65 years before Jared.90+815=905 and70+840=910 check textual arithmetic, not historical lifespans. First-born status, genealogical completeness and death notices absent from these verses are not added. Name spellings are editorial transliterations, not etymological claims.
 
-Verses16–20 retain Mahalalel’s830 years after Jared and895 total,and Jared’s162 years before Enoch,800 afterward,and962 total.65+830=895 and162+800=962 check textual arithmetic,not historical chronology or lifespans. The number,names,birth order of other children and genealogical completeness are not supplied. Name spellings are editorial transliterations,not verified earliest pronunciations,etymologies or manuscript variants.
+Verses16–20 retain Mahalalel’s830 years after Jared and895 total, and Jared’s162 years before Enoch,800 afterward, and962 total.65+830=895 and162+800=962 check textual arithmetic, not historical chronology or lifespans. The number, names, birth order of other children and genealogical completeness are not supplied. Name spellings are editorial transliterations, not verified earliest pronunciations, etymologies or manuscript variants.
 
-Verses21–25 provisionally follow WLC65/300/365/187. The visually inspected scan of Swete1901,vol.I,p.8 reads165/200/365/187. The Greek numerical differences are preserved as alternatives; this evidence alone does not establish an earlier Hebrew text or justify replacing the selected numbers. No claim that every Septuagint edition has167 is made. BHQ/Göttingen apparatus,Samaritan and Dead Sea manuscript collation remain incomplete. A printed-page scan is not an ancient manuscript.
+Verses21–25 provisionally follow WLC65/300/365/187. The visually inspected scan of Swete1901, vol.I, p.8 reads165/200/365/187. The Greek numerical differences are preserved as alternatives; this evidence alone does not establish an earlier Hebrew text or justify replacing the selected numbers. No claim that every Septuagint edition has167 is made. BHQ/Göttingen apparatus, Samaritan and Dead Sea manuscript collation remain incomplete. A printed-page scan is not an ancient manuscript.
 
-Enoch’s entry substitutes walked with God for lived and omits the usual and he died. Walking may describe a manner of life. Was no more preserves absence but can also be heard as a death euphemism. God took him does not specify destination,manner or whether death occurred. Swete1901 5:24 visibly includes not being found and being transferred; the earlier OCR omission is not treated as an ancient variant.65+300=365 is internal textual arithmetic,not historical lifespan or solar symbolism verification.
+Enoch’s entry substitutes walked with God for lived and omits the usual and he died. Walking may describe a manner of life. Was no more preserves absence but can also be heard as a death euphemism. God took him does not specify destination, manner or whether death occurred. Swete1901 5:24 visibly includes not being found and being transferred; the earlier OCR omission is not treated as an ancient variant.65+300=365 is internal textual arithmetic, not historical lifespan or solar symbolism verification.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis5:1–25 (en), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/en/genesis-5/
+Hansam Yang. Original Bible: Genesis 5:1–25 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

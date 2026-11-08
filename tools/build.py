@@ -24,10 +24,26 @@ def write(path,text):
 def js(v): return json.dumps(v,ensure_ascii=False,indent=2)
 def url(path): return ORIGIN+path
 def citation(p,lang):return f"Hansam Yang. Original Bible: {p['reference']} ({lang}), research pilot v{VERSION}. {url('/'+lang+'/'+p['slug']+'/')}"
-def header(lang,path=''):
-    t=L[lang]
-    langs=''.join(f'<a lang="{k}" href="/{k}/{path}"'+(' aria-current="page"' if k==lang else '')+f'>{v["name"]}</a>' for k,v in L.items())
-    return f'''<a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang=='ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a><nav aria-label="Main"><a href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'}</a><a href="/{lang}/#passages">{t['home']}</a><a href="/data/">{t['data']}</a><a href="/sources/">{'원문·사진' if lang=='ko' else 'Text / photos' if lang=='en' else 'Texto / fotos'}</a><a href="/updates/">{'업데이트' if lang=='ko' else 'Updates' if lang=='en' else 'Novedades'}</a><a href="/about/">{t['about']}</a><a href="https://original-bible-feedback.yangs7777.chatgpt.site/">{'의견함' if lang=='ko' else 'Feedback' if lang=='en' else 'Comentarios'}</a></nav><div class="languages" aria-label="Languages">{langs}</div></header>'''
+def header(lang, path=''):
+    t = L[lang]
+    names = {
+        'ko': ('본문 읽기', '성경 대조', '더보기', '자료 내려받기', '원문과 사본', '업데이트', '프로젝트', '의견함', '본문으로 건너뛰기'),
+        'en': ('Read', 'Compare', 'More', 'Downloads', 'Text and manuscripts', 'Updates', 'Project', 'Feedback', 'Skip to content'),
+        'es': ('Leer', 'Comparar', 'Más', 'Descargas', 'Texto y manuscritos', 'Novedades', 'Proyecto', 'Comentarios', 'Saltar al contenido'),
+    }[lang]
+    langs = ''.join(f'<a lang="{key}" href="/{key}/{path}"' + (' aria-current="page"' if key == lang else '') + f'>{value["name"]}</a>' for key, value in L.items())
+    extra = ''.join(f'<a href="{href}">{label}</a>' for href, label in zip(
+        ('/data/', '/sources/', '/updates/', '/about/', 'https://original-bible-feedback.yangs7777.chatgpt.site/'), names[3:8]))
+    return f'''<a class="skip" href="#main">{names[8]}</a>
+<header class="top">
+  <a class="brand" href="/{lang}/"><span class="mark">O<span>B</span></span><span>{C['name_ko'] if lang == 'ko' else C['name_en']}<small>ORIGINAL BIBLE / TEXTUAL ORIGINS</small></span></a>
+  <nav class="primary-nav" aria-label="{names[0]}">
+    <a href="/{lang}/#passages">{names[0]}</a><a href="/read/">{names[1]}</a>
+    <details class="nav-more"><summary>{names[2]}</summary><div class="nav-menu">{extra}<div class="languages">{langs}</div></div></details>
+  </nav>
+</header>'''
+
+
 def footer(lang):
     t=L[lang]
     return f'''<footer>{support.footer(lang)}<div class="footer-brand">ORIGINAL BIBLE <span>v{VERSION}</span></div><p>{t['author']}: <a href="/about/">Hansam Yang</a></p><p>{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 · {t['terms']}</a> · <a href="{C['repository']}">GitHub</a> · <a href="/data/">JSON / JSONL / Markdown</a></p><small>{t['privacy']}</small></footer>'''
@@ -40,36 +56,90 @@ def page(path,title,body,lang='en',alternates=None,structured=None,description='
     out=f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | 원문성경 · Original Bible</title><meta name="description" content="{esc(description or title+' — Hansam Yang, research pilot '+VERSION)}"><meta name="author" content="Hansam Yang"><meta name="robots" content="index,follow"><link rel="canonical" href="{canonical}">{alt}<link rel="alternate" type="application/rss+xml" title="Original Bible updates" href="{url('/updates/feed.xml')}"><link rel="stylesheet" href="/assets/style.css"><meta property="og:site_name" content="원문성경 / Original Bible"><meta property="og:title" content="{esc(title)}"><meta property="og:url" content="{canonical}"><meta property="og:type" content="article"><script type="application/ld+json">{safe_json}</script><script src="/assets/app.js" defer></script></head><body>{header(lang,path.split('/',2)[-1] if path.startswith('/'+lang+'/') else '')}<main id="main">{body}</main>{footer(lang)}</body></html>'''
     write(path.lstrip('/')+'index.html',out)
 def home(lang):
-    t=L[lang]; rows=''; sample=next(p for p in E if p['slug']=='psalm-1')
-    for i,p in enumerate(E,1):
-        rows+=f'''<a class="passage-row" href="/{lang}/{p['slug']}/"><span class="row-number">0{i}</span><div><h3>{p['title'][lang]}</h3><p>{p['subtitle'][lang]}</p></div><span class="status">{review_layers.LABELS[lang][0]}</span><span class="arrow" aria-hidden="true">↗</span></a>'''
-    body=f'''<section class="hero"><div><p class="eyebrow">ORIGINAL BIBLE / {t['pilot']} v{VERSION}</p><h1>{t['hero']}</h1><p class="lead">{t['lead']}</p><div class="actions"><a class="button" href="/read/">{'성경 읽기·대조' if lang=='ko' else 'Read / compare' if lang=='en' else 'Leer / comparar'} <span>→</span></a><a class="text-link" href="/data/">{t['download']} ↗</a></div></div><aside class="specimen"><p class="eyebrow">PSALM 1:2 · MT DISPLAY</p><div class="hebrew large" lang="he" dir="rtl">כִּי אִם בְּתוֹרַת<br>יְהוָה חֶפְצוֹ</div><div class="specimen-line"></div><p>{esc(sample['verses'][1][lang])}</p><small>WLC / AI-assisted literal draft</small></aside></section><div class="stats"><div><strong>{len(E):02}</strong><span>PASSAGES</span></div><div><strong>03</strong><span>LANGUAGES</span></div><div><strong>{VERSE_COUNT}</strong><span>VERSES</span></div><div class="stat-note">{t['draft']}</div></div><section class="catalog" id="passages"><p class="eyebrow">THE FIRST COLLECTION</p><h2>{t['texts']}</h2>{rows}</section><section class="manifesto"><div><p class="eyebrow">EVIDENCE BEFORE CERTAINTY</p><h2>{t['intro2']}</h2></div><div><p>{t['intro3']}</p><a class="text-link" href="/methodology/">Editorial method ↗</a></div></section>'''
-    page('/'+lang+'/',{'ko':'원문성경 — 히브리어 원문과 번역 대조','en':'Original Bible — Hebrew text and translation comparison','es':'Original Bible — texto hebreo y comparación de traducciones'}[lang],body,lang,{k:'/'+k+'/' for k in L},description=t['lead'])
-def study(p,lang):
-    t=L[lang]; rows=''; md=[f"# {p['title'][lang]}",f"Hansam Yang · Original Bible · v{VERSION}",t['draft'],t['warning'],p['intro'][lang],f"Basis: {p['basis']}",f"Decision: {p['decision']}"]
-    for v in p['verses']:
-        h=H[v['source']]
-        rows+=f'''<article class="verse" id="v{v['number']}"><div class="verse-label"><span>{v['number']:02}</span><code>{v['id']}</code></div><div class="hebrew" lang="he" dir="rtl">{esc(h['hebrew'])}</div><p class="translation">{esc(v[lang])}</p>{review_layers.render(TRACES['records'][v['id']],lang)}</article>'''
-        md.extend([f"## {v['number']} · {v['id']}",f"Hebrew display (MT/WLC): {h['hebrew']}",v[lang],f"Source: {h['source_url']} · {v['source']}"])
-        md.extend(review_layers.markdown(TRACES['records'][v['id']],lang))
-    notes=''.join(f'<li>{esc(n[lang])}</li>' for n in p['notes'])
-    gloss=''.join(f'<tr><th lang="he" dir="rtl">{esc(g["he"])}</th><td>{esc(g[lang])} <small>({esc(g["form_type"])})</small></td></tr>' for g in p['glosses'])
-    morph=''.join(f'<tr><td>{v["number"]}</td><td lang="he" dir="rtl">{esc(w["hebrew"])}</td><td><code>{esc(w["lemma"])}</code></td><td><code>{esc(w["morph"])}</code></td></tr>' for v in p['verses'] for w in H[v['source']]['tokens'])
-    variant=''
+    t = L[lang]
+    words = {
+        'ko': ('성경 원문과 번역을 함께 읽으세요', '원문과 한국어 번역을 나란히 읽고, 궁금한 근거는 펼쳐 보세요.', '창세기 1장부터 읽기', '히브리어 원문', '한국어 번역', '수록 본문', '최근 업데이트', '프로젝트와 수록 범위', '본문', '언어', '절', '편집 방법'),
+        'en': ('Read the Hebrew alongside the translation', 'Start reading. Open the notes whenever you want to explore the evidence.', 'Start with Genesis 1', 'Hebrew text', 'English translation', 'Available passages', 'Recent updates', 'Project and coverage', 'passages', 'languages', 'verses', 'Editorial method'),
+        'es': ('Lea el hebreo junto con la traducción', 'Empiece a leer. Abra las notas cuando quiera explorar los testimonios.', 'Empezar por Génesis 1', 'Texto hebreo', 'Traducción al español', 'Pasajes disponibles', 'Novedades recientes', 'Proyecto y alcance', 'pasajes', 'idiomas', 'versículos', 'Método editorial'),
+    }[lang]
+    order = {book['id']: i for i, book in enumerate(json.loads((R / 'library/catalog.json').read_text(encoding='utf-8'))['books'])}
+    passages = sorted(E, key=lambda p: (order[p['verses'][0]['source'].split('.')[0]], *map(int, p['verses'][0]['source'].split('.')[1:])))
+    sample = next(p for p in passages if p['slug'] == 'genesis-1')['verses'][0]
+    rows = ''.join(f'''<a class="passage-row" href="/{lang}/{p['slug']}/"><span class="row-number">{i:02}</span><div><h3>{esc(p['title'][lang])}</h3><p>{esc(p['subtitle'][lang])}</p></div><span class="arrow" aria-hidden="true">→</span></a>''' for i, p in enumerate(passages, 1))
+    entries = json.loads((R / 'data/updates.json').read_text(encoding='utf-8'))['entries']
+    latest = entries[0]
+    update_text = esc(latest['title_ko']) if lang == 'ko' else 'v' + VERSION
+    body = f'''<section class="welcome">
+  <div><h1>{words[0]}</h1><p class="lead">{words[1]}</p><p class="edition-note">{t['draft']} · v{VERSION}</p><a class="button" href="/{lang}/genesis-1/">{words[2]} →</a></div>
+  <article class="opening-text"><p class="eyebrow">{esc(next(p for p in E if p['slug'] == 'genesis-1')['title'][lang])} · 1</p><span class="text-label">{words[3]}</span><div class="hebrew" lang="he" dir="rtl">{esc(H[sample['source']]['hebrew'])}</div><span class="text-label">{words[4]}</span><p class="translation">{esc(sample[lang])}</p></article>
+</section>
+<section class="catalog" id="passages"><h2>{words[5]}</h2>{rows}</section>
+<p class="recent-update"><a href="/updates/">{words[6]} →</a> <small>{update_text}</small></p>
+<details class="project-details"><summary>{words[7]}</summary><p>{t['lead']}</p><div class="stats"><div><strong>{len(E):02}</strong><span>{words[8]}</span></div><div><strong>03</strong><span>{words[9]}</span></div><div><strong>{VERSE_COUNT}</strong><span>{words[10]}</span></div><div class="stat-note">{t['draft']}</div></div><h2>{t['hero']}</h2><h3>{t['intro2']}</h3><p>{t['intro3']}</p><a href="/methodology/">{words[11]} ↗</a><p><a href="/data/">{t['download']} ↗</a></p></details>'''
+    title = {'ko': '원문성경 — 히브리어 원문과 번역 대조', 'en': 'Original Bible — Hebrew text and translation comparison', 'es': 'Original Bible — texto hebreo y comparación de traducciones'}[lang]
+    page('/' + lang + '/', title, body, lang, {key: '/' + key + '/' for key in L}, description=words[1])
+
+
+def study(p, lang):
+    t = L[lang]
+    words = {
+        'ko': ('히브리어 원문', '한국어 번역', '이 본문 안내와 사용 자료', '새 근거에 따라 갱신하는 현재 채택 번역', '번역에 사용한 본문', '형태 분석 코드 안내', '형태 분석과 사전형 정보는 OSHB에서 가져왔습니다. 원문 사진을 새로 판독한 결과와 구분합니다.', '히브리어', '사전형', '형태 분석', '출처와 재사용 · 인용', '신명은 한국어에서 여호와로 표기합니다. 원어 표기는 YHWH(יהוה)입니다.', '기록 원문 · 정확한 내부 명칭', '다른 성경과 대조 · 본문 복사'),
+        'en': ('Hebrew text', 'English translation', 'About this passage and its sources', 'Current selected translation, open to new evidence', 'Textual basis', 'Morphology code guide', 'Morphology and lemmas are imported from OSHB, separate from a new reading of manuscript images.', 'Hebrew', 'Lemma', 'Morphology', 'Sources, reuse and citation', 'The Korean translation uses 여호와 for the divine name YHWH(יהוה). English and Spanish retain their existing conventions.', 'Original records and exact internal names', 'Compare Bibles / copy text'),
+        'es': ('Texto hebreo', 'Traducción al español', 'Sobre este pasaje y sus fuentes', 'Traducción actual seleccionada, abierta a nuevos testimonios', 'Base textual', 'Guía de códigos morfológicos', 'La morfología y los lemas proceden de OSHB y se distinguen de una nueva lectura de imágenes de manuscritos.', 'Hebreo', 'Lema', 'Morfología', 'Fuentes, reutilización y cita', 'La traducción coreana emplea 여호와 para el nombre divino YHWH(יהוה). El inglés y el español conservan sus convenciones.', 'Registros originales y nombres internos exactos', 'Comparar Biblias / copiar texto'),
+    }[lang]
+    basis = {
+        'ko': '고정한 히브리어 전자 본문을 사용했습니다. 관련 사본 전체의 독립 대조는 완료되지 않았습니다.',
+        'en': 'The pinned Hebrew digital text is used. Independent collation of all relevant manuscripts remains incomplete.',
+        'es': 'Se utiliza el texto hebreo digital fijado. Sigue pendiente el cotejo independiente de todos los manuscritos pertinentes.',
+    }[lang]
+    if p['slug'] == 'deuteronomy-32-8':
+        basis = {
+            'ko': '신적 존재의 아들들에 해당하는 보고된 사해문서 어구를 잠정 채택했습니다. 전체 번역은 히브리어 전승 본문의 나머지와 이 어구를 결합한 편집적 재구성입니다.',
+            'en': 'The reported Dead Sea Scroll phrase referring to divine sons is provisionally selected. The full translation is an editorial reconstruction using the rest of the Masoretic text.',
+            'es': 'Se selecciona provisionalmente la frase publicada de un manuscrito del Mar Muerto sobre los hijos divinos. La traducción completa es una reconstrucción editorial con el resto del texto masorético.',
+        }[lang]
+    elif p['slug'] == 'numbers-6-24-26':
+        basis = {
+            'ko': '고정한 히브리어 전자 본문을 번역했습니다. 유사한 비문으로 성경 본문을 대체하지 않았습니다.',
+            'en': 'The pinned Hebrew digital text is translated. No inscription is substituted for the biblical text.',
+            'es': 'Se traduce el texto hebreo digital fijado. Ninguna inscripción sustituye al texto bíblico.',
+        }[lang]
+    rows = []
+    md = [f"# {p['title'][lang]}", f'Hansam Yang · Original Bible · v{VERSION}', t['draft'], t['warning'], p['intro'][lang], f"Basis: {p['basis']}", f"Decision: {p['decision']}"]
+    for verse in p['verses']:
+        hebrew = H[verse['source']]
+        review = review_layers.render(TRACES['records'][verse['id']], lang, VERSION)
+        review = review.replace('</summary>', '</summary><p><code>' + esc(verse['id']) + '</code></p>', 1)
+        rows.append(f'''<article class="verse" id="v{verse['number']}"><div class="verse-label"><span>{verse['number']:02}</span></div><div class="verse-original"><span class="text-label">{words[0]}</span><div class="hebrew" lang="he" dir="rtl">{esc(hebrew['hebrew'])}</div></div><div class="verse-translation"><span class="text-label">{words[1]}</span><p class="translation">{esc(verse[lang])}</p></div>{review}</article>''')
+        md.extend([f"## {verse['number']} · {verse['id']}", f"Hebrew display (MT/WLC): {hebrew['hebrew']}", verse[lang], f"Source: {hebrew['source_url']} · {verse['source']}"])
+        md.extend(review_layers.markdown(TRACES['records'][verse['id']], lang))
+    notes = ''.join(f'<li>{esc(note[lang])}</li>' for note in p['notes'])
+    gloss = ''.join(f'<tr><th lang="he" dir="rtl">{esc(item["he"])}</th><td>{esc(item[lang])} <small>({esc(item["form_type"])})</small></td></tr>' for item in p['glosses'])
+    morph = ''.join(f'<tr><td>{verse["number"]}</td><td lang="he" dir="rtl">{esc(word["hebrew"])}</td><td><code>{esc(word["lemma"])}</code></td><td><code>{esc(word["morph"])}</code></td></tr>' for verse in p['verses'] for word in H[verse['source']]['tokens'])
+    variant = ''
     if 'variant' in p:
-        a=p['variant']; variant=f'''<section class="variant"><p class="eyebrow">{t['variant']}</p><p class="hebrew" lang="he" dir="rtl">{a['hebrew']}</p><p>{a[lang]}</p><small>{a['witness']} · {t['pending']}</small><p><a href="{a['source']}">Emanuel Tov (2023), TheTorah.com ↗</a></p></section>'''
-        md.extend(['## Reported comparison reading — NOT a complete 4Q37 verse',a['hebrew'],a[lang],a['status'],a['source']])
-    chapter_links=search_pages.chapter_navigation(p,lang)+chapter_sources.passage_links(p,lang)
-    first_ref=p['verses'][0]['source'].split('.')
-    compare_label={'ko':'다른 성경과 대조 · 본문 복사','en':'Compare Bibles / copy text','es':'Comparar Biblias / copiar texto'}[lang]
-    chapter_links=f'<p><a class="text-link" href="/read/?book={first_ref[0]}&amp;chapter={first_ref[1]}&amp;left=original-{lang}&amp;right=krv">{compare_label} ↗</a></p>'+chapter_links
-    guide_links=search_pages.related_links(p,lang)
-    cite=citation(p,lang)
-    body=f'''<div class="study-head"><a class="breadcrumb" href="/{lang}/">← ORIGINAL BIBLE / {t['home']}</a><p class="eyebrow">{p['id']} · v{VERSION}</p><h1>{p['title'][lang]}</h1><p class="subtitle">{p['subtitle'][lang]}</p><p class="byline">{t['author']}: <a href="/about/">Hansam Yang</a></p><div class="notice">{t['draft']}</div></div><div class="study-layout"><aside class="study-nav"><p class="eyebrow">{t['focus']}</p><p>{p['intro'][lang]}</p><dl><dt>{t['status']}</dt><dd>{esc(p['decision'])}</dd><dt>Basis</dt><dd>{esc(p['basis'])}</dd></dl><a href="#notes">{t['notes']} ↓</a><a href="/data/{p['slug']}.{lang}.md">Markdown ↗</a><a href="/data/{p['slug']}.json">JSON ↗</a></aside><div class="study-content"><div class="column-labels"><span>{t['original']}</span><span>{t['translation']}</span></div>{chapter_links}{rows}{variant}{guide_links}<section class="notes" id="notes"><p class="eyebrow">EDITORIAL NOTES</p><h2>{t['notes']}</h2><ol>{notes}</ol><h3>{t['gloss']}</h3><p class="fine">{t['selected']}</p><table><thead><tr><th>Hebrew</th><th>{t['gloss']}</th></tr></thead><tbody>{gloss}</tbody></table><details><summary>{t['morph']} · OSHB</summary><p>Open Scriptures Hebrew Bible · CC BY 4.0. Codes: <a href="https://github.com/openscriptures/morphhb/tree/master/parsing">OSHB documentation</a>. Morphology is imported analysis, not this project's new manuscript reading.</p><table><thead><tr><th>{t['number']}</th><th>Hebrew</th><th>Lemma</th><th>Morphology</th></tr></thead><tbody>{morph}</tbody></table></details></section><section class="citation"><h2>{t['citation']}</h2><p id="citation-text">{cite}</p><button class="button" data-copy="citation-text" data-done="{t['copied']}">{t['copy']}</button><p class="copy-status" role="status"></p><p class="fine">{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 / {t['terms']}</a></p></section><section class="source-note"><h3>{t['source']}</h3><p>Hebrew: Westminster Leningrad Codex (public domain). Lemmas and morphology: <a href="https://github.com/openscriptures/morphhb">Open Scriptures Hebrew Bible</a> (CC BY 4.0). Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb.</p><p>Frozen upstream commit: <code>{C['source_commit']}</code>. <a href="/data/{p['slug']}.json">Source URLs, transformations and SHA-256 values</a>.</p><p>Displayed vowels and accents belong to this MT edition; they are not claimed as DSS manuscript features. Hebrew punctuation spacing is adapted for display. The editorial translations above do not import a modern Bible translation; separately credited reading editions are available in the comparison reader.</p></section></div></div>'''
-    structured={'@context':'https://schema.org','@type':'CreativeWork','@id':url('/'+lang+'/'+p['slug']+'/#work'),'name':p['title'][lang]+' — research draft','url':url('/'+lang+'/'+p['slug']+'/'),'inLanguage':lang,'version':VERSION,'datePublished':C['date'],'dateModified':C['date'],'creator':{'@id':url('/about/#hansam-yang'),'@type':'Person','name':AUTHOR},'license':LICENSE,'creditText':f'Hansam Yang, Original Bible v{VERSION}; AI-assisted draft. WLC/OSHB separately credited.','isBasedOn':sorted({H[v['source']]['source_url'] for v in p['verses']}),'creativeWorkStatus':'Research pilot; specialist review pending','isPartOf':{'@id':url('/#project')}}
-    page('/'+lang+'/'+p['slug']+'/',search_pages.chapter_title(p,lang),body,lang,{k:'/'+k+'/'+p['slug']+'/' for k in L},structured,p['intro'][lang])
-    md.extend(['## Notes']+[n[lang] for n in p['notes']]+['## Citation',cite,'Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.','No human specialist approval is claimed.','Source transformation: OSHB separators removed; original vowel/accent codepoints preserved; punctuation spacing adapted.'])
-    write(f'data/{p["slug"]}.{lang}.md','\n\n'.join(md)+'\n')
+        item = p['variant']
+        variant = f'''<section class="variant"><p class="eyebrow">{t['variant']}</p><p class="hebrew" lang="he" dir="rtl">{esc(item['hebrew'])}</p><p>{esc(item[lang])}</p><small>{esc(item['witness'])} · {t['pending']}</small><p><a href="{esc(item['source'])}">Emanuel Tov (2023), TheTorah.com ↗</a></p></section>'''
+        md.extend(['## Reported comparison reading — NOT a complete 4Q37 verse', item['hebrew'], item[lang], item['status'], item['source']])
+    book, chapter, _ = p['verses'][0]['source'].split('.')
+    cite = citation(p, lang)
+    source_text = {
+        'ko': '히브리어 전자 본문은 공공영역인 Westminster Leningrad Codex입니다. 사전형과 형태 분석은 Open Scriptures Hebrew Bible에서 가져왔으며 CC BY 4.0으로 제공합니다. 표시된 모음과 악센트는 이 마소라 본문 판본의 표기입니다. 사해문서 사진의 특징으로 간주하지 않습니다. 문장부호 공백은 화면에 맞게 조정했습니다. 위 번역은 이 프로젝트의 AI 보조 번역 초안이며 현대 성경 번역을 가져오지 않았습니다. 별도 출처를 밝힌 기존 번역본은 대조 화면에서 읽을 수 있습니다.',
+        'en': 'The Hebrew digital text is the public-domain Westminster Leningrad Codex. Lemmas and morphology come from Open Scriptures Hebrew Bible under CC BY 4.0. Displayed vowels and accents belong to this Masoretic edition, rather than to Dead Sea Scroll photographs. Punctuation spacing is adapted for display. These AI-assisted editorial drafts do not import a modern Bible translation. Separately credited reading editions are available in the comparison reader.',
+        'es': 'El texto hebreo digital es el Westminster Leningrad Codex de dominio público. Los lemas y la morfología proceden de Open Scriptures Hebrew Bible bajo CC BY 4.0. Las vocales y los acentos pertenecen a esta edición masorética y no se atribuyen a fotografías del Mar Muerto. Los espacios de puntuación se adaptan a la pantalla. Estos borradores editoriales con IA no incorporan una traducción bíblica moderna. El lector comparativo ofrece ediciones existentes con sus propias fuentes.',
+    }[lang]
+    body = f'''<div class="study-head reading-head"><a class="breadcrumb" href="/{lang}/#passages">← {t['home']}</a><h1>{esc(p['title'][lang])}</h1><p class="subtitle">{esc(p['subtitle'][lang])}</p><p class="edition-note">{t['translation']} · v{VERSION}<br>{t['draft']}</p></div>
+<div class="study-content reading-content">
+  <details class="passage-info"><summary>{words[2]}</summary><p>{basis}</p><p>{words[3]}</p><p class="byline">{t['author']} · <a href="/about/">Hansam Yang</a></p><dl><dt>{words[4]}</dt><dd>{basis}</dd></dl><p>{words[11]}</p>{chapter_sources.passage_links(p,lang)}<p><a href="/read/?book={book}&amp;chapter={chapter}&amp;left=original-{lang}&amp;right=krv">{words[13]} ↗</a></p>{search_pages.chapter_navigation(p,lang)}<p><a href="/data/{p['slug']}.{lang}.md">Markdown ↗</a> · <a href="/data/{p['slug']}.json">JSON ↗</a></p><details><summary>{words[12]}</summary><p>{p['intro'][lang]}</p><p><code>{p['id']}</code></p><p lang="en">{esc(p['decision'])}</p><p lang="en">{esc(p['basis'])}</p></details></details>
+  {''.join(rows)}
+  <details class="passage-notes" id="notes"><summary>{t['notes']} · {t['gloss']}</summary>{variant}{search_pages.related_links(p,lang)}<ol>{notes}</ol><h3>{t['gloss']}</h3><p class="fine">{t['selected']}</p><table><thead><tr><th>{words[7]}</th><th>{t['gloss']}</th></tr></thead><tbody>{gloss}</tbody></table><details><summary>{t['morph']} · OSHB</summary><p>{words[6]} <a href="https://github.com/openscriptures/morphhb/tree/master/parsing">{words[5]} ↗</a></p><table><thead><tr><th>{t['number']}</th><th>{words[7]}</th><th>{words[8]}</th><th>{words[9]}</th></tr></thead><tbody>{morph}</tbody></table></details></details>
+  <details class="source-note"><summary>{words[10]}</summary><p>{source_text}</p><p>Open Scriptures Hebrew Bible · <a href="https://github.com/openscriptures/morphhb">https://github.com/openscriptures/morphhb</a> · CC BY 4.0</p><p><code>{C['source_commit']}</code> · <a href="/data/{p['slug']}.json">JSON · SHA-256</a></p><section class="citation"><h2>{t['citation']}</h2><p id="citation-text">{cite}</p><button class="button" data-copy="citation-text" data-done="{t['copied']}">{t['copy']}</button><p class="copy-status" role="status"></p><p class="fine">{t['warning']}</p><p><a href="/reuse/">CC BY 4.0 · {t['terms']}</a></p></section></details>
+</div>'''
+    structured = {'@context': 'https://schema.org', '@type': 'CreativeWork', '@id': url('/' + lang + '/' + p['slug'] + '/#work'), 'name': p['title'][lang] + ' — research draft', 'url': url('/' + lang + '/' + p['slug'] + '/'), 'inLanguage': lang, 'version': VERSION, 'datePublished': C['date'], 'dateModified': C['date'], 'creator': {'@id': url('/about/#hansam-yang'), '@type': 'Person', 'name': AUTHOR}, 'license': LICENSE, 'creditText': f'Hansam Yang, Original Bible v{VERSION}; AI-assisted draft. WLC/OSHB separately credited.', 'isBasedOn': sorted({H[verse['source']]['source_url'] for verse in p['verses']}), 'creativeWorkStatus': 'Research pilot; specialist review pending', 'isPartOf': {'@id': url('/#project')}}
+    page('/' + lang + '/' + p['slug'] + '/', search_pages.chapter_title(p,lang), body, lang, {key: '/' + key + '/' + p['slug'] + '/' for key in L}, structured, p['subtitle'][lang])
+    md.extend(['## Notes'] + [note[lang] for note in p['notes']] + ['## Citation', cite, 'Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.', 'No human specialist approval is claimed.', 'Source transformation: OSHB separators removed; original vowel/accent codepoints preserved; punctuation spacing adapted.'])
+    write(f'data/{p["slug"]}.{lang}.md', '\n\n'.join(md) + '\n')
+
 for lang in L:
     home(lang)
     for p in E: study(p,lang)

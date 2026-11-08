@@ -1,12 +1,12 @@
-# Génesis5:1–25
+# Génesis 5:1–25
 
-Hansam Yang · Original Bible · v0.4.19
+Hansam Yang · Original Bible · v0.4.20
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
 Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.
 
-Selecciones provisionales de Génesis5:1–25 con propuestas independientes GPT/Gemini,revisión final oficial agy y opiniones difíciles Claude Code conservadas. WLC es una base provisional contrastada con Swete1901;no se afirma reconstrucción del texto más antiguo ni cotejo completo o certificación humana.
+Selecciones provisionales de Génesis 5:1–25 con propuestas independientes GPT/Gemini, revisión final oficial agy y opiniones difíciles Claude Code conservadas. WLC es una base provisional contrastada con Swete1901;no se afirma reconstrucción del texto más antiguo ni cotejo completo o certificación humana.
 
 Basis: Pinned MT-WLC display; no full independent manuscript collation
 
@@ -22,7 +22,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-계보 기록과 창조 회고를 구별하고 첫 adam은 아담,창조 대상은 사람으로 옮긴다.
+계보 기록과 창조 회고를 구별하고 첫 adam은 아담, 창조 대상은 사람으로 옮긴다.
 
 #### claude-sonnet-5-5
 
@@ -57,6 +57,10 @@ Previous v0.4.17
 Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
 
 Previous v0.4.18
+
+Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
+
+Previous v0.4.19
 
 Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
 
@@ -108,6 +112,10 @@ Previous v0.4.18
 
 Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
 
+Previous v0.4.19
+
+Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
+
 ## 3 · HYB.GEN.005.003
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אָדָ֗ם שְׁלֹשִׁ֤ים וּמְאַת֙ שָׁנָ֔ה וַיּ֥וֹלֶד בִּדְמוּת֖וֹ כְּצַלְמ֑וֹ וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵֽׁת׃
@@ -153,6 +161,10 @@ Previous v0.4.17
 Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
 
 Previous v0.4.18
+
+Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
+
+Previous v0.4.19
 
 Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
 
@@ -204,6 +216,10 @@ Previous v0.4.18
 
 Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
 
+Previous v0.4.19
+
+Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
+
 ## 5 · HYB.GEN.005.005
 
 Hebrew display (MT/WLC): וַיִּֽהְי֞וּ כָּל־יְמֵ֤י אָדָם֙ אֲשֶׁר־חַ֔י תְּשַׁ֤ע מֵאוֹת֙ שָׁנָ֔ה וּשְׁלֹשִׁ֖ים שָׁנָ֑ה וַיָּמֹֽת׃
@@ -252,6 +268,10 @@ Previous v0.4.18
 
 Todos los días que vivió Adán fueron novecientos treinta años, y murió.
 
+Previous v0.4.19
+
+Todos los días que vivió Adán fueron novecientos treinta años, y murió.
+
 ## 6 · HYB.GEN.005.006
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
@@ -296,6 +316,10 @@ Previous v0.4.18
 
 Set vivió ciento cinco años y engendró a Enós.
 
+Previous v0.4.19
+
+Set vivió ciento cinco años y engendró a Enós.
+
 ## 7 · HYB.GEN.005.007
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֗ת אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־אֱנ֔וֹשׁ שֶׁ֣בַע שָׁנִ֔ים וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -306,7 +330,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-에노스 출생 이후807년과 아들·딸을 모두 보존한다.
+에노스 출생 이후 807년과 아들·딸을 모두 보존한다.
 
 #### claude-sonnet-5-5
 
@@ -340,6 +364,10 @@ Previous v0.4.18
 
 Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
 
+Previous v0.4.19
+
+Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
+
 ## 8 · HYB.GEN.005.008
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -350,7 +378,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-셋의912년과 죽었다는 마침을 보존한다.
+셋의 912년과 죽었다는 마침을 보존한다.
 
 #### claude-sonnet-5-5
 
@@ -384,6 +412,10 @@ Previous v0.4.18
 
 Todos los días de Set fueron novecientos doce años, y murió.
 
+Previous v0.4.19
+
+Todos los días de Set fueron novecientos doce años, y murió.
+
 ## 9 · HYB.GEN.005.009
 
 Hebrew display (MT/WLC): וַֽיְחִ֥י אֱנ֖וֹשׁ תִּשְׁעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־קֵינָֽן׃
@@ -394,7 +426,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-에노스90년과 게난 출생을 옮긴다.
+에노스 90년과 게난 출생을 옮긴다.
 
 #### claude-sonnet-5-5
 
@@ -428,6 +460,10 @@ Previous v0.4.18
 
 Enós vivió noventa años y engendró a Quenán.
 
+Previous v0.4.19
+
+Enós vivió noventa años y engendró a Quenán.
+
 ## 10 · HYB.GEN.005.010
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -438,7 +474,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-게난 출생 이후815년과 아들·딸을 보존한다.
+게난 출생 이후 815년과 아들·딸을 보존한다.
 
 #### claude-sonnet-5-5
 
@@ -469,6 +505,10 @@ Previous v0.4.17
 Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
 
 Previous v0.4.18
+
+Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
+
+Previous v0.4.19
 
 Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
 
@@ -512,6 +552,10 @@ Previous v0.4.18
 
 Todos los días de Enós fueron novecientos cinco años, y murió.
 
+Previous v0.4.19
+
+Todos los días de Enós fueron novecientos cinco años, y murió.
+
 ## 12 · HYB.GEN.005.012
 
 Hebrew display (MT/WLC): וַֽיְחִ֥י קֵינָ֖ן שִׁבְעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מַֽהֲלַלְאֵֽל׃
@@ -549,6 +593,10 @@ Previous v0.4.17
 Quenán vivió setenta años y engendró a Mahalaleel.
 
 Previous v0.4.18
+
+Quenán vivió setenta años y engendró a Mahalaleel.
+
+Previous v0.4.19
 
 Quenán vivió setenta años y engendró a Mahalaleel.
 
@@ -592,6 +640,10 @@ Previous v0.4.18
 
 Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y engendró hijos e hijas.
 
+Previous v0.4.19
+
+Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y engendró hijos e hijas.
+
 ## 14 · HYB.GEN.005.014
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י קֵינָ֔ן עֶ֣שֶׂר שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -629,6 +681,10 @@ Previous v0.4.17
 Todos los días de Quenán fueron novecientos diez años, y murió.
 
 Previous v0.4.18
+
+Todos los días de Quenán fueron novecientos diez años, y murió.
+
+Previous v0.4.19
 
 Todos los días de Quenán fueron novecientos diez años, y murió.
 
@@ -672,6 +728,10 @@ Previous v0.4.18
 
 Mahalaleel vivió sesenta y cinco años y engendró a Jared.
 
+Previous v0.4.19
+
+Mahalaleel vivió sesenta y cinco años y engendró a Jared.
+
 ## 16 · HYB.GEN.005.016
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֗ל אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־יֶ֔רֶד שְׁלֹשִׁ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -705,6 +765,10 @@ Final opinion (Korean original): 야렛 출생 이후 팔백삼십 년과 아들
 Counterargument (Korean): 다른 자녀들의 수·이름·출생 시점·계보의 완전성은 확정하지 않는다.
 
 Previous v0.4.18
+
+Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
+
+Previous v0.4.19
 
 Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
 
@@ -744,6 +808,10 @@ Previous v0.4.18
 
 Todos los días de Mahalaleel fueron ochocientos noventa y cinco años, y murió.
 
+Previous v0.4.19
+
+Todos los días de Mahalaleel fueron ochocientos noventa y cinco años, y murió.
+
 ## 18 · HYB.GEN.005.018
 
 Hebrew display (MT/WLC): וַֽיְחִי־יֶ֕רֶד שְׁתַּ֧יִם וְשִׁשִּׁ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־חֲנֽוֹךְ׃
@@ -777,6 +845,10 @@ Final opinion (Korean original): 야렛의 백육십이 년과 에녹 출생을 
 Counterargument (Korean): 히필 낳다를 문맥상 부친 관계로 번역한다. 첫 자녀·이름 어원·이후 에녹 사건을 보충하지 않는다.
 
 Previous v0.4.18
+
+Jared vivió ciento sesenta y dos años y engendró a Enoc.
+
+Previous v0.4.19
 
 Jared vivió ciento sesenta y dos años y engendró a Enoc.
 
@@ -816,6 +888,10 @@ Previous v0.4.18
 
 Después de engendrar a Enoc, Jared vivió ochocientos años y engendró hijos e hijas.
 
+Previous v0.4.19
+
+Después de engendrar a Enoc, Jared vivió ochocientos años y engendró hijos e hijas.
+
 ## 20 · HYB.GEN.005.020
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־יֶ֔רֶד שְׁתַּ֤יִם וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -852,6 +928,10 @@ Previous v0.4.18
 
 Todos los días de Jared fueron novecientos sesenta y dos años, y murió.
 
+Previous v0.4.19
+
+Todos los días de Jared fueron novecientos sesenta y dos años, y murió.
+
 ## 21 · HYB.GEN.005.021
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י חֲנ֔וֹךְ חָמֵ֥שׁ וְשִׁשִּׁ֖ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מְתוּשָֽׁלַח׃
@@ -882,7 +962,11 @@ Enoc vivió sesenta y cinco años y engendró a Matusalén.
 
 Final opinion (Korean original): 육십오 년과 므두셀라 출생을 보존한다. Swete1901 본문의165년은 실제 대안이다. 고대 그리스어가 더 이른 히브리어 수치를 반영할 가능성을 배제하지 않으며 WLC65년은 잠정 저본 선택이다.
 
-Counterargument (Korean): Swete1901 본문의165년은 실제 대안이다. 고대 그리스어가 더 이른 히브리어 수치를 반영할 가능성을 배제하지 않으며 WLC65년은 잠정 저본 선택이다.
+Counterargument (Korean): Swete1901 본문의 165년은 실제 대안이다. 고대 그리스어가 더 이른 히브리어 수치를 반영할 가능성을 배제하지 않으며 WLC65년은 잠정 저본 선택이다.
+
+Previous v0.4.19
+
+Enoc vivió sesenta y cinco años y engendró a Matusalén.
 
 ## 22 · HYB.GEN.005.022
 
@@ -894,7 +978,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-므두셀라 출생 뒤 삼백 년,함께 걸음과 아들들과 딸들을 보존한다. 초기 걸으며를 걸었고로 바꾸어 두 서술을 명시한다.
+므두셀라 출생 뒤 삼백 년, 함께 걸음과 아들들과 딸들을 보존한다. 초기 걸으며를 걸었고로 바꾸어 두 서술을 명시한다.
 
 #### claude-opus-5-5
 
@@ -914,7 +998,11 @@ Después de engendrar a Matusalén, Enoc anduvo con Dios trescientos años y eng
 
 Final opinion (Korean original): 므두셀라 출생 뒤 삼백 년,함께 걸음과 아들들과 딸들을 보존한다. 초기 걸으며를 걸었고로 바꾸어 두 서술을 명시한다. Claude의 동행하였다도 타당한 역어다. 함께 걸었다는 공간적 이동으로만 읽힐 수 있어 삶의 양태라는 해석 가능성을 주석에 남긴다. Swete1901은 기쁘게 함과200년을 보인다. 친교·재귀성 일반화는 원문에 추가하지 않는다.
 
-Counterargument (Korean): Claude의 동행하였다도 타당한 역어다. 함께 걸었다는 공간적 이동으로만 읽힐 수 있어 삶의 양태라는 해석 가능성을 주석에 남긴다. Swete1901은 기쁘게 함과200년을 보인다. 친교·재귀성 일반화는 원문에 추가하지 않는다.
+Counterargument (Korean): Claude의 동행하였다도 타당한 역어다. 함께 걸었다는 공간적 이동으로만 읽힐 수 있어 삶의 양태라는 해석 가능성을 주석에 남긴다. Swete1901은 기쁘게 함과 200년을 보인다. 친교·재귀성 일반화는 원문에 추가하지 않는다.
+
+Previous v0.4.19
+
+Después de engendrar a Matusalén, Enoc anduvo con Dios trescientos años y engendró hijos e hijas.
 
 ## 23 · HYB.GEN.005.023
 
@@ -926,7 +1014,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-에녹의 모든 날365년을 옮기고 이 절에 없는 죽었다를 덧붙이지 않는다.
+에녹의 모든 날 365년을 옮기고 이 절에 없는 죽었다를 덧붙이지 않는다.
 
 #### claude-opus-5-5
 
@@ -946,7 +1034,11 @@ Todos los días de Enoc fueron trescientos sesenta y cinco años.
 
 Final opinion (Korean original): 에녹의 모든 날365년을 옮기고 이 절에 없는 죽었다를 덧붙이지 않는다. WLC65+300과 Swete165+200 모두365이지만 합계 일치만으로 어느 연대가 더 이른지 결정할 수 없다. 역사 수명이나 태양력 상징을 입증하지 않는다.
 
-Counterargument (Korean): WLC65+300과 Swete165+200 모두365이지만 합계 일치만으로 어느 연대가 더 이른지 결정할 수 없다. 역사 수명이나 태양력 상징을 입증하지 않는다.
+Counterargument (Korean): WLC65+300과 Swete165+200 모두 365이지만 합계 일치만으로 어느 연대가 더 이른지 결정할 수 없다. 역사 수명이나 태양력 상징을 입증하지 않는다.
+
+Previous v0.4.19
+
+Todos los días de Enoc fueron trescientos sesenta y cinco años.
 
 ## 24 · HYB.GEN.005.024
 
@@ -958,7 +1050,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-함께 걸음,그의 부재,하나님의 데려가심과 인과를 보존한다. 하늘·방식·죽음 유무를 본문에 보충하지 않는다.
+함께 걸음, 그의 부재, 하나님의 데려가심과 인과를 보존한다. 하늘·방식·죽음 유무를 본문에 보충하지 않는다.
 
 #### claude-opus-5-5
 
@@ -979,6 +1071,10 @@ Enoc anduvo con Dios, y ya no estaba, porque Dios se lo llevó.
 Final opinion (Korean original): 함께 걸음,그의 부재,하나님의 데려가심과 인과를 보존한다. 하늘·방식·죽음 유무를 본문에 보충하지 않는다. 더 이상 없었다/was no more는 죽음의 완곡어로도 읽힐 수 있다. 사망 공식의 부재를 주석에 밝히되 죽음도 불사도 확정하지 않는다. 그리스어의 발견되지 않음·옮김을 히브리어에 역투사하지 않는다.
 
 Counterargument (Korean): 더 이상 없었다/was no more는 죽음의 완곡어로도 읽힐 수 있다. 사망 공식의 부재를 주석에 밝히되 죽음도 불사도 확정하지 않는다. 그리스어의 발견되지 않음·옮김을 히브리어에 역투사하지 않는다.
+
+Previous v0.4.19
+
+Enoc anduvo con Dios, y ya no estaba, porque Dios se lo llevó.
 
 ## 25 · HYB.GEN.005.025
 
@@ -1004,7 +1100,11 @@ Matusalén vivió ciento ochenta y siete años y engendró a Lamec.
 
 Final opinion (Korean original): 백팔십칠 년과 라멕 출생을 보존한다. 이번에 눈으로 읽은 Swete1901 인쇄면 본문 역시187이다. 모든 칠십인역=167이라는 일반화는 철회한다. 다른 판본·사마리아 수치와 장치의 교정자 기호는 확인되지 않았으므로 판정하지 않는다.
 
-Counterargument (Korean): 이번에 눈으로 읽은 Swete1901 인쇄면 본문 역시187이다. 모든 칠십인역=167이라는 일반화는 철회한다. 다른 판본·사마리아 수치와 장치의 교정자 기호는 확인되지 않았으므로 판정하지 않는다.
+Counterargument (Korean): 이번에 눈으로 읽은 Swete1901 인쇄면 본문 역시 187이다. 모든 칠십인역=167이라는 일반화는 철회한다. 다른 판본·사마리아 수치와 장치의 교정자 기호는 확인되지 않았으므로 판정하지 않는다.
+
+Previous v0.4.19
+
+Matusalén vivió ciento ochenta y siete años y engendró a Lamec.
 
 ## Notes
 
@@ -1012,21 +1112,21 @@ El primer Adán del v.1 se entiende como figura genealógica; adam en la creaci�
 
 BDB8435 trata toledot como relato genealógico de una persona y sus descendientes. Registro no certifica un autógrafo conservado de Adán ni identifica al autor antiguo. Semejanza e imagen no se convierten en categorías doctrinales separadas. Hijo en el v.3 explicita el objeto contextual; no se declara que Set fuera el primer hijo.
 
-Los vv.3–5 conservan las cifras del WLC fijado:130,800 después de Set y930 en total,y murió. La suma concuerda,sin verificar de forma independiente cronología histórica ni longevidad biológica. No se fijan número o fechas de los demás hijos ni la integridad de la genealogía. No se cotejaron cifras de otras versiones antiguas.
+Los vv.3–5 conservan las cifras del WLC fijado:130,800 después de Set y930 en total, y murió. La suma concuerda, sin verificar de forma independiente cronología histórica ni longevidad biológica. No se fijan número o fechas de los demás hijos ni la integridad de la genealogía. No se cotejaron cifras de otras versiones antiguas.
 
-Los vv.6–8 conservan105 años antes de que Set engendrara a Enós,807 después y912 en total. La suma verifica la aritmética textual,no una longevidad histórica. Los vv.9–10 conservan90 años de Enós y815 después de engendrar a Quenán,sin añadir la noticia de su muerte ausente en este grupo. Quenán transcribe el nombre hebreo y no se identifica con Caín.
+Los vv.6–8 conservan105 años antes de que Set engendrara a Enós,807 después y912 en total. La suma verifica la aritmética textual, no una longevidad histórica. Los vv.9–10 conservan90 años de Enós y815 después de engendrar a Quenán, sin añadir la noticia de su muerte ausente en este grupo. Quenán transcribe el nombre hebreo y no se identifica con Caín.
 
-Los vv.11–15 conservan905 años de Enós,70 de Quenán antes de Mahalaleel y840 después,910 en total,y65 de Mahalaleel antes de Jared.90+815=905 y70+840=910 verifican la aritmética textual,no una longevidad histórica. No se añaden primogenitura,integridad genealógica ni noticias de muerte ausentes. Las formas de los nombres son decisiones de transliteración,no afirmaciones etimológicas.
+Los vv.11–15 conservan905 años de Enós,70 de Quenán antes de Mahalaleel y840 después,910 en total, y65 de Mahalaleel antes de Jared.90+815=905 y70+840=910 verifican la aritmética textual, no una longevidad histórica. No se añaden primogenitura, integridad genealógica ni noticias de muerte ausentes. Las formas de los nombres son decisiones de transliteración, no afirmaciones etimológicas.
 
-Los vv.16–20 conservan830 años de Mahalaleel después de Jared y895 en total,y162 de Jared antes de Enoc,800 después y962 en total.65+830=895 y162+800=962 verifican la aritmética textual,no una cronología o longevidad histórica. No se añaden número,nombres u orden de otros hijos ni integridad genealógica. Los nombres son transliteraciones editoriales,no pronunciaciones originales,etimologías ni variantes verificadas.
+Los vv.16–20 conservan830 años de Mahalaleel después de Jared y895 en total, y162 de Jared antes de Enoc,800 después y962 en total.65+830=895 y162+800=962 verifican la aritmética textual, no una cronología o longevidad histórica. No se añaden número, nombres u orden de otros hijos ni integridad genealógica. Los nombres son transliteraciones editoriales, no pronunciaciones originales, etimologías ni variantes verificadas.
 
-Los vv.21–25 siguen provisionalmente WLC65/300/365/187. La imagen impresa de Swete1901,t.I,p.8 examinada visualmente presenta165/200/365/187. Las diferencias griegas se reconocen sin afirmar que prueben un hebreo anterior o justifiquen sustituir las cifras elegidas. No se atribuyen167 años a toda la Septuaginta. Siguen pendientes los aparatos BHQ/Göttingen y el cotejo samaritano y del Mar Muerto. Una imagen de una edición impresa no es un manuscrito antiguo.
+Los vv.21–25 siguen provisionalmente WLC65/300/365/187. La imagen impresa de Swete1901, t.I, p.8 examinada visualmente presenta165/200/365/187. Las diferencias griegas se reconocen sin afirmar que prueben un hebreo anterior o justifiquen sustituir las cifras elegidas. No se atribuyen167 años a toda la Septuaginta. Siguen pendientes los aparatos BHQ/Göttingen y el cotejo samaritano y del Mar Muerto. Una imagen de una edición impresa no es un manuscrito antiguo.
 
-La entrada de Enoc emplea anduvo con Dios en lugar de vivió y omite la fórmula y murió. Andar puede expresar un modo de vida. Ya no estaba conserva la ausencia,pero admite una lectura eufemística de muerte. Dios se lo llevó no especifica destino,modo ni si hubo muerte. Swete1901 5:24 incluye no ser encontrado y ser trasladado; la omisión del OCR no se trata como variante antigua.65+300=365 verifica solo la aritmética textual,no la longevidad histórica ni un simbolismo solar.
+La entrada de Enoc emplea anduvo con Dios en lugar de vivió y omite la fórmula y murió. Andar puede expresar un modo de vida. Ya no estaba conserva la ausencia, pero admite una lectura eufemística de muerte. Dios se lo llevó no especifica destino, modo ni si hubo muerte. Swete1901 5:24 incluye no ser encontrado y ser trasladado; la omisión del OCR no se trata como variante antigua.65+300=365 verifica solo la aritmética textual, no la longevidad histórica ni un simbolismo solar.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis5:1–25 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/genesis-5/
+Hansam Yang. Original Bible: Genesis 5:1–25 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

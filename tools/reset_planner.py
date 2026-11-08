@@ -129,7 +129,50 @@ def cadence(events, now, minimum=6):
     return reports
 
 
-def plan(current, previous, policy, events, now):
+KST = dt.timezone(dt.timedelta(hours=9))
+DAILY_LEDGER = R/'private/daily-translation-budget.json'
+
+
+def daily_budget(current, policy, now, ledger=None):
+    """Freeze one KST day's allowance; shared usage and reservations both count.
+
+    No missed-day catch-up. A reservation is never refunded after a failed run.
+    The reset timestamp scopes the ledger shared by both local entry points.
+    """
+    reset = timestamp(current['weekly']['resets_at'])
+    days = max(1.0, (reset-now).total_seconds()/86400)
+    reserve = max(15.0, policy['weekly_reserve_percent'])
+    remaining = current['weekly']['remaining_percent']
+    key = now.astimezone(KST).date().isoformat()+'|'+reset.isoformat()
+    stored = (ledger or {}).get('days', {}).get(key)
+    opening = max(0.0, remaining-reserve)/days
+    entry = dict(stored) if stored else {
+        'allowance_points': opening, 'opening_remaining_points': remaining,
+        'reserved_points': 0.0, 'opened_at': now.isoformat()}
+    if any(not isinstance(entry.get(k), (int, float)) or isinstance(entry.get(k), bool)
+           or not math.isfinite(entry[k]) or not 0 <= entry[k] <= 100
+           for k in ('allowance_points', 'opening_remaining_points', 'reserved_points')):
+        raise ValueError('Invalid daily budget ledger; do not reset spent allowance')
+    spent = max(entry['reserved_points'], entry['opening_remaining_points']-remaining, 0.0)
+    # Raising a configured reserve must also tighten an already-open day.
+    allowance = min(entry['allowance_points'], max(0.0, remaining-reserve)+spent)
+    return {'key': key, 'entry': entry, 'days_until_reset': days,
+            'reserve_points': reserve, 'allowance_points': allowance,
+            'charged_points': spent, 'remaining_points': max(0.0, allowance-spent)}
+
+
+def reserve_daily_budget(ledger, budget, points):
+    """Call under the shared gate lock, before any translation model work."""
+    if not math.isfinite(points) or points <= 0 or points > budget['remaining_points']+1e-9:
+        raise ValueError('Daily allowance cannot cover reservation')
+    result = json.loads(json.dumps(ledger))
+    entry = dict(budget['entry'])
+    entry['reserved_points'] = budget['charged_points']+points
+    result.setdefault('days', {})[budget['key']] = entry
+    return result
+
+
+def plan(current, previous, policy, events, now, ledger=None):
     changes = observed_changes(previous, current)
     result = {'checked_at': now.isoformat(), 'start_batch': False, 'batch_verses': policy['batch_verses'],
               'max_batches': 1, 'redeem_reset': False, 'spend_cash': False, 'reasons': [], 'observed_changes': changes,
@@ -143,10 +186,32 @@ def plan(current, previous, policy, events, now):
         if credit['type'] == 'codexRateLimits' and 0 < hours <= policy['reset_planner']['banked_expiry_attention_hours']:
             result['banked_attention'].append({'id': credit['id'], 'expires_at': credit['expires_at'],
                 'action': 'Review free banked reset before expiry through official controls; do not redeem automatically or lower protected reserves.'})
-    if not policy.get('enabled') or not policy['reset_planner'].get('enabled') or not current['ordinary_usage_allowed']:
+    if not policy.get('enabled') or not policy['reset_planner'].get('enabled') or not policy.get('daily_pacing', {}).get('enabled', True) or not current['ordinary_usage_allowed']:
         result['reasons'].append('Policy disabled or ordinary included usage unavailable')
         return result
     minutes = {}
+    settings = policy['reset_planner']
+    for window in ('weekly', 'primary'):
+        values = (policy[window+'_reserve_percent'], settings['estimated_batch_usage_points'][window], settings['usage_safety_margin_points'][window])
+        if settings.get('usage_unit') != 'percentage_points_of_window' or any(not isinstance(x, (int, float)) or isinstance(x, bool) or not math.isfinite(x) or not 0 <= x <= 100 for x in values) or settings['estimated_batch_usage_points'][window] <= 0:
+            result['reasons'].append('Invalid reserve/estimate units or bounds')
+            return result
+    budget = daily_budget(current, policy, now, ledger)
+    result['daily_budget'] = budget
+    maximum = policy['batch_verses']
+    if not isinstance(maximum, int) or isinstance(maximum, bool) or not 1 <= maximum <= 5:
+        result['reasons'].append('Invalid batch size; expected 1-5 verses')
+        return result
+    # Linear per-verse estimate from the existing pilot; keep the entire fixed
+    # safety margin even for a smaller batch. These are estimates, never caps.
+    weekly_per_verse = settings['estimated_batch_usage_points']['weekly']/maximum
+    available = budget['remaining_points']-settings['usage_safety_margin_points']['weekly']
+    verses = min(maximum, max(0, math.floor((available+1e-9)/weekly_per_verse)))
+    result['batch_verses'] = verses
+    if not verses:
+        result['reasons'].append('Daily allowance cannot cover one verse and the fixed safety margin')
+        return result
+    result['estimated_usage_points'] = {w: settings['estimated_batch_usage_points'][w]*verses/maximum+settings['usage_safety_margin_points'][w] for w in ('weekly', 'primary')}
     for window, reserve in [('weekly', policy['weekly_reserve_percent']), ('primary', policy['primary_reserve_percent'])]:
         minutes[window] = (timestamp(current[window]['resets_at'])-now).total_seconds()/60
         if minutes[window] <= 0:
@@ -154,7 +219,9 @@ def plan(current, previous, policy, events, now):
             return result
         # 20 primary / 5 weekly points based on prior pilot display deltas,
         # plus a 3/2 point margin. Shared-account deltas are not a guarantee.
-        estimate = policy['reset_planner']['estimated_batch_usage_points'][window]
+        if window == 'weekly':
+            reserve = budget['reserve_points']
+        estimate = policy['reset_planner']['estimated_batch_usage_points'][window]*verses/maximum
         margin = policy['reset_planner']['usage_safety_margin_points'][window]
         # All these quantities are percentage points of this quota window,
         # not tokens, dollars, or an independently convertible credit balance.
@@ -164,45 +231,8 @@ def plan(current, previous, policy, events, now):
         if current[window]['remaining_percent']-estimate-margin < reserve:
             result['reasons'].append(window + ' reserve cannot cover the estimated batch and safety margin')
             return result
-        if window == 'weekly' and policy.get('weekly_pacing_enabled'):
-            # Release the discretionary weekly budget gradually, rather than
-            # spending it every time a shorter 5-hour window approaches reset.
-            # Other account work also counts: this is an account-wide gate.
-            future_fraction = min(1.0, minutes['weekly'] / 10080)
-            paced_reserve = reserve + (100-reserve) * future_fraction
-            result['weekly_budget'] = {
-                'remaining_percent': current['weekly']['remaining_percent'],
-                'days_until_reset': round(minutes['weekly']/1440, 2),
-                'protected_remaining_percent': round(paced_reserve, 2),
-                'estimated_batch_and_margin_points': estimate+margin,
-                'basis': 'Weekly reserve plus time-proportional budget for the remaining week; account-wide, not task cost.'}
-            if current['weekly']['remaining_percent']-estimate-margin < paced_reserve:
-                result['reasons'].append('Weekly pacing budget is reserved for the remaining week; a primary reset alone cannot authorize spending it')
-                return result
-    if minutes['primary'] <= policy['start_within_minutes_of_primary_reset'] or minutes['weekly'] <= policy['start_within_minutes_of_weekly_reset']:
-        result['reasons'].append('Regular reset window')
-    for event in events:
-        # Human/agent review must establish exact time, window scope and this
-        # account's eligibility. A publication date or a plan name is insufficient.
-        if event.get('verified') is not True or event.get('applies_to_account') is not True or event.get('kind') != 'automatic_reset' or not official(event.get('source_url', '')) or event.get('pool') != 'codex':
-            continue
-        if not set(event.get('covers', [])) & {'primary', 'weekly'}:
-            continue
-        try:
-            minutes_until = (timestamp(event['effective_at'])-now).total_seconds()/60
-        except (KeyError, ValueError, TypeError):
-            continue
-        if 0 < minutes_until <= policy['reset_planner']['automatic_reset_lead_minutes']:
-            result['reasons'].append('Verified upcoming automatic reset: '+event['id'])
-    for credit in current['banked']:
-        if credit['type'] != 'codexRateLimits':
-            continue
-        hours = (timestamp(credit['expires_at'])-now).total_seconds()/3600
-        if 0 < hours <= policy['reset_planner']['banked_expiry_work_hours']:
-            result['reasons'].append('Live banked-reset expiry window; included quota only: '+credit['id'])
-    result['start_batch'] = bool(result['reasons'])
-    if not result['reasons']:
-        result['reasons'].append('No confirmed reset/expiry work window')
+    result['start_batch'] = True
+    result['reasons'].append('Daily allowance covers one batch; reset proximity is not required')
     result['minutes_until_live_resets'] = {k: round(v, 1) for k, v in minutes.items()}
     result['after_batch'] = 'Recheck actual shared usage; stop if a protected reserve is approached. Estimates are not hard provider-side caps.'
     return result
@@ -348,7 +378,6 @@ def main():
     parser.add_argument('--web-notices', type=pathlib.Path, help='Fresh public-page evidence returned by official web reading tools; no security bypass')
     parser.add_argument('--mark-notified', action='append', default=[], help='Record an ID only when preparing a real user notification; local deduplication only')
     args = parser.parse_args()
-    now = dt.datetime.now(UTC)
     policy = json.loads((R/'automation/local-policy.json').read_text(encoding='utf-8'))
     catalog = json.loads((R/'automation/reset-announcements.json').read_text(encoding='utf-8'))
     state = json.loads(args.state.read_text(encoding='utf-8')) if args.state.exists() else {}
@@ -356,10 +385,13 @@ def main():
     # Timestamp must travel with the live receipt; reading an old saved payload
     # cannot make it fresh merely by invoking this CLI again.
     current = snapshot(receipt.get('usage', receipt), timestamp(receipt['checked_at']))
+    # Judge freshness after loading the receipt, never against a pre-read time.
+    now = dt.datetime.now(UTC)
     previous = state.get('snapshot')
     if previous and previous['account_key'] == current['account_key'] and timestamp(current['checked_at']) < timestamp(previous['checked_at']):
         raise ValueError('Out-of-order usage receipt; obtain fresh live usage instead of rewinding account state')
-    decision = plan(current, state.get('snapshot'), policy, catalog['events'], now)
+    ledger = json.loads(DAILY_LEDGER.read_text(encoding='utf-8')) if DAILY_LEDGER.exists() else {}
+    decision = plan(current, state.get('snapshot'), policy, catalog['events'], now, ledger)
     if args.scan_notices:
         interval = policy['reset_planner']['notice_check_hours']
         if any(report['next_date_advisory'] and dt.date.fromisoformat(report['next_date_advisory']) <= now.date()+dt.timedelta(days=2) for report in decision['cadence'].values()):

@@ -1,6 +1,6 @@
 # Génesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.19
+Hansam Yang · Original Bible · v0.4.20
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -79,6 +79,10 @@ Previous v0.4.17
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
 Previous v0.4.18
+
+Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
+
+Previous v0.4.19
 
 Así quedaron terminados los cielos y la tierra, y todo cuanto hay en ellos.
 
@@ -190,6 +194,10 @@ Previous v0.4.18
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
 
+Previous v0.4.19
+
+En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
+
 Previous v0.4.2
 
 En el séptimo día Dios terminó la obra que había hecho, y en el séptimo día cesó de toda la obra que había hecho.
@@ -298,6 +306,10 @@ Previous v0.4.18
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
 
+Previous v0.4.19
+
+Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
+
 Previous v0.4.2
 
 Dios bendijo el séptimo día y lo santificó, porque en él cesó de toda la obra que Dios había creado y hecho.
@@ -340,7 +352,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-תולדות를 내력으로, ביום을 시간 구문으로 옮기고 마지막의 땅-하늘 순서를 보존한다. 뒤 구문은 다음 절로 이어진다.
+תולדות를 내력으로, ביום을 시간 구문으로 옮기고 마지막의 땅-하늘 순서를 보존한다. 뒤 구문은 다음 절로 이어진다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -406,6 +418,10 @@ Previous v0.4.18
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
 
+Previous v0.4.19
+
+Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
+
 Previous v0.4.2
 
 Este es el relato de los cielos y la tierra cuando fueron creados. Cuando Yahvé Dios hizo tierra y cielos,
@@ -448,7 +464,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-두 טרם과 이유절을 보존하며 אדם을 아직 고유명으로 확정하지 않는다.
+두 טרם과 이유절을 보존하며 אדם을 아직 고유명으로 확정하지 않는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-high
 
@@ -505,6 +521,10 @@ Previous v0.4.17
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
 Previous v0.4.18
+
+Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
+
+Previous v0.4.19
 
 Aún no había en la tierra ningún arbusto del campo, ni había brotado ninguna planta del campo, porque Yahvé Dios no había hecho llover sobre la tierra y no había ser humano que cultivara el suelo.
 
@@ -612,6 +632,10 @@ Previous v0.4.18
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
 
+Previous v0.4.19
+
+Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
+
 Previous v0.4.2
 
 Pero una corriente de agua subía de la tierra y regaba toda la superficie del suelo.
@@ -654,7 +678,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-먼지의 출처와 콧구멍·생명의 숨·살아 있는 존재가 됨을 보존한다. נפש חיה를 살아 있는 존재로 옮긴다.
+먼지의 출처와 콧구멍·생명의 숨·살아 있는 존재가 됨을 보존한다. נפש חיה를 살아 있는 존재로 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -716,6 +740,10 @@ Previous v0.4.18
 
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
 
+Previous v0.4.19
+
+Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
+
 Previous v0.4.2
 
 Yahvé Dios formó al ser humano del polvo del suelo y sopló en sus narices aliento de vida; y el ser humano se convirtió en un ser viviente.
@@ -758,7 +786,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-נטע의 동산 식재와 מקדם의 공간 방향을 현재 선택한다. 에덴 안의 동산과 에덴 자체를 같은 이름으로 합치지 않는다.
+נטע의 동산 식재와 מקדם의 공간 방향을 현재 선택한다. 에덴 안의 동산과 에덴 자체를 같은 이름으로 합치지 않는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -820,6 +848,10 @@ Previous v0.4.18
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
 
+Previous v0.4.19
+
+Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
+
 Previous v0.4.2
 
 Yahvé Dios plantó un jardín en Edén, al este, y puso allí al ser humano que había formado.
@@ -862,7 +894,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-보기에 좋음과 먹기에 좋음, 두 나무의 이름을 보존한다. 가운데라는 위치는 생명나무에 직접 붙여 옮긴다.
+보기에 좋음과 먹기에 좋음, 두 나무의 이름을 보존한다. 가운데라는 위치는 생명나무에 직접 붙여 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -915,6 +947,10 @@ Previous v0.4.17
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
 Previous v0.4.18
+
+Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
+
+Previous v0.4.19
 
 Yahvé Dios hizo brotar del suelo todo árbol agradable a la vista y bueno para comer, incluido el árbol de la vida en medio del jardín y el árbol del conocimiento del bien y del mal.
 
@@ -1016,6 +1052,10 @@ Previous v0.4.18
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
 
+Previous v0.4.19
+
+Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
+
 Previous v0.4.2
 
 Un río salía de Edén para regar el jardín; desde allí se dividía en cuatro brazos.
@@ -1107,6 +1147,10 @@ Previous v0.4.17
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
 Previous v0.4.18
+
+El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
+
+Previous v0.4.19
 
 El nombre del primero es Pisón; rodea toda la tierra de Javilá, donde hay oro.
 
@@ -1210,6 +1254,10 @@ Previous v0.4.18
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
 
+Previous v0.4.19
+
+El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
+
 Previous v0.4.2
 
 El oro de esa tierra es bueno; allí hay bedelio y piedra de shóham.
@@ -1301,6 +1349,10 @@ Previous v0.4.17
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
 Previous v0.4.18
+
+El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
+
+Previous v0.4.19
 
 El nombre del segundo río es Guijón; rodea toda la tierra de Cus.
 
@@ -1404,6 +1456,10 @@ Previous v0.4.18
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
 
+Previous v0.4.19
+
+El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
+
 Previous v0.4.2
 
 El nombre del tercer río es Hidequel; corre al este de Asur. El cuarto río es Perat.
@@ -1446,7 +1502,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-데려감·배치·일함과 지킴의 두 목적을 보존한다. 번역의 그것은 현재 동산을 가리키도록 선택한다.
+데려감·배치·일함과 지킴의 두 목적을 보존한다. 번역의 그것은 현재 동산을 가리키도록 선택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1504,6 +1560,10 @@ Previous v0.4.18
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
 
+Previous v0.4.19
+
+Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
+
 Previous v0.4.2
 
 Yahvé Dios tomó al ser humano y lo puso en el jardín de Edén para trabajarlo y cuidarlo.
@@ -1546,7 +1606,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다.
+명령 도입과 먹는 동사의 반복을 허용의 강조로 현재 선택하고 17절까지 인용을 잇는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### gemini-3.8-flash-medium
 
@@ -1595,6 +1655,10 @@ Previous v0.4.17
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
 Previous v0.4.18
+
+Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
+
+Previous v0.4.19
 
 Yahvé Dios ordenó al ser humano: «Puedes comer libremente de todos los árboles del jardín;
 
@@ -1694,6 +1758,10 @@ Previous v0.4.18
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
 
+Previous v0.4.19
+
+pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
+
 Previous v0.4.3
 
 pero no comerás del árbol del conocimiento del bien y del mal, porque el día que comas de él, morirás sin falta».
@@ -1732,7 +1800,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다.
+상응하는 돕는 이라는 어휘 선택을 현재 채택한다. 특수 형태와 정확한 원출처 주석을 표시문 밖에 보존하며 임의 교정하지 않는다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1790,6 +1858,10 @@ Previous v0.4.18
 
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
 
+Previous v0.4.19
+
+Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
+
 Previous v0.4.3
 
 Yahvé Dios dijo: «No es bueno que el ser humano esté solo. Le haré una ayuda que le corresponda».
@@ -1828,7 +1900,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-빚으시고·데려오심·명명의 서술 흐름을 일반 과거로 현재 선택한다. 집합·분배적 대명사를 각 언어에서 자연스럽게 풀어 쓴다.
+빚으시고·데려오심·명명의 서술 흐름을 일반 과거로 현재 선택한다. 집합·분배적 대명사를 각 언어에서 자연스럽게 풀어 쓴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -1883,6 +1955,10 @@ Previous v0.4.17
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
 
 Previous v0.4.18
+
+Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
+
+Previous v0.4.19
 
 Yahvé Dios formó de la tierra todos los animales del campo y todas las aves de los cielos, y los llevó ante el ser humano para ver cómo los llamaría. El nombre que el ser humano diera a cada ser viviente, ese fue su nombre.
 
@@ -1976,6 +2052,10 @@ Previous v0.4.18
 
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
 
+Previous v0.4.19
+
+El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
+
 Previous v0.4.3
 
 El ser humano puso nombre a todo el ganado, a las aves de los cielos y a todos los animales del campo. Pero para el ser humano no se halló una ayuda que le correspondiera.
@@ -2014,7 +2094,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-신체 문맥과 하나를 취하는 구문 및 BDB의 해당 용례를 참고해 갈빗대를 현재 채택한다.
+신체 문맥과 하나를 취하는 구문 및 BDB의 해당 용례를 참고해 갈빗대를 현재 채택한다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -2072,6 +2152,10 @@ Previous v0.4.18
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
 
+Previous v0.4.19
+
+YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
+
 Previous v0.4.4
 
 YHWH Dios hizo caer un sueño profundo sobre el ser humano, y este se durmió. Tomó una de sus costillas y cerró su lugar con carne.
@@ -2106,7 +2190,7 @@ Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef748
 
 ### Traducción seleccionada: mejor opción actual
 
-21절과 갈빗대 역어를 맞추고 בנה의 짓다 이미지를 지으시고/built/construyó로 보존한다. 한국어·스페인어는 재료 구문으로 자연스럽게 옮긴다.
+21절과 갈빗대 역어를 맞추고 בנה의 짓다 이미지를 지으시고/built/construyó로 보존한다. 한국어·스페인어는 재료 구문으로 자연스럽게 옮긴다. 2026-11-08 주인님의 한국어 표기 결정에 따라 신명은 여호와로 표기한다. 영어·스페인어 및 원문 선택은 기존 기록을 따른다.
 
 #### claude-opus-5-5
 
@@ -2161,6 +2245,10 @@ Previous v0.4.17
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
 
 Previous v0.4.18
+
+YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
+
+Previous v0.4.19
 
 YHWH Dios construyó una mujer con la costilla que había tomado del ser humano y la llevó ante él.
 
@@ -2247,6 +2335,10 @@ Previous v0.4.17
 El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
 
 Previous v0.4.18
+
+El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
+
+Previous v0.4.19
 
 El ser humano dijo: «¡Esta vez, hueso de mis huesos y carne de mi carne! Esta será llamada mujer, porque del varón fue tomada».
 
@@ -2342,6 +2434,10 @@ Previous v0.4.18
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
 
+Previous v0.4.19
+
+Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
+
 Previous v0.4.4
 
 Por eso el varón deja a su padre y a su madre, se une firmemente a su mujer, y llegan a ser una sola carne.
@@ -2428,6 +2524,10 @@ Previous v0.4.18
 
 El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
 
+Previous v0.4.19
+
+El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
+
 Previous v0.4.4
 
 El ser humano y su mujer estaban ambos desnudos, pero no sentían vergüenza.
@@ -2490,7 +2590,7 @@ El v. 25 expresa ausencia de vergüenza sin añadir entre sí. Siguen abiertas l
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.19. https://yangs777.github.io/hansam-bible/es/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
