@@ -78,6 +78,17 @@ class ResetPlannerTests(unittest.TestCase):
         self.assertEqual(budget['allowance_points'], later['allowance_points'])
         with self.assertRaises(ValueError): reserve_daily_budget(ledger, later, 100)
 
+    def test_reset_timestamp_drift_preserves_day_allowance_and_reservation(self):
+        current = snapshot(self.raw, self.now)
+        first = daily_budget(current, self.policy, self.now)
+        ledger = reserve_daily_budget({}, first, 7)
+        current['weekly']['resets_at'] = (self.now + dt.timedelta(days=4, seconds=1)).isoformat()
+        later = daily_budget(current, self.policy, self.now + dt.timedelta(hours=1), ledger)
+        self.assertEqual(later['key'], first['key'])
+        self.assertEqual(later['allowance_points'], first['allowance_points'])
+        self.assertEqual(later['charged_points'], 7)
+        self.assertEqual(len(reserve_daily_budget(ledger, later, 3)['days']), 1)
+
     def test_damaged_ledger_cannot_replenish_budget(self):
         current = snapshot(self.raw, self.now)
         budget = daily_budget(current, self.policy, self.now)

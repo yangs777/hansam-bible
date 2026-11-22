@@ -1,0 +1,62 @@
+{
+  "model": "gemini-3.8-flash-medium",
+  "execution": {
+    "provider": "공식 agy CLI 실제 최종 비교",
+    "identity_basis": "초기와 같은 요청 모델·대화. 인쇄면은 편집자 관측 자료로 제공, 모델 직접 열람 아님."
+  },
+  "opinions": [
+    {
+      "id": "HYB.GEN.005.027",
+      "candidate_evaluation": {
+        "accuracy_and_numbers": "수사 9+60+900=969년(구백육십구 년)이 세 언어에 정확히 대응하며 누락 없이 온전함.",
+        "grammar_and_syntax": "주어 'כָּל־יְמֵי מְתוּשֶׁלַח'(복수 연계)에 호응하는 동사 'וַיִּהְיוּ' 및 단수 종결구 'וַיָּמֹת'의 계보 공식이 매끄럽게 번역됨."
+      },
+      "strongest_objection_ko": "편집자가 관측한 Swete 인쇄면의 8쪽 비평장치에 기재된 다른 수사 배열 등 본문 전승사의 복잡성을 번역문 자체에 반영할 수는 없다는 점.",
+      "recommendation": "지지",
+      "final_opinion_ko": "수치와 통사 구조가 잠정 저본 WLC와 완벽히 일치하므로 현행 후보를 수정 없이 잠정 채택함."
+    },
+    {
+      "id": "HYB.GEN.005.028",
+      "candidate_evaluation": {
+        "accuracy_and_numbers": "2+80+100=182년(백팔십이 년) 수치가 정확히 반영됨. 영어의 'When Lamech had lived...' 구문은 히브리어 연속 와우의 시간적 흐름을 자연스럽게 살림.",
+        "grammar_and_syntax": "'וַיּוֹלֶד בֵּן'의 불특정 목적어('아들')를 임의로 '노아'로 보충하지 않고 원문 그대로 정직하게 직역함."
+      },
+      "strongest_objection_ko": "편집자가 Swete 9쪽 인쇄면에서 확인한 188년(ἑκατὸν ὀγδοήκοντα ὀκτώ)과의 계보 연수 충돌이 존재하며, 어느 쪽이 초기 형태인지 단정할 수 없음.",
+      "recommendation": "지지",
+      "final_opinion_ko": "외부 판본과의 수치 차이를 주석으로 공개하되, 기준 전사본의 182년 수치를 그대로 보존하는 현행 후보를 잠정 지지함."
+    },
+    {
+      "id": "HYB.GEN.005.029",
+      "candidate_evaluation": {
+        "accuracy_and_numbers": "한국어의 '수고 가운데서'는 מִן의 탈격적 구제 의미를 약화시키는 결정적 결함이 있음. 또한 영어 'on the ground'와 스페인어 'en la tierra'는 세 번째 'מִן־הָאֲדָמָה'의 분리/기원 전치사를 단순 장소 처격으로 희석함.",
+        "grammar_and_syntax": "서두 'אֶת־שְׁמוֹ'를 '아들의 이름'으로 의역한 한국어 표현을 '그의 이름'으로 바로잡고, 삼중 מִן의 탈격 구조를 회복해야 함."
+      },
+      "strongest_objection_ko": "Swete 인쇄면에 보고된 그리스어 'διαναπαύσει'(안식/쉼을 주다)와 노아 이름(נוח)의 긴밀성에 비추어, 히브리어 נחם(위로)을 고수하는 것이 문맥적 기대를 온전히 담아내지 못한다는 반론.",
+      "recommendation": "수정 권고",
+      "final_opinion_ko": "한국어의 '가운데서'를 '수고로부터'로 바로잡고 땅의 מִן을 살려낸 최소 수정안(한국어: '그는 그의 이름을 노아라 부르며 말했다. “이 아이가 여호와께서 저주하신 땅에서 비롯된 우리의 일과 우리 손의 수고로부터 우리를 위로해 줄 것이다.”')을 채택할 것을 권고함."
+    },
+    {
+      "id": "HYB.GEN.005.030",
+      "candidate_evaluation": {
+        "accuracy_and_numbers": "5+90+500=595년(오백구십오 년) 계산이 정확하며 노아 출생 이후 잔여 수명임이 명시됨.",
+        "grammar_and_syntax": "시간 전치사구 'אַחֲרֵי הוֹלִידוֹ' 및 'בָּנִים וּבָנוֹת'(아들들과 딸들) 병렬이 세 언어 모두에서 문법적으로 균형 있게 직역됨."
+      },
+      "strongest_objection_ko": "편집자가 Swete 인쇄면에서 보고한 565년(πεντακόσια καὶ ἑξήκοντα πέντε)과의 수치 불일치 가능성이 남아 있음.",
+      "recommendation": "지지",
+      "final_opinion_ko": "다른 전승 수치와의 차이는 투명하게 기록하되, WLC 텍스트의 595년을 결함 없이 충실히 구현한 현행 후보를 잠정 지지함."
+    }
+  ],
+  "textual_and_methodological_notes": {
+    "posture": "WLC 전사본을 재현 가능한 잠정 저본으로 유지하되, 고대 사본 실물에 대한 직접 열람 공백을 인정하며 '확정·정본' 같은 결정론적 단정을 배제함.",
+    "apparatus_caveat": "Swete 인쇄면 스캔 기록은 편집자가 직접 관측·보고한 데이터이며, 본 AI가 사본이나 인쇄면을 직접 열람한 것이 아님. AI 모델 간의 일치나 합의는 사본학적 증거가 될 수 없음.",
+    "5_29_linguistic_analysis": {
+      "korean_critique": "현행 한국어 후보의 '수고 가운데서'는 히브리어 전치사 מִן(탈격: ~로부터, ~에서 벗어나)의 안도·해방 뉘앙스를 약화시키고 단순 상황·처소적 공존(in the midst of)으로 후퇴시킵니다. 창세기 3:17의 저주와 노고로부터의 구제라는 문맥을 살리기 위해 '수고로부터'로의 수정이 필수적입니다.",
+      "english_relief_vs_spanish_consolar": "영어 'relief from'은 전치사 מִן과의 결합에서 '고통의 경감·안도'를 생생하게 포착하여 노아 이름(안식)과의 문맥적 연관성을 보완하지만, 동사 נחם(Piel: 위로하다)의 고유 어의에서는 다소 의역적입니다. 반면 스페인어 'consolar de'는 동사 본래의 '위로하다'를 정확히 직역하면서 전치사 'de'를 통해 탈격적 출발점을 균형 있게 보존합니다. 단, 두 언어 모두 세 번째 מִן־הָאֲדָמָה를 처소(on/en)로 환원한 점은 공통적 약점입니다.",
+      "minimal_revision": {
+        "ko": "그는 그의 이름을 노아라 부르며 말했다. “이 아이가 여호와께서 저주하신 땅에서 비롯된 우리의 일과 우리 손의 수고로부터 우리를 위로해 줄 것이다.”",
+        "en": "He named him Noah, saying, “This one will bring us relief from our work and from the toil of our hands, from the ground that the LORD has cursed.”",
+        "es": "Lo llamó Noé, diciendo: «Este nos consolará de nuestro trabajo y del esfuerzo de nuestras manos, de la tierra que el SEÑOR ha maldecido»."
+      }
+    }
+  }
+}

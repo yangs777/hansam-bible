@@ -19,8 +19,9 @@ class ChapterSourceTests(unittest.TestCase):
             actual.update(f'{c["key"]}.{n}' for n in indexed)
         self.assertEqual(actual, expected)
         index = chapter_sources.reader_index()
-        self.assertNotIn('Gen.6', index)
-        self.assertEqual(index['Gen.5']['published_verses'][-1], 25)
+        self.assertEqual(set(index), {ref.rsplit('.', 1)[0] for ref in expected})
+        self.assertEqual(index['Gen.5']['published_verses'], sorted(
+            int(ref.rsplit('.', 1)[1]) for ref in expected if ref.startswith('Gen.5.')))
         first = next(c for c in data['chapters'] if c['key']=='Gen.1')
         self.assertEqual([p['folio'] for p in first['photos']], ['001b','002a'])
         self.assertIn(26, first['photos'][0]['covered_verses'])

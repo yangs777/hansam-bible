@@ -1,0 +1,61 @@
+{
+  "recorded_at": "2026-11-11T17:03:48.929137+00:00",
+  "range": [
+    "Gen.5.31",
+    "Gen.5.32",
+    "Gen.6.1"
+  ],
+  "baseline": {
+    "kind": "WLC 학술 전자 전사 + OSHB 형태 주석; 고대 사본 자체가 아님",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0"
+    }
+  },
+  "inspected_evidence": [
+    {
+      "kind": "근대 학술판 인쇄면 스캔",
+      "title": "Swete, The Old Testament in Greek, vol.I (1901), printed p.9",
+      "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n40/mode/1up",
+      "sha256": "69030f87a71850c1beeec1514b60205950f566904d076f793ae4cbf729ec44f1",
+      "rights": "1901 인쇄판 공공영역; Internet Archive/University of Toronto 스캔",
+      "method_ko": "이번 실행에서 보존 PNG 전체를 직접 열람. 고대 사본 사진과 구별한다."
+    },
+    {
+      "kind": "중세 히브리어 사본 사진의 축소본",
+      "folio": "Leningrad Codex 4r / 004a",
+      "sha256": "65c11abaeb934a5533152c4c8a531478f0bd6834c5196b5901f724bbcd4e20dd",
+      "url": "https://commons.wikimedia.org/wiki/File:Leningrad_Codex_Folio_004a.jpg",
+      "method_ko": "이번 실행에서 전체 사진 열람. 오른쪽 열의 라멕 수명·노아 나이 및 6장 도입부 배치를 볼 수 있으나 모든 자음·모음·악센트의 전면 대조를 수행하지 않았다. 기존 공식 Sefaria 색인 5:26–6:19를 재사용한다.",
+      "rights": "기존 보존 Commons 권리 기록의 Public Domain Mark / PD-Art"
+    }
+  ],
+  "variant_questions": [
+    {
+      "verse": "Gen.5.31",
+      "WLC": "777년",
+      "Swete_inspected": "ἑπτακόσια καὶ πεντήκοντα τρία: 753년",
+      "apparatus_inspected_ko": "9쪽 하단31항에 τρια και πεντηκ. ... επτακ. ετη E라는 다른 배열이 보인다. 전체 약호·교정층 대조는 미완료.",
+      "selection_ko": "WLC777 잠정 유지. 앞182+595=777의 내부 정합성은 확인하지만 최초 원문이나 역사 연대 증거로 쓰지 않는다."
+    },
+    {
+      "verse": "Gen.5.32",
+      "WLC": "500세와 셈·함·야벳",
+      "Swete_inspected": "πεντακοσίων과 τρεῖς υἱούς, Σήμ, Χάμ, Ἰάφεθ가 보인다.",
+      "selection_ko": "WLC의 세 이름을 보존하되 그리스어의 명시적 세 아들을 히브리어에 보충하지 않는다. 동시 출생·연장자 순서는 확정하지 않는다."
+    },
+    {
+      "verse": "Gen.6.1",
+      "WLC": "집합 사람, 땅, 딸들의 수동 출생, 복수 그들에게",
+      "Swete_inspected": "οἱ ἄνθρωποι ... πολλοὶ γίνεσθαι ... θυγατέρες ἐγενήθησαν αὐτοῖς가 보인다. 하단 VI1 장치의 ἐγεννηθησαν A E도 보이나 계통 전면 판독은 하지 않았다.",
+      "selection_ko": "WLC 시간절을 다음 절로 이어지는 쉼표로 보존한다. 그리스어 복수는 독립 히브리어 원문 복원의 확증이 아니라 고대 번역 전통의 해석 증거다."
+    }
+  ],
+  "competing_readings_ko": "777과 열람한 그리스어753은 의미 있는 연수 차이다. Gemini의 사마리아653년 언급은 직접 확인하지 않은 모델 진술이다. 6:1의 집합명사 단복수와 문장 연결은 번역·통사 문제이며 확인된 히브리어 자음 이문으로 보고하지 않는다.",
+  "selected_reading_and_reasons_ko": "재현 가능한 고정 WLC를 잠정 저본으로 유지하고 차이를 공개한다. 한 그리스어 판본의 수치를 자동으로 히브리어 원문에 역투사하거나 내부 합계·모델 합의·연대만으로 최우선 독법을 확정하지 않는다.",
+  "strongest_objection_ko": "그리스어753이 더 이른 히브리어 연대 전통을 보존할 수 있고 WLC777이 문학적 조정일 가능성도 배제할 수 없다. 현재 열람 범위로 어느 쪽도 확정할 수 없다.",
+  "access_gaps_ko": "BHS/BHQ·괴팅겐 비평장치, 사마리아오경 및 해당 사해문서의 보존 범위·독법은 직접 미검증. Swete 장치 전체 약호·교정층과 고대 히브리어 사본 직접 대조 미완료. 기존 Claude의 손상 OCR·기억 기반 다른 절 주장 및 Gemini의 미검증 수치는 본문 증거로 사용하지 않는다.",
+  "defensibility_ko": "차이와 공백을 공개한 잠정 WLC 번역은 가능하다. 최초 원문 복원·전면 대조·인간 전문가 검수 완료로 주장하지 않는다."
+}

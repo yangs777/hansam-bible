@@ -1,6 +1,6 @@
 # Deuteronomy 32:8
 
-Hansam Yang · Original Bible · v0.4.20
+Hansam Yang · Original Bible · v0.4.29
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -112,6 +112,42 @@ Previous v0.4.2
 
 When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
 
+Previous v0.4.20
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.21
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.22
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.23
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.24
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.25
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.26
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.27
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
+Previous v0.4.28
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
 Previous v0.4.3
 
 When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
@@ -162,7 +198,7 @@ Benei adam literally means sons of humankind; humankind conveys the collective s
 
 ## Citation
 
-Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/
+Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

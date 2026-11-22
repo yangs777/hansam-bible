@@ -1,6 +1,6 @@
 # Génesis 1
 
-Hansam Yang · Original Bible · v0.4.20
+Hansam Yang · Original Bible · v0.4.29
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -97,6 +97,42 @@ Previous v0.4.19
 Al comienzo, Dios creó los cielos y la tierra.
 
 Previous v0.4.2
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.20
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.21
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.22
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.23
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.24
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.25
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.26
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.27
+
+Al comienzo, Dios creó los cielos y la tierra.
+
+Previous v0.4.28
 
 Al comienzo, Dios creó los cielos y la tierra.
 
@@ -216,6 +252,42 @@ Previous v0.4.2
 
 La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
 
+Previous v0.4.20
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.21
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.22
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.23
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.24
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.25
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.26
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.27
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
+Previous v0.4.28
+
+La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
+
 Previous v0.4.3
 
 La tierra estaba sin forma y vacía; la oscuridad cubría la superficie del abismo, y un viento de Dios se cernía sobre la superficie de las aguas.
@@ -332,6 +404,42 @@ Previous v0.4.2
 
 Dios dijo: «Que haya luz». Y hubo luz.
 
+Previous v0.4.20
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.21
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.22
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.23
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.24
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.25
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.26
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.27
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
+Previous v0.4.28
+
+Dios dijo: «Que haya luz». Y hubo luz.
+
 Previous v0.4.3
 
 Dios dijo: «Que haya luz». Y hubo luz.
@@ -442,6 +550,42 @@ Previous v0.4.2
 
 Dios vio que la luz era buena y separó la luz de la oscuridad.
 
+Previous v0.4.20
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.21
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.22
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.23
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.24
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.25
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.26
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.27
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
+Previous v0.4.28
+
+Dios vio que la luz era buena y separó la luz de la oscuridad.
+
 Previous v0.4.3
 
 Dios vio que la luz era buena y separó la luz de la oscuridad.
@@ -549,6 +693,42 @@ Previous v0.4.19
 Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
 
 Previous v0.4.2
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.20
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.21
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.22
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.23
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.24
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.25
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.26
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.27
+
+Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
+
+Previous v0.4.28
 
 Dios llamó Día a la luz, y a la oscuridad la llamó Noche. Llegó la tarde y llegó la mañana: un día.
 
@@ -668,6 +848,42 @@ Previous v0.4.2
 
 Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
 
+Previous v0.4.20
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.21
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.22
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.23
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.24
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.25
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.26
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.27
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
+Previous v0.4.28
+
+Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
+
 Previous v0.4.3
 
 Dios dijo: «Que haya una bóveda en medio de las aguas, que separe unas aguas de otras».
@@ -775,6 +991,42 @@ Previous v0.4.19
 Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
 
 Previous v0.4.2
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.20
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.21
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.22
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.23
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.24
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.25
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.26
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.27
+
+Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
+
+Previous v0.4.28
 
 Dios hizo la bóveda y separó las aguas que estaban debajo de ella de las que estaban encima. Y así fue.
 
@@ -888,6 +1140,42 @@ Previous v0.4.2
 
 Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
 
+Previous v0.4.20
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.21
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.22
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.23
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.24
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.25
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.26
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.27
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
+Previous v0.4.28
+
+Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
+
 Previous v0.4.3
 
 Dios llamó Cielo a la bóveda. Llegó la tarde y llegó la mañana: un segundo día.
@@ -995,6 +1283,42 @@ Previous v0.4.19
 Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
 
 Previous v0.4.2
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.20
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.21
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.22
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.23
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.24
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.25
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.26
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.27
+
+Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
+
+Previous v0.4.28
 
 Dios dijo: «Que las aguas bajo el cielo se reúnan en un solo lugar y aparezca lo seco». Y así fue.
 
@@ -1108,6 +1432,42 @@ Previous v0.4.2
 
 Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
 
+Previous v0.4.20
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.21
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.22
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.23
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.24
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.25
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.26
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.27
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
+Previous v0.4.28
+
+Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
+
 Previous v0.4.3
 
 Dios llamó Tierra a lo seco, y a la reunión de las aguas la llamó Mares. Dios vio que era bueno.
@@ -1215,6 +1575,42 @@ Previous v0.4.19
 Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
 
 Previous v0.4.2
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.20
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.21
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.22
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.23
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.24
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.25
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.26
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.27
+
+Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
+
+Previous v0.4.28
 
 Dios dijo: «Que la tierra haga brotar vegetación: plantas que produzcan semilla y árboles frutales que den fruto según sus clases, con semilla dentro del fruto, sobre la tierra». Y así fue.
 
@@ -1328,6 +1724,42 @@ Previous v0.4.2
 
 La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
 
+Previous v0.4.20
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.21
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.22
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.23
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.24
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.25
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.26
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.27
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
+Previous v0.4.28
+
+La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
+
 Previous v0.4.3
 
 La tierra produjo vegetación: plantas que daban semilla según sus clases y árboles que daban fruto con semilla dentro, según sus clases. Dios vio que era bueno.
@@ -1435,6 +1867,42 @@ Previous v0.4.19
 Llegó la tarde y llegó la mañana: un tercer día.
 
 Previous v0.4.2
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.20
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.21
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.22
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.23
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.24
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.25
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.26
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.27
+
+Llegó la tarde y llegó la mañana: un tercer día.
+
+Previous v0.4.28
 
 Llegó la tarde y llegó la mañana: un tercer día.
 
@@ -1548,6 +2016,42 @@ Previous v0.4.2
 
 Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
 
+Previous v0.4.20
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.21
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.22
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.23
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.24
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.25
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.26
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.27
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
+Previous v0.4.28
+
+Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
+
 Previous v0.4.3
 
 Dios dijo: «Que haya luminarias en la bóveda del cielo para separar el día de la noche, y que sirvan para señalar signos, tiempos señalados, días y años.
@@ -1655,6 +2159,42 @@ Previous v0.4.19
 Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
 
 Previous v0.4.2
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.20
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.21
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.22
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.23
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.24
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.25
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.26
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.27
+
+Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
+
+Previous v0.4.28
 
 Que sean luminarias en la bóveda del cielo para alumbrar la tierra». Y así fue.
 
@@ -1768,6 +2308,42 @@ Previous v0.4.2
 
 Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
 
+Previous v0.4.20
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.21
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.22
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.23
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.24
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.25
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.26
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.27
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
+Previous v0.4.28
+
+Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
+
 Previous v0.4.3
 
 Dios hizo las dos grandes luminarias: la mayor para regir el día y la menor para regir la noche, y también las estrellas.
@@ -1875,6 +2451,42 @@ Previous v0.4.19
 Dios las puso en la bóveda del cielo para alumbrar la tierra,
 
 Previous v0.4.2
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.20
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.21
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.22
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.23
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.24
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.25
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.26
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.27
+
+Dios las puso en la bóveda del cielo para alumbrar la tierra,
+
+Previous v0.4.28
 
 Dios las puso en la bóveda del cielo para alumbrar la tierra,
 
@@ -1988,6 +2600,42 @@ Previous v0.4.2
 
 para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
 
+Previous v0.4.20
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.21
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.22
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.23
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.24
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.25
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.26
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.27
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
+Previous v0.4.28
+
+para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
+
 Previous v0.4.3
 
 para regir el día y la noche y separar la luz de la oscuridad. Dios vio que era bueno.
@@ -2095,6 +2743,42 @@ Previous v0.4.19
 Llegó la tarde y llegó la mañana: un cuarto día.
 
 Previous v0.4.2
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.20
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.21
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.22
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.23
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.24
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.25
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.26
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.27
+
+Llegó la tarde y llegó la mañana: un cuarto día.
+
+Previous v0.4.28
 
 Llegó la tarde y llegó la mañana: un cuarto día.
 
@@ -2208,6 +2892,42 @@ Previous v0.4.2
 
 Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
 
+Previous v0.4.20
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.21
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.22
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.23
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.24
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.25
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.26
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.27
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
+Previous v0.4.28
+
+Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
+
 Previous v0.4.3
 
 Dios dijo: «Que las aguas pululen de seres vivos, y que los seres alados vuelen sobre la tierra, ante la bóveda del cielo».
@@ -2315,6 +3035,42 @@ Previous v0.4.19
 Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
 
 Previous v0.4.2
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.20
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.21
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.22
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.23
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.24
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.25
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.26
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.27
+
+Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
+
+Previous v0.4.28
 
 Dios creó los grandes seres marinos y todos los seres vivos que se mueven, de los que las aguas pulularon según sus clases, y todo ser alado según su clase. Dios vio que era bueno.
 
@@ -2428,6 +3184,42 @@ Previous v0.4.2
 
 Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
 
+Previous v0.4.20
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.21
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.22
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.23
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.24
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.25
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.26
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.27
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
+Previous v0.4.28
+
+Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
+
 Previous v0.4.3
 
 Dios los bendijo diciendo: «Sean fecundos y multiplíquense; llenen las aguas de los mares, y que los seres alados se multipliquen en la tierra».
@@ -2535,6 +3327,42 @@ Previous v0.4.19
 Llegó la tarde y llegó la mañana: un quinto día.
 
 Previous v0.4.2
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.20
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.21
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.22
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.23
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.24
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.25
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.26
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.27
+
+Llegó la tarde y llegó la mañana: un quinto día.
+
+Previous v0.4.28
 
 Llegó la tarde y llegó la mañana: un quinto día.
 
@@ -2648,6 +3476,42 @@ Previous v0.4.2
 
 Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
 
+Previous v0.4.20
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.21
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.22
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.23
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.24
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.25
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.26
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.27
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
+Previous v0.4.28
+
+Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
+
 Previous v0.4.3
 
 Dios dijo: «Que la tierra produzca seres vivos según sus clases: ganado, seres que se arrastran y animales silvestres de la tierra según sus clases». Y así fue.
@@ -2755,6 +3619,42 @@ Previous v0.4.19
 Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
 
 Previous v0.4.2
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.20
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.21
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.22
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.23
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.24
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.25
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.26
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.27
+
+Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
+
+Previous v0.4.28
 
 Dios hizo los animales silvestres de la tierra según sus clases, el ganado según sus clases y todo lo que se arrastra por el suelo según su clase. Dios vio que era bueno.
 
@@ -2874,6 +3774,42 @@ Previous v0.4.2
 
 Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
 
+Previous v0.4.20
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.21
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.22
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.23
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.24
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.25
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.26
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.27
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
+Previous v0.4.28
+
+Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
+
 Previous v0.4.3
 
 Dios dijo: «Hagamos a la humanidad a nuestra imagen, conforme a nuestra semejanza; que gobiernen sobre los peces del mar, los seres alados del cielo, el ganado, toda la tierra y todo ser que se arrastra por ella».
@@ -2987,6 +3923,42 @@ Previous v0.4.19
 Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
 
 Previous v0.4.2
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.20
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.21
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.22
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.23
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.24
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.25
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.26
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.27
+
+Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
+
+Previous v0.4.28
 
 Dios creó al ser humano a su imagen; a imagen de Dios lo creó; varón y mujer los creó.
 
@@ -3106,6 +4078,42 @@ Previous v0.4.2
 
 Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
 
+Previous v0.4.20
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.21
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.22
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.23
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.24
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.25
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.26
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.27
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
+Previous v0.4.28
+
+Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
+
 Previous v0.4.3
 
 Dios los bendijo y les dijo: «Sean fecundos y multiplíquense; llenen la tierra y sométanla. Gobiernen sobre los peces del mar, los seres alados del cielo y todo ser vivo que se mueve en la tierra».
@@ -3213,6 +4221,42 @@ Previous v0.4.19
 Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
 
 Previous v0.4.2
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.20
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.21
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.22
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.23
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.24
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.25
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.26
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.27
+
+Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
+
+Previous v0.4.28
 
 Dios dijo: «Miren, les he dado toda planta que da semilla sobre la superficie de toda la tierra y todo árbol cuyo fruto da semilla. Serán su alimento.
 
@@ -3326,6 +4370,42 @@ Previous v0.4.2
 
 Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
 
+Previous v0.4.20
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.21
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.22
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.23
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.24
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.25
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.26
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.27
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
+Previous v0.4.28
+
+Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
+
 Previous v0.4.3
 
 Y a todo animal silvestre de la tierra, a todo ser alado del cielo y a todo lo que se arrastra por la tierra y tiene vida, les he dado toda planta verde como alimento». Y así fue.
@@ -3436,6 +4516,42 @@ Previous v0.4.2
 
 Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
 
+Previous v0.4.20
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.21
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.22
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.23
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.24
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.25
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.26
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.27
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
+Previous v0.4.28
+
+Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
+
 Previous v0.4.3
 
 Dios vio todo cuanto había hecho, y miren: era muy bueno. Llegó la tarde y llegó la mañana: el sexto día.
@@ -3480,7 +4596,7 @@ Nueva traducción del TM-WLC mostrado. No se ha completado la colación directa 
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 1:1–31 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/genesis-1/
+Hansam Yang. Original Bible: Genesis 1:1–31 (es), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/es/genesis-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

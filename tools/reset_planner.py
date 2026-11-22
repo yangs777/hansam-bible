@@ -143,8 +143,16 @@ def daily_budget(current, policy, now, ledger=None):
     days = max(1.0, (reset-now).total_seconds()/86400)
     reserve = max(15.0, policy['weekly_reserve_percent'])
     remaining = current['weekly']['remaining_percent']
-    key = now.astimezone(KST).date().isoformat()+'|'+reset.isoformat()
-    stored = (ledger or {}).get('days', {}).get(key)
+    day_prefix = now.astimezone(KST).date().isoformat() + '|'
+    entries = (ledger or {}).get('days', {})
+    # Live usage reads can shift the same weekly reset by a few seconds.
+    # Use the same two-minute tolerance as the gate's usage history check.
+    matching_keys = [key for key in entries if key.startswith(day_prefix)
+                     and abs(timestamp(key[len(day_prefix):]) - reset) <= dt.timedelta(minutes=2)]
+    if len(matching_keys) > 1:
+        raise ValueError('Conflicting daily budget entries for the same weekly reset')
+    key = matching_keys[0] if matching_keys else day_prefix + reset.isoformat()
+    stored = entries.get(key)
     opening = max(0.0, remaining-reserve)/days
     entry = dict(stored) if stored else {
         'allowance_points': opening, 'opening_remaining_points': remaining,

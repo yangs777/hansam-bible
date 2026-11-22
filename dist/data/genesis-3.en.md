@@ -1,6 +1,6 @@
 # Genesis 3:1–24
 
-Hansam Yang · Original Bible · v0.4.20
+Hansam Yang · Original Bible · v0.4.29
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -81,6 +81,42 @@ Previous v0.4.18
 The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
 
 Previous v0.4.19
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.20
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.21
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.22
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.23
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.24
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.25
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.26
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.27
+
+The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
+
+Previous v0.4.28
 
 The serpent was craftier than any wild animal that YHWH God had made. It said to the woman, “Did God really say, ‘You must not eat from any tree of the garden’?”
 
@@ -170,6 +206,42 @@ Previous v0.4.19
 
 The woman said to the serpent, “We may eat the fruit of the trees of the garden.
 
+Previous v0.4.20
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.21
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.22
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.23
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.24
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.25
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.26
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.27
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
+Previous v0.4.28
+
+The woman said to the serpent, “We may eat the fruit of the trees of the garden.
+
 Previous v0.4.5
 
 The woman said to the serpent, “We may eat the fruit of the trees of the garden.
@@ -253,6 +325,42 @@ Previous v0.4.18
 But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
 
 Previous v0.4.19
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.20
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.21
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.22
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.23
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.24
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.25
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.26
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.27
+
+But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
+
+Previous v0.4.28
 
 But concerning the fruit of the tree in the middle of the garden, God said, ‘You must not eat from it or touch it, lest you die.’”
 
@@ -348,6 +456,42 @@ Previous v0.4.19
 
 The serpent said to the woman, “You certainly will not die.
 
+Previous v0.4.20
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.21
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.22
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.23
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.24
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.25
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.26
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.27
+
+The serpent said to the woman, “You certainly will not die.
+
+Previous v0.4.28
+
+The serpent said to the woman, “You certainly will not die.
+
 Previous v0.4.5
 
 The serpent said to the woman, “You certainly will not die.
@@ -437,6 +581,42 @@ Previous v0.4.18
 For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
 
 Previous v0.4.19
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.20
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.21
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.22
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.23
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.24
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.25
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.26
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.27
+
+For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
+
+Previous v0.4.28
 
 For God knows that on the day you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”
 
@@ -532,6 +712,42 @@ Previous v0.4.19
 
 The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
 
+Previous v0.4.20
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.21
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.22
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.23
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.24
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.25
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.26
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.27
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
+Previous v0.4.28
+
+The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
+
 Previous v0.4.6
 
 The woman saw that the tree was good for food, a delight to the eyes, and desirable for gaining wisdom. She took some of its fruit and ate, and she also gave some to her husband who was with her, and he ate.
@@ -611,6 +827,42 @@ Previous v0.4.18
 Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
 
 Previous v0.4.19
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.20
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.21
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.22
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.23
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.24
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.25
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.26
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.27
+
+Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
+
+Previous v0.4.28
 
 Then the eyes of both of them were opened, and they knew that they were naked. They sewed fig leaves together and made waist coverings for themselves.
 
@@ -702,6 +954,42 @@ Previous v0.4.19
 
 They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
 
+Previous v0.4.20
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.21
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.22
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.23
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.24
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.25
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.26
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.27
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
+Previous v0.4.28
+
+They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
+
 Previous v0.4.6
 
 They heard the sound of YHWH God walking about in the garden in the day's breeze. The man and his wife hid from YHWH God among the trees of the garden.
@@ -781,6 +1069,42 @@ Previous v0.4.18
 YHWH God called to the man and said to him, “Where are you?”
 
 Previous v0.4.19
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.20
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.21
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.22
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.23
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.24
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.25
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.26
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.27
+
+YHWH God called to the man and said to him, “Where are you?”
+
+Previous v0.4.28
 
 YHWH God called to the man and said to him, “Where are you?”
 
@@ -872,6 +1196,42 @@ Previous v0.4.19
 
 He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
 
+Previous v0.4.20
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.21
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.22
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.23
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.24
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.25
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.26
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.27
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
+Previous v0.4.28
+
+He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
+
 Previous v0.4.6
 
 He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.”
@@ -951,6 +1311,42 @@ Previous v0.4.18
 He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
 
 Previous v0.4.19
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.20
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.21
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.22
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.23
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.24
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.25
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.26
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.27
+
+He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
+
+Previous v0.4.28
 
 He said, “Who told you that you were naked? Have you eaten from the tree from which I commanded you not to eat?”
 
@@ -1038,6 +1434,42 @@ Previous v0.4.19
 
 The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
 
+Previous v0.4.20
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.21
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.22
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.23
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.24
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.25
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.26
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.27
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
+Previous v0.4.28
+
+The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
+
 Previous v0.4.7
 
 The man said, “The woman whom you gave to be with me—she gave me some from the tree, and I ate.”
@@ -1113,6 +1545,42 @@ Previous v0.4.18
 YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
 
 Previous v0.4.19
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.20
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.21
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.22
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.23
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.24
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.25
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.26
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.27
+
+YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
+
+Previous v0.4.28
 
 YHWH God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”
 
@@ -1200,6 +1668,42 @@ Previous v0.4.19
 
 YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
 
+Previous v0.4.20
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.21
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.22
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.23
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.24
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.25
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.26
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.27
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
+Previous v0.4.28
+
+YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
+
 Previous v0.4.7
 
 YHWH God said to the serpent, “Because you have done this, cursed are you above all livestock and all wild animals. On your belly you will go, and dust you will eat all the days of your life.
@@ -1281,6 +1785,42 @@ Previous v0.4.18
 I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
 
 Previous v0.4.19
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.20
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.21
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.22
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.23
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.24
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.25
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.26
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.27
+
+I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
+
+Previous v0.4.28
 
 I will put enmity between you and the woman, and between your offspring and her offspring. That offspring will strike you on the head, and you will strike that offspring on the heel.”
 
@@ -1368,6 +1908,42 @@ Previous v0.4.19
 
 To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
 
+Previous v0.4.20
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.21
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.22
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.23
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.24
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.25
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.26
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.27
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
+Previous v0.4.28
+
+To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
+
 Previous v0.4.8
 
 To the woman he said, “I will greatly increase your pain in pregnancy. In pain you will bear children. Your desire will be toward your husband, and he will rule over you.”
@@ -1448,6 +2024,42 @@ Previous v0.4.19
 
 To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
 
+Previous v0.4.20
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.21
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.22
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.23
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.24
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.25
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.26
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.27
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
+Previous v0.4.28
+
+To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
+
 Previous v0.4.8
 
 To Adam he said, “Because you listened to your wife and ate from the tree about which I commanded you, ‘You shall not eat from it,’ cursed is the ground because of you. Through painful toil you will eat from it all the days of your life.
@@ -1519,6 +2131,42 @@ Previous v0.4.18
 It will bring forth thorns and thistles for you, and you will eat the plants of the field.
 
 Previous v0.4.19
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.20
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.21
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.22
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.23
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.24
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.25
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.26
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.27
+
+It will bring forth thorns and thistles for you, and you will eat the plants of the field.
+
+Previous v0.4.28
 
 It will bring forth thorns and thistles for you, and you will eat the plants of the field.
 
@@ -1602,6 +2250,42 @@ Previous v0.4.19
 
 By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
 
+Previous v0.4.20
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.21
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.22
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.23
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.24
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.25
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.26
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.27
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
+Previous v0.4.28
+
+By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
+
 Previous v0.4.8
 
 By the sweat of your face you will eat bread until you return to the ground, for from it you were taken. For you are dust, and to dust you will return.”
@@ -1676,6 +2360,42 @@ Previous v0.4.19
 
 The man called his wife’s name Eve, because she was the mother of all the living.
 
+Previous v0.4.20
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.21
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.22
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.23
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.24
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.25
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.26
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.27
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
+Previous v0.4.28
+
+The man called his wife’s name Eve, because she was the mother of all the living.
+
 Previous v0.4.8
 
 The man called his wife’s name Eve, because she was the mother of all the living.
@@ -1747,6 +2467,42 @@ Previous v0.4.18
 YHWH God made garments of skin for Adam and his wife and clothed them.
 
 Previous v0.4.19
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.20
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.21
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.22
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.23
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.24
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.25
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.26
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.27
+
+YHWH God made garments of skin for Adam and his wife and clothed them.
+
+Previous v0.4.28
 
 YHWH God made garments of skin for Adam and his wife and clothed them.
 
@@ -1826,6 +2582,42 @@ Previous v0.4.19
 
 YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
 
+Previous v0.4.20
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.21
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.22
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.23
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.24
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.25
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.26
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.27
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
+Previous v0.4.28
+
+YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
+
 Previous v0.4.9
 
 YHWH God said, “Look, the human has become like one of us in knowing good and evil. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—”
@@ -1893,6 +2685,42 @@ Previous v0.4.18
 So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
 
 Previous v0.4.19
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.20
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.21
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.22
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.23
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.24
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.25
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.26
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.27
+
+So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
+
+Previous v0.4.28
 
 So YHWH God sent him out from the garden of Eden to work the ground from which he had been taken.
 
@@ -1972,6 +2800,42 @@ Previous v0.4.19
 
 He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
 
+Previous v0.4.20
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.21
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.22
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.23
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.24
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.25
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.26
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.27
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
+Previous v0.4.28
+
+He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
+
 Previous v0.4.9
 
 He drove out the human and stationed the cherubim and the flame of the turning sword east of the garden of Eden to guard the way to the tree of life.
@@ -2020,7 +2884,7 @@ Sent out in v. 23 and drove out in v. 24 remain distinct without proving a missi
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 3:1–24 (en), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/en/genesis-3/
+Hansam Yang. Original Bible: Genesis 3:1–24 (en), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/en/genesis-3/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

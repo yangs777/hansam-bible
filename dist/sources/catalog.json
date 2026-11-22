@@ -530,14 +530,23 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
       ],
       "basis_label": "MT-WLC / OSHB",
       "basis_ko": "WLC/OSHB 고정 전자 본문",
       "explanation_ko": [
-        "현재 원문성경 공개 범위는 5:1–25이며 직접 입력은 WLC/OSHB 전자 본문이다. 3v 면은 색인상 4:23–5:26을 포함한다. 26절 이후를 번역·공개한 것으로 보아서는 안 된다.",
+        "현재 로컬 채택 범위는 5:1–32이며 직접 입력은 WLC/OSHB 전자 본문이다. 색인상 3v 면은 4:23–5:26, 4r 면은 5:26–6:19를 포함한다. 사진 색인·열람과 해당 절 모든 글자·모음·악센트의 대조는 구별한다. 로컬 채택 시각은 외부 배포 완료 시각이 아니다.",
         "5:21–25 검토에서는 Swete 1901년 그리스어 인쇄판 제1권 8쪽 스캔을 실제 대조했다. WLC의 65·300·365·187과 해당 그리스어 인쇄판의 165·200·365·187을 구분했다.",
-        "에녹의 함께 걷다·그가 더 이상 없었다·하나님이 데려가셨다는 번역과 대안은 기존 의견 기록에 보존한다. 이번 레닌그라드 사진 연결과 과거 Swete 인쇄면 대조는 서로 다른 작업이다."
+        "에녹의 함께 걷다·그가 더 이상 없었다·하나님이 데려가셨다는 번역과 대안은 기존 의견 기록에 보존한다. 이번 레닌그라드 사진 연결과 과거 Swete 인쇄면 대조는 서로 다른 작업이다.",
+        "5:26–30에서는 Swete1901 인쇄 8–9쪽을 직접 읽고 WLC의 782·969·182·595와 그리스어의 782·969·188·565를 구분했다. 비평장치와 고대 사본의 전면 대조는 미완료다.",
+        "5:31은 이번에 직접 읽은 Swete1901 인쇄9쪽의753년과 고정WLC777년을 구분한다. 전면 사본 대조와 인간 전문가 검수는 미완료다."
       ],
       "photos": [
         {
@@ -555,7 +564,7 @@
           "id": "lc-003b",
           "folio_label": "3v · 003b",
           "indexed_range": "Genesis 4:23-5:26",
-          "chapter_scope_ko": "1–25절 · 현재 공개 범위",
+          "chapter_scope_ko": "1–26절 · 로컬 채택 범위와 겹치는 색인 범위",
           "mapping_source": "https://www.sefaria.org/api/manuscripts/Genesis.5",
           "mapping_method_ko": "Sefaria 공식 사본 색인의 면·구절 대응. 경계절은 일부만 포함될 수 있음.",
           "inspection_status_ko": "사진 열람·색인 대응 확인. 모든 글자와 모음·악센트의 전면 대조는 미완료.",
@@ -585,7 +594,38 @@
             22,
             23,
             24,
-            25
+            25,
+            26
+          ]
+        },
+        {
+          "folio": "004a",
+          "commons_page": "https://commons.wikimedia.org/wiki/File:Leningrad_Codex_Folio_004a.jpg",
+          "original_url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F004A.jpg",
+          "original_sha256": "64ecacbffbc02c4174f8ce5ebe321b07ae9d279decb227e0d68994604088cf90",
+          "preview": "/assets/manuscripts/leningrad-004a.webp",
+          "preview_sha256": "65c11abaeb934a5533152c4c8a531478f0bd6834c5196b5901f724bbcd4e20dd",
+          "width": 1400,
+          "height": 1540,
+          "rights": "Commons 파일 페이지에서 확인한 Public Domain Mark / PD-Art",
+          "credit": "Bruce Zuckerman / West Semitic Research; Ancient Biblical Manuscript Center; courtesy Russian National Library. Sefaria image service.",
+          "retrieved_at": "2026-11-11T16:11:47.594737+00:00",
+          "id": "lc-004a",
+          "folio_label": "4r ? 004a",
+          "indexed_range": "Genesis 5:26-6:19",
+          "chapter_scope_ko": "26–32절 · 현재 로컬 채택 범위",
+          "mapping_source": "https://www.sefaria.org/api/manuscripts/Genesis.5",
+          "mapping_method_ko": "Sefaria 공식 사본 색인의 면·구절 대응. 경계절은 일부만 포함될 수 있음.",
+          "inspection_status_ko": "기존 공식 색인5:26–6:19를 재사용하고 이번에도 전체 사진을 열람했다. 해당 절 모든 문자·모음·악센트 전면 대조는 미완료다.",
+          "image_transformation_ko": "사진 전체를 축소하고 WebP로 변환. 글자 생성·복원·색 보정·자르기 없음.",
+          "covered_verses": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
           ]
         }
       ],
@@ -599,6 +639,14 @@
           "caption_ko": "1901년 케임브리지 인쇄판의 디지털 스캔. 고대 두루마리나 히브리어 원사본이 아니다. 실제 대조 결과는 v0.4.19 본문 선택 기록에 보존했다.",
           "rights_ko": "1901년 인쇄판 디지털 스캔 · 공공영역 자료. Internet Archive / University of Toronto 출처.",
           "evidence_url": "https://github.com/yangs777/hansam-bible/blob/e6553028bfc7c66682f4ed4ca4bad167f273383a/data/model-reviews/v0.4.19/genesis5-21-25-textual-basis.json"
+        },
+        {
+          "name": "Swete1901 그리스어 인쇄판 · 제1권 9쪽",
+          "role_ko": "5:27 후반–30 직접 열람 자료 · 고대 사본 사진과 구별",
+          "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n40/mode/1up",
+          "caption_ko": "보존된 1901년 인쇄판 PDF의 9쪽을 렌더링·확대해 읽었다. 5:28의 188년·5:30의 565년과 5:29의 동사를 WLC와 구분한다. 비평장치 전면 해독이나 고대 사본 원문 확정이 아니다.",
+          "rights_ko": "1901년 인쇄판 스캔, 공공영역 자료. Internet Archive / University of Toronto 출처.",
+          "evidence_url": "/data/genesis-5.json"
         }
       ]
     },
@@ -753,6 +801,211 @@
           "caption_ko": "공식 디지털 도서관에서 사본 사진을 열람한다. 개별 조각·행 대조가 완료되기 전에는 특정 사진 영역이 בני אלוהים을 직접 증명한다고 표시하지 않는다. IAA 사진은 이 사이트에 복제하지 않았다.",
           "rights_ko": "사진 권리는 이스라엘 유물청의 이용 조건을 따른다. 링크 제공은 재허락이 아니다.",
           "evidence_url": "https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8"
+        }
+      ]
+    },
+    {
+      "key": "Gen.6",
+      "book": "Gen",
+      "chapter": 6,
+      "title_ko": "창세기 6장",
+      "slug": "gen-6",
+      "published_verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "basis_label": "MT-WLC / OSHB",
+      "basis_ko": "WLC/OSHB 고정 전자 본문",
+      "explanation_ko": [
+        "현재 로컬 채택 범위는6:1–22이다.직접 입력은고정WLC/OSHB 전사이며 외부 배포 완료와 다르다.",
+        "기존 공식Sefaria 색인의4r 범위5:26–6:19 대응을 재사용한다.이번 실행에서 사본 사진의전문자·모음·악센트 대조는 하지 않았다.",
+        "Swete1901 인쇄9쪽의6:2–6을 직접 읽었다.천사들/아들들·머물다·네피림/거인들·후회/숙고의 차이를 보존한다.고대 사본 자체·최초 원문 확정이 아니며 현대 비평장치 전면 대조도미완료다.",
+        "6:7은 이번 로컬 판본에서 추가했다.Swete1901 인쇄9쪽을 직접 읽어 신호칭과 후회/격분 표현의 차이를 보존했다.현대장치·사본전문자대조는미완료다.",
+        "6:8–12는 이번 로컬 판본에서 추가했다. Swete1901 인쇄9쪽을 직접 읽어 신호칭·단수세대·동행/기쁘게함·폭력/불의 차이를 기록했다. 비평장치와 관련사본 전면 대조는 미완료다.",
+        "6:13–17은 이번 로컬판본 추가.17절의 물의홍수·생명의숨·하늘아래·죽음에 해당하는 Swete 인쇄10쪽도 직접읽음.Swete1901 인쇄9–10쪽을 직접읽고13절 고대번역 귀속오류를 정정.16절 채광구/지붕·1규빗 불확실성,본문·형태주석·사본의 구분을 보존.현대장치·사본 전면대조 미완료.",
+        "6:18–19는 로컬추가범위다.Swete1901 인쇄10쪽 저장스캔을 이번 직접읽고 언약표현·19절 동물범주확장과 먹여기르기를 WLC와 구별했다.웹뷰어 접근은 실패했으나 저장스캔 직접열람은 성공했다.현대장치·히브리어사본·마소라주석 전면대조 미완료.",
+        "6:20–22는이번로컬추가범위.공식색인6:19–7:23인레닌그라드4v사진을연결하고22절신호칭만한정대조.그리스어먹여기르기·암수명시·신호칭확대와WLC차이를보존.전면사본·장치대조대기."
+      ],
+      "photos": [
+        {
+          "folio": "004a",
+          "commons_page": "https://commons.wikimedia.org/wiki/File:Leningrad_Codex_Folio_004a.jpg",
+          "original_url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F004A.jpg",
+          "original_sha256": "64ecacbffbc02c4174f8ce5ebe321b07ae9d279decb227e0d68994604088cf90",
+          "preview": "/assets/manuscripts/leningrad-004a.webp",
+          "preview_sha256": "65c11abaeb934a5533152c4c8a531478f0bd6834c5196b5901f724bbcd4e20dd",
+          "width": 1400,
+          "height": 1540,
+          "rights": "Commons 파일 페이지에서 확인한 Public Domain Mark / PD-Art",
+          "credit": "Bruce Zuckerman / West Semitic Research; Ancient Biblical Manuscript Center; courtesy Russian National Library. Sefaria image service.",
+          "retrieved_at": "2026-11-11T16:11:47.594737+00:00",
+          "id": "lc-004a",
+          "folio_label": "4r ? 004a",
+          "indexed_range": "Genesis 5:26-6:19",
+          "chapter_scope_ko": "1–19절 · 현재로컬채택범위,색인경계절 일부만 포함될 수 있음",
+          "mapping_source": "https://www.sefaria.org/api/manuscripts/Genesis.5",
+          "mapping_method_ko": "Sefaria 공식 사본 색인의 면·구절 대응. 경계절은 일부만 포함될 수 있음.",
+          "inspection_status_ko": "기존 공식색인의면·구절대응을재사용한다.이번실행은사본사진의모든문자·모음·악센트대조를수행하지않았다.",
+          "image_transformation_ko": "사진 전체를 축소하고 WebP로 변환. 글자 생성·복원·색 보정·자르기 없음.",
+          "covered_verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "folio": "004b",
+          "commons_page": "https://commons.wikimedia.org/wiki/File:Leningrad_Codex_Folio_004b.jpg",
+          "original_url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F004B.jpg",
+          "original_sha256": "58d0675924b327df7bb1549563dcaf0abec7931b569b163e6a9871575d1667db",
+          "preview": "/assets/manuscripts/leningrad-004b.webp",
+          "preview_sha256": "14b0809d83c11c611f1177724f538afc27719169447b85d6dee7d740b6311676",
+          "width": 1400,
+          "height": 1605,
+          "rights": "Commons파일페이지의Public Domain Mark/PD-Art표시확인",
+          "credit": "Bruce Zuckerman / West Semitic Research; Ancient Biblical Manuscript Center; courtesy Russian National Library. Sefaria image service.",
+          "retrieved_at": "2026-11-20T15:08:55.479589+00:00",
+          "id": "lc-004b",
+          "folio_label": "4v · 004b",
+          "indexed_range": "Genesis 6:19-7:23",
+          "chapter_scope_ko": "6장20–22절 · 현재로컬채택범위",
+          "mapping_source": "https://www.sefaria.org/api/manuscripts/Genesis.7",
+          "mapping_method_ko": "이번Sefaria공식API와Commons설명의6:19–7:23면대응확인.경계절은일부만포함될수있음.",
+          "inspection_status_ko": "전체사진과오른쪽단을확대열람,6:22의하나님,7:1의여호와·의로움,7:2의일곱반복·짝·둘의핵심자음어구만한정확인.모든모음·악센트·마소라주석·전문자대조아님.",
+          "image_transformation_ko": "사진 전체를 축소하고 WebP로 변환. 글자 생성·복원·색 보정·자르기 없음.",
+          "covered_verses": [
+            20,
+            21,
+            22
+          ]
+        }
+      ],
+      "additional_sources": [
+        {
+          "name": "Swete1901 그리스어 인쇄판 · 제1권9쪽",
+          "role_ko": "6:1–17 학술인쇄판 대조기록 · 고대사본사진과 구별",
+          "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n40/mode/1up",
+          "caption_ko": "Swete1901의 인쇄9–10쪽13–17절을 이번 실행에서 읽었다.번역해석 차이·미검증 장치귀속을 구별한다.",
+          "rights_ko": "1901년 인쇄판 공공영역. Internet Archive / University of Toronto 스캔.",
+          "evidence_url": "/data/genesis-6.json"
+        },
+        {
+          "name": "Swete1901 그리스어인쇄판 · 제1권10쪽",
+          "role_ko": "6:18–19 직접열람기록 · 고대사본자체와 구별",
+          "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n41/mode/1up",
+          "caption_ko": "저장스캔을 직접읽어 언약과생물보존문구를 대조.19절 동물목록확장·먹여기르기를 기록.다른히브리어저본 확정 아님.",
+          "rights_ko": "1901년인쇄판 공공영역.Internet Archive/University of Toronto스캔.",
+          "evidence_url": "/data/genesis-6.json"
+        }
+      ]
+    },
+    {
+      "key": "Gen.7",
+      "book": "Gen",
+      "chapter": 7,
+      "title_ko": "창세기 7장",
+      "slug": "gen-7",
+      "published_verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "basis_label": "MT-WLC / OSHB",
+      "basis_ko": "WLC/OSHB고정전자본문",
+      "explanation_ko": [
+        "현재 로컬 채택범위 7:1–7. 외부배포 완료와 구별. 직접 입력은 고정 WLC/OSHB 전자전사.",
+        "Sefaria공식사본API의4v(6:19–7:23)색인과Commons설명확인.이번사진의핵심자음어구만한정대조했으며모든문자·모음·악센트·마소라주석전면검증아님.",
+        "Swete1901인쇄10쪽직접열람.확장신호칭과일곱의반복·암수표현을WLC와구별.일곱쌍/총일곱해석은공개주석에유보,현대장치및다른히브리어증인대조대기.",
+        "3–7절: Swete1901 인쇄10–11쪽 직접열람. 3절 새의 정결구분이 있는 긴 그리스어 읽기, 5절 신호칭 확대, 6절 물 명사 생략·장치의 추가읽기를 구별한다. 레닌그라드4v 핵심자음 한정대조이며 현대장치·다른 히브리어 증인 전면검증은 대기한다."
+      ],
+      "photos": [
+        {
+          "folio": "004b",
+          "commons_page": "https://commons.wikimedia.org/wiki/File:Leningrad_Codex_Folio_004b.jpg",
+          "original_url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F004B.jpg",
+          "original_sha256": "58d0675924b327df7bb1549563dcaf0abec7931b569b163e6a9871575d1667db",
+          "preview": "/assets/manuscripts/leningrad-004b.webp",
+          "preview_sha256": "14b0809d83c11c611f1177724f538afc27719169447b85d6dee7d740b6311676",
+          "width": 1400,
+          "height": 1605,
+          "rights": "Commons파일페이지의Public Domain Mark/PD-Art표시확인",
+          "credit": "Bruce Zuckerman / West Semitic Research; Ancient Biblical Manuscript Center; courtesy Russian National Library. Sefaria image service.",
+          "retrieved_at": "2026-11-20T15:08:55.479589+00:00",
+          "id": "lc-004b",
+          "folio_label": "4v · 004b",
+          "indexed_range": "Genesis 6:19-7:23",
+          "chapter_scope_ko": "7장1–7절 · 현재 로컬채택범위",
+          "mapping_source": "https://www.sefaria.org/api/manuscripts/Genesis.7",
+          "mapping_method_ko": "이번Sefaria공식API와Commons설명의6:19–7:23면대응확인.경계절은일부만포함될수있음.",
+          "inspection_status_ko": "전체사진과오른쪽단을확대열람,6:22의하나님,7:1의여호와·의로움,7:2의일곱반복·짝·둘의핵심자음어구만한정확인.모든모음·악센트·마소라주석·전문자대조아님. 후속 3–7절의 일곱 반복·암수·일곱날·두사십·신명·육백살·홍수물·친족·מפני 핵심자음어구도 한정확인. 전문자 검증 아님.",
+          "image_transformation_ko": "사진 전체를 축소하고 WebP로 변환. 글자 생성·복원·색 보정·자르기 없음.",
+          "covered_verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "additional_sources": [
+        {
+          "name": "Swete1901그리스어인쇄판 · 제1권10쪽",
+          "role_ko": "7:1–2직접열람기록,고대사본자체와구별",
+          "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n41/mode/1up",
+          "caption_ko": "신호칭확대·일곱의반복·암수표현확인.수량논쟁을해결하거나다른히브리어저본확정아님.",
+          "rights_ko": "1901년인쇄판공공영역;Internet Archive/University of Toronto스캔.",
+          "evidence_url": "/data/genesis-7.json"
+        },
+        {
+          "name": "Swete1901 그리스어 인쇄판 · 제1권10–11쪽",
+          "role_ko": "7:3–7 직접열람 기록 · 고대사본 자체와 구별",
+          "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n41/mode/1up",
+          "caption_ko": "3절 정결·부정결 새 구분, 5절 호칭확대와 6절 물 생략·장치 추가읽기를 기록. 그리스어의 배후 히브리어 읽기나 초기성은 미확정.",
+          "rights_ko": "1901년 인쇄판 공공영역; Internet Archive / University of Toronto 스캔.",
+          "evidence_url": "/data/genesis-7.json"
         }
       ]
     }

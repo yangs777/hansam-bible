@@ -1,6 +1,6 @@
 # Salmo 1
 
-Hansam Yang · Original Bible · v0.4.20
+Hansam Yang · Original Bible · v0.4.29
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -99,6 +99,42 @@ Previous v0.4.19
 Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
 
 Previous v0.4.2
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.20
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.21
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.22
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.23
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.24
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.25
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.26
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.27
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.28
 
 Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
 
@@ -220,6 +256,42 @@ Previous v0.4.2
 
 Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
 
+Previous v0.4.20
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.21
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.22
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.23
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.24
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.25
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.26
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.27
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
+Previous v0.4.28
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
 Previous v0.4.3
 
 Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
@@ -335,6 +407,42 @@ Previous v0.4.19
 Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
 
 Previous v0.4.2
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.20
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.21
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.22
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.23
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.24
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.25
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.26
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.27
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.28
 
 Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
 
@@ -456,6 +564,42 @@ Previous v0.4.2
 
 ¡No así los malvados! Son como el tamo que el viento se lleva.
 
+Previous v0.4.20
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.21
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.22
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.23
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.24
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.25
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.26
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.27
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
+Previous v0.4.28
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
 Previous v0.4.3
 
 ¡No así los malvados! Son como el tamo que el viento se lleva.
@@ -571,6 +715,42 @@ Previous v0.4.19
 Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
 
 Previous v0.4.2
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.20
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.21
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.22
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.23
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.24
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.25
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.26
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.27
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.28
 
 Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
 
@@ -692,6 +872,42 @@ Previous v0.4.2
 
 Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
 
+Previous v0.4.20
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.21
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.22
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.23
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.24
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.25
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.26
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.27
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
+Previous v0.4.28
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
 Previous v0.4.3
 
 Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
@@ -730,7 +946,7 @@ En el versículo 6, lo que perece es ‘el camino de los malvados’. El versíc
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.4.20. https://yangs777.github.io/hansam-bible/es/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/es/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

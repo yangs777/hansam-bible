@@ -2,6 +2,368 @@
   "schema_version": 1,
   "entries": [
     {
+      "id": "edition-0.4.29",
+      "kind": "edition",
+      "version": "0.4.29",
+      "recorded_at": "2026-11-22T15:10:34.681018+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.29 · 5절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 177절 · 한국어·영어·스페인어 531개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 177,
+      "translation_count": 531,
+      "added_references": [
+        "Gen.7.3",
+        "Gen.7.4",
+        "Gen.7.5",
+        "Gen.7.6",
+        "Gen.7.7"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium",
+        "gpt-6.1-sol"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.29.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.28",
+      "kind": "edition",
+      "version": "0.4.28",
+      "recorded_at": "2026-11-20T15:09:37.999486+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.28 · 5절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 172절 · 한국어·영어·스페인어 516개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 172,
+      "translation_count": 516,
+      "added_references": [
+        "Gen.7.1",
+        "Gen.7.2",
+        "Gen.6.20",
+        "Gen.6.21",
+        "Gen.6.22"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium",
+        "gpt-6.1-sol"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.28.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.27",
+      "kind": "edition",
+      "version": "0.4.27",
+      "recorded_at": "2026-11-19T17:35:33.897317+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.27 · 2절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 167절 · 한국어·영어·스페인어 501개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 167,
+      "translation_count": 501,
+      "added_references": [
+        "Gen.6.18",
+        "Gen.6.19"
+      ],
+      "revised_ids": [],
+      "models": [
+        "GPT (Codex 현재 세션)",
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.27.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.26",
+      "kind": "edition",
+      "version": "0.4.26",
+      "recorded_at": "2026-11-19T12:36:03.639391+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.26 · 5절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 165절 · 한국어·영어·스페인어 495개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 165,
+      "translation_count": 495,
+      "added_references": [
+        "Gen.6.13",
+        "Gen.6.14",
+        "Gen.6.15",
+        "Gen.6.16",
+        "Gen.6.17"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium",
+        "gpt-6.1-sol"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.26.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.25-model-request-evidence",
+      "kind": "site",
+      "recorded_at": "2026-11-13T15:09:41.550774+00:00",
+      "time_basis": "change_recorded_at",
+      "title_ko": "v0.4.25 GPT 요청 모델 표시 보완",
+      "summary_ko": [
+        "실제 진입점의 gpt-6.1-sol 요청값을 확인해 검토 기록에 보완했습니다. 내부 제공 스냅샷은 미확인이고 번역문과 이전 기록은 보존합니다."
+      ],
+      "links": [
+        {
+          "label": "관련 페이지",
+          "url": "/data/genesis-6.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.25",
+      "kind": "edition",
+      "version": "0.4.25",
+      "recorded_at": "2026-11-13T15:07:54.541254+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.25 · 5절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 160절 · 한국어·영어·스페인어 480개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 160,
+      "translation_count": 480,
+      "added_references": [
+        "Gen.6.8",
+        "Gen.6.9",
+        "Gen.6.10",
+        "Gen.6.11",
+        "Gen.6.12"
+      ],
+      "revised_ids": [],
+      "models": [
+        "GPT (Codex 편집 세션)",
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.25.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.24",
+      "kind": "edition",
+      "version": "0.4.24",
+      "recorded_at": "2026-11-12T16:06:23.439573+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.24 · 1절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 155절 · 한국어·영어·스페인어 465개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 155,
+      "translation_count": 465,
+      "added_references": [
+        "Gen.6.7"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium",
+        "gpt-6.1-sol"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.24.json"
+        }
+      ]
+    },
+    {
+      "id": "gpt-request-model-evidence-20261113-gen6",
+      "kind": "site",
+      "recorded_at": "2026-11-12T15:11:15.187718+00:00",
+      "time_basis": "change_recorded_at",
+      "title_ko": "GPT 요청 모델 표기 확인",
+      "summary_ko": [
+        "창세기 6:2–6 검토의 실제 실행 요청 모델을 확인하여 검토 메타데이터를 보완했습니다. 번역문과 모델 응답 원문은 유지하며, 내부 제공 버전은 별도 미확인입니다."
+      ],
+      "links": [
+        {
+          "label": "관련 페이지",
+          "url": "/data/model-reviews.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.23",
+      "kind": "edition",
+      "version": "0.4.23",
+      "recorded_at": "2026-11-12T15:09:28.388242+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.23 · 5절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 154절 · 한국어·영어·스페인어 462개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 154,
+      "translation_count": 462,
+      "added_references": [
+        "Gen.6.2",
+        "Gen.6.3",
+        "Gen.6.4",
+        "Gen.6.5",
+        "Gen.6.6"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium",
+        "gpt-codex-session"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.23.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.22",
+      "kind": "edition",
+      "version": "0.4.22",
+      "recorded_at": "2026-11-11T17:06:09.912313+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.22 · 3절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 149절 · 한국어·영어·스페인어 447개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 149,
+      "translation_count": 447,
+      "added_references": [
+        "Gen.6.1",
+        "Gen.5.31",
+        "Gen.5.32"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-medium",
+        "gpt-6.1-sol"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.22.json"
+        }
+      ]
+    },
+    {
+      "id": "edition-0.4.21",
+      "kind": "edition",
+      "version": "0.4.21",
+      "recorded_at": "2026-11-11T16:10:34.089566+00:00",
+      "time_basis": "edition_adopted_at",
+      "title_ko": "번역판 v0.4.21 · 5절 추가, 0절 수정",
+      "summary_ko": [
+        "현재 선택 본문 146절 · 한국어·영어·스페인어 438개 번역.",
+        "이전 판본과 실제 모델 제안·의견을 보존합니다. 이 시각은 판본 채택 기록이며 실제 배포 완료 시각과 구분합니다."
+      ],
+      "total_verses": 146,
+      "translation_count": 438,
+      "added_references": [
+        "Gen.5.26",
+        "Gen.5.27",
+        "Gen.5.28",
+        "Gen.5.29",
+        "Gen.5.30"
+      ],
+      "revised_ids": [],
+      "models": [
+        "claude-sonnet-5-5",
+        "gemini-3.1-pro-web",
+        "gemini-3.8-flash-medium",
+        "gemini-3.8-flash-web",
+        "gpt-6.1-sol"
+      ],
+      "links": [
+        {
+          "label": "현재 본문",
+          "url": "/read/"
+        },
+        {
+          "label": "판본 데이터",
+          "url": "/data/releases/v0.4.21.json"
+        }
+      ]
+    },
+    {
       "id": "ui-reading-layers-20261108",
       "kind": "site",
       "recorded_at": "2026-11-07T23:21:22.912318+00:00",
