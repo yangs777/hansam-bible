@@ -1,6 +1,6 @@
 # Genesis 5:1–32
 
-Hansam Yang · Original Bible · v0.4.30
+Hansam Yang · Original Bible · v0.4.31
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -104,6 +104,10 @@ Previous v0.4.29
 
 This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
 
+Previous v0.4.30
+
+This is the record of Adam’s descendants. When God created humankind, he made them in the likeness of God.
+
 ## 2 · HYB.GEN.005.002
 
 Hebrew display (MT/WLC): זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם בְּי֖וֹם הִבָּֽרְאָֽם׃
@@ -193,6 +197,10 @@ Previous v0.4.28
 Male and female he created them, and he blessed them and named them Humankind when they were created.
 
 Previous v0.4.29
+
+Male and female he created them, and he blessed them and named them Humankind when they were created.
+
+Previous v0.4.30
 
 Male and female he created them, and he blessed them and named them Humankind when they were created.
 
@@ -288,6 +296,10 @@ Previous v0.4.29
 
 Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
 
+Previous v0.4.30
+
+Adam lived one hundred thirty years and fathered a son in his likeness, according to his image, and named him Seth.
+
 ## 4 · HYB.GEN.005.004
 
 Hebrew display (MT/WLC): וַיִּֽהְי֣וּ יְמֵי־אָדָ֗ם אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֵׁ֔ת שְׁמֹנֶ֥ה מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -377,6 +389,10 @@ Previous v0.4.28
 After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
 
 Previous v0.4.29
+
+After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
+
+Previous v0.4.30
 
 After fathering Seth, Adam lived eight hundred years and fathered sons and daughters.
 
@@ -472,6 +488,10 @@ Previous v0.4.29
 
 All the days Adam lived were nine hundred thirty years, and he died.
 
+Previous v0.4.30
+
+All the days Adam lived were nine hundred thirty years, and he died.
+
 ## 6 · HYB.GEN.005.006
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
@@ -557,6 +577,10 @@ Previous v0.4.28
 When Seth had lived one hundred five years, he fathered Enosh.
 
 Previous v0.4.29
+
+When Seth had lived one hundred five years, he fathered Enosh.
+
+Previous v0.4.30
 
 When Seth had lived one hundred five years, he fathered Enosh.
 
@@ -648,6 +672,10 @@ Previous v0.4.29
 
 After fathering Enosh, Seth lived eight hundred seven years and fathered sons and daughters.
 
+Previous v0.4.30
+
+After fathering Enosh, Seth lived eight hundred seven years and fathered sons and daughters.
+
 ## 8 · HYB.GEN.005.008
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -733,6 +761,10 @@ Previous v0.4.28
 All the days of Seth were nine hundred twelve years, and he died.
 
 Previous v0.4.29
+
+All the days of Seth were nine hundred twelve years, and he died.
+
+Previous v0.4.30
 
 All the days of Seth were nine hundred twelve years, and he died.
 
@@ -824,6 +856,10 @@ Previous v0.4.29
 
 When Enosh had lived ninety years, he fathered Kenan.
 
+Previous v0.4.30
+
+When Enosh had lived ninety years, he fathered Kenan.
+
 ## 10 · HYB.GEN.005.010
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -912,6 +948,10 @@ Previous v0.4.29
 
 After fathering Kenan, Enosh lived eight hundred fifteen years and fathered sons and daughters.
 
+Previous v0.4.30
+
+After fathering Kenan, Enosh lived eight hundred fifteen years and fathered sons and daughters.
+
 ## 11 · HYB.GEN.005.011
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י אֱנ֔וֹשׁ חָמֵ֣שׁ שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -993,6 +1033,10 @@ Previous v0.4.28
 All the days of Enosh were nine hundred five years, and he died.
 
 Previous v0.4.29
+
+All the days of Enosh were nine hundred five years, and he died.
+
+Previous v0.4.30
 
 All the days of Enosh were nine hundred five years, and he died.
 
@@ -1080,6 +1124,10 @@ Previous v0.4.29
 
 When Kenan had lived seventy years, he fathered Mahalalel.
 
+Previous v0.4.30
+
+When Kenan had lived seventy years, he fathered Mahalalel.
+
 ## 13 · HYB.GEN.005.013
 
 Hebrew display (MT/WLC): וַיְחִ֣י קֵינָ֗ן אַחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מַֽהֲלַלְאֵ֔ל אַרְבָּעִ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -1161,6 +1209,10 @@ Previous v0.4.28
 After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
 
 Previous v0.4.29
+
+After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
+
+Previous v0.4.30
 
 After fathering Mahalalel, Kenan lived eight hundred forty years and fathered sons and daughters.
 
@@ -1248,6 +1300,10 @@ Previous v0.4.29
 
 All the days of Kenan were nine hundred ten years, and he died.
 
+Previous v0.4.30
+
+All the days of Kenan were nine hundred ten years, and he died.
+
 ## 15 · HYB.GEN.005.015
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֔ל חָמֵ֥שׁ שָׁנִ֖ים וְשִׁשִּׁ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־יָֽרֶד׃
@@ -1332,6 +1388,10 @@ Previous v0.4.29
 
 When Mahalalel had lived sixty-five years, he fathered Jared.
 
+Previous v0.4.30
+
+When Mahalalel had lived sixty-five years, he fathered Jared.
+
 ## 16 · HYB.GEN.005.016
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֗ל אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־יֶ֔רֶד שְׁלֹשִׁ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -1409,6 +1469,10 @@ Previous v0.4.28
 After fathering Jared, Mahalalel lived eight hundred thirty years and fathered sons and daughters.
 
 Previous v0.4.29
+
+After fathering Jared, Mahalalel lived eight hundred thirty years and fathered sons and daughters.
+
+Previous v0.4.30
 
 After fathering Jared, Mahalalel lived eight hundred thirty years and fathered sons and daughters.
 
@@ -1492,6 +1556,10 @@ Previous v0.4.29
 
 All the days of Mahalalel were eight hundred ninety-five years, and he died.
 
+Previous v0.4.30
+
+All the days of Mahalalel were eight hundred ninety-five years, and he died.
+
 ## 18 · HYB.GEN.005.018
 
 Hebrew display (MT/WLC): וַֽיְחִי־יֶ֕רֶד שְׁתַּ֧יִם וְשִׁשִּׁ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־חֲנֽוֹךְ׃
@@ -1569,6 +1637,10 @@ Previous v0.4.28
 When Jared had lived one hundred sixty-two years, he fathered Enoch.
 
 Previous v0.4.29
+
+When Jared had lived one hundred sixty-two years, he fathered Enoch.
+
+Previous v0.4.30
 
 When Jared had lived one hundred sixty-two years, he fathered Enoch.
 
@@ -1652,6 +1724,10 @@ Previous v0.4.29
 
 After fathering Enoch, Jared lived eight hundred years and fathered sons and daughters.
 
+Previous v0.4.30
+
+After fathering Enoch, Jared lived eight hundred years and fathered sons and daughters.
+
 ## 20 · HYB.GEN.005.020
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־יֶ֔רֶד שְׁתַּ֤יִם וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -1732,6 +1808,10 @@ Previous v0.4.29
 
 All the days of Jared were nine hundred sixty-two years, and he died.
 
+Previous v0.4.30
+
+All the days of Jared were nine hundred sixty-two years, and he died.
+
 ## 21 · HYB.GEN.005.021
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י חֲנ֔וֹךְ חָמֵ֥שׁ וְשִׁשִּׁ֖ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מְתוּשָֽׁלַח׃
@@ -1805,6 +1885,10 @@ Previous v0.4.28
 When Enoch had lived sixty-five years, he fathered Methuselah.
 
 Previous v0.4.29
+
+When Enoch had lived sixty-five years, he fathered Methuselah.
+
+Previous v0.4.30
 
 When Enoch had lived sixty-five years, he fathered Methuselah.
 
@@ -1884,6 +1968,10 @@ Previous v0.4.29
 
 After fathering Methuselah, Enoch walked with God for three hundred years and fathered sons and daughters.
 
+Previous v0.4.30
+
+After fathering Methuselah, Enoch walked with God for three hundred years and fathered sons and daughters.
+
 ## 23 · HYB.GEN.005.023
 
 Hebrew display (MT/WLC): וַיְהִ֖י כָּל־יְמֵ֣י חֲנ֑וֹךְ חָמֵ֤שׁ וְשִׁשִּׁים֙ שָׁנָ֔ה וּשְׁלֹ֥שׁ מֵא֖וֹת שָׁנָֽה׃
@@ -1957,6 +2045,10 @@ Previous v0.4.28
 All the days of Enoch were three hundred sixty-five years.
 
 Previous v0.4.29
+
+All the days of Enoch were three hundred sixty-five years.
+
+Previous v0.4.30
 
 All the days of Enoch were three hundred sixty-five years.
 
@@ -2036,6 +2128,10 @@ Previous v0.4.29
 
 Enoch walked with God, and he was no more, because God took him.
 
+Previous v0.4.30
+
+Enoch walked with God, and he was no more, because God took him.
+
 ## 25 · HYB.GEN.005.025
 
 Hebrew display (MT/WLC): וַיְחִ֣י מְתוּשֶׁ֔לַח שֶׁ֧בַע וּשְׁמֹנִ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־לָֽמֶךְ׃
@@ -2103,6 +2199,10 @@ Previous v0.4.28
 When Methuselah had lived one hundred eighty-seven years, he fathered Lamech.
 
 Previous v0.4.29
+
+When Methuselah had lived one hundred eighty-seven years, he fathered Lamech.
+
+Previous v0.4.30
 
 When Methuselah had lived one hundred eighty-seven years, he fathered Lamech.
 
@@ -2193,6 +2293,10 @@ Previous v0.4.29
 
 After fathering Lamech, Methuselah lived seven hundred eighty-two years and fathered sons and daughters.
 
+Previous v0.4.30
+
+After fathering Lamech, Methuselah lived seven hundred eighty-two years and fathered sons and daughters.
+
 ## 27 · HYB.GEN.005.027
 
 Hebrew display (MT/WLC): וַיִּהְיוּ֙ כָּל־יְמֵ֣י מְתוּשֶׁ֔לַח תֵּ֤שַׁע וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -2258,6 +2362,10 @@ Previous v0.4.28
 All the days of Methuselah were nine hundred sixty-nine years, and he died.
 
 Previous v0.4.29
+
+All the days of Methuselah were nine hundred sixty-nine years, and he died.
+
+Previous v0.4.30
 
 All the days of Methuselah were nine hundred sixty-nine years, and he died.
 
@@ -2329,6 +2437,10 @@ Previous v0.4.29
 
 When Lamech had lived one hundred eighty-two years, he fathered a son.
 
+Previous v0.4.30
+
+When Lamech had lived one hundred eighty-two years, he fathered a son.
+
 ## 29 · HYB.GEN.005.029
 
 Hebrew display (MT/WLC): וַיִּקְרָ֧א אֶת־שְׁמ֛וֹ נֹ֖חַ לֵאמֹ֑ר זֶ֞֠ה יְנַחֲמֵ֤נוּ מִֽמַּעֲשֵׂ֨נוּ֙ וּמֵעִצְּב֣וֹן יָדֵ֔ינוּ מִן־הָ֣אֲדָמָ֔ה אֲשֶׁ֥ר אֵֽרְרָ֖הּ יְהוָֽה׃
@@ -2394,6 +2506,10 @@ Previous v0.4.28
 He named him Noah, saying, “This one will bring us relief from our work and from the toil of our hands, from the ground that the LORD has cursed.”
 
 Previous v0.4.29
+
+He named him Noah, saying, “This one will bring us relief from our work and from the toil of our hands, from the ground that the LORD has cursed.”
+
+Previous v0.4.30
 
 He named him Noah, saying, “This one will bring us relief from our work and from the toil of our hands, from the ground that the LORD has cursed.”
 
@@ -2465,6 +2581,10 @@ Previous v0.4.29
 
 After fathering Noah, Lamech lived five hundred ninety-five years and fathered sons and daughters.
 
+Previous v0.4.30
+
+After fathering Noah, Lamech lived five hundred ninety-five years and fathered sons and daughters.
+
 ## 31 · HYB.GEN.005.031
 
 Hebrew display (MT/WLC): וַֽיְהִי֙ כָּל־יְמֵי־לֶ֔מֶךְ שֶׁ֤בַע וְשִׁבְעִים֙ שָׁנָ֔ה וּשְׁבַ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -2526,6 +2646,10 @@ Previous v0.4.28
 All the days of Lamech were seven hundred seventy-seven years, and he died.
 
 Previous v0.4.29
+
+All the days of Lamech were seven hundred seventy-seven years, and he died.
+
+Previous v0.4.30
 
 All the days of Lamech were seven hundred seventy-seven years, and he died.
 
@@ -2593,6 +2717,10 @@ Previous v0.4.29
 
 Noah was five hundred years old, and he fathered Shem, Ham, and Japheth.
 
+Previous v0.4.30
+
+Noah was five hundred years old, and he fathered Shem, Ham, and Japheth.
+
 ## Notes
 
 The first Adam in v.1 is read as the genealogical figure; adam in the creation clause is rendered as humankind. BDB120 includes men and women at5:1 and collective naming at5:2. English collective them interprets a singular Hebrew object. The collective name Humankind in v.2 shares its Hebrew spelling and sound with Adam; it is not restricted to males.
@@ -2619,7 +2747,7 @@ Verse31 provisionally follows WLC777 against753 in the inspected Swete1901 p.9. 
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 5:1–32 (en), research pilot v0.4.30. https://yangs777.github.io/hansam-bible/en/genesis-5/
+Hansam Yang. Original Bible: Genesis 5:1–32 (en), research pilot v0.4.31. https://yangs777.github.io/hansam-bible/en/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

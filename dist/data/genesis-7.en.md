@@ -1,12 +1,12 @@
-# Genesis 7:1–12
+# Genesis 7:1–17
 
-Hansam Yang · Original Bible · v0.4.30
+Hansam Yang · Original Bible · v0.4.31
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-Provisional selections for verses 1–12 distinguish independent model proposals, actual final opinions, limited witness observations and access gaps. Specialist review and full collation remain pending.
+Provisional selections for verses 1–17 distinguish model proposals, actual final opinions, limited witness observations and access gaps. Specialist review and full collation remain pending.
 
 Basis: 고정WLC4.20/OSHB잠정저본.독립GPT·Gemini초기안및실제최종의견·반론·난구검토보존.과거Claude다섯절초안재사용.Swete1901인쇄10쪽직접열람,레닌그라드4v핵심자음어구한정대조.현대장치·사본전면대조·인간전문가검수대기.
 
@@ -52,6 +52,10 @@ Previous v0.4.29
 
 YHWH said to Noah, “Enter the ark, you and all your household, for I have seen that you are righteous before me in this generation.
 
+Previous v0.4.30
+
+YHWH said to Noah, “Enter the ark, you and all your household, for I have seen that you are righteous before me in this generation.
+
 ## 2 · HYB.GEN.007.002
 
 Hebrew display (MT/WLC): מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה תִּֽקַּח־לְךָ֛ שִׁבְעָ֥ה שִׁבְעָ֖ה אִ֣ישׁ וְאִשְׁתּ֑וֹ וּמִן־הַבְּהֵמָ֡ה אֲ֠שֶׁר לֹ֣א טְהֹרָ֥ה הִ֛וא שְׁנַ֖יִם אִ֥ישׁ וְאִשְׁתּֽוֹ׃
@@ -92,6 +96,10 @@ Previous v0.4.29
 
 From every clean animal take seven by seven, a male and its mate; and from the animals that are not clean, two, a male and its mate.
 
+Previous v0.4.30
+
+From every clean animal take seven by seven, a male and its mate; and from the animals that are not clean, two, a male and its mate.
+
 ## 3 · HYB.GEN.007.003
 
 Hebrew display (MT/WLC): גַּ֣ם מֵע֧וֹף הַשָּׁמַ֛יִם שִׁבְעָ֥ה שִׁבְעָ֖ה זָכָ֣ר וּנְקֵבָ֑ה לְחַיּ֥וֹת זֶ֖רַע עַל־פְּנֵ֥י כָל־הָאָֽרֶץ׃
@@ -125,6 +133,10 @@ Final opinion (Korean original): WLC의 비구분 새 표현을 유지하며 그
 Counterargument (Korean): 일곱씩은총일곱/일곱쌍을확정하지않아불명확하다.암수와분배를함께읽는일곱쌍해석이강하다.씨는한국어에서종자로오해될수있어자손/후손이명료한대안이다.본문에새의정결구분은명시되어있지않으므로7:2에서자동보충하지않음.동물의현대종분류나분포회복기제를단정하지않음. 그리스어 긴 문구가 더 이른 다른 히브리어 저본을 반영했을 가능성을 배제 못함. 7:2에 맞춘 확대 가능성도 입증된 기원이 아님. 사마리아오경·현대장치 대조 전에는 우열 확정 못함.
 
 Previous v0.4.29
+
+Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
+
+Previous v0.4.30
 
 Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
 
@@ -164,6 +176,10 @@ Previous v0.4.29
 
 For in seven more days I will send rain upon the earth for forty days and forty nights, and I will wipe every living thing that I have made from the face of the ground.”
 
+Previous v0.4.30
+
+For in seven more days I will send rain upon the earth for forty days and forty nights, and I will wipe every living thing that I have made from the face of the ground.”
+
 ## 5 · HYB.GEN.007.005
 
 Hebrew display (MT/WLC): וַיַּ֖עַשׂ נֹ֑חַ כְּכֹ֥ל אֲשֶׁר־צִוָּ֖הוּ יְהוָֽה׃
@@ -197,6 +213,10 @@ Final opinion (Korean original): WLC יהוה는 한국어 여호와, 영어·�
 Counterargument (Korean): 했다는시간순서만으로방주입장완료나모든세부이행기제를확정하지못한다.כל을모든것으로보존하되내적심리나완전무죄를추가하면과잉이다.영어과거완료는명령의선행성을명시한문맥의역이며히브리어상과일대일대응아님. 그리스어 확대의 기원은 미확정. 문법의 순서만으로 즉시성·내면·절대무죄를 입증 못함.
 
 Previous v0.4.29
+
+Noah did according to all that YHWH had commanded him.
+
+Previous v0.4.30
 
 Noah did according to all that YHWH had commanded him.
 
@@ -236,6 +256,10 @@ Previous v0.4.29
 
 Noah was six hundred years old, and the floodwaters were upon the earth.
 
+Previous v0.4.30
+
+Noah was six hundred years old, and the floodwaters were upon the earth.
+
 ## 7 · HYB.GEN.007.007
 
 Hebrew display (MT/WLC): וַיָּ֣בֹא נֹ֗חַ וּ֠בָנָיו וְאִשְׁתּ֧וֹ וּנְשֵֽׁי־בָנָ֛יו אִתּ֖וֹ אֶל־הַתֵּבָ֑ה מִפְּנֵ֖י מֵ֥י הַמַּבּֽוּל׃
@@ -272,6 +296,10 @@ Previous v0.4.29
 
 Noah entered the ark, and his sons, his wife, and his sons’ wives with him, because of the waters of the flood.
 
+Previous v0.4.30
+
+Noah entered the ark, and his sons, his wife, and his sons’ wives with him, because of the waters of the flood.
+
 ## 8 · HYB.GEN.007.008
 
 Hebrew display (MT/WLC): מִן־הַבְּהֵמָה֙ הַטְּהוֹרָ֔ה וּמִן־הַ֨בְּהֵמָ֔ה אֲשֶׁ֥ר אֵינֶ֖נָּה טְהֹרָ֑ה וּמִ֨ן־הָע֔וֹף וְכֹ֥ל אֲשֶׁר־רֹמֵ֖שׂ עַל־הָֽאֲדָמָֽה׃
@@ -303,6 +331,10 @@ From the clean animals and the animals that were not clean, and from the birds a
 Final opinion (Korean original): 9절과 연결되는 미완결 구문을 유지. 정결분류의 현대 적용·생물종의 정확한 범주·전체 개체수는 확정하지 않는다. 실제 사본·그리스어 관찰과 비교해도 고정WLC 잠정선택 유지. 최초원문 인증·인간전문가 검수완료 아님.
 
 Counterargument (Korean): 그리스어 긴 열거가 다른 히브리어 저본인지 조화적 확대인지 확정 못함. 더 짧다는 이유만으로 원형이라 단정하지 않음.
+
+Previous v0.4.30
+
+From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
 
 ## 9 · HYB.GEN.007.009
 
@@ -336,6 +368,10 @@ Final opinion (Korean original): 둘씩의 이동·암수·두 방향·노아에
 
 Counterargument (Korean): 한국어 들어갔다는 방향구를 자연스럽게 푼 표현이며 총두마리라는 뜻은 아님.
 
+Previous v0.4.30
+
+they came two by two to Noah, into the ark, male and female, as God had commanded Noah.
+
 ## 10 · HYB.GEN.007.010
 
 Hebrew display (MT/WLC): וַֽיְהִ֖י לְשִׁבְעַ֣ת הַיָּמִ֑ים וּמֵ֣י הַמַּבּ֔וּל הָי֖וּ עַל־הָאָֽרֶץ׃
@@ -367,6 +403,10 @@ After the seven days, the waters of the flood were upon the earth.
 Final opinion (Korean original): 일곱날과 홍수물 상태를 유지하되 현대 날짜나 앞 절과의 정밀 시간표는 만들지 않는다. 실제 사본·그리스어 관찰과 비교해도 고정WLC 잠정선택 유지. 최초원문 인증·인간전문가 검수완료 아님.
 
 Counterargument (Korean): 이레째/이레후의 시점 뉘앙스는 논쟁 가능. 번역표현만으로 시간표를 확정하지 않음.
+
+Previous v0.4.30
+
+After the seven days, the waters of the flood were upon the earth.
 
 ## 11 · HYB.GEN.007.011
 
@@ -400,6 +440,10 @@ Final opinion (Korean original): 직접읽은 Swete 주본문의27일과 큰 생
 
 Counterargument (Korean): 그리스어가 더 이른 히브리어 숫자를 반영할 가능성을 배제 못함. 17일이 더 오래되었다고 판정한 것이 아님. Swete는 고대사본 자체가 아니고 현대장치 미열람.
 
+Previous v0.4.30
+
+In the six hundredth year of Noah’s life, in the second month, on the seventeenth day of the month, on that very day all the springs of the great deep burst open, and the windows of the heavens were opened.
+
 ## 12 · HYB.GEN.007.012
 
 Hebrew display (MT/WLC): וַֽיְהִ֥י הַגֶּ֖שֶׁם עַל־הָאָ֑רֶץ אַרְבָּעִ֣ים י֔וֹם וְאַרְבָּעִ֖ים לָֽיְלָה׃
@@ -432,6 +476,170 @@ Final opinion (Korean original): 두 사십과 비의 지속을 유지. 원인·
 
 Counterargument (Korean): גשם이 언제나 מטר와 배타적인 폭우 대립이라는 Gemini 초기 설명은 근거 미확인으로 채택하지 않음. 홍수전체기간과 강우기간을 혼동하지 않음.
 
+Previous v0.4.30
+
+The rain was upon the earth for forty days and forty nights.
+
+## 13 · HYB.GEN.007.013
+
+Hebrew display (MT/WLC): בְּעֶ֨צֶם הַיּ֤וֹם הַזֶּה֙ בָּ֣א נֹ֔חַ וְשֵׁם־וְחָ֥ם וָיֶ֖פֶת בְּנֵי־נֹ֑חַ וְאֵ֣שֶׁת נֹ֗חַ וּשְׁלֹ֧שֶׁת נְשֵֽׁי־בָנָ֛יו אִתָּ֖ם אֶל־הַתֵּבָֽה׃
+
+On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.13
+
+### Current best selected translation
+
+히브리어 가족열거·세 아내·אתם, Swete 그날·가족·μετ᾽ αὐτοῦ 관찰. 히브리어 복수 그들과 함께 및 세 아내 유지.
+
+#### claude-sonnet-5-5
+
+On that very day Noah and his sons Shem and Ham and Japheth, and Noah's wife and the three wives of his sons with them, entered the ark,
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+On that very day Noah and Noah's sons, Shem and Ham and Japheth, and Noah's wife and the three wives of his sons with them, entered into the ark.
+
+Final opinion (Korean original): WLC의 복수 접미사(אִתָּם)와 세 며느리 표기를 보존하고 외재적 인원수 합산 없이 본문 어휘대로 번역한 안을 잠정 채택 권고합니다.
+
+#### gpt-6.1-sol
+
+On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
+
+Final opinion (Korean original): 히브리어 복수 그들과 함께 및 세 아내 유지. 그리스어의 그와 함께는 표현차이이며 배후 히브리어 단수이문인지 번역선택인지 확정 못함. 해당 대안과 접근공백을 주석·근거기록으로 보존하는 잠정채택 권고. 인간전문가 검수 대기.
+
+Counterargument (Korean): אתם의 복수 지시범위를 노아 한명으로 축소하지 않음. 단수 בא 뒤 복합주어는 한국어 복수서술로 자연화. 정확한 입장순서·인원 합계는 추가하지 않는다. 그리스어의 그와 함께는 표현차이이며 배후 히브리어 단수이문인지 번역선택인지 확정 못함.
+
+## 14 · HYB.GEN.007.014
+
+Hebrew display (MT/WLC): הֵ֜מָּה וְכָל־הַֽחַיָּ֣ה לְמִינָ֗הּ וְכָל־הַבְּהֵמָה֙ לְמִינָ֔הּ וְכָל־הָרֶ֛מֶשׂ הָרֹמֵ֥שׂ עַל־הָאָ֖רֶץ לְמִינֵ֑הוּ וְכָל־הָע֣וֹף לְמִינֵ֔הוּ כֹּ֖ל צִפּ֥וֹר כָּל־כָּנָֽף׃
+
+They, and every wild animal according to its kind, all livestock according to their kinds, every creeping thing that creeps on the earth according to its kind, and every flying creature according to its kind—every bird, every winged thing—entered.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.14
+
+### Current best selected translation
+
+WLC·사본 핵심자음에 그들 및 끝 כל צפור כל כנף. Swete 주본문은 네 범주만 열거하며 두 구절 미표시. WLC의 더 긴 열거를 유지. 종류는 현대 생물분류가 아님. 14절 들어갔다는 13절에서 연결한 보충동사. 모든새/모든날개의 환유를 열거로 풀었으며 모든종류의날개 대안도 남긴다. 가축은 בהמה의 문맥대조이며 고정분류 주장 아님.
+
+#### claude-sonnet-5-5
+
+they and every wild animal according to its kind, and all the livestock according to their kinds, and every creeping thing that creeps on the earth according to its kind, and every bird according to its kind, every winged bird of every sort.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+They, and every beast after its kind, and all cattle after their kind, and every creeping thing that creeps on the earth after its kind, and every bird after its kind, every bird of every wing.
+
+Final opinion (Korean original): WLC의 긴 열거를 유지하되, 무동사 구문의 보충 성격과 그리스어 역본의 짧은 형태 대안을 난외 주석으로 보존하는 조건으로 잠정 채택 권고합니다.
+
+#### gpt-6.1-sol
+
+They, and every wild animal according to its kind, every domestic animal according to its kind, every creeping thing that creeps on the earth according to its kind, and every flying creature according to its kind—every bird, every winged thing—entered.
+
+Final opinion (Korean original): WLC의 더 긴 열거를 유지. 종류는 현대 생물분류가 아님. 그리스어의 짧은 열거가 더 이른 히브리어를 반영할 가능성 또는 번역상 축약 가능성 양쪽 미확정. 길이 자체로 우열 결정 못함. 해당 대안과 접근공백을 주석·근거기록으로 보존하는 잠정채택 권고. 인간전문가 검수 대기.
+
+Counterargument (Korean): 동사가 없는 열거에 들어갔다 보충은 문맥해석. חיה/בהמה를 들짐승/집짐승으로 대조하지만 항상 고정적 분류 아님. כל כנף는 모든종류의날개 또는 날개있는 모든것으로 해석가능. 현대 종 분류 아님. 그리스어의 짧은 열거가 더 이른 히브리어를 반영할 가능성 또는 번역상 축약 가능성 양쪽 미확정. 길이 자체로 우열 결정 못함.
+
+## 15 · HYB.GEN.007.015
+
+Hebrew display (MT/WLC): וַיָּבֹ֥אוּ אֶל־נֹ֖חַ אֶל־הַתֵּבָ֑ה שְׁנַ֤יִם שְׁנַ֨יִם֙ מִכָּל־הַבָּשָׂ֔ר אֲשֶׁר־בּ֖וֹ ר֥וּחַ חַיִּֽים׃
+
+They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.15
+
+### Current best selected translation
+
+고정WLC·사본 핵심자음·Swete에 둘씩과 생명의숨 및 노아에게/방주로. 분배·두 방향을 유지하고 한국어 육체는 6:17·19와 통일. 한국어 육체는 6:17·19와 통일하고 친족오해가 있는 초기 살붙이를 수정. 둘씩은 분배이지 총수를 한정하는 계산이 아님.
+
+#### claude-sonnet-5-5
+
+They went into the ark to Noah, two by two, of all flesh in which there was the breath of life.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And they came to Noah into the ark, two by two of all flesh in which is the breath of life.
+
+Final opinion (Korean original): 물질-영혼의 이분법적 선입견을 배제하고 기존 번역과의 통일성을 지닌 '육체' 표기와 두 방향 전치사를 온전히 살린 안을 잠정 채택 권고합니다.
+
+#### gpt-6.1-sol
+
+They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
+
+Final opinion (Korean original): 분배·두 방향을 유지하고 한국어 육체는 6:17·19와 통일. 육체는 물질몸으로 오해 가능. 여기서는 앞 열거된 살아있는 존재를 가리킴. 짝 총수·영혼론을 결정하지 않음. 해당 대안과 접근공백을 주석·근거기록으로 보존하는 잠정채택 권고. 인간전문가 검수 대기.
+
+Counterargument (Korean): 살붙이는 한국어에서 친족으로 들릴수 있어 생물로 풀어쓸 대안이 있다. רוח는 바람/영 의미폭 있으나 생명숨은 문맥선택. 둘씩은 최종 총수를 고정하지 않는다. 육체는 물질몸으로 오해 가능. 여기서는 앞 열거된 살아있는 존재를 가리킴. 짝 총수·영혼론을 결정하지 않음.
+
+## 16 · HYB.GEN.007.016
+
+Hebrew display (MT/WLC): וְהַבָּאִ֗ים זָכָ֨ר וּנְקֵבָ֤ה מִכָּל־בָּשָׂר֙ בָּ֔אוּ כַּֽאֲשֶׁ֛ר צִוָּ֥ה אֹת֖וֹ אֱלֹהִ֑ים וַיִּסְגֹּ֥ר יְהוָ֖ה בַּֽעֲדֽוֹ׃
+
+Those entering, male and female of all flesh, entered as God had commanded him; and YHWH shut him in.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.16
+
+### Current best selected translation
+
+히브리어 אלהים의 명령과 יהוה의 닫음 구별. Swete는 주본문에 여호와 하나님·방주·밖에서를 명시. 하나님/여호와 전환 유지. 노아를 안에 두고 닫으셨다로 닫힌 상태를 풀되 문/밖에서라는 미명시 목적어·위치 제외. 여호와가라는 신명표기는 기존서술문체를 유지. 노아는 남성단수대명사의 문맥상 지시대상이며 다른신명과 합치지 않음.
+
+#### claude-sonnet-5-5
+
+Those that entered, male and female of all flesh, went in as God had commanded him; and the LORD shut him in.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And those that entered, male and female of all flesh entered, as God had commanded him; and YHWH closed it behind him.
+
+Final opinion (Korean original): 신명 전환을 명확히 하고 외재적 목적어(문)의 본문 삽입을 배제하되, '안에 두고' 외에 '그의 뒤에서/그를 위하여'의 직역 가능성을 각주에 명시하는 것을 전제로 잠정 채택 권고합니다.
+
+#### gpt-6.1-sol
+
+Those entering, male and female of all flesh, entered as God had commanded him; and YHWH shut him in.
+
+Final opinion (Korean original): 하나님/여호와 전환 유지. 노아를 안에 두고 닫으셨다로 닫힌 상태를 풀되 문/밖에서라는 미명시 목적어·위치 제외. בעדו는 뒤에서/그를위하여 등의 번역가능성이 있고 안에 두고는 문맥해석. 그리스어가 다른 저본인지 설명적 번역인지 확정 못함. 해당 대안과 접근공백을 주석·근거기록으로 보존하는 잠정채택 권고. 인간전문가 검수 대기.
+
+Counterargument (Korean): בעדו는 뒤에서/위하여/그를두고의 공간·보호해석이 가능. 문이라는 목적어·밖에서라는 위치는 미명시라 보충하지 않는다. 닫으셨다는 목적어가 생략된 자연화이다. בעדו는 뒤에서/그를위하여 등의 번역가능성이 있고 안에 두고는 문맥해석. 그리스어가 다른 저본인지 설명적 번역인지 확정 못함.
+
+## 17 · HYB.GEN.007.017
+
+Hebrew display (MT/WLC): וַֽיְהִ֧י הַמַּבּ֛וּל אַרְבָּעִ֥ים י֖וֹם עַל־הָאָ֑רֶץ וַיִּרְבּ֣וּ הַמַּ֗יִם וַיִּשְׂאוּ֙ אֶת־הַתֵּבָ֔ה וַתָּ֖רָם מֵעַ֥ל הָאָֽרֶץ׃
+
+The flood was on the earth for forty days. The waters increased and lifted the ark, and it rose above the earth.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.17
+
+### Current best selected translation
+
+고정WLC와 사진 핵심자음은 ארבעים יום. Swete11쪽 주본문에는 사십밤도 있음. 물증가·방주들림·상승 확인. WLC의 사십날 유지, 사십밤은 역본대안으로 공개. 높이의 과잉강조 제외.
+
+#### claude-sonnet-5-5
+
+The flood continued forty days on the earth. The waters increased and bore up the ark, and it rose high above the earth.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And the flood was forty days upon the earth; and the waters increased, and bore up the ark, and it was lifted up above the earth.
+
+Final opinion (Korean original): WLC의 '사십 일'을 본문으로 유지하되, 그리스어 역본의 '사십 밤' 추가 형태와 학술적 조화 논의를 투명하게 공개하는 조건으로 잠정 채택 권고합니다.
+
+#### gpt-6.1-sol
+
+The flood was on the earth for forty days. The waters increased and lifted the ark, and it rose above the earth.
+
+Final opinion (Korean original): WLC의 사십날 유지, 사십밤은 역본대안으로 공개. 높이의 과잉강조 제외. 그리스어의 사십밤이 더 이른 읽기일 가능성을 배제 못함. 7:12와 조화적 확대라는 연구견해는 설득력있는 설명이나 전승기원 증명은 아님. 해당 대안과 접근공백을 주석·근거기록으로 보존하는 잠정채택 권고. 인간전문가 검수 대기.
+
+Counterargument (Korean): 높이는 한국어 자연화이나 구체고도는 없음. 사십날은 전체홍수종료나 이후기간을 결정하지 않음. 이절 MT에 사십밤은 없어 보충하지 않는다. 그리스어의 사십밤이 더 이른 읽기일 가능성을 배제 못함. 7:12와 조화적 확대라는 연구견해는 설득력있는 설명이나 전승기원 증명은 아님.
+
 ## Notes
 
 Verse 1 preserves I have seen, righteous, before me and this generation, while including the whole household. Verse 2 retains distributive seven by seven with a male and its mate. Seven pairs (fourteen animals) is a strong reading when the pair is distributed, but seven in total remains an alternative; the wording does not fix a total. Repeated sevens and male/female in the Greek edition do not settle the question. Cleanliness criteria, later sacrifice and harmonization with chapter 6 are not inserted.
@@ -450,9 +658,15 @@ In verse 11 pinned WLC and the inspected consonantal wording of Leningrad4v have
 
 Verse 10 marks the seven days and the state of floodwaters; verse 12 describes rain for forty days and forty nights. A fixed intensity contrast between geshem and matar was not established, so rain is retained. Inspection was limited to Swete and consonantal phrases in Leningrad. Modern apparatus, other Hebrew witnesses including Samaritan texts and 4Q252, other ancient versions and specialist review remain pending.
 
+Verses 13–15 preserve the family and animal lists, the four repetitions of according to kind, movement two by two and the breath of life. Kind is not a modern taxonomic species. In verse 14, they and every bird/every winged thing are in pinned Hebrew and the inspected Leningrad consonants, with no corresponding phrases in Swete1901 p.11. The longer Hebrew is retained provisionally; a different Vorlage or Greek abbreviation remains unresolved. In verse 13 Hebrew has with them and Swete with him; the source of the difference is unresolved. Entered in verse 14 is supplied from verse 13. Every wing is interpreted as every winged thing; every bird of every kind of wing is an alternative.
+
+Verse 16 distinguishes God commanding from YHWH closing. Shut him in interprets beʿado in context; behind him or for him are alternatives. The Hebrew does not specify a door, the ark as object, or an outside position. Swete explicitly has Lord God, the ark and outside him. Whether this reflects another Hebrew text or explanatory translation remains unresolved.
+
+In verse 17 pinned Hebrew and the inspected Leningrad consonants read forty days; Swete1901 p.11 reads forty days and forty nights. Rösel (1998) interprets this as harmonization with 7:12, which does not prove its origin. Hebrew without the added nights is retained provisionally, while the possibility of an earlier longer reading remains open. Rising waters and the ark rising are preserved; the end of the whole flood is not fixed. Modern apparatus, other Hebrew witnesses, full ancient-version collation and specialist review remain pending.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 7:1–12 (en), research pilot v0.4.30. https://yangs777.github.io/hansam-bible/en/genesis-7/
+Hansam Yang. Original Bible: Genesis 7:1–17 (en), research pilot v0.4.31. https://yangs777.github.io/hansam-bible/en/genesis-7/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
