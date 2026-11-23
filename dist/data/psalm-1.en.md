@@ -1,6 +1,6 @@
 # Psalm 1
 
-Hansam Yang · Original Bible · v0.4.29
+Hansam Yang · Original Bible · v0.4.30
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -135,6 +135,10 @@ Previous v0.4.27
 Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.
 
 Previous v0.4.28
+
+Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.
+
+Previous v0.4.29
 
 Happy is the person who does not walk by the counsel of the wicked, stand in the way of sinners, or sit in the seat of scoffers.
 
@@ -292,6 +296,10 @@ Previous v0.4.28
 
 Rather, his delight is in YHWH’s instruction, and he recites it day and night.
 
+Previous v0.4.29
+
+Rather, his delight is in YHWH’s instruction, and he recites it day and night.
+
 Previous v0.4.3
 
 Rather, his delight is in YHWH’s instruction, and he recites it day and night.
@@ -443,6 +451,10 @@ Previous v0.4.27
 He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
 
 Previous v0.4.28
+
+He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
+
+Previous v0.4.29
 
 He is like a tree planted beside channels of water, yielding its fruit in its season, its leaf not withering. Everything he does prospers.
 
@@ -600,6 +612,10 @@ Previous v0.4.28
 
 Not so the wicked! Rather, they are like chaff that the wind drives away.
 
+Previous v0.4.29
+
+Not so the wicked! Rather, they are like chaff that the wind drives away.
+
 Previous v0.4.3
 
 Not so the wicked! Rather, they are like chaff that the wind drives away.
@@ -751,6 +767,10 @@ Previous v0.4.27
 Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
 
 Previous v0.4.28
+
+Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
+
+Previous v0.4.29
 
 Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.
 
@@ -908,6 +928,10 @@ Previous v0.4.28
 
 For YHWH knows the way of the righteous, but the way of the wicked perishes.
 
+Previous v0.4.29
+
+For YHWH knows the way of the righteous, but the way of the wicked perishes.
+
 Previous v0.4.3
 
 For YHWH knows the way of the righteous, but the way of the wicked perishes.
@@ -946,7 +970,7 @@ In verse 6 the subject that perishes is ‘the way of the wicked’. Verse 3 is 
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/en/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (en), research pilot v0.4.30. https://yangs777.github.io/hansam-bible/en/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Genesis 1
 
-Hansam Yang · Original Bible · v0.4.29
+Hansam Yang · Original Bible · v0.4.30
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -133,6 +133,10 @@ Previous v0.4.27
 In the beginning, God created the heavens and the earth.
 
 Previous v0.4.28
+
+In the beginning, God created the heavens and the earth.
+
+Previous v0.4.29
 
 In the beginning, God created the heavens and the earth.
 
@@ -288,6 +292,10 @@ Previous v0.4.28
 
 The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.
 
+Previous v0.4.29
+
+The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.
+
 Previous v0.4.3
 
 The earth was unformed and empty, darkness lay over the surface of the deep, and a wind of God hovered over the surface of the waters.
@@ -440,6 +448,10 @@ Previous v0.4.28
 
 God said, “Let there be light.” And there was light.
 
+Previous v0.4.29
+
+God said, “Let there be light.” And there was light.
+
 Previous v0.4.3
 
 God said, “Let there be light.” And there was light.
@@ -586,6 +598,10 @@ Previous v0.4.28
 
 God saw that the light was good, and God separated the light from the darkness.
 
+Previous v0.4.29
+
+God saw that the light was good, and God separated the light from the darkness.
+
 Previous v0.4.3
 
 God saw that the light was good, and God separated the light from the darkness.
@@ -729,6 +745,10 @@ Previous v0.4.27
 God called the light Day, and the darkness he called Night. Evening came and morning came: one day.
 
 Previous v0.4.28
+
+God called the light Day, and the darkness he called Night. Evening came and morning came: one day.
+
+Previous v0.4.29
 
 God called the light Day, and the darkness he called Night. Evening came and morning came: one day.
 
@@ -884,6 +904,10 @@ Previous v0.4.28
 
 God said, “Let there be a vault amid the waters, and let it separate water from water.”
 
+Previous v0.4.29
+
+God said, “Let there be a vault amid the waters, and let it separate water from water.”
+
 Previous v0.4.3
 
 God said, “Let there be a vault amid the waters, and let it separate water from water.”
@@ -1027,6 +1051,10 @@ Previous v0.4.27
 God made the vault and separated the waters below it from the waters above it. And it was so.
 
 Previous v0.4.28
+
+God made the vault and separated the waters below it from the waters above it. And it was so.
+
+Previous v0.4.29
 
 God made the vault and separated the waters below it from the waters above it. And it was so.
 
@@ -1176,6 +1204,10 @@ Previous v0.4.28
 
 God called the vault Sky. Evening came and morning came: a second day.
 
+Previous v0.4.29
+
+God called the vault Sky. Evening came and morning came: a second day.
+
 Previous v0.4.3
 
 God called the vault Sky. Evening came and morning came: a second day.
@@ -1319,6 +1351,10 @@ Previous v0.4.27
 God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.
 
 Previous v0.4.28
+
+God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.
+
+Previous v0.4.29
 
 God said, “Let the waters beneath the sky gather into one place, and let the dry ground appear.” And it was so.
 
@@ -1468,6 +1504,10 @@ Previous v0.4.28
 
 God called the dry ground Land, and the gathering of the waters he called Seas. God saw that it was good.
 
+Previous v0.4.29
+
+God called the dry ground Land, and the gathering of the waters he called Seas. God saw that it was good.
+
 Previous v0.4.3
 
 God called the dry ground Land, and the gathering of the waters he called Seas. God saw that it was good.
@@ -1611,6 +1651,10 @@ Previous v0.4.27
 God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.
 
 Previous v0.4.28
+
+God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.
+
+Previous v0.4.29
 
 God said, “Let the earth sprout vegetation: plants bearing seed, and fruit trees bearing fruit according to their kinds, with seed in the fruit, on the earth.” And it was so.
 
@@ -1760,6 +1804,10 @@ Previous v0.4.28
 
 The earth brought forth vegetation: plants bearing seed according to their kinds, and trees bearing fruit with seed inside, according to their kinds. God saw that it was good.
 
+Previous v0.4.29
+
+The earth brought forth vegetation: plants bearing seed according to their kinds, and trees bearing fruit with seed inside, according to their kinds. God saw that it was good.
+
 Previous v0.4.3
 
 The earth brought forth vegetation: plants bearing seed according to their kinds, and trees bearing fruit with seed inside, according to their kinds. God saw that it was good.
@@ -1903,6 +1951,10 @@ Previous v0.4.27
 Evening came and morning came: a third day.
 
 Previous v0.4.28
+
+Evening came and morning came: a third day.
+
+Previous v0.4.29
 
 Evening came and morning came: a third day.
 
@@ -2052,6 +2104,10 @@ Previous v0.4.28
 
 God said, “Let there be lights in the vault of the sky to separate day from night, and let them mark signs, appointed times, days and years.
 
+Previous v0.4.29
+
+God said, “Let there be lights in the vault of the sky to separate day from night, and let them mark signs, appointed times, days and years.
+
 Previous v0.4.3
 
 God said, “Let there be lights in the vault of the sky to separate day from night, and let them mark signs, appointed times, days and years.
@@ -2195,6 +2251,10 @@ Previous v0.4.27
 Let them be lights in the vault of the sky to shine upon the earth.” And it was so.
 
 Previous v0.4.28
+
+Let them be lights in the vault of the sky to shine upon the earth.” And it was so.
+
+Previous v0.4.29
 
 Let them be lights in the vault of the sky to shine upon the earth.” And it was so.
 
@@ -2344,6 +2404,10 @@ Previous v0.4.28
 
 God made the two great lights: the greater light to rule the day and the lesser light to rule the night, and the stars as well.
 
+Previous v0.4.29
+
+God made the two great lights: the greater light to rule the day and the lesser light to rule the night, and the stars as well.
+
 Previous v0.4.3
 
 God made the two great lights: the greater light to rule the day and the lesser light to rule the night, and the stars as well.
@@ -2487,6 +2551,10 @@ Previous v0.4.27
 God placed them in the vault of the sky to shine upon the earth,
 
 Previous v0.4.28
+
+God placed them in the vault of the sky to shine upon the earth,
+
+Previous v0.4.29
 
 God placed them in the vault of the sky to shine upon the earth,
 
@@ -2636,6 +2704,10 @@ Previous v0.4.28
 
 to rule over day and night and to separate light from darkness. God saw that it was good.
 
+Previous v0.4.29
+
+to rule over day and night and to separate light from darkness. God saw that it was good.
+
 Previous v0.4.3
 
 to rule over day and night and to separate light from darkness. God saw that it was good.
@@ -2779,6 +2851,10 @@ Previous v0.4.27
 Evening came and morning came: a fourth day.
 
 Previous v0.4.28
+
+Evening came and morning came: a fourth day.
+
+Previous v0.4.29
 
 Evening came and morning came: a fourth day.
 
@@ -2928,6 +3004,10 @@ Previous v0.4.28
 
 God said, “Let the waters swarm with living creatures, and let winged creatures fly above the earth across the face of the vault of the sky.”
 
+Previous v0.4.29
+
+God said, “Let the waters swarm with living creatures, and let winged creatures fly above the earth across the face of the vault of the sky.”
+
 Previous v0.4.3
 
 God said, “Let the waters swarm with living creatures, and let winged creatures fly above the earth across the face of the vault of the sky.”
@@ -3071,6 +3151,10 @@ Previous v0.4.27
 God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.
 
 Previous v0.4.28
+
+God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.
+
+Previous v0.4.29
 
 God created the great sea creatures and every living creature that moves, with which the waters swarmed according to their kinds, and every winged creature according to its kind. God saw that it was good.
 
@@ -3220,6 +3304,10 @@ Previous v0.4.28
 
 God blessed them, saying, “Be fruitful and multiply; fill the waters in the seas, and let winged creatures multiply on the earth.”
 
+Previous v0.4.29
+
+God blessed them, saying, “Be fruitful and multiply; fill the waters in the seas, and let winged creatures multiply on the earth.”
+
 Previous v0.4.3
 
 God blessed them, saying, “Be fruitful and multiply; fill the waters in the seas, and let winged creatures multiply on the earth.”
@@ -3363,6 +3451,10 @@ Previous v0.4.27
 Evening came and morning came: a fifth day.
 
 Previous v0.4.28
+
+Evening came and morning came: a fifth day.
+
+Previous v0.4.29
 
 Evening came and morning came: a fifth day.
 
@@ -3512,6 +3604,10 @@ Previous v0.4.28
 
 God said, “Let the earth bring forth living creatures according to their kinds: livestock, creeping things and wild animals of the earth according to their kinds.” And it was so.
 
+Previous v0.4.29
+
+God said, “Let the earth bring forth living creatures according to their kinds: livestock, creeping things and wild animals of the earth according to their kinds.” And it was so.
+
 Previous v0.4.3
 
 God said, “Let the earth bring forth living creatures according to their kinds: livestock, creeping things and wild animals of the earth according to their kinds.” And it was so.
@@ -3655,6 +3751,10 @@ Previous v0.4.27
 God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.
 
 Previous v0.4.28
+
+God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.
+
+Previous v0.4.29
 
 God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and everything that creeps on the ground according to its kind. God saw that it was good.
 
@@ -3810,6 +3910,10 @@ Previous v0.4.28
 
 God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”
 
+Previous v0.4.29
+
+God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”
+
 Previous v0.4.3
 
 God said, “Let us make humankind in our image, according to our likeness, and let them rule over the fish of the sea, the winged creatures of the sky, the livestock, all the earth and every creeping thing that creeps on the earth.”
@@ -3959,6 +4063,10 @@ Previous v0.4.27
 God created humankind in his image; in the image of God he created him; male and female he created them.
 
 Previous v0.4.28
+
+God created humankind in his image; in the image of God he created him; male and female he created them.
+
+Previous v0.4.29
 
 God created humankind in his image; in the image of God he created him; male and female he created them.
 
@@ -4114,6 +4222,10 @@ Previous v0.4.28
 
 God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”
 
+Previous v0.4.29
+
+God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”
+
 Previous v0.4.3
 
 God blessed them, and God said to them, “Be fruitful and multiply; fill the earth and subdue it. Rule over the fish of the sea, the winged creatures of the sky and every living thing that moves on the earth.”
@@ -4257,6 +4369,10 @@ Previous v0.4.27
 God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.
 
 Previous v0.4.28
+
+God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.
+
+Previous v0.4.29
 
 God said, “Look, I have given you every plant bearing seed on the face of all the earth and every tree whose fruit bears seed. They shall be yours for food.
 
@@ -4406,6 +4522,10 @@ Previous v0.4.28
 
 And to every wild animal of the earth, every winged creature of the sky and everything that creeps on the earth, in which there is life, I have given every green plant for food.” And it was so.
 
+Previous v0.4.29
+
+And to every wild animal of the earth, every winged creature of the sky and everything that creeps on the earth, in which there is life, I have given every green plant for food.” And it was so.
+
 Previous v0.4.3
 
 And to every wild animal of the earth, every winged creature of the sky and everything that creeps on the earth, in which there is life, I have given every green plant for food.” And it was so.
@@ -4552,6 +4672,10 @@ Previous v0.4.28
 
 God saw everything he had made, and look: it was very good. Evening came and morning came: the sixth day.
 
+Previous v0.4.29
+
+God saw everything he had made, and look: it was very good. Evening came and morning came: the sixth day.
+
 Previous v0.4.3
 
 God saw everything he had made, and look: it was very good. Evening came and morning came: the sixth day.
@@ -4596,7 +4720,7 @@ A fresh translation of the displayed MT-WLC. Direct full-chapter collation of De
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 1:1–31 (en), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/en/genesis-1/
+Hansam Yang. Original Bible: Genesis 1:1–31 (en), research pilot v0.4.30. https://yangs777.github.io/hansam-bible/en/genesis-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

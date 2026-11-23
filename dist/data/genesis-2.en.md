@@ -1,6 +1,6 @@
 # Genesis 2:1–25
 
-Hansam Yang · Original Bible · v0.4.29
+Hansam Yang · Original Bible · v0.4.30
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -123,6 +123,10 @@ Previous v0.4.27
 Thus the heavens and the earth and all their host were completed.
 
 Previous v0.4.28
+
+Thus the heavens and the earth and all their host were completed.
+
+Previous v0.4.29
 
 Thus the heavens and the earth and all their host were completed.
 
@@ -274,6 +278,10 @@ Previous v0.4.28
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
 
+Previous v0.4.29
+
+On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
+
 Previous v0.4.3
 
 On the seventh day God finished the work he had done, and on the seventh day he ceased from all the work he had done.
@@ -419,6 +427,10 @@ Previous v0.4.27
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
 Previous v0.4.28
+
+God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
+
+Previous v0.4.29
 
 God blessed the seventh day and made it holy, because on it he ceased from all the work God had created and made.
 
@@ -570,6 +582,10 @@ Previous v0.4.28
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
 
+Previous v0.4.29
+
+This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
+
 Previous v0.4.3
 
 This is the account of the heavens and the earth when they were created. When Yahweh God made earth and heavens,
@@ -709,6 +725,10 @@ Previous v0.4.27
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
 Previous v0.4.28
+
+No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
+
+Previous v0.4.29
 
 No shrub of the field was yet on the earth, and no plant of the field had yet sprouted, because Yahweh God had not sent rain on the earth and there was no human to work the ground.
 
@@ -856,6 +876,10 @@ Previous v0.4.28
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
 
+Previous v0.4.29
+
+But a flow of water would rise from the earth and water the whole surface of the ground.
+
 Previous v0.4.3
 
 But a flow of water would rise from the earth and water the whole surface of the ground.
@@ -997,6 +1021,10 @@ Previous v0.4.27
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
 Previous v0.4.28
+
+Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
+
+Previous v0.4.29
 
 Yahweh God formed the human from dust of the ground and breathed into his nostrils the breath of life; and the human became a living being.
 
@@ -1144,6 +1172,10 @@ Previous v0.4.28
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
 
+Previous v0.4.29
+
+Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
+
 Previous v0.4.3
 
 Yahweh God planted a garden in Eden, in the east, and placed there the human whom he had formed.
@@ -1279,6 +1311,10 @@ Previous v0.4.27
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
 Previous v0.4.28
+
+Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
+
+Previous v0.4.29
 
 Yahweh God caused every tree pleasing to the sight and good for food to grow from the ground, including the tree of life in the midst of the garden and the tree of the knowledge of good and evil.
 
@@ -1420,6 +1456,10 @@ Previous v0.4.28
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
 
+Previous v0.4.29
+
+A river flowed out of Eden to water the garden; from there it divided into four branches.
+
 Previous v0.4.3
 
 A river flowed out of Eden to water the garden; from there it divided into four branches.
@@ -1551,6 +1591,10 @@ Previous v0.4.27
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
 Previous v0.4.28
+
+The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
+
+Previous v0.4.29
 
 The name of the first is Pishon; it flows around the whole land of Havilah, where there is gold.
 
@@ -1694,6 +1738,10 @@ Previous v0.4.28
 
 The gold of that land is good; bdellium and shoham stone are there.
 
+Previous v0.4.29
+
+The gold of that land is good; bdellium and shoham stone are there.
+
 Previous v0.4.3
 
 The gold of that land is good; bdellium and shoham stone are there.
@@ -1825,6 +1873,10 @@ Previous v0.4.27
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
 Previous v0.4.28
+
+The name of the second river is Gihon; it flows around the whole land of Cush.
+
+Previous v0.4.29
 
 The name of the second river is Gihon; it flows around the whole land of Cush.
 
@@ -1968,6 +2020,10 @@ Previous v0.4.28
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
 
+Previous v0.4.29
+
+The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
+
 Previous v0.4.3
 
 The name of the third river is Hiddekel; it flows east of Asshur. The fourth river is Perath.
@@ -2108,6 +2164,10 @@ Previous v0.4.28
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
 
+Previous v0.4.29
+
+Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
+
 Previous v0.4.3
 
 Yahweh God took the human and placed him in the garden of Eden to work it and keep it.
@@ -2235,6 +2295,10 @@ Previous v0.4.27
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
 Previous v0.4.28
+
+Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
+
+Previous v0.4.29
 
 Yahweh God commanded the human, saying, “You may freely eat from every tree of the garden;
 
@@ -2374,6 +2438,10 @@ Previous v0.4.28
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
 
+Previous v0.4.29
+
+but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
+
 Previous v0.4.3
 
 but you must not eat from the tree of the knowledge of good and evil, for on the day you eat from it you will surely die.”
@@ -2507,6 +2575,10 @@ Previous v0.4.27
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
 Previous v0.4.28
+
+Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
+
+Previous v0.4.29
 
 Yahweh God said, “It is not good for the human to be alone. I will make for him a helper corresponding to him.”
 
@@ -2646,6 +2718,10 @@ Previous v0.4.28
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
 
+Previous v0.4.29
+
+Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
+
 Previous v0.4.3
 
 Yahweh God formed from the ground every animal of the field and every bird of the heavens, and brought them to the human to see what he would call them. Whatever the human called each living creature, that was its name.
@@ -2773,6 +2849,10 @@ Previous v0.4.27
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
 Previous v0.4.28
+
+The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
+
+Previous v0.4.29
 
 The human gave names to all the livestock, to the birds of the heavens and to every animal of the field. But for the human no helper corresponding to him was found.
 
@@ -2912,6 +2992,10 @@ Previous v0.4.28
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
 
+Previous v0.4.29
+
+YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
+
 Previous v0.4.4
 
 YHWH God caused a deep sleep to fall upon the human, and he slept. He took one of his ribs and closed up its place with flesh.
@@ -3044,6 +3128,10 @@ Previous v0.4.28
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
 
+Previous v0.4.29
+
+YHWH God built the rib he had taken from the human into a woman and brought her to the human.
+
 Previous v0.4.4
 
 YHWH God built the rib he had taken from the human into a woman and brought her to the human.
@@ -3167,6 +3255,10 @@ Previous v0.4.27
 The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
 Previous v0.4.28
+
+The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
+
+Previous v0.4.29
 
 The human said, “This time, bone from my bones and flesh from my flesh! This one shall be called woman, for from man this one was taken.”
 
@@ -3302,6 +3394,10 @@ Previous v0.4.28
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
 
+Previous v0.4.29
+
+Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
+
 Previous v0.4.4
 
 Therefore a man leaves his father and his mother and holds fast to his wife, and they become one flesh.
@@ -3428,6 +3524,10 @@ Previous v0.4.28
 
 The human and his wife were both naked, but they were not ashamed.
 
+Previous v0.4.29
+
+The human and his wife were both naked, but they were not ashamed.
+
 Previous v0.4.4
 
 The human and his wife were both naked, but they were not ashamed.
@@ -3490,7 +3590,7 @@ Verse 25 renders absence of shame without adding an explicit toward one another.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/en/genesis-2/
+Hansam Yang. Original Bible: Genesis 2:1–25 (en), research pilot v0.4.30. https://yangs777.github.io/hansam-bible/en/genesis-2/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

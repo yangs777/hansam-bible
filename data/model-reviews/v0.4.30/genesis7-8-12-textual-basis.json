@@ -1,0 +1,121 @@
+{
+  "recorded_at": "2026-11-23T15:04:34.060659+00:00",
+  "scope": [
+    "Gen.7.8",
+    "Gen.7.9",
+    "Gen.7.10",
+    "Gen.7.11",
+    "Gen.7.12"
+  ],
+  "status": "독립제안·실제최종비교·난구검토 후 고정WLC 잠정선택",
+  "baseline": {
+    "kind": "WLC 학술 전자전사 및 OSHB 형태주석, 사본 자체·최초원문 확정 아님",
+    "version": "WLC4.20; morphology2018.12.14",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0"
+    },
+    "header_verification_ko": "이번 실행에서 고정 XML 및 절별 원문 SHA256 재확인. 버전·권리는 동일해시 헤더의 기존 검증을 재사용."
+  },
+  "source_fragments": [
+    {
+      "id": "Gen.7.8",
+      "fragment_sha256": "cc6f0dc8ea08b9a9f60d40da0226c4d05dcd8a507f77f48fb1d3acc813a25811"
+    },
+    {
+      "id": "Gen.7.9",
+      "fragment_sha256": "6d43ce087baa00faf055ed6153685d8e2dc5f7e9e4993a0b5ae928318943bffa"
+    },
+    {
+      "id": "Gen.7.10",
+      "fragment_sha256": "97db9568bbabf4f41facf72ab7076e90e43998af55d4c6c992c06826a458530d"
+    },
+    {
+      "id": "Gen.7.11",
+      "fragment_sha256": "b37bfd40e5ffed3c6b9f1a36b70980d9d46cc100817736b0d0f8ec4ac3c172fc"
+    },
+    {
+      "id": "Gen.7.12",
+      "fragment_sha256": "13e9e528a68ca58040e97bd860c5702f126068bc80fecb4ef135937041fc8c08"
+    }
+  ],
+  "verified_ko": "기존 검증과 동일한 고정 XML의 SHA256·권리·원문·형태주석 확인. WLC 전자전사와 OSHB 형태주석을 구별. 전자는 최초원문 확정 증거가 아님.",
+  "questions_pending_ko": [
+    "7:8–9 열거의 문장 연결·둘씩의 분배와 총수 구별",
+    "7:10 일곱날의 시간관계",
+    "7:11 날짜·큰 깊음의 샘·하늘의 창 및 관련 의미변경 이문 확인",
+    "7:12 두 사십과 홍수 전체기간 구별"
+  ],
+  "selected_reading_ko": "WLC를 방어 가능한 잠정 직접입력으로 유지하되 7:8 긴 그리스어와 7:11 날짜차이·큰 생략을 공개. 가장 이른 복원원문 확정이 아님.",
+  "strongest_objection_ko": "그리스어가 다른 초기 히브리어를 반영할 가능성 및 그리스어/마소라 양쪽의 조화적 수정 가능성이 남는다. WLC와 그 저본사본의 일치는 독립 복수증인 합의가 아니다.",
+  "access_gaps_ko": "BHS/BHQ·괴팅겐 현대비평장치, 사마리아오경·4Q252 및 관련 사해문서 원사진/편집전사·시리아어·타르굼·라틴어 미열람. 4Q252는 성경정본 사본과 구별해야 하며 이번 직접검증하지 않음. Swete 하단 약호 전면해독·그리스어 고대사본 직접대조·레닌그라드 전문자대조 미완료. 웹 PDF 특정 후속요청의 시간초과를 원문판독 증거로 사용하지 않음.",
+  "model_final_opinions_ko": "실제 GPT·Gemini 최종의견·반론 5절 보존. 인간전문가 검수 대기.",
+  "inspected_evidence": [
+    {
+      "kind": "고대 그리스어 번역의 근대 학술인쇄판 스캔; 고대사본 자체 아님",
+      "title": "Swete, The Old Testament in Greek, vol.I (1901), printed p.11",
+      "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n42/mode/1up",
+      "sha256": "38cb6353769ba317cc6523e47710d807d48b41854ed940b2457556c8865d6e76",
+      "pdf_sha256": "dd1c57336905bdc66ec5bd101c5e6085489dad300460caa4947e9ed3fff0b57f",
+      "rights": "1901 인쇄판 공공영역; Internet Archive / University of Toronto 스캔",
+      "method_ko": "이번 직접 인쇄11쪽 스캔을 열어 7:8–12 주본문과 하단장치를 읽음. 7:11은 ἑβδόμῃ καὶ εἰκάδι로 27일, 큰 깊음의 큰/רבה에 해당하는 단어는 주본문에 없음. 장치에 11 관련 여러 읽기가 있으나 약호·전승귀속 전면검증은 하지 않음."
+    },
+    {
+      "kind": "레닌그라드 사본 4v 사진; WLC 저본계열이므로 독립증인 수에 추가하지 않음",
+      "title": "Leningrad Codex, 4v / 004b",
+      "url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F004B.jpg",
+      "sha256": "58d0675924b327df7bb1549563dcaf0abec7931b569b163e6a9871575d1667db",
+      "rights": "동일해시 자료의 기존 Commons PD-Mark/PD-Art 확인 재사용. Bruce Zuckerman / West Semitic Research / ABMC / Russian National Library, Sefaria 제공.",
+      "mapping_basis": "기존 Sefaria 공식 색인 Genesis 6:19–7:23 재사용; 이번 새 조회 아님.",
+      "method_ko": "이번 전체면을 직접 읽고 가운데 열 7:8–12의 핵심 자음어구를 한정확인: 정결짐승 열거, שנים שנים, שבעת הימים, שש מאות שנה, בחדש השני בשבעה עשר יום לחדש, כל מעינת תהום רבה, וארבת השמים נפתחו, ארבעים יום וארבעים לילה. 모든 모음·악센트·마소라·덧칠 전문자 대조 아님. WLC 저본계열로 독립증인 수에 중복계상하지 않음."
+    }
+  ],
+  "variant_questions": [
+    {
+      "verse": "Gen.7.8",
+      "question_ko": "정결구분·새 열거와 9절로 이어지는 מן 구문",
+      "observed_ko": "고정WLC에는 새의 정결구분 없음. Swete11쪽에는 정결한 새와 부정결한 새를 나누는 긴 열거가 보임.",
+      "selected_ko": "WLC의 짧은 새 열거를 유지하고 9절과 연결. 다른 절과 수량조화하지 않음.",
+      "strongest_objection_ko": "그리스어 긴 열거가 다른 히브리어 저본인지 조화적 확대인지 확정 못함. 더 짧다는 이유만으로 원형이라 단정하지 않음."
+    },
+    {
+      "verse": "Gen.7.9",
+      "question_ko": "둘씩·두 방향·암수·하나님",
+      "observed_ko": "WLC와 Swete에 둘씩·노아에게·방주로·암수·하나님 명령 있음.",
+      "selected_ko": "두 방향과 분배를 보존. 총수 확정은 하지 않음.",
+      "strongest_objection_ko": "한국어 들어갔다는 방향구를 자연스럽게 푼 표현이며 총두마리라는 뜻은 아님."
+    },
+    {
+      "verse": "Gen.7.10",
+      "question_ko": "일곱날 시점",
+      "observed_ko": "WLC לשבעת הימים, Swete μετὰ τὰς ἑπτὰ ἡμέρας.",
+      "selected_ko": "그 이레가 지나자로 앞 일곱날과 호응. 있었다로 상태동사를 유지.",
+      "strongest_objection_ko": "이레째/이레후의 시점 뉘앙스는 논쟁 가능. 번역표현만으로 시간표를 확정하지 않음."
+    },
+    {
+      "verse": "Gen.7.11",
+      "question_ko": "17일/27일, 큰깊음과 하늘창",
+      "observed_ko": "WLC와 레닌그라드 사진 핵심자음은 17일. Swete1901 인쇄11쪽 주본문은 27일. 큰 깊음의 큰에 해당하는 말은 그리스어 주본문에 없음.",
+      "selected_ko": "직접 히브리어 입력의 17일·큰깊음 유지. 그리스어 27일을 공개 대안으로 보존. 달력·홍수총기간 조화로 교정하지 않음.",
+      "strongest_objection_ko": "그리스어가 더 이른 히브리어 숫자를 반영할 가능성을 배제 못함. 17일이 더 오래되었다고 판정한 것이 아님. Swete는 고대사본 자체가 아니고 현대장치 미열람.",
+      "reason_ko": "재현 가능한 히브리어 저본의 직접 읽기를 대체할 독립 히브리어 원문이 이번 확정되지 않았음. 두 전승의 연대조화 가능성도 추정으로 구별하고 WLC 잠정선택을 유지."
+    },
+    {
+      "verse": "Gen.7.12",
+      "question_ko": "비와 두 사십·강도",
+      "observed_ko": "WLC·Swete 모두 비와 사십낮·사십밤.",
+      "selected_ko": "일반 비로 옮기고 두 사십 유지.",
+      "strongest_objection_ko": "גשם이 언제나 מטר와 배타적인 폭우 대립이라는 Gemini 초기 설명은 근거 미확인으로 채택하지 않음. 홍수전체기간과 강우기간을 혼동하지 않음."
+    }
+  ],
+  "scholarly_context": {
+    "title": "J.T.A.G.M. van Ruiten, The Interpretation of the Flood Story in the Book of Jubilees (1998), p.68의 비교 문단",
+    "url": "https://pure.rug.nl/ws/files/10747468/1998_-_Flood_Story.pdf",
+    "inspected_ko": "대학의 출판본 PDF 웹추출 중 서론 및 홍수 연대 비교 문단 확인. MT의 시작17일과 LXX의 시작27일·희년서의 연대조정 논의를 구별함. 해석논문으로 고대증인 원문검증을 대신하지 않음. 뒤쪽 특정 대목 추가요청은 도구 시간초과.",
+    "rights_ko": "저작권 보유 논문. 전문공개·전재하지 않고 요약과 링크만 보존."
+  },
+  "defensibility_ko": "17일/27일을 숨기지 않고 두 전승을 분리. 히브리어 저본 변경을 강제할 증거는 이번 확보되지 않아 WLC의 잠정 읽을 수 있는 번역으로 진행. 전문가·장치검토시 새로운 판본으로 재심사. 모델합의를 증인증거로 세지 않음."
+}

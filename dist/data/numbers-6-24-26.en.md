@@ -1,6 +1,6 @@
 # Numbers 6:24–26
 
-Hansam Yang · Original Bible · v0.4.29
+Hansam Yang · Original Bible · v0.4.30
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -135,6 +135,10 @@ Previous v0.4.27
 May YHWH bless you and guard you.
 
 Previous v0.4.28
+
+May YHWH bless you and guard you.
+
+Previous v0.4.29
 
 May YHWH bless you and guard you.
 
@@ -292,6 +296,10 @@ Previous v0.4.28
 
 May YHWH make his face shine toward you and be gracious to you.
 
+Previous v0.4.29
+
+May YHWH make his face shine toward you and be gracious to you.
+
 Previous v0.4.3
 
 May YHWH make his face shine toward you and be gracious to you.
@@ -446,6 +454,10 @@ Previous v0.4.28
 
 May YHWH lift his face toward you and give you peace.
 
+Previous v0.4.29
+
+May YHWH lift his face toward you and give you peace.
+
 Previous v0.4.3
 
 May YHWH lift his face toward you and give you peace.
@@ -484,7 +496,7 @@ Comparison with inscriptions such as Ketef Hinnom awaits a separate evidence rev
 
 ## Citation
 
-Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.29. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/
+Hansam Yang. Original Bible: Numbers 6:24–26 (en), research pilot v0.4.30. https://yangs777.github.io/hansam-bible/en/numbers-6-24-26/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
