@@ -1,0 +1,97 @@
+{
+  "gpt_initial": [
+    {
+      "id": "Gen.7.18",
+      "translations": {
+        "ko": "물이 세차게 불어나 땅 위에 크게 늘어났고, 방주는 물 위를 떠다녔다.",
+        "en": "The waters grew strong and increased greatly upon the earth, and the ark moved over the surface of the waters.",
+        "es": "Las aguas cobraron fuerza y aumentaron mucho sobre la tierra, y el arca se movía sobre la superficie de las aguas."
+      },
+      "reason_ko": "גבר와 רבה 두 동사를 세력 증가와 양의 증가로 구별하고 매우를 보존한다. ותלך는 방주의 이동이며 물 표면이라는 공간관계를 보존한다.",
+      "strongest_objection_ko": "세차게는 물살 속도로 오해될 수 있고 떠다녔다는 הלך의 일반 이동을 부유 문맥으로 구체화한다. 세력이 커졌고/움직였다 대안이 있다.",
+      "final_opinion_ko": "물의 위세와 큰 증가·방주의 수면 이동을 유지하는 초기안. 방향·항해·현대 수문학을 추가하지 않는다."
+    },
+    {
+      "id": "Gen.7.19",
+      "translations": {
+        "ko": "물이 땅 위에서 매우 크게 세력을 더하여, 온 하늘 아래의 높은 산들이 모두 덮였다.",
+        "en": "The waters prevailed exceedingly upon the earth, and all the high mountains under the whole heaven were covered.",
+        "es": "Las aguas prevalecieron sobremanera sobre la tierra, y quedaron cubiertas todas las montañas altas que había bajo todo el cielo."
+      },
+      "reason_ko": "물이 먼저 제시되는 구문과 גבר 완료, 매우매우의 강한 강조·모든 높은산·온하늘 아래·덮임 수동을 보존.",
+      "strongest_objection_ko": "매우 크게는 반복의 음성효과를 줄이며 온하늘의 총괄표현을 현대 지구전역 지형의 기술로 확정할 수 없다. 지역범위로 축소할 근거도 이절 자체에는 없다.",
+      "final_opinion_ko": "총괄표현을 그대로 옮기고 홍수 범위의 현대 지리학적 판정은 유보하는 초기안."
+    }
+  ],
+  "gpt_final": [
+    {
+      "id": "Gen.7.18",
+      "verdict": "잠정채택권고",
+      "reason_ko": "고정원문 두동사와 매우·수면 이동을 보존. 독립초기의 세차게를 물의 세력이 커지고로 수정하여 물살속도 오해를 줄였다. Gemini와 과거Claude의 떠다님 대안을 비교하되 일반이동을 본문에 남긴다. Swete의 부유표현은 번역상 차이이며 다른 히브리어 저본의 증거로 확정하지 않는다.",
+      "strongest_objection_ko": "움직여 갔다는 능동조종으로 오해 가능하고 떠다녔다가 문맥상 더 자연스럽다. 세력 표현도 추상적이다. 다만 방향·추진기·속도·항해주체를 추가하지 않았으며 공간관계를 유지한다.",
+      "final_opinion_ko": "세력 증가·큰 불어남·방주의 수면 이동으로 잠정채택 권고. 떠다님은 유효한 대안으로 보존. 모델의 조타장치 부재 주장은 미검증이므로 채택근거에서 배제."
+    },
+    {
+      "id": "Gen.7.19",
+      "verdict": "잠정채택권고",
+      "reason_ko": "매우매우는 매우 크게/exceedingly/sobremanera로 자연화하고 높은산 모두·온하늘 아래·덮임 수동을 유지한다. Swete의 강조 한개 및 온하늘의 כל에 대응어 없는 표현과 구별. 긴 히브리어의 원형성은 미확정이나 대체저본을 선택할 충분한 근거가 없어 고정WLC 잠정유지.",
+      "strongest_objection_ko": "반복 음성효과는 세언어 자연화에서 줄어들며 그리스어의 짧은표현이 더이른 저본일 가능성을 배제 못한다. 총괄언어를 현대지구전역으로 확정하거나 관측지역으로 축소하는 해석은 이절만으로 판정하지 못한다.",
+      "final_opinion_ko": "현대 지리범위 판정 없이 강조·두총괄표현·수동을 남긴 잠정채택 권고. 본문 선택의 불확실성과 현대장치 접근공백·인간전문가 검수대기를 공개한다."
+    }
+  ],
+  "gpt_resolution_ko": "실제 Gemini 초기의 원문호격은 용어오류이고 최종응답의 그리스어·한글 혼입 ἐπεφέ레토는 원어자료로 사용하지 않음. 원응답은 그대로 보존하고 원문은 고정XML 및 직접본 스캔에서만 취한다. 모델이 사진을 직접봤다고 주장하지 않음.",
+  "gemini_initial": "주인님, 요청하신 창세기 7:18–19 두 절에 대한 독립 번역 및 난구 검토 완결 JSON 초기안입니다. 본 작업은 외부 도구·웹·사본 대조 없이 제시된 고정 본문 및 형태 주석만을 바탕으로 작성된 미채택 초기 연구안입니다.\n\n```json\n{\n  \"verses\": [\n    {\n      \"id\": \"Gen.7.18\",\n      \"translations\": {\n        \"ko\": \"물이 불어나 땅 위에 심히 많아지매, 방주가 물 표면 위를 나아갔다.\",\n        \"en\": \"And the waters prevailed and increased greatly upon the earth, and the ark moved upon the face of the waters.\",\n        \"es\": \"Y las aguas prevalecieron y crecieron en gran manera sobre la tierra, y el arca se desplazaba sobre la faz de las aguas.\"\n      },\n      \"reason_ko\": \"동사 '가바르'(גָּבַר, 세력을 얻다/강해지다)와 '라바'(רָבָה, 많아지다/증가하다)의 연속 와우연속법을 '물이 불어나 심히 많아지매'로 원문 호격에 맞춰 직역함. 방주의 동작을 나타내는 '바텔레크'(וַתֵּלֶךְ, 칼 완료형 의미의 미완료 연속)는 '가다/걷다/나아가다'의 기본 의미이므로, 동력 항해나 조종 기술을 뜻하는 근대 해양 용어(항해하다, 운항하다)를 배제하고 물 표면을 따라 움직인 물리적 이동 자체를 담백하게 기술함.\",\n      \"strongest_objection_ko\": \"'할라크'(הָלַךְ)는 사람이 걷는 동작이 기본이므로 부유물인 방주에 대해 '떠다녔다'나 '표류했다'로 번역해야 자연스럽다는 반론이 있을 수 있음. 그러나 '떠돌다(표류)'는 방향 상실이나 무력함이라는 뉘앙스를 자의적으로 덧붙일 수 있고 원문은 단순 이동 동사를 썼으므로 과도한 의미 부가 위험이 있음.\",\n      \"final_opinion_ko\": \"항해 조종 기술이나 무작위 표류라는 현대적·해석적 수식을 배제하고, 수면 위를 따라 이동한 본문의 직서적 표현('나아갔다' 혹은 '움직여 갔다')을 유지하는 것이 가장 보존적임.\"\n    },\n    {\n      \"id\": \"Gen.7.19\",\n      \"translations\": {\n        \"ko\": \"그리고 물이 땅 위에 심히 넘치도록 강해지니, 온 하늘 아래 있는 모든 높은 산들이 덮였다.\",\n        \"en\": \"And the waters prevailed exceedingly upon the earth, and all the high mountains under the whole heaven were covered.\",\n        \"es\": \"Y las aguas prevalecieron sobremanera sobre la tierra, y todos los montes altos que estaban debajo de todos los cielos fueron cubiertos.\"\n      },\n      \"reason_ko\": \"'메오드 메오드'(מְאֹד מְאֹד)의 반복 강조 구조를 살려 강세의 중첩을 드러냄. '바예쿠수'(וַיְכֻסּוּ)는 푸알(Pual) 수동태이므로 '물이 덮었다'는 능동보다 '덮였다'는 피동 구성을 엄밀히 반영함. '온 하늘 아래 모든 높은 산'(כָּל־הֶהָרִים הַגְּבֹהִים אֲשֶׁר־תַּחַת כָּל־הַשָּׁמָיִם)은 본문의 보편적 어휘 구조('콜'의 반복)를 가감 없이 옮김.\",\n      \"strongest_objection_ko\": \"현대 지질학적·지구과학적 관점에서 지구 전체의 최고봉들(에베레스트 등)의 완전 수몰을 전제하는 번역인지, 아니면 고대 화자의 관측 가능한 '온 지평/하늘 아래'를 뜻하는 국지적 서술인지 명확히 구별해 주어야 한다는 이의가 제기될 수 있음.\",\n      \"final_opinion_ko\": \"성경 본문 번역은 현대 지질학적 논쟁이나 특정 지리적 경계 확정을 본문에 주입해서는 안 되며, 원문이 구사한 고대 히브리어의 직관적 시야 및 절대적 표현 방식을 있는 그대로 충실히 전달해야 함.\"\n    }\n  ],\n  \"access_gaps_ko\": \"본 작업은 제시된 WLC 본문과 OSHB 형태소 분석 토큰만을 바탕으로 한 1차 독립 분석안입니다. 사마리아 오경, 사해문서(4QGen 등), 70인역(LXX), 타르굼, 불가타 등 고대 주요 역본 및 비평 장치(BHS/BHQ Apparatus) 실물 대조를 거치지 못했으므로, 이는 최종 채택 번역이 아닌 검토용 초기안입니다.\"\n}\n```\n",
+  "gemini_initial_other_attempt": "주인님, 요청하신 창세기 7:18–19에 대한 독립 번역 및 난구 검토 초기안입니다. 외부 도구·웹·명령·파일 접근 없이 제공된 고정 원문(WLC)과 형태주석(OSHB)만을 토대로 구성하였으며, 사본·현대장치·고대역본 미열람 상태의 연구용 초기안(채택 완료 아님)입니다.\n\n```json\n{\n  \"verses\": [\n    {\n      \"id\": \"Gen.7.18\",\n      \"translations\": {\n        \"ko\": \"물이 불어나 땅 위에 심히 많아지매, 방주가 물 표면 위를 떠다녔다.\",\n        \"en\": \"And the waters prevailed and increased greatly upon the earth, and the ark moved upon the face of the waters.\",\n        \"es\": \"Y las aguas prevalecieron y crecieron en gran manera sobre la tierra, y el arca andaba sobre la faz de las aguas.\"\n      },\n      \"reason_ko\": \"וַיִּגְבְּרוּ(gabar, 세력을 얻다/불어나다)와 וַיִּרְבּוּ(rabah, 수량적 증가) 및 מְאֹד(심히/크게)의 결합을 살렸습니다. וַתֵּלֶךְ(halak)은 키·돛 같은 인간의 항해 조타 기술 개념을 덧붙이지 않고 수면 위를 '가다/떠다니다'로 직관적 이동 상태만 보존했습니다.\",\n      \"strongest_objection_ko\": \"וַתֵּלֶךְ를 '떠다녔다'로 의역하면 '물길을 가다(proceed/walk)'라는 동사의 기본 역동성이 희석되고, 반대로 '항해했다'고 번역하면 원문에 없는 주도적 조타 기술이 부당하게 추가된다는 반론이 가능합니다.\",\n      \"final_opinion_ko\": \"방주는 조타 장치가 없는 상자형 구조체이므로 וַתֵּלֶךְ는 물리적 수면 이동 현상 자체로 제한 번역하는 것이 안전하며, 물의 세력화와 증가를 점층적으로 유지하는 역동 번역이 적합합니다.\"\n    },\n    {\n      \"id\": \"Gen.7.19\",\n      \"translations\": {\n        \"ko\": \"물이 땅 위에 더욱더 불어나니, 온 하늘 아래의 모든 높은 산들이 덮였다.\",\n        \"en\": \"And the waters prevailed exceedingly upon the earth, so that all the high mountains under the whole heaven were covered.\",\n        \"es\": \"Y las aguas prevalecieron sobremanera sobre la tierra, y todos los montes altos que había debajo de todos los cielos fueron cubiertos.\"\n      },\n      \"reason_ko\": \"מְאֹד מְאֹד의 첩어 반복을 '더욱더/심히 심히'로 강조했고, וַיְכֻסּוּ는 푸알(Pual 수동) 미완료 연속법이므로 물이 주어가 되어 '덮었다'가 아니라 '모든 높은 산들이 덮였다'라는 피동 구조를 엄밀히 반영했습니다. כָּל(모든)의 연속 출현을 훼손 없이 직역했습니다.\",\n      \"strongest_objection_ko\": \"כָּל־הֶהָרִים... תַּחַת כָּל־הַשָּׁמָיִם(온 하늘 아래 모든 산)을 현대 지질학적 전구(global) 개념으로 확정하거나 반대로 국지적 현상으로 축소 한정하려는 유혹이 있으나, 본문 자체의 시각적·보편적 수사 표현을 넘어서는 어휘를 가미해서는 안 됩니다.\",\n      \"final_opinion_ko\": \"현대 과학·지리적 논쟁(전 지구적 vs 국지적 홍수 범위)을 본문 번역에 투영하지 않고, 히브리어 텍스트가 서술하는 경관적 전포괄성과 푸알 수동태(덮임)의 본래 형태를 그대로 노출하는 번역을 채택합니다.\"\n    }\n  ],\n  \"access_gaps_ko\": \"본 작업은 제공된 WLC 본문 및 OSHB 형태주석 외에 4QGen 등 사해사본, 사마리아 오경, 칠십인역(LXX), 타르굼, 불게이트 등 고대 역본 실물 대조를 수행하지 않았으며, BHS/BHQ 비평장치 및 마소라 마진 주기 역시 열람하지 않은 단독 원문 기준 초기안입니다.\"\n}\n```\n",
+  "gemini_final": "주인님, 창세기 7:18–19 두 절에 대한 최종 비교 및 난구 검토 의견입니다.\n\n```json\n{\n  \"opinions\": [\n    {\n      \"id\": \"Gen.7.18\",\n      \"verdict\": \"잠정채택권고\",\n      \"reason_ko\": \"히브리어 동사 '가바르'(גָּבַר, 세력 강화)와 '라바'(רָבָה, 양적 증가)를 구별하고 '메오드'(מְאֹד, 크게)를 충실히 반영함. 방주의 동작을 나타내는 '바텔레크'(וַתֵּלֶךְ)는 일반 이동 동사이므로, 물살 속도나 자력 항해·조타 기술과 같은 본문 외적 가정을 추가하지 않음. 그리스어 번역 전통(ἐπεφέ레토 계열의 부유 표현)과의 차이를 인지하되, '물 위를 움직여 갔다'는 표현은 원문의 일반 이동성과 수면 위 공간 관계를 담백하게 보존함. (초기 메모의 '원문호격' 언급은 형태 용어 오용이었으며 본 평가 근거에서 완전히 배제함)\",\n      \"strongest_objection_ko\": \"'움직여 갔다'는 표현이 동력이나 목적 의식을 가진 자력 항해로 오해될 수 있어, 무동력 부유체 문맥에 맞추어 '떠다녔다'로 번역하는 것이 한국어 표현상 더 자연스럽다는 유력한 이견이 있음.\",\n      \"final_opinion_ko\": \"방주의 자력 조종이나 특정 수문학적 물살 가정을 덧붙이지 않고, 히브리어 본문의 일반 이동 서술을 살린 '방주는 물 위를 움직여 갔다'를 잠정 채택안으로 권고함.\"\n    },\n    {\n      \"id\": \"Gen.7.19\",\n      \"verdict\": \"잠정채택권고\",\n      \"reason_ko\": \"'메오드 메오드'(מְאֹד מְאֹד)의 반복 강세와 두 번 사용된 총괄어 '콜'(כָּל: 모든 높은 산, 온 하늘 아래), 그리고 푸알 수동태 '바예쿠수'(וַיְכֻסּוּ, 덮였다)를 원문 구조대로 보존함. 그리스어 인쇄판(Swete 1901 편집자 열람 기록)에서 강조 부사가 1회(σφοδρῶς)로 축약되고 두 번째 '콜'에 해당하는 단어가 생략된 형태와 구별하여, 히브리어 마소라 본문의 고유한 이중 강조와 총괄 구조를 훼손 없이 전달함.\",\n      \"strongest_objection_ko\": \"이중 강조('매우 크게' 등)와 '온 하늘 아래의 모든 높은 산'이라는 총괄 표현을 직역할 경우, 현대 독자에게 지구과학적·지리적 전지구적 수몰 논쟁을 본문 해석으로 강제하는 듯한 인상을 줄 수 있다는 반론이 제기될 수 있음.\",\n      \"final_opinion_ko\": \"현대 지질학적 지리 범위(국지성 대 지구 전체)를 번역 본문 안에서 자의적으로 규정하거나 축소·확정하지 않고, 본문의 총괄적·현상학적 서술을 온전히 남기는 잠정 채택안을 권고함.\"\n    }\n  ],\n  \"batch_final_opinion_ko\": \"두 절 모두 물살 속도나 항해 기술, 또는 현대 과학적 지리 범위를 본문에 덧붙이지 않고 원문의 동사 의미 및 총괄적 수동 구문을 충실히 살린 잠정안입니다. 이전 시도의 '원문호격' 형태 용어 오류 및 조타 장치 부재에 관한 외부 사실 주장은 모두 배제하였으며, 아직 새 판본으로 확정·채택되지 않은 잠정 권고 상태입니다.\",\n  \"access_gaps_ko\": \"레닌그라드 사본 4v 사진 및 Swete 1901 스캔 등은 편집자만 직접 열람한 기록이며, 본 AI가 해당 사본 사진이나 스캔을 직접 열람·대조한 것이 아닙니다. 또한 BHS/BHQ 비평장치, 사해문서(4QGen 등) 원문 사진, 사마리아 오경, 타르굼, 불가타 원전 등에 대한 포괄적 독립 대조가 결여되어 있으므로 채택 완료가 아닌 잠정 검토안으로 유지합니다.\"\n}\n```\n",
+  "claude_existing": [
+    {
+      "id": "Gen.7.18",
+      "translations": {
+        "ko": "물이 거세게 불어나 땅 위에 크게 많아지자 방주는 물 위로 떠다녔다.",
+        "en": "The waters prevailed and increased greatly on the earth, and the ark floated on the face of the waters.",
+        "es": "Las aguas se hicieron fuertes y crecieron mucho sobre la tierra, y el arca flotaba sobre la superficie de las aguas."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.18",
+      "source_hebrew": "וַיִּגְבְּר֥וּ הַמַּ֛יִם וַיִּרְבּ֥וּ מְאֹ֖ד עַל־הָאָ֑רֶץ וַתֵּ֥לֶךְ הַתֵּבָ֖ה עַל־פְּנֵ֥י הַמָּֽיִם׃",
+      "source_hebrew_sha256": "33efc3146002e94d540ef5dac7fd3ad80a3ff31f5f1d37275157f6d00f58f383",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    },
+    {
+      "id": "Gen.7.19",
+      "translations": {
+        "ko": "물이 땅 위에 몹시 거세어져 온 하늘 아래의 모든 높은 산이 덮였다.",
+        "en": "The waters prevailed so mightily on the earth that all the high mountains under the whole heaven were covered.",
+        "es": "Las aguas se hicieron muy, muy fuertes sobre la tierra, y fueron cubiertos todos los montes altos que hay debajo de todo el cielo."
+      },
+      "basis": "MT-WLC display as pinned in the source packet (OSHB morphhb commit 3d15126fb1ef74867fc1434be1942e837932691f); no independent manuscript collation performed in this run",
+      "reason_ko": "MT 표기를 직역 위주로 옮기고 연결된 절을 보존했다. 이 절에서 특별히 두드러진 이견은 초안 작성 모델이 식별하지 못했다.",
+      "counterargument_ko": "이 절에 대해 초안 작성 모델이 식별한 구체적 반론은 없다. 이는 반론이 없다는 뜻이 아니라 독립 검토가 필요하다는 뜻이다.",
+      "current_opinion_ko": "현재 번역을 잠정안으로 둔다.",
+      "reconsider_if_ko": "GPT/Gemini 독립 검토나 사본·역본 대조에서 다른 읽기가 확인될 경우.",
+      "source_reference": "Gen.7.19",
+      "source_hebrew": "וְהַמַּ֗יִם גָּֽבְר֛וּ מְאֹ֥ד מְאֹ֖ד עַל־הָאָ֑רֶץ וַיְכֻסּ֗וּ כָּל־הֶֽהָרִים֙ הַגְּבֹהִ֔ים אֲשֶׁר־תַּ֖חַת כָּל־הַשָּׁמָֽיִם׃",
+      "source_hebrew_sha256": "5cfce3ef6de1b29936fc50314ef9be5708e2f4cf3d3b835bce34ed796bcad1ee",
+      "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "rights": {
+        "text": "WLC public domain",
+        "morphology": "Open Scriptures Hebrew Bible CC BY 4.0",
+        "credit": "https://github.com/openscriptures/morphhb"
+      }
+    }
+  ],
+  "scope_ko": "동일두절 실제응답 그대로보존. 모델해석·편집자열람 구별. 계정·크레딧·사용량 제외."
+}
