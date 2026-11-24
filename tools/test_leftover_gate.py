@@ -34,7 +34,9 @@ class LeftoverGateTests(unittest.TestCase):
         self.assertTrue(self.go(self.snap(82, 3)))   # 15 left, 5 spendable
 
     def test_owner_reserve_and_batch_cost(self):
-        self.assertFalse(self.go(self.snap(86, 3)))
+        self.assertFalse(self.go(self.snap(86, 48)))  # reserve still protected more than 24h before reset
+        self.assertTrue(self.go(self.snap(86, 3)))    # 2026-11-24 owner: last 24h may spend the reserve
+        self.assertFalse(self.go(self.snap(99, 3)))   # but never more than is actually left
 
     def test_primary_window_only_rate_limits(self):
         self.assertFalse(self.go(self.snap(60, 3, primary_used=95)))

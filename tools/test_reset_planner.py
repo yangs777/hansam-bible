@@ -98,9 +98,19 @@ class ResetPlannerTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 daily_budget(current, self.policy, self.now, ledger)
 
+    def test_weekly_reserve_released_in_last_24_hours(self):
+        current = snapshot(self.raw, self.now)
+        current['weekly'].update(remaining_percent=30, resets_at=(self.now+dt.timedelta(hours=30)).isoformat())
+        self.assertEqual(daily_budget(current, self.policy, self.now)['reserve_points'], 15)
+        current['weekly']['resets_at'] = (self.now+dt.timedelta(hours=20)).isoformat()
+        last = daily_budget(current, self.policy, self.now)
+        self.assertEqual(last['reserve_points'], 0)
+        self.assertAlmostEqual(last['remaining_points'], 30)
+
     def test_either_quota_can_veto_even_with_the_other_reset_due(self):
         self.raw['rateLimitsByLimitId']['codex']['primary'].update(usedPercent=0, resetsAt=(self.now+dt.timedelta(minutes=30)).timestamp())
-        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=90, resetsAt=(self.now+dt.timedelta(minutes=60)).timestamp())
+        # Within the last 24h the weekly reserve is released, but the batch must still fit what is left.
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=99, resetsAt=(self.now+dt.timedelta(minutes=60)).timestamp())
         self.assertFalse(self.decision()['start_batch'])
         self.raw['rateLimitsByLimitId']['codex']['secondary']['usedPercent']=0
         self.raw['rateLimitsByLimitId']['codex']['primary']['usedPercent']=80

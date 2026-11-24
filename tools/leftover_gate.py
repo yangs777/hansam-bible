@@ -222,7 +222,7 @@ def decide(snap, activity, state, cfg, now, ledger=None, policy=None):
     decision = plan(current, None, policy, [], now, ledger)
     numbers.update(daily_budget=decision.get('daily_budget'), batch_verses=decision['batch_verses'],
                    estimated_usage_points=decision.get('estimated_usage_points'))
-    numbers['owner_reserve'] = max(15, policy['weekly_reserve_percent'])
+    numbers['owner_reserve'] = (decision.get('daily_budget') or {}).get('reserve_points', max(15, policy['weekly_reserve_percent']))
     numbers['spendable_leftover'] = weekly_remaining-numbers['owner_reserve']
     reasons = [] if decision['start_batch'] else list(decision['reasons'])
     if not cfg.get('enabled'):

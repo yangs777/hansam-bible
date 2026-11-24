@@ -142,6 +142,11 @@ def daily_budget(current, policy, now, ledger=None):
     reset = timestamp(current['weekly']['resets_at'])
     days = max(1.0, (reset-now).total_seconds()/86400)
     reserve = max(15.0, policy['weekly_reserve_percent'])
+    # 2026-11-24 owner: within the last 24 hours before the weekly reset, spend the reserve too.
+    release_hours = policy.get('weekly_reserve_release_hours', 0)
+    final_window = release_hours > 0 and (reset-now).total_seconds()/3600 <= release_hours
+    if final_window:
+        reserve = 0.0
     remaining = current['weekly']['remaining_percent']
     day_prefix = now.astimezone(KST).date().isoformat() + '|'
     entries = (ledger or {}).get('days', {})
@@ -164,7 +169,9 @@ def daily_budget(current, policy, now, ledger=None):
     spent = max(entry['reserved_points'], entry['opening_remaining_points']-remaining, 0.0)
     # Raising a configured reserve must also tighten an already-open day.
     allowance = min(entry['allowance_points'], max(0.0, remaining-reserve)+spent)
-    return {'key': key, 'entry': entry, 'days_until_reset': days,
+    if final_window:  # last day: everything that is left may be used, not just the frozen daily share
+        allowance = remaining+spent
+    return {'key': key, 'entry': entry, 'days_until_reset': days, 'final_window': final_window,
             'reserve_points': reserve, 'allowance_points': allowance,
             'charged_points': spent, 'remaining_points': max(0.0, allowance-spent)}
 
