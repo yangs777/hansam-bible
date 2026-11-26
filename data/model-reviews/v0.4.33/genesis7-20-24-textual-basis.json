@@ -1,0 +1,137 @@
+{
+  "scope": [
+    "Gen.7.20",
+    "Gen.7.21",
+    "Gen.7.22",
+    "Gen.7.23",
+    "Gen.7.24"
+  ],
+  "status": "GPT·Gemini 실제 최종의견·난구검토 및 사본/인쇄판 한정대조 완료, 잠정저본 선택",
+  "baseline": {
+    "kind": "WLC digital transcription with OSHB morphology annotations; not a manuscript",
+    "version": "WLC 4.20; OSHB morphology 2018-12-14",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "rights": {
+      "text": "Westminster Leningrad Codex — public domain",
+      "lemma_and_morphology": "Open Scriptures Hebrew Bible — CC BY 4.0"
+    },
+    "verification_ko": "고정 원문 XML과 절별 조각 해시를 기존 출처 묶음에서 재사용·확인."
+  },
+  "selected_reading_ko": "직접 읽은 레닌그라드 핵심자음·Swete 인쇄본문/장치와 고정 전사를 구분하고 WLC를 재현가능한 잠정 저본으로 유지. 그리스어를 역번역해 새 히브리어를 만들지 않는다. 최초원문 확정 아님.",
+  "material_questions": [
+    "십오 암마 위로의 기준점 및 그리스어 모든 높은 산",
+    "육체·죽음 어휘 및 생물 열거",
+    "נשמת רוח חיים의 겹침과 그리스어의 짧은 생명의 숨 표현",
+    "능동/피동·명시되지 않은 주어와 וישאר 뒤 평문 형태주석",
+    "גבר의 지속·상승과 150일"
+  ],
+  "inspected_evidence": [
+    {
+      "kind": "고대 그리스어 번역의 근대 학술인쇄판 스캔; 고대사본 자체 아님",
+      "title": "Swete, The Old Testament in Greek, vol.I (1901), printed p.12",
+      "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n43/mode/1up",
+      "local_path": "private/batch-20261125T163053Z-swete-p12.png",
+      "sha256": "87b602d2afc8e9da2b5b3294dd6b65c5d91e386ffc55acc4b33af15b3d930d1f",
+      "pdf_sha256": "dd1c57336905bdc66ec5bd101c5e6085489dad300460caa4947e9ed3fff0b57f",
+      "rights": "1901 인쇄판 공공영역; Internet Archive / University of Toronto 스캔",
+      "method_ko": "저장된 동일해시 PDF의 43번 면(0기준)을 렌더링해 인쇄 12쪽 전체·7:20–24 본문과 하단 장치 직접 열람. 20절 십오 큐빗·위로·물이 높아짐·모든 높은 산, 21절 모든 육체의 죽음과 열거, 22절 생명의 숨·마른땅·죽음, 23절 첫 능동 ἐξήλειψεν 및 뒤 피동 ἐξηλείφθησαν·노아와 함께 있던 자, 24절 물이 높아짐·150일 확인. 23절 하단 ἐξήλειψεν] ἐξηλήφθη E의 다른 동사형 관찰. E 약호의 사본귀속과 그 원사본·현대장치 대조는 미검증. 이 인쇄판은 고대사본 자체 아님."
+    },
+    {
+      "kind": "레닌그라드 사본 4v 사진; WLC 저본계열이므로 독립증인 수에 추가하지 않음",
+      "title": "Leningrad Codex, 4v / 004b",
+      "url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F004B.jpg",
+      "local_path": "private/upstream_cache/leningrad-004b.jpg",
+      "sha256": "58d0675924b327df7bb1549563dcaf0abec7931b569b163e6a9871575d1667db",
+      "rights": "동일해시 자료의 기존 Commons PD-Mark/PD-Art 확인 재사용. Bruce Zuckerman / West Semitic Research / ABMC / Russian National Library, Sefaria 제공.",
+      "mapping_basis": "기존 Sefaria 공식 색인 Genesis 6:19–7:23 재사용; 이번 새 조회 아님.",
+      "method_ko": "4v 왼쪽열 7:20–23 시작의 핵심 자음어구 직접열람. חמש עשרה אמה מלמעלה גברו המים ויכסו ההרים, 모든 육체·생물 열거, נשמת רוח חיים באפיו·בחרבה מתו, וימח את כל היקום אשר על פני האדמה מאדם עד בהמה 확인. 첫 וימח의 능동 해석과 목적격 את는 전사·문법과 함께 평가. 모든 모음·악센트·마소라 전면 대조 아님."
+    },
+    {
+      "kind": "레닌그라드 사본 4v 사진; WLC 저본계열이므로 독립증인 수에 추가하지 않음",
+      "title": "Leningrad Codex, 5r / 005a",
+      "url": "https://manuscripts.sefaria.org/leningrad-color/BIB_LENCDX_F005A.jpg",
+      "local_path": "private/upstream_cache/leningrad-005a.jpg",
+      "sha256": "e5d952434ebe3068b1de3cc9ad3a842bf01c24f21a3ab8dd709d64facaf5f1e2",
+      "rights": "동일해시 자료의 기존 Commons PD-Mark/PD-Art 확인 재사용. Bruce Zuckerman / West Semitic Research / ABMC / Russian National Library, Sefaria 제공.",
+      "mapping_basis": "이번 Sefaria 공식 사본 API 직접조회 HTTP 200, LC_Folio_5r Genesis7:23–9:2 및7:23·24 포함확인. Commons대응설명과 직접식별어구 대조. 웹도구 내부오류는 별도기록.",
+      "method_ko": "5r 오른쪽열 위의 7:23 후반·7:24 핵심자음 직접열람. 물에서 지워짐·노아와 방주 동반자·150일 확인. וישאר 모음·강점의 모든 획은 판독 확정하지 않음. WLC 코드포인트 그대로 보존하며 니팔 남음의 의미와 별개로 기록. 사진 저본계열은 독립 다수증인이 아님."
+    },
+    {
+      "kind": "현대 번역팀의 번역·주해 주석, 고대사본 또는 BHS 비평장치 아님",
+      "url": "https://bible.org/sites/bible.org/resources/netbible/gen7_notes.htm",
+      "method_ko": "웹으로 31–39번 주석 직접 읽음. 32번은 산보다 높은 수심이라는 문맥해석, 34번은 숨/영의 겹침, 35번은 원문 he에 Lord를 명시 보충했음을 설명, 38번은 남다의 니팔 의미 설명. 번역팀 주해를 다른 히브리어 이독의 증거로 간주하지 않음."
+    }
+  ],
+  "not_inspected": [
+    "BHS/BHQ·괴팅겐 현대비평장치",
+    "사마리아오경·사해문서·시리아어·타르굼·라틴어",
+    "Swete E의 원사본 및 계보",
+    "레닌그라드 모든 모음·악센트·마소라"
+  ],
+  "strongest_objection_ko": "Swete의 더 짧은 표현이나 다른 동사형이 더 이른 히브리어를 반영할 가능성은 배제 못한다. 번역 선택일 가능성도 남는다. 사진은 핵심자음 한정대조이며 WLC와 같은 저본계열이므로 독립 다수증인 합의가 아니다. וישאר의 모든 모음·강점은 미확정이므로 전사 그대로 보존한다.",
+  "access_gaps_ko": "BHS/BHQ·괴팅겐 현대장치 미열람. Swete E 약호의 사본귀속·고대그리스어 원사본·사마리아오경·사해문서·시리아어·타르굼·라틴어 직접대조 미완료. 레닌그라드 모든 모음·악센트·마소라와 וישאר의 모든 점은 확정 못함. 인간 전문가 검수 미실시.",
+  "adoption_decision": "로컬 잠정선택 승인. 실제 채택 실행·검증 여부는 판본 이력과 완료기록으로 구분.",
+  "reused_from": "private/batch-20261125T140002Z-textual-basis.json",
+  "reviewed_at": "2026-11-25T16:38:49.196715+00:00",
+  "recorded_at": "2026-11-25T16:34:17.847364+00:00",
+  "source_fragments": [
+    {
+      "id": "Gen.7.20",
+      "fragment_sha256": "dc623805f7bb9d633dde9385f6d8107cf57b2c0a284262bd8c781dc71ca28325"
+    },
+    {
+      "id": "Gen.7.21",
+      "fragment_sha256": "05710852d213621d5ce18a735fa17d3b79e286c56ac30da09456c2180b11569a"
+    },
+    {
+      "id": "Gen.7.22",
+      "fragment_sha256": "a1bfab481906dfdd2cc601d1f457437772a6c6bbefec9122d6689e5c708435cb"
+    },
+    {
+      "id": "Gen.7.23",
+      "fragment_sha256": "0c0c7ed81e03331bdf01d9bbfe5ec62dfae42860a91d22b0a9d224787324823d"
+    },
+    {
+      "id": "Gen.7.24",
+      "fragment_sha256": "e96b7fbb78ac808611d5ec06a17251580e5acfadc9b9a0b3cc9ece1086730a08"
+    }
+  ],
+  "correction_to_prior_record_ko": "기존 기록은 7:23 평문 형태주석을 첫 동사 וימח 문제와 연결했다. 실제 XML에서 주석은 וישאר 바로 뒤에 위치한다. 주석 자체는 단어를 명시하지 않으므로 위치 이상을 단정하지 않는다. 첫 동사의 능동태 문제와 남다 동사의 비정규 모음·강점 가능성을 구분한다. 과거 원기록은 덮어쓰지 않는다.",
+  "variant_questions": [
+    {
+      "verse": "Gen.7.20",
+      "question_ko": "십오 암마 위로의 기준점 및 그리스어 모든 높은 산",
+      "selected_ko": "WLC의 수치·방향·산들의 피동을 유지. 산 정상 위 수심은 강한 문맥해석이나 본문에 명시 보충하지 않는다. Swete의 모든·높은을 히브리어 본문에 역수입하지 않는다.",
+      "strongest_objection_ko": "산 위 십오 암마라는 문맥독법을 명시해야 자연스럽다는 반론. 반대로 방주 흘수 주장은 본문의 측정 기준이 아니다. 그리스어 차이의 기원은 미확정."
+    },
+    {
+      "verse": "Gen.7.21",
+      "question_ko": "육체·죽음 어휘 및 생물 열거",
+      "selected_ko": "모든 육체와 전 열거를 유지하고 גוע를 숨이 끊어졌다로 구별한다.",
+      "strongest_objection_ko": "육체가 한국어에서 생경하고 숨이 끊어졌다는 말이 동사의 어휘 의미를 세분한다. 그리스어는 일반 죽음 동사를 사용한다."
+    },
+    {
+      "verse": "Gen.7.22",
+      "question_ko": "נשמת רוח חיים의 겹침과 그리스어의 짧은 생명의 숨 표현",
+      "selected_ko": "WLC 두 어휘를 자연화한 생명의 숨을 유지하고 רוח의 별도 존재를 접힌 주석에 명시. 콧구멍·마른땅 보존.",
+      "strongest_objection_ko": "자연화는 두 낱말의 표면 구분을 약화한다. 반대로 생명의 영의 숨은 동물·인간 영혼론을 오해하게 할 수 있다. 짧은 그리스어만으로 히브리어를 삭제하지 않는다."
+    },
+    {
+      "verse": "Gen.7.23",
+      "question_ko": "능동/피동·명시되지 않은 주어와 וישאר 뒤 평문 형태주석",
+      "selected_ko": "고정 WLC 첫 능동·뒤 피동, 노아와 동반자 남음을 유지. 무주어 한국어 능동문, 영어 he·스페인어 생략주어. 주석은 말씀에 섞지 않고 원문 문자 모두 보존.",
+      "strongest_objection_ko": "Swete 장치 E 표기에는 첫 동사 다른형이 있다. 약호·개별증인·현대장치를 미대조해 계보·원형 우열은 판단 불가. 평문주석의 BHS 주장도 직접 검증 아님. 문맥상 하나님인 행위자를 명시하는 대안은 가능하나 원문 주어명사 없음."
+    },
+    {
+      "verse": "Gen.7.24",
+      "question_ko": "גבר의 지속·상승과 150일",
+      "selected_ko": "우세가 지속됨을 세력을 떨쳤다로 유지. 그리스어 높아짐 표현은 대안으로 보존. 40일과 150일의 포함관계 계산은 추가하지 않는다.",
+      "strongest_objection_ko": "물이 세력을 떨쳤다는 말은 의인화처럼 보일 수 있다. 150일 동안 계속 상승했다는 해석은 별도 판정 필요."
+    }
+  ],
+  "defensibility_ko": "기존 보류의 핵심인 첫 동사와 평문주석의 혼동을 분리했다. 첫 능동+את 목적어, 뒤 피동과 남음은 히브리어 전사·사본 핵심자음 및 Swete 주본문에 대응한다. Swete E의 다른형과 22절 짧은 구문은 불확실성으로 보존한다. 의미를 바꿀 미검증 교정은 도입하지 않으며 범위를 명시한 잠정 선택이 가능하다.",
+  "model_final_opinions_ko": "초기 독립성은 저장된 첫 제안에서 보존. 보충 의견은 사진·인쇄판 관찰을 편집자가 전달한 후의 실제 교차검토로 구별. 모델은 사진 직접열람을 주장하지 않는다.",
+  "model_claim_corrections_ko": "Gemini의 실물 대조 표현은 사본 사진·인쇄판 스캔의 한정열람을 뜻할 뿐 원사본 실물열람이 아니다. BHS의 평문주석이라는 귀속은 부정확하다. 실제 근거는 OSHB XML의 upstream 편집주석이며 BHS 장치 직접열람이 아니다. E는 인쇄된 약호만 확인했으므로 특정 고대사본 귀속·계보·정확한 번역을 확정하지 않는다. 고전주해 전체를 조사한 것도 아니다. 모델의 최종 채택·확정이라는 말은 권고이며 편집자의 잠정채택 절차와 구별한다. 모든 공백이 인간 실물열람으로만 해결된다는 모델 주장도 입증된 요건으로 채택하지 않는다."
+}

@@ -1,12 +1,12 @@
-# Genesis 7:1?19
+# Genesis 7:1–24
 
-Hansam Yang · Original Bible · v0.4.32
+Hansam Yang · Original Bible · v0.4.33
 
 AI-assisted translation draft · specialist and native-language review pending
 
 This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.
 
-Provisional selections for verses 1–17 distinguish model proposals, actual final opinions, limited witness observations and access gaps. Specialist review and full collation remain pending.
+Provisional selections for verses 1–24 distinguish independent proposals, actual final opinions, limited witness observations and access gaps. Specialist review and full collation remain pending.
 
 Basis: 고정WLC4.20/OSHB잠정저본.독립GPT·Gemini초기안및실제최종의견·반론·난구검토보존.과거Claude다섯절초안재사용.Swete1901인쇄10쪽직접열람,레닌그라드4v핵심자음어구한정대조.현대장치·사본전면대조·인간전문가검수대기.
 
@@ -60,6 +60,10 @@ Previous v0.4.31
 
 YHWH said to Noah, “Enter the ark, you and all your household, for I have seen that you are righteous before me in this generation.
 
+Previous v0.4.32
+
+YHWH said to Noah, “Enter the ark, you and all your household, for I have seen that you are righteous before me in this generation.
+
 ## 2 · HYB.GEN.007.002
 
 Hebrew display (MT/WLC): מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה תִּֽקַּח־לְךָ֛ שִׁבְעָ֥ה שִׁבְעָ֖ה אִ֣ישׁ וְאִשְׁתּ֑וֹ וּמִן־הַבְּהֵמָ֡ה אֲ֠שֶׁר לֹ֣א טְהֹרָ֥ה הִ֛וא שְׁנַ֖יִם אִ֥ישׁ וְאִשְׁתּֽוֹ׃
@@ -108,6 +112,10 @@ Previous v0.4.31
 
 From every clean animal take seven by seven, a male and its mate; and from the animals that are not clean, two, a male and its mate.
 
+Previous v0.4.32
+
+From every clean animal take seven by seven, a male and its mate; and from the animals that are not clean, two, a male and its mate.
+
 ## 3 · HYB.GEN.007.003
 
 Hebrew display (MT/WLC): גַּ֣ם מֵע֧וֹף הַשָּׁמַ֛יִם שִׁבְעָ֥ה שִׁבְעָ֖ה זָכָ֣ר וּנְקֵבָ֑ה לְחַיּ֥וֹת זֶ֖רַע עַל־פְּנֵ֥י כָל־הָאָֽרֶץ׃
@@ -149,6 +157,10 @@ Previous v0.4.30
 Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
 
 Previous v0.4.31
+
+Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
+
+Previous v0.4.32
 
 Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
 
@@ -196,6 +208,10 @@ Previous v0.4.31
 
 For in seven more days I will send rain upon the earth for forty days and forty nights, and I will wipe every living thing that I have made from the face of the ground.”
 
+Previous v0.4.32
+
+For in seven more days I will send rain upon the earth for forty days and forty nights, and I will wipe every living thing that I have made from the face of the ground.”
+
 ## 5 · HYB.GEN.007.005
 
 Hebrew display (MT/WLC): וַיַּ֖עַשׂ נֹ֑חַ כְּכֹ֥ל אֲשֶׁר־צִוָּ֖הוּ יְהוָֽה׃
@@ -237,6 +253,10 @@ Previous v0.4.30
 Noah did according to all that YHWH had commanded him.
 
 Previous v0.4.31
+
+Noah did according to all that YHWH had commanded him.
+
+Previous v0.4.32
 
 Noah did according to all that YHWH had commanded him.
 
@@ -284,6 +304,10 @@ Previous v0.4.31
 
 Noah was six hundred years old, and the floodwaters were upon the earth.
 
+Previous v0.4.32
+
+Noah was six hundred years old, and the floodwaters were upon the earth.
+
 ## 7 · HYB.GEN.007.007
 
 Hebrew display (MT/WLC): וַיָּ֣בֹא נֹ֗חַ וּ֠בָנָיו וְאִשְׁתּ֧וֹ וּנְשֵֽׁי־בָנָ֛יו אִתּ֖וֹ אֶל־הַתֵּבָ֑ה מִפְּנֵ֖י מֵ֥י הַמַּבּֽוּל׃
@@ -328,6 +352,10 @@ Previous v0.4.31
 
 Noah entered the ark, and his sons, his wife, and his sons’ wives with him, because of the waters of the flood.
 
+Previous v0.4.32
+
+Noah entered the ark, and his sons, his wife, and his sons’ wives with him, because of the waters of the flood.
+
 ## 8 · HYB.GEN.007.008
 
 Hebrew display (MT/WLC): מִן־הַבְּהֵמָה֙ הַטְּהוֹרָ֔ה וּמִן־הַ֨בְּהֵמָ֔ה אֲשֶׁ֥ר אֵינֶ֖נָּה טְהֹרָ֑ה וּמִ֨ן־הָע֔וֹף וְכֹ֥ל אֲשֶׁר־רֹמֵ֖שׂ עַל־הָֽאֲדָמָֽה׃
@@ -365,6 +393,10 @@ Previous v0.4.30
 From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
 
 Previous v0.4.31
+
+From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
+
+Previous v0.4.32
 
 From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
 
@@ -408,6 +440,10 @@ Previous v0.4.31
 
 they came two by two to Noah, into the ark, male and female, as God had commanded Noah.
 
+Previous v0.4.32
+
+they came two by two to Noah, into the ark, male and female, as God had commanded Noah.
+
 ## 10 · HYB.GEN.007.010
 
 Hebrew display (MT/WLC): וַֽיְהִ֖י לְשִׁבְעַ֣ת הַיָּמִ֑ים וּמֵ֣י הַמַּבּ֔וּל הָי֖וּ עַל־הָאָֽרֶץ׃
@@ -445,6 +481,10 @@ Previous v0.4.30
 After the seven days, the waters of the flood were upon the earth.
 
 Previous v0.4.31
+
+After the seven days, the waters of the flood were upon the earth.
+
+Previous v0.4.32
 
 After the seven days, the waters of the flood were upon the earth.
 
@@ -488,6 +528,10 @@ Previous v0.4.31
 
 In the six hundredth year of Noah’s life, in the second month, on the seventeenth day of the month, on that very day all the springs of the great deep burst open, and the windows of the heavens were opened.
 
+Previous v0.4.32
+
+In the six hundredth year of Noah’s life, in the second month, on the seventeenth day of the month, on that very day all the springs of the great deep burst open, and the windows of the heavens were opened.
+
 ## 12 · HYB.GEN.007.012
 
 Hebrew display (MT/WLC): וַֽיְהִ֥י הַגֶּ֖שֶׁם עַל־הָאָ֑רֶץ אַרְבָּעִ֣ים י֔וֹם וְאַרְבָּעִ֖ים לָֽיְלָה׃
@@ -528,6 +572,10 @@ Previous v0.4.31
 
 The rain was upon the earth for forty days and forty nights.
 
+Previous v0.4.32
+
+The rain was upon the earth for forty days and forty nights.
+
 ## 13 · HYB.GEN.007.013
 
 Hebrew display (MT/WLC): בְּעֶ֨צֶם הַיּ֤וֹם הַזֶּה֙ בָּ֣א נֹ֔חַ וְשֵׁם־וְחָ֥ם וָיֶ֖פֶת בְּנֵי־נֹ֑חַ וְאֵ֣שֶׁת נֹ֗חַ וּשְׁלֹ֧שֶׁת נְשֵֽׁי־בָנָ֛יו אִתָּ֖ם אֶל־הַתֵּבָֽה׃
@@ -561,6 +609,10 @@ Final opinion (Korean original): 히브리어 복수 그들과 함께 및 세 �
 Counterargument (Korean): אתם의 복수 지시범위를 노아 한명으로 축소하지 않음. 단수 בא 뒤 복합주어는 한국어 복수서술로 자연화. 정확한 입장순서·인원 합계는 추가하지 않는다. 그리스어의 그와 함께는 표현차이이며 배후 히브리어 단수이문인지 번역선택인지 확정 못함.
 
 Previous v0.4.31
+
+On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
+
+Previous v0.4.32
 
 On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
 
@@ -600,6 +652,10 @@ Previous v0.4.31
 
 They, and every wild animal according to its kind, all livestock according to their kinds, every creeping thing that creeps on the earth according to its kind, and every flying creature according to its kind—every bird, every winged thing—entered.
 
+Previous v0.4.32
+
+They, and every wild animal according to its kind, all livestock according to their kinds, every creeping thing that creeps on the earth according to its kind, and every flying creature according to its kind—every bird, every winged thing—entered.
+
 ## 15 · HYB.GEN.007.015
 
 Hebrew display (MT/WLC): וַיָּבֹ֥אוּ אֶל־נֹ֖חַ אֶל־הַתֵּבָ֑ה שְׁנַ֤יִם שְׁנַ֨יִם֙ מִכָּל־הַבָּשָׂ֔ר אֲשֶׁר־בּ֖וֹ ר֥וּחַ חַיִּֽים׃
@@ -633,6 +689,10 @@ Final opinion (Korean original): 분배·두 방향을 유지하고 한국어 �
 Counterargument (Korean): 살붙이는 한국어에서 친족으로 들릴수 있어 생물로 풀어쓸 대안이 있다. רוח는 바람/영 의미폭 있으나 생명숨은 문맥선택. 둘씩은 최종 총수를 고정하지 않는다. 육체는 물질몸으로 오해 가능. 여기서는 앞 열거된 살아있는 존재를 가리킴. 짝 총수·영혼론을 결정하지 않음.
 
 Previous v0.4.31
+
+They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
+
+Previous v0.4.32
 
 They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
 
@@ -672,6 +732,10 @@ Previous v0.4.31
 
 Those entering, male and female of all flesh, entered as God had commanded him; and YHWH shut him in.
 
+Previous v0.4.32
+
+Those entering, male and female of all flesh, entered as God had commanded him; and YHWH shut him in.
+
 ## 17 · HYB.GEN.007.017
 
 Hebrew display (MT/WLC): וַֽיְהִ֧י הַמַּבּ֛וּל אַרְבָּעִ֥ים י֖וֹם עַל־הָאָ֑רֶץ וַיִּרְבּ֣וּ הַמַּ֗יִם וַיִּשְׂאוּ֙ אֶת־הַתֵּבָ֔ה וַתָּ֖רָם מֵעַ֥ל הָאָֽרֶץ׃
@@ -708,6 +772,10 @@ Previous v0.4.31
 
 The flood was on the earth for forty days. The waters increased and lifted the ark, and it rose above the earth.
 
+Previous v0.4.32
+
+The flood was on the earth for forty days. The waters increased and lifted the ark, and it rose above the earth.
+
 ## 18 · HYB.GEN.007.018
 
 Hebrew display (MT/WLC): וַיִּגְבְּר֥וּ הַמַּ֛יִם וַיִּרְבּ֥וּ מְאֹ֖ד עַל־הָאָ֑רֶץ וַתֵּ֥לֶךְ הַתֵּבָ֖ה עַל־פְּנֵ֥י הַמָּֽיִם׃
@@ -739,6 +807,10 @@ The waters grew strong and increased greatly upon the earth, and the ark moved o
 Final opinion (Korean original): 세력 증가·큰 불어남·방주의 수면 이동으로 잠정채택 권고. 떠다님은 유효한 대안으로 보존. 모델의 조타장치 부재 주장은 미검증이므로 채택근거에서 배제.
 
 Counterargument (Korean): 움직여 갔다는 능동조종으로 오해 가능하고 떠다녔다가 문맥상 더 자연스럽다. 세력 표현도 추상적이다. 다만 방향·추진기·속도·항해주체를 추가하지 않았으며 공간관계를 유지한다.
+
+Previous v0.4.32
+
+The waters grew strong and increased greatly upon the earth, and the ark moved over the surface of the waters.
 
 ## 19 · HYB.GEN.007.019
 
@@ -772,6 +844,164 @@ Final opinion (Korean original): 현대 지리범위 판정 없이 강조·두�
 
 Counterargument (Korean): 반복 음성효과는 세언어 자연화에서 줄어들며 그리스어의 짧은표현이 더이른 저본일 가능성을 배제 못한다. 총괄언어를 현대지구전역으로 확정하거나 관측지역으로 축소하는 해석은 이절만으로 판정하지 못한다.
 
+Previous v0.4.32
+
+The waters prevailed exceedingly upon the earth, and all the high mountains under the whole heaven were covered.
+
+## 20 · HYB.GEN.007.020
+
+Hebrew display (MT/WLC): חֲמֵ֨שׁ עֶשְׂרֵ֤ה אַמָּה֙ מִלְמַ֔עְלָה גָּבְר֖וּ הַמָּ֑יִם וַיְכֻסּ֖וּ הֶהָרִֽים׃
+
+The waters rose fifteen cubits upward, and the mountains were covered.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.20
+
+### Current best selected translation
+
+WLC의 수치·방향·산들의 피동을 유지. 산 정상 위 수심은 강한 문맥해석이나 본문에 명시 보충하지 않는다. Swete의 모든·높은을 히브리어 본문에 역수입하지 않는다. 산 정상 위 수심이라는 독법은 문맥상 강한 대안이므로 기존 모델의 완전히 배제해야 한다는 말을 채택하지 않는다. 다만 본문에는 수치·위쪽 관계만 유지한다. 불어남은 이 절의 높이 측정에 맞는 문맥 번역이며 24절 기간 전체의 계속 상승을 뜻하지 않는다.
+
+#### claude-sonnet-5-5
+
+The waters prevailed fifteen cubits higher, and the mountains were covered.
+
+Final opinion (Korean original): '열다섯 규빗 위로 불어나'로 잠정 정리한다.
+
+#### gemini-3.8-flash-medium
+
+Fifteen cubits upward the waters prevailed, and the mountains were covered.
+
+Final opinion (Korean original): 본문 번역은 기준점을 임의로 특정하지 않는 '물이 위로 십오 암마만큼 불어났고, 산들이 덮였다'를 잠정 채택하되, '산 정상 위로 15암마 더 덮였다'는 유력한 문맥적 대안 독법을 동등한 정당성을 지닌 주요 해석으로 주석에 명시한다. 본문 표면에서 지형적·물리적 기준점을 확정할 수 없다는 사실은 텍스트 자체의 기술적 한계로 정직하게 보존한다.
+
+#### gpt-6.1-sol
+
+The waters rose fifteen cubits upward, and the mountains were covered.
+
+Final opinion (Korean original): 산 정상 위 수심이라는 독법은 문맥상 강한 대안이므로 기존 모델의 완전히 배제해야 한다는 말을 채택하지 않는다. 다만 본문에는 수치·위쪽 관계만 유지한다. 불어남은 이 절의 높이 측정에 맞는 문맥 번역이며 24절 기간 전체의 계속 상승을 뜻하지 않는다. 최초원문 확정이나 인간전문가 검수 완료는 아니며 더 나은 증거가 나오면 재심사한다.
+
+Counterargument (Korean): 산 위 십오 암마라는 문맥독법을 명시해야 자연스럽다는 반론. 반대로 방주 흘수 주장은 본문의 측정 기준이 아니다. 그리스어 차이의 기원은 미확정.
+
+## 21 · HYB.GEN.007.021
+
+Hebrew display (MT/WLC): וַיִּגְוַ֞ע כָּל־בָּשָׂ֣ר ׀ הָרֹמֵ֣שׂ עַל־הָאָ֗רֶץ בָּע֤וֹף וּבַבְּהֵמָה֙ וּבַ֣חַיָּ֔ה וּבְכָל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣ץ עַל־הָאָ֑רֶץ וְכֹ֖ל הָאָדָֽם׃
+
+All flesh that moved on the earth perished: the birds, livestock, wild animals, every swarming thing that swarmed on the earth, and all humankind.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.21
+
+### Current best selected translation
+
+모든 육체와 전 열거를 유지하고 גוע를 숨이 끊어졌다로 구별한다. 육체의 어휘 연결을 살리고 한국어 문장을 모든 사람의 숨이 끊어졌다로 정리해 이중 주격을 피했다. 죽음 자체는 확실하나 숨이라는 표현은 גוע의 문맥적 자연화이며 그리스어와 일대일 어휘 대응을 주장하지 않는다.
+
+#### claude-sonnet-5-5
+
+And all flesh died that moved on the earth, birds, livestock, wild animals, every swarming thing that swarms on the earth, and all humankind.
+
+Final opinion (Korean original): '모든 사람'으로 잠정 정리한다.
+
+#### gemini-3.8-flash-medium
+
+And all flesh that moved upon the earth expired, among fowl, and among cattle, and among beasts, and among all swarming things swarming upon the earth, and all mankind.
+
+Final opinion (Korean original): '땅 위에서 움직이던 모든 육체, 곧 새와 가축과 들짐승과 땅 위에 우글거리던 모든 기는 것과 모든 사람의 숨이 끊어졌다'를 최종 채택한다. '바사르'의 보존과 22절과의 동사 구별을 유지하며, 고대역본의 단순화 경향은 주석에서 어휘 대조 정보로 다룬다.
+
+#### gpt-6.1-sol
+
+All flesh that moved on the earth perished: birds, livestock, wild animals, every swarming thing that swarmed on the earth, and all humankind.
+
+Final opinion (Korean original): 육체의 어휘 연결을 살리고 한국어 문장을 모든 사람의 숨이 끊어졌다로 정리해 이중 주격을 피했다. 죽음 자체는 확실하나 숨이라는 표현은 גוע의 문맥적 자연화이며 그리스어와 일대일 어휘 대응을 주장하지 않는다. 최초원문 확정이나 인간전문가 검수 완료는 아니며 더 나은 증거가 나오면 재심사한다.
+
+Counterargument (Korean): 육체가 한국어에서 생경하고 숨이 끊어졌다는 말이 동사의 어휘 의미를 세분한다. 그리스어는 일반 죽음 동사를 사용한다.
+
+## 22 · HYB.GEN.007.022
+
+Hebrew display (MT/WLC): כֹּ֡ל אֲשֶׁר֩ נִשְׁמַת־ר֨וּחַ חַיִּ֜ים בְּאַפָּ֗יו מִכֹּ֛ל אֲשֶׁ֥ר בֶּחָֽרָבָ֖ה מֵֽתוּ׃
+
+Everything on dry ground that had the breath of life in its nostrils died.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.22
+
+### Current best selected translation
+
+WLC 두 어휘를 자연화한 생명의 숨을 유지하고 רוח의 별도 존재를 접힌 주석에 명시. 콧구멍·마른땅 보존. Gemini의 두 어휘 보존 주장은 유효하다. 본문에서는 생명의 숨으로 자연화하고 접힌 주석에 נשמה·רוח의 두 어휘 및 직역 대안을 명시한다. 그리스어의 짧은 표현만으로 히브리어 어휘를 삭제하지 않는다.
+
+#### claude-sonnet-5-5
+
+Everything on dry land in whose nostrils was the breath of the spirit of life died.
+
+Final opinion (Korean original): '생명의 영의 숨'의 뜻으로 잠정 정리한다.
+
+#### gemini-3.8-flash-medium
+
+Everything in whose nostrils was the breath of the spirit of life, of all that was on dry ground, died.
+
+Final opinion (Korean original): 본문은 '마른 땅에 있던 모든 것 가운데 콧구멍에 생명의 숨이 있는 것은 모두 죽었다'로 잠정 채택한다. 단, 원문 히브리어에 'נְשָׁמָה(숨)'와 'רוּחַ(영/기운)'가 함께 쓰였음을 각주에 명확히 표기하여 자연화로 인한 어휘 생략 우려를 방어한다.
+
+#### gpt-6.1-sol
+
+Everything on dry ground in whose nostrils was the breath of the spirit of life died.
+
+Final opinion (Korean original): Gemini의 두 어휘 보존 주장은 유효하다. 본문에서는 생명의 숨으로 자연화하고 접힌 주석에 נשמה·רוח의 두 어휘 및 직역 대안을 명시한다. 그리스어의 짧은 표현만으로 히브리어 어휘를 삭제하지 않는다. 최초원문 확정이나 인간전문가 검수 완료는 아니며 더 나은 증거가 나오면 재심사한다.
+
+Counterargument (Korean): 자연화는 두 낱말의 표면 구분을 약화한다. 반대로 생명의 영의 숨은 동물·인간 영혼론을 오해하게 할 수 있다. 짧은 그리스어만으로 히브리어를 삭제하지 않는다.
+
+## 23 · HYB.GEN.007.023
+
+Hebrew display (MT/WLC): וַיִּ֜מַח אֶֽת־כָּל־הַיְק֣וּם ׀ אֲשֶׁ֣ר ׀ עַל־פְּנֵ֣י הָֽאֲדָמָ֗ה מֵאָדָ֤ם עַד־בְּהֵמָה֙ עַד־רֶ֨מֶשׂ֙ וְעַד־ע֣וֹף הַשָּׁמַ֔יִם וַיִּמָּח֖וּ מִן־הָאָ֑רֶץ וַיִשָּׁ֧אֶר אַךְ־נֹ֛חַ וַֽאֲשֶׁ֥ר אִתּ֖וֹ בַּתֵּבָֽה׃
+
+He wiped out every living thing on the surface of the ground, from humans to livestock, creeping things, and the birds of the heavens. They were wiped from the earth; only Noah and those with him in the ark remained.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.23
+
+### Current best selected translation
+
+고정 WLC 첫 능동·뒤 피동, 노아와 동반자 남음을 유지. 무주어 한국어 능동문, 영어 he·스페인어 생략주어. 주석은 말씀에 섞지 않고 원문 문자 모두 보존. 옛 보류기록의 첫 동사와 주석 위치 혼동을 정정한다. 첫 능동+목적격 את, 뒤 피동과 남음은 고정 전사·사본 핵심자음 및 인쇄 주본문과 연결된다. 무주어 능동문을 유지하고 E의 다른형·남다 동사의 점 판독 공백을 밝힌다. WLC를 교정하지 않고 잠정 선택한다.
+
+#### gemini-3.8-flash-medium
+
+And he wiped out every living substance that was upon the face of the ground, from man to beast, to creeping thing, and to the fowl of the heavens; and they were wiped out from the earth. And only Noah was left, and those who were with him in the ark.
+
+Final opinion (Korean original): 본문은 '지면 위의 모든 생물을 쓸어버렸고, 사람부터 가축과 기는 것과 하늘의 새까지 땅에서 쓸려 없어졌다. 오직 노아와 그와 함께 방주 안에 있던 이들만 남았다'로 잠정 채택한다. 첫 동사의 주어 명사 부재, Swete 장치 E의 수동형 대안, 그리고 וישאר 뒤의 형태주석 이슈는 텍스트의 미해결 공백으로 주석에 상세히 남겨둔다.
+
+#### gpt-6.1-sol
+
+He wiped out every living thing on the surface of the ground, from humans to livestock, creeping things, and the birds of the heavens. They were wiped from the earth; only Noah and those with him in the ark remained.
+
+Final opinion (Korean original): 옛 보류기록의 첫 동사와 주석 위치 혼동을 정정한다. 첫 능동+목적격 את, 뒤 피동과 남음은 고정 전사·사본 핵심자음 및 인쇄 주본문과 연결된다. 무주어 능동문을 유지하고 E의 다른형·남다 동사의 점 판독 공백을 밝힌다. WLC를 교정하지 않고 잠정 선택한다. 최초원문 확정이나 인간전문가 검수 완료는 아니며 더 나은 증거가 나오면 재심사한다.
+
+Counterargument (Korean): Swete 장치 E 표기에는 첫 동사 다른형이 있다. 약호·개별증인·현대장치를 미대조해 계보·원형 우열은 판단 불가. 평문주석의 BHS 주장도 직접 검증 아님. 문맥상 하나님인 행위자를 명시하는 대안은 가능하나 원문 주어명사 없음.
+
+## 24 · HYB.GEN.007.024
+
+Hebrew display (MT/WLC): וַיִּגְבְּר֥וּ הַמַּ֖יִם עַל־הָאָ֑רֶץ חֲמִשִּׁ֥ים וּמְאַ֖ת יֽוֹם׃
+
+The waters prevailed over the earth for one hundred and fifty days.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.7.24
+
+### Current best selected translation
+
+우세가 지속됨을 세력을 떨쳤다로 유지. 그리스어 높아짐 표현은 대안으로 보존. 40일과 150일의 포함관계 계산은 추가하지 않는다. 150일 동안 우세가 지속된다는 표현을 유지하고 수위가 매일 상승했다고 확정하지 않는다. 그리스어 높아짐 표현 및 세력을 떨쳤다는 한국어의 문어성은 반론으로 보존한다.
+
+#### claude-sonnet-5-5
+
+And the waters prevailed on the earth a hundred and fifty days.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And the waters prevailed upon the earth a hundred and fifty days.
+
+Final opinion (Korean original): '물이 백오십 일 동안 땅 위에서 세력을 떨쳤다'를 최종 채택한다. '세력을 떨쳤다'의 어휘적 방어 가능성을 확정하되, 그리스어역본의 '높아졌다'는 대안 표현과 150일의 연대기적 해석 문제는 주석과 공백 항목으로 보존한다.
+
+#### gpt-6.1-sol
+
+The waters prevailed over the earth for one hundred and fifty days.
+
+Final opinion (Korean original): 150일 동안 우세가 지속된다는 표현을 유지하고 수위가 매일 상승했다고 확정하지 않는다. 그리스어 높아짐 표현 및 세력을 떨쳤다는 한국어의 문어성은 반론으로 보존한다. 최초원문 확정이나 인간전문가 검수 완료는 아니며 더 나은 증거가 나오면 재심사한다.
+
+Counterargument (Korean): 물이 세력을 떨쳤다는 말은 의인화처럼 보일 수 있다. 150일 동안 계속 상승했다는 해석은 별도 판정 필요.
+
 ## Notes
 
 Verse 1 preserves I have seen, righteous, before me and this generation, while including the whole household. Verse 2 retains distributive seven by seven with a male and its mate. Seven pairs (fourteen animals) is a strong reading when the pair is distributed, but seven in total remains an alternative; the wording does not fix a total. Repeated sevens and male/female in the Greek edition do not settle the question. Cleanliness criteria, later sacrifice and harmonization with chapter 6 are not inserted.
@@ -798,9 +1028,11 @@ In verse 17 pinned Hebrew and the inspected Leningrad consonants read forty days
 
 Verses 18–19 preserve the waters gaining strength and increasing, the ark moving over the water, emphatic intensity, and all high mountains being covered. Moved in verse 18 renders a general motion verb; floated is a contextual alternative. Under the whole heaven is retained without deciding modern geographical extent. Pinned Hebrew and the inspected Leningrad consonants have repeated emphasis and all before heaven; Swete1901 p.11 has one emphatic adverb and no all before heaven. Another Vorlage or translation concision remains unresolved. Modern apparatus, wider collation and human specialist review are pending.
 
+Verses 20–24 retain the pinned WLC provisionally. Fifteen cubits above the mountains is a strong contextual reading; the reference point is not supplied in the translation. In verse 22, breath of life naturalizes the overlapping Hebrew breath/spirit wording, whose literal alternative is breath of the spirit of life. Verse 23 retains the initial active and later passive without supplying a divine name. The plain XML form note follows the remain verb, not the initial wipe verb; all WLC codepoints remain unchanged. Swete1901 p.12 has shorter wording in verse 22 and a different initial verb form marked E in its verse 23 apparatus. The E witness identification and modern apparatus are unverified. Only limited consonantal phrases in Leningrad4v/5r were inspected; full collation and specialist review remain pending.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 7:1?19 (en), research pilot v0.4.32. https://yangs777.github.io/hansam-bible/en/genesis-7/
+Hansam Yang. Original Bible: Genesis 7:1–24 (en), research pilot v0.4.33. https://yangs777.github.io/hansam-bible/en/genesis-7/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Génesis 6:1–22
 
-Hansam Yang · Original Bible · v0.4.32
+Hansam Yang · Original Bible · v0.4.33
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -90,6 +90,10 @@ Previous v0.4.31
 
 Cuando la humanidad comenzó a multiplicarse sobre la faz de la tierra y les nacieron hijas,
 
+Previous v0.4.32
+
+Cuando la humanidad comenzó a multiplicarse sobre la faz de la tierra y les nacieron hijas,
+
 ## 2 · HYB.GEN.006.002
 
 Hebrew display (MT/WLC): וַיִּרְא֤וּ בְנֵי־הָֽאֱלֹהִים֙ אֶת־בְּנ֣וֹת הָֽאָדָ֔ם כִּ֥י טֹבֹ֖ת הֵ֑נָּה וַיִּקְח֤וּ לָהֶם֙ נָשִׁ֔ים מִכֹּ֖ל אֲשֶׁ֥ר בָּחָֽרוּ׃
@@ -161,6 +165,10 @@ Previous v0.4.30
 Los hijos de Dios vieron que las hijas de la humanidad eran hermosas y tomaron para sí esposas de entre todas las que escogieron.
 
 Previous v0.4.31
+
+Los hijos de Dios vieron que las hijas de la humanidad eran hermosas y tomaron para sí esposas de entre todas las que escogieron.
+
+Previous v0.4.32
 
 Los hijos de Dios vieron que las hijas de la humanidad eran hermosas y tomaron para sí esposas de entre todas las que escogieron.
 
@@ -238,6 +246,10 @@ Previous v0.4.31
 
 YHWH dijo: «Mi espíritu no permanecerá en la humanidad para siempre, porque también es carne. Sus días serán ciento veinte años».
 
+Previous v0.4.32
+
+YHWH dijo: «Mi espíritu no permanecerá en la humanidad para siempre, porque también es carne. Sus días serán ciento veinte años».
+
 ## 4 · HYB.GEN.006.004
 
 Hebrew display (MT/WLC): הַנְּפִלִ֞ים הָי֣וּ בָאָרֶץ֮ בַּיָּמִ֣ים הָהֵם֒ וְגַ֣ם אַֽחֲרֵי־כֵ֗ן אֲשֶׁ֨ר יָבֹ֜אוּ בְּנֵ֤י הָֽאֱלֹהִים֙ אֶל־בְּנ֣וֹת הָֽאָדָ֔ם וְיָלְד֖וּ לָהֶ֑ם הֵ֧מָּה הַגִּבֹּרִ֛ים אֲשֶׁ֥ר מֵעוֹלָ֖ם אַנְשֵׁ֥י הַשֵּֽׁם׃
@@ -309,6 +321,10 @@ Previous v0.4.30
 Los nefilim estaban en la tierra en aquellos días, y también después, cuando los hijos de Dios se unían a las hijas de la humanidad y ellas les daban hijos. Esos fueron los poderosos de antaño, hombres de renombre.
 
 Previous v0.4.31
+
+Los nefilim estaban en la tierra en aquellos días, y también después, cuando los hijos de Dios se unían a las hijas de la humanidad y ellas les daban hijos. Esos fueron los poderosos de antaño, hombres de renombre.
+
+Previous v0.4.32
 
 Los nefilim estaban en la tierra en aquellos días, y también después, cuando los hijos de Dios se unían a las hijas de la humanidad y ellas les daban hijos. Esos fueron los poderosos de antaño, hombres de renombre.
 
@@ -386,6 +402,10 @@ Previous v0.4.31
 
 YHWH vio que la maldad de la humanidad era grande en la tierra y que todo lo que forjaban los pensamientos de su corazón era solo maldad todo el tiempo.
 
+Previous v0.4.32
+
+YHWH vio que la maldad de la humanidad era grande en la tierra y que todo lo que forjaban los pensamientos de su corazón era solo maldad todo el tiempo.
+
 ## 6 · HYB.GEN.006.006
 
 Hebrew display (MT/WLC): וַיִּנָּ֣חֶם יְהוָ֔ה כִּֽי־עָשָׂ֥ה אֶת־הָֽאָדָ֖ם בָּאָ֑רֶץ וַיִּתְעַצֵּ֖ב אֶל־לִבּֽוֹ׃
@@ -457,6 +477,10 @@ Previous v0.4.30
 YHWH lamentó haber hecho a la humanidad en la tierra y se afligió en su corazón.
 
 Previous v0.4.31
+
+YHWH lamentó haber hecho a la humanidad en la tierra y se afligió en su corazón.
+
+Previous v0.4.32
 
 YHWH lamentó haber hecho a la humanidad en la tierra y se afligió en su corazón.
 
@@ -542,6 +566,10 @@ Previous v0.4.31
 
 YHWH dijo: «Borraré de la faz del suelo a la humanidad que creé, desde los seres humanos hasta las bestias, los seres que se arrastran y las aves de los cielos, porque lamento haberlos hecho».
 
+Previous v0.4.32
+
+YHWH dijo: «Borraré de la faz del suelo a la humanidad que creé, desde los seres humanos hasta las bestias, los seres que se arrastran y las aves de los cielos, porque lamento haberlos hecho».
+
 ## 8 · HYB.GEN.006.008
 
 Hebrew display (MT/WLC): וְנֹ֕חַ מָ֥צָא חֵ֖ן בְּעֵינֵ֥י יְהוָֽה׃
@@ -608,6 +636,10 @@ Previous v0.4.31
 
 Pero Noé halló gracia a los ojos de YHWH.
 
+Previous v0.4.32
+
+Pero Noé halló gracia a los ojos de YHWH.
+
 ## 9 · HYB.GEN.006.009
 
 Hebrew display (MT/WLC): אֵ֚לֶּה תּוֹלְדֹ֣ת נֹ֔חַ נֹ֗חַ אִ֥ישׁ צַדִּ֛יק תָּמִ֥ים הָיָ֖ה בְּדֹֽרֹתָ֑יו אֶת־הָֽאֱלֹהִ֖ים הִֽתְהַלֶּךְ־נֹֽחַ׃
@@ -665,6 +697,10 @@ Previous v0.4.30
 Esta es la historia de Noé. Noé era un hombre justo, íntegro en sus generaciones. Noé caminaba con Dios.
 
 Previous v0.4.31
+
+Esta es la historia de Noé. Noé era un hombre justo, íntegro en sus generaciones. Noé caminaba con Dios.
+
+Previous v0.4.32
 
 Esta es la historia de Noé. Noé era un hombre justo, íntegro en sus generaciones. Noé caminaba con Dios.
 
@@ -728,6 +764,10 @@ Previous v0.4.31
 
 Noé engendró tres hijos: Sem, Cam y Jafet.
 
+Previous v0.4.32
+
+Noé engendró tres hijos: Sem, Cam y Jafet.
+
 ## 11 · HYB.GEN.006.011
 
 Hebrew display (MT/WLC): וַתִּשָּׁחֵ֥ת הָאָ֖רֶץ לִפְנֵ֣י הָֽאֱלֹהִ֑ים וַתִּמָּלֵ֥א הָאָ֖רֶץ חָמָֽס׃
@@ -785,6 +825,10 @@ Previous v0.4.30
 La tierra estaba corrompida ante Dios, y la tierra estaba llena de violencia.
 
 Previous v0.4.31
+
+La tierra estaba corrompida ante Dios, y la tierra estaba llena de violencia.
+
+Previous v0.4.32
 
 La tierra estaba corrompida ante Dios, y la tierra estaba llena de violencia.
 
@@ -848,6 +892,10 @@ Previous v0.4.31
 
 Dios vio la tierra, y he aquí que estaba corrompida, porque toda carne había corrompido su camino sobre la tierra.
 
+Previous v0.4.32
+
+Dios vio la tierra, y he aquí que estaba corrompida, porque toda carne había corrompido su camino sobre la tierra.
+
 ## 13 · HYB.GEN.006.013
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר אֱלֹהִ֜ים לְנֹ֗חַ קֵ֤ץ כָּל־בָּשָׂר֙ בָּ֣א לְפָנַ֔י כִּֽי־מָלְאָ֥ה הָאָ֛רֶץ חָמָ֖ס מִפְּנֵיהֶ֑ם וְהִנְנִ֥י מַשְׁחִיתָ֖ם אֶת־הָאָֽרֶץ׃
@@ -901,6 +949,10 @@ Previous v0.4.30
 Dios dijo a Noé: «El fin de toda carne ha llegado ante mí, porque la tierra está llena de violencia por causa de ellos. Mira, voy a destruirlos junto con la tierra.
 
 Previous v0.4.31
+
+Dios dijo a Noé: «El fin de toda carne ha llegado ante mí, porque la tierra está llena de violencia por causa de ellos. Mira, voy a destruirlos junto con la tierra.
+
+Previous v0.4.32
 
 Dios dijo a Noé: «El fin de toda carne ha llegado ante mí, porque la tierra está llena de violencia por causa de ellos. Mira, voy a destruirlos junto con la tierra.
 
@@ -960,6 +1012,10 @@ Previous v0.4.31
 
 Hazte un arca de madera de gófer. Haz compartimentos en el arca y recúbrela por dentro y por fuera con brea.
 
+Previous v0.4.32
+
+Hazte un arca de madera de gófer. Haz compartimentos en el arca y recúbrela por dentro y por fuera con brea.
+
 ## 15 · HYB.GEN.006.015
 
 Hebrew display (MT/WLC): וְזֶ֕ה אֲשֶׁ֥ר תַּֽעֲשֶׂ֖ה אֹתָ֑הּ שְׁלֹ֧שׁ מֵא֣וֹת אַמָּ֗ה אֹ֚רֶךְ הַתֵּבָ֔ה חֲמִשִּׁ֤ים אַמָּה֙ רָחְבָּ֔הּ וּשְׁלֹשִׁ֥ים אַמָּ֖ה קוֹמָתָֽהּ׃
@@ -1016,6 +1072,10 @@ Previous v0.4.31
 
 Así la harás: el largo del arca será de trescientos codos, su ancho de cincuenta codos y su altura de treinta codos.
 
+Previous v0.4.32
+
+Así la harás: el largo del arca será de trescientos codos, su ancho de cincuenta codos y su altura de treinta codos.
+
 ## 16 · HYB.GEN.006.016
 
 Hebrew display (MT/WLC): צֹ֣הַר ׀ תַּֽעֲשֶׂ֣ה לַתֵּבָ֗ה וְאֶל־אַמָּה֙ תְּכַלֶ֣נָּה מִלְמַ֔עְלָה וּפֶ֥תַח הַתֵּבָ֖ה בְּצִדָּ֣הּ תָּשִׂ֑ים תַּחְתִּיִּ֛ם שְׁנִיִּ֥ם וּשְׁלִשִׁ֖ים תַּֽעֲשֶֽׂהָ׃
@@ -1069,6 +1129,10 @@ Previous v0.4.31
 
 Haz una abertura de luz para el arca, y termínala a un codo desde arriba. Pon la puerta del arca en su costado; hazla con un piso inferior, un segundo y un tercero.
 
+Previous v0.4.32
+
+Haz una abertura de luz para el arca, y termínala a un codo desde arriba. Pon la puerta del arca en su costado; hazla con un piso inferior, un segundo y un tercero.
+
 ## 17 · HYB.GEN.006.017
 
 Hebrew display (MT/WLC): וַאֲנִ֗י הִנְנִי֩ מֵבִ֨יא אֶת־הַמַּבּ֥וּל מַ֨יִם֙ עַל־הָאָ֔רֶץ לְשַׁחֵ֣ת כָּל־בָּשָׂ֗ר אֲשֶׁר־בּוֹ֙ ר֣וּחַ חַיִּ֔ים מִתַּ֖חַת הַשָּׁמָ֑יִם כֹּ֥ל אֲשֶׁר־בָּאָ֖רֶץ יִגְוָֽע׃
@@ -1116,6 +1180,10 @@ Previous v0.4.30
 Mira, yo mismo voy a traer un diluvio de aguas sobre la tierra para destruir toda carne bajo el cielo que tenga aliento de vida. Todo lo que hay en la tierra perecerá.
 
 Previous v0.4.31
+
+Mira, yo mismo voy a traer un diluvio de aguas sobre la tierra para destruir toda carne bajo el cielo que tenga aliento de vida. Todo lo que hay en la tierra perecerá.
+
+Previous v0.4.32
 
 Mira, yo mismo voy a traer un diluvio de aguas sobre la tierra para destruir toda carne bajo el cielo que tenga aliento de vida. Todo lo que hay en la tierra perecerá.
 
@@ -1171,6 +1239,10 @@ Previous v0.4.31
 
 Pero estableceré mi pacto contigo. Entrarás en el arca, tú y tus hijos, tu mujer y las mujeres de tus hijos contigo.
 
+Previous v0.4.32
+
+Pero estableceré mi pacto contigo. Entrarás en el arca, tú y tus hijos, tu mujer y las mujeres de tus hijos contigo.
+
 ## 19 · HYB.GEN.006.019
 
 Hebrew display (MT/WLC): וּמִכָּל־הָ֠חַי מִֽכָּל־בָּשָׂ֞ר שְׁנַ֧יִם מִכֹּ֛ל תָּבִ֥יא אֶל־הַתֵּבָ֖ה לְהַחֲיֹ֣ת אִתָּ֑ךְ זָכָ֥ר וּנְקֵבָ֖ה יִֽהְיֽוּ׃
@@ -1223,6 +1295,10 @@ Previous v0.4.31
 
 De todo ser viviente, de toda carne, llevarás dos de cada uno al arca para conservarlos con vida contigo; serán macho y hembra.
 
+Previous v0.4.32
+
+De todo ser viviente, de toda carne, llevarás dos de cada uno al arca para conservarlos con vida contigo; serán macho y hembra.
+
 ## 20 · HYB.GEN.006.020
 
 Hebrew display (MT/WLC): מֵהָע֣וֹף לְמִינֵ֗הוּ וּמִן־הַבְּהֵמָה֙ לְמִינָ֔הּ מִכֹּ֛ל רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ שְׁנַ֧יִם מִכֹּ֛ל יָבֹ֥אוּ אֵלֶ֖יךָ לְהַֽחֲיֽוֹת׃
@@ -1268,6 +1344,10 @@ Previous v0.4.30
 De las aves según su clase, de los animales según su clase y de todo lo que se arrastra por el suelo según su clase, dos de cada uno vendrán a ti para ser conservados con vida.
 
 Previous v0.4.31
+
+De las aves según su clase, de los animales según su clase y de todo lo que se arrastra por el suelo según su clase, dos de cada uno vendrán a ti para ser conservados con vida.
+
+Previous v0.4.32
 
 De las aves según su clase, de los animales según su clase y de todo lo que se arrastra por el suelo según su clase, dos de cada uno vendrán a ti para ser conservados con vida.
 
@@ -1319,6 +1399,10 @@ Previous v0.4.31
 
 Y tú, toma de todo alimento que se come y reúnelo junto a ti; servirá de alimento para ti y para ellos.»
 
+Previous v0.4.32
+
+Y tú, toma de todo alimento que se come y reúnelo junto a ti; servirá de alimento para ti y para ellos.»
+
 ## 22 · HYB.GEN.006.022
 
 Hebrew display (MT/WLC): וַיַּ֖עַשׂ נֹ֑חַ כְּ֠כֹל אֲשֶׁ֨ר צִוָּ֥ה אֹת֛וֹ אֱלֹהִ֖ים כֵּ֥ן עָשָֽׂה׃
@@ -1367,6 +1451,10 @@ Previous v0.4.31
 
 Noé lo hizo así; conforme a todo lo que Dios le había mandado, así lo hizo.
 
+Previous v0.4.32
+
+Noé lo hizo así; conforme a todo lo que Dios le había mandado, así lo hizo.
+
 ## Notes
 
 La cláusula temporal del v.1 desemboca en el v.2. La identidad de los hijos de Dios y la coerción no quedan fijadas por el texto. Swete p.9 examinado dice ángeles, distinto de hijos en WLC.
@@ -1395,7 +1483,7 @@ Los vv.20–22 conservan categorías, clases, preservación, alimento para ambos
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 6:1–22 (es), research pilot v0.4.32. https://yangs777.github.io/hansam-bible/es/genesis-6/
+Hansam Yang. Original Bible: Genesis 6:1–22 (es), research pilot v0.4.33. https://yangs777.github.io/hansam-bible/es/genesis-6/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
