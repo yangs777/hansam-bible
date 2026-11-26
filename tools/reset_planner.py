@@ -166,12 +166,23 @@ def daily_budget(current, policy, now, ledger=None):
            or not math.isfinite(entry[k]) or not 0 <= entry[k] <= 100
            for k in ('allowance_points', 'opening_remaining_points', 'reserved_points')):
         raise ValueError('Invalid daily budget ledger; do not reset spent allowance')
+    if final_window:
+        # 2026-11-24 owner: in the last `weekly_reserve_release_hours` before the weekly reset the
+        # frozen daily allowance and earlier same-day reservations do NOT cap work; the live weekly
+        # remaining is the only weekly limit (the 5-hour reserve and safety margins still apply in
+        # plan()). 11-26: agents compared reservations (84) with the frozen 50-point allowance and
+        # stopped while 37% of the week expired unused, so report the live figures directly.
+        return {'key': key, 'entry': entry, 'days_until_reset': days, 'final_window': True,
+                'frozen_daily_allowance_applies': False,
+                'rule_ko': '주간 리셋 %g시간 이내(2026-11-24 소유자 지시): 15%%p 보호분·하루 고정 할당량·같은 날 이전 예약은 '
+                           '한도가 아니다. 실제 주간 잔여까지 쓴다. 5시간 25%%p 보호와 안전 여유만 유지한다.' % release_hours,
+                'reserve_points': 0.0, 'allowance_points': remaining,
+                'charged_points': 0.0, 'remaining_points': remaining}
     spent = max(entry['reserved_points'], entry['opening_remaining_points']-remaining, 0.0)
     # Raising a configured reserve must also tighten an already-open day.
     allowance = min(entry['allowance_points'], max(0.0, remaining-reserve)+spent)
-    if final_window:  # last day: everything that is left may be used, not just the frozen daily share
-        allowance = remaining+spent
-    return {'key': key, 'entry': entry, 'days_until_reset': days, 'final_window': final_window,
+    return {'key': key, 'entry': entry, 'days_until_reset': days, 'final_window': False,
+            'frozen_daily_allowance_applies': True,
             'reserve_points': reserve, 'allowance_points': allowance,
             'charged_points': spent, 'remaining_points': max(0.0, allowance-spent)}
 
@@ -182,6 +193,13 @@ def reserve_daily_budget(ledger, budget, points):
         raise ValueError('Daily allowance cannot cover reservation')
     result = json.loads(json.dumps(ledger))
     entry = dict(budget['entry'])
+    if budget.get('final_window'):
+        # Final-window batches are logged separately: they must not push the frozen day's
+        # reserved_points past its allowance (or past 100, which would read as a damaged ledger).
+        entry['final_window_reserved_points'] = float(entry.get('final_window_reserved_points', 0.0))+points
+        entry['final_window_batches'] = int(entry.get('final_window_batches', 0))+1
+        result.setdefault('days', {})[budget['key']] = entry
+        return result
     entry['reserved_points'] = budget['charged_points']+points
     result.setdefault('days', {})[budget['key']] = entry
     return result
@@ -247,7 +265,11 @@ def plan(current, previous, policy, events, now, ledger=None):
             result['reasons'].append(window + ' reserve cannot cover the estimated batch and safety margin')
             return result
     result['start_batch'] = True
-    result['reasons'].append('Daily allowance covers one batch; reset proximity is not required')
+    if budget['final_window']:
+        result['reasons'].append('Final window before weekly reset: reserve released and frozen daily allowance lifted '
+                                 '(owner 2026-11-24); live weekly remaining covers one batch. Do not stop on the daily ledger.')
+    else:
+        result['reasons'].append('Daily allowance covers one batch; reset proximity is not required')
     result['minutes_until_live_resets'] = {k: round(v, 1) for k, v in minutes.items()}
     result['after_batch'] = 'Recheck actual shared usage; stop if a protected reserve is approached. Estimates are not hard provider-side caps.'
     return result

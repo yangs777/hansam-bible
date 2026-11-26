@@ -107,6 +107,44 @@ class ResetPlannerTests(unittest.TestCase):
         self.assertEqual(last['reserve_points'], 0)
         self.assertAlmostEqual(last['remaining_points'], 30)
 
+    def test_final_window_ignores_frozen_daily_allowance_and_prior_reservations(self):
+        # 11-26 replay: day frozen at allowance 50, reservations already 84, live remaining 37,
+        # 6 hours to reset -> work must continue (37% expired unused when agents stopped).
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=63, resetsAt=(self.now+dt.timedelta(hours=6)).timestamp())
+        current = snapshot(self.raw, self.now)
+        key = self.now.astimezone(dt.timezone(dt.timedelta(hours=9))).date().isoformat()+'|'+current['weekly']['resets_at']
+        ledger = {'days': {key: {'allowance_points': 50.0, 'opening_remaining_points': 50.0, 'reserved_points': 84.0,
+                                 'opened_at': self.now.isoformat()}}}
+        result = plan(current, None, self.policy, [], self.now, ledger)
+        self.assertTrue(result['start_batch'], result['reasons'])
+        self.assertEqual(result['batch_verses'], 5)
+        budget = result['daily_budget']
+        self.assertFalse(budget['frozen_daily_allowance_applies'])
+        self.assertAlmostEqual(budget['remaining_points'], 37)
+        # Many final-window reservations never corrupt the ledger (values stay <= 100) or block later runs.
+        for _ in range(30):
+            ledger = reserve_daily_budget(ledger, daily_budget(current, self.policy, self.now, ledger), 7)
+        entry = ledger['days'][key]
+        self.assertEqual(entry['reserved_points'], 84.0)
+        self.assertEqual(entry['final_window_batches'], 30)
+        self.assertTrue(plan(current, None, self.policy, [], self.now, ledger)['start_batch'])
+
+    def test_final_window_keeps_five_hour_guard_and_live_weekly_limit(self):
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=63, resetsAt=(self.now+dt.timedelta(hours=6)).timestamp())
+        self.raw['rateLimitsByLimitId']['codex']['primary']['usedPercent'] = 60  # 40 left - 23 < 25 reserve
+        self.assertFalse(self.decision()['start_batch'])
+        self.raw['rateLimitsByLimitId']['codex']['primary']['usedPercent'] = 10
+        self.raw['rateLimitsByLimitId']['codex']['secondary']['usedPercent'] = 99
+        self.assertFalse(self.decision()['start_batch'])
+
+    def test_outside_final_window_frozen_allowance_still_applies(self):
+        self.raw['rateLimitsByLimitId']['codex']['secondary'].update(usedPercent=63, resetsAt=(self.now+dt.timedelta(hours=30)).timestamp())
+        current = snapshot(self.raw, self.now)
+        key = self.now.astimezone(dt.timezone(dt.timedelta(hours=9))).date().isoformat()+'|'+current['weekly']['resets_at']
+        ledger = {'days': {key: {'allowance_points': 10.0, 'opening_remaining_points': 40.0, 'reserved_points': 10.0,
+                                 'opened_at': self.now.isoformat()}}}
+        self.assertFalse(plan(current, None, self.policy, [], self.now, ledger)['start_batch'])
+
     def test_either_quota_can_veto_even_with_the_other_reset_due(self):
         self.raw['rateLimitsByLimitId']['codex']['primary'].update(usedPercent=0, resetsAt=(self.now+dt.timedelta(minutes=30)).timestamp())
         # Within the last 24h the weekly reserve is released, but the batch must still fit what is left.
