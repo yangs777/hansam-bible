@@ -1,6 +1,6 @@
 # Génesis 4:1–26
 
-Hansam Yang · Original Bible · v0.4.33
+Hansam Yang · Original Bible · v0.4.34
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -136,6 +136,10 @@ Previous v0.4.32
 
 El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».
 
+Previous v0.4.33
+
+El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».
+
 Previous v0.4.9
 
 El hombre se acostó con Eva, su mujer, y ella concibió y dio a luz a Caín. Ella dijo: «He adquirido un varón con la ayuda de YHWH».
@@ -255,6 +259,10 @@ Previous v0.4.31
 Ella volvió a dar a luz a su hermano Abel. Abel llegó a ser pastor de rebaños, y Caín era labrador de la tierra.
 
 Previous v0.4.32
+
+Ella volvió a dar a luz a su hermano Abel. Abel llegó a ser pastor de rebaños, y Caín era labrador de la tierra.
+
+Previous v0.4.33
 
 Ella volvió a dar a luz a su hermano Abel. Abel llegó a ser pastor de rebaños, y Caín era labrador de la tierra.
 
@@ -382,6 +390,10 @@ Previous v0.4.32
 
 Pasado un tiempo, Caín trajo a YHWH una ofrenda de los frutos de la tierra.
 
+Previous v0.4.33
+
+Pasado un tiempo, Caín trajo a YHWH una ofrenda de los frutos de la tierra.
+
 ## 4 · HYB.GEN.004.004
 
 Hebrew display (MT/WLC): וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃
@@ -503,6 +515,10 @@ Previous v0.4.31
 Abel también trajo de los primogénitos de su rebaño y de sus porciones de grasa. YHWH miró con favor a Abel y a su ofrenda.
 
 Previous v0.4.32
+
+Abel también trajo de los primogénitos de su rebaño y de sus porciones de grasa. YHWH miró con favor a Abel y a su ofrenda.
+
+Previous v0.4.33
 
 Abel también trajo de los primogénitos de su rebaño y de sus porciones de grasa. YHWH miró con favor a Abel y a su ofrenda.
 
@@ -630,6 +646,10 @@ Previous v0.4.32
 
 Pero no miró con favor a Caín ni a su ofrenda. Caín se enojó mucho y su semblante decayó.
 
+Previous v0.4.33
+
+Pero no miró con favor a Caín ni a su ofrenda. Caín se enojó mucho y su semblante decayó.
+
 ## 6 · HYB.GEN.004.006
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר יְהוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃
@@ -745,6 +765,10 @@ Previous v0.4.31
 YHWH dijo a Caín: «¿Por qué estás enojado y por qué ha decaído tu semblante?
 
 Previous v0.4.32
+
+YHWH dijo a Caín: «¿Por qué estás enojado y por qué ha decaído tu semblante?
+
+Previous v0.4.33
 
 YHWH dijo a Caín: «¿Por qué estás enojado y por qué ha decaído tu semblante?
 
@@ -868,6 +892,10 @@ Previous v0.4.32
 
 Si haces lo que está bien, ¿no serás aceptado? Pero si no haces lo que está bien, el pecado está agazapado a la puerta. Su deseo se dirige a ti, pero tú debes dominarlo.”
 
+Previous v0.4.33
+
+Si haces lo que está bien, ¿no serás aceptado? Pero si no haces lo que está bien, el pecado está agazapado a la puerta. Su deseo se dirige a ti, pero tú debes dominarlo.”
+
 ## 8 · HYB.GEN.004.008
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
@@ -988,6 +1016,10 @@ Previous v0.4.32
 
 Caín habló con su hermano Abel. Mientras estaban en el campo, Caín se levantó contra su hermano Abel y lo mató.
 
+Previous v0.4.33
+
+Caín habló con su hermano Abel. Mientras estaban en el campo, Caín se levantó contra su hermano Abel y lo mató.
+
 ## 9 · HYB.GEN.004.009
 
 Hebrew display (MT/WLC): וַיֹּ֤אמֶר יְהוָה֙ אֶל־קַ֔יִן אֵ֖י הֶ֣בֶל אָחִ֑יךָ וַיֹּ֨אמֶר֙ לֹ֣א יָדַ֔עְתִּי הֲשֹׁמֵ֥ר אָחִ֖י אָנֹֽכִי׃
@@ -1102,6 +1134,10 @@ Previous v0.4.32
 
 YHWH dijo a Caín: «¿Dónde está tu hermano Abel?». Él respondió: «No sé. ¿Acaso soy yo el guardián de mi hermano?».
 
+Previous v0.4.33
+
+YHWH dijo a Caín: «¿Dónde está tu hermano Abel?». Él respondió: «No sé. ¿Acaso soy yo el guardián de mi hermano?».
+
 ## 10 · HYB.GEN.004.010
 
 Hebrew display (MT/WLC): וַיֹּ֖אמֶר מֶ֣ה עָשִׂ֑יתָ ק֚וֹל דְּמֵ֣י אָחִ֔יךָ צֹעֲקִ֥ים אֵלַ֖י מִן־הָֽאֲדָמָֽה׃
@@ -1213,6 +1249,10 @@ Previous v0.4.31
 Él dijo: «¿Qué has hecho? La voz de la sangre de tu hermano clama a mí desde la tierra.
 
 Previous v0.4.32
+
+Él dijo: «¿Qué has hecho? La voz de la sangre de tu hermano clama a mí desde la tierra.
+
+Previous v0.4.33
 
 Él dijo: «¿Qué has hecho? La voz de la sangre de tu hermano clama a mí desde la tierra.
 
@@ -1342,6 +1382,10 @@ Previous v0.4.32
 
 Ahora eres maldito de la tierra, que abrió su boca para recibir de tu mano la sangre de tu hermano.
 
+Previous v0.4.33
+
+Ahora eres maldito de la tierra, que abrió su boca para recibir de tu mano la sangre de tu hermano.
+
 ## 12 · HYB.GEN.004.012
 
 Hebrew display (MT/WLC): כִּ֤י תַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה לֹֽא־תֹסֵ֥ף תֵּת־כֹּחָ֖הּ לָ֑ךְ נָ֥ע וָנָ֖ד תִּֽהְיֶ֥ה בָאָֽרֶץ׃
@@ -1449,6 +1493,10 @@ Previous v0.4.31
 Cuando cultives la tierra, ya no te dará su fuerza. Serás errante y fugitivo en la tierra».
 
 Previous v0.4.32
+
+Cuando cultives la tierra, ya no te dará su fuerza. Serás errante y fugitivo en la tierra».
+
+Previous v0.4.33
 
 Cuando cultives la tierra, ya no te dará su fuerza. Serás errante y fugitivo en la tierra».
 
@@ -1568,6 +1616,10 @@ Previous v0.4.32
 
 Caín dijo a YHWH: «Mi castigo es demasiado grande para soportarlo.
 
+Previous v0.4.33
+
+Caín dijo a YHWH: «Mi castigo es demasiado grande para soportarlo.
+
 ## 14 · HYB.GEN.004.014
 
 Hebrew display (MT/WLC): הֵן֩ גֵּרַ֨שְׁתָּ אֹתִ֜י הַיּ֗וֹם מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה וּמִפָּנֶ֖יךָ אֶסָּתֵ֑ר וְהָיִ֜יתִי נָ֤ע וָנָד֙ בָּאָ֔רֶץ וְהָיָ֥ה כָל־מֹצְאִ֖י יַֽהַרְגֵֽנִי׃
@@ -1681,6 +1733,10 @@ Previous v0.4.31
 Mira, hoy me has expulsado de la tierra, y quedaré oculto de tu rostro. Seré errante y fugitivo en la tierra, y cualquiera que me encuentre me matará».
 
 Previous v0.4.32
+
+Mira, hoy me has expulsado de la tierra, y quedaré oculto de tu rostro. Seré errante y fugitivo en la tierra, y cualquiera que me encuentre me matará».
+
+Previous v0.4.33
 
 Mira, hoy me has expulsado de la tierra, y quedaré oculto de tu rostro. Seré errante y fugitivo en la tierra, y cualquiera que me encuentre me matará».
 
@@ -1800,6 +1856,10 @@ Previous v0.4.32
 
 YHWH le dijo: «Por eso, si alguien mata a Caín, la venganza será séptuple». YHWH dispuso una señal para Caín, para que nadie que lo encontrara lo hiriera.
 
+Previous v0.4.33
+
+YHWH le dijo: «Por eso, si alguien mata a Caín, la venganza será séptuple». YHWH dispuso una señal para Caín, para que nadie que lo encontrara lo hiriera.
+
 ## 16 · HYB.GEN.004.016
 
 Hebrew display (MT/WLC): וַיֵּ֥צֵא קַ֖יִן מִלִּפְנֵ֣י יְהוָ֑ה וַיֵּ֥שֶׁב בְּאֶֽרֶץ־נ֖וֹד קִדְמַת־עֵֽדֶן׃
@@ -1907,6 +1967,10 @@ Previous v0.4.31
 Caín salió de la presencia de YHWH y se estableció en la tierra de Nod, frente a Edén.
 
 Previous v0.4.32
+
+Caín salió de la presencia de YHWH y se estableció en la tierra de Nod, frente a Edén.
+
+Previous v0.4.33
 
 Caín salió de la presencia de YHWH y se estableció en la tierra de Nod, frente a Edén.
 
@@ -2022,6 +2086,10 @@ Previous v0.4.32
 
 Caín tuvo relaciones con su mujer, y ella concibió y dio a luz a Enoc. Él estaba construyendo una ciudad y la llamó Enoc, por el nombre de su hijo.
 
+Previous v0.4.33
+
+Caín tuvo relaciones con su mujer, y ella concibió y dio a luz a Enoc. Él estaba construyendo una ciudad y la llamó Enoc, por el nombre de su hijo.
+
 ## 18 · HYB.GEN.004.018
 
 Hebrew display (MT/WLC): וַיִּוָּלֵ֤ד לַֽחֲנוֹךְ֙ אֶת־עִירָ֔ד וְעִירָ֕ד יָלַ֖ד אֶת־מְחֽוּיָאֵ֑ל וּמְחִיּיָאֵ֗ל יָלַד֙ אֶת־מְת֣וּשָׁאֵ֔ל וּמְתוּשָׁאֵ֖ל יָלַ֥ד אֶת־לָֽמֶךְ׃
@@ -2128,6 +2196,10 @@ Previous v0.4.32
 
 A Enoc le nació Irad; Irad engendró a Mejuyael, Mejuyael engendró a Metusael y Metusael engendró a Lamec.
 
+Previous v0.4.33
+
+A Enoc le nació Irad; Irad engendró a Mejuyael, Mejuyael engendró a Metusael y Metusael engendró a Lamec.
+
 ## 19 · HYB.GEN.004.019
 
 Hebrew display (MT/WLC): וַיִּֽקַּֽח־ל֥וֹ לֶ֖מֶךְ שְׁתֵּ֣י נָשִׁ֑ים שֵׁ֤ם הָֽאַחַת֙ עָדָ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית צִלָּֽה׃
@@ -2231,6 +2303,10 @@ Previous v0.4.31
 Lamec tomó dos mujeres: una se llamaba Ada y la otra Zila.
 
 Previous v0.4.32
+
+Lamec tomó dos mujeres: una se llamaba Ada y la otra Zila.
+
+Previous v0.4.33
 
 Lamec tomó dos mujeres: una se llamaba Ada y la otra Zila.
 
@@ -2346,6 +2422,10 @@ Previous v0.4.32
 
 Ada dio a luz a Jabal. Él fue el padre de quienes viven en tiendas y crían ganado.
 
+Previous v0.4.33
+
+Ada dio a luz a Jabal. Él fue el padre de quienes viven en tiendas y crían ganado.
+
 ## 21 · HYB.GEN.004.021
 
 Hebrew display (MT/WLC): וְשֵׁ֥ם אָחִ֖יו יוּבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י כָּל־תֹּפֵ֥שׂ כִּנּ֖וֹר וְעוּגָֽב׃
@@ -2458,6 +2538,10 @@ Previous v0.4.32
 
 Su hermano se llamaba Jubal. Él fue el padre de todos los que tocan la lira y la flauta.
 
+Previous v0.4.33
+
+Su hermano se llamaba Jubal. Él fue el padre de todos los que tocan la lira y la flauta.
+
 ## 22 · HYB.GEN.004.022
 
 Hebrew display (MT/WLC): וְצִלָּ֣ה גַם־הִ֗וא יָֽלְדָה֙ אֶת־תּ֣וּבַל קַ֔יִן לֹטֵ֕שׁ כָּל־חֹרֵ֥שׁ נְחֹ֖שֶׁת וּבַרְזֶ֑ל וַֽאֲח֥וֹת תּֽוּבַל־קַ֖יִן נַֽעֲמָֽה׃
@@ -2563,6 +2647,10 @@ Previous v0.4.31
 Zila también dio a luz a Tubal-caín, forjador de toda clase de herramientas de bronce y de hierro. La hermana de Tubal-caín fue Naama.
 
 Previous v0.4.32
+
+Zila también dio a luz a Tubal-caín, forjador de toda clase de herramientas de bronce y de hierro. La hermana de Tubal-caín fue Naama.
+
+Previous v0.4.33
 
 Zila también dio a luz a Tubal-caín, forjador de toda clase de herramientas de bronce y de hierro. La hermana de Tubal-caín fue Naama.
 
@@ -2674,6 +2762,10 @@ Previous v0.4.32
 
 Lamec dijo a sus mujeres: «Ada y Zila, oíd mi voz; mujeres de Lamec, escuchad mis palabras. He matado a un hombre por herirme, a un joven por golpearme.
 
+Previous v0.4.33
+
+Lamec dijo a sus mujeres: «Ada y Zila, oíd mi voz; mujeres de Lamec, escuchad mis palabras. He matado a un hombre por herirme, a un joven por golpearme.
+
 ## 24 · HYB.GEN.004.024
 
 Hebrew display (MT/WLC): כִּ֥י שִׁבְעָתַ֖יִם יֻקַּם־קָ֑יִן וְלֶ֖מֶךְ שִׁבְעִ֥ים וְשִׁבְעָֽה׃
@@ -2779,6 +2871,10 @@ Previous v0.4.31
 Si por Caín se toma venganza siete veces, por Lamec, setenta y siete veces».
 
 Previous v0.4.32
+
+Si por Caín se toma venganza siete veces, por Lamec, setenta y siete veces».
+
+Previous v0.4.33
 
 Si por Caín se toma venganza siete veces, por Lamec, setenta y siete veces».
 
@@ -2890,6 +2986,10 @@ Previous v0.4.32
 
 Adán volvió a tener relaciones con su mujer. Ella dio a luz a un hijo y lo llamó Set, pues dijo: «Dios me ha concedido otro descendiente en lugar de Abel, porque Caín lo mató».
 
+Previous v0.4.33
+
+Adán volvió a tener relaciones con su mujer. Ella dio a luz a un hijo y lo llamó Set, pues dijo: «Dios me ha concedido otro descendiente en lugar de Abel, porque Caín lo mató».
+
 ## 26 · HYB.GEN.004.026
 
 Hebrew display (MT/WLC): וּלְשֵׁ֤ת גַּם־הוּא֙ יֻלַּד־בֵּ֔ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ אֱנ֑וֹשׁ אָ֣ז הוּחַ֔ל לִקְרֹ֖א בְּשֵׁ֥ם יְהוָֽה׃
@@ -2998,6 +3098,10 @@ Previous v0.4.32
 
 También a Set le nació un hijo, y lo llamó Enós. Por entonces se comenzó a invocar el nombre de YHWH.
 
+Previous v0.4.33
+
+También a Set le nació un hijo, y lo llamó Enós. Por entonces se comenzó a invocar el nombre de YHWH.
+
 ## Notes
 
 Conocer se lee como eufemismo sexual y se traduce acostarse con. La construcción con sujeto antes del perfecto no fija por sí sola si fue antes o después de la expulsión. Eva sigue como sujeto de concebir, parir y hablar.
@@ -3052,7 +3156,7 @@ El v.25 contiene el juego sonoro Set/shet con shat, poner o disponer. Dijo se a�
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 4:1–26 (es), research pilot v0.4.33. https://yangs777.github.io/hansam-bible/es/genesis-4/
+Hansam Yang. Original Bible: Genesis 4:1–26 (es), research pilot v0.4.34. https://yangs777.github.io/hansam-bible/es/genesis-4/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

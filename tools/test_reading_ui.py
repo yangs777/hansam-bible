@@ -57,7 +57,7 @@ class ReadingUITests(unittest.TestCase):
         self.assertEqual(editorial_text.spaced(original), original)
 
     def test_home_catalog_uses_biblical_order_in_all_languages(self):
-        expected = ['genesis-1', 'genesis-2', 'genesis-3', 'genesis-4', 'genesis-5', 'genesis-6', 'genesis-7', 'numbers-6-24-26', 'deuteronomy-32-8', 'psalm-1']
+        expected = ['genesis-1', 'genesis-2', 'genesis-3', 'genesis-4', 'genesis-5', 'genesis-6', 'genesis-7', 'genesis-8', 'numbers-6-24-26', 'deuteronomy-32-8', 'psalm-1']
         for lang in ('ko', 'en', 'es'):
             parser = ReadingPage()
             parser.feed((R / 'dist' / lang / 'index.html').read_text(encoding='utf-8'))

@@ -1,6 +1,6 @@
 # Genesis 4:1–26
 
-Hansam Yang · Original Bible · v0.4.33
+Hansam Yang · Original Bible · v0.4.34
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -136,6 +136,10 @@ Previous v0.4.32
 
 The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
 
+Previous v0.4.33
+
+The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
+
 Previous v0.4.9
 
 The man lay with Eve his wife, and she conceived and bore Cain. She said, “I have acquired a male child with YHWH’s help.”
@@ -255,6 +259,10 @@ Previous v0.4.31
 She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
 
 Previous v0.4.32
+
+She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
+
+Previous v0.4.33
 
 She went on to bear his brother Abel. Abel became a keeper of flocks, while Cain was a worker of the ground.
 
@@ -382,6 +390,10 @@ Previous v0.4.32
 
 After some time, Cain brought an offering to YHWH from the produce of the ground.
 
+Previous v0.4.33
+
+After some time, Cain brought an offering to YHWH from the produce of the ground.
+
 ## 4 · HYB.GEN.004.004
 
 Hebrew display (MT/WLC): וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃
@@ -503,6 +515,10 @@ Previous v0.4.31
 Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
 
 Previous v0.4.32
+
+Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
+
+Previous v0.4.33
 
 Abel also brought some of the firstborn of his flock and their fat portions. YHWH looked with favor on Abel and his offering.
 
@@ -630,6 +646,10 @@ Previous v0.4.32
 
 But he did not look with favor on Cain and his offering. Cain became very angry, and his face fell.
 
+Previous v0.4.33
+
+But he did not look with favor on Cain and his offering. Cain became very angry, and his face fell.
+
 ## 6 · HYB.GEN.004.006
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר יְהוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃
@@ -745,6 +765,10 @@ Previous v0.4.31
 YHWH said to Cain, “Why are you angry, and why has your face fallen?
 
 Previous v0.4.32
+
+YHWH said to Cain, “Why are you angry, and why has your face fallen?
+
+Previous v0.4.33
 
 YHWH said to Cain, “Why are you angry, and why has your face fallen?
 
@@ -868,6 +892,10 @@ Previous v0.4.32
 
 If you do well, will you not be accepted? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it.”
 
+Previous v0.4.33
+
+If you do well, will you not be accepted? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it.”
+
 ## 8 · HYB.GEN.004.008
 
 Hebrew display (MT/WLC): וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
@@ -988,6 +1016,10 @@ Previous v0.4.32
 
 Cain spoke to his brother Abel. While they were in the field, Cain rose up against his brother Abel and killed him.
 
+Previous v0.4.33
+
+Cain spoke to his brother Abel. While they were in the field, Cain rose up against his brother Abel and killed him.
+
 ## 9 · HYB.GEN.004.009
 
 Hebrew display (MT/WLC): וַיֹּ֤אמֶר יְהוָה֙ אֶל־קַ֔יִן אֵ֖י הֶ֣בֶל אָחִ֑יךָ וַיֹּ֨אמֶר֙ לֹ֣א יָדַ֔עְתִּי הֲשֹׁמֵ֥ר אָחִ֖י אָנֹֽכִי׃
@@ -1102,6 +1134,10 @@ Previous v0.4.32
 
 YHWH said to Cain, “Where is your brother Abel?” He said, “I do not know. Am I my brother’s keeper?”
 
+Previous v0.4.33
+
+YHWH said to Cain, “Where is your brother Abel?” He said, “I do not know. Am I my brother’s keeper?”
+
 ## 10 · HYB.GEN.004.010
 
 Hebrew display (MT/WLC): וַיֹּ֖אמֶר מֶ֣ה עָשִׂ֑יתָ ק֚וֹל דְּמֵ֣י אָחִ֔יךָ צֹעֲקִ֥ים אֵלַ֖י מִן־הָֽאֲדָמָֽה׃
@@ -1213,6 +1249,10 @@ Previous v0.4.31
 He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
 
 Previous v0.4.32
+
+He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
+
+Previous v0.4.33
 
 He said, “What have you done? The voice of your brother’s blood cries out to me from the ground.
 
@@ -1342,6 +1382,10 @@ Previous v0.4.32
 
 Now you are cursed from the ground, which opened its mouth to receive your brother’s blood from your hand.
 
+Previous v0.4.33
+
+Now you are cursed from the ground, which opened its mouth to receive your brother’s blood from your hand.
+
 ## 12 · HYB.GEN.004.012
 
 Hebrew display (MT/WLC): כִּ֤י תַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה לֹֽא־תֹסֵ֥ף תֵּת־כֹּחָ֖הּ לָ֑ךְ נָ֥ע וָנָ֖ד תִּֽהְיֶ֥ה בָאָֽרֶץ׃
@@ -1449,6 +1493,10 @@ Previous v0.4.31
 When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
 
 Previous v0.4.32
+
+When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
+
+Previous v0.4.33
 
 When you work the ground, it will no longer yield its strength to you. You will be a fugitive and a wanderer on the earth.”
 
@@ -1568,6 +1616,10 @@ Previous v0.4.32
 
 Cain said to YHWH, “My punishment is too great to bear.
 
+Previous v0.4.33
+
+Cain said to YHWH, “My punishment is too great to bear.
+
 ## 14 · HYB.GEN.004.014
 
 Hebrew display (MT/WLC): הֵן֩ גֵּרַ֨שְׁתָּ אֹתִ֜י הַיּ֗וֹם מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה וּמִפָּנֶ֖יךָ אֶסָּתֵ֑ר וְהָיִ֜יתִי נָ֤ע וָנָד֙ בָּאָ֔רֶץ וְהָיָ֥ה כָל־מֹצְאִ֖י יַֽהַרְגֵֽנִי׃
@@ -1681,6 +1733,10 @@ Previous v0.4.31
 Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
 
 Previous v0.4.32
+
+Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
+
+Previous v0.4.33
 
 Look, today you have driven me from the ground, and I will be hidden from your face. I will be a fugitive and a wanderer on the earth, and whoever finds me will kill me.”
 
@@ -1800,6 +1856,10 @@ Previous v0.4.32
 
 YHWH said to him, “Therefore, if anyone kills Cain, vengeance will be taken sevenfold.” YHWH appointed a sign for Cain so that no one who found him would strike him.
 
+Previous v0.4.33
+
+YHWH said to him, “Therefore, if anyone kills Cain, vengeance will be taken sevenfold.” YHWH appointed a sign for Cain so that no one who found him would strike him.
+
 ## 16 · HYB.GEN.004.016
 
 Hebrew display (MT/WLC): וַיֵּ֥צֵא קַ֖יִן מִלִּפְנֵ֣י יְהוָ֑ה וַיֵּ֥שֶׁב בְּאֶֽרֶץ־נ֖וֹד קִדְמַת־עֵֽדֶן׃
@@ -1907,6 +1967,10 @@ Previous v0.4.31
 Cain went out from the presence of YHWH and settled in the land of Nod, opposite Eden.
 
 Previous v0.4.32
+
+Cain went out from the presence of YHWH and settled in the land of Nod, opposite Eden.
+
+Previous v0.4.33
 
 Cain went out from the presence of YHWH and settled in the land of Nod, opposite Eden.
 
@@ -2022,6 +2086,10 @@ Previous v0.4.32
 
 Cain had relations with his wife, and she conceived and bore Enoch. He was building a city and named it Enoch, after his son.
 
+Previous v0.4.33
+
+Cain had relations with his wife, and she conceived and bore Enoch. He was building a city and named it Enoch, after his son.
+
 ## 18 · HYB.GEN.004.018
 
 Hebrew display (MT/WLC): וַיִּוָּלֵ֤ד לַֽחֲנוֹךְ֙ אֶת־עִירָ֔ד וְעִירָ֕ד יָלַ֖ד אֶת־מְחֽוּיָאֵ֑ל וּמְחִיּיָאֵ֗ל יָלַד֙ אֶת־מְת֣וּשָׁאֵ֔ל וּמְתוּשָׁאֵ֖ל יָלַ֥ד אֶת־לָֽמֶךְ׃
@@ -2128,6 +2196,10 @@ Previous v0.4.32
 
 To Enoch was born Irad; Irad fathered Mehujael, Mehujael fathered Methushael, and Methushael fathered Lamech.
 
+Previous v0.4.33
+
+To Enoch was born Irad; Irad fathered Mehujael, Mehujael fathered Methushael, and Methushael fathered Lamech.
+
 ## 19 · HYB.GEN.004.019
 
 Hebrew display (MT/WLC): וַיִּֽקַּֽח־ל֥וֹ לֶ֖מֶךְ שְׁתֵּ֣י נָשִׁ֑ים שֵׁ֤ם הָֽאַחַת֙ עָדָ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית צִלָּֽה׃
@@ -2231,6 +2303,10 @@ Previous v0.4.31
 Lamech took two wives; one was named Adah and the other Zillah.
 
 Previous v0.4.32
+
+Lamech took two wives; one was named Adah and the other Zillah.
+
+Previous v0.4.33
 
 Lamech took two wives; one was named Adah and the other Zillah.
 
@@ -2346,6 +2422,10 @@ Previous v0.4.32
 
 Adah bore Jabal. He was the father of those who live in tents and raise livestock.
 
+Previous v0.4.33
+
+Adah bore Jabal. He was the father of those who live in tents and raise livestock.
+
 ## 21 · HYB.GEN.004.021
 
 Hebrew display (MT/WLC): וְשֵׁ֥ם אָחִ֖יו יוּבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י כָּל־תֹּפֵ֥שׂ כִּנּ֖וֹר וְעוּגָֽב׃
@@ -2458,6 +2538,10 @@ Previous v0.4.32
 
 His brother was named Jubal. He was the father of all who play the lyre and pipe.
 
+Previous v0.4.33
+
+His brother was named Jubal. He was the father of all who play the lyre and pipe.
+
 ## 22 · HYB.GEN.004.022
 
 Hebrew display (MT/WLC): וְצִלָּ֣ה גַם־הִ֗וא יָֽלְדָה֙ אֶת־תּ֣וּבַל קַ֔יִן לֹטֵ֕שׁ כָּל־חֹרֵ֥שׁ נְחֹ֖שֶׁת וּבַרְזֶ֑ל וַֽאֲח֥וֹת תּֽוּבַל־קַ֖יִן נַֽעֲמָֽה׃
@@ -2563,6 +2647,10 @@ Previous v0.4.31
 Zillah too bore Tubal-cain, a forger of all kinds of tools of bronze and iron. Tubal-cain’s sister was Naamah.
 
 Previous v0.4.32
+
+Zillah too bore Tubal-cain, a forger of all kinds of tools of bronze and iron. Tubal-cain’s sister was Naamah.
+
+Previous v0.4.33
 
 Zillah too bore Tubal-cain, a forger of all kinds of tools of bronze and iron. Tubal-cain’s sister was Naamah.
 
@@ -2674,6 +2762,10 @@ Previous v0.4.32
 
 Lamech said to his wives, “Adah and Zillah, hear my voice; wives of Lamech, listen to my words. I have killed a man for wounding me, a young man for bruising me.
 
+Previous v0.4.33
+
+Lamech said to his wives, “Adah and Zillah, hear my voice; wives of Lamech, listen to my words. I have killed a man for wounding me, a young man for bruising me.
+
 ## 24 · HYB.GEN.004.024
 
 Hebrew display (MT/WLC): כִּ֥י שִׁבְעָתַ֖יִם יֻקַּם־קָ֑יִן וְלֶ֖מֶךְ שִׁבְעִ֥ים וְשִׁבְעָֽה׃
@@ -2779,6 +2871,10 @@ Previous v0.4.31
 If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
 
 Previous v0.4.32
+
+If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
+
+Previous v0.4.33
 
 If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
 
@@ -2890,6 +2986,10 @@ Previous v0.4.32
 
 Adam again had relations with his wife, and she bore a son and named him Seth, for she said, “God has appointed for me another offspring in place of Abel, because Cain killed him.”
 
+Previous v0.4.33
+
+Adam again had relations with his wife, and she bore a son and named him Seth, for she said, “God has appointed for me another offspring in place of Abel, because Cain killed him.”
+
 ## 26 · HYB.GEN.004.026
 
 Hebrew display (MT/WLC): וּלְשֵׁ֤ת גַּם־הוּא֙ יֻלַּד־בֵּ֔ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ אֱנ֑וֹשׁ אָ֣ז הוּחַ֔ל לִקְרֹ֖א בְּשֵׁ֥ם יְהוָֽה׃
@@ -2998,6 +3098,10 @@ Previous v0.4.32
 
 To Seth too a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.
 
+Previous v0.4.33
+
+To Seth too a son was born, and he named him Enosh. At that time people began to call on the name of YHWH.
+
 ## Notes
 
 Know is read as a sexual euphemism and rendered lay with. The subject-first perfect construction does not by itself settle whether intercourse preceded or followed expulsion. Eve remains the subject of conception, birth and speech.
@@ -3052,7 +3156,7 @@ Verse25 has the sound-play Seth/shet with shat, set or appoint. She said is supp
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 4:1–26 (en), research pilot v0.4.33. https://yangs777.github.io/hansam-bible/en/genesis-4/
+Hansam Yang. Original Bible: Genesis 4:1–26 (en), research pilot v0.4.34. https://yangs777.github.io/hansam-bible/en/genesis-4/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
