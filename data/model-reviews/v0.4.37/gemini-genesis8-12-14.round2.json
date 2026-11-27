@@ -1,0 +1,55 @@
+{
+  "model": "gemini-4-hydrogen-high",
+  "execution": {
+    "provider": "Antigravity 공식 agy CLI",
+    "requested_model_id": "gemini-4-hydrogen-high",
+    "recorded_at": "2026-11-27T16:40:40.004072+00:00",
+    "identity_basis": "공식 CLI 성공 요청 모델 라벨. 불변 제공 스냅샷은 미확인.",
+    "source_record_sha256": "317b3884df0ca0d6b9f7c6192796cbb4e2e3991772aa89a7169cd1035c5131e3",
+    "independence": ""
+  },
+  "opinions": [
+    {
+      "id": "HYB.GEN.008.012",
+      "translations": {
+        "ko": "그는 다시 이레를 기다린 뒤 비둘기를 내보냈다. 비둘기는 더 이상 그에게 돌아오지 않았다.",
+        "en": "He waited another seven days and sent out the dove. It did not return to him again.",
+        "es": "Esperó otros siete días y envió la paloma. Esta ya no volvió a él."
+      },
+      "verdict": "직접 히브리어 잠정 채택 (문구 보완)",
+      "reason_ko": "제공된 고정 WLC 4.20 / OSHB 형태 주석에 근거해 잠정 채택한다. 첫 동사 וַיִּיָּחֶל(c/3176)은 OSHB에서 니팔 와이이크톨 3인칭 남성 단수(HC/VNw3ms)로 표기되며, 제공된 BDB 전사(j.bf.aa) 관찰에서도 יחל 니팔형이 '기다리다(wait)'로 제시된다. 이어지는 עוֹד שִׁבְעַת יָמִים אֲחֵרִים('다시/또 다른 이레')과 וַיְשַׁלַּח אֶת־הַיּוֹנָה('그 비둘기를 내보냈다')는 이전 시도에 이은 추가 대기 및 재방출 서술을 전하며, 후반의 וְלֹא־יָסְפָה שׁוּב־אֵלָיו עוֹד는 부정사 לֹא + יסף 완료형 + שׁוּב 부정사 연계형 + עוֹד의 결합으로 '다시는 그에게 돌아오지 않았다'라는 반복 중단의 관용 구문이다. 제공된 Swete 1901 인쇄 13쪽 및 NETS PDF 관찰에서도 12절은 추가 이레와 비둘기 재방출·미귀환으로 요약되어 경쟁 사본 이문은 확인되지 않았다. 본문에 없는 '마침내', '완전히', 새의 사망·정착 설명은 일절 더하지 않았다.",
+      "strongest_objection_ko": "첫째, וַיִּיָּחֶל의 니팔 모음화(VNw3ms)는 통상 기대되는 피엘·히필형과 달라 어근(יחל vs חול) 및 마소라 모음 전승에 대한 이견이 제기될 수 있다. 둘째, Gemini 초기안은 וַיְשַׁלַּח(HC/Vpw3ms)을 두고 '피엘(강조·사역적 파송)'이라 해설했으나, 피엘 어간이라는 이유만으로 자동적인 강조·사역 의미를 단정하는 것은 어휘·구문 근거가 약하다. 셋째, '더 이상 돌아오지 않았다'는 서술이 서사 시점 이후의 영구적 단절('영영')인지 단순 미귀환 진술인지 번역 어조에 대한 해석 차이가 남으며, 현대 비평장치와 독립 히브리어 증인을 직접 대조하지 못해 사본 차원의 이독 여부는 미확인 상태다.",
+      "final_opinion_ko": "직접 히브리어(WLC 4.20)를 잠정 본문으로 채택하고, 기왕의 GPT/과거 Claude/Gemini 초안 가운데 과잉 해석과 문법 흠을 덜어낸 보완 번역을 권고한다. '기다림'의 어근·태 논의와 '돌아오지 않음'의 해석 범위는 본문에 과잉 수식 없이 보존하되, 비평장치 미열람에 따른 미확정성은 각주로 투명하게 남긴다.",
+      "hard_review_ko": "1) 한국어(ko): Gemini 초기안 '그가 또 다른 칠 일을 기다리고 그 비둘기를 내보냈으나, 다시는 그에게로 돌아오지 않았다'는 둘째 절 주어가 생략되어 앞 절 주어 '그가'가 돌아오지 않은 것처럼 읽히는 주어 전환 오류가 있다. GPT/제안안의 '그는 다시 이레를 더 기다린 뒤'는 עוֹד('다시/더')가 '다시'와 '더'로 중복되는 경향이 있어, 과거 Claude안의 '그는 다시 이레를 기다린 뒤'와 GPT안의 '비둘기는 더 이상 그에게 돌아오지 않았다'를 결합하는 편이 가장 자연스럽고 명료하다. 2) 영어(en): GPT/제안안 'He waited another seven days and sent out the dove. It did not return to him again.'이 가장 깔끔하다. Claude안의 'sent forth', 'she', 'anymore'는 고어체·대명사 성별 부여·구어적 부사 선택 면에서 통일성이 떨어지며, Gemini안 'yet another'는 무겁다. 3) 스페인어(es): GPT안 'soltó a la paloma'는 새를 놓아준다는 뜻으로 자연스럽지만 동사 שלח('내보내다/보내다')와의 어휘 대응에서는 Gemini/Claude의 'envió la paloma'가 더 충실하다. 또한 GPT의 2문장 분리('Esta ya no volvió a él.')가 주어 지시를 가장 분명히 한다. 4) 날짜·시제: 본 절에는 달력 날짜가 없으며, '칠 일'보다 '이레'가 한국어 성경 문체에 자연스럽다.",
+      "footnote_verdict_ko": "제공된 proposed_selection의 각주(kind: source_access_gap)는 본문에 없는 비둘기 행방·사망을 추정하지 않은 점, 비평장치·독립 히브리어 증인 미대조 공백을 정직하게 밝힌 점, 미확인 변형을 만들어 내지 않은 점에서 타당하다. 다만 각주 첫머리의 인용 문구 「다시 이레를 더 기다림」은 최종 채택 한국어 본문의 표현과 정확히 일치시켜야 하며, Swete 1901 인쇄 13쪽이 고대 사본이 아닌 근대 그리스어 학술판본임을 오해 없이 유지해야 한다."
+    },
+    {
+      "id": "HYB.GEN.008.013",
+      "translations": {
+        "ko": "육백일 년째 되는 해 첫째 달 초하루에 땅 위에서 물이 말랐다. 노아가 방주의 덮개를 벗기고 보니, 땅 표면이 말라 있었다.",
+        "en": "In the six hundred and first year, in the first month, on the first day of the month, the waters dried up from off the earth. Noah removed the covering of the ark and looked, and behold, the surface of the ground was dry.",
+        "es": "En el año seiscientos uno, en el primer mes, el primer día del mes, las aguas se secaron de sobre la tierra. Noé quitó la cubierta del arca y miró, y he aquí que la superficie del suelo estaba seca."
+      },
+      "verdict": "직접 히브리어 잠정 채택 (문구 보완 및 그리스어 대안 13절 각주 배치)",
+      "reason_ko": "제공된 WLC 4.20을 잠정 선택하고, 제공된 Swete 1901 인쇄 13쪽·NETS PDF 관찰에 담긴 그리스어 대안은 13절 각주로 돌린다. 1) 601년/나이: 히브리어 בְּאַחַת וְשֵׁשׁ־מֵאוֹת שָׁנָה에는 7:6·11과 달리 '노아의 생애/나이'가 명시되어 있지 않은 반면, 제공된 Swete 1901 p.13 관찰에는 'ἐν τῇ ζωῇ τοῦ Νῶε'가, NETS 관찰에는 '노아의 생애'가 나타난다. 본문은 히브리어대로 나이 단어를 추가하지 않되 '육백일 년째 되는 해'로 옮겨 서기 연호 오해를 줄인다. 2) 덮개 vs 지붕/관계절: 히브리어 מִכְסֵה הַתֵּבָה(4372, BDB 전사 k.cg.ad 'covering')는 재료·구조를 단정하지 않는 '방주의 덮개'이나, Swete 관찰에는 'στέγην'이, NETS 관찰에는 '지붕 관계절(그가 만든 방주의 지붕)'이 보고된다. 히브리어 직역('방주의 덮개')을 채택한다. 3) 끝절 마름 vs 물 소멸: 히브리어 끝절은 חָרְבוּ פְּנֵי הָאֲדָמָה('땅 표면이 말라 있었다')로 앞부분 חָרְבוּ הַמַּיִם과 같은 동사 חרב를 반복하는 반면, Swete·NETS 관찰은 마지막을 '땅 표면에서 물이 소멸했다/사라졌다'는 서술로 전한다. 히브리어 본문을 따르며 '마침내·완전히'는 넣지 않는다.",
+      "strongest_objection_ko": "첫째, Swete 판본에 담긴 그리스어 칠십인역 전통(노아의 생애 명시, στέγην 및 NETS의 '그가 만든' 관계절, 마지막 물 소멸 서술)이 단순 번역자의 문맥 풀이가 아니라 히브리어와 다른 고대 저본을 반영할 가능성을 완전히 배제할 수 없다. 다만 제공된 기록만으로는 Swete 하단 장치와 Wevers 비평장치를 직접 대조하지 못했으므로 우선순위를 판정할 수 없다. 둘째, 히브리어 בָּרִאשׁוֹן에 '달' 어휘가 직접 없고, '육백일 년째 되는 해'의 '되는 해'는 문맥 보충이므로 직역 엄격성 측면에서 반론이 가능하다. 셋째, 두 차례의 חָרְבוּ와 14절 יָבְשָׁה의 관계를 두고 어근 차이를 본문 수식어로 부각해야 한다는 반론이 있으나, BDB 전사 관찰에서도 חרב('be dry, dried up')가 8:13 두 위치 모두에 쓰여 앞서는 물이 걷혀 마름, 뒤는 지표면의 마름을 가리킨다.",
+      "final_opinion_ko": "직접 히브리어를 잠정 채택하고, 제공된 Swete 1901 p.13 및 NETS 관찰상의 그리스어 대안(노아의 생애, 지붕 및 관계절, 마지막 물 소멸 서술)과 접근 공백은 13절 각주에 둔다. GPT안에서 보였던 영어·스페인어 과거완료 시제 불일치와 전치사 누락, Claude 스페인어안의 전치사 누락을 바로잡은 보완 번역으로 확정 권고한다.",
+      "hard_review_ko": "1) 한국어(ko) 및 날짜: GPT/제안안 '육백일 년째 되는 해 첫째 달 초하룻날, 땅 위의 물이 말랐다'는 '땅 위에서(מֵעַל הָאָרֶץ) 말랐다'를 '땅 위의 물이'로 수식어 위치가 이동했고, 8:14의 '스무이렛날'과 달리 쉼표·어미('초하룻날,' vs '스무이렛날에') 통일이 아쉽다. Claude안 '초하루에'와 Gemini안 '땅 위에서 물이 말랐다'를 결합해 '첫째 달 초하루에 땅 위에서 물이 말랐다'로 고치면 원문 전치사 מֵעַל과 8:14 날짜 격식이 모두 깔끔히 맞는다. 'וַיַּרְא וְהִנֵּה'는 Gemini의 '보고, 보라,'가 직역에는 충실하나 한국어 산문에서는 다소 번역투여서, GPT/Claude의 '벗기고 보니,'가 자연스럽다. 2) 영어(en): GPT/제안안의 'the waters had dried up from the earth'는 한국어 '말랐다'와 달리 과거완료(had dried up)를 써서 시제·상이 불일치하고 'from off/upon(מֵעַל)'의 'off'가 빠졌다. 또한 'saw that'은 'וַיַּרְא וְהִנֵּה'를 생략한다. 따라서 Gemini의 'dried up from off the earth'와 'looked, and behold, the surface of the ground was dry'가 히브리어 문법과 시제에 더 정확하고 자연스럽다. 3) 스페인어(es): GPT안 'el primer mes'는 'en'이 빠져 통일감이 약하고 'se habían secado' 역시 과거완료로 한국어와 어긋난다. Claude안 'las aguas se secaron sobre la tierra'는 'de(מִן)'가 빠져 의미가 달라진다('땅 위에서부터'가 아니라 '땅 위에서'). 따라서 Gemini의 'en el primer mes(또는 mes primero), el primer día del mes, las aguas se secaron de sobre la tierra'와 'y miró, y he aquí que la superficie del suelo estaba seca'가 문법·원문 정밀도 면에서 가장 우수하며, 문장 호흡만 GPT처럼 마침표로 끊어 정리하면 자연스럽다.",
+      "footnote_verdict_ko": "제공된 proposed_selection의 13절 각주(kind: alternative_reading, witness: Swete 1901 vol.I p.13, Genesis 8:13; NETS Genesis 8:13)는 2026-11-27 소유자 지시와 제공된 관찰 범위에 매우 잘 부합한다. Swete 1901 인쇄 13쪽(노아의 생애, 마지막 물 소멸)과 NETS(지붕 관계절 번역)를 구분해 기술했고, Wevers 비평장치·현대 히브리어 비평장치·독립 히브리어 증인 미열람을 솔직히 적시해 선후 판정을 보류하지 않고 유보했다. 다만 '지붕' 역시 Swete 판본의 στέγην(지붕/덮개)에 바탕을 두고 NETS가 관계절을 포함해 '그가 만든 방주의 지붕'으로 옮겼음을 더 분명히 적어 두면 판본(Swete)과 현대 영어역(NETS)의 층위 구분이 더욱 선명해진다."
+    },
+    {
+      "id": "HYB.GEN.008.014",
+      "translations": {
+        "ko": "둘째 달 스무이렛날에 땅이 말랐다.",
+        "en": "In the second month, on the twenty-seventh day of the month, the earth was dry.",
+        "es": "En el segundo mes, el día veintisiete del mes, la tierra estaba seca."
+      },
+      "verdict": "직접 히브리어 잠정 채택 (문구 보완)",
+      "reason_ko": "제공된 WLC 4.20의 날짜('둘째 달, 그 달 스물일곱째/스무이렛날')와 동사 יָבְשָׁה(3001, Qal 완료 3fs) + 주어 הָאָרֶץ('땅')을 잠정 채택한다. 제공된 Swete 1901 인쇄 13쪽 및 NETS 관찰에서도 동일하게 둘째 달 27일과 땅의 마름이 보고되어 본문 이문은 확인되지 않았다. 13절의 חרב와 14절의 יבש가 어근은 다르나, 제공된 BDB 전사 관찰(h.fi.aa: חרב 'be dry, dried up', j.aj.aa: יבש 'be dry, dried up, withered')에서 두 동사의 의미가 크게 겹치므로 '완전히 말랐다', '바싹 말랐다', '마침내 말랐다' 같은 어휘를 본문에 첨가해 단계 차이를 인위적으로 확대하지 않고 '말랐다' / 'was dry' / 'estaba seca'로 보존한다.",
+      "strongest_objection_ko": "8:13의 חרב와 8:14의 יבש를 같은 '말랐다'로 번역하면 약 두 달 간격(1월 1일 -> 2월 27일)과 두 히브리어 어근의 문체적·서사적 구별이 독자에게 드러나지 않는다는 반론이 제기된다. 실제로 Gemini 초기안은 חרב를 '표면 수분 소실', יבש를 '땅 자체의 수분 소실'로 어근마다 의미를 고정해 설명했으나, 제공된 BDB 전사 관찰 자체가 두 어근 모두 'be dry, dried up'으로 중첩됨을 보여 주므로 어근만으로 엄격한 '표면 vs 심층/완전 건조' 단계를 입증할 수 없다. 오히려 본문에서 실제로 구별되는 요소는 주어(13절 '물' 및 '땅의 겉면' פְּנֵי הָאֲדָמָה vs 14절 '땅' הָאָרֶץ)와 날짜 경과이므로, 어근 차이는 본문 가필 없이 각주로 안내하는 것이 타당하다.",
+      "final_opinion_ko": "직접 히브리어(WLC 4.20)를 잠정 채택하고, 본문에 '완전히·마침내'를 배제한 채 '말랐다 / was dry / estaba seca'를 유지한다. GPT안의 '그달' 중복과 스페인어 'En' 누락, Claude 영어안의 'had dried out' 과잉 완료 뉘앙스를 제거한 최종 문안을 채택 권고하며, חרב와 יבש의 어근 차이는 각주로만 설명한다.",
+      "hard_review_ko": "1) 한국어(ko): GPT/제안안 '둘째 달, 그달 스무이렛날에'는 문법적으로 틀리지 않으나 13절('첫째 달 초하룻날')과 달리 '그달'을 덧붙여 호흡이 다소 번잡하다. Claude안 '둘째 달 스무이렛날에 땅이 말랐다.'가 13절 '첫째 달 초하루에'와 가장 잘 호응하고 간결하다(현대어 톤을 원할 경우 '스물일곱째 날에'도 가능하나 13절과 한 묶음으로 통일해야 한다). Gemini안 '그리고 둘째 달, 그 달 스물일곱째 날에'는 문두 '그리고'가 무겁고 '그 달' 띄어쓰기보다 붙여 쓰는 '그달'이 일반적이다. 2) 영어(en): Claude안 'the earth had dried out'은 과거완료 'had'와 'out'을 더해 '완전히 다 말라 버렸다'는 과잉 뉘앙스를 주므로 탈락이다. GPT안 'In the second month, on the twenty-seventh day of the month, the earth was dry.'가 '완전히·마침내'를 더하지 않고도 Qal 상태동사 יָבְשָׁה의 건조 상태를 가장 정확하고 자연스럽게 옮긴다. 3) 스페인어(es): GPT/제안안 'El segundo mes, el día veintisiete del mes, la tierra estaba seca.'는 13절과 달리 'En'이 빠져 부사구 호응이 약하다. Claude안의 'En el mes segundo, el día veintisiete del mes, la tierra estaba seca.' 또는 13절과 어순을 맞춘 'En el segundo mes, el día veintisiete del mes, la tierra estaba seca.'가 문법적으로 가장 매끄럽다(Gemini안 'a los veintisiete días del mes, se secó la tierra'도 문법상 자연스러우나, 영어 'was dry'와 상을 맞추려면 'estaba seca'가 일관적이다). 4) 날짜 검토: 1월 1일(8:13)과 2월 27일(8:14) 숫자는 WLC와 제공된 Swete·NETS 관찰이 일치하며 달력 환산이나 일수 계산 부연은 넣지 않았다.",
+      "footnote_verdict_ko": "제공된 proposed_selection의 14절 각주(kind: interpretive_alternative)는 편집 질문의 핵심을 정확히 반영했다. 즉 13절(חרב)과 14절(יבש)의 어근 차이를 짚되, 어근 차이만으로 엄격한 건조 단계나 과학적 시간표를 확정할 수 없으므로 본문에는 '완전히'를 넣지 않고 '말랐다'를 유지한 근거를 ko/en/es 모두 충실히 설명했다. 또한 Swete 1901 인쇄 13쪽 관찰(2월 27일 및 땅 마름)과 비평장치 미대조 한계도 정확히 반영했으며, 초기 Gemini안처럼 어근별로 '표면 수분 vs 땅 자체 수분'을 고정 도식화하지 않아 학술적으로 건전하다."
+    }
+  ]
+}

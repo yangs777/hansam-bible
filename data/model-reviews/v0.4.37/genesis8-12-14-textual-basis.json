@@ -1,0 +1,195 @@
+{
+  "recorded_at": "2026-11-27T16:37:37.235266+00:00",
+  "scope": [
+    "Gen.8.12",
+    "Gen.8.13",
+    "Gen.8.14"
+  ],
+  "baseline": {
+    "source_file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "source_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_version": "WLC 4.20 / OSHB 고정 전사",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0"
+    },
+    "distinction_ko": "WLC 4.20는 재현 가능한 디지털 전사본이며 최초 원문 확정이 아니다. OSHB 형태 주석은 고대 증인이 아니다."
+  },
+  "actually_inspected_ko": [
+    "고정 WLC 원 XML 세 절·형태 주석·해시",
+    "저장된 Swete 1901 제1권 인쇄 13쪽 PNG의 8:12–14 주본문 직접 열람",
+    "공식 NETS PDF의 8:12–14 표시문과 저본 설명 웹 열람",
+    "저장된 Sefaria LC_Folio_5r 색인에 8:12–14 포함됨을 확인. 사본 글자의 독립 판독으로 주장하지 않음",
+    "저장된 BDB 전사 네 항목 직접 파싱·열람"
+  ],
+  "sources": [
+    {
+      "url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n44/mode/1up",
+      "kind_ko": "근대 그리스어 학술판 스캔이며 고대 사본 사진 아님",
+      "local_image": "private/batch-20261126T030002Z-swete-p13.png",
+      "sha256": "109cfdcbfb3363b5c23f85dd0980a0191d69e6899df9239f19cb1fba46c9f6c3",
+      "observed_ko": "12절 추가 이레·재방출·다시 돌아오지 않음.13절 ἐν τῇ ζωῇ τοῦ Νῶε, στέγην, 마지막 물 소멸 서술.14절 둘째 달27일·땅 마름.하단 장치의 증인 약호를 체계 대조하지 않아 사본 계통 판정에 사용하지 않는다."
+    },
+    {
+      "url": "https://ccat.sas.upenn.edu/nets/edition/01-gen-nets.pdf",
+      "kind_ko": "칠십인역의 현대 영어 학술 번역. 그리스어 원판 비평장치와 구별",
+      "pdf_page_indices": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        10,
+        11
+      ],
+      "observed_ko": "12절 재방출과 돌아오지 않음.13절 노아의 생애·지붕 관계절·물 소멸.14절 둘째 달27일.서문은 Wevers1974 및 Notes1993 수정 사용을 설명하나 해당 장치를 직접 읽은 것은 아니다.",
+      "rights_ko": "NETS ©2007 IOSCS/OUP. 전문 재배포 없이 차이 요약·공식 링크 제공."
+    },
+    {
+      "url": "https://github.com/openscriptures/HebrewLexicon/blob/master/BrownDriverBriggs.xml",
+      "kind_ko": "1906 BDB 사전의 디지털 전사, 사본 증거 아님",
+      "sha256": "2b52658a4323d91674cda4090ab8b3ebddfff640f4f18143c28300e80b2c38f8",
+      "entries": {
+        "h.fi.aa": "חרב: be dry, dried up",
+        "j.aj.aa": "יבש: be dry, dried up, withered",
+        "j.bf.aa": "יחל: Niph. wait; Pi. await",
+        "k.cg.ad": "מכסה: covering"
+      },
+      "observation_ko": "편집자가 저장된 XML 해당 항목을 파싱해 직접 읽었다. 두 건조 동사의 뜻이 겹치므로 엄격한 단계 차이를 어근만으로 확정하지 않는다."
+    }
+  ],
+  "access_gaps_ko": [
+    "현대 BHS/BHQ/괴팅겐 비평장치와 독립 히브리어 증인을 해당 절에서 직접 대조하지 못함",
+    "Swete 페이지 주소는 이번 웹 도구에서 접근 오류. 이미 저장된 스캔을 직접 열람했으며 접근 실패를 우회·반복하지 않음",
+    "하단 Swete 장치의 판독·증인 계통 전체 미완료. 미확인 증인 귀속을 만들지 않음",
+    "레닌그라드 사본 사진 해당 세 절 글자 독립 판독 미완료"
+  ],
+  "selection_rule_ko": "2026-11-27 소유자 지시대로 직접 히브리어를 잠정 채택하고 확인한 그리스어 대안·이유·접근 공백을 13절 각주에 둔다.12·14절은 확인된 경쟁 사본 읽기가 없어 이문을 만들어 내지 않고 번역 해석·접근 공백 각주를 둔다.최초 원문 확정이나 AI 합의를 원문 증거로 주장하지 않는다.",
+  "competing_readings": [
+    {
+      "id": "Gen.8.12",
+      "selected": {
+        "ko": "그는 다시 이레를 더 기다린 뒤 비둘기를 내보냈다. 비둘기는 더 이상 그에게 돌아오지 않았다.",
+        "en": "He waited another seven days and sent out the dove. It did not return to him again.",
+        "es": "Esperó otros siete días y soltó a la paloma. Esta ya no volvió a él."
+      },
+      "footnotes": [
+        {
+          "kind": "source_access_gap",
+          "ko": "「다시 이레를 더 기다림」은 고정 히브리어의 추가 대기 기간을 옮긴 것이다. 다른 사본 읽기의 유무는 현대 히브리어 비평장치·독립 히브리어 증인을 직접 대조하지 못해 미확인이다. Swete 칠십인역 인쇄 13쪽도 추가 이레와 비둘기가 다시 돌아오지 않았음을 전한다. 본문은 직접 히브리어에 근거하며, 비둘기의 이후 행방이나 죽음은 말하지 않는다. 확인하지 못한 대안 읽기는 만들어 싣지 않는다.",
+          "en": "The pinned Hebrew describes another seven-day wait and the dove not returning again, without specifying its later fate. Swete’s Greek edition (p.13) also reports these actions. No competing Hebrew reading was verified: a modern Hebrew critical apparatus and independent Hebrew witnesses were not directly collated. The direct Hebrew baseline is provisionally retained; no unverified variant is supplied.",
+          "es": "El hebreo fijado describe otros siete días de espera y que la paloma no volvió, sin precisar su destino posterior. La edición griega de Swete (p.13) también relata estas acciones. No se verificó otra lectura hebrea: no se cotejaron un aparato crítico hebreo moderno ni testigos hebreos independientes. Se conserva provisionalmente la base hebrea directa, sin inventar variantes."
+        }
+      ],
+      "strongest_objection_ko": "וַיִּיָּחֶל의 형태 분석은 특이하지만 문맥상 기다림이 자연스럽다. 더는 돌아오지 않음은 서술 범위의 진술이며 새의 영구적 운명을 규정하지 않는다."
+    },
+    {
+      "id": "Gen.8.13",
+      "selected": {
+        "ko": "육백일 년째 되는 해 첫째 달 초하룻날, 땅 위의 물이 말랐다. 노아가 방주의 덮개를 벗기고 보니, 땅 표면이 말라 있었다.",
+        "en": "In the six hundred and first year, in the first month, on the first day of the month, the waters had dried up from the earth. Noah removed the covering of the ark and saw that the surface of the ground was dry.",
+        "es": "En el año seiscientos uno, el primer mes, el primer día del mes, las aguas se habían secado de sobre la tierra. Noé quitó la cubierta del arca y vio que la superficie del suelo estaba seca."
+      },
+      "footnotes": [
+        {
+          "kind": "alternative_reading",
+          "witness": "Swete 1901 vol.I p.13, Genesis 8:13; NETS Genesis 8:13",
+          "ko": "칠십인역 그리스어 판본(Swete 1901, 인쇄 13쪽)은 연대에 「노아의 생애에서」를 명시하고, 마지막을 「땅 표면에서 물이 사라졌다」로 전한다. NETS의 현대 영어 번역은 방주 부분을 「그가 만든 방주의 지붕」으로 옮긴다. 고정 히브리어는 이 절에 노아의 나이를 명시하지 않고, 「방주의 덮개」와 「땅 표면이 말랐다」로 읽어 본문은 이를 따른다. 601년은 7:6·11의 노아 나이를 잇는 문맥이다. 그리스어가 문맥을 풀어 쓴 번역일 가능성이 있어 이를 별도 히브리어 저본의 증거로 단정하지 않는다. 현대 비평장치와 독립 히브리어 증인을 직접 대조하지 못해 어느 읽기가 더 이른지는 확정하지 않는다.",
+          "en": "Swete’s Greek edition (1901, p.13) explicitly dates the year to Noah’s life and ends with water disappearing from the face of the earth. NETS, a modern English translation of Greek, renders the ark clause as the roof of the ark that he had made. The pinned Hebrew instead has the ark’s covering and the surface of the ground being dry, without explicitly mentioning Noah’s life here. Year 601 continues the age context of 7:6,11. Direct Hebrew is retained provisionally; Greek may explicate the context and does not by itself prove a different Hebrew source. A modern critical apparatus and independent Hebrew witnesses were not directly collated, so textual priority remains undecided.",
+          "es": "La edición griega de Swete (1901, p.13) fecha explícitamente el año en la vida de Noé y termina con la desaparición del agua de la superficie de la tierra. NETS, traducción inglesa moderna del griego, vierte la frase del arca como el techo del arca que él había hecho. El hebreo fijado dice la cubierta del arca y que la superficie del suelo estaba seca, sin mencionar aquí explícitamente la vida de Noé. El año 601 continúa el contexto de edad de 7:6,11. Se prefiere provisionalmente el hebreo directo; el griego puede explicitar el contexto y por sí solo no demuestra otra base hebrea. No se cotejaron un aparato crítico moderno ni testigos hebreos independientes, por lo que no se decide la prioridad textual."
+        }
+      ],
+      "strongest_objection_ko": "601년은 현대 연호처럼 오해될 수 있다. 앞선 7:6·11의 나이를 잇는 문맥임을 각주에 밝힐 수 있다. חרב와 14절 יבש의 차이를 과도한 건조 단계나 과학적 시간표로 만들지 않는다."
+    },
+    {
+      "id": "Gen.8.14",
+      "selected": {
+        "ko": "둘째 달, 그달 스무이렛날에 땅이 말랐다.",
+        "en": "In the second month, on the twenty-seventh day of the month, the earth was dry.",
+        "es": "El segundo mes, el día veintisiete del mes, la tierra estaba seca."
+      },
+      "footnotes": [
+        {
+          "kind": "interpretive_alternative",
+          "ko": "13절의 마름(חרב)과 이 절의 마름(יבש)은 히브리어 어근이 다르다. 「완전히 말랐다」로 옮겨 단계 차이를 드러내는 해석도 가능하지만, 어근 차이만으로 엄격한 건조 단계나 과학적 시간표를 확정할 수 없어 본문은 「말랐다」로 옮긴다. Swete 칠십인역 인쇄 13쪽도 둘째 달 27일과 땅의 마름을 전한다. 현대 히브리어 비평장치·독립 히브리어 증인은 직접 대조하지 못했으며, 확인하지 못한 사본 이문은 제시하지 않는다.",
+          "en": "Verse 13 uses the Hebrew root חרב and this verse uses יבש. Rendering the latter as completely dry is a possible interpretation, but distinct roots alone do not establish rigid drying stages or a scientific timetable; the text therefore uses dry. Swete’s Greek edition (p.13) also gives the second month, day 27, and the dry earth. A modern Hebrew critical apparatus and independent Hebrew witnesses were not directly collated; no unverified manuscript variant is supplied.",
+          "es": "El v.13 usa la raíz hebrea חרב y este versículo usa יבש. Traducir esta última como completamente seca es una interpretación posible, pero las raíces distintas no establecen por sí solas etapas rígidas ni un calendario científico; por eso el texto dice seca. La edición griega de Swete (p.13) también da el segundo mes, día 27, y la tierra seca. No se cotejaron un aparato crítico hebreo moderno ni testigos hebreos independientes; no se presenta ninguna variante manuscrita sin verificar."
+        }
+      ],
+      "strongest_objection_ko": "13절과 모두 말랐다로 옮기면 다른 어근이 드러나지 않지만 두 동사의 엄격한 단계 차이는 입증되지 않았다. 각주로 어근 차이와 해석 한계를 알릴 수 있다."
+    }
+  ],
+  "selection_complete": true,
+  "final_editorial_decisions": [
+    {
+      "id": "Gen.8.12",
+      "translations": {
+        "ko": "그는 이레를 더 기다린 뒤 비둘기를 내보냈다. 비둘기는 더 이상 그에게 돌아오지 않았다.",
+        "en": "He waited another seven days and sent out the dove. It did not return to him again.",
+        "es": "Esperó otros siete días y soltó a la paloma. Esta ya no volvió a él."
+      },
+      "reason_ko": "추가 이레·재방출·미귀환을 보존하고 주어 전환을 명확히 한다. 한국어 다시/더 중복 지적을 수용해 이레를 더 기다린 뒤로 다듬는다. BDB 전사 j.bf.aa의 니팔 기다리다와 문맥이 번역을 지지한다. 피엘 형태만으로 강조·사역 의미를 단정했던 초기 Gemini 설명은 채택하지 않는다. 스페인어 soltó a la paloma는 새를 내보내는 자연스러운 문맥 번역이므로 유지한다.",
+      "strongest_objection_ko": "니팔 표기와 어근 논의는 현대 장치·독립 증인 대조 없이 전승의 우선순위로 확정하지 않는다. 미귀환 진술은 새의 이후 생존·행방을 말하지 않는다.",
+      "final_opinion_ko": "추가 이레·재방출·미귀환을 보존하고 주어 전환을 명확히 한다. 한국어 다시/더 중복 지적을 수용해 이레를 더 기다린 뒤로 다듬는다. BDB 전사 j.bf.aa의 니팔 기다리다와 문맥이 번역을 지지한다. 피엘 형태만으로 강조·사역 의미를 단정했던 초기 Gemini 설명은 채택하지 않는다. 스페인어 soltó a la paloma는 새를 내보내는 자연스러운 문맥 번역이므로 유지한다.",
+      "current_opinion_ko": "추가 이레·재방출·미귀환을 보존하고 주어 전환을 명확히 한다. 한국어 다시/더 중복 지적을 수용해 이레를 더 기다린 뒤로 다듬는다. BDB 전사 j.bf.aa의 니팔 기다리다와 문맥이 번역을 지지한다. 피엘 형태만으로 강조·사역 의미를 단정했던 초기 Gemini 설명은 채택하지 않는다. 스페인어 soltó a la paloma는 새를 내보내는 자연스러운 문맥 번역이므로 유지한다.",
+      "footnotes": [
+        {
+          "kind": "source_access_gap",
+          "ko": "「이레를 더 기다림」은 고정 히브리어의 추가 대기 기간을 옮긴 것이다. 다른 사본 읽기의 유무는 현대 히브리어 비평장치·독립 히브리어 증인을 직접 대조하지 못해 미확인이다. Swete 칠십인역 인쇄 13쪽도 추가 이레와 비둘기가 다시 돌아오지 않았음을 전한다. 본문은 직접 히브리어에 근거하며, 비둘기의 이후 행방이나 죽음은 말하지 않는다. 확인하지 못한 대안 읽기는 만들어 싣지 않는다.",
+          "en": "The pinned Hebrew describes another seven-day wait and the dove not returning again, without specifying its later fate. Swete’s Greek edition (p.13) also reports these actions. No competing Hebrew reading was verified: a modern Hebrew critical apparatus and independent Hebrew witnesses were not directly collated. The direct Hebrew baseline is provisionally retained; no unverified variant is supplied.",
+          "es": "El hebreo fijado describe otros siete días de espera y que la paloma no volvió, sin precisar su destino posterior. La edición griega de Swete (p.13) también relata estas acciones. No se verificó otra lectura hebrea: no se cotejaron un aparato crítico hebreo moderno ni testigos hebreos independientes. Se conserva provisionalmente la base hebrea directa, sin inventar variantes."
+        }
+      ],
+      "verdict": "잠정 채택",
+      "basis": "고정 WLC 4.20/OSHB 디지털 전사본을 잠정 저본으로 선택. GPT·Gemini 독립 초기안과 실제 최종 교차·난구 검토 보존. Swete 1901 인쇄13쪽·공식 NETS·BDB 전사 한정 대조. 현대 비평장치·독립 히브리어 증인 전면 대조·인간 전문가 검수 미완료. 대안과 접근 공백은 절 각주에 공개.",
+      "response_to_gemini_ko": "실제 최종 응답의 수용·이견을 위 의견에 보존했다. 모델 합의는 사본 증거가 아니다."
+    },
+    {
+      "id": "Gen.8.13",
+      "translations": {
+        "ko": "육백일 년째 되는 해 첫째 달 초하룻날에 땅 위에서 물이 말랐다. 노아가 방주의 덮개를 벗기고 보니, 땅 표면이 말라 있었다.",
+        "en": "In the six hundred and first year, in the first month, on the first day of the month, the waters had dried up from the earth. Noah removed the covering of the ark and saw that the surface of the ground was dry.",
+        "es": "En el año seiscientos uno, en el primer mes, el primer día del mes, las aguas se habían secado de sobre la tierra. Noé quitó la cubierta del arca y vio que la superficie del suelo estaba seca."
+      },
+      "reason_ko": "601년·첫째 달·첫날과 방주 덮개·땅 표면의 마름을 고정 히브리어대로 옮긴다. 땅 위에서와 날짜 조사 통일, 스페인어 en el primer mes를 수용한다. 노아의 생애와 그리스어의 마지막 물 소멸 서술, Swete의 지붕 어휘·NETS의 관계절은 각주에 구별해 둔다. Gemini의 영어 과거완료는 한국어 과거와 불일치한다는 주장과 from off·behold가 반드시 있어야 한다는 주장은 따르지 않는다. 앞선 물의 마름을 노아의 관찰보다 앞선 일로 영어·스페인어 과거완료에 두는 것은 자연스럽고, 보니/saw that/vio que는 관찰 결과로 주목 전환을 옮긴다.",
+      "strongest_objection_ko": "그리스어가 다른 히브리어를 반영할 가능성을 배제하지 못한다. 장치와 독립 히브리어 증인 대조가 없어 더 이른 읽기는 미확정이다. 601년을 노아의 나이로 이해하는 문맥과 이 절에 나이 명시가 없는 점을 구별한다.",
+      "final_opinion_ko": "601년·첫째 달·첫날과 방주 덮개·땅 표면의 마름을 고정 히브리어대로 옮긴다. 땅 위에서와 날짜 조사 통일, 스페인어 en el primer mes를 수용한다. 노아의 생애와 그리스어의 마지막 물 소멸 서술, Swete의 지붕 어휘·NETS의 관계절은 각주에 구별해 둔다. Gemini의 영어 과거완료는 한국어 과거와 불일치한다는 주장과 from off·behold가 반드시 있어야 한다는 주장은 따르지 않는다. 앞선 물의 마름을 노아의 관찰보다 앞선 일로 영어·스페인어 과거완료에 두는 것은 자연스럽고, 보니/saw that/vio que는 관찰 결과로 주목 전환을 옮긴다.",
+      "current_opinion_ko": "601년·첫째 달·첫날과 방주 덮개·땅 표면의 마름을 고정 히브리어대로 옮긴다. 땅 위에서와 날짜 조사 통일, 스페인어 en el primer mes를 수용한다. 노아의 생애와 그리스어의 마지막 물 소멸 서술, Swete의 지붕 어휘·NETS의 관계절은 각주에 구별해 둔다. Gemini의 영어 과거완료는 한국어 과거와 불일치한다는 주장과 from off·behold가 반드시 있어야 한다는 주장은 따르지 않는다. 앞선 물의 마름을 노아의 관찰보다 앞선 일로 영어·스페인어 과거완료에 두는 것은 자연스럽고, 보니/saw that/vio que는 관찰 결과로 주목 전환을 옮긴다.",
+      "footnotes": [
+        {
+          "kind": "alternative_reading",
+          "witness": "Swete 1901 vol.I p.13, Genesis 8:13; NETS Genesis 8:13",
+          "ko": "칠십인역 그리스어 판본(Swete 1901, 인쇄 13쪽)은 연대에 「노아의 생애에서」를 명시하고, 마지막을 「땅 표면에서 물이 사라졌다」로 전한다. Swete는 방주 부분에 「지붕」(στέγην)을 쓰며, NETS의 현대 영어 번역은 이를 관계절과 함께 「그가 만든 방주의 지붕」으로 옮긴다. 고정 히브리어는 이 절에 노아의 나이를 명시하지 않고, 「방주의 덮개」와 「땅 표면이 말랐다」로 읽어 본문은 이를 따른다. 601년은 7:6·11의 노아 나이를 잇는 문맥이다. 그리스어가 문맥을 풀어 쓴 번역일 가능성이 있어 이를 별도 히브리어 저본의 증거로 단정하지 않는다. 현대 비평장치와 독립 히브리어 증인을 직접 대조하지 못해 어느 읽기가 더 이른지는 확정하지 않는다.",
+          "en": "Swete’s Greek edition (1901, p.13) explicitly dates the year to Noah’s life and ends with water disappearing from the face of the earth. Swete uses στέγην (roof); NETS, a modern English translation of Greek, renders the ark clause as the roof of the ark that he had made. The pinned Hebrew instead has the ark’s covering and the surface of the ground being dry, without explicitly mentioning Noah’s life here. Year 601 continues the age context of 7:6,11. Direct Hebrew is retained provisionally; Greek may explicate the context and does not by itself prove a different Hebrew source. A modern critical apparatus and independent Hebrew witnesses were not directly collated, so textual priority remains undecided.",
+          "es": "La edición griega de Swete (1901, p.13) fecha explícitamente el año en la vida de Noé y termina con la desaparición del agua de la superficie de la tierra. Swete usa στέγην (techo); NETS, traducción inglesa moderna del griego, vierte la frase del arca como el techo del arca que él había hecho. El hebreo fijado dice la cubierta del arca y que la superficie del suelo estaba seca, sin mencionar aquí explícitamente la vida de Noé. El año 601 continúa el contexto de edad de 7:6,11. Se prefiere provisionalmente el hebreo directo; el griego puede explicitar el contexto y por sí solo no demuestra otra base hebrea. No se cotejaron un aparato crítico moderno ni testigos hebreos independientes, por lo que no se decide la prioridad textual."
+        }
+      ],
+      "verdict": "잠정 채택",
+      "basis": "고정 WLC 4.20/OSHB 디지털 전사본을 잠정 저본으로 선택. GPT·Gemini 독립 초기안과 실제 최종 교차·난구 검토 보존. Swete 1901 인쇄13쪽·공식 NETS·BDB 전사 한정 대조. 현대 비평장치·독립 히브리어 증인 전면 대조·인간 전문가 검수 미완료. 대안과 접근 공백은 절 각주에 공개.",
+      "response_to_gemini_ko": "실제 최종 응답의 수용·이견을 위 의견에 보존했다. 모델 합의는 사본 증거가 아니다."
+    },
+    {
+      "id": "Gen.8.14",
+      "translations": {
+        "ko": "둘째 달 스무이렛날에 땅이 말랐다.",
+        "en": "In the second month, on the twenty-seventh day of the month, the earth was dry.",
+        "es": "En el segundo mes, el día veintisiete del mes, la tierra estaba seca."
+      },
+      "reason_ko": "둘째 달27일과 땅의 마름을 보존한다. 한국어 그달 반복을 줄이고 스페인어 En을 보충한다. BDB 전사 h.fi.aa와 j.aj.aa의 뜻이 겹치므로13절חרב와14절יבש를 엄격한 표면/심층 건조 단계로 고정했던 Gemini 초기 설명을 채택하지 않는다. 날짜·주어·어근 차이는 각주로 알리고 완전히·마침내를 본문에 더하지 않는다.",
+      "strongest_objection_ko": "같은 마르다로 옮기면 두 어근과 날짜 차이가 번역 표면에서 약해질 수 있으나 어근만으로 엄격한 단계론을 입증하지 못한다. 영어 had dried out 자체가 언제나 완전건조를 뜻한다는 Gemini 일반화도 채택하지 않는다.",
+      "final_opinion_ko": "둘째 달27일과 땅의 마름을 보존한다. 한국어 그달 반복을 줄이고 스페인어 En을 보충한다. BDB 전사 h.fi.aa와 j.aj.aa의 뜻이 겹치므로13절חרב와14절יבש를 엄격한 표면/심층 건조 단계로 고정했던 Gemini 초기 설명을 채택하지 않는다. 날짜·주어·어근 차이는 각주로 알리고 완전히·마침내를 본문에 더하지 않는다.",
+      "current_opinion_ko": "둘째 달27일과 땅의 마름을 보존한다. 한국어 그달 반복을 줄이고 스페인어 En을 보충한다. BDB 전사 h.fi.aa와 j.aj.aa의 뜻이 겹치므로13절חרב와14절יבש를 엄격한 표면/심층 건조 단계로 고정했던 Gemini 초기 설명을 채택하지 않는다. 날짜·주어·어근 차이는 각주로 알리고 완전히·마침내를 본문에 더하지 않는다.",
+      "footnotes": [
+        {
+          "kind": "interpretive_alternative",
+          "ko": "13절의 마름(חרב)과 이 절의 마름(יבש)은 히브리어 어근이 다르다. 「완전히 말랐다」로 옮겨 단계 차이를 드러내는 해석도 가능하지만, 어근 차이만으로 엄격한 건조 단계나 과학적 시간표를 확정할 수 없어 본문은 「말랐다」로 옮긴다. Swete 칠십인역 인쇄 13쪽도 둘째 달 27일과 땅의 마름을 전한다. 현대 히브리어 비평장치·독립 히브리어 증인은 직접 대조하지 못했으며, 확인하지 못한 사본 이문은 제시하지 않는다.",
+          "en": "Verse 13 uses the Hebrew root חרב and this verse uses יבש. Rendering the latter as completely dry is a possible interpretation, but distinct roots alone do not establish rigid drying stages or a scientific timetable; the text therefore uses dry. Swete’s Greek edition (p.13) also gives the second month, day 27, and the dry earth. A modern Hebrew critical apparatus and independent Hebrew witnesses were not directly collated; no unverified manuscript variant is supplied.",
+          "es": "El v.13 usa la raíz hebrea חרב y este versículo usa יבש. Traducir esta última como completamente seca es una interpretación posible, pero las raíces distintas no establecen por sí solas etapas rígidas ni un calendario científico; por eso el texto dice seca. La edición griega de Swete (p.13) también da el segundo mes, día 27, y la tierra seca. No se cotejaron un aparato crítico hebreo moderno ni testigos hebreos independientes; no se presenta ninguna variante manuscrita sin verificar."
+        }
+      ],
+      "verdict": "잠정 채택",
+      "basis": "고정 WLC 4.20/OSHB 디지털 전사본을 잠정 저본으로 선택. GPT·Gemini 독립 초기안과 실제 최종 교차·난구 검토 보존. Swete 1901 인쇄13쪽·공식 NETS·BDB 전사 한정 대조. 현대 비평장치·독립 히브리어 증인 전면 대조·인간 전문가 검수 미완료. 대안과 접근 공백은 절 각주에 공개.",
+      "response_to_gemini_ko": "실제 최종 응답의 수용·이견을 위 의견에 보존했다. 모델 합의는 사본 증거가 아니다."
+    }
+  ]
+}

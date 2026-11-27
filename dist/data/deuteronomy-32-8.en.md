@@ -1,6 +1,6 @@
 # Deuteronomy 32:8
 
-Hansam Yang · Original Bible · v0.4.36
+Hansam Yang · Original Bible · v0.4.37
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -180,6 +180,10 @@ Previous v0.4.35
 
 When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
 
+Previous v0.4.36
+
+When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
+
 Previous v0.4.4
 
 When the Most High apportioned inheritances to the nations, when he divided humankind, he fixed the boundaries of the peoples according to the number of the sons of God.
@@ -226,7 +230,7 @@ Benei adam literally means sons of humankind; humankind conveys the collective s
 
 ## Citation
 
-Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/
+Hansam Yang. Original Bible: Deuteronomy 32:8 (en), research pilot v0.4.37. https://yangs777.github.io/hansam-bible/en/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

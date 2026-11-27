@@ -1,6 +1,6 @@
 # Génesis 7:1–24
 
-Hansam Yang · Original Bible · v0.4.36
+Hansam Yang · Original Bible · v0.4.37
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -76,6 +76,10 @@ Previous v0.4.35
 
 YHWH dijo a Noé: «Entra en el arca, tú y toda tu casa, porque he visto que eres justo ante mí en esta generación.
 
+Previous v0.4.36
+
+YHWH dijo a Noé: «Entra en el arca, tú y toda tu casa, porque he visto que eres justo ante mí en esta generación.
+
 ## 2 · HYB.GEN.007.002
 
 Hebrew display (MT/WLC): מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה תִּֽקַּח־לְךָ֛ שִׁבְעָ֥ה שִׁבְעָ֖ה אִ֣ישׁ וְאִשְׁתּ֑וֹ וּמִן־הַבְּהֵמָ֡ה אֲ֠שֶׁר לֹ֣א טְהֹרָ֥ה הִ֛וא שְׁנַ֖יִם אִ֥ישׁ וְאִשְׁתּֽוֹ׃
@@ -140,6 +144,10 @@ Previous v0.4.35
 
 De todo animal puro toma siete por siete, un macho y su pareja; y de los animales que no son puros, dos, un macho y su pareja.
 
+Previous v0.4.36
+
+De todo animal puro toma siete por siete, un macho y su pareja; y de los animales que no son puros, dos, un macho y su pareja.
+
 ## 3 · HYB.GEN.007.003
 
 Hebrew display (MT/WLC): גַּ֣ם מֵע֧וֹף הַשָּׁמַ֛יִם שִׁבְעָ֥ה שִׁבְעָ֖ה זָכָ֣ר וּנְקֵבָ֑ה לְחַיּ֥וֹת זֶ֖רַע עַל־פְּנֵ֥י כָל־הָאָֽרֶץ׃
@@ -197,6 +205,10 @@ Previous v0.4.34
 También de las aves de los cielos, toma siete por siete, macho y hembra, para conservar con vida la descendencia sobre la faz de toda la tierra.
 
 Previous v0.4.35
+
+También de las aves de los cielos, toma siete por siete, macho y hembra, para conservar con vida la descendencia sobre la faz de toda la tierra.
+
+Previous v0.4.36
 
 También de las aves de los cielos, toma siete por siete, macho y hembra, para conservar con vida la descendencia sobre la faz de toda la tierra.
 
@@ -260,6 +272,10 @@ Previous v0.4.35
 
 Porque dentro de siete días más haré llover sobre la tierra durante cuarenta días y cuarenta noches, y borraré de la faz del suelo todo ser viviente que he hecho».
 
+Previous v0.4.36
+
+Porque dentro de siete días más haré llover sobre la tierra durante cuarenta días y cuarenta noches, y borraré de la faz del suelo todo ser viviente que he hecho».
+
 ## 5 · HYB.GEN.007.005
 
 Hebrew display (MT/WLC): וַיַּ֖עַשׂ נֹ֑חַ כְּכֹ֥ל אֲשֶׁר־צִוָּ֖הוּ יְהוָֽה׃
@@ -317,6 +333,10 @@ Previous v0.4.34
 Noé hizo conforme a todo lo que YHWH le había mandado.
 
 Previous v0.4.35
+
+Noé hizo conforme a todo lo que YHWH le había mandado.
+
+Previous v0.4.36
 
 Noé hizo conforme a todo lo que YHWH le había mandado.
 
@@ -380,6 +400,10 @@ Previous v0.4.35
 
 Noé tenía seiscientos años, y las aguas del diluvio estaban sobre la tierra.
 
+Previous v0.4.36
+
+Noé tenía seiscientos años, y las aguas del diluvio estaban sobre la tierra.
+
 ## 7 · HYB.GEN.007.007
 
 Hebrew display (MT/WLC): וַיָּ֣בֹא נֹ֗חַ וּ֠בָנָיו וְאִשְׁתּ֧וֹ וּנְשֵֽׁי־בָנָ֛יו אִתּ֖וֹ אֶל־הַתֵּבָ֑ה מִפְּנֵ֖י מֵ֥י הַמַּבּֽוּל׃
@@ -440,6 +464,10 @@ Previous v0.4.35
 
 Noé entró en el arca, y con él sus hijos, su mujer y las mujeres de sus hijos, a causa de las aguas del diluvio.
 
+Previous v0.4.36
+
+Noé entró en el arca, y con él sus hijos, su mujer y las mujeres de sus hijos, a causa de las aguas del diluvio.
+
 ## 8 · HYB.GEN.007.008
 
 Hebrew display (MT/WLC): מִן־הַבְּהֵמָה֙ הַטְּהוֹרָ֔ה וּמִן־הַ֨בְּהֵמָ֔ה אֲשֶׁ֥ר אֵינֶ֖נָּה טְהֹרָ֑ה וּמִ֨ן־הָע֔וֹף וְכֹ֥ל אֲשֶׁר־רֹמֵ֖שׂ עַל־הָֽאֲדָמָֽה׃
@@ -493,6 +521,10 @@ Previous v0.4.34
 De los animales puros y de los animales que no eran puros, y de las aves y de todo lo que se arrastra por el suelo,
 
 Previous v0.4.35
+
+De los animales puros y de los animales que no eran puros, y de las aves y de todo lo que se arrastra por el suelo,
+
+Previous v0.4.36
 
 De los animales puros y de los animales que no eran puros, y de las aves y de todo lo que se arrastra por el suelo,
 
@@ -552,6 +584,10 @@ Previous v0.4.35
 
 vinieron de dos en dos a Noé, al arca, macho y hembra, tal como Dios había mandado a Noé.
 
+Previous v0.4.36
+
+vinieron de dos en dos a Noé, al arca, macho y hembra, tal como Dios había mandado a Noé.
+
 ## 10 · HYB.GEN.007.010
 
 Hebrew display (MT/WLC): וַֽיְהִ֖י לְשִׁבְעַ֣ת הַיָּמִ֑ים וּמֵ֣י הַמַּבּ֔וּל הָי֖וּ עַל־הָאָֽרֶץ׃
@@ -605,6 +641,10 @@ Previous v0.4.34
 Al cabo de los siete días, las aguas del diluvio estaban sobre la tierra.
 
 Previous v0.4.35
+
+Al cabo de los siete días, las aguas del diluvio estaban sobre la tierra.
+
+Previous v0.4.36
 
 Al cabo de los siete días, las aguas del diluvio estaban sobre la tierra.
 
@@ -664,6 +704,10 @@ Previous v0.4.35
 
 En el año seiscientos de la vida de Noé, en el mes segundo, el día diecisiete del mes, ese mismo día se rompieron todas las fuentes del gran abismo y se abrieron las ventanas de los cielos.
 
+Previous v0.4.36
+
+En el año seiscientos de la vida de Noé, en el mes segundo, el día diecisiete del mes, ese mismo día se rompieron todas las fuentes del gran abismo y se abrieron las ventanas de los cielos.
+
 ## 12 · HYB.GEN.007.012
 
 Hebrew display (MT/WLC): וַֽיְהִ֥י הַגֶּ֖שֶׁם עַל־הָאָ֑רֶץ אַרְבָּעִ֣ים י֔וֹם וְאַרְבָּעִ֖ים לָֽיְלָה׃
@@ -720,6 +764,10 @@ Previous v0.4.35
 
 La lluvia cayó sobre la tierra durante cuarenta días y cuarenta noches.
 
+Previous v0.4.36
+
+La lluvia cayó sobre la tierra durante cuarenta días y cuarenta noches.
+
 ## 13 · HYB.GEN.007.013
 
 Hebrew display (MT/WLC): בְּעֶ֨צֶם הַיּ֤וֹם הַזֶּה֙ בָּ֣א נֹ֔חַ וְשֵׁם־וְחָ֥ם וָיֶ֖פֶת בְּנֵי־נֹ֑חַ וְאֵ֣שֶׁת נֹ֗חַ וּשְׁלֹ֧שֶׁת נְשֵֽׁי־בָנָ֛יו אִתָּ֖ם אֶל־הַתֵּבָֽה׃
@@ -769,6 +817,10 @@ Previous v0.4.34
 Ese mismo día entraron en el arca Noé, Sem, Cam y Jafet, hijos de Noé, la mujer de Noé y las tres mujeres de sus hijos con ellos.
 
 Previous v0.4.35
+
+Ese mismo día entraron en el arca Noé, Sem, Cam y Jafet, hijos de Noé, la mujer de Noé y las tres mujeres de sus hijos con ellos.
+
+Previous v0.4.36
 
 Ese mismo día entraron en el arca Noé, Sem, Cam y Jafet, hijos de Noé, la mujer de Noé y las tres mujeres de sus hijos con ellos.
 
@@ -824,6 +876,10 @@ Previous v0.4.35
 
 Entraron ellos, todo animal silvestre según su clase, todo ganado según su clase, todo lo que se arrastra por la tierra según su clase y todo ser volador según su clase: toda ave, todo ser alado.
 
+Previous v0.4.36
+
+Entraron ellos, todo animal silvestre según su clase, todo ganado según su clase, todo lo que se arrastra por la tierra según su clase y todo ser volador según su clase: toda ave, todo ser alado.
+
 ## 15 · HYB.GEN.007.015
 
 Hebrew display (MT/WLC): וַיָּבֹ֥אוּ אֶל־נֹ֖חַ אֶל־הַתֵּבָ֑ה שְׁנַ֤יִם שְׁנַ֨יִם֙ מִכָּל־הַבָּשָׂ֔ר אֲשֶׁר־בּ֖וֹ ר֥וּחַ חַיִּֽים׃
@@ -873,6 +929,10 @@ Previous v0.4.34
 Vinieron a Noé, al arca, de dos en dos, de toda carne en la que había aliento de vida.
 
 Previous v0.4.35
+
+Vinieron a Noé, al arca, de dos en dos, de toda carne en la que había aliento de vida.
+
+Previous v0.4.36
 
 Vinieron a Noé, al arca, de dos en dos, de toda carne en la que había aliento de vida.
 
@@ -928,6 +988,10 @@ Previous v0.4.35
 
 Los que entraban, macho y hembra de toda carne, entraron como Dios le había mandado; y YHWH lo encerró.
 
+Previous v0.4.36
+
+Los que entraban, macho y hembra de toda carne, entraron como Dios le había mandado; y YHWH lo encerró.
+
 ## 17 · HYB.GEN.007.017
 
 Hebrew display (MT/WLC): וַֽיְהִ֧י הַמַּבּ֛וּל אַרְבָּעִ֥ים י֖וֹם עַל־הָאָ֑רֶץ וַיִּרְבּ֣וּ הַמַּ֗יִם וַיִּשְׂאוּ֙ אֶת־הַתֵּבָ֔ה וַתָּ֖רָם מֵעַ֥ל הָאָֽרֶץ׃
@@ -980,6 +1044,10 @@ Previous v0.4.35
 
 El diluvio estuvo sobre la tierra cuarenta días. Las aguas aumentaron y levantaron el arca, y esta se elevó sobre la tierra.
 
+Previous v0.4.36
+
+El diluvio estuvo sobre la tierra cuarenta días. Las aguas aumentaron y levantaron el arca, y esta se elevó sobre la tierra.
+
 ## 18 · HYB.GEN.007.018
 
 Hebrew display (MT/WLC): וַיִּגְבְּר֥וּ הַמַּ֛יִם וַיִּרְבּ֥וּ מְאֹ֖ד עַל־הָאָ֑רֶץ וַתֵּ֥לֶךְ הַתֵּבָ֖ה עַל־פְּנֵ֥י הַמָּֽיִם׃
@@ -1025,6 +1093,10 @@ Previous v0.4.34
 Las aguas cobraron fuerza y aumentaron mucho sobre la tierra, y el arca se movía sobre la superficie de las aguas.
 
 Previous v0.4.35
+
+Las aguas cobraron fuerza y aumentaron mucho sobre la tierra, y el arca se movía sobre la superficie de las aguas.
+
+Previous v0.4.36
 
 Las aguas cobraron fuerza y aumentaron mucho sobre la tierra, y el arca se movía sobre la superficie de las aguas.
 
@@ -1076,6 +1148,10 @@ Previous v0.4.35
 
 Las aguas prevalecieron sobremanera sobre la tierra, y quedaron cubiertas todas las montañas altas que había bajo todo el cielo.
 
+Previous v0.4.36
+
+Las aguas prevalecieron sobremanera sobre la tierra, y quedaron cubiertas todas las montañas altas que había bajo todo el cielo.
+
 ## 20 · HYB.GEN.007.020
 
 Hebrew display (MT/WLC): חֲמֵ֨שׁ עֶשְׂרֵ֤ה אַמָּה֙ מִלְמַ֔עְלָה גָּבְר֖וּ הַמָּ֑יִם וַיְכֻסּ֖וּ הֶהָרִֽים׃
@@ -1117,6 +1193,10 @@ Previous v0.4.34
 Las aguas subieron quince codos hacia arriba, y los montes quedaron cubiertos.
 
 Previous v0.4.35
+
+Las aguas subieron quince codos hacia arriba, y los montes quedaron cubiertos.
+
+Previous v0.4.36
 
 Las aguas subieron quince codos hacia arriba, y los montes quedaron cubiertos.
 
@@ -1164,6 +1244,10 @@ Previous v0.4.35
 
 Pereció toda carne que se movía sobre la tierra: las aves, el ganado, las bestias, todo lo que pululaba sobre la tierra y toda la humanidad.
 
+Previous v0.4.36
+
+Pereció toda carne que se movía sobre la tierra: las aves, el ganado, las bestias, todo lo que pululaba sobre la tierra y toda la humanidad.
+
 ## 22 · HYB.GEN.007.022
 
 Hebrew display (MT/WLC): כֹּ֡ל אֲשֶׁר֩ נִשְׁמַת־ר֨וּחַ חַיִּ֜ים בְּאַפָּ֗יו מִכֹּ֛ל אֲשֶׁ֥ר בֶּחָֽרָבָ֖ה מֵֽתוּ׃
@@ -1208,6 +1292,10 @@ Previous v0.4.35
 
 Murió todo lo que estaba en tierra seca y tenía aliento de vida en sus narices.
 
+Previous v0.4.36
+
+Murió todo lo que estaba en tierra seca y tenía aliento de vida en sus narices.
+
 ## 23 · HYB.GEN.007.023
 
 Hebrew display (MT/WLC): וַיִּ֜מַח אֶֽת־כָּל־הַיְק֣וּם ׀ אֲשֶׁ֣ר ׀ עַל־פְּנֵ֣י הָֽאֲדָמָ֗ה מֵאָדָ֤ם עַד־בְּהֵמָה֙ עַד־רֶ֨מֶשׂ֙ וְעַד־ע֣וֹף הַשָּׁמַ֔יִם וַיִּמָּח֖וּ מִן־הָאָ֑רֶץ וַיִשָּׁ֧אֶר אַךְ־נֹ֛חַ וַֽאֲשֶׁ֥ר אִתּ֖וֹ בַּתֵּבָֽה׃
@@ -1243,6 +1331,10 @@ Previous v0.4.34
 Borró todo ser viviente sobre la superficie del suelo, desde los seres humanos hasta el ganado, los animales que se arrastran y las aves de los cielos. Fueron borrados de la tierra; solo quedaron Noé y los que estaban con él en el arca.
 
 Previous v0.4.35
+
+Borró todo ser viviente sobre la superficie del suelo, desde los seres humanos hasta el ganado, los animales que se arrastran y las aves de los cielos. Fueron borrados de la tierra; solo quedaron Noé y los que estaban con él en el arca.
+
+Previous v0.4.36
 
 Borró todo ser viviente sobre la superficie del suelo, desde los seres humanos hasta el ganado, los animales que se arrastran y las aves de los cielos. Fueron borrados de la tierra; solo quedaron Noé y los que estaban con él en el arca.
 
@@ -1290,6 +1382,10 @@ Previous v0.4.35
 
 Las aguas prevalecieron sobre la tierra durante ciento cincuenta días.
 
+Previous v0.4.36
+
+Las aguas prevalecieron sobre la tierra durante ciento cincuenta días.
+
 ## Notes
 
 El v.1 conserva he visto, justo, ante mí y esta generación, e incluye toda la casa. El v.2 mantiene siete por siete con un macho y su pareja. Siete parejas (catorce animales) es una lectura fuerte al distribuir la pareja, pero siete en total sigue siendo alternativa; no se fija una suma. La repetición griega con macho y hembra no resuelve la cuestión. No se añaden criterios de pureza, sacrificios posteriores ni armonización con el capítulo 6.
@@ -1320,7 +1416,7 @@ Los vv.20–24 conservan provisionalmente WLC fijado. Quince codos sobre los mon
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 7:1–24 (es), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/es/genesis-7/
+Hansam Yang. Original Bible: Genesis 7:1–24 (es), research pilot v0.4.37. https://yangs777.github.io/hansam-bible/es/genesis-7/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

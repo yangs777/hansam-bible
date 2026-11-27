@@ -1,6 +1,6 @@
-# Genesis 8:1–11
+# Genesis 8:1–14
 
-Hansam Yang · Original Bible · v0.4.36
+Hansam Yang · Original Bible · v0.4.37
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -46,6 +46,10 @@ Previous v0.4.35
 
 God remembered Noah and all the wild animals and all the livestock that were with him in the ark. God caused a wind to pass over the earth, and the waters subsided.
 
+Previous v0.4.36
+
+God remembered Noah and all the wild animals and all the livestock that were with him in the ark. God caused a wind to pass over the earth, and the waters subsided.
+
 ## 2 · HYB.GEN.008.002
 
 Hebrew display (MT/WLC): וַיִּסָּֽכְרוּ֙ מַעְיְנֹ֣ת תְּה֔וֹם וַֽאֲרֻבֹּ֖ת הַשָּׁמָ֑יִם וַיִּכָּלֵ֥א הַגֶּ֖שֶׁם מִן־הַשָּׁמָֽיִם׃
@@ -77,6 +81,10 @@ Previous v0.4.34
 The springs of the deep and the windows of the heavens were closed, and the rain from the heavens was restrained.
 
 Previous v0.4.35
+
+The springs of the deep and the windows of the heavens were closed, and the rain from the heavens was restrained.
+
+Previous v0.4.36
 
 The springs of the deep and the windows of the heavens were closed, and the rain from the heavens was restrained.
 
@@ -114,6 +122,10 @@ Previous v0.4.35
 
 The waters kept receding from the earth, and at the end of the one hundred and fifty days they had diminished.
 
+Previous v0.4.36
+
+The waters kept receding from the earth, and at the end of the one hundred and fifty days they had diminished.
+
 ## 4 · HYB.GEN.008.004
 
 Hebrew display (MT/WLC): וַתָּ֤נַח הַתֵּבָה֙ בַּחֹ֣דֶשׁ הַשְּׁבִיעִ֔י בְּשִׁבְעָה־עָשָׂ֥ר י֖וֹם לַחֹ֑דֶשׁ עַ֖ל הָרֵ֥י אֲרָרָֽט׃
@@ -145,6 +157,10 @@ Previous v0.4.34
 On the seventeenth day of the seventh month, the ark came to rest in the mountains of Ararat.
 
 Previous v0.4.35
+
+On the seventeenth day of the seventh month, the ark came to rest in the mountains of Ararat.
+
+Previous v0.4.36
 
 On the seventeenth day of the seventh month, the ark came to rest in the mountains of Ararat.
 
@@ -182,6 +198,10 @@ Previous v0.4.35
 
 The waters continued to decrease until the tenth month; on the first day of the tenth month, the tops of the mountains appeared.
 
+Previous v0.4.36
+
+The waters continued to decrease until the tenth month; on the first day of the tenth month, the tops of the mountains appeared.
+
 ## 6 · HYB.GEN.008.006
 
 Hebrew display (MT/WLC): וַֽיְהִ֕י מִקֵּ֖ץ אַרְבָּעִ֣ים י֑וֹם וַיִּפְתַּ֣ח נֹ֔חַ אֶת־חַלּ֥וֹן הַתֵּבָ֖ה אֲשֶׁ֥ר עָשָֽׂה׃
@@ -216,6 +236,10 @@ Final opinion (Korean original): 기산점을 보충하지 않고 창을 여는 
 
 Counterargument (Korean): 방주 건조 문맥과 어순은 선택 사유지만 창 수식을 배제할 결정적 문법 증거는 아니다.
 
+Previous v0.4.36
+
+At the end of forty days, Noah opened the window of the ark that he had made.
+
 ## 7 · HYB.GEN.008.007
 
 Hebrew display (MT/WLC): וַיְשַׁלַּ֖ח אֶת־הָֽעֹרֵ֑ב וַיֵּצֵ֤א יָצוֹא֙ וָשׁ֔וֹב עַד־יְבֹ֥שֶׁת הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃
@@ -245,6 +269,10 @@ Final opinion (Korean original): WLC의 오감 후보와 Swete 인쇄 주본문�
 Counterargument (Korean): 칠십인역(Swete 인쇄본)의 「돌아오지 않았다」가 더 이른 히브리어를 반영할 가능성도, 번역·전승 과정의 차이일 가능성도 남아 있다. 고정 저본의 재현성이나 판본 웹 본문과의 일치만으로 이 경쟁 읽기를 배제할 수 없다. 「오가곤 했다」가 방주 안으로 들어왔다는 뜻으로 읽힐 수 있다는 지적도 있다.
 
 Previous v0.4.35
+
+He sent out the raven, and it went out, going to and fro until the waters had dried up from the earth.
+
+Previous v0.4.36
 
 He sent out the raven, and it went out, going to and fro until the waters had dried up from the earth.
 
@@ -282,6 +310,10 @@ Final opinion (Korean original): מֵאִתּוֹ의 출발점과 감소 여부�
 
 Counterargument (Korean): 그리스어 표현이 다른 히브리어를 반영할 가능성은 열려 있다. 자기 곁에서라는 직역은 세 언어의 자연스러움과 긴장할 수 있다.
 
+Previous v0.4.36
+
+Then he sent out the dove from his side to see whether the waters had receded from the surface of the ground.
+
 ## 9 · HYB.GEN.008.009
 
 Hebrew display (MT/WLC): וְלֹֽא־מָצְאָה֩ הַיּוֹנָ֨ה מָנ֜וֹחַ לְכַף־רַגְלָ֗הּ וַתָּ֤שָׁב אֵלָיו֙ אֶל־הַתֵּבָ֔ה כִּי־מַ֖יִם עַל־פְּנֵ֣י כָל־הָאָ֑רֶץ וַיִּשְׁלַ֤ח יָדוֹ֙ וַיִּקָּחֶ֔הָ וַיָּבֵ֥א אֹתָ֛הּ אֵלָ֖יו אֶל־הַתֵּבָֽה׃
@@ -315,6 +347,10 @@ The dove found no resting place for the sole of its foot, and it returned to him
 Final opinion (Korean original): Gemini의 발바닥 어휘 보존 제안을 수용하되 한국어를 발바닥이 쉴 곳으로 다듬는다. 물이 있었다는 존재문, 비둘기에서 노아로 주어 전환, 손 내밈·잡음·들여옴을 유지한다. 발을 딛고나 영어 covered라는 자연화 자체가 항상 오역이라는 모델 일반화는 채택하지 않는다. 잡아는 동작 강도를 과장하지 않는 문맥상 선택이다.
 
 Counterargument (Korean): 발바닥이 쉴 곳은 원어 신체 표현을 드러내지만 자연스러운 한국어보다 다소 직역투다. 잡아 역시 원문의 폭넓은 취함 동사를 구체화한 선택이며 받았다는 대안도 가능하다.
+
+Previous v0.4.36
+
+The dove found no resting place for the sole of its foot, and it returned to him in the ark, for water was on the surface of the whole earth. He reached out his hand, took it, and brought it to himself into the ark.
 
 ## 10 · HYB.GEN.008.010
 
@@ -350,6 +386,10 @@ Final opinion (Korean original): 추가 칠 일과 다시 보냄을 보존한다
 
 Counterargument (Korean): 다른 칠 일이 이전 간격을 암시할 수 있으나 이번 문구는 까마귀와 첫 비둘기 사이 정확한 칠 일을 명시하지 않는다.
 
+Previous v0.4.36
+
+He waited another seven days and again sent the dove out from the ark.
+
 ## 11 · HYB.GEN.008.011
 
 Hebrew display (MT/WLC): וַתָּבֹ֨א אֵלָ֤יו הַיּוֹנָה֙ לְעֵ֣ת עֶ֔רֶב וְהִנֵּ֥ה עֲלֵה־זַ֖יִת טָרָ֣ף בְּפִ֑יהָ וַיֵּ֣דַע נֹ֔חַ כִּי־קַ֥לּוּ הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃
@@ -384,6 +424,94 @@ Final opinion (Korean original): BDB 전자 전사 항목 i.bo.ab를 직접 읽�
 
 Counterargument (Korean): 그리스어 차이가 다른 히브리어 저본을 반영할 가능성 또는 번역 어휘 차이일 가능성을 현대 장치 없이 결정하지 못한다. 갓 뜯은은 어휘 설명에 따른 상태 표현이지 정확한 경과 시간·생장 위치·행위자나 홍수 범위를 확정하는 증거가 아니다.
 
+Previous v0.4.36
+
+The dove came to him toward evening, and there in its beak was a freshly plucked olive leaf. Noah knew that the waters had receded from the earth.
+
+## 12 · HYB.GEN.008.012
+
+Hebrew display (MT/WLC): וַיִּיָּ֣חֶל ע֔וֹד שִׁבְעַ֥ת יָמִ֖ים אֲחֵרִ֑ים וַיְשַׁלַּח֙ אֶת־הַיּוֹנָ֔ה וְלֹֽא־יָסְפָ֥ה שׁוּב־אֵלָ֖יו עֽוֹד׃
+
+He waited another seven days and sent out the dove. It did not return to him again.
+
+Footnote 7: The pinned Hebrew describes another seven-day wait and the dove not returning again, without specifying its later fate. Swete’s Greek edition (p.13) also reports these actions. No competing Hebrew reading was verified: a modern Hebrew critical apparatus and independent Hebrew witnesses were not directly collated. The direct Hebrew baseline is provisionally retained; no unverified variant is supplied.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.12
+
+### Current best selected translation
+
+추가 이레·재방출·미귀환을 보존하고 주어 전환을 명확히 한다. 한국어 다시/더 중복 지적을 수용해 이레를 더 기다린 뒤로 다듬는다. BDB 전사 j.bf.aa의 니팔 기다리다와 문맥이 번역을 지지한다. 피엘 형태만으로 강조·사역 의미를 단정했던 초기 Gemini 설명은 채택하지 않는다. 스페인어 soltó a la paloma는 새를 내보내는 자연스러운 문맥 번역이므로 유지한다.
+
+#### gemini-4-hydrogen-high
+
+He waited yet another seven days and sent out the dove, and it did not return to him again.
+
+Final opinion (Korean original): 직접 히브리어(WLC 4.20)를 잠정 본문으로 채택하고, 기왕의 GPT/과거 Claude/Gemini 초안 가운데 과잉 해석과 문법 흠을 덜어낸 보완 번역을 권고한다. '기다림'의 어근·태 논의와 '돌아오지 않음'의 해석 범위는 본문에 과잉 수식 없이 보존하되, 비평장치 미열람에 따른 미확정성은 각주로 투명하게 남긴다.
+
+#### gpt-6.1-sol
+
+He waited another seven days and sent out the dove. It did not return to him again.
+
+Final opinion (Korean original): 추가 이레·재방출·미귀환을 보존하고 주어 전환을 명확히 한다. 한국어 다시/더 중복 지적을 수용해 이레를 더 기다린 뒤로 다듬는다. BDB 전사 j.bf.aa의 니팔 기다리다와 문맥이 번역을 지지한다. 피엘 형태만으로 강조·사역 의미를 단정했던 초기 Gemini 설명은 채택하지 않는다. 스페인어 soltó a la paloma는 새를 내보내는 자연스러운 문맥 번역이므로 유지한다.
+
+Counterargument (Korean): 니팔 표기와 어근 논의는 현대 장치·독립 증인 대조 없이 전승의 우선순위로 확정하지 않는다. 미귀환 진술은 새의 이후 생존·행방을 말하지 않는다.
+
+## 13 · HYB.GEN.008.013
+
+Hebrew display (MT/WLC): וַֽ֠יְהִי בְּאַחַ֨ת וְשֵׁשׁ־מֵא֜וֹת שָׁנָ֗ה בָּֽרִאשׁוֹן֙ בְּאֶחָ֣ד לַחֹ֔דֶשׁ חָֽרְב֥וּ הַמַּ֖יִם מֵעַ֣ל הָאָ֑רֶץ וַיָּ֤סַר נֹ֨חַ֙ אֶת־מִכְסֵ֣ה הַתֵּבָ֔ה וַיַּ֕רְא וְהִנֵּ֥ה חָֽרְב֖וּ פְּנֵ֥י הָֽאֲדָמָֽה׃
+
+In the six hundred and first year, in the first month, on the first day of the month, the waters had dried up from the earth. Noah removed the covering of the ark and saw that the surface of the ground was dry.
+
+Footnote 8: Swete’s Greek edition (1901, p.13) explicitly dates the year to Noah’s life and ends with water disappearing from the face of the earth. Swete uses στέγην (roof); NETS, a modern English translation of Greek, renders the ark clause as the roof of the ark that he had made. The pinned Hebrew instead has the ark’s covering and the surface of the ground being dry, without explicitly mentioning Noah’s life here. Year 601 continues the age context of 7:6,11. Direct Hebrew is retained provisionally; Greek may explicate the context and does not by itself prove a different Hebrew source. A modern critical apparatus and independent Hebrew witnesses were not directly collated, so textual priority remains undecided.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.13
+
+### Current best selected translation
+
+601년·첫째 달·첫날과 방주 덮개·땅 표면의 마름을 고정 히브리어대로 옮긴다. 땅 위에서와 날짜 조사 통일, 스페인어 en el primer mes를 수용한다. 노아의 생애와 그리스어의 마지막 물 소멸 서술, Swete의 지붕 어휘·NETS의 관계절은 각주에 구별해 둔다. Gemini의 영어 과거완료는 한국어 과거와 불일치한다는 주장과 from off·behold가 반드시 있어야 한다는 주장은 따르지 않는다. 앞선 물의 마름을 노아의 관찰보다 앞선 일로 영어·스페인어 과거완료에 두는 것은 자연스럽고, 보니/saw that/vio que는 관찰 결과로 주목 전환을 옮긴다.
+
+#### gemini-4-hydrogen-high
+
+In the six hundred and first year, in the first month, on the first day of the month, the waters dried up from off the earth; and Noah removed the covering of the ark and looked, and behold, the surface of the ground was dry.
+
+Final opinion (Korean original): 직접 히브리어를 잠정 채택하고, 제공된 Swete 1901 p.13 및 NETS 관찰상의 그리스어 대안(노아의 생애, 지붕 및 관계절, 마지막 물 소멸 서술)과 접근 공백은 13절 각주에 둔다. GPT안에서 보였던 영어·스페인어 과거완료 시제 불일치와 전치사 누락, Claude 스페인어안의 전치사 누락을 바로잡은 보완 번역으로 확정 권고한다.
+
+#### gpt-6.1-sol
+
+In the six hundred and first year, in the first month, on the first day of the month, the waters had dried up from the earth. Noah removed the covering of the ark and saw that the surface of the ground was dry.
+
+Final opinion (Korean original): 601년·첫째 달·첫날과 방주 덮개·땅 표면의 마름을 고정 히브리어대로 옮긴다. 땅 위에서와 날짜 조사 통일, 스페인어 en el primer mes를 수용한다. 노아의 생애와 그리스어의 마지막 물 소멸 서술, Swete의 지붕 어휘·NETS의 관계절은 각주에 구별해 둔다. Gemini의 영어 과거완료는 한국어 과거와 불일치한다는 주장과 from off·behold가 반드시 있어야 한다는 주장은 따르지 않는다. 앞선 물의 마름을 노아의 관찰보다 앞선 일로 영어·스페인어 과거완료에 두는 것은 자연스럽고, 보니/saw that/vio que는 관찰 결과로 주목 전환을 옮긴다.
+
+Counterargument (Korean): 그리스어가 다른 히브리어를 반영할 가능성을 배제하지 못한다. 장치와 독립 히브리어 증인 대조가 없어 더 이른 읽기는 미확정이다. 601년을 노아의 나이로 이해하는 문맥과 이 절에 나이 명시가 없는 점을 구별한다.
+
+## 14 · HYB.GEN.008.014
+
+Hebrew display (MT/WLC): וּבַחֹ֨דֶשׁ֙ הַשֵּׁנִ֔י בְּשִׁבְעָ֧ה וְעֶשְׂרִ֛ים י֖וֹם לַחֹ֑דֶשׁ יָבְשָׁ֖ה הָאָֽרֶץ׃
+
+In the second month, on the twenty-seventh day of the month, the earth was dry.
+
+Footnote 9: Verse 13 uses the Hebrew root חרב and this verse uses יבש. Rendering the latter as completely dry is a possible interpretation, but distinct roots alone do not establish rigid drying stages or a scientific timetable; the text therefore uses dry. Swete’s Greek edition (p.13) also gives the second month, day 27, and the dry earth. A modern Hebrew critical apparatus and independent Hebrew witnesses were not directly collated; no unverified manuscript variant is supplied.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.14
+
+### Current best selected translation
+
+둘째 달27일과 땅의 마름을 보존한다. 한국어 그달 반복을 줄이고 스페인어 En을 보충한다. BDB 전사 h.fi.aa와 j.aj.aa의 뜻이 겹치므로13절חרב와14절יבש를 엄격한 표면/심층 건조 단계로 고정했던 Gemini 초기 설명을 채택하지 않는다. 날짜·주어·어근 차이는 각주로 알리고 완전히·마침내를 본문에 더하지 않는다.
+
+#### gemini-4-hydrogen-high
+
+And in the second month, on the twenty-seventh day of the month, the earth was dry.
+
+Final opinion (Korean original): 직접 히브리어(WLC 4.20)를 잠정 채택하고, 본문에 '완전히·마침내'를 배제한 채 '말랐다 / was dry / estaba seca'를 유지한다. GPT안의 '그달' 중복과 스페인어 'En' 누락, Claude 영어안의 'had dried out' 과잉 완료 뉘앙스를 제거한 최종 문안을 채택 권고하며, חרב와 יבש의 어근 차이는 각주로만 설명한다.
+
+#### gpt-6.1-sol
+
+In the second month, on the twenty-seventh day of the month, the earth was dry.
+
+Final opinion (Korean original): 둘째 달27일과 땅의 마름을 보존한다. 한국어 그달 반복을 줄이고 스페인어 En을 보충한다. BDB 전사 h.fi.aa와 j.aj.aa의 뜻이 겹치므로13절חרב와14절יבש를 엄격한 표면/심층 건조 단계로 고정했던 Gemini 초기 설명을 채택하지 않는다. 날짜·주어·어근 차이는 각주로 알리고 완전히·마침내를 본문에 더하지 않는다.
+
+Counterargument (Korean): 같은 마르다로 옮기면 두 어근과 날짜 차이가 번역 표면에서 약해질 수 있으나 어근만으로 엄격한 단계론을 입증하지 못한다. 영어 had dried out 자체가 언제나 완전건조를 뜻한다는 Gemini 일반화도 채택하지 않는다.
+
 ## Notes
 
 Wind in verse 1 follows the narrative context; spirit/breath associations remain open. Swete1901 p.12 includes a longer bird/reptile list, whose Hebrew background is unresolved. Verse 3 retains continuing recession and the end of 150 days without adding another period.
@@ -392,11 +520,11 @@ In verse 4 pinned WLC and inspected Leningrad5r consonants read seventeen; Swete
 
 The input is a digital transcription. Manuscript photographs, scholarly editions, ancient translations and morphology remain distinct. Inspection was limited; full collation and specialist review remain pending.
 
-The other reading and selection rationale for verse 7 are in its footnote. Alternatives, translation details and source-access gaps for verses 6 and 8–11 are also noted under each verse.
+Other readings, selection reasons, translation details and source-access gaps for verses 6–14 are in the verse footnotes.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 8:1–11 (en), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/en/genesis-8/
+Hansam Yang. Original Bible: Genesis 8:1–14 (en), research pilot v0.4.37. https://yangs777.github.io/hansam-bible/en/genesis-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
