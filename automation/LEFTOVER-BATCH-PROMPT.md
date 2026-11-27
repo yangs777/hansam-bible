@@ -6,7 +6,7 @@
 할 일:
 1. 이 저장소의 AGENTS.md, COST-AND-AUTOMATION.ko.md, private/automation-progress.json을 읽는다.
 2. 범위는 `python tools/next_scope.py --count <batch_verses>`로 정한다(보류 절은 건너뜀). 위 batch_verses 수만큼만 처리한다. 최대 5절이며 하루 예산이 작으면 1절부터 처리한다. 먼저 진행 기록, 공개 판본, 기존 초안·검토 결과로 중복을 확인한다.
-3. Gemini는 `python tools/agy_review.py --prompt-file ... --out private/...`로 부른다(일시 오류 자동 재시도). 독립 GPT·Gemini 제안, 필요한 난구 검토, 실제 모델 최종 의견·반론, 판본 선택 근거와 접근 공백을 보존한다. 로컬 채택도 tools/adopt.py, 빌드·검사, 이전판 보존을 모두 통과해야 한다. 검수 미완료 초안을 채택본으로 보고하지 않는다.
+3. Gemini는 `python tools/agy_review.py --prompt-file ... --out private/...`로 부른다(일시 오류 자동 재시도). 독립 GPT·Gemini 제안, 필요한 난구 검토, 실제 모델 최종 의견·반론, 판본 선택 근거와 접근 공백을 보존한다. 로컬 채택도 tools/adopt.py, 빌드·검사, 이전판 보존을 모두 통과해야 한다. 검수 미완료 초안을 채택본으로 보고하지 않는다. 두 읽기가 경쟁하거나 비평장치를 열람할 수 없어도 보류하지 않는다. 더 유력한 읽기를 본문에 채택하고 덜 유력한 읽기는 사유와 함께 그 절의 각주(`footnotes`)로 단다. 보류는 방어 가능한 저본이 전혀 없을 때만 한다(2026-11-27 소유자 지시, AGENTS.md).
 4. 완료 상태와 실제 처리 범위를 private/에 보존하고 실제 사용량을 다시 확인한다.
 
 하지 않는 일:

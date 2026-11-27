@@ -18,6 +18,7 @@ L={
 'ko':dict(name='한국어',home='본문 읽기',data='데이터',about='프로젝트',pilot='연구 시험판',hero='원문을 따라,<br>언어를 넘어.',lead='성경의 말과 그 근거를 함께 읽습니다. 원어에서 번역까지, 모든 판단의 흔적을 남기는 Hansam Yang의 공개 연구 프로젝트.',read='본문 살펴보기',download='데이터 내려받기',texts='본문과 번역의 쟁점',draft='AI 보조 번역 초안 · 원어·모국어 전문가 검수 전',evidence='근거를 펼쳐 읽기',notes='번역과 본문 주석',gloss='선택 어휘',morph='전체 표시문 형태분석',source='출처와 재사용',copy='인용 복사',copied='복사했습니다',original='히브리어 표시문 · MT / WLC',translation='현재 최선의 채택 번역',variant='보고된 이문구 · 채택 번역의 근거',status='판정',none='외부 전문가 검수 대기',focus='읽기 전 알아둘 점',intro2='현재의 최선을 읽고,<br>새 증거로 갱신합니다.',intro3='사본과 복원, 번역과 해석을 구별합니다. 새 증거가 들어오면 판단과 번역을 함께 갱신합니다.',view='본문 열기',number='절',author='최초 기획·제작',warning='이 판본은 연구 초안입니다. 자필원본의 발견이나 완전한 본문 복원을 주장하지 않습니다.',selected='아래 어휘 풀이는 선택 어휘의 초안입니다. 모든 단어에 대한 완성된 한국어 인터리니어가 아닙니다.',citation='인용 예시',terms='재사용 안내',pending='직접 사본 사진 판독 대기',all='전체 데이터',privacy='추적 쿠키·광고 없음'),
 'en':dict(name='English',home='Read',data='Data',about='Project',pilot='Research pilot',hero='Follow the text.<br>Across languages.',lead='Read the biblical words alongside their evidence. An open research project by Hansam Yang, tracing decisions from Hebrew display to translation.',read='Explore the texts',download='Download the data',texts='Texts and translation questions',draft='AI-assisted translation draft · specialist and native-language review pending',evidence='Read with the evidence',notes='Text and translation notes',gloss='Selected vocabulary',morph='Morphology of the full display',source='Sources and reuse',copy='Copy citation',copied='Copied',original='Hebrew display · MT / WLC',translation='Current best selected translation',variant='Reported variant phrase · basis of the selected translation',status='Decision',none='External specialist review pending',focus='Before you read',intro2='The best current reading.<br>Open to better evidence.',intro3='Manuscript, reconstruction, translation and interpretation remain distinct. New evidence can change both the decision and the translation.',view='Open passage',number='Verse',author='Founder and original creator',warning='This is a research draft. It does not claim discovery of an autograph or a complete reconstruction of the earliest text.',selected='These are selected draft glosses, not a complete word-aligned interlinear translation.',citation='Suggested citation',terms='Reuse guide',pending='Direct manuscript-image review pending',all='Complete data',privacy='No tracking cookies or advertising'),
 'es':dict(name='Español',home='Leer',data='Datos',about='Proyecto',pilot='Piloto de investigación',hero='Siga el texto.<br>Más allá del idioma.',lead='Lea las palabras bíblicas junto a sus testimonios. Un proyecto abierto de Hansam Yang que permite seguir las decisiones desde el hebreo hasta la traducción.',read='Explorar los textos',download='Descargar los datos',texts='Textos y cuestiones de traducción',draft='Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa',evidence='Leer con los testimonios',notes='Notas de texto y traducción',gloss='Vocabulario seleccionado',morph='Morfología del texto completo presentado',source='Fuentes y reutilización',copy='Copiar cita',copied='Copiado',original='Texto hebreo · TM / WLC',translation='Mejor traducción actual seleccionada',variant='Frase variante publicada · base de la traducción seleccionada',status='Decisión',none='Pendiente de revisión externa especializada',focus='Antes de leer',intro2='La mejor lectura actual.<br>Abierta a nuevos datos.',intro3='Manuscrito, reconstrucción, traducción e interpretación se mantienen distintos. Un nuevo testimonio puede cambiar la decisión y la traducción.',view='Abrir pasaje',number='Versículo',author='Fundador y creador original',warning='Este es un borrador de investigación. No afirma haber descubierto un autógrafo ni reconstruido por completo el texto más antiguo.',selected='Estas son glosas seleccionadas provisionales, no una traducción interlineal completa palabra por palabra.',citation='Cita sugerida',terms='Guía de reutilización',pending='Pendiente de revisión directa de imágenes del manuscrito',all='Datos completos',privacy='Sin cookies de seguimiento ni publicidad')}
+FOOTNOTE={'ko':'각주','en':'Footnote','es':'Nota'}
 def esc(v): return html.escape(str(v),quote=True)
 def write(path,text):
     p=D/path; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(text.replace('__VERSION__',C['version']).replace('__PASSAGES__',str(len(E))).replace('__VERSES__',str(VERSE_COUNT)),encoding='utf-8',newline='\n')
@@ -105,13 +106,22 @@ def study(p, lang):
             'es': 'Se traduce el texto hebreo digital fijado. Ninguna inscripción sustituye al texto bíblico.',
         }[lang]
     rows = []
+    footnote_count = 0
     md = [f"# {p['title'][lang]}", f'Hansam Yang · Original Bible · v{VERSION}', t['draft'], t['warning'], p['intro'][lang], f"Basis: {p['basis']}", f"Decision: {p['decision']}"]
     for verse in p['verses']:
         hebrew = H[verse['source']]
         review = review_layers.render(TRACES['records'][verse['id']], lang, VERSION)
         review = review.replace('</summary>', '</summary><p><code>' + esc(verse['id']) + '</code></p>', 1)
-        rows.append(f'''<article class="verse" id="v{verse['number']}"><div class="verse-label"><span>{verse['number']:02}</span></div><div class="verse-original"><span class="text-label">{words[0]}</span><div class="hebrew" lang="he" dir="rtl">{esc(hebrew['hebrew'])}</div></div><div class="verse-translation"><span class="text-label">{words[1]}</span><p class="translation">{esc(verse[lang])}</p></div>{review}</article>''')
-        md.extend([f"## {verse['number']} · {verse['id']}", f"Hebrew display (MT/WLC): {hebrew['hebrew']}", verse[lang], f"Source: {hebrew['source_url']} · {verse['source']}"])
+        marks = notes_html = ''
+        notes_md = []
+        for index, footnote in enumerate(verse.get('footnotes', []), 1):
+            footnote_count += 1
+            anchor = f"fn-v{verse['number']}-{index}"
+            marks += f'<sup class="fn-ref"><a href="#{anchor}" aria-label="{FOOTNOTE[lang]} {footnote_count}">{footnote_count})</a></sup>'
+            notes_html += f'<p class="verse-footnote" id="{anchor}"><sup>{footnote_count})</sup> {esc(footnote[lang])}</p>'
+            notes_md.append(f"{FOOTNOTE[lang]} {footnote_count}: {footnote[lang]}")
+        rows.append(f'''<article class="verse" id="v{verse['number']}"><div class="verse-label"><span>{verse['number']:02}</span></div><div class="verse-original"><span class="text-label">{words[0]}</span><div class="hebrew" lang="he" dir="rtl">{esc(hebrew['hebrew'])}</div></div><div class="verse-translation"><span class="text-label">{words[1]}</span><p class="translation">{esc(verse[lang])}{marks}</p>{notes_html}</div>{review}</article>''')
+        md.extend([f"## {verse['number']} · {verse['id']}", f"Hebrew display (MT/WLC): {hebrew['hebrew']}", verse[lang], *notes_md, f"Source: {hebrew['source_url']} · {verse['source']}"])
         md.extend(review_layers.markdown(TRACES['records'][verse['id']], lang))
     notes = ''.join(f'<li>{esc(note[lang])}</li>' for note in p['notes'])
     gloss = ''.join(f'<tr><th lang="he" dir="rtl">{esc(item["he"])}</th><td>{esc(item[lang])} <small>({esc(item["form_type"])})</small></td></tr>' for item in p['glosses'])
@@ -157,6 +167,7 @@ for p in E:
         record['decision_trace']=TRACES['records'][v['id']]
         record['model_provenance']={proposal['model']:proposal.get('execution',{}) for proposal in TRACES['records'][v['id']]['model_proposals']}
         record['title']=C['title']
+        if v.get('footnotes'):record['footnotes']=v['footnotes']
         record['citations']={k:citation(p,k).rstrip()+'#v'+str(v['number']) for k in L}
         if 'variant' in p:
             record['reported_variant']=p['variant']

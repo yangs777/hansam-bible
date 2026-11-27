@@ -98,6 +98,19 @@ class RevisionTests(unittest.TestCase):
         current=adopt.read(self.root/'data/editorial.json')['passages'][0]
         self.assertEqual([v['id'] for v in passage['verses']]+['TEST.GAP.EARLIER','TEST.GAP.LATER'],[v['id'] for v in current['verses']])
 
+    def test_verse_footnote_follows_the_decision_and_needs_every_language(self):
+        self.next_decisions()
+        target=self.decisions['verses'][0]
+        note={'kind':'alternative_reading','ko':'다른 읽기: 검증용. 사유 포함.','en':'Other reading: test, with reason.','es':'Otra lectura: prueba, con motivo.'}
+        target['footnotes']=[{k:v for k,v in note.items() if k!='es'}];adopt.save(self.path,self.decisions)
+        with self.assertRaisesRegex(ValueError,'footnote'):adopt.adopt(self.path,self.next_version)
+        self.assertEqual(self.version,adopt.read(self.root/'config.json')['version'])
+        target['footnotes']=[note];adopt.save(self.path,self.decisions)
+        with contextlib.redirect_stdout(io.StringIO()):adopt.adopt(self.path,self.next_version)
+        verses=[v for p in adopt.read(self.root/'data/editorial.json')['passages'] for v in p['verses']]
+        self.assertEqual([note],next(v for v in verses if v['id']==target['id'])['footnotes'])
+        self.assertEqual([note],adopt.read(self.root/'data/decisions.json')['verses'][0]['footnotes'])
+
     def test_extension_cannot_replace_existing_ids_or_urls(self):
         self.next_decisions()
         passage=adopt.read(self.root/'data/editorial.json')['passages'][0]

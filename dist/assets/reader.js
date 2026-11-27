@@ -72,6 +72,8 @@ async function render(){
       const label=node('label',undefined,'verse-number'),check=node('input');check.type='checkbox';check.setAttribute('aria-label',`${n}절 선택`);check.dataset.verse=n;check.addEventListener('change',()=>{check.checked?selected.add(n):selected.delete(n);preview();});label.append(node('span',String(n)),check);row.append(label);
       cols.forEach((v,i)=>{const cell=node('div',undefined,'verse-cell');cell.lang=v.lang;if(v.lang==='he')cell.dir='rtl';cell.append(node('small',v.label));cell.append(node('p',values[i]||missing(v,values[i]),values[i]?'':'missing'));
         const studyPath=original.records[state.book]?.[state.chapter]?.[n]?.study?.[v.lang];
+        const footnotes=original.records[state.book]?.[state.chapter]?.[n]?.footnotes?.[v.lang]||[];
+        if(v.id.startsWith('original-')&&values[i])footnotes.forEach(text=>cell.append(node('p','* '+text,'verse-footnote')));
         if(v.id.startsWith('original-')&&values[i]&&studyPath){const a=node('a','번역 근거 · 모델 비교 ↗','study-link');a.href=safeHTTP(studyPath.replace(/^\//,''));cell.append(a);}row.append(cell);});fragment.append(row);
     }
     $('verses').replaceChildren(fragment);$('empty-result').hidden=visible.length>0;

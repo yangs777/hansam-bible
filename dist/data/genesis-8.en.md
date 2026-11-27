@@ -168,11 +168,13 @@ Hebrew display (MT/WLC): וַיְשַׁלַּ֖ח אֶת־הָֽעֹרֵ֑ב ו�
 
 He sent out the raven, and it went out, going to and fro until the waters had dried up from the earth.
 
+Footnote 1: Other reading (Septuagint, the ancient Greek translation): “it went out and did not return until the water had dried from the earth.” The text follows the Hebrew (Masoretic) reading, “going to and fro”: Hebrew is the base text of this translation, and a Greek translation alone does not establish a different Hebrew original. The critical apparatus needed to weigh the two readings could not actually be consulted: the public web text shows none for this verse and the resource page refused access. Which reading is earlier is therefore left undecided.
+
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.7
 
 ### Current best selected translation
 
-고정 WLC의 יָצוֹא וָשׁוֹב(나감과 돌아옴의 반복)을 옮긴 GPT 독립 초기안을 글자 그대로 채택문으로 삼는다. 「오가곤 했다 / going to and fro / yendo y viniendo」는 반복 왕래만 말하며, 방주 안으로 매번 들어왔는지와 물이 마른 뒤의 일은 보충하지 않는다. 직접 열람한 Swete 1901 인쇄본의 그리스어 주본문은 까마귀가 나가서 돌아오지 않았다(οὐχ ὑπέστρεψεν)로 읽는다. 이 차이를 판단할 비평장치(BHS/BHQ·괴팅겐)와 독립 히브리어 증인은 실제로 열람하지 못했다. 출판사 BHS 웹 본문에는 이 절의 장치가 표시되지 않았고 SBL 자료 페이지는 HTTP 403으로 열리지 않았다. GPT와 Gemini의 실제 최종 의견은 둘 다 본문 선택 보류였다. 2026-11-27 소유자가 실제로 볼 수 있는 장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고 그 사유를 밝히기로 결정했다. 이에 따라 본문 근거 규칙(방어 가능한 잠정 저본 선택은 근거와 불확실성을 공개하고 읽을 수 있게 둔다)대로 마소라 읽기를 잠정 채택한다. 이 채택은 마소라 읽기가 더 이른 본문이라는 판정이 아니다.
+고정 WLC의 יָצוֹא וָשׁוֹב(나감과 돌아옴의 반복)을 옮긴 GPT 독립 초기안을 글자 그대로 채택문으로 삼는다. 「오가곤 했다 / going to and fro / yendo y viniendo」는 반복 왕래만 말하며, 방주 안으로 매번 들어왔는지와 물이 마른 뒤의 일은 보충하지 않는다. 직접 열람한 Swete 1901 인쇄본의 그리스어 주본문은 까마귀가 나가서 돌아오지 않았다(οὐχ ὑπέστρεψεν)로 읽는다. 이 차이를 판단할 비평장치(BHS/BHQ·괴팅겐)와 독립 히브리어 증인은 실제로 열람하지 못했다. 출판사 BHS 웹 본문에는 이 절의 장치가 표시되지 않았고 SBL 자료 페이지는 HTTP 403으로 열리지 않았다. GPT와 Gemini의 실제 최종 의견은 둘 다 본문 선택 보류였다. 2026-11-27 소유자가 실제로 볼 수 있는 장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고 그 사유를 밝히기로 결정했다. 이에 따라 본문 근거 규칙(방어 가능한 잠정 저본 선택은 근거와 불확실성을 공개하고 읽을 수 있게 둔다)대로 마소라 읽기를 잠정 채택한다. 덜 유력한 그리스어 읽기는 이 절의 각주에 사유와 함께 둔다. 이 채택은 마소라 읽기가 더 이른 본문이라는 판정이 아니다.
 
 #### gemini-3.8-flash-medium
 
@@ -196,7 +198,7 @@ In verse 4 pinned WLC and inspected Leningrad5r consonants read seventeen; Swete
 
 The input is a digital transcription. Manuscript photographs, scholarly editions, ancient translations and morphology remain distinct. Inspection was limited; full collation and specialist review remain pending.
 
-Verse 7 follows the pinned WLC (Masoretic) יָצוֹא וָשׁוֹב: the raven went to and fro until the waters dried up. The directly inspected Greek (Septuagint) main text of Swete 1901, p. 12, reads that the raven went out and did not return (οὐχ ὑπέστρεψεν). No critical apparatus for deciding between the two could actually be viewed: the publisher's BHS web text shows no apparatus for this verse, the SBL resource page refused access (HTTP 403), and no independent Hebrew witness was collated. Because of this access gap the commonly received Masoretic reading is adopted provisionally (owner decision, 2026-11-27). Which reading is earlier is not settled; it will be revisited when an apparatus or witness can be consulted. As of v0.4.35, verse 6 is still under review and is not yet included.
+The other reading of verse 7 (Septuagint, did not return) and the reason for the selected text are in that verse's footnote; the inspection record is in its translation notes and on the sources page. As of v0.4.35, verse 6 is still under review and is not yet included.
 
 ## Citation
 

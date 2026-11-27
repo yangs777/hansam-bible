@@ -20,6 +20,8 @@ def build(page, write, config, passages, hebrew):
                 'he': hebrew[verse['source']]['hebrew'],
                 'study': {lang: f'/{lang}/{passage["slug"]}/#v{verse["number"]}' for lang in ('ko', 'en', 'es')},
             }
+            if verse.get('footnotes'):
+                records[book][chapter][number]['footnotes'] = {lang: [note[lang] for note in verse['footnotes']] for lang in ('ko', 'en', 'es')}
     write('library/original.json', json.dumps({'version': config['version'], 'author': config['author'], 'records': records, 'source_chapters': chapter_sources.reader_index()}, ensure_ascii=False) + '\n')
     for asset in ('reader.js', 'reader.css'):
         write('assets/' + asset, (R / 'tools' / asset).read_text(encoding='utf-8'))

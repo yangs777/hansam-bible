@@ -168,11 +168,13 @@ Hebrew display (MT/WLC): וַיְשַׁלַּ֖ח אֶת־הָֽעֹרֵ֑ב ו�
 
 Soltó al cuervo, que salió y estuvo yendo y viniendo hasta que se secaron las aguas sobre la tierra.
 
+Nota 1: Otra lectura (Septuaginta, la antigua traducción griega): «salió y no volvió hasta que el agua se secó de la tierra». El texto sigue la lectura hebrea (masorética), «yendo y viniendo»: el hebreo es la base de esta traducción y una traducción griega por sí sola no demuestra un original hebreo distinto. No se pudo consultar realmente el aparato crítico necesario para sopesar ambas lecturas: el texto web público no muestra ninguno para este versículo y la página de recursos denegó el acceso. Por eso no se decide cuál lectura es anterior.
+
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.7
 
 ### Traducción seleccionada: mejor opción actual
 
-고정 WLC의 יָצוֹא וָשׁוֹב(나감과 돌아옴의 반복)을 옮긴 GPT 독립 초기안을 글자 그대로 채택문으로 삼는다. 「오가곤 했다 / going to and fro / yendo y viniendo」는 반복 왕래만 말하며, 방주 안으로 매번 들어왔는지와 물이 마른 뒤의 일은 보충하지 않는다. 직접 열람한 Swete 1901 인쇄본의 그리스어 주본문은 까마귀가 나가서 돌아오지 않았다(οὐχ ὑπέστρεψεν)로 읽는다. 이 차이를 판단할 비평장치(BHS/BHQ·괴팅겐)와 독립 히브리어 증인은 실제로 열람하지 못했다. 출판사 BHS 웹 본문에는 이 절의 장치가 표시되지 않았고 SBL 자료 페이지는 HTTP 403으로 열리지 않았다. GPT와 Gemini의 실제 최종 의견은 둘 다 본문 선택 보류였다. 2026-11-27 소유자가 실제로 볼 수 있는 장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고 그 사유를 밝히기로 결정했다. 이에 따라 본문 근거 규칙(방어 가능한 잠정 저본 선택은 근거와 불확실성을 공개하고 읽을 수 있게 둔다)대로 마소라 읽기를 잠정 채택한다. 이 채택은 마소라 읽기가 더 이른 본문이라는 판정이 아니다.
+고정 WLC의 יָצוֹא וָשׁוֹב(나감과 돌아옴의 반복)을 옮긴 GPT 독립 초기안을 글자 그대로 채택문으로 삼는다. 「오가곤 했다 / going to and fro / yendo y viniendo」는 반복 왕래만 말하며, 방주 안으로 매번 들어왔는지와 물이 마른 뒤의 일은 보충하지 않는다. 직접 열람한 Swete 1901 인쇄본의 그리스어 주본문은 까마귀가 나가서 돌아오지 않았다(οὐχ ὑπέστρεψεν)로 읽는다. 이 차이를 판단할 비평장치(BHS/BHQ·괴팅겐)와 독립 히브리어 증인은 실제로 열람하지 못했다. 출판사 BHS 웹 본문에는 이 절의 장치가 표시되지 않았고 SBL 자료 페이지는 HTTP 403으로 열리지 않았다. GPT와 Gemini의 실제 최종 의견은 둘 다 본문 선택 보류였다. 2026-11-27 소유자가 실제로 볼 수 있는 장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고 그 사유를 밝히기로 결정했다. 이에 따라 본문 근거 규칙(방어 가능한 잠정 저본 선택은 근거와 불확실성을 공개하고 읽을 수 있게 둔다)대로 마소라 읽기를 잠정 채택한다. 덜 유력한 그리스어 읽기는 이 절의 각주에 사유와 함께 둔다. 이 채택은 마소라 읽기가 더 이른 본문이라는 판정이 아니다.
 
 #### gemini-3.8-flash-medium
 
@@ -196,7 +198,7 @@ En el v.4 WLC y las consonantes examinadas de Leningrado5r leen diecisiete; Swet
 
 La entrada es una transcripción digital. Se distinguen fotografías, ediciones académicas, traducciones antiguas y morfología. El cotejo completo y la revisión especializada quedan pendientes.
 
-El v. 7 sigue el יָצוֹא וָשׁוֹב del WLC fijado (texto masorético): el cuervo iba y venía hasta que se secaron las aguas. El texto principal griego (Septuaginta) de Swete 1901, p. 12, examinado directamente, dice que el cuervo salió y no volvió (οὐχ ὑπέστρεψεν). No se pudo consultar realmente ningún aparato crítico para decidir entre ambas lecturas: el texto web de la BHS no muestra aparato para este versículo, la página de recursos de la SBL denegó el acceso (HTTP 403) y no se cotejó ningún testigo hebreo independiente. Por este vacío de acceso se adopta provisionalmente la lectura masorética comúnmente recibida (decisión del propietario, 27-11-2026). No se establece cuál lectura es anterior; se revisará cuando pueda consultarse un aparato o un testigo. En la v0.4.35 el v. 6 sigue en revisión y aún no se incluye.
+La otra lectura del v. 7 (Septuaginta, no volvió) y el motivo del texto seleccionado están en la nota de ese versículo; el registro de consulta está en sus notas de traducción y en la página de fuentes. En la v0.4.35 el v. 6 sigue en revisión y aún no se incluye.
 
 ## Citation
 

@@ -47,6 +47,9 @@ def adopt(decision_file, version):
         if set(d['translations']) != {'ko','en','es'} or any(not x.strip() for x in d['translations'].values()):
             raise ValueError('A current best translation is required in every language')
         if not d.get('reason_ko') or not d.get('basis'): raise ValueError('Decision needs reason and basis')
+        for note in d.get('footnotes',[]):
+            if any(not str(note.get(k,'')).strip() for k in ('ko','en','es')):
+                raise ValueError('A verse footnote needs the other reading and the reason in every language')
     current = read(R/'dist/data/hansam-bible.json')
     if current['metadata']['version'] != old_version: raise ValueError('Build the current version before archiving it')
     by_id = {v['id']: v for v in previous_verses}
@@ -74,6 +77,9 @@ def adopt(decision_file, version):
             d = selected[v['id']]
             v.update(d['translations']); v['selection_status'] = 'current_best_provisional'
             v['selection_version'] = version; v['source_basis'] = d['basis']
+            # The less likely reading is shown as a verse footnote; the decision record is its source.
+            if d.get('footnotes'): v['footnotes'] = d['footnotes']
+            else: v.pop('footnotes', None)
         if len(p['verses']) == 1:
             p['basis'] = selected[p['verses'][0]['id']]['basis']
     config['version'] = version

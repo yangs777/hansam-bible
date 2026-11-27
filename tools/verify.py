@@ -1,6 +1,7 @@
 """Publication checks for provenance survival, Hebrew integrity and usable static routes."""
 import hashlib, json, pathlib, re, urllib.parse, xml.etree.ElementTree as ET
 from html.parser import HTMLParser
+from html import escape as html_escape
 R=pathlib.Path(__file__).resolve().parents[1]; D=R/'dist'
 C=json.loads((R/'config.json').read_text(encoding='utf-8'))
 H=json.loads((R/'data/hebrew.json').read_text(encoding='utf-8'))
@@ -109,6 +110,11 @@ for lang in ('ko','en','es'):
         f=D/lang/p['slug']/'index.html';assert f.resolve() in pages
         s=f.read_text(encoding='utf-8');assert s.count('class="verse"')==len(p['verses'])
         assert s.count('class="model-review"')==len(p['verses'])
+        for v in p['verses']:
+            for i,note in enumerate(v.get('footnotes',[]),1):
+                assert f'id="fn-v{v["number"]}-{i}"' in s and f'href="#fn-v{v["number"]}-{i}"' in s
+                assert html_escape(note[lang]) in s
+        assert s.count('class="verse-footnote"')==sum(len(v.get('footnotes',[])) for v in p['verses'])
         assert 'ORIGINAL BIBLE' in s and 'gemini-' in s and 'gpt-6.1-sol' in s
         assert any(x in s for x in ('review pending','검수 전','pendiente de revisión'))
         for k in ('ko','en','es'):assert f'hreflang="{k}"' in s
