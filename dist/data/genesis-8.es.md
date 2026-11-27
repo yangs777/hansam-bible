@@ -1,6 +1,6 @@
-# Génesis 8:1–5
+# Génesis 8:1–5, 7
 
-Hansam Yang · Original Bible · v0.4.34
+Hansam Yang · Original Bible · v0.4.35
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -38,6 +38,10 @@ Final opinion (Korean original): 기억하다·들짐승/가축·바람·잦아�
 
 Counterargument (Korean): 그리스어의 새·기는것이 있는 긴 목록이 다른 히브리어 저본을 반영할 가능성을 배제하지 못한다. 바람/영의 문학적 층위도 남는다. 현대장치·다른히브리어증인 미열람.
 
+Previous v0.4.34
+
+Dios se acordó de Noé, de todos los animales silvestres y de todo el ganado que estaban con él en el arca. Dios hizo pasar un viento sobre la tierra, y las aguas se calmaron.
+
 ## 2 · HYB.GEN.008.002
 
 Hebrew display (MT/WLC): וַיִּסָּֽכְרוּ֙ מַעְיְנֹ֣ת תְּה֔וֹם וַֽאֲרֻבֹּ֖ת הַשָּׁמָ֑יִם וַיִּכָּלֵ֥א הַגֶּ֖שֶׁם מִן־הַשָּׁמָֽיִם׃
@@ -63,6 +67,10 @@ Se cerraron las fuentes del abismo y las compuertas de los cielos, y cesó la ll
 Final opinion (Korean original): 닫히다와 그치다를 구별하고 깊음의 샘·하늘의 창 이미지를 보존한다. 그리스어 주본문도 대응하나 번역간 일치가 독립 히브리어 다수증인 합의는 아니다. 영어 restrained는 원문의 억제 의미를, 한국어/스페인어는 비가 그친 결과를 자연화한다. 실제 Gemini 보충의견을 검토해 한정근거를 밝힌 잠정선택을 권고한다. 모델의 확정·전폭수용 표현은 원문확정이나 전문가검수 완료의 증거가 아니다.
 
 Counterargument (Korean): 하늘의 창이라는 낯선 비유와 과거완료로 사건순서를 드러내는 대안이 있다. 고대의 우주관이나 물리기제를 번역에서 확정하지 않는다.
+
+Previous v0.4.34
+
+Se cerraron las fuentes del abismo y las compuertas de los cielos, y cesó la lluvia que caía del cielo.
 
 ## 3 · HYB.GEN.008.003
 
@@ -90,6 +98,10 @@ Final opinion (Korean original): Gemini의 시간구 반론을 추가로 수용�
 
 Counterargument (Korean): 지속퇴각의 왕복 뉘앙스와150일의 기산점은 별도 해석문제다. Swete 하단8:3 대안의 세부글자·증인귀속은 미확정이라 본문변경 근거로 삼지 않는다.
 
+Previous v0.4.34
+
+Las aguas siguieron retirándose de la tierra y habían disminuido al final de los ciento cincuenta días.
+
 ## 4 · HYB.GEN.008.004
 
 Hebrew display (MT/WLC): וַתָּ֤נַח הַתֵּבָה֙ בַּחֹ֣דֶשׁ הַשְּׁבִיעִ֔י בְּשִׁבְעָה־עָשָׂ֥ר י֖וֹם לַחֹ֑דֶשׁ עַ֖ל הָרֵ֥י אֲרָרָֽט׃
@@ -115,6 +127,10 @@ El arca se posó sobre los montes de Ararat el día diecisiete del séptimo mes.
 Final opinion (Korean original): 고정WLC와 레닌그라드5r 핵심자음은17일, Swete1901 인쇄12쪽 그리스어 주본문은27일임을 직접 한정확인했다. 서로다른 날짜를 공개하며 WLC 히브리어 입력을 잠정유지한다. 두 읽기중 초기성을 확정하지 않는다. 산지는 복수 산악지형을 자연화하며 단일현대봉우리를 특정하지 않는다. 머물렀다는 안정상태를 표현한다. 실제 Gemini 보충의견을 검토해 한정근거를 밝힌 잠정선택을 권고한다. 모델의 확정·전폭수용 표현은 원문확정이나 전문가검수 완료의 증거가 아니다.
 
 Counterargument (Korean): 27일이 더 이른 읽기이거나 다른 히브리어를 반영할 가능성이 남는다. WLC·같은계열 사진만으로17일의 초기성을 증명할 수 없다. 산지와머물다는 원문보다 덜 동적인 자연화다.
+
+Previous v0.4.34
+
+El día diecisiete del séptimo mes, el arca reposó en los montes de Ararat.
 
 ## 5 · HYB.GEN.008.005
 
@@ -142,6 +158,36 @@ Final opinion (Korean original): 계속 감소·열째달·첫날·산봉우리�
 
 Counterargument (Korean): 드러났다 대신 보였다/볼수있었다는 관찰가능성 번역도 유효하며 초하루보다 첫날이 쉬울 수 있다.
 
+Previous v0.4.34
+
+Las aguas siguieron menguando hasta el décimo mes; el primer día del décimo mes aparecieron las cumbres de los montes.
+
+## 7 · HYB.GEN.008.007
+
+Hebrew display (MT/WLC): וַיְשַׁלַּ֖ח אֶת־הָֽעֹרֵ֑ב וַיֵּצֵ֤א יָצוֹא֙ וָשׁ֔וֹב עַד־יְבֹ֥שֶׁת הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃
+
+Soltó al cuervo, que salió y estuvo yendo y viniendo hasta que se secaron las aguas sobre la tierra.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.7
+
+### Traducción seleccionada: mejor opción actual
+
+고정 WLC의 יָצוֹא וָשׁוֹב(나감과 돌아옴의 반복)을 옮긴 GPT 독립 초기안을 글자 그대로 채택문으로 삼는다. 「오가곤 했다 / going to and fro / yendo y viniendo」는 반복 왕래만 말하며, 방주 안으로 매번 들어왔는지와 물이 마른 뒤의 일은 보충하지 않는다. 직접 열람한 Swete 1901 인쇄본의 그리스어 주본문은 까마귀가 나가서 돌아오지 않았다(οὐχ ὑπέστρεψεν)로 읽는다. 이 차이를 판단할 비평장치(BHS/BHQ·괴팅겐)와 독립 히브리어 증인은 실제로 열람하지 못했다. 출판사 BHS 웹 본문에는 이 절의 장치가 표시되지 않았고 SBL 자료 페이지는 HTTP 403으로 열리지 않았다. GPT와 Gemini의 실제 최종 의견은 둘 다 본문 선택 보류였다. 2026-11-27 소유자가 실제로 볼 수 있는 장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고 그 사유를 밝히기로 결정했다. 이에 따라 본문 근거 규칙(방어 가능한 잠정 저본 선택은 근거와 불확실성을 공개하고 읽을 수 있게 둔다)대로 마소라 읽기를 잠정 채택한다. 이 채택은 마소라 읽기가 더 이른 본문이라는 판정이 아니다.
+
+#### gemini-3.8-flash-medium
+
+Y envió al cuervo, el cual salió yendo y volviendo, hasta que se secaron las aguas de sobre la tierra.
+
+Final opinion (Korean original): 현재 GPT 편집자가 직접 실물 확인한 Swete 인쇄 12쪽의 그리스어 판본 주본문은 'καὶ ἐξελθὼν οὐχ ὑπέστρεψεν'(나갔으나 돌아오지 않았다)으로 부정형 독법을 명시하고 있습니다. 이는 문자 그대로 '돌아오지 않았다'는 기술이며, 이를 '방주 밖을 선회했다'거나 '시체를 먹으며 밖에서 맴돌았다'고 설명하는 것은 본문 자체가 아닌 후대의 해석적 조화 시도이므로 엄격히 분리해야 합니다. 또한 이 부정형 그리스어 독법을 근거로 가상의 히브리어 저본(예: *וְלֹא שָׁב)을 사본 증거 없이 임의로 복원해서는 안 됩니다. 기준 텍스트인 WLC의 두 부정사 절대형 결합 'יָצוֹא וָשׁוֹב'(나감과 돌아옴의 반복)을 잠정 번역 후보로 유지하되, 의미가 완전히 반대되는 고대 역본 이문이 실재하므로 정식 채택은 유보합니다.
+
+#### gpt-6.1-sol
+
+Soltó al cuervo, que salió y estuvo yendo y viniendo hasta que se secaron las aguas sobre la tierra.
+
+Final opinion (Korean original): WLC의 오감 후보와 Swete 인쇄 주본문의 미귀환 읽기를 실제 대안으로 보존한다. 그리스어가 외부 선회나 다른 히브리어 저본을 자동 증명하지 않는다는 최종 의견을 수용한다. 고정 저본의 재현성만으로 의미가 달라지는 경쟁 읽기를 배제할 수 없어 본문 선택을 보류한다.
+
+Counterargument (Korean): 칠십인역(Swete 인쇄본)의 「돌아오지 않았다」가 더 이른 히브리어를 반영할 가능성도, 번역·전승 과정의 차이일 가능성도 남아 있다. 고정 저본의 재현성이나 판본 웹 본문과의 일치만으로 이 경쟁 읽기를 배제할 수 없다. 「오가곤 했다」가 방주 안으로 들어왔다는 뜻으로 읽힐 수 있다는 지적도 있다.
+
 ## Notes
 
 Viento en el v.1 sigue el contexto; quedan abiertas las asociaciones de espíritu/aliento. Swete1901 p.12 incluye una lista más larga de aves y reptiles, sin establecer su base hebrea. El v.3 conserva el retroceso continuo y el fin de150 días sin añadir otro período.
@@ -150,9 +196,11 @@ En el v.4 WLC y las consonantes examinadas de Leningrado5r leen diecisiete; Swet
 
 La entrada es una transcripción digital. Se distinguen fotografías, ediciones académicas, traducciones antiguas y morfología. El cotejo completo y la revisión especializada quedan pendientes.
 
+El v. 7 sigue el יָצוֹא וָשׁוֹב del WLC fijado (texto masorético): el cuervo iba y venía hasta que se secaron las aguas. El texto principal griego (Septuaginta) de Swete 1901, p. 12, examinado directamente, dice que el cuervo salió y no volvió (οὐχ ὑπέστρεψεν). No se pudo consultar realmente ningún aparato crítico para decidir entre ambas lecturas: el texto web de la BHS no muestra aparato para este versículo, la página de recursos de la SBL denegó el acceso (HTTP 403) y no se cotejó ningún testigo hebreo independiente. Por este vacío de acceso se adopta provisionalmente la lectura masorética comúnmente recibida (decisión del propietario, 27-11-2026). No se establece cuál lectura es anterior; se revisará cuando pueda consultarse un aparato o un testigo. En la v0.4.35 el v. 6 sigue en revisión y aún no se incluye.
+
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 8:1–5 (es), research pilot v0.4.34. https://yangs777.github.io/hansam-bible/es/genesis-8/
+Hansam Yang. Original Bible: Genesis 8:1–5, 7 (es), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/es/genesis-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

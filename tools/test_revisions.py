@@ -82,6 +82,22 @@ class RevisionTests(unittest.TestCase):
         self.assertEqual([v['id'] for v in passage['verses']]+[verse['id']],[v['id'] for v in current['verses']])
         self.assertEqual(old,adopt.read(self.root/f'data/releases/v{self.version}.json')['records'])
 
+    def test_extension_after_a_gap_keeps_verse_number_order(self):
+        import copy
+        self.next_decisions()
+        passage=adopt.read(self.root/'data/editorial.json')['passages'][0]
+        last=passage['verses'][-1]
+        later=copy.deepcopy(last);later['id']='TEST.GAP.LATER';later['number']=last['number']+2
+        earlier=copy.deepcopy(last);earlier['id']='TEST.GAP.EARLIER';earlier['number']=last['number']+1
+        for verse in (later,earlier):
+            decision=copy.deepcopy(self.decisions['verses'][0]);decision['id']=verse['id']
+            self.decisions['verses'].append(decision)
+        self.decisions['passage_updates']=[{'id':passage['id'],'verses':[later,earlier]}]
+        adopt.save(self.path,self.decisions)
+        with contextlib.redirect_stdout(io.StringIO()):adopt.adopt(self.path,self.next_version)
+        current=adopt.read(self.root/'data/editorial.json')['passages'][0]
+        self.assertEqual([v['id'] for v in passage['verses']]+['TEST.GAP.EARLIER','TEST.GAP.LATER'],[v['id'] for v in current['verses']])
+
     def test_extension_cannot_replace_existing_ids_or_urls(self):
         self.next_decisions()
         passage=adopt.read(self.root/'data/editorial.json')['passages'][0]

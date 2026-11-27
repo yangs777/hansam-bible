@@ -1,0 +1,114 @@
+{
+  "scope": [
+    "Gen.8.7"
+  ],
+  "recorded_at": "2026-11-27T01:00:04.734935+00:00",
+  "status_ko": "실제 GPT·Gemini 초기안과 최종 교차검토 보존. 두 모델의 최종 의견은 보류 권고. 접근 공백을 밝히고 소유자 결정으로 마소라 읽기를 잠정 채택.",
+  "baseline": {
+    "edition": "Westminster Leningrad Codex 4.20 / OSHB 고정 디지털 전사",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "source_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+    "file_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "rights": {
+      "text": "WLC public domain",
+      "morphology": "OSHB CC BY 4.0"
+    },
+    "distinction_ko": "고정 전사본은 재현 가능한 입력이며 최초 원문 확정이나 독립 사본 다수의 합의가 아니다. 형태 주석도 고대 증인이 아니다."
+  },
+  "source_fragments": [
+    {
+      "id": "Gen.8.7",
+      "sha256": "09ca46a2e511c75002ef1ec429b6c56c8ac53b11dd0c69fd6d0321fc52230228"
+    }
+  ],
+  "variant_question": {
+    "id": "Gen.8.7",
+    "question_ko": "יצוא ושוב의 반복적 나감/되돌아옴과 까마귀 미귀환이라는 고대 역본 읽기 가능성.",
+    "candidate_ko": "고정 WLC의 יצוא ושוב 오감과 실제 열람한 Swete 인쇄 주본문의 οὐχ ὑπέστρεψεν 미귀환 읽기를 경쟁 증거로 보존한다.",
+    "strongest_objection_ko": "그리스어 미귀환 읽기가 다른 히브리어 저본을 반영할 가능성을 현대 비평장치와 히브리어 증인 대조 없이 배제하지 못한다. 그리스어만으로 더 이른 히브리어를 자동 복원하지 않는다."
+  },
+  "competing_readings": [
+    {
+      "verse": "Gen.8.7",
+      "question_ko": "까마귀가 오갔는가, 돌아오지 않았는가",
+      "hebrew_ko": "고정 WLC: יָצוֹא וָשׁוֹב (나감과 돌아옴의 반복). 출판사 BHS 웹 주본문도 같은 구문을 표시.",
+      "greek_ko": "Swete 1901 인쇄 12쪽 주본문: καὶ ἐξελθὼν οὐχ ὑπέστρεψεν (나가서 돌아오지 않았다). 같은 절에 물이 줄었는지 보려고라는 목적구도 인쇄되어 있다.",
+      "selected_ko": "고정 WLC의 יָצוֹא וָשׁוֹב(나감과 돌아옴의 반복)을 옮긴 GPT 독립 초기안을 글자 그대로 채택문으로 삼는다. 「오가곤 했다 / going to and fro / yendo y viniendo」는 반복 왕래만 말하며, 방주 안으로 매번 들어왔는지와 물이 마른 뒤의 일은 보충하지 않는다. 직접 열람한 Swete 1901 인쇄본의 그리스어 주본문은 까마귀가 나가서 돌아오지 않았다(οὐχ ὑπέστρεψεν)로 읽는다. 이 차이를 판단할 비평장치(BHS/BHQ·괴팅겐)와 독립 히브리어 증인은 실제로 열람하지 못했다. 출판사 BHS 웹 본문에는 이 절의 장치가 표시되지 않았고 SBL 자료 페이지는 HTTP 403으로 열리지 않았다. GPT와 Gemini의 실제 최종 의견은 둘 다 본문 선택 보류였다. 2026-11-27 소유자가 실제로 볼 수 있는 장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고 그 사유를 밝히기로 결정했다. 이에 따라 본문 근거 규칙(방어 가능한 잠정 저본 선택은 근거와 불확실성을 공개하고 읽을 수 있게 둔다)대로 마소라 읽기를 잠정 채택한다. 이 채택은 마소라 읽기가 더 이른 본문이라는 판정이 아니다."
+    }
+  ],
+  "actually_inspected": {
+    "earlier_runs_ko": [
+      "고정 원 XML 다섯 절과 전체 파일/조각 해시",
+      "공개 카탈로그 HTTP 200·로컬 199절 채택본·진행 기록·기존 GPT/Claude 초안",
+      "이번 실제 Gemini 독립 초기안·손상된 입력의 응답·교정된 최종 응답",
+      "Swete 1901 제1권 인쇄 12쪽 8:6–10의 저장된 PNG 직접 열람",
+      "고정 XML 세 절과 전체/조각 SHA256",
+      "로컬 채택본·진행 기록·저장된 독립안과 실제 최종 응답의 세 절",
+      "출판사 BHS 웹 본문 세 절. 비평장치 미표시"
+    ],
+    "swete_observation": {
+      "edition_ko": "기존 출처 기록상 Swete 1901 제1권 인쇄 12쪽의 디지털 스캔. 고대 사본 자체가 아닌 그리스어 학술 판본이다.",
+      "provenance_url": "https://archive.org/details/oldtestamentingr01swetuoft/page/n43/mode/1up",
+      "image_sha256": "87b602d2afc8e9da2b5b3294dd6b65c5d91e386ffc55acc4b33af15b3d930d1f",
+      "verse_observation_ko": "8:7 인쇄 주본문에 καὶ ἐξελθὼν οὐχ ὑπέστρεψεν이 보인다. 이는 나갔으나 돌아오지 않았다는 부정형이다. 그리스어 판본에 미귀환 읽기가 실제로 인쇄되어 있음을 이번에 확인했으며, 고정 히브리어 יצוא ושוב의 오감 후보와 구분한다.",
+      "apparatus_limit_ko": "하단 장치의 세부 약호·증인 귀속과 원사본은 이번 확정하지 않았다. 8:7의 부정형이 더 이른 히브리어 저본을 반영하는지 또는 번역·전승에서 발생했는지는 미확인이다."
+    },
+    "source_access": {
+      "checked_at_utc": "2026-11-26T16:04:02.536806+00:00",
+      "scope": [
+        "Gen.8.6",
+        "Gen.8.7",
+        "Gen.8.8"
+      ],
+      "method_ko": "웹 도구의 실제 열람 결과. 검색 요약은 판독 증거에 포함하지 않음.",
+      "observations": [
+        {
+          "url": "https://www.die-bibel.de/bibel/BHS/GEN.8",
+          "result": "본문 열람 성공",
+          "edition_ko": "BHS 제5개정판, 편집 Adrian Schenker, 저작권 1977/1997 Deutsche Bibelgesellschaft",
+          "actually_observed_ko": "이번 세 절의 주본문 표시를 확인했고 8:7은 나감·돌아옴 구문을 표시한다. 반환된 화면에는 해당 절의 비평장치나 증인 귀속이 없다.",
+          "short_reading": "יָצוֹא וָשֹׁוב",
+          "limit_ko": "출판사의 판본 웹 표시이며 독립 고대 히브리어 사본이 아니다. WLC와의 일치를 독립 증인 수로 더하지 않음."
+        },
+        {
+          "url": "https://www.sbl-site.org/resources/digital-texts/biblia-hebraica-stuttgartensia/",
+          "result": "HTTP 403 Forbidden",
+          "action_ko": "거절 이후 동일 주소 재시도·다른 경로 우회·추가 자료 접근 중단. 검색 요약상 장치 제외 PDF라는 문구는 원문 페이지를 열지 못했으므로 검증된 접근 근거로 쓰지 않음."
+        }
+      ],
+      "stop_reason_ko": "자료 페이지 HTTP403 및 실제 열람 화면의 비평장치 미제공. 8:7의 경쟁 읽기를 판단할 현대 장치·독립 히브리어 증인 근거 확보 미완료."
+    },
+    "this_adoption_session_ko": [
+      "고정 XML의 창 8:7 조각과 전체 파일 해시(tools/prepare.py와 tools/verify.py 대조)",
+      "저장된 Swete 1901 인쇄 12쪽 PNG 스캔에서 8:7 주본문의 οὐχ ὑπέστρεψεν을 다시 읽음",
+      "저장된 GPT·Gemini 초기안, 교정된 Gemini 최종 응답, GPT 최종 의견 두 건",
+      "저장된 Sefaria 공식 색인 응답에서 레닌그라드 5r 대응 범위에 8:7이 포함됨"
+    ]
+  },
+  "access_gaps_ko": [
+    "BHS/BHQ 비평장치: 출판사 웹 본문(die-bibel.de)에 이 절의 장치가 표시되지 않음",
+    "SBL BHS 자료 페이지: HTTP 403 Forbidden. 재시도·우회 없음",
+    "NET 8장 주석 웹 도구: HTTP 403 Forbidden. Archive 뷰어는 도구 접근 불가",
+    "괴팅겐 칠십인역 비평판, Swete 하단 장치의 약호와 원사본 귀속",
+    "레닌그라드 사본 사진의 8:7 직접 판독, 사해문서·사마리아오경·시리아어·타르굼·라틴어 해당 절",
+    "인간 전문가 검수"
+  ],
+  "selected_reading_ko": "고정 WLC(마소라 본문)의 오감 읽기를 잠정 채택한다. 그리스어 「돌아오지 않았다」는 이문으로 공개 주석에 남긴다. 최초 원문이나 전승 우선성의 확정이 아니다.",
+  "strongest_objection_ko": "현대 판본 웹 본문의 일치만으로 경쟁 그리스어의 기원과 더 이른 히브리어 가능성을 배제할 수 없다.",
+  "owner_decision": {
+    "date": "2026-11-27",
+    "summary_ko": "실제로 눈으로 볼 수 있는 비평장치 자료가 없으므로 일반적으로 통용되는 읽기를 채택하고, 볼 수 있는 자료가 없었다는 사유를 밝힌 뒤 다음 절로 넘어간다.",
+    "release_condition_met_ko": "automation/held-verses.json의 풀 조건 가운데 「WLC 기준 잠정 선택에 칠십인역 이문과 접근 공백을 공개 주석으로 밝혀 채택하기로 검토자가 결정했을 때」에 해당한다."
+  },
+  "adoption_execution": {
+    "executed_by": "Claude Code 세션(세션 표시 모델 claude-fable-5-2, 백엔드 스냅샷 미노출)",
+    "new_model_calls": 0,
+    "note_ko": "번역문은 GPT 독립 초기안을 글자 그대로 썼다. 새 번역안이나 새 GPT·Gemini 응답을 만들지 않았다. 모델 최종 의견은 보류 권고 그대로 보존한다."
+  },
+  "previous_records": [
+    "private/batch-20261126T150003Z-textual-basis.json",
+    "private/batch-20261126T160006Z-textual-basis.json"
+  ],
+  "model_review_complete": true,
+  "human_specialist_review": "pending"
+}

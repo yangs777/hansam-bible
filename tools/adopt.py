@@ -32,6 +32,9 @@ def adopt(decision_file, version):
             raise ValueError('Passage update must target one existing passage exactly once')
         updated.add(update['id']); passage=matches[0]
         passage['verses'].extend(update.get('verses',[]))
+        # A held verse can be adopted before or after its neighbours; keep the reading order by verse number.
+        if all(isinstance(v.get('number'),int) for v in passage['verses']):
+            passage['verses'].sort(key=lambda v:v['number'])
         passage.update({k:v for k,v in update.items() if k not in ('id','verses')})
     verses = [v for p in proposed_passages for v in p['verses']]
     for passage in proposed_passages:

@@ -1,6 +1,6 @@
 # Deuteronomio 32:8
 
-Hansam Yang · Original Bible · v0.4.34
+Hansam Yang · Original Bible · v0.4.35
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -172,6 +172,10 @@ Previous v0.4.33
 
 Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios.
 
+Previous v0.4.34
+
+Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios.
+
 Previous v0.4.4
 
 Cuando el Altísimo repartió herencias a las naciones, cuando separó a la humanidad, fijó los límites de los pueblos conforme al número de los hijos de Dios.
@@ -218,7 +222,7 @@ Benei adam significa literalmente hijos de los seres humanos. Humanidad expresa 
 
 ## Citation
 
-Hansam Yang. Original Bible: Deuteronomy 32:8 (es), research pilot v0.4.34. https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/
+Hansam Yang. Original Bible: Deuteronomy 32:8 (es), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/es/deuteronomy-32-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
