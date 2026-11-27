@@ -1,6 +1,6 @@
 # Genesis 6:1–22
 
-Hansam Yang · Original Bible · v0.4.35
+Hansam Yang · Original Bible · v0.4.36
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -102,6 +102,10 @@ Previous v0.4.34
 
 When humankind began to multiply on the face of the ground and daughters were born to them,
 
+Previous v0.4.35
+
+When humankind began to multiply on the face of the ground and daughters were born to them,
+
 ## 2 · HYB.GEN.006.002
 
 Hebrew display (MT/WLC): וַיִּרְא֤וּ בְנֵי־הָֽאֱלֹהִים֙ אֶת־בְּנ֣וֹת הָֽאָדָ֔ם כִּ֥י טֹבֹ֖ת הֵ֑נָּה וַיִּקְח֤וּ לָהֶם֙ נָשִׁ֔ים מִכֹּ֖ל אֲשֶׁ֥ר בָּחָֽרוּ׃
@@ -185,6 +189,10 @@ Previous v0.4.33
 The sons of God saw that the daughters of humankind were beautiful, and they took wives for themselves from all whom they chose.
 
 Previous v0.4.34
+
+The sons of God saw that the daughters of humankind were beautiful, and they took wives for themselves from all whom they chose.
+
+Previous v0.4.35
 
 The sons of God saw that the daughters of humankind were beautiful, and they took wives for themselves from all whom they chose.
 
@@ -274,6 +282,10 @@ Previous v0.4.34
 
 YHWH said, “My spirit will not remain in humankind forever, because they too are flesh. Their days will be one hundred twenty years.”
 
+Previous v0.4.35
+
+YHWH said, “My spirit will not remain in humankind forever, because they too are flesh. Their days will be one hundred twenty years.”
+
 ## 4 · HYB.GEN.006.004
 
 Hebrew display (MT/WLC): הַנְּפִלִ֞ים הָי֣וּ בָאָרֶץ֮ בַּיָּמִ֣ים הָהֵם֒ וְגַ֣ם אַֽחֲרֵי־כֵ֗ן אֲשֶׁ֨ר יָבֹ֜אוּ בְּנֵ֤י הָֽאֱלֹהִים֙ אֶל־בְּנ֣וֹת הָֽאָדָ֔ם וְיָלְד֖וּ לָהֶ֑ם הֵ֧מָּה הַגִּבֹּרִ֛ים אֲשֶׁ֥ר מֵעוֹלָ֖ם אַנְשֵׁ֥י הַשֵּֽׁם׃
@@ -357,6 +369,10 @@ Previous v0.4.33
 The Nephilim were on the earth in those days, and also afterward, when the sons of God would go in to the daughters of humankind and they bore children to them. They were the mighty men of old, men of renown.
 
 Previous v0.4.34
+
+The Nephilim were on the earth in those days, and also afterward, when the sons of God would go in to the daughters of humankind and they bore children to them. They were the mighty men of old, men of renown.
+
+Previous v0.4.35
 
 The Nephilim were on the earth in those days, and also afterward, when the sons of God would go in to the daughters of humankind and they bore children to them. They were the mighty men of old, men of renown.
 
@@ -446,6 +462,10 @@ Previous v0.4.34
 
 YHWH saw that the wickedness of humankind was great on the earth, and that everything the thoughts of their heart devised was only evil all the time.
 
+Previous v0.4.35
+
+YHWH saw that the wickedness of humankind was great on the earth, and that everything the thoughts of their heart devised was only evil all the time.
+
 ## 6 · HYB.GEN.006.006
 
 Hebrew display (MT/WLC): וַיִּנָּ֣חֶם יְהוָ֔ה כִּֽי־עָשָׂ֥ה אֶת־הָֽאָדָ֖ם בָּאָ֑רֶץ וַיִּתְעַצֵּ֖ב אֶל־לִבּֽוֹ׃
@@ -529,6 +549,10 @@ Previous v0.4.33
 YHWH regretted that he had made humankind on the earth, and he was grieved in his heart.
 
 Previous v0.4.34
+
+YHWH regretted that he had made humankind on the earth, and he was grieved in his heart.
+
+Previous v0.4.35
 
 YHWH regretted that he had made humankind on the earth, and he was grieved in his heart.
 
@@ -626,6 +650,10 @@ Previous v0.4.34
 
 YHWH said, “I will wipe from the face of the ground the human beings I created—from humans to beasts, to creeping things, and to the birds of the heavens—for I regret that I made them.”
 
+Previous v0.4.35
+
+YHWH said, “I will wipe from the face of the ground the human beings I created—from humans to beasts, to creeping things, and to the birds of the heavens—for I regret that I made them.”
+
 ## 8 · HYB.GEN.006.008
 
 Hebrew display (MT/WLC): וְנֹ֕חַ מָ֥צָא חֵ֖ן בְּעֵינֵ֥י יְהוָֽה׃
@@ -704,6 +732,10 @@ Previous v0.4.34
 
 But Noah found favor in the eyes of YHWH.
 
+Previous v0.4.35
+
+But Noah found favor in the eyes of YHWH.
+
 ## 9 · HYB.GEN.006.009
 
 Hebrew display (MT/WLC): אֵ֚לֶּה תּוֹלְדֹ֣ת נֹ֔חַ נֹ֗חַ אִ֥ישׁ צַדִּ֛יק תָּמִ֥ים הָיָ֖ה בְּדֹֽרֹתָ֑יו אֶת־הָֽאֱלֹהִ֖ים הִֽתְהַלֶּךְ־נֹֽחַ׃
@@ -773,6 +805,10 @@ Previous v0.4.33
 This is the account of Noah. Noah was a righteous man, blameless among his generations. Noah walked with God.
 
 Previous v0.4.34
+
+This is the account of Noah. Noah was a righteous man, blameless among his generations. Noah walked with God.
+
+Previous v0.4.35
 
 This is the account of Noah. Noah was a righteous man, blameless among his generations. Noah walked with God.
 
@@ -848,6 +884,10 @@ Previous v0.4.34
 
 Noah fathered three sons: Shem, Ham, and Japheth.
 
+Previous v0.4.35
+
+Noah fathered three sons: Shem, Ham, and Japheth.
+
 ## 11 · HYB.GEN.006.011
 
 Hebrew display (MT/WLC): וַתִּשָּׁחֵ֥ת הָאָ֖רֶץ לִפְנֵ֣י הָֽאֱלֹהִ֑ים וַתִּמָּלֵ֥א הָאָ֖רֶץ חָמָֽס׃
@@ -917,6 +957,10 @@ Previous v0.4.33
 The earth was corrupt before God, and the earth was filled with violence.
 
 Previous v0.4.34
+
+The earth was corrupt before God, and the earth was filled with violence.
+
+Previous v0.4.35
 
 The earth was corrupt before God, and the earth was filled with violence.
 
@@ -992,6 +1036,10 @@ Previous v0.4.34
 
 God saw the earth, and behold, it was corrupt, for all flesh had corrupted its way on the earth.
 
+Previous v0.4.35
+
+God saw the earth, and behold, it was corrupt, for all flesh had corrupted its way on the earth.
+
 ## 13 · HYB.GEN.006.013
 
 Hebrew display (MT/WLC): וַיֹּ֨אמֶר אֱלֹהִ֜ים לְנֹ֗חַ קֵ֤ץ כָּל־בָּשָׂר֙ בָּ֣א לְפָנַ֔י כִּֽי־מָלְאָ֥ה הָאָ֛רֶץ חָמָ֖ס מִפְּנֵיהֶ֑ם וְהִנְנִ֥י מַשְׁחִיתָ֖ם אֶת־הָאָֽרֶץ׃
@@ -1057,6 +1105,10 @@ Previous v0.4.33
 God said to Noah, “The end of all flesh has come before me, for the earth is filled with violence because of them. Behold, I am about to destroy them with the earth.
 
 Previous v0.4.34
+
+God said to Noah, “The end of all flesh has come before me, for the earth is filled with violence because of them. Behold, I am about to destroy them with the earth.
+
+Previous v0.4.35
 
 God said to Noah, “The end of all flesh has come before me, for the earth is filled with violence because of them. Behold, I am about to destroy them with the earth.
 
@@ -1128,6 +1180,10 @@ Previous v0.4.34
 
 Make yourself an ark of gopher wood. Make compartments in the ark, and coat it inside and out with pitch.
 
+Previous v0.4.35
+
+Make yourself an ark of gopher wood. Make compartments in the ark, and coat it inside and out with pitch.
+
 ## 15 · HYB.GEN.006.015
 
 Hebrew display (MT/WLC): וְזֶ֕ה אֲשֶׁ֥ר תַּֽעֲשֶׂ֖ה אֹתָ֑הּ שְׁלֹ֧שׁ מֵא֣וֹת אַמָּ֗ה אֹ֚רֶךְ הַתֵּבָ֔ה חֲמִשִּׁ֤ים אַמָּה֙ רָחְבָּ֔הּ וּשְׁלֹשִׁ֥ים אַמָּ֖ה קוֹמָתָֽהּ׃
@@ -1196,6 +1252,10 @@ Previous v0.4.34
 
 This is how you shall make it: the length of the ark three hundred cubits, its width fifty cubits, and its height thirty cubits.
 
+Previous v0.4.35
+
+This is how you shall make it: the length of the ark three hundred cubits, its width fifty cubits, and its height thirty cubits.
+
 ## 16 · HYB.GEN.006.016
 
 Hebrew display (MT/WLC): צֹ֣הַר ׀ תַּֽעֲשֶׂ֣ה לַתֵּבָ֗ה וְאֶל־אַמָּה֙ תְּכַלֶ֣נָּה מִלְמַ֔עְלָה וּפֶ֥תַח הַתֵּבָ֖ה בְּצִדָּ֣הּ תָּשִׂ֑ים תַּחְתִּיִּ֛ם שְׁנִיִּ֥ם וּשְׁלִשִׁ֖ים תַּֽעֲשֶֽׂהָ׃
@@ -1261,6 +1321,10 @@ Previous v0.4.34
 
 Make a light opening for the ark, and finish it to a cubit at the top. Set the door of the ark in its side; make it with lower, second, and third decks.
 
+Previous v0.4.35
+
+Make a light opening for the ark, and finish it to a cubit at the top. Set the door of the ark in its side; make it with lower, second, and third decks.
+
 ## 17 · HYB.GEN.006.017
 
 Hebrew display (MT/WLC): וַאֲנִ֗י הִנְנִי֩ מֵבִ֨יא אֶת־הַמַּבּ֥וּל מַ֨יִם֙ עַל־הָאָ֔רֶץ לְשַׁחֵ֣ת כָּל־בָּשָׂ֗ר אֲשֶׁר־בּוֹ֙ ר֣וּחַ חַיִּ֔ים מִתַּ֖חַת הַשָּׁמָ֑יִם כֹּ֥ל אֲשֶׁר־בָּאָ֖רֶץ יִגְוָֽע׃
@@ -1320,6 +1384,10 @@ Previous v0.4.33
 Behold, I myself am bringing a flood of water upon the earth to destroy all flesh under heaven that has the breath of life in it. Everything on the earth shall perish.
 
 Previous v0.4.34
+
+Behold, I myself am bringing a flood of water upon the earth to destroy all flesh under heaven that has the breath of life in it. Everything on the earth shall perish.
+
+Previous v0.4.35
 
 Behold, I myself am bringing a flood of water upon the earth to destroy all flesh under heaven that has the breath of life in it. Everything on the earth shall perish.
 
@@ -1387,6 +1455,10 @@ Previous v0.4.34
 
 But I will establish my covenant with you. You shall enter the ark, you and your sons and your wife and your sons’ wives with you.
 
+Previous v0.4.35
+
+But I will establish my covenant with you. You shall enter the ark, you and your sons and your wife and your sons’ wives with you.
+
 ## 19 · HYB.GEN.006.019
 
 Hebrew display (MT/WLC): וּמִכָּל־הָ֠חַי מִֽכָּל־בָּשָׂ֞ר שְׁנַ֧יִם מִכֹּ֛ל תָּבִ֥יא אֶל־הַתֵּבָ֖ה לְהַחֲיֹ֣ת אִתָּ֑ךְ זָכָ֥ר וּנְקֵבָ֖ה יִֽהְיֽוּ׃
@@ -1451,6 +1523,10 @@ Previous v0.4.34
 
 From every living thing, from all flesh, you shall bring two of each into the ark to keep them alive with you; they shall be male and female.
 
+Previous v0.4.35
+
+From every living thing, from all flesh, you shall bring two of each into the ark to keep them alive with you; they shall be male and female.
+
 ## 20 · HYB.GEN.006.020
 
 Hebrew display (MT/WLC): מֵהָע֣וֹף לְמִינֵ֗הוּ וּמִן־הַבְּהֵמָה֙ לְמִינָ֔הּ מִכֹּ֛ל רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ שְׁנַ֧יִם מִכֹּ֛ל יָבֹ֥אוּ אֵלֶ֖יךָ לְהַֽחֲיֽוֹת׃
@@ -1508,6 +1584,10 @@ Previous v0.4.33
 From the birds according to their kinds, from the animals according to their kinds, and from every creeping thing of the ground according to its kind, two of each shall come to you to be kept alive.
 
 Previous v0.4.34
+
+From the birds according to their kinds, from the animals according to their kinds, and from every creeping thing of the ground according to its kind, two of each shall come to you to be kept alive.
+
+Previous v0.4.35
 
 From the birds according to their kinds, from the animals according to their kinds, and from every creeping thing of the ground according to its kind, two of each shall come to you to be kept alive.
 
@@ -1571,6 +1651,10 @@ Previous v0.4.34
 
 As for you, take some of every kind of food that is eaten and gather it to yourself; it shall be food for you and for them.”
 
+Previous v0.4.35
+
+As for you, take some of every kind of food that is eaten and gather it to yourself; it shall be food for you and for them.”
+
 ## 22 · HYB.GEN.006.022
 
 Hebrew display (MT/WLC): וַיַּ֖עַשׂ נֹ֑חַ כְּ֠כֹל אֲשֶׁ֨ר צִוָּ֥ה אֹת֛וֹ אֱלֹהִ֖ים כֵּ֥ן עָשָֽׂה׃
@@ -1631,6 +1715,10 @@ Previous v0.4.34
 
 Noah did this; according to all that God commanded him, so he did.
 
+Previous v0.4.35
+
+Noah did this; according to all that God commanded him, so he did.
+
 ## Notes
 
 The temporal clause in verse 1 leads into verse 2. The identity of the sons of God and coercion in the marriages are not settled by the wording. Inspected Swete p.9 reads angels, distinguished from WLC sons.
@@ -1659,7 +1747,7 @@ Verses 20–22 retain animal categories, kinds, preservation, food for both reci
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 6:1–22 (en), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/en/genesis-6/
+Hansam Yang. Original Bible: Genesis 6:1–22 (en), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/en/genesis-6/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

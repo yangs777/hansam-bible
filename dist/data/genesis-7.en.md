@@ -1,6 +1,6 @@
 # Genesis 7:1–24
 
-Hansam Yang · Original Bible · v0.4.35
+Hansam Yang · Original Bible · v0.4.36
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -72,6 +72,10 @@ Previous v0.4.34
 
 YHWH said to Noah, “Enter the ark, you and all your household, for I have seen that you are righteous before me in this generation.
 
+Previous v0.4.35
+
+YHWH said to Noah, “Enter the ark, you and all your household, for I have seen that you are righteous before me in this generation.
+
 ## 2 · HYB.GEN.007.002
 
 Hebrew display (MT/WLC): מִכֹּ֣ל ׀ הַבְּהֵמָ֣ה הַטְּהוֹרָ֗ה תִּֽקַּח־לְךָ֛ שִׁבְעָ֥ה שִׁבְעָ֖ה אִ֣ישׁ וְאִשְׁתּ֑וֹ וּמִן־הַבְּהֵמָ֡ה אֲ֠שֶׁר לֹ֣א טְהֹרָ֥ה הִ֛וא שְׁנַ֖יִם אִ֥ישׁ וְאִשְׁתּֽוֹ׃
@@ -132,6 +136,10 @@ Previous v0.4.34
 
 From every clean animal take seven by seven, a male and its mate; and from the animals that are not clean, two, a male and its mate.
 
+Previous v0.4.35
+
+From every clean animal take seven by seven, a male and its mate; and from the animals that are not clean, two, a male and its mate.
+
 ## 3 · HYB.GEN.007.003
 
 Hebrew display (MT/WLC): גַּ֣ם מֵע֧וֹף הַשָּׁמַ֛יִם שִׁבְעָ֥ה שִׁבְעָ֖ה זָכָ֣ר וּנְקֵבָ֑ה לְחַיּ֥וֹת זֶ֖רַע עַל־פְּנֵ֥י כָל־הָאָֽרֶץ׃
@@ -185,6 +193,10 @@ Previous v0.4.33
 Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
 
 Previous v0.4.34
+
+Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
+
+Previous v0.4.35
 
 Also from the birds of the heavens, take seven by seven, male and female, to keep offspring alive over the face of all the earth.
 
@@ -244,6 +256,10 @@ Previous v0.4.34
 
 For in seven more days I will send rain upon the earth for forty days and forty nights, and I will wipe every living thing that I have made from the face of the ground.”
 
+Previous v0.4.35
+
+For in seven more days I will send rain upon the earth for forty days and forty nights, and I will wipe every living thing that I have made from the face of the ground.”
+
 ## 5 · HYB.GEN.007.005
 
 Hebrew display (MT/WLC): וַיַּ֖עַשׂ נֹ֑חַ כְּכֹ֥ל אֲשֶׁר־צִוָּ֖הוּ יְהוָֽה׃
@@ -297,6 +313,10 @@ Previous v0.4.33
 Noah did according to all that YHWH had commanded him.
 
 Previous v0.4.34
+
+Noah did according to all that YHWH had commanded him.
+
+Previous v0.4.35
 
 Noah did according to all that YHWH had commanded him.
 
@@ -356,6 +376,10 @@ Previous v0.4.34
 
 Noah was six hundred years old, and the floodwaters were upon the earth.
 
+Previous v0.4.35
+
+Noah was six hundred years old, and the floodwaters were upon the earth.
+
 ## 7 · HYB.GEN.007.007
 
 Hebrew display (MT/WLC): וַיָּ֣בֹא נֹ֗חַ וּ֠בָנָיו וְאִשְׁתּ֧וֹ וּנְשֵֽׁי־בָנָ֛יו אִתּ֖וֹ אֶל־הַתֵּבָ֑ה מִפְּנֵ֖י מֵ֥י הַמַּבּֽוּל׃
@@ -412,6 +436,10 @@ Previous v0.4.34
 
 Noah entered the ark, and his sons, his wife, and his sons’ wives with him, because of the waters of the flood.
 
+Previous v0.4.35
+
+Noah entered the ark, and his sons, his wife, and his sons’ wives with him, because of the waters of the flood.
+
 ## 8 · HYB.GEN.007.008
 
 Hebrew display (MT/WLC): מִן־הַבְּהֵמָה֙ הַטְּהוֹרָ֔ה וּמִן־הַ֨בְּהֵמָ֔ה אֲשֶׁ֥ר אֵינֶ֖נָּה טְהֹרָ֑ה וּמִ֨ן־הָע֔וֹף וְכֹ֥ל אֲשֶׁר־רֹמֵ֖שׂ עַל־הָֽאֲדָמָֽה׃
@@ -461,6 +489,10 @@ Previous v0.4.33
 From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
 
 Previous v0.4.34
+
+From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
+
+Previous v0.4.35
 
 From the clean animals and the animals that were not clean, and from the birds and everything that creeps on the ground,
 
@@ -516,6 +548,10 @@ Previous v0.4.34
 
 they came two by two to Noah, into the ark, male and female, as God had commanded Noah.
 
+Previous v0.4.35
+
+they came two by two to Noah, into the ark, male and female, as God had commanded Noah.
+
 ## 10 · HYB.GEN.007.010
 
 Hebrew display (MT/WLC): וַֽיְהִ֖י לְשִׁבְעַ֣ת הַיָּמִ֑ים וּמֵ֣י הַמַּבּ֔וּל הָי֖וּ עַל־הָאָֽרֶץ׃
@@ -565,6 +601,10 @@ Previous v0.4.33
 After the seven days, the waters of the flood were upon the earth.
 
 Previous v0.4.34
+
+After the seven days, the waters of the flood were upon the earth.
+
+Previous v0.4.35
 
 After the seven days, the waters of the flood were upon the earth.
 
@@ -620,6 +660,10 @@ Previous v0.4.34
 
 In the six hundredth year of Noah’s life, in the second month, on the seventeenth day of the month, on that very day all the springs of the great deep burst open, and the windows of the heavens were opened.
 
+Previous v0.4.35
+
+In the six hundredth year of Noah’s life, in the second month, on the seventeenth day of the month, on that very day all the springs of the great deep burst open, and the windows of the heavens were opened.
+
 ## 12 · HYB.GEN.007.012
 
 Hebrew display (MT/WLC): וַֽיְהִ֥י הַגֶּ֖שֶׁם עַל־הָאָ֑רֶץ אַרְבָּעִ֣ים י֔וֹם וְאַרְבָּעִ֖ים לָֽיְלָה׃
@@ -672,6 +716,10 @@ Previous v0.4.34
 
 The rain was upon the earth for forty days and forty nights.
 
+Previous v0.4.35
+
+The rain was upon the earth for forty days and forty nights.
+
 ## 13 · HYB.GEN.007.013
 
 Hebrew display (MT/WLC): בְּעֶ֨צֶם הַיּ֤וֹם הַזֶּה֙ בָּ֣א נֹ֔חַ וְשֵׁם־וְחָ֥ם וָיֶ֖פֶת בְּנֵי־נֹ֑חַ וְאֵ֣שֶׁת נֹ֗חַ וּשְׁלֹ֧שֶׁת נְשֵֽׁי־בָנָ֛יו אִתָּ֖ם אֶל־הַתֵּבָֽה׃
@@ -717,6 +765,10 @@ Previous v0.4.33
 On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
 
 Previous v0.4.34
+
+On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
+
+Previous v0.4.35
 
 On that very day Noah, and Shem, Ham, and Japheth, Noah’s sons, and Noah’s wife and the three wives of his sons with them, entered the ark.
 
@@ -768,6 +820,10 @@ Previous v0.4.34
 
 They, and every wild animal according to its kind, all livestock according to their kinds, every creeping thing that creeps on the earth according to its kind, and every flying creature according to its kind—every bird, every winged thing—entered.
 
+Previous v0.4.35
+
+They, and every wild animal according to its kind, all livestock according to their kinds, every creeping thing that creeps on the earth according to its kind, and every flying creature according to its kind—every bird, every winged thing—entered.
+
 ## 15 · HYB.GEN.007.015
 
 Hebrew display (MT/WLC): וַיָּבֹ֥אוּ אֶל־נֹ֖חַ אֶל־הַתֵּבָ֑ה שְׁנַ֤יִם שְׁנַ֨יִם֙ מִכָּל־הַבָּשָׂ֔ר אֲשֶׁר־בּ֖וֹ ר֥וּחַ חַיִּֽים׃
@@ -813,6 +869,10 @@ Previous v0.4.33
 They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
 
 Previous v0.4.34
+
+They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
+
+Previous v0.4.35
 
 They came to Noah, into the ark, two by two from all flesh in which was the breath of life.
 
@@ -864,6 +924,10 @@ Previous v0.4.34
 
 Those entering, male and female of all flesh, entered as God had commanded him; and YHWH shut him in.
 
+Previous v0.4.35
+
+Those entering, male and female of all flesh, entered as God had commanded him; and YHWH shut him in.
+
 ## 17 · HYB.GEN.007.017
 
 Hebrew display (MT/WLC): וַֽיְהִ֧י הַמַּבּ֛וּל אַרְבָּעִ֥ים י֖וֹם עַל־הָאָ֑רֶץ וַיִּרְבּ֣וּ הַמַּ֗יִם וַיִּשְׂאוּ֙ אֶת־הַתֵּבָ֔ה וַתָּ֖רָם מֵעַ֥ל הָאָֽרֶץ׃
@@ -912,6 +976,10 @@ Previous v0.4.34
 
 The flood was on the earth for forty days. The waters increased and lifted the ark, and it rose above the earth.
 
+Previous v0.4.35
+
+The flood was on the earth for forty days. The waters increased and lifted the ark, and it rose above the earth.
+
 ## 18 · HYB.GEN.007.018
 
 Hebrew display (MT/WLC): וַיִּגְבְּר֥וּ הַמַּ֛יִם וַיִּרְבּ֥וּ מְאֹ֖ד עַל־הָאָ֑רֶץ וַתֵּ֥לֶךְ הַתֵּבָ֖ה עַל־פְּנֵ֥י הַמָּֽיִם׃
@@ -953,6 +1021,10 @@ Previous v0.4.33
 The waters grew strong and increased greatly upon the earth, and the ark moved over the surface of the waters.
 
 Previous v0.4.34
+
+The waters grew strong and increased greatly upon the earth, and the ark moved over the surface of the waters.
+
+Previous v0.4.35
 
 The waters grew strong and increased greatly upon the earth, and the ark moved over the surface of the waters.
 
@@ -1000,6 +1072,10 @@ Previous v0.4.34
 
 The waters prevailed exceedingly upon the earth, and all the high mountains under the whole heaven were covered.
 
+Previous v0.4.35
+
+The waters prevailed exceedingly upon the earth, and all the high mountains under the whole heaven were covered.
+
 ## 20 · HYB.GEN.007.020
 
 Hebrew display (MT/WLC): חֲמֵ֨שׁ עֶשְׂרֵ֤ה אַמָּה֙ מִלְמַ֔עְלָה גָּבְר֖וּ הַמָּ֑יִם וַיְכֻסּ֖וּ הֶהָרִֽים׃
@@ -1037,6 +1113,10 @@ Previous v0.4.33
 The waters rose fifteen cubits upward, and the mountains were covered.
 
 Previous v0.4.34
+
+The waters rose fifteen cubits upward, and the mountains were covered.
+
+Previous v0.4.35
 
 The waters rose fifteen cubits upward, and the mountains were covered.
 
@@ -1080,6 +1160,10 @@ Previous v0.4.34
 
 All flesh that moved on the earth perished: the birds, livestock, wild animals, every swarming thing that swarmed on the earth, and all humankind.
 
+Previous v0.4.35
+
+All flesh that moved on the earth perished: the birds, livestock, wild animals, every swarming thing that swarmed on the earth, and all humankind.
+
 ## 22 · HYB.GEN.007.022
 
 Hebrew display (MT/WLC): כֹּ֡ל אֲשֶׁר֩ נִשְׁמַת־ר֨וּחַ חַיִּ֜ים בְּאַפָּ֗יו מִכֹּ֛ל אֲשֶׁ֥ר בֶּחָֽרָבָ֖ה מֵֽתוּ׃
@@ -1120,6 +1204,10 @@ Previous v0.4.34
 
 Everything on dry ground that had the breath of life in its nostrils died.
 
+Previous v0.4.35
+
+Everything on dry ground that had the breath of life in its nostrils died.
+
 ## 23 · HYB.GEN.007.023
 
 Hebrew display (MT/WLC): וַיִּ֜מַח אֶֽת־כָּל־הַיְק֣וּם ׀ אֲשֶׁ֣ר ׀ עַל־פְּנֵ֣י הָֽאֲדָמָ֗ה מֵאָדָ֤ם עַד־בְּהֵמָה֙ עַד־רֶ֨מֶשׂ֙ וְעַד־ע֣וֹף הַשָּׁמַ֔יִם וַיִּמָּח֖וּ מִן־הָאָ֑רֶץ וַיִשָּׁ֧אֶר אַךְ־נֹ֛חַ וַֽאֲשֶׁ֥ר אִתּ֖וֹ בַּתֵּבָֽה׃
@@ -1151,6 +1239,10 @@ Previous v0.4.33
 He wiped out every living thing on the surface of the ground, from humans to livestock, creeping things, and the birds of the heavens. They were wiped from the earth; only Noah and those with him in the ark remained.
 
 Previous v0.4.34
+
+He wiped out every living thing on the surface of the ground, from humans to livestock, creeping things, and the birds of the heavens. They were wiped from the earth; only Noah and those with him in the ark remained.
+
+Previous v0.4.35
 
 He wiped out every living thing on the surface of the ground, from humans to livestock, creeping things, and the birds of the heavens. They were wiped from the earth; only Noah and those with him in the ark remained.
 
@@ -1194,6 +1286,10 @@ Previous v0.4.34
 
 The waters prevailed over the earth for one hundred and fifty days.
 
+Previous v0.4.35
+
+The waters prevailed over the earth for one hundred and fifty days.
+
 ## Notes
 
 Verse 1 preserves I have seen, righteous, before me and this generation, while including the whole household. Verse 2 retains distributive seven by seven with a male and its mate. Seven pairs (fourteen animals) is a strong reading when the pair is distributed, but seven in total remains an alternative; the wording does not fix a total. Repeated sevens and male/female in the Greek edition do not settle the question. Cleanliness criteria, later sacrifice and harmonization with chapter 6 are not inserted.
@@ -1224,7 +1320,7 @@ Verses 20–24 retain the pinned WLC provisionally. Fifteen cubits above the mou
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 7:1–24 (en), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/en/genesis-7/
+Hansam Yang. Original Bible: Genesis 7:1–24 (en), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/en/genesis-7/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

@@ -1,6 +1,6 @@
 # Génesis 5:1–32
 
-Hansam Yang · Original Bible · v0.4.35
+Hansam Yang · Original Bible · v0.4.36
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -124,6 +124,10 @@ Previous v0.4.34
 
 Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
 
+Previous v0.4.35
+
+Este es el registro de la descendencia de Adán. Cuando Dios creó al ser humano, lo hizo a semejanza de Dios.
+
 ## 2 · HYB.GEN.005.002
 
 Hebrew display (MT/WLC): זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם בְּי֖וֹם הִבָּֽרְאָֽם׃
@@ -233,6 +237,10 @@ Previous v0.4.33
 Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
 
 Previous v0.4.34
+
+Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
+
+Previous v0.4.35
 
 Varón y mujer los creó, los bendijo y los llamó «Ser humano» cuando fueron creados.
 
@@ -348,6 +356,10 @@ Previous v0.4.34
 
 Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
 
+Previous v0.4.35
+
+Adán vivió ciento treinta años y engendró un hijo a su semejanza, conforme a su imagen, y lo llamó Set.
+
 ## 4 · HYB.GEN.005.004
 
 Hebrew display (MT/WLC): וַיִּֽהְי֣וּ יְמֵי־אָדָ֗ם אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֵׁ֔ת שְׁמֹנֶ֥ה מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -457,6 +469,10 @@ Previous v0.4.33
 Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
 
 Previous v0.4.34
+
+Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
+
+Previous v0.4.35
 
 Después de engendrar a Set, Adán vivió ochocientos años y engendró hijos e hijas.
 
@@ -572,6 +588,10 @@ Previous v0.4.34
 
 Todos los días que vivió Adán fueron novecientos treinta años, y murió.
 
+Previous v0.4.35
+
+Todos los días que vivió Adán fueron novecientos treinta años, y murió.
+
 ## 6 · HYB.GEN.005.006
 
 Hebrew display (MT/WLC): וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃
@@ -677,6 +697,10 @@ Previous v0.4.33
 Set vivió ciento cinco años y engendró a Enós.
 
 Previous v0.4.34
+
+Set vivió ciento cinco años y engendró a Enós.
+
+Previous v0.4.35
 
 Set vivió ciento cinco años y engendró a Enós.
 
@@ -788,6 +812,10 @@ Previous v0.4.34
 
 Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
 
+Previous v0.4.35
+
+Después de engendrar a Enós, Set vivió ochocientos siete años y engendró hijos e hijas.
+
 ## 8 · HYB.GEN.005.008
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -893,6 +921,10 @@ Previous v0.4.33
 Todos los días de Set fueron novecientos doce años, y murió.
 
 Previous v0.4.34
+
+Todos los días de Set fueron novecientos doce años, y murió.
+
+Previous v0.4.35
 
 Todos los días de Set fueron novecientos doce años, y murió.
 
@@ -1004,6 +1036,10 @@ Previous v0.4.34
 
 Enós vivió noventa años y engendró a Quenán.
 
+Previous v0.4.35
+
+Enós vivió noventa años y engendró a Quenán.
+
 ## 10 · HYB.GEN.005.010
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -1112,6 +1148,10 @@ Previous v0.4.34
 
 Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
 
+Previous v0.4.35
+
+Después de engendrar a Quenán, Enós vivió ochocientos quince años y engendró hijos e hijas.
+
 ## 11 · HYB.GEN.005.011
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵ֣י אֱנ֔וֹשׁ חָמֵ֣שׁ שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -1213,6 +1253,10 @@ Previous v0.4.33
 Todos los días de Enós fueron novecientos cinco años, y murió.
 
 Previous v0.4.34
+
+Todos los días de Enós fueron novecientos cinco años, y murió.
+
+Previous v0.4.35
 
 Todos los días de Enós fueron novecientos cinco años, y murió.
 
@@ -1320,6 +1364,10 @@ Previous v0.4.34
 
 Quenán vivió setenta años y engendró a Mahalaleel.
 
+Previous v0.4.35
+
+Quenán vivió setenta años y engendró a Mahalaleel.
+
 ## 13 · HYB.GEN.005.013
 
 Hebrew display (MT/WLC): וַיְחִ֣י קֵינָ֗ן אַחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מַֽהֲלַלְאֵ֔ל אַרְבָּעִ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -1421,6 +1469,10 @@ Previous v0.4.33
 Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y engendró hijos e hijas.
 
 Previous v0.4.34
+
+Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y engendró hijos e hijas.
+
+Previous v0.4.35
 
 Después de engendrar a Mahalaleel, Quenán vivió ochocientos cuarenta años y engendró hijos e hijas.
 
@@ -1528,6 +1580,10 @@ Previous v0.4.34
 
 Todos los días de Quenán fueron novecientos diez años, y murió.
 
+Previous v0.4.35
+
+Todos los días de Quenán fueron novecientos diez años, y murió.
+
 ## 15 · HYB.GEN.005.015
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֔ל חָמֵ֥שׁ שָׁנִ֖ים וְשִׁשִּׁ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־יָֽרֶד׃
@@ -1632,6 +1688,10 @@ Previous v0.4.34
 
 Mahalaleel vivió sesenta y cinco años y engendró a Jared.
 
+Previous v0.4.35
+
+Mahalaleel vivió sesenta y cinco años y engendró a Jared.
+
 ## 16 · HYB.GEN.005.016
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י מַֽהֲלַלְאֵ֗ל אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־יֶ֔רֶד שְׁלֹשִׁ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
@@ -1729,6 +1789,10 @@ Previous v0.4.33
 Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
 
 Previous v0.4.34
+
+Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
+
+Previous v0.4.35
 
 Después de engendrar a Jared, Mahalaleel vivió ochocientos treinta años y engendró hijos e hijas.
 
@@ -1832,6 +1896,10 @@ Previous v0.4.34
 
 Todos los días de Mahalaleel fueron ochocientos noventa y cinco años, y murió.
 
+Previous v0.4.35
+
+Todos los días de Mahalaleel fueron ochocientos noventa y cinco años, y murió.
+
 ## 18 · HYB.GEN.005.018
 
 Hebrew display (MT/WLC): וַֽיְחִי־יֶ֕רֶד שְׁתַּ֧יִם וְשִׁשִּׁ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־חֲנֽוֹךְ׃
@@ -1929,6 +1997,10 @@ Previous v0.4.33
 Jared vivió ciento sesenta y dos años y engendró a Enoc.
 
 Previous v0.4.34
+
+Jared vivió ciento sesenta y dos años y engendró a Enoc.
+
+Previous v0.4.35
 
 Jared vivió ciento sesenta y dos años y engendró a Enoc.
 
@@ -2032,6 +2104,10 @@ Previous v0.4.34
 
 Después de engendrar a Enoc, Jared vivió ochocientos años y engendró hijos e hijas.
 
+Previous v0.4.35
+
+Después de engendrar a Enoc, Jared vivió ochocientos años y engendró hijos e hijas.
+
 ## 20 · HYB.GEN.005.020
 
 Hebrew display (MT/WLC): וַיִּֽהְיוּ֙ כָּל־יְמֵי־יֶ֔רֶד שְׁתַּ֤יִם וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -2132,6 +2208,10 @@ Previous v0.4.34
 
 Todos los días de Jared fueron novecientos sesenta y dos años, y murió.
 
+Previous v0.4.35
+
+Todos los días de Jared fueron novecientos sesenta y dos años, y murió.
+
 ## 21 · HYB.GEN.005.021
 
 Hebrew display (MT/WLC): וַֽיְחִ֣י חֲנ֔וֹךְ חָמֵ֥שׁ וְשִׁשִּׁ֖ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מְתוּשָֽׁלַח׃
@@ -2225,6 +2305,10 @@ Previous v0.4.33
 Enoc vivió sesenta y cinco años y engendró a Matusalén.
 
 Previous v0.4.34
+
+Enoc vivió sesenta y cinco años y engendró a Matusalén.
+
+Previous v0.4.35
 
 Enoc vivió sesenta y cinco años y engendró a Matusalén.
 
@@ -2324,6 +2408,10 @@ Previous v0.4.34
 
 Después de engendrar a Matusalén, Enoc anduvo con Dios trescientos años y engendró hijos e hijas.
 
+Previous v0.4.35
+
+Después de engendrar a Matusalén, Enoc anduvo con Dios trescientos años y engendró hijos e hijas.
+
 ## 23 · HYB.GEN.005.023
 
 Hebrew display (MT/WLC): וַיְהִ֖י כָּל־יְמֵ֣י חֲנ֑וֹךְ חָמֵ֤שׁ וְשִׁשִּׁים֙ שָׁנָ֔ה וּשְׁלֹ֥שׁ מֵא֖וֹת שָׁנָֽה׃
@@ -2417,6 +2505,10 @@ Previous v0.4.33
 Todos los días de Enoc fueron trescientos sesenta y cinco años.
 
 Previous v0.4.34
+
+Todos los días de Enoc fueron trescientos sesenta y cinco años.
+
+Previous v0.4.35
 
 Todos los días de Enoc fueron trescientos sesenta y cinco años.
 
@@ -2516,6 +2608,10 @@ Previous v0.4.34
 
 Enoc anduvo con Dios, y ya no estaba, porque Dios se lo llevó.
 
+Previous v0.4.35
+
+Enoc anduvo con Dios, y ya no estaba, porque Dios se lo llevó.
+
 ## 25 · HYB.GEN.005.025
 
 Hebrew display (MT/WLC): וַיְחִ֣י מְתוּשֶׁ֔לַח שֶׁ֧בַע וּשְׁמֹנִ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־לָֽמֶךְ׃
@@ -2603,6 +2699,10 @@ Previous v0.4.33
 Matusalén vivió ciento ochenta y siete años y engendró a Lamec.
 
 Previous v0.4.34
+
+Matusalén vivió ciento ochenta y siete años y engendró a Lamec.
+
+Previous v0.4.35
 
 Matusalén vivió ciento ochenta y siete años y engendró a Lamec.
 
@@ -2713,6 +2813,10 @@ Previous v0.4.34
 
 Después de engendrar a Lamec, Matusalén vivió setecientos ochenta y dos años y engendró hijos e hijas.
 
+Previous v0.4.35
+
+Después de engendrar a Lamec, Matusalén vivió setecientos ochenta y dos años y engendró hijos e hijas.
+
 ## 27 · HYB.GEN.005.027
 
 Hebrew display (MT/WLC): וַיִּהְיוּ֙ כָּל־יְמֵ֣י מְתוּשֶׁ֔לַח תֵּ֤שַׁע וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -2798,6 +2902,10 @@ Previous v0.4.33
 Todos los días de Matusalén fueron novecientos sesenta y nueve años, y murió.
 
 Previous v0.4.34
+
+Todos los días de Matusalén fueron novecientos sesenta y nueve años, y murió.
+
+Previous v0.4.35
 
 Todos los días de Matusalén fueron novecientos sesenta y nueve años, y murió.
 
@@ -2889,6 +2997,10 @@ Previous v0.4.34
 
 Lamec vivió ciento ochenta y dos años y engendró un hijo.
 
+Previous v0.4.35
+
+Lamec vivió ciento ochenta y dos años y engendró un hijo.
+
 ## 29 · HYB.GEN.005.029
 
 Hebrew display (MT/WLC): וַיִּקְרָ֧א אֶת־שְׁמ֛וֹ נֹ֖חַ לֵאמֹ֑ר זֶ֞֠ה יְנַחֲמֵ֤נוּ מִֽמַּעֲשֵׂ֨נוּ֙ וּמֵעִצְּב֣וֹן יָדֵ֔ינוּ מִן־הָ֣אֲדָמָ֔ה אֲשֶׁ֥ר אֵֽרְרָ֖הּ יְהוָֽה׃
@@ -2974,6 +3086,10 @@ Previous v0.4.33
 Lo llamó Noé, diciendo: «Este nos consolará de nuestro trabajo y del esfuerzo de nuestras manos, de la tierra que el SEÑOR ha maldecido».
 
 Previous v0.4.34
+
+Lo llamó Noé, diciendo: «Este nos consolará de nuestro trabajo y del esfuerzo de nuestras manos, de la tierra que el SEÑOR ha maldecido».
+
+Previous v0.4.35
 
 Lo llamó Noé, diciendo: «Este nos consolará de nuestro trabajo y del esfuerzo de nuestras manos, de la tierra que el SEÑOR ha maldecido».
 
@@ -3065,6 +3181,10 @@ Previous v0.4.34
 
 Después de engendrar a Noé, Lamec vivió quinientos noventa y cinco años y engendró hijos e hijas.
 
+Previous v0.4.35
+
+Después de engendrar a Noé, Lamec vivió quinientos noventa y cinco años y engendró hijos e hijas.
+
 ## 31 · HYB.GEN.005.031
 
 Hebrew display (MT/WLC): וַֽיְהִי֙ כָּל־יְמֵי־לֶ֔מֶךְ שֶׁ֤בַע וְשִׁבְעִים֙ שָׁנָ֔ה וּשְׁבַ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃
@@ -3146,6 +3266,10 @@ Previous v0.4.33
 Todos los días de Lamec fueron setecientos setenta y siete años, y murió.
 
 Previous v0.4.34
+
+Todos los días de Lamec fueron setecientos setenta y siete años, y murió.
+
+Previous v0.4.35
 
 Todos los días de Lamec fueron setecientos setenta y siete años, y murió.
 
@@ -3233,6 +3357,10 @@ Previous v0.4.34
 
 Noé tenía quinientos años y engendró a Sem, Cam y Jafet.
 
+Previous v0.4.35
+
+Noé tenía quinientos años y engendró a Sem, Cam y Jafet.
+
 ## Notes
 
 El primer Adán del v.1 se entiende como figura genealógica; adam en la creación se vierte ser humano. BDB120 incluye varones y mujeres en5:1 y la denominación colectiva de5:2. El nombre colectivo Ser humano comparte grafía y sonido hebreos con Adán; no se restringe a los varones.
@@ -3259,7 +3387,7 @@ El v.31 sigue provisionalmente WLC777 frente a753 en Swete1901 p.9 examinado. No
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 5:1–32 (es), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/es/genesis-5/
+Hansam Yang. Original Bible: Genesis 5:1–32 (es), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/es/genesis-5/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

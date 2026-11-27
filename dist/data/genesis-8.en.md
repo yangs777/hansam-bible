@@ -1,6 +1,6 @@
-# Genesis 8:1–5, 7
+# Genesis 8:1–11
 
-Hansam Yang · Original Bible · v0.4.35
+Hansam Yang · Original Bible · v0.4.36
 
 AI-assisted translation draft · specialist and native-language review pending
 
@@ -42,6 +42,10 @@ Previous v0.4.34
 
 God remembered Noah and all the wild animals and all the livestock that were with him in the ark. God caused a wind to pass over the earth, and the waters subsided.
 
+Previous v0.4.35
+
+God remembered Noah and all the wild animals and all the livestock that were with him in the ark. God caused a wind to pass over the earth, and the waters subsided.
+
 ## 2 · HYB.GEN.008.002
 
 Hebrew display (MT/WLC): וַיִּסָּֽכְרוּ֙ מַעְיְנֹ֣ת תְּה֔וֹם וַֽאֲרֻבֹּ֖ת הַשָּׁמָ֑יִם וַיִּכָּלֵ֥א הַגֶּ֖שֶׁם מִן־הַשָּׁמָֽיִם׃
@@ -69,6 +73,10 @@ Final opinion (Korean original): 닫히다와 그치다를 구별하고 깊음�
 Counterargument (Korean): 하늘의 창이라는 낯선 비유와 과거완료로 사건순서를 드러내는 대안이 있다. 고대의 우주관이나 물리기제를 번역에서 확정하지 않는다.
 
 Previous v0.4.34
+
+The springs of the deep and the windows of the heavens were closed, and the rain from the heavens was restrained.
+
+Previous v0.4.35
 
 The springs of the deep and the windows of the heavens were closed, and the rain from the heavens was restrained.
 
@@ -102,6 +110,10 @@ Previous v0.4.34
 
 The waters kept receding from the earth, and at the end of the one hundred and fifty days they had diminished.
 
+Previous v0.4.35
+
+The waters kept receding from the earth, and at the end of the one hundred and fifty days they had diminished.
+
 ## 4 · HYB.GEN.008.004
 
 Hebrew display (MT/WLC): וַתָּ֤נַח הַתֵּבָה֙ בַּחֹ֣דֶשׁ הַשְּׁבִיעִ֔י בְּשִׁבְעָה־עָשָׂ֥ר י֖וֹם לַחֹ֑דֶשׁ עַ֖ל הָרֵ֥י אֲרָרָֽט׃
@@ -129,6 +141,10 @@ Final opinion (Korean original): 고정WLC와 레닌그라드5r 핵심자음은1
 Counterargument (Korean): 27일이 더 이른 읽기이거나 다른 히브리어를 반영할 가능성이 남는다. WLC·같은계열 사진만으로17일의 초기성을 증명할 수 없다. 산지와머물다는 원문보다 덜 동적인 자연화다.
 
 Previous v0.4.34
+
+On the seventeenth day of the seventh month, the ark came to rest in the mountains of Ararat.
+
+Previous v0.4.35
 
 On the seventeenth day of the seventh month, the ark came to rest in the mountains of Ararat.
 
@@ -162,13 +178,51 @@ Previous v0.4.34
 
 The waters continued to decrease until the tenth month; on the first day of the tenth month, the tops of the mountains appeared.
 
+Previous v0.4.35
+
+The waters continued to decrease until the tenth month; on the first day of the tenth month, the tops of the mountains appeared.
+
+## 6 · HYB.GEN.008.006
+
+Hebrew display (MT/WLC): וַֽיְהִ֕י מִקֵּ֖ץ אַרְבָּעִ֣ים י֑וֹם וַיִּפְתַּ֣ח נֹ֔חַ אֶת־חַלּ֥וֹן הַתֵּבָ֖ה אֲשֶׁ֥ר עָשָֽׂה׃
+
+At the end of forty days, Noah opened the window of the ark that he had made.
+
+Footnote 1: Alternatively, the clause may describe the window Noah had made. The text uses “the window of the ark that he had made”; the Hebrew relative clause may modify either window or ark. The masculine verb agrees with Noah, not the antecedent. The construction context supports the selected wording but does not exclude the other attachment. This is a syntactic alternative in the same Hebrew, not an attested manuscript variant. The critical apparatus and independent Hebrew witnesses were not directly collated.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.6
+
+### Current best selected translation
+
+기산점을 보충하지 않고 창을 여는 행동을 보존한다. 관계절의 남성 동사는 노아라는 주어와 일치한다는 정정을 수용한다. 방주 수식으로 읽히는 현재 한국어를 택하고 창 수식 가능성은 동일 히브리어의 대안 해석으로 각주에 남긴다.
+
+#### claude-sonnet-5-5
+
+At the end of forty days Noah opened the window of the ark that he had made
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And it came to pass at the end of forty days, that Noah opened the window of the ark which he had made.
+
+Final opinion (Korean original): 히브리어 관계절 'אֲשֶׁר עָשָׂה'(그가 만든)의 동사 'עָשָׂה'는 3인칭 남성 단수로서 주어인 노아와의 성·수 일치일 뿐 선행사(창문 חַלּוֹן 또는 방주 תֵּבָה)의 성을 지시하는 표지가 아닙니다. 따라서 동사의 남성형을 근거로 창문 수식을 문법적으로 단정하는 것은 성립하지 않으며, 방주 건조 문맥(창 6장)과 한국어 통사 구조상 '자기가 만든 방주의 창'이 자연스럽습니다. 다만 통사적 중의성이 존재하므로 이를 각주에 명시하고, 비평장치 및 독립 사본 대조 미완료라는 접근 공백을 정직하게 밝힌 현 편집안을 잠정 채택합니다.
+
+#### gpt-6.1-sol
+
+At the end of forty days, Noah opened the window of the ark that he had made.
+
+Final opinion (Korean original): 기산점을 보충하지 않고 창을 여는 행동을 보존한다. 관계절의 남성 동사는 노아라는 주어와 일치한다는 정정을 수용한다. 방주 수식으로 읽히는 현재 한국어를 택하고 창 수식 가능성은 동일 히브리어의 대안 해석으로 각주에 남긴다.
+
+Counterargument (Korean): 방주 건조 문맥과 어순은 선택 사유지만 창 수식을 배제할 결정적 문법 증거는 아니다.
+
 ## 7 · HYB.GEN.008.007
 
 Hebrew display (MT/WLC): וַיְשַׁלַּ֖ח אֶת־הָֽעֹרֵ֑ב וַיֵּצֵ֤א יָצוֹא֙ וָשׁ֔וֹב עַד־יְבֹ֥שֶׁת הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃
 
 He sent out the raven, and it went out, going to and fro until the waters had dried up from the earth.
 
-Footnote 1: Other reading (Septuagint, the ancient Greek translation): “it went out and did not return until the water had dried from the earth.” The text follows the Hebrew (Masoretic) reading, “going to and fro”: Hebrew is the base text of this translation, and a Greek translation alone does not establish a different Hebrew original. The critical apparatus needed to weigh the two readings could not actually be consulted: the public web text shows none for this verse and the resource page refused access. Which reading is earlier is therefore left undecided.
+Footnote 2: Other reading (Septuagint, the ancient Greek translation): “it went out and did not return until the water had dried from the earth.” The text follows the Hebrew (Masoretic) reading, “going to and fro”: Hebrew is the base text of this translation, and a Greek translation alone does not establish a different Hebrew original. The critical apparatus needed to weigh the two readings could not actually be consulted: the public web text shows none for this verse and the resource page refused access. Which reading is earlier is therefore left undecided.
 
 Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.7
 
@@ -190,6 +244,146 @@ Final opinion (Korean original): WLC의 오감 후보와 Swete 인쇄 주본문�
 
 Counterargument (Korean): 칠십인역(Swete 인쇄본)의 「돌아오지 않았다」가 더 이른 히브리어를 반영할 가능성도, 번역·전승 과정의 차이일 가능성도 남아 있다. 고정 저본의 재현성이나 판본 웹 본문과의 일치만으로 이 경쟁 읽기를 배제할 수 없다. 「오가곤 했다」가 방주 안으로 들어왔다는 뜻으로 읽힐 수 있다는 지적도 있다.
 
+Previous v0.4.35
+
+He sent out the raven, and it went out, going to and fro until the waters had dried up from the earth.
+
+## 8 · HYB.GEN.008.008
+
+Hebrew display (MT/WLC): וַיְשַׁלַּ֥ח אֶת־הַיּוֹנָ֖ה מֵאִתּ֑וֹ לִרְאוֹת֙ הֲקַ֣לּוּ הַמַּ֔יִם מֵעַ֖ל פְּנֵ֥י הָֽאֲדָמָֽה׃
+
+Then he sent out the dove from his side to see whether the waters had receded from the surface of the ground.
+
+Footnote 3: The Greek Septuagint edition (Swete 1901, p.12) reads ὀπίσω αὐτοῦ, which can mean after it, following the raven. The text follows the pinned Hebrew מֵאִתּוֹ, from his side, as direct Hebrew evidence; the Greek wording alone does not establish a different Hebrew source. Modern critical apparatus and independent Hebrew witnesses were not directly collated, so priority remains undecided.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.8
+
+### Current best selected translation
+
+מֵאִתּוֹ의 출발점과 감소 여부를 보려는 목적을 유지한다. Swete 12쪽의 ὀπίσω αὐτοῦ와 직접 읽은 NETS의 이해는 각주에 남긴다. 직접 히브리어를 변경할 독립 증거가 없어 고정 읽기를 잠정 채택한다. Gemini가 언급한 보호 관계는 전치사 자체로 확정되지 않아 편집 설명에서 채택하지 않는다.
+
+#### claude-sonnet-5-5
+
+Then he sent forth a dove from him, to see if the waters had subsided from the face of the ground.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And he sent forth the dove from him, to see if the waters were abated from off the face of the ground.
+
+Final opinion (Korean original): 고정 히브리어 'מֵאִתּוֹ'(그에게서/자기 곁에서)는 7절 까마귀 방사와 구별되는 인칭 전치사 결합으로서, 방주 안 노아의 직접적인 보호·출발 관계를 충실히 반영합니다. 현재 편집자가 스캔으로 직접 대조한 칠십인역 판본(Swete 1901 p.12)의 'ὀπίσω αὐτοῦ'(그 뒤에/까마귀 뒤를 따라)는 흥미로운 고대 번역 이해이지만, 히브리어 직역 본문을 대체할 직접적 히브리어 증거가 부재하므로 각주에 기록하고 고정 히브리어를 잠정 채택하는 것이 방어 가능합니다.
+
+#### gpt-6.1-sol
+
+Then he sent out the dove from his side to see whether the waters had receded from the surface of the ground.
+
+Final opinion (Korean original): מֵאִתּוֹ의 출발점과 감소 여부를 보려는 목적을 유지한다. Swete 12쪽의 ὀπίσω αὐτοῦ와 직접 읽은 NETS의 이해는 각주에 남긴다. 직접 히브리어를 변경할 독립 증거가 없어 고정 읽기를 잠정 채택한다. Gemini가 언급한 보호 관계는 전치사 자체로 확정되지 않아 편집 설명에서 채택하지 않는다.
+
+Counterargument (Korean): 그리스어 표현이 다른 히브리어를 반영할 가능성은 열려 있다. 자기 곁에서라는 직역은 세 언어의 자연스러움과 긴장할 수 있다.
+
+## 9 · HYB.GEN.008.009
+
+Hebrew display (MT/WLC): וְלֹֽא־מָצְאָה֩ הַיּוֹנָ֨ה מָנ֜וֹחַ לְכַף־רַגְלָ֗הּ וַתָּ֤שָׁב אֵלָיו֙ אֶל־הַתֵּבָ֔ה כִּי־מַ֖יִם עַל־פְּנֵ֣י כָל־הָאָ֑רֶץ וַיִּשְׁלַ֤ח יָדוֹ֙ וַיִּקָּחֶ֔הָ וַיָּבֵ֥א אֹתָ֛הּ אֵלָ֖יו אֶל־הַתֵּבָֽה׃
+
+The dove found no resting place for the sole of its foot, and it returned to him in the ark, for water was on the surface of the whole earth. He reached out his hand, took it, and brought it to himself into the ark.
+
+Footnote 4: The resting place for the sole of its foot and the actions of reaching, taking and bringing in are retained. Modern apparatus and independent Hebrew witnesses were not directly collated; possible manuscript variants remain unverified. The pinned Hebrew is selected provisionally without inventing an alternative reading.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.9
+
+### Current best selected translation
+
+Gemini의 발바닥 어휘 보존 제안을 수용하되 한국어를 발바닥이 쉴 곳으로 다듬는다. 물이 있었다는 존재문, 비둘기에서 노아로 주어 전환, 손 내밈·잡음·들여옴을 유지한다. 발을 딛고나 영어 covered라는 자연화 자체가 항상 오역이라는 모델 일반화는 채택하지 않는다. 잡아는 동작 강도를 과장하지 않는 문맥상 선택이다.
+
+#### claude-sonnet-5-5
+
+But the dove found no place to set her foot, and she returned to him to the ark, for the waters were still on the face of the whole earth. So he put out his hand and took her and brought her into the ark with him.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+But the dove found no rest for the sole of her foot, and she returned unto him into the ark, for the waters were on the face of the whole earth; and he put forth his hand, and took her, and brought her in unto him into the ark.
+
+Final opinion (Korean original): 본문은 세 가지 핵심 원문 요소를 지켜야 합니다. 첫째, 'לְכַף־רַגְלָהּ מָנוֹחַ'는 관용적 의역인 '발을 딛고'를 지양하고 이전 최종 합의대로 '발바닥(כַּף־רֶגֶל)' 표현을 살려 '발바닥 쉴 곳'으로 최소 수정해야 합니다. 둘째, 'כִּי־מַיִם עַל־פְּנֵי כָל־הָאָרֶץ'는 무동사 존재문이므로 외적 동사('덮다' 등)를 추가하지 않고 '물이 있었기 때문이다'로 보존해야 합니다. 셋째, 'וַיִּקָּחֶהָ'는 주관적 긴장감을 투영한 '낚아채다' 대신 중립적 직역인 '잡아' 또는 '받아'를 유지해야 합니다. 따라서 한국어 번역의 첫 문장을 '발바닥 쉴 곳'으로 수정한 개정안을 채택합니다.
+
+#### gpt-6.1-sol
+
+The dove found no resting place for the sole of its foot, and it returned to him in the ark, for water covered the surface of the whole earth. He reached out his hand, took it, and brought it to himself into the ark.
+
+Final opinion (Korean original): Gemini의 발바닥 어휘 보존 제안을 수용하되 한국어를 발바닥이 쉴 곳으로 다듬는다. 물이 있었다는 존재문, 비둘기에서 노아로 주어 전환, 손 내밈·잡음·들여옴을 유지한다. 발을 딛고나 영어 covered라는 자연화 자체가 항상 오역이라는 모델 일반화는 채택하지 않는다. 잡아는 동작 강도를 과장하지 않는 문맥상 선택이다.
+
+Counterargument (Korean): 발바닥이 쉴 곳은 원어 신체 표현을 드러내지만 자연스러운 한국어보다 다소 직역투다. 잡아 역시 원문의 폭넓은 취함 동사를 구체화한 선택이며 받았다는 대안도 가능하다.
+
+## 10 · HYB.GEN.008.010
+
+Hebrew display (MT/WLC): וַיָּ֣חֶל ע֔וֹד שִׁבְעַ֥ת יָמִ֖ים אֲחֵרִ֑ים וַיֹּ֛סֶף שַׁלַּ֥ח אֶת־הַיּוֹנָ֖ה מִן־הַתֵּבָֽה׃
+
+He waited another seven days and again sent the dove out from the ark.
+
+Footnote 5: Waiting another seven days follows the Hebrew context and the waiting expression inspected by the editor in the Greek edition. Morphology annotations alone do not settle the root analysis. No seven-day interval before the first dove is supplied. Modern apparatus and independent Hebrew witnesses remain uncollated; no unverified manuscript variant is asserted.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.10
+
+### Current best selected translation
+
+추가 칠 일과 다시 보냄을 보존한다. 문맥과 직접 읽은 그리스어의 기다림 표현을 근거로 기다리다를 선택하되 OSHB 태그만으로 어근 논의를 확정하지 않는다. 앞선 미진술 칠 일은 넣지 않는다.
+
+#### claude-sonnet-5-5
+
+He waited another seven days, and again he sent forth the dove out of the ark.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And he stayed yet other seven days, and again he sent forth the dove out of the ark.
+
+Final opinion (Korean original): 'וַיָּחֶל'에 대해 OSHB 태그가 어근 2342(חול)의 피엘로 분류하고 있으나, 8:12의 'וַיִּיָּחֶל'(어근 יחל)과의 형태적 긴장 등 학술적 어근 논쟁을 단편적 태그만으로 종결된 것처럼 과장하지 않아야 합니다. 또한 'שִׁבְעַת יָמִים אֲחֵרִים'(다른 칠 일)이라는 표현이 앞선 칠 일 단위의 존재를 암시할 수는 있으나, 원문에 명시되지 않은 '까마귀와 첫 비둘기 사이의 7일'을 본문에 추정 삽입하지 않고 직역한 것은 정직합니다. 현재 편집자가 확인한 그리스어 판본의 기다림 표현 및 히브리어 문맥에 입각한 '기다린 뒤' 번역을 잠정 채택합니다.
+
+#### gpt-6.1-sol
+
+He waited another seven days and again sent the dove out from the ark.
+
+Final opinion (Korean original): 추가 칠 일과 다시 보냄을 보존한다. 문맥과 직접 읽은 그리스어의 기다림 표현을 근거로 기다리다를 선택하되 OSHB 태그만으로 어근 논의를 확정하지 않는다. 앞선 미진술 칠 일은 넣지 않는다.
+
+Counterargument (Korean): 다른 칠 일이 이전 간격을 암시할 수 있으나 이번 문구는 까마귀와 첫 비둘기 사이 정확한 칠 일을 명시하지 않는다.
+
+## 11 · HYB.GEN.008.011
+
+Hebrew display (MT/WLC): וַתָּבֹ֨א אֵלָ֤יו הַיּוֹנָה֙ לְעֵ֣ת עֶ֔רֶב וְהִנֵּ֥ה עֲלֵה־זַ֖יִת טָרָ֣ף בְּפִ֑יהָ וַיֵּ֣דַע נֹ֔חַ כִּי־קַ֥לּוּ הַמַּ֖יִם מֵעַ֥ל הָאָֽרֶץ׃
+
+The dove came to him toward evening, and there in its beak was a freshly plucked olive leaf. Noah knew that the waters had receded from the earth.
+
+Footnote 6: The Greek edition (Swete 1901, p.12) adds κάρφος, a dry twig or fragment, to the olive leaf; the modern Greek-to-English translation NETS understands it as a dry twig. The text follows the pinned Hebrew leaf and טָרָף, rendered freshly plucked in the electronic BDB entry. The Greek difference does not establish a different Hebrew source and has not displaced the Hebrew reading. Göttingen and BHS/BHQ apparatus and independent Hebrew witnesses were not directly collated. No agent who plucked the leaf or complete dryness is supplied.
+
+Source: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml · Gen.8.11
+
+### Current best selected translation
+
+BDB 전자 전사 항목 i.bo.ab를 직접 읽어 갓 뜯은이라는 어휘 선택을 뒷받침했다. 잎 하나, 저녁 무렵, 보니라는 주목 전환, 노아의 물 감소 판단을 보존한다. 과거 Claude의 새 잎은 새로 돋은 잎으로 오해될 수 있어 채택하지 않는다. Swete의 κάρφος와 NETS의 마른 잔가지 이해는 다른 표현으로 각주에 둔다.
+
+#### claude-sonnet-5-5
+
+And the dove came back to him in the evening, and behold, in her mouth was a freshly plucked olive leaf. So Noah knew that the waters had subsided from the earth.
+
+Final opinion (Korean original): 현재 번역을 잠정안으로 둔다.
+
+#### gemini-3.8-flash-medium
+
+And the dove came to him at evening, and behold, a freshly plucked olive leaf was in her mouth; so Noah knew that the waters had abated from off the earth.
+
+Final opinion (Korean original): 11절의 핵심 쟁점은 세 가지입니다. 첫째, 'טָרָף'는 BDB 전자 전사본(entry i.bo.ab)에서 'fresh-plucked'로 풀이한 것처럼 방금 꺾거나 뜯어낸 신선한 상태를 뜻합니다. Claude의 이전 초안이었던 '새 잎'은 나무에서 새로 돋아난 싹(sprout)으로 오해되어 식생의 재성장이라는 과도한 생물학적 추론을 낳을 수 있으므로, 상태적 직역인 '갓 뜯은 올리브 잎'이 정확합니다. 둘째, 'עֲלֵה'는 단수 명사로서 명백한 '잎(leaf)'이지 후대 상징적 관습인 '가지(branch)'가 아니며, 뜯은 행위자(비둘기가 뜯었는지 떠다니던 것을 주웠는지)를 본문에 자의적으로 삽입하지 않는 구문 구조를 지켜야 합니다. 셋째, 'קַלּוּ'(קלל)는 수위 감소(abated/줄어들었다)를 의미하며, 8:13의 'חָרְבוּ'(마르다)나 8:14의 'יָבְשָׁה'(완전히 건조되다)와 엄격히 구분되어야 합니다. 또한 현재 편집자가 Swete 판본에서 대조한 칠십인역의 'κάρφος'(마른 잔가지/부스러기) 추가는 각주에 온전히 보존하되 고정 히브리어를 본문으로 잠정 채택합니다.
+
+#### gpt-6.1-sol
+
+The dove came to him toward evening, and there in its beak was a freshly plucked olive leaf. Noah knew that the waters had receded from the earth.
+
+Final opinion (Korean original): BDB 전자 전사 항목 i.bo.ab를 직접 읽어 갓 뜯은이라는 어휘 선택을 뒷받침했다. 잎 하나, 저녁 무렵, 보니라는 주목 전환, 노아의 물 감소 판단을 보존한다. 과거 Claude의 새 잎은 새로 돋은 잎으로 오해될 수 있어 채택하지 않는다. Swete의 κάρφος와 NETS의 마른 잔가지 이해는 다른 표현으로 각주에 둔다.
+
+Counterargument (Korean): 그리스어 차이가 다른 히브리어 저본을 반영할 가능성 또는 번역 어휘 차이일 가능성을 현대 장치 없이 결정하지 못한다. 갓 뜯은은 어휘 설명에 따른 상태 표현이지 정확한 경과 시간·생장 위치·행위자나 홍수 범위를 확정하는 증거가 아니다.
+
 ## Notes
 
 Wind in verse 1 follows the narrative context; spirit/breath associations remain open. Swete1901 p.12 includes a longer bird/reptile list, whose Hebrew background is unresolved. Verse 3 retains continuing recession and the end of 150 days without adding another period.
@@ -198,11 +392,11 @@ In verse 4 pinned WLC and inspected Leningrad5r consonants read seventeen; Swete
 
 The input is a digital transcription. Manuscript photographs, scholarly editions, ancient translations and morphology remain distinct. Inspection was limited; full collation and specialist review remain pending.
 
-The other reading of verse 7 (Septuagint, did not return) and the reason for the selected text are in that verse's footnote; the inspection record is in its translation notes and on the sources page. As of v0.4.35, verse 6 is still under review and is not yet included.
+The other reading and selection rationale for verse 7 are in its footnote. Alternatives, translation details and source-access gaps for verses 6 and 8–11 are also noted under each verse.
 
 ## Citation
 
-Hansam Yang. Original Bible: Genesis 8:1–5, 7 (en), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/en/genesis-8/
+Hansam Yang. Original Bible: Genesis 8:1–11 (en), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/en/genesis-8/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 

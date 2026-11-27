@@ -1,6 +1,6 @@
 # Salmo 1
 
-Hansam Yang · Original Bible · v0.4.35
+Hansam Yang · Original Bible · v0.4.36
 
 Borrador de traducción asistido por IA · pendiente de revisión especializada y nativa
 
@@ -163,6 +163,10 @@ Previous v0.4.33
 Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
 
 Previous v0.4.34
+
+Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
+
+Previous v0.4.35
 
 Dichosa la persona que no camina según el consejo de los malvados, ni se detiene en el camino de los pecadores, ni se sienta en el asiento de los burladores.
 
@@ -344,6 +348,10 @@ Previous v0.4.34
 
 Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
 
+Previous v0.4.35
+
+Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
+
 Previous v0.4.4
 
 Más bien, su deleite está en la instrucción de YHWH, y la recita día y noche.
@@ -519,6 +527,10 @@ Previous v0.4.33
 Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
 
 Previous v0.4.34
+
+Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
+
+Previous v0.4.35
 
 Es como un árbol plantado junto a canales de agua, que da su fruto a su tiempo y cuya hoja no se marchita. Todo lo que hace prospera.
 
@@ -700,6 +712,10 @@ Previous v0.4.34
 
 ¡No así los malvados! Son como el tamo que el viento se lleva.
 
+Previous v0.4.35
+
+¡No así los malvados! Son como el tamo que el viento se lleva.
+
 Previous v0.4.4
 
 ¡No así los malvados! Son como el tamo que el viento se lleva.
@@ -875,6 +891,10 @@ Previous v0.4.33
 Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
 
 Previous v0.4.34
+
+Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
+
+Previous v0.4.35
 
 Por eso los malvados no se mantendrán en pie en el juicio, ni los pecadores en la asamblea de los justos.
 
@@ -1056,6 +1076,10 @@ Previous v0.4.34
 
 Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
 
+Previous v0.4.35
+
+Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
+
 Previous v0.4.4
 
 Porque YHWH conoce el camino de los justos, pero el camino de los malvados perece.
@@ -1090,7 +1114,7 @@ En el versículo 6, lo que perece es ‘el camino de los malvados’. El versíc
 
 ## Citation
 
-Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.4.35. https://yangs777.github.io/hansam-bible/es/psalm-1/
+Hansam Yang. Original Bible: Psalm 1:1–6 (es), research pilot v0.4.36. https://yangs777.github.io/hansam-bible/es/psalm-1/
 
 Editorial material: CC BY 4.0 to the extent rights are held. Ancient WLC text: public domain. OSHB morphology: CC BY 4.0, Open Scriptures Hebrew Bible.
 
